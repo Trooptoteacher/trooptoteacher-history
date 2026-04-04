@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>README — TroopToTeacher Technologies LLC Internal Documentation</title>
+<style>
+body{font-family:'Courier New',monospace;background:#f5f7fa;padding:40px;
+  max-width:900px;margin:0 auto;font-size:10pt;line-height:1.8;color:#111}
+h1{font-size:16pt;color:#1B2A4A;margin-bottom:6px}
+h2{font-size:12pt;color:#1B2A4A;margin:20px 0 6px;padding-bottom:3px;
+  border-bottom:1px solid #1B2A4A}
+h3{font-size:11pt;color:#2A3F5E;margin:14px 0 4px}
+pre{background:#eee;padding:10px 14px;border-radius:3px;font-size:9pt;
+  white-space:pre-wrap;margin:8px 0;border-left:3px solid #1B2A4A}
+table{border-collapse:collapse;width:100%;margin:8px 0;font-size:9pt}
+th{background:#1B2A4A;color:#fff;padding:5px 9px;text-align:left}
+td{padding:5px 9px;border-bottom:1px solid #ddd}
+.warn{background:#fdf0f0;border-left:3px solid #8B1A1A;padding:8px 12px;margin:8px 0}
+</style>
+</head>
+<body>
+<h1>TroopToTeacher Technologies LLC — Internal Documentation</h1>
+<p>U.S. History: Reconstruction to Present (US.01–US.95) · Version April 2026</p>
+
+<h2>PHASE 1: CONTENT INVENTORY</h2>
+<table>
+<tr><th>File</th><th>Type</th><th>Audience</th><th>Status</th></tr>
+<tr><td>packet-a-skills.html</td><td>Supplemental packet</td><td>Student</td><td>Complete</td></tr>
+<tr><td>packet-b-inquiry.html</td><td>Supplemental packet</td><td>Student</td><td>Complete</td></tr>
+<tr><td>packet-c-teacher.html</td><td>Supplemental packet</td><td>Teacher only</td><td>Complete</td></tr>
+<tr><td>hipp.html</td><td>Front matter / skills</td><td>Student + teacher</td><td>Complete</td></tr>
+<tr><td>methodology.html</td><td>Research basis</td><td>Internal / reviewers</td><td>Complete</td></tr>
+<tr><td>unit-1 through unit-10.html</td><td>Core lessons</td><td>Student + teacher</td><td>Substantially complete; professional rebuild pending</td></tr>
+<tr><td>unit-5-enhanced.html</td><td>Model chapter (reference implementation)</td><td>Both</td><td>Complete — use as template for unit rebuild</td></tr>
+<tr><td>activities.html</td><td>Differentiated worksheets (A/B/C)</td><td>Student</td><td>Complete</td></tr>
+<tr><td>ell-support.html</td><td>ELL/ESL resource packet</td><td>Student/teacher</td><td>Complete</td></tr>
+<tr><td>map-atlas.html</td><td>Geographic analysis activities</td><td>Student</td><td>Complete</td></tr>
+<tr><td>learning-science.html</td><td>Spaced retrieval / bell ringers</td><td>Teacher</td><td>Complete</td></tr>
+<tr><td>question-bank.html</td><td>Assessment bank (447 items)</td><td>Teacher/student</td><td>US.01-US.44 complete; US.45-US.95 pending</td></tr>
+<tr><td>standards-matrix.html</td><td>Standards alignment (Gateway doc)</td><td>Internal</td><td>US.01-US.44 complete; US.45-US.95 PENDING</td></tr>
+<tr><td>scope-sequence.html</td><td>Pacing guide</td><td>Internal/teacher</td><td>Complete; day total verification pending</td></tr>
+<tr><td>eoc-validation.html</td><td>TCAP alignment validation</td><td>Internal</td><td>Complete for US.01-US.44</td></tr>
+<tr><td>publisher.html</td><td>Publisher declaration</td><td>Internal</td><td>Complete</td></tr>
+<tr><td>dossier.html</td><td>Waiver-readiness evidence dossier</td><td>Internal</td><td>Complete</td></tr>
+<tr><td>schedule-f-completed.html</td><td>Schedule F self-assessment (79%)</td><td>Internal</td><td>Complete</td></tr>
+<tr><td>schedule-f-plan.html</td><td>Schedule F QC upgrade plan</td><td>Internal</td><td>Complete; 5 pending external items</td></tr>
+<tr><td>compliance.html</td><td>District adoption package</td><td>Internal</td><td>Complete</td></tr>
+<tr><td>appendices-a-e.html, appendices-f-n.html</td><td>Reference appendices</td><td>Student</td><td>Complete</td></tr>
+</table>
+
+<h2>PHASE 5: STANDARDS CROSSWALK LOCATION &amp; MAINTENANCE</h2>
+
+<h3>Where it lives</h3>
+<pre>standards-matrix.html — the Gateway document for Tennessee Textbook Commission review
+scope-sequence.html — unit-level standards mapping
+eoc-validation.html — 5-year TCAP EOC frequency analysis</pre>
+
+<h3>Current coverage</h3>
+<pre>US.01–US.44 (45 standards + US.REC): FULLY DOCUMENTED
+US.45–US.95 (2024 revised standards expansion): NOT YET MAPPED — GATEWAY RISK</pre>
+
+<h3>How to update when standards change</h3>
+<pre>1. Download current TN Social Studies Standards from TDOE academic standards page
+   (do not hard-code a year — use the current published document)
+2. Open standards-matrix.html; add any new/changed standard codes to the matrix
+3. Update scope-sequence.html to note which unit covers each new standard
+4. Update eoc-validation.html if TCAP releases new frequency data
+5. Update the question bank (question-bank.html) to add items for any new standard codes
+6. Update the tagging_engine.py UNIT_SKILL_MAPS dict if new standards require new skill tags</pre>
+
+<h2>PHASE 5: LEGAL / COMPLIANCE DOCUMENT LOCATIONS</h2>
+
+<pre>THESE DOCUMENTS ARE NOT IN STUDENT-FACING MATERIALS:
+- TCA §49-6-1019 teacher legal sidebar: packet-c-teacher.html (Section 1) ONLY
+- VLAA attorney review (pending): file in company legal records when received
+- WAVE accessibility audit report: file in company records; not published
+- MLK estate licensing: pending — Unit 7 has 3 placeholders (Coming Soon)
+- Copyright registration: pending at copyright.gov
+- ISBN registration: pending at myidentifiers.com
+- Schedule F self-assessment: schedule-f-completed.html (internal, not student-facing)
+- Waiver-readiness dossier: dossier.html (internal, shared with reviewers only)</pre>
+
+<h2>HOW TO UPDATE EACH COMPONENT</h2>
+
+<h3>Skills Reference Pages (hipp.html, Packet A)</h3>
+<pre>1. Edit hipp.html directly for SOAPS/HIPP changes
+2. Rebuild packet-a-skills.html using build_packets.py
+3. If College Board updates APUSH CED, update the HIPP "College Board" citation
+   in hipp.html Section 2 and in methodology.html Strategy 5</pre>
+
+<h3>Activity and Inquiry Packets (Packet B)</h3>
+<pre>1. Edit OPEN_INQUIRY_TASKS list in build_packets.py
+2. Run: python3 /home/claude/build_packets.py
+3. Copy outputs to /home/claude/ttt-tagged/ and /mnt/user-data/outputs/</pre>
+
+<h3>Teacher Scaffolds Packet (Packet C)</h3>
+<pre>1. Edit PACKET_C string in build_packets.py for legal sidebar updates
+2. Edit PTG_SAMPLE dict for Priority Teaching Guide updates
+3. Run: python3 /home/claude/build_packets.py</pre>
+
+<h3>Adding a new unit or modifying unit content</h3>
+<pre>1. Edit the appropriate unit-N.html file directly
+2. Run tagging_engine.py to re-apply data attributes:
+   python3 /home/claude/run_tagging.py
+3. Rebuild ZIP:
+   python3 /home/claude/build_final_zip.py</pre>
+
+<h2>FILES REQUIRING MANUAL HUMAN REVIEW BEFORE COMMERCIAL DISTRIBUTION</h2>
+<div class="warn">
+<strong>1. VLAA attorney review — Units 1, 7, 8 under TCA §49-6-1019</strong>
+Contact: Arts &amp; Business Council of Greater Nashville · (615) 254-0030 · vlaa.org
+Required deliverable: Written legal opinion on file
+
+<strong>2. MLK Estate licensing — Unit 7 placeholders</strong>
+Contact: IPM Legal · info@ipmlegal.com · (404) 526-8900
+3 "Coming Soon" items in unit-7.html must be resolved (licensed OR replaced)
+
+<strong>3. Standards mapping US.45–US.95</strong>
+Retrieve current TDOE standards document · Map to existing units · Update standards-matrix.html
+This is the GATEWAY item — must complete before formal Commission submission
+
+<strong>4. WCAG 2.1 AA accessibility audit</strong>
+Run WAVE (wave.webaim.org) on all HTML files · Fix errors · Document in company records
+
+<strong>5. Copyright registration</strong>
+copyright.gov · $65 · Literary Work · Do before first commercial sale
+
+<strong>6. ISBN registration</strong>
+myidentifiers.com · $295 for 10 ISBNs · Required for Commission bid submission
+</div>
+
+<h2>DEPLOY INSTRUCTIONS</h2>
+<pre>From local machine (network not available in sandbox):
+  cd ~/wherever-you-extracted/TroopToTeacher_Site_FINAL
+  vercel deploy --yes
+
+Project: project-1gi0o / prj_XSDjyPTyfCrBRRrfTOBTkyIpJjGD
+Team: trooptoteacher / team_ACsXUCSzpriTL2euKj8g90Se
+The .vercel/project.json inside the ZIP links automatically.</pre>
+</body>
+</html>

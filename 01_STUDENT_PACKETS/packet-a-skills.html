@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Skills & Practice Packet — TroopToTeacher Technologies LLC</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#ddd}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:#fff;color:#111;
+  width:8.5in;margin:.18in auto;box-shadow:0 3px 20px rgba(0,0,0,.25);
+  font-size:9.5pt;line-height:1.72}
+@page{size:letter portrait;margin:.55in .6in .5in}
+@media print {
+  /* ── 1. PAGE ROOT ── */
+  html, body {
+    background: #fff !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    width: auto !important;
+  }
+
+  /* ── 2. HIDE ALL NON-PRINT UI ── */
+  .no-print,
+  .gold-bar,
+  [style*="position:sticky"],
+  [style*="position: sticky"],
+  [style*="position:fixed"],
+  [style*="position: fixed"],
+  button {
+    display: none !important;
+  }
+
+  /* ── 3. PAGE BREAKS — clean, no top gap ── */
+  .pb {
+    page-break-before: always;
+    break-before: page;
+    padding-top: 2pt !important;
+  }
+  h2, h3 { break-after: avoid; page-break-after: avoid; }
+
+  /* ── 4. DARK FILLS → B&W SAFE ── */
+  /* Section skill/DOK badges */
+  .skill, .dok {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1pt solid #333 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* Analysis table and organizer headers */
+  .banner, .go-hdr, .ptg-hdr, .strat-hdr {
+    background: #fff !important;
+    color: #000 !important;
+    border-bottom: 1.5pt solid #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* Table headers in .ref-table and .atbl */
+  .ref-table th, .atbl th {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1pt solid #333 !important;
+    font-weight: bold;
+  }
+  /* Footer: force color in print */
+  .foot {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    position: static !important;
+    width: auto !important;
+  }
+
+  /* ── 5. WRITE SPACES — VISIBLE IN B&W ── */
+  /* .fill = student response cells in SOAPS/HIPP tables */
+  .fill {
+    border: 1pt solid #333 !important;
+    background: #fff !important;
+    min-height: 22pt !important;
+    padding: 3pt 5pt !important;
+  }
+  /* Standard write lines and boxes */
+  .wi, .write-line {
+    display: block !important;
+    border-bottom: 1pt solid #333 !important;
+    min-height: 20pt !important;
+    margin-bottom: 6pt !important;
+    background: none !important;
+  }
+  .wi-lg { min-height: 32pt !important; }
+  .wi-box, .wi-box-sm, .write-box {
+    display: block !important;
+    border: 1pt solid #333 !important;
+    background: #fff !important;
+    min-height: 52pt !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+  .wi-box-sm { min-height: 36pt !important; }
+
+  /* ── 6. TABLE ROW SPLIT PREVENTION ── */
+  /* .atbl = SOAPS, HIPP, and other analysis tables
+     display:block on tr forces Chrome to respect break-inside */
+  .atbl { break-inside: auto; page-break-inside: auto; }
+  .atbl tr {
+    display: block !important;
+    width: 100% !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    overflow: visible !important;
+  }
+  .atbl td, .atbl th {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    border-bottom: 1pt solid #ccc !important;
+  }
+  /* .ref-table = reference/information tables — allow natural breaks */
+  .ref-table { break-inside: auto; }
+  .ref-table tr { break-inside: avoid; page-break-inside: avoid; }
+
+  /* ── 7. ORGANIZER AND SECTION BLOCKS ── */
+  .strat, .org, .q-block, .nb, .ptg,
+  .go-wrapper, .source-box {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    overflow: visible !important;
+  }
+
+  /* ── 8. REMOVE ALL DECORATION ── */
+  * { box-shadow: none !important; text-shadow: none !important; }
+}
+.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;
+  border:none;border-radius:5px;padding:7px 14px;font-size:11px;font-weight:700;
+  cursor:pointer;z-index:99}
+/* ── Type ── */
+h2{font-family:'Merriweather',Georgia,serif;font-size:12pt;font-weight:700;
+   color:#1B2A4A;margin:18px 0 7px;padding-bottom:3px;border-bottom:2px solid #1B2A4A}
+h3{font-size:10.5pt;font-weight:700;color:#2A3F5E;margin:13px 0 5px}
+h4{font-size:10pt;font-weight:700;color:#1B2A4A;margin:10px 0 4px}
+p{margin-bottom:8px;font-size:9.5pt;line-height:1.7}
+ul,ol{margin:5px 0 10px 18px}li{margin-bottom:4px;font-size:9.5pt;line-height:1.65}
+/* ── Banner ── */
+.banner{background:#1B2A4A;padding:18px .62in 14px}
+.banner .eye{font-size:8pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:#C9A227;margin-bottom:6px}
+.banner h1{font-family:'Merriweather',Georgia,serif;font-size:16pt;font-weight:700;
+  color:#fff;line-height:1.2;margin-bottom:3px}
+.banner .sub{font-size:9pt;color:#B5D4F4;font-style:italic}
+.gold-bar{background:#C9A227;padding:3px .62in;font-size:8.5pt;font-weight:700;
+  color:#3D2200;display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}
+.pg{padding:.22in .62in .18in}
+/* ── Tables ── */
+.ref-table{width:100%;border-collapse:collapse;font-size:9pt;margin:8px 0}
+.ref-table th{background:#1B2A4A;color:#fff;padding:6px 10px;text-align:left;font-size:8.5pt}
+.ref-table td{padding:7px 10px;border-bottom:1px solid #eee;vertical-align:top;line-height:1.6}
+.ref-table tr:nth-child(even) td{background:#f8f8f8}
+.ref-table td:first-child{font-weight:700;color:#1B2A4A;width:18%}
+/* ── Source block ── */
+.src{background:#f9fafb;border:1.5px solid #c0cce0;border-radius:3px;
+  padding:9px 13px;margin:8px 0;font-style:italic;font-size:9.5pt;line-height:1.7}
+.src .attr{font-style:normal;font-size:8.5pt;font-weight:700;color:#1B2A4A;
+  margin-bottom:5px;display:block}
+/* ── Write-in ── */
+.wi{border-bottom:1px solid #333;min-height:20px;margin:3px 0 9px;display:block}
+.wi-lg{border-bottom:1px solid #333;min-height:36px;margin:3px 0 10px;display:block}
+.wi-box{border:1px solid #999;border-radius:3px;min-height:60px;padding:3px;
+  margin:3px 0 10px;display:block;background:#fffef8}
+.wi-box-sm{border:1px solid #999;border-radius:3px;min-height:38px;padding:3px;
+  margin:3px 0 8px;display:block;background:#fffef8}
+/* ── Analysis table ── */
+.atbl{width:100%;border-collapse:collapse;font-size:9pt;margin:7px 0}
+.atbl th{background:#2A3F5E;color:#fff;padding:5px 9px;text-align:left;font-size:8.5pt}
+.atbl td{border:1px solid #ddd;padding:6px 9px;vertical-align:top;line-height:1.55}
+.atbl td:first-child{background:#f5f7fa;font-weight:600;color:#1B2A4A;width:20%}
+.atbl .fill{background:#fffef8;min-height:28px}
+/* ── Scaffold / callout ── */
+.scaffold{background:#f0f5fb;border-left:3px solid #1B2A4A;padding:6px 10px;
+  margin:6px 0;font-size:9.5pt;line-height:1.65;border-radius:0 3px 3px 0}
+.scaffold strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#1B2A4A;margin-bottom:2px}
+.ell{background:#fffdf5;border-left:3px solid #C9A227;padding:6px 10px;
+  margin:6px 0;font-size:9.5pt;line-height:1.65;border-radius:0 3px 3px 0}
+.ell strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#633806;margin-bottom:2px}
+.warn{background:#fdf0f0;border-left:3px solid #8B1A1A;padding:6px 10px;
+  margin:6px 0;font-size:9.5pt;line-height:1.65;border-radius:0 3px 3px 0}
+.warn strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#6B1020;margin-bottom:2px}
+/* ── Skill badge ── */
+.skill{font-size:8pt;font-weight:700;background:#1B2A4A;color:#C9A227;
+  border-radius:2px;padding:1px 7px;margin-left:5px;display:inline-block;
+  letter-spacing:.04em;font-family:'Courier New',monospace}
+.dok{font-size:8pt;font-weight:700;background:#2A3F5E;color:#fff;
+  border-radius:2px;padding:1px 6px;margin-left:5px;display:inline-block}
+/* ── Grid ── */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:8px 0}
+.three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:8px 0}
+/* ── Checklist ── */
+.chk{display:flex;gap:7px;align-items:flex-start;margin-bottom:6px;font-size:9.5pt}
+.chkbox{width:14px;height:14px;border:1.5px solid #1B2A4A;border-radius:2px;
+  flex-shrink:0;margin-top:2px}
+/* ── Stem ── */
+.stem{display:block;background:#f5f7fa;border-left:3px solid #2A3F5E;
+  padding:4px 9px;margin:3px 0;font-style:italic;font-size:9pt;color:#1B2A4A}
+/* ── Go box ── */
+.go-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:7px 0}
+.go-box{border:1.5px solid #c0cce0;border-radius:3px;overflow:hidden}
+.go-hdr{background:#1B2A4A;color:#fff;padding:4px 10px;font-size:9pt;font-weight:700}
+.go-body{padding:7px 10px;min-height:55px;background:#fffef8}
+/* ── Vocab ── */
+.vocab-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:7px 0}
+.vi{border:1px solid #ddd;border-radius:3px;padding:6px 9px;background:#f9fafb}
+.vi .vt{font-weight:700;color:#1B2A4A;font-size:9.5pt}
+.vi .vd{font-size:9pt;color:#333;line-height:1.5;margin-top:2px}
+.vi .vs{font-size:8.5pt;color:#27500A;font-style:italic;margin-top:1px}
+/* ── Footer ── */
+.foot{background:#1B2A4A;color:rgba(255,255,255,.5);padding:5px .62in;font-size:7.5pt;
+  display:flex;justify-content:space-between}
+.foot strong{color:#C9A227}
+/* ── Teacher box ── */
+.teacher-box{border:2px solid #C9A227;border-radius:4px;overflow:hidden;margin:14px 0}
+.teacher-box .th{background:#C9A227;color:#3D2200;padding:6px 14px;font-size:9pt;
+  font-weight:700;display:flex;justify-content:space-between;align-items:center}
+.teacher-box .tb{padding:11px 14px;font-size:9.5pt;line-height:1.7;background:#fffdf5}
+/* ── Priority guide ── */
+.ptg{border:1.5px solid #ddd;border-radius:4px;margin:10px 0;overflow:hidden}
+.ptg-hdr{background:#2A3F5E;color:#fff;padding:6px 12px;font-size:9.5pt;font-weight:700;
+  display:flex;justify-content:space-between;align-items:center}
+.ptg-body{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0}
+.ptg-col{padding:8px 11px;border-right:1px solid #e2e8f0}
+.ptg-col:last-child{border-right:none}
+.ptg-lbl{font-size:8pt;font-weight:700;text-transform:uppercase;letter-spacing:.07em;
+  margin-bottom:5px}
+.ptg-col:nth-child(1) .ptg-lbl{color:#27500A}
+.ptg-col:nth-child(2) .ptg-lbl{color:#7a5400}
+.ptg-col:nth-child(3) .ptg-lbl{color:#888}
+.ptg-col ul{margin-left:13px}
+.ptg-col li{font-size:9pt;margin-bottom:3px;line-height:1.55}
+.ptg-note{background:#f5f7fa;border-top:1px solid #ddd;padding:5px 12px;
+  font-size:8.5pt;color:#666;font-style:italic}
+</style>
+</head>
+<body>
+<button class="no-print" onclick="window.print()">&#x2399; Print</button>
+<div class="no-print" style="background:#1B2A4A;color:#fff;padding:8px .62in;
+          display:flex;justify-content:space-between;align-items:center;
+          position:sticky;top:0;z-index:50">
+          <a href="index.html" style="color:#C9A227;text-decoration:none;font-size:11px;font-weight:700">← Back to Textbook Hub</a>
+          <span style="font-size:11px;color:rgba(255,255,255,.6)">Packet A: Skills & Practice · Student</span>
+        </div>
+
+<div class="banner">
+  <div class="eye">Student Packet A · Skills Reference &amp; Practice</div>
+  <h1>U.S. History Skills Practice</h1>
+  <div class="sub">SOAPS · HIPP · Historical Thinking Skills · Sourcing &amp; Corroboration</div>
+</div>
+<div class="gold-bar">
+  <span>TroopToTeacher Technologies LLC · U.S. History (US.01–US.95) · Grades 9–12</span>
+  <span>Print &amp; use anytime — independent of unit pacing</span>
+</div>
+<div class="pg">
+
+<div class="scaffold"><strong>How to Use This Packet</strong>
+This packet contains reference guides and practice tasks for three analytical routines used throughout the course: SOAPS (primary source identification), HIPP (document analysis for argumentative writing), and the five Historical Thinking Skills. Sections can be used in any order. All practice sources are public domain.</div>
+
+<!-- ══ SECTION 1: SOAPS ══ -->
+<h2>Section 1 — SOAPS: Primary Source Identification</h2>
+<table class="ref-table">
+<tr><th>Letter</th><th>Category</th><th>The Question to Ask</th><th>Why It Matters</th></tr>
+<tr><td>S</td><td>Speaker</td><td>Who created this source? What is their identity, role, and relationship to the subject?</td><td>The speaker's position shapes what they can and cannot see, and what they are willing to say.</td></tr>
+<tr><td>O</td><td>Occasion</td><td>When was this created? What specific event or moment produced this source?</td><td>Timing determines what the creator knew, what pressures they faced, and what they were responding to.</td></tr>
+<tr><td>A</td><td>Audience</td><td>Who was this source created for? What did that audience already believe or fear?</td><td>Audience shapes what was emphasized, what was left out, and what tone was chosen.</td></tr>
+<tr><td>P</td><td>Purpose</td><td>What did the creator want this source to DO — persuade, document, justify, demand, commemorate?</td><td>Purpose affects reliability. A source created to persuade is different evidence than one created to document.</td></tr>
+<tr><td>S</td><td>Subject</td><td>What is this source actually about — in one clear sentence?</td><td>Separating subject from purpose prevents you from confusing what a source says with what it is trying to accomplish.</td></tr>
+</table>
+
+<h3>SOAPS Practice 1 — Lincoln, Second Inaugural Address (1865) <span class="skill">[CONTEXTUALIZATION]</span></h3>
+<div class="src">
+  <span class="attr">Abraham Lincoln, Second Inaugural Address, Washington D.C., March 4, 1865. Public domain.</span>
+  "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations."
+</div>
+<table class="atbl">
+<tr><th>SOAPS</th><th>Your Analysis</th></tr>
+<tr><td>S — Speaker</td><td class="fill"></td></tr>
+<tr><td>O — Occasion</td><td class="fill"></td></tr>
+<tr><td>A — Audience</td><td class="fill"></td></tr>
+<tr><td>P — Purpose</td><td class="fill"></td></tr>
+<tr><td>S — Subject</td><td class="fill"></td></tr>
+</table>
+<h4>Quick Analysis <span class="dok">DOK 2</span></h4>
+<p>Based on your SOAPS, what is ONE thing Lincoln was trying to accomplish with this speech that was shaped by when it was delivered? (Hint: Where was the war when this was given?)</p>
+<span class="wi-box"></span>
+
+<div class="pb">
+<h3>SOAPS Practice 2 — Truman Doctrine Address (1947) <span class="skill">[CAUSATION]</span></h3>
+<div class="src">
+  <span class="attr">Harry S. Truman, Address to Congress, March 12, 1947. Public domain.</span>
+  "At the present moment in world history nearly every nation must choose between alternative ways of life. The choice is too often not a free one. One way of life is based upon the will of the majority, and is distinguished by free institutions, representative government, free elections, guarantees of individual liberty, freedom of speech and religion, and freedom from political oppression. The second way of life is based upon the will of a minority forcibly imposed upon the majority. It relies upon terror and oppression, a controlled press and radio, fixed elections, and the suppression of personal freedoms. I believe that it must be the policy of the United States to support free peoples who are resisting attempted subjugation by armed minorities or by outside pressures."
+</div>
+<table class="atbl">
+<tr><th>SOAPS</th><th>Your Analysis</th></tr>
+<tr><td>S — Speaker</td><td class="fill"></td></tr>
+<tr><td>O — Occasion</td><td class="fill"></td></tr>
+<tr><td>A — Audience</td><td class="fill"></td></tr>
+<tr><td>P — Purpose</td><td class="fill"></td></tr>
+<tr><td>S — Subject</td><td class="fill"></td></tr>
+</table>
+<h4>Quick Analysis <span class="dok">DOK 2</span></h4>
+<p>Truman describes "two ways of life" without naming the Soviet Union directly. Using your SOAPS analysis, explain why he may have framed the argument this way.</p>
+<span class="wi-box"></span>
+</div>
+
+<div class="pb">
+<h3>SOAPS Practice 3 — Eisenhower Farewell Address (1961) <span class="skill">[CONTEXTUALIZATION]</span></h3>
+<div class="src">
+  <span class="attr">Dwight D. Eisenhower, Farewell Address, January 17, 1961. Public domain.</span>
+  "In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex. The potential for the disastrous rise of misplaced power exists and will persist. We must never let the weight of this combination endanger our liberties or democratic processes. We should take nothing for granted. Only an alert and knowledgeable citizenry can compel the proper meshing of the huge industrial and military machinery of defense with our peaceful methods and goals, so that security and liberty may prosper together."
+</div>
+<table class="atbl">
+<tr><th>SOAPS</th><th>Your Analysis</th></tr>
+<tr><td>S — Speaker</td><td class="fill"></td></tr>
+<tr><td>O — Occasion</td><td class="fill"></td></tr>
+<tr><td>A — Audience</td><td class="fill"></td></tr>
+<tr><td>P — Purpose</td><td class="fill"></td></tr>
+<tr><td>S — Subject</td><td class="fill"></td></tr>
+</table>
+<h4>Quick Analysis <span class="dok">DOK 3</span></h4>
+<p>Eisenhower was a five-star general and Supreme Allied Commander before becoming President. How does this point of view make his warning about the military-industrial complex more or less credible? Explain your reasoning.</p>
+<span class="wi-box"></span>
+</div>
+
+<!-- ══ SECTION 2: HIPP ══ -->
+<h2 class="pb">Section 2 — HIPP: Document Analysis for Argumentative Writing</h2>
+<div class="scaffold"><strong>HIPP vs. SOAPS</strong>SOAPS tells you WHAT a source is. HIPP asks WHY a source's features matter for your historical ARGUMENT. Always complete SOAPS first; use HIPP to build the argumentative connection.</div>
+
+<table class="ref-table">
+<tr><th>Letter</th><th>Category</th><th>The Question to Ask</th><th>The Argumentative Move</th></tr>
+<tr><td>H</td><td>Historical Context</td><td>What conditions, events, or tensions shaped this source's creation?</td><td>"This source must be understood against the backdrop of _____, which means its claim about _____ should be interpreted as _____."</td></tr>
+<tr><td>I</td><td>Intended Audience</td><td>How did the intended audience shape what was said — and what was left out?</td><td>"Because the audience was _____, the author chose to _____ rather than _____, which affects its usefulness as evidence for _____."</td></tr>
+<tr><td>P</td><td>Purpose</td><td>Does the creator's purpose make this source more or less reliable for your specific argument?</td><td>"Because this source was created to _____, it is stronger evidence for _____ than for _____."</td></tr>
+<tr><td>P</td><td>Point of View</td><td>How does the creator's identity or position shape what they see and say?</td><td>"As _____, the author's point of view means this source better captures _____ than _____."</td></tr>
+</table>
+
+<h3>HIPP Practice 1 — Eisenhower Farewell Address (same source; deeper analysis)</h3>
+<p>Use the Eisenhower text from SOAPS Practice 3. Now apply HIPP — connect each feature to the historical argument: <em>"Eisenhower's farewell address demonstrates growing anxiety about the domestic consequences of Cold War military spending."</em></p>
+<table class="atbl">
+<tr><th>HIPP</th><th>Feature identified</th><th>Argumentative connection (why does it matter for THIS argument?)</th></tr>
+<tr><td>H — Historical Context</td><td class="fill"></td><td class="fill"></td></tr>
+<tr><td>I — Intended Audience</td><td class="fill"></td><td class="fill"></td></tr>
+<tr><td>P — Purpose</td><td class="fill"></td><td class="fill"></td></tr>
+<tr><td>P — Point of View</td><td class="fill"></td><td class="fill"></td></tr>
+</table>
+
+<div class="pb">
+<h3>HIPP Practice 2 — Truman Doctrine Address (same source; deeper analysis)</h3>
+<p>Use the Truman text from SOAPS Practice 2. Apply HIPP for this argument: <em>"The Truman Doctrine represents the beginning of a broad and open-ended American commitment to contain communism globally, regardless of specific strategic interest."</em></p>
+<table class="atbl">
+<tr><th>HIPP</th><th>Feature identified</th><th>Argumentative connection</th></tr>
+<tr><td>H — Historical Context</td><td class="fill"></td><td class="fill"></td></tr>
+<tr><td>I — Intended Audience</td><td class="fill"></td><td class="fill"></td></tr>
+<tr><td>P — Purpose</td><td class="fill"></td><td class="fill"></td></tr>
+<tr><td>P — Point of View</td><td class="fill"></td><td class="fill"></td></tr>
+</table>
+
+<h3>HIPP Practice 3 — Short Response Practice</h3>
+<p>Write ONE sentence using this structure: <em>"Because [HIPP feature], this source [is more/less useful for arguing] [specific claim]."</em></p>
+<p>Use any source from Section 1 or 2. Pick the HIPP feature you think is most analytically productive for a historical argument.</p>
+<p><strong>Source I chose:</strong> <span class="wi"></span></p>
+<p><strong>HIPP feature I'm using:</strong> <span class="wi"></span></p>
+<p><strong>My sentence:</strong></p>
+<span class="wi-box"></span>
+</div>
+
+<!-- ══ SECTION 3: HISTORICAL THINKING SKILLS ══ -->
+<h2 class="pb">Section 3 — Historical Thinking Skills</h2>
+<table class="ref-table">
+<tr><th>Skill</th><th>Definition (11th-grade level)</th><th>The Core Question</th></tr>
+<tr><td>[CAUSATION]</td><td>Identifying and evaluating the multiple forces — political, economic, social, ideological — that produced a historical event or change, and weighing which causes were most significant.</td><td>Why did this happen? What combination of forces made it possible?</td></tr>
+<tr><td>[COMPARISON]</td><td>Analyzing meaningful similarities and differences between two historical events, policies, or groups, and explaining what those similarities and differences reveal.</td><td>How are these alike? How are they different? What does that reveal?</td></tr>
+<tr><td>[CCOT]</td><td>Tracking which aspects of American society, politics, or economy transformed across a time period — and which stayed the same — and explaining why.</td><td>What changed? What stayed the same? Why did some things change while others did not?</td></tr>
+<tr><td>[CHRONOLOGY]</td><td>Placing events in accurate sequence and explaining how the timing and order of developments shaped what came next.</td><td>In what order did this happen? How did sequence matter?</td></tr>
+<tr><td>[CONTEXTUALIZATION]</td><td>Situating a historical event, decision, or source within its broader moment — the conditions, prior events, and competing forces that shaped it and gave it meaning.</td><td>What was happening in the world when this occurred? How did context shape the event?</td></tr>
+</table>
+
+<h3>CAUSATION Practice <span class="skill">[CAUSATION]</span> <span class="dok">DOK 2–3</span></h3>
+<p>Historians identify multiple causes of the Great Depression (1929). Below are five possible causes. Rank them 1–5 (1 = most significant) and explain your ranking for #1.</p>
+<table class="ref-table">
+<tr><th>Cause</th><th>Your Ranking (1–5)</th></tr>
+<tr><td>Overproduction in American factories and farms throughout the 1920s</td><td class="fill" style="min-height:24px"></td></tr>
+<tr><td>Risky stock market speculation and unregulated banking practices</td><td class="fill"></td></tr>
+<tr><td>The Smoot-Hawley Tariff (1930), which triggered retaliatory tariffs abroad</td><td class="fill"></td></tr>
+<tr><td>Weak consumer purchasing power despite rising productivity</td><td class="fill"></td></tr>
+<tr><td>Drought and agricultural collapse in the Great Plains (Dust Bowl)</td><td class="fill"></td></tr>
+</table>
+<p><strong>Explain why you ranked #1 as most significant:</strong></p>
+<span class="wi-box"></span>
+
+<div class="pb">
+<h3>COMPARISON Practice <span class="skill">[COMPARISON]</span> <span class="dok">DOK 3</span></h3>
+<p>Compare Lincoln's Reconstruction plan with Andrew Johnson's Reconstruction plan. Complete the T-chart, then write one sentence stating the most significant difference and why it mattered.</p>
+<div class="two-col">
+  <div class="go-box"><div class="go-hdr">Lincoln's Plan (Wade-Davis Bill context)</div>
+    <div class="go-body" style="min-height:70px"></div></div>
+  <div class="go-box"><div class="go-hdr">Johnson's Plan (Presidential Reconstruction)</div>
+    <div class="go-body" style="min-height:70px"></div></div>
+</div>
+<div class="go-box"><div class="go-hdr">Most Significant Difference — and why it mattered for formerly enslaved people</div>
+  <div class="go-body" style="min-height:50px"></div></div>
+</div>
+
+<h3>CCOT Practice <span class="skill">[CCOT]</span> <span class="dok">DOK 3</span></h3>
+<p>Trace the legal rights of African American voters from 1870 to 1965. Complete the organizer, then write one sentence explaining the most significant change — and why a change that large took nearly 100 years.</p>
+<div class="two-col">
+  <div class="go-box"><div class="go-hdr">Rights promised in 1870 (15th Amendment)</div>
+    <div class="go-body" style="min-height:60px"></div></div>
+  <div class="go-box"><div class="go-hdr">Reality for Black voters 1877–1964 (Jim Crow era)</div>
+    <div class="go-body" style="min-height:60px"></div></div>
+</div>
+<div class="two-col">
+  <div class="go-box"><div class="go-hdr">Change by 1965 (Voting Rights Act)</div>
+    <div class="go-body" style="min-height:60px"></div></div>
+  <div class="go-box"><div class="go-hdr">What stayed the same (economic inequality, structural barriers)</div>
+    <div class="go-body" style="min-height:60px"></div></div>
+</div>
+<p><strong>Most significant change — and why it took so long:</strong></p>
+<span class="wi-box"></span>
+
+<div class="pb">
+<h3>CHRONOLOGY Practice <span class="skill">[CHRONOLOGY]</span> <span class="dok">DOK 1–2</span></h3>
+<p>Below are eight events from America's entry into World War II, listed out of order. Number them 1–8 in correct chronological order, then answer the question below.</p>
+<table class="ref-table">
+<tr><th>Event</th><th>Order (#1–8)</th></tr>
+<tr><td>Germany invades Poland; Britain and France declare war on Germany</td><td class="fill"></td></tr>
+<tr><td>Japan attacks Pearl Harbor; U.S. declares war on Japan</td><td class="fill"></td></tr>
+<tr><td>U.S. Congress passes the Lend-Lease Act, supplying Britain and the Soviet Union</td><td class="fill"></td></tr>
+<tr><td>Germany declares war on the United States; U.S. enters the European theater</td><td class="fill"></td></tr>
+<tr><td>FDR signs Executive Order 9066 authorizing Japanese American internment</td><td class="fill"></td></tr>
+<tr><td>Battle of Midway — turning point in the Pacific; Japan's naval dominance broken</td><td class="fill"></td></tr>
+<tr><td>Germany surrenders (V-E Day, May 8, 1945)</td><td class="fill"></td></tr>
+<tr><td>U.S. drops atomic bombs on Hiroshima and Nagasaki; Japan surrenders (V-J Day)</td><td class="fill"></td></tr>
+</table>
+<p><strong>Explain how the ORDER of events #1 and #2 shaped the American public's willingness to enter the war:</strong></p>
+<span class="wi-box"></span>
+
+<h3>CONTEXTUALIZATION Practice <span class="skill">[CONTEXTUALIZATION]</span> <span class="dok">DOK 3</span></h3>
+<div class="src">
+  <span class="attr">Senator Joseph McCarthy, Speech to the Republican Women's Club of Wheeling, West Virginia, February 9, 1950. Public domain.</span>
+  "While I cannot take the time to name all of the men in the State Department who have been named as members of the Communist Party and members of a spy ring, I have here in my hand a list of 205 — a list of names that were made known to the Secretary of State as being members of the Communist Party and who nevertheless are still working and shaping policy in the State Department."
+</div>
+<p>What historical context — the conditions in 1950 specifically — made McCarthy's claim believable to many Americans, even without evidence? Name at least TWO contextual factors that explain why this moment produced this reaction.</p>
+<p><strong>Contextual factor 1:</strong> <span class="wi-lg"></span></p>
+<p><strong>Contextual factor 2:</strong> <span class="wi-lg"></span></p>
+<p><strong>Without knowing that context, would the claim make sense? Explain:</strong></p>
+<span class="wi-box"></span>
+</div>
+
+<!-- ══ SECTION 4: SOURCING & CORROBORATION ══ -->
+<h2 class="pb">Section 4 — Sourcing &amp; Corroboration Practice</h2>
+<div class="scaffold"><strong>The Rule: Identification ≠ Sourcing</strong>Saying "This was written for Congress" is identification. Sourcing is: "Because this was written for Congress, the author chose [X language], which makes this source more useful as evidence of [Y claim] than as evidence of [Z claim]." Always make the connection.</div>
+
+<h3>Corroboration Prompt 1 — Two Sources on the New Deal <span class="dok">DOK 3</span></h3>
+<div class="two-col">
+  <div class="src" style="font-size:9pt">
+    <span class="attr" style="font-size:8.5pt">Source A: FDR, First Inaugural Address, March 4, 1933 (excerpt). Public domain.</span>
+    "The only thing we have to fear is fear itself — nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance… Our greatest primary task is to put people to work."
+  </div>
+  <div class="src" style="font-size:9pt">
+    <span class="attr" style="font-size:8.5pt">Source B: Herbert Hoover, campaign speech, October 31, 1932 (excerpt). Public domain.</span>
+    "You cannot extend the mastery of government over the daily working life of a people without somewhere making it master of people's souls and thoughts… Even if the Government conduct of business could give us more efficiency instead of less efficiency, the fundamental objection to it would remain unaltered and unabated."
+  </div>
+</div>
+<p><strong>1. What does each source suggest about the role of government in an economic crisis?</strong></p>
+<p>Source A: <span class="wi-lg"></span></p>
+<p>Source B: <span class="wi-lg"></span></p>
+<p><strong>2. These sources were created within months of each other. How does the timing of each source (one by an incumbent president losing power, one by a president-elect gaining it) affect what you can argue using them?</strong></p>
+<span class="wi-box"></span>
+<p><strong>3. Write one sentence that uses BOTH sources to corroborate OR contrast a claim about the role of government in 1932–33:</strong></p>
+<span class="wi-box-sm"></span>
+
+<h3>Corroboration Prompt 2 — Cross-Era <span class="dok">DOK 3–4</span></h3>
+<p>The Truman Doctrine (1947) stated the U.S. must support free peoples resisting communism. The Reagan Doctrine (1980s) stated the U.S. must actively roll back communism in Soviet-aligned countries.</p>
+<p><strong>What claim about American foreign policy could you make using BOTH doctrines as corroborating evidence?</strong></p>
+<span class="wi-box-sm"></span>
+<p><strong>What do they contradict or complicate about each other?</strong> (Hint: one is defensive; one is offensive.)</p>
+<span class="wi-box-sm"></span>
+
+</div><!-- end pg -->
+<div class="foot"><div><strong>TroopToTeacher Technologies LLC</strong> · Packet A: Skills &amp; Practice · © 2026</div>
+<div>Student-facing only · Independent of unit pacing · Print anytime</div></div>
+
+</body>
+</html>

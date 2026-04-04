@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Teacher Scaffolds & Supports — TroopToTeacher Technologies LLC</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#ddd}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:#fff;color:#111;
+  width:8.5in;margin:.18in auto;box-shadow:0 3px 20px rgba(0,0,0,.25);
+  font-size:9.5pt;line-height:1.72}
+@page{size:letter portrait;margin:.55in .6in .5in}
+@media print {
+  /* ── 1. PAGE ROOT ── */
+  html, body {
+    background: #fff !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    width: auto !important;
+  }
+
+  /* ── 2. HIDE ALL NON-PRINT UI ── */
+  .no-print,
+  .gold-bar,
+  [style*="position:sticky"],
+  [style*="position: sticky"],
+  [style*="position:fixed"],
+  [style*="position: fixed"],
+  button {
+    display: none !important;
+  }
+
+  /* ── 3. PAGE BREAKS — clean, no top gap ── */
+  .pb {
+    page-break-before: always;
+    break-before: page;
+    padding-top: 2pt !important;
+  }
+  h2, h3 { break-after: avoid; page-break-after: avoid; }
+
+  /* ── 4. DARK FILLS → B&W SAFE ── */
+  .banner, .go-hdr, .strat-hdr {
+    background: #fff !important;
+    color: #000 !important;
+    border-bottom: 1.5pt solid #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .skill, .dok {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1pt solid #333 !important;
+  }
+  th, .th {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1pt solid #333 !important;
+    font-weight: bold;
+  }
+  /* Priority Teaching Guide header */
+  .ptg-hdr {
+    background: #fff !important;
+    color: #000 !important;
+    border-bottom: 1.5pt solid #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* Teacher box border (gold #C9A227 — keep color, force print) */
+  .teacher-box {
+    border: 1.5pt solid #333 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* Footer */
+  .foot {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    position: static !important;
+    width: auto !important;
+  }
+
+  /* ── 5. OVERFLOW CLIPPING REMOVAL (CRITICAL for teacher content) ── */
+  /* All three overflow:hidden containers must expand to show full content */
+  .go-box,
+  .teacher-box,
+  .ptg,
+  .ptg-body,
+  .ptg-col,
+  .ptg-note {
+    overflow: visible !important;
+  }
+
+  /* ── 6. WRITE SPACES ── */
+  .wi, .write-line {
+    display: block !important;
+    border-bottom: 1pt solid #333 !important;
+    min-height: 20pt !important;
+    margin-bottom: 6pt !important;
+    background: none !important;
+  }
+  .wi-lg { min-height: 32pt !important; }
+  .wi-box, .wi-box-sm, .write-box {
+    display: block !important;
+    border: 1pt solid #333 !important;
+    background: #fff !important;
+    min-height: 52pt !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+  .wi-box-sm { min-height: 36pt !important; }
+  .fill {
+    border: 1pt solid #333 !important;
+    background: #fff !important;
+    min-height: 22pt !important;
+  }
+
+  /* ── 7. TABLE ROW SPLIT PREVENTION ── */
+  .atbl { break-inside: auto; page-break-inside: auto; }
+  .atbl tr {
+    display: block !important;
+    width: 100% !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+  .atbl td, .atbl th {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  .ref-table tr { break-inside: avoid; page-break-inside: avoid; }
+  /* PTG grid: prevent mid-column splits */
+  .ptg-col { break-inside: avoid !important; page-break-inside: avoid !important; }
+
+  /* ── 8. SECTION BREAK AVOIDANCE ── */
+  .teacher-box, .ptg, .go-box,
+  .strat, .org, .q-block, .nb {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* ── 9. REMOVE ALL DECORATION ── */
+  * { box-shadow: none !important; text-shadow: none !important; }
+}
+.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;
+  border:none;border-radius:5px;padding:7px 14px;font-size:11px;font-weight:700;
+  cursor:pointer;z-index:99}
+/* ── Type ── */
+h2{font-family:'Merriweather',Georgia,serif;font-size:12pt;font-weight:700;
+   color:#1B2A4A;margin:18px 0 7px;padding-bottom:3px;border-bottom:2px solid #1B2A4A}
+h3{font-size:10.5pt;font-weight:700;color:#2A3F5E;margin:13px 0 5px}
+h4{font-size:10pt;font-weight:700;color:#1B2A4A;margin:10px 0 4px}
+p{margin-bottom:8px;font-size:9.5pt;line-height:1.7}
+ul,ol{margin:5px 0 10px 18px}li{margin-bottom:4px;font-size:9.5pt;line-height:1.65}
+/* ── Banner ── */
+.banner{background:#1B2A4A;padding:18px .62in 14px}
+.banner .eye{font-size:8pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:#C9A227;margin-bottom:6px}
+.banner h1{font-family:'Merriweather',Georgia,serif;font-size:16pt;font-weight:700;
+  color:#fff;line-height:1.2;margin-bottom:3px}
+.banner .sub{font-size:9pt;color:#B5D4F4;font-style:italic}
+.gold-bar{background:#C9A227;padding:3px .62in;font-size:8.5pt;font-weight:700;
+  color:#3D2200;display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}
+.pg{padding:.22in .62in .18in}
+/* ── Tables ── */
+.ref-table{width:100%;border-collapse:collapse;font-size:9pt;margin:8px 0}
+.ref-table th{background:#1B2A4A;color:#fff;padding:6px 10px;text-align:left;font-size:8.5pt}
+.ref-table td{padding:7px 10px;border-bottom:1px solid #eee;vertical-align:top;line-height:1.6}
+.ref-table tr:nth-child(even) td{background:#f8f8f8}
+.ref-table td:first-child{font-weight:700;color:#1B2A4A;width:18%}
+/* ── Source block ── */
+.src{background:#f9fafb;border:1.5px solid #c0cce0;border-radius:3px;
+  padding:9px 13px;margin:8px 0;font-style:italic;font-size:9.5pt;line-height:1.7}
+.src .attr{font-style:normal;font-size:8.5pt;font-weight:700;color:#1B2A4A;
+  margin-bottom:5px;display:block}
+/* ── Write-in ── */
+.wi{border-bottom:1px solid #999;min-height:20px;margin:3px 0 9px;display:block}
+.wi-lg{border-bottom:1px solid #999;min-height:36px;margin:3px 0 10px;display:block}
+.wi-box{border:1px solid #999;border-radius:3px;min-height:60px;padding:3px;
+  margin:3px 0 10px;display:block;background:#fffef8}
+.wi-box-sm{border:1px solid #999;border-radius:3px;min-height:38px;padding:3px;
+  margin:3px 0 8px;display:block;background:#fffef8}
+/* ── Analysis table ── */
+.atbl{width:100%;border-collapse:collapse;font-size:9pt;margin:7px 0}
+.atbl th{background:#2A3F5E;color:#fff;padding:5px 9px;text-align:left;font-size:8.5pt}
+.atbl td{border:1px solid #ddd;padding:6px 9px;vertical-align:top;line-height:1.55}
+.atbl td:first-child{background:#f5f7fa;font-weight:600;color:#1B2A4A;width:20%}
+.atbl .fill{background:#fffef8;min-height:28px}
+/* ── Scaffold / callout ── */
+.scaffold{background:#f0f5fb;border-left:3px solid #1B2A4A;padding:6px 10px;
+  margin:6px 0;font-size:9.5pt;line-height:1.65;border-radius:0 3px 3px 0}
+.scaffold strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#1B2A4A;margin-bottom:2px}
+.ell{background:#fffdf5;border-left:3px solid #C9A227;padding:6px 10px;
+  margin:6px 0;font-size:9.5pt;line-height:1.65;border-radius:0 3px 3px 0}
+.ell strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#633806;margin-bottom:2px}
+.warn{background:#fdf0f0;border-left:3px solid #8B1A1A;padding:6px 10px;
+  margin:6px 0;font-size:9.5pt;line-height:1.65;border-radius:0 3px 3px 0}
+.warn strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#6B1020;margin-bottom:2px}
+/* ── Skill badge ── */
+.skill{font-size:8pt;font-weight:700;background:#1B2A4A;color:#C9A227;
+  border-radius:2px;padding:1px 7px;margin-left:5px;display:inline-block;
+  letter-spacing:.04em;font-family:'Courier New',monospace}
+.dok{font-size:8pt;font-weight:700;background:#2A3F5E;color:#fff;
+  border-radius:2px;padding:1px 6px;margin-left:5px;display:inline-block}
+/* ── Grid ── */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:8px 0}
+.three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:8px 0}
+/* ── Checklist ── */
+.chk{display:flex;gap:7px;align-items:flex-start;margin-bottom:6px;font-size:9.5pt}
+.chkbox{width:14px;height:14px;border:1.5px solid #1B2A4A;border-radius:2px;
+  flex-shrink:0;margin-top:2px}
+/* ── Stem ── */
+.stem{display:block;background:#f5f7fa;border-left:3px solid #2A3F5E;
+  padding:4px 9px;margin:3px 0;font-style:italic;font-size:9pt;color:#1B2A4A}
+/* ── Go box ── */
+.go-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:7px 0}
+.go-box{border:1.5px solid #c0cce0;border-radius:3px;overflow:hidden}
+.go-hdr{background:#1B2A4A;color:#fff;padding:4px 10px;font-size:9pt;font-weight:700}
+.go-body{padding:7px 10px;min-height:55px;background:#fffef8}
+/* ── Vocab ── */
+.vocab-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:7px 0}
+.vi{border:1px solid #ddd;border-radius:3px;padding:6px 9px;background:#f9fafb}
+.vi .vt{font-weight:700;color:#1B2A4A;font-size:9.5pt}
+.vi .vd{font-size:9pt;color:#333;line-height:1.5;margin-top:2px}
+.vi .vs{font-size:8.5pt;color:#27500A;font-style:italic;margin-top:1px}
+/* ── Footer ── */
+.foot{background:#1B2A4A;color:rgba(255,255,255,.5);padding:5px .62in;font-size:7.5pt;
+  display:flex;justify-content:space-between}
+.foot strong{color:#C9A227}
+/* ── Teacher box ── */
+.teacher-box{border:2px solid #C9A227;border-radius:4px;overflow:hidden;margin:14px 0}
+.teacher-box .th{background:#C9A227;color:#3D2200;padding:6px 14px;font-size:9pt;
+  font-weight:700;display:flex;justify-content:space-between;align-items:center}
+.teacher-box .tb{padding:11px 14px;font-size:9.5pt;line-height:1.7;background:#fffdf5;overflow:visible}
+/* ── Priority guide ── */
+.ptg{border:1.5px solid #ddd;border-radius:4px;margin:10px 0;overflow:hidden}
+.ptg-hdr{background:#2A3F5E;color:#fff;padding:6px 12px;font-size:9.5pt;font-weight:700;
+  display:flex;justify-content:space-between;align-items:center}
+.ptg-body{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0}
+.ptg-col{padding:8px 11px;border-right:1px solid #e2e8f0}
+.ptg-col:last-child{border-right:none}
+.ptg-lbl{font-size:8pt;font-weight:700;text-transform:uppercase;letter-spacing:.07em;
+  margin-bottom:5px}
+.ptg-col:nth-child(1) .ptg-lbl{color:#27500A}
+.ptg-col:nth-child(2) .ptg-lbl{color:#7a5400}
+.ptg-col:nth-child(3) .ptg-lbl{color:#888}
+.ptg-col ul{margin-left:13px}
+.ptg-col li{font-size:9pt;margin-bottom:3px;line-height:1.55}
+.ptg-note{background:#f5f7fa;border-top:1px solid #ddd;padding:5px 12px;
+  font-size:8.5pt;color:#666;font-style:italic}
+</style>
+</head>
+<body>
+<button class="no-print" onclick="window.print()">&#x2399; Print</button>
+<div class="no-print" style="background:#1B2A4A;color:#fff;padding:8px .62in;
+          display:flex;justify-content:space-between;align-items:center;
+          position:sticky;top:0;z-index:50">
+          <a href="index.html" style="color:#C9A227;text-decoration:none;font-size:11px;font-weight:700">← Back to Textbook Hub</a>
+          <span style="font-size:11px;color:rgba(255,255,255,.6)">Packet C: Teacher Scaffolds · TEACHER COPY</span>
+        </div>
+
+<div class="banner">
+  <div class="eye">Teacher Packet C · Scaffolds &amp; Supports · TEACHER COPY — Do Not Distribute to Students</div>
+  <h1>Teacher Scaffolds &amp; Supports</h1>
+  <div class="sub">TCA 49-6-1019 Legal Sidebar · AP Sourcing Support · Priority Teaching Guides · Differentiation</div>
+</div>
+<div class="gold-bar">
+  <span>TroopToTeacher Technologies LLC · U.S. History (US.01–US.95) · Internal teacher use only</span>
+  <span>Not for student distribution · Not a claim of state approval</span>
+</div>
+<div class="pg">
+
+<!-- ═══ LEGAL SIDEBAR ═══ -->
+<h2>Section 1 — Teaching Difficult History within Tennessee Law</h2>
+<div class="warn"><strong>This section is teacher-facing only</strong>Do not reproduce this section on student handouts or in student-accessible digital materials.</div>
+
+<div class="teacher-box">
+<div class="th">Teacher Legal Sidebar — TCA § 49-6-1019 and Teaching Contested History
+  <span style="font-size:8pt;background:rgba(0,0,0,.18);border-radius:2px;padding:1px 7px">Internal teacher guidance</span>
+</div>
+<div class="tb">
+
+<h4>What Tennessee Law Requires</h4>
+<p>Tennessee Code Annotated § 49-6-1019 prohibits instruction that promotes specific concepts, including: teaching that one race or sex is inherently superior to another; teaching that an individual bears personal responsibility for historical wrongs committed by others of the same race or sex; and teaching that requires students to adopt or affirm personal beliefs as a condition of class participation. This law applies to classroom instruction and to supplemental instructional materials.</p>
+<p>This statute does <strong>not</strong> prohibit factual, evidence-based instruction about historical events involving race, inequality, violence, or injustice. Teaching the history of slavery, segregation, the Civil Rights Movement, and related content is <strong>required</strong> by Tennessee Academic Standards.</p>
+
+<h4>The Design Principle: Analytical, Not Prescriptive</h4>
+<p>Every TroopToTeacher Technologies LLC primary source activity is framed analytically: students examine the source's Speaker, Occasion, Audience, Purpose, and Point of View — they do not adopt the source's perspective as their own. This framing is consistent with § 49-6-1019 because it treats sources as objects of historical inquiry, not as advocacy documents.</p>
+
+<h4>Four Facilitation Moves</h4>
+<p><strong>1. Use neutral analytical stems.</strong> Replace "How does this make you feel?" with "What does this source reveal about the perspective of its author?" Replace "Who is to blame?" with "What forces and decisions led to this outcome?"</p>
+<p><strong>2. Establish shared ground rules before difficult content.</strong> At the start of units with sensitive primary sources: co-create with students a set of norms for historical inquiry. Suggested norm: <em>"We examine sources as historians. We evaluate evidence. We distinguish between historical responsibility and personal blame."</em></p>
+<p><strong>3. Use SOAPS as a buffer.</strong> When analyzing primary sources involving racial violence or injustice, SOAPS keeps the analytical frame front and center. Students analyze <em>why the source says what it says</em> rather than reacting to content directly.</p>
+<p><strong>4. Close with a structured exit ticket.</strong> After lessons on difficult history, use a written exit ticket with a factual prompt: <em>"Name one thing you learned today. Name one question you still have. Name one source you would want to examine further."</em> This reinforces the analytical frame and gives you insight into where students need follow-up.</p>
+
+<h4>When Students Ask Personal Questions</h4>
+<p>If a student asks "Do you think what happened was wrong?" or a similar personal-belief question, an appropriate professional response is: "As historians, we examine evidence and weigh arguments — I'm not going to tell you what to believe, and you're not required to believe anything in particular to succeed in this class. What I will ask you to do is to support whatever position you take with historical evidence."</p>
+
+<p style="font-size:8.5pt;color:#666;margin-top:8px;font-style:italic">For specific instructional decisions, consult your district's legal counsel and applicable State Board implementing rules. This sidebar reflects TroopToTeacher Technologies LLC's good-faith reading of TCA § 49-6-1019 as of April 2026 and does not constitute legal advice.</p>
+</div>
+</div>
+
+<!-- ═══ AP SOURCING SUPPORT ═══ -->
+<h2>Section 2 — Advanced Sourcing: The Full Analytical Move</h2>
+<div class="teacher-box">
+<div class="th">Sourcing Skill — What It Requires and How to Model It</div>
+<div class="tb">
+<p>Advanced document analysis requires sourcing credit: a student must explain how or why a document's historical situation, audience, purpose, or point of view is <em>relevant to the argument</em> — not simply identified. The critical word is "relevant to" — not just identified.</p>
+<h4>The Three-Part Move</h4>
+<ol style="margin-left:18px">
+  <li><strong>Name the feature:</strong> "Because [HIPP feature]…"</li>
+  <li><strong>Explain the effect:</strong> "…the author chose to / had to / was unable to…"</li>
+  <li><strong>Connect to the argument:</strong> "…which makes this source [more/less useful / stronger / weaker] as evidence for [specific claim]."</li>
+</ol>
+<h4>Teacher Modeling Example — Eisenhower Farewell Address</h4>
+<p><strong>Student identification (no credit):</strong> "This speech was written by President Eisenhower."</p>
+<p><strong>Weak sourcing (partial credit):</strong> "Because Eisenhower was a general, he understood military power."</p>
+<p><strong>Full sourcing (full credit):</strong> "Because Eisenhower was a five-star general and former Supreme Allied Commander, his warning about the military-industrial complex carries a credibility that a civilian president's warning would not — a hostile Congress or public would find it much harder to dismiss as naïve or uninformed. This makes the source more useful as evidence that anxiety about militarization existed even within the national security establishment, not just among progressive critics."</p>
+<h4>Common Student Error to Address</h4>
+<p>Students frequently write "This source was created to persuade" and then stop. The analytical error is stopping at identification. When you see this, redirect: "Persuade whom? And how does persuading that particular audience shape what the author included or excluded?"</p>
+</div>
+</div>
+
+<!-- ═══ SOAPS + HIPP + SKILLS GUIDE ═══ -->
+<h2 class="pb">Section 3 — Using SOAPS + HIPP + Historical Thinking Labels Together</h2>
+<div class="teacher-box">
+<div class="th">Integration Guide — Three Tools, One Sequence</div>
+<div class="tb">
+
+<div class="three-col" style="gap:10px;margin:8px 0">
+  <div style="border:1px solid #c0cce0;border-radius:3px;overflow:hidden">
+    <div style="background:#2A3F5E;color:#fff;padding:5px 10px;font-size:9.5pt;font-weight:700">Step 1 — SOAPS</div>
+    <div style="padding:8px 10px;font-size:9pt;line-height:1.6">
+      <strong>When:</strong> First encounter with any primary source<br>
+      <strong>What students do:</strong> Identify Speaker, Occasion, Audience, Purpose, Subject<br>
+      <strong>Goal:</strong> Know what the source <em>is</em> before deciding how to <em>use</em> it<br>
+      <strong>Time:</strong> 5–8 minutes individually or 3 minutes as a class
+    </div>
+  </div>
+  <div style="border:1px solid #c0cce0;border-radius:3px;overflow:hidden">
+    <div style="background:#1B2A4A;color:#C9A227;padding:5px 10px;font-size:9.5pt;font-weight:700">Step 2 — HIPP</div>
+    <div style="padding:8px 10px;font-size:9pt;line-height:1.6">
+      <strong>When:</strong> When building an argument with evidence<br>
+      <strong>What students do:</strong> Connect H/I/P/P features to their specific claim<br>
+      <strong>Goal:</strong> Know <em>why</em> this source is useful (or limited) for THIS argument<br>
+      <strong>Time:</strong> 8–12 minutes for full analysis; 3–5 minutes for one element
+    </div>
+  </div>
+  <div style="border:1px solid #c0cce0;border-radius:3px;overflow:hidden">
+    <div style="background:#27500A;color:#fff;padding:5px 10px;font-size:9.5pt;font-weight:700">Step 3 — Skill Label</div>
+    <div style="padding:8px 10px;font-size:9pt;line-height:1.6">
+      <strong>When:</strong> When writing the response<br>
+      <strong>What students do:</strong> Apply the [SKILL] move — explain causation, compare, trace CCOT, etc.<br>
+      <strong>Goal:</strong> Write as a disciplinary historian, not just a summarizer<br>
+      <strong>Time:</strong> Embedded in the writing process
+    </div>
+  </div>
+</div>
+
+<h4>Where the overlap is intentional</h4>
+<p>Audience and Purpose appear in both SOAPS and HIPP. This is by design. SOAPS asks students to <em>identify</em> audience (who?). HIPP asks students to <em>explain the argumentative consequence</em> of that audience (so what?). The overlap is by design: SOAPS asks students to identify audience (who?). HIPP asks students to explain the argumentative consequence of that audience (so what?). Students practice identification before they are expected to analyze.</p>
+
+<h4>Differentiation notes</h4>
+<ul>
+  <li><strong>Version A / Below-level / ELL:</strong> Assign SOAPS only; do not require full HIPP connection; provide sentence stems for SOAPS analysis</li>
+  <li><strong>Version B / On-level:</strong> Assign SOAPS + one HIPP element with the argumentative connection; use sentence stems as optional support</li>
+  <li><strong>Version C / Advanced / APUSH:</strong> Full HIPP analysis required; argumentative connection sentence for all four elements; no stems provided</li>
+</ul>
+</div>
+</div>
+
+<!-- ═══ PRIORITY TEACHING GUIDES ═══ -->
+<h2 class="pb">Section 4 — Priority Teaching Guides</h2>
+<p>Use these guides when you are running behind schedule or need to make prioritization decisions. Each guide identifies which components of a unit are essential (must complete), which can be compressed, and which can be assigned as homework or skipped if necessary. These are professional judgment recommendations — adjust based on your students' needs.</p>
+
+<h3>Completed Sample — Unit 5</h3>
+<div class="ptg">
+  <div class="ptg-hdr">Unit 5: The Great Depression and the New Deal (US.39–US.43)
+    <span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 8px">TEACHER COPY</span>
+  </div>
+  <div class="ptg-body">
+    <div class="ptg-col"><div class="ptg-lbl">✓ Essential — teach regardless of time</div><ul><li>Figure 5.1 unemployment chart discussion — core economic literacy anchor for the whole unit</li><li>Part C Activity 5.3: Hoover primary source + unemployment chart synthesis [CAUSATION] — this is the summative task</li><li>TVA map geographic analysis [CONTEXTUALIZATION] — Tennessee required content (US.43); cannot skip</li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">⚡ Compress — shorten if needed</div><ul><li>Figure 5.2 bank failures detail — reference the data in class discussion; skip written chart analysis</li><li>New Deal programs table (relief/recovery/reform categories) — assign as reading; cover only FDIC and TVA in class</li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">↷ Skip — assign as homework / enrichment</div><ul><li>Figure 5.3 extended TVA electrification history — reference the data point in discussion; full analysis is enrichment</li></ul></div>
+  </div>
+  <div class="ptg-note">If this unit is running more than 3 days over estimate: teach Essential only; assign Compress items as independent reading with a one-paragraph reflection.</div>
+</div>
+
+<h3>Blank Templates — Units 1–4, 6–10</h3>
+<p>Fill in based on your assessment of your students' current level and the unit's essential standards coverage.</p>
+<div class="ptg">
+  <div class="ptg-hdr">Unit 1: Reconstruction (US.REC, US.01–US.05)
+    <span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 8px">TEACHER COPY</span>
+  </div>
+  <div class="ptg-body">
+    <div class="ptg-col"><div class="ptg-lbl">✓ Essential — teach regardless of time</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">⚡ Compress — shorten if needed</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">↷ Skip — assign as homework / enrichment</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+  </div>
+  <div class="ptg-note">If this unit is running more than 3 days over estimate: teach Essential only; assign Compress items as independent reading with a one-paragraph reflection.</div>
+</div><div class="ptg">
+  <div class="ptg-hdr">Unit 2: The Gilded Age (US.06–US.12)
+    <span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 8px">TEACHER COPY</span>
+  </div>
+  <div class="ptg-body">
+    <div class="ptg-col"><div class="ptg-lbl">✓ Essential — teach regardless of time</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">⚡ Compress — shorten if needed</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">↷ Skip — assign as homework / enrichment</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+  </div>
+  <div class="ptg-note">If this unit is running more than 3 days over estimate: teach Essential only; assign Compress items as independent reading with a one-paragraph reflection.</div>
+</div><div class="ptg">
+  <div class="ptg-hdr">Unit 3: The Progressive Era (US.13–US.18)
+    <span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 8px">TEACHER COPY</span>
+  </div>
+  <div class="ptg-body">
+    <div class="ptg-col"><div class="ptg-lbl">✓ Essential — teach regardless of time</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">⚡ Compress — shorten if needed</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">↷ Skip — assign as homework / enrichment</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+  </div>
+  <div class="ptg-note">If this unit is running more than 3 days over estimate: teach Essential only; assign Compress items as independent reading with a one-paragraph reflection.</div>
+</div><div class="ptg">
+  <div class="ptg-hdr">Unit 4: WWI &amp; The Roaring Twenties (US.19–US.24)
+    <span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 8px">TEACHER COPY</span>
+  </div>
+  <div class="ptg-body">
+    <div class="ptg-col"><div class="ptg-lbl">✓ Essential — teach regardless of time</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">⚡ Compress — shorten if needed</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">↷ Skip — assign as homework / enrichment</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+  </div>
+  <div class="ptg-note">If this unit is running more than 3 days over estimate: teach Essential only; assign Compress items as independent reading with a one-paragraph reflection.</div>
+</div><div class="ptg">
+  <div class="ptg-hdr">Unit 6: World War II (US.44–US.47)
+    <span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 8px">TEACHER COPY</span>
+  </div>
+  <div class="ptg-body">
+    <div class="ptg-col"><div class="ptg-lbl">✓ Essential — teach regardless of time</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">⚡ Compress — shorten if needed</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">↷ Skip — assign as homework / enrichment</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+  </div>
+  <div class="ptg-note">If this unit is running more than 3 days over estimate: teach Essential only; assign Compress items as independent reading with a one-paragraph reflection.</div>
+</div><div class="ptg">
+  <div class="ptg-hdr">Unit 7: Cold War &amp; Civil Rights (US.48–US.56)
+    <span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 8px">TEACHER COPY</span>
+  </div>
+  <div class="ptg-body">
+    <div class="ptg-col"><div class="ptg-lbl">✓ Essential — teach regardless of time</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">⚡ Compress — shorten if needed</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">↷ Skip — assign as homework / enrichment</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+  </div>
+  <div class="ptg-note">If this unit is running more than 3 days over estimate: teach Essential only; assign Compress items as independent reading with a one-paragraph reflection.</div>
+</div><div class="ptg">
+  <div class="ptg-hdr">Unit 8: Vietnam, Watergate &amp; Crisis (US.57–US.63)
+    <span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 8px">TEACHER COPY</span>
+  </div>
+  <div class="ptg-body">
+    <div class="ptg-col"><div class="ptg-lbl">✓ Essential — teach regardless of time</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">⚡ Compress — shorten if needed</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">↷ Skip — assign as homework / enrichment</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+  </div>
+  <div class="ptg-note">If this unit is running more than 3 days over estimate: teach Essential only; assign Compress items as independent reading with a one-paragraph reflection.</div>
+</div><div class="ptg">
+  <div class="ptg-hdr">Unit 9: The Conservative Revolution (US.64–US.70)
+    <span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 8px">TEACHER COPY</span>
+  </div>
+  <div class="ptg-body">
+    <div class="ptg-col"><div class="ptg-lbl">✓ Essential — teach regardless of time</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">⚡ Compress — shorten if needed</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">↷ Skip — assign as homework / enrichment</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+  </div>
+  <div class="ptg-note">If this unit is running more than 3 days over estimate: teach Essential only; assign Compress items as independent reading with a one-paragraph reflection.</div>
+</div><div class="ptg">
+  <div class="ptg-hdr">Unit 10: America in the 21st Century (US.71–US.95)
+    <span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 8px">TEACHER COPY</span>
+  </div>
+  <div class="ptg-body">
+    <div class="ptg-col"><div class="ptg-lbl">✓ Essential — teach regardless of time</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">⚡ Compress — shorten if needed</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+    <div class="ptg-col"><div class="ptg-lbl">↷ Skip — assign as homework / enrichment</div><ul><li><span style='border-bottom:1px solid #999;display:inline-block;width:85%'>&nbsp;</span></li></ul></div>
+  </div>
+  <div class="ptg-note">If this unit is running more than 3 days over estimate: teach Essential only; assign Compress items as independent reading with a one-paragraph reflection.</div>
+</div>
+
+<!-- ═══ DIFFERENTIATION GUIDE ═══ -->
+<h2 class="pb">Section 5 — Differentiating the Student Packets</h2>
+<div class="teacher-box">
+<div class="th">Suggestions for Using Packet A and Packet B with Diverse Learners</div>
+<div class="tb">
+<h4>Packet A (Skills & Practice) — Differentiation Options</h4>
+<ul>
+  <li><strong>Below-level / ELL:</strong> Complete SOAPS Practice 1 only (Lincoln). Provide the completed SOAPS table for Practices 2 and 3 as a model. For HIPP, assign Practice 3 (short response) only, with sentence stem provided: "Because [HIPP feature], this source [is more/less useful for arguing] _____ because _____."</li>
+  <li><strong>On-level:</strong> Complete all three SOAPS practices and one HIPP practice. Assign Corroboration Prompt 1 as the summative task for the packet.</li>
+  <li><strong>Advanced:</strong> Complete all practices. Add: "Select any two sources from different units and write a corroboration paragraph showing how they complicate each other's account of a common theme."</li>
+</ul>
+
+<h4>Packet B (Inquiry & Writing) — Differentiation Options</h4>
+<ul>
+  <li><strong>Below-level / ELL:</strong> Limit source selection to 2 sources (not "at least 2"). Provide the completed good-argument checklist with the first item pre-checked as a model. Allow product choice to be limited to short essay with graphic organizer pre-filled. Provide thesis sentence frame: "Based on [Source 1] and [Source 2], I argue that _____ because _____."</li>
+  <li><strong>On-level:</strong> Standard packet — full task as written. Three sources recommended; product choice open.</li>
+  <li><strong>Advanced:</strong> Add cross-unit synthesis requirement: "Your argument must connect your unit's question to a pattern from at least one other unit in the course. Explain what this connection reveals."</li>
+</ul>
+
+<h4>ELL-Specific Supports (use with Version A / ELL Track)</h4>
+<ul>
+  <li>Pair each inquiry task with the corresponding vocabulary list from the ELL Support Packet (ell-support.html)</li>
+  <li>Allow students to annotate sources in Spanish; require the final written argument to be in English</li>
+  <li>Provide SOAPS sentence frames: "The speaker is _____, who is important because _____. This was created in _____, when _____ was happening."</li>
+  <li>Scaffold the corroboration requirement: "Source A says _____. Source B says _____. They agree/disagree because _____."</li>
+</ul>
+
+<h4>SWD-Specific Supports</h4>
+<ul>
+  <li>Chunk Packet A into three separate sessions (one per skill section)</li>
+  <li>For Packet B, allow extended time; reduce source selection to two sources</li>
+  <li>Provide audio versions of primary sources through the district's assistive technology tools</li>
+  <li>Allow dictation or speech-to-text for the draft space in Packet B</li>
+  <li>Reference Appendix N (Accommodations Guide) for IEP-specific modifications</li>
+</ul>
+</div>
+</div>
+
+</div><!-- end pg -->
+<div class="foot">
+  <div><strong>TroopToTeacher Technologies LLC</strong> · Packet C: Teacher Scaffolds &amp; Supports · © 2026</div>
+  <div>TEACHER COPY — Do not distribute to students · Internal use only</div>
+</div>
+
+</body>
+</html>

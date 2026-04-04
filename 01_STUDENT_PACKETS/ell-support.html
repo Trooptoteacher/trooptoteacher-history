@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ELL/ESL Support Packet — TroopToTeacher Technologies LLC</title>
+<!--
+  Print cleanup (April 2026):
+  - Canonical @media print block: B&W-safe headers, overflow visible, pt-based write spaces
+  - Added .page-banner and .unit-banner B&W overrides (previously uncovered)
+  - Added .ver-hdr.a/.b/.c/.e B&W overrides (previously uncovered)
+  - Fixed .go-body min-height to use pt not px for print reliability
+  Editorial polish (April 2026):
+  - "How to Use" rewritten as 3 scannable bullets (was 2 dense paragraphs)
+  - Part 1 intro sharpened; usage line added per frame category
+  - Practice write space added after EVERY frame group (equity/access fix: 7 new write areas)
+  - Part 2 vocab table: "Sentence example" relabeled "Model sentence"; 3-item practice row added
+  - Part 3 organizers: label prompts added inside .go-body cells; topic fill-lines added
+  - Part 3 intro rewritten from "Cut out or print" to clear actionable directions
+  - Part 4 word wall: minor definition tightening throughout; consistent punctuation
+  - SOAPS+HIPP table: argumentative sentence frame added to last cell
+-->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#ddd}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:#fff;color:#111;
+  width:8.5in;margin:.18in auto;box-shadow:0 3px 20px rgba(0,0,0,.25);
+  font-size:9.5pt;line-height:1.72}
+/* ── CANONICAL PRINT SYSTEM ── */
+@page{size:letter portrait;margin:.55in .6in .5in}
+@media print {
+  html, body {
+    background: #fff !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    width: auto !important;
+  }
+  .no-print,
+  [style*="position:sticky"], [style*="position: sticky"],
+  [style*="position:fixed"],  [style*="position: fixed"],
+  button { display: none !important; }
+  .pb {
+    page-break-before: always;
+    break-before: page;
+    padding-top: 2pt !important;
+  }
+  h2, h3 { break-after: avoid; page-break-after: avoid; }
+
+  /* ── B&W-safe headers — ALL dark fills in this file covered ── */
+  .page-banner, .unit-banner {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1.5pt solid #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page-banner .eye, .unit-banner .un { color: #333 !important; }
+  .page-banner h1, .unit-banner h1    { color: #000 !important; }
+  .page-banner .usub, .unit-banner .usub { color: #555 !important; }
+  .go-hdr, .ver-hdr, .ver-hdr.a, .ver-hdr.b, .ver-hdr.c, .ver-hdr.e {
+    background: #fff !important;
+    color: #000 !important;
+    border-bottom: 1.5pt solid #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  th, .th {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1pt solid #333 !important;
+    font-weight: bold;
+  }
+  .skill, .dok { background: #fff !important; color: #000 !important; border: 1pt solid #333 !important; }
+  .foot { -webkit-print-color-adjust: exact; print-color-adjust: exact; position: static !important; width: auto !important; }
+
+  /* ── Write spaces — B&W, pt-based ── */
+  .wi, .write-line {
+    display: block !important;
+    border-bottom: 1pt solid #333 !important;
+    min-height: 20pt !important;
+    margin-bottom: 6pt !important;
+    background: none !important;
+  }
+  .wi-lg  { min-height: 32pt !important; }
+  .wi-xl  { min-height: 48pt !important; }
+  .wi-box, .wi-box-sm, .wi-box-lg, .write-box {
+    display: block !important;
+    border: 1pt solid #333 !important;
+    background: #fff !important;
+    min-height: 52pt !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+  .wi-box-sm { min-height: 36pt !important; }
+  .wi-box-lg { min-height: 80pt !important; }
+  .fill {
+    border: 1pt solid #333 !important;
+    background: #fff !important;
+    min-height: 26pt !important;
+  }
+
+  /* ── Graphic organizer bodies — pt-based ── */
+  .go-body {
+    border-top: 1pt solid #ccc !important;
+    min-height: 55pt !important;
+    background: #fff !important;
+    overflow: visible !important;
+  }
+  .go-box { overflow: visible !important; break-inside: avoid !important; page-break-inside: avoid !important; }
+
+  /* ── Analysis table rows ── */
+  .analysis-table { break-inside: auto; }
+  .analysis-table tr { break-inside: avoid !important; page-break-inside: avoid !important; }
+
+  /* ── Block avoidance ── */
+  .go-box, .go-grid, .go-3, .source-block, .scaffold,
+  .ell-box, .practice-row {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    overflow: visible !important;
+  }
+
+  * { box-shadow: none !important; text-shadow: none !important; }
+}
+.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;
+  border:none;border-radius:5px;padding:7px 14px;font-size:11px;font-weight:700;
+  cursor:pointer;z-index:99}
+/* ── Type ── */
+h2{font-family:'Merriweather',Georgia,serif;font-size:13pt;font-weight:700;
+   color:#1B2A4A;margin:16px 0 7px;padding-bottom:3px;border-bottom:2px solid #1B2A4A}
+h3{font-size:11pt;font-weight:700;color:#2A3F5E;margin:13px 0 5px}
+h4{font-size:10pt;font-weight:700;color:#1B2A4A;margin:10px 0 4px}
+p{margin-bottom:8px;font-size:9.5pt;line-height:1.7}
+ul,ol{margin:5px 0 10px 18px}li{margin-bottom:4px;font-size:9.5pt;line-height:1.65}
+/* ── Version badges ── */
+.va{background:#1B2A4A;color:#fff;font-size:8pt;font-weight:700;border-radius:2px;
+    padding:1px 8px;display:inline-block;margin-bottom:6px}
+.vb{background:#27500A;color:#fff;font-size:8pt;font-weight:700;border-radius:2px;
+    padding:1px 8px;display:inline-block;margin-bottom:6px}
+.vc{background:#6B1020;color:#fff;font-size:8pt;font-weight:700;border-radius:2px;
+    padding:1px 8px;display:inline-block;margin-bottom:6px}
+/* ── Banners ── */
+.unit-banner{background:#1B2A4A;padding:9px .62in;color:#fff;margin-top:0}
+.unit-banner .un{font-size:8.5pt;font-weight:700;letter-spacing:.12em;
+   text-transform:uppercase;color:#C9A227;margin-bottom:4px}
+.unit-banner h1{font-family:'Merriweather',Georgia,serif;font-size:14.5pt;
+   font-weight:700;color:#fff;line-height:1.2;margin-bottom:2px}
+.unit-banner .usub{font-size:9pt;color:#B5D4F4;font-style:italic}
+.gold-strip{background:#C9A227;padding:3px .62in;font-size:8pt;font-weight:700;
+   color:#3D2200;display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}
+/* ── Blocks ── */
+.pg{padding:.2in .62in .16in}
+.ver-hdr{padding:7px 12px;font-size:9.5pt;font-weight:700;border-radius:3px 3px 0 0;
+   display:flex;justify-content:space-between;align-items:center}
+.ver-hdr.a{background:#1B2A4A;color:#fff}
+.ver-hdr.b{background:#2A3F5E;color:#fff}
+.ver-hdr.c{background:#6B1020;color:#fff}
+.ver-hdr.e{background:#27500A;color:#fff}
+.ver-body{border:1.5px solid #ddd;border-top:none;border-radius:0 0 3px 3px;
+   padding:10px 12px;margin-bottom:12px}
+/* ── Write-in fields ── */
+.wi{border-bottom:1px solid #999;min-height:20px;margin:4px 0 10px;display:block}
+.wi-lg{border-bottom:1px solid #999;min-height:38px;margin:4px 0 10px;display:block}
+.wi-xl{border-bottom:1px solid #999;min-height:58px;margin:4px 0 12px;display:block}
+.wi-box{border:1px solid #999;border-radius:3px;min-height:60px;padding:4px;
+   margin:4px 0 12px;display:block;background:#fffef8}
+.wi-box-lg{border:1px solid #999;border-radius:3px;min-height:90px;padding:4px;
+   margin:4px 0 12px;display:block;background:#fffef8}
+/* ── Scaffolds ── */
+.scaffold{background:#f0f5fb;border-left:3px solid #1B2A4A;padding:7px 11px;
+   margin:6px 0;font-size:9.5pt;line-height:1.6;border-radius:0 3px 3px 0}
+.scaffold strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+   letter-spacing:.07em;color:#1B2A4A;margin-bottom:2px}
+.ell-box{background:#fffdf5;border:1.5px solid #C9A227;border-radius:3px;
+   padding:8px 11px;margin:6px 0;font-size:9pt;line-height:1.6}
+.ell-box .ell-lbl{font-size:8pt;font-weight:700;text-transform:uppercase;
+   letter-spacing:.07em;color:#633806;margin-bottom:3px;display:block}
+.stem{display:block;background:#f5f7fa;border-left:3px solid #2A3F5E;
+   padding:4px 9px;margin:3px 0;font-style:italic;font-size:9pt;color:#1B2A4A}
+/* ── SOAPS/HIPP table ── */
+.analysis-table{width:100%;border-collapse:collapse;font-size:9pt;margin:8px 0}
+.analysis-table th{background:#2A3F5E;color:#fff;padding:5px 9px;text-align:left;
+   font-size:8.5pt;width:18%}
+.analysis-table td{border:1px solid #ddd;padding:5px 9px;vertical-align:top}
+.analysis-table td:first-child{background:#f5f7fa;font-weight:600;color:#1B2A4A;width:18%}
+.analysis-table .fill{background:#fffef8;min-height:30px}
+/* ── Graphic organizer ── */
+.go-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}
+.go-box{border:1.5px solid #c0cce0;border-radius:3px;overflow:hidden}
+.go-hdr{background:#1B2A4A;color:#fff;padding:4px 10px;font-size:9pt;font-weight:700}
+.go-body{padding:8px 10px;min-height:65px;background:#fffef8;font-size:9pt;color:#555;font-style:italic}
+.go-body .go-prompt{font-size:8.5pt;color:#777;margin-bottom:6px;display:block;font-style:normal}
+.go-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:8px 0}
+/* ── Vocab box ── */
+.vocab-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:8px 0}
+.vocab-item{border:1px solid #ddd;border-radius:3px;padding:6px 9px;background:#f9fafb}
+.vocab-item .vt{font-weight:700;color:#1B2A4A;font-size:9.5pt}
+.vocab-item .vd{font-size:9pt;color:#333;line-height:1.55;margin-top:2px}
+.vocab-item .vs{font-size:8.5pt;color:#27500A;font-style:italic;margin-top:1px}
+/* ── Source block ── */
+.source-block{background:#f9fafb;border:1.5px solid #c0cce0;border-radius:3px;
+   padding:10px 14px;margin:10px 0;font-style:italic;font-size:9.5pt;line-height:1.7}
+.source-block .src-attr{font-style:normal;font-size:8.5pt;font-weight:700;
+   color:#1B2A4A;margin-bottom:6px;display:block}
+.source-block strong{font-style:normal;color:#1B2A4A}
+/* ── DOK badge ── */
+.dok{font-size:7.5pt;font-weight:700;background:#2A3F5E;color:#fff;
+   border-radius:2px;padding:1px 6px;margin-left:6px;display:inline-block}
+.dok2{background:#27500A}
+.dok3{background:#6B1020}
+/* ── Skill label ── */
+.skill{font-size:8pt;font-weight:700;background:#1B2A4A;color:#C9A227;
+   border-radius:2px;padding:1px 7px;margin-left:6px;display:inline-block;
+   letter-spacing:.04em;font-family:'Courier New',monospace}
+/* ── Practice rows ── */
+.practice-row{margin:8px 0 4px;padding:7px 10px;background:#f0f5fb;
+   border-left:3px solid #1B2A4A;border-radius:0 3px 3px 0;break-inside:avoid;page-break-inside:avoid}
+.practice-row .pr-lbl{font-size:8.5pt;font-weight:700;text-transform:uppercase;
+   letter-spacing:.07em;color:#1B2A4A;margin-bottom:4px;display:block}
+/* ── wi-box-sm ── */
+.wi-box-sm{border:1px solid #999;border-radius:3px;min-height:40px;padding:4px;
+   margin:4px 0 8px;display:block;background:#fffef8}
+/* ── Footer ── */
+.foot{background:#1B2A4A;color:rgba(255,255,255,.5);padding:5px .62in;font-size:7.5pt;
+   display:flex;justify-content:space-between}
+.foot strong{color:#C9A227}
+/* ── Checklist ── */
+.chk-item{display:flex;gap:7px;align-items:flex-start;margin-bottom:6px;font-size:9.5pt}
+.chk-box{width:14px;height:14px;border:1.5px solid #1B2A4A;border-radius:2px;
+   flex-shrink:0;margin-top:2px}
+/* ── Info callout ── */
+.info{background:#f0f5fb;border-left:4px solid #1B2A4A;padding:7px 11px;
+   margin:8px 0;font-size:9.5pt;line-height:1.65}
+.warn{background:#fffdf5;border-left:4px solid #C9A227;padding:7px 11px;
+   margin:8px 0;font-size:9.5pt;line-height:1.65}
+</style>
+</head>
+<body>
+<button class="no-print" onclick="window.print()">&#x2399; Print</button>
+
+<div class="page-banner" style="background:#1B2A4A;padding:18px .65in 14px">
+  <div style="font-size:8pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+              color:#C9A227;margin-bottom:8px">ELL / ESL Resource · All Units</div>
+  <h1 style="font-family:Merriweather,Georgia,serif;font-size:17pt;color:#fff;
+             line-height:1.2;margin-bottom:4px">English Language Learner Support Packet</h1>
+  <p style="font-size:9.5pt;color:#B5D4F4;font-style:italic;margin:0">U.S. History: Reconstruction to Present · Grades 9–12</p>
+</div>
+<div style="background:#C9A227;padding:4px .65in;font-size:8.5pt;font-weight:700;color:#3D2200">
+  TroopToTeacher Technologies LLC · Compatible with Version A worksheets · All 10 units
+</div>
+
+<div style="padding:.26in .65in .22in">
+
+<h2>How to Use This Packet</h2>
+<ul>
+  <li><strong>Part 1 — Sentence frames:</strong> Use these frames to start any historical analysis sentence. Select the frame that matches your skill (Causation, Comparison, etc.) and fill in the blanks with specific historical content. Practice writing at least one complete sentence after each set.</li>
+  <li><strong>Part 2 — Vocabulary scaffold:</strong> Review the key analytical terms before every writing task. Spanish translations are a bridge — practice using the English terms in your own sentences.</li>
+  <li><strong>Parts 3 &amp; 4 — Organizers and word wall:</strong> Use the graphic organizers with any unit throughout the year. The word wall gives student-friendly definitions for essential historical terms organized by era.</li>
+</ul>
+
+<h2>Part 1 — Universal Sentence Frames for Historical Analysis</h2>
+<p>These frames work with any unit and any historical thinking skill. Choose the frame that matches your task. Replace the brackets [ ] with specific historical content. Write at least one complete practice sentence after each set.</p>
+
+<h3>General Frames — Starting Any Response</h3>
+<p style="font-size:9pt;color:#555;margin-bottom:4px"><em>Use when you need to start a sentence or connect two ideas.</em></p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0">
+<span class="stem">In [time period], [historical group] faced _____ because _____.</span><span class="stem">According to [source], _____ happened because _____.</span><span class="stem">This source was created by _____, who wanted _____.</span><span class="stem">One important event during this period was _____, which caused _____.</span><span class="stem">The evidence shows that _____ because _____.</span><span class="stem">I agree / disagree with this argument because _____.</span><span class="stem">This source supports my argument because _____.</span><span class="stem">One limitation of this source is _____ because _____.</span>
+</div>
+<div class="practice-row">
+  <span class="pr-lbl">Practice — Write one complete sentence using a frame above:</span>
+  <span class="wi-lg"></span>
+</div>
+
+<h3>CAUSATION Frames <span class="skill">[CAUSATION]</span></h3>
+<p style="font-size:9pt;color:#555;margin-bottom:4px"><em>Use when explaining why something happened or what forces led to an event.</em></p>
+<div style="margin:8px 0"><span class="stem">One cause of [event] was _____ because _____.</span><span class="stem">_____ caused _____ by _____.</span><span class="stem">Without _____, _____ would not have happened because _____.</span><span class="stem">Both _____ and _____ contributed to _____ by _____.</span></div>
+<div class="practice-row">
+  <span class="pr-lbl">Practice — Write one causation sentence about a historical event from your current unit:</span>
+  <span class="wi-lg"></span>
+</div>
+
+<h3>COMPARISON Frames <span class="skill">[COMPARISON]</span></h3>
+<p style="font-size:9pt;color:#555;margin-bottom:4px"><em>Use when identifying similarities or differences between people, groups, policies, or time periods.</em></p>
+<div style="margin:8px 0"><span class="stem">Both _____ and _____ believed that _____, however _____.</span><span class="stem">While _____ argued _____, _____ believed _____.</span><span class="stem">The most important similarity between _____ and _____ was _____.</span><span class="stem">The most important difference between _____ and _____ was _____.</span></div>
+<div class="practice-row">
+  <span class="pr-lbl">Practice — Compare two groups, leaders, or policies from U.S. History:</span>
+  <span class="wi-lg"></span>
+</div>
+
+<h3>CCOT Frames — Continuity and Change Over Time <span class="skill">[CCOT]</span></h3>
+<p style="font-size:9pt;color:#555;margin-bottom:4px"><em>Use when explaining what changed, what stayed the same, or how quickly change happened over a period.</em></p>
+<div style="margin:8px 0"><span class="stem">Before [date], _____. After [date], _____ had changed because _____.</span><span class="stem">By [date], _____ had changed significantly because _____.</span><span class="stem">Despite the changes, one thing that stayed the same was _____ because _____.</span><span class="stem">The most significant change between _____ and _____ was _____.</span></div>
+<div class="practice-row">
+  <span class="pr-lbl">Practice — Write one sentence describing a change that happened during a U.S. History unit:</span>
+  <span class="wi-lg"></span>
+</div>
+
+<h3>CONTEXTUALIZATION Frames <span class="skill">[CONTEXT]</span></h3>
+<p style="font-size:9pt;color:#555;margin-bottom:4px"><em>Use when connecting a source or event to the broader historical moment surrounding it.</em></p>
+<div style="margin:8px 0"><span class="stem">This source was created during a time when _____, which explains why _____.</span><span class="stem">The historical context of [period] shaped this event because _____.</span><span class="stem">Without understanding _____, it is impossible to explain why _____.</span><span class="stem">Because [historical condition] existed, _____ was able to / had to _____.</span></div>
+<div class="practice-row">
+  <span class="pr-lbl">Practice — Write one sentence placing a source or event in its historical context:</span>
+  <span class="wi-lg"></span>
+</div>
+
+<h3>SOAPS Analysis Frames <span class="skill">[SOURCING]</span></h3>
+<p style="font-size:9pt;color:#555;margin-bottom:4px"><em>Use when identifying who created a source, why, and for whom.</em></p>
+<div style="margin:8px 0"><span class="stem">The speaker of this source is _____, who is significant because _____.</span><span class="stem">This source was created during [occasion], when _____ was happening.</span><span class="stem">The audience for this source was _____, which explains why the author _____.</span><span class="stem">The purpose of this source was to _____, which means it is most useful as evidence of _____.</span><span class="stem">This source is about _____, which connects to the essential question by _____.</span></div>
+<div class="practice-row">
+  <span class="pr-lbl">Practice — Choose one SOAPS element and write a complete sentence about a source you have studied:</span>
+  <span class="wi-lg"></span>
+</div>
+
+<h3>HIPP Analysis Frames <span class="skill">[SOURCING]</span></h3>
+<p style="font-size:9pt;color:#555;margin-bottom:4px"><em>Use when connecting a source's features to your historical argument.</em></p>
+<div style="margin:8px 0"><span class="stem">The historical context of this source is _____, which means it is most useful for arguing _____.</span><span class="stem">Because the intended audience was _____, the author emphasized _____ rather than _____.</span><span class="stem">The purpose of this source was to _____, which affects its reliability because _____.</span><span class="stem">The author's point of view as _____ shaped this source because _____.</span></div>
+<div class="practice-row">
+  <span class="pr-lbl">Practice — Write one HIPP sentence connecting a source feature to your argument:</span>
+  <span class="wi-lg"></span>
+</div>
+
+<div class="pb"></div>
+
+<h2>Part 2 — Academic Vocabulary Scaffold</h2>
+<p>These are the key analytical terms used in U.S. History writing tasks. Study the definition and the model sentence. Then write your own sentences in the practice section below the table.</p>
+
+<table class="analysis-table" style="font-size:9pt">
+<tr><th style="width:22%">Term <span style="font-weight:400;font-style:italic">(Término)</span></th><th style="width:38%">What it means</th><th style="width:40%">Model sentence — study this pattern</th></tr>
+<tr>
+<td><strong>Analyze</strong><br><em style="color:#27500A;font-size:8.5pt">Analizar</em></td>
+<td>Examine something closely and explain how its parts work together.</td>
+<td style="font-style:italic;color:#444">Analyze how the New Deal changed the relationship between the government and citizens.</td>
+</tr><tr>
+<td><strong>Argue</strong><br><em style="color:#27500A;font-size:8.5pt">Argumentar</em></td>
+<td>Make a claim and support it with evidence.</td>
+<td style="font-style:italic;color:#444">Argue whether Reconstruction was a success or failure for African Americans.</td>
+</tr><tr>
+<td><strong>Evaluate</strong><br><em style="color:#27500A;font-size:8.5pt">Evaluar</em></td>
+<td>Judge how important, successful, or valid something is, using evidence.</td>
+<td style="font-style:italic;color:#444">Evaluate the extent to which the Civil Rights Act achieved its goals.</td>
+</tr><tr>
+<td><strong>Compare</strong><br><em style="color:#27500A;font-size:8.5pt">Comparar</em></td>
+<td>Identify both similarities and differences between two things.</td>
+<td style="font-style:italic;color:#444">Compare Reagan's economic policies to FDR's New Deal programs.</td>
+</tr><tr>
+<td><strong>Explain</strong><br><em style="color:#27500A;font-size:8.5pt">Explicar</em></td>
+<td>Describe clearly how or why something happened.</td>
+<td style="font-style:italic;color:#444">Explain two causes of the Great Depression.</td>
+</tr><tr>
+<td><strong>Evidence</strong><br><em style="color:#27500A;font-size:8.5pt">Evidencia</em></td>
+<td>Specific facts, examples, or data that support a claim.</td>
+<td style="font-style:italic;color:#444">Use evidence from the primary source to support your claim.</td>
+</tr><tr>
+<td><strong>Claim</strong><br><em style="color:#27500A;font-size:8.5pt">Afirmación / Tesis</em></td>
+<td>Your main argument — a direct answer to the historical question.</td>
+<td style="font-style:italic;color:#444">Write a claim that directly answers the essential question.</td>
+</tr><tr>
+<td><strong>Primary source</strong><br><em style="color:#27500A;font-size:8.5pt">Fuente primaria</em></td>
+<td>A document, image, or artifact created during the historical period being studied.</td>
+<td style="font-style:italic;color:#444">Lincoln's Second Inaugural Address is a primary source that reveals his goals for Reconstruction.</td>
+</tr><tr>
+<td><strong>Secondary source</strong><br><em style="color:#27500A;font-size:8.5pt">Fuente secundaria</em></td>
+<td>A work created later by a historian analyzing the past.</td>
+<td style="font-style:italic;color:#444">A history textbook is a secondary source because it interprets and summarizes primary sources.</td>
+</tr><tr>
+<td><strong>Corroborate</strong><br><em style="color:#27500A;font-size:8.5pt">Corroborar</em></td>
+<td>Confirm or strengthen an argument using two or more independent sources.</td>
+<td style="font-style:italic;color:#444">Corroborate your argument about the causes of WWI using both the data chart and the primary source.</td>
+</tr><tr>
+<td><strong>Contextualize</strong><br><em style="color:#27500A;font-size:8.5pt">Contextualizar</em></td>
+<td>Connect a source or event to the broader historical situation surrounding it.</td>
+<td style="font-style:italic;color:#444">Contextualize the Emancipation Proclamation within the military and political pressures of the Civil War.</td>
+</tr><tr>
+<td><strong>Point of view</strong><br><em style="color:#27500A;font-size:8.5pt">Punto de vista</em></td>
+<td>The perspective shaped by a person's identity, experiences, and interests.</td>
+<td style="font-style:italic;color:#444">The factory owner and the factory worker had very different points of view on the 1894 Pullman Strike.</td>
+</tr>
+</table>
+
+<div class="practice-row" style="margin-top:10px">
+  <span class="pr-lbl">Practice — Choose three terms from the table. Write your own sentence using each one:</span>
+  <span style="font-size:8.5pt;font-weight:700;color:#1B2A4A;display:block;margin:6px 0 2px">1.</span>
+  <span class="wi-lg"></span>
+  <span style="font-size:8.5pt;font-weight:700;color:#1B2A4A;display:block;margin:6px 0 2px">2.</span>
+  <span class="wi-lg"></span>
+  <span style="font-size:8.5pt;font-weight:700;color:#1B2A4A;display:block;margin:6px 0 2px">3.</span>
+  <span class="wi-lg"></span>
+</div>
+
+<div class="pb"></div>
+
+<h2>Part 3 — Cross-Unit Graphic Organizers</h2>
+<p>Use these organizers with any unit assignment. Write the topic or event at the top before you begin. Fill in each box with specific historical content from your reading or notes.</p>
+
+<h3>Cause-and-Effect Organizer <span class="skill">[CAUSATION]</span></h3>
+<p style="font-size:9pt;color:#555;margin-bottom:6px"><em>Topic / Event:</em> <span style="display:inline-block;width:55%;border-bottom:1px solid #999;min-height:14px;vertical-align:bottom"></span></p>
+<div style="display:grid;grid-template-columns:1fr auto 1fr;gap:8px;margin:8px 0;align-items:center">
+  <div>
+    <div class="go-box"><div class="go-hdr">Cause 1</div><div class="go-body"><span class="go-prompt">Write one cause:</span></div></div>
+    <div class="go-box" style="margin-top:8px"><div class="go-hdr">Cause 2</div><div class="go-body"><span class="go-prompt">Write one cause:</span></div></div>
+    <div class="go-box" style="margin-top:8px"><div class="go-hdr">Cause 3</div><div class="go-body"><span class="go-prompt">Write one cause:</span></div></div>
+  </div>
+  <div style="font-size:22pt;color:#1B2A4A;font-weight:700;text-align:center;padding:0 6px">→</div>
+  <div class="go-box"><div class="go-hdr">Effect (the historical event or outcome)</div><div class="go-body" style="min-height:110px"><span class="go-prompt">Write the event or result:</span></div></div>
+</div>
+<div class="practice-row">
+  <span class="pr-lbl">Which cause was most important? Write one sentence explaining why:</span>
+  <span class="wi-lg"></span>
+</div>
+
+<h3>Comparison T-Chart <span class="skill">[COMPARISON]</span></h3>
+<p style="font-size:9pt;color:#555;margin-bottom:6px"><em>Topic:</em> <span style="display:inline-block;width:55%;border-bottom:1px solid #999;min-height:14px;vertical-align:bottom"></span></p>
+<div class="go-grid" style="margin:8px 0">
+  <div class="go-box"><div class="go-hdr">Position / Group A: ___________________</div>
+    <div class="go-body" style="min-height:80px"><span class="go-prompt">List features unique to Group A:</span></div></div>
+  <div class="go-box"><div class="go-hdr">Position / Group B: ___________________</div>
+    <div class="go-body" style="min-height:80px"><span class="go-prompt">List features unique to Group B:</span></div></div>
+</div>
+<div class="go-box"><div class="go-hdr">What both had in common</div>
+  <div class="go-body" style="min-height:50px"><span class="go-prompt">List at least two shared features:</span></div></div>
+<div class="practice-row" style="margin-top:8px">
+  <span class="pr-lbl">What was the most important difference? Write one sentence:</span>
+  <span class="wi-lg"></span>
+</div>
+
+<h3>Continuity and Change Organizer <span class="skill">[CCOT]</span></h3>
+<p style="font-size:9pt;color:#555;margin-bottom:6px"><em>Topic / Era:</em> <span style="display:inline-block;width:55%;border-bottom:1px solid #999;min-height:14px;vertical-align:bottom"></span></p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0">
+  <div class="go-box"><div class="go-hdr">Before [Date: ________]</div>
+    <div class="go-body" style="min-height:70px"><span class="go-prompt">What was happening before?</span></div></div>
+  <div class="go-box"><div class="go-hdr">After [Date: ________]</div>
+    <div class="go-body" style="min-height:70px"><span class="go-prompt">What was different after?</span></div></div>
+</div>
+<div class="go-grid" style="margin-top:6px">
+  <div class="go-box"><div class="go-hdr">What CHANGED</div>
+    <div class="go-body" style="min-height:50px"><span class="go-prompt">List what changed:</span></div></div>
+  <div class="go-box"><div class="go-hdr">What STAYED THE SAME</div>
+    <div class="go-body" style="min-height:50px"><span class="go-prompt">List what did not change:</span></div></div>
+</div>
+<div class="practice-row" style="margin-top:8px">
+  <span class="pr-lbl">What was the most significant change? Write one sentence using a CCOT frame from Part 1:</span>
+  <span class="wi-lg"></span>
+</div>
+
+<h3>SOAPS + HIPP Combined Analysis Form <span class="skill">[SOURCING]</span></h3>
+<p style="font-size:9pt;color:#555;margin-bottom:6px"><em>Source title / description:</em> <span style="display:inline-block;width:50%;border-bottom:1px solid #999;min-height:14px;vertical-align:bottom"></span></p>
+<table class="analysis-table" style="margin:8px 0">
+<tr><th style="width:16%">SOAPS</th><th style="width:34%">My Analysis</th><th style="width:16%">HIPP</th><th>My Analysis — Why It Matters for My Argument</th></tr>
+<tr><td>S — Speaker</td><td class="fill"></td><td>H — Historical Context</td><td class="fill"></td></tr>
+<tr><td>O — Occasion</td><td class="fill"></td><td>I — Intended Audience</td><td class="fill"></td></tr>
+<tr><td>A — Audience</td><td class="fill"></td><td>P — Purpose</td><td class="fill"></td></tr>
+<tr><td>P — Purpose</td><td class="fill"></td><td>P — Point of View</td><td class="fill"></td></tr>
+<tr><td>S — Subject</td><td class="fill"></td><td colspan="2" style="background:#fffdf5;font-size:9pt;padding:6px 9px">
+  <span style="display:block;font-weight:700;font-size:8.5pt;color:#1B2A4A;margin-bottom:3px">ARGUMENTATIVE CONNECTION:</span>
+  <em style="font-size:8.5pt;color:#555">"Because [HIPP feature], this source is useful for arguing _____."</em>
+</td></tr>
+</table>
+<span class="wi-box"></span>
+
+<h2>Part 4 — Era-by-Era Word Wall</h2>
+<p>Organized by the 10 units of the course. Each term is followed by a student-friendly definition and the Spanish translation.</p>
+
+<div style="columns:2;column-gap:14px;margin:10px 0">
+<div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Reconstruction <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Reconstrucción</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The period 1865–1877 when the U.S. tried to reunite after the Civil War and define rights for freed people.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Freedmen <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Libertos</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">African Americans freed from slavery after the Civil War.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Jim Crow laws <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Leyes Jim Crow</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">State laws enforcing racial segregation in the South after 1877.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Sharecropping <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Aparcería</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">A system keeping many freed people in poverty by working land they didn't own for a share of the crops.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Industrialization <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Industrialización</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The shift from farm-based to factory-based economy powered by railroads and machines.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Labor union <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Sindicato</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">An organization of workers that bargains for better pay and conditions.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Monopoly <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Monopolio</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">One company controlling an entire industry, eliminating competition.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Immigration <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Inmigración</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The movement of people from other countries to settle in the U.S., especially 1880–1920.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Suffrage <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Sufragio</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The right to vote.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Progressivism <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Progresismo</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">A reform movement seeking to reduce inequality through government regulation.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Muckraker <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Periodista de denuncia</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">A journalist who exposed corruption and injustice in American society.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Amendment <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Enmienda</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">A change or addition to the U.S. Constitution.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Neutrality <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Neutralidad</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">Not taking sides in a war or conflict.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Propaganda <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Propaganda</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">Information designed to influence public opinion, often one-sided.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Isolationism <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Aislacionismo</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The belief that the U.S. should stay out of foreign conflicts and alliances.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Migration <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Migración</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The movement of large groups of people from one region to another — e.g., the Great Migration of African Americans to Northern cities.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Depression <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Depresión económica</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">A severe economic crisis with high unemployment, falling prices, and bank failures.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Unemployment <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Desempleo</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The condition of being unable to find work despite wanting to.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">New Deal <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Nuevo Trato</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">FDR's programs designed to provide relief, recovery, and reform during the Great Depression.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Federal government <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Gobierno federal</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The national government of the United States, as opposed to state governments.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Democracy <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Democracia</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">A system of government in which citizens elect representatives and have protected rights.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Fascism <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Fascismo</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">An extreme nationalist, authoritarian political system; the ideology of Nazi Germany and Mussolini's Italy.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Internment <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Internamiento</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The forced detention of a group of people — e.g., Japanese Americans during WWII.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Segregation <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Segregación</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The forced separation of racial groups in public spaces, schools, and the military.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Civil rights <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Derechos civiles</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The rights of citizens to political and social freedom and equality.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Nonviolent protest <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Protesta no violenta</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">A strategy of peaceful civil disobedience to challenge unjust laws.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Containment <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Contención</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The U.S. foreign policy of preventing the spread of communism.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Legislation <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Legislación</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">Laws passed by Congress.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Escalation <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Escalada</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">A gradual increase in military involvement or conflict.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Credibility gap <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Brecha de credibilidad</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The growing gap between what the government said about Vietnam and what the public learned was actually happening.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Impeachment <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Juicio político</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The process by which Congress can formally charge a president with misconduct.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Inflation <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Inflación</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">A general rise in prices, reducing the purchasing power of money.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Deregulation <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Desregulación</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">Reducing government rules and oversight of businesses.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Tax cut <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Reducción de impuestos</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">A reduction in the taxes that individuals or businesses pay to the government.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Cold War <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Guerra Fría</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The tense standoff between the U.S. and Soviet Union from 1947 to 1991.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Globalization <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Globalización</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The increasing economic and cultural connections between countries worldwide.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Terrorism <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Terrorismo</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The use of violence against civilians to create fear and achieve political goals.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Civil liberties <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Libertades civiles</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">Rights and freedoms protected by law, such as freedom of speech and protection from unreasonable search.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Polarization <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Polarización</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">The increasing division between political groups, making compromise more difficult.</div>
+</div><div style="break-inside:avoid;margin-bottom:8px;border-left:3px solid #1B2A4A;
+                              padding-left:8px">
+<div style="font-weight:700;font-size:9.5pt;color:#1B2A4A">Surveillance <span style="font-size:8.5pt;
+  color:#27500A;font-weight:400">/ Vigilancia</span></div>
+<div style="font-size:9pt;color:#333;line-height:1.5">Monitoring or watching people's activities, often by the government.</div>
+</div>
+</div>
+
+</div><!-- end pg -->
+
+<div class="foot">
+  <div><strong>TroopToTeacher Technologies LLC</strong> · ELL/ESL Support Packet · © 2026</div>
+  <div>U.S. History US.01–US.95 · All 10 Units · Companion to Version A Worksheets</div>
+</div>
+
+</body>
+</html>

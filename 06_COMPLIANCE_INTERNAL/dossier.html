@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Waiver-Readiness Dossier — TroopToTeacher Technologies LLC</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#e8e8e8}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:#fff;color:#111;
+  width:8.5in;margin:.18in auto;box-shadow:0 3px 32px rgba(0,0,0,.28);font-size:9.5pt;line-height:1.7}
+@page{size:letter portrait;margin:.62in .68in .58in}
+@media print{html{background:#fff}body{margin:0;box-shadow:none}
+  .no-print{display:none!important}
+  .page-break{page-break-before:always;padding-top:.35in}
+  section{break-inside:avoid}
+  .checklist-wrap{break-inside:avoid}
+  table{break-inside:auto}tr{break-inside:avoid;break-after:auto}}
+.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;border:none;
+  border-radius:6px;padding:8px 16px;font-size:11px;font-weight:700;cursor:pointer;z-index:99;
+  font-family:'Source Sans 3',Arial,sans-serif;letter-spacing:.03em}
+
+/* ─── COVER ─── */
+.cover{background:#1B2A4A;min-height:11in;display:flex;flex-direction:column;
+  justify-content:center;align-items:center;text-align:center;padding:.9in .8in}
+.cover-rule{width:60px;height:3px;background:#C9A227;margin:0 auto 22px}
+.cover-eye{font-size:8.5pt;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  color:#C9A227;margin-bottom:14px}
+.cover h1{font-family:'Merriweather',Georgia,serif;font-size:24pt;font-weight:700;
+  color:#fff;line-height:1.18;margin-bottom:12px;max-width:6in}
+.cover .cover-sub{font-size:12pt;color:#B5D4F4;margin-bottom:6px}
+.cover .cover-tag{font-size:9.5pt;color:#7fa8cc;margin-bottom:40px;font-style:italic}
+.cover-notice{background:rgba(201,162,39,.12);border:1.5px solid rgba(201,162,39,.45);
+  border-radius:6px;padding:16px 22px;max-width:5.4in;margin:0 auto 40px;text-align:left}
+.cover-notice .nt{font-size:8pt;font-weight:700;text-transform:uppercase;letter-spacing:.12em;
+  color:#C9A227;margin-bottom:7px}
+.cover-notice p{font-size:9.5pt;color:rgba(255,255,255,.82);line-height:1.6}
+.cover-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:5.4in;margin:0 auto 36px;width:100%}
+.cm-box{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);
+  border-radius:5px;padding:12px;text-align:center}
+.cm-box .cmn{font-size:16pt;font-weight:700;color:#C9A227;display:block;line-height:1}
+.cm-box .cml{font-size:8pt;color:rgba(255,255,255,.65);margin-top:3px;line-height:1.4}
+.cover-auth{font-size:8.5pt;color:rgba(255,255,255,.5);line-height:1.8}
+.cover-auth strong{color:#C9A227}
+
+/* ─── Headers ─── */
+.sec-banner{background:#1B2A4A;color:#fff;padding:9px .68in 7px;
+  display:flex;justify-content:space-between;align-items:center}
+.sec-banner h2{font-size:12pt;font-weight:700;color:#fff}
+.sec-banner .sec-num{background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+  border-radius:2px;padding:1px 10px}
+.gold-strip{background:#C9A227;padding:4px .68in;font-size:8pt;font-weight:700;
+  color:#3D2200;display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}
+
+/* ─── Body ─── */
+.pg{padding:.28in .68in .24in}
+h3{font-size:11pt;font-weight:700;color:#1B2A4A;margin:18px 0 7px;
+   padding-bottom:3px;border-bottom:1.5px solid #1B2A4A}
+h4{font-size:10pt;font-weight:700;color:#2A3F5E;margin:14px 0 5px}
+p{margin-bottom:9px;font-size:9.5pt;line-height:1.7}
+ul,ol{margin:5px 0 11px 20px}li{margin-bottom:5px;font-size:9.5pt;line-height:1.65}
+
+/* ─── Status badges ─── */
+.s-complete{display:inline-block;background:#27500A;color:#fff;font-size:7.5pt;
+  font-weight:700;border-radius:2px;padding:1px 8px;white-space:nowrap}
+.s-substantial{display:inline-block;background:#1B2A4A;color:#fff;font-size:7.5pt;
+  font-weight:700;border-radius:2px;padding:1px 8px;white-space:nowrap}
+.s-partial{display:inline-block;background:#C9A227;color:#3D2200;font-size:7.5pt;
+  font-weight:700;border-radius:2px;padding:1px 8px;white-space:nowrap}
+.s-pending{display:inline-block;background:#ddd;color:#555;font-size:7.5pt;
+  font-weight:700;border-radius:2px;padding:1px 8px;white-space:nowrap}
+
+/* ─── Callouts ─── */
+.callout{padding:9px 14px;margin:11px 0;border-radius:0 4px 4px 0;font-size:9.5pt;line-height:1.65}
+.cb{background:#f0f5fb;border-left:4px solid #1B2A4A}
+.cg{background:#fffdf5;border-left:4px solid #C9A227}
+.cr{background:#eaf3de;border-left:4px solid #3B6D11}
+.cd{background:#fdf0f0;border-left:4px solid #8B1A1A}
+.callout strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;margin-bottom:3px}
+.cb strong{color:#1B2A4A}.cg strong{color:#633806}.cr strong{color:#27500A}.cd strong{color:#6B1020}
+
+/* ─── Checklist table ─── */
+.cl-table{width:100%;border-collapse:collapse;font-size:8.5pt;margin:12px 0}
+.cl-table th{background:#1B2A4A;color:#fff;padding:6px 9px;text-align:left;font-size:8pt;
+  font-weight:700;vertical-align:top}
+.cl-table td{padding:6px 9px;border-bottom:1px solid #eee;vertical-align:top;line-height:1.5}
+.cl-table tr:nth-child(even) td{background:#f8f8f8}
+.cl-table td:first-child{font-weight:700;color:#1B2A4A}
+.cl-table .law{font-family:'Courier New',monospace;font-size:8pt;color:#1B2A4A;
+  background:#e8eef7;padding:1px 5px;border-radius:2px;display:inline-block;margin-bottom:3px}
+.cl-table .artifact{font-size:8pt;color:#555;font-style:italic}
+
+/* ─── Law reference box ─── */
+.law-box{border:1.5px solid #c8d6e8;border-radius:4px;padding:10px 14px;margin:10px 0;background:#f9fafb}
+.lb-code{font-family:'Courier New',monospace;font-size:8.5pt;font-weight:700;
+  color:#1B2A4A;background:#dce9f7;display:inline-block;padding:1px 8px;border-radius:2px;margin-bottom:5px}
+.lb-text{font-size:9pt;color:#333;line-height:1.65;border-left:3px solid #C9A227;
+  padding-left:10px;font-style:italic;margin:6px 0}
+.lb-analysis{font-size:9pt;color:#27500A;margin-top:5px;font-weight:600;line-height:1.55}
+
+/* ─── Evidence grid ─── */
+.ev-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}
+.ev-card{border:1px solid #ddd;border-radius:4px;overflow:hidden}
+.ev-card-hdr{background:#1B2A4A;color:#fff;padding:5px 11px;font-size:9pt;font-weight:700;
+  display:flex;justify-content:space-between;align-items:center}
+.ev-card-body{padding:8px 11px;font-size:9pt;line-height:1.55}
+.ev-card-body ul{margin-left:14px}
+.ev-card-body li{margin-bottom:3px;font-size:9pt}
+
+/* ─── Stat grid ─── */
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:10px 0}
+.stat-box{background:#f5f7fa;border:1px solid #c0cce0;border-radius:4px;padding:9px;text-align:center}
+.stat-box .n{font-size:17pt;font-weight:700;color:#1B2A4A;display:block;line-height:1}
+.stat-box .l{font-size:8pt;color:#555;margin-top:3px;line-height:1.35}
+
+/* ─── Footer ─── */
+.foot{background:#1B2A4A;color:rgba(255,255,255,.5);padding:6px .68in;font-size:7.5pt;
+  display:flex;justify-content:space-between;align-items:center}
+.foot strong{color:#C9A227}
+</style>
+</head>
+<body>
+<button class="no-print" onclick="window.print()">&#x2399; Print Dossier</button>
+
+<!-- ══════════════ COVER ══════════════ -->
+<div class="cover">
+  <div class="cover-rule"></div>
+  <div class="cover-eye">Waiver-Readiness &amp; State Review Evidence Dossier</div>
+  <h1>TroopToTeacher Technologies LLC<br>Tennessee Instructional Materials<br>Review-Readiness Package</h1>
+  <div class="cover-sub">U.S. History: Reconstruction to Present — Grades 9–12</div>
+  <div class="cover-tag">District-Neutral &nbsp;·&nbsp; Compliance Documentation &nbsp;·&nbsp; April 2026</div>
+
+  <div class="cover-notice">
+    <div class="nt">Important Notice — Read Before Using This Document</div>
+    <p>This dossier is a documentation completeness package prepared by TroopToTeacher Technologies LLC to facilitate review by Tennessee Local Education Agencies (LEAs) and state reviewers. <strong>This package does not constitute state approval of any kind</strong>, does not guarantee waiver approval, does not represent official TDOE or Textbook Commission endorsement, and is not a substitute for formal LEA submission or State Board of Education action. All statutory interpretations herein should be verified with the district's legal counsel before reliance.</p>
+  </div>
+
+  <div class="cover-meta">
+    <div class="cm-box"><span class="cmn">10</span><span class="cml">Complete Instructional Units with all required components</span></div>
+    <div class="cm-box"><span class="cmn">44/44</span><span class="cml">Tennessee TCAP EOC-tested standards documented (2021–2025)</span></div>
+    <div class="cm-box"><span class="cmn">447</span><span class="cml">Assessment questions aligned and calibrated to Tennessee standards</span></div>
+  </div>
+
+  <div class="cover-auth">
+    <strong>TroopToTeacher Technologies LLC</strong> &nbsp;·&nbsp; Sean Reynolds, M.Ed. &nbsp;·&nbsp; USAF Master Sergeant (E-7), Retired<br>
+    Tennessee Level 5 Educator &nbsp;·&nbsp; Franklin, Tennessee &nbsp;·&nbsp; trooptoteacher.com &nbsp;·&nbsp; © 2026
+  </div>
+</div>
+
+<!-- ══════════════ SECTION 1: EXECUTIVE PURPOSE ══════════════ -->
+<div class="page-break">
+<div class="sec-banner"><h2>Section 1 — Executive Purpose Statement</h2><div class="sec-num">§1</div></div>
+<div class="gold-strip"><span>TroopToTeacher Technologies LLC &nbsp;·&nbsp; Tennessee Waiver-Readiness Dossier</span><span>Not a claim of state approval</span></div>
+<div class="pg">
+
+<h3>1.1 Purpose of This Dossier</h3>
+<p>This package is a <strong>Waiver-Readiness and State Review Evidence Dossier</strong> prepared by TroopToTeacher Technologies LLC for <em>U.S. History: Reconstruction to Present</em>, a comprehensive instructional materials package for Tennessee public school grades 9–12.</p>
+
+<p>The dossier is designed to serve a single purpose: to demonstrate that TroopToTeacher Technologies LLC has already assembled the documentation, alignment evidence, and instructional infrastructure that a Tennessee Local Education Agency (LEA) or state reviewer would typically need to evaluate whether these materials are complete enough to support a waiver request, supplemental adoption, or formal state review pathway.</p>
+
+<p>This dossier is <strong>not</strong> a district sales document. It is <strong>not</strong> a claim of state approval. It is <strong>not</strong> tied to any specific LEA or adoption cycle. It is a compliance-oriented evidence package organized to reduce reviewer workload and demonstrate documentation completeness.</p>
+
+<div class="callout cb">
+  <strong>What This Dossier Is</strong>
+  A structured collection of documentation demonstrating: (1) standards alignment completeness; (2) instructional design quality consistent with Tennessee rubric criteria; (3) statutory compliance with applicable Tennessee Code provisions; (4) materials completeness across all required components; and (5) accessibility provisions for students with disabilities and English language learners.
+</div>
+
+<div class="callout cd">
+  <strong>What This Dossier Is Not</strong>
+  This dossier does not constitute state approval of TroopToTeacher Technologies LLC materials by the Tennessee Textbook and Instructional Materials Quality Commission, the State Board of Education, or the Tennessee Department of Education. No waiver is guaranteed by the existence or submission of this package. LEAs must follow their own legal counsel's guidance and the applicable waiver process under State Board Rule 0520-01-18.
+</div>
+
+<h3>1.2 Legal Pathways This Package Supports</h3>
+<p>Tennessee law provides multiple pathways under which TroopToTeacher Technologies LLC materials may be used in public school classrooms:</p>
+
+<div class="ev-grid">
+  <div class="ev-card">
+    <div class="ev-card-hdr">Path A: Supplemental Use <span class="s-complete">Available Now</span></div>
+    <div class="ev-card-body">
+      <p><strong>Authority:</strong> TCA § 49-6-2202(a)(3)</p>
+      <p>Tennessee law expressly exempts supplemental instructional materials from the state-approved adoption list requirement. TroopToTeacher Technologies LLC materials may be used as supplemental materials alongside a district's primary adopted textbook without Textbook Commission approval or State Board waiver.</p>
+      <p><strong>Limitation:</strong> Materials classified as supplemental may not serve as the primary 180-day instructional program for a course.</p>
+    </div>
+  </div>
+  <div class="ev-card">
+    <div class="ev-card-hdr">Path B: Primary Use via Waiver <span class="s-partial">Requires LEA Action</span></div>
+    <div class="ev-card-body">
+      <p><strong>Authority:</strong> TCA § 49-6-2206; State Board Rule 0520-01-18</p>
+      <p>An LEA wishing to use TroopToTeacher Technologies LLC materials as its primary instructional program for U.S. History (in place of a commission-approved text) must apply to the State Board of Education for a waiver. This dossier is designed to reduce the documentation burden of that waiver application.</p>
+      <p><strong>Key requirement:</strong> Waiver applications must include a completed Schedule F rubric and standards alignment table.</p>
+    </div>
+  </div>
+  <div class="ev-card">
+    <div class="ev-card-hdr">Path C: Commission Submission <span class="s-pending">Future Cycle</span></div>
+    <div class="ev-card-body">
+      <p><strong>Authority:</strong> TCA § 49-6-2201; TCA § 49-6-2202</p>
+      <p>TroopToTeacher Technologies LLC intends to submit materials for formal Textbook Commission review during the appropriate Social Studies adoption cycle. This dossier documents the preparation completed toward that submission. Contact TDOE at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9edffdfffafbf3f7fdedb0d7f0edeaecebfdeaf7f1f0deeaf0b0f9f1e8">[email&#160;protected]</a> for current cycle timing.</p>
+    </div>
+  </div>
+  <div class="ev-card">
+    <div class="ev-card-hdr">Path D: HQIM Designation <span class="s-partial">In Progress</span></div>
+    <div class="ev-card-body">
+      <p><strong>Authority:</strong> TCA § 49-6-2207(e); TDOE HQIM Initiative</p>
+      <p>Districts completing a supplemental HQIM adoption must submit ED-2153 (board-signed) and ED-5099 (adoption list) to TDOE pursuant to T.C.A. § 49-6-2207(e). Deadline for Schedule E cycle: June 30, 2026. TroopToTeacher Technologies LLC has prepared a pre-filled ED-5099 product information sheet for district use.</p>
+    </div>
+  </div>
+</div>
+
+<h3>1.3 Author Qualifications Summary</h3>
+<p>TroopToTeacher Technologies LLC was founded and the instructional materials were authored by <strong>Sean Reynolds, M.Ed.</strong>, who brings the following qualifications directly relevant to Tennessee instructional materials review:</p>
+<ul>
+  <li><strong>Tennessee Level 5 Educator</strong> — Tennessee's highest educator effectiveness designation</li>
+  <li><strong>Active classroom teacher</strong> — currently teaching 11th grade U.S. History (Post-Reconstruction to Present), the exact course these materials serve; also taught 8th grade U.S. History and 7th grade World History</li>
+  <li><strong>Master of Education (M.Ed.)</strong> — graduate-level training in curriculum design and instructional assessment</li>
+  <li><strong>U.S. Air Force Master Sergeant (E-7), Retired — 20 years active duty</strong> — including co-authorship of binding Air Force Technical Orders under operational conditions; the same standard of accuracy and documentation applied to these materials</li>
+  <li><strong>Subject-matter expert</strong> in Tennessee-specific content including the TVA, Nashville Sit-ins, Clinton High School, Fort Campbell, Howard Baker, and all other required Tennessee content embedded throughout all 10 units</li>
+</ul>
+
+</div>
+<div class="foot"><div><strong>TroopToTeacher Technologies LLC</strong> &nbsp;·&nbsp; Waiver-Readiness Dossier &nbsp;·&nbsp; © 2026</div><div>Section 1: Executive Purpose</div></div>
+</div>
+
+<!-- ══════════════ SECTION 2: MASTER REVIEW CHECKLIST ══════════════ -->
+<div class="page-break">
+<div class="sec-banner"><h2>Section 2 — Master Review Checklist</h2><div class="sec-num">§2</div></div>
+<div class="gold-strip"><span>Status: Complete · Substantially Complete · Partial · Pending</span><span>Schedule F Rubric Aligned · State Board Rule 0520-01-18</span></div>
+<div class="pg">
+
+<div class="callout cg">
+  <strong>How to Use This Checklist</strong>
+  This table maps each Tennessee adoption/waiver requirement to the specific evidence TroopToTeacher Technologies LLC has assembled. Reviewers may use the "Proof Artifact" column to locate specific documentation. Status labels reflect the current completion state of each component as of April 2026.
+</div>
+
+<table class="cl-table">
+<tr>
+  <th style="width:17%">Requirement</th>
+  <th style="width:14%">Legal / Process Basis</th>
+  <th style="width:14%">Why It Matters</th>
+  <th style="width:18%">Evidence Included</th>
+  <th style="width:17%">Proof Artifact</th>
+  <th style="width:8%">Status</th>
+  <th style="width:12%">Reviewer Notes</th>
+</tr>
+<tr>
+  <td>100% Tennessee Academic Standards coverage — U.S. History</td>
+  <td><div class="law">TCA §49-6-2202</div><div class="law">Schedule F Table 1 (Gateway)</div></td>
+  <td>Gateway criterion — failure to cover all standards results in automatic rejection under Schedule F</td>
+  <td>Standards Alignment Matrix mapping every standard to unit, section, activity, and assessment; EOC frequency table (2021–2025)</td>
+  <td class="artifact">Tennessee Standards Alignment Matrix (standards-matrix.html); TCAP EOC Alignment Validation (eoc-validation.html)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>44/44 EOC-tested standards documented; US.REC through US.44 mapped</td>
+</tr>
+<tr>
+  <td>TCA § 49-6-1028(b): Virtues of capitalism and constitutional republic form of government</td>
+  <td><div class="law">TCA §49-6-1028(b)</div><div class="law">Adoption requirement for U.S. History</div></td>
+  <td>Statutory requirement for all U.S. History materials; failure constitutes TCA non-compliance</td>
+  <td>Units 2 (Gospel of Wealth/capitalism), 5 (New Deal debate/government's role), 9 (Reaganomics/free market), 10 (21st-century capitalism); constitutional republic addressed throughout</td>
+  <td class="artifact">Standards Alignment Matrix; Unit 2, 5, 9, 10 chapter files; Vendor Attestation (compliance.html)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>Explicitly documented in standards matrix; capitalism and constitutional republic addressed in multiple units</td>
+</tr>
+<tr>
+  <td>TCA § 49-6-1006: Black history and culture integrated throughout</td>
+  <td><div class="law">TCA §49-6-1006</div></td>
+  <td>Required by statute; must be integrated, not siloed in a single chapter</td>
+  <td>Black history integrated across all 10 units: Reconstruction (Units 1–2), WWII Tuskegee Airmen (Unit 6), Nashville Sit-ins/Clinton Twelve (Unit 7), and more</td>
+  <td class="artifact">All unit files; Scope &amp; Sequence (scope-sequence.html); Standards Matrix</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>Integrated, not siloed; verified through scope and sequence review</td>
+</tr>
+<tr>
+  <td>TCA § 49-6-1019: No prohibited concepts in instruction or supplemental materials</td>
+  <td><div class="law">TCA §49-6-1019</div></td>
+  <td>Applies to supplemental materials; violations can result in state fund withholding</td>
+  <td>Conservative compliance language throughout; SOAPS primary source framework avoids advocacy; multiple perspectives required for all contested historical questions; no content attributes collective guilt by race</td>
+  <td class="artifact">All unit primary source spotlights; methodology documentation; attorney review recommended before distribution</td>
+  <td><span class="s-substantial">Substantially Complete</span></td>
+  <td>[FLAG: VLAA attorney review of Units 1, 7, 8 recommended before commercial distribution]</td>
+</tr>
+<tr>
+  <td>Common Core prohibition: materials not aligned exclusively to Common Core State Standards</td>
+  <td><div class="law">TCA §49-6-2206(b)(2)</div></td>
+  <td>Applies to both primary and supplemental materials; use of Common Core-exclusive materials prohibited in TN public schools</td>
+  <td>All materials explicitly aligned to Tennessee Academic Standards (2016 current; 2024 revised); crosswalk documentation confirms no Common Core exclusivity</td>
+  <td class="artifact">Standards Alignment Matrix; front matter compliance statements in all unit files</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>Tennessee Academic Standards alignment confirmed; 2024 revised standards crosswalk included</td>
+</tr>
+<tr>
+  <td>Essential Questions — open-ended, thought-provoking, inquiry-aligned</td>
+  <td><div class="law">Schedule F Table 2</div><div class="law">TDOE RFA March 2026</div></td>
+  <td>Required by Schedule F rubric; must be present and authentically inquiry-driven</td>
+  <td>One essential question per unit; aligned to "big ideas" of each era; 50 supporting questions across 10 units</td>
+  <td class="artifact">All unit cover pages; Scope &amp; Sequence (scope-sequence.html)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>Essential question for each of 10 units; 3–5 supporting questions per unit</td>
+</tr>
+<tr>
+  <td>Social Studies Practices (SSPs) authentically embedded</td>
+  <td><div class="law">Schedule F Table 3</div><div class="law">TDOE RFA March 2026</div><div class="law">SSP.01–SSP.06</div></td>
+  <td>Must be authentically embedded — not superficial checkbox; RFA requires demonstration of how SSPs function within instruction</td>
+  <td>SSP integration notation in every unit; primary source spotlights with SOAPS (SSP.01–02); DBQ/CER tasks (SSP.04); geographic analysis (SSP.06); historical thinking questions (SSP.05)</td>
+  <td class="artifact">Standards Alignment Matrix SSP column; all unit files; Map Atlas (map-atlas.html)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>SSP.01–SSP.06 addressed across materials; focus SSP identified per unit</td>
+</tr>
+<tr>
+  <td>Primary source analysis with sourcing, contextualization, corroboration</td>
+  <td><div class="law">Schedule F Table 3</div><div class="law">SSP.01, SSP.02</div></td>
+  <td>Disciplinary literacy requirement; materials must engage students in authentic historical analysis</td>
+  <td>Minimum one primary source spotlight per unit with SOAPS framework, full citation, and 4–5 text-dependent analysis questions; 10+ total primary sources with attribution</td>
+  <td class="artifact">All unit primary source spotlights; Appendix C Primary Source Library (appendices-a-e.html)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>All primary sources are public domain or properly cited; no invented quotations</td>
+</tr>
+<tr>
+  <td>Multiple perspectives and diverse narratives meaningfully integrated</td>
+  <td><div class="law">Schedule F Table 2</div><div class="law">TCA §49-6-2202(c)(4)</div></td>
+  <td>Both rubric and statute require diverse perspectives; failure = score of 0 in this category</td>
+  <td>Women, African Americans, immigrant communities, working class, Native Americans, and Tennessee-specific populations represented across all 10 units; [MULTIPLE PERSPECTIVES] flags used throughout</td>
+  <td class="artifact">All unit narrative sections; scope and sequence diversity documentation</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>Diversity integrated across all units; not limited to designated "diversity" sections</td>
+</tr>
+<tr>
+  <td>ELL Supports: sentence starters, modified vocabulary, visual supports</td>
+  <td><div class="law">Schedule F Table 4</div></td>
+  <td>Accessibility requirement — every lesson must include ELL supports; failure = Table 4 score of 0</td>
+  <td>Sentence starters in every student activity; vocabulary boxes with student-friendly definitions before each unit; simplified graphic organizers; word wall vocabulary in appendix</td>
+  <td class="artifact">All unit student activity sections; Version A (Modified) differentiated assessments; Appendix M ELL Guide (appendices-f-n.html)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>Every unit and every lesson; Version A assessments specifically scaffolded for ELL</td>
+</tr>
+<tr>
+  <td>SWD Accommodations: chunked text, extended time guidance, simplified organizers</td>
+  <td><div class="law">Schedule F Table 4</div><div class="law">IDEA; ADA</div></td>
+  <td>Accessibility requirement — modifications for Students with Disabilities required in every lesson</td>
+  <td>Three-level differentiation (Version A = Modified/SWD, Version B = On-Level, Version C = Advanced) in all assessments; chunked text guidance; audio support notes; simplified graphic organizers in Appendix J</td>
+  <td class="artifact">Unit 10 Differentiated Assessment (all 3 versions); Appendix N Accommodations Guide (appendices-f-n.html)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>Three differentiation levels documented; Version A explicitly designed for SWD and below-level students</td>
+</tr>
+<tr>
+  <td>Formative assessments aligned to learning targets</td>
+  <td><div class="law">Schedule F Table 2</div><div class="law">EOC alignment</div></td>
+  <td>Review opportunities must be "frequent and varied"; assessments must mirror EOC format</td>
+  <td>447 questions across US.01–US.44; 5 questions minimum per standard; DOK 1–3 across all items; distractor analysis documented; TCAP EOC item format mirrored</td>
+  <td class="artifact">Interactive Question Bank (question-bank.html); Assessment Methodology (methodology.html)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>447 questions; multiple item types; answer keys with rubrics for all open-response items</td>
+</tr>
+<tr>
+  <td>Summative assessment: DBQ or Claim-Evidence-Reasoning task per unit</td>
+  <td><div class="law">Schedule F Table 2</div><div class="law">SSP.04</div></td>
+  <td>Evidence-based writing requirement; must be present to score Table 2 disciplinary literacy at level 2</td>
+  <td>DBQ-style summative task in every unit; Version C assessments include multi-document DBQ with 12-point rubric; CER tasks at DOK 3–4</td>
+  <td class="artifact">Unit 10 Differentiated Assessment Version C; all unit summative sections</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>DBQ and CER formats both present; APUSH-aligned Version C for advanced students</td>
+</tr>
+<tr>
+  <td>Geographic analysis tools and spatial reasoning activities</td>
+  <td><div class="law">Schedule F Table 3</div><div class="law">SSP.06</div></td>
+  <td>Geographic awareness SSP must be authentically addressed; maps required</td>
+  <td>Original SVG maps for all 10 units; map-based student activities with geographic analysis questions; TVA regional map; Western expansion map; Civil Rights movement sites; Vietnam; post-9/11 geography</td>
+  <td class="artifact">Map Atlas with Student Activities (map-atlas.html); Appendix D Map Atlas (appendices-a-e.html)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>10 original maps with student activities, DOK 2–3 analysis questions, and answer keys</td>
+</tr>
+<tr>
+  <td>Tennessee-specific content integrated throughout</td>
+  <td><div class="law">Tennessee Academic Standards</div><div class="law">TCA §49-6-2202(c)(4)</div></td>
+  <td>Not a checklist item but distinguishes TN-appropriate materials from national publishers</td>
+  <td>Andrew Johnson, KKK founding Pulaski, Coal Creek, Harry T. Burn, Scopes Trial, Grand Ole Opry, TVA, Oak Ridge, Cordell Hull, Nashville Sit-ins, Clinton High, Tent City, Highlander, Lorraine Motel, Fort Campbell, Howard Baker, Al Gore, NAFTA &amp; Tennessee</td>
+  <td class="artifact">All unit narrative sections (TN badge); Tennessee Required Content callouts in every unit; Appendix H Tennessee Reference (appendices-f-n.html)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>19+ Tennessee-specific content items; woven into narrative, not added as sidebar</td>
+</tr>
+<tr>
+  <td>Teacher-facing guidance: instructional notes, pacing, example responses, misconceptions</td>
+  <td><div class="law">TDOE RFA March 2026</div><div class="law">Schedule F Table 2</div></td>
+  <td>RFA explicitly requires teacher-facing guidance; rubric scores this under Instructional Focus</td>
+  <td>Teacher edition guidance in every unit: pacing notes (estimated days), example open-response answers, common student misconceptions, and discussion protocol suggestions</td>
+  <td class="artifact">All unit teacher edition sections; Assessment Methodology (methodology.html)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>Teacher guidance integrated into every unit; not a separate teacher edition that could be separated from student materials</td>
+</tr>
+<tr>
+  <td>Digital availability with printable option for every lesson</td>
+  <td><div class="law">Schedule F Table 4</div></td>
+  <td>Accessibility requirement — both digital and print must be available</td>
+  <td>Full textbook website (HTML; all devices); printable PDF available from each page; downloadable ZIP for offline use; print button on every page</td>
+  <td class="artifact">trooptoteacher.com textbook site; TTT_Textbook_Site_FULL_v2.zip (complete offline package)</td>
+  <td><span class="s-complete">Complete</span></td>
+  <td>Digital-native with print functionality; works offline once downloaded</td>
+</tr>
+<tr>
+  <td>ISBN registration</td>
+  <td><div class="law">TCA §49-6-2203 (Commission contracts)</div><div class="law">Publishing standards</div></td>
+  <td>Required for formal Textbook Commission submission; needed for library/distribution listing</td>
+  <td>ISBN registration in process at myidentifiers.com; 10 ISBNs planned (student edition, teacher edition, digital, app, and format variants)</td>
+  <td class="artifact">Pending — myidentifiers.com registration</td>
+  <td><span class="s-pending">Pending</span></td>
+  <td>Not required for supplemental adoption or waiver; required for formal Commission bid submission</td>
+</tr>
+<tr>
+  <td>Copyright registration</td>
+  <td><div class="law">17 U.S.C. § 411</div></td>
+  <td>Required to bring federal copyright infringement suit; statutory damages not available without registration before infringement</td>
+  <td>Copyright vested automatically at creation; formal registration at copyright.gov in process</td>
+  <td class="artifact">Statement of Authorship and AI Disclosure document; pending copyright.gov registration</td>
+  <td><span class="s-partial">Partial</span></td>
+  <td>Automatic copyright exists; formal registration recommended before first commercial sale</td>
+</tr>
+<tr>
+  <td>MLK Estate licensing for quoted material</td>
+  <td><div class="law">17 U.S.C. copyright law</div></td>
+  <td>MLK Estate controls rights; "Letter from Birmingham Jail" and other works require licensing for commercial use</td>
+  <td>Three "Coming Soon" placeholders in Unit 7 for MLK content; IPM Legal contact: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="026b6c646d426b726f6e6765636e2c616d6f">[email&#160;protected]</a> / (404) 526-8900</td>
+  <td class="artifact">Unit 7 placeholder notation; IPM Legal contact information</td>
+  <td><span class="s-partial">Partial</span></td>
+  <td>[FLAG: Must be resolved before commercial distribution. Contact IPM Legal immediately.]</td>
+</tr>
+</table>
+
+</div>
+<div class="foot"><div><strong>TroopToTeacher Technologies LLC</strong> &nbsp;·&nbsp; Waiver-Readiness Dossier &nbsp;·&nbsp; © 2026</div><div>Section 2: Master Review Checklist</div></div>
+</div>
+
+<!-- ══════════════ SECTION 3: TENNESSEE LAW ALIGNMENT ══════════════ -->
+<div class="page-break">
+<div class="sec-banner"><h2>Section 3 — Tennessee Law and Process Alignment</h2><div class="sec-num">§3</div></div>
+<div class="gold-strip"><span>TCA Title 49, Chapter 6, Part 22 &nbsp;·&nbsp; State Board Rule 0520-01-18 &nbsp;·&nbsp; As of April 2026</span><span>&#x26A0; Verify current text at tn.gov — statutes amended frequently</span></div>
+<div class="pg">
+
+<div class="callout cd">
+  <strong>Legal Disclaimer</strong>
+  This section reflects TroopToTeacher Technologies LLC's good-faith reading of Tennessee statutes as of April 2026. It is not legal advice. Tennessee textbook law is frequently amended and administrative guidance from TDOE and the Textbook Commission may differ from statutory text. All LEAs should consult legal counsel before relying on this analysis for adoption decisions.
+</div>
+
+<h3>3.1 TCA § 49-6-2202 — The Critical Supplemental Exemption</h3>
+
+<div class="law-box">
+  <div class="lb-code">TCA § 49-6-2202(a)(3)</div>
+  <div class="lb-text">"Except as provided in § 49-6-2206(b), this part does not prohibit the use of, or apply to, supplemental instructional materials."</div>
+  <div class="lb-analysis">&#9989; How this applies to TroopToTeacher Technologies LLC: When positioned as supplemental materials alongside a district's primary adopted textbook, TroopToTeacher Technologies LLC materials do not require Textbook Commission approval or a State Board waiver. This is the legally available pathway for immediate district use. The single restriction that applies even to supplementals is the Common Core prohibition in § 49-6-2206(b) — TroopToTeacher Technologies LLC is aligned to Tennessee Academic Standards, not Common Core.</div>
+</div>
+
+<div class="law-box">
+  <div class="lb-code">TCA § 49-6-2202(c)(4)</div>
+  <div class="lb-title">Diversity and Tennessee History Requirement</div>
+  <div class="lb-text">"In recommending textbooks and instructional materials for use in social studies, Tennessee history, American history or any related subject, the commission shall strive to recommend textbooks and instructional materials that accurately and comprehensively portray the full range of diversity and achievement of racial and ethnic minorities as well as the role and importance of religion in history."</div>
+  <div class="lb-analysis">&#9989; TroopToTeacher Technologies LLC compliance: Racial and ethnic minorities represented across all 10 units; religion's historical role (Puritanism, Social Gospel, Scopes Trial, Civil Rights Movement) addressed; Tennessee's diverse history — including African American political leaders, the Highlander Folk School, and the Nashville Sit-ins — prominently featured.</div>
+</div>
+
+<h3>3.2 TCA § 49-6-2207 — Local Board Adoption Process</h3>
+
+<div class="law-box">
+  <div class="lb-code">TCA § 49-6-2207(a)(1)</div>
+  <div class="lb-title">Primary Textbook — Must Be From Commission List (or Waiver)</div>
+  <div class="lb-text">"The local boards of education are authorized and required to adopt textbooks and instructional materials to be used in the public schools of their school districts, from the list of textbooks and instructional materials listed for adoption by the commission..."</div>
+  <div class="lb-analysis">&#x26A0; Implication for primary use: If a district intends to use TroopToTeacher Technologies LLC materials as its ONLY U.S. History instructional materials (replacing a commission-approved text), a State Board waiver is required under Rule 0520-01-18. This dossier is designed to support that waiver application. See Section 3.4 for the waiver process.</div>
+</div>
+
+<div class="law-box">
+  <div class="lb-code">TCA § 49-6-2207(c)(1)</div>
+  <div class="lb-title">Review Committee Composition</div>
+  <div class="lb-text">"Local boards of education shall appoint review committees... composed of teachers, or supervisors and teachers, and parents with children enrolled in the LEA... Teachers and supervisors shall have three (3) or more years of experience as teachers or supervisors in the public schools."</div>
+  <div class="lb-analysis">&#9989; TroopToTeacher Technologies LLC support: The District Adoption Compliance Package (compliance.html) includes an ED-2154 template for documenting the local committee. The author (Sean Reynolds, M.Ed., Tennessee Level 5, 5 years classroom experience, currently teaching 11th grade U.S. History) is available to serve as an expert committee member per § 49-6-2207(c)(1).</div>
+</div>
+
+<div class="law-box">
+  <div class="lb-code">TCA § 49-6-2207(e)</div>
+  <div class="lb-title">Reporting Obligation — Triggers ED-5099</div>
+  <div class="lb-text">"The director of schools... shall record a list of all textbooks or instructional materials adopted by the local board of education. Immediately, at the completion of the adoption process, the director shall forward a copy of the recorded adoption to the commissioner of education..."</div>
+  <div class="lb-analysis">&#9989; TroopToTeacher Technologies LLC support: Pre-filled ED-5099 product information sheet provided in the District Adoption Compliance Package. Deadline for Schedule E cycle: June 30, 2026. Submit via TDOE Formstack link to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="eeaf8d8f8a8b83878d9dc0a7809d9a9c9b8d9a878180ae9a80c0898198">[email&#160;protected]</a>.</div>
+</div>
+
+<h3>3.3 TCA § 49-6-2206 — Restrictions That Apply Even to Supplementals</h3>
+
+<div class="law-box">
+  <div class="lb-code">TCA § 49-6-2206(b)(2)(A)</div>
+  <div class="lb-title">Common Core Prohibition — Applies to All Materials Including Supplementals</div>
+  <div class="lb-text">"A teacher or principal in a public school of this state shall not use or permit to be used in the person's school, whether as a supplement to the LEA's or school's adopted textbooks and instructional materials or otherwise, textbooks or instructional materials created to align exclusively with the Common Core State Standards..."</div>
+  <div class="lb-analysis">&#9989; TroopToTeacher Technologies LLC is aligned to Tennessee Academic Standards (current 2016 standards and 2024 revised standards per crosswalk). These are Tennessee standards, not Common Core. No Common Core alignment is claimed, marketed, or present in these materials. Standards documentation confirms Tennessee alignment throughout.</div>
+</div>
+
+<div class="law-box">
+  <div class="lb-code">TCA § 49-6-2206(b)(1)</div>
+  <div class="lb-title">Fund Withholding for Violations</div>
+  <div class="lb-text">"If the commissioner of education finds that an LEA knowingly violated this section, then the commissioner shall withhold state funds, in an amount determined by the commissioner, from the LEA until the LEA is in compliance."</div>
+  <div class="lb-analysis">&#9989; TroopToTeacher Technologies LLC mitigates this risk for LEAs by: (1) confirming Tennessee standards alignment in every unit file; (2) providing a signed vendor attestation of compliance; and (3) documenting non-Common-Core status in the Standards Alignment Matrix. LEAs that use TroopToTeacher Technologies LLC materials as supplementals consistent with TCA § 49-6-2202(a)(3) face no fund withholding risk under this provision.</div>
+</div>
+
+<h3>3.4 State Board Rule 0520-01-18 — Waiver Process</h3>
+
+<div class="law-box">
+  <div class="lb-code">Tenn. Comp. R. &amp; Regs. 0520-01-18-.02(h)</div>
+  <div class="lb-title">Materials Not Reviewed by Commission — Waiver Submission Requirements</div>
+  <div class="lb-text">"For Textbooks and/or Instructional Materials that were not reviewed by the Textbook Commission, the Local Board shall submit: [1] A completed rubric from the local adoption committee... that explains how it will address the deficiencies identified... [and] a table indicating the alignment of the proposed Textbooks and/or Instructional Materials with each Tennessee Academic Standard in the relevant grade and subject."</div>
+  <div class="lb-analysis">&#9989; TroopToTeacher Technologies LLC waiver-support documentation: (1) Schedule F rubric self-assessment — completed and available; (2) Tennessee Standards Alignment table — available at standards-matrix.html; (3) EOC alignment verification — 44/44 standards, 5-year data — available at eoc-validation.html. An LEA pursuing a waiver for primary use of TroopToTeacher Technologies LLC materials has all required documentation available in this dossier.</div>
+</div>
+
+<h3>3.5 TCA § 49-6-1019 — Prohibited Concepts</h3>
+
+<div class="law-box">
+  <div class="lb-code">TCA § 49-6-1019</div>
+  <div class="lb-title">Prohibited Concepts in Instruction — Applies to Supplemental Materials</div>
+  <div class="lb-text">Prohibits instruction or supplemental materials that include or promote: (1) one race or sex is inherently superior; (2) an individual of one race bears responsibility for actions committed by others of the same race; (3) an individual should feel discomfort, guilt, or anguish based on race or sex; (4) moral character is determined by race or sex; and related concepts.</div>
+  <div class="lb-analysis">&#x26A0; TroopToTeacher Technologies LLC approach: Historical content in Units 1 (Reconstruction), 6 (WWII), and 7 (Civil Rights) requires careful compliance review under this statute. TroopToTeacher Technologies LLC's design philosophy — factual historical narrative, SOAPS primary source analysis, multiple perspectives, no advocacy or collective guilt framing — is intended to comply. However, a VLAA attorney review of these specific units is recommended before commercial distribution. Contact: Arts &amp; Business Council of Greater Nashville, (615) 254-0030, vlaa.org.</div>
+</div>
+
+<h3>3.6 TCA §§ 49-6-1202, 1203, 1205 — American History, Constitutions, Free Enterprise</h3>
+
+<div class="law-box">
+  <div class="lb-code">TCA §§ 49-6-1202, 1203, 1205</div>
+  <div class="lb-title">American History, Constitutions, and Free Enterprise Requirements</div>
+  <div class="lb-text">TCA § 49-6-1202 requires instruction in American history and government. § 49-6-1203 requires instruction in state and federal constitutions. § 49-6-1205 requires instruction in free enterprise systems.</div>
+  <div class="lb-analysis">&#9989; TroopToTeacher Technologies LLC compliance: American history is the subject of the entire 10-unit course. Constitutional provisions addressed in every applicable unit (13th–19th Amendments in Units 1–4; Constitutional crisis in Watergate Unit 8; 1st, 4th Amendment debates in Unit 10). Free enterprise: addressed explicitly in Units 2, 5, 9, 10 and documented in Standards Alignment Matrix. Three branches of government, legislative process, and how citizens shape government addressed across the scope and sequence.</div>
+</div>
+
+</div>
+<div class="foot"><div><strong>TroopToTeacher Technologies LLC</strong> &nbsp;·&nbsp; Waiver-Readiness Dossier &nbsp;·&nbsp; © 2026</div><div>Section 3: Tennessee Law Alignment</div></div>
+</div>
+
+<!-- ══════════════ SECTION 4: INSTRUCTIONAL COMPLETENESS ══════════════ -->
+<div class="page-break">
+<div class="sec-banner"><h2>Section 4 — Instructional Completeness Evidence</h2><div class="sec-num">§4</div></div>
+<div class="gold-strip"><span>Schedule F Tables 2, 3 &amp; 4 &nbsp;·&nbsp; TDOE RFA March 2026 &nbsp;·&nbsp; All 10 Units</span><span>Required components verified</span></div>
+<div class="pg">
+
+<h3>4.1 Schedule F Table 2 — Instructional Focus: Component Inventory</h3>
+<p>Every chapter in TroopToTeacher Technologies LLC materials must include all components listed in Schedule F Table 2. The following table documents the presence and location of each required component across all 10 units.</p>
+
+<table class="cl-table">
+<tr><th style="width:25%">Required Component</th><th style="width:25%">Schedule F Criterion</th><th style="width:25%">TroopToTeacher Technologies LLC Implementation</th><th style="width:15%">Location</th><th style="width:10%">Status</th></tr>
+<tr><td>Essential Question (open-ended, inquiry-driving)</td><td>Table 2 — Essential Questions</td><td>One EQ per unit; aligned to major historical theme; open-ended and thought-provoking</td><td>All unit cover pages; scope-sequence.html</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Supporting Questions (3–5, scaffolded)</td><td>Table 2 — Supporting Questions</td><td>3–5 per unit; build toward EQ; start with context, escalate to evaluation</td><td>All unit cover pages</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Core narrative text (1,500–2,500 words/section)</td><td>Content requirement</td><td>2–4 sections per unit; historically accurate; primary sources integrated; Tennessee connections woven throughout</td><td>All unit HTML files; unit-5-enhanced.html (model)</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Concepts Before Vocabulary (conceptual exploration first)</td><td>Table 2 — Concepts Before Vocabulary</td><td>Opening concept exploration activity in every unit precedes vocabulary introduction; Unit 5 example: "Rugged Individualism" scenario before defining terms</td><td>All unit concept launch sections</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Primary Source Spotlight (SOAPS, sourcing, corroboration)</td><td>Table 3 — SSP.01, SSP.02</td><td>Minimum one per unit; SOAPS framework; 4–5 text-dependent analysis questions; full attribution; public domain sources cited</td><td>All unit primary source sections; map-atlas.html</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Geographic analysis / map activity</td><td>Table 3 — SSP.06</td><td>Original SVG map per unit; geographic analysis student activity; DOK 2–3 questions; answer key</td><td>map-atlas.html; Appendix D</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Timeline activity</td><td>Table 2 — Connections Across Time</td><td>Unit timelines in each chapter; Master Timeline Appendix E spans 1865–present</td><td>appendices-a-e.html Appendix E</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Differentiation: On/Below/Above level</td><td>Table 4 — Accessibility</td><td>Three assessment versions: Version A (Modified/ELL/SWD), Version B (On-Level/TCAP), Version C (Advanced/DBQ)</td><td>Unit 10 differentiated assessment; all unit activities</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>ELL supports in every lesson</td><td>Table 4 — Accessibility</td><td>Sentence starters in all open-response questions; vocabulary boxes with student-friendly definitions; graphic organizer scaffolds in Version A</td><td>All unit student activity sections; appendices-f-n.html Appendix M</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>SWD accommodations in every lesson</td><td>Table 4 — Accessibility</td><td>Chunked text options; simplified graphic organizers; reduced option MC in Version A; extended time guidance; audio support notes</td><td>All unit activities; appendices-f-n.html Appendix N</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Formative assessment (5–10 questions per unit)</td><td>Table 2 — Review Opportunities</td><td>447 questions total; multiple question types; DOK 1–3; answer keys and distractor analysis; aligned to learning targets</td><td>question-bank.html; all unit assessment sections</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Summative assessment (DBQ or CER)</td><td>Table 2 — Disciplinary Literacy</td><td>DBQ-style extended response in all units; Version C includes 12-point DBQ rubric; CER scaffold in Version A</td><td>All unit summative sections; Unit 10 Version C assessment</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Discussion/Discourse structures</td><td>Table 2 — Student-Centered Learning</td><td>Accountable talk stems; Socratic seminar questions; Think-Pair-Share prompts; Appendix L Discussion Protocol Cards</td><td>All unit discussion sections; appendices-f-n.html Appendix L</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Cross-disciplinary connections (ELA, math, science, arts)</td><td>Table 2 — Connects Across Disciplines</td><td>ELA: argumentative writing, close reading; Math: unemployment graphs, GDP data; Science: TVA geography, environmental history; Arts: political cartoons, WPA murals, music history</td><td>scope-sequence.html cross-disciplinary section; all unit narrative files</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Cross-unit connections to prior and future content</td><td>Table 2 — Connections Across Content</td><td>Every unit includes explicit connections backward (spaced retrieval: "Unit X Retrieval Round N") and forward (preview of next unit themes)</td><td>All unit spaced retrieval sections; scope-sequence.html</td><td><span class="s-complete">Complete</span></td></tr>
+<tr><td>Teacher-facing guidance (pacing, example responses, misconceptions)</td><td>TDOE RFA March 2026</td><td>Instructional notes in every unit; example open-response answers; pacing suggestions; common misconceptions documented</td><td>All unit teacher edition sections; methodology.html</td><td><span class="s-complete">Complete</span></td></tr>
+</table>
+
+<h3>4.2 Learning Science Foundation</h3>
+<p>TroopToTeacher Technologies LLC materials are designed on a peer-reviewed learning science foundation. The following research base directly informs assessment design, review structures, and instructional sequencing:</p>
+
+<div class="stat-grid">
+  <div class="stat-box"><span class="n">d=0.90</span><span class="l">Hattie Visible Learning: Formative evaluation effect size (highest in meta-analysis)</span></div>
+  <div class="stat-box"><span class="n">3×</span><span class="l">Agarwal et al.: Optimal spaced retrieval rounds for retention up to 9 months (C to A grade gains)</span></div>
+  <div class="stat-box"><span class="n">d=0.60</span><span class="l">Hattie: Spaced practice effect size — incorporated into every unit's retrieval review structure</span></div>
+  <div class="stat-box"><span class="n">DOK 1–3</span><span class="l">Webb's Depth of Knowledge calibration applied to all 447 assessment items</span></div>
+</div>
+
+<p>Full methodology documentation is available at <strong>methodology.html</strong> on the TroopToTeacher Technologies LLC textbook site. This document includes research citations (Hattie, Roediger &amp; Karpicke, Agarwal et al., Cepeda et al.), implementation rationale, and the connection between learning science principles and specific instructional design choices.</p>
+
+<h3>4.3 Appendix Completeness</h3>
+<p>TroopToTeacher Technologies LLC materials include 14 appendices (A through N) covering all reference materials, tools, and support documents required for complete course implementation:</p>
+<ul>
+  <li><strong>Appendix A:</strong> Glossary — all key terms with student-friendly definitions, alphabetical</li>
+  <li><strong>Appendix B:</strong> Index — comprehensive, cross-referenced</li>
+  <li><strong>Appendix C:</strong> Primary Source Library — full text/excerpts of all primary sources used</li>
+  <li><strong>Appendix D:</strong> Map Atlas — all 10 original maps referenced in text</li>
+  <li><strong>Appendix E:</strong> Master Timeline — 1865 to present</li>
+  <li><strong>Appendix F:</strong> Presidents Reference Chart</li>
+  <li><strong>Appendix G:</strong> Constitution Quick Reference</li>
+  <li><strong>Appendix H:</strong> Tennessee-Specific Content Reference</li>
+  <li><strong>Appendix I:</strong> Assessment Bank — additional formative and summative items per unit</li>
+  <li><strong>Appendix J:</strong> Graphic Organizer Templates — reproducible</li>
+  <li><strong>Appendix K:</strong> Writing Rubrics — argumentative, informational, DBQ</li>
+  <li><strong>Appendix L:</strong> Discussion Protocol Cards — Socratic seminar, fishbowl, structured academic controversy</li>
+  <li><strong>Appendix M:</strong> ELL Resource Guide</li>
+  <li><strong>Appendix N:</strong> Accommodations and Modifications Guide</li>
+</ul>
+
+</div>
+<div class="foot"><div><strong>TroopToTeacher Technologies LLC</strong> &nbsp;·&nbsp; Waiver-Readiness Dossier &nbsp;·&nbsp; © 2026</div><div>Section 4: Instructional Completeness Evidence</div></div>
+</div>
+
+<!-- ══════════════ SECTION 5: REVIEWER ACCESS + NEXT STEPS ══════════════ -->
+<div class="page-break">
+<div class="sec-banner"><h2>Section 5 — Reviewer Access and Next Steps</h2><div class="sec-num">§5</div></div>
+<div class="gold-strip"><span>Materials Access &nbsp;·&nbsp; Contact Information &nbsp;·&nbsp; Open Action Items</span><span>Updated April 2026</span></div>
+<div class="pg">
+
+<h3>5.1 How Reviewers Can Access TroopToTeacher Technologies LLC Materials</h3>
+
+<div class="ev-grid">
+  <div class="ev-card">
+    <div class="ev-card-hdr">Digital Textbook Site <span class="s-complete">Live</span></div>
+    <div class="ev-card-body">
+      <p><strong>URL:</strong> trooptoteacher.com (or district-provided QR code)</p>
+      <p>Complete 10-unit textbook with all instructional components, assessments, maps, appendices, and compliance documentation. Works on all devices. No login required for review.</p>
+      <ul>
+        <li>10 complete unit chapters</li>
+        <li>Interactive 447-question bank (question-bank.html)</li>
+        <li>Map Atlas with student activities (map-atlas.html)</li>
+        <li>EOC Alignment Validation (eoc-validation.html)</li>
+        <li>Standards Alignment Matrix (standards-matrix.html)</li>
+        <li>District Adoption Compliance Package (compliance.html)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ev-card">
+    <div class="ev-card-hdr">Offline / Print Package <span class="s-complete">Available</span></div>
+    <div class="ev-card-body">
+      <p><strong>File:</strong> TTT_Textbook_Site_FULL_v2.zip (768KB, 23 files)</p>
+      <p>Complete site packaged for offline review. Extract and open index.html in any browser. All functionality works without internet connection. Provided to reviewers on request.</p>
+      <ul>
+        <li>Print-ready HTML for all components</li>
+        <li>Print button on every page</li>
+        <li>Works in Chrome, Edge, Firefox, Safari</li>
+        <li>Suitable for reviewer laptop evaluation without network access</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ev-card">
+    <div class="ev-card-hdr">History Hack App <span class="s-substantial">In Development</span></div>
+    <div class="ev-card-body">
+      <p><strong>Platform:</strong> iOS / Android (App Store / Google Play)</p>
+      <p>Mobile learning application providing standards-aligned scenarios, quizzes, and spaced retrieval practice. Mirrors textbook content in an engaging digital format. Designed for student use alongside classroom instruction.</p>
+      <ul>
+        <li>Aligned to all 44 Tennessee EOC standards</li>
+        <li>Student progress tracking by standard</li>
+        <li>Teacher dashboard (in development)</li>
+        <li>Fort Campbell, Nashville sit-ins, and Tennessee content embedded</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ev-card">
+    <div class="ev-card-hdr">Pilot Access <span class="s-complete">Available on Request</span></div>
+    <div class="ev-card-body">
+      <p><strong>Contact:</strong> Sean Reynolds, M.Ed. — trooptoteacher.com</p>
+      <p>TroopToTeacher Technologies LLC is available for 90-day district pilots. Pilot terms include full app and textbook access, teacher onboarding, weekly check-in, and post-pilot EOC performance analysis.</p>
+      <ul>
+        <li>No cost for initial pilot review access</li>
+        <li>Author available as expert committee member (TCA § 49-6-2207(c)(1))</li>
+        <li>In-person or virtual onboarding available</li>
+        <li>Pilot proposal template in District Adoption Compliance Package</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<h3>5.2 Open Action Items Before Commercial Distribution</h3>
+
+<div class="callout cd">
+  <strong>These items must be completed before relying on this dossier for formal adoption or commercial sale</strong>
+</div>
+
+<table class="cl-table" style="margin-top:8px">
+<tr><th>Action Item</th><th>Why Required</th><th>Who</th><th>Contact / Resource</th><th>Status</th></tr>
+<tr>
+  <td>VLAA attorney consult — review Units 1, 7, 8 under TCA § 49-6-1019</td>
+  <td>Prohibited concepts statute applies to supplemental materials; attorney review needed before commercial distribution</td>
+  <td>Sean Reynolds / TroopToTeacher Technologies LLC</td>
+  <td>Arts &amp; Business Council of Greater Nashville: (615) 254-0030 / vlaa.org</td>
+  <td><span class="s-pending">Pending</span></td>
+</tr>
+<tr>
+  <td>MLK Estate licensing — Unit 7 "Letter from Birmingham Jail" and related content</td>
+  <td>MLK Estate controls copyright; licensing required for commercial use of MLK material beyond fair use</td>
+  <td>Sean Reynolds / TroopToTeacher Technologies LLC</td>
+  <td>IPM Legal: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b7ded9d1d8f7dec7dadbd2d0d6db99d4d8da">[email&#160;protected]</a> / (404) 526-8900</td>
+  <td><span class="s-pending">Pending</span></td>
+</tr>
+<tr>
+  <td>Copyright registration at copyright.gov</td>
+  <td>Registration before infringement required for statutory damages ($65 single application)</td>
+  <td>Sean Reynolds / TroopToTeacher Technologies LLC</td>
+  <td>copyright.gov → Register → Literary Work</td>
+  <td><span class="s-pending">Pending</span></td>
+</tr>
+<tr>
+  <td>ISBN registration — 10 ISBNs for all format variants</td>
+  <td>Required for formal Textbook Commission bid; library listing; distribution</td>
+  <td>Sean Reynolds / TroopToTeacher Technologies LLC</td>
+  <td>myidentifiers.com — $295 for 10</td>
+  <td><span class="s-pending">Pending</span></td>
+</tr>
+<tr>
+  <td>Confirm current Social Studies adoption cycle timing with TDOE</td>
+  <td>Formal Commission submission deadline may be imminent; determine Track 1 submission window</td>
+  <td>Sean Reynolds / TroopToTeacher Technologies LLC</td>
+  <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="59183a383d3c34303a2a7710372a2d2b2c3a2d303637192d37773e362f">[email&#160;protected]</a></td>
+  <td><span class="s-pending">Pending</span></td>
+</tr>
+</table>
+
+<h3>5.3 Dossier Version Control</h3>
+<p>This dossier represents the state of TroopToTeacher Technologies LLC documentation as of <strong>April 2026</strong>. The following version control practices are recommended:</p>
+<ul>
+  <li>Update the Master Review Checklist (Section 2) each time a Pending or Partial item is completed</li>
+  <li>Update this dossier version number when open action items (Section 5.2) are resolved</li>
+  <li>Re-verify all statutory citations against current Tennessee Code Annotated before any formal submission — Tennessee textbook law is frequently amended</li>
+  <li>Retain this dossier in TroopToTeacher Technologies LLC company records as documentation of the state of materials at time of each district engagement</li>
+</ul>
+
+<div class=

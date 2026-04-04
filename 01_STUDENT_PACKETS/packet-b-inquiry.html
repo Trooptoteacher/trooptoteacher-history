@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inquiry & Writing Packet — TroopToTeacher Technologies LLC</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#ddd}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:#fff;color:#111;
+  width:8.5in;margin:.18in auto;box-shadow:0 3px 20px rgba(0,0,0,.25);
+  font-size:9.5pt;line-height:1.72}
+@page{size:letter portrait;margin:.55in .6in .5in}
+@media print {
+  /* ── 1. PAGE ROOT ── */
+  html, body {
+    background: #fff !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    width: auto !important;
+  }
+
+  /* ── 2. HIDE ALL NON-PRINT UI ── */
+  .no-print,
+  .gold-bar,
+  [style*="position:sticky"],
+  [style*="position: sticky"],
+  [style*="position:fixed"],
+  [style*="position: fixed"],
+  button {
+    display: none !important;
+  }
+
+  /* ── 3. PAGE BREAKS — clean, no top gap ── */
+  .pb {
+    page-break-before: always;
+    break-before: page;
+    padding-top: 2pt !important;
+  }
+  h2, h3 { break-after: avoid; page-break-after: avoid; }
+
+  /* ── 4. DARK AND COLORED FILLS → B&W SAFE ── */
+  .banner, .go-hdr, .ptg-hdr, .strat-hdr {
+    background: #fff !important;
+    color: #000 !important;
+    border-bottom: 1.5pt solid #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .skill, .dok {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1pt solid #333 !important;
+  }
+  /* Table headers (.th = gold #C9A227 fill) */
+  th, .th {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1pt solid #333 !important;
+    font-weight: bold;
+  }
+  /* .atbl th specifically */
+  .atbl th {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1pt solid #333 !important;
+  }
+  /* Footer */
+  .foot {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    position: static !important;
+    width: auto !important;
+  }
+
+  /* ── 5. WRITE SPACES ── */
+  .wi, .write-line {
+    display: block !important;
+    border-bottom: 1pt solid #333 !important;
+    min-height: 20pt !important;
+    margin-bottom: 6pt !important;
+    background: none !important;
+  }
+  .wi-lg, .write-line-lg { min-height: 32pt !important; }
+  .wi-box, .wi-box-sm, .write-box {
+    display: block !important;
+    border: 1pt solid #333 !important;
+    background: #fff !important;
+    min-height: 52pt !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+  .wi-box-sm { min-height: 36pt !important; }
+  /* Fill cells in tables */
+  .fill {
+    border: 1pt solid #333 !important;
+    background: #fff !important;
+    min-height: 22pt !important;
+  }
+
+  /* ── 6. TABLE ROW SPLIT PREVENTION ── */
+  .atbl { break-inside: auto; page-break-inside: auto; }
+  .atbl tr {
+    display: block !important;
+    width: 100% !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+  .atbl td, .atbl th {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  .ref-table tr { break-inside: avoid; page-break-inside: avoid; }
+
+  /* ── 7. OVERFLOW CLIPPING REMOVAL ── */
+  .go-box, .teacher-box, .ptg,
+  .go-wrapper, .source-box, .strat {
+    overflow: visible !important;
+  }
+
+  /* ── 8. SECTION BREAK AVOIDANCE ── */
+  .strat, .org, .q-block, .nb, .ptg,
+  .go-box, .source-box {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* ── 9. REMOVE ALL DECORATION ── */
+  * { box-shadow: none !important; text-shadow: none !important; }
+}
+.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;
+  border:none;border-radius:5px;padding:7px 14px;font-size:11px;font-weight:700;
+  cursor:pointer;z-index:99}
+/* ── Type ── */
+h2{font-family:'Merriweather',Georgia,serif;font-size:12pt;font-weight:700;
+   color:#1B2A4A;margin:18px 0 7px;padding-bottom:3px;border-bottom:2px solid #1B2A4A}
+h3{font-size:10.5pt;font-weight:700;color:#2A3F5E;margin:13px 0 5px}
+h4{font-size:10pt;font-weight:700;color:#1B2A4A;margin:10px 0 4px}
+p{margin-bottom:8px;font-size:9.5pt;line-height:1.7}
+ul,ol{margin:5px 0 10px 18px}li{margin-bottom:4px;font-size:9.5pt;line-height:1.65}
+/* ── Banner ── */
+.banner{background:#1B2A4A;padding:18px .62in 14px}
+.banner .eye{font-size:8pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:#C9A227;margin-bottom:6px}
+.banner h1{font-family:'Merriweather',Georgia,serif;font-size:16pt;font-weight:700;
+  color:#fff;line-height:1.2;margin-bottom:3px}
+.banner .sub{font-size:9pt;color:#B5D4F4;font-style:italic}
+.gold-bar{background:#C9A227;padding:3px .62in;font-size:8.5pt;font-weight:700;
+  color:#3D2200;display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}
+.pg{padding:.22in .62in .18in}
+/* ── Tables ── */
+.ref-table{width:100%;border-collapse:collapse;font-size:9pt;margin:8px 0}
+.ref-table th{background:#1B2A4A;color:#fff;padding:6px 10px;text-align:left;font-size:8.5pt}
+.ref-table td{padding:7px 10px;border-bottom:1px solid #eee;vertical-align:top;line-height:1.6}
+.ref-table tr:nth-child(even) td{background:#f8f8f8}
+.ref-table td:first-child{font-weight:700;color:#1B2A4A;width:18%}
+/* ── Source block ── */
+.src{background:#f9fafb;border:1.5px solid #c0cce0;border-radius:3px;
+  padding:9px 13px;margin:8px 0;font-style:italic;font-size:9.5pt;line-height:1.7}
+.src .attr{font-style:normal;font-size:8.5pt;font-weight:700;color:#1B2A4A;
+  margin-bottom:5px;display:block}
+/* ── Write-in ── */
+.wi{border-bottom:1px solid #333;min-height:20px;margin:3px 0 9px;display:block}
+.wi-lg{border-bottom:1px solid #333;min-height:36px;margin:3px 0 10px;display:block}
+.wi-box{border:1px solid #999;border-radius:3px;min-height:60px;padding:3px;
+  margin:3px 0 10px;display:block;background:#fffef8}
+.wi-box-sm{border:1px solid #999;border-radius:3px;min-height:38px;padding:3px;
+  margin:3px 0 8px;display:block;background:#fffef8}
+/* ── Analysis table ── */
+.atbl{width:100%;border-collapse:collapse;font-size:9pt;margin:7px 0}
+.atbl th{background:#2A3F5E;color:#fff;padding:5px 9px;text-align:left;font-size:8.5pt}
+.atbl td{border:1px solid #ddd;padding:6px 9px;vertical-align:top;line-height:1.55}
+.atbl td:first-child{background:#f5f7fa;font-weight:600;color:#1B2A4A;width:20%}
+.atbl .fill{background:#fffef8;min-height:28px}
+/* ── Scaffold / callout ── */
+.scaffold{background:#f0f5fb;border-left:3px solid #1B2A4A;padding:6px 10px;
+  margin:6px 0;font-size:9.5pt;line-height:1.65;border-radius:0 3px 3px 0}
+.scaffold strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#1B2A4A;margin-bottom:2px}
+.ell{background:#fffdf5;border-left:3px solid #C9A227;padding:6px 10px;
+  margin:6px 0;font-size:9.5pt;line-height:1.65;border-radius:0 3px 3px 0}
+.ell strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#633806;margin-bottom:2px}
+.warn{background:#fdf0f0;border-left:3px solid #8B1A1A;padding:6px 10px;
+  margin:6px 0;font-size:9.5pt;line-height:1.65;border-radius:0 3px 3px 0}
+.warn strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#6B1020;margin-bottom:2px}
+/* ── Skill badge ── */
+.skill{font-size:8pt;font-weight:700;background:#1B2A4A;color:#C9A227;
+  border-radius:2px;padding:1px 7px;margin-left:5px;display:inline-block;
+  letter-spacing:.04em;font-family:'Courier New',monospace}
+.dok{font-size:8pt;font-weight:700;background:#2A3F5E;color:#fff;
+  border-radius:2px;padding:1px 6px;margin-left:5px;display:inline-block}
+/* ── Grid ── */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:8px 0}
+.three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:8px 0}
+/* ── Checklist ── */
+.chk{display:flex;gap:7px;align-items:flex-start;margin-bottom:6px;font-size:9.5pt}
+.chkbox{width:14px;height:14px;border:1.5px solid #1B2A4A;border-radius:2px;
+  flex-shrink:0;margin-top:2px}
+/* ── Stem ── */
+.stem{display:block;background:#f5f7fa;border-left:3px solid #2A3F5E;
+  padding:4px 9px;margin:3px 0;font-style:italic;font-size:9pt;color:#1B2A4A}
+/* ── Go box ── */
+.go-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:7px 0}
+.go-box{border:1.5px solid #c0cce0;border-radius:3px;overflow:hidden}
+.go-hdr{background:#1B2A4A;color:#fff;padding:4px 10px;font-size:9pt;font-weight:700}
+.go-body{padding:7px 10px;min-height:55px;background:#fffef8}
+/* ── Vocab ── */
+.vocab-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:7px 0}
+.vi{border:1px solid #ddd;border-radius:3px;padding:6px 9px;background:#f9fafb}
+.vi .vt{font-weight:700;color:#1B2A4A;font-size:9.5pt}
+.vi .vd{font-size:9pt;color:#333;line-height:1.5;margin-top:2px}
+.vi .vs{font-size:8.5pt;color:#27500A;font-style:italic;margin-top:1px}
+/* ── Footer ── */
+.foot{background:#1B2A4A;color:rgba(255,255,255,.5);padding:5px .62in;font-size:7.5pt;
+  display:flex;justify-content:space-between}
+.foot strong{color:#C9A227}
+/* ── Teacher box ── */
+.teacher-box{border:2px solid #C9A227;border-radius:4px;overflow:hidden;margin:14px 0}
+.teacher-box .th{background:#C9A227;color:#3D2200;padding:6px 14px;font-size:9pt;
+  font-weight:700;display:flex;justify-content:space-between;align-items:center}
+.teacher-box .tb{padding:11px 14px;font-size:9.5pt;line-height:1.7;background:#fffdf5}
+/* ── Priority guide ── */
+.ptg{border:1.5px solid #ddd;border-radius:4px;margin:10px 0;overflow:hidden}
+.ptg-hdr{background:#2A3F5E;color:#fff;padding:6px 12px;font-size:9.5pt;font-weight:700;
+  display:flex;justify-content:space-between;align-items:center}
+.ptg-body{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0}
+.ptg-col{padding:8px 11px;border-right:1px solid #e2e8f0}
+.ptg-col:last-child{border-right:none}
+.ptg-lbl{font-size:8pt;font-weight:700;text-transform:uppercase;letter-spacing:.07em;
+  margin-bottom:5px}
+.ptg-col:nth-child(1) .ptg-lbl{color:#27500A}
+.ptg-col:nth-child(2) .ptg-lbl{color:#7a5400}
+.ptg-col:nth-child(3) .ptg-lbl{color:#888}
+.ptg-col ul{margin-left:13px}
+.ptg-col li{font-size:9pt;margin-bottom:3px;line-height:1.55}
+.ptg-note{background:#f5f7fa;border-top:1px solid #ddd;padding:5px 12px;
+  font-size:8.5pt;color:#666;font-style:italic}
+</style>
+</head>
+<body>
+<button class="no-print" onclick="window.print()">&#x2399; Print</button>
+<div class="no-print" style="background:#1B2A4A;color:#fff;padding:8px .62in;
+          display:flex;justify-content:space-between;align-items:center;
+          position:sticky;top:0;z-index:50">
+          <a href="index.html" style="color:#C9A227;text-decoration:none;font-size:11px;font-weight:700">← Back to Textbook Hub</a>
+          <span style="font-size:11px;color:rgba(255,255,255,.6)">Packet B: Inquiry & Writing · Student</span>
+        </div>
+
+<div class="banner">
+  <div class="eye">Student Packet B · Inquiry &amp; Writing</div>
+  <h1>U.S. History Inquiry &amp; Writing Packet</h1>
+  <div class="sub">Open Inquiry Tasks — All 10 Units · Argument Planning · Thesis Development</div>
+</div>
+<div class="gold-bar">
+  <span>TroopToTeacher Technologies LLC · U.S. History (US.01–US.95) · Grades 9–12</span>
+  <span>Student-facing · One task per unit · All defensible positions welcomed</span>
+</div>
+<div class="pg">
+
+<div class="scaffold"><strong>What is an Open Inquiry Task?</strong>
+Each task presents a genuine historical question — one historians answer differently depending on which evidence they examine and how they weigh it. Your job is not to find the "right answer." Your job is to construct the most defensible argument you can from the available sources.</div>
+
+<h2>Good Historical Argument Checklist</h2>
+<p>Before submitting any response from this packet, use this checklist:</p>
+<div style="border:1.5px solid #c0cce0;border-radius:3px;padding:11px 14px;margin:10px 0">
+<div class="chk"><div class="chkbox"></div><span><strong>Specific claim: </strong>My thesis directly answers the historical question — not just "there are many factors."</span></div><div class="chk"><div class="chkbox"></div><span><strong>Evidence from at least two sources: </strong>I cite specific evidence from at least two of the sources listed in the task.</span></div><div class="chk"><div class="chkbox"></div><span><strong>Cross-source reasoning: </strong>I explain how my sources corroborate or complicate each other — not just summarize each one separately.</span></div><div class="chk"><div class="chkbox"></div><span><strong>At least one HIPP connection: </strong>For at least one source, I explain how its Historical Context, Audience, Purpose, or Point of View strengthens my argument.</span></div><div class="chk"><div class="chkbox"></div><span><strong>Historical thinking skill applied: </strong>I have explicitly used the skill labeled on this task (CAUSATION, COMPARISON, CCOT, or CONTEXTUALIZATION) — not just implied it.</span></div><div class="chk"><div class="chkbox"></div><span><strong>Counterargument acknowledged: </strong>I identify at least one reasonable challenge to my argument and explain why my evidence is stronger.</span></div>
+</div>
+
+
+<div class="pb">
+<div style="background:#1B2A4A;color:#fff;padding:7px 14px;border-radius:3px 3px 0 0;
+            display:flex;justify-content:space-between;align-items:center">
+  <strong>Unit 1 Open Inquiry Task</strong>
+  <span style="background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+               border-radius:2px;padding:1px 8px">[CAUSATION]</span>
+</div>
+<div style="border:1.5px solid #1B2A4A;border-top:none;border-radius:0 0 3px 3px;
+            padding:11px 14px;margin-bottom:4px">
+  <p style="font-size:9pt;color:#555;margin-bottom:6px"><strong>Unit 1: Reconstruction (1865–1877)</strong></p>
+  <div class="scaffold" style="margin-bottom:8px"><strong>Open Historical Question</strong>
+  Who was most responsible for the collapse of Reconstruction — and what does your answer reveal about where power actually resided in post–Civil War America?
+  </div>
+  <h4>Step 1 — Choose your sources (select at least 2 from this list)</h4>
+  <ul style="font-size:9pt"><li>The 13th, 14th, or 15th Amendments (primary source)</li><li>Frederick Douglass, "Oration in Memory of Lincoln," 1876</li><li>Congressional Record: Compromise of 1877 debate excerpts</li><li>Eric Foner, Reconstruction: America's Unfinished Revolution (secondary source excerpt)</li><li>Harper's Weekly political cartoons, 1865–1877</li></ul>
+  <p style="font-size:8.5pt;font-style:italic;margin-top:3px;color:#555">There is more than one defensible position. Your argument does not need to be the same as your classmates'.</p>
+
+  <h4>Step 2 — My source selections and what each one can prove</h4>
+  <table class="atbl" style="font-size:9pt">
+    <tr><th>Source I selected</th><th>What this source can prove (1 sentence)</th><th>HIPP feature I will use in my argument (H, I, P, or P?)</th></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+
+  <h4>Step 3 — My argument (thesis)</h4>
+  <p style="font-size:9pt">Write a one-sentence claim that directly answers the question and can be supported by at least two sources:</p>
+  <span class="wi-box-sm"></span>
+
+  <h4>Step 4 — Choose your response format</h4>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;margin:6px 0;font-size:9.5pt">
+    <label><input type="radio" name="prod1"> Short essay (400–600 words)</label>
+    <label><input type="radio" name="prod1"> Podcast script (4–6 min)</label>
+    <label><input type="radio" name="prod1"> Mini-documentary storyboard (6–8 frames)</label>
+    <label><input type="radio" name="prod1"> Public testimony speech (2–3 min)</label>
+  </div>
+
+  <h4>Step 5 — Draft space</h4>
+  <p style="font-size:9pt;margin-bottom:4px">Write your opening paragraph here. Begin with your thesis, then introduce your first piece of evidence:</p>
+  <span class="wi-box" style="min-height:90px"></span>
+</div>
+</div>
+
+<div class="pb">
+<div style="background:#1B2A4A;color:#fff;padding:7px 14px;border-radius:3px 3px 0 0;
+            display:flex;justify-content:space-between;align-items:center">
+  <strong>Unit 2 Open Inquiry Task</strong>
+  <span style="background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+               border-radius:2px;padding:1px 8px">[COMPARISON]</span>
+</div>
+<div style="border:1.5px solid #1B2A4A;border-top:none;border-radius:0 0 3px 3px;
+            padding:11px 14px;margin-bottom:4px">
+  <p style="font-size:9pt;color:#555;margin-bottom:6px"><strong>Unit 2: The Gilded Age (1865–1900)</strong></p>
+  <div class="scaffold" style="margin-bottom:8px"><strong>Open Historical Question</strong>
+  Did the growth of industrial capitalism in the Gilded Age create more opportunity or more inequality for ordinary Americans — and does your answer depend on which Americans you focus on?
+  </div>
+  <h4>Step 1 — Choose your sources (select at least 2 from this list)</h4>
+  <ul style="font-size:9pt"><li>Andrew Carnegie, "Wealth," 1889</li><li>George Jordan Medal of Honor citation, 1890 (Buffalo Soldiers, Tennessee)</li><li>Figure 2.1: Immigration by decade chart</li><li>Jacob Riis, How the Other Half Lives excerpt</li><li>Jane Addams, "The Subjective Necessity for Social Settlements," 1892</li></ul>
+  <p style="font-size:8.5pt;font-style:italic;margin-top:3px;color:#555">There is more than one defensible position. Your argument does not need to be the same as your classmates'.</p>
+
+  <h4>Step 2 — My source selections and what each one can prove</h4>
+  <table class="atbl" style="font-size:9pt">
+    <tr><th>Source I selected</th><th>What this source can prove (1 sentence)</th><th>HIPP feature I will use in my argument (H, I, P, or P?)</th></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+
+  <h4>Step 3 — My argument (thesis)</h4>
+  <p style="font-size:9pt">Write a one-sentence claim that directly answers the question and can be supported by at least two sources:</p>
+  <span class="wi-box-sm"></span>
+
+  <h4>Step 4 — Choose your response format</h4>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;margin:6px 0;font-size:9.5pt">
+    <label><input type="radio" name="prod2"> Short essay (400–600 words)</label>
+    <label><input type="radio" name="prod2"> Podcast script (4–6 min)</label>
+    <label><input type="radio" name="prod2"> Mini-documentary storyboard (6–8 frames)</label>
+    <label><input type="radio" name="prod2"> Public testimony speech (2–3 min)</label>
+  </div>
+
+  <h4>Step 5 — Draft space</h4>
+  <p style="font-size:9pt;margin-bottom:4px">Write your opening paragraph here. Begin with your thesis, then introduce your first piece of evidence:</p>
+  <span class="wi-box" style="min-height:90px"></span>
+</div>
+</div>
+
+<div class="pb">
+<div style="background:#1B2A4A;color:#fff;padding:7px 14px;border-radius:3px 3px 0 0;
+            display:flex;justify-content:space-between;align-items:center">
+  <strong>Unit 3 Open Inquiry Task</strong>
+  <span style="background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+               border-radius:2px;padding:1px 8px">[CAUSATION]</span>
+</div>
+<div style="border:1.5px solid #1B2A4A;border-top:none;border-radius:0 0 3px 3px;
+            padding:11px 14px;margin-bottom:4px">
+  <p style="font-size:9pt;color:#555;margin-bottom:6px"><strong>Unit 3: The Progressive Era (1890–1920)</strong></p>
+  <div class="scaffold" style="margin-bottom:8px"><strong>Open Historical Question</strong>
+  Of the major Progressive Era reforms — antitrust regulation, labor protections, women's suffrage, prohibition — which produced the most lasting change in American democracy, and why did that one succeed where others fell short?
+  </div>
+  <h4>Step 1 — Choose your sources (select at least 2 from this list)</h4>
+  <ul style="font-size:9pt"><li>Figure 3.1: Progressive Era amendments timeline</li><li>Ida B. Wells, Southern Horrors, 1892</li><li>Theodore Roosevelt, "New Nationalism" speech, 1910 (excerpts)</li><li>Labor union membership statistics, 1900–1930</li><li>Harry T. Burn letter from his mother, 1920 (TSLA archives, Tennessee)</li></ul>
+  <p style="font-size:8.5pt;font-style:italic;margin-top:3px;color:#555">There is more than one defensible position. Your argument does not need to be the same as your classmates'.</p>
+
+  <h4>Step 2 — My source selections and what each one can prove</h4>
+  <table class="atbl" style="font-size:9pt">
+    <tr><th>Source I selected</th><th>What this source can prove (1 sentence)</th><th>HIPP feature I will use in my argument (H, I, P, or P?)</th></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+
+  <h4>Step 3 — My argument (thesis)</h4>
+  <p style="font-size:9pt">Write a one-sentence claim that directly answers the question and can be supported by at least two sources:</p>
+  <span class="wi-box-sm"></span>
+
+  <h4>Step 4 — Choose your response format</h4>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;margin:6px 0;font-size:9.5pt">
+    <label><input type="radio" name="prod3"> Short essay (400–600 words)</label>
+    <label><input type="radio" name="prod3"> Podcast script (4–6 min)</label>
+    <label><input type="radio" name="prod3"> Mini-documentary storyboard (6–8 frames)</label>
+    <label><input type="radio" name="prod3"> Public testimony speech (2–3 min)</label>
+  </div>
+
+  <h4>Step 5 — Draft space</h4>
+  <p style="font-size:9pt;margin-bottom:4px">Write your opening paragraph here. Begin with your thesis, then introduce your first piece of evidence:</p>
+  <span class="wi-box" style="min-height:90px"></span>
+</div>
+</div>
+
+<div class="pb">
+<div style="background:#1B2A4A;color:#fff;padding:7px 14px;border-radius:3px 3px 0 0;
+            display:flex;justify-content:space-between;align-items:center">
+  <strong>Unit 4 Open Inquiry Task</strong>
+  <span style="background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+               border-radius:2px;padding:1px 8px">[COMPARISON]</span>
+</div>
+<div style="border:1.5px solid #1B2A4A;border-top:none;border-radius:0 0 3px 3px;
+            padding:11px 14px;margin-bottom:4px">
+  <p style="font-size:9pt;color:#555;margin-bottom:6px"><strong>Unit 4: WWI and the Roaring Twenties (1914–1929)</strong></p>
+  <div class="scaffold" style="margin-bottom:8px"><strong>Open Historical Question</strong>
+  Did World War I make American democracy stronger or weaker? Defend a clear position using at least two sources.
+  </div>
+  <h4>Step 1 — Choose your sources (select at least 2 from this list)</h4>
+  <ul style="font-size:9pt"><li>Wilson's Fourteen Points address, January 1918</li><li>Espionage Act (1917) and Sedition Act (1918) excerpts</li><li>Figure 4.1: WWI U.S. military statistics</li><li>Scopes Trial transcript excerpts, 1925 (Dayton, Tennessee)</li><li>Eugene Debs anti-war speech, 1918</li></ul>
+  <p style="font-size:8.5pt;font-style:italic;margin-top:3px;color:#555">There is more than one defensible position. Your argument does not need to be the same as your classmates'.</p>
+
+  <h4>Step 2 — My source selections and what each one can prove</h4>
+  <table class="atbl" style="font-size:9pt">
+    <tr><th>Source I selected</th><th>What this source can prove (1 sentence)</th><th>HIPP feature I will use in my argument (H, I, P, or P?)</th></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+
+  <h4>Step 3 — My argument (thesis)</h4>
+  <p style="font-size:9pt">Write a one-sentence claim that directly answers the question and can be supported by at least two sources:</p>
+  <span class="wi-box-sm"></span>
+
+  <h4>Step 4 — Choose your response format</h4>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;margin:6px 0;font-size:9.5pt">
+    <label><input type="radio" name="prod4"> Short essay (400–600 words)</label>
+    <label><input type="radio" name="prod4"> Podcast script (4–6 min)</label>
+    <label><input type="radio" name="prod4"> Mini-documentary storyboard (6–8 frames)</label>
+    <label><input type="radio" name="prod4"> Public testimony speech (2–3 min)</label>
+  </div>
+
+  <h4>Step 5 — Draft space</h4>
+  <p style="font-size:9pt;margin-bottom:4px">Write your opening paragraph here. Begin with your thesis, then introduce your first piece of evidence:</p>
+  <span class="wi-box" style="min-height:90px"></span>
+</div>
+</div>
+
+<div class="pb">
+<div style="background:#1B2A4A;color:#fff;padding:7px 14px;border-radius:3px 3px 0 0;
+            display:flex;justify-content:space-between;align-items:center">
+  <strong>Unit 5 Open Inquiry Task</strong>
+  <span style="background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+               border-radius:2px;padding:1px 8px">[CCOT]</span>
+</div>
+<div style="border:1.5px solid #1B2A4A;border-top:none;border-radius:0 0 3px 3px;
+            padding:11px 14px;margin-bottom:4px">
+  <p style="font-size:9pt;color:#555;margin-bottom:6px"><strong>Unit 5: The Great Depression and the New Deal (1929–1941)</strong></p>
+  <div class="scaffold" style="margin-bottom:8px"><strong>Open Historical Question</strong>
+  By 1940, did the New Deal fundamentally change the relationship between the federal government and ordinary Americans — or did it mostly preserve the existing economic system with modifications?
+  </div>
+  <h4>Step 1 — Choose your sources (select at least 2 from this list)</h4>
+  <ul style="font-size:9pt"><li>FDR, First Inaugural Address, 1933</li><li>Dorothea Lange, "Migrant Mother" photograph (LOC, 1936)</li><li>Figure 5.1: U.S. unemployment rate 1925–1945</li><li>Figure 5.3: TVA rural electrification in Tennessee</li><li>Huey Long, "Share Our Wealth" radio address, 1934</li><li>Herbert Hoover, "Rugged Individualism" speech, 1928</li></ul>
+  <p style="font-size:8.5pt;font-style:italic;margin-top:3px;color:#555">There is more than one defensible position. Your argument does not need to be the same as your classmates'.</p>
+
+  <h4>Step 2 — My source selections and what each one can prove</h4>
+  <table class="atbl" style="font-size:9pt">
+    <tr><th>Source I selected</th><th>What this source can prove (1 sentence)</th><th>HIPP feature I will use in my argument (H, I, P, or P?)</th></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+
+  <h4>Step 3 — My argument (thesis)</h4>
+  <p style="font-size:9pt">Write a one-sentence claim that directly answers the question and can be supported by at least two sources:</p>
+  <span class="wi-box-sm"></span>
+
+  <h4>Step 4 — Choose your response format</h4>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;margin:6px 0;font-size:9.5pt">
+    <label><input type="radio" name="prod5"> Short essay (400–600 words)</label>
+    <label><input type="radio" name="prod5"> Podcast script (4–6 min)</label>
+    <label><input type="radio" name="prod5"> Mini-documentary storyboard (6–8 frames)</label>
+    <label><input type="radio" name="prod5"> Public testimony speech (2–3 min)</label>
+  </div>
+
+  <h4>Step 5 — Draft space</h4>
+  <p style="font-size:9pt;margin-bottom:4px">Write your opening paragraph here. Begin with your thesis, then introduce your first piece of evidence:</p>
+  <span class="wi-box" style="min-height:90px"></span>
+</div>
+</div>
+
+<div class="pb">
+<div style="background:#1B2A4A;color:#fff;padding:7px 14px;border-radius:3px 3px 0 0;
+            display:flex;justify-content:space-between;align-items:center">
+  <strong>Unit 6 Open Inquiry Task</strong>
+  <span style="background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+               border-radius:2px;padding:1px 8px">[COMPARISON]</span>
+</div>
+<div style="border:1.5px solid #1B2A4A;border-top:none;border-radius:0 0 3px 3px;
+            padding:11px 14px;margin-bottom:4px">
+  <p style="font-size:9pt;color:#555;margin-bottom:6px"><strong>Unit 6: World War II (1939–1945)</strong></p>
+  <div class="scaffold" style="margin-bottom:8px"><strong>Open Historical Question</strong>
+  World War II required extraordinary sacrifices from Americans at home and abroad — but were those sacrifices shared equally? Identify who bore the greatest burden and use evidence to support your claim.
+  </div>
+  <h4>Step 1 — Choose your sources (select at least 2 from this list)</h4>
+  <ul style="font-size:9pt"><li>Executive Order 9066 (Japanese American internment), 1942</li><li>Executive Order 9981 (military desegregation), 1948</li><li>Tuskegee Airmen graduation photograph (NARA)</li><li>Figure 6.1: WWII military service by race</li><li>Cordell Hull Nobel Peace Prize acceptance, 1945</li><li>Oak Ridge oral history excerpts (women workers, Tennessee, 1942–45)</li></ul>
+  <p style="font-size:8.5pt;font-style:italic;margin-top:3px;color:#555">There is more than one defensible position. Your argument does not need to be the same as your classmates'.</p>
+
+  <h4>Step 2 — My source selections and what each one can prove</h4>
+  <table class="atbl" style="font-size:9pt">
+    <tr><th>Source I selected</th><th>What this source can prove (1 sentence)</th><th>HIPP feature I will use in my argument (H, I, P, or P?)</th></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+
+  <h4>Step 3 — My argument (thesis)</h4>
+  <p style="font-size:9pt">Write a one-sentence claim that directly answers the question and can be supported by at least two sources:</p>
+  <span class="wi-box-sm"></span>
+
+  <h4>Step 4 — Choose your response format</h4>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;margin:6px 0;font-size:9.5pt">
+    <label><input type="radio" name="prod6"> Short essay (400–600 words)</label>
+    <label><input type="radio" name="prod6"> Podcast script (4–6 min)</label>
+    <label><input type="radio" name="prod6"> Mini-documentary storyboard (6–8 frames)</label>
+    <label><input type="radio" name="prod6"> Public testimony speech (2–3 min)</label>
+  </div>
+
+  <h4>Step 5 — Draft space</h4>
+  <p style="font-size:9pt;margin-bottom:4px">Write your opening paragraph here. Begin with your thesis, then introduce your first piece of evidence:</p>
+  <span class="wi-box" style="min-height:90px"></span>
+</div>
+</div>
+
+<div class="pb">
+<div style="background:#1B2A4A;color:#fff;padding:7px 14px;border-radius:3px 3px 0 0;
+            display:flex;justify-content:space-between;align-items:center">
+  <strong>Unit 7 Open Inquiry Task</strong>
+  <span style="background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+               border-radius:2px;padding:1px 8px">[CCOT]</span>
+</div>
+<div style="border:1.5px solid #1B2A4A;border-top:none;border-radius:0 0 3px 3px;
+            padding:11px 14px;margin-bottom:4px">
+  <p style="font-size:9pt;color:#555;margin-bottom:6px"><strong>Unit 7: Cold War and Civil Rights (1945–1968)</strong></p>
+  <div class="scaffold" style="margin-bottom:8px"><strong>Open Historical Question</strong>
+  By 1968, had the Civil Rights Movement succeeded — or had it revealed the limits of what legal change alone can accomplish?
+  </div>
+  <h4>Step 1 — Choose your sources (select at least 2 from this list)</h4>
+  <ul style="font-size:9pt"><li>Brown v. Board of Education decision, 1954 (excerpts)</li><li>Civil Rights Act (1964) and Voting Rights Act (1965) excerpts</li><li>Figure 7.1: Civil Rights legislation timeline 1865–1965</li><li>Nashville Sit-in movement records (Nashville Public Library, Tennessee)</li><li>Stokely Carmichael, "Black Power" speech, 1966</li></ul>
+  <p style="font-size:8.5pt;font-style:italic;margin-top:3px;color:#555">There is more than one defensible position. Your argument does not need to be the same as your classmates'.</p>
+
+  <h4>Step 2 — My source selections and what each one can prove</h4>
+  <table class="atbl" style="font-size:9pt">
+    <tr><th>Source I selected</th><th>What this source can prove (1 sentence)</th><th>HIPP feature I will use in my argument (H, I, P, or P?)</th></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+
+  <h4>Step 3 — My argument (thesis)</h4>
+  <p style="font-size:9pt">Write a one-sentence claim that directly answers the question and can be supported by at least two sources:</p>
+  <span class="wi-box-sm"></span>
+
+  <h4>Step 4 — Choose your response format</h4>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;margin:6px 0;font-size:9.5pt">
+    <label><input type="radio" name="prod7"> Short essay (400–600 words)</label>
+    <label><input type="radio" name="prod7"> Podcast script (4–6 min)</label>
+    <label><input type="radio" name="prod7"> Mini-documentary storyboard (6–8 frames)</label>
+    <label><input type="radio" name="prod7"> Public testimony speech (2–3 min)</label>
+  </div>
+
+  <h4>Step 5 — Draft space</h4>
+  <p style="font-size:9pt;margin-bottom:4px">Write your opening paragraph here. Begin with your thesis, then introduce your first piece of evidence:</p>
+  <span class="wi-box" style="min-height:90px"></span>
+</div>
+</div>
+
+<div class="pb">
+<div style="background:#1B2A4A;color:#fff;padding:7px 14px;border-radius:3px 3px 0 0;
+            display:flex;justify-content:space-between;align-items:center">
+  <strong>Unit 8 Open Inquiry Task</strong>
+  <span style="background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+               border-radius:2px;padding:1px 8px">[CAUSATION]</span>
+</div>
+<div style="border:1.5px solid #1B2A4A;border-top:none;border-radius:0 0 3px 3px;
+            padding:11px 14px;margin-bottom:4px">
+  <p style="font-size:9pt;color:#555;margin-bottom:6px"><strong>Unit 8: Vietnam, Watergate, and the Crisis of the 1970s (1963–1980)</strong></p>
+  <div class="scaffold" style="margin-bottom:8px"><strong>Open Historical Question</strong>
+  What was the single most damaging blow to American public trust in government in the 1970s — Vietnam, Watergate, or the economic crises — and what evidence supports your claim?
+  </div>
+  <h4>Step 1 — Choose your sources (select at least 2 from this list)</h4>
+  <ul style="font-size:9pt"><li>Gulf of Tonkin Resolution, 1964 (excerpts)</li><li>Figure 8.1: Vietnam troop levels 1965–1972</li><li>Howard Baker Senate Watergate Committee question, 1973 (Tennessee)</li><li>Nixon resignation address, August 9, 1974</li><li>NARA Vietnam casualty statistics (Tennessee)</li></ul>
+  <p style="font-size:8.5pt;font-style:italic;margin-top:3px;color:#555">There is more than one defensible position. Your argument does not need to be the same as your classmates'.</p>
+
+  <h4>Step 2 — My source selections and what each one can prove</h4>
+  <table class="atbl" style="font-size:9pt">
+    <tr><th>Source I selected</th><th>What this source can prove (1 sentence)</th><th>HIPP feature I will use in my argument (H, I, P, or P?)</th></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+
+  <h4>Step 3 — My argument (thesis)</h4>
+  <p style="font-size:9pt">Write a one-sentence claim that directly answers the question and can be supported by at least two sources:</p>
+  <span class="wi-box-sm"></span>
+
+  <h4>Step 4 — Choose your response format</h4>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;margin:6px 0;font-size:9.5pt">
+    <label><input type="radio" name="prod8"> Short essay (400–600 words)</label>
+    <label><input type="radio" name="prod8"> Podcast script (4–6 min)</label>
+    <label><input type="radio" name="prod8"> Mini-documentary storyboard (6–8 frames)</label>
+    <label><input type="radio" name="prod8"> Public testimony speech (2–3 min)</label>
+  </div>
+
+  <h4>Step 5 — Draft space</h4>
+  <p style="font-size:9pt;margin-bottom:4px">Write your opening paragraph here. Begin with your thesis, then introduce your first piece of evidence:</p>
+  <span class="wi-box" style="min-height:90px"></span>
+</div>
+</div>
+
+<div class="pb">
+<div style="background:#1B2A4A;color:#fff;padding:7px 14px;border-radius:3px 3px 0 0;
+            display:flex;justify-content:space-between;align-items:center">
+  <strong>Unit 9 Open Inquiry Task</strong>
+  <span style="background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+               border-radius:2px;padding:1px 8px">[COMPARISON]</span>
+</div>
+<div style="border:1.5px solid #1B2A4A;border-top:none;border-radius:0 0 3px 3px;
+            padding:11px 14px;margin-bottom:4px">
+  <p style="font-size:9pt;color:#555;margin-bottom:6px"><strong>Unit 9: The Conservative Revolution (1980–2001)</strong></p>
+  <div class="scaffold" style="margin-bottom:8px"><strong>Open Historical Question</strong>
+  Did Reagan's "Conservative Revolution" represent a genuine shift in American values — or a political reaction to specific crises that would have faded under different circumstances?
+  </div>
+  <h4>Step 1 — Choose your sources (select at least 2 from this list)</h4>
+  <ul style="font-size:9pt"><li>Reagan's First Inaugural Address, 1981</li><li>Carter's "Crisis of Confidence" speech, 1979</li><li>Economic statistics: inflation and unemployment 1976–1984</li><li>NAFTA text and Tennessee economic impact data, 1993</li><li>George H.W. Bush, "New World Order" speech, 1991</li></ul>
+  <p style="font-size:8.5pt;font-style:italic;margin-top:3px;color:#555">There is more than one defensible position. Your argument does not need to be the same as your classmates'.</p>
+
+  <h4>Step 2 — My source selections and what each one can prove</h4>
+  <table class="atbl" style="font-size:9pt">
+    <tr><th>Source I selected</th><th>What this source can prove (1 sentence)</th><th>HIPP feature I will use in my argument (H, I, P, or P?)</th></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+
+  <h4>Step 3 — My argument (thesis)</h4>
+  <p style="font-size:9pt">Write a one-sentence claim that directly answers the question and can be supported by at least two sources:</p>
+  <span class="wi-box-sm"></span>
+
+  <h4>Step 4 — Choose your response format</h4>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;margin:6px 0;font-size:9.5pt">
+    <label><input type="radio" name="prod9"> Short essay (400–600 words)</label>
+    <label><input type="radio" name="prod9"> Podcast script (4–6 min)</label>
+    <label><input type="radio" name="prod9"> Mini-documentary storyboard (6–8 frames)</label>
+    <label><input type="radio" name="prod9"> Public testimony speech (2–3 min)</label>
+  </div>
+
+  <h4>Step 5 — Draft space</h4>
+  <p style="font-size:9pt;margin-bottom:4px">Write your opening paragraph here. Begin with your thesis, then introduce your first piece of evidence:</p>
+  <span class="wi-box" style="min-height:90px"></span>
+</div>
+</div>
+
+<div class="pb">
+<div style="background:#1B2A4A;color:#fff;padding:7px 14px;border-radius:3px 3px 0 0;
+            display:flex;justify-content:space-between;align-items:center">
+  <strong>Unit 10 Open Inquiry Task</strong>
+  <span style="background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+               border-radius:2px;padding:1px 8px">[CCOT]</span>
+</div>
+<div style="border:1.5px solid #1B2A4A;border-top:none;border-radius:0 0 3px 3px;
+            padding:11px 14px;margin-bottom:4px">
+  <p style="font-size:9pt;color:#555;margin-bottom:6px"><strong>Unit 10: America in the 21st Century (2001–Present)</strong></p>
+  <div class="scaffold" style="margin-bottom:8px"><strong>Open Historical Question</strong>
+  Has the United States become more or less democratic since 2001? Define "democratic" as part of your argument and use at least three pieces of evidence.
+  </div>
+  <h4>Step 1 — Choose your sources (select at least 2 from this list)</h4>
+  <ul style="font-size:9pt"><li>USA PATRIOT Act (2001) excerpts and 4th Amendment text</li><li>Fort Campbell 101st Airborne deployment records (NARA, Tennessee)</li><li>Nashville population growth data 2000–2024</li><li>Social media usage and political polarization data (Pew Research)</li><li>Obama inaugural address, 2009 (public record)</li></ul>
+  <p style="font-size:8.5pt;font-style:italic;margin-top:3px;color:#555">There is more than one defensible position. Your argument does not need to be the same as your classmates'.</p>
+
+  <h4>Step 2 — My source selections and what each one can prove</h4>
+  <table class="atbl" style="font-size:9pt">
+    <tr><th>Source I selected</th><th>What this source can prove (1 sentence)</th><th>HIPP feature I will use in my argument (H, I, P, or P?)</th></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+
+  <h4>Step 3 — My argument (thesis)</h4>
+  <p style="font-size:9pt">Write a one-sentence claim that directly answers the question and can be supported by at least two sources:</p>
+  <span class="wi-box-sm"></span>
+
+  <h4>Step 4 — Choose your response format</h4>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;margin:6px 0;font-size:9.5pt">
+    <label><input type="radio" name="prod10"> Short essay (400–600 words)</label>
+    <label><input type="radio" name="prod10"> Podcast script (4–6 min)</label>
+    <label><input type="radio" name="prod10"> Mini-documentary storyboard (6–8 frames)</label>
+    <label><input type="radio" name="prod10"> Public testimony speech (2–3 min)</label>
+  </div>
+
+  <h4>Step 5 — Draft space</h4>
+  <p style="font-size:9pt;margin-bottom:4px">Write your opening paragraph here. Begin with your thesis, then introduce your first piece of evidence:</p>
+  <span class="wi-box" style="min-height:90px"></span>
+</div>
+</div>
+
+</div>
+<div class="foot"><div><strong>TroopToTeacher Technologies LLC</strong> · Packet B: Inquiry &amp; Writing · © 2026</div>
+<div>Student-facing only · One Open Inquiry Task per unit · All 10 units</div></div>
+
+</body>
+</html>

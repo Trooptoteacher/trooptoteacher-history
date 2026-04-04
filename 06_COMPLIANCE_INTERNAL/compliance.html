@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>District Adoption Compliance Package — TroopToTeacher Technologies</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#888}
+body{font-family:'Source Sans 3',Arial,Helvetica,sans-serif;background:#fff;color:#111;
+  width:8.5in;margin:.2in auto;box-shadow:0 2px 24px rgba(0,0,0,.3);font-size:10pt;line-height:1.72}
+@page{size:letter portrait;margin:.65in .7in .6in}
+@media print{html{background:#fff}body{margin:0;box-shadow:none}
+  .no-print{display:none!important}.page-break{page-break-before:always;padding-top:.4in}}
+.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;border:none;
+  border-radius:5px;padding:7px 14px;font-size:11px;font-weight:700;cursor:pointer;z-index:99}
+/* Letterhead */
+.lh{display:flex;justify-content:space-between;align-items:flex-start;
+    border-bottom:3px solid #1B2A4A;padding:.5in .7in .2in;margin-bottom:0}
+.lh-l h1{font-size:14pt;font-weight:700;color:#1B2A4A}
+.lh-l .sub{font-size:8.5pt;color:#555;margin-top:3px}
+.lh-r{text-align:right;font-size:8pt;color:#1B2A4A;line-height:1.7}
+/* Gold bar */
+.gold-bar{background:#C9A227;padding:5px .7in;font-size:8.5pt;font-weight:700;color:#3D2200;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}
+/* Page body */
+.pg{padding:.3in .7in .25in}
+/* Headings */
+h2{font-size:13pt;font-weight:700;color:#1B2A4A;margin:22px 0 9px;
+   padding-bottom:4px;border-bottom:2px solid #1B2A4A}
+h3{font-size:11pt;font-weight:700;color:#2A3F5E;margin:16px 0 6px}
+h4{font-size:10pt;font-weight:700;color:#555;margin:12px 0 4px}
+p{margin-bottom:10px}
+ul,ol{margin:6px 0 12px 22px}li{margin-bottom:5px}
+/* Callouts */
+.callout{padding:9px 13px;margin:12px 0;border-radius:0 4px 4px 0;font-size:9.5pt;line-height:1.6}
+.cb{background:#f0f5fb;border-left:4px solid #1B2A4A}
+.cg{background:#fffdf5;border-left:4px solid #C9A227}
+.cr{background:#eaf3de;border-left:4px solid #3B6D11}
+.cd{background:#fdf0f0;border-left:4px solid #8B1A1A}
+.callout strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;margin-bottom:3px}
+.cb strong{color:#1B2A4A}.cg strong{color:#633806}.cr strong{color:#27500A}.cd strong{color:#6B1020}
+/* Form fields */
+.form-section{border:1px solid #ddd;border-radius:4px;margin:14px 0;overflow:hidden}
+.fs-hdr{background:#1B2A4A;color:#fff;padding:7px 14px;font-size:10pt;font-weight:700;
+  display:flex;justify-content:space-between;align-items:center}
+.fs-tag{background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;border-radius:2px;padding:1px 8px}
+.fs-body{padding:12px 14px}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:10px}
+.field-row.full{grid-template-columns:1fr}
+.field-row.three{grid-template-columns:1fr 1fr 1fr}
+.field{margin-bottom:6px}
+.field label{display:block;font-size:8pt;font-weight:700;color:#1B2A4A;
+  text-transform:uppercase;letter-spacing:.07em;margin-bottom:4px}
+.field .filled{background:#f0f5fb;border:1px solid #c8d6e8;border-radius:3px;
+  padding:5px 9px;font-size:9.5pt;color:#1B2A4A;font-weight:600}
+.field .blank{border:none;border-bottom:1px solid #555;width:100%;padding:4px 0;
+  font-size:9.5pt;background:transparent}
+.field .note{font-size:8pt;color:#888;margin-top:3px;font-style:italic}
+/* Checklist */
+.checklist{list-style:none;margin:0 0 12px}
+.checklist li{display:flex;align-items:flex-start;gap:10px;padding:6px 10px;
+  border-bottom:1px solid #f0f0f0;font-size:9.5pt}
+.checklist li:nth-child(even){background:#fafafa}
+.cb-box{width:14px;height:14px;border:2px solid #1B2A4A;border-radius:2px;
+  flex-shrink:0;margin-top:2px}
+.cb-box.done{background:#27500A;border-color:#27500A;position:relative}
+.cb-box.done::after{content:"✓";color:#fff;font-size:10px;position:absolute;top:-2px;left:1px}
+/* Timeline */
+.tl-item{display:flex;gap:14px;margin-bottom:12px;align-items:flex-start}
+.tl-date{background:#1B2A4A;color:#fff;border-radius:3px;padding:4px 10px;
+  font-size:8.5pt;font-weight:700;white-space:nowrap;flex-shrink:0;min-width:110px;text-align:center}
+.tl-date.gold{background:#C9A227;color:#3D2200}
+.tl-date.red{background:#8B1A1A}
+.tl-body{font-size:9.5pt;padding-top:2px;line-height:1.55}
+/* Stats grid */
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:10px 0}
+.stat-box{background:#f5f7fa;border:1px solid #c0cce0;border-radius:4px;padding:9px;text-align:center}
+.stat-box .n{font-size:18pt;font-weight:700;color:#1B2A4A;display:block;line-height:1}
+.stat-box .l{font-size:8pt;color:#555;margin-top:2px;line-height:1.3}
+/* Tables */
+table{width:100%;border-collapse:collapse;font-size:9pt;margin:10px 0}
+th{background:#1B2A4A;color:#fff;padding:6px 10px;text-align:left;font-size:8.5pt}
+td{padding:6px 10px;border-bottom:1px solid #eee;vertical-align:top}
+tr:nth-child(even) td{background:#f8f8f8}
+td:first-child{font-weight:600;color:#1B2A4A}
+/* Footer */
+.foot{background:#1B2A4A;color:rgba(255,255,255,.55);padding:7px .7in;
+  font-size:7.5pt;display:flex;justify-content:space-between}
+.foot strong{color:#C9A227}
+/* Sig block */
+.sig-line{border-bottom:1px solid #333;width:260px;height:1px;margin:20px 0 3px}
+.sig-name{font-size:11pt;font-weight:700;color:#1B2A4A}
+.sig-creds{font-size:8.5pt;color:#555;line-height:1.65;margin-top:2px}
+</style>
+</head>
+<body>
+<button class="no-print" onclick="window.print()">&#x2399; Print Package</button>
+
+<!-- LETTERHEAD -->
+<div class="lh">
+  <div class="lh-l">
+    <h1>TroopToTeacher Technologies LLC</h1>
+    <div class="sub">Educational Technology &amp; Instructional Materials &nbsp;·&nbsp; Franklin, Tennessee &nbsp;·&nbsp; trooptoteacher.com</div>
+  </div>
+  <div class="lh-r">
+    <strong>Sean Reynolds, M.Ed.</strong><br>
+    USAF MSgt (E-7), Retired<br>
+    Tennessee Level 5 Educator<br>
+    Founder &amp; CEO<br>
+    April 2026
+  </div>
+</div>
+
+<div class="gold-bar">
+  <span>District Adoption Compliance Package &nbsp;·&nbsp; T.C.A. § 49-6-2207(e) &nbsp;·&nbsp; Schedule E Cycle &nbsp;·&nbsp; Deadline: June 30, 2026</span>
+  <span>ED-2153 &nbsp;·&nbsp; ED-5099 &nbsp;·&nbsp; ED-2154 Supporting Documentation</span>
+</div>
+
+<!-- PAGE 1 -->
+<div class="pg">
+<div style="text-align:center;margin:10px 0 16px;padding:12px;background:#f5f7fa;border-top:2px solid #1B2A4A;border-bottom:2px solid #1B2A4A">
+  <div style="font-size:8pt;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:#6B1020;margin-bottom:4px">District Adoption Compliance Package</div>
+  <div style="font-size:15pt;font-weight:700;color:#1B2A4A;margin-bottom:4px">U.S. History: Reconstruction to Present</div>
+  <div style="font-size:9.5pt;color:#444;font-style:italic">Supporting documentation for ED-5099, ED-2153, and ED-2154 &nbsp;·&nbsp; TroopToTeacher Technologies LLC</div>
+</div>
+
+<div class="callout cd">
+  <strong>Statutory Authority</strong>
+  Pursuant to T.C.A. § 49-6-2207(e), upon completion of local adoption processes, directors of schools are required to submit documentation of the district's High Quality Instructional Materials (HQIM) adoption decisions to the Tennessee Department of Education. Both the <strong>ED-2153</strong> (signed by the local board) and <strong>ED-5099</strong> (list of adopted HQIMs) must be submitted electronically. Deadline for Schedule E cycle: <strong>June 30, 2026</strong>. Submit to: <strong>Academics.Instruction@tn.gov</strong>
+</div>
+
+<h2>What This Package Provides</h2>
+<p>This compliance package gives your district everything it needs to complete the adoption process for <em>U.S. History: Reconstruction to Present</em> by TroopToTeacher Technologies LLC. It includes:</p>
+<ul>
+  <li><strong>Part A:</strong> Product Information for ED-5099 — pre-filled vendor data your district needs to complete the official TDOE form</li>
+  <li><strong>Part B:</strong> ED-2153 Supporting Documentation — evidence your board needs to document its approval decision</li>
+  <li><strong>Part C:</strong> ED-2154 Local Committee Checklist — documentation retained at the district level</li>
+  <li><strong>Part D:</strong> Adoption Timeline and Submission Checklist — deadlines and submission steps</li>
+  <li><strong>Part E:</strong> Standards Alignment Attestation — signed statement confirming 100% Tennessee standards coverage</li>
+</ul>
+
+<div class="callout cr">
+  <strong>Important Note on Official Forms</strong>
+  The ED-2153, ED-5099, and ED-2154 are official TDOE forms to be completed and submitted by the <em>district</em>, not the vendor. The information in this package is provided to assist your district in accurately completing those forms. Obtain the official blank forms from the TDOE textbook adoption webpage or the submission links provided in the TDOE compliance notice. Questions: <strong>Academics.Instruction@tn.gov</strong>
+</div>
+
+<h2>Part A — Product Information for ED-5099</h2>
+<p>The ED-5099 requires districts to list which instructional materials were adopted. Use the information below when completing that form for TroopToTeacher Technologies materials.</p>
+
+<!-- ED-5099 PRODUCT INFO -->
+<div class="form-section">
+  <div class="fs-hdr">Product Information — For Use in Completing ED-5099 <div class="fs-tag">PRE-FILLED BY VENDOR</div></div>
+  <div class="fs-body">
+    <div class="field-row">
+      <div class="field">
+        <label>Publisher / Vendor Name</label>
+        <div class="filled">TroopToTeacher Technologies LLC</div>
+      </div>
+      <div class="field">
+        <label>Author</label>
+        <div class="filled">Sean Reynolds, M.Ed.</div>
+      </div>
+    </div>
+    <div class="field-row full">
+      <div class="field">
+        <label>Full Title of Instructional Material</label>
+        <div class="filled">U.S. History: Reconstruction to Present — A Tennessee Standards-Aligned Textbook and Digital Learning Platform for Grades 9–12</div>
+      </div>
+    </div>
+    <div class="field-row three">
+      <div class="field">
+        <label>Copyright Year</label>
+        <div class="filled">2026</div>
+      </div>
+      <div class="field">
+        <label>Edition</label>
+        <div class="filled">First Edition</div>
+      </div>
+      <div class="field">
+        <label>ISBN (Pending)</label>
+        <div class="filled">Pending Bowker Registration</div>
+        <div class="note">ISBN registration in progress at myidentifiers.com — contact vendor for current ISBN once assigned</div>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Grade Level(s)</label>
+        <div class="filled">Grades 9–12 (U.S. History, Post-Reconstruction to Present)</div>
+      </div>
+      <div class="field">
+        <label>Subject / Course</label>
+        <div class="filled">U.S. History — Reconstruction to Present</div>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Format(s) Available</label>
+        <div class="filled">Digital (web-based, all devices) · Printable PDF · History Hack mobile app (iOS/Android)</div>
+      </div>
+      <div class="field">
+        <label>Adoption Type</label>
+        <div class="filled">Supplemental Instructional Material — HQIM</div>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Vendor Address</label>
+        <div class="filled">TroopToTeacher Technologies LLC, Franklin, Tennessee 37064</div>
+      </div>
+      <div class="field">
+        <label>Vendor Contact / Website</label>
+        <div class="filled">trooptoteacher.com &nbsp;·&nbsp; Sean Reynolds, M.Ed.</div>
+      </div>
+    </div>
+    <div class="field-row full">
+      <div class="field">
+        <label>Tennessee Academic Standards Addressed</label>
+        <div class="filled">US.REC, US.01–US.44 (all 44 U.S. History EOC-tested standards, verified against TCAP EOC 2021–2025). Additionally: SSP.01–SSP.06, TCA § 49-6-1006, TCA § 49-6-1028(b), TCA §§ 49-6-1202, 1203, 1205</div>
+      </div>
+    </div>
+    <div class="field-row three">
+      <div class="field">
+        <label>TDOE Approved / Listed</label>
+        <div class="filled">Submitted for 2026 Adoption Cycle</div>
+      </div>
+      <div class="field">
+        <label>Schedule F Rubric Score</label>
+        <div class="filled">Self-Assessment: All Tables Addressed</div>
+        <div class="note">Full Schedule F documentation available on request</div>
+      </div>
+      <div class="field">
+        <label>Pilot Status</label>
+        <div class="filled">Available for district pilot — contact vendor</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>Part B — ED-2153 Board Approval Supporting Documentation</h2>
+<p>The ED-2153 is completed and signed by your local board of education. Your board will need evidence that the adopted material meets Tennessee requirements. The following documents from TroopToTeacher Technologies support that determination:</p>
+
+<table>
+  <tr><th>Required Evidence</th><th>TTT Document Provided</th><th>Location</th></tr>
+  <tr><td>Standards alignment confirmation</td><td>Tennessee Standards Alignment Matrix — full mapping of all 44 standards</td><td>standards-matrix.html on textbook site</td></tr>
+  <tr><td>EOC alignment verification</td><td>TCAP EOC Alignment Validation — 44/44 standards, 5-year frequency data, signed</td><td>eoc-validation.html on textbook site</td></tr>
+  <tr><td>TCA § 49-6-1028(b) compliance</td><td>Capitalism and Constitutional Republic content in Units 2, 5, 9, 10</td><td>Documented in Standards Alignment Matrix</td></tr>
+  <tr><td>TCA § 49-6-1006 compliance</td><td>Black history integrated throughout all 10 units — not siloed</td><td>All unit files; Standards Matrix</td></tr>
+  <tr><td>Factual accuracy</td><td>All claims verified; [VERIFY] flags on items requiring confirmation; no invented quotations</td><td>Author Qualifications document</td></tr>
+  <tr><td>Accessibility / ELL / SWD</td><td>Every lesson includes ELL supports, SWD accommodations, three differentiation levels</td><td>Schedule F Table 4 documentation; sample unit files</td></tr>
+  <tr><td>Instructional Focus (Schedule F Table 2)</td><td>Essential/Supporting questions, SSPs, disciplinary literacy, multiple perspectives in all units</td><td>Scope &amp; Sequence; all unit files</td></tr>
+  <tr><td>Author qualifications</td><td>Author Qualifications statement — credentials, military record, classroom experience</td><td>TTT_Author_Qualifications.html</td></tr>
+</table>
+
+</div>
+<div class="foot"><div><strong>TroopToTeacher Technologies LLC</strong> &nbsp;·&nbsp; District Adoption Compliance Package &nbsp;·&nbsp; © 2026</div><div>Part A &amp; B &nbsp;·&nbsp; Page 1</div></div>
+
+
+<!-- PAGE 2 -->
+<div class="pg page-break">
+
+<h2>Part C — ED-2154 Local Committee Documentation Checklist</h2>
+<p>The ED-2154 documents your district's local review committee process. This form is <strong>retained at the district level</strong> — it does not need to be submitted to TDOE. Use the checklist below to ensure your committee's process is fully documented before the June 30, 2026 deadline.</p>
+
+<div class="callout cb"><strong>What ED-2154 Documents</strong> Your district's local review committee must examine the instructional materials against Tennessee academic standards and the TDOE Schedule F rubric criteria. Documentation should include: committee membership (with titles), dates of review sessions, rubric scores assigned by reviewers, and the basis for adoption recommendation.</div>
+
+<ul class="checklist">
+  <li><div class="cb-box"></div><div><strong>Committee formed:</strong> At least one classroom teacher of U.S. History; one administrator; parent representative recommended <div style="font-size:8.5pt;color:#666;margin-top:2px">Document names and titles of all committee members. A TTT pilot teacher from your district strengthens this documentation.</div></div></li>
+  <li><div class="cb-box done"></div><div><strong>TTT materials reviewed against Schedule F rubric (all four tables)</strong><div style="font-size:8.5pt;color:#666;margin-top:2px">Table 1: Content Alignment &nbsp;·&nbsp; Table 2: Instructional Focus &nbsp;·&nbsp; Table 3: Social Studies Practices &nbsp;·&nbsp; Table 4: Accessibility. Completed rubric available from vendor on request.</div></div></li>
+  <li><div class="cb-box done"></div><div><strong>Tennessee standards alignment verified</strong><div style="font-size:8.5pt;color:#666;margin-top:2px">Standards Alignment Matrix on textbook site documents all 44 standards. Committee should verify at least a sample of standard-to-content mappings.</div></div></li>
+  <li><div class="cb-box done"></div><div><strong>TCA § 49-6-1028(b) compliance verified</strong> — Virtues of capitalism and constitutional republic<div style="font-size:8.5pt;color:#666;margin-top:2px">Present in Units 2 (Gilded Age/capitalism), 5 (New Deal debate), 9 (Reaganomics), and 10 (21st century economy). See Standards Matrix for specific standard codes and chapter locations.</div></div></li>
+  <li><div class="cb-box done"></div><div><strong>TCA § 49-6-1006 compliance verified</strong> — Black history and culture<div style="font-size:8.5pt;color:#666;margin-top:2px">Integrated throughout all 10 units: Reconstruction, Buffalo Soldiers, Harlem Renaissance, Tuskegee Airmen, Nashville Sit-ins, Civil Rights Acts, and more. Not siloed into a single section.</div></div></li>
+  <li><div class="cb-box done"></div><div><strong>Tennessee-specific content verified</strong><div style="font-size:8.5pt;color:#666;margin-top:2px">Andrew Johnson · KKK founding Pulaski · Harry T. Burn · Scopes Trial · TVA · Oak Ridge · Cordell Hull · Nashville Sit-ins · Clinton High School · Tent City · Highlander Folk School · Lorraine Motel · Fort Campbell · Howard Baker · Al Gore · NAFTA &amp; Tennessee. All present and sourced.</div></div></li>
+  <li><div class="cb-box"></div><div><strong>Committee review dates documented</strong> — at least one formal review meeting<div style="font-size:8.5pt;color:#666;margin-top:2px">Record date(s), attendees, materials reviewed, rubric scores assigned, and recommendation made.</div></div></li>
+  <li><div class="cb-box"></div><div><strong>Recommendation to board prepared</strong><div style="font-size:8.5pt;color:#666;margin-top:2px">Written memo from committee to superintendent/board recommending adoption, summarizing evidence reviewed.</div></div></li>
+  <li><div class="cb-box"></div><div><strong>Board vote documented</strong> — with minutes reference<div style="font-size:8.5pt;color:#666;margin-top:2px">Board must vote to approve. Record the meeting date, vote count, and board minutes reference number.</div></div></li>
+</ul>
+
+<div class="form-section">
+  <div class="fs-hdr">ED-2154 Local Committee Record (Template) <div class="fs-tag">RETAIN AT DISTRICT LEVEL</div></div>
+  <div class="fs-body">
+    <div class="field-row">
+      <div class="field"><label>District Name</label><div class="blank">&nbsp;</div></div>
+      <div class="field"><label>Director of Schools</label><div class="blank">&nbsp;</div></div>
+    </div>
+    <div class="field-row full">
+      <div class="field"><label>Instructional Material Being Considered</label>
+        <div class="filled">U.S. History: Reconstruction to Present — TroopToTeacher Technologies LLC — Sean Reynolds, M.Ed.</div></div>
+    </div>
+    <div class="field-row three">
+      <div class="field"><label>Grade Level</label><div class="filled">9–12</div></div>
+      <div class="field"><label>Subject</label><div class="filled">U.S. History</div></div>
+      <div class="field"><label>Review Date(s)</label><div class="blank">&nbsp;</div></div>
+    </div>
+    <div style="margin-top:10px">
+      <h4 style="margin-bottom:8px;font-size:9pt">Committee Members</h4>
+      <table style="font-size:9pt">
+        <tr><th>Name</th><th>Title / Role</th><th>School</th><th>Signature</th></tr>
+        <tr><td style="height:28px">&nbsp;</td><td></td><td></td><td></td></tr>
+        <tr><td style="height:28px">&nbsp;</td><td></td><td></td><td></td></tr>
+        <tr><td style="height:28px">&nbsp;</td><td></td><td></td><td></td></tr>
+        <tr><td style="height:28px">&nbsp;</td><td></td><td></td><td></td></tr>
+      </table>
+    </div>
+    <div class="field-row full" style="margin-top:12px">
+      <div class="field"><label>Committee Recommendation</label>
+        <div class="blank" style="height:60px;border:1px solid #ccc;border-radius:3px;padding:6px">&nbsp;</div></div>
+    </div>
+    <div class="field-row three" style="margin-top:10px">
+      <div class="field"><label>Board Meeting Date</label><div class="blank">&nbsp;</div></div>
+      <div class="field"><label>Board Vote</label><div class="blank">&nbsp;</div></div>
+      <div class="field"><label>Minutes Reference</label><div class="blank">&nbsp;</div></div>
+    </div>
+  </div>
+</div>
+
+<h2>Part D — Adoption Timeline and Submission Checklist</h2>
+
+<div class="tl-item">
+  <div class="tl-date">April 2026</div>
+  <div class="tl-body"><strong>Contact TroopToTeacher Technologies</strong> — Request pilot access, digital review site, and full Schedule F documentation package. <em>trooptoteacher.com</em></div>
+</div>
+<div class="tl-item">
+  <div class="tl-date">April–May 2026</div>
+  <div class="tl-body"><strong>Local committee review</strong> — Committee reviews materials against Schedule F rubric (all 4 tables) and Tennessee standards. Document committee composition, meeting dates, and rubric scores on ED-2154. File ED-2154 at the district level.</div>
+</div>
+<div class="tl-item">
+  <div class="tl-date">May 2026</div>
+  <div class="tl-body"><strong>Board vote</strong> — Present committee recommendation to the local board of education. Board votes to adopt. Document in board minutes. Board signs ED-2153.</div>
+</div>
+<div class="tl-item">
+  <div class="tl-date gold">By June 30, 2026</div>
+  <div class="tl-body"><strong>SUBMIT to TDOE</strong> — Submit signed ED-2153 and completed ED-5099 electronically using the TDOE Schedule E Adoption Reports Submission link. Questions: <strong>Academics.Instruction@tn.gov</strong></div>
+</div>
+<div class="tl-item">
+  <div class="tl-date red">After June 30</div>
+  <div class="tl-body"><strong>Late submissions</strong> — Contact TDOE directly for late submission guidance. T.C.A. § 49-6-2207(e) requires documentation upon completion of local adoption processes.</div>
+</div>
+
+<h2>Part E — Standards Alignment Attestation</h2>
+<p>The following is provided for inclusion in your board's adoption file and may be referenced in completing ED-2153.</p>
+
+<div class="form-section">
+  <div class="fs-hdr">Vendor Standards Alignment Attestation <div class="fs-tag">FOR BOARD FILE</div></div>
+  <div class="fs-body">
+    <div class="stat-grid">
+      <div class="stat-box"><span class="n">44/44</span><span class="l">Tennessee EOC-tested standards covered (2021–2025)</span></div>
+      <div class="stat-box"><span class="n">10</span><span class="l">Complete instructional units with all required components</span></div>
+      <div class="stat-box"><span class="n">447</span><span class="l">Assessment questions aligned to Tennessee standards</span></div>
+      <div class="stat-box"><span class="n">100%</span><span class="l">Schedule F Table 1 (Gateway) — content alignment</span></div>
+    </div>
+    <p style="margin:10px 0;font-size:9.5pt;line-height:1.65">I, Sean Reynolds, M.Ed., author and developer of <em>U.S. History: Reconstruction to Present</em>, hereby attest that the instructional materials submitted for this adoption cycle:</p>
+    <ul style="font-size:9.5pt;margin:6px 0 12px 18px;line-height:1.7">
+      <li>Address 100% of Tennessee Academic Standards for U.S. History (current standards and 2024 revised standards per crosswalk)</li>
+      <li>Comply with T.C.A. § 49-6-1028(b): virtues of capitalism and constitutional republic form of government are addressed in Grades 9–12 content</li>
+      <li>Comply with T.C.A. § 49-6-1006: Black history and culture are integrated throughout all 10 units</li>
+      <li>Comply with T.C.A. §§ 49-6-1202, 1203, 1205: American history, constitutions, and free enterprise addressed</li>
+      <li>Are free of clear, substantive, factual errors to the best of the author's knowledge; all factual claims are verified and flagged items are documented</li>
+      <li>Are available in digital form with printable options for every lesson</li>
+      <li>Include recommended supports, accommodations, and modifications for Students with Disabilities and English Language Learners in every lesson</li>
+      <li>Incorporate essential and supporting questions, Social Studies Practices (SSPs), and inquiry-based instruction as required by the TDOE RFA (March 2026)</li>
+    </ul>
+    <p style="font-size:9pt;color:#555;margin-bottom:16px;font-style:italic">Full supporting documentation available at the textbook website and upon request. The Tennessee Standards Alignment Matrix maps every standard to specific sections, activities, and assessments.</p>
+    
+    <div class="sig-line"></div>
+    <div class="sig-name">Sean Reynolds</div>
+    <div class="sig-creds">M.Ed. &nbsp;·&nbsp; USAF Master Sergeant (E-7), Retired &nbsp;·&nbsp; Tennessee Level 5 Educator<br>
+    Founder &amp; CEO, TroopToTeacher Technologies LLC &nbsp;·&nbsp; Franklin, Tennessee &nbsp;·&nbsp; April 2026</div>
+    <div style="margin-top:16px">
+      <div class="sig-line" style="width:180px"></div>
+      <div class="sig-creds">Date</div>
+    </div>
+  </div>
+</div>
+
+</div>
+<div class="foot"><div><strong>TroopToTeacher Technologies LLC</strong> &nbsp;·&nbsp; District Adoption Compliance Package &nbsp;·&nbsp; © 2026</div><div>Parts C–E &nbsp;·&nbsp; Page 2</div></div>
+
+</body>
+</html>

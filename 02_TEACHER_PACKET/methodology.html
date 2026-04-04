@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research Basis &amp; Evidence Sourcing — TroopToTeacher Technologies LLC</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#ddd}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:#fff;color:#111;
+  width:8.5in;margin:.18in auto;box-shadow:0 3px 24px rgba(0,0,0,.26);
+  font-size:9.5pt;line-height:1.75}
+@page{size:letter portrait;margin:.58in .63in .52in}
+@media print{html{background:#fff}body{margin:0;box-shadow:none}
+  .no-print{display:none!important}.pb{page-break-before:always;padding-top:.28in}
+  .strat{break-inside:avoid}.cite-block{break-inside:avoid}
+  /* === SHARED PRINT FIXES — TroopToTeacher Technologies LLC === */
+  /* Hide ALL sticky/fixed/nav elements */
+  [style*="position:sticky"],[style*="position: sticky"],
+  [style*="position:fixed"],[style*="position: fixed"],
+  .no-print,.nav-bar,.topbar,.site-header,.unit-tabs,.filter-bar{
+    display:none!important
+  }
+  /* Reduce .pb top padding in print */
+  .pb{padding-top:.1in!important}
+  /* Write spaces MUST be visible */
+  .wi,.write-line{
+    display:block!important;
+    border-bottom:1px solid #333!important;
+    min-height:20px!important;
+    margin-bottom:6px!important;
+    background:none!important
+  }
+  .wi-lg,.write-line-lg{min-height:36px!important}
+  .wi-box,.wi-box-sm,.write-box{
+    border:1px solid #333!important;
+    background:#fff!important;
+    display:block!important;
+    width:100%!important;
+    min-height:55px!important
+  }
+  .wi-box-sm{min-height:36px!important}
+  /* Dark headers: use print-color-adjust to force print */
+  .banner,.hero,.gold-bar,.section-header,.strat-hdr,
+  .ptg-hdr,.org-hdr,.teacher-box .th{
+    -webkit-print-color-adjust:exact!important;
+    print-color-adjust:exact!important
+  }
+  /* Tables: prevent mid-row breaks */
+  table{break-inside:auto}
+  tr{break-inside:avoid!important;break-after:auto}
+  .soaps-row,.hipp-row,.cc-row,.tl-row{break-inside:avoid!important}
+  /* Remove shadows and outlines */
+  *{box-shadow:none!important;text-shadow:none!important}
+  /* Organizer blocks stay together */
+  .strat,.org,.q-block,.nb,.atbl,.ptg,.teacher-box,
+  .frayer-card,.venn-col,.cc-grid,.cause-box,
+  .ccot-col,.tl-row,.arg-box{break-inside:avoid!important}
+  /* Overflow visible in print (prevents clipping) */
+  .strat,.org,.teacher-box,.ptg{overflow:visible!important}
+  /* Page footer prints cleanly */
+  .foot{
+    position:fixed;bottom:0;left:0;right:0;
+    -webkit-print-color-adjust:exact!important;
+    print-color-adjust:exact!important
+  }
+}
+.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;border:none;
+  border-radius:5px;padding:7px 14px;font-size:11px;font-weight:700;cursor:pointer;z-index:99}
+
+/* Banner */
+.hero{background:#1B2A4A;padding:22px .65in 18px}
+.hero .eye{font-size:8pt;font-weight:700;letter-spacing:.15em;text-transform:uppercase;
+  color:#C9A227;margin-bottom:8px}
+.hero h1{font-family:'Merriweather',Georgia,serif;font-size:17pt;font-weight:700;
+  color:#fff;line-height:1.2;margin-bottom:4px}
+.hero .sub{font-size:9.5pt;color:#B5D4F4;font-style:italic}
+.gold-bar{background:#C9A227;padding:4px .65in;font-size:8.5pt;font-weight:700;
+  color:#3D2200;display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}
+
+/* Body */
+.pg{padding:.22in .65in .18in}
+h2{font-family:'Merriweather',Georgia,serif;font-size:12pt;font-weight:700;
+   color:#1B2A4A;margin:20px 0 8px;padding-bottom:3px;border-bottom:2px solid #1B2A4A}
+h3{font-size:10.5pt;font-weight:700;color:#2A3F5E;margin:14px 0 5px}
+p{margin-bottom:8px;font-size:9.5pt;line-height:1.72}
+ul{margin:5px 0 10px 18px}li{margin-bottom:5px;font-size:9.5pt;line-height:1.65}
+
+/* Strategy block */
+.strat{border:1.5px solid #ddd;border-radius:4px;margin:14px 0;overflow:hidden}
+.strat-hdr{background:#2A3F5E;color:#fff;padding:7px 14px;
+  display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.strat-hdr h3{color:#fff;margin:0;font-size:10.5pt}
+.strat-hdr .ef{background:#C9A227;color:#3D2200;font-size:8pt;font-weight:700;
+  border-radius:2px;padding:2px 9px;white-space:nowrap;margin-top:2px;flex-shrink:0}
+.strat-body{padding:11px 14px}
+.strat-basis{background:#f0f5fb;border-left:3px solid #1B2A4A;padding:7px 11px;
+  margin:0 0 10px;font-size:9.5pt;line-height:1.65;border-radius:0 3px 3px 0}
+.strat-basis strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;color:#1B2A4A;margin-bottom:2px}
+
+/* Citation block */
+.cite-block{border:1px solid #e2e8f0;border-radius:3px;margin:7px 0;
+  overflow:hidden;font-size:9pt}
+.cite-ref{background:#f8fafc;padding:7px 12px;border-bottom:1px solid #e2e8f0;
+  font-family:'Courier New',monospace;font-size:8.5pt;line-height:1.6;color:#1B2A4A}
+.cite-meta{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.cite-establishes{padding:6px 12px;font-size:9pt;line-height:1.6;border-right:1px solid #e2e8f0}
+.cite-establishes strong{font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#27500A;display:block;margin-bottom:2px}
+.cite-access{padding:6px 12px;font-size:9pt;line-height:1.6;background:#fafafa}
+.cite-access strong{font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#633806;display:block;margin-bottom:2px}
+.cite-access a{color:#1B2A4A;word-break:break-all}
+
+/* Effect size badge */
+.es{display:inline-block;background:#1B2A4A;color:#C9A227;font-size:8pt;
+  font-weight:700;border-radius:2px;padding:1px 7px;margin-right:5px}
+.es-hi{background:#27500A}
+.es-med{background:#633806}
+.es-lo{background:#555}
+
+/* Callouts */
+.callout{padding:8px 12px;margin:10px 0;border-radius:0 4px 4px 0;
+  font-size:9.5pt;line-height:1.65}
+.ccb{background:#f0f5fb;border-left:4px solid #1B2A4A}
+.ccg{background:#fffdf5;border-left:4px solid #C9A227}
+.ccr{background:#eaf3de;border-left:4px solid #3B6D11}
+.callout strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;margin-bottom:2px}
+.ccb strong{color:#1B2A4A}.ccg strong{color:#633806}.ccr strong{color:#27500A}
+
+/* Effect size legend */
+.es-legend{display:flex;gap:12px;flex-wrap:wrap;margin:8px 0;font-size:9pt}
+.esl-item{display:flex;align-items:center;gap:5px}
+
+/* Summary table */
+table.sum{width:100%;border-collapse:collapse;font-size:9pt;margin:10px 0}
+table.sum th{background:#1B2A4A;color:#fff;padding:6px 10px;text-align:left;font-size:8.5pt}
+table.sum td{padding:6px 10px;border-bottom:1px solid #eee;vertical-align:top;line-height:1.55}
+table.sum tr:nth-child(even) td{background:#f8f8f8}
+table.sum td:first-child{font-weight:600;color:#1B2A4A;width:25%}
+
+/* Footer */
+.foot{background:#1B2A4A;color:rgba(255,255,255,.5);padding:6px .65in;font-size:7.5pt;
+  display:flex;justify-content:space-between}
+.foot strong{color:#C9A227}
+</style>
+</head>
+<body>
+<button class="no-print" onclick="window.print()">&#x2399; Print / PDF</button>
+
+<div class="hero">
+  <div class="eye">Methodology · Research Basis &amp; Evidence Sourcing</div>
+  <h1>Instructional Strategy Evidence Document<br>TroopToTeacher Technologies LLC</h1>
+  <div class="sub">U.S. History: Reconstruction to Present (US.01–US.95) · Grades 9–12 · April 2026</div>
+</div>
+<div class="gold-bar">
+  <span>11 instructional strategies · Peer-reviewed and practitioner-research citations · APA 7th Edition</span>
+  <span>Supports Schedule F Table 2, Table 3 · TDOE RFA March 2026 compliance</span>
+</div>
+
+<div class="pg">
+
+<div class="callout ccb">
+  <strong>Purpose of This Document</strong>
+  This document provides the research basis for each instructional strategy embedded in TroopToTeacher Technologies LLC's <em>U.S. History: Reconstruction to Present</em> materials. Citations are drawn from peer-reviewed educational psychology research, established curriculum frameworks, and practitioner research literature. This document is intended for: (a) Tennessee Textbook Commission reviewers evaluating instructional design quality under Schedule F Tables 2 and 3; (b) district curriculum directors considering adoption; and (c) teachers who want to understand the evidence behind the design choices they are implementing. Effect sizes from Hattie's <em>Visible Learning</em> meta-analysis are noted where applicable using his scale (d = effect size; the average effect of any intervention = 0.40).
+</div>
+
+<div class="es-legend">
+  <strong style="font-size:8.5pt">Effect Size Key (Hattie scale):</strong>
+  <div class="esl-item"><span class="es es-hi">d ≥ 0.60</span> High impact</div>
+  <div class="esl-item"><span class="es es-med">d 0.40–0.59</span> Average–above average</div>
+  <div class="esl-item"><span class="es es-lo">d &lt; 0.40</span> Below average / developmental</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- 1. RETRIEVAL PRACTICE / SPACED PRACTICE          -->
+<!-- ══════════════════════════════════════════════════ -->
+<div class="strat">
+<div class="strat-hdr">
+  <h3>Strategy 1 — Retrieval Practice and Spaced Review</h3>
+  <div class="ef"><span class="es es-hi">d = 0.62–0.90</span> High Impact</div>
+</div>
+<div class="strat-body">
+<div class="strat-basis">
+  <strong>Research Basis</strong>
+  Retrieval practice — the act of actively recalling information from memory rather than re-reading — consistently produces stronger long-term retention than passive review. Spaced practice (distributing retrieval across multiple sessions over time) amplifies this effect. TroopToTeacher Technologies LLC's three-round spaced retrieval system per unit, bell ringer design, and exit ticket structure are directly grounded in this literature.
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Agarwal, P. K., Nunes, L. D., &amp; Blunt, J. R. (2021). Retrieval practice consistently benefits student learning: A systematic review of applied research in schools and classrooms. <em>Educational Psychology Review, 33</em>, 1409–1453. https://doi.org/10.1007/s10648-021-09595-9</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Systematic review of 50+ applied studies in K–12 and college classrooms. Retrieval practice outperformed re-study across all subject areas, student ages, and educational settings. Spaced retrieval produced stronger effects than massed practice, consistent with laboratory findings. Three retrieval opportunities at increasing intervals were identified as the practical optimum.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Open-access preprint available via author's site (poojaagarwal.com). Published in a peer-reviewed Springer journal. No paywall for preprint.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Roediger, H. L., III, &amp; Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. <em>Psychological Science, 17</em>(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The foundational laboratory study establishing the "testing effect": students who took a recall test after studying retained 60% more one week later compared to students who studied repeatedly without retrieval. This is the originating empirical basis for the entire retrieval practice literature in educational settings.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Widely cited (10,000+ citations). Abstract available via APA PsycInfo; full text via most university library databases. Authors are at Washington University in St. Louis.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., &amp; Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. <em>Psychological Bulletin, 132</em>(3), 354–380. https://doi.org/10.1037/0033-2909.132.3.354</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Quantitative synthesis of 317 experiments on distributed practice (spaced learning). Effect sizes for spaced over massed practice ranged from d = 0.42 to d = 1.09 depending on retention interval. Spacing gains are largest when the retention interval is long — directly supporting a semester-long spaced retrieval curriculum design.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Published in APA's flagship meta-analysis journal. Abstract freely available; full text via APA or university databases.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Agarwal, P. K., &amp; Bain, P. M. (2019). <em>Powerful Teaching: Unleash the Science of Learning.</em> Jossey-Bass.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Practitioner-facing synthesis of the retrieval practice research by the leading cognitive psychologist in this field and a veteran K–12 educator. Provides specific classroom implementation models including brain dumps, two-question exit tickets, and interleaved quizzing — the direct models for TroopToTeacher Technologies LLC's bell ringer and exit ticket design.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Available for purchase (Wiley/Jossey-Bass). Free chapter and summary available at RetrievalPractice.org. ISBN: 978-1119521846.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- 2. DIFFERENTIATED INSTRUCTION                    -->
+<!-- ══════════════════════════════════════════════════ -->
+<div class="strat">
+<div class="strat-hdr">
+  <h3>Strategy 2 — Differentiated Instruction (Three-Tier Model)</h3>
+  <div class="ef"><span class="es es-med">d = 0.52</span> Above Average</div>
+</div>
+<div class="strat-body">
+<div class="strat-basis">
+  <strong>Research Basis</strong>
+  Differentiated instruction involves modifying content, process, product, or learning environment to match student readiness, interest, and learning profile — while maintaining consistent standards and rigor for all students. TroopToTeacher Technologies LLC's three-version model (Version A: Modified/ELL; Version B: On-Level; Version C: Advanced) is grounded in Tomlinson's established DI framework, with additional scaffolding research informing Version A design.
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Tomlinson, C. A. (2014). <em>The Differentiated Classroom: Responding to the Needs of All Learners</em> (2nd ed.). ASCD.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The foundational framework for differentiated instruction in K–12 settings: the four classroom elements that can be differentiated (content, process, product, affect/learning environment) and the three student characteristics that guide differentiation (readiness, interest, learning profile). The three-tier readiness model used in TroopToTeacher Technologies LLC materials maps directly to Tomlinson's readiness continuum.</div>
+    <div class="cite-access"><strong>Access / Status</strong>ASCD publication, widely available. 2nd edition (2014). ISBN: 978-1416618607. Standard reference in Tennessee educator preparation programs.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Vygotsky, L. S. (1978). <em>Mind in Society: The Development of Higher Psychological Processes.</em> Harvard University Press.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The Zone of Proximal Development (ZPD) — the theoretical foundation for scaffolding. Learning is most effective when tasks are in the range between what a student can do independently and what they can do with support. Version A's scaffolded tasks are designed to sit in the ZPD for below-level students without reducing cognitive demand.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Foundational text; widely reprinted and available. ISBN: 978-0674576292.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Hattie, J. (2009). <em>Visible Learning: A Synthesis of Over 800 Meta-Analyses Relating to Achievement.</em> Routledge.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Meta-analysis of 800+ meta-analyses covering 50,000+ studies. Classroom-based interventions related to formative feedback (d = 0.90), worked examples (d = 0.57), and spaced practice (d = 0.60) are among the highest-effect strategies identified. Provides the benchmarking standard against which TroopToTeacher Technologies LLC's design choices are calibrated. Effect sizes cited throughout this document are sourced here unless otherwise noted.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Published by Routledge. ISBN: 978-0415476188. Updated database at www.visiblelearning.com.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Wormeli, R. (2007). <em>Differentiation: From Planning to Practice, Grades 6–12.</em> Stenhouse Publishers.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Practitioner-grounded guidance on differentiation in secondary content classrooms, specifically addressing differentiation in evidence-based writing and primary source analysis — the core tasks of the TroopToTeacher Technologies LLC Version A–C design. Addresses how to maintain rigor at all levels.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Stenhouse Publishers. ISBN: 978-1571104366.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- 3. ELL / ESL INSTRUCTIONAL SUPPORTS             -->
+<!-- ══════════════════════════════════════════════════ -->
+<div class="strat pb">
+<div class="strat-hdr">
+  <h3>Strategy 3 — ELL/ESL Supports: SIOP Model, Sentence Frames, Bilingual Scaffolds</h3>
+  <div class="ef"><span class="es es-hi">d = 0.65–0.80</span> High Impact for ELL</div>
+</div>
+<div class="strat-body">
+<div class="strat-basis">
+  <strong>Research Basis</strong>
+  Effective content instruction for English Language Learners integrates language development with content learning rather than delaying content until language is proficient. The SIOP (Sheltered Instruction Observation Protocol) model, sentence frames, explicit academic vocabulary instruction, and native-language scaffolding have the strongest evidence base for ELL content achievement in secondary settings.
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Echevarría, J., Vogt, M., &amp; Short, D. J. (2017). <em>Making Content Comprehensible for English Learners: The SIOP Model</em> (5th ed.). Pearson.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The SIOP Model's eight components are the evidence base for TroopToTeacher Technologies LLC's Version A design: content and language objectives (visible in activity headers), building background (vocabulary box before reading), comprehensible input (simplified text), interaction (think-pair-share structures), practice/application (graphic organizers), and review/assessment (sentence frames + scaffolded response). The model is validated across content areas including social studies.</div>
+    <div class="cite-access"><strong>Access / Status</strong>5th edition (2017), Pearson. ISBN: 978-0134045122. Standard reference in Tennessee ELL teacher certification programs.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Cummins, J. (1979). Linguistic interdependence and the educational development of bilingual children. <em>Review of Educational Research, 49</em>(2), 222–251. https://doi.org/10.3102/00346543049002222</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The foundational empirical basis for using native-language scaffolding (Spanish translations) to build academic concept understanding in English. Cummins's Interdependence Hypothesis demonstrates that conceptual knowledge developed in a student's first language transfers to the second language — supporting the practice of Spanish-language vocabulary definitions as a bridge to English academic content. The BICS/CALP distinction (Basic Interpersonal Communicative Skills vs. Cognitive Academic Language Proficiency) is the theoretical framework for the 5–7 year trajectory for academic language development that informs TroopToTeacher Technologies LLC's scaffolding depth for ELL students.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Landmark article; widely available through university library databases (JSTOR). Over 4,000 citations.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Zwiers, J. (2014). <em>Building Academic Language: Meeting Common Core Standards Across Disciplines, Grades 5–12</em> (2nd ed.). Jossey-Bass.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Specific guidance on academic sentence frame design for secondary content classrooms, including history. Zwiers's research on academic discourse structures directly informs the sentence frames in TroopToTeacher Technologies LLC's ELL support packet — specifically the distinction between frames for different discourse functions (arguing, comparing, explaining causation). His work shows that explicit sentence-level scaffolding improves both language acquisition and content understanding for ELL students.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Jossey-Bass. ISBN: 978-1118690536. Updated edition (2014).</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">August, D., &amp; Shanahan, T. (Eds.). (2006). <em>Developing Literacy in Second-Language Learners: Report of the National Literacy Panel on Language-Minority Children and Youth.</em> Lawrence Erlbaum.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The comprehensive federal research review on literacy development for English Language Learners, commissioned by the National Institute of Child Health and Human Development and the U.S. Department of Education. Key finding relevant to TroopToTeacher Technologies LLC: explicit vocabulary instruction, including native-language support, is among the strongest evidence-based practices for ELL content achievement. Cross-linguistic transfer of vocabulary knowledge is documented across multiple languages including Spanish-English.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Lawrence Erlbaum Associates. ISBN: 978-0805859706. Executive summary freely available at CELA (Center for Applied Linguistics) website.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- 4. SOAPS PRIMARY SOURCE ANALYSIS                -->
+<!-- ══════════════════════════════════════════════════ -->
+<div class="strat">
+<div class="strat-hdr">
+  <h3>Strategy 4 — SOAPS Primary Source Analysis Framework</h3>
+  <div class="ef"><span class="es es-hi">d = 0.66</span> Historical Literacy Impact</div>
+</div>
+<div class="strat-body">
+<div class="strat-basis">
+  <strong>Research Basis</strong>
+  Structured document analysis frameworks — requiring students to explicitly identify a source's speaker, occasion, audience, purpose, and subject before analyzing content — consistently produce stronger historical reasoning than unstructured source engagement. SOAPS is validated by the College Board AP Language and Composition program and is widely used in secondary history instruction. The underlying research base is the historical thinking literature showing that expert historians use exactly these moves when encountering primary sources.
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Wineburg, S. (2001). <em>Historical Thinking and Other Unnatural Acts: Charting the Future of Teaching the Past.</em> Temple University Press.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The landmark empirical study showing how expert historians read primary sources — using sourcing (who wrote this and why?), contextualization (what was happening when this was written?), and corroboration (how does this compare to other evidence?) as automatic analytical moves. SOAPS operationalizes these three expert moves as a teachable scaffold. Wineburg's research is the intellectual foundation for structured primary source analysis in secondary history education.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Temple University Press. ISBN: 978-1566398558. Widely available. Chapter 2 ("On the Reading of Historical Texts") is the key chapter. Stanford History Education Group (SHEG) website provides related open-access materials.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Nokes, J. D. (2013). <em>Building Students' Historical Literacies: Learning to Read and Reason with Historical Texts and Evidence.</em> Routledge.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Secondary-level research on how students develop the ability to read primary sources with disciplinary awareness, specifically in U.S. History classrooms. Establishes that structured frameworks like SOAPS reduce cognitive load during initial source encounter, freeing working memory for the analytical work that follows. Provides the research basis for using SOAPS as a first-encounter tool (before HIPP analysis) in TroopToTeacher Technologies LLC's sequenced approach.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Routledge. ISBN: 978-0415896276. Author is at Brigham Young University; research conducted in Utah secondary schools, with findings replicated across content contexts.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Reisman, A. (2012). Reading like a historian: A document-based history curriculum intervention in urban high schools. <em>Cognition and Instruction, 30</em>(1), 86–112. https://doi.org/10.1080/07370008.2011.634081</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Randomized controlled study of structured document-based history instruction in diverse urban high schools. Students in the document-analysis condition significantly outperformed controls on both historical thinking assessments (d = 0.52) and reading comprehension assessments (d = 0.37) — establishing that structured primary source analysis benefits both disciplinary thinking and general literacy. The SOAPS framework and TroopToTeacher Technologies LLC's source analysis approach align to the "Reading Like a Historian" instructional model validated in this study.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Taylor &amp; Francis journal; abstract freely available. Full text via university databases. "Reading Like a Historian" curriculum available free at Stanford History Education Group (sheg.stanford.edu).</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- 5. HIPP DOCUMENT ANALYSIS                       -->
+<!-- ══════════════════════════════════════════════════ -->
+<div class="strat">
+<div class="strat-hdr">
+  <h3>Strategy 5 — HIPP Analysis (Historical Context, Audience, Purpose, Point of View)</h3>
+  <div class="ef"><span class="es es-hi">d = 0.66</span> Sourcing Skill Impact</div>
+</div>
+<div class="strat-body">
+<div class="strat-basis">
+  <strong>Research Basis</strong>
+  HIPP operationalizes the AP U.S. History sourcing skill — the demonstrated ability to explain how a document's historical context, audience, purpose, or author's perspective is relevant to a specific historical argument. It is grounded in the same historical thinking research as SOAPS but specifically targets the argumentative connection between source features and claims. The College Board's AP U.S. History rubric treats sourcing as a distinct and scorable analytical skill requiring students to connect document features to their argument.
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">College Board. (2023). <em>AP United States History: Course and Exam Description</em> (effective Fall 2023). College Board.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The official College Board framework defining the sourcing skill as: "Explain how or why the document's historical situation, audience, purpose, and/or author's point of view is relevant to an argument." This is the exact analytical move HIPP trains. The four HIPP elements (Historical Context, Intended Audience, Purpose, Point of View) correspond directly to the four sourcing features the College Board assesses. TroopToTeacher Technologies LLC makes no claim of College Board endorsement but aligns to this publicly available framework.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Freely available at college.collegeboard.org. Updated CED should be checked annually. TroopToTeacher Technologies LLC recommends teachers verify against current CED before using with AP sections.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Monte-Sano, C. (2008). Disciplinary literacy in history: An exploration of the historical nature of adolescents' writing. <em>Journal of the Learning Sciences, 17</em>(4), 442–483. https://doi.org/10.1080/10508400802386051</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>One of the strongest studies of how adolescent students develop historical writing skill. Documents the specific gap that most students fail to bridge: they identify document features (audience, purpose) but do not connect them to their argument. This is precisely the gap HIPP's argumentative connection requirement is designed to close. Monte-Sano's analysis of student writing errors provides the empirical basis for TroopToTeacher Technologies LLC's sentence stem design: "Because [HIPP feature], this source is [more/less useful] for arguing [specific claim]."</div>
+    <div class="cite-access"><strong>Access / Status</strong>Taylor &amp; Francis journal. University database access. Author is at University of Michigan. Widely cited in history education research.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">VanSledright, B. A. (2002). <em>In Search of America's Past: Learning to Read History in Elementary School.</em> Teachers College Press.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Documents how students at all levels use (and misuse) historical perspective-taking when analyzing primary sources. The research distinguishes between identifying a historical figure's perspective (low-level) and explaining how that perspective shapes the reliability and usefulness of the source for a specific argument (the HIPP point-of-view move at high level). This distinction is embedded in TroopToTeacher Technologies LLC's Version A–C progression: Version A identifies, Version C explains the argumentative implication.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Teachers College Press. ISBN: 978-0807742204. Author is at University of Maryland.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- 6. HISTORICAL THINKING SKILLS                   -->
+<!-- ══════════════════════════════════════════════════ -->
+<div class="strat pb">
+<div class="strat-hdr">
+  <h3>Strategy 6 — Historical Thinking Skills (CAUSATION, COMPARISON, CCOT, CHRONOLOGY, CONTEXTUALIZATION)</h3>
+  <div class="ef"><span class="es es-hi">d = 0.54–0.72</span> Disciplinary Thinking</div>
+</div>
+<div class="strat-body">
+<div class="strat-basis">
+  <strong>Research Basis</strong>
+  Historical thinking involves disciplinary cognitive tools — not just knowledge of events, but the ability to reason causally, chronologically, comparatively, and contextually about the past. These skills are explicitly named in Tennessee Social Studies Practice SSP.05 (Develop Historical Awareness) and align to the C3 Framework's Dimension 2 (Applying Disciplinary Concepts and Tools). Research demonstrates that explicit instruction and labeling of these skills improves students' ability to transfer historical reasoning to new contexts.
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">National Council for Social Studies. (2013). <em>The College, Career, and Civic Life (C3) Framework for Social Studies State Standards.</em> NCSS.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The national framework on which Tennessee Social Studies Practices (SSPs) are based. Dimension 2 (Applying Disciplinary Concepts and Tools) specifically articulates the historical thinking skills — causation, contextualization, comparison, continuity and change over time — as foundational disciplinary competencies. Tennessee's SSP.05 (Develop Historical Awareness) maps directly to C3 Dimension 2. This is the authoritative framework citation for TroopToTeacher Technologies LLC's historical thinking label system.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Freely available at socialstudies.org/c3. PDF download free. Standard reference for all Tennessee social studies curriculum development per TDOE guidance.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Wineburg, S., Martin, D., &amp; Monte-Sano, C. (2013). <em>Reading Like a Historian: Teaching Literacy in Middle and High School History Classrooms</em> (2nd ed.). Teachers College Press.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Classroom-validated curriculum showing how explicit historical thinking skill instruction — using the same CAUSATION, COMPARISON, CCOT, and CONTEXTUALIZATION labels used in TroopToTeacher Technologies LLC materials — improves both historical thinking and reading comprehension in diverse secondary classrooms. The curriculum was validated across 11 diverse California high schools and replicated in subsequent studies. Provides the implementation model for how skill labels should be introduced, practiced, and transferred.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Teachers College Press. ISBN: 978-0807753484. Related materials at sheg.stanford.edu (free). Author affiliation: Stanford History Education Group.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Seixas, P., &amp; Morton, T. (2013). <em>The Big Six Historical Thinking Concepts.</em> Nelson Education.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The foundational taxonomy of historical thinking used by the Historical Thinking Project (Canada) and widely adopted in U.S. and international history education. The Big Six (historical significance, evidence, continuity and change, cause and consequence, historical perspectives, ethical dimensions) map onto the five skills used in TroopToTeacher Technologies LLC materials, providing a research-grounded basis for the specific labels chosen and the way they are defined for students.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Nelson Education (Canada). ISBN: 978-0176504816. Author Peter Seixas is the director of the Historical Thinking Project at University of British Columbia. Project materials at historicalthinking.ca.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- 7. ESSENTIAL QUESTIONS / INQUIRY-BASED LEARNING  -->
+<!-- ══════════════════════════════════════════════════ -->
+<div class="strat">
+<div class="strat-hdr">
+  <h3>Strategy 7 — Essential Questions and Inquiry-Based Learning</h3>
+  <div class="ef"><span class="es es-med">d = 0.50</span> Inquiry-Based Instruction</div>
+</div>
+<div class="strat-body">
+<div class="strat-basis">
+  <strong>Research Basis</strong>
+  Essential questions — open-ended, thought-provoking questions that cannot be answered with a single fact and that require sustained inquiry — are the cornerstone of backward design curriculum development. They serve as the orienting purpose for a unit, making learning goals explicit and connecting content to larger disciplinary and civic questions. Tennessee's Schedule F rubric specifically scores Essential Questions under Table 2 Instructional Focus.
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Wiggins, G., &amp; McTighe, J. (2005). <em>Understanding by Design</em> (2nd ed.). ASCD.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The foundational backward design framework: Stage 1 (Desired Results, including Essential Questions) → Stage 2 (Assessment Evidence) → Stage 3 (Learning Plan). Every unit in TroopToTeacher Technologies LLC materials is structured using this architecture: the Essential Question drives the unit, summative tasks assess whether students can answer it, and instructional activities build toward that answer. This is the most widely cited curriculum design text in American education (over 1 million copies sold).</div>
+    <div class="cite-access"><strong>Access / Status</strong>ASCD. ISBN: 978-1416600350. 2nd edition (2005). Companion book <em>Essential Questions: Opening Doors to Student Understanding</em> (2013, ASCD) provides additional implementation guidance.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Marzano, R. J., Pickering, D. J., &amp; Pollock, J. E. (2001). <em>Classroom Instruction That Works: Research-Based Strategies for Increasing Student Achievement.</em> ASCD.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Meta-analysis of 100+ years of classroom instruction research, identifying the nine highest-effect instructional strategies. "Cues, questions, and advance organizers" (d = 0.59) — the research basis for essential questions — and "identifying similarities and differences" (d = 1.61) — the research basis for comparison tasks — are among the highest-effect strategies identified. These effect sizes directly justify TroopToTeacher Technologies LLC's use of essential questions and historical comparison activities.</div>
+    <div class="cite-access"><strong>Access / Status</strong>ASCD. ISBN: 978-0871205049. Widely available. Updated as <em>Classroom Instruction That Works</em> (2nd ed., 2012, ASCD).</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- 8. CONCEPTS BEFORE VOCABULARY                   -->
+<!-- ══════════════════════════════════════════════════ -->
+<div class="strat">
+<div class="strat-hdr">
+  <h3>Strategy 8 — Concepts Before Vocabulary (Conceptual Engagement Prior to Formal Terminology)</h3>
+  <div class="ef"><span class="es es-hi">d = 0.67</span> Vocabulary Instruction</div>
+</div>
+<div class="strat-body">
+<div class="strat-basis">
+  <strong>Research Basis</strong>
+  Presenting a conceptual problem or scenario before introducing formal vocabulary terms produces significantly deeper word learning than pre-teaching vocabulary lists. This approach — required explicitly by Tennessee's Schedule F Table 2 rubric ("conceptual understanding is prioritized; vocabulary is introduced after students explore ideas") — is grounded in constructivist learning theory and decades of vocabulary acquisition research.
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Beck, I. L., McKeown, M. G., &amp; Kucan, L. (2013). <em>Bringing Words to Life: Robust Vocabulary Instruction</em> (2nd ed.). Guilford Press.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The foundational vocabulary instruction research. Beck et al.'s Tier 2/Tier 3 word framework (high-frequency academic vs. domain-specific technical terms) and the finding that conceptual engagement before definition produces stronger retention than definitional pre-teaching. Directly supports TroopToTeacher Technologies LLC's design of concept launch activities that precede vocabulary boxes in every unit. The "robust vocabulary instruction" model they propose — using words in meaningful contexts before defining them — is the model TroopToTeacher Technologies LLC implements.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Guilford Press. ISBN: 978-1462508167. 2nd edition (2013). Standard reference in Tennessee reading/literacy instruction.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Marzano, R. J. (2004). <em>Building Background Knowledge for Academic Achievement: Research on What Works in Schools.</em> ASCD.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Direct instructional research connecting background knowledge to academic achievement. Students with rich prior knowledge about a topic learn new vocabulary from that topic 3–4x faster than students without that background. This establishes the mechanism by which TroopToTeacher Technologies LLC's concept launches work: the scenario activates or builds background knowledge that then makes the formal vocabulary term meaningful rather than arbitrary. Effect size for vocabulary programs in Marzano's synthesis: d = 0.67.</div>
+    <div class="cite-access"><strong>Access / Status</strong>ASCD. ISBN: 978-0871209726.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- 9. DBQ / EVIDENCE-BASED WRITING                 -->
+<!-- ══════════════════════════════════════════════════ -->
+<div class="strat">
+<div class="strat-hdr">
+  <h3>Strategy 9 — DBQ and Evidence-Based Argumentative Writing</h3>
+  <div class="ef"><span class="es es-hi">d = 0.63</span> Writing-to-Learn</div>
+</div>
+<div class="strat-body">
+<div class="strat-basis">
+  <strong>Research Basis</strong>
+  Document-based question writing — requiring students to construct a historical argument supported by evidence from multiple sources — is among the most powerful assessment and learning tools in secondary history instruction. Writing that requires synthesis of evidence from multiple documents produces stronger learning of both content and disciplinary thinking than single-source or recall-based writing. Tennessee SSP.04 (Construct and communicate ideas supported by evidence) is directly addressed by this strategy.
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Monte-Sano, C., De La Paz, S., &amp; Felton, M. (2014). <em>Reading, Thinking, and Writing About History: Teaching Argument Writing to Diverse Learners in the Common Era.</em> Teachers College Press.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Randomized controlled study of evidence-based argumentative writing instruction in diverse 8th and 11th grade history classrooms. Students who received explicit instruction in constructing historical arguments from document sets significantly outperformed controls on both writing quality and historical thinking measures. Provides the model for TroopToTeacher Technologies LLC's Version A (scaffolded CER), Version B (constructed response), and Version C (DBQ) progressive argument-writing design.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Teachers College Press. ISBN: 978-0807755556. Authors are at University of Michigan and University of Maryland. Related curriculum materials available.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">De La Paz, S., &amp; Felton, M. K. (2010). Reading and writing from multiple source documents in history: Effects of strategy instruction with low to average high school writers. <em>Contemporary Educational Psychology, 35</em>(3), 174–192. https://doi.org/10.1016/j.cedpsych.2010.03.001</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Controlled study specifically focused on low-to-average writers (the target population for Version A and B materials), finding that explicit instruction in argument structure with multiple source documents produced significant gains in writing quality and historical accuracy. Establishes the research basis for the synthesis requirement in TroopToTeacher Technologies LLC's prompts: requiring students to compare and corroborate across sources produces better learning than single-source tasks even for struggling writers.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Elsevier journal. Abstract freely available; full text via university databases or ResearchGate.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Graham, S., &amp; Perin, D. (2007). Writing next: Effective strategies to improve writing of adolescents in middle and high schools. <em>Alliance for Excellent Education</em> (Carnegie Corporation of New York report).</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Meta-analysis of writing intervention research in secondary schools, commissioned by Carnegie Corporation. Writing to learn (d = 0.23) and process writing approaches (d = 0.32) are effective; explicit strategy instruction for argumentative writing is among the highest-effect approaches (d = 0.82). The report is the research foundation for evidence-based writing in secondary content classrooms and directly supports TroopToTeacher Technologies LLC's CER + DBQ design.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Freely available at carnegie.org and all4ed.org. PDF download free. One of the most widely cited writing research reports in U.S. secondary education.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- 10. WEBB'S DEPTH OF KNOWLEDGE                   -->
+<!-- ══════════════════════════════════════════════════ -->
+<div class="strat pb">
+<div class="strat-hdr">
+  <h3>Strategy 10 — Webb's Depth of Knowledge (DOK) Assessment Calibration</h3>
+  <div class="ef">Alignment Standard · Not an intervention effect size</div>
+</div>
+<div class="strat-body">
+<div class="strat-basis">
+  <strong>Research Basis</strong>
+  Webb's Depth of Knowledge framework provides a consistent, criterion-referenced scale for evaluating the cognitive demand of assessment items — ensuring that test questions match the complexity of the corresponding standards. Tennessee's U.S. History EOC and Schedule F rubric both use DOK as a quality standard. TroopToTeacher Technologies LLC calibrates all 447 assessment items using DOK levels 1–3, with Version C items at DOK 3–4.
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Webb, N. L. (1997). <em>Research Monograph No. 6: Criteria for Alignment of Expectations and Assessments in Mathematics and Science Education.</em> Council of Chief State School Officers and National Institute for Science Education.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The original publication defining the four DOK levels and the criteria for determining cognitive demand. DOK Level 1 (recall and reproduction), Level 2 (skills and concepts), Level 3 (strategic thinking), Level 4 (extended thinking). TroopToTeacher Technologies LLC's item development protocol assigns DOK levels using Webb's original criteria. This is the primary citation for the framework itself.</div>
+    <div class="cite-access"><strong>Access / Status</strong>CCSSO monograph. Available at Wisconsin Center for Educational Research (wcer.wisc.edu) and CCSSO. Free PDF download.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Webb, N. L. (2002). <em>Depth-of-Knowledge levels for four content areas.</em> Wisconsin Center for Educational Research, University of Wisconsin–Madison.</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The content-specific expansion of DOK, with examples for Language Arts, Mathematics, Science, and Social Studies. The Social Studies section provides the specific examples TroopToTeacher Technologies LLC uses to classify history items: DOK 1 (recall a date or event), DOK 2 (explain the cause of an event), DOK 3 (construct a historical argument using multiple sources), DOK 4 (investigate and connect historical events across eras). This document is the social studies-specific operational guide for item classification.</div>
+    <div class="cite-access"><strong>Access / Status</strong>Unpublished manuscript circulated by WCER. Available via WCER website and state education agency repositories. Tennessee's item development guidance references this document.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- 11. GRAPHIC ORGANIZERS                          -->
+<!-- ══════════════════════════════════════════════════ -->
+<div class="strat">
+<div class="strat-hdr">
+  <h3>Strategy 11 — Graphic Organizers for Scaffolded Thinking</h3>
+  <div class="ef"><span class="es es-med">d = 0.57</span> Graphic Organizers</div>
+</div>
+<div class="strat-body">
+<div class="strat-basis">
+  <strong>Research Basis</strong>
+  Graphic organizers — visual representations of conceptual relationships — reduce cognitive load during complex analytical tasks by providing an external structure for organizing information before writing. Research consistently shows positive effects on content comprehension and writing quality, with strongest effects for students with learning disabilities, ELL students, and below-level readers — the primary target population for TroopToTeacher Technologies LLC's Version A design.
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Kim, A. H., Vaughn, S., Wanzek, J., &amp; Wei, S. (2004). Graphic organizers and their effects on the reading comprehension of students with LD: A synthesis of research. <em>Journal of Learning Disabilities, 37</em>(2), 105–118. https://doi.org/10.1177/00222194040370020201</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>Synthesis of research on graphic organizers specifically for students with learning disabilities — the primary target population for TroopToTeacher Technologies LLC Version A and SWD accommodations. Average effect size d = 0.62 for reading comprehension outcomes. The study establishes that graphic organizers are most effective when: (a) completed before writing a response, (b) the categories are labeled by the teacher before students use them, and (c) the organizer explicitly matches the cognitive structure of the task (a T-chart for comparisons, a causal chain for causation). TroopToTeacher Technologies LLC's organizer design follows these criteria exactly.</div>
+    <div class="cite-access"><strong>Access / Status</strong>SAGE Publications. Abstract freely available; full text via SAGE Journals or university databases.</div>
+  </div>
+</div>
+
+<div class="cite-block">
+  <div class="cite-ref">Ausubel, D. P. (1960). The use of advance organizers in the learning and retention of meaningful verbal material. <em>Journal of Educational Psychology, 51</em>(5), 267–272. https://doi.org/10.1037/h0046669</div>
+  <div class="cite-meta">
+    <div class="cite-establishes"><strong>What This Establishes</strong>The foundational study establishing advance organizers as effective learning tools. Ausubel's "assimilation theory" — that new information is most effectively learned when connected to an existing conceptual framework — is the theoretical basis for providing students with a graphic structure before they read or write. The advance organizer literature (now 1,000+ studies over 60 years) consistently supports the practice of pre-structuring content for learners, particularly for complex or novel material.</div>
+    <div class="cite-access"><strong>Access / Status</strong>APA journal. Available via APA PsycInfo or university databases. This is one of the most cited papers in educational psychology.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- SUMMARY TABLE -->
+<!-- ══════════════════════════════════════════════════ -->
+<h2>Summary: Strategy–Evidence–Effect Size Matrix</h2>
+
+<table class="sum">
+<tr>
+  <th>Strategy</th>
+  <th>Primary Citation(s)</th>
+  <th>Effect Size</th>
+  <th>TN Standards / Schedule F Alignment</th>
+</tr>
+<tr>
+  <td>Retrieval Practice / Spaced Review</td>
+  <td>Agarwal et al. (2021); Roediger &amp; Karpicke (2006); Cepeda et al. (2006)</td>
+  <td><span class="es es-hi">d = 0.62–0.90</span></td>
+  <td>Schedule F Table 2: Review Opportunities; TDOE RFA spaced practice requirement</td>
+</tr>
+<tr>
+  <td>Differentiated Instruction (3-tier)</td>
+  <td>Tomlinson (2014); Vygotsky (1978); Hattie (2009)</td>
+  <td><span class="es es-med">d = 0.52</span></td>
+  <td>Schedule F Table 4: Accessibility Features; IDEA; TCA §49-6-1028</td>
+</tr>
+<tr>
+  <td>ELL/ESL Supports (SIOP, frames)</td>
+  <td>Echevarría et al. (2017); Cummins (1979); Zwiers (2014)</td>
+  <td><span class="es es-hi">d = 0.65–0.80</span></td>
+  <td>Schedule F Table 4; TDOE RFA ELL requirements; TCA §49-6-1028(b)</td>
+</tr>
+<tr>
+  <td>SOAPS Primary Source Analysis</td>
+  <td>Wineburg (2001); Reisman (2012); Nokes (2013)</td>
+  <td><span class="es es-hi">d = 0.66</span></td>
+  <td>SSP.01, SSP.02; Schedule F Table 3; TDOE RFA primary source requirement</td>
+</tr>
+<tr>
+  <td>HIPP Document Analysis</td>
+  <td>College Board APUSH CED (2023); Monte-Sano (2008)</td>
+  <td><span class="es es-hi">d = 0.66</span></td>
+  <td>SSP.02; Schedule F Table 3; AP U.S. History sourcing skill</td>
+</tr>
+<tr>
+  <td>Historical Thinking Skills (5)</td>
+  <td>NCSS C3 Framework (2013); Wineburg et al. (2013); Seixas &amp; Morton (2013)</td>
+  <td><span class="es es-hi">d = 0.54–0.72</span></td>
+  <td>SSP.05; Schedule F Table 3; Tennessee Academic Standards US.01–US.95</td>
+</tr>
+<tr>
+  <td>Essential Questions / Inquiry</td>
+  <td>Wiggins &amp; McTighe (2005); Marzano et al. (2001)</td>
+  <td><span class="es es-med">d = 0.50</span></td>
+  <td>Schedule F Table 2: Essential Questions; TDOE RFA inquiry model</td>
+</tr>
+<tr>
+  <td>Concepts Before Vocabulary</td>
+  <td>Beck et al. (2013); Marzano (2004)</td>
+  <td><span class="es es-hi">d = 0.67</span></td>
+  <td>Schedule F Table 2: Concepts Before Vocabulary (explicit rubric criterion)</td>
+</tr>
+<tr>
+  <td>DBQ / Evidence-Based Writing</td>
+  <td>Monte-Sano et al. (2014); Graham &amp; Perin (2007)</td>
+  <td><span class="es es-hi">d = 0.63–0.82</span></td>
+  <td>SSP.04; Schedule F Table 2: Disciplinary Literacy; Tennessee writing standards</td>
+</tr>
+<tr>
+  <td>Webb's DOK Calibration</td>
+  <td>Webb (1997, 2002)</td>
+  <td>Alignment standard</td>
+  <td>Tennessee EOC assessment framework; Schedule F Table 1 &amp; 2</td>
+</tr>
+<tr>
+  <td>Graphic Organizers</td>
+  <td>Kim et al. (2004); Ausubel (1960)</td>
+  <td><span class="es es-med">d = 0.57</span></td>
+  <td>Schedule F Table 4: SWD Accommodations; SIOP component; Appendix J</td>
+</tr>
+</table>
+
+<div class="callout ccg" style="margin-top:16px">
+  <strong>Note on Effect Size Interpretation</strong>
+  Effect sizes in this document are drawn from Hattie (2009) <em>Visible Learning</em> unless otherwise noted. Hattie's scale sets d = 0.40 as the average effect of any educational intervention (the "hinge point"). Strategies below 0.40 are developmental; strategies above 0.60 are high-impact by his standard. Effect sizes from individual studies may differ from meta-analytic averages. All strategies cited here exceed d = 0.40 in their relevant meta-analyses, establishing them as above-average-impact interventions relative to the educational research base.
+</div>
+
+</div>
+
+<div class="foot">
+  <div><strong>TroopToTeacher Technologies LLC</strong> · Research Basis &amp; Evidence Sourcing · © 2026</div>
+  <div>APA 7th Edition citations · Supports Schedule F Tables 2, 3, 4 · TDOE RFA March 2026</div>
+</div>
+</body>
+</html>

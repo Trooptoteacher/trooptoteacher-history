@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Differentiation Toolkit — TroopToTeacher Technologies LLC</title>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#ddd}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:#fff;color:#111;
+  width:8.5in;margin:.18in auto;box-shadow:0 3px 24px rgba(0,0,0,.26);
+  font-size:9.5pt;line-height:1.75}
+
+
+.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;border:none;
+  border-radius:5px;padding:7px 14px;font-size:11px;font-weight:700;cursor:pointer;z-index:99}
+/* Banner */
+.hero{background:#1B2A4A;padding:20px .62in 16px}
+.hero .eye{font-size:8pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:#C9A227;margin-bottom:7px}
+.hero h1{font-family:'Merriweather',Georgia,serif;font-size:17pt;font-weight:700;
+  color:#fff;line-height:1.2;margin-bottom:3px}
+.hero .sub{font-size:9pt;color:#B5D4F4;font-style:italic}
+.gold-bar{background:#C9A227;padding:3px .62in;font-size:8.5pt;font-weight:700;
+  color:#3D2200;display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}
+.pg{padding:.22in .62in .18in}
+/* Headings */
+h2{font-family:'Merriweather',Georgia,serif;font-size:12pt;font-weight:700;
+   color:#1B2A4A;margin:22px 0 9px;padding-bottom:4px;border-bottom:2px solid #1B2A4A}
+h3{font-size:10.5pt;font-weight:700;color:#2A3F5E;margin:15px 0 5px}
+h4{font-size:10pt;font-weight:700;color:#1B2A4A;margin:10px 0 4px}
+p{margin-bottom:8px;font-size:9.5pt;line-height:1.72}
+ul,ol{margin:5px 0 10px 18px}li{margin-bottom:5px;font-size:9.5pt;line-height:1.65}
+strong{color:#1B2A4A}em{color:#2A3F5E}
+/* Tables */
+table{width:100%;border-collapse:collapse;font-size:9pt;margin:10px 0}
+th{background:#1B2A4A;color:#fff;padding:6px 10px;text-align:left;font-size:8.5pt}
+td{padding:6px 10px;border-bottom:1px solid #eee;vertical-align:top;line-height:1.55}
+tr:nth-child(even) td{background:#f8f8f8}
+td:first-child{font-weight:600;color:#1B2A4A}
+th:first-child{color:#fff}
+/* Organizer pre blocks */
+.org{margin:12px 0;border:1.5px solid #1B2A4A;border-radius:4px;overflow:hidden}
+.org-hdr{background:#2A3F5E;color:#fff;padding:6px 14px;
+  font-size:9pt;font-weight:700;display:flex;justify-content:space-between}
+.org 
+/* Callouts */
+.tip{background:#fffdf5;border-left:4px solid #C9A227;padding:8px 12px;
+  margin:8px 0;font-size:9.5pt;line-height:1.65;border-radius:0 4px 4px 0}
+.tip strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#633806;margin-bottom:2px}
+.qs{background:#f0f5fb;border-left:4px solid #1B2A4A;padding:8px 12px;
+  margin:8px 0;font-size:9.5pt;line-height:1.65;border-radius:0 4px 4px 0}
+.qs strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;color:#1B2A4A;margin-bottom:2px}
+hr{border:none;border-top:2px solid #C9A227;margin:18px 0}
+code{background:#e8eef7;padding:1px 5px;border-radius:2px;font-size:8.5pt;color:#1B2A4A;
+  font-family:'Courier New',monospace}
+/* Footer */
+.foot{background:#1B2A4A;color:rgba(255,255,255,.5);padding:5px .62in;font-size:7.5pt;
+  display:flex;justify-content:space-between}
+.foot strong{color:#C9A227}
+
+
+
+/* ===================================================================
+   ORGANIZER SYSTEM — TroopToTeacher Technologies LLC
+   Replaces all ASCII 
+<div class="org-container" aria-label="Cornell Notes Organizer">
+  <div class="org-heading">
+    <span class="org-label">Cornell Notes</span>
+    <span class="org-sublabel">Standard Template</span>
+  </div>
+  <table class="cornell-tbl" role="presentation">
+    <tr class="cornell-meta-row">
+      <td colspan="2" class="cornell-meta">
+        <div class="meta-fields">
+          <span class="meta-field">Name: <span class="fill-line meta-line"></span></span>
+          <span class="meta-field">Unit: <span class="fill-line meta-line"></span></span>
+          <span class="meta-field">Date: <span class="fill-line meta-line-sm"></span></span>
+        </div>
+        <div class="eq-row">
+          Essential Question: <span class="fill-line eq-line"></span>
+        </div>
+      </td>
+    </tr>
+    <tr class="cornell-label-row">
+      <th class="cue-th">CUE QUESTIONS<div class="th-sub">Write AFTER notes</div></th>
+      <th class="notes-th">NOTES<div class="th-sub">Write DURING reading / lecture</div></th>
+    </tr>
+    <tr class="cornell-body-row">
+      <td class="cue-td">
+        <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+        <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+        <span class="wl"></span><span class="wl"></span>
+      </td>
+      <td class="notes-td">
+        <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+        <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+        <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+        <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+        <span class="wl"></span><span class="wl"></span>
+      </td>
+    </tr>
+    <tr class="cornell-summary-row">
+      <td colspan="2" class="summary-td">
+        <div class="summary-label">SUMMARY <span class="summary-instruction">2–3 sentences — your words only. Answer the essential question.</span></div>
+        <div class="summary-box"></div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+<p><strong>Teacher Tip:</strong> Explicitly model Cornell Notes at least once before expecting independent use. The cue-question step is the most skipped — build in 5 minutes of class time for it rather than assigning it as homework. Research on structured note formats consistently shows that the quality and usefulness of notes improves measurably when the format is explicitly taught, not just assigned.</p>
+
+
+
+<hr>
+
+
+
+</div></div>
+<div class="org"><div class="org-hdr">Scaffolded Cornell Notes<span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 7px">Organizer</span></div><div style="padding:10px 14px">
+
+
+
+<hr>
+
+
+
+<p><strong>Student Instructions:</strong></p>
+<ol>
+<li>The headings in the Notes column are pre-filled — your job is to add specific details.</li>
+<li>The Cue column has starter questions — refine them or add your own after reading.</li>
+<li>The Summary section has a starter sentence — complete it with specific evidence.</li>
+</ol>
+
+
+<p><strong>When to fade this scaffold:</strong> Once students can generate their own cue questions consistently (typically 2–4 units), move them to the standard Cornell template.</p>
+
+
+
+<hr>
+
+
+
+
+<div class="org-container" aria-label="Scaffolded Cornell Notes Organizer">
+  <div class="org-heading scaffolded">
+    <span class="org-label">Scaffolded Cornell Notes</span>
+    <span class="org-sublabel">Modified / ELL Template — headings and cue starters provided</span>
+  </div>
+  <table class="cornell-tbl" role="presentation">
+    <tr class="cornell-meta-row">
+      <td colspan="2" class="cornell-meta">
+        <div class="meta-fields">
+          <span class="meta-field">Name: <span class="fill-line meta-line"></span></span>
+          <span class="meta-field">Unit: <span class="fill-line meta-line"></span></span>
+          <span class="meta-field">Date: <span class="fill-line meta-line-sm"></span></span>
+        </div>
+        <div class="eq-row">
+          Essential Question: <span class="fill-line eq-line"></span>
+        </div>
+      </td>
+    </tr>
+    <tr class="cornell-label-row">
+      <th class="cue-th">CUE QUESTIONS<div class="th-sub">Refine or add to these starters</div></th>
+      <th class="notes-th">NOTES<div class="th-sub">Write DURING reading / lecture</div></th>
+    </tr>
+    <tr class="cornell-body-row">
+      <td class="cue-td scaffolded-cue">
+        <p class="cue-prompt">What conditions made this possible?</p>
+        <span class="wl cue-wl"></span><span class="wl cue-wl"></span>
+        <p class="cue-prompt">Who benefited? Who was harmed?</p>
+        <span class="wl cue-wl"></span><span class="wl cue-wl"></span>
+        <p class="cue-prompt">What changed as a result?</p>
+        <span class="wl cue-wl"></span><span class="wl cue-wl"></span>
+        <p class="cue-prompt">What stayed the same?</p>
+        <span class="wl cue-wl"></span>
+      </td>
+      <td class="notes-td scaffolded-notes">
+        <p class="notes-topic">▶ CONTEXT: When and where did this happen?</p>
+        <span class="wl"></span><span class="wl"></span>
+        <p class="notes-topic">▶ KEY PEOPLE / GROUPS INVOLVED:</p>
+        <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+        <p class="notes-topic">▶ CAUSES: What forces led to this?</p>
+        <span class="wl numbered">1.</span>
+        <span class="wl numbered">2.</span>
+        <span class="wl numbered">3.</span>
+        <p class="notes-topic">▶ EFFECTS / CONSEQUENCES:</p>
+        <span class="wl"></span><span class="wl"></span>
+        <p class="notes-topic">▶ TENNESSEE CONNECTION (if applicable):</p>
+        <span class="wl"></span>
+      </td>
+    </tr>
+    <tr class="cornell-summary-row">
+      <td colspan="2" class="summary-td scaffolded-summary">
+        <div class="summary-label">SUMMARY STARTER <span class="summary-instruction">Complete each sentence:</span></div>
+        <div class="summary-scaffolded">
+          <p class="summary-stem">The most significant thing I learned is <span class="fill-line summary-line"></span></p>
+          <p class="summary-stem">because <span class="fill-line summary-line"></span></p>
+          <p class="summary-stem">This connects to the essential question by <span class="fill-line summary-line"></span></p>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <p class="fade-note">Fade this scaffold: Once students generate their own cue questions consistently (typically 2–4 units), move them to the standard Cornell template.</p>
+</div>
+
+
+
+
+<hr>
+
+
+
+</div></div>
+<div class="org"><div class="org-hdr">Boxed Notes Template (Standard)<span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 7px">Organizer</span></div><div style="padding:10px 14px">
+
+
+
+<hr>
+
+
+
+<p><strong>Student Instructions:</strong></p>
+<ol>
+<li>Each box holds one type of information — read the label before you write.</li>
+<li>Be concise: the goal is key ideas, not full sentences copied from the text.</li>
+<li>The "My Takeaway" box is always your own thinking — not something you can find in the source.</li>
+<li>After completing all boxes, use them to write a full paragraph argument.</li>
+</ol>
+
+
+<p><strong>Why boxes work:</strong> Spatial boundaries force the brain to categorize information as it is recorded. Students who struggle with linear notes often perform significantly better when the structure imposes the categorization for them — a finding documented consistently in research on visual organization strategies.</p>
+
+
+
+<hr>
+
+
+
+
+<div class="org-container" aria-label="Boxed Notes Organizer">
+  <div class="org-heading">
+    <span class="org-label">Boxed Notes</span>
+    <span class="org-sublabel">Standard Template</span>
+  </div>
+  <div class="box-grid">
+    <div class="box-cell top-left">
+      <span class="box-cell-label">MAIN IDEA</span>
+      <span class="box-cell-hint">(1–2 sentences: what is this section, source, or event about?)</span>
+      <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+      <span class="wl"></span><span class="wl"></span>
+    </div>
+    <div class="box-cell top-right">
+      <span class="box-cell-label">KEY EVIDENCE</span>
+      <span class="box-cell-hint">(Specific facts, dates, quotes — cite your source in parentheses)</span>
+      <span class="wl numbered">1.</span>
+      <span class="wl numbered">2.</span>
+      <span class="wl numbered">3.</span>
+      <span class="wl"></span>
+    </div>
+    <div class="box-cell bottom-left">
+      <span class="box-cell-label">COUNTERPOINT / COMPLICATION</span>
+      <span class="box-cell-hint">(What could someone argue against the main idea? What does the evidence NOT show?)</span>
+      <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+      <span class="wl"></span><span class="wl"></span>
+    </div>
+    <div class="box-cell bottom-right">
+      <span class="box-cell-label">MY TAKEAWAY</span>
+      <span class="box-cell-hint">(What does this mean? Why does it matter? What question does it raise?)</span>
+      <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+      <span class="wl"></span><span class="wl"></span>
+    </div>
+    <div class="box-full-row">
+      <span class="box-cell-label">CONNECTION TO ESSENTIAL QUESTION:</span>
+      <span class="box-cell-hint">This evidence [supports / complicates / challenges] the argument that</span>
+      <span class="fill-line connection-line"></span>
+      <span class="fill-line connection-line"></span>
+    </div>
+  </div>
+</div>
+
+
+
+
+<p><strong>Teacher Tip:</strong> The boxing method works best when the box labels stay consistent across units — students build automaticity with the categories. Reserve changes to box labels only for specialized tasks (argument writing, primary source analysis). Research on spatial note-taking methods suggests the organizational benefit comes partly from the repeated categorization routine, so consistency matters.</p>
+
+
+
+<hr>
+
+
+
+</div></div>
+<div class="org"><div class="org-hdr">Scaffolded Boxed Notes<span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 7px">Organizer</span></div><div style="padding:10px 14px">
+
+
+
+<hr>
+
+
+
+<p><strong>Student Instructions:</strong></p>
+<ol>
+<li>Each box has prompts inside — use them as starting points, not as the complete answer.</li>
+<li>You must write at least as much as the prompts ask. Add more if you can.</li>
+<li>The "My Takeaway" box is always your original thinking — no prompts can answer it for you.</li>
+</ol>
+
+
+<p><strong>When to fade this scaffold:</strong> Once students are consistently filling all four standard boxes without the prompts (typically after 2–3 uses), transition them to the standard Boxed Notes template.</p>
+
+
+
+<hr>
+
+
+
+
+<div class="org-container scaffolded" aria-label="Scaffolded Boxed Notes Organizer">
+  <div class="org-heading scaffolded">
+    <span class="org-label">Scaffolded Boxed Notes</span>
+    <span class="org-sublabel">Modified Template — prompts provided inside each box</span>
+  </div>
+  <div class="box-grid">
+    <div class="box-cell top-left">
+      <span class="box-cell-label">MAIN IDEA</span>
+      <p class="box-prompt">This source / section is about:</p>
+      <span class="wl"></span><span class="wl"></span>
+      <p class="box-prompt">The most important point is:</p>
+      <span class="wl"></span><span class="wl"></span>
+    </div>
+    <div class="box-cell top-right">
+      <span class="box-cell-label">KEY EVIDENCE</span>
+      <p class="box-prompt">List 2–3 specific pieces of evidence:</p>
+      <span class="wl numbered">1. <span class="source-tag">(Source:</span><span class="fill-line src-line"></span><span class="source-tag">)</span></span>
+      <span class="wl numbered">2. <span class="source-tag">(Source:</span><span class="fill-line src-line"></span><span class="source-tag">)</span></span>
+      <span class="wl numbered">3. <span class="source-tag">(Source:</span><span class="fill-line src-line"></span><span class="source-tag">)</span></span>
+    </div>
+    <div class="box-cell bottom-left">
+      <span class="box-cell-label">COUNTERPOINT / COMPLICATION</span>
+      <p class="box-prompt">Someone who disagrees might say:</p>
+      <span class="wl"></span><span class="wl"></span>
+      <p class="box-prompt">One thing the evidence does NOT prove is:</p>
+      <span class="wl"></span><span class="wl"></span>
+    </div>
+    <div class="box-cell bottom-right">
+      <span class="box-cell-label">MY TAKEAWAY</span>
+      <p class="box-prompt">This matters because:</p>
+      <span class="wl"></span><span class="wl"></span>
+      <p class="box-prompt">One question I still have:</p>
+      <span class="wl"></span><span class="wl"></span>
+    </div>
+    <div class="box-full-row">
+      <span class="box-cell-label">CONNECTION TO ESSENTIAL QUESTION:</span>
+      <span class="box-cell-hint">This evidence [circle one: supports / complicates / challenges] the idea that</span>
+      <span class="fill-line connection-line"></span>
+      <span class="fill-line connection-line"></span>
+    </div>
+  </div>
+  <p class="fade-note">Fade this scaffold: Once students consistently fill all four boxes without prompts (typically after 2–3 uses), transition to the standard Boxed Notes template.</p>
+</div>
+
+
+
+
+<hr>
+
+
+
+</div></div>
+<div class="org"><div class="org-hdr">Timeline / Chronology Organizer<span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 7px">Organizer</span></div><div style="padding:10px 14px">
+
+
+
+<hr>
+
+
+
+<p><strong>Student Instructions:</strong></p>
+<ol>
+<li>Fill in the event, date, and one-sentence description for each box.</li>
+<li>For starred events (★), also fill in the Cause and Effect rows below the box.</li>
+<li>After completing the timeline, answer the reflection question at the bottom.</li>
+<li>This organizer helps you see not just what happened, but why the order mattered.</li>
+</ol>
+
+
+<p><strong>Teacher Note:</strong> Chronology is the foundation of historical thinking, but students often treat timelines as decoration rather than analytical tools. The cause-effect rows beneath starred events force students to treat sequence as explanatory, not just organizational — which is the move from CHRONOLOGY skill to CAUSATION skill. Used together with the CCOT Bridge (Organizer 6), this timeline creates the raw material for change-over-time analysis.</p>
+
+
+
+<hr>
+
+
+
+
+<div class="org-container timeline-container" aria-label="Timeline and Chronology Organizer">
+  <div class="org-heading">
+    <span class="org-label">Timeline / Chronology Organizer</span>
+    <span class="org-sublabel">[CHRONOLOGY] and [CCOT] Historical Thinking Skills</span>
+  </div>
+
+  <div class="timeline-title-row">
+    <span class="tl-field-label">TIMELINE TOPIC:</span>
+    <span class="fill-line tl-topic-line"></span>
+    <span class="tl-field-label" style="margin-left:16pt">Unit:</span>
+    <span class="fill-line tl-unit-line"></span>
+  </div>
+
+  <table class="timeline-tbl" role="presentation">
+    <thead>
+      <tr>
+        <th class="tl-th">Event 1</th>
+        <th class="tl-th">Event 2</th>
+        <th class="tl-th">Event 3</th>
+        <th class="tl-th">Event 4</th>
+        <th class="tl-th">Event 5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="tl-date-row">
+        <td class="tl-date-cell"><span class="tl-cell-lbl">DATE</span><span class="wl tl-wl"></span></td>
+        <td class="tl-date-cell"><span class="tl-cell-lbl">DATE</span><span class="wl tl-wl"></span></td>
+        <td class="tl-date-cell"><span class="tl-cell-lbl">DATE</span><span class="wl tl-wl"></span></td>
+        <td class="tl-date-cell"><span class="tl-cell-lbl">DATE</span><span class="wl tl-wl"></span></td>
+        <td class="tl-date-cell"><span class="tl-cell-lbl">DATE</span><span class="wl tl-wl"></span></td>
+      </tr>
+      <tr class="tl-event-row">
+        <td class="tl-event-cell"><span class="tl-cell-lbl">EVENT</span><span class="wl tl-wl"></span><span class="wl tl-wl"></span></td>
+        <td class="tl-event-cell"><span class="tl-cell-lbl">EVENT</span><span class="wl tl-wl"></span><span class="wl tl-wl"></span></td>
+        <td class="tl-event-cell"><span class="tl-cell-lbl">EVENT</span><span class="wl tl-wl"></span><span class="wl tl-wl"></span></td>
+        <td class="tl-event-cell"><span class="tl-cell-lbl">EVENT</span><span class="wl tl-wl"></span><span class="wl tl-wl"></span></td>
+        <td class="tl-event-cell"><span class="tl-cell-lbl">EVENT</span><span class="wl tl-wl"></span><span class="wl tl-wl"></span></td>
+      </tr>
+      <tr class="tl-star-row">
+        <td class="tl-star-cell"><label class="star-lbl"><input type="checkbox" class="no-print"> ★ Key Event</label></td>
+        <td class="tl-star-cell"><label class="star-lbl"><input type="checkbox" class="no-print"> ★ Key Event</label></td>
+        <td class="tl-star-cell"><label class="star-lbl"><input type="checkbox" class="no-print"> ★ Key Event</label></td>
+        <td class="tl-star-cell"><label class="star-lbl"><input type="checkbox" class="no-print"> ★ Key Event</label></td>
+        <td class="tl-star-cell"><label class="star-lbl"><input type="checkbox" class="no-print"> ★ Key Event</label></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="tl-cause-section">
+    <p class="tl-cause-intro">For ★ starred key events only — complete the analysis below:</p>
+    <div class="tl-cause-grid">
+      <div class="tl-cause-box">
+        <div class="tl-cause-lbl">★ EVENT:</div>
+        <span class="fill-line"></span>
+        <div class="tl-cause-lbl" style="margin-top:8pt">CAUSE(S): What made this event happen?</div>
+        <span class="wl"></span><span class="wl"></span>
+        <div class="tl-cause-lbl" style="margin-top:6pt">EFFECT(S): What changed as a result?</div>
+        <span class="wl"></span><span class="wl"></span>
+      </div>
+      <div class="tl-cause-box">
+        <div class="tl-cause-lbl">★ EVENT:</div>
+        <span class="fill-line"></span>
+        <div class="tl-cause-lbl" style="margin-top:8pt">CAUSE(S): What made this event happen?</div>
+        <span class="wl"></span><span class="wl"></span>
+        <div class="tl-cause-lbl" style="margin-top:6pt">EFFECT(S): What changed as a result?</div>
+        <span class="wl"></span><span class="wl"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="tl-reflection">
+    <div class="tl-refl-lbl">REFLECTION: Looking at the full timeline, what was the single most significant turning point — the event after which things could not return to what they were before? Explain in 2–3 sentences.</div>
+    <div class="summary-box" style="min-height:55pt"></div>
+  </div>
+</div>
+
+
+
+
+<hr>
+
+
+
+</div></div>
+<div class="org"><div class="org-hdr">Multiple Causation / Cause-Effect Organizer<span style="font-size:8pt;background:#C9A227;color:#3D2200;border-radius:2px;padding:1px 7px">Organizer</span></div><div style="padding:10px 14px">
+
+
+
+<hr>
+
+
+
+<p><strong>Student Instructions:</strong></p>
+<ol>
+<li>Write the historical event or outcome in the center box.</li>
+<li>Fill in at least THREE causes — one in each branch.</li>
+<li>Label each cause as: P (Political), E (Economic), S (Social), or I (Ideological).</li>
+<li>In the bottom section, explain which cause was most significant and why.</li>
+<li>This is a CAUSATION [skill] task — your job is to rank and evaluate causes, not just list them.</li>
+</ol>
+
+
+<p><strong>Teacher Note:</strong> A common student misconception is that listing causes is the same as analyzing them. The significance ranking at the bottom of this organizer is deliberately designed to force the evaluative move. Research on history-specific organizers confirms that multiple-causation tasks produce deeper historical thinking when students must weigh causes against each other, not just enumerate them. This organizer also works well for SSP.03 (synthesize data) by requiring students to pull causes from multiple sources.</p>
+
+
+
+<hr>
+
+
+
+
+<div class="org-container causation-container" aria-label="Multiple Causation Organizer">
+  <div class="org-heading">
+    <span class="org-label">Multiple Causation Organizer</span>
+    <span class="org-sublabel">[CAUSATION] Historical Thinking Skill</span>
+  </div>
+
+  <div class="cause-meta-row">
+    <span class="meta-field">Name: <span class="fill-line meta-line"></span></span>
+    <span class="meta-field">Unit: <span class="fill-line meta-line-sm"></span></span>
+    <span class="meta-field">Standard: <span class="fill-line meta-line-sm"></span></span>
+  </div>
+
+  <div class="cause-grid cause-grid-4">
+    <div class="cause-box cause-political">
+      <div class="cause-hdr-label">POLITICAL CAUSE (P)</div>
+      <div class="cause-body">
+        <span class="wl"></span><span class="wl"></span><span class="wl"></span><span class="wl"></span>
+      </div>
+    </div>
+    <div class="cause-box cause-economic">
+      <div class="cause-hdr-label">ECONOMIC CAUSE (E)</div>
+      <div class="cause-body">
+        <span class="wl"></span><span class="wl"></span><span class="wl"></span><span class="wl"></span>
+      </div>
+    </div>
+    <div class="cause-box cause-social">
+      <div class="cause-hdr-label">SOCIAL CAUSE (S)</div>
+      <div class="cause-body">
+        <span class="wl"></span><span class="wl"></span><span class="wl"></span><span class="wl"></span>
+      </div>
+    </div>
+    <div class="cause-box cause-ideological">
+      <div class="cause-hdr-label">IDEOLOGICAL CAUSE (I)</div>
+      <div class="cause-body">
+        <span class="wl"></span><span class="wl"></span><span class="wl"></span><span class="wl"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="event-box-wrapper">
+    <div class="arrow-row" aria-hidden="true">↓ ↓ ↓ ↓</div>
+    <div class="event-box">
+      <div class="event-box-lbl">THE EVENT / OUTCOME:</div>
+      <span class="fill-line event-line"></span>
+    </div>
+    <div class="arrow-row" aria-hidden="true">↓ Resulted in ↓</div>
+  </div>
+
+  <div class="effect-row">
+    <div class="effect-box">
+      <div class="tl-cause-lbl">SHORT-TERM EFFECTS</div>
+      <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+    </div>
+    <div class="effect-box">
+      <div class="tl-cause-lbl">LONG-TERM EFFECTS</div>
+      <span class="wl"></span><span class="wl"></span><span class="wl"></span>
+    </div>
+  </div>
+
+  <div class="ranking-section">
+    <div class="rank-lbl">SIGNIFICANCE RANKING — [CAUSATION] Skill:</div>
+    <p class="rank-stem">The most significant cause was <span class="fill-line rank-line"></span> because</p>
+    <span class="wl"></span><span class="wl"></span>
+    <p class="rank-stem" style="margin-top:8pt">A counterargument: someone might argue the most significant cause was <span class="fill-line rank-line"></span> because</p>
+    <span class="wl"></span><span class="wl"></span>
+    <p class="rank-stem" style="margin-top:8pt">My evidence for this ranking:</p>
+    <span class="wl"></span><span class="wl"></span>
+  </div>
+</div>
+
+
+
+
+<hr>
+
+
+
+</div></div>
+<h2 id="phase-4---how-to-use-guides">PHASE 4 — How to Use Guides</h2>
+
+
+
+<hr>
+
+
+
+<h3>Cornell Notes — Quick Start Guides</h3>
+
+
+
+<p><strong>Teacher Quick Start:</strong></p>
+<ul>
+<li><strong>Before reading:</strong> Distribute the template; write the essential question with the class on the board; model what goes in the Notes column vs. what goes in the Cue column with one example.</li>
+<li><strong>During/after reading:</strong> Give students 5 minutes of in-class time to write cue questions — do not assign this as homework for the first several uses. Students who do not understand the difference between notes and questions will reveal it here, where you can redirect them.</li>
+<li><strong>Removing the scaffold:</strong> Start by removing the sentence starter from the Summary section; then, once cue questions are fluent, move students to blank Cornell format. The two-column visual layout can remain even after all pre-filling is removed.</li>
+<li><strong>Modeling tip:</strong> Project your own partially completed Cornell Notes and think aloud as you decide whether something belongs in the Notes vs. Cue column. The most important thing to model is that cue questions are generated <em>after</em> reading — not written in advance.</li>
+</ul>
+
+
+<p><strong>Student Quick Start:</strong></p>
+<ul>
+<li>Take notes on the RIGHT side during reading or listening. Write key ideas in your own words — not full sentences copied from the text.</li>
+<li>After you finish reading, look at each section of notes and write ONE question on the LEFT side that your notes answer.</li>
+<li>Cover the right side. Use your questions to test yourself. If you cannot answer a question, go back and re-read.</li>
+<li>Write your summary in the bottom box — 2–3 sentences, no looking at your notes.</li>
+<li>The organizer is a thinking tool. The summary paragraph or essay you write later is the final product.</li>
+</ul>
+
+
+<hr>
+
+
+
+<h3>Boxed Notes — Quick Start Guides</h3>
+
+
+
+<p><strong>Teacher Quick Start:</strong></p>
+<ul>
+<li><strong>Before reading:</strong> Review the four box labels with students. Clarify the difference between "Key Evidence" (specific, sourced) and "My Takeaway" (your original thinking). This is the most common source of confusion.</li>
+<li><strong>During reading:</strong> Instruct students to fill boxes roughly in order (Main Idea → Key Evidence → Counterpoint → Takeaway) to avoid the common habit of writing only in the Main Idea box.</li>
+<li><strong>Removing the scaffold:</strong> Start by removing the prompts from the scaffolded version; then progress to blank boxes with labels only; finally let students draw their own boxes once they have internalized the four categories.</li>
+<li><strong>Modeling tip:</strong> Demonstrate filling in one full row of boxes from a short paragraph and explicitly say "I'm putting this in Key Evidence, not Main Idea, because it's a specific fact, not an overall claim."</li>
+</ul>
+
+
+<p><strong>Student Quick Start:</strong></p>
+<ul>
+<li>Each box holds a different TYPE of information — read the label before you write in it.</li>
+<li>"Main Idea" = the overall point. "Key Evidence" = specific facts, with sources in parentheses.</li>
+<li>"Counterpoint" = the strongest argument against the main idea, or what the evidence can't prove.</li>
+<li>"My Takeaway" = your own thinking. No prompts can answer this box — it requires your judgment.</li>
+<li>Use your completed boxes to build a paragraph or essay. The boxes are notes, not the final answer.</li>
+</ul>
+
+
+<hr>
+
+
+
+<h3>Timeline — Quick Start Guides</h3>
+
+
+
+<p><strong>Teacher Quick Start:</strong></p>
+<ul>
+<li><strong>Before reading:</strong> Draw the timeline on the board with blank event boxes. Ask students to predict which events will be most significant before filling anything in — this activates prior knowledge and creates a purpose for reading.</li>
+<li><strong>During reading:</strong> Students fill event boxes as they read. Reserve the Cause/Effect rows for class discussion rather than independent work for the first use, so you can model the distinction between "what caused this" and "what came before this."</li>
+<li><strong>Removing the scaffold:</strong> Start by removing the Cause/Effect rows and asking students to identify which events deserve them without guidance; then move to blank chronological paper where students decide the structure themselves.</li>
+<li><strong>Using it for CCOT:</strong> After completing the timeline, ask: "Pick the single most significant turning point. What changed after it? What did NOT change?" This converts the chronology organizer into a CCOT analytical tool.</li>
+</ul>
+
+
+<p><strong>Student Quick Start:</strong></p>
+<ul>
+<li>Fill in events in chronological order — earliest on the left, most recent on the right.</li>
+<li>For starred (★) events: you must also fill in at least one Cause and one Effect.</li>
+<li>The reflection question at the bottom is the most important part — a timeline that doesn't lead to analysis is just a list of dates.</li>
+<li>After completing the timeline, use it to answer: What changed over this period? What stayed the same?</li>
+</ul>
+
+
+<hr>
+
+
+
+<h3>Cause-Effect / Multiple Causation — Quick Start Guides</h3>
+
+
+
+<p><strong>Teacher Quick Start:</strong></p>
+<ul>
+<li><strong>Before reading:</strong> Write the event/outcome in the center box; leave the cause branches blank. Ask students: "Before we read, what causes do you already predict?" This identifies misconceptions early.</li>
+<li><strong>During reading:</strong> Students add causes as they encounter them. Require the P/E/S/I label for every cause — this forces categorization, which is a key move in mature causal reasoning.</li>
+<li><strong>Removing the scaffold:</strong> Start by removing the type labels; then remove the significance ranking prompts; finally move to blank paper where students design their own causal diagram.</li>
+<li><strong>Connecting to argument writing:</strong> The significance ranking at the bottom is the exact analytical move required for a DBQ thesis. Use this explicitly: "Your significance ranking is your thesis. The evidence for it is your body paragraph."</li>
+</ul>
+
+
+<p><strong>Student Quick Start:</strong></p>
+<ul>
+<li>Write the event or outcome in the center box FIRST.</li>
+<li>Add at least THREE causes — one per branch. Label each P (Political), E (Economic), S (Social), or I (Ideological).</li>
+<li>The significance ranking at the bottom is not optional — you must argue for why one cause was more important than the others.</li>
+<li>This is a [CAUSATION] task. Listing causes earns partial credit. Explaining which was most significant and why earns full credit.</li>
+</ul>
+
+
+<hr>
+
+
+
+<h2 id="phase-5---packet-placement-guide">PHASE 5 — Packet Placement Guide</h2>
+
+
+
+<h3>Where each organizer lives</h3>
+
+
+
+<table>
+<tr><th>Organizer</th><th>Packet A (Skills Practice)</th><th>Packet B (Inquiry & Writing)</th><th>Packet C (Teacher Scaffolds)</th></tr>
+
+
+<tr><td>Cornell Notes (standard)</td><td>✓ — as a general note-taking skill practice</td><td>—</td><td>✓ — with teacher Quick Start</td></tr>
+
+<tr><td>Scaffolded Cornell Notes</td><td>✓ — as a supported practice version</td><td>—</td><td>✓ — with scaffold-fading guidance</td></tr>
+
+<tr><td>Boxed Notes (standard)</td><td>✓ — as a sourcing/argument skill practice</td><td>✓ — students use for inquiry task argument planning</td><td>✓ — with teacher Quick Start</td></tr>
+
+<tr><td>Scaffolded Boxed Notes</td><td>✓ — as a supported version</td><td>—</td><td>✓ — with Version A / ELL guidance</td></tr>
+
+<tr><td>Timeline / Chronology Organizer</td><td>✓ — as a CHRONOLOGY skill practice</td><td>✓ — students use to map source timeline</td><td>✓ — with CCOT extension note</td></tr>
+
+<tr><td>Multiple Causation Organizer</td><td>✓ — as a CAUSATION skill practice</td><td>✓ — students use for Open Inquiry Task cause analysis</td><td>✓ — with significance ranking guidance</td></tr>
+
+<tr><td>SOAPS+HIPP Combined Table</td><td>✓ — as a sourcing skill practice (already in Packet A)</td><td>✓ — students use for source selection in tasks</td><td>✓ — integrated guide already in Packet C</td></tr>
+
+<tr><td>Frayer Model (vocabulary)</td><td>✓ — as vocabulary practice for unit key terms</td><td>—</td><td>✓ — suggested for ELL differentiation</td></tr>
+</table>
+
+
+
+<hr>
+
+
+
+<h3>Decision Guide for Teachers</h3>
+
+
+
+<p><strong>Use it every unit:</strong></p>
+<ul>
+<li>Cornell Notes (or Scaffolded Cornell) — standard note-taking routine; fades as students build fluency.</li>
+<li>Timeline — any unit where chronological sequence is analytically important (Units 1, 4, 6, 7, 8).</li>
+<li>Boxed Notes (standard or scaffolded) — any primary source or document-heavy lesson.</li>
+</ul>
+
+
+<p><strong>Use it selectively when students are struggling with X:</strong></p>
+<ul>
+<li>Students can't separate claim from evidence → Scaffolded Boxed Notes</li>
+<li>Students list causes but don't evaluate them → Multiple Causation Organizer with significance ranking required</li>
+<li>Students write long notes but can't recall later → Cornell Notes; enforce the cue-question and self-testing steps</li>
+<li>ELL students are producing minimal output → Scaffolded Cornell with sentence starters; Frayer Model for key vocabulary</li>
+<li>Students complete SOAPS but can't make argumentative connection → SOAPS+HIPP Table; model the "Because [HIPP feature], this source is useful for arguing..." sentence explicitly</li>
+</ul>
+
+
+<p><strong>The fade principle:</strong> Every scaffold in this toolkit should have a planned removal date. Write it on your pacing guide: "Remove sentence starters from Cornell by Unit 4." "Move to standard Boxed Notes by Unit 6." Students who use the same scaffolded organizer for an entire year have not been taught — they have been accommodated. The goal is always independence.</p>
+
+
+
+<hr>
+
+
+
+<p><em>TroopToTeacher Technologies LLC · Differentiation Toolkit · U.S. History (US.01–US.95) · © 2026</em></p>
+
+<p><em>Research-informed; all source descriptions are paraphrased and synthesized. No copyrighted text reproduced.</em></p>
+
+
+
+</div>
+<div class="foot">
+  <div><strong>TroopToTeacher Technologies LLC</strong> · Differentiation Toolkit · © 2026</div>
+  <div>Research-informed · All descriptions paraphrased · No copyrighted text reproduced</div>
+</div>
+</body>
+</html>

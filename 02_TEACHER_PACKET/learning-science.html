@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Learning Science Supplement — TroopToTeacher Technologies</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,serif;background:#f5f5f3;color:#111;font-size:10.5pt;line-height:1.7}
+.top-bar{background:#1B2A4A;color:#fff;padding:12px 20px;position:sticky;top:0;z-index:100;display:flex;justify-content:space-between;align-items:center}
+.top-bar h1{font-size:13pt;font-weight:700;font-family:Arial,sans-serif}
+.top-bar .sub{font-size:9pt;color:#B5D4F4;margin-top:2px;font-family:Arial,sans-serif}
+.top-bar .btns{display:flex;gap:8px;flex-shrink:0}
+.btn{height:30px;padding:0 12px;border:none;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;font-family:Arial,sans-serif}
+.btn-gold{background:#C9A227;color:#3D2200}
+.btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4)}
+.unit-nav{background:#2e4472;padding:8px 20px;display:flex;gap:6px;flex-wrap:wrap;position:sticky;top:58px;z-index:99}
+.unit-btn{background:rgba(255,255,255,.12);color:#fff;border:none;border-radius:4px;padding:4px 10px;font-size:11px;font-family:Arial,sans-serif;font-weight:600;cursor:pointer;transition:background .15s}
+.unit-btn:hover,.unit-btn.active{background:#C9A227;color:#3D2200}
+.content{max-width:980px;margin:0 auto;padding:20px}
+.unit-section{display:none}
+.unit-section.visible{display:block}
+.unit-header{background:#1B2A4A;color:#fff;padding:14px 18px;border-radius:6px 6px 0 0;margin-bottom:0}
+.unit-header h2{font-family:Arial,sans-serif;font-size:14pt;font-weight:700}
+.unit-header .meta{font-family:Arial,sans-serif;font-size:9pt;color:#B5D4F4;margin-top:3px}
+.unit-body{background:#fff;border:1px solid #ddd;border-top:none;border-radius:0 0 6px 6px;padding:18px;margin-bottom:24px}
+p{margin-bottom:8px}
+.q-block{background:#f9f9f7;border:1px solid #e8e4da;border-radius:5px;padding:12px 14px;margin-bottom:10px}
+.q-num{font-family:Arial,sans-serif;font-size:9pt;font-weight:700;color:#1B2A4A;margin-bottom:4px}
+.q-text{font-size:10.5pt;margin-bottom:8px}
+.q-answer{display:none;background:#eaf3de;border-left:3px solid #3B6D11;padding:8px 12px;border-radius:0 4px 4px 0;font-size:10pt;margin-top:6px}
+.q-connection{display:none;background:#f0f5fb;border-left:3px solid #1B2A4A;padding:6px 10px;border-radius:0 4px 4px 0;font-size:9.5pt;color:#1B2A4A;font-family:Arial,sans-serif;margin-top:4px}
+.toggle-btn{background:none;border:1px solid #1B2A4A;border-radius:3px;color:#1B2A4A;font-size:10px;font-family:Arial,sans-serif;font-weight:700;padding:2px 8px;cursor:pointer;margin-top:4px;margin-right:4px}
+.item-block{background:#f9f9f9;border:1px solid #e0e0e0;border-radius:4px;padding:10px 14px;margin-bottom:8px;font-size:10.5pt}
+.item-num{font-family:Arial,sans-serif;font-size:9pt;font-weight:700;color:#555;margin-bottom:3px}
+.hattie-row{display:grid;grid-template-columns:1fr 80px 2fr;gap:8px;padding:8px 10px;border-bottom:1px solid #eee;font-size:10pt;align-items:start}
+.hattie-row:last-child{border-bottom:none}
+.hattie-head{display:grid;grid-template-columns:1fr 80px 2fr;gap:8px;padding:6px 10px;background:#1B2A4A;color:#fff;font-family:Arial,sans-serif;font-size:9pt;font-weight:700;border-radius:4px 4px 0 0}
+.d-badge{display:inline-block;background:#1B2A4A;color:#fff;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px}
+.effect{font-weight:700;color:#27500A;font-family:Arial,sans-serif}
+@media print {
+  html, body { background: #fff !important; margin: 0 !important; box-shadow: none !important; width: auto !important; }
+  .no-print, .unit-nav, .btns, .top-bar,
+  [style*="position:sticky"], [style*="position: sticky"],
+  [style*="position:fixed"],  [style*="position: fixed"],
+  button { display: none !important; }
+  .unit-section { display: block !important; }
+  .unit-section + .unit-section { page-break-before: always; break-before: page; }
+  .q-answer { display: block !important; }
+  .q-connection { display: block !important; }
+  .pb { page-break-before: always; break-before: page; padding-top: 2pt !important; }
+  h2 { break-after: avoid; page-break-after: avoid; }
+  [style*="background:#1B2A4A"], [style*="background: #1B2A4A"],
+  [style*="background:#2A3F5E"], [style*="background: #2A3F5E"] {
+    background: #fff !important;
+    color: #000 !important;
+    border-bottom: 1.5pt solid #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .unit-header, .hattie-head, .d-badge, .top-bar {
+    background: #fff !important; color: #000 !important; border: 1pt solid #333 !important;
+  }
+  th { background: #fff !important; color: #000 !important; border: 1pt solid #333 !important; font-weight: bold; }
+  [style*="overflow:hidden"] { overflow: visible !important; }
+  [style*="overflow: hidden"] { overflow: visible !important; }
+  .q-write {
+    display: block !important;
+    border: 1pt solid #333 !important;
+    background: #fff !important;
+    min-height: 55pt !important;
+    width: 100% !important;
+    overflow: visible !important;
+    margin-bottom: 8pt !important;
+  }
+  .br-write {
+    display: block !important;
+    border-bottom: 1pt solid #333 !important;
+    min-height: 18pt !important;
+    background: none !important;
+    margin-bottom: 5pt !important;
+  }
+  .q-write-label { display: block !important; }
+  .q-answer, .q-connection { overflow: visible !important; }
+  .q-block, .item-block {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    overflow: visible !important;
+  }
+  * { box-shadow: none !important; text-shadow: none !important; }
+}
+@page{size:letter portrait;margin:.6in .55in .55in}
+
+/* ── Student response areas (added April 2026) ── */
+.q-write {
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  min-height: 58px;
+  margin: 8px 0 4px;
+  background: #fffef8;
+  display: block;
+}
+.br-write {
+  border-bottom: 1px solid #bbb;
+  min-height: 22px;
+  display: block;
+  margin: 4px 0;
+}
+.q-write-label {
+  font-family: Arial, sans-serif;
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: #555;
+  display: block;
+  margin: 8px 0 2px;
+}
+</style>
+</head>
+<body>
+<div class="top-bar">
+  <div>
+    <h1>Learning Science Supplement &nbsp;&mdash;&nbsp; U.S. History: Reconstruction to Present</h1>
+    <div class="sub">Spiral Reviews &nbsp;&middot;&nbsp; Bell Ringers &nbsp;&middot;&nbsp; Exit Tickets &nbsp;&middot;&nbsp; Hattie Integration &nbsp;&middot;&nbsp; Spaced Retrieval &nbsp;&middot;&nbsp; TroopToTeacher Technologies LLC &nbsp;&middot;&nbsp; &copy; 2026</div>
+  </div>
+  <div class="btns">
+    <button class="btn btn-gold" onclick="showAllAnswers()">Show All Answers</button>
+    <button class="btn btn-outline" onclick="hideAllAnswers()">Hide All Answers</button>
+    <button class="btn btn-outline" onclick="window.print()">&#x2399; Print</button>
+  </div>
+</div>
+
+<div class="unit-nav" id="unitNav">
+<button class="unit-btn" onclick="showUnit('unit1')" id="btn-unit1">Unit 1</button>
+<button class="unit-btn" onclick="showUnit('unit2')" id="btn-unit2">Unit 2</button>
+<button class="unit-btn" onclick="showUnit('unit3')" id="btn-unit3">Unit 3</button>
+<button class="unit-btn" onclick="showUnit('unit4')" id="btn-unit4">Unit 4</button>
+<button class="unit-btn" onclick="showUnit('unit5')" id="btn-unit5">Unit 5</button>
+<button class="unit-btn" onclick="showUnit('unit6')" id="btn-unit6">Unit 6</button>
+<button class="unit-btn" onclick="showUnit('unit7')" id="btn-unit7">Unit 7</button>
+<button class="unit-btn" onclick="showUnit('unit8')" id="btn-unit8">Unit 8</button>
+<button class="unit-btn" onclick="showUnit('unit9')" id="btn-unit9">Unit 9</button>
+<button class="unit-btn" onclick="showUnit('unit10')" id="btn-unit10">Unit 10</button>
+<button class="unit-btn" onclick="showUnit('hattie')" id="btn-hattie">Hattie Guide</button>
+<button class="unit-btn" onclick="showUnit('schedule')" id="btn-schedule">Retrieval Schedule</button>
+</div>
+<div class="content">
+<div class="unit-section" id="section-hattie">
+<div class="unit-header"><h2>Hattie's High-Impact Strategies — Implementation Guide</h2>
+<div class="meta">Based on Visible Learning meta-analysis &nbsp;·&nbsp; Effect size hinge point: d = 0.40 &nbsp;·&nbsp; Strategies below d = 0.40 are below average</div>
+</div>
+<div class="unit-body">
+<p style="font-family:Arial,sans-serif;font-size:10pt;color:#444;margin-bottom:14px">The strategies below have the highest effect sizes in Hattie's research. Each is mapped to a specific activity type in this course. Use this guide to explain to administrators, coaches, or reviewers why the course is structured the way it is.</p>
+<div class="hattie-head"><span>Strategy</span><span>Effect Size</span><span>Where It Appears in This Course</span></div>
+<div class="hattie-row"><span><strong>Metacognitive strategies / Self-reported grades</strong></span><span class="effect">d = 1.33</span><span style="font-size:10pt">Students predict their score before a quiz, then compare to actual result. Exit ticket self-assessment. 'What do I know / What am I unsure about' journals.</span></div>
+<div class="hattie-row"><span><strong>Formative evaluation</strong></span><span class="effect">d = 0.90</span><span style="font-size:10pt">Every bell ringer, exit ticket, and spiral review question is a formative evaluation event. Low stakes. High frequency. Immediate feedback.</span></div>
+<div class="hattie-row"><span><strong>Teacher clarity</strong></span><span class="effect">d = 0.75</span><span style="font-size:10pt">Learning targets posted as 'I can' statements at lesson start. Unambiguous rubrics for every open-response item. Clear answer keys with distractor rationale.</span></div>
+<div class="hattie-row"><span><strong>Feedback</strong></span><span class="effect">d = 0.73</span><span style="font-size:10pt">Distractor analysis tells students WHY they were wrong, not just that they were wrong. Exit ticket model responses provided in teacher edition. Peer feedback on constructed responses.</span></div>
+<div class="hattie-row"><span><strong>Prior knowledge activation</strong></span><span class="effect">d = 0.65</span><span style="font-size:10pt">Spiral review opens each unit. Bell ringer #1 each lesson activates what students already know. DOK 1 items in each assessment set check baseline before higher-demand work.</span></div>
+<div class="hattie-row"><span><strong>Spaced practice</strong></span><span class="effect">d = 0.60</span><span style="font-size:10pt">3-round retrieval practice per unit (Unit textbook). Bell ringers pull from prior units. Weekly retrieval quizzes interleave current and prior content. Spiral reviews are built-in spacing.</span></div>
+<div class="hattie-row"><span><strong>Classroom discussion</strong></span><span class="effect">d = 0.82</span><span style="font-size:10pt">Socratic seminar protocols in each unit. Think-pair-share structures on bridge questions. Accountable talk stems in teacher edition.</span></div>
+<div class="hattie-row"><span><strong>Collaborative learning</strong></span><span class="effect">d = 0.55</span><span style="font-size:10pt">Spiral review questions 3–5 used as small-group discussion starters. DBQ items designed for pair analysis before individual writing.</span></div>
+<div class="hattie-row"><span><strong>Testing effect / Retrieval practice</strong></span><span class="effect">d = 0.50+</span><span style="font-size:10pt">Every spiral review, bell ringer, exit ticket, and quiz is a retrieval event — not just a test. Retrieval strengthens the memory trace. Low-stakes frequent retrieval produces more durable learning than infrequent high-stakes testing (Roediger & Karpicke, 2006).</span></div>
+</div>
+<p style="margin-top:14px;font-family:Arial,sans-serif;font-size:9pt;color:#555">Source: Hattie, J. (2009). <em>Visible Learning.</em> Routledge. Updated: Hattie, J. (2023). <em>Visible Learning: The Sequel.</em> Routledge. Effect sizes from Visible Learning MetaX database (2024).</p>
+</div>
+</div>
+<div class="unit-section" id="section-schedule">
+<div class="unit-header"><h2>Spaced Retrieval Practice — Course-Wide Implementation Schedule</h2>
+<div class="meta">Based on Cepeda et al. (2006, 2008) and Agarwal et al. (2014) &nbsp;·&nbsp; Three spaced retrieval opportunities = optimal for 9-month retention</div>
+</div>
+<div class="unit-body">
+<p>The schedule below maps how this course implements spaced retrieval across all 10 units. Each row shows what a student encounters in a given unit and what prior content they retrieve during that unit.</p>
+<div style="margin:14px 0;overflow-x:auto">
+<table style="width:100%;border-collapse:collapse;font-size:10pt;font-family:Arial,sans-serif">
+<tr style="background:#1B2A4A;color:#fff"><th style="padding:8px 10px;text-align:left">Unit</th><th style="padding:8px 10px;text-align:left">New Content</th><th style="padding:8px 10px;text-align:left">Spiral Review Retrieves</th><th style="padding:8px 10px;text-align:left">Bell Ringer Retrieves</th><th style="padding:8px 10px;text-align:left">Spacing Gap</th></tr>
+<tr style="background:#fff"><td style="padding:7px 10px;font-weight:700;color:#1B2A4A">1</td><td style="padding:7px 10px">Reconstruction</td><td style="padding:7px 10px">Prior knowledge activation only</td><td style="padding:7px 10px">Civil War era background</td><td style="padding:7px 10px;color:#555;font-style:italic">N/A — first unit</td></tr>
+<tr style="background:#f8f8f8"><td style="padding:7px 10px;font-weight:700;color:#1B2A4A">2</td><td style="padding:7px 10px">Gilded Age</td><td style="padding:7px 10px">Unit 1: Reconstruction (5 questions)</td><td style="padding:7px 10px">Unit 1 concepts</td><td style="padding:7px 10px;color:#555;font-style:italic">1–2 weeks after Unit 1</td></tr>
+<tr style="background:#fff"><td style="padding:7px 10px;font-weight:700;color:#1B2A4A">3</td><td style="padding:7px 10px">Progressive Era</td><td style="padding:7px 10px">Units 1–2: Reconstruction + Gilded Age</td><td style="padding:7px 10px">Units 1–2 concepts</td><td style="padding:7px 10px;color:#555;font-style:italic">2–4 weeks after Units 1–2</td></tr>
+<tr style="background:#f8f8f8"><td style="padding:7px 10px;font-weight:700;color:#1B2A4A">4</td><td style="padding:7px 10px">WWI / Twenties</td><td style="padding:7px 10px">Units 1–3: Full arc through Progressive</td><td style="padding:7px 10px">Units 2–3 concepts</td><td style="padding:7px 10px;color:#555;font-style:italic">4–6 weeks after Units 1–3</td></tr>
+<tr style="background:#fff"><td style="padding:7px 10px;font-weight:700;color:#1B2A4A">5</td><td style="padding:7px 10px">Depression / New Deal</td><td style="padding:7px 10px">Units 1–4: Economic causes across eras</td><td style="padding:7px 10px">Units 3–4 concepts</td><td style="padding:7px 10px;color:#555;font-style:italic">6–8 weeks after Units 1–4</td></tr>
+<tr style="background:#f8f8f8"><td style="padding:7px 10px;font-weight:700;color:#1B2A4A">6</td><td style="padding:7px 10px">World War II</td><td style="padding:7px 10px">Units 1–5: From Reconstruction to New Deal</td><td style="padding:7px 10px">Units 4–5 concepts</td><td style="padding:7px 10px;color:#555;font-style:italic">8–10 weeks after Units 1–5</td></tr>
+<tr style="background:#fff"><td style="padding:7px 10px;font-weight:700;color:#1B2A4A">7</td><td style="padding:7px 10px">Cold War / Civil Rights</td><td style="padding:7px 10px">Units 1–6: Full first-half synthesis</td><td style="padding:7px 10px">Units 5–6 concepts</td><td style="padding:7px 10px;color:#555;font-style:italic">10–13 weeks after Units 1–6</td></tr>
+<tr style="background:#f8f8f8"><td style="padding:7px 10px;font-weight:700;color:#1B2A4A">8</td><td style="padding:7px 10px">Vietnam / Watergate</td><td style="padding:7px 10px">Units 1–7: Civil rights legacy + Cold War</td><td style="padding:7px 10px">Units 6–7 concepts</td><td style="padding:7px 10px;color:#555;font-style:italic">13–16 weeks after Units 1–7</td></tr>
+<tr style="background:#fff"><td style="padding:7px 10px;font-weight:700;color:#1B2A4A">9</td><td style="padding:7px 10px">Conservative Era</td><td style="padding:7px 10px">Units 1–8: New Deal vs. Reaganomics; Baker</td><td style="padding:7px 10px">Units 7–8 concepts</td><td style="padding:7px 10px;color:#555;font-style:italic">16–20 weeks after Units 1–8</td></tr>
+<tr style="background:#f8f8f8"><td style="padding:7px 10px;font-weight:700;color:#1B2A4A">10</td><td style="padding:7px 10px">21st Century</td><td style="padding:7px 10px">Units 1–9: Full course synthesis (capstone)</td><td style="padding:7px 10px">Units 8–9 + Tennessee arc</td><td style="padding:7px 10px;color:#555;font-style:italic">20–24 weeks after Units 1–9</td></tr>
+</table>
+</div>
+<div style="background:#fffdf5;border-left:4px solid #C9A227;padding:10px 14px;border-radius:0 4px 4px 0;margin-top:14px;font-family:Arial,sans-serif;font-size:10pt">
+<strong style="color:#633806;font-size:9pt;text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:4px">The Research Behind This Schedule</strong>
+Cepeda et al. (2006) found that the optimal gap between study sessions scales with the retention interval — the further out the final test, the longer the ideal spacing. Agarwal et al. (2014) found that three spaced retrieval opportunities produced optimal retention measured up to 9 months after initial learning. This course builds exactly three retrieval opportunities for most major content: the original instruction, a spiral review 1–2 units later, and a cumulative review during the final unit. The bell ringers add additional interleaved retrieval at even shorter intervals, consistent with the short-gap component of optimal spaced practice.
+</div>
+<p style="margin-top:10px;font-family:Arial,sans-serif;font-size:9pt;color:#555">Sources: Cepeda et al. (2006) <em>Psychological Bulletin</em>. Agarwal, Roediger, McDaniel & McDermott (2014). Roediger & Karpicke (2006) <em>Perspectives on Psychological Science.</em></p>
+</div>
+</div>
+<div class="unit-section" id="section-unit1">
+<div class="unit-header"><h2>Unit 1: Reconstruction</h2><div class="meta">1865–1877 &nbsp;·&nbsp; Learning Science Supplement</div></div>
+<div class="unit-body">
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#1B2A4A;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🧠</span><span>Unit 1 — Prior Knowledge Activation (No Spiral — First Unit)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">In Unit 1, we activate prior knowledge from 8th-grade U.S. History, where students studied colonization through Reconstruction (1607–1877). Because this is the first unit of the course, there is no prior high-school content to retrieve, so these prompts focus on what students already know about Manifest Destiny, the purpose of Reconstruction, and the end of the Civil War. Use these prior knowledge activation tasks at the start of Unit 1 to surface students' existing understanding and misconceptions before instruction begins. This both activates prior knowledge and functions as a quick diagnostic on student readiness — strategies that deliberately connect new learning to prior knowledge show a high impact on achievement (Hattie reports effect sizes around or above the 0.40 "hinge point" for prior knowledge and related strategies).</p><div class="q-block">
+<div class="q-num">Prior Knowledge Activation 1</div>
+<div class="q-text">What were the three main causes of the Civil War? Name at least two.</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<div style="font-family:Arial,sans-serif;font-size:9.5pt;color:#1B2A4A;font-style:italic;margin-top:4px">Purpose: Activates prior knowledge from 8th grade; establishes foundation for Reconstruction</div>
+</div><div class="q-block">
+<div class="q-num">Prior Knowledge Activation 2</div>
+<div class="q-text">What is an amendment to the U.S. Constitution, and what process is required to ratify one?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<div style="font-family:Arial,sans-serif;font-size:9.5pt;color:#1B2A4A;font-style:italic;margin-top:4px">Purpose: Builds constitutional literacy needed for 13th, 14th, 15th Amendments</div>
+</div><div class="q-block">
+<div class="q-num">Prior Knowledge Activation 3</div>
+<div class="q-text">What does the term 'civil rights' mean, and what rights do you think should be guaranteed to all American citizens?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<div style="font-family:Arial,sans-serif;font-size:9.5pt;color:#1B2A4A;font-style:italic;margin-top:4px">Purpose: Conceptual entry point; reveals existing understanding before instruction</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#2A3F5E;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔔</span><span>Unit 1 — Bell Ringers (Prior Knowledge Activation)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">These five bell ringers are designed specifically for Unit 1, drawing on 8th-grade U.S. History content (colonization through Reconstruction, 1607–1877). Use one per lesson to open class. They function simultaneously as prior knowledge activation and as a quick diagnostic — pay attention to what students can and cannot recall, as this tells you where instruction needs to build most carefully. Not graded for accuracy. Collect responses occasionally to inform lesson planning.</p><div class="item-block"><div class="item-num">Bell Ringer 1 &nbsp;·&nbsp; Big-Picture Timeline &nbsp;·&nbsp; 2–3 min &nbsp;·&nbsp; Quick-write or pair-share</div><strong>Prompt:</strong> "List three major events from colonization through the end of the Civil War that you remember from 8th-grade U.S. History. Put them in order as best you can. Then, star the one you think had the biggest impact on how Americans saw the future of the country."</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 2 &nbsp;·&nbsp; Manifest Destiny &nbsp;·&nbsp; 3–4 min &nbsp;·&nbsp; Quick-write + whole-group poll</div><strong>Prompt:</strong> "In 8th grade, you may have heard the term Manifest Destiny. In your own words, what do you think 'Manifest Destiny' meant to people at the time? Do you think it was mostly a positive idea, a negative idea, or both? Explain your choice in 1–2 sentences."</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 3 &nbsp;·&nbsp; Purpose of the Civil War &nbsp;·&nbsp; 3–5 min &nbsp;·&nbsp; Individual → pair</div><strong>Prompt:</strong> "Think back to what you learned about the Civil War. Why did the United States go to war with itself? Write 2–3 sentences explaining what each side — Union and Confederacy — said it was fighting for."</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 4 &nbsp;·&nbsp; Goals of Reconstruction &nbsp;·&nbsp; 3–5 min &nbsp;·&nbsp; Quick-write + share-out</div><strong>Prompt:</strong> "After the Civil War ended, the country entered the period called Reconstruction. Based on what you remember, what were two main goals of Reconstruction? Then, rate how successful you think Reconstruction was (0 = total failure, 5 = huge success) and briefly explain your rating."</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 5 &nbsp;·&nbsp; Continuity & Change &nbsp;·&nbsp; 3–5 min &nbsp;·&nbsp; Silent reflection → discussion</div><strong>Prompt:</strong> "Imagine you are a formerly enslaved person in 1865, just after the Civil War. What is one thing that has clearly changed in your life, and one thing that might not have changed as much as you hoped? Write a short diary-style entry (3–4 sentences) from that person's point of view."</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#3B6D11;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🎫</span><span>Unit 1 — Exit Tickets (Retrieval Practice)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Administer in the final 4–5 minutes of class. Students answer on an index card or slip — one question per class period. Purpose: retrieval practice (Hattie testing effect d=0.50+), formative evaluation (Hattie d=0.90), and metacognitive check. Sort into three piles: Got It / Almost / Not Yet. Use "Not Yet" pile to plan next lesson opener.</p><div class="item-block"><div class="item-num">Exit Ticket 1</div>Name one goal of Reconstruction and explain whether you think it was achieved. Use one piece of evidence.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 2</div>In your own words, what was the difference between Presidential Reconstruction and Congressional (Radical) Reconstruction?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 3</div>Andrew Johnson was from Greeneville, Tennessee. How did his background shape his approach to Reconstruction? Be specific.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span></div>
+</div>
+</div></div>
+<div class="unit-section" id="section-unit2">
+<div class="unit-header"><h2>Unit 2: Gilded Age</h2><div class="meta">1870–1900 &nbsp;·&nbsp; Learning Science Supplement</div></div>
+<div class="unit-body">
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#C9A227;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔄</span><span>Unit 2 — Spiral Review: Reconstruction (Unit 1)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px"><strong>Administer at the START of Unit 2</strong>, before any new instruction begins. These questions retrieve content from prior units. Question 5 is always a Bridge Question connecting prior learning to the new unit. Show answers and discuss after students respond individually. Time: 8–10 minutes.</p><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 1<span style="display:inline-block;background:#fff3c4;color:#7a5400;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 2</span></div>
+<div class="q-text">The Compromise of 1877 effectively ended Reconstruction by withdrawing federal troops from the South. What was the immediate political consequence for formerly enslaved people?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit2-1')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit2-1')">Show Connection</button>
+<div class="q-answer" id="spiral-unit2-1">The withdrawal of federal troops removed the enforcement mechanism protecting Black civil and political rights. Without military protection, Southern states rapidly reinstated racial oppression through Black Codes, Jim Crow laws, and terrorist violence. African American political gains of Reconstruction — including elected officials at state and federal levels — were quickly reversed.</div>
+<div class="q-connection" id="conn-unit2-1">📍 <strong>Cross-Unit Connection:</strong> Connects directly to Unit 2's Gilded Age social structure and Jim Crow</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 2<span style="display:inline-block;background:#dce9f7;color:#1B2A4A;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 1</span></div>
+<div class="q-text">Which three constitutional amendments were ratified during Reconstruction, and what did each one guarantee?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit2-2')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit2-2')">Show Connection</button>
+<div class="q-answer" id="spiral-unit2-2">13th Amendment (1865): abolished slavery. 14th Amendment (1868): granted citizenship and equal protection to all persons born or naturalized in the U.S. 15th Amendment (1870): guaranteed the right to vote could not be denied on account of race, color, or previous condition of servitude.</div>
+<div class="q-connection" id="conn-unit2-2">📍 <strong>Cross-Unit Connection:</strong> These amendments become the legal foundation challenged throughout the Gilded Age and Progressive Era</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 3<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fff3c4;color:#7a5400;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 2</span></div>
+<div class="q-text">Andrew Johnson, the 17th President, was from Greeneville, Tennessee. Why did Congress override his vetoes during Reconstruction, and what does this reveal about the constitutional balance of power?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit2-3')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit2-3')">Show Connection</button>
+<div class="q-answer" id="spiral-unit2-3">Congress overrode Johnson's vetoes of the Reconstruction Acts because his lenient approach allowed former Confederates to regain power quickly. Johnson's Tennessee roots and Democratic loyalties made him resistant to Radical Republican goals. Congress's ability to override illustrates the constitutional check on executive power and the authority of a two-thirds majority.</div>
+<div class="q-connection" id="conn-unit2-3">📍 <strong>Cross-Unit Connection:</strong> Establishes pattern of executive-legislative tension relevant throughout the course</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 4<span style="display:inline-block;background:#fff3c4;color:#7a5400;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 2</span></div>
+<div class="q-text">What were Black Codes, and how did they attempt to recreate conditions of slavery despite the 13th Amendment?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit2-4')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit2-4')">Show Connection</button>
+<div class="q-answer" id="spiral-unit2-4">Black Codes were laws passed by Southern states that severely restricted the rights of African Americans: year-long labor contracts, prohibitions on owning land, restricted movement, and criminalized 'vagrancy.' The 13th Amendment's exception for punishment for crime was exploited through convict leasing, which effectively re-enslaved many Black men through the criminal justice system.</div>
+<div class="q-connection" id="conn-unit2-4">📍 <strong>Cross-Unit Connection:</strong> Connects to Unit 11 convict leasing content, including Coal Creek Wars in Tennessee</div>
+</div><div class="q-block" style="background:#fffdf5;border-color:#C9A227">
+<div class="q-num">🌉 Spiral Review Question 5<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">BRIDGE QUESTION: In what two specific ways did the failure of Reconstruction directly create conditions for the Gilded Age economy you are about to study?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit2-5')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit2-5')">Show Connection</button>
+<div class="q-answer" id="spiral-unit2-5">Sample: (1) Sharecropping kept millions of Southern workers in debt cycles, providing cheap agricultural products that fed Northern industrialization without benefiting Southern workers. (2) The abandonment of land redistribution meant formerly enslaved people entered the industrial economy without capital, creating a large pool of low-wage labor that industrialists exploited.</div>
+<div class="q-connection" id="conn-unit2-5">📍 <strong>Cross-Unit Connection:</strong> Direct bridge to Unit 2 — students carry this understanding forward</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#2A3F5E;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔔</span><span>Unit 2 — Bell Ringers (Prior Knowledge Activation)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Use one bell ringer per lesson to open class. Students write for 2–3 minutes before instruction begins. Purpose: activate prior knowledge (Hattie d=0.65), prime retrieval, and focus attention. Collect occasionally to check for understanding — not graded for accuracy.</p><div class="item-block"><div class="item-num">Bell Ringer 1</div>Name one business you know of today that started in the 1800s. What does this tell you about the era's economic energy?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 2</div>What is a monopoly? Is it always bad? Give an example and explain your thinking.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 3</div>Look at this political cartoon of a large octopus labeled 'Standard Oil' wrapping its tentacles around the U.S. Capitol, courts, and state governments. What argument is the cartoonist making?</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#3B6D11;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🎫</span><span>Unit 2 — Exit Tickets (Retrieval Practice)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Administer in the final 4–5 minutes of class. Students answer on an index card or slip — one question per class period. Purpose: retrieval practice (Hattie testing effect d=0.50+), formative evaluation (Hattie d=0.90), and metacognitive check. Sort into three piles: Got It / Almost / Not Yet. Use "Not Yet" pile to plan next lesson opener.</p><div class="item-block"><div class="item-num">Exit Ticket 1</div>In one sentence, explain the difference between a captain of industry and a robber baron. Which term better describes Andrew Carnegie? Why?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 2</div>What was Social Darwinism and how was it used to justify income inequality in the Gilded Age? Is this argument valid?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 3</div>The 1877 Railroad Strike was the first nationwide strike in U.S. history. What does its violent suppression by federal troops tell you about the government's relationship with labor?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span></div>
+</div>
+</div></div>
+<div class="unit-section" id="section-unit3">
+<div class="unit-header"><h2>Unit 3: Progressive Era & Imperialism</h2><div class="meta">1890–1920 &nbsp;·&nbsp; Learning Science Supplement</div></div>
+<div class="unit-body">
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#C9A227;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔄</span><span>Unit 3 — Spiral Review: Gilded Age + Reconstruction (Units 1–2)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px"><strong>Administer at the START of Unit 3</strong>, before any new instruction begins. These questions retrieve content from prior units. Question 5 is always a Bridge Question connecting prior learning to the new unit. Show answers and discuss after students respond individually. Time: 8–10 minutes.</p><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 1<span style="display:inline-block;background:#fff3c4;color:#7a5400;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 2</span></div>
+<div class="q-text">What was the significance of the Supreme Court's ruling in Plessy v. Ferguson (1896), and how did it formalize racial inequality in the post-Reconstruction era?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit3-1')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit3-1')">Show Connection</button>
+<div class="q-answer" id="spiral-unit3-1">Plessy v. Ferguson established the 'separate but equal' doctrine, ruling that racial segregation was constitutional as long as separate facilities were nominally equal. It gave constitutional legitimacy to Jim Crow segregation laws across the South and remained the law of the land until Brown v. Board (1954), representing the Supreme Court's abandonment of Reconstruction-era protections.</div>
+<div class="q-connection" id="conn-unit3-1">📍 <strong>Cross-Unit Connection:</strong> Establishes the legal segregation that Progressive-Era civil rights leaders fought against</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 2<span style="display:inline-block;background:#fff3c4;color:#7a5400;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 2</span></div>
+<div class="q-text">Name three specific problems of the Gilded Age that Progressive Era reformers set out to fix. For each problem, identify the reform that addressed it.</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit3-2')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit3-2')">Show Connection</button>
+<div class="q-answer" id="spiral-unit3-2">Sample answers: (1) Monopolistic corporations → Sherman Antitrust Act enforcement under TR; (2) Unsafe food and drugs → Pure Food and Drug Act (1906); (3) Political corruption → Direct election of senators (17th Amendment, 1913); (4) Child labor → Progressive-era state laws. Students should match specific reform to specific problem.</div>
+<div class="q-connection" id="conn-unit3-2">📍 <strong>Cross-Unit Connection:</strong> Connects Gilded Age problems to Progressive solutions — demonstrates cause and effect across units</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 3<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">How did railroad expansion — a defining feature of the Gilded Age — both enable American imperialism and create domestic economic tensions that fueled the Progressive movement?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit3-3')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit3-3')">Show Connection</button>
+<div class="q-answer" id="spiral-unit3-3">Railroads created the industrial capacity that made imperialism possible: they moved goods, military supplies, and troops. They also concentrated wealth in a few hands, generated labor exploitation producing strikes and reform demands, and gave rise to the ICC (1887) — the first federal regulatory agency, a precedent for Progressive Era regulation.</div>
+<div class="q-connection" id="conn-unit3-3">📍 <strong>Cross-Unit Connection:</strong> Cross-unit synthesis: Unit 2 railroads → Unit 3 regulation and imperialism</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 4<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">The Populist Party platform of 1892 demanded a graduated income tax, direct election of senators, and government ownership of railroads. Which of these demands were eventually adopted?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit3-4')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit3-4')">Show Connection</button>
+<div class="q-answer" id="spiral-unit3-4">All three were partially adopted: (1) Graduated income tax — 16th Amendment (1913); (2) Direct election of senators — 17th Amendment (1913); (3) Government railroad ownership was not adopted, but ICC and later regulation created significant federal control. Populist ideas, initially dismissed as radical, became mainstream Progressive policy within two decades.</div>
+<div class="q-connection" id="conn-unit3-4">📍 <strong>Cross-Unit Connection:</strong> Shows political ideas maturing across movements — critical historical thinking</div>
+</div><div class="q-block" style="background:#fffdf5;border-color:#C9A227">
+<div class="q-num">🌉 Spiral Review Question 5<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">BRIDGE QUESTION: Harry T. Burn of Niota, McMinn County, Tennessee cast the deciding vote ratifying the 19th Amendment in 1920. How does his vote represent the culmination of a reform tradition that began with the Reconstruction amendments studied in Unit 1?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit3-5')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit3-5')">Show Connection</button>
+<div class="q-answer" id="spiral-unit3-5">The 13th, 14th, and 15th Amendments established that constitutional amendments could expand voting rights. Suffragists argued the 14th Amendment's equal protection clause already guaranteed women the vote. Harry T. Burn's vote — influenced by his mother's letter — completed a 50-year arc from the Reconstruction amendments' expansion of Black male suffrage to women's universal suffrage.</div>
+<div class="q-connection" id="conn-unit3-5">📍 <strong>Cross-Unit Connection:</strong> Tennessee content bridge connecting Unit 1 amendments to Unit 3 suffrage</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#2A3F5E;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔔</span><span>Unit 3 — Bell Ringers (Prior Knowledge Activation)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Use one bell ringer per lesson to open class. Students write for 2–3 minutes before instruction begins. Purpose: activate prior knowledge (Hattie d=0.65), prime retrieval, and focus attention. Collect occasionally to check for understanding — not graded for accuracy.</p><div class="item-block"><div class="item-num">Bell Ringer 1</div>What does the word 'progressive' mean to you? What kinds of changes would a progressive person in 1900 have wanted to make?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 2</div>Ida B. Wells was a journalist from Memphis, Tennessee who investigated lynching at great personal risk. Why do you think journalism can be a form of activism?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 3</div>The United States acquired Puerto Rico, Guam, and the Philippines in 1898. Should countries be able to own territories whose people have no say in their government?</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#3B6D11;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🎫</span><span>Unit 3 — Exit Tickets (Retrieval Practice)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Administer in the final 4–5 minutes of class. Students answer on an index card or slip — one question per class period. Purpose: retrieval practice (Hattie testing effect d=0.50+), formative evaluation (Hattie d=0.90), and metacognitive check. Sort into three piles: Got It / Almost / Not Yet. Use "Not Yet" pile to plan next lesson opener.</p><div class="item-block"><div class="item-num">Exit Ticket 1</div>What is a muckraker? Name one and explain what they exposed. Why was their work important to democracy?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 2</div>In what specific ways did Tennessee contribute to the Progressive Era? Name at least two Tennessee people, places, or events.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 3</div>How did the Spanish-American War change America's role in the world? Use the word 'imperialism' in your answer.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span></div>
+</div>
+</div></div>
+<div class="unit-section" id="section-unit4">
+<div class="unit-header"><h2>Unit 4: WWI & the Roaring Twenties</h2><div class="meta">1914–1929 &nbsp;·&nbsp; Learning Science Supplement</div></div>
+<div class="unit-body">
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#C9A227;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔄</span><span>Unit 4 — Spiral Review: Progressive Era, Gilded Age + Reconstruction (Units 1–3)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px"><strong>Administer at the START of Unit 4</strong>, before any new instruction begins. These questions retrieve content from prior units. Question 5 is always a Bridge Question connecting prior learning to the new unit. Show answers and discuss after students respond individually. Time: 8–10 minutes.</p><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 1<span style="display:inline-block;background:#fff3c4;color:#7a5400;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 2</span></div>
+<div class="q-text">What were three specific failures of Reconstruction that left African Americans without legal protection by 1900?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit4-1')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit4-1')">Show Connection</button>
+<div class="q-answer" id="spiral-unit4-1">Sample: (1) Compromise of 1877 withdrew federal troops, ending enforcement of Reconstruction laws; (2) Plessy v. Ferguson (1896) legalized 'separate but equal'; (3) Poll taxes, literacy tests, and grandfather clauses disenfranchised Black voters. Students may also cite failure to redistribute land, leaving Black families without economic independence.</div>
+<div class="q-connection" id="conn-unit4-1">📍 <strong>Cross-Unit Connection:</strong> Establishes racial injustice context for WWI-era Great Migration</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 2<span style="display:inline-block;background:#fff3c4;color:#7a5400;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 2</span></div>
+<div class="q-text">How did Progressive Era reforms expand the role of the federal government? Name two specific laws or amendments.</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit4-2')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit4-2')">Show Connection</button>
+<div class="q-answer" id="spiral-unit4-2">Answers may include: 16th Amendment (federal income tax), 17th Amendment (direct election of senators), 18th Amendment (Prohibition), 19th Amendment (women's suffrage), Sherman Antitrust Act enforcement, Pure Food and Drug Act (1906), Federal Reserve Act (1913), Clayton Antitrust Act (1914). The Progressive Era established the precedent of federal intervention in the economy and society.</div>
+<div class="q-connection" id="conn-unit4-2">📍 <strong>Cross-Unit Connection:</strong> Government expansion established the framework Wilson used to mobilize for WWI</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 3<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">The Scopes Trial took place in Dayton, Rhea County, Tennessee in 1925. What larger tension in American society did it represent, and how does that tension connect to the cultural conflicts of the Roaring Twenties?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit4-3')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit4-3')">Show Connection</button>
+<div class="q-answer" id="spiral-unit4-3">The Scopes Trial represented the clash between modernism (scientific thinking, urban values, secularism) and fundamentalism (religious tradition, rural values, biblical literalism) — the defining cultural conflict of the 1920s: prohibition vs. jazz culture, immigration restriction vs. cosmopolitan cities, KKK revival vs. Harlem Renaissance. Tennessee was the battleground for a national identity crisis.</div>
+<div class="q-connection" id="conn-unit4-3">📍 <strong>Cross-Unit Connection:</strong> Tennessee required content connects to the cultural contradictions of the 1920s</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 4<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">How did American imperialism in the Progressive Era — specifically in the Caribbean and Pacific — create entanglements that contributed to U.S. entry into WWI?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit4-4')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit4-4')">Show Connection</button>
+<div class="q-answer" id="spiral-unit4-4">American imperialism expanded U.S. interests requiring naval protection, driving naval buildup. It also created rivalries with European powers competing for influence. The Monroe Doctrine and its Roosevelt Corollary defined a 'sphere of influence' that Germany's unrestricted submarine warfare directly threatened. American financial interests in European loans made the Allies' defeat economically catastrophic.</div>
+<div class="q-connection" id="conn-unit4-4">📍 <strong>Cross-Unit Connection:</strong> Causal bridge from Unit 3 imperialism to Unit 4 WWI</div>
+</div><div class="q-block" style="background:#fffdf5;border-color:#C9A227">
+<div class="q-num">🌉 Spiral Review Question 5<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">BRIDGE QUESTION: W.C. Handy, the 'Father of the Blues,' made Beale Street in Memphis, Tennessee a center of African American musical culture. How did the Great Migration — itself caused by conditions stretching back to Reconstruction's failure — carry this tradition northward to create the Jazz Age of the 1920s?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit4-5')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit4-5')">Show Connection</button>
+<div class="q-answer" id="spiral-unit4-5">The Great Migration moved approximately 6 million African Americans from the rural South to Northern cities, escaping Jim Crow laws — the direct legacy of Reconstruction's failure. Memphis was both an origin point and a cultural hub. Beale Street's Blues tradition traveled north with migrants to Chicago (Chicago Blues), New York (Harlem Renaissance jazz), and other cities. The Jazz Age was therefore a direct cultural product of Reconstruction's failure, mediated through Tennessee's musical heritage.</div>
+<div class="q-connection" id="conn-unit4-5">📍 <strong>Cross-Unit Connection:</strong> Tennessee content: connects Units 1, 2, 3, and 4 through music and migration</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#2A3F5E;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔔</span><span>Unit 4 — Bell Ringers (Prior Knowledge Activation)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Use one bell ringer per lesson to open class. Students write for 2–3 minutes before instruction begins. Purpose: activate prior knowledge (Hattie d=0.65), prime retrieval, and focus attention. Collect occasionally to check for understanding — not graded for accuracy.</p><div class="item-block"><div class="item-num">Bell Ringer 1</div>What do the words 'nationalism,' 'imperialism,' 'militarism,' and 'alliance' have in common? How might all four lead to a single massive war?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 2</div>In 1917, Germany offered Mexico an alliance against the United States and promised to help recover Texas, New Mexico, and Arizona. How would Americans have reacted to learning about this?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 3</div>The Harlem Renaissance was an explosion of African American art, music, and literature in New York City in the 1920s. Why do you think this happened in New York rather than in the South?</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#3B6D11;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🎫</span><span>Unit 4 — Exit Tickets (Retrieval Practice)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Administer in the final 4–5 minutes of class. Students answer on an index card or slip — one question per class period. Purpose: retrieval practice (Hattie testing effect d=0.50+), formative evaluation (Hattie d=0.90), and metacognitive check. Sort into three piles: Got It / Almost / Not Yet. Use "Not Yet" pile to plan next lesson opener.</p><div class="item-block"><div class="item-num">Exit Ticket 1</div>What was the significance of the Zimmermann Telegram in bringing the United States into WWI? Be specific.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 2</div>Explain one way the war at home was different from the war in the trenches. Who was affected and how?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 3</div>How did the prosperity of the 1920s contain the seeds of the Great Depression? Name one specific economic warning sign.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span></div>
+</div>
+</div></div>
+<div class="unit-section" id="section-unit5">
+<div class="unit-header"><h2>Unit 5: Great Depression & New Deal</h2><div class="meta">1929–1941 &nbsp;·&nbsp; Learning Science Supplement</div></div>
+<div class="unit-body">
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#C9A227;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔄</span><span>Unit 5 — Spiral Review: WWI, Progressive Era + Earlier Units</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px"><strong>Administer at the START of Unit 5</strong>, before any new instruction begins. These questions retrieve content from prior units. Question 5 is always a Bridge Question connecting prior learning to the new unit. Show answers and discuss after students respond individually. Time: 8–10 minutes.</p><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 1<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">What were the four main causes of the Great Depression? For each cause, identify one earlier historical decision that made it more likely.</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit5-1')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit5-1')">Show Connection</button>
+<div class="q-answer" id="spiral-unit5-1">Main causes: (1) Stock market speculation — enabled by laissez-faire Gilded Age banking attitudes; (2) Overproduction — rooted in WWI wartime production that continued after demand collapsed; (3) Bank failures — 'wildcat banking' practices allowed since the Gilded Age; (4) International debt and tariff wars — products of the punitive WWI peace settlement and protectionist policies. Students should connect each cause to prior units.</div>
+<div class="q-connection" id="conn-unit5-1">📍 <strong>Cross-Unit Connection:</strong> Synthesizes economic history across Units 2–4 to explain Unit 5's Depression</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 2<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fff3c4;color:#7a5400;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 2</span></div>
+<div class="q-text">The TVA was created on May 18, 1933. What made Tennessee specifically the focus of a federal economic development program, and what had Wilson Dam at Muscle Shoals already demonstrated?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit5-2')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit5-2')">Show Connection</button>
+<div class="q-answer" id="spiral-unit5-2">Tennessee's valley region was among the most economically devastated in America — rural poverty severe, only ~3% of farms had electricity. Wilson Dam (built during WWI to make nitrogen for explosives) demonstrated that federal hydroelectric power generation was technically feasible and could serve both military and civilian purposes. The TVA built on this foundation to create the largest government economic development project in American history.</div>
+<div class="q-connection" id="conn-unit5-2">📍 <strong>Cross-Unit Connection:</strong> Tennessee required content — TVA; connects WWI industrial legacy to New Deal</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 3<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">How did the Progressive Era's expanded role of the federal government make the New Deal politically possible?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit5-3')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit5-3')">Show Connection</button>
+<div class="q-answer" id="spiral-unit5-3">Key precedents: (1) 16th Amendment (income tax) gave revenue for large programs; (2) Federal regulatory agencies (ICC, FTC, FRB) established government could intervene in markets; (3) WWI mobilization proved government could coordinate the entire economy; (4) The precedent of government intervention in utilities made TVA-style ownership less radical. Without Progressive Era expansion of authority, FDR's New Deal would have been constitutionally unprecedented.</div>
+<div class="q-connection" id="conn-unit5-3">📍 <strong>Cross-Unit Connection:</strong> Traces the arc of government expansion from Unit 3 through Unit 5</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 4<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">The Dust Bowl devastated the Great Plains while the Depression devastated the economy. What did both crises have in common as causes?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit5-4')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit5-4')">Show Connection</button>
+<div class="q-answer" id="spiral-unit5-4">Both resulted from unchecked exploitation: the Dust Bowl from decades of over-plowing that destroyed native grasslands (laissez-faire land use); the Depression from unregulated financial speculation (laissez-faire banking). Both required massive federal intervention — the Soil Conservation Service and the FDIC, SEC, and banking reforms. Both marked a fundamental shift in American acceptance of federal regulation as necessary and legitimate.</div>
+<div class="q-connection" id="conn-unit5-4">📍 <strong>Cross-Unit Connection:</strong> Cross-unit theme: the limits of laissez-faire capitalism</div>
+</div><div class="q-block" style="background:#fffdf5;border-color:#C9A227">
+<div class="q-num">🌉 Spiral Review Question 5<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">BRIDGE QUESTION: African Americans were disproportionately excluded from New Deal programs. Given Reconstruction's failure, Gilded Age racial violence, and Progressive Era limitations, why is this pattern not surprising — and why does it matter for understanding WWII-era civil rights demands?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit5-5')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit5-5')">Show Connection</button>
+<div class="q-answer" id="spiral-unit5-5">Southern Democratic congressmen whose votes FDR needed refused to support programs disrupting the racial caste system. This same dynamic had ended Reconstruction, allowed Plessy v. Ferguson, and limited Progressive reform. The exclusion from New Deal benefits — combined with service in a segregated WWII military — intensified African American demands for civil rights, directly setting up Unit 7's movement.</div>
+<div class="q-connection" id="conn-unit5-5">📍 <strong>Cross-Unit Connection:</strong> Critical race-and-policy thread connecting Units 1, 3, 5, and 7</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#2A3F5E;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔔</span><span>Unit 5 — Bell Ringers (Prior Knowledge Activation)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Use one bell ringer per lesson to open class. Students write for 2–3 minutes before instruction begins. Purpose: activate prior knowledge (Hattie d=0.65), prime retrieval, and focus attention. Collect occasionally to check for understanding — not graded for accuracy.</p><div class="item-block"><div class="item-num">Bell Ringer 1</div>If the stock market crashed tomorrow and 25% of Americans lost their jobs, what do you think the government should do? What does your answer reveal about your view of government's role?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 2</div>Look at a photograph of an Okies camp in California's Central Valley. What would it feel like to leave your home state with everything you own in a car?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 3</div>The TVA brought electricity to rural Tennessee. Your great-grandparents may have been among the first Tennessee families to have electric lights. What difference would electricity make to daily farm life?</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#3B6D11;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🎫</span><span>Unit 5 — Exit Tickets (Retrieval Practice)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Administer in the final 4–5 minutes of class. Students answer on an index card or slip — one question per class period. Purpose: retrieval practice (Hattie testing effect d=0.50+), formative evaluation (Hattie d=0.90), and metacognitive check. Sort into three piles: Got It / Almost / Not Yet. Use "Not Yet" pile to plan next lesson opener.</p><div class="item-block"><div class="item-num">Exit Ticket 1</div>What is the difference between a recession and a depression? Use specific economic indicators in your answer.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 2</div>FDR's New Deal was criticized by both conservatives (too much government) and progressives (not enough). Explain both critiques with specific examples.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 3</div>How did the TVA specifically benefit Tennessee? Name three concrete ways rural Tennesseans' lives changed because of TVA.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span></div>
+</div>
+</div></div>
+<div class="unit-section" id="section-unit6">
+<div class="unit-header"><h2>Unit 6: World War II</h2><div class="meta">1939–1945 &nbsp;·&nbsp; Learning Science Supplement</div></div>
+<div class="unit-body">
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#C9A227;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔄</span><span>Unit 6 — Spiral Review: New Deal, Depression + Earlier Units</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px"><strong>Administer at the START of Unit 6</strong>, before any new instruction begins. These questions retrieve content from prior units. Question 5 is always a Bridge Question connecting prior learning to the new unit. Show answers and discuss after students respond individually. Time: 8–10 minutes.</p><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 1<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fff3c4;color:#7a5400;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 2</span></div>
+<div class="q-text">Why was Oak Ridge, Tennessee chosen as the primary uranium enrichment site for the Manhattan Project, and what was the essential role of TVA electricity?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit6-1')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit6-1')">Show Connection</button>
+<div class="q-answer" id="spiral-unit6-1">Oak Ridge was chosen for: remote location (secrecy), Tennessee River valley (abundant cooling water), Appalachian ridges (natural containment), and crucially the TVA — FDR's New Deal investment — provided massive amounts of cheap electricity that uranium enrichment processes required. Without the TVA, the Manhattan Project's Oak Ridge facilities could not have been powered.</div>
+<div class="q-connection" id="conn-unit6-1">📍 <strong>Cross-Unit Connection:</strong> Required Tennessee content; directly connects Unit 5 TVA to Unit 6 Manhattan Project</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 2<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">How did WWI's outcome — specifically the Treaty of Versailles — directly create the conditions that made WWII possible?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit6-2')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit6-2')">Show Connection</button>
+<div class="q-answer" id="spiral-unit6-2">The Treaty imposed punishing terms on Germany: 'war guilt' clause, massive reparations, territorial losses, military restrictions. This created economic desperation and national humiliation that Hitler exploited. The reparations contributed to German hyperinflation (1923) and instability. WWII is in this sense a direct sequel to WWI — a 'Thirty Years' War' with a twenty-year armistice.</div>
+<div class="q-connection" id="conn-unit6-2">📍 <strong>Cross-Unit Connection:</strong> Cross-unit causation: Unit 4 → Unit 6</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 3<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">The New Deal's industrial programs and infrastructure investments transformed the American economy. How did this transformation provide the industrial foundation for WWII victory?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit6-3')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit6-3')">Show Connection</button>
+<div class="q-answer" id="spiral-unit6-3">The New Deal built infrastructure (dams, roads) supporting wartime production. TVA and electrification programs created an industrial grid capable of supporting massive wartime output. Government experience managing large-scale economic programs gave agencies administrative capacity to coordinate wartime production. Henry Kaiser's shipbuilding and Ford's Willow Run bomber plant represent the peak of this industrial transformation.</div>
+<div class="q-connection" id="conn-unit6-3">📍 <strong>Cross-Unit Connection:</strong> New Deal → WWII industrial capacity</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 4<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">Executive Order 9066 (1942) authorized internment of 120,000 Japanese Americans. How does this compare to earlier examples of the federal government suspending civil liberties in wartime?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit6-4')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit6-4')">Show Connection</button>
+<div class="q-answer" id="spiral-unit6-4">Comparable precedents: Lincoln's suspension of habeas corpus during the Civil War; the Espionage and Sedition Acts during WWI (Unit 4) criminalizing anti-war speech; the Palmer Raids (1919–20) targeting immigrants and radicals. Each case shows that wartime tends to produce civil liberties restrictions justified by security. Korematsu v. United States (1944) upheld internment — just as Plessy (1896) upheld segregation. Both were later repudiated.</div>
+<div class="q-connection" id="conn-unit6-4">📍 <strong>Cross-Unit Connection:</strong> Civil liberties thread across Units 1, 4, 5, and 6</div>
+</div><div class="q-block" style="background:#fffdf5;border-color:#C9A227">
+<div class="q-num">🌉 Spiral Review Question 5<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">BRIDGE QUESTION: Nearly one million African Americans served in the segregated U.S. military during WWII. Many returned to the same Jim Crow conditions they had left. Construct the argument these veterans would have made for civil rights reform.</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit6-5')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit6-5')">Show Connection</button>
+<div class="q-answer" id="spiral-unit6-5">The veterans' 'Double V' argument: They had fought fascism and racism abroad while experiencing racism at home. They had proven courage, competence, and patriotism. The 14th Amendment (Unit 1) guaranteed their equal citizenship. The U.S. had condemned Nazi racial ideology while practicing its own racial hierarchy. Having earned the right through service, and now possessing organizational capacity (NAACP, CORE, veterans groups), they demanded full American citizenship. This argument drives directly into Unit 7's Civil Rights Movement.</div>
+<div class="q-connection" id="conn-unit6-5">📍 <strong>Cross-Unit Connection:</strong> Critical bridge to Unit 7: WWII service → postwar civil rights demands</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#2A3F5E;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔔</span><span>Unit 6 — Bell Ringers (Prior Knowledge Activation)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Use one bell ringer per lesson to open class. Students write for 2–3 minutes before instruction begins. Purpose: activate prior knowledge (Hattie d=0.65), prime retrieval, and focus attention. Collect occasionally to check for understanding — not graded for accuracy.</p><div class="item-block"><div class="item-num">Bell Ringer 1</div>What do you know about D-Day? If you know nothing, what do you think a large-scale beach invasion under fire would require from the soldiers involved?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 2</div>75,000 workers at Oak Ridge, Tennessee worked on a secret project during WWII and didn't know what they were building. Would you be able to do your job under those conditions?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 3</div>The Holocaust killed approximately 6 million Jewish people and 5–6 million others. At what point do you think the United States had a moral obligation to intervene in Europe?</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#3B6D11;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🎫</span><span>Unit 6 — Exit Tickets (Retrieval Practice)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Administer in the final 4–5 minutes of class. Students answer on an index card or slip — one question per class period. Purpose: retrieval practice (Hattie testing effect d=0.50+), formative evaluation (Hattie d=0.90), and metacognitive check. Sort into three piles: Got It / Almost / Not Yet. Use "Not Yet" pile to plan next lesson opener.</p><div class="item-block"><div class="item-num">Exit Ticket 1</div>What was the significance of the Battle of Midway (June 1942) as the turning point of the Pacific War? Be specific about what changed.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 2</div>Explain the decision to use atomic bombs on Hiroshima and Nagasaki. Present both the argument for and the argument against.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 3</div>Oak Ridge, Tennessee processed the uranium for the Hiroshima bomb. Does Tennessee bear any moral responsibility for the atomic bombing? How would you answer this question?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span></div>
+</div>
+</div></div>
+<div class="unit-section" id="section-unit7">
+<div class="unit-header"><h2>Unit 7: Cold War & Civil Rights</h2><div class="meta">1945–1968 &nbsp;·&nbsp; Learning Science Supplement</div></div>
+<div class="unit-body">
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#C9A227;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔄</span><span>Unit 7 — Spiral Review: WWII, New Deal + Earlier Units</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px"><strong>Administer at the START of Unit 7</strong>, before any new instruction begins. These questions retrieve content from prior units. Question 5 is always a Bridge Question connecting prior learning to the new unit. Show answers and discuss after students respond individually. Time: 8–10 minutes.</p><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 1<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">The Nashville Student Movement (1960) was led by students trained by James Lawson in nonviolent direct action. How did this movement build on tactics and ideas developed in earlier periods of American history?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit7-1')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit7-1')">Show Connection</button>
+<div class="q-answer" id="spiral-unit7-1">Connections: (1) Gandhian nonviolent tactics had philosophical roots in Thoreau's civil disobedience (Unit 3); (2) The sit-in had precedents in labor's sit-down strikes of the 1930s (Unit 5); (3) The legal strategy connected to NAACP litigation; (4) HBCU students drew on an educational tradition from Reconstruction-era Freedmen's Bureau schools (Unit 1). The Nashville movement stood on 90 years of prior struggle.</div>
+<div class="q-connection" id="conn-unit7-1">📍 <strong>Cross-Unit Connection:</strong> Required Tennessee content — Nashville sit-ins; deep historical roots</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 2<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">How did the Cold War's ideological competition with the Soviet Union create unexpected pressure on the United States to address its own racial segregation?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit7-2')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit7-2')">Show Connection</button>
+<div class="q-answer" id="spiral-unit7-2">The Cold War was an argument about which system better served human freedom. American racial segregation was a profound embarrassment: Soviets used lynching photographs and Jim Crow laws in propaganda directed at African and Asian nations. The State Department acknowledged segregation was the 'Achilles heel' of American foreign policy. Eisenhower's Little Rock intervention was partly driven by Cold War propaganda concerns. The civil rights movement gained leverage from America's need to demonstrate democratic credentials.</div>
+<div class="q-connection" id="conn-unit7-2">📍 <strong>Cross-Unit Connection:</strong> Connects Cold War foreign policy to domestic civil rights — Unit 7's central tension</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 3<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">Dr. King was assassinated at the Lorraine Motel in Memphis, Tennessee on April 4, 1968. He was there to support striking sanitation workers whose signs read 'I AM A MAN.' How does this final campaign connect the Civil Rights Movement to the labor movement history from earlier units?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit7-3')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit7-3')">Show Connection</button>
+<div class="q-answer" id="spiral-unit7-3">King's Memphis campaign bridges civil rights and labor rights — two movements artificially separated by race. Memphis sanitation workers (mostly Black) were fighting for basic labor rights: safe conditions, fair wages, union recognition — the same issues white workers fought for in the Homestead Strike (1892, Unit 2) and Progressive Era labor movement (Units 3/11). King's assassination represents the convergence of racial justice and economic justice — the final direction his movement was taking.</div>
+<div class="q-connection" id="conn-unit7-3">📍 <strong>Cross-Unit Connection:</strong> Required Tennessee content — Memphis; connects Units 2, 3, and 7</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 4<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">The Highlander Folk School in Grundy County, Tennessee trained Rosa Parks, Martin Luther King Jr., and hundreds of civil rights leaders. It also trained labor organizers during the 1930s–40s. What does Highlander's dual mission reveal?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit7-4')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit7-4')">Show Connection</button>
+<div class="q-answer" id="spiral-unit7-4">Highlander's dual mission reveals that labor rights and civil rights are fundamentally related — both are struggles against exploitation by the powerful. Highlander recognized this in the 1930s when it was illegal in much of the South for Black and white workers to meet together. The song 'We Shall Overcome' was brought to Highlander from the labor movement. Tennessee is the physical site where these two justice traditions merged.</div>
+<div class="q-connection" id="conn-unit7-4">📍 <strong>Cross-Unit Connection:</strong> Required Tennessee content — Highlander; labor/civil rights bridge</div>
+</div><div class="q-block" style="background:#fffdf5;border-color:#C9A227">
+<div class="q-num">🌉 Spiral Review Question 5<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">BRIDGE QUESTION: Cold War containment policy committed the U.S. to opposing communist expansion anywhere in the world. How does this commitment logically lead to U.S. involvement in Vietnam?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit7-5')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit7-5')">Show Connection</button>
+<div class="q-answer" id="spiral-unit7-5">Domino theory held that if one country fell to communism, neighbors would follow. Vietnam's partition at the 17th parallel (1954 Geneva Accords) after the French defeat at Dien Bien Phu created a communist North and non-communist South. Containment demanded supporting South Vietnam to prevent the 'domino' from falling. Truman's containment (Korea) → Eisenhower's advisors → Kennedy's expansion → Johnson's Gulf of Tonkin Resolution. The path from 1947 containment to 1965 troop deployment is a straight line.</div>
+<div class="q-connection" id="conn-unit7-5">📍 <strong>Cross-Unit Connection:</strong> Containment policy bridge to Unit 8 Vietnam</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#2A3F5E;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔔</span><span>Unit 7 — Bell Ringers (Prior Knowledge Activation)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Use one bell ringer per lesson to open class. Students write for 2–3 minutes before instruction begins. Purpose: activate prior knowledge (Hattie d=0.65), prime retrieval, and focus attention. Collect occasionally to check for understanding — not graded for accuracy.</p><div class="item-block"><div class="item-num">Bell Ringer 1</div>What does the word 'containment' mean in everyday language? How might it apply to foreign policy?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 2</div>Imagine you are a Black veteran who fought in WWII. You return home to Tennessee and are still required to use separate water fountains. Write one sentence capturing what you would feel.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 3</div>What is the difference between a boycott and a sit-in as forms of protest? Which do you think would be more effective, and why?</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#3B6D11;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🎫</span><span>Unit 7 — Exit Tickets (Retrieval Practice)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Administer in the final 4–5 minutes of class. Students answer on an index card or slip — one question per class period. Purpose: retrieval practice (Hattie testing effect d=0.50+), formative evaluation (Hattie d=0.90), and metacognitive check. Sort into three piles: Got It / Almost / Not Yet. Use "Not Yet" pile to plan next lesson opener.</p><div class="item-block"><div class="item-num">Exit Ticket 1</div>Explain the policy of containment in one sentence. Then explain how it was applied in Korea and how it would later apply in Vietnam.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 2</div>What made the Nashville sit-ins of 1960 different from — and more organized than — other civil rights protests at the time?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 3</div>How did the Civil Rights Act of 1964 and the Voting Rights Act of 1965 finally fulfill promises made in the Reconstruction amendments nearly 100 years earlier?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span></div>
+</div>
+</div></div>
+<div class="unit-section" id="section-unit8">
+<div class="unit-header"><h2>Unit 8: Vietnam, Watergate & Crisis</h2><div class="meta">1965–1980 &nbsp;·&nbsp; Learning Science Supplement</div></div>
+<div class="unit-body">
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#C9A227;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔄</span><span>Unit 8 — Spiral Review: Cold War, Civil Rights + Earlier Units</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px"><strong>Administer at the START of Unit 8</strong>, before any new instruction begins. These questions retrieve content from prior units. Question 5 is always a Bridge Question connecting prior learning to the new unit. Show answers and discuss after students respond individually. Time: 8–10 minutes.</p><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 1<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">Tennessee Senator Howard Baker served on the Senate Watergate Committee and famously asked: 'What did the president know, and when did he know it?' How does this reflect constitutional principles of congressional oversight?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit8-1')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit8-1')">Show Connection</button>
+<div class="q-answer" id="spiral-unit8-1">Baker's question invoked separation of powers and legislative oversight of the executive. The Founders built in congressional investigative power to prevent the executive from operating without accountability. Baker's question connected to earlier constitutional crises: impeachment of Andrew Johnson (Unit 1, also a Tennessean), FDR's court-packing attempt (Unit 5), and Truman's seizure of steel mills (Unit 7). Constitutional checks on executive power are a thread running through the entire course.</div>
+<div class="q-connection" id="conn-unit8-1">📍 <strong>Cross-Unit Connection:</strong> Required Tennessee content — Howard Baker; constitutional thread across units</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 2<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">The anti-Vietnam War movement used many of the same tactics as the Civil Rights Movement. What does the borrowing of these tactics reveal about the Civil Rights Movement's broader impact on American political culture?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit8-2')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit8-2')">Show Connection</button>
+<div class="q-answer" id="spiral-unit8-2">The Civil Rights Movement demonstrated that nonviolent direct action could successfully change public opinion and eventually law. It created a template: organize, demonstrate, appeal to American democratic ideals, sustain pressure. The anti-war movement, women's liberation movement, environmental movement, and farmworkers' movement all adopted elements of the Civil Rights playbook. The Nashville sit-ins and SCLC/SNCC organizing didn't just win civil rights — they taught a generation how to organize for change.</div>
+<div class="q-connection" id="conn-unit8-2">📍 <strong>Cross-Unit Connection:</strong> Civil Rights Movement's methodology legacy</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 3<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">Fort Campbell, on the Tennessee-Kentucky border, deployed troops throughout Vietnam. How does Tennessee's Vietnam experience connect to the state's long military tradition from earlier units?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit8-3')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit8-3')">Show Connection</button>
+<div class="q-answer" id="spiral-unit8-3">Tennessee has been called the 'Volunteer State' since the War of 1812. Fort Campbell's 101st Airborne Division ('Screaming Eagles') conducted major operations throughout Vietnam including Hamburger Hill (1969). Tennessee's disproportionate military service reflects a Southern and working-class military tradition rooted in economic conditions that made military service a pathway to economic mobility — the same conditions that drove the Great Migration, produced Gilded Age labor conflicts, and shaped Tennessee's demographics from Reconstruction forward.</div>
+<div class="q-connection" id="conn-unit8-3">📍 <strong>Cross-Unit Connection:</strong> Required Tennessee content — Vietnam casualties and Fort Campbell</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 4<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">The 1973 oil embargo caused the first major U.S. energy crisis. How did American dependence on foreign oil connect to the post-WWII economic boom and consumer culture of the 1950s–60s?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit8-4')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit8-4')">Show Connection</button>
+<div class="q-answer" id="spiral-unit8-4">Post-WWII prosperity built an automobile-dependent, suburban economy requiring massive oil consumption. The Interstate Highway System (1956), cheap gasoline, suburban sprawl, and large American cars all assumed cheap oil. This consumption pattern was the product of Gilded Age and Progressive Era industrial development. The 1973 crisis exposed the vulnerability at the heart of the postwar prosperity model — a vulnerability that TVA hydroelectric power (Unit 5) and nuclear power (connecting to Oak Ridge, Unit 6) would be invoked to address.</div>
+<div class="q-connection" id="conn-unit8-4">📍 <strong>Cross-Unit Connection:</strong> Energy policy thread from TVA through oil crisis</div>
+</div><div class="q-block" style="background:#fffdf5;border-color:#C9A227">
+<div class="q-num">🌉 Spiral Review Question 5<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">BRIDGE QUESTION: The 1970s saw simultaneous crises: Vietnam defeat, Watergate, inflation, and the energy crisis. How did these converging crises create conditions for the conservative political revolution of the 1980s?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit8-5')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit8-5')">Show Connection</button>
+<div class="q-answer" id="spiral-unit8-5">The crises produced specific political disillusionment: loss of faith in government competence (Vietnam, Watergate), frustration with economic deterioration (stagflation, energy prices), and cultural anxiety about social change. Reagan's 1980 campaign channeled all these anxieties: 'Government is not the solution; government is the problem.' He offered nostalgic restoration of American confidence at precisely the moment Americans had the most reason to doubt their institutions. The 1970s crises did not merely cause electoral change — they caused ideological realignment.</div>
+<div class="q-connection" id="conn-unit8-5">📍 <strong>Cross-Unit Connection:</strong> Crisis decade bridge to Unit 9 conservative revolution</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#2A3F5E;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔔</span><span>Unit 8 — Bell Ringers (Prior Knowledge Activation)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Use one bell ringer per lesson to open class. Students write for 2–3 minutes before instruction begins. Purpose: activate prior knowledge (Hattie d=0.65), prime retrieval, and focus attention. Collect occasionally to check for understanding — not graded for accuracy.</p><div class="item-block"><div class="item-num">Bell Ringer 1</div>What do you know about the Vietnam War? Write everything down — including things you're not sure about. We'll correct misconceptions as we go.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 2</div>A president uses a secret tape recording system in the Oval Office. When Congress subpoenas the tapes, he refuses. Who should win this constitutional standoff, and why?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 3</div>What is inflation? How would it feel to work hard for a raise and then find out that prices went up faster than your salary?</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#3B6D11;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🎫</span><span>Unit 8 — Exit Tickets (Retrieval Practice)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Administer in the final 4–5 minutes of class. Students answer on an index card or slip — one question per class period. Purpose: retrieval practice (Hattie testing effect d=0.50+), formative evaluation (Hattie d=0.90), and metacognitive check. Sort into three piles: Got It / Almost / Not Yet. Use "Not Yet" pile to plan next lesson opener.</p><div class="item-block"><div class="item-num">Exit Ticket 1</div>What was the Gulf of Tonkin Resolution, and why was it constitutionally significant? How did it differ from a formal declaration of war?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 2</div>Explain the significance of Howard Baker's Watergate question in 10 words or fewer. Then explain why those words mattered in 3 sentences.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 3</div>The War Powers Act (1973) limited the president's ability to commit troops without congressional approval. What earlier event made this law necessary?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span></div>
+</div>
+</div></div>
+<div class="unit-section" id="section-unit9">
+<div class="unit-header"><h2>Unit 9: Conservative Revolution</h2><div class="meta">1980–2001 &nbsp;·&nbsp; Learning Science Supplement</div></div>
+<div class="unit-body">
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#C9A227;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔄</span><span>Unit 9 — Spiral Review: Vietnam Era, Cold War + Earlier Units</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px"><strong>Administer at the START of Unit 9</strong>, before any new instruction begins. These questions retrieve content from prior units. Question 5 is always a Bridge Question connecting prior learning to the new unit. Show answers and discuss after students respond individually. Time: 8–10 minutes.</p><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 1<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">Reagan's economic policy ('Reaganomics') cut taxes, reduced regulation, and reduced some social programs. How does this approach differ from New Deal philosophy, and what historical arguments support each?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit9-1')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit9-1')">Show Connection</button>
+<div class="q-answer" id="spiral-unit9-1">New Deal philosophy (Unit 5): government must actively intervene to correct market failures, provide safety nets, and stimulate the economy through spending — Keynesian economics. Reaganomics: markets self-correct when government steps back; high taxes and regulation reduce growth; supply-side tax cuts stimulate investment. Reagan's philosophy was the mirror image of FDR's. Both responded to specific economic conditions: FDR's New Deal addressed the Depression; Reagan's policies addressed stagflation. Students should recognize both as responses to specific crises.</div>
+<div class="q-connection" id="conn-unit9-1">📍 <strong>Cross-Unit Connection:</strong> Economic philosophy thread: Unit 5 New Deal vs. Unit 9 Reaganomics</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 2<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">Howard Baker — who represented Tennessee in the Senate through Watergate — became Reagan's Chief of Staff in 1987. What does Baker's career trajectory reveal about the moderate Republican tradition?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit9-2')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit9-2')">Show Connection</button>
+<div class="q-answer" id="spiral-unit9-2">Baker represented a Republican politics prioritizing institutional integrity over partisan loyalty — his Watergate question was asked of a Republican president. As Reagan's Chief of Staff during Iran-Contra, he again served as a stabilizing force. His Tennessee background placed him in the moderate conservative tradition: fiscally conservative, supportive of TVA, committed to constitutional governance. His career bridges civic republicanism of earlier American political culture with the ideological conservatism of the Reagan era.</div>
+<div class="q-connection" id="conn-unit9-2">📍 <strong>Cross-Unit Connection:</strong> Required Tennessee content — Howard Baker; constitutional continuity</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 3<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">NAFTA (1994) divided Tennessee politically: automotive workers in Middle Tennessee supported it; textile workers in East Tennessee opposed it. How does this division reflect economic fault lines running throughout Tennessee's history?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit9-3')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit9-3')">Show Connection</button>
+<div class="q-answer" id="spiral-unit9-3">Tennessee's NAFTA divide reflects its long-standing geographic and economic split: Middle Tennessee's diversified economy (automotive, healthcare, finance, music) benefited from globalization; East Tennessee's manufacturing-dependent Appalachian economy was exposed to cheap Mexican labor competition. This mirrors earlier divides: East Tennessee's Unionism vs. Middle/West Tennessee's Confederate alignment; coalfields' labor militancy (Coal Creek Wars) vs. Nashville's business conservatism. Tennessee contains multiple economic Tennessees — a reality shaping its politics from Reconstruction to the present.</div>
+<div class="q-connection" id="conn-unit9-3">📍 <strong>Cross-Unit Connection:</strong> Required Tennessee content — NAFTA's Tennessee impact; geographic economic history</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 4<span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">The Cold War ended with the Soviet Union's dissolution on December 25, 1991. What do you think was the single most important factor in the West's victory?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit9-4')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit9-4')">Show Connection</button>
+<div class="q-answer" id="spiral-unit9-4">Acceptable answers with strong argument: (1) Economic: Soviet planned economy could not sustain the arms race with American capitalism's productive capacity; (2) Ideological: democracy and market economies proved more appealing — the Berlin Wall fell from inside; (3) Strategic: Reagan's military buildup forced Soviet overextension; (4) Internal: Gorbachev's reforms revealed rather than solved the system's contradictions. Students should note the outcome was not inevitable — Cuban Missile Crisis and other moments could have turned the Cold War hot.</div>
+<div class="q-connection" id="conn-unit9-4">📍 <strong>Cross-Unit Connection:</strong> Cold War synthesis question — analytical thinking across Units 7–9</div>
+</div><div class="q-block" style="background:#fffdf5;border-color:#C9A227">
+<div class="q-num">🌉 Spiral Review Question 5<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">BRIDGE QUESTION: Al Gore of Tennessee served as Vice President (1993–2001) and ran for President in 2000. How does the contested 2000 election connect to constitutional questions about democratic legitimacy running through the entire course?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit9-5')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit9-5')">Show Connection</button>
+<div class="q-answer" id="spiral-unit9-5">The 2000 election raised the most fundamental constitutional questions since the Compromise of 1877 (Unit 1): Who decides contested elections? The Supreme Court's Bush v. Gore decision to halt Florida's recount was unprecedented. The constitutional machinery for resolving disputed elections (Electoral Count Act, Supreme Court jurisdiction, congressional certification) had never been tested at this level. The Compromise of 1877 also resolved an election through political negotiation rather than popular vote — both cases raised whether American democratic institutions were equal to their ideals.</div>
+<div class="q-connection" id="conn-unit9-5">📍 <strong>Cross-Unit Connection:</strong> Required Tennessee content — Al Gore; constitutional election integrity thread from Unit 1</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#2A3F5E;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔔</span><span>Unit 9 — Bell Ringers (Prior Knowledge Activation)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Use one bell ringer per lesson to open class. Students write for 2–3 minutes before instruction begins. Purpose: activate prior knowledge (Hattie d=0.65), prime retrieval, and focus attention. Collect occasionally to check for understanding — not graded for accuracy.</p><div class="item-block"><div class="item-num">Bell Ringer 1</div>Reagan said 'Government is not the solution to our problem; government IS the problem.' Do you agree? What problems can government solve? What problems does government create?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 2</div>The Berlin Wall fell on November 9, 1989 when crowds of East Germans tore it down with hammers. What would you have felt watching that live on television?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 3</div>NAFTA created the largest free trade zone in history between the U.S., Canada, and Mexico. Free trade means no tariffs. Who wins? Who loses? Make a prediction before we study this.</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#3B6D11;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🎫</span><span>Unit 9 — Exit Tickets (Retrieval Practice)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Administer in the final 4–5 minutes of class. Students answer on an index card or slip — one question per class period. Purpose: retrieval practice (Hattie testing effect d=0.50+), formative evaluation (Hattie d=0.90), and metacognitive check. Sort into three piles: Got It / Almost / Not Yet. Use "Not Yet" pile to plan next lesson opener.</p><div class="item-block"><div class="item-num">Exit Ticket 1</div>What is supply-side economics ('Reaganomics')? State the theory in one sentence, then give one piece of evidence for and one against.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 2</div>How did Gorbachev's reforms of glasnost and perestroika inadvertently accelerate the Soviet Union's collapse rather than saving it?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 3</div>Tennessee's Al Gore lost the 2000 election by 537 votes in Florida. The Supreme Court stopped the recount. Was this outcome constitutional? Was it democratic? Are those the same question?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span></div>
+</div>
+</div></div>
+<div class="unit-section" id="section-unit10">
+<div class="unit-header"><h2>Unit 10: America in the 21st Century</h2><div class="meta">2001–Present &nbsp;·&nbsp; Learning Science Supplement</div></div>
+<div class="unit-body">
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#C9A227;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔄</span><span>Unit 10 — Spiral Review: Conservative Era, Cold War + Full Course Synthesis</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px"><strong>Administer at the START of Unit 10</strong>, before any new instruction begins. These questions retrieve content from prior units. Question 5 is always a Bridge Question connecting prior learning to the new unit. Show answers and discuss after students respond individually. Time: 8–10 minutes.</p><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 1<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#fde8e8;color:#501313;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 3</span></div>
+<div class="q-text">Fort Campbell, on the Tennessee-Kentucky border, was home base of the 101st Airborne Division ('Screaming Eagles') that led the 2003 invasion of Iraq. Looking back at Fort Campbell's deployment history across Units 7, 8, and 9, what does its service record reveal about the continuity of American military commitments?</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit10-1')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit10-1')">Show Connection</button>
+<div class="q-answer" id="spiral-unit10-1">Fort Campbell/101st Airborne served in Vietnam (Unit 8, including Hamburger Hill), multiple Cold War deployments (Unit 9), the 1991 Gulf War, and post-9/11 wars (Unit 10). This service record spans Democratic and Republican administrations, containment and unilateralism, Cold War and War on Terror. It reveals that American military commitments, once made, tend to persist across political changes — the same installations, units, and families bear the burden across generations.</div>
+<div class="q-connection" id="conn-unit10-1">📍 <strong>Cross-Unit Connection:</strong> Required Tennessee content — Fort Campbell; military continuity thread</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 2<span style="display:inline-block;background:#e0f0cc;color:#27500A;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 4</span></div>
+<div class="q-text">Income inequality in 21st-century America has reached levels comparable to the Gilded Age of the 1890s. Using evidence from at least two units, argue whether this represents a historical pattern or a historically unique development.</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit10-2')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit10-2')">Show Connection</button>
+<div class="q-answer" id="spiral-unit10-2">Pattern argument: Two great periods of U.S. inequality — Gilded Age and current era. Both: (1) technological revolution concentrated wealth (railroads/Carnegie then computers/Bezos); (2) labor's bargaining power weakened; (3) government regulation reduced; (4) gap between productivity growth and wage growth widened. Historical novelty argument: 21st-century inequality is global; digital wealth concentrates differently; the social safety net (Social Security, Medicare) that didn't exist in the Gilded Age now mitigates worst outcomes.</div>
+<div class="q-connection" id="conn-unit10-2">📍 <strong>Cross-Unit Connection:</strong> Full course synthesis: Units 2, 5, 9, 10</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 3<span style="display:inline-block;background:#e0f0cc;color:#27500A;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 4</span></div>
+<div class="q-text">The three Reconstruction amendments — 13th, 14th, 15th — were ratified 1865–1870. Identify a specific 21st-century legal or political controversy in which these amendments remain directly contested.</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit10-3')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit10-3')">Show Connection</button>
+<div class="q-answer" id="spiral-unit10-3">Multiple valid answers: (1) Voting rights: the 15th Amendment is at stake in debates about voter ID laws, polling place restrictions, and gerrymandering; (2) Criminal justice: the 13th Amendment's 'except as punishment for crime' clause is cited in debates about prison labor and mass incarceration; (3) Equal protection: the 14th Amendment is invoked in debates about affirmative action, LGBTQ rights, and police accountability. Any well-developed answer connecting a specific controversy to a specific amendment clause earns full credit.</div>
+<div class="q-connection" id="conn-unit10-3">📍 <strong>Cross-Unit Connection:</strong> Constitutional continuity: Unit 1 amendments still alive in Unit 10</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 4<span style="display:inline-block;background:#C9A227;color:#3D2200;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:4px">TN</span><span style="display:inline-block;background:#e0f0cc;color:#27500A;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 4</span></div>
+<div class="q-text">Nashville's growth as a major American city in the 21st century — the 'It City' — reflects economic forces that run throughout this course. Trace Nashville's economic development through at least four units.</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit10-4')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit10-4')">Show Connection</button>
+<div class="q-answer" id="spiral-unit10-4">Unit 1: Nashville's role as Tennessee capital centered Reconstruction-era politics and Black political organizing. Unit 4: Fisk University as a Harlem Renaissance-connected HBCU and center of Black intellectual life. Unit 5: TVA-powered rural electrification laid infrastructure foundation. Unit 7: Nashville's Civil Rights Movement (sit-ins, Diane Nash, John Lewis) gave the city national significance. Unit 9: Healthcare industry growth (HCA founded 1968). Unit 10: No state income tax, healthcare dominance, music industry, Oracle and Amazon relocations.</div>
+<div class="q-connection" id="conn-unit10-4">📍 <strong>Cross-Unit Connection:</strong> Required Tennessee content — Nashville's full arc through the course</div>
+</div><div class="q-block" style="">
+<div class="q-num">Spiral Review Question 5<span style="display:inline-block;background:#e0f0cc;color:#27500A;font-family:Arial,sans-serif;font-size:10px;font-weight:700;border-radius:3px;padding:1px 7px;margin-left:6px">DOK 4</span></div>
+<div class="q-text">CAPSTONE QUESTION: You have now studied U.S. History from Reconstruction to the present. Identify the single most important unresolved tension in American history — one that appears in multiple units and remains unresolved today — and explain why it matters.</div>
+<div class="q-write-label">Response:</div>
+<div class="q-write"></div>
+<button class="toggle-btn" onclick="toggleEl('spiral-unit10-5')">Show Answer</button>
+<button class="toggle-btn" onclick="toggleEl('conn-unit10-5')">Show Connection</button>
+<div class="q-answer" id="spiral-unit10-5">Open-ended synthesis question. Strong answers will: (1) identify a genuine, course-spanning tension (the gap between democratic ideals and racial inequality; tension between individual liberty and collective responsibility; how much inequality a democracy can sustain); (2) cite evidence from at least three different units; (3) explain why this tension is unresolved rather than settled; (4) connect to a current event or contemporary controversy. This question has no single correct answer — it assesses historical thinking across the full course.</div>
+<div class="q-connection" id="conn-unit10-5">📍 <strong>Cross-Unit Connection:</strong> Full course capstone synthesis — the ultimate spiral review</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#2A3F5E;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🔔</span><span>Unit 10 — Bell Ringers (Prior Knowledge Activation)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Use one bell ringer per lesson to open class. Students write for 2–3 minutes before instruction begins. Purpose: activate prior knowledge (Hattie d=0.65), prime retrieval, and focus attention. Collect occasionally to check for understanding — not graded for accuracy.</p><div class="item-block"><div class="item-num">Bell Ringer 1</div>Where were you on September 11, 2001? If you weren't born yet, where were your parents or grandparents? What do they remember?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 2</div>Social media didn't exist in 2001. How do you think the events of 9/11 would have been different — for better or worse — if Twitter, Instagram, and smartphones had existed?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Bell Ringer 3</div>Think about the arc of U.S. History from Reconstruction to today. Complete this in one sentence: 'The most important change in America since 1865 is ___.' We will revisit this at the end of the unit.</div></div>
+</div>
+<div style="margin:16px 0;border:1px solid #ddd;border-radius:6px;overflow:hidden">
+  <div style="background:#3B6D11;color:#fff;padding:9px 14px;font-family:Arial,sans-serif;font-size:11pt;font-weight:700;display:flex;align-items:center;gap:8px">
+    <span>🎫</span><span>Unit 10 — Exit Tickets (Retrieval Practice)</span>
+  </div>
+  <div style="padding:14px"><p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:10px">Administer in the final 4–5 minutes of class. Students answer on an index card or slip — one question per class period. Purpose: retrieval practice (Hattie testing effect d=0.50+), formative evaluation (Hattie d=0.90), and metacognitive check. Sort into three piles: Got It / Almost / Not Yet. Use "Not Yet" pile to plan next lesson opener.</p><div class="item-block"><div class="item-num">Exit Ticket 1</div>What was the USA PATRIOT Act and how did it change the balance between security and civil liberties? Connect this to at least one earlier example of wartime civil liberties restrictions.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 2</div>FedEx World Hub in Memphis is the busiest air cargo airport in the world. How does Memphis's role as a logistics capital connect to its historical position as a Mississippi River port city?</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span>
+<div class="item-num">Exit Ticket 3</div>Complete this sentence with at least three specific historical references: 'The story of U.S. History from 1865 to today is ultimately the story of ___.' This is your thesis for the course.</div>
+<div class="q-write-label">Response:</div>
+<span class="br-write"></span><span class="br-write"></span></div>
+</div>
+</div></div>
+
+</div><!-- end .content -->
+
+<script>
+let answerStates = {};
+function showUnit(id) {
+  document.querySelectorAll('.unit-section').forEach(s => s.classList.remove('visible'));
+  document.querySelectorAll('.unit-btn').forEach(b => b.classList.remove('active'));
+  const sec = document.getElementById('section-' + id);
+  const btn = document.getElementById('btn-' + id);
+  if (sec) sec.classList.add('visible');
+  if (btn) btn.classList.add('active');
+}
+function toggleEl(id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.style.display = el.style.display === 'block' ? 'none' : 'block';
+}
+function showAllAnswers() {
+  document.querySelectorAll('.q-answer,.q-connection').forEach(el => el.style.display = 'block');
+}
+function hideAllAnswers() {
+  document.querySelectorAll('.q-answer,.q-connection').forEach(el => el.style.display = 'none');
+}
+// Show Unit 1 by default
+showUnit('unit1');
+</script>
+</body>
+</html>

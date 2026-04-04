@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HIPP Analysis — TroopToTeacher Technologies LLC</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#ddd}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:#fff;color:#111;
+  width:8.5in;margin:.18in auto;box-shadow:0 3px 24px rgba(0,0,0,.26);
+  font-size:10pt;line-height:1.75}
+@page{size:letter portrait;margin:.6in .65in .55in}
+@media print{html{background:#fff}body{margin:0;box-shadow:none}
+  .no-print{display:none!important}.pb{page-break-before:always;padding-top:.3in}
+  .hipp-table{break-inside:auto}tr{break-inside:avoid}
+  /* === SHARED PRINT FIXES — TroopToTeacher Technologies LLC === */
+  /* Hide ALL sticky/fixed/nav elements */
+  [style*="position:sticky"],[style*="position: sticky"],
+  [style*="position:fixed"],[style*="position: fixed"],
+  .no-print,.nav-bar,.topbar,.site-header,.unit-tabs,.filter-bar{
+    display:none!important
+  }
+  /* Reduce .pb top padding in print */
+  .pb{padding-top:.1in!important}
+  /* Write spaces MUST be visible */
+  .wi,.write-line{
+    display:block!important;
+    border-bottom:1px solid #333!important;
+    min-height:20px!important;
+    margin-bottom:6px!important;
+    background:none!important
+  }
+  .wi-lg,.write-line-lg{min-height:36px!important}
+  .wi-box,.wi-box-sm,.write-box{
+    border:1px solid #333!important;
+    background:#fff!important;
+    display:block!important;
+    width:100%!important;
+    min-height:55px!important
+  }
+  .wi-box-sm{min-height:36px!important}
+  /* Dark headers: use print-color-adjust to force print */
+  .banner,.hero,.gold-bar,.section-header,.strat-hdr,
+  .ptg-hdr,.org-hdr,.teacher-box .th{
+    -webkit-print-color-adjust:exact!important;
+    print-color-adjust:exact!important
+  }
+  /* Tables: prevent mid-row breaks */
+  table{break-inside:auto}
+  tr{break-inside:avoid!important;break-after:auto}
+  .soaps-row,.hipp-row,.cc-row,.tl-row{break-inside:avoid!important}
+  /* Remove shadows and outlines */
+  *{box-shadow:none!important;text-shadow:none!important}
+  /* Organizer blocks stay together */
+  .strat,.org,.q-block,.nb,.atbl,.ptg,.teacher-box,
+  .frayer-card,.venn-col,.cc-grid,.cause-box,
+  .ccot-col,.tl-row,.arg-box{break-inside:avoid!important}
+  /* Overflow visible in print (prevents clipping) */
+  .strat,.org,.teacher-box,.ptg{overflow:visible!important}
+  /* Page footer prints cleanly */
+  .foot{
+    position:fixed;bottom:0;left:0;right:0;
+    -webkit-print-color-adjust:exact!important;
+    print-color-adjust:exact!important
+  }
+}
+.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;
+  border:none;border-radius:5px;padding:7px 14px;font-size:11px;font-weight:700;
+  cursor:pointer;z-index:99;font-family:'Source Sans 3',Arial,sans-serif}
+
+/* ── Top bar ── */
+.topbar{background:#1B2A4A;color:#fff;padding:9px .65in;display:flex;
+  justify-content:space-between;align-items:center;position:sticky;top:0;z-index:50}
+.topbar a{color:#C9A227;text-decoration:none;font-size:11px;font-weight:700;
+  font-family:'Source Sans 3',Arial,sans-serif}
+.topbar .tb-title{font-size:11px;color:rgba(255,255,255,.6)}
+
+/* ── Hero ── */
+.hero{background:#1B2A4A;padding:26px .65in 20px}
+.hero .eye{font-size:8pt;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  color:#C9A227;margin-bottom:8px}
+.hero h1{font-family:'Merriweather',Georgia,serif;font-size:19pt;font-weight:700;
+  color:#fff;line-height:1.2;margin-bottom:5px}
+.hero .sub{font-size:10pt;color:#B5D4F4;font-style:italic}
+.gold-bar{background:#C9A227;padding:4px .65in;font-size:8.5pt;font-weight:700;
+  color:#3D2200;display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}
+
+/* ── Body ── */
+.pg{padding:.28in .65in .22in}
+p{margin-bottom:10px;font-size:10pt;line-height:1.75}
+h2{font-family:'Source Sans 3',Arial,sans-serif;font-size:12pt;font-weight:700;
+   color:#1B2A4A;margin:22px 0 9px;padding-bottom:4px;border-bottom:2px solid #1B2A4A}
+h3{font-size:11pt;font-weight:700;color:#2A3F5E;margin:16px 0 6px}
+ul,ol{margin:5px 0 12px 20px}li{margin-bottom:5px;font-size:10pt;line-height:1.7}
+strong{color:#1B2A4A}
+
+/* ── HIPP table ── */
+.hipp-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:9.5pt}
+.hipp-table th{background:#1B2A4A;color:#fff;padding:8px 12px;
+  text-align:left;font-size:9pt;vertical-align:top}
+.hipp-table th:first-child{width:12%}
+.hipp-table th:nth-child(2){width:20%}
+.hipp-table th:nth-child(3){width:33%}
+.hipp-table th:nth-child(4){width:35%}
+.hipp-table td{padding:10px 12px;border-bottom:1px solid #e2e8f0;
+  vertical-align:top;line-height:1.65}
+.hipp-table tr:nth-child(even) td{background:#f8fafc}
+/* HIPP letter badge */
+.hbadge{display:inline-flex;width:28px;height:28px;border-radius:50%;
+  font-family:'Merriweather',Georgia,serif;font-weight:700;font-size:13pt;
+  align-items:center;justify-content:center;color:#fff;margin-right:4px;
+  vertical-align:middle;flex-shrink:0}
+.hh{background:#1B2A4A}
+.hi{background:#27500A}
+.hp1{background:#6B1020}
+.hp2{background:#633806}
+.hipp-table td:first-child{font-weight:700;font-size:10pt;color:#1B2A4A}
+.hipp-table td ul{margin-left:14px}
+.hipp-table td li{font-size:9pt;margin-bottom:4px}
+/* Sentence stems */
+.stem{background:#f0f5fb;border-left:3px solid #1B2A4A;padding:4px 8px;
+  margin:3px 0;font-style:italic;font-size:9pt;color:#1B2A4A;display:block;
+  border-radius:0 3px 3px 0}
+
+/* ── Callouts ── */
+.callout{padding:10px 14px;margin:12px 0;border-radius:0 4px 4px 0;
+  font-size:10pt;line-height:1.7}
+.ccb{background:#f0f5fb;border-left:4px solid #1B2A4A}
+.ccg{background:#fffdf5;border-left:4px solid #C9A227}
+.ccr{background:#eaf3de;border-left:4px solid #3B6D11}
+.ccd{background:#fdf0f0;border-left:4px solid #8B1A1A}
+.callout strong{display:block;font-size:8.5pt;font-weight:700;
+  text-transform:uppercase;letter-spacing:.08em;margin-bottom:3px}
+.ccb strong{color:#1B2A4A}.ccg strong{color:#633806}
+.ccr strong{color:#27500A}.ccd strong{color:#6B1020}
+
+/* ── Checklist ── */
+.checklist{background:#f5f7fa;border:1.5px solid #c0cce0;border-radius:4px;
+  padding:14px 18px;margin:12px 0}
+.checklist h3{margin-top:0;margin-bottom:10px}
+.checklist ol{margin-left:16px}
+.checklist li{margin-bottom:8px;font-size:10pt;line-height:1.7}
+.check-box{display:inline-block;width:16px;height:16px;border:2px solid #1B2A4A;
+  border-radius:2px;margin-right:6px;vertical-align:middle;flex-shrink:0}
+
+/* ── Teacher note box ── */
+.teacher-note{background:#fffdf5;border:2px solid #C9A227;border-radius:4px;
+  overflow:hidden;margin:18px 0}
+.tn-hdr{background:#C9A227;color:#3D2200;padding:7px 16px;
+  font-size:9pt;font-weight:700;display:flex;justify-content:space-between;
+  align-items:center;font-family:'Source Sans 3',Arial,sans-serif}
+.tn-body{padding:12px 16px;font-size:9.5pt;line-height:1.72}
+
+/* ── SOAPS comparison grid ── */
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0}
+.cg-box{border:1.5px solid #c0cce0;border-radius:4px;overflow:hidden}
+.cg-hdr{padding:6px 12px;font-size:9pt;font-weight:700;font-family:'Source Sans 3',Arial,sans-serif}
+.cg-hdr.soaps{background:#2A3F5E;color:#fff}
+.cg-hdr.hipp{background:#1B2A4A;color:#C9A227}
+.cg-body{padding:8px 12px;font-size:9.5pt;line-height:1.65}
+.cg-body ul{margin-left:14px}
+.cg-body li{margin-bottom:4px;font-size:9.5pt}
+
+/* ── Footer ── */
+.foot{background:#1B2A4A;color:rgba(255,255,255,.5);padding:7px .65in;
+  font-size:8pt;display:flex;justify-content:space-between}
+.foot strong{color:#C9A227}
+</style>
+</head>
+<body>
+<button class="no-print" onclick="window.print()">&#x2399; Print / Save PDF</button>
+
+<div class="topbar">
+  <a href="index.html">← Back to Textbook Hub</a>
+  <span class="tb-title">Skills Reference · Front Matter</span>
+</div>
+
+<div class="hero">
+  <div class="eye">Front Matter · Disciplinary Skills Reference</div>
+  <h1>HIPP Analysis:<br>Reading Historical Documents Like a Historian</h1>
+  <div class="sub">Historical Context · Intended Audience · Purpose · Point of View</div>
+</div>
+<div class="gold-bar">
+  <span>AP U.S. History–aligned sourcing skill · Complements SOAPS · Used in DBQ writing</span>
+  <span>TroopToTeacher Technologies LLC · U.S. History (US.01–US.95)</span>
+</div>
+
+<div class="pg">
+
+<!-- ═══ INTRO ═══ -->
+<p>Every primary source in this textbook was created by a specific person, for a specific audience, in a specific historical moment. That context is not decorative — it is evidence. HIPP is a four-part framework that helps you analyze <em>why</em> a source says what it says, not just <em>what</em> it says. In U.S. History — and especially in document-based writing — understanding the conditions that shaped a source is as important as understanding its content. A speech that says one thing means something different depending on who gave it, who was listening, what they wanted, and what was happening in the country at the time. HIPP trains you to ask all four questions before you cite a document as evidence.</p>
+
+<div class="callout ccb">
+  <strong>A note on what HIPP is not</strong>
+  HIPP does not mean listing facts about a document ("The audience was Congress"). It means connecting those facts to your historical argument ("Because the audience was a hostile Congress, Lincoln chose conciliatory language — which makes this source a weaker basis for arguments about his personal views on racial equality than a private letter would be"). The analytical move is the connection, not the identification.
+</div>
+
+<!-- ═══ HIPP TABLE ═══ -->
+<h2>The Four Elements of HIPP</h2>
+
+<table class="hipp-table">
+<thead>
+<tr>
+  <th>Letter</th>
+  <th>Category &amp; Meaning</th>
+  <th>Questions to Ask</th>
+  <th>Sentence Stems</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><span class="hbadge hh">H</span><br>Historical Context</td>
+  <td>The broader circumstances — political, economic, social, or cultural — that existed when this source was created. Context explains what problems the creator was responding to and what forces shaped the moment.</td>
+  <td>
+    <ul>
+      <li>What was happening in the United States (or the world) at the time this was created?</li>
+      <li>What prior events made this source necessary or timely?</li>
+      <li>What tensions, conflicts, or crises does this source emerge from?</li>
+      <li>Would this source mean something different if it had been created ten years earlier or later?</li>
+    </ul>
+  </td>
+  <td>
+    <span class="stem">Written during [event/period], this source reflects a moment when…</span>
+    <span class="stem">The historical context of [year/era] is significant because it explains why the author…</span>
+    <span class="stem">This source must be understood against the backdrop of…, which means its claim about [X] should be interpreted as…</span>
+  </td>
+</tr>
+<tr>
+  <td><span class="hbadge hi">I</span><br>Intended Audience</td>
+  <td>The specific group of people the creator designed this source for. Audience shapes what was included, what was left out, what tone was chosen, and what assumptions the creator made about shared knowledge or values.</td>
+  <td>
+    <ul>
+      <li>Who was this source created for?</li>
+      <li>What did that audience already believe, fear, or want to hear?</li>
+      <li>What did the creator assume the audience knew or cared about?</li>
+      <li>What would this source look or sound like if it were written for a different audience?</li>
+    </ul>
+  </td>
+  <td>
+    <span class="stem">Because this source was addressed to [audience], the author emphasized…rather than…</span>
+    <span class="stem">The intended audience of [group] would have interpreted this source as…, which limits its usefulness as evidence for…</span>
+    <span class="stem">This source's appeal to [audience values/fears] suggests the author believed…</span>
+  </td>
+</tr>
+<tr>
+  <td><span class="hbadge hp1">P</span><br>Purpose</td>
+  <td>What the creator was trying to accomplish. Purpose explains the goal behind the source — to persuade, to justify, to commemorate, to demand, to reassure, to document. Understanding purpose helps you evaluate how much to trust the source's claims.</td>
+  <td>
+    <ul>
+      <li>What did the creator want this source to do?</li>
+      <li>Was the creator trying to persuade, inform, celebrate, protest, or justify?</li>
+      <li>Whose interests did the creator have in mind?</li>
+      <li>Does the purpose of the source make it more or less reliable for the argument you are making?</li>
+    </ul>
+  </td>
+  <td>
+    <span class="stem">The purpose of this source was to [persuade/document/justify]…, which explains why the author [chose/omitted/emphasized]…</span>
+    <span class="stem">Because this source was created to [purpose], it is a stronger basis for arguments about [X] than about [Y].</span>
+    <span class="stem">The creator's goal of [purpose] shapes this source's reliability because…</span>
+  </td>
+</tr>
+<tr>
+  <td><span class="hbadge hp2">P</span><br>Point of View</td>
+  <td>The perspective shaped by the creator's identity, experiences, position, and interests. A factory owner and a factory worker witnessing the same strike will describe it differently — not because one is lying, but because their position in the world shapes what they see and how they see it.</td>
+  <td>
+    <ul>
+      <li>What is the creator's identity, role, or position in society?</li>
+      <li>What personal stake did the creator have in this issue?</li>
+      <li>What might the creator have been unable or unwilling to see, given their perspective?</li>
+      <li>Whose experiences or voices are missing from this source as a result of the creator's point of view?</li>
+    </ul>
+  </td>
+  <td>
+    <span class="stem">As [identity/role], the author's point of view leads them to…, which means this source tells us more about [X] than about [Y].</span>
+    <span class="stem">The author's position as [group member] shapes this account because…</span>
+    <span class="stem">This source reflects the perspective of [group], and is therefore limited in its ability to represent…</span>
+  </td>
+</tr>
+</tbody>
+</table>
+
+<!-- ═══ DBQ CONNECTION ═══ -->
+<h2>How HIPP Connects to Stronger DBQ Writing</h2>
+
+<p>In document-based essay writing — including the APUSH DBQ format — one of the most frequently missed analytical moves is what AP readers call "sourcing": explaining how a feature of a document is relevant to the argument you are making. Students often lose credit not because they failed to notice historical context, audience, purpose, or point of view, but because they stopped short of the analytical step that makes those observations matter.</p>
+
+<p>Identifying a feature earns you nothing by itself. Connecting it to your argument is the move that counts.</p>
+
+<div class="callout ccd">
+  <strong>What does not earn sourcing credit</strong>
+  "This speech was written by FDR for the American public." — This is identification. It names the audience but says nothing about why that audience matters to your argument.
+</div>
+
+<div class="callout ccr">
+  <strong>What does earn sourcing credit</strong>
+  "Because FDR was addressing a public demoralized by three years of economic collapse, his emphasis on action and confidence reflects a political necessity rather than a personal conviction — making this source more useful as evidence of public psychology in 1933 than as evidence of FDR's actual economic beliefs."
+</div>
+
+<p>Notice what the second version does: it names the audience (the demoralized public), explains why that audience shaped the document (FDR needed to project confidence), and connects that back to the specific historical argument (what this source can and cannot prove). HIPP gives you a systematic way to make that three-part analytical move for any document, on any question.</p>
+
+<p>A practical target for DBQ writing: aim to apply at least one HIPP element — with the full connection — to at least three of your documents. Apply it where it most strengthens your argument, not as a checklist to complete for every source.</p>
+
+<!-- ═══ HIPP + SOAPS ═══ -->
+<h2>HIPP + SOAPS: Two Tools, Different Moments</h2>
+
+<p>This textbook uses both SOAPS and HIPP because they do different work. They are not competitors; they are sequenced tools.</p>
+
+<div class="compare-grid">
+  <div class="cg-box">
+    <div class="cg-hdr soaps">SOAPS — Use First</div>
+    <div class="cg-body">
+      <p><strong>Best for:</strong> Initial encounter with an unfamiliar source — orienting yourself before analysis.</p>
+      <ul>
+        <li><strong>S</strong>peaker — Who created this?</li>
+        <li><strong>O</strong>ccasion — When and under what circumstances?</li>
+        <li><strong>A</strong>udience — Who is it for?</li>
+        <li><strong>P</strong>urpose — What was it meant to do?</li>
+        <li><strong>S</strong>ubject — What is it actually about?</li>
+      </ul>
+      <p style="font-size:9.5pt;margin-top:6px;color:#444">SOAPS establishes the basic facts of a document's identity. It tells you what you are looking at before you decide how to use it.</p>
+    </div>
+  </div>
+  <div class="cg-box">
+    <div class="cg-hdr hipp">HIPP — Use Next</div>
+    <div class="cg-body">
+      <p><strong>Best for:</strong> Building an argument — deciding how a source's features affect what it can prove.</p>
+      <ul>
+        <li><strong>H</strong>istorical Context — What moment produced this?</li>
+        <li><strong>I</strong>ntended Audience — How does audience shape it?</li>
+        <li><strong>P</strong>urpose — Does purpose affect reliability?</li>
+        <li><strong>P</strong>oint of View — What does the creator's position mean for the argument?</li>
+      </ul>
+      <p style="font-size:9.5pt;margin-top:6px;color:#444">HIPP builds the analytical connection from source feature to historical argument. It turns SOAPS observations into evidence.</p>
+    </div>
+  </div>
+</div>
+
+<p>A practical suggestion: when you first encounter a document in a DBQ or primary source activity, use SOAPS to ground yourself — identify the speaker, occasion, audience, purpose, and subject before you read deeply. Then, as you plan your argument, use HIPP to decide which element of the source (context, audience, purpose, or point of view) is most relevant to the specific claim you are making, and how you will connect that element to your argument in writing. The two frameworks overlap deliberately — Audience and Purpose appear in both — because those two elements are almost always the most analytically productive places to begin.</p>
+
+<!-- ═══ CHECKLIST ═══ -->
+<h2>Quick Student Checklist</h2>
+
+<div class="checklist">
+  <h3>Use while reading a document or preparing to cite it in writing</h3>
+  <ol>
+    <li><span class="check-box"></span><strong>Historical Context:</strong> I can name at least one specific event, condition, or tension that existed when this source was created, and I can explain why that context matters for my argument — not just that it existed.</li>
+    <li><span class="check-box"></span><strong>Intended Audience:</strong> I have identified who this source was made for, and I can explain how that audience shaped what the creator chose to include, emphasize, or leave out.</li>
+    <li><span class="check-box"></span><strong>Purpose:</strong> I have identified what the creator was trying to accomplish (persuade, document, justify, demand, commemorate), and I can explain how that purpose affects what this source can and cannot prove.</li>
+    <li><span class="check-box"></span><strong>Point of View:</strong> I have considered the creator's identity, role, or position, and I can explain what that perspective might have prevented the creator from seeing, knowing, or saying — and why that matters for my argument.</li>
+    <li><span class="check-box"></span><strong>Connection:</strong> For at least one HIPP element, I have written (or can write) a sentence that completes this structure: "Because [HIPP feature], this source [is more/less useful / supports / complicates] my argument about [specific claim]."</li>
+  </ol>
+</div>
+
+<!-- ═══ TEACHER NOTE ═══ -->
+<div class="teacher-note">
+  <div class="tn-hdr">
+    Teacher Note — Supporting AP-Style Sourcing Practice
+    <span style="font-size:8pt;background:rgba(0,0,0,.15);border-radius:2px;padding:1px 7px">FOR INSTRUCTOR USE</span>
+  </div>
+  <div class="tn-body">
+    <p>This page introduces HIPP as an extension of the SOAPS routine already embedded throughout the <em>TroopToTeacher Technologies LLC U.S. History</em> materials. It is designed to support students who are preparing for AP U.S. History while remaining accessible to all students enrolled in a standard 11th-grade U.S. History course.</p>
+    <p><strong>Regarding AP alignment:</strong> HIPP (Historical Context, Intended Audience, Purpose, Point of View) corresponds directly to the four sourcing categories described in the AP U.S. History Course and Exam Description's document analysis rubric. However, TroopToTeacher Technologies LLC makes no claim of official endorsement by the College Board. This framework is drawn from widely used AP preparation practice and is consistent with the sourcing skill as publicly described. Teachers using this material with APUSH sections should consult the current AP U.S. History Course and Exam Description for the most current rubric language.</p>
+    <p><strong>For non-AP sections:</strong> HIPP strengthens historical thinking for all students, not only those in AP courses. The sourcing skill — connecting a document's features to a historical argument — is also embedded in Tennessee Social Studies Practice SSP.02 (critically examine primary and secondary sources) and SSP.04 (construct and communicate ideas supported by evidence). Framing HIPP as an analytical discipline rather than a test-prep formula keeps it useful for all students.</p>
+    <p><strong>Suggested placement:</strong> Introduce HIPP in the same lesson where you first assign a multi-document DBQ task, or as students begin Unit 7 (Civil Rights) where sourcing analysis has the highest instructional payoff. Reference the SOAPS page alongside this one so students understand the sequenced relationship between the two frameworks.</p>
+  </div>
+</div>
+
+</div><!-- end .pg -->
+
+<div class="foot">
+  <div><strong>TroopToTeacher Technologies LLC</strong> &nbsp;·&nbsp; HIPP Analysis Reference · Front Matter · © 2026</div>
+  <div>U.S. History (US.01–US.95) · Grades 9–12 · Not an official College Board publication</div>
+</div>
+</body>
+</html>

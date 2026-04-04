@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+
+<html lang="en"><!--
+================================================================
+ TroopToTeacher Technologies LLC — Tagging Schema v1.0
+ Applied: April 2026
+----------------------------------------------------------------
+ ASSESSMENT TYPE  data-assessment-type="formative|summative"
+   formative  = checks-for-understanding, low-stakes practice,
+                exit tickets, in-lesson questions (DOK 1–2)
+   summative  = unit tests, DBQs, performance tasks (DOK 2–3+)
+
+ HISTORICAL SKILL data-historical-skill="SKILL_NAME"
+   Values: CAUSATION | COMPARISON | CCOT |
+           CHRONOLOGY | CONTEXTUALIZATION
+   Apply to: activity headings, question wrappers, PSS blocks
+
+ SYNTHESIS        data-requires-synthesis="true"
+   Apply to: DBQ prompts, multi-source tasks that explicitly
+   require cross-document corroboration or contrast
+
+ PRIORITY         data-priority="essential|compress|skip"
+   essential = teach regardless of time available
+   compress  = shorten if needed
+   skip      = enrichment / homework if behind schedule
+
+ ACCESSIBILITY    .sr-only-table
+   Every SVG chart MUST have an adjacent hidden <table> with the
+   same data. See WCAG 2.1 AA SC 1.1.1.
+================================================================
+
+ Unit: unit-5
+-->
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Unit 5: Great Depression &amp; New Deal — TroopToTeacher Technologies</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#888}
+body{
+  font-family:'Merriweather',Georgia,serif;
+  background:#fff;color:#1a1a1a;
+  width:8.5in;margin:.2in auto;
+  box-shadow:0 2px 24px rgba(0,0,0,.3);
+  font-size:10pt;line-height:1.8;
+}
+@page{size:letter portrait;margin:.65in .7in .6in}
+@media print{
+  html{background:#fff}body{margin:0;box-shadow:none}
+  .no-print{display:none!important}
+  .page-break{page-break-before:always;padding-top:.4in}
+  figure{break-inside:avoid}.sidebar{break-inside:avoid}
+}
+.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;
+  border:none;border-radius:5px;padding:7px 14px;font-size:11px;font-weight:700;cursor:pointer;z-index:99;
+  font-family:'Source Sans 3',Arial,sans-serif}
+
+/* ─── Chapter header ─── */
+.chapter-banner{background:#1B2A4A;color:#fff;padding:32px .7in 26px}
+.chapter-banner .ch-eyebrow{font-family:'Source Sans 3',Arial,sans-serif;
+  font-size:9pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:#C9A227;margin-bottom:8px}
+.chapter-banner h1{font-family:'Source Sans 3',Arial,sans-serif;font-size:22pt;
+  font-weight:700;line-height:1.15;color:#fff;margin-bottom:6px}
+.chapter-banner .ch-era{font-family:'Source Sans 3',Arial,sans-serif;font-size:11pt;
+  color:#B5D4F4;margin-bottom:4px}
+.std-bar{background:#C9A227;padding:5px .7in;font-family:'Source Sans 3',Arial,sans-serif;
+  font-size:8.5pt;font-weight:700;color:#3D2200;display:flex;justify-content:space-between;
+  flex-wrap:wrap;gap:4px}
+
+/* ─── Page body ─── */
+.pg{padding:.35in .7in .3in}
+
+/* ─── Chapter meta box ─── */
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+.meta-box{background:#f5f7fa;border:1px solid #c8d6e8;border-radius:4px;padding:10px 14px}
+.meta-box .mb-label{font-family:'Source Sans 3',Arial,sans-serif;font-size:7.5pt;
+  font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#1B2A4A;margin-bottom:4px}
+.meta-box p,.meta-box li{font-size:9pt;line-height:1.55}
+.meta-box ul{margin-left:16px}
+.meta-box .eq{font-size:9.5pt;font-style:italic;color:#1B2A4A;line-height:1.5}
+
+/* ─── Section headings ─── */
+h2{font-family:'Source Sans 3',Arial,sans-serif;font-size:14pt;font-weight:700;
+   color:#1B2A4A;margin:24px 0 10px;padding-bottom:5px;border-bottom:2.5px solid #1B2A4A}
+h3{font-family:'Source Sans 3',Arial,sans-serif;font-size:11pt;font-weight:700;
+   color:#2A3F5E;margin:18px 0 7px}
+h4{font-family:'Source Sans 3',Arial,sans-serif;font-size:10pt;font-weight:700;
+   color:#555;margin:12px 0 5px}
+p{margin-bottom:11px}
+
+/* ─── Vocab term ─── */
+.vocab{font-weight:700;color:#1B2A4A;border-bottom:2px solid #C9A227;cursor:default}
+.vocab-box{background:#fffdf5;border:1px solid #C9A227;border-radius:4px;
+  padding:8px 12px;margin:10px 0;font-size:9pt}
+.vocab-box .vb-term{font-family:'Source Sans 3',Arial,sans-serif;font-weight:700;
+  color:#1B2A4A;margin-bottom:2px}
+.vocab-box .vb-def{color:#333;line-height:1.55}
+
+/* ─── Image blocks ─── */
+figure{margin:16px 0;break-inside:avoid}
+figure img{width:100%;max-height:320px;object-fit:cover;object-position:center top;
+  border:1px solid #ddd;display:block}
+figcaption{font-family:'Source Sans 3',Arial,sans-serif;font-size:8pt;
+  color:#555;padding:5px 8px;background:#f9f9f7;border:1px solid #eee;
+  border-top:none;line-height:1.55}
+figcaption .fig-title{font-weight:700;color:#1B2A4A;display:block;margin-bottom:2px}
+figcaption .fig-source{color:#888;font-style:italic;margin-top:3px;display:block}
+figcaption .fig-license{display:inline-block;background:#eaf3de;color:#27500A;
+  font-size:7pt;font-weight:700;border-radius:2px;padding:0 5px;margin-top:2px}
+
+/* ─── Two-col layout ─── */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:12px 0}
+.two-col.w60{grid-template-columns:3fr 2fr}
+.two-col.w40{grid-template-columns:2fr 3fr}
+
+/* ─── Primary Source Spotlight ─── */
+.pss{background:#fff;border:2px solid #1B2A4A;border-radius:0;margin:18px 0}
+.pss-hdr{background:#1B2A4A;color:#fff;padding:7px 14px;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:9pt;font-weight:700;
+  display:flex;justify-content:space-between;align-items:center}
+.pss-hdr .pss-type{background:#C9A227;color:#3D2200;font-size:7.5pt;
+  font-weight:700;border-radius:2px;padding:1px 8px}
+.pss-body{padding:12px 14px}
+.pss-doc{background:#fafaf8;border-left:4px solid #C9A227;padding:10px 14px;
+  margin:10px 0;font-size:9.5pt;line-height:1.7;font-style:italic;color:#222}
+.pss-doc .pss-citation{font-style:normal;font-size:8pt;color:#888;
+  display:block;margin-top:6px}
+.pss-questions{margin-top:10px}
+.pss-questions p{font-family:'Source Sans 3',Arial,sans-serif;font-size:9pt;
+  font-weight:700;color:#1B2A4A;margin-bottom:4px}
+.pss-questions ol{margin-left:18px;font-size:9pt;line-height:1.65}
+.pss-questions li{margin-bottom:6px}
+.soaps{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin:10px 0}
+.soaps-cell{background:#f5f7fa;border:1px solid #c8d6e8;border-radius:3px;
+  padding:6px 8px;font-size:8pt}
+.soaps-cell .sl{font-family:'Source Sans 3',Arial,sans-serif;font-weight:700;
+  color:#1B2A4A;font-size:7.5pt;text-transform:uppercase;letter-spacing:.07em;
+  margin-bottom:2px}
+
+/* ─── Sidebar / TN callout ─── */
+.sidebar{float:right;width:2.8in;margin:0 0 14px 18px;
+  background:#1B2A4A;color:#fff;border-radius:4px;padding:12px 14px;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:9pt;line-height:1.55}
+.sidebar .sb-title{font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.1em;color:#C9A227;margin-bottom:6px}
+.sidebar a{color:#B5D4F4}
+.sidebar::after{content:"";display:table;clear:both}
+
+/* ─── Callouts ─── */
+.callout{padding:10px 14px;margin:14px 0;border-radius:0 4px 4px 0;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:9.5pt;line-height:1.6}
+.cb{background:#f0f5fb;border-left:4px solid #1B2A4A}
+.cg{background:#fffdf5;border-left:4px solid #C9A227}
+.cr{background:#eaf3de;border-left:4px solid #3B6D11}
+.callout strong{display:block;font-size:8pt;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;margin-bottom:3px}
+.cb strong{color:#1B2A4A}.cg strong{color:#633806}.cr strong{color:#27500A}
+
+/* ─── Data chart container ─── */
+.chart-block{margin:16px 0;background:#fff;border:1px solid #ddd;border-radius:4px;overflow:hidden}
+.chart-title{background:#1B2A4A;color:#fff;padding:6px 14px;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:9.5pt;font-weight:700;
+  display:flex;justify-content:space-between;align-items:center}
+.chart-title .ct-src{font-size:8pt;color:#B5D4F4;font-weight:400}
+.chart-wrap{padding:12px 14px 8px}
+.chart-note{padding:4px 14px 8px;font-family:'Source Sans 3',Arial,sans-serif;
+  font-size:8pt;color:#666;font-style:italic}
+
+/* ─── Standards table ─── */
+.std-table{width:100%;border-collapse:collapse;font-size:8.5pt;
+  font-family:'Source Sans 3',Arial,sans-serif;margin:10px 0}
+.std-table th{background:#1B2A4A;color:#fff;padding:6px 10px;text-align:left;font-size:8pt}
+.std-table td{padding:5px 10px;border-bottom:1px solid #eee;vertical-align:top}
+.std-table tr:nth-child(even) td{background:#f8f8f8}
+.std-table td:first-child{font-weight:700;color:#1B2A4A;white-space:nowrap}
+.std-code{display:inline-block;background:#1B2A4A;color:#fff;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:8pt;font-weight:700;
+  border-radius:2px;padding:0 6px;margin-right:4px}
+.ssp-code{display:inline-block;background:#C9A227;color:#3D2200;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:8pt;font-weight:700;
+  border-radius:2px;padding:0 6px}
+
+/* ─── Map ─── */
+.map-block{margin:16px 0;border:1px solid #ddd;border-radius:4px;overflow:hidden}
+.map-title{background:#1B2A4A;color:#fff;padding:6px 14px;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:9.5pt;font-weight:700}
+.map-wrap{padding:8px;background:#f5f8fc}
+.map-note{padding:4px 14px 8px;font-family:'Source Sans 3',Arial,sans-serif;
+  font-size:8pt;color:#666;font-style:italic;background:#fff;border-top:1px solid #eee}
+
+/* ─── Student Activity ─── */
+.activity{background:#fff;border:2px solid #27500A;border-radius:0;margin:20px 0}
+.act-hdr{background:#27500A;color:#fff;padding:7px 14px;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:9.5pt;font-weight:700;
+  display:flex;justify-content:space-between;align-items:center}
+.act-hdr .act-type{background:#C9A227;color:#3D2200;font-size:7.5pt;
+  font-weight:700;border-radius:2px;padding:1px 8px}
+.act-body{padding:12px 14px}
+.act-body .act-meta{font-family:'Source Sans 3',Arial,sans-serif;font-size:8.5pt;
+  color:#555;margin-bottom:8px}
+.student-info{display:grid;grid-template-columns:2fr 1fr 1fr;gap:0;margin-bottom:14px;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:9pt}
+.si-field{border-bottom:1px solid #555;padding-bottom:2px;margin-right:18px}
+.si-label{font-size:7.5pt;color:#888;margin-top:6px}
+.write-line{border-bottom:1px solid #ccc;width:100%;height:22px;display:block;margin-bottom:8px}
+.act-q{margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid #f0f0f0;
+  font-size:9.5pt}
+.act-q .aq-num{font-family:'Source Sans 3',Arial,sans-serif;font-size:8.5pt;
+  font-weight:700;color:#27500A;margin-bottom:4px}
+.option{display:flex;gap:10px;margin-bottom:5px;font-size:9.5pt}
+.opt-l{font-family:'Source Sans 3',Arial,sans-serif;font-weight:700;
+  color:#1B2A4A;min-width:18px;flex-shrink:0;margin-top:1px}
+
+/* ─── Answer Key ─── */
+.answer-key{background:#fff;border:2px solid #6B1020;margin:20px 0;border-radius:0}
+.ak-hdr{background:#6B1020;color:#fff;padding:7px 14px;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:9.5pt;font-weight:700;
+  display:flex;justify-content:space-between}
+.ak-hdr .ak-tag{background:#C9A227;color:#3D2200;font-size:7.5pt;
+  font-weight:700;border-radius:2px;padding:1px 8px}
+.ak-body{padding:12px 14px;font-family:'Source Sans 3',Arial,sans-serif;font-size:9pt}
+.ak-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-bottom:12px}
+.ak-item{background:#f5f7fa;border:1px solid #ddd;border-radius:3px;
+  padding:4px 8px;text-align:center;font-size:9pt}
+.ak-item span{font-weight:700;color:#27500A}
+.ak-open{margin-top:10px}
+.ak-open .ao-q{font-weight:700;color:#6B1020;margin-bottom:3px;font-size:9pt}
+.ak-open .ao-a{color:#27500A;line-height:1.55;font-size:9pt;margin-bottom:10px;
+  padding-left:10px;border-left:3px solid #27500A}
+.rubric-table{width:100%;border-collapse:collapse;font-size:8.5pt;margin:8px 0}
+.rubric-table th{background:#6B1020;color:#fff;padding:5px 8px;text-align:left}
+.rubric-table td{padding:5px 8px;border-bottom:1px solid #eee;vertical-align:top}
+.rubric-table tr:nth-child(even) td{background:#fdf5f5}
+
+/* ─── Bibliography ─── */
+.bib-entry{font-size:9pt;line-height:1.65;margin-bottom:8px;
+  padding-left:24px;text-indent:-24px}
+.bib-entry .be-type{display:inline-block;background:#1B2A4A;color:#fff;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:7pt;font-weight:700;
+  border-radius:2px;padding:0 5px;margin-right:4px;vertical-align:middle;text-indent:0}
+
+/* ─── Footer ─── */
+.ch-footer{background:#1B2A4A;color:rgba(255,255,255,.55);padding:7px .7in;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:7.5pt;
+  display:flex;justify-content:space-between}
+.ch-footer strong{color:#C9A227}
+
+/* ─── License strip ─── */
+.license-strip{background:#f5f7fa;border-top:1px solid #ddd;padding:5px .7in;
+  font-family:'Source Sans 3',Arial,sans-serif;font-size:7.5pt;color:#888;
+  display:flex;justify-content:space-between;align-items:center}
+.pd-badge{display:inline-block;background:#eaf3de;color:#27500A;font-size:7pt;
+  font-weight:700;border-radius:2px;padding:1px 6px;margin-left:4px}
+.cc0-badge{display:inline-block;background:#dce9f7;color:#1B2A4A;font-size:7pt;
+  font-weight:700;border-radius:2px;padding:1px 6px;margin-left:4px}
+
+/* Clearfix */
+.cf::after{content:"";display:table;clear:both}
+
+
+/* ─────────────────────────────────────────────────────────────
+   ACCESSIBILITY: Screen-reader-only data tables for SVG charts.
+   SVGs used for data visualization MUST have an equivalent
+   <table class="sr-only-table"> immediately following the SVG
+   container for WCAG 2.1 AA compliance.
+   Target: WCAG 2.1 AA — Success Criterion 1.1.1 (Non-text Content)
+   Verification: WAVE automated audit + manual screen-reader check.
+   ───────────────────────────────────────────────────────────── */
+.sr-only-table {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+.sr-only-table caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+</style>
+</head>
+<body>
+<button class="no-print" onclick="window.print()">⎙ Print Chapter</button>
+<!-- ══════════════════════════ CHAPTER HEADER ══════════════════════════ -->
+<div class="chapter-banner">
+<div class="ch-eyebrow">Unit 5  ·  1929–1941  ·  TroopToTeacher Technologies LLC</div>
+<h1>Crisis and Response:<br/>The Great Depression &amp; The New Deal</h1>
+<div class="ch-era">U.S. History: Reconstruction to Present  ·  Grades 9–12</div>
+</div>
+<div class="std-bar">
+<span>Standards: US.39 · US.40 · US.41 · US.42 · US.43 · US.44</span>
+<span>SSPs: SSP.01 · SSP.04 · SSP.05 · SSP.06</span>
+<span>Estimated Days: 16  ·  Tennessee Connection: TVA</span>
+</div>
+<!-- ══════════════════════════ PAGE 1: UNIT META + INTRO ══════════════════════════ -->
+<div class="pg">
+<!-- Standards alignment -->
+<h2>Standards &amp; Learning Targets</h2>
+<table class="std-table">
+<tr><th>Standard</th><th>Description</th><th>SSP</th><th>EOC Frequency 2021–2025</th></tr>
+<tr>
+<td><span class="std-code">US.39</span></td>
+<td>Analyze the multiple causes of the Great Depression including overproduction, buying on credit, stock speculation, weak banking practices, and the Smoot-Hawley Tariff</td>
+<td><span class="ssp-code">SSP.05</span></td>
+<td>5/5 years 🔴 HIGHEST PRIORITY</td>
+</tr>
+<tr>
+<td><span class="std-code">US.40</span></td>
+<td>Describe the social and geographic impact of the Dust Bowl including the experiences of the "Okies" and other internal migrants</td>
+<td><span class="ssp-code">SSP.06</span></td>
+<td>1/5 years</td>
+</tr>
+<tr>
+<td><span class="std-code">US.41</span></td>
+<td>Explain how the Great Depression affected the lives of ordinary Americans including unemployment, Hoovervilles, breadlines, and the psychological toll</td>
+<td><span class="ssp-code">SSP.05</span></td>
+<td>2/5 years</td>
+</tr>
+<tr>
+<td><span class="std-code">US.42</span></td>
+<td>Evaluate Herbert Hoover's response to the Depression including rugged individualism, the RFC, and the Bonus Army; explain why his approach was insufficient</td>
+<td><span class="ssp-code">SSP.04</span></td>
+<td>4/5 years 🟠 HIGH PRIORITY</td>
+</tr>
+<tr>
+<td><span class="std-code">US.43</span></td>
+<td>Describe the New Deal programs (TVA, CCC, FDIC, PWA, SEC, Social Security Act) and evaluate their effectiveness; include Tennessee Valley Authority as required content</td>
+<td><span class="ssp-code">SSP.01, SSP.04</span></td>
+<td>5/5 years 🔴 HIGHEST PRIORITY</td>
+</tr>
+<tr>
+<td><span class="std-code">US.44</span></td>
+<td>Analyze criticisms of the New Deal from both left (Huey Long, Francis Townsend) and right (American Liberty League, court-packing); explain what the debate reveals about American political values</td>
+<td><span class="ssp-code">SSP.04</span></td>
+<td>3/5 years 🟠 HIGH PRIORITY</td>
+</tr>
+</table>
+<div class="meta-grid">
+<div class="meta-box">
+<div class="mb-label">Essential Question</div>
+<p class="eq">When the free market catastrophically fails, what obligations does the government have to its citizens — and how do we balance economic freedom with economic security?</p>
+</div>
+<div class="meta-box">
+<div class="mb-label">Tennessee Required Content — US.43</div>
+<ul>
+<li>Tennessee Valley Authority (TVA), established May 18, 1933</li>
+<li>Norris Dam — first TVA dam, completed 1936</li>
+<li>Rural electrification: only 3% of Tennessee farms had electricity in 1933</li>
+<li>TVA headquarters: Knoxville, Tennessee (current)</li>
+</ul>
+</div>
+<div class="meta-box">
+<div class="mb-label">Supporting Questions</div>
+<ul>
+<li>What caused the Great Depression — and was it preventable?</li>
+<li>Why was Hoover's response insufficient?</li>
+<li>What did the New Deal do, and what did it leave undone?</li>
+<li>How did the Depression permanently change government's role?</li>
+</ul>
+</div>
+<div class="meta-box">
+<div class="mb-label">Key Vocabulary (Concept-First)</div>
+<p style="font-size:9pt">Introduced AFTER conceptual exploration: speculation · buying on margin · bank run · deflation · rugged individualism · Bonus Army · New Deal · alphabet agencies · TVA · Social Security · court packing · Keynesian economics</p>
+</div>
+</div>
+<!-- ══════════════════════════ SECTION 1: CAUSES ══════════════════════════ -->
+<h2>Section 1: The Crash and Its Causes (US.39)</h2>
+<div class="two-col w60 cf">
+<div>
+<p>On October 29, 1929 — a day that would become known as <span class="vocab">Black Tuesday</span> — the New York Stock Exchange lost approximately 12% of its value in a single day of trading. The collapse was not sudden; it was the culmination of structural weaknesses that had been building throughout the apparent prosperity of the 1920s. Understanding the Depression requires understanding why a stock market crash became a decade-long economic catastrophe.</p>
+<p>The first cause was <span class="vocab">overproduction</span>. American factories and farms had been producing more goods than consumers could afford to buy. During the 1920s, this imbalance was masked by advertising, installment buying, and credit — consumers purchased goods they could not actually afford. When credit dried up, demand collapsed.</p>
+<p>The second cause was <span class="vocab">buying on margin</span> — purchasing stocks with borrowed money, paying only 10–15% of the stock's price and borrowing the rest. When stock prices fell, investors could not repay their loans, triggering bank failures across the country.</p>
+</div>
+<div>
+<figure>
+<img alt="Crowd gathering outside the New York Stock Exchange after the 1929 crash" onerror="this.style.background='#1B2A4A';this.style.minHeight='160px';this.style.display='flex';this.alt=''" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Crowd_outside_nyse.jpg/640px-Crowd_outside_nyse.jpg"/>
+<figcaption>
+<span class="fig-title">Crowds gather outside the New York Stock Exchange, October 1929</span>
+    Investors crowd outside the NYSE following the stock market crash. The panic selling of October 24–29, 1929 wiped out billions in paper wealth and triggered a cascading crisis throughout the banking system.
+    <span class="fig-source">Source: Wikimedia Commons. Originally from the U.S. National Archives and Records Administration (NARA).</span>
+<span class="fig-license">PUBLIC DOMAIN</span>
+</figcaption>
+</figure>
+</div>
+</div>
+<!-- Unemployment Chart (SVG) -->
+<div class="chart-block">
+<div class="chart-title" id="fig51-table-caption">
+<span>Figure 5.1 — U.S. Unemployment Rate, 1925–1945</span>
+<span class="ct-src">Source: U.S. Bureau of Labor Statistics; Lebergott, Stanley. Manpower in Economic Growth. 1964.</span>
+</div>
+<div class="chart-wrap">
+<svg aria-labelledby="fig51-table-caption" focusable="false" role="img" style="width:100%;display:block" viewbox="0 0 720 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<lineargradient id="uGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#8B1A1A" stop-opacity=".35"></stop>
+<stop offset="100%" stop-color="#8B1A1A" stop-opacity=".05"></stop>
+</lineargradient>
+</defs>
+<!-- Grid lines -->
+<line stroke="#ddd" stroke-width="1" x1="60" x2="60" y1="20" y2="170"></line>
+<line stroke="#555" stroke-width="1.5" x1="60" x2="700" y1="170" y2="170"></line>
+<!-- Y-axis labels -->
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="52" y="24">25%</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="52" y="63">20%</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="52" y="102">15%</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="52" y="141">10%</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="52" y="170">5%</text>
+<!-- Grid horizontals -->
+<line stroke="#eee" stroke-width="1" x1="60" x2="700" y1="24" y2="24"></line>
+<line stroke="#eee" stroke-width="1" x1="60" x2="700" y1="63" y2="63"></line>
+<line stroke="#eee" stroke-width="1" x1="60" x2="700" y1="102" y2="102"></line>
+<line stroke="#eee" stroke-width="1" x1="60" x2="700" y1="141" y2="141"></line>
+<!-- Data: years 1925-1945, unemployment rates (approx)
+           1925=3.2, 1926=1.8, 1927=3.3, 1928=4.2, 1929=3.2,
+           1930=8.7, 1931=15.9, 1932=23.6, 1933=24.9, 1934=21.7,
+           1935=20.1, 1936=17.0, 1937=14.3, 1938=19.0, 1939=17.2,
+           1940=14.6, 1941=9.9, 1942=4.7, 1943=1.9, 1944=1.2, 1945=1.9
+           Scale: 25% = y24, 0% = y174
+           pixels per % = (174-24)/25 = 6 -->
+<polygon fill="url(#uGrad)" points="
+        70,155 102,162 134,155 166,150 198,155 
+        230,123 262,78 294,32 326,25 358,42
+        390,50 422,67 454,81 486,56 518,66
+        550,80 582,110 614,146 646,163 678,167 700,163
+        700,170 60,170" stroke="none"></polygon>
+<polyline fill="none" points="
+        70,155 102,162 134,155 166,150 198,155 
+        230,123 262,78 294,32 326,25 358,42
+        390,50 422,67 454,81 486,56 518,66
+        550,80 582,110 614,146 646,163 678,167" stroke="#8B1A1A" stroke-width="2.5"></polyline>
+<!-- Peak annotation -->
+<circle cx="326" cy="25" fill="#8B1A1A" r="4"></circle>
+<text fill="#8B1A1A" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" x="320" y="17">24.9%</text>
+<text fill="#8B1A1A" font-family="Arial" font-size="8" text-anchor="middle" x="320" y="9">1933</text>
+<!-- TVA line -->
+<line stroke="#C9A227" stroke-dasharray="4,3" stroke-width="1.5" x1="358" x2="358" y1="20" y2="170"></line>
+<text fill="#C9A227" font-family="Arial" font-size="7.5" font-weight="bold" x="362" y="30">TVA Act</text>
+<text fill="#C9A227" font-family="Arial" font-size="7.5" x="362" y="39">1933</text>
+<!-- Crash line -->
+<line stroke="#666" stroke-dasharray="3,2" stroke-width="1" x1="198" x2="198" y1="20" y2="170"></line>
+<text fill="#666" font-family="Arial" font-size="7" x="202" y="160">Crash 1929</text>
+<!-- WWII line -->
+<line stroke="#1B2A4A" stroke-dasharray="3,2" stroke-width="1" x1="582" x2="582" y1="20" y2="170"></line>
+<text fill="#1B2A4A" font-family="Arial" font-size="7" x="586" y="160">WWII 1941</text>
+<!-- X-axis years -->
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="70" y="183">1925</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="198" y="183">1929</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="326" y="183">1933</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="454" y="183">1937</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="582" y="183">1941</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="678" y="183">1945</text>
+<!-- Y-axis title -->
+<text fill="#555" font-family="Arial" font-size="8" text-anchor="middle" transform="rotate(-90,14,100)" x="14" y="100">Unemployment Rate</text>
+</svg>
+</div><table aria-hidden="false" class="sr-only-table" id="fig51-table">
+<caption>Table: U.S. Unemployment Rate, 1925–1945 (screen reader equivalent of Figure 5.1)</caption>
+<thead><tr><th scope="col">Year</th><th scope="col">Unemployment Rate (%)</th></tr></thead>
+<tbody><tr><td>1925</td><td>3.2</td></tr>
+<tr><td>1926</td><td>1.8</td></tr>
+<tr><td>1927</td><td>3.3</td></tr>
+<tr><td>1928</td><td>4.2</td></tr>
+<tr><td>1929</td><td>3.2</td></tr>
+<tr><td>1930</td><td>8.7</td></tr>
+<tr><td>1931</td><td>15.9</td></tr>
+<tr><td>1932</td><td>23.6</td></tr>
+<tr><td>1933</td><td>24.9 ← Peak</td></tr>
+<tr><td>1934</td><td>21.7</td></tr>
+<tr><td>1935</td><td>20.1</td></tr>
+<tr><td>1936</td><td>17.0</td></tr>
+<tr><td>1937</td><td>14.3</td></tr>
+<tr><td>1938</td><td>19.0</td></tr>
+<tr><td>1939</td><td>17.2</td></tr>
+<tr><td>1940</td><td>14.6</td></tr>
+<tr><td>1941</td><td>9.9</td></tr></tbody>
+</table>
+<div class="chart-note">Unemployment peaked at 24.9% in 1933 — approximately 13 million Americans out of work. Note the impact of New Deal programs (1933–1938) in reducing but not eliminating unemployment, and WWII's final resolution of the Depression. Data: Lebergott (1964); Historical Statistics of the United States (2006).</div>
+</div>
+<p>The third cause was the <strong>weakness of the banking system</strong>. American banks were largely unregulated, overleveraged, and poorly diversified. When depositors panicked and began withdrawing funds — a <span class="vocab">bank run</span> — banks could not meet demand and collapsed. Between 1930 and 1933, approximately 9,000 American banks failed, wiping out the savings of millions of ordinary Americans. The FDIC did not yet exist; there was no government insurance protecting deposits.</p>
+<p>The fourth cause was the <strong>Smoot-Hawley Tariff Act of 1930</strong>, which raised tariffs on over 20,000 imported goods to historic levels. Rather than protecting American industry, the tariff triggered retaliatory tariffs from trading partners, collapsing international trade by roughly 65% between 1929 and 1934. <span class="vocab">Deflation</span> — falling prices across the economy — made it impossible for farmers and businesses to repay debts, triggering a spiral of foreclosures and business failures.</p>
+<!-- Bank failures chart -->
+<div class="chart-block">
+<div class="chart-title" id="fig52-table-caption">
+<span>Figure 5.2 — U.S. Bank Failures, 1929–1934</span>
+<span class="ct-src">Source: Federal Deposit Insurance Corporation (FDIC). Annual Report, 1934.</span>
+</div>
+<div class="chart-wrap">
+<svg aria-labelledby="fig52-table-caption" focusable="false" role="img" style="width:100%;display:block" viewbox="0 0 680 160" xmlns="http://www.w3.org/2000/svg">
+<!-- Bars: 1929=659, 1930=1350, 1931=2293, 1932=1453, 1933=4000 (bank holiday), 1934=61 (FDIC created) -->
+<!-- Scale: max 4000, height 130px, so px per unit = 130/4000 = .0325 -->
+<line stroke="#ddd" stroke-width="1" x1="60" x2="60" y1="20" y2="140"></line>
+<line stroke="#555" stroke-width="1.5" x1="60" x2="640" y1="140" y2="140"></line>
+<!-- Y labels -->
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="52" y="24">4,000</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="52" y="57">3,000</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="52" y="90">2,000</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="52" y="124">1,000</text>
+<line stroke="#eee" stroke-width="1" x1="60" x2="640" y1="24" y2="24"></line>
+<line stroke="#eee" stroke-width="1" x1="60" x2="640" y1="57" y2="57"></line>
+<line stroke="#eee" stroke-width="1" x1="60" x2="640" y1="90" y2="90"></line>
+<line stroke="#eee" stroke-width="1" x1="60" x2="640" y1="124" y2="124"></line>
+<!-- Bars -->
+<!-- 1929: 659 → height=21.4 → y=118.6 -->
+<rect fill="#1B2A4A" height="21" opacity=".8" width="70" x="80" y="119"></rect>
+<text fill="#555" font-family="Arial" font-size="8" text-anchor="middle" x="115" y="115">659</text>
+<!-- 1930: 1350 → height=43.9 → y=96.1 -->
+<rect fill="#1B2A4A" height="44" opacity=".85" width="70" x="180" y="96"></rect>
+<text fill="#555" font-family="Arial" font-size="8" text-anchor="middle" x="215" y="92">1,350</text>
+<!-- 1931: 2293 → height=74.5 → y=65.5 -->
+<rect fill="#8B1A1A" height="74" opacity=".8" width="70" x="280" y="66"></rect>
+<text fill="#555" font-family="Arial" font-size="8" text-anchor="middle" x="315" y="62">2,293</text>
+<!-- 1932: 1453 → height=47.2 → y=92.8 -->
+<rect fill="#8B1A1A" height="47" opacity=".75" width="70" x="380" y="93"></rect>
+<text fill="#555" font-family="Arial" font-size="8" text-anchor="middle" x="415" y="89">1,453</text>
+<!-- 1933: 4000 → height=130 → y=10 -->
+<rect fill="#8B1A1A" height="130" width="70" x="480" y="10"></rect>
+<text fill="#8B1A1A" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" x="515" y="7">~4,000</text>
+<!-- 1934 (after FDIC): 61 → height=2 → y=138 -->
+<rect fill="#27500A" height="2" width="40" x="580" y="138"></rect>
+<text fill="#27500A" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" x="600" y="133">61</text>
+<!-- X labels -->
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="115" y="152">1929</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="215" y="152">1930</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="315" y="152">1931</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="415" y="152">1932</text>
+<text fill="#8B1A1A" font-family="Arial" font-size="8.5" font-weight="bold" text-anchor="middle" x="515" y="152">1933*</text>
+<text fill="#27500A" font-family="Arial" font-size="8.5" font-weight="bold" text-anchor="middle" x="600" y="152">1934†</text>
+<!-- Legend -->
+<rect fill="#8B1A1A" height="7" width="10" x="380" y="155"></rect>
+<text fill="#666" font-family="Arial" font-size="7.5" x="393" y="162">* Bank Holiday declared March 1933</text>
+<rect fill="#27500A" height="7" width="10" x="490" y="155"></rect>
+<text fill="#27500A" font-family="Arial" font-size="7.5" font-weight="bold" x="503" y="162">† FDIC created; insured deposits</text>
+</svg>
+</div><table aria-hidden="false" class="sr-only-table" id="fig52-table">
+<caption>Table: U.S. Bank Failures, 1929–1934 (screen reader equivalent of Figure 5.2)</caption>
+<thead><tr><th scope="col">Year</th><th scope="col">Banks Failed</th><th scope="col">Notes</th></tr></thead>
+<tbody><tr><td>1929</td><td>659</td><td>Pre-Depression</td></tr>
+<tr><td>1930</td><td>1,350</td><td>Depression begins</td></tr>
+<tr><td>1931</td><td>2,293</td><td>Crisis accelerates</td></tr>
+<tr><td>1932</td><td>1,453</td><td>Partial recovery</td></tr>
+<tr><td>1933</td><td>~4,000</td><td>Bank Holiday declared March 1933</td></tr>
+<tr><td>1934</td><td>61</td><td>FDIC created — deposit insurance</td></tr></tbody>
+</table>
+<div class="chart-note">After the FDIC's creation in 1933, bank failures dropped from nearly 4,000 to 61 in 1934. This single regulatory intervention — insuring deposits — eliminated the panic-driven bank run as a systemic threat. Source: FDIC Annual Report (1934); Federal Reserve Historical Statistics.</div>
+</div>
+</div><!-- end pg -->
+<div class="ch-footer"><div><strong>TroopToTeacher Technologies LLC</strong>  ·  Unit 5: Great Depression &amp; New Deal</div><div>Section 1: Causes  ·  Standards US.39–US.41</div></div>
+<!-- ══════════════════════════ PAGE 2: DUST BOWL + HOOVER ══════════════════════════ -->
+<div class="pg page-break">
+<h2 data-historical-skill="CAUSATION">Section 2: The Human Cost — Dust Bowl and Ordinary Americans (US.40–US.41)<span class="hist-skill-label" style="margin-left:8px;font-size:7.5pt;font-weight:700;background:#2A3F5E;color:#fff;border-radius:2px;padding:1px 6px;font-family:Arial,sans-serif;letter-spacing:.05em;">[CAUSATION]</span></h2>
+<div class="cf">
+<div class="sidebar">
+<div class="sb-title">🌳 Geographic Awareness — SSP.06</div>
+<p style="margin-bottom:6px">The Dust Bowl primarily affected: Oklahoma, Kansas, Texas Panhandle, Colorado, New Mexico.</p>
+<p style="margin-bottom:6px">Tennessee was NOT in the Dust Bowl, but was severely affected by the broader agricultural depression. Tennessee farm income fell approximately 50% between 1929 and 1932.</p>
+<p style="margin-bottom:0">The TVA (see Section 3) addressed Tennessee's agricultural crisis through rural electrification, flood control, and economic development along the Tennessee River valley.</p>
+</div>
+<p>The human cost of the Depression was not an abstraction. It was experienced in the daily lives of millions of Americans who had done nothing to cause the crisis. By 1932, approximately one in four American workers was unemployed — roughly 13 million people. Millions more were underemployed, working part-time for reduced wages. Breadlines stretched for blocks in every major American city. <span class="vocab">Hoovervilles</span> — shantytowns of improvised shelters built by homeless Americans — appeared in public parks across the country, mockingly named after the president whose policies had failed to stem the crisis.</p>
+<p>The <span class="vocab">Dust Bowl</span> compounded the agricultural depression that had already devastated rural America throughout the 1920s. A combination of drought, overplowing that had destroyed the native grasslands' root systems, and fierce winds turned approximately 100 million acres of the southern Great Plains into a dust-blown wasteland. Between 1930 and 1940, an estimated 3.5 million people — the "Okies" — fled the Dust Bowl states for California and other destinations, becoming the largest internal migration in American history since the Civil War.</p>
+</div>
+<!-- Migrant Mother -->
+<figure>
+<img alt="Migrant Mother by Dorothea Lange, 1936 — Florence Owens Thompson with children" onerror="this.style.background='#2a2a2a';this.style.minHeight='200px'" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Lange-MigrantMother02.jpg/480px-Lange-MigrantMother02.jpg" style="max-height:380px;object-position:center"/>
+<figcaption>
+<span class="fig-title">"Migrant Mother" — Dorothea Lange, February or March 1936, Nipomo, California</span>
+    Florence Owens Thompson, age 32, photographed at a pea-pickers' camp. A migrant worker and mother of seven children, Thompson had just sold the tires from her car to buy food. This photograph, taken for the Farm Security Administration (FSA), became the defining image of the Great Depression. It was published in a San Francisco newspaper within days of being taken, prompting the federal government to send 20,000 pounds of food to the camp.
+    <span class="fig-source">Source: Library of Congress, Prints and Photographs Division. Reproduction number LC-DIG-fsa-8b29516. Farm Security Administration.</span>
+<span class="fig-license">PUBLIC DOMAIN — U.S. Government Work</span>
+</figcaption>
+</figure>
+<!-- PRIMARY SOURCE SPOTLIGHT -->
+<div class="pss" data-assessment-type="formative" data-historical-skill="CONTEXTUALIZATION">
+<div class="pss-hdr">
+    Primary Source Spotlight <div class="pss-type">SSP.01 · SSP.02</div>
+</div>
+<div class="pss-body">
+<h4 data-historical-skill="CAUSATION" style="color:#1B2A4A;font-family:'Source Sans 3',Arial,sans-serif;margin-bottom:8px">Herbert Hoover on Rugged Individualism (US.42)<span class="hist-skill-label" style="margin-left:8px;font-size:7.5pt;font-weight:700;background:#2A3F5E;color:#fff;border-radius:2px;padding:1px 6px;font-family:Arial,sans-serif;letter-spacing:.05em;">[CAUSATION]</span></h4>
+<div class="soaps">
+<div class="soaps-cell"><div class="sl">Speaker</div>President Herbert Hoover, Republican, former Secretary of Commerce</div>
+<div class="soaps-cell"><div class="sl">Occasion</div>Campaign speech, October 22, 1928 — before the crash; reveals his governing philosophy</div>
+<div class="soaps-cell"><div class="sl">Audience</div>American voters; general public; Republican Party supporters</div>
+<div class="soaps-cell"><div class="sl">Purpose</div>Defend free enterprise and oppose government intervention in the economy</div>
+<div class="soaps-cell"><div class="sl">Subject</div>The proper relationship between government, citizens, and the economy</div>
+</div>
+<div class="pss-doc">
+      "We were challenged with a... choice between the American system of rugged individualism and a European philosophy of diametrically opposed doctrines — doctrines of paternalism and state socialism... The American system is founded upon the conception of self-government... While I can make no claim for having introduced the term 'rugged individualism,' I should be proud to have invented it. It has been the glory of our nation... that it should not be a government of masters, but a government of, by, and for a self-governing people."
+      <span class="pss-citation">— Herbert Hoover, "Rugged Individualism" speech, New York City, October 22, 1928. Public Papers of President Herbert Hoover. Washington, D.C.: Government Printing Office, 1929. Public domain.</span>
+</div>
+<div class="pss-questions">
+<p>Text-Dependent Analysis Questions:</p>
+<ol>
+<li><strong>Sourcing:</strong> This speech was given in 1928 — before the Depression. How does this context affect how we interpret Hoover's later refusal to use federal relief programs? Was his position consistent?</li>
+<li><strong>Contextualization:</strong> Hoover contrasts "American" rugged individualism with "European" paternalism. What specific European policies was he likely referring to? How had WWI changed European governments' economic roles?</li>
+<li><strong>Close Reading:</strong> Hoover says he would be "proud to have invented" the term rugged individualism. What does this reveal about his values? How did the Depression change Americans' reception of this philosophy?</li>
+<li><strong>Corroboration:</strong> Compare Hoover's philosophy in this document with FDR's First Inaugural Address (1933). How do their underlying assumptions about the relationship between government and citizens differ?</li>
+<li><strong>Evaluation (DOK 3):</strong> By 1932, unemployment was 24.9% and 9,000 banks had failed. Was "rugged individualism" an adequate response to this scale of crisis? Construct an argument for or against, using evidence from this document and the unemployment data in Figure 5.1.</li>
+</ol>
+</div>
+</div>
+</div>
+</div><!-- end pg -->
+<div class="ch-footer"><div><strong>TroopToTeacher Technologies LLC</strong>  ·  Unit 5: Great Depression &amp; New Deal</div><div>Section 2: Human Cost · Standard US.40–US.42</div></div>
+<!-- ══════════════════════════ PAGE 3: TVA AND NEW DEAL ══════════════════════════ -->
+<div class="pg page-break">
+<h2 data-historical-skill="CONTEXTUALIZATION">Section 3: The New Deal and the TVA — Tennessee Required Content (US.43)<span class="hist-skill-label" style="margin-left:8px;font-size:7.5pt;font-weight:700;background:#2A3F5E;color:#fff;border-radius:2px;padding:1px 6px;font-family:Arial,sans-serif;letter-spacing:.05em;">[CONTEXTUALIZATION]</span></h2>
+<div class="callout cg"><strong>Tennessee Required Content — TCA and Tennessee Academic Standards</strong> The Tennessee Valley Authority is required content under Tennessee Academic Standard US.43. The TVA is a direct, tangible, and ongoing connection between New Deal history and the lived experience of Tennesseans. Every Tennessee student should know: what the TVA was, why Tennessee was chosen, what it built, what it changed, and why it remains significant today.</div>
+<div class="two-col cf">
+<div>
+<p>Franklin D. Roosevelt took office on March 4, 1933, with the nation at the nadir of the Depression. In his <strong>First Inaugural Address</strong>, he told a terrified nation: "The only thing we have to fear is fear itself." Within 100 days, he had pushed through Congress the most sweeping legislative program in American history — the <span class="vocab">New Deal</span>.</p>
+<p>The New Deal was not a single program or a coherent ideology. It was a pragmatic response to crisis — an experiment in which different agencies tried different approaches. Roosevelt himself described his philosophy as "try something; if it fails, try something else." The New Deal can be understood through three goals: <strong>Relief</strong> (immediate help for the suffering), <strong>Recovery</strong> (stimulating the economy), and <strong>Reform</strong> (preventing future depressions).</p>
+<h3 data-historical-skill="CONTEXTUALIZATION">The Tennessee Valley Authority (TVA)<span class="hist-skill-label" style="margin-left:8px;font-size:7.5pt;font-weight:700;background:#2A3F5E;color:#fff;border-radius:2px;padding:1px 6px;font-family:Arial,sans-serif;letter-spacing:.05em;">[CONTEXTUALIZATION]</span></h3>
+<p>The most transformative New Deal program for Tennessee — and one of the most significant public works projects in American history — was the <span class="vocab">Tennessee Valley Authority</span>, established by the TVA Act signed by President Roosevelt on <strong>May 18, 1933</strong>.</p>
+<p>The Tennessee River valley was chosen for several specific reasons. The region encompassed parts of seven states and included some of the most economically depressed communities in America. In 1933, only approximately <strong>3% of Tennessee farms had electricity</strong>. Flooding along the Tennessee River regularly destroyed crops and homes. The Wilson Dam at Muscle Shoals, Alabama — built during WWI to produce nitrogen for explosives — stood idle, representing an untapped federal investment in hydroelectric potential.</p>
+</div>
+<div>
+<figure>
+<img alt="Norris Dam, the first TVA dam, completed 1936, on the Clinch River in Tennessee" onerror="this.style.background='#1B2A4A';this.style.minHeight='200px'" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/TVA_Norris_Dam.jpg/480px-TVA_Norris_Dam.jpg"/>
+<figcaption>
+<span class="fig-title">Norris Dam, Clinch River, Anderson County, Tennessee — Completed 1936</span>
+    The first dam built by the TVA, Norris Dam was named after Senator George Norris of Nebraska, the principal congressional advocate for federal power in the Tennessee Valley. Construction employed thousands of workers during the Depression and created Norris Lake. The dam is located approximately 25 miles north of Knoxville.
+    <span class="fig-source">Source: Tennessee Valley Authority. TVA Photography Collection. Public domain — Federal government work.</span>
+<span class="fig-license">PUBLIC DOMAIN</span>
+</figcaption>
+</figure>
+<div class="vocab-box">
+<div class="vb-term">Tennessee Valley Authority (TVA)</div>
+<div class="vb-def">A federal corporation established May 18, 1933, authorized to construct dams, generate and sell electricity, control flooding, improve navigation, and promote economic development throughout the Tennessee River valley — an area encompassing parts of Tennessee, Alabama, Mississippi, Kentucky, Virginia, North Carolina, and Georgia. The TVA was a bold experiment in regional development and government-owned utility operation. Headquartered in Knoxville, Tennessee, it remains operational today as the nation's largest public power provider.</div>
+</div>
+</div>
+</div>
+<!-- TVA Impact Chart -->
+<div class="chart-block">
+<div class="chart-title" id="fig53-table-caption">
+<span>Figure 5.3 — TVA Impact: Rural Electrification in Tennessee, 1930–1950</span>
+<span class="ct-src">Source: TVA Annual Reports, 1939–1952; U.S. Census Bureau, Census of Agriculture.</span>
+</div>
+<div class="chart-wrap">
+<svg aria-labelledby="fig53-table-caption" focusable="false" role="img" style="width:100%;display:block" viewbox="0 0 680 150" xmlns="http://www.w3.org/2000/svg">
+<!-- % of TN farms with electricity: 1930=2%, 1935=7%, 1940=25%, 1945=50%, 1950=82% -->
+<!-- Scale: 100% = 20px, 0% = 130px, px per % = 1.1 -->
+<line stroke="#ddd" stroke-width="1" x1="80" x2="80" y1="20" y2="130"></line>
+<line stroke="#555" stroke-width="1.5" x1="80" x2="640" y1="130" y2="130"></line>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="72" y="24">100%</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="72" y="57">75%</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="72" y="90">50%</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="end" x="72" y="123">25%</text>
+<line stroke="#eee" stroke-width="1" x1="80" x2="640" y1="24" y2="24"></line>
+<line stroke="#eee" stroke-width="1" x1="80" x2="640" y1="57" y2="57"></line>
+<line stroke="#eee" stroke-width="1" x1="80" x2="640" y1="90" y2="90"></line>
+<line stroke="#eee" stroke-width="1" x1="80" x2="640" y1="123" y2="123"></line>
+<!-- Area fill -->
+<polygon fill="#C9A227" opacity=".2" points="130,128 234,121 338,103 442,75 546,42 640,28 640,130 130,130"></polygon>
+<polyline fill="none" points="130,128 234,121 338,103 442,75 546,42 640,28" stroke="#C9A227" stroke-width="2.5"></polyline>
+<!-- Data points -->
+<circle cx="130" cy="128" fill="#C9A227" r="4"></circle>
+<circle cx="234" cy="121" fill="#C9A227" r="4"></circle>
+<circle cx="338" cy="103" fill="#C9A227" r="4"></circle>
+<circle cx="442" cy="75" fill="#C9A227" r="4"></circle>
+<circle cx="546" cy="42" fill="#C9A227" r="4"></circle>
+<circle cx="640" cy="28" fill="#C9A227" r="4"></circle>
+<!-- Labels -->
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="130" y="142">1930</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="234" y="142">1935</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="338" y="142">1940</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="442" y="142">1945</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="546" y="142">1950</text>
+<text fill="#666" font-family="Arial" font-size="8" text-anchor="middle" x="640" y="142">1955</text>
+<text fill="#633806" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" x="130" y="121">3%</text>
+<text fill="#633806" font-family="Arial" font-size="8" text-anchor="middle" x="234" y="114">7%</text>
+<text fill="#633806" font-family="Arial" font-size="8" text-anchor="middle" x="338" y="96">25%</text>
+<text fill="#633806" font-family="Arial" font-size="8" text-anchor="middle" x="442" y="68">50%</text>
+<text fill="#633806" font-family="Arial" font-size="8" text-anchor="middle" x="546" y="35">82%</text>
+<!-- TVA marker -->
+<line stroke="#1B2A4A" stroke-dasharray="4,2" stroke-width="1.5" x1="200" x2="200" y1="20" y2="130"></line>
+<text fill="#1B2A4A" font-family="Arial" font-size="7.5" font-weight="bold" x="204" y="32">TVA</text>
+<text fill="#1B2A4A" font-family="Arial" font-size="7.5" x="204" y="41">est. 1933</text>
+</svg>
+</div><table aria-hidden="false" class="sr-only-table" id="fig53-table">
+<caption>Table: TVA Rural Electrification in Tennessee, 1930–1955 (screen reader equivalent of Figure 5.3)</caption>
+<thead><tr><th scope="col">Year</th><th scope="col">% of TN Farms with Electricity</th></tr></thead>
+<tbody><tr><td>1930</td><td>3%</td></tr>
+<tr><td>1935</td><td>7%</td></tr>
+<tr><td>1940</td><td>25%</td></tr>
+<tr><td>1950</td><td>82%</td></tr>
+<tr><td>1955</td><td>~90%</td></tr></tbody>
+</table>
+<div class="chart-note">Before the TVA, only 3% of Tennessee farms had electricity. By 1950, 82% did — a transformation accomplished in less than two decades that changed daily life, agricultural productivity, and economic opportunity for millions of Tennesseans. Data: TVA Annual Reports; U.S. Census of Agriculture.</div>
+</div>
+<!-- New Deal Programs Table -->
+<h3 data-historical-skill="CCOT">Major New Deal Programs — Relief, Recovery, and Reform<span class="hist-skill-label" style="margin-left:8px;font-size:7.5pt;font-weight:700;background:#2A3F5E;color:#fff;border-radius:2px;padding:1px 6px;font-family:Arial,sans-serif;letter-spacing:.05em;">[CCOT]</span></h3>
+<table class="std-table" style="font-size:8.5pt">
+<tr><th>Program / Acronym</th><th>Year</th><th>Category</th><th>What It Did</th><th>Legacy</th></tr>
+<tr><td>FDIC — Federal Deposit Insurance Corp.</td><td>1933</td><td>Reform</td><td>Insured bank deposits up to $2,500; eliminated bank runs</td><td>Still operational; insures up to $250,000 today</td></tr>
+<tr><td>TVA — Tennessee Valley Authority</td><td>1933</td><td>Recovery + Reform</td><td>Dams, flood control, rural electrification in Tennessee valley</td><td>Largest public power provider in U.S.; HQ Knoxville, TN</td></tr>
+<tr><td>CCC — Civilian Conservation Corps</td><td>1933</td><td>Relief</td><td>Employed 3 million young men in conservation projects</td><td>Planted 3 billion trees; built 800 state parks</td></tr>
+<tr><td>PWA — Public Works Administration</td><td>1933</td><td>Recovery</td><td>Funded large-scale public construction: roads, dams, bridges</td><td>Built 70% of new schools and 65% of courthouses built 1933–39</td></tr>
+<tr><td>SEC — Securities Exchange Commission</td><td>1934</td><td>Reform</td><td>Regulated stock market; required disclosure; prevented fraud</td><td>Still operational; regulates Wall Street today</td></tr>
+<tr><td>Social Security Act</td><td>1935</td><td>Reform</td><td>Old-age pensions, unemployment insurance, disability benefits</td><td>Still operational; most consequential New Deal program</td></tr>
+<tr><td>NLRA — National Labor Relations Act</td><td>1935</td><td>Reform</td><td>Guaranteed workers' right to organize unions; created NLRB</td><td>Foundation of modern U.S. labor law</td></tr>
+<tr><td>WPA — Works Progress Administration</td><td>1935</td><td>Relief</td><td>Employed 8.5 million in construction, arts, education</td><td>WPA murals visible in Tennessee post offices today</td></tr>
+</table>
+</div><!-- end pg -->
+<div class="ch-footer"><div><strong>TroopToTeacher Technologies LLC</strong>  ·  Unit 5: Great Depression &amp; New Deal</div><div>Section 3: The New Deal &amp; TVA · Standard US.43 · Tennessee Required Content</div></div>
+<!-- ══════════════════════════ PAGE 4: TVA MAP PLACEHOLDER + STUDENT ACTIVITY ══════════════════════════ -->
+<div class="pg page-break">
+<!-- TVA Map Placeholder (compliant) -->
+<div class="map-block">
+<div class="map-title">🗺 Figure 5.4 — Tennessee Valley Authority Service Area and Dam System<span style="font-size:8pt;font-weight:400;margin-left:10px;color:#B5D4F4">[Map to be sourced — see compliance note below]</span></div>
+<div style="background:#f5f7fa;padding:24px;text-align:center;border:2px dashed #888;margin:8px">
+<div style="font-size:11pt;font-weight:700;color:#1B2A4A;margin-bottom:8px">TVA Service Area Map</div>
+<div style="font-size:9.5pt;color:#555;margin-bottom:12px">Seven-state region including Tennessee, Alabama, Mississippi,<br/>Kentucky, Virginia, North Carolina, and Georgia — with major dam locations</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:500px;margin:0 auto;text-align:left">
+<div style="background:#eaf3de;border:1px solid #a0cc80;border-radius:4px;padding:8px 10px;font-size:8.5pt">
+<div style="font-weight:700;color:#27500A;margin-bottom:3px">Recommended Source (Free)</div>
+        TVA official map: tva.com/about-tva/our-history<br/>Public domain — Federal government work
+      </div>
+<div style="background:#e8f1fb;border:1px solid #c8d6e8;border-radius:4px;padding:8px 10px;font-size:8.5pt">
+<div style="font-weight:700;color:#1B2A4A;margin-bottom:3px">Alternative (Free)</div>
+        ESRI ArcGIS for Education — GIS-generated map using Census Bureau + USGS data layers
+      </div>
+<div style="background:#fff3c4;border:1px solid #e8d080;border-radius:4px;padding:8px 10px;font-size:8.5pt">
+<div style="font-weight:700;color:#7a5400;margin-bottom:3px">Archive Source</div>
+        NARA: catalog.archives.gov<br/>Search: "Tennessee Valley Authority map 1933"
+      </div>
+<div style="background:#f5f5f5;border:1px solid #ddd;border-radius:4px;padding:8px 10px;font-size:8.5pt">
+<div style="font-weight:700;color:#555;margin-bottom:3px">Commercial Option</div>
+        National Geographic or Rand McNally education license · ~$200–$500
+      </div>
+</div>
+</div>
+<div class="map-note"><strong style="color:#8B1A1A">Compliance Note:</strong> This placeholder replaces an AI-generated map per TDOE policy. Insert the TVA official service area map (public domain federal work) before textbook submission. Cite as: "Source: Tennessee Valley Authority. [Map title]. [Year]. Public domain — Federal government work." See <em>TTT_Map_Sourcing_Guide.html</em> for full sourcing instructions for all 19 unit maps.</div>
+</div>
+<!-- ══ STUDENT ACTIVITY ══ -->
+<div class="activity" data-assessment-type="formative">
+<div class="act-hdr">
+    Student Activity 5.3 — Reproducible Worksheet <div class="act-type">SSP.04 · SSP.06 · DOK 2–3</div>
+</div>
+<div class="act-body">
+<div class="act-meta">Standards: US.43 · TVA and New Deal Programs · Estimated time: 25–30 minutes</div>
+<div class="student-info">
+<div><div class="si-field"> </div><div class="si-label">Student Name</div></div>
+<div><div class="si-field"> </div><div class="si-label">Date</div></div>
+<div><div class="si-field"> </div><div class="si-label">Period</div></div>
+</div>
+<div class="act-q" data-assessment-type="formative" data-priority="essential">
+<div class="aq-num">Part A — Multiple Choice (2 pts each)</div>
+</div>
+<div class="act-q" data-assessment-type="formative" data-priority="essential">
+<div class="aq-num">1.</div>
+<p>The Tennessee Valley Authority (TVA) was significant because it —</p>
+<div class="option"><span class="opt-l">A.</span> Was the first dam ever built in the United States</div>
+<div class="option"><span class="opt-l">B.</span> Brought hydroelectric power, flood control, and economic development to a seven-state region that included some of the poorest communities in America</div>
+<div class="option"><span class="opt-l">C.</span> Replaced all private utility companies across the South</div>
+<div class="option"><span class="opt-l">D.</span> Was created during World War II to power munitions factories</div>
+</div>
+<div class="act-q" data-assessment-type="formative" data-priority="essential">
+<div class="aq-num">2.</div>
+<p>Which New Deal program most directly addressed the problem of unregulated banking that helped cause the Depression?</p>
+<div class="option"><span class="opt-l">A.</span> The CCC — Civilian Conservation Corps</div>
+<div class="option"><span class="opt-l">B.</span> The WPA — Works Progress Administration</div>
+<div class="option"><span class="opt-l">C.</span> The FDIC — Federal Deposit Insurance Corporation</div>
+<div class="option"><span class="opt-l">D.</span> The TVA — Tennessee Valley Authority</div>
+</div>
+<div class="act-q" data-assessment-type="formative" data-priority="essential">
+<div class="aq-num">3.</div>
+<p>According to Figure 5.2 (Bank Failures chart), what happened to bank failures immediately after the FDIC was created in 1933?</p>
+<div class="option"><span class="opt-l">A.</span> Bank failures increased because customers trusted the government too much</div>
+<div class="option"><span class="opt-l">B.</span> Bank failures dropped dramatically — from approximately 4,000 to 61 in just one year</div>
+<div class="option"><span class="opt-l">C.</span> Bank failures remained at the same level until World War II</div>
+<div class="option"><span class="opt-l">D.</span> All banks were closed permanently by the government</div>
+</div>
+<div class="act-q" data-assessment-type="formative" data-priority="essential">
+<div class="aq-num">4. (DOK 2)</div>
+<p>Herbert Hoover's philosophy of "rugged individualism" meant that he believed —</p>
+<div class="option"><span class="opt-l">A.</span> The government should provide direct relief to all unemployed Americans immediately</div>
+<div class="option"><span class="opt-l">B.</span> Americans should solve economic problems through personal effort, not government assistance</div>
+<div class="option"><span class="opt-l">C.</span> The Depression was caused by foreign governments and could only be solved through tariffs</div>
+<div class="option"><span class="opt-l">D.</span> The president had no constitutional authority to address economic problems</div>
+</div>
+<div class="act-q" data-assessment-type="formative" data-priority="essential">
+<div class="aq-num">Part B — Short Answer (8 pts each). Write in complete sentences.</div>
+</div>
+<div class="act-q" data-assessment-type="formative" data-priority="essential">
+<div class="aq-num">5. Using Figure 5.3 (TVA Electrification chart), describe what changed for Tennessee farm families between 1930 and 1950. Why was electricity significant — what specific differences would it make to daily farm life?</div>
+<span class="write-line"></span><span class="write-line"></span><span class="write-line"></span><span class="write-line"></span>
+</div>
+<div class="act-q" data-assessment-type="formative" data-priority="essential">
+<div class="aq-num">6. (DOK 3) Map Analysis — Figure 5.4: Why was the Tennessee River valley a logical location for a federal hydroelectric project? Use at least TWO specific geographic features shown on the map in your answer.</div>
+<span class="write-line"></span><span class="write-line"></span><span class="write-line"></span><span class="write-line"></span>
+</div>
+<div class="act-q" data-assessment-type="summative" data-historical-skill="CAUSATION" data-priority="essential" data-requires-synthesis="true">
+<div class="aq-num">Part C — Document Analysis (DOK 3, 12 pts)</div>
+<p>Re-read Hoover's "Rugged Individualism" quote in the Primary Source Spotlight. Then answer:</p><p class="synthesis-trigger" style="background:#f0f5fb;border-left:3px solid #1B2A4A;padding:6px 10px;margin:6px 0;font-size:9pt;font-style:italic;color:#1B2A4A;">📎 Synthesis requirement: Your argument must draw on both a primary source (Hoover or FDR) and the unemployment data in Figure 5.1, and must explain what the document and the data together reveal that neither source could show alone.</p>
+<p><strong>Construct an argument:</strong> Do you agree with Hoover's philosophy that government should not provide direct relief to suffering Americans? Use the unemployment data from Figure 5.1 AND one specific New Deal program to support your position.</p>
+<span class="write-line"></span><span class="write-line"></span><span class="write-line"></span><span class="write-line"></span><span class="write-line"></span><span class="write-line"></span>
+</div>
+</div>
+</div>
+</div><!-- end pg -->
+<div class="ch-footer"><div><strong>TroopToTeacher Technologies LLC</strong>  ·  Unit 5: Great Depression &amp; New Deal</div><div>TVA Map · Student Activity 5.3 · Standard US.43</div></div>
+<!-- ══════════════════════════ PAGE 5: ANSWER KEY + BIBLIOGRAPHY ══════════════════════════ -->
+<div class="pg page-break">
+<!-- ANSWER KEY -->
+
+<div class="priority-teaching-guide" data-section="teacher-only" style="border:2px solid #C9A227;border-radius:4px;margin:18px 0;overflow:hidden">
+<div style="background:#C9A227;color:#3D2200;padding:6px 14px;font-family:Arial,sans-serif;
+              font-size:9.5pt;font-weight:700;display:flex;justify-content:space-between;
+              align-items:center">
+    Priority Teaching Guide — Unit 5
+    <span style="font-size:8pt;background:#1B2A4A;color:#fff;border-radius:2px;
+                 padding:1px 8px">TEACHER COPY</span>
+</div>
+<div style="padding:10px 14px;font-family:Arial,sans-serif;font-size:9pt;
+              display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px">
+<div>
+<div style="font-weight:700;color:#27500A;font-size:8.5pt;text-transform:uppercase;
+                  letter-spacing:.07em;margin-bottom:5px">✓ Essential</div>
+<ul style="margin-left:14px;color:#333;line-height:1.6">
+<li>Figure 5.1 unemployment chart discussion — core economic literacy</li><li>Hoover primary source + chart synthesis [CAUSATION] — Part C Activity 5.3</li><li>TVA map: Figure 5.4 geographic analysis [CONTEXTUALIZATION] — Tennessee required content</li>
+</ul>
+</div>
+<div>
+<div style="font-weight:700;color:#7a5400;font-size:8.5pt;text-transform:uppercase;
+                  letter-spacing:.07em;margin-bottom:5px">⚡ Compress</div>
+<ul style="margin-left:14px;color:#555;line-height:1.6">
+<li>Figure 5.2 bank failures detail — reference in discussion; skip full chart analysis</li><li>New Deal programs table — assign as reading; cover only FDIC and TVA in class</li>
+</ul>
+</div>
+<div>
+<div style="font-weight:700;color:#888;font-size:8.5pt;text-transform:uppercase;
+                  letter-spacing:.07em;margin-bottom:5px">↷ Skip</div>
+<ul style="margin-left:14px;color:#888;line-height:1.6">
+<li>Figure 5.3 extended electrification data — reference TVA note; skip unless time allows</li>
+</ul>
+</div>
+</div>
+<div style="background:#f5f7fa;border-top:1px solid #ddd;padding:5px 14px;
+              font-family:Arial,sans-serif;font-size:8pt;color:#666;font-style:italic">
+    If this unit is running more than 3 days over estimate, use Essential items only
+    and assign Compress items as independent reading with a one-paragraph reflection.
+  </div>
+</div><div class="answer-key" data-assessment-type="summative" data-priority="essential">
+<div class="ak-hdr">
+    Student Activity 5.3 — Answer Key &amp; Scoring Guide
+    <div class="ak-tag">TEACHER COPY ONLY — Do Not Distribute</div>
+</div>
+<div class="ak-body">
+<p style="font-weight:700;color:#6B1020;margin-bottom:8px;font-size:9.5pt">Part A — Multiple Choice Answer Key</p>
+<div class="ak-grid">
+<div class="ak-item">1. <span>B</span></div>
+<div class="ak-item">2. <span>C</span></div>
+<div class="ak-item">3. <span>B</span></div>
+<div class="ak-item">4. <span>B</span></div>
+</div>
+<div style="font-family:'Source Sans 3',Arial,sans-serif;font-size:8.5pt;margin-bottom:12px;color:#555">
+<strong style="color:#1B2A4A">Distractor Analysis:</strong>
+      Q1-A: Wilson Dam was built 1918-1924, not first U.S. dam. Q1-C: TVA was regional, not national; private utilities continued in most areas. Q1-D: TVA Act was 1933 (New Deal), not WWII. 
+      Q2-A: CCC addressed unemployment through conservation work, not banking. Q3-A: Trap — students may remember the Bank Holiday causing closures, but the question asks about the trend.
+      Q4-D: Hoover actually did use some federal tools (RFC); his philosophical objection was to direct relief to individuals.
+    </div>
+<div class="ak-open">
+<div class="ao-q">5. TVA Electrification — Scoring Rubric (8 points)</div>
+<div class="ao-a">
+        Full credit (7-8 pts): Student accurately describes the change from 3% to 82% rural electrification (or uses specific data points from the chart), AND provides at least two specific examples of how electricity changed farm life (e.g., refrigeration, water pumps, electric lights for night work, radio for weather/market information, power tools, preservation of food). 
+        Partial credit (4-6 pts): Accurate description of the trend but only one specific example of impact, or general statement without chart data. 
+        Minimal credit (1-3 pts): Recognizes that electrification increased but cannot describe specific impacts.
+      </div>
+<div class="ao-q">6. Map Analysis — Geography (8 points, DOK 3)</div>
+<div class="ao-a">
+        Full credit (7-8 pts): Student identifies at least TWO specific geographic features from the map (Tennessee River system, river drop in elevation/hydroelectric potential, seven-state watershed, existing Wilson Dam at Muscle Shoals) AND connects them logically to the feasibility of hydroelectric power generation and/or flood control. Strong answers may mention the pre-existing Wilson Dam at Muscle Shoals as proof of concept.
+        Common error: Students may confuse the map with the Dust Bowl region; redirect to the map features shown.
+      </div>
+<div class="ao-q">7. Document Analysis / Argument (12 points, DOK 3)</div>
+<table class="rubric-table">
+<tr><th>Criterion</th><th>4 — Excellent</th><th>3 — Proficient</th><th>2 — Developing</th><th>1 — Beginning</th></tr>
+<tr><td>Claim</td><td>Clear, arguable position stated in first sentence</td><td>Position identifiable but not sharply stated</td><td>Implied position</td><td>No clear position</td></tr>
+<tr><td>Evidence: Figure 5.1</td><td>Cites specific data (24.9%, 1933) and connects to argument</td><td>References unemployment chart accurately</td><td>Vague reference to "high unemployment"</td><td>Does not use chart</td></tr>
+<tr><td>Evidence: New Deal Program</td><td>Specific program named with accurate description of its impact</td><td>Program named; description partially accurate</td><td>Vague reference to "programs"</td><td>No specific program cited</td></tr>
+<tr><td>Reasoning</td><td>Explicitly connects evidence to claim; addresses counterargument</td><td>Connects evidence to claim</td><td>Lists evidence without explanation</td><td>No connection made</td></tr>
+</table>
+<div class="ao-a" style="margin-top:8px">
+<strong>Model answer (agree with intervention):</strong> "Government intervention was necessary because the scale of the Depression was too large for individuals to solve alone. At its peak in 1933, 24.9% of Americans were unemployed — nearly 1 in 4 workers — through no fault of their own. The FDIC's creation in 1933 demonstrated that government intervention worked: bank failures dropped from 4,000 to just 61 in a single year. Hoover's 'rugged individualism' may have been appropriate in normal times, but when markets fail this catastrophically, only collective action through government can restore stability."
+        
+        <strong>Model answer (challenge intervention):</strong> "While the New Deal programs helped reduce suffering, government intervention created long-term dependencies and fiscal problems that outlasted the Depression. The unemployment chart shows that despite years of New Deal programs, unemployment was still 17% in 1939 — only WWII finally ended the Depression. This suggests that government spending alone cannot restore a market economy; the underlying economic mechanisms must recover."
+        
+        <strong>Note:</strong> Both arguments are acceptable. Award full credit for any well-supported argument using the specified evidence, regardless of which position the student takes.
+      </div>
+</div>
+</div>
+</div>
+<!-- ACADEMIC BIBLIOGRAPHY -->
+<h2 style="margin-top:20px">Academic Bibliography &amp; Sources Cited</h2>
+<div class="callout cb"><strong>Citation Format</strong> All citations in this textbook use Chicago/Turabian author-date format, consistent with the C3 Framework's emphasis on disciplinary literacy in social studies. Primary sources include full citation information for student use. All government documents and photographs are public domain unless otherwise noted.</div>
+<h4>Primary Sources</h4>
+<p class="bib-entry"><span class="be-type">PRIMARY</span> Bush, George W. "Address to the Nation on the September 11 Attacks." Washington, D.C., September 11, 2001. Miller Center, University of Virginia. https://millercenter.org/the-presidency/presidential-speeches.</p>
+<p class="bib-entry"><span class="be-type">PRIMARY</span> Hoover, Herbert. "Rugged Individualism." Speech delivered in New York City, October 22, 1928. In <em>Public Papers of President Herbert Hoover, 1928–1932</em>. Washington, D.C.: Government Printing Office, 1929. Public domain.</p>
+<p class="bib-entry"><span class="be-type">PRIMARY</span> Roosevelt, Franklin D. "First Inaugural Address." Washington, D.C., March 4, 1933. Franklin D. Roosevelt Presidential Library and Museum. https://www.fdrlibrary.org/. Public domain — U.S. Government document.</p>
+<p class="bib-entry"><span class="be-type">PRIMARY</span> Roosevelt, Franklin D. Tennessee Valley Authority Act, Public Law 73–17, 48 Stat. 58 (May 18, 1933). United States Statutes at Large. Washington, D.C.: Government Printing Office, 1933. Public domain.</p>
+<p class="bib-entry"><span class="be-type">PRIMARY</span> Tennessee Valley Authority. <em>Annual Report</em>. Knoxville, Tennessee: Tennessee Valley Authority, 1939–1952. Public domain — Federal government publications.</p>
+<p class="bib-entry"><span class="be-type">IMAGE</span> Lange, Dorothea. "Migrant Mother, Nipomo, Calif." [Photograph]. February/March 1936. Farm Security Administration. Library of Congress Prints and Photographs Division. LC-DIG-fsa-8b29516. Public domain — U.S. Government work.</p>
+<p class="bib-entry"><span class="be-type">IMAGE</span> Unknown photographer. "Crowd Outside NYSE." [Photograph]. October 1929. U.S. National Archives and Records Administration. Public domain — U.S. Government work.</p>
+<p class="bib-entry"><span class="be-type">IMAGE</span> Tennessee Valley Authority Photography Collection. "Norris Dam." [Photograph]. Anderson County, Tennessee, c. 1936. Public domain — Federal government work.</p>
+<h4>Secondary Sources — Academic</h4>
+<p class="bib-entry"><span class="be-type">BOOK</span> Badger, Anthony J. <em>The New Deal: The Depression Years, 1933–1940</em>. New York: Hill and Wang, 1989.</p>
+<p class="bib-entry"><span class="be-type">BOOK</span> Kennedy, David M. <em>Freedom from Fear: The American People in Depression and War, 1929–1945</em>. New York: Oxford University Press, 1999.</p>
+<p class="bib-entry"><span class="be-type">BOOK</span> Lebergott, Stanley. <em>Manpower in Economic Growth: The American Record Since 1800</em>. New York: McGraw-Hill, 1964. [Unemployment data source for Figure 5.1]</p>
+<p class="bib-entry"><span class="be-type">BOOK</span> Leuchtenburg, William E. <em>Franklin D. Roosevelt and the New Deal, 1932–1940</em>. New York: Harper and Row, 1963.</p>
+<p class="bib-entry"><span class="be-type">BOOK</span> McDonald, Michael J. and John Muldowny. <em>TVA and the Dispossessed: The Resettlement of Population in the Norris Dam Area</em>. Knoxville: University of Tennessee Press, 1982.</p>
+<p class="bib-entry"><span class="be-type">BOOK</span> Patel, Kiran Klaus. <em>The New Deal: A Global History</em>. Princeton: Princeton University Press, 2016.</p>
+<p class="bib-entry"><span class="be-type">BOOK</span> Shlaes, Amity. <em>The Forgotten Man: A New History of the Great Depression</em>. New York: HarperCollins, 2007. [Presents conservative critique of New Deal — useful for US.44 multiple perspectives]</p>
+<p class="bib-entry"><span class="be-type">BOOK</span> Watkins, T.H. <em>The Great Depression: America in the 1930s</em>. Boston: Little, Brown, 1993.</p>
+<h4>Government &amp; Institutional Sources</h4>
+<p class="bib-entry"><span class="be-type">GOVT</span> Federal Deposit Insurance Corporation. <em>FDIC Annual Report, 1934</em>. Washington, D.C.: FDIC, 1934. https://www.fdic.gov/bank/historical/. [Bank failures data — Figure 5.2]</p>
+<p class="bib-entry"><span class="be-type">GOVT</span> Tennessee Valley Authority. "TVA at a Glance." Knoxville, Tennessee: TVA, 2023. https://www.tva.com/. [Current TVA operations and history]</p>
+<p class="bib-entry"><span class="be-type">GOVT</span> United States Bureau of Labor Statistics. <em>Historical Statistics of the United States: Colonial Times to 1970</em>. Washington, D.C.: Government Printing Office, 1975. [Unemployment data — Figure 5.1]</p>
+<p class="bib-entry"><span class="be-type">GOVT</span> United States Census Bureau. <em>Census of Agriculture, 1930, 1940, 1950</em>. Washington, D.C.: Government Printing Office. [Tennessee farm electrification data — Figure 5.3]</p>
+<h4>Tennessee-Specific Sources</h4>
+<p class="bib-entry"><span class="be-type">ARCHIVE</span> Tennessee State Library and Archives (TSLA). "New Deal in Tennessee" Digital Collection. Nashville: TSLA. https://sos.tn.gov/tsla/. [WPA records, CCC records, TVA documentation]</p>
+<p class="bib-entry"><span class="be-type">BOOK</span> Wheeler, William Bruce and Michael J. McDonald. <em>TVA and the Tellico Dam, 1936–1979</em>. Knoxville: University of Tennessee Press, 1986.</p>
+</div><!-- end pg -->
+<div class="license-strip">
+<div>Text © 2026 TroopToTeacher Technologies LLC. All rights reserved.  |  
+    Historical photographs: <span class="pd-badge">PUBLIC DOMAIN</span> — Library of Congress, NARA, TVA  |  
+    Charts/Maps: <span class="pd-badge">© 2026 TTT LLC</span> — Original illustrations
+  </div>
+<div>ISBN: [PENDING REGISTRATION]  ·  Printed in USA</div>
+</div>
+<div class="ch-footer"><div><strong>TroopToTeacher Technologies LLC</strong>  ·  Unit 5: Great Depression &amp; New Deal  ·  © 2026</div><div>Answer Key · Academic Bibliography · Sources Cited</div></div>
+</body>
+</html>

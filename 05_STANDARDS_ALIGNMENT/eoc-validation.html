@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TCAP EOC Alignment Validation — TroopToTeacher Technologies LLC</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#888}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#fff;color:#111;
+  width:8.5in;min-height:11in;
+  margin:.2in auto;
+  padding:.6in .7in .55in;
+  box-shadow:0 2px 20px rgba(0,0,0,.3);
+  font-size:9.5pt;line-height:1.6;
+}
+@page{size:letter portrait;margin:0}
+@media print{
+  html{background:#fff}
+  body{margin:0;box-shadow:none;padding:.55in .65in .5in}
+  .no-print{display:none!important}
+  .page-break{page-break-before:always}
+  table{break-inside:auto}
+  tr{break-inside:avoid}
+}
+.no-print{
+  position:fixed;top:12px;right:12px;
+  background:#1B2A4A;color:#fff;border:none;border-radius:5px;
+  padding:8px 16px;font-size:12px;font-weight:700;cursor:pointer;z-index:99;
+}
+
+/* Letterhead */
+.lh{display:flex;justify-content:space-between;align-items:flex-start;
+    border-bottom:3px solid #1B2A4A;padding-bottom:10px;margin-bottom:12px}
+.lh h1{font-size:13.5pt;font-weight:700;color:#1B2A4A;line-height:1.2}
+.lh .sub{font-size:8.5pt;color:#555;margin-top:3px}
+.lh-right{font-size:8pt;color:#1B2A4A;text-align:right;line-height:1.7;flex-shrink:0;margin-left:16px}
+
+/* Title block */
+.title-block{
+  text-align:center;margin:12px 0 14px;padding:11px 16px;
+  background:#f5f7fa;
+  border-top:2px solid #1B2A4A;border-bottom:2px solid #1B2A4A;
+}
+.title-block .doc-type{font-size:8pt;letter-spacing:.12em;text-transform:uppercase;
+                        color:#6B1020;font-weight:700;margin-bottom:4px}
+.title-block h2{font-size:13pt;font-weight:700;color:#1B2A4A;line-height:1.3;margin-bottom:4px}
+.title-block .applies{font-size:8.5pt;color:#444;font-style:italic}
+
+/* Summary stats */
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:12px 0 16px}
+.stat-box{background:#f5f7fa;border:1px solid #c0cce0;border-radius:4px;
+          padding:10px 12px;text-align:center}
+.stat-box .num{font-size:20pt;font-weight:700;color:#1B2A4A;line-height:1;display:block}
+.stat-box .lbl{font-size:8pt;color:#555;margin-top:3px;line-height:1.4}
+
+/* Callouts */
+.callout{padding:8px 12px;margin:10px 0;border-radius:0 4px 4px 0;font-size:9pt;line-height:1.6}
+.callout-gold{background:#fffdf5;border-left:4px solid #C9A227}
+.callout-blue{background:#f0f5fb;border-left:4px solid #1B2A4A}
+.callout-green{background:#eaf3de;border-left:4px solid #3B6D11}
+.callout-red{background:#fdf0f0;border-left:4px solid #6B1020}
+.callout .ct{font-size:8pt;font-weight:700;text-transform:uppercase;
+             letter-spacing:.06em;display:block;margin-bottom:3px}
+.callout-gold .ct{color:#633806}
+.callout-blue .ct{color:#1B2A4A}
+.callout-green .ct{color:#27500A}
+.callout-red .ct{color:#6B1020}
+
+/* Section headers */
+.section-hdr{
+  background:#1B2A4A;color:#fff;padding:6px 12px;
+  font-size:9.5pt;font-weight:700;margin:16px 0 0;
+  border-radius:4px 4px 0 0;display:flex;justify-content:space-between;align-items:center;
+}
+.section-hdr .badge{background:#C9A227;color:#3D2200;font-size:8pt;
+                    font-weight:700;padding:1px 8px;border-radius:3px}
+
+/* Main validation table */
+table.val{width:100%;border-collapse:collapse;font-size:8.5pt;margin:0 0 16px}
+table.val th{
+  background:#1B2A4A;color:#fff;padding:6px 8px;text-align:center;
+  font-size:8pt;font-weight:700;border:1px solid #0d1826;
+}
+table.val th.left{text-align:left}
+table.val td{
+  padding:5px 8px;border:1px solid #ddd;vertical-align:middle;
+}
+table.val tr:nth-child(even) td{background:#f8f8f8}
+
+/* Priority tier rows */
+tr.tier-hdr td{
+  background:#2e4472;color:#fff;font-weight:700;font-size:8pt;
+  padding:4px 8px;letter-spacing:.04em;
+}
+
+/* dot indicators */
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;
+     margin:0 1px;vertical-align:middle}
+.dot-hit{background:#27500A}
+.dot-miss{background:#e0e0e0}
+
+/* coverage badge */
+.cov-yes{display:inline-block;background:#eaf3de;color:#27500A;
+         border:1px solid #a0cc80;border-radius:3px;
+         font-size:7.5pt;font-weight:700;padding:1px 7px}
+.cov-no{display:inline-block;background:#fdf0f0;color:#6B1020;
+        border:1px solid #f0b0b0;border-radius:3px;
+        font-size:7.5pt;font-weight:700;padding:1px 7px}
+
+/* freq bar */
+.freq-bar{display:inline-flex;gap:2px;align-items:center}
+
+/* TN badge */
+.tn{display:inline-block;background:#C9A227;color:#3D2200;
+    font-size:7pt;font-weight:700;border-radius:2px;padding:0 5px;margin-left:3px}
+
+/* priority badges */
+.p-high{display:inline-block;background:#fdf0f0;color:#6B1020;
+        border:1px solid #e8b0b0;border-radius:3px;
+        font-size:7.5pt;font-weight:700;padding:1px 7px}
+.p-med{display:inline-block;background:#fff8e8;color:#7a5400;
+       border:1px solid #e8d080;border-radius:3px;
+       font-size:7.5pt;font-weight:700;padding:1px 7px}
+.p-low{display:inline-block;background:#eaf3de;color:#27500A;
+       border:1px solid #a0cc80;border-radius:3px;
+       font-size:7.5pt;font-weight:700;padding:1px 7px}
+
+/* q count */
+.qcnt{font-weight:700;color:#1B2A4A;text-align:center}
+
+/* footer */
+.doc-footer{
+  margin-top:16px;padding-top:8px;border-top:1px solid #ccc;
+  display:flex;justify-content:space-between;font-size:7.5pt;color:#777;
+}
+
+/* signature */
+.sig-block{margin-top:18px;padding-top:12px;border-top:1px solid #ccc}
+.sig-line{border-bottom:1px solid #111;width:260px;margin:18px 0 3px;height:1px}
+.sig-name{font-size:11pt;font-weight:700;color:#1B2A4A;margin-top:3px}
+.sig-creds{font-size:8.5pt;color:#555;line-height:1.6;margin-top:2px}
+</style>
+</head>
+<body>
+
+<button class="no-print" onclick="window.print()">&#x2399; Print / Save PDF</button>
+
+<!-- LETTERHEAD -->
+<div class="lh">
+  <div>
+    <h1>TroopToTeacher Technologies LLC</h1>
+    <div class="sub">Educational Technology &amp; Instructional Materials &nbsp;&middot;&nbsp; Franklin, Tennessee &nbsp;&middot;&nbsp; trooptoteacher.com</div>
+  </div>
+  <div class="lh-right">
+    <strong>Sean Reynolds, M.Ed.</strong><br>
+    USAF Master Sergeant (E-7), Retired<br>
+    Tennessee Level 5 Educator<br>
+    Founder &amp; CEO, TroopToTeacher Technologies LLC<br>
+    April 2026
+  </div>
+</div>
+
+<!-- TITLE -->
+<div class="title-block">
+  <div class="doc-type">Adoption Submission Document &middot; For Tennessee Textbook Commission Review</div>
+  <h2>TCAP U.S. History EOC Alignment Validation<br>Assessment Question Bank &mdash; Standards US.01&ndash;US.44</h2>
+  <div class="applies">
+    Demonstrates question bank coverage against actual Tennessee EOC item frequency, 2021&ndash;2025<br>
+    <em>U.S. History: Reconstruction to Present</em> &nbsp;&middot;&nbsp; TroopToTeacher Technologies LLC &nbsp;&middot;&nbsp; &copy; 2026
+  </div>
+</div>
+
+<!-- SUMMARY STATS -->
+<div class="stat-grid">
+  <div class="stat-box">
+    <span class="num">447</span>
+    <span class="lbl">Total assessment questions<br>in bank</span>
+  </div>
+  <div class="stat-box">
+    <span class="num">44</span>
+    <span class="lbl">Standards covered<br>US.01&ndash;US.44 + US.REC</span>
+  </div>
+  <div class="stat-box">
+    <span class="num">44/44</span>
+    <span class="lbl">EOC-tested standards<br>covered in bank</span>
+  </div>
+  <div class="stat-box">
+    <span class="num">100%</span>
+    <span class="lbl">Coverage of all standards<br>appearing on TCAP 2021&ndash;2025</span>
+  </div>
+</div>
+
+<!-- METHODOLOGY -->
+<div class="callout callout-blue">
+  <span class="ct">Validation Methodology</span>
+  The frequency data in this table is drawn directly from the Tennessee Instructional Playbook for U.S. History and Geography (2025&ndash;2026), which documents the number of TCAP U.S. History End-of-Course items addressing each standard in each administration year from 2021 through 2025. A shaded circle (&bull;) indicates the standard appeared on that year&rsquo;s EOC; an open circle indicates it did not. This data allows prioritization of question bank use: standards appearing 4&ndash;5 of the last 5 years are the highest-probability items for student preparation. All 44 standards with EOC frequency data are covered in the TroopToTeacher question bank with 10 questions each.
+</div>
+
+<!-- LEGEND -->
+<div style="display:flex;gap:16px;margin:10px 0 14px;font-size:8.5pt;align-items:center;flex-wrap:wrap">
+  <strong>Legend:</strong>
+  <span><span class="dot dot-hit" style="width:10px;height:10px"></span> Appeared on EOC that year</span>
+  <span><span class="dot dot-miss" style="width:10px;height:10px"></span> Did not appear</span>
+  <span class="p-high">HIGH</span><span> = 4&ndash;5 of 5 years</span>
+  <span class="p-med">MED</span><span> = 2&ndash;3 of 5 years</span>
+  <span class="p-low">LOW</span><span> = 0&ndash;1 of 5 years</span>
+  <span class="tn">TN</span><span> = Tennessee-required content</span>
+  <span class="cov-yes">&#10003; COVERED</span>
+  <span class="cov-no">&#10007; MISSING</span>
+</div>
+
+<!-- VALIDATION TABLE -->
+<div class="section-hdr">
+  <span>TCAP EOC Frequency Validation Table &mdash; Standards US.01 through US.44</span>
+  <span class="badge">44/44 Covered</span>
+</div>
+
+<table class="val">
+<thead>
+<tr>
+  <th class="left" style="width:7%">Standard</th>
+  <th class="left" style="width:27%">Topic</th>
+  <th style="width:7%">2021</th>
+  <th style="width:7%">2022</th>
+  <th style="width:7%">2023</th>
+  <th style="width:7%">2024</th>
+  <th style="width:7%">2025</th>
+  <th style="width:8%">Priority</th>
+  <th style="width:8%">Qs in Bank</th>
+  <th style="width:11%">Coverage</th>
+</tr>
+</thead>
+<tbody>
+
+<!-- TIER 1: HIGH PRIORITY -->
+<tr class="tier-hdr">
+  <td colspan="10">&#128308; HIGH PRIORITY &mdash; Appeared on TCAP EOC 4&ndash;5 of the last 5 years &mdash; Ensure students master these first</td>
+</tr>
+<tr>
+  <td><strong>US.39</strong></td>
+  <td>Causes of the Great Depression</td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="p-high">HIGH 5/5</span></td>
+  <td class="qcnt">10</td>
+  <td align="center"><span class="cov-yes">&#10003; COVERED</span></td>
+</tr>
+<tr>
+  <td><strong>US.43</strong></td>
+  <td>New Deal Programs (TVA <span class="tn">TN</span>)</td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="p-high">HIGH 5/5</span></td>
+  <td class="qcnt">10</td>
+  <td align="center"><span class="cov-yes">&#10003; COVERED</span></td>
+</tr>
+<tr>
+  <td><strong>US.02</strong></td>
+  <td>Federal Policies Toward American Indians</td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-miss"></span></td>
+  <td align="center"><span class="p-high">HIGH 4/5</span></td>
+  <td class="qcnt">10</td>
+  <td align="center"><span class="cov-yes">&#10003; COVERED</span></td>
+</tr>
+<tr>
+  <td><strong>US.07</strong></td>
+  <td>Immigration &mdash; Old vs. New, Assimilation, Nativism</td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-miss"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="p-high">HIGH 4/5</span></td>
+  <td class="qcnt">10</td>
+  <td align="center"><span class="cov-yes">&#10003; COVERED</span></td>
+</tr>
+<tr>
+  <td><strong>US.08</strong></td>
+  <td>Social Darwinism and Social Gospel</td>
+  <td align="center"><span class="dot dot-miss"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="p-high">HIGH 4/5</span></td>
+  <td class="qcnt">10</td>
+  <td align="center"><span class="cov-yes">&#10003; COVERED</span></td>
+</tr>
+<tr>
+  <td><strong>US.21</strong></td>
+  <td>Spanish-American War &amp; Imperialism Outcomes</td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-miss"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="p-high">HIGH 4/5</span></td>
+  <td class="qcnt">10</td>
+  <td align="center"><span class="cov-yes">&#10003; COVERED</span></td>
+</tr>
+<tr>
+  <td><strong>US.27</strong></td>
+  <td>Wilson&rsquo;s Fourteen Points, League of Nations</td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-miss"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="p-high">HIGH 4/5</span></td>
+  <td class="qcnt">10</td>
+  <td align="center"><span class="cov-yes">&#10003; COVERED</span></td>
+</tr>
+<tr>
+  <td><strong>US.35</strong></td>
+  <td>Civil Liberties &amp; Racial Tensions 1920s (KKK, Red Scare, Ida B. Wells <span class="tn">TN</span>)</td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-miss"></span></td>
+  <td align="center"><span class="p-high">HIGH 4/5</span></td>
+  <td class="qcnt">10</td>
+  <td align="center"><span class="cov-yes">&#10003; COVERED</span></td>
+</tr>
+<tr>
+  <td><strong>US.37</strong></td>
+  <td>Prohibition &mdash; Organized Crime, Bootlegging, Speakeasies</td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-miss"></span></td>
+  <td align="center"><span class="p-high">HIGH 4/5</span></td>
+  <td class="qcnt">10</td>
+  <td align="center"><span class="cov-yes">&#10003; COVERED</span></td>
+</tr>
+<tr>
+  <td><strong>US.42</strong></td>
+  <td>Hoover&rsquo;s Response &mdash; Rugged Individualism, RFC, Bonus Army</td>
+  <td align="center"><span class="dot dot-miss"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="dot dot-hit"></span></td>
+  <td align="center"><span class="p-high">HIGH 4/5</span></td>
+  <td class="qcnt">10</td>
+  <td align="center"><span class="cov-yes">&#10003; COVERED</span></td>
+</tr>
+
+<!-- TIER 2: MEDIUM PRIORITY -->
+<tr class="tier-hdr">
+  <td colspan="10">&#128992; MEDIUM PRIORITY &mdash; Appeared on TCAP EOC 2&ndash;3 of the last 5 years &mdash; Strong candidates for EOC items</td>
+</tr>
+
+<tr><td><strong>US.01</strong></td><td>Homestead Act, Transcontinental Railroad, Buffalo Soldiers (George Jordan <span class="tn">TN</span>)</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.03</strong></td><td>Compromise of 1877, Jim Crow, Plessy, Pap Singleton, Exodusters <span class="tn">TN</span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.05</strong></td><td>Entrepreneurs &amp; Inventors (Bell, Carnegie, Edison, Rockefeller, Walker, Carver)</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.09</strong></td><td>Booker T. Washington vs. W.E.B. Du Bois</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.10</strong></td><td>Granger Movement and Populism</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.15</strong></td><td>Progressive Movement Achievements (16th, 17th, 18th Amendments; initiative/referendum)</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.16</strong></td><td>TR&rsquo;s Administration: Square Deal, Trust-Busting, Conservation</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.18</strong></td><td>Women&rsquo;s Suffrage; 19th Amendment; Tennessee &ldquo;Perfect 36&rdquo; <span class="tn">TN</span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.20</strong></td><td>Interventionists vs. Non-Interventionists</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.22</strong></td><td>Big Stick / Dollar / Moral Diplomacy</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.23</strong></td><td>Causes of WWI and U.S. Neutrality</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.24</strong></td><td>U.S. Entry into WWI (Submarines, Zimmermann Telegram)</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.25</strong></td><td>WWI Impact: Trench Warfare, Harlem Hellfighters, Alvin C. York <span class="tn">TN</span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.36</strong></td><td>Scopes Trial of 1925, Dayton, Tennessee <span class="tn">TN</span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.38</strong></td><td>Credit Expansion, Consumerism, Financial Speculation</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.44</strong></td><td>New Deal Controversies &mdash; Socialism Charges, Court Packing</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 3/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.12</strong></td><td>Trusts and Monopolies, Sherman/Clayton Antitrust Acts</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 2/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.13</strong></td><td>Working Conditions, Women and Child Labor</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 2/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.14</strong></td><td>Muckrakers: La Follette, TR, Sinclair, Steffens, Tarbell</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 2/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.17</strong></td><td>Wilson&rsquo;s Administration: New Freedom, Federal Reserve, National Park Service</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 2/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.19</strong></td><td>Causes of American Imperialism, Yellow Journalism</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 2/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.26</strong></td><td>WWI Home Front (Rationing, CPI, Schenck v. United States)</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 2/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.29</strong></td><td>Radio, Movies, Popular Culture (Chaplin, Lindbergh, Ruth)</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 2/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.30</strong></td><td>Country &amp; Blues Music; Grand Ole Opry, W.C. Handy, Bessie Smith <span class="tn">TN</span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 2/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.32</strong></td><td>Henry Ford, Automobile, Mass Production</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 2/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.33</strong></td><td>Harlem Renaissance (Armstrong, Ellington, Hughes, Hurston)</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-med">MED 2/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.41</strong></td><td>Depression Impact on Americans: Unemployment, Migration, Hoovervilles</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-med">MED 2/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<!-- TIER 3: LOW PRIORITY -->
+<tr class="tier-hdr">
+  <td colspan="10">&#128994; LOWER PRIORITY &mdash; Appeared on TCAP EOC 0&ndash;1 of the last 5 years &mdash; Cover for completeness; less likely on EOC</td>
+</tr>
+
+<tr><td><strong>US.04</strong></td><td>Gilded Age Politics: Boss Tweed, Thomas Nast, Credit Mobilier, Pendleton Act</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-low">LOW 1/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.06</strong></td><td>Major Industrial Centers and Urbanization (Boston, Chicago, NYC, Pittsburgh, SF)</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-low">LOW 1/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.11</strong></td><td>Labor Movement, Eugene Debs, Samuel Gompers, Coal Creek <span class="tn">TN</span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-low">LOW 1/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.28</strong></td><td>Great Migration of African Americans</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-low">LOW 1/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.31</strong></td><td>New Technologies: Air Travel and Electricity</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-low">LOW 1/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.34</strong></td><td>Women&rsquo;s Status 1920s: Flappers, Birth Control, Women&rsquo;s Colleges</td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="p-low">LOW 1/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+<tr><td><strong>US.40</strong></td><td>Dust Bowl Causes and Social / Geographic / Economic Impacts</td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-miss"></span></td><td align="center"><span class="dot dot-hit"></span></td><td align="center"><span class="p-low">LOW 1/5</span></td><td class="qcnt">10</td><td align="center"><span class="cov-yes">&#10003; COVERED</span></td></tr>
+
+</tbody>
+</table>
+
+<!-- KEY FINDINGS -->
+<div class="callout callout-green">
+  <span class="ct">Key Finding &mdash; For Tennessee Textbook Commission Reviewers</span>
+  Every Tennessee Academic Standard (US.01&ndash;US.44) that appeared on the TCAP U.S. History End-of-Course assessment in any of the five administrations from 2021 through 2025 is covered in the TroopToTeacher Technologies question bank with 10 aligned questions per standard. This represents 44 of 44 standards &mdash; 100% coverage of the EOC-tested content range. The two standards with the highest EOC frequency over five years (US.39: Causes of the Great Depression and US.43: New Deal Programs including the TVA) are both covered with full 10-question sets including primary source DBQs, constructed responses, and extended responses at DOK levels 1&ndash;3.
+</div>
+
+<div class="callout callout-gold">
+  <span class="ct">Tennessee-Specific Content Note</span>
+  Seven standards in this table contain Tennessee-required content flagged under TCA &sect; 49-6-1006 and the Tennessee Academic Standards. These include: US.01 (George Jordan, Williamson County), US.03 (Pap Singleton and Exodusters), US.11 (Coal Creek Labor Saga, Anderson County), US.18 (Tennessee &ldquo;Perfect 36,&rdquo; Harry T. Burn), US.25 (Alvin C. York), US.30 (Grand Ole Opry, W.C. Handy), and US.36 (Scopes Trial, Dayton, Rhea County). All Tennessee-specific questions are tagged and filterable in the interactive question bank browser.
+</div>
+
+<!-- NOTE ON REMAINING STANDARDS -->
+<div class="callout callout-blue">
+  <span class="ct">Standards US.45&ndash;US.95 &mdash; In Production</span>
+  The frequency table above covers the content range documented in the 2025&ndash;2026 Tennessee Instructional Playbook for the first two quarters of the U.S. History course (US.01&ndash;US.44). Standards US.45&ndash;US.95 covering World War II, the Cold War, Civil Rights, Vietnam, and Modern U.S. history also appear on the TCAP EOC and are represented in the textbook units. Assessment questions for these standards are in active production and will be submitted as complete sets. EOC frequency data for US.45&ndash;US.95 will be validated against the same source document upon completion.
+</div>
+
+<!-- SIGNATURE -->
+<div class="sig-block">
+  <p>I certify that the standard coverage data in this validation table is accurate, that all 44 standards listed are covered by 10 questions each in the TroopToTeacher Technologies assessment question bank, and that the EOC frequency data is drawn directly from the Tennessee Instructional Playbook for U.S. History and Geography (2025&ndash;2026).</p>
+  <div style="margin-top:20px">
+    <div class="sig-line"></div>
+    <div class="sig-name">Sean Reynolds</div>
+    <div class="sig-creds">
+      M.Ed. &nbsp;&middot;&nbsp; USAF Master Sergeant (E-7), Retired<br>
+      Tennessee Level 5 Educator &mdash; 7th, 8th, and 11th Grade Social Studies<br>
+      Founder &amp; CEO, TroopToTeacher Technologies LLC &nbsp;&middot;&nbsp; Franklin, Tennessee
+    </div>
+    <div style="margin-top:14px">
+      <div class="sig-line" style="width:180px"></div>
+      <div class="sig-creds">Date</div>
+    </div>
+  </div>
+</div>
+
+<div class="doc-footer">
+  <div>TroopToTeacher Technologies LLC &nbsp;&middot;&nbsp; Franklin, Tennessee &nbsp;&middot;&nbsp; &copy; 2026 &nbsp;&middot;&nbsp; All rights reserved</div>
+  <div>TCAP EOC Alignment Validation &nbsp;&middot;&nbsp; U.S. History Question Bank &nbsp;&middot;&nbsp; April 2026</div>
+</div>
+
+</body>
+</html>

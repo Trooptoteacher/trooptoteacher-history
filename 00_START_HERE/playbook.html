@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Playbook — TroopToTeacher Technologies LLC</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:#ddd}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:#fff;color:#111;
+  width:8.5in;margin:.18in auto;box-shadow:0 3px 24px rgba(0,0,0,.26);
+  font-size:9.5pt;line-height:1.75}
+@page{size:letter portrait;margin:.58in .63in .52in}
+@media print{html{background:#fff}body{margin:0;box-shadow:none}
+  .no-print{display:none!important}.pb{page-break-before:always;padding-top:.3in}
+  h2{break-after:avoid}table{break-inside:auto}tr{break-inside:avoid}
+  pre{white-space:pre-wrap;word-break:break-word}}
+.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;border:none;
+  border-radius:5px;padding:7px 14px;font-size:11px;font-weight:700;cursor:pointer;z-index:99}
+/* Banner */
+.hero{background:#1B2A4A;padding:22px .65in 18px}
+.hero .eye{font-size:8pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:#C9A227;margin-bottom:7px}
+.hero h1{font-family:'Merriweather',Georgia,serif;font-size:17pt;font-weight:700;
+  color:#fff;line-height:1.2;margin-bottom:4px}
+.hero .sub{font-size:9pt;color:#B5D4F4;font-style:italic}
+.gold-bar{background:#C9A227;padding:3px .65in;font-size:8.5pt;font-weight:700;
+  color:#3D2200;display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}
+/* Content */
+.pg{padding:.24in .65in .2in}
+h2{font-family:'Merriweather',Georgia,serif;font-size:12pt;font-weight:700;
+   color:#1B2A4A;margin:22px 0 9px;padding-bottom:4px;border-bottom:2px solid #1B2A4A}
+h3{font-size:10.5pt;font-weight:700;color:#2A3F5E;margin:15px 0 5px}
+h4{font-size:10pt;font-weight:700;color:#1B2A4A;margin:11px 0 4px}
+p{margin-bottom:9px;font-size:9.5pt;line-height:1.75}
+ul,ol{margin:5px 0 11px 19px}li{margin-bottom:5px;font-size:9.5pt;line-height:1.65}
+strong{color:#1B2A4A}
+em{color:#2A3F5E}
+/* Tables */
+table{width:100%;border-collapse:collapse;font-size:9pt;margin:10px 0}
+th{background:#1B2A4A;color:#fff;padding:6px 10px;text-align:left;font-size:8.5pt}
+td{padding:6px 10px;border-bottom:1px solid #eee;vertical-align:top;line-height:1.55}
+tr:nth-child(even) td{background:#f8f8f8}
+td:first-child,th:first-child{font-weight:600;color:#1B2A4A}
+th:first-child{color:#fff;font-weight:700}
+/* Code/pre */
+pre,code{font-family:'Courier New',monospace}
+pre{background:#f0f2f5;border:1px solid #c8d6e8;border-left:4px solid #1B2A4A;
+  border-radius:0 4px 4px 0;padding:11px 14px;font-size:8.5pt;line-height:1.7;
+  white-space:pre-wrap;word-break:break-word;margin:8px 0;overflow-x:auto}
+code{background:#e8eef7;padding:1px 5px;border-radius:2px;font-size:8.5pt;color:#1B2A4A}
+/* Blockquote */
+blockquote{background:#f0f5fb;border-left:4px solid #1B2A4A;padding:9px 13px;
+  margin:10px 0;font-size:9.5pt;line-height:1.65;border-radius:0 4px 4px 0}
+hr{border:none;border-top:2px solid #C9A227;margin:20px 0}
+/* Footer */
+.foot{background:#1B2A4A;color:rgba(255,255,255,.5);padding:6px .65in;font-size:7.5pt;
+  display:flex;justify-content:space-between}
+.foot strong{color:#C9A227}
+/* TOC */
+.toc{background:#f5f7fa;border:1.5px solid #c0cce0;border-radius:4px;
+  padding:12px 16px;margin:12px 0}
+.toc h4{color:#1B2A4A;margin-bottom:8px;font-size:10pt}
+.toc ol{margin-left:16px;font-size:9.5pt}
+.toc li{margin-bottom:4px}
+.toc a{color:#1B2A4A;text-decoration:none}
+.toc a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<button class="no-print" onclick="window.print()">&#x2399; Print</button>
+<div class="hero">
+  <div class="eye">Implementation Playbook &amp; Architecture Reference</div>
+  <h1>TroopToTeacher Technologies LLC — U.S. History Textbook Playbook</h1>
+  <div class="sub">Implementation Guide, Architecture Reference, and Strategy Document</div>
+</div>
+<div class="gold-bar">
+  <span>11 sections · Architecture · Frameworks · Packets · Tennessee alignment · Compliance</span>
+  <span>Internal reference document · Not a claim of state approval</span>
+</div>
+<div class="pg">
+
+<hr>
+
+<blockquote>**Document purpose.** This playbook explains what has been built, how all the pieces connect, and what every teacher, reviewer, or future maintainer needs to know to implement or evaluate the TroopToTeacher Technologies LLC *U.S. History: Reconstruction to Present* instructional materials. It does not claim state approval, waiver approval, or completion of any item whose resolution depends on an external party.</blockquote>
+
+<hr>
+
+<h2 id="1--purpose-and-overview">1. Purpose and Overview</h2>
+
+<h3>What this course is</h3>
+
+<p><em>U.S. History: Reconstruction to Present</em> is a full-year high school course aligned to the Tennessee Academic Standards for U.S. History (US.01–US.95, current standards and 2024 revised forward-compatibility). It is designed for 11th-grade students in Tennessee public schools and covers the period from 1865 through the present across ten instructional units.</p>
+
+<p>The course is developed and published by <strong>TroopToTeacher Technologies LLC</strong> (Sean Reynolds, M.Ed., Franklin, Tennessee). It is currently available as supplemental instructional materials under TCA § 49-6-2202(a)(3). Until and unless a formal waiver is granted under applicable State Board rules, districts may use these materials as supplemental materials only — not as the primary 180-day instructional vehicle.</p>
+
+<h3>What has been built</h3>
+
+<p>The materials consist of three interconnected layers:</p>
+
+<ol>
+<li><strong>An online textbook site</strong> (35 HTML files, ~900KB compressed) organized into front matter, ten unit chapters, assessments, teacher resources, standards documentation, and compliance documentation.</li>
+</ol>
+
+<ol>
+<li><strong>Three standalone supplemental packets</strong> designed for printing and independent use:</li>
+</ol>
+<p>   - <strong>Packet A — Skills & Practice</strong> (student-facing): SOAPS, HIPP, historical thinking skills practice, sourcing and corroboration exercises.</p>
+<p>   - <strong>Packet B — Inquiry & Writing</strong> (student-facing): All ten Open Inquiry Tasks with argument planning and product choice.</p>
+<p>   - <strong>Packet C — Teacher Scaffolds & Supports</strong> (teacher-facing only): Legal sidebar, AP sourcing support, Priority Teaching Guides, differentiation guidance.</p>
+
+<ol>
+<li><strong>Internal compliance and adoption documentation</strong>: Schedule F self-assessment, waiver-readiness dossier, standards alignment matrix, EOC validation, publisher declaration, district adoption package.</li>
+</ol>
+
+<h3>Why this structure</h3>
+
+<p>The instructional design reflects Tennessee's Schedule F rubric expectations for high school social studies — specifically the requirements that materials embed disciplinary practices authentically, use essential questions that promote genuine inquiry, provide structured support for evidence-based writing, and address accessibility for all learners including students with disabilities and English Language Learners. The supplemental packet structure allows teachers to use any component independently, which matters for both adoption decisions and classroom flexibility.</p>
+
+<p>The three instructional frameworks (SOAPS, HIPP, historical thinking skill labels) are sequenced to mirror how historians actually encounter and use sources: identification first (SOAPS), then argumentative analysis (HIPP), then disciplinary categorization (skill labels). This sequence is grounded in Samuel Wineburg's research on how expert historians read primary sources and in Adrienne Reisman's randomized controlled study of the "Reading Like a Historian" curriculum.</p>
+
+<hr>
+
+<h2 id="2--architecture-of-the-textbook">2. Architecture of the Textbook</h2>
+
+<h3>2.1 Site Structure Overview</h3>
+
+<pre>
+TroopToTeacher Technologies LLC — Site Map (35 files)
+
+FRONT MATTER & SKILLS          [student-facing]
+├── hipp.html                   SOAPS + HIPP + Skills reference
+└── methodology.html            Research basis (11 strategies, APA citations)
+
+UNITS 1–10                     [student + teacher]
+├── unit-1.html through unit-10.html
+└── unit-5-enhanced.html        Model/reference chapter (professional format)
+
+SUPPLEMENTAL PACKETS           [A/B = student | C = teacher only]
+├── packet-a-skills.html        Skills & Practice (print anytime)
+├── packet-b-inquiry.html       Inquiry & Writing (all 10 tasks)
+└── packet-c-teacher.html       Teacher Scaffolds & Supports
+
+MAP ATLAS                      [student-facing]
+└── map-atlas.html              10 SVG maps + geographic analysis activities
+
+ASSESSMENTS                    [student + teacher]
+├── question-bank.html          447 questions, US.01–US.44
+└── activities.html             Differentiated worksheets (Versions A/B/C, all 10 units)
+
+TEACHER RESOURCES              [teacher-facing]
+├── learning-science.html       Bell ringers, exit tickets, spaced retrieval
+└── ell-support.html            ELL/ESL support packet (sentence frames, word wall)
+
+STANDARDS & ALIGNMENT          [internal]
+├── standards-matrix.html       Gateway document for Commission review
+├── scope-sequence.html         Pacing guide, SSP integration, cross-disciplinary
+└── eoc-validation.html         5-year TCAP EOC frequency analysis
+
+ADOPTION & COMPLIANCE          [internal — not in student materials]
+├── publisher.html              Publisher declaration
+├── dossier.html                Waiver-readiness evidence dossier
+├── schedule-f-completed.html   Completed self-assessment (79%, 31.5/40)
+├── schedule-f-plan.html        Phase 0–5 QC upgrade plan
+└── compliance.html             ED-5099 / ED-2153 / ED-2154 district package
+
+APPENDICES                     [student-facing]
+├── appendices-a-e.html         Glossary, Index, Primary Source Library, Maps, Timeline
+└── appendices-f-n.html         Presidents, Constitution, TN Reference, Rubrics, Protocols
+
+INTERNAL DOCUMENTATION
+└── site-readme.html            Maintenance guide, update protocols, deploy instructions
+</pre>
+
+<h3>2.2 Front Matter & Skills</h3>
+
+<p><strong>What it contains:</strong> The HIPP Analysis reference page (<code>hipp.html</code>) and the Research Basis document (<code>methodology.html</code>).</p>
+
+<p><strong>What it does:</strong> The HIPP page is the student-facing disciplinary skills reference for the entire course. It introduces SOAPS as the first-encounter tool and HIPP as the argumentative analysis tool, explains how they connect, and provides the historical thinking skill definitions used throughout all ten units. It is the anchor page that students should have open whenever they are working with a primary source.</p>
+
+<p><strong>Who uses it:</strong> Both students and teachers. The teacher note box at the bottom of <code>hipp.html</code> is teacher-facing only and covers AP alignment language and placement suggestions.</p>
+
+<p><strong>Key design decision:</strong> SOAPS and HIPP are presented as a sequence (SOAPS first, HIPP second) rather than as alternatives. This is intentional — SOAPS reduces cognitive load during first encounter; HIPP builds the argumentative connection required for scoring credit in evidence-based writing.</p>
+
+<h3>2.3 Units 1–10</h3>
+
+<p><strong>What they contain:</strong> Each unit chapter includes:</p>
+<ul>
+<li>- Unit banner (standards, essential question, historical thinking skill)</li>
+<li>- Concept-before-vocabulary launch activity</li>
+<li>- Core narrative text (2–4 sections, chronologically organized)</li>
+<li>- Primary Source Spotlight (SOAPS framework, 4–5 text-dependent questions, full attribution)</li>
+<li>- Geographic analysis activity (map, DOK 2–3 questions)</li>
+<li>- Spaced retrieval rounds (3 per unit)</li>
+<li>- Open Inquiry Task (student-selected sources, product choice)</li>
+<li>- Formative assessment items</li>
+<li>- Summative task (DBQ or CER with synthesis trigger)</li>
+<li>- Teacher guidance (pacing notes, Priority Teaching Guide, example responses, common misconceptions)</li>
+</ul>
+
+<p><strong>Unit 5 Enhanced (<code>unit-5-enhanced.html</code>)</strong> is the model/reference chapter. It has the full professional structure including SVG data charts with screen-reader accessible tables, <code>.act-q</code> class activity questions, <code>.pss</code> primary source blocks, and all accessibility tagging. All other units follow this same architecture; the full professional format rebuild is the next development priority.</p>
+
+<p><strong>Standards thread:</strong> Every unit file includes a comment block at the top listing the applicable standards (US.01–US.95), the historical thinking skill label, and the accessibility tagging schema. The HTML <code>data-</code> attributes applied by the tagging engine (<code>data-assessment-type</code>, <code>data-historical-skill</code>, <code>data-requires-synthesis</code>, <code>data-priority</code>) make units filterable and machine-readable for future platform development.</p>
+
+<h3>2.4 Assessments</h3>
+
+<p><strong>What they contain:</strong></p>
+<ul>
+<li>- <code>question-bank.html</code>: 447 items across US.01–US.44, multiple question types, DOK 1–3, filter by standard/DOK/assessment type, answer keys with distractor analysis.</li>
+<li>- <code>activities.html</code>: Differentiated worksheets (Version A: Modified/ELL; Version B: On-Level; Version C: Advanced/APUSH) for all ten units, each with SOAPS+HIPP analysis tables, graphic organizers, constructed response prompts, and vocabulary boxes.</li>
+</ul>
+
+<p><strong>Assessment architecture:</strong> The materials use a three-tier assessment structure that mirrors Tennessee EOC format:</p>
+<ul>
+<li>- <strong>Formative</strong> (<code>data-assessment-type="formative"</code>): Bell ringers, spaced retrieval rounds, in-lesson checks (DOK 1–2).</li>
+<li>- <strong>Practice</strong> (Version B): Constructed response aligned to TCAP EOC format (DOK 2–3).</li>
+<li>- <strong>Summative</strong> (<code>data-assessment-type="summative"</code>): DBQ or CER with synthesis requirement (<code>data-requires-synthesis="true"</code>) (DOK 3–4).</li>
+</ul>
+
+<h3>2.5 Teacher Resources</h3>
+
+<p><strong>What they contain:</strong></p>
+<ul>
+<li>- <code>learning-science.html</code>: Bell ringer library and exit ticket templates built on the Agarwal et al. (2021) retrieval practice research. Three spaced retrieval rounds per unit at increasing intervals. Direct implementation of <em>Powerful Teaching</em> protocols.</li>
+<li>- <code>ell-support.html</code>: Universal sentence frames for all five historical thinking skills; academic vocabulary scaffold (12 core analytical terms with Spanish translations); graphic organizer library; era-by-era word wall (64 terms, Units 1–10).</li>
+</ul>
+
+<p><strong>Key design decision:</strong> Teacher resources are labeled and housed separately from student materials but remain on the same site for practical accessibility. No teacher-only content (legal sidebar, compliance documents, internal rubric assessments) appears on student-facing pages.</p>
+
+<h3>2.6 Standards & Alignment (Internal)</h3>
+
+<p><strong>What they contain:</strong></p>
+<ul>
+<li>- <code>standards-matrix.html</code>: The Tennessee Standards Alignment Matrix — the Gateway document required for Textbook Commission review. Currently covers US.01–US.44 (45 standards + US.REC). <strong>Expansion to US.45–US.95 is the highest-priority incomplete item.</strong></li>
+<li>- <code>scope-sequence.html</code>: Full-year pacing guide with estimated instructional days per unit, SSP integration notes, cross-disciplinary connections, and essential questions.</li>
+<li>- <code>eoc-validation.html</code>: Five-year TCAP EOC frequency analysis (2021–2025), confirming 44/44 tested standards are covered.</li>
+</ul>
+
+<p><strong>Who uses it:</strong> Internal and reviewers only. These files are the backbone of any formal Commission submission or waiver application.</p>
+
+<h3>2.7 Adoption & Compliance (Internal)</h3>
+
+<p><strong>What they contain:</strong> Six internal documents that together constitute the waiver-readiness evidence package:</p>
+
+<table>
+<tr><th>File</th><th>Purpose</th></tr>
+<tr><td>`publisher.html`</td><td>Official publisher declaration (responsibilities, statutory compliance, author qualifications)</td></tr>
+<tr><td>`dossier.html`</td><td>5-section Tennessee Review-Readiness Evidence Dossier (19-criterion checklist, TCA law analysis)</td></tr>
+<tr><td>`schedule-f-completed.html`</td><td>Honest completed self-assessment: 79%, 31.5/40, zero items at 0</td></tr>
+<tr><td>`schedule-f-plan.html`</td><td>Phase 0–5 QC Upgrade Plan for the 9 criteria below 2</td></tr>
+<tr><td>`compliance.html`</td><td>District adoption package: pre-filled ED-5099, ED-2153/2154 templates</td></tr>
+<tr><td>`methodology.html`</td><td>Research basis: 11 strategies, 30+ APA citations, effect sizes</td></tr>
+</table>
+
+<p><strong>Critical note:</strong> None of these documents claim state approval, waiver approval, or legal compliance where external review is still pending.</p>
+
+<hr>
+
+<h2 id="3--the-three-instructional-frameworks">3. The Three Instructional Frameworks</h2>
+
+<p>This section describes the three analytical frameworks embedded throughout the course and explains how they work together.</p>
+
+<h3>3.1 SOAPS — Primary Source Identification</h3>
+
+<p><strong>What it is:</strong> A five-element framework for initial primary source encounter: <strong>S</strong>peaker, <strong>O</strong>ccasion, <strong>A</strong>udience, <strong>P</strong>urpose, <strong>S</strong>ubject.</p>
+
+<p><strong>When to use it:</strong> Every time a student first encounters a primary source, before analysis begins. SOAPS reduces cognitive load by making the source's identity explicit before the student engages with its content. It is the "who, when, for whom, why, what" check.</p>
+
+<p><strong>Where it lives:</strong></p>
+<ul>
+<li>- Reference table: <code>hipp.html</code> Section 1</li>
+<li>- Full practice tasks (3 public domain sources): <code>packet-a-skills.html</code> Section 1</li>
+<li>- Combined SOAPS+HIPP table: <code>packet-c-teacher.html</code> Section 3, <code>ell-support.html</code> Part 3</li>
+<li>- Embedded in every primary source spotlight in units 1–10</li>
+</ul>
+
+<p><strong>Research basis:</strong> Wineburg (2001) <em>Historical Thinking and Other Unnatural Acts</em>; Reisman (2012) randomized controlled study of document-based instruction (d = 0.52 on historical thinking; d = 0.37 on reading comprehension).</p>
+
+<h3>3.2 HIPP — Argumentative Document Analysis</h3>
+
+<p><strong>What it is:</strong> A four-element framework for connecting source features to historical arguments: <strong>H</strong>istorical Context, <strong>I</strong>ntended Audience, <strong>P</strong>urpose, <strong>P</strong>oint of View.</p>
+
+<p><strong>When to use it:</strong> After SOAPS — when building an argument using a source. HIPP asks not what the source is but why its features matter for the specific claim being made. The key move is the argumentative connection: "Because [HIPP feature], this source is [more/less useful] for arguing [specific claim] because ___."</p>
+
+<p><strong>Where it lives:</strong></p>
+<ul>
+<li>- Full reference + sentence stems + DBQ guidance: <code>hipp.html</code></li>
+<li>- HIPP + SOAPS comparison: <code>hipp.html</code> Section "HIPP + SOAPS"</li>
+<li>- Practice tasks (3 items): <code>packet-a-skills.html</code> Section 2</li>
+<li>- Combined SOAPS+HIPP form: <code>ell-support.html</code> Part 3</li>
+<li>- Teacher modeling examples: <code>packet-c-teacher.html</code> Section 2</li>
+<li>- Integration guide: <code>packet-c-teacher.html</code> Section 3</li>
+<li>- <code>data-historical-skill</code> attribute on relevant HTML elements</li>
+</ul>
+
+<p><strong>Research basis:</strong> College Board APUSH CED (2023) — sourcing skill definition; Monte-Sano (2008) — empirical study documenting the identification/connection gap that HIPP closes.</p>
+
+<p><strong>Critical distinction:</strong> SOAPS identification alone does not earn sourcing credit in evidence-based writing. HIPP is the tool that makes the argumentative connection explicit. This distinction is modeled in the teacher AP sourcing support box (<code>packet-c-teacher.html</code> Section 2) with three versions of the same sentence (no credit → weak → full).</p>
+
+<h3>3.3 Historical Thinking Skill Labels</h3>
+
+<p><strong>What they are:</strong> Five explicit disciplinary skill labels used throughout all unit activities:</p>
+
+<table>
+<tr><th>Label</th><th>Skill</th><th>Core Question</th></tr>
+<tr><td>`[CAUSATION]`</td><td>Identify and evaluate multiple causes of historical events</td><td>Why did this happen?</td></tr>
+<tr><td>`[COMPARISON]`</td><td>Analyze similarities and differences across events, policies, or groups</td><td>How are these alike and different? What does that reveal?</td></tr>
+<tr><td>`[CCOT]`</td><td>Track what transformed and what persisted across a time period</td><td>What changed? What stayed the same? Why?</td></tr>
+<tr><td>`[CHRONOLOGY]`</td><td>Sequence events and explain how timing shaped outcomes</td><td>In what order? How did sequence matter?</td></tr>
+<tr><td>`[CONTEXTUALIZATION]`</td><td>Situate an event or source within its broader historical moment</td><td>What was happening when this occurred? How did context shape it?</td></tr>
+</table>
+
+<p><strong>When to use them:</strong> Skill labels appear in ALL CAPS brackets at the end of activity titles (e.g., "Document Analysis — Hoover and the Depression [CAUSATION]"). The first time a label appears in each unit, a one-sentence student-facing definition appears in a shaded box below the activity header.</p>
+
+<p><strong>Where they live:</strong></p>
+<ul>
+<li>- Definitions: <code>hipp.html</code> Section "Historical Thinking Skills" (student-facing)</li>
+<li>- Practice tasks (one per skill): <code>packet-a-skills.html</code> Section 3</li>
+<li>- Activity title labels: every unit HTML file</li>
+<li>- <code>data-historical-skill</code> attribute on tagged HTML elements</li>
+<li>- Skill column: <code>standards-matrix.html</code></li>
+</ul>
+
+<p><strong>Research basis:</strong> NCSS C3 Framework (2013) — the authoritative framework Tennessee SSPs are based on; Wineburg, Martin & Monte-Sano (2013) — classroom-validated curriculum using these same labels.</p>
+
+<hr>
+
+<h2 id="4--the-three-supplemental-packets">4. The Three Supplemental Packets</h2>
+
+<p>The packets are designed to be self-contained, printable, and usable independently of unit pacing. They do not require the online textbook to function.</p>
+
+<h3>4.1 Packet A — Skills & Practice (Student)</h3>
+<p><strong>File:</strong> <code>packet-a-skills.html</code></p>
+<p><strong>Intended use:</strong> Print at the start of the year and use throughout; assign specific sections when the corresponding skill is first introduced in a unit.</p>
+
+<table>
+<tr><th>Section</th><th>Contents</th></tr>
+<tr><td>1. SOAPS</td><td>Reference table + 3 practice tasks (Lincoln 1865, Truman 1947, Eisenhower 1961)</td></tr>
+<tr><td>2. HIPP</td><td>Reference table + 3 practice items (two using Sections 1 sources at greater depth)</td></tr>
+<tr><td>3. Historical Thinking Skills</td><td>Skill reference + 5 practice tasks (one per skill, separate pages)</td></tr>
+<tr><td>4. Sourcing & Corroboration</td><td>2 prompts: FDR/Hoover contrast; Truman/Reagan cross-era synthesis</td></tr>
+</table>
+
+<p>All practice sources are public domain and verified. The packet is independent of unit pacing — a teacher can assign CAUSATION practice in week 3 without reference to the textbook.</p>
+
+<h3>4.2 Packet B — Inquiry & Writing (Student)</h3>
+<p><strong>File:</strong> <code>packet-b-inquiry.html</code></p>
+<p><strong>Intended use:</strong> Assign the relevant unit task when students reach that unit; or assign multiple tasks as a semester research project with product choice.</p>
+
+<p><strong>Structure for each of the ten tasks:</strong></p>
+<ol>
+<li>Unit and essential question header</li>
+<li>Open historical question (no single right answer; defensible positions expected)</li>
+<li>Curated source menu (5–6 sources per unit; all from materials or publicly verified)</li>
+<li>Step 1: Source selection table (source chosen / what it can prove / key HIPP feature)</li>
+<li>Step 2: Thesis draft</li>
+<li>Step 3: Product choice (short essay / podcast script / mini-documentary storyboard / public testimony speech)</li>
+<li>Step 4: Draft space</li>
+</ol>
+
+<p><strong>Good Historical Argument Checklist</strong> (printed on the first page): six criteria including claim specificity, two-source minimum, cross-source reasoning, HIPP connection, skill label application, and counterargument acknowledgment.</p>
+
+<h3>4.3 Packet C — Teacher Scaffolds & Supports (Teacher Only)</h3>
+<p><strong>File:</strong> <code>packet-c-teacher.html</code></p>
+<p><strong>Critical:</strong> This packet is for teacher use only. It contains the TCA § 49-6-1019 legal sidebar. It should not be distributed to students or placed in student-accessible digital folders.</p>
+
+<table>
+<tr><th>Section</th><th>Contents</th></tr>
+<tr><td>1. Legal Sidebar</td><td>TCA § 49-6-1019 neutral guidance; four facilitation moves; model response to personal-belief questions</td></tr>
+<tr><td>2. AP Sourcing Support</td><td>Three-part analytical move; teacher modeling example; common student error to address</td></tr>
+<tr><td>3. Integration Guide</td><td>SOAPS → HIPP → Skill Label sequence; overlap explanation; differentiation by Version A/B/C</td></tr>
+<tr><td>4. Priority Teaching Guides</td><td>Unit 5 completed sample (Essential/Compress/Skip); 9 blank templates</td></tr>
+<tr><td>5. Differentiation</td><td>Specific suggestions for Packets A and B across below-level/ELL, on-level, and advanced tracks</td></tr>
+</table>
+
+<hr>
+
+<h2 id="5--differentiation-architecture">5. Differentiation Architecture</h2>
+
+<p>Every instructional component in this course has a corresponding differentiation pathway. The system uses three tracks, consistently named across all materials:</p>
+
+<table>
+<tr><th>Track</th><th>Label</th><th>Target</th><th>Assessment Format</th></tr>
+<tr><td>Below-level / ELL / SWD</td><td>Version A</td><td>IEP students, ELL students, below-level readers</td><td>Simplified text, sentence frames, bilingual vocabulary, graphic organizer scaffold, 1-paragraph response</td></tr>
+<tr><td>On-level</td><td>Version B</td><td>Most students in standard 11th-grade U.S. History</td><td>Grade-level text, full SOAPS + HIPP tables, 1–2 paragraph response, TCAP EOC format</td></tr>
+<tr><td>Advanced / APUSH</td><td>Version C</td><td>AP U.S. History track, accelerated students</td><td>Original sources, full HIPP with argumentative connection, 3–5 paragraph DBQ response, self-assessment checklist</td></tr>
+</table>
+
+<h3>Where each track appears</h3>
+
+<ul>
+<li>- <strong>Assessment items:</strong> All three versions in <code>activities.html</code> and <code>TTT_Unit10_Differentiated_Assessment.html</code></li>
+<li>- <strong>ELL supports:</strong> <code>ell-support.html</code> (universal sentence frames, bilingual vocabulary, graphic organizer library)</li>
+<li>- <strong>Accommodations:</strong> <code>appendices-f-n.html</code> Appendix N (SWD accommodations guide); <code>appendices-f-n.html</code> Appendix M (ELL resource guide)</li>
+<li>- <strong>Packet differentiation:</strong> <code>packet-c-teacher.html</code> Section 5</li>
+<li>- <strong>HIPP/SOAPS:</strong> Version A uses SOAPS only; Version B adds one HIPP element; Version C requires full four-element HIPP with argumentative connection</li>
+</ul>
+
+<h3>Mixing tracks</h3>
+
+<p>Differentiation tracks can be mixed across activities. A student who reads below grade level but reasons at a high level may receive Version A vocabulary support but Version B or C analytical tasks. The <code>packet-c-teacher.html</code> integration guide provides guidance on when and how to mix.</p>
+
+<hr>
+
+<h2 id="6--assessment-architecture">6. Assessment Architecture</h2>
+
+<h3>6.1 Three-tier structure</h3>
+
+<pre>
+FORMATIVE (data-assessment-type="formative")
+  → Bell ringers (learning-science.html, one per unit)
+  → Spaced retrieval rounds (3 per unit, increasing intervals)
+  → In-lesson checks for understanding (embedded in unit narrative sections)
+  → Exit tickets (learning-science.html)
+
+PRACTICE / UNIT ASSESSMENT (activities.html, Version B)
+  → 4 multiple choice items (DOK 1–2, TCAP EOC format)
+  → 2 short-answer items (DOK 2–3)
+  → 1 constructed response (1–2 paragraphs, with synthesis trigger)
+
+SUMMATIVE (data-assessment-type="summative")
+  → Version C DBQ: 4 documents, full sourcing + contextualization + argumentation
+  → Version B extended essay: 10-point rubric
+  → Version A CER with scaffold: 9-point rubric, graphic organizer pre-filled
+</pre>
+
+<h3>6.2 Question bank structure</h3>
+
+<p>The <code>question-bank.html</code> file contains 447 items across US.01–US.44. Each item has:</p>
+<ul>
+<li>- Standard code</li>
+<li>- DOK level (1–3)</li>
+<li>- Assessment type tag (formative/summative)</li>
+<li>- Answer key with distractor analysis</li>
+<li>- EOC frequency reference (5-year data)</li>
+</ul>
+
+<p><strong>Gap:</strong> US.45–US.95 assessment items do not yet exist. This is a Phase 1 priority item — the Gateway criterion G1 requires standards mapping for all US. standard codes before formal Commission submission.</p>
+
+<h3>6.3 Synthesis requirement</h3>
+
+<p>All DBQ and multi-source summative tasks include a synthesis trigger sentence appended to the main prompt. The trigger requires:</p>
+<ol>
+<li>Evidence from at least two different sources</li>
+<li>An explicit explanation of how the sources corroborate, contradict, or complicate each other</li>
+</ol>
+
+<p>Unit-specific synthesis triggers exist for all ten units (see <code>TroopToTeacher_CopyEdits_Package.html</code>, Section 3). Generic options are available for any unit.</p>
+
+<hr>
+
+<h2 id="7--tennessee-alignment-and-schedule-f-re">7. Tennessee Alignment and Schedule F Readiness</h2>
+
+<h3>7.1 Current self-assessed status</h3>
+
+<p>The Schedule F completed self-assessment (<code>schedule-f-completed.html</code>) shows:</p>
+
+<table>
+<tr><th>Table</th><th>Score</th><th>Status</th></tr>
+<tr><td>Gateway</td><td>Conditional</td><td>G1: US.45–US.95 mapping needed</td></tr>
+<tr><td>Table 1 (Content Alignment)</td><td>8.5/10</td><td>Strong</td></tr>
+<tr><td>Table 2 (Instructional Focus)</td><td>8/10</td><td>Strong</td></tr>
+<tr><td>Table 3 (Social Studies Practices)</td><td>8/10</td><td>Strong</td></tr>
+<tr><td>Table 4 (Accessibility)</td><td>7/10</td><td>Targeted fixes needed</td></tr>
+<tr><td>**Total**</td><td>**31.5/40 (79%)**</td><td>**Substantially ready**</td></tr>
+</table>
+
+<p>Zero criteria score 0. All six partial (score-1) items are addressable without structural redesign.</p>
+
+<h3>7.2 Priority upgrade items</h3>
+
+<p>The Phase 0–5 QC Upgrade Plan (<code>schedule-f-plan.html</code>) identifies nine criteria for improvement. The five most critical:</p>
+
+<ol>
+<li><strong>G1 — Standards mapping US.45–US.95.</strong> Documentation gap, not a content gap. Retrieve current TDOE standards document; map to existing units; update <code>standards-matrix.html</code>.</li>
+<li><strong>A4 — TCA §49-6-1019 attorney review.</strong> VLAA, (615) 254-0030. Written opinion required before commercial distribution.</li>
+<li><strong>C5 — MLK Estate licensing.</strong> Unit 7 has three placeholder items. IPM Legal, info@ipmlegal.com, (404) 526-8900.</li>
+<li><strong>A2 — WCAG 2.1 AA accessibility audit.</strong> Run WAVE (wave.webaim.org) on all HTML files; fix errors; document results.</li>
+<li><strong>P4 / P2 — Historical thinking labels + synthesis prompts.</strong> Copy edits to existing files; estimated 1 day total.</li>
+</ol>
+
+<h3>7.3 Tennessee-specific content</h3>
+
+<p>The materials include 19+ required Tennessee content items woven substantively into unit narratives (not sidebars). Key items:</p>
+
+<table>
+<tr><th>Unit</th><th>Tennessee Content</th></tr>
+<tr><td>1</td><td>Andrew Johnson, Pulaski KKK founding</td></tr>
+<tr><td>2</td><td>George Jordan (Buffalo Soldiers), Medal of Honor</td></tr>
+<tr><td>3</td><td>Harry T. Burn and the 19th Amendment, Alvin York, Scopes Trial</td></tr>
+<tr><td>4</td><td>Alvin York (WWI), Scopes Trial (Dayton, TN)</td></tr>
+<tr><td>5</td><td>Tennessee Valley Authority, Norris Dam, rural electrification</td></tr>
+<tr><td>6</td><td>Oak Ridge / Manhattan Project, Cordell Hull, POW camps</td></tr>
+<tr><td>7</td><td>Nashville Sit-ins, Clinton High School, Tent City, Highlander Folk School, Lorraine Motel</td></tr>
+<tr><td>8</td><td>Fort Campbell, Howard Baker (Watergate)</td></tr>
+<tr><td>9</td><td>NAFTA and Tennessee economy, Al Gore</td></tr>
+<tr><td>10</td><td>Fort Campbell (101st Airborne deployments), Nashville growth data</td></tr>
+</table>
+
+<hr>
+
+<h2 id="8--implementation--how-the-pieces-connec">8. Implementation: How the Pieces Connect</h2>
+
+<h3>8.1 Workflow for a new teacher using these materials</h3>
+
+<pre>
+BEFORE THE YEAR STARTS
+├── Print Packet C (teacher-only). Read legal sidebar and AP sourcing support.
+├── Review scope-sequence.html for pacing overview.
+├── Print Packet A and Packet B for the first unit.
+└── Set up: decide which students get Version A, B, or C activities.
+
+UNIT LAUNCH (any unit)
+├── Day 1: Concept-before-vocabulary launch (unit HTML file, concept launch section)
+├── Days 2–5: Core narrative sections + bell ringer (learning-science.html)
+├── Day 3: SOAPS primary source spotlight (hipp.html reference; unit primary source section)
+├── Day 4–5: Historical thinking activity with [SKILL_LABEL] (activities.html Version A/B/C)
+├── Day 6–7: Map/geographic analysis activity (map-atlas.html)
+├── Day 8: HIPP analysis of primary source (hipp.html reference; unit HIPP activity)
+├── Day 9: Open Inquiry Task introduction (Packet B, unit task page)
+├── Day 10–11: Summative assessment (activities.html Version C DBQ or B constructed response)
+└── Day 11: Spaced retrieval round 1 (learning-science.html)
+
+REVIEW CYCLES
+├── Retrieval Round 2: approximately 2 weeks after unit completion
+└── Retrieval Round 3: approximately 4 weeks after unit completion
+</pre>
+
+<h3>8.2 What goes where for students vs. teachers</h3>
+
+<table>
+<tr><th>Component</th><th>Student?</th><th>Teacher?</th><th>Internal Only?</th></tr>
+<tr><td>Unit chapters 1–10</td><td>✓</td><td>✓ (with teacher notes)</td><td>—</td></tr>
+<tr><td>Packet A (Skills & Practice)</td><td>✓</td><td>—</td><td>—</td></tr>
+<tr><td>Packet B (Inquiry & Writing)</td><td>✓</td><td>—</td><td>—</td></tr>
+<tr><td>Packet C (Teacher Scaffolds)</td><td>—</td><td>✓</td><td>—</td></tr>
+<tr><td>ELL Support Packet</td><td>✓</td><td>✓</td><td>—</td></tr>
+<tr><td>Learning science / bell ringers</td><td>—</td><td>✓</td><td>—</td></tr>
+<tr><td>HIPP reference page</td><td>✓</td><td>✓ (teacher note at bottom)</td><td>—</td></tr>
+<tr><td>Map Atlas</td><td>✓</td><td>✓ (answer keys embedded)</td><td>—</td></tr>
+<tr><td>Question bank</td><td>—</td><td>✓</td><td>—</td></tr>
+<tr><td>Differentiated activities (A/B/C)</td><td>✓ (Version A or B or C only)</td><td>✓ (all versions)</td><td>—</td></tr>
+<tr><td>Standards matrix</td><td>—</td><td>—</td><td>✓</td></tr>
+<tr><td>Schedule F documents</td><td>—</td><td>—</td><td>✓</td></tr>
+<tr><td>Legal sidebar</td><td>—</td><td>✓ (Packet C only)</td><td>—</td></tr>
+<tr><td>Dossier / compliance docs</td><td>—</td><td>—</td><td>✓</td></tr>
+<tr><td>Research basis / methodology</td><td>—</td><td>✓</td><td>✓ (for reviewers)</td></tr>
+</table>
+
+<h3>8.3 The sourcing skill progression across the year</h3>
+
+<p>The SOAPS → HIPP → Skill Label sequence maps to a year-long progression:</p>
+
+<pre>
+UNITS 1–3 (Establish the tools)
+  SOAPS: Introduce, model, and practice with every primary source
+  HIPP: Introduce Historical Context and Intended Audience only
+  Skill Labels: CAUSATION and CHRONOLOGY (most concrete skills first)
+
+UNITS 4–7 (Build the analysis)
+  SOAPS: Fluency — students complete independently, teacher circulates
+  HIPP: Add Purpose and Point of View; require one argumentative connection sentence
+  Skill Labels: Add COMPARISON, CCOT, CONTEXTUALIZATION
+
+UNITS 8–10 (Transfer and synthesis)
+  SOAPS: Abbreviated (5 minutes); treat as routine, not a lesson
+  HIPP: Full four-element analysis with argumentative connection required
+  Skill Labels: All five; cross-unit synthesis tasks expected
+</pre>
+
+<hr>
+
+<h2 id="9--internal-compliance--what-exists--wha">9. Internal Compliance: What Exists, What Is Pending</h2>
+
+<h3>9.1 What is complete</h3>
+
+<ul>
+<li>- Standards matrix: US.01–US.44 fully documented (Gateway: conditional)</li>
+<li>- Schedule F self-assessment: completed, honest, 79%</li>
+<li>- Schedule F QC Upgrade Plan: Phase 0–5, nine criteria, external items flagged</li>
+<li>- Waiver-readiness dossier: 5 sections, 19-criterion checklist</li>
+<li>- Publisher declaration: responsibilities, statutory compliance, author qualifications</li>
+<li>- District adoption package: ED-5099 pre-filled, ED-2153/2154 templates</li>
+<li>- Research basis: 11 strategies, 30+ APA citations, effect sizes</li>
+<li>- Differentiated assessments: Versions A/B/C, all 10 units</li>
+<li>- Accessibility: sr-only tables for SVG charts (unit-5-enhanced); WCAG CSS injected in all files</li>
+</ul>
+
+<h3>9.2 What is pending (external dependencies)</h3>
+
+<table>
+<tr><th>Item</th><th>Contact</th><th>Required Before</th></tr>
+<tr><td>VLAA attorney review (TCA §49-6-1019)</td><td>(615) 254-0030 · vlaa.org</td><td>Commercial distribution</td></tr>
+<tr><td>MLK Estate licensing (Unit 7)</td><td>IPM Legal · info@ipmlegal.com · (404) 526-8900</td><td>Commercial distribution</td></tr>
+<tr><td>Standards mapping US.45–US.95</td><td>TDOE academic standards site</td><td>Commission submission (Gateway)</td></tr>
+<tr><td>WCAG 2.1 AA audit (WAVE)</td><td>wave.webaim.org</td><td>Commission submission (Table 4)</td></tr>
+<tr><td>Copyright registration</td><td>copyright.gov · $65 · Literary Work</td><td>Before first commercial sale</td></tr>
+<tr><td>ISBN registration</td><td>myidentifiers.com · $295 for 10</td><td>Commission bid submission</td></tr>
+</table>
+
+<h3>9.3 Statutory compliance summary</h3>
+
+<table>
+<tr><th>Statute</th><th>Status</th><th>Where documented</th></tr>
+<tr><td>TCA § 49-6-2202(a)(3) — Supplemental exemption</td><td>✓ Confirmed</td><td>Publisher declaration; all compliance docs include supplemental-only notice</td></tr>
+<tr><td>TCA § 49-6-1028(b) — Capitalism/constitutional republic</td><td>✓ Complete</td><td>Standards matrix; Units 2, 5, 9, 10</td></tr>
+<tr><td>TCA § 49-6-1006 — Black history integration</td><td>✓ Complete</td><td>All 10 units; scope and sequence</td></tr>
+<tr><td>TCA § 49-6-1019 — Prohibited concepts</td><td>⚠ Designed for compliance; attorney review pending</td><td>packet-c-teacher.html; dossier Section 3.5</td></tr>
+<tr><td>TCA §§ 49-6-1202/1203/1205 — American history, constitutions, free enterprise</td><td>✓ Complete</td><td>Standards matrix; all units</td></tr>
+<tr><td>TCA § 49-6-2206(b) — Common Core prohibition</td><td>✓ Complete</td><td>Materials aligned to Tennessee Academic Standards only</td></tr>
+</table>
+
+<hr>
+
+<h2 id="10--maintenance-and-update-protocols">10. Maintenance and Update Protocols</h2>
+
+<h3>When standards change</h3>
+
+<ol>
+<li>Download the current Tennessee Social Studies Standards document for U.S. History from TDOE's academic standards page. Do not hard-code a publication year.</li>
+<li>Open <code>standards-matrix.html</code>; add any new or changed standard codes.</li>
+<li>Update <code>scope-sequence.html</code> to note which unit covers each new standard.</li>
+<li>Update <code>eoc-validation.html</code> if TCAP releases new frequency data.</li>
+<li>Add assessment items to <code>question-bank.html</code> for any new standard codes.</li>
+<li>Update <code>tagging_engine.py</code> UNIT_SKILL_MAPS if new standards require new skill category tags.</li>
+</ol>
+
+<h3>When packets need updating</h3>
+
+<ul>
+<li>- <strong>Packet A (skills):</strong> Edit <code>build_packets.py</code> PACKET_A string. Run: <code>python3 /home/claude/build_packets.py</code>.</li>
+<li>- <strong>Packet B (inquiry tasks):</strong> Edit <code>OPEN_INQUIRY_TASKS</code> list in <code>build_packets.py</code>. Run the same script.</li>
+<li>- <strong>Packet C (legal sidebar):</strong> Edit the PACKET_C string in <code>build_packets.py</code>. If the attorney review produces specific language revisions, incorporate those here. Run the script.</li>
+</ul>
+
+<h3>When unit content changes</h3>
+
+<ol>
+<li>Edit the relevant <code>unit-N.html</code> file directly.</li>
+<li>Re-run the tagging engine: <code>python3 /home/claude/run_tagging.py</code></li>
+<li>Rebuild the ZIP.</li>
+</ol>
+
+<h3>When the HIPP or SOAPS reference changes</h3>
+
+<p>Edit <code>hipp.html</code> directly. If the College Board updates the APUSH CED's sourcing skill language, update the HIPP Section 2 reference citation and the teacher note box.</p>
+
+<h3>Rebuild the production ZIP</h3>
+
+<p>After any changes: <code>python3 /home/claude/build_final_zip.py</code> produces <code>TroopToTeacher_Site_FINAL.zip</code> (currently ~913KB, 35 files).</p>
+
+<h3>Deploy to Vercel</h3>
+
+<p>From local machine (network not available in build sandbox):</p>
+<pre>
+cd ~/wherever-you-extracted/TroopToTeacher_Site_FINAL
+vercel deploy --yes
+</pre>
+<p>Project: <code>project-1gi0o</code> / <code>prj_XSDjyPTyfCrBRRrfTOBTkyIpJjGD</code></p>
+<p>Team: <code>trooptoteacher</code> / <code>team_ACsXUCSzpriTL2euKj8g90Se</code></p>
+<p>The <code>.vercel/project.json</code> inside the ZIP links automatically.</p>
+
+<hr>
+
+<h2 id="11--files-still-requiring-manual-human-r">11. Files Still Requiring Manual Human Review</h2>
+
+<p>These six items are the only blockers between the current state and commercial distribution or formal Commission submission. All other components are complete.</p>
+
+<h3>BLOCK 1: Legal (blocks commercial distribution)</h3>
+<ol>
+<li><strong>VLAA attorney written opinion</strong> — review Units 1, 7, 8 under TCA § 49-6-1019. Written opinion required; oral advice is not sufficient. Contact: Arts & Business Council of Greater Nashville, (615) 254-0030, vlaa.org. Estimated time: 2–4 weeks.</li>
+<li><strong>MLK Estate licensing resolution</strong> — three Unit 7 placeholders ("Coming Soon"). Contact: IPM Legal, info@ipmlegal.com, (404) 526-8900. If licensing is declined or cost-prohibitive: replace placeholders with James Lawson, Diane Nash, or John Lewis sources (public domain / accessible terms). Estimated time: 4–8 weeks.</li>
+</ol>
+
+<h3>BLOCK 2: Standards (blocks Commission submission)</h3>
+<ol>
+<li><strong>Standards mapping US.45–US.95</strong> — retrieve current TDOE standards document; map every standard to existing unit content; update <code>standards-matrix.html</code>. Estimated time: 2–3 days. This is a documentation task, not a content development task.</li>
+</ol>
+
+<h3>BLOCK 3: Accessibility (blocks Commission submission)</h3>
+<ol>
+<li><strong>WCAG 2.1 AA audit</strong> — run WAVE (wave.webaim.org) on all 35 HTML files. Fix all WAVE Errors (not just Alerts). Verify: alt text on all images, tabular data equivalents for SVG charts (added to unit-5-enhanced; confirm all units), keyboard navigation, color contrast. Estimated time: 1–2 days audit + 1 day fixes.</li>
+</ol>
+
+<h3>BLOCK 4: Legal and publishing infrastructure</h3>
+<ol>
+<li><strong>Copyright registration</strong> — copyright.gov, $65, Literary Work category. Required before first commercial sale to preserve right to statutory damages.</li>
+<li><strong>ISBN registration</strong> — myidentifiers.com, $295 for 10 ISBNs. Required for formal Textbook Commission bid submission, library listing, and distribution.</li>
+</ol>
+
+<hr>
+
+<p><em>TroopToTeacher Technologies LLC · U.S. History: Reconstruction to Present · © 2026 · Franklin, Tennessee</em></p>
+<p><em>This document is internal to TroopToTeacher Technologies LLC. It is not a claim of state approval, waiver approval, or legal clearance.</em></p>
+
+</div>
+<div class="foot">
+  <div><strong>TroopToTeacher Technologies LLC</strong> · Implementation Playbook · © 2026</div>
+  <div>Internal reference · Not a claim of state approval · Franklin, Tennessee</div>
+</div>
+</body>
+</html>
