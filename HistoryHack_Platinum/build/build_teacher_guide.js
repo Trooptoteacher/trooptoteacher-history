@@ -108,8 +108,25 @@ const body=[
     ['Source Library','Once per unit for reference.'],
   ],[3200,6448]),
 
-  H('8. Per-Standard Lesson Sequence',1),
-  P(Rr('Each standard follows the same cycle: Word Bank → Vocabulary Studio → Cornell Notes (Universal Front, optional Backs) → Close Read → Primary Source / Data (HIPPO) → Practice Quiz → CER. Budget ~2 class periods per standard.',{s:22})),
+  H('8. Per-Standard Lesson Sequence & Pacing (one standard = one 45-minute period)',1),
+  P(Rr('Each standard is taught in a single 45-minute period, but the workbook intentionally holds more activity than one period can fit — run them all and it is roughly 90–105 minutes. That is by design: you choose which activities fill your period, and the rest become bell-ringers, stations, homework, reteach, or extension. The estimates below are honest time-on-task for an average class; adjust for yours. Every workbook activity header shows the same ⏱ estimate so students can self-pace.',{s:22})),
+  H('Honest activity time estimates (pick what fills your 45 minutes)',2),
+  dataTable(['Activity','~Time','Note'],[
+    ['Standard launch (hook · goal · activate · predict)','5 min','Frames the learning target and the day.'],
+    ['Activity 1 — Vocabulary Word Bank','10 min','Reference + self-check + quick-write.'],
+    ['Activity 2 — Vocabulary Studio (Frayer)','7 min','One priority term, four quadrants.'],
+    ['Activity 3 — Cornell Notes (with slide deck)','20 min','Direct-teaching capture — front + processing back.'],
+    ['Activity 4 — Close Read','15 min','Passage, annotation, text-dependent questions.'],
+    ['Geographer’s Lens map (US.01, US.06 only)','10 min','Analyze the period map + mark-up.'],
+    ['Activity 5 — Primary Source / Data (HIPPO)','15 min','Source + five HIPPO prompts + response.'],
+    ['Activity 6 — Practice Quiz','8 min','A few items + one short DOK-3 write.'],
+    ['Activity 7 — CER + Exit Ticket','15 min','CER organizer + paragraph (~12) and Exit Ticket (~3).'],
+  ],[3300,900,5448]),
+  P(Rr('Run every activity and a standard totals ≈ 105 minutes (≈ 95 without a map) — about two periods of work compressed into a one-period design. So it is a menu, not a checklist.',{s:22})),
+  callout('How to fill the period — your call',[
+    'You decide which activities run in class. A common choice is Launch → Cornell Notes with the deck → one analysis activity (Close Read or Primary Source) → the Exit Ticket, but nothing forces that set — pick what your class needs that day.',
+    'The Exit Ticket is the daily formative check; try to close every period with it (see §16 for the keys and reteach routing).',
+    'Whatever you do not run in class becomes a bell-ringer, station, early-finisher task, homework, reteach, or extension. Rigor stays the same for every learner; UDL/MTSS supports layer on without lowering the bar.']),
   PB(),
 
   H('9. Assessment Source & Item Metadata',1),

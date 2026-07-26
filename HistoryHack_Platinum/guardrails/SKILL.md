@@ -86,6 +86,15 @@ revision notes) and a SHA-256-manifest package.
     is a defect.
 12. **Highlight the Tennessee connection** per standard where sourced (e.g., US.01 = George Jordan of
     Williamson County), and surface the **dimension lenses** (student-friendly) + **SSP** coverage.
+14. **One standard = one 45-minute period, but the workbook holds more than one period fits.** Each
+    activity header shows an HONEST `⏱ ~N min` estimate (via `H(title,2,{mins:N})`) — do NOT tune the
+    numbers to make a set sum to 45. Unit-1 estimates: launch 5 · vocab 10 · Frayer 7 · Cornell 20 ·
+    Close Read 15 · Geographer's map 10 · Primary Source 15 · Quiz 8 · CER+Exit 15 (≈105 min if all run).
+    Framing is a **menu, not a checklist**: the teacher chooses which activities fill the period; whatever
+    isn't run becomes a bell-ringer, station, homework, reteach, or extension. Never prescribe a fixed
+    "do exactly these" lane. Rigor stays the same for every learner; UDL/MTSS layer on without lowering the
+    bar. Student front matter carries a one-line pacing note; teacher guide §8 carries the honest estimate
+    table + a "how to fill the period — your call" callout.
 13. **Print-safe images (interior is black-and-white).** Choose images whose meaning survives grayscale —
     photographs, engravings, and line cartoons are safe (color there is decorative). When color *encodes*
     the information (choropleth/shaded maps, color-keyed charts), set `colorKey:true` on the image record:

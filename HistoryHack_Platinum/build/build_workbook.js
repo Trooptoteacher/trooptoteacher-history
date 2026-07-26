@@ -16,9 +16,10 @@ const bd=(c=BORD,sz=4)=>({style:BorderStyle.SINGLE,size:sz,color:c});
 const CELLB=(c=BORD)=>({top:bd(c),bottom:bd(c),left:bd(c),right:bd(c)});
 function R(text,{s=22,b=false,i=false,c=INK,caps=false}={}){return new TextRun({text,size:s,bold:b,italics:i,color:c,font:FONT,allCaps:caps});}
 function P(runs,{align,spacing,indent,border}={}){return new Paragraph({alignment:align,spacing:spacing||{after:100},indent,border,children:Array.isArray(runs)?runs:[runs]});}
-function H(text,lvl,{brk=false}={}){const map={1:HeadingLevel.HEADING_1,2:HeadingLevel.HEADING_2,3:HeadingLevel.HEADING_3};
-  return new Paragraph({heading:map[lvl],pageBreakBefore:brk,spacing:{before:lvl===1?220:150,after:90},keepNext:true,
-    children:[R(text,{s:lvl===1?36:lvl===2?28:24,b:true,c:lvl===3?RED:NAVY})]});}
+function H(text,lvl,{brk=false,mins=null}={}){const map={1:HeadingLevel.HEADING_1,2:HeadingLevel.HEADING_2,3:HeadingLevel.HEADING_3};
+  const kids=[R(text,{s:lvl===1?36:lvl===2?28:24,b:true,c:lvl===3?RED:NAVY})];
+  if(mins) kids.push(R(`    ⏱ ~${mins} min`,{s:18,b:true,c:GOLD}));
+  return new Paragraph({heading:map[lvl],pageBreakBefore:brk,spacing:{before:lvl===1?220:150,after:90},keepNext:true,children:kids});}
 function cell(children,{w,fill,borders}={}){return new TableCell({width:{size:w,type:WidthType.DXA},
   shading:fill?{type:ShadingType.CLEAR,fill,color:'auto'}:undefined,margins:{top:55,bottom:55,left:110,right:110},
   borders:borders||CELLB(),children:Array.isArray(children)?children:[children]});}
@@ -145,6 +146,7 @@ const front=[
   P(R('Source integrity. Every primary source in this unit is public-domain and cited to its holding repository (National Archives, Library of Congress, HathiTrust). See the Source Library.',{s:22})),
   P(R('Reading provenance (district-clear). Close-Read passages are labeled “History Hack-authored instructional synthesis” — they build on the standard record and are not presented as primary sources.',{s:22})),
   P(R('Framework stack. This workbook anchors to Tennessee U.S. History standards US.01–US.07 and the Social Studies Practices (SSP.01–SSP.06), and is designed on CAST UDL 3.0 and an MTSS support model.',{s:22})),
+  P([R('Pacing. ',{s:22,b:true}),R('Each standard is built for ',{s:22}),R('one 45-minute class period.',{s:22,b:true}),R(' Each activity shows a ',{s:22}),R('⏱ ~ minutes',{s:22,b:true,c:GOLD}),R(' estimate at its heading. There is more here than one period holds — your teacher chooses which activities you do in class; the rest may become warm-ups, stations, or homework.',{s:22})]),
   PB(),
   H('Table of Contents',1), new TableOfContents('Contents',{hyperlink:true,headingStyleRange:'1-2'}), PB(),
   H('Tennessee Standards & SSP Crosswalk',1),
@@ -217,7 +219,7 @@ function block(code){
     out.push(...ruled(3));
   }
   // Activity 1 — Word Bank
-  out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true}));
+  out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
   out.push(dataTable(['Term','Student-friendly meaning','Spanish'],s.vocab.map(v=>[
     new TextRun({text:v.term,bold:true,size:20,font:FONT,color:INK}), v.def, v.es]),[2683,4282,2683]));
@@ -225,7 +227,7 @@ function block(code){
   out.push(...vocabSelfCheck(code));
   out.push(...FILL_LIB.quickwrite('Which of these terms do you think will matter MOST for this standard, and why? You’ll revisit this at the end.'));
   // Activity 2 — Frayer
-  out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true}));
+  out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7}));
   out.push(callout('RESPONSE CHOICE',['Complete each studio by writing, speaking, or diagramming.']));
   a.frayer.forEach((term,fi)=>{const v=s.vocab.find(x=>x.term===term)||s.vocab[0];
     out.push(gap(fi===0?40:200));
@@ -238,7 +240,7 @@ function block(code){
   out.push(callout('CONNECT THE TERMS (UDL · build understanding)',['How do these priority terms fit together? Write or sketch how one leads to or affects another.']));
   out.push(...ruled(2));
   // Activity 3 — Cornell Notes — FRONT (note-taking; the whole page is writing space)
-  out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true}));
+  out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true,mins:20}));
   out.push(P(R('Name: ______________________    Class / Period: __________    Date: __________',{s:21})));
   out.push(P(R(`${code} — ${s.title}  •  Lean Student Deck slides ${r.range}  •  direct-teaching slides ${r.dt}`,{s:20,c:GREY})));
   out.push(P(R('Your learning targets are on this standard’s opening page — take notes that help you meet them.',{s:19,i:true,c:GREY}),{spacing:{after:60}}));
@@ -286,7 +288,7 @@ function block(code){
   out.push(callout('LIGHT PROCESSING LAB',['Answer one guiding question from above in a full sentence, in your own words.']));
   out.push(...ruled(8));
   // Activity 4 — Close Read
-  out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true}));
+  out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15}));
   out.push(P(R('Reading type: History Hack-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
   out.push(callout('CORE PATH',[a.close]));
   out.push(callout('LANGUAGE SUPPORT',['Key terms to know first: '+s.vocab.slice(0,2).map(v=>v.term).join(', ')+'. Read once for the gist, then again for evidence.']));
@@ -301,7 +303,7 @@ function block(code){
   else out.push(...retrievalBox(code));
   // Geographer's Lens map page — standards with a verified period map
   if(gmap){
-    out.push(H(`Geographer’s Lens — ${code}`,2,{brk:true}));
+    out.push(H(`Geographer’s Lens — ${code}`,2,{brk:true,mins:10}));
     out.push(P(R('Analyze this period map as a primary source. Geographer’s lens (G) · builds SSP.06.',{s:20,i:true,c:GREY})));
     out.push(...sourceImage(gmap,{max:540}));
     if(s.geo) out.push(callout('MAP TASK',[s.geo]));
@@ -314,7 +316,7 @@ function block(code){
     out.push(...doodle('MARK UP THE MAP (draw your thinking)','On the map above, circle or label what you notice — routes, regions, clusters — then sketch the pattern here in your own quick map.',1150));
   }
   // Activity 5 — Primary Source / Data (HIPPO)
-  out.push(H(`Activity 5 — Primary Source / Data Analysis — ${code}`,2,{brk:true}));
+  out.push(H(`Activity 5 — Primary Source / Data Analysis — ${code}`,2,{brk:true,mins:15}));
   const im=(IMG[code]||{});
   if(im.anchor){
     out.push(P(R(`Primary source (${im.anchor.medium}) — analyze it with HIPPO. Builds SSP.01–SSP.02.`,{s:20,i:true,c:GREY})));
@@ -336,7 +338,7 @@ function block(code){
   if(im.anchor) out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________']));
   else out.push(...sourceExtension(code));
   // Activity 6 — Practice Quiz
-  out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true}));
+  out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8}));
   out.push(callout('RESPONSE CHOICE',['Commit to an answer by marking it, saying it, or explaining it aloud before checking. Answer key is in the Teacher Guide (kept separate).']));
   const items=[...a.quiz, {id:`u1-${code.toLowerCase().replace('.','')}-dok${s.cfu.dok}-tc`,dok:s.cfu.dok,stem:s.cfu.stem,opts:s.cfu.options}];
   items.forEach(q=>{
@@ -353,7 +355,7 @@ function block(code){
     'Quick check: does my question make the reader THINK and use evidence? If yes, it’s DOK-3.']));
   out.push(writeTable(['Your DOK-3 question','Your answer key (one sentence)'],[['',''],['','']],[4824,4824],{rowH:1000}));
   // Activity 7 — CER
-  out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true}));
+  out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:15}));
   out.push(callout('BIG-QUESTION ORGANIZER (before you write) — as the U.S. industrialized, who benefited and who bore the costs?',['Plan your argument here, then use it to write your claim, evidence, and reasoning below.']));
   out.push(writeTable(['The big question','Your quick notes (from this standard)'],
     [['Who benefited?',''],['Who bore the costs?',''],['Who decided?','']],[3050,6598],{lines:1}));
