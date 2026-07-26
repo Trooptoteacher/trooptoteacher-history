@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Venn Diagram &mdash; Compare Two</title>
+<title>Federal Policy Toward American Indian Nations</title>
 <style>
   :root{
     --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C;
@@ -105,57 +105,82 @@
   .foot .brand{ font-weight:700; color:var(--navy); }
 
 
-  .venn-wrap{ flex:1 1 auto; position:relative; min-height:0; }
-  .venn-wrap svg{ width:100%; height:100%; display:block; }
-  .topicbar{ position:absolute; top:-2px; display:flex; align-items:center; gap:6px; font-weight:800; font-size:12pt; }
-  .writefield{ background:var(--paper); border-bottom:2px solid; min-width:150px; height:20px; display:inline-block; }
-  .vlbl{ position:absolute; text-align:center; font-size:11.5pt; font-weight:800; letter-spacing:.03em; }
+  .seq{ flex:1 1 auto; display:flex; flex-direction:column; gap:0; min-height:0; }
+  .stage{ display:flex; gap:11px; align-items:stretch; flex:1 1 0; min-height:0; }
+  .stage .num{ flex:0 0 40px; display:flex; align-items:center; justify-content:center;
+               background:var(--navy); color:#fff; font-family:Georgia,serif; font-weight:700; font-size:17pt; border-radius:8px; }
+  .stage.gold .num{ background:var(--gold); color:var(--navy); }
+  .stage .card{ flex:1 1 auto; display:flex; flex-direction:column; min-height:0; }
+  .stage .lab{ display:flex; align-items:baseline; gap:9px; }
+  .stage .lab .nm{ font-size:12.5pt; font-weight:800; color:var(--navy); }
+  .stage .lab .yr{ font-size:9pt; font-weight:800; color:var(--red); letter-spacing:.04em; }
+  .stage .lab .q{ font-size:8.5pt; color:#5a6579; font-style:italic; }
+  .stage .well{ margin-top:4px; }
+  .seq-arrow{ height:22px; display:flex; align-items:center; padding-left:14px; flex:0 0 auto; }
+  .seq-arrow .a{ width:0;height:0;border-left:9px solid transparent;border-right:9px solid transparent;border-top:12px solid var(--gold); }
+  .seq-arrow .cap{ font-size:7.6pt; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; margin-left:10px; }
+  .endbox{ flex:0 0 auto; margin-top:6px; background:var(--red-tint); border:1.6px solid var(--red); border-left:6px solid var(--red);
+           border-radius:0 6px 6px 0; padding:7px 12px; font-size:9pt; color:#3a1f22; }
+  .endbox b{ color:var(--red); }
 </style>
 </head>
 <body>
 <div class="page">
   <div class="hdr">
     <div class="hdr-left">
-      <div class="kicker">Reusable Organizer &middot; Any Unit &middot; Any Subject</div>
-      <h1>Venn Diagram &mdash; Compare Two</h1>
+      <div class="kicker">Unit 1 &middot; US.02 &middot; Best-Fit Organizer</div>
+      <h1>Federal Policy Toward American Indian Nations</h1>
       <div class="sub">Name ______________________________&nbsp;&nbsp; Class __________&nbsp;&nbsp; Date __________</div>
     </div>
     <div class="hdr-right">
       <div class="repro">&#10003; Reproducible</div>
-      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>10-15 min</div>
-      <div class="chip">Compare 2 Things</div>
-      <div class="chip skill">DOK 2 &middot; Comparison</div>
+      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>15-20 min</div>
+      <div class="chip">Sequence &middot; Cause &rarr; Effect</div>
+      <div class="chip skill">SSP.05 &middot; DOK 2&ndash;3</div>
     </div>
   </div>
 
   <div class="why">
     <b class="k">When&nbsp;&middot;&nbsp;Why</b>
-    <span>Use when a task asks students to <b>compare two</b> things &mdash; the overlap makes shared traits visible and forces precise differences. <span class='cite'>Identifying similarities &amp; differences is the highest-yield strategy for learning gains (Marzano).</span></span>
+    <span>A sequence chain shows students that federal policy was a deliberate, escalating campaign &mdash; reservations, assimilation, boarding schools, and the 1887 Dawes Act &mdash; not a set of unrelated events. <span class='cite'>Ordering causes &amp; effects builds TN Social Studies Practice SSP.05.</span></span>
   </div>
 
   <div class="organizer">
     
-    <div class="prompt">In each circle, write what is <b>unique</b> to that topic. In the middle, write what they <b>share</b>.</div>
-    <div class="canvas">
-      <div class="venn-wrap">
-        <svg viewBox="0 0 900 560" preserveAspectRatio="xMidYMid meet">
-          <circle cx="330" cy="285" r="245" fill="#EEF1F7" stroke="#1B2A4A" stroke-width="3.5"/>
-          <circle cx="570" cy="285" r="245" fill="#FBEEEF" stroke="#B22234" stroke-width="3.5"/>
-          <path d="M 450,72.5 A 245,245 0 0,1 450,497.5 A 245,245 0 0,1 450,72.5 Z"
-                fill="#FAF3E2" stroke="#C89B3C" stroke-width="2.5"/>
-          <g stroke="#B9C2D0" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="150" y1="235" x2="330" y2="235"/><line x1="140" y1="285" x2="330" y2="285"/><line x1="150" y1="335" x2="330" y2="335"/></g>
-          <g stroke="#D8B3B7" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="570" y1="235" x2="750" y2="235"/><line x1="570" y1="285" x2="760" y2="285"/><line x1="570" y1="335" x2="750" y2="335"/></g>
-          <g stroke="#E0CB94" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="410" y1="255" x2="490" y2="255"/><line x1="405" y1="285" x2="495" y2="285"/><line x1="410" y1="315" x2="490" y2="315"/></g>
-        </svg>
-        <div class="topicbar" style="left:5%; color:var(--navy);">Topic&nbsp;A: <span class="writefield" style="border-color:var(--navy);"></span></div>
-        <div class="topicbar" style="right:5%; color:var(--red);">Topic&nbsp;B: <span class="writefield" style="border-color:var(--red);"></span></div>
-        <div class="vlbl" style="top:33%; left:17%; color:var(--navy);">ONLY&nbsp;A</div>
-        <div class="vlbl" style="top:33%; right:17%; color:var(--red);">ONLY&nbsp;B</div>
-        <div class="vlbl" style="top:30%; left:44.5%; color:#8a6a1e;">BOTH</div>
+    <div class="prompt">Federal policy toward American Indian nations moved step by step. Explain each step &mdash; and where it was heading.</div>
+    <div class="seq">
+      <div class="stage">
+        <div class="num">1</div>
+        <div class="card">
+          <div class="lab"><span class="nm">Reservations</span><span class="q">Confine nations to bounded land &mdash; why, and with what promises?</span></div>
+          <div class="well navy lines fill"></div>
+        </div>
       </div>
+      <div class="seq-arrow"><span class="a"></span><span class="cap">led to &mdash;</span></div>
+      <div class="stage">
+        <div class="num">2</div>
+        <div class="card">
+          <div class="lab"><span class="nm">Assimilation policy</span><span class="q">Pressure to give up language, land-holding &amp; culture &mdash; what was the goal?</span></div>
+          <div class="well navy lines fill"></div>
+        </div>
+      </div>
+      <div class="seq-arrow"><span class="a"></span><span class="cap">led to &mdash;</span></div>
+      <div class="stage">
+        <div class="num">3</div>
+        <div class="card">
+          <div class="lab"><span class="nm">Boarding schools</span><span class="q">Children removed from families &mdash; what was taken, and what was the aim?</span></div>
+          <div class="well navy lines fill"></div>
+        </div>
+      </div>
+      <div class="seq-arrow"><span class="a"></span><span class="cap">led to &mdash;</span></div>
+      <div class="stage gold">
+        <div class="num">4</div>
+        <div class="card">
+          <div class="lab"><span class="nm">Dawes Act</span><span class="yr">1887</span><span class="q">Communal land split into individual allotments; &ldquo;surplus&rdquo; sold &mdash; who lost land?</span></div>
+          <div class="well gold lines fill"></div>
+        </div>
+      </div>
+      <div class="endbox"><b>Cause &rarr; Effect:</b> These four steps shared one goal: ____________________________. Their combined effect on American Indian nations was ____________________________________________.</div>
     </div>
 
   </div>
@@ -163,15 +188,15 @@
   <div class="udl">
     <div class="udl-h">Make it work for every student <span class="tag">UDL &middot; MTSS</span></div>
     <div class="udl-body">
-      <div class="udl-col"><h4>Scaffold</h4><p>Give a word bank and a sentence starter: &ldquo;Both ___ and ___ are ___.&rdquo; Let pairs fill the BOTH region first.</p></div>
-      <div class="udl-col"><h4>Extend</h4><p>Rank the differences: which one matters most, and why? Defend it in one sentence of evidence.</p></div>
-      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b>, <b>say</b> (record), <b>draw</b> icons, or <b>build</b> the circles with sticky notes.</p></div>
+      <div class="udl-col"><h4>Scaffold</h4><p>Provide the four stage names on cards; students sequence them first, then explain one clause each using &ldquo;so that ___.&rdquo;</p></div>
+      <div class="udl-col"><h4>Extend</h4><p>Argue: which single step did the most lasting damage to tribal sovereignty? Cite the chain to defend it.</p></div>
+      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b> each step, <b>say</b> the chain aloud, <b>draw</b> arrows &amp; icons, or <b>build</b> it with sequence cards.</p></div>
     </div>
   </div>
 
   <div class="foot">
     <span class="brand">U.S. History Hack&trade; &nbsp;&middot;&nbsp; &copy; 2026 TroopToTeacher Technologies LLC</span>
-    <span>Teacher Graphic Organizer Toolkit &middot; Blank Reproducible</span>
+    <span>Teacher Graphic Organizer Toolkit &middot; Unit 1 &middot; US.02 (labeled)</span>
   </div>
 </div>
 </body>

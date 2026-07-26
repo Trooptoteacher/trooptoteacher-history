@@ -52,7 +52,17 @@ def render_pdf_combined():
     print(f"  pdf {out}")
 
 def concat_pdfs(parts, out):
-    # Minimal PDF merge (pypdf if present, else naive via ghostscript/pdfunite if available).
+    # pikepdf is self-contained (no cryptography import); prefer it.
+    try:
+        import pikepdf
+        dst = pikepdf.Pdf.new()
+        for p in parts:
+            with pikepdf.open(p) as src:
+                dst.pages.extend(src.pages)
+        dst.save(out)
+        return
+    except Exception:
+        pass
     try:
         from pypdf import PdfWriter
         w = PdfWriter()

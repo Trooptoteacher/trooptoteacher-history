@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Venn Diagram &mdash; Compare Two</title>
+<title>From a Disputed Election to <span style='font-family:Georgia;font-style:italic'>Plessy</span></title>
 <style>
   :root{
     --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C;
@@ -105,73 +105,95 @@
   .foot .brand{ font-weight:700; color:var(--navy); }
 
 
-  .venn-wrap{ flex:1 1 auto; position:relative; min-height:0; }
-  .venn-wrap svg{ width:100%; height:100%; display:block; }
-  .topicbar{ position:absolute; top:-2px; display:flex; align-items:center; gap:6px; font-weight:800; font-size:12pt; }
-  .writefield{ background:var(--paper); border-bottom:2px solid; min-width:150px; height:20px; display:inline-block; }
-  .vlbl{ position:absolute; text-align:center; font-size:11.5pt; font-weight:800; letter-spacing:.03em; }
+  .tl{ flex:1 1 auto; position:relative; display:flex; flex-direction:column; min-height:0; padding-left:150px; }
+  .tl::before{ content:""; position:absolute; left:132px; top:6px; bottom:6px; width:4px; background:var(--navy); border-radius:2px; }
+  .ev{ flex:1 1 0; display:flex; align-items:stretch; position:relative; min-height:0; padding:5px 0; }
+  .ev .date{ position:absolute; left:-150px; top:5px; width:120px; text-align:right; }
+  .ev .date .d{ font-family:Georgia,serif; font-size:15pt; font-weight:700; color:var(--red); line-height:1; }
+  .ev .date .w{ display:block; border-bottom:1.6px solid var(--rule); height:15px; margin-top:6px; }
+  .ev .date .wl{ font-size:7pt; color:#8792a4; font-style:italic; }
+  .ev .node{ position:absolute; left:-24px; top:6px; width:20px; height:20px; border-radius:50%;
+             background:#fff; border:4px solid var(--gold); }
+  .ev .card{ flex:1 1 auto; display:flex; flex-direction:column; min-height:0; }
+  .ev .nm{ font-size:12pt; font-weight:800; color:var(--navy); }
+  .ev .nm .q{ font-weight:600; font-size:8.6pt; color:#5a6579; font-style:italic; }
+  .ev .well{ margin-top:3px; }
+  .tnbox{ flex:0 0 auto; margin-top:6px; background:var(--gold-tint); border:1.6px solid var(--gold); border-left:6px solid var(--gold);
+          border-radius:0 6px 6px 0; padding:7px 12px; display:flex; gap:10px; align-items:flex-start; }
+  .tnbox .star{ color:#b8860b; font-size:14pt; line-height:1; flex:0 0 auto; }
+  .tnbox .t{ font-size:8.8pt; line-height:1.3; color:#3a2f12; } .tnbox .t b{ color:#7a5c15; }
 </style>
 </head>
 <body>
 <div class="page">
   <div class="hdr">
     <div class="hdr-left">
-      <div class="kicker">Reusable Organizer &middot; Any Unit &middot; Any Subject</div>
-      <h1>Venn Diagram &mdash; Compare Two</h1>
+      <div class="kicker">Unit 1 &middot; US.03 &middot; Best-Fit Organizer</div>
+      <h1>From a Disputed Election to <span style='font-family:Georgia;font-style:italic'>Plessy</span></h1>
       <div class="sub">Name ______________________________&nbsp;&nbsp; Class __________&nbsp;&nbsp; Date __________</div>
     </div>
     <div class="hdr-right">
       <div class="repro">&#10003; Reproducible</div>
-      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>10-15 min</div>
-      <div class="chip">Compare 2 Things</div>
-      <div class="chip skill">DOK 2 &middot; Comparison</div>
+      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>20-25 min</div>
+      <div class="tstar">&#9733; Tennessee Connection</div>
+      <div class="chip">Timeline &middot; Change Over Time</div>
+      <div class="chip skill">SSP.05 &middot; DOK 2&ndash;3</div>
     </div>
   </div>
 
   <div class="why">
     <b class="k">When&nbsp;&middot;&nbsp;Why</b>
-    <span>Use when a task asks students to <b>compare two</b> things &mdash; the overlap makes shared traits visible and forces precise differences. <span class='cite'>Identifying similarities &amp; differences is the highest-yield strategy for learning gains (Marzano).</span></span>
+    <span>A timeline makes the through-line visible: the 1876 election bargain (Compromise of 1877) ended Reconstruction and opened the door to Jim Crow and <span style='font-family:Georgia;font-style:italic'>Plessy</span> (1896). <span class='cite'>Chronological reasoning is TN Social Studies Practice SSP.05.</span></span>
   </div>
 
   <div class="organizer">
     
-    <div class="prompt">In each circle, write what is <b>unique</b> to that topic. In the middle, write what they <b>share</b>.</div>
-    <div class="canvas">
-      <div class="venn-wrap">
-        <svg viewBox="0 0 900 560" preserveAspectRatio="xMidYMid meet">
-          <circle cx="330" cy="285" r="245" fill="#EEF1F7" stroke="#1B2A4A" stroke-width="3.5"/>
-          <circle cx="570" cy="285" r="245" fill="#FBEEEF" stroke="#B22234" stroke-width="3.5"/>
-          <path d="M 450,72.5 A 245,245 0 0,1 450,497.5 A 245,245 0 0,1 450,72.5 Z"
-                fill="#FAF3E2" stroke="#C89B3C" stroke-width="2.5"/>
-          <g stroke="#B9C2D0" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="150" y1="235" x2="330" y2="235"/><line x1="140" y1="285" x2="330" y2="285"/><line x1="150" y1="335" x2="330" y2="335"/></g>
-          <g stroke="#D8B3B7" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="570" y1="235" x2="750" y2="235"/><line x1="570" y1="285" x2="760" y2="285"/><line x1="570" y1="335" x2="750" y2="335"/></g>
-          <g stroke="#E0CB94" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="410" y1="255" x2="490" y2="255"/><line x1="405" y1="285" x2="495" y2="285"/><line x1="410" y1="315" x2="490" y2="315"/></g>
-        </svg>
-        <div class="topicbar" style="left:5%; color:var(--navy);">Topic&nbsp;A: <span class="writefield" style="border-color:var(--navy);"></span></div>
-        <div class="topicbar" style="right:5%; color:var(--red);">Topic&nbsp;B: <span class="writefield" style="border-color:var(--red);"></span></div>
-        <div class="vlbl" style="top:33%; left:17%; color:var(--navy);">ONLY&nbsp;A</div>
-        <div class="vlbl" style="top:33%; right:17%; color:var(--red);">ONLY&nbsp;B</div>
-        <div class="vlbl" style="top:30%; left:44.5%; color:#8a6a1e;">BOTH</div>
+    <div class="prompt">Write each <b>date</b> on the left, then explain why the event mattered. Watch how one election reshaped a generation.</div>
+    <div class="tl">
+      <div class="ev">
+        <div class="date"><div class="d">1876</div><span class="w"></span><span class="wl">write the date</span></div>
+        <div class="node"></div>
+        <div class="card"><div class="nm">Disputed presidential election <span class="q">&mdash; Hayes vs. Tilden; who really won?</span></div>
+          <div class="well navy lines fill"></div></div>
+      </div>
+      <div class="ev">
+        <div class="date"><div class="d">1877</div><span class="w"></span></div>
+        <div class="node"></div>
+        <div class="card"><div class="nm">Compromise of 1877 <span class="q">&mdash; federal troops leave the South; Reconstruction ends</span></div>
+          <div class="well navy lines fill"></div></div>
+      </div>
+      <div class="ev">
+        <div class="date"><div class="d">1880s&ndash;90s</div><span class="w"></span></div>
+        <div class="node"></div>
+        <div class="card"><div class="nm">Jim Crow &amp; disenfranchisement <span class="q">&mdash; segregation laws; poll taxes, literacy tests</span></div>
+          <div class="well navy lines fill"></div></div>
+      </div>
+      <div class="ev">
+        <div class="date"><div class="d">1896</div><span class="w"></span></div>
+        <div class="node" style="border-color:var(--red);"></div>
+        <div class="card"><div class="nm" style="color:var(--red)">Plessy v. Ferguson <span class="q">&mdash; &ldquo;separate but equal&rdquo; upheld</span></div>
+          <div class="well red lines fill"></div></div>
       </div>
     </div>
+    <div class="tnbox"><span class="star">&#9733;</span>
+      <span class="t"><b>Tennessee Connection.</b> Tennessee law (<b>T.C.A. &sect; 49-6-1006</b>) requires that this history &mdash;
+      the end of Reconstruction, Jim Crow, and the disenfranchisement of Black Tennesseans &mdash; be taught. On the line above, mark where
+      Tennessee&rsquo;s own laws followed the national pattern.</span></div>
 
   </div>
 
   <div class="udl">
     <div class="udl-h">Make it work for every student <span class="tag">UDL &middot; MTSS</span></div>
     <div class="udl-body">
-      <div class="udl-col"><h4>Scaffold</h4><p>Give a word bank and a sentence starter: &ldquo;Both ___ and ___ are ___.&rdquo; Let pairs fill the BOTH region first.</p></div>
-      <div class="udl-col"><h4>Extend</h4><p>Rank the differences: which one matters most, and why? Defend it in one sentence of evidence.</p></div>
-      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b>, <b>say</b> (record), <b>draw</b> icons, or <b>build</b> the circles with sticky notes.</p></div>
+      <div class="udl-col"><h4>Scaffold</h4><p>Give the four dates on cards; students place them on the spine first, then add one &ldquo;this mattered because ___&rdquo; per node.</p></div>
+      <div class="udl-col"><h4>Extend</h4><p>Draw arrows between nodes to show cause &amp; effect: how did each step make the next one possible?</p></div>
+      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b> the dates, <b>say</b> the sequence, <b>draw</b> the line, or <b>build</b> it with a card timeline.</p></div>
     </div>
   </div>
 
   <div class="foot">
     <span class="brand">U.S. History Hack&trade; &nbsp;&middot;&nbsp; &copy; 2026 TroopToTeacher Technologies LLC</span>
-    <span>Teacher Graphic Organizer Toolkit &middot; Blank Reproducible</span>
+    <span>Teacher Graphic Organizer Toolkit &middot; Unit 1 &middot; US.03 (labeled)</span>
   </div>
 </div>
 </body>

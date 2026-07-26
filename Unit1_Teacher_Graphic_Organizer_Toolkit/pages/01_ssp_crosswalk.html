@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Venn Diagram &mdash; Compare Two</title>
+<html lang="en"><head><meta charset="UTF-8"><title>SSP Crosswalk</title>
 <style>
   :root{
     --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C;
@@ -105,74 +102,89 @@
   .foot .brand{ font-weight:700; color:var(--navy); }
 
 
-  .venn-wrap{ flex:1 1 auto; position:relative; min-height:0; }
-  .venn-wrap svg{ width:100%; height:100%; display:block; }
-  .topicbar{ position:absolute; top:-2px; display:flex; align-items:center; gap:6px; font-weight:800; font-size:12pt; }
-  .writefield{ background:var(--paper); border-bottom:2px solid; min-width:150px; height:20px; display:inline-block; }
-  .vlbl{ position:absolute; text-align:center; font-size:11.5pt; font-weight:800; letter-spacing:.03em; }
-</style>
-</head>
+  .cover{ flex:0 0 auto; background:var(--navy); color:#fff; border-radius:9px; padding:14px 20px;
+          display:flex; justify-content:space-between; align-items:center; }
+  .cover .ttl{ font-family:Georgia,serif; font-size:23pt; font-weight:700; line-height:1.03; }
+  .cover .ttl .thin{ display:block; font-family:"Helvetica Neue",Arial,sans-serif; font-size:10pt;
+                     font-weight:700; letter-spacing:.15em; text-transform:uppercase; color:var(--gold); margin-bottom:4px; }
+  .cover .sub{ font-size:9.6pt; color:#cdd4e2; margin-top:5px; }
+  .cover .repro2{ border:1.5px solid var(--gold); color:var(--gold); font-size:8pt; font-weight:800;
+                  letter-spacing:.08em; text-transform:uppercase; padding:4px 10px; border-radius:4px; }
+  .lede{ flex:0 0 auto; margin:11px 2px 8px; font-size:10.3pt; color:#2c3446; line-height:1.35; }
+  .lede b{ color:var(--navy); }
+  .stbl{ flex:1 1 auto; display:flex; flex-direction:column; border:2px solid var(--navy); border-radius:8px; overflow:hidden; min-height:0; }
+  .sh{ flex:0 0 auto; display:grid; grid-template-columns:1.15fr 1.35fr 1.15fr 1.5fr; background:var(--navy); color:#fff; }
+  .sh div{ padding:7px 12px; font-size:8.4pt; font-weight:800; letter-spacing:.05em; text-transform:uppercase; }
+  .sh div+div{ border-left:1px solid #3a4b68; }
+  .sr{ flex:1 1 0; display:grid; grid-template-columns:1.15fr 1.35fr 1.15fr 1.5fr; align-items:center; border-top:1px solid var(--rule); min-height:0; }
+  .sr:nth-child(even){ background:#fafbfc; }
+  .sr>div{ padding:7px 12px; } .sr>div+div{ border-left:1px solid var(--rule); }
+  .c-code{ display:flex; flex-direction:column; gap:4px; }
+  .c-code .badge{ align-self:flex-start; color:#fff; font-weight:800; font-size:9pt; letter-spacing:.03em; padding:3px 9px; border-radius:5px; }
+  .c-code .nm{ font-size:9.3pt; font-weight:800; color:var(--navy); line-height:1.1; }
+  .c-what{ font-size:8.8pt; color:#3a4455; line-height:1.26; }
+  .c-org{ display:flex; flex-wrap:wrap; gap:4px; }
+  .ochip{ background:var(--navy-tint); border:1px solid #c3ccdc; color:var(--navy); font-size:8pt; font-weight:700; padding:2px 7px; border-radius:9px; }
+  .c-use{ font-size:8.6pt; color:#3a4455; line-height:1.26; } .c-use i{ font-family:Georgia,serif; }
+  .foot{ flex:0 0 auto; display:flex; justify-content:space-between; align-items:center;
+         margin-top:8px; padding-top:6px; border-top:1px solid var(--rule); font-size:7.7pt; color:var(--muted); }
+  .foot .brand{ font-weight:700; color:var(--navy); }
+</style></head>
 <body>
 <div class="page">
-  <div class="hdr">
-    <div class="hdr-left">
-      <div class="kicker">Reusable Organizer &middot; Any Unit &middot; Any Subject</div>
-      <h1>Venn Diagram &mdash; Compare Two</h1>
-      <div class="sub">Name ______________________________&nbsp;&nbsp; Class __________&nbsp;&nbsp; Date __________</div>
+  <div class="cover">
+    <div class="l">
+      <div class="ttl"><span class="thin">TN Social Studies Practices</span>SSP Crosswalk</div>
+      <div class="sub">Which organizer builds which practice &mdash; and where it lives in Unit 1</div>
     </div>
-    <div class="hdr-right">
-      <div class="repro">&#10003; Reproducible</div>
-      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>10-15 min</div>
-      <div class="chip">Compare 2 Things</div>
-      <div class="chip skill">DOK 2 &middot; Comparison</div>
-    </div>
+    <div class="repro2">&#10003; Reproducible</div>
   </div>
 
-  <div class="why">
-    <b class="k">When&nbsp;&middot;&nbsp;Why</b>
-    <span>Use when a task asks students to <b>compare two</b> things &mdash; the overlap makes shared traits visible and forces precise differences. <span class='cite'>Identifying similarities &amp; differences is the highest-yield strategy for learning gains (Marzano).</span></span>
-  </div>
+  <div class="lede">Every organizer in this toolkit is also a <b>skills tool</b>. Use this crosswalk to name the
+  Tennessee Social Studies Practice you&rsquo;re building &mdash; and to pick the organizer that builds it best.</div>
 
-  <div class="organizer">
-    
-    <div class="prompt">In each circle, write what is <b>unique</b> to that topic. In the middle, write what they <b>share</b>.</div>
-    <div class="canvas">
-      <div class="venn-wrap">
-        <svg viewBox="0 0 900 560" preserveAspectRatio="xMidYMid meet">
-          <circle cx="330" cy="285" r="245" fill="#EEF1F7" stroke="#1B2A4A" stroke-width="3.5"/>
-          <circle cx="570" cy="285" r="245" fill="#FBEEEF" stroke="#B22234" stroke-width="3.5"/>
-          <path d="M 450,72.5 A 245,245 0 0,1 450,497.5 A 245,245 0 0,1 450,72.5 Z"
-                fill="#FAF3E2" stroke="#C89B3C" stroke-width="2.5"/>
-          <g stroke="#B9C2D0" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="150" y1="235" x2="330" y2="235"/><line x1="140" y1="285" x2="330" y2="285"/><line x1="150" y1="335" x2="330" y2="335"/></g>
-          <g stroke="#D8B3B7" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="570" y1="235" x2="750" y2="235"/><line x1="570" y1="285" x2="760" y2="285"/><line x1="570" y1="335" x2="750" y2="335"/></g>
-          <g stroke="#E0CB94" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="410" y1="255" x2="490" y2="255"/><line x1="405" y1="285" x2="495" y2="285"/><line x1="410" y1="315" x2="490" y2="315"/></g>
-        </svg>
-        <div class="topicbar" style="left:5%; color:var(--navy);">Topic&nbsp;A: <span class="writefield" style="border-color:var(--navy);"></span></div>
-        <div class="topicbar" style="right:5%; color:var(--red);">Topic&nbsp;B: <span class="writefield" style="border-color:var(--red);"></span></div>
-        <div class="vlbl" style="top:33%; left:17%; color:var(--navy);">ONLY&nbsp;A</div>
-        <div class="vlbl" style="top:33%; right:17%; color:var(--red);">ONLY&nbsp;B</div>
-        <div class="vlbl" style="top:30%; left:44.5%; color:#8a6a1e;">BOTH</div>
+  <div class="stbl">
+    <div class="sh"><div>Practice</div><div>What students do</div><div>Build it with</div><div>Use it when &middot; where in Unit 1</div></div>
+      <div class="sr">
+        <div class="c-code"><span class="badge" style="background:var(--navy)">SSP.01</span><span class="nm">Collect Information</span></div>
+        <div class="c-what">Gather facts from primary &amp; secondary sources.</div>
+        <div class="c-org"><span class="ochip">5 Ws</span><span class="ochip">Main Idea &amp; Details</span><span class="ochip">K&#8209;W&#8209;L</span></div>
+        <div class="c-use">Intake: pulling the who/what/when and key ideas out of a reading, image, or lecture.</div>
       </div>
-    </div>
-
-  </div>
-
-  <div class="udl">
-    <div class="udl-h">Make it work for every student <span class="tag">UDL &middot; MTSS</span></div>
-    <div class="udl-body">
-      <div class="udl-col"><h4>Scaffold</h4><p>Give a word bank and a sentence starter: &ldquo;Both ___ and ___ are ___.&rdquo; Let pairs fill the BOTH region first.</p></div>
-      <div class="udl-col"><h4>Extend</h4><p>Rank the differences: which one matters most, and why? Defend it in one sentence of evidence.</p></div>
-      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b>, <b>say</b> (record), <b>draw</b> icons, or <b>build</b> the circles with sticky notes.</p></div>
-    </div>
+      <div class="sr">
+        <div class="c-code"><span class="badge" style="background:var(--red)">SSP.02</span><span class="nm">Critically Examine Sources</span></div>
+        <div class="c-what">Interrogate a source: author, audience, point of view, purpose, reliability.</div>
+        <div class="c-org"><span class="ochip">HIPPO</span><span class="ochip">C&#8209;E&#8209;R</span></div>
+        <div class="c-use">Any primary source in US.01&ndash;US.07 &mdash; a photo, cartoon, speech, or law.</div>
+      </div>
+      <div class="sr">
+        <div class="c-code"><span class="badge" style="background:var(--gold); color:var(--navy)">SSP.03</span><span class="nm">Synthesize Data</span></div>
+        <div class="c-what">Organize &amp; combine data from several sources into one picture.</div>
+        <div class="c-org"><span class="ochip">Comparison matrix</span><span class="ochip">Concept web</span><span class="ochip">Venn</span></div>
+        <div class="c-use">US.04 (three forces) &amp; US.07 (old vs. new) &mdash; holding many cases together.</div>
+      </div>
+      <div class="sr">
+        <div class="c-code"><span class="badge" style="background:var(--navy)">SSP.04</span><span class="nm">Construct &amp; Communicate with Evidence</span></div>
+        <div class="c-what">Build and defend an argument or explanation with evidence.</div>
+        <div class="c-org"><span class="ochip">C&#8209;E&#8209;R</span><span class="ochip">T&#8209;chart</span><span class="ochip">Problem&ndash;Solution</span></div>
+        <div class="c-use">US.05 verdict (Captain vs. Robber Baron) and any claim-and-defend task.</div>
+      </div>
+      <div class="sr">
+        <div class="c-code"><span class="badge" style="background:var(--red)">SSP.05</span><span class="nm">Develop Historical Awareness</span></div>
+        <div class="c-what">Sequence in time, trace cause &amp; effect, and see change over time.</div>
+        <div class="c-org"><span class="ochip">Timeline</span><span class="ochip">Cause &amp; Effect</span><span class="ochip">Sequence</span></div>
+        <div class="c-use">US.02 (policy sequence &rarr; Dawes Act) &amp; US.03 (election &rarr; <i>Plessy</i>).</div>
+      </div>
+      <div class="sr">
+        <div class="c-code"><span class="badge" style="background:var(--gold); color:var(--navy)">SSP.06</span><span class="nm">Develop Geographic Awareness</span></div>
+        <div class="c-what">Read place, region &amp; spatial patterns; connect geography to events.</div>
+        <div class="c-org"><span class="ochip">City &times; Industry matrix</span><span class="ochip">&#9733; Tennessee Connection</span></div>
+        <div class="c-use">US.06 (why cities grew where they did) &amp; every Tennessee Connection.</div>
+      </div>
   </div>
 
   <div class="foot">
     <span class="brand">U.S. History Hack&trade; &nbsp;&middot;&nbsp; &copy; 2026 TroopToTeacher Technologies LLC</span>
-    <span>Teacher Graphic Organizer Toolkit &middot; Blank Reproducible</span>
+    <span>Teacher Graphic Organizer Toolkit &middot; SSP Crosswalk</span>
   </div>
-</div>
-</body>
-</html>
+</div></body></html>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Venn Diagram &mdash; Compare Two</title>
+<title>Timeline &mdash; Order &amp; Change Over Time</title>
 <style>
   :root{
     --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C;
@@ -105,11 +105,34 @@
   .foot .brand{ font-weight:700; color:var(--navy); }
 
 
-  .venn-wrap{ flex:1 1 auto; position:relative; min-height:0; }
-  .venn-wrap svg{ width:100%; height:100%; display:block; }
-  .topicbar{ position:absolute; top:-2px; display:flex; align-items:center; gap:6px; font-weight:800; font-size:12pt; }
-  .writefield{ background:var(--paper); border-bottom:2px solid; min-width:150px; height:20px; display:inline-block; }
-  .vlbl{ position:absolute; text-align:center; font-size:11.5pt; font-weight:800; letter-spacing:.03em; }
+  .tl{ flex:1 1 auto; display:flex; flex-direction:column; min-height:0; }
+  .tl-ends{ display:flex; align-items:center; gap:10px; flex:0 0 auto; margin-bottom:2px; }
+  .tl-ends .sp{ width:44px; flex:0 0 44px; text-align:center; }
+  .tl-ends .lbl{ font-size:8pt; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); }
+  .tl-ends .lbl.d{ width:150px; flex:0 0 150px; text-align:center; }
+  .tl-row{ flex:1 1 0; display:flex; align-items:stretch; gap:10px; min-height:0; }
+  /* left DATE well (small, light) */
+  .tl-date{ width:150px; flex:0 0 150px; align-self:center; }
+  .tl-date .well{ height:56px; }
+  /* center spine + numbered tick */
+  .tl-spine{ width:44px; flex:0 0 44px; position:relative; }
+  .tl-spine::before{ content:''; position:absolute; left:50%; top:0; bottom:0; width:5px;
+    background:var(--navy); transform:translateX(-50%); }
+  .tl-dot{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+    width:30px; height:30px; border-radius:50%; background:var(--gold); border:3px solid var(--navy);
+    color:var(--navy); font-weight:800; font-size:12pt; display:flex; align-items:center; justify-content:center; z-index:2; }
+  /* first/last spine caps so the line starts/ends at the ticks */
+  .tl-row:first-child .tl-spine::before{ top:50%; }
+  .tl-row:last-child .tl-spine::before{ bottom:50%; }
+  /* wide EVENT well (light) */
+  .tl-event{ flex:1 1 auto; align-self:center; }
+  .tl-event .well{ height:64px; }
+  .cue{ z-index:1; }
+  /* bottom arrowhead = flow direction */
+  .tl-arrow{ display:flex; flex:0 0 auto; }
+  .tl-arrow .sp{ width:44px; flex:0 0 44px; display:flex; justify-content:center; }
+  .tl-arrow .sp .arr-d{ margin:0; }
+  .tl-arrow .lbl{ width:150px; flex:0 0 150px; }
 </style>
 </head>
 <body>
@@ -117,44 +140,63 @@
   <div class="hdr">
     <div class="hdr-left">
       <div class="kicker">Reusable Organizer &middot; Any Unit &middot; Any Subject</div>
-      <h1>Venn Diagram &mdash; Compare Two</h1>
+      <h1>Timeline &mdash; Order &amp; Change Over Time</h1>
       <div class="sub">Name ______________________________&nbsp;&nbsp; Class __________&nbsp;&nbsp; Date __________</div>
     </div>
     <div class="hdr-right">
       <div class="repro">&#10003; Reproducible</div>
-      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>10-15 min</div>
-      <div class="chip">Compare 2 Things</div>
-      <div class="chip skill">DOK 2 &middot; Comparison</div>
+      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>15-20 min</div>
+      <div class="chip">Order / sequence</div>
+      <div class="chip skill">SSP.05 &middot; Chronology</div>
     </div>
   </div>
 
   <div class="why">
     <b class="k">When&nbsp;&middot;&nbsp;Why</b>
-    <span>Use when a task asks students to <b>compare two</b> things &mdash; the overlap makes shared traits visible and forces precise differences. <span class='cite'>Identifying similarities &amp; differences is the highest-yield strategy for learning gains (Marzano).</span></span>
+    <span>Use to put events in <b>order</b> and see how things <b>change over time</b> &mdash; the vertical spine makes sequence and distance between events visible. <span class='cite'>Chronological reasoning &mdash; ordering events and tracking change &mdash; is a core practice (TN Social Studies Practices SSP.05).</span></span>
   </div>
 
   <div class="organizer">
     
-    <div class="prompt">In each circle, write what is <b>unique</b> to that topic. In the middle, write what they <b>share</b>.</div>
+    <div class="prompt">Order the events from <b>earliest</b> (top) to <b>latest</b> (bottom). On each line, write the <b>date on the left</b>, then <b>what happened</b> on the right.</div>
     <div class="canvas">
-      <div class="venn-wrap">
-        <svg viewBox="0 0 900 560" preserveAspectRatio="xMidYMid meet">
-          <circle cx="330" cy="285" r="245" fill="#EEF1F7" stroke="#1B2A4A" stroke-width="3.5"/>
-          <circle cx="570" cy="285" r="245" fill="#FBEEEF" stroke="#B22234" stroke-width="3.5"/>
-          <path d="M 450,72.5 A 245,245 0 0,1 450,497.5 A 245,245 0 0,1 450,72.5 Z"
-                fill="#FAF3E2" stroke="#C89B3C" stroke-width="2.5"/>
-          <g stroke="#B9C2D0" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="150" y1="235" x2="330" y2="235"/><line x1="140" y1="285" x2="330" y2="285"/><line x1="150" y1="335" x2="330" y2="335"/></g>
-          <g stroke="#D8B3B7" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="570" y1="235" x2="750" y2="235"/><line x1="570" y1="285" x2="760" y2="285"/><line x1="570" y1="335" x2="750" y2="335"/></g>
-          <g stroke="#E0CB94" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="410" y1="255" x2="490" y2="255"/><line x1="405" y1="285" x2="495" y2="285"/><line x1="410" y1="315" x2="490" y2="315"/></g>
-        </svg>
-        <div class="topicbar" style="left:5%; color:var(--navy);">Topic&nbsp;A: <span class="writefield" style="border-color:var(--navy);"></span></div>
-        <div class="topicbar" style="right:5%; color:var(--red);">Topic&nbsp;B: <span class="writefield" style="border-color:var(--red);"></span></div>
-        <div class="vlbl" style="top:33%; left:17%; color:var(--navy);">ONLY&nbsp;A</div>
-        <div class="vlbl" style="top:33%; right:17%; color:var(--red);">ONLY&nbsp;B</div>
-        <div class="vlbl" style="top:30%; left:44.5%; color:#8a6a1e;">BOTH</div>
+      <div class="tl">
+        <div class="tl-ends">
+          <div class="lbl d">&#9650;&nbsp; Earliest</div>
+          <div class="sp"></div>
+          <div class="lbl">Order &middot; change over time</div>
+        </div>
+
+      <div class="tl-row">
+        <div class="tl-date"><div class="well top navy"><span class="cue">Date / When</span></div></div>
+        <div class="tl-spine"><div class="tl-dot">1</div></div>
+        <div class="tl-event"><div class="well top lines"><span class="cue">What happened &middot; why it matters</span></div></div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-date"><div class="well top navy"><span class="cue">Date / When</span></div></div>
+        <div class="tl-spine"><div class="tl-dot">2</div></div>
+        <div class="tl-event"><div class="well top lines"><span class="cue">What happened &middot; why it matters</span></div></div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-date"><div class="well top navy"><span class="cue">Date / When</span></div></div>
+        <div class="tl-spine"><div class="tl-dot">3</div></div>
+        <div class="tl-event"><div class="well top lines"><span class="cue">What happened &middot; why it matters</span></div></div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-date"><div class="well top navy"><span class="cue">Date / When</span></div></div>
+        <div class="tl-spine"><div class="tl-dot">4</div></div>
+        <div class="tl-event"><div class="well top lines"><span class="cue">What happened &middot; why it matters</span></div></div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-date"><div class="well top navy"><span class="cue">Date / When</span></div></div>
+        <div class="tl-spine"><div class="tl-dot">5</div></div>
+        <div class="tl-event"><div class="well top lines"><span class="cue">What happened &middot; why it matters</span></div></div>
+      </div>
+        <div class="tl-arrow">
+          <div class="lbl"></div>
+          <div class="sp"><div class="arr-d"></div></div>
+          <div class="lbl" style="font-size:8pt;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);align-self:center;">Latest / most recent</div>
+        </div>
       </div>
     </div>
 
@@ -163,9 +205,9 @@
   <div class="udl">
     <div class="udl-h">Make it work for every student <span class="tag">UDL &middot; MTSS</span></div>
     <div class="udl-body">
-      <div class="udl-col"><h4>Scaffold</h4><p>Give a word bank and a sentence starter: &ldquo;Both ___ and ___ are ___.&rdquo; Let pairs fill the BOTH region first.</p></div>
-      <div class="udl-col"><h4>Extend</h4><p>Rank the differences: which one matters most, and why? Defend it in one sentence of evidence.</p></div>
-      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b>, <b>say</b> (record), <b>draw</b> icons, or <b>build</b> the circles with sticky notes.</p></div>
+      <div class="udl-col"><h4>Scaffold</h4><p>Give the events on cards and have students <b>physically sequence</b> them before writing. Sentence starter: &ldquo;First ___, then ___, and finally ___.&rdquo;</p></div>
+      <div class="udl-col"><h4>Extend</h4><p>Mark the moment of biggest <b>change</b>. Explain in one sentence what caused it and what it changed.</p></div>
+      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b> dates, <b>say</b> the sequence aloud, <b>draw</b> an icon per event, or <b>build</b> the line with cards.</p></div>
     </div>
   </div>
 

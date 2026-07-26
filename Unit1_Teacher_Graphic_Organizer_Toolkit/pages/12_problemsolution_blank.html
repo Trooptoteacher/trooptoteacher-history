@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Venn Diagram &mdash; Compare Two</title>
+<title>Problem &rarr; Solution</title>
 <style>
   :root{
     --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C;
@@ -105,11 +105,17 @@
   .foot .brand{ font-weight:700; color:var(--navy); }
 
 
-  .venn-wrap{ flex:1 1 auto; position:relative; min-height:0; }
-  .venn-wrap svg{ width:100%; height:100%; display:block; }
-  .topicbar{ position:absolute; top:-2px; display:flex; align-items:center; gap:6px; font-weight:800; font-size:12pt; }
-  .writefield{ background:var(--paper); border-bottom:2px solid; min-width:150px; height:20px; display:inline-block; }
-  .vlbl{ position:absolute; text-align:center; font-size:11.5pt; font-weight:800; letter-spacing:.03em; }
+  .ps-box{ display:flex; flex-direction:column; min-height:0; }
+  .ps-box>.band{ flex:0 0 auto; }
+  .ps-box>.well{ flex:1 1 0; }
+  .ps-sols{ display:grid; grid-template-columns:repeat(3,1fr); gap:9px; flex:1.9 1 0; min-height:0; }
+  .ps-sol{ display:flex; flex-direction:column; min-height:0; }
+  .ps-sol .band.navy{ flex:0 0 auto; }
+  .ps-sol .sol-well{ flex:1.3 1 0; min-height:0; border-radius:0; }
+  .ps-sol .band.tradelbl{ flex:0 0 auto; font-size:8pt; background:var(--gold); color:var(--navy);
+                          border-radius:0; letter-spacing:.02em; }
+  .ps-sol .trade-well{ flex:1 1 0; min-height:0; }
+  .arr-lbl{ margin:1px 0 3px; }
 </style>
 </head>
 <body>
@@ -117,44 +123,57 @@
   <div class="hdr">
     <div class="hdr-left">
       <div class="kicker">Reusable Organizer &middot; Any Unit &middot; Any Subject</div>
-      <h1>Venn Diagram &mdash; Compare Two</h1>
+      <h1>Problem &rarr; Solution</h1>
       <div class="sub">Name ______________________________&nbsp;&nbsp; Class __________&nbsp;&nbsp; Date __________</div>
     </div>
     <div class="hdr-right">
       <div class="repro">&#10003; Reproducible</div>
-      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>10-15 min</div>
-      <div class="chip">Compare 2 Things</div>
-      <div class="chip skill">DOK 2 &middot; Comparison</div>
+      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>15-20 min</div>
+      <div class="chip">Weigh options</div>
+      <div class="chip skill">DOK 3 &middot; Decision</div>
     </div>
   </div>
 
   <div class="why">
     <b class="k">When&nbsp;&middot;&nbsp;Why</b>
-    <span>Use when a task asks students to <b>compare two</b> things &mdash; the overlap makes shared traits visible and forces precise differences. <span class='cite'>Identifying similarities &amp; differences is the highest-yield strategy for learning gains (Marzano).</span></span>
+    <span>Use to define a <b>problem</b>, weigh two or three possible solutions against their likely results, and justify the best choice with evidence. <span class='cite'>Generating &amp; testing possible solutions is a high&#8209;yield reasoning strategy (Marzano); it builds cause&#8209;effect thinking (TN SSP.05).</span></span>
   </div>
 
   <div class="organizer">
     
-    <div class="prompt">In each circle, write what is <b>unique</b> to that topic. In the middle, write what they <b>share</b>.</div>
+    <div class="prompt">State the <b>problem</b>, map <b>2&#8211;3 possible solutions</b> with their likely results, then choose the best one and justify it. Follow the arrows: <b>problem &rarr; options &rarr; decision</b>.</div>
     <div class="canvas">
-      <div class="venn-wrap">
-        <svg viewBox="0 0 900 560" preserveAspectRatio="xMidYMid meet">
-          <circle cx="330" cy="285" r="245" fill="#EEF1F7" stroke="#1B2A4A" stroke-width="3.5"/>
-          <circle cx="570" cy="285" r="245" fill="#FBEEEF" stroke="#B22234" stroke-width="3.5"/>
-          <path d="M 450,72.5 A 245,245 0 0,1 450,497.5 A 245,245 0 0,1 450,72.5 Z"
-                fill="#FAF3E2" stroke="#C89B3C" stroke-width="2.5"/>
-          <g stroke="#B9C2D0" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="150" y1="235" x2="330" y2="235"/><line x1="140" y1="285" x2="330" y2="285"/><line x1="150" y1="335" x2="330" y2="335"/></g>
-          <g stroke="#D8B3B7" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="570" y1="235" x2="750" y2="235"/><line x1="570" y1="285" x2="760" y2="285"/><line x1="570" y1="335" x2="750" y2="335"/></g>
-          <g stroke="#E0CB94" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="410" y1="255" x2="490" y2="255"/><line x1="405" y1="285" x2="495" y2="285"/><line x1="410" y1="315" x2="490" y2="315"/></g>
-        </svg>
-        <div class="topicbar" style="left:5%; color:var(--navy);">Topic&nbsp;A: <span class="writefield" style="border-color:var(--navy);"></span></div>
-        <div class="topicbar" style="right:5%; color:var(--red);">Topic&nbsp;B: <span class="writefield" style="border-color:var(--red);"></span></div>
-        <div class="vlbl" style="top:33%; left:17%; color:var(--navy);">ONLY&nbsp;A</div>
-        <div class="vlbl" style="top:33%; right:17%; color:var(--red);">ONLY&nbsp;B</div>
-        <div class="vlbl" style="top:30%; left:44.5%; color:#8a6a1e;">BOTH</div>
+      <div class="ps-box" style="flex:1 1 0; min-height:0;">
+        <div class="band red sm">PROBLEM &mdash; what is wrong, and for whom?</div>
+        <div class="well tint-red lines"></div>
+      </div>
+      <div class="arr-d"></div>
+      <div class="arr-lbl">Weigh the options</div>
+      <div class="ps-sols">
+        <div class="ps-sol">
+          <div class="band navy sm">Possible Solution&nbsp;1</div>
+          <div class="well sol-well lines"></div>
+          <div class="band sm tradelbl">Likely result &middot; trade&#8209;off</div>
+          <div class="well trade-well tint-gold lines"></div>
+        </div>
+        <div class="ps-sol">
+          <div class="band navy sm">Possible Solution&nbsp;2</div>
+          <div class="well sol-well lines"></div>
+          <div class="band sm tradelbl">Likely result &middot; trade&#8209;off</div>
+          <div class="well trade-well tint-gold lines"></div>
+        </div>
+        <div class="ps-sol">
+          <div class="band navy sm">Possible Solution&nbsp;3</div>
+          <div class="well sol-well lines"></div>
+          <div class="band sm tradelbl">Likely result &middot; trade&#8209;off</div>
+          <div class="well trade-well tint-gold lines"></div>
+        </div>
+      </div>
+      <div class="arr-d"></div>
+      <div class="arr-lbl">Decide</div>
+      <div class="ps-box" style="flex:1 1 0; min-height:0;">
+        <div class="band gold sm">Best solution &plus; justification &mdash; I chose ___ because&hellip;</div>
+        <div class="well cream lines"></div>
       </div>
     </div>
 
@@ -163,9 +182,9 @@
   <div class="udl">
     <div class="udl-h">Make it work for every student <span class="tag">UDL &middot; MTSS</span></div>
     <div class="udl-body">
-      <div class="udl-col"><h4>Scaffold</h4><p>Give a word bank and a sentence starter: &ldquo;Both ___ and ___ are ___.&rdquo; Let pairs fill the BOTH region first.</p></div>
-      <div class="udl-col"><h4>Extend</h4><p>Rank the differences: which one matters most, and why? Defend it in one sentence of evidence.</p></div>
-      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b>, <b>say</b> (record), <b>draw</b> icons, or <b>build</b> the circles with sticky notes.</p></div>
+      <div class="udl-col"><h4>Scaffold</h4><p>Provide the problem and one solution; students supply the rest. Offer a starter: &ldquo;If we ___, then ___ because ___.&rdquo;</p></div>
+      <div class="udl-col"><h4>Extend</h4><p>Add a second criterion (cost <i>and</i> fairness) and explain a trade&#8209;off you are willing to accept.</p></div>
+      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b>, <b>say</b> (record), <b>draw</b> the flow, or <b>build</b> the options with cards and vote.</p></div>
     </div>
   </div>
 

@@ -1,9 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Venn Diagram &mdash; Compare Two</title>
-<style>
+#!/usr/bin/env python3
+"""Shared design system for the Unit 1 Teacher Graphic Organizer Toolkit.
+Every page uses render_page() so header / why-blurb / UDL strip / footer are
+pixel-identical across the whole toolkit (the approved Venn house style).
+
+Design rules enforced here:
+  * Brand palette: navy #1B2A4A, red #B22234, gold #C89B3C, cream #F7F5EF, white.
+  * Writable fields are LIGHT (white/cream .well); only labels may be dark.
+  * Footer on every page: U.S. History Hack(TM) . (c) 2026 TroopToTeacher Technologies LLC
+  * US-Letter portrait, print/grayscale legible, WCAG-AA text contrast.
+"""
+
+SHARED_CSS = r"""
   :root{
     --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C;
     --cream:#F7F5EF; --paper:#ffffff; --ink:#1B2A4A;
@@ -103,76 +110,91 @@
   .foot{ flex:0 0 auto; display:flex; justify-content:space-between; align-items:center;
          margin-top:6px; padding-top:5px; border-top:1px solid var(--rule); font-size:7.6pt; color:var(--muted); }
   .foot .brand{ font-weight:700; color:var(--navy); }
+"""
+
+FOOTER_BRAND = "U.S. History Hack&trade; &nbsp;&middot;&nbsp; &copy; 2026 TroopToTeacher Technologies LLC"
+NAME_LINE = ("Name ______________________________&nbsp;&nbsp; "
+             "Class __________&nbsp;&nbsp; Date __________")
 
 
-  .venn-wrap{ flex:1 1 auto; position:relative; min-height:0; }
-  .venn-wrap svg{ width:100%; height:100%; display:block; }
-  .topicbar{ position:absolute; top:-2px; display:flex; align-items:center; gap:6px; font-weight:800; font-size:12pt; }
-  .writefield{ background:var(--paper); border-bottom:2px solid; min-width:150px; height:20px; display:inline-block; }
-  .vlbl{ position:absolute; text-align:center; font-size:11.5pt; font-weight:800; letter-spacing:.03em; }
-</style>
+def _chips(chips):
+    out = []
+    for text, kind in chips:
+        cls = "chip" + ("" if kind == "navy" else f" {kind}")
+        out.append(f'<div class="{cls}">{text}</div>')
+    return "\n      ".join(out)
+
+
+CLOCK_SVG = ('<svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" '
+             'stroke-linecap="round"><circle cx="12" cy="12" r="9"/>'
+             '<path d="M12 7.5 V12 L15.2 14"/></svg>')
+
+
+def render_page(slug, title, kicker, chips, why, body, udl, role,
+                tn=False, subline=None, reproducible=True, extra_css="", time=None):
+    """Return full standalone HTML for one organizer page.
+    extra_css: optional component CSS specific to this organizer body.
+    time: optional pacing estimate string (e.g. '15-20 min') shown as a header chip."""
+    subline = NAME_LINE if subline is None else subline
+    badges = []
+    if reproducible:
+        badges.append('<div class="repro">&#10003; Reproducible</div>')
+    if time:
+        badges.append(f'<div class="timechip">{CLOCK_SVG}{time}</div>')
+    if tn:
+        badges.append('<div class="tstar">&#9733; Tennessee Connection</div>')
+    badges.append(_chips(chips))
+    badges_html = "\n      ".join(b for b in badges if b)
+
+    scaffold = udl.get("scaffold", "")
+    extend = udl.get("extend", "")
+    show = udl.get("show",
+                   "Students may <b>write</b>, <b>say</b> (record), <b>draw</b>, or <b>build</b> their response.")
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{title}</title>
+<style>{SHARED_CSS}
+{extra_css}</style>
 </head>
 <body>
 <div class="page">
   <div class="hdr">
     <div class="hdr-left">
-      <div class="kicker">Reusable Organizer &middot; Any Unit &middot; Any Subject</div>
-      <h1>Venn Diagram &mdash; Compare Two</h1>
-      <div class="sub">Name ______________________________&nbsp;&nbsp; Class __________&nbsp;&nbsp; Date __________</div>
+      <div class="kicker">{kicker}</div>
+      <h1>{title}</h1>
+      <div class="sub">{subline}</div>
     </div>
     <div class="hdr-right">
-      <div class="repro">&#10003; Reproducible</div>
-      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>10-15 min</div>
-      <div class="chip">Compare 2 Things</div>
-      <div class="chip skill">DOK 2 &middot; Comparison</div>
+      {badges_html}
     </div>
   </div>
 
   <div class="why">
     <b class="k">When&nbsp;&middot;&nbsp;Why</b>
-    <span>Use when a task asks students to <b>compare two</b> things &mdash; the overlap makes shared traits visible and forces precise differences. <span class='cite'>Identifying similarities &amp; differences is the highest-yield strategy for learning gains (Marzano).</span></span>
+    <span>{why}</span>
   </div>
 
   <div class="organizer">
-    
-    <div class="prompt">In each circle, write what is <b>unique</b> to that topic. In the middle, write what they <b>share</b>.</div>
-    <div class="canvas">
-      <div class="venn-wrap">
-        <svg viewBox="0 0 900 560" preserveAspectRatio="xMidYMid meet">
-          <circle cx="330" cy="285" r="245" fill="#EEF1F7" stroke="#1B2A4A" stroke-width="3.5"/>
-          <circle cx="570" cy="285" r="245" fill="#FBEEEF" stroke="#B22234" stroke-width="3.5"/>
-          <path d="M 450,72.5 A 245,245 0 0,1 450,497.5 A 245,245 0 0,1 450,72.5 Z"
-                fill="#FAF3E2" stroke="#C89B3C" stroke-width="2.5"/>
-          <g stroke="#B9C2D0" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="150" y1="235" x2="330" y2="235"/><line x1="140" y1="285" x2="330" y2="285"/><line x1="150" y1="335" x2="330" y2="335"/></g>
-          <g stroke="#D8B3B7" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="570" y1="235" x2="750" y2="235"/><line x1="570" y1="285" x2="760" y2="285"/><line x1="570" y1="335" x2="750" y2="335"/></g>
-          <g stroke="#E0CB94" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="410" y1="255" x2="490" y2="255"/><line x1="405" y1="285" x2="495" y2="285"/><line x1="410" y1="315" x2="490" y2="315"/></g>
-        </svg>
-        <div class="topicbar" style="left:5%; color:var(--navy);">Topic&nbsp;A: <span class="writefield" style="border-color:var(--navy);"></span></div>
-        <div class="topicbar" style="right:5%; color:var(--red);">Topic&nbsp;B: <span class="writefield" style="border-color:var(--red);"></span></div>
-        <div class="vlbl" style="top:33%; left:17%; color:var(--navy);">ONLY&nbsp;A</div>
-        <div class="vlbl" style="top:33%; right:17%; color:var(--red);">ONLY&nbsp;B</div>
-        <div class="vlbl" style="top:30%; left:44.5%; color:#8a6a1e;">BOTH</div>
-      </div>
-    </div>
-
+    {body}
   </div>
 
   <div class="udl">
     <div class="udl-h">Make it work for every student <span class="tag">UDL &middot; MTSS</span></div>
     <div class="udl-body">
-      <div class="udl-col"><h4>Scaffold</h4><p>Give a word bank and a sentence starter: &ldquo;Both ___ and ___ are ___.&rdquo; Let pairs fill the BOTH region first.</p></div>
-      <div class="udl-col"><h4>Extend</h4><p>Rank the differences: which one matters most, and why? Defend it in one sentence of evidence.</p></div>
-      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b>, <b>say</b> (record), <b>draw</b> icons, or <b>build</b> the circles with sticky notes.</p></div>
+      <div class="udl-col"><h4>Scaffold</h4><p>{scaffold}</p></div>
+      <div class="udl-col"><h4>Extend</h4><p>{extend}</p></div>
+      <div class="udl-col"><h4>Show it your way</h4><p>{show}</p></div>
     </div>
   </div>
 
   <div class="foot">
-    <span class="brand">U.S. History Hack&trade; &nbsp;&middot;&nbsp; &copy; 2026 TroopToTeacher Technologies LLC</span>
-    <span>Teacher Graphic Organizer Toolkit &middot; Blank Reproducible</span>
+    <span class="brand">{FOOTER_BRAND}</span>
+    <span>{role}</span>
   </div>
 </div>
 </body>
 </html>
+"""

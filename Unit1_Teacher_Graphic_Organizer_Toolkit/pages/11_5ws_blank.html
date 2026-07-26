@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Venn Diagram &mdash; Compare Two</title>
+<title>5 Ws &mdash; Who &middot; What &middot; When &middot; Where &middot; Why</title>
 <style>
   :root{
     --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C;
@@ -105,11 +105,24 @@
   .foot .brand{ font-weight:700; color:var(--navy); }
 
 
-  .venn-wrap{ flex:1 1 auto; position:relative; min-height:0; }
-  .venn-wrap svg{ width:100%; height:100%; display:block; }
-  .topicbar{ position:absolute; top:-2px; display:flex; align-items:center; gap:6px; font-weight:800; font-size:12pt; }
-  .writefield{ background:var(--paper); border-bottom:2px solid; min-width:150px; height:20px; display:inline-block; }
-  .vlbl{ position:absolute; text-align:center; font-size:11.5pt; font-weight:800; letter-spacing:.03em; }
+  .ws-wrap{ flex:1 1 auto; position:relative; min-height:0; }
+  .ws-wrap > svg{ position:absolute; inset:0; width:100%; height:100%; }
+  .wnode{ position:absolute; transform:translate(-50%,-50%); width:206px;
+          border:2px solid var(--rule); border-radius:8px; overflow:hidden; background:var(--paper); }
+  .wband{ color:#fff; font-weight:800; font-size:10pt; letter-spacing:.05em; text-transform:uppercase;
+          text-align:center; padding:4px 6px; }
+  .wsub{ font-weight:600; font-size:7pt; letter-spacing:.03em; opacity:.85; }
+  .wwell{ background:var(--paper); height:66px;
+          background-image:repeating-linear-gradient(to bottom, transparent 0 22px, #C4CCDA 22px 23px);
+          background-position:0 12px; }
+  .wn-navy{ border-color:var(--navy);} .wn-navy .wband{ background:var(--navy);}
+  .wn-red{ border-color:var(--red);}  .wn-red .wband{ background:var(--red);}
+  .wn-gold{ border-color:var(--gold);} .wn-gold .wband{ background:var(--gold); color:var(--navy);}
+  .hub5{ position:absolute; transform:translate(-50%,-50%); width:214px;
+         border:3px solid var(--navy); border-radius:10px; overflow:hidden; background:var(--paper); }
+  .hub5 .wband{ font-size:11.5pt; padding:6px; }
+  .hub5 .hwell{ background:var(--navy-tint); height:60px; display:flex; align-items:center; justify-content:center; }
+  .hub5 .hwell span{ font-size:8pt; font-style:italic; color:#8792a4; }
 </style>
 </head>
 <body>
@@ -117,44 +130,47 @@
   <div class="hdr">
     <div class="hdr-left">
       <div class="kicker">Reusable Organizer &middot; Any Unit &middot; Any Subject</div>
-      <h1>Venn Diagram &mdash; Compare Two</h1>
+      <h1>5 Ws &mdash; Who &middot; What &middot; When &middot; Where &middot; Why</h1>
       <div class="sub">Name ______________________________&nbsp;&nbsp; Class __________&nbsp;&nbsp; Date __________</div>
     </div>
     <div class="hdr-right">
       <div class="repro">&#10003; Reproducible</div>
-      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>10-15 min</div>
-      <div class="chip">Compare 2 Things</div>
-      <div class="chip skill">DOK 2 &middot; Comparison</div>
+      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>5-10 min</div>
+      <div class="chip">Basics of an event</div>
+      <div class="chip skill">DOK 1&ndash;2 &middot; Comprehension</div>
     </div>
   </div>
 
   <div class="why">
     <b class="k">When&nbsp;&middot;&nbsp;Why</b>
-    <span>Use when a task asks students to <b>compare two</b> things &mdash; the overlap makes shared traits visible and forces precise differences. <span class='cite'>Identifying similarities &amp; differences is the highest-yield strategy for learning gains (Marzano).</span></span>
+    <span>Use to quickly capture the <b>essential facts</b> of an event &mdash; who, what, when, where, and why (plus how). The hub-and-spoke keeps every key question in view at once. <span class='cite'>Establishing the who/what/when/where anchors chronological reasoning (TN Social Studies Practices).</span></span>
   </div>
 
   <div class="organizer">
     
-    <div class="prompt">In each circle, write what is <b>unique</b> to that topic. In the middle, write what they <b>share</b>.</div>
+    <div class="prompt">Name the event in the center, then answer each spoke to capture the <b>essential facts</b>. (Use <b>How</b> to stretch to six.)</div>
     <div class="canvas">
-      <div class="venn-wrap">
-        <svg viewBox="0 0 900 560" preserveAspectRatio="xMidYMid meet">
-          <circle cx="330" cy="285" r="245" fill="#EEF1F7" stroke="#1B2A4A" stroke-width="3.5"/>
-          <circle cx="570" cy="285" r="245" fill="#FBEEEF" stroke="#B22234" stroke-width="3.5"/>
-          <path d="M 450,72.5 A 245,245 0 0,1 450,497.5 A 245,245 0 0,1 450,72.5 Z"
-                fill="#FAF3E2" stroke="#C89B3C" stroke-width="2.5"/>
-          <g stroke="#B9C2D0" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="150" y1="235" x2="330" y2="235"/><line x1="140" y1="285" x2="330" y2="285"/><line x1="150" y1="335" x2="330" y2="335"/></g>
-          <g stroke="#D8B3B7" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="570" y1="235" x2="750" y2="235"/><line x1="570" y1="285" x2="760" y2="285"/><line x1="570" y1="335" x2="750" y2="335"/></g>
-          <g stroke="#E0CB94" stroke-width="1.2" stroke-dasharray="2 5">
-            <line x1="410" y1="255" x2="490" y2="255"/><line x1="405" y1="285" x2="495" y2="285"/><line x1="410" y1="315" x2="490" y2="315"/></g>
+      <div class="ws-wrap">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+          <g stroke="#C4CCDA" stroke-width="0.8">
+            <line x1="50" y1="50" x2="50" y2="12"/>
+            <line x1="50" y1="50" x2="85" y2="31"/>
+            <line x1="50" y1="50" x2="85" y2="69"/>
+            <line x1="50" y1="50" x2="50" y2="88"/>
+            <line x1="50" y1="50" x2="15" y2="69"/>
+            <line x1="50" y1="50" x2="15" y2="31"/>
+          </g>
         </svg>
-        <div class="topicbar" style="left:5%; color:var(--navy);">Topic&nbsp;A: <span class="writefield" style="border-color:var(--navy);"></span></div>
-        <div class="topicbar" style="right:5%; color:var(--red);">Topic&nbsp;B: <span class="writefield" style="border-color:var(--red);"></span></div>
-        <div class="vlbl" style="top:33%; left:17%; color:var(--navy);">ONLY&nbsp;A</div>
-        <div class="vlbl" style="top:33%; right:17%; color:var(--red);">ONLY&nbsp;B</div>
-        <div class="vlbl" style="top:30%; left:44.5%; color:#8a6a1e;">BOTH</div>
+        <div class="wnode wn-navy" style="left:50%; top:12%;"><div class="wband">Who <span class="wsub">&middot; people</span></div><div class="wwell"></div></div>
+      <div class="wnode wn-red" style="left:85%; top:31%;"><div class="wband">What <span class="wsub">&middot; happened</span></div><div class="wwell"></div></div>
+      <div class="wnode wn-gold" style="left:85%; top:69%;"><div class="wband">When <span class="wsub">&middot; time</span></div><div class="wwell"></div></div>
+      <div class="wnode wn-navy" style="left:50%; top:88%;"><div class="wband">Where <span class="wsub">&middot; place</span></div><div class="wwell"></div></div>
+      <div class="wnode wn-red" style="left:15%; top:69%;"><div class="wband">Why <span class="wsub">&middot; reason</span></div><div class="wwell"></div></div>
+      <div class="wnode wn-gold" style="left:15%; top:31%;"><div class="wband">How <span class="wsub">&middot; the way</span></div><div class="wwell"></div></div>
+        <div class="hub5" style="left:50%; top:50%;">
+          <div class="wband" style="background:var(--navy);">EVENT / TOPIC</div>
+          <div class="hwell"><span>Name it here</span></div>
+        </div>
       </div>
     </div>
 
@@ -163,9 +179,9 @@
   <div class="udl">
     <div class="udl-h">Make it work for every student <span class="tag">UDL &middot; MTSS</span></div>
     <div class="udl-body">
-      <div class="udl-col"><h4>Scaffold</h4><p>Give a word bank and a sentence starter: &ldquo;Both ___ and ___ are ___.&rdquo; Let pairs fill the BOTH region first.</p></div>
-      <div class="udl-col"><h4>Extend</h4><p>Rank the differences: which one matters most, and why? Defend it in one sentence of evidence.</p></div>
-      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b>, <b>say</b> (record), <b>draw</b> icons, or <b>build</b> the circles with sticky notes.</p></div>
+      <div class="udl-col"><h4>Scaffold</h4><p>Provide sentence stems for each spoke: &ldquo;This happened because ___,&rdquo; &ldquo;It took place in ___.&rdquo;</p></div>
+      <div class="udl-col"><h4>Extend</h4><p>Turn the six facts into a one-sentence summary, or rank which W matters most for understanding the event.</p></div>
+      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b>, <b>say</b> (record), <b>draw</b>, or <b>build</b> the spokes with cards.</p></div>
     </div>
   </div>
 
