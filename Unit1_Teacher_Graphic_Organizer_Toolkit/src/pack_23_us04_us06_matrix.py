@@ -26,7 +26,7 @@ US04_CRIT = [
     ("What they wanted", "goals &amp; interests"),
     ("Biggest challenge", "what squeezed them?"),
     ("How they built power", "unions? Grange/Populism? trusts?"),
-    ("A win or a loss", "an outcome by 1900"),
+    ("Where things stood by 1900", "what had changed for this group?"),
 ]
 US04_GROUPS = [("Farmers", "the Grange &amp; Populists", "navy"),
                ("Wage earners", "factory &amp; rail labor", "red"),

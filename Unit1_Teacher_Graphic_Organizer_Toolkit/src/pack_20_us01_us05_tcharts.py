@@ -89,7 +89,7 @@ _UDL_TC = dict(
 ORGANIZERS = [
     dict(
         slug="20_us01_tchart",
-        title="Winners &amp; Costs of Westward Expansion",
+        title="Westward Expansion &mdash; Who Benefited, Who Bore the Cost",
         kicker="Unit 1 &middot; US.01 &middot; Best-Fit Organizer",
         chips=[("T&#8209;Chart &middot; Two Sides", "navy"), ("DOK 3 &middot; Perspective", "skill")],
         why=("Westward expansion (the Homestead Act, the Transcontinental Railroad, the Army out West) "

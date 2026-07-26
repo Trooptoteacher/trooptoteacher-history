@@ -118,17 +118,18 @@
   .fr-q.br{ border-radius:0 0 10px 0; }
   .fr-lbl{ position:absolute; font-size:9pt; font-weight:800; letter-spacing:.03em;
     color:var(--navy); text-transform:uppercase; z-index:3; background:var(--paper); padding:0 3px; }
+  /* all four labels sit at the TOP of their quadrant, so writing space reads
+     the same in every quadrant (outer-corner placement clears the center oval) */
   .fr-lbl.tl{ top:8px; left:12px; } .fr-lbl.tr{ top:8px; right:12px; }
-  .fr-lbl.bl{ bottom:8px; left:12px; } .fr-lbl.br{ bottom:8px; right:12px; }
+  .fr-lbl.bl{ top:8px; left:12px; } .fr-lbl.br{ top:8px; right:12px; }
   .fr-lbl .n{ color:var(--muted); font-weight:800; }
   /* center oval holding the term */
   .fr-oval{ position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
-    width:30%; height:23%; min-width:170px; background:var(--cream); border:3.5px solid var(--navy);
+    width:31%; height:26%; min-width:186px; background:var(--cream); border:3.5px solid var(--navy);
     border-radius:50%; display:flex; flex-direction:column; align-items:center; justify-content:center;
-    text-align:center; z-index:5; box-shadow:0 0 0 6px var(--paper); }
+    text-align:center; z-index:5; box-shadow:0 0 0 6px var(--paper); padding:6px 10px; }
   .fr-oval .k{ font-size:8pt; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--red); }
-  .fr-oval .t{ font-size:11pt; font-weight:800; color:var(--navy); margin-top:2px; }
-  .fr-oval .wl{ display:block; width:70%; border-bottom:2px solid var(--navy); height:16px; margin:4px auto 0; }
+  .fr-oval .wl{ display:block; width:74%; border-bottom:2px solid var(--navy); height:16px; margin:14px auto 0; }
 </style>
 </head>
 <body>

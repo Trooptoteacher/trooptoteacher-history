@@ -18,8 +18,9 @@ CSS = r"""
   .hub5{ position:absolute; transform:translate(-50%,-50%); width:214px;
          border:3px solid var(--navy); border-radius:10px; overflow:hidden; background:var(--paper); }
   .hub5 .wband{ font-size:11.5pt; padding:6px; }
-  .hub5 .hwell{ background:var(--navy-tint); height:60px; display:flex; align-items:center; justify-content:center; }
-  .hub5 .hwell span{ font-size:8pt; font-style:italic; color:#8792a4; }
+  .hub5 .hwell{ background:var(--paper); height:64px;
+                background-image:repeating-linear-gradient(to bottom, transparent 0 21px, #C4CCDA 21px 22px);
+                background-position:0 12px; }
 """
 
 def _wnode(x, y, color, label, sub):
@@ -53,8 +54,8 @@ BODY = f"""
         </svg>
         {_nodes_html}
         <div class="hub5" style="left:50%; top:50%;">
-          <div class="wband" style="background:var(--navy);">EVENT / TOPIC</div>
-          <div class="hwell"><span>Name it here</span></div>
+          <div class="wband" style="background:var(--navy);">EVENT / TOPIC <span class="wsub">&middot; name it here</span></div>
+          <div class="hwell"></div>
         </div>
       </div>
     </div>
