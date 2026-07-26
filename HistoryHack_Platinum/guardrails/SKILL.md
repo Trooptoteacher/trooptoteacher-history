@@ -35,12 +35,17 @@ re-invent the *layout*.
 6. **Unit Assessment Book** (Formative checkpoints · Unit Summative Form A/B · Teacher Answer Key + Item
    Analysis + Reteach) — items pulled from the canonical question bank; one book unless >~35–40 pp, then split.
    See the Assessment rules below. → `scripts/build_assessment_book.js` (reads `unit<N>_assessment.json`).
-7. **Cover Wrap** (DOCX+PDF) — sale-ready front · spine · back + print/listing spec → `scripts/build_cover.js`.
-   Front: trademark title, unit, B&W-safe hero image, framework badge row (UDL·MTSS·CER·Cornell·HIPPO·DOK),
-   "Student Workbook", publisher. Spine: vertical brand text + spine-width math (white 60-lb ≈ 0.002252 in/pg).
-   Back: "what makes this different" selling bullets (UDL/MTSS/CER/primary sources/Cornell/standards), the
-   unit's standards list, © + trademark + business block, and an ISBN/barcode box. Plus a listing-spec sheet
-   (trim, spine, categories, keywords, blurb) for online sales. Copy must name the frameworks the book uses.
+7. **Cover Wraps — one per book** (DOCX+PDF) — sale-ready front · spine · back + print/listing spec for
+   EVERY print deliverable (Student Workbook, Teacher Edition, Assessment Book, Organizer Toolkit) →
+   `scripts/build_cover.js` (a `buildCover(spec)` loop over a `SPECS` array). Brand: **navy + red + gold**
+   (red is a required accent — red designation bands, red keylines, red bullet markers; a navy/gold-only
+   cover is incomplete). Front: trademark title, unit, B&W-safe hero image, framework badge row
+   (UDL·MTSS·CER·Cornell·HIPPO·DOK), a red designation band (STUDENT WORKBOOK / TEACHER EDITION / ASSESSMENT
+   BOOK / GRAPHIC ORGANIZER TOOLKIT), audience tag, publisher. Spine: vertical brand text + **per-book
+   spine-width math** (white 60-lb ≈ 0.002252 in/pg) — perfect-bind at ≥ ~48 pp, else state saddle-stitch
+   honestly (thin teacher books can't print a spine). Back: book-specific "what's inside" selling bullets,
+   the unit's standards list, © + trademark + business block, ISBN/barcode box. Plus a per-book listing-spec
+   sheet (trim, spine, binding, categories, keywords, blurb). Copy must name the frameworks the book uses.
 
 Plus reports (crosswalk, deck QA, salvage log, TDOE Schedule F evidence matrix, field-test plan,
 revision notes) and a SHA-256-manifest package.

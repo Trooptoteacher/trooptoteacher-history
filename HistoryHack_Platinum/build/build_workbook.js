@@ -42,7 +42,7 @@ function sourceImage(rec,{max}={}){
   const cap=[rec.title, rec.creator?('· '+rec.creator):'', rec.year?('· '+rec.year):''].filter(Boolean).join(' ');
   out.push(P(R(cap,{s:19,b:true}),{spacing:{after:20}}));
   out.push(P(R(`Source: ${rec.citation||''} ${rec.rights||''}${rec.rightsUrl?(' '+rec.rightsUrl):''}`.trim(),{s:16,c:GREY}),{spacing:{after:rec.colorKey?12:40}}));
-  if(rec.colorKey) out.push(P([R('▶ ',{s:17,b:true,c:GOLD}),R('Color carries meaning here. This page prints in black-and-white; view the full-color version on the projection slide for this standard.',{s:17,i:true,c:GREY})],{spacing:{after:40}}));
+  if(rec.colorKey) out.push(P([R('▶ ',{s:17,b:true,c:GOLD}),R('Fine detail and color read best on screen. A large full-color version is on the projection-map slides at the end of the slide deck.',{s:17,i:true,c:GREY})],{spacing:{after:40}}));
   return out;
 }
 // compact image only (no caption/citation) — for the launch-page hook (source is cited in Activity 5)
