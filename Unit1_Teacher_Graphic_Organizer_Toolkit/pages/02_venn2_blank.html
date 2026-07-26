@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Venn Diagram — Compare Two</title>
+<style>
+  :root{
+    --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C;
+    --cream:#F7F5EF; --paper:#ffffff; --ink:#1B2A4A;
+    --navy-tint:#EEF1F7; --red-tint:#FBEEEF; --gold-tint:#FAF3E2;
+    --rule:#CBD2DE; --muted:#5A6579;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  @page{ size:8.5in 11in; margin:0; }
+  html,body{ background:#8a8f99; }
+  body{ font-family:"Helvetica Neue",Arial,sans-serif; color:var(--ink); }
+  .page{
+    position:relative; width:8.5in; height:11in; background:var(--paper);
+    margin:0 auto; padding:0.42in 0.5in 0.5in; display:flex; flex-direction:column;
+    overflow:hidden;
+  }
+  /* ---------- HEADER ---------- */
+  .hdr{ display:flex; align-items:flex-start; justify-content:space-between; gap:12px;
+        border-bottom:3px solid var(--navy); padding-bottom:8px; }
+  .hdr-left{ display:flex; flex-direction:column; gap:3px; }
+  .kicker{ font-size:8.5pt; letter-spacing:.14em; font-weight:700; color:var(--red);
+           text-transform:uppercase; }
+  h1{ font-family:Georgia,"Times New Roman",serif; font-size:23pt; color:var(--navy);
+      line-height:1.02; font-weight:700; }
+  .sub{ font-size:9.5pt; color:var(--muted); font-weight:600; }
+  .hdr-right{ display:flex; flex-direction:column; align-items:flex-end; gap:5px; flex:0 0 auto; }
+  .repro{ border:1.5px solid var(--gold); color:#8a6a1e; background:var(--gold-tint);
+          font-size:7.5pt; font-weight:800; letter-spacing:.09em; text-transform:uppercase;
+          padding:3px 8px; border-radius:3px; white-space:nowrap; }
+  .chip{ background:var(--navy); color:#fff; font-size:8pt; font-weight:700; letter-spacing:.04em;
+         padding:4px 9px; border-radius:12px; white-space:nowrap; }
+  .chip.skill{ background:var(--red); }
+  /* ---------- WHY STRIP ---------- */
+  .why{ margin-top:9px; background:var(--cream); border-left:5px solid var(--gold);
+        border-radius:0 5px 5px 0; padding:7px 12px; display:flex; gap:16px; align-items:baseline; }
+  .why b{ color:var(--navy); font-size:9pt; letter-spacing:.02em; text-transform:uppercase; flex:0 0 auto; }
+  .why span{ font-size:9.3pt; color:#2c3446; line-height:1.32; }
+  .why .cite{ color:var(--muted); font-style:italic; }
+  /* ---------- ORGANIZER AREA ---------- */
+  .organizer{ flex:1 1 auto; position:relative; margin:10px 0 8px; }
+  .prompt{ position:absolute; top:0; left:0; right:0; font-size:9.5pt; color:#2c3446;
+           text-align:center; font-weight:600; }
+  .venn-wrap{ position:absolute; inset:22px 0 0 0; }
+  .venn-wrap svg{ width:100%; height:100%; display:block; }
+  .lbl{ position:absolute; text-align:center; }
+  .lbl .cap{ font-size:11pt; font-weight:800; letter-spacing:.03em; }
+  .writeline{ display:block; border-bottom:1.5px dotted #9aa4b4; height:0; }
+  .topicbar{ position:absolute; display:flex; align-items:center; gap:6px;
+             font-weight:800; font-size:12pt; }
+  .writefield{ background:var(--paper); border-bottom:2px solid; min-width:150px;
+               height:20px; }
+  /* ---------- UDL STRIP ---------- */
+  .udl{ flex:0 0 auto; border:2px solid var(--navy); border-radius:6px; overflow:hidden; }
+  .udl-h{ background:var(--navy); color:#fff; font-size:9pt; font-weight:800; letter-spacing:.08em;
+          text-transform:uppercase; padding:5px 11px; display:flex; align-items:center; gap:8px; }
+  .udl-h .tag{ background:var(--gold); color:var(--navy); font-size:7pt; padding:2px 6px;
+               border-radius:8px; letter-spacing:.06em; }
+  .udl-body{ display:grid; grid-template-columns:1fr 1fr 1fr; }
+  .udl-col{ padding:6px 11px; border-right:1px solid var(--rule); }
+  .udl-col:last-child{ border-right:none; }
+  .udl-col h4{ font-size:8.5pt; color:var(--red); text-transform:uppercase; letter-spacing:.05em;
+               margin-bottom:2px; }
+  .udl-col p{ font-size:8.7pt; line-height:1.3; color:#2c3446; }
+  /* ---------- FOOTER ---------- */
+  .foot{ flex:0 0 auto; display:flex; justify-content:space-between; align-items:center;
+         margin-top:7px; padding-top:6px; border-top:1px solid var(--rule);
+         font-size:7.7pt; color:var(--muted); }
+  .foot .brand{ font-weight:700; color:var(--navy); }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="hdr">
+    <div class="hdr-left">
+      <div class="kicker">Reusable Organizer · Any Unit · Any Subject</div>
+      <h1>Venn Diagram — Compare Two</h1>
+      <div class="sub">Name ___________________________  Class ______  Date ________</div>
+    </div>
+    <div class="hdr-right">
+      <div class="repro">✓ Reproducible</div>
+      <div class="chip">COMPARE 2 THINGS</div>
+      <div class="chip skill">DOK 2 · COMPARISON</div>
+    </div>
+  </div>
+
+  <!-- WHY IT WORKS -->
+  <div class="why">
+    <b>When&nbsp;·&nbsp;Why</b>
+    <span>Use when a task asks students to <b>compare two</b> things — the overlap makes shared traits visible and forces precise differences.
+    <span class="cite">Identifying similarities &amp; differences is the highest-yield strategy for learning gains (Marzano).</span></span>
+  </div>
+
+  <!-- ORGANIZER -->
+  <div class="organizer">
+    <div class="prompt">In each circle, write what is <b>unique</b> to that topic. In the middle, write what they <b>share</b>.</div>
+
+    <div class="venn-wrap">
+      <svg viewBox="0 0 900 600" preserveAspectRatio="xMidYMid meet">
+        <!-- left circle -->
+        <circle cx="330" cy="300" r="250" fill="#EEF1F7" stroke="#1B2A4A" stroke-width="3.5"/>
+        <!-- right circle -->
+        <circle cx="570" cy="300" r="250" fill="#FBEEEF" stroke="#B22234" stroke-width="3.5"/>
+        <!-- overlap lens (light gold) -->
+        <path d="M 450,80.7 A 250,250 0 0,1 450,519.3 A 250,250 0 0,1 450,80.7 Z"
+              fill="#FAF3E2" stroke="#C89B3C" stroke-width="2.5"/>
+        <!-- faint writing guides: left-only -->
+        <g stroke="#B9C2D0" stroke-width="1.2" stroke-dasharray="2 5">
+          <line x1="150" y1="250" x2="330" y2="250"/><line x1="140" y1="300" x2="330" y2="300"/>
+          <line x1="150" y1="350" x2="330" y2="350"/>
+        </g>
+        <!-- right-only -->
+        <g stroke="#D8B3B7" stroke-width="1.2" stroke-dasharray="2 5">
+          <line x1="570" y1="250" x2="750" y2="250"/><line x1="570" y1="300" x2="760" y2="300"/>
+          <line x1="570" y1="350" x2="750" y2="350"/>
+        </g>
+        <!-- both -->
+        <g stroke="#E0CB94" stroke-width="1.2" stroke-dasharray="2 5">
+          <line x1="410" y1="270" x2="490" y2="270"/><line x1="405" y1="300" x2="495" y2="300"/>
+          <line x1="410" y1="330" x2="490" y2="330"/>
+        </g>
+      </svg>
+
+      <!-- topic label bars -->
+      <div class="topicbar" style="top:-6px; left:6%; color:var(--navy);">
+        Topic&nbsp;A: <span class="writefield" style="border-color:var(--navy);"></span>
+      </div>
+      <div class="topicbar" style="top:-6px; right:6%; color:var(--red);">
+        Topic&nbsp;B: <span class="writefield" style="border-color:var(--red);"></span>
+      </div>
+      <!-- region captions -->
+      <div class="lbl" style="top:34%; left:12%; width:20%;"><div class="cap" style="color:var(--navy);">ONLY&nbsp;A</div></div>
+      <div class="lbl" style="top:34%; right:12%; width:20%;"><div class="cap" style="color:var(--red);">ONLY&nbsp;B</div></div>
+      <div class="lbl" style="top:31%; left:40%; width:20%;"><div class="cap" style="color:#8a6a1e;">BOTH</div></div>
+    </div>
+  </div>
+
+  <!-- UDL / MTSS -->
+  <div class="udl">
+    <div class="udl-h">Make it work for every student <span class="tag">UDL · MTSS</span></div>
+    <div class="udl-body">
+      <div class="udl-col"><h4>Scaffold</h4><p>Give a word bank and a sentence starter: “Both ___ and ___ are ___.” Let pairs fill the BOTH circle first.</p></div>
+      <div class="udl-col"><h4>Extend</h4><p>Rank the differences: which one matters most, and why? Defend it in one sentence of evidence.</p></div>
+      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b>, <b>say</b> (record), <b>draw</b> icons, or <b>build</b> the circles with sticky notes.</p></div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="foot">
+    <span class="brand">U.S. History Hack™ &nbsp;·&nbsp; © 2026 TroopToTeacher Technologies LLC</span>
+    <span>Teacher Graphic Organizer Toolkit · Blank Reproducible</span>
+  </div>
+
+</div>
+</body>
+</html>
