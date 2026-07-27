@@ -23,6 +23,18 @@ for lvl in (1, 2, 3, 4):
 ORDER = sorted([s["standardCode"] for s in ican], key=lambda c: int(c.split(".")[1]))  # US.83 … US.95
 ICAN = {s["standardCode"]: s for s in ican}
 
+# Per-standard factcards — a topic-guaranteed fallback source for the Word Bank
+# when the vocabulary bank under-covers a standard.
+try:
+    _factcards = json.load(open(f"{WEB}/factcards/unit-10.json"))
+except Exception:
+    _factcards = []
+FC_BY_STD = {}
+for _f in _factcards:
+    _sid = _f.get("standardId")
+    if _sid:
+        FC_BY_STD.setdefault(_sid, []).append(_f)
+
 # ---- helpers ---------------------------------------------------------------
 
 DIM_NAME = {"C": "Culture", "E": "Economics", "G": "Geography",
@@ -68,27 +80,92 @@ def ican_questions(code, dok_level=None):
         out.append(q)
     return out
 
+def _vf_clean(t):
+    t = (t or "").strip()
+    t = t.split(":")[0].strip()   # drop subtitles like "Tet Offensive: Psychological Victory"
+    for pre in ("The ", "Rise of ", "Impact of ", "Emergence of ", "Growth of ",
+                "Role of ", "Effects of ", "Expansion of "):
+        if t.startswith(pre):
+            t = t[len(pre):]
+    return t.strip()
+
 def vocab_for(code, n=3):
-    out = []
+    # Word Bank must match the standard's TOPIC. Prefer bank terms that actually
+    # appear in this standard's own reading content; if the bank under-covers the
+    # standard, fill from its own FACTCARD concepts (topic-guaranteed) rather than
+    # borrowing unrelated unit-wide terms.
+    s = ICAN[code]
+    parts = [s.get("title", ""), s.get("iCanText", "")]
+    for sec in s.get("readingContent", {}).get("sections", []):
+        parts.append(sec.get("heading", "")); parts.append(sec.get("content", ""))
+    hay = " ".join(parts).lower()
+    out, have = [], set()
+    def add(term, es="", defn=""):
+        term = (term or "").strip()
+        key = re.sub(r"\s*\([^)]*\)", "", term).strip().lower()
+        if term and key and key not in have:
+            out.append({"term": term, "say": "", "es": es or "", "def": defn or ""})
+            have.add(key)
+    tagged = [v for v in vocab if v.get("term") and code in (v.get("relatedStandards") or [])]
+    # 1) tagged to THIS standard AND appears in its reading content (best)
+    for v in tagged:
+        if v["term"].lower() in hay:
+            add(v["term"], v.get("termEs", ""), v.get("definition", ""))
+        if len(out) >= n:
+            return out[:n]
+    # 2) ANY bank term that appears in this standard's reading content
     for v in vocab:
-        if code in (v.get("relatedStandards") or []) and v.get("term"):
-            out.append({"term": v["term"], "say": "", "es": v.get("termEs", ""),
-                        "def": v.get("definition", "")})
         if len(out) >= n:
             break
-    # Fallback: a debate/perspective standard (e.g. US.20) may have no tagged
-    # terms. Borrow from the rest of the unit's vocab so the Word Bank + Cornell
-    # supports are never empty (all unit terms are same-era, so on-topic enough).
-    if len(out) < 3:
-        have = {o["term"] for o in out}
-        for v in vocab:
-            if v.get("term") and v["term"] not in have:
-                out.append({"term": v["term"], "say": "", "es": v.get("termEs", ""),
-                            "def": v.get("definition", "")})
-                have.add(v["term"])
-            if len(out) >= max(3, n):
+        if v.get("term") and v["term"].lower() in hay:
+            add(v["term"], v.get("termEs", ""), v.get("definition", ""))
+    if len(out) >= n:
+        return out[:n]
+    # 3) the standard's OWN factcards. Keep a factcard only if it is really about
+    #    THIS standard (a distinctive word from its title/summary appears in the
+    #    passage) — drops mis-tagged factcards — then use its title + chunk
+    #    headings, skipping generic sub-headings.
+    _GEN = {"crisis", "success", "growth", "impact", "limitations", "culture",
+            "rebellion", "benefits", "harm", "scale", "origins", "legacy",
+            "background", "controversy", "revelations", "shooting", "structure",
+            "overview", "vaccine", "highways", "development", "results",
+            "requirements", "conditions", "decision", "leaders", "accusations",
+            "revolution", "attacks", "causes", "economic power", "historic election",
+            "push factors", "core philosophy", "social impact", "reasons for founding",
+            "before the war", "use against japan", "lasting impact", "requirements",
+            "workforce entry", "military service", "surprise attack", "the leak"}
+    _CW = {"victory", "america", "american", "transform", "national", "three",
+           "world", "first", "other", "great", "modern", "impact", "history",
+           "people", "states", "united", "century", "における"}
+    def _fc_relevant(fc):
+        words = re.findall(r"[a-z]{5,}", (fc.get("title", "") + " " + fc.get("shortSummary", "")).lower())
+        return any(w not in _CW and w in hay for w in words)
+    for fc in FC_BY_STD.get(code, []):
+        if not _fc_relevant(fc):
+            continue
+        _chunks = fc.get("chunks", [])
+        cands = []
+        for ch in _chunks:
+            cands.append((_vf_clean(ch.get("heading", "")), ch.get("headingEs", ""),
+                          ch.get("content", "") or fc.get("shortSummary", "")))
+        if not _chunks:
+            cands.append((_vf_clean(fc.get("title", "")), fc.get("titleEs", ""), fc.get("shortSummary", "")))
+        for term, es, defn in cands:
+            if len(out) >= n:
                 break
-    return out
+            if term and term.lower() not in _GEN:
+                add(term, es, defn)
+        if len(out) >= n:
+            break
+    # 4) only if still almost empty, pad from the bank (prefer 2 correct terms
+    #    over adding a wrong 3rd) so the Word Bank / Cornell is never empty
+    if len(out) < 2:
+        for v in vocab:
+            if len(out) >= 2:
+                break
+            if v.get("term"):
+                add(v["term"], v.get("termEs", ""), v.get("definition", ""))
+    return out[:n]
 
 def sources_for(code, n=2):
     out = []
