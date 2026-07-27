@@ -1,0 +1,2848 @@
+{
+ "unit": "Unit 4",
+ "formative": {
+  "US.28": [
+   {
+    "id": "US.28-30Q1",
+    "std": "US.28",
+    "dok": 2,
+    "stem": "What push factors drove African Americans to leave the rural South, and what pull factors attracted them to Northern industrial cities?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Push factors included Jim Crow laws, sharecropping poverty, racial violence, and limited education; pull factors included industrial jobs, higher wages, voting rights, and less legal segregation"
+     },
+     {
+      "id": "B",
+      "text": "Economic prosperity in the South kept most African Americans there, but this oversimplifies the complex factors at work despite the fact that multiple contemporary sources contradict this"
+     },
+     {
+      "id": "C",
+      "text": "African Americans migrated primarily for climate reasons, but this fails to account for the broader historical context despite the fact that multiple contemporary sources contradict this"
+     },
+     {
+      "id": "D",
+      "text": "The migration was forced by government relocation programs, yet the available evidence points to a different conclusion, but closer analysis reveals a more complicated historical reality"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The Great Migration resulted from both push factors (Jim Crow oppression, economic exploitation, violence, limited opportunity) and pull factors (industrial jobs, higher wages, political rights, better education) that made Northern cities attractive despite continued discrimination.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.28-30Q2",
+    "std": "US.28",
+    "dok": 2,
+    "stem": "How did economic opportunities in Northern cities compare to those available in the rural South?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Economic opportunities were identical in both regions, which does not align with the documented historical record when examined alongside the available primary and secondary sources, which does not align with the documented historical record"
+     },
+     {
+      "id": "B",
+      "text": "Northern industrial wages averaged $1,000+ annually versus $300 in the South, with factory jobs, business opportunities, and professional careers available that were closed to African Americans in the segregated South"
+     },
+     {
+      "id": "C",
+      "text": "The South offered better economic opportunities, but contemporary accounts suggest a different explanation, which represents a common misconception about this historical period, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "There were no jobs available in Northern cities, but this oversimplifies the complex factors at work, which contradicts the primary source evidence from this era, which does not align with the documented historical record"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Northern cities offered dramatically better economic opportunities: industrial wages three times higher than Southern agricultural work, plus access to factory jobs, entrepreneurship, and professional careers that Jim Crow laws prohibited in the South.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.29": [
+   {
+    "id": "US.29-31Q1",
+    "std": "US.29",
+    "dok": 2,
+    "stem": "How did radio transform American society by creating the first truly national mass communication medium?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Radio reached millions simultaneously, creating shared experiences across geographic boundaries, promoting consumer culture through advertising, and allowing politicians to speak directly to voters"
+     },
+     {
+      "id": "B",
+      "text": "Radio had limited reach in the 1920s, although this view has been largely discredited by scholars, but closer analysis reveals a more complicated historical reality, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "C",
+      "text": "Radio only played music, though this interpretation lacks supporting historical evidence, though this interpretation lacks supporting historical evidence and oversimplifies the complex factors at work during this period"
+     },
+     {
+      "id": "D",
+      "text": "Radio was too expensive for most Americans, although this view has been largely discredited by scholars, which represents a common misconception about this historical period"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Radio revolutionized communication by reaching the entire nation simultaneously with news, entertainment, and advertising, creating shared cultural experiences, promoting consumer culture, and transforming politics by giving leaders direct access to voters.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.29-31Q2",
+    "std": "US.29",
+    "dok": 2,
+    "stem": "What role did the film industry and movie theaters play in creating shared cultural experiences across America?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Movies were only popular in large cities, but this fails to account for the broader historical context, though this interpretation lacks supporting historical evidence"
+     },
+     {
+      "id": "B",
+      "text": "With 50 million weekly attendees by 1929, movies created common cultural references, glamorous shared experiences in movie palaces, and national heroes through the Hollywood star system"
+     },
+     {
+      "id": "C",
+      "text": "Movie theaters replaced radio as the primary entertainment, which contradicts the primary source evidence from this era, although historical sources do not support this conclusion"
+     },
+     {
+      "id": "D",
+      "text": "Films had no cultural impact outside entertainment, but the historical record tells a more complex story, but closer analysis reveals a more complicated historical reality"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Hollywood films created America's first truly national popular culture. Glamorous movie palaces made moviegoing special, the star system created national celebrities, and shared film experiences gave Americans common cultural references regardless of region.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.30": [
+   {
+    "id": "US.30-32Q1",
+    "std": "US.30",
+    "dok": 2,
+    "stem": "How did country and blues music develop from rural folk traditions into popular American musical genres?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Country evolved from Scottish-Irish ballads and gospel, blues from African American work songs and spirituals; 1920s recording technology and radio brought both to national audiences"
+     },
+     {
+      "id": "B",
+      "text": "Country and blues were created by professional composers, although historical sources do not support this conclusion and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "C",
+      "text": "These genres originated in Northern cities, but this fails to account for the broader historical context, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "D",
+      "text": "Country and blues developed independently without folk roots, yet the available evidence points to a different conclusion, which represents a common misconception about this historical period"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Both genres evolved from authentic folk traditions—country from rural Southern and Appalachian music, blues from African American musical heritage. Recording technology and radio in the 1920s transformed these regional traditions into national popular music.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.30-32Q2",
+    "std": "US.30",
+    "dok": 2,
+    "stem": "What role did the Grand Ole Opry play in making Nashville the center of country music and promoting the genre nationally?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The Grand Ole Opry had limited influence, although historical sources do not support this conclusion, which does not align with the documented historical record"
+     },
+     {
+      "id": "B",
+      "text": "Beginning in 1925, its live Saturday radio broadcasts reached millions nationwide, launched careers, preserved folk traditions, and established Nashville as \"Music City\""
+     },
+     {
+      "id": "C",
+      "text": "The Opry only broadcast locally, although this overlooks critical economic and social factors, which represents a common misconception about this historical period"
+     },
+     {
+      "id": "D",
+      "text": "Country music was already centered in Nashville before the Opry, though this interpretation lacks supporting historical evidence, which contradicts the primary source evidence from this era"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The Grand Ole Opry's weekly radio broadcasts from Nashville reached millions of Americans, creating a national audience for country music, launching countless performers' careers, and establishing Nashville as the undisputed center of the country music industry.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.31": [
+   {
+    "id": "US.31-33Q1",
+    "std": "US.31",
+    "dok": 2,
+    "stem": "How did the advent of commercial air travel revolutionize transportation and connect distant regions of America?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Aviation reduced travel time from days to hours, connected isolated regions to national markets, created new industries, and Lindbergh's 1927 flight captured public imagination for commercial aviation"
+     },
+     {
+      "id": "B",
+      "text": "Air travel had minimal impact in the 1920s, but this fails to account for the broader historical context when examined alongside the available primary and secondary sources"
+     },
+     {
+      "id": "C",
+      "text": "Only the military used aircraft, although historical sources do not support this conclusion, which represents a common misconception about this historical period, though this interpretation lacks supporting historical evidence"
+     },
+     {
+      "id": "D",
+      "text": "Air travel was slower than trains, yet the available evidence points to a different conclusion despite the fact that multiple contemporary sources contradict this, which contradicts the primary source evidence from this era"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Aviation transformed American geography by dramatically reducing travel times, connecting remote areas to national commerce, and creating entirely new industries. Lindbergh's celebrated flight symbolized aviation's promise and promoted public acceptance of air travel.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.31-33Q2",
+    "std": "US.31",
+    "dok": 2,
+    "stem": "What was the impact of electrical power expansion on urban and rural communities during the 1920s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Electricity was equally available everywhere, which represents a common misconception about the period, but closer analysis reveals a more complicated historical reality and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "B",
+      "text": "85% of urban homes were electrified by 1930, transforming city life with lighting, transportation, and appliances, but only 10% of rural homes had electricity, creating a significant urban-rural divide"
+     },
+     {
+      "id": "C",
+      "text": "Rural areas had more electricity than cities, which does not reflect the consensus among historians when examined alongside the available primary and secondary sources, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "D",
+      "text": "Electricity had no significant impact on daily life, yet the available evidence points to a different conclusion and oversimplifies the complex factors at work during this period"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Electricity transformed urban America with lighting, electric transportation, entertainment venues, and household appliances. However, the high cost of rural electrification created a significant gap—only 10% of farms had electricity—that wouldn't close until the New Deal.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.32": [
+   {
+    "id": "US.32-34Q1",
+    "std": "US.32",
+    "dok": 2,
+    "stem": "How did Henry Ford revolutionize manufacturing through the assembly line and mass production methods?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Ford's assembly line used moving conveyor belts, interchangeable parts, and specialized labor to reduce Model T assembly from 12 hours to 93 minutes, establishing mass production as the industrial standard"
+     },
+     {
+      "id": "B",
+      "text": "Ford made only minor improvements to manufacturing, which represents a common misconception about the period despite the fact that multiple contemporary sources contradict this"
+     },
+     {
+      "id": "C",
+      "text": "Assembly lines existed before Ford, but this oversimplifies the complex factors at work, although historical sources do not support this conclusion and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "D",
+      "text": "Ford focused only on product quality, not production speed, despite the fact that multiple sources contradict this view, which represents a common misconception about this historical period"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Ford's assembly line revolutionized manufacturing by breaking production into specialized tasks along a moving conveyor. This dramatic improvement in efficiency—reducing assembly time by over 90%—became the model for mass production worldwide.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.32-34Q2",
+    "std": "US.32",
+    "dok": 2,
+    "stem": "What economic impacts did Ford's innovations have on workers, consumers, and American industry?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Ford's methods had limited economic impact, but the historical record tells a more complex story, which ignores significant political and cultural developments of the era"
+     },
+     {
+      "id": "B",
+      "text": "The $5 Day doubled wages and reduced turnover; mass production cut Model T prices 65%, making cars affordable for millions; and Ford's methods spread throughout industry, driving economic growth"
+     },
+     {
+      "id": "C",
+      "text": "Workers' wages decreased under Ford, which does not align with the documented historical record despite the fact that multiple contemporary sources contradict this, although historical sources do not support this conclusion"
+     },
+     {
+      "id": "D",
+      "text": "Only wealthy consumers could afford Model Ts, but the historical record tells a more complex story and oversimplifies the complex factors at work during this period, but the historical evidence paints a more nuanced picture"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Ford's innovations benefited all parties: workers received unprecedented wages ($5/day), consumers got affordable cars (price dropped from $825 to $290), and the economy grew as Ford's efficient production methods spread to other industries.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.33": [
+   {
+    "id": "US.33-35Q1",
+    "std": "US.33",
+    "dok": 2,
+    "stem": "What factors led to the emergence of the Harlem Renaissance as a major cultural movement in the 1920s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The Great Migration concentrated African American talent in urban communities, post-WWI expectations for equality increased, and venues, publications, and patrons provided platforms for creative expression"
+     },
+     {
+      "id": "B",
+      "text": "The Renaissance began without any particular causes, which represents a common misconception about the period when examined alongside the available primary and secondary sources"
+     },
+     {
+      "id": "C",
+      "text": "The government sponsored the Harlem Renaissance, despite the fact that multiple sources contradict this view, though this interpretation lacks supporting historical evidence and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "D",
+      "text": "The Renaissance was limited to music, although historical sources do not support this conclusion, but closer analysis reveals a more complicated historical reality, although this overlooks critical economic and social factors involved"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The Harlem Renaissance emerged from the concentration of African American talent created by the Great Migration, heightened expectations after WWI service, and the development of cultural institutions—magazines, theaters, and patrons—that supported creative expression.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.33-35Q2",
+    "std": "US.33",
+    "dok": 2,
+    "stem": "How did musicians like Louis Armstrong and Duke Ellington transform jazz into a distinctly American art form?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Armstrong and Ellington had minimal impact on jazz, although historical sources do not support this conclusion, though this interpretation lacks supporting historical evidence, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "B",
+      "text": "Armstrong revolutionized jazz with solo improvisation and scat singing while Ellington's sophisticated compositions elevated jazz to serious art, both making it globally recognized as America's unique musical contribution"
+     },
+     {
+      "id": "C",
+      "text": "Jazz was already fully developed before them, yet the available evidence points to a different conclusion, and this view has been largely revised by modern historical research, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "They only performed for African American audiences, despite the fact that multiple sources contradict this view, which ignores significant political and cultural developments of the era and oversimplifies the complex factors at work during this period"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Armstrong transformed jazz through innovative solo improvisation and vocal techniques, while Ellington elevated it through sophisticated composition and orchestration. Together they established jazz as America's distinctive contribution to world music.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.34": [
+   {
+    "id": "US.34-36Q1",
+    "std": "US.34",
+    "dok": 2,
+    "stem": "How did the \"flapper\" represent changing attitudes toward women's roles, behavior, and independence in the 1920s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Flappers rejected Victorian ideals through fashion, behavior, and attitudes—wearing short skirts, smoking, dancing, dating freely, and asserting independence in personal and economic choices"
+     },
+     {
+      "id": "B",
+      "text": "Flappers represented traditional Victorian values, which does not align with the documented historical record and oversimplifies the complex factors at work during this period"
+     },
+     {
+      "id": "C",
+      "text": "Flappers were a small, insignificant group, although this view has been largely discredited by scholars, but contemporary accounts and primary sources suggest otherwise"
+     },
+     {
+      "id": "D",
+      "text": "Flapper culture was accepted by all Americans, despite the fact that multiple sources contradict this view, although this overlooks critical economic and social factors involved"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Flappers symbolized revolutionary changes in women's roles: their fashion, social behavior, and assertive independence represented a dramatic rejection of Victorian restrictions and demonstrated new possibilities for women's lives and choices.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.34-36Q2",
+    "std": "US.34",
+    "dok": 2,
+    "stem": "What impact did increased access to birth control have on women's lives and family planning decisions?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Birth control had no significant impact, but contemporary accounts suggest a different explanation despite the fact that multiple contemporary sources contradict this and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "B",
+      "text": "Birth control enabled women to control family size (average dropped from 7 to 3 children), improve maternal health, pursue education and careers, and gain greater autonomy over their bodies and futures"
+     },
+     {
+      "id": "C",
+      "text": "Birth control was universally accepted, despite the fact that multiple sources contradict this view and oversimplifies the complex factors at work during this period, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "Only wealthy women had access to birth control, yet the available evidence points to a different conclusion, although this overlooks critical economic and social factors involved"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Birth control transformed women's lives by allowing control over reproduction, reducing maternal health risks, enabling career pursuit, and giving women unprecedented autonomy over their bodies and life choices, despite legal restrictions and social opposition.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.35": [
+   {
+    "id": "US.35-37Q1",
+    "std": "US.35",
+    "dok": 2,
+    "stem": "How did the First Red Scare violate civil liberties and create an atmosphere of fear and suspicion?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Palmer Raids arrested over 6,000 without warrants, deported immigrants without due process, banned socialist publications, and created an atmosphere of fear that suppressed free speech and political dissent"
+     },
+     {
+      "id": "B",
+      "text": "The Red Scare had minimal impact on civil liberties, which ignores key developments that shaped the outcome, but contemporary accounts and primary sources suggest otherwise, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "C",
+      "text": "Civil liberties were protected during the Red Scare, which does not reflect the consensus among historians and does not reflect the scholarly consensus on this topic when examined alongside the available primary and secondary sources"
+     },
+     {
+      "id": "D",
+      "text": "Only communist party members were affected, which contradicts the primary source evidence from this era and fails to account for key developments in the broader context, although historical sources do not support this conclusion"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The Red Scare resulted in massive civil liberties violations: warrantless arrests, deportations without due process, suppression of political speech, and an atmosphere of fear that chilled legitimate political activity for years after the immediate crisis passed.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.35-37Q2",
+    "std": "US.35",
+    "dok": 2,
+    "stem": "What were the goals and effects of the 1920s Immigration Quota Acts in limiting immigration?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The quota acts had no effect on immigration, which contradicts the primary source evidence from this era, which contradicts the primary source evidence from this era and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "B",
+      "text": "The acts aimed to preserve Northern European dominance by using discriminatory quotas based on 1890 census, banning Asian immigration, and reducing total immigration from 800,000 to 150,000 annually"
+     },
+     {
+      "id": "C",
+      "text": "The acts increased immigration diversity, despite the fact that multiple sources contradict this view, but contemporary accounts and primary sources suggest otherwise, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "All countries received equal immigration quotas, although this view has been largely discredited by scholars, but contemporary accounts and primary sources suggest otherwise"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The quota acts explicitly discriminated by national origin, favoring Northern Europeans and banning Asians entirely. By basing quotas on 1890 census data, they dramatically reduced immigration from Southern and Eastern Europe, fundamentally reshaping American demographics.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.36": [
+   {
+    "id": "US.36-38Q1",
+    "std": "US.36",
+    "dok": 2,
+    "stem": "What were the main arguments for and against teaching evolution in public schools during the Scopes Trial?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Prosecution argued the Bible was literally true and evolution undermined morality; defense argued evolution was scientifically proven, teachers needed academic freedom, and religious doctrine shouldn't control public schools"
+     },
+     {
+      "id": "B",
+      "text": "Both sides agreed on educational standards, despite limited evidence supporting this interpretation, but contemporary accounts and primary sources suggest otherwise, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "C",
+      "text": "The trial was only about Scopes' teaching credentials, although this overlooks critical economic and social factors despite the fact that multiple contemporary sources contradict this, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "Neither side presented substantive arguments, although historical sources do not support this conclusion, but closer analysis reveals a more complicated historical reality, which represents a common misconception about this historical period"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The trial crystallized fundamental conflicts: the prosecution defended Biblical literalism and parental control over curriculum, while the defense championed scientific evidence, academic freedom, and separation of church and state in public education.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.36-38Q3",
+    "std": "US.36",
+    "dok": 2,
+    "stem": "What was the outcome of the trial, and how did it affect science education and public discourse?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The trial had no lasting effects, yet the available evidence points to a different conclusion, although historical sources do not support this conclusion, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "B",
+      "text": "Scopes was convicted but later overturned on technicality; the Butler Act remained until 1967; textbooks removed evolution; teachers avoided the topic for decades; the trial became enduring symbol of science-religion conflict"
+     },
+     {
+      "id": "C",
+      "text": "Evolution was immediately accepted nationwide, but the historical record tells a more complex story, though this interpretation lacks supporting historical evidence, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "The trial ended all debate about teaching evolution, although historical sources do not support this conclusion, but contemporary accounts and primary sources suggest otherwise, although historical sources do not support this conclusion"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Though Scopes was technically convicted, the trial's real impact was cultural: publishers removed evolution from textbooks, teachers avoided the subject, and the trial established a lasting symbol of science-religion conflict that continues influencing debates today.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.37": [
+   {
+    "id": "US.37-7AQ1",
+    "std": "US.37",
+    "dok": 2,
+    "stem": "What were the intended goals of Prohibition, and why did it fail to achieve these objectives?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Goals included reducing crime, improving health, and strengthening families, but Prohibition instead increased crime through illegal trade, overwhelmed limited enforcement, and created disrespect for law while alcohol consumption continued"
+     },
+     {
+      "id": "B",
+      "text": "Prohibition achieved all its goals, although this overlooks critical economic and social factors, although this overlooks critical economic and social factors involved, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "C",
+      "text": "Prohibition had no specific goals, although this overlooks critical economic and social factors, which represents a common misconception about this historical period, although this overlooks critical economic and social factors involved"
+     },
+     {
+      "id": "D",
+      "text": "The failure was due to lack of public support before passage, but contemporary accounts suggest a different explanation, and this view has been largely revised by modern historical research and does not reflect the scholarly consensus on this topic"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Prohibition aimed to reduce crime, improve public health, and strengthen families. Instead, it created a massive illegal industry, overwhelmed law enforcement, generated organized crime, and undermined respect for law while failing to stop drinking.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.37-7AQ2",
+    "std": "US.37",
+    "dok": 2,
+    "stem": "How did Prohibition lead to the rise of organized crime and figures like Al Capone?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Organized crime existed before Prohibition without change, which represents a common misconception about the period, which represents a common misconception about this historical period and oversimplifies the complex factors at work during this period"
+     },
+     {
+      "id": "B",
+      "text": "The illegal alcohol trade offered enormous profits, and criminals like Capone built empires through smuggling, bribery of officials, and violence, developing nationwide networks and diversifying into other criminal activities"
+     },
+     {
+      "id": "C",
+      "text": "Law enforcement effectively prevented organized crime, which does not reflect the consensus among historians when examined alongside the available primary and secondary sources and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "D",
+      "text": "Only small-time criminals participated in illegal alcohol trade, which represents a common misconception about the period when examined alongside the available primary and secondary sources, but contemporary accounts and primary sources suggest otherwise"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Prohibition created unprecedented criminal opportunity. With alcohol still in demand, criminals like Capone built massive operations, corrupted officials, engaged in gang warfare, and established organized crime networks that outlasted Prohibition itself.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.38": [
+   {
+    "id": "US.38-8AQ1",
+    "std": "US.38",
+    "dok": 2,
+    "stem": "How did credit expansion and installment buying change American purchasing patterns and economic behavior?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Installment buying made expensive goods affordable, with consumer debt doubling and 75% of cars purchased on credit by 1929, fundamentally changing how Americans acquired goods while accumulating unsustainable debt"
+     },
+     {
+      "id": "B",
+      "text": "Credit had minimal impact on consumer behavior, but the historical record tells a more complex story, which represents a common misconception about this historical period and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "C",
+      "text": "Americans avoided using credit in the 1920s, which does not align with the documented historical record despite the fact that multiple contemporary sources contradict this, and this view has been largely revised by modern historical research"
+     },
+     {
+      "id": "D",
+      "text": "Credit was only available to wealthy consumers, despite limited evidence supporting this interpretation, which contradicts the primary source evidence from this era, but the historical evidence paints a more nuanced picture"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Credit expansion transformed American consumption: installment buying made cars, appliances, and homes affordable to millions who couldn't pay cash. Consumer debt doubled during the decade, fundamentally changing purchasing behavior while building dangerous debt levels.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.38-8AQ2",
+    "std": "US.38",
+    "dok": 2,
+    "stem": "What role did consumerism play in shaping American culture and values during the 1920s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Consumerism had no cultural impact, which does not align with the documented historical record and oversimplifies the complex factors at work during this period, and this view has been largely revised by modern historical research"
+     },
+     {
+      "id": "B",
+      "text": "Consumerism made purchasing central to American identity, created brand loyalty through advertising, shifted success measures from character to possessions, and established material acquisition as a path to happiness"
+     },
+     {
+      "id": "C",
+      "text": "Americans rejected consumer culture, which contradicts the primary source evidence from this era, although this overlooks critical economic and social factors involved, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "Consumerism was limited to urban areas, although this view has been largely discredited by scholars when examined alongside the available primary and secondary sources, but contemporary accounts and primary sources suggest otherwise"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Consumerism fundamentally reshaped American values: advertising promoted products as paths to happiness and success, possessions became status markers, and material acquisition became central to American identity and aspirations in ways that continue today.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ]
+ },
+ "formA": [
+  {
+   "id": "US.28-OK21",
+   "std": "US.28",
+   "dok": 2,
+   "stem": "What were push factors that caused the Great Migration?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Jim Crow segregation, racial violence, and limited economic opportunity in farming"
+    },
+    {
+     "id": "B",
+     "text": "Created economic independence and served the needs of segregated Black communities"
+    },
+    {
+     "id": "C",
+     "text": "Published train schedules, job listings, and stories about Northern opportunities"
+    },
+    {
+     "id": "D",
+     "text": "They reflected the experiences and struggles of rural and working-class Americans"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Push factors in the Great Migration included Jim Crow segregation, lynching, disfranchisement, and low farm wages in the South, which drove many African Americans to leave. Choice A refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice D refers to an effect or consequence rather than the item being identified, not the historical point being tested. Those pressures show that the Great Migration was about escaping oppression as well as seeking work.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.28-OK22",
+   "std": "US.28",
+   "dok": 2,
+   "stem": "How did World War I contribute to the Great Migration?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Military conscription forced many African Americans to migrate northward"
+    },
+    {
+     "id": "B",
+     "text": "War industries needed workers after European immigration stopped"
+    },
+    {
+     "id": "C",
+     "text": "Southern agriculture was devastated during the entire war"
+    },
+    {
+     "id": "D",
+     "text": "Federal government mandated worker relocation programs nationwide"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The Great Migration moved millions of African Americans from the rural South to Northern and Midwestern cities between the 1910s and 1970s as they sought jobs and escaped Jim Crow. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. The movement reshaped Black politics, labor, and culture in modern America.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.28-OK23",
+   "std": "US.28",
+   "dok": 2,
+   "stem": "What cities became major destinations for African Americans during the Great Migration?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Rural farming communities in the Midwest that needed agricultural labor workers"
+    },
+    {
+     "id": "B",
+     "text": "Los Angeles, Phoenix, and Dallas in the growing Western and Southwestern regions"
+    },
+    {
+     "id": "C",
+     "text": "Chicago, Detroit, New York, Philadelphia, and Cleveland in the industrial North"
+    },
+    {
+     "id": "D",
+     "text": "Major Southern cities like Atlanta, Birmingham, and New Orleans offering new jobs"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Cities such as Chicago, Detroit, New York, Philadelphia, and Cleveland became major destinations because they offered industrial jobs and larger Black communities. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. Those cities became centers of Black political influence and cultural creativity in the twentieth century.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.29-31Q3",
+   "std": "US.29",
+   "dok": 2,
+   "stem": "How did celebrities like Charlie Chaplin, Charles Lindbergh, and Babe Ruth become national heroes and cultural icons?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Celebrity culture did not exist in the 1920s, but contemporary accounts suggest a different explanation, and this view has been largely revised by modern historical research"
+    },
+    {
+     "id": "B",
+     "text": "Mass media (films, radio, newspapers) spread their achievements nationally, while their talents and personalities embodied American values like ingenuity, individualism, and success"
+    },
+    {
+     "id": "C",
+     "text": "They were only famous in their home cities, which represents a common misconception about the period, which represents a common misconception about this historical period"
+    },
+    {
+     "id": "D",
+     "text": "Government promotion created their celebrity status, but this fails to account for the broader historical context, which contradicts the primary source evidence from this era"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Mass media transformed talented individuals into national icons: Chaplin through global silent films, Lindbergh through newspaper and radio coverage of his flight, and Ruth through radio broadcasts. Each embodied American values and captured public imagination.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.29-OK11",
+   "std": "US.29",
+   "dok": 2,
+   "stem": "How did radio transform American culture in the 1920s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Remained limited to wealthy urban households who could afford equipment"
+    },
+    {
+     "id": "B",
+     "text": "Decreased communication between different geographic regions of America"
+    },
+    {
+     "id": "C",
+     "text": "Created shared national experiences through news, music, and entertainment"
+    },
+    {
+     "id": "D",
+     "text": "Was primarily restricted to military and government official communications"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice A refers to the automobile industry, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.29-OK13",
+   "std": "US.29",
+   "dok": 2,
+   "stem": "What was the significance of the first radio broadcast in 1920?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Millions heard same radio programs, watched same movies, and followed same celebrities"
+    },
+    {
+     "id": "B",
+     "text": "Focused on emotions, desires, and creating needs rather than just product features"
+    },
+    {
+     "id": "C",
+     "text": "Millions heard same programs simultaneously, creating shared cultural experiences"
+    },
+    {
+     "id": "D",
+     "text": "KDKA Pittsburgh broadcast election results, marking the beginning of commercial radio"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice A points to radio or mass media, not the specific person, law, or event asked for; choice B points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity."
+   }
+  },
+  {
+   "id": "US.30-32Q3",
+   "std": "US.30",
+   "dok": 2,
+   "stem": "How did W.C. Handy and Bessie Smith contribute to the development and popularization of blues music?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They had minimal impact on blues development, which does not reflect the consensus among historians, which represents a common misconception about this historical period, and this view has been largely revised by modern historical research"
+    },
+    {
+     "id": "B",
+     "text": "They only performed for local audiences, which represents a common misconception about the period, which represents a common misconception about this historical period, but contemporary accounts and primary sources suggest otherwise"
+    },
+    {
+     "id": "C",
+     "text": "Handy published the first blues compositions for mainstream audiences and proved blues could be commercially successful; Smith became the highest-paid Black performer, breaking barriers and inspiring generations of singers"
+    },
+    {
+     "id": "D",
+     "text": "Handy and Smith invented the blues genre, which does not align with the documented historical record, which represents a common misconception about this historical period when examined alongside the available primary and secondary sources"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Handy, the \"Father of the Blues,\" legitimized the genre by publishing formal compositions like \"St. Louis Blues.\" Smith, the \"Empress of the Blues,\" achieved unprecedented commercial success and cultural influence, proving blues could reach mainstream audiences.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.30-OK21",
+   "std": "US.30",
+   "dok": 2,
+   "stem": "Why was Bessie Smith called the \"Empress of the Blues\"?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "She founded and operated the largest Black-owned record company in America"
+    },
+    {
+     "id": "B",
+     "text": "She was the first African American singer to perform in European concert halls"
+    },
+    {
+     "id": "C",
+     "text": "She invented the blues genre by combining African and European musical traditions"
+    },
+    {
+     "id": "D",
+     "text": "She was the most popular female blues singer whose recordings sold millions"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Bessie Smith was called the 'Empress of the Blues' because her powerful voice and emotionally rich recordings made her the best-known female blues singer of the 1920s. Choice B invents a record company she did not found, and choice D wrongly credits her with inventing the blues itself. Her fame helped blues music reach a much larger national audience."
+   }
+  },
+  {
+   "id": "US.30-2176",
+   "std": "US.30",
+   "dok": 2,
+   "stem": "W.C. Handy is known as the \"Father of the Blues\" because he:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Was the first person to write down and publish blues compositions"
+    },
+    {
+     "id": "B",
+     "text": "The rural South to industrial cities in the Northeast and Midwest"
+    },
+    {
+     "id": "C",
+     "text": "Industrial jobs and relatively better wages than agricultural work"
+    },
+    {
+     "id": "D",
+     "text": "War industries needed workers after European immigration stopped"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Country and blues music grew out of rural and working-class experiences, and performers such as W.C. Handy and Bessie Smith helped bring those traditions to national audiences. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. Their success showed that regional and Black musical traditions were reshaping American popular culture.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.31-33Q3",
+   "std": "US.31",
+   "dok": 2,
+   "stem": "How did new technologies like radio, household appliances, and automobiles transform daily life and social relationships?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "New technologies had little effect on daily life, which does not reflect the consensus among historians and does not reflect the scholarly consensus on this topic, but contemporary accounts and primary sources suggest otherwise"
+    },
+    {
+     "id": "B",
+     "text": "Only wealthy families could afford new technologies, but the historical record tells a more complex story, but the historical evidence paints a more nuanced picture when examined alongside the available primary and secondary sources"
+    },
+    {
+     "id": "C",
+     "text": "Technologies were primarily used in factories, but contemporary accounts suggest a different explanation and oversimplifies the complex factors at work during this period, but closer analysis reveals a more complicated historical reality"
+    },
+    {
+     "id": "D",
+     "text": "Radio created shared cultural experiences, appliances reduced domestic labor and improved living conditions, and automobiles enabled mobility and suburban growth, fundamentally changing work, leisure, and family patterns"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "New technologies reshaped every aspect of American life: radio connected families to national culture, appliances freed time from household drudgery, and automobiles enabled new patterns of work, shopping, and leisure that transformed communities and social relationships."
+   }
+  },
+  {
+   "id": "US.31-OK23",
+   "std": "US.31",
+   "dok": 2,
+   "stem": "How did the airplane change perceptions of distance and possibility?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Made the world seem smaller and demonstrated exciting new technological frontiers"
+    },
+    {
+     "id": "B",
+     "text": "Failed to capture public interest and had minimal impact on American society"
+    },
+    {
+     "id": "C",
+     "text": "Remained restricted exclusively to military reconnaissance and warfare applications"
+    },
+    {
+     "id": "D",
+     "text": "Actually decreased public enthusiasm for technological innovation and progress"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Aviation in the 1920s made practical air travel seem possible for the first time and changed how Americans thought about distance, commerce, and speed. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. Together, aviation and electricity laid the technological foundation for twentieth-century American life.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.31-2180",
+   "std": "US.31",
+   "dok": 2,
+   "stem": "The spread of electricity during the 1920s transformed American society by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Eliminating the need for all other forms of energy production"
+    },
+    {
+     "id": "B",
+     "text": "Powering new household appliances and extending productive hours"
+    },
+    {
+     "id": "C",
+     "text": "Providing electricity only to wealthy urban neighborhoods"
+    },
+    {
+     "id": "D",
+     "text": "Focusing exclusively on industrial rather than residential applications"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice C refers to aviation or electricity, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The spread of electric power helped define a more modern, connected, and efficient society.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.32-34Q3",
+   "std": "US.32",
+   "dok": 2,
+   "stem": "How did widespread automobile ownership transform American society, family life, and communities?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Cars enabled suburban growth, changed dating and family patterns, ended rural isolation, created new industries and jobs, and made mobility central to American identity and lifestyle"
+    },
+    {
+     "id": "B",
+     "text": "Automobiles had minimal social impact, though this interpretation lacks supporting historical evidence, but closer analysis reveals a more complicated historical reality"
+    },
+    {
+     "id": "C",
+     "text": "Only urban residents benefited from automobiles, yet the available evidence points to a different conclusion, but contemporary accounts and primary sources suggest otherwise"
+    },
+    {
+     "id": "D",
+     "text": "Automobiles weakened American communities, but this oversimplifies the complex factors at work and fails to account for key developments in the broader context"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Automobiles transformed nearly every aspect of American life: enabling suburban development, changing courtship patterns, connecting rural areas to cities, creating new industries (gas stations, motels, repair shops), and making personal mobility central to American culture.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.32-OK21",
+   "std": "US.32",
+   "dok": 2,
+   "stem": "How did the automobile transform American society?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It decreased industrial development by drawing workers away from factory jobs"
+    },
+    {
+     "id": "B",
+     "text": "It created suburbs, highways, tourism, and spawned many new related industries"
+    },
+    {
+     "id": "C",
+     "text": "It reduced American mobility by making public transportation systems less common"
+    },
+    {
+     "id": "D",
+     "text": "It remained accessible only to wealthy Americans who could afford maintenance"
+    }
+   ],
+   "key": "B",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Ford's innovations made cars affordable for ordinary Americans, turning the automobile from a luxury into a mass consumer good. Choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice A refers to an effect or consequence rather than the item being identified, not the historical point being tested. That change reorganized work, space, and consumption in modern America.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.32-OK23",
+   "std": "US.32",
+   "dok": 2,
+   "stem": "How did the automobile affect family life and leisure activities?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It stimulated growth in steel, rubber, glass, and petroleum industries"
+    },
+    {
+     "id": "B",
+     "text": "Lower prices that made automobiles affordable for average Americans"
+    },
+    {
+     "id": "C",
+     "text": "Enabled family road trips, vacations, and visits to distant relatives"
+    },
+    {
+     "id": "D",
+     "text": "Oil, rubber, steel, glass, gas stations, motels, road construction"
+    }
+   ],
+   "key": "C",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Automobiles changed family life by making trips, dating, tourism, and suburban living easier and by reducing dependence on fixed rail and streetcar lines. Choice A refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. Car ownership reshaped where Americans lived, worked, and spent their free time.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.33-35Q3",
+   "std": "US.33",
+   "dok": 2,
+   "stem": "What contributions did writers like Langston Hughes and Zora Neale Hurston make to American literature and African American identity?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Their work had limited literary significance, despite limited evidence supporting this interpretation, and this view has been largely revised by modern historical research, but contemporary accounts and primary sources suggest otherwise"
+    },
+    {
+     "id": "B",
+     "text": "Hughes captured African American experience through jazz-influenced poetry and social commentary, while Hurston preserved folk traditions and created strong female characters, both using authentic voice to celebrate Black culture"
+    },
+    {
+     "id": "C",
+     "text": "They wrote only for academic audiences, which does not align with the documented historical record, which contradicts the primary source evidence from this era and fails to account for key developments in the broader context"
+    },
+    {
+     "id": "D",
+     "text": "Their work focused exclusively on protest, which contradicts the primary source evidence from this era, but closer analysis reveals a more complicated historical reality, which represents a common misconception about this historical period"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Hughes and Hurston made enduring contributions: Hughes through poetry that captured African American life and challenged inequality using vernacular language, and Hurston through novels celebrating Black culture and pioneering anthropological preservation of folk traditions.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.33-OK24",
+   "std": "US.33",
+   "dok": 2,
+   "stem": "What role did Black churches play in the Harlem Renaissance?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Opposed all forms of artistic expression and condemned jazz as sinful music"
+    },
+    {
+     "id": "B",
+     "text": "Had no involvement in cultural activities and remained separate from the movement"
+    },
+    {
+     "id": "C",
+     "text": "Provided community centers and important platforms for cultural expression"
+    },
+    {
+     "id": "D",
+     "text": "Only focused on religious services and refused to host any community gatherings"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Harlem Renaissance was a flowering of African American literature, music, and art in the 1920s centered in Harlem and shaped by writers such as Hughes and Hurston and musicians such as Ellington. Choice B refers to Harlem culture or jazz, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. It permanently changed American culture by placing Black creativity at the center of national life.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.33-2187",
+   "std": "US.33",
+   "dok": 2,
+   "stem": "Louis Armstrong contributed to the Harlem Renaissance through his:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Novels and poetry celebrating African American experiences"
+    },
+    {
+     "id": "B",
+     "text": "Leadership of political organizations fighting for civil rights"
+    },
+    {
+     "id": "C",
+     "text": "Paintings and sculptures displayed in Harlem art galleries"
+    },
+    {
+     "id": "D",
+     "text": "Innovative jazz trumpet playing and vocal performances"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Louis Armstrong shaped the Harlem Renaissance through groundbreaking trumpet solos and vocal performances that changed jazz forever. Choice A describes writers, not musicians, and choice D refers to visual artists instead of Armstrong's actual contribution. His success helped make African American music central to modern American culture."
+   }
+  },
+  {
+   "id": "US.34-36Q3",
+   "std": "US.34",
+   "dok": 2,
+   "stem": "How did expansion of clerical and office jobs provide new economic opportunities for women?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Office jobs provided no advantages for women, which represents a common misconception about the period, which contradicts the primary source evidence from this era, but the historical evidence paints a more nuanced picture"
+    },
+    {
+     "id": "B",
+     "text": "Women already dominated office work before the 1920s, although this overlooks critical economic and social factors, though this interpretation lacks supporting historical evidence, and this view has been largely revised by modern historical research"
+    },
+    {
+     "id": "C",
+     "text": "Women in clerical work grew from 75,000 to 1.4 million, offering better pay than domestic or factory work, cleaner conditions, and some economic independence, though pay inequality and \"marriage bars\" limited advancement"
+    },
+    {
+     "id": "D",
+     "text": "Office jobs paid less than factory work, but this oversimplifies the complex factors at work, but closer analysis reveals a more complicated historical reality when examined alongside the available primary and secondary sources"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The expansion of office work created new opportunities: clerical positions offered better pay, safer conditions, and more prestige than domestic or factory work. However, women still faced pay discrimination, limited advancement, and policies forcing them to quit upon marriage.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.34-OK24",
+   "std": "US.34",
+   "dok": 2,
+   "stem": "How did World War I contribute to women's changing roles?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Challenged gender norms but was limited to young, urban, middle-class white women"
+    },
+    {
+     "id": "B",
+     "text": "Independent women pursuing higher education, professional careers, and personal freedom"
+    },
+    {
+     "id": "C",
+     "text": "Young women who challenged traditional gender norms through dress and behavior"
+    },
+    {
+     "id": "D",
+     "text": "Women filled jobs left by soldiers, proving their workplace capabilities to society"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Women's roles changed in the 1920s as more women pursued work, education, and public independence, even though old limits still shaped daily life. Choice B refers to women's changing roles, not the historical point being tested; choice D refers to women's changing roles, not the historical point being tested. Those tensions became a lasting part of debates over gender in modern America."
+   }
+  },
+  {
+   "id": "US.34-4Q01",
+   "std": "US.34",
+   "dok": 2,
+   "stem": "Flappers in the 1920s were significant because they:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Challenged conventional gender norms through fashion, behavior"
+    },
+    {
+     "id": "B",
+     "text": "Had no cultural influence on American society"
+    },
+    {
+     "id": "C",
+     "text": "Represented traditional women\\\\'s roles exclusively"
+    },
+    {
+     "id": "D",
+     "text": "Supported strict adherence to Victorian values"
+    }
+   ],
+   "key": "A",
+   "rc": "Economics",
+   "distract": {
+    "A": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to women's changing roles, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.35-37Q3",
+   "std": "US.35",
+   "dok": 2,
+   "stem": "Why did the Ku Klux Klan experience a resurgence in the 1920s, and what impact did it have on American society?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The KKK had no significant presence in the 1920s, although historical sources do not support this conclusion and fails to account for key developments in the broader context, but the historical evidence paints a more nuanced picture"
+    },
+    {
+     "id": "B",
+     "text": "The KKK only operated in the South, which does not align with the documented historical record despite the fact that multiple contemporary sources contradict this, though this interpretation lacks supporting historical evidence"
+    },
+    {
+     "id": "C",
+     "text": "The KKK focused only on African Americans, but contemporary accounts suggest a different explanation and oversimplifies the complex factors at work during this period, which ignores significant political and cultural developments of the era"
+    },
+    {
+     "id": "D",
+     "text": "The new KKK expanded targets to Catholics, Jews, and immigrants, reached 4-5 million members nationwide, influenced elections, promoted violence, and reflected widespread nativist and racist sentiments before scandals caused decline"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The 1920s KKK expanded beyond its Southern, anti-Black origins to become a nationwide movement targeting Catholics, Jews, and immigrants. Its massive membership, political influence, and violence reflected deep currents of nativism and intolerance in American society."
+   }
+  },
+  {
+   "id": "US.35-OK26",
+   "std": "US.35",
+   "dok": 2,
+   "stem": "How did the Palmer Raids affect civil liberties?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Violated constitutional rights through warrantless raids and mass deportations of suspects"
+    },
+    {
+     "id": "B",
+     "text": "Resurgent white supremacist organization targeting Blacks, Catholics, Jews, and immigrants"
+    },
+    {
+     "id": "C",
+     "text": "NAACP pursued legal integration; Garvey promoted Black nationalism and economic independence"
+    },
+    {
+     "id": "D",
+     "text": "Rejected immigrant contributions while the nation was historically built by immigrants"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The Palmer Raids violated civil liberties by arresting suspected radicals without proper warrants, holding many without due process, and deporting hundreds with little evidence. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. They showed how fear can push the government to sacrifice constitutional protections in a crisis.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.35-5Q03",
+   "std": "US.35",
+   "dok": 2,
+   "stem": "The resurgence of the Ku Klux Klan in the 1920s represented:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The near-total elimination of racist ideologies from American mainstream society and institutions"
+    },
+    {
+     "id": "B",
+     "text": "Increased white supremacist activity and organized violence against African Americans, Catholics, Jews, and immigrants"
+    },
+    {
+     "id": "C",
+     "text": "A marked decrease in racial and ethnic tensions as economic prosperity reduced social conflicts"
+    },
+    {
+     "id": "D",
+     "text": "Broad public support for civil rights legislation and equal treatment under the law"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The second Ku Klux Klan of the 1920s promoted white Protestant supremacy and targeted Catholics, Jews, immigrants, and Black Americans, not just African Americans in the South. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. Its growth showed how widely racism and nativism spread in the decade.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.36-OK21",
+   "std": "US.36",
+   "dok": 2,
+   "stem": "What did the Scopes Trial reveal about American society?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Deep cultural divide between traditional religious values and modern scientific thought"
+    },
+    {
+     "id": "B",
+     "text": "Universal acceptance of evolutionary theory by all religious and scientific communities"
+    },
+    {
+     "id": "C",
+     "text": "Complete decline of religious belief and church attendance throughout American society"
+    },
+    {
+     "id": "D",
+     "text": "Decisive legal victory for fundamentalist views that permanently banned evolution teaching"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice C points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for; choice B points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.36-OK24",
+   "std": "US.36",
+   "dok": 2,
+   "stem": "How did fundamentalism respond to modernism in the 1920s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Deep cultural divide between traditional religious values and modern scientific thought"
+    },
+    {
+     "id": "B",
+     "text": "Promoted literal Bible interpretation and traditional values against science and change"
+    },
+    {
+     "id": "C",
+     "text": "The rise of organized crime, illegal speakeasies, bootlegging, and gang violence"
+    },
+    {
+     "id": "D",
+     "text": "Both showed conflict between traditional rural values and modern urban changes"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.36-6Q02",
+   "std": "US.36",
+   "dok": 2,
+   "stem": "The major figures involved in the Scopes Trial included:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Supreme Court justices exclusively"
+    },
+    {
+     "id": "B",
+     "text": "Theodore Roosevelt and William Jennings Bryan exclusively"
+    },
+    {
+     "id": "C",
+     "text": "William Jennings Bryan (prosecutor) and Clarence Darrow (defense"
+    },
+    {
+     "id": "D",
+     "text": "European scientists and American educators"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.37-7AQ3",
+   "std": "US.37",
+   "dok": 2,
+   "stem": "What role did bootlegging and speakeasies play in undermining Prohibition and changing social culture?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Bootlegging was rare and speakeasies were uncommon, although historical sources do not support this conclusion, which contradicts the primary source evidence from this era, though this interpretation lacks supporting historical evidence"
+    },
+    {
+     "id": "B",
+     "text": "Widespread bootlegging demonstrated Prohibition's unenforcability while speakeasies created new social spaces where women drank publicly, classes mixed, jazz thrived, and open law-breaking became socially acceptable"
+    },
+    {
+     "id": "C",
+     "text": "Speakeasies only served wealthy customers, but the historical record tells a more complex story, which represents a common misconception about this historical period, though this interpretation lacks supporting historical evidence"
+    },
+    {
+     "id": "D",
+     "text": "Bootlegging was limited to rural areas, but this oversimplifies the complex factors at work and oversimplifies the complex factors at work during this period, though this interpretation lacks supporting historical evidence"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Bootlegging's pervasiveness proved Prohibition unenforceable, while speakeasies transformed social culture—introducing mixed-gender drinking, jazz music, and class mixing—and normalized law-breaking, fundamentally undermining the law's moral authority.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.37-OK26",
+   "std": "US.37",
+   "dok": 2,
+   "stem": "Summarize the main arguments for and against Prohibition:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Both gave voice to working-class experiences but emerged from different regional and racial communities"
+    },
+    {
+     "id": "B",
+     "text": "Technology enabled mass production and advertising, creating consumer demand and installment buying"
+    },
+    {
+     "id": "C",
+     "text": "For: reduce crime and improve morality; Against: violated personal freedom and increased organized crime"
+    },
+    {
+     "id": "D",
+     "text": "It argued that fighting fascism abroad while tolerating racism at home was a contradiction that demanded change"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Prohibition was promoted as a way to reduce crime and improve morality, but in practice it encouraged black markets, corruption, and widespread disrespect for the law. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to an effect or consequence rather than the item being identified, not the historical point being tested. The era became a warning about the limits of nationwide moral reform when public behavior does not change.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.37-OK21",
+   "std": "US.37",
+   "dok": 2,
+   "stem": "How did Prohibition lead to the rise of organized crime in the 1920s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Bootlegging profits encouraged bribery of police and local officials"
+    },
+    {
+     "id": "B",
+     "text": "It increased crime, was unenforceable, and lost broad public support"
+    },
+    {
+     "id": "C",
+     "text": "Secret bars that served illegal alcohol despite the constitutional ban"
+    },
+    {
+     "id": "D",
+     "text": "Gangsters like Al Capone profited from illegal bootlegging operations"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Organized crime grew during Prohibition because illegal alcohol was hugely profitable, which let gang leaders like Al Capone bribe police, judges, and politicians. Choice C refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice B refers to Prohibition, not the historical point being tested. Prohibition showed how banning a popular product can strengthen criminal networks instead of eliminating demand."
+   }
+  },
+  {
+   "id": "US.38-8AQ3",
+   "std": "US.38",
+   "dok": 2,
+   "stem": "How did financial speculation in the stock market create economic instability?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Stock speculation was carefully regulated, but the historical record tells a more complex story, but the historical evidence paints a more nuanced picture, but closer analysis reveals a more complicated historical reality"
+    },
+    {
+     "id": "B",
+     "text": "Only wealthy investors participated in speculation, although historical sources do not support this conclusion, and this view has been largely revised by modern historical research"
+    },
+    {
+     "id": "C",
+     "text": "Buying on margin with only 10% down inflated stock prices beyond real value, and when prices dropped, margin calls forced panic selling that accelerated market decline, creating conditions for collapse"
+    },
+    {
+     "id": "D",
+     "text": "Speculation had no effect on market stability, which does not reflect the consensus among historians, which does not align with the documented historical record, but the historical evidence paints a more nuanced picture"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Speculation destabilized markets: easy margin buying inflated prices beyond actual company values, creating a bubble. When prices fell, margin calls forced selling that accelerated declines, creating a cascade that contributed to the 1929 crash.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.38-OK22",
+   "std": "US.38",
+   "dok": 2,
+   "stem": "How did credit and installment buying change American consumer behavior?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Created consumer culture focused on purchasing goods for social status and personal happiness"
+    },
+    {
+     "id": "B",
+     "text": "Reliance on credit and installment buying created unsustainable personal debt levels"
+    },
+    {
+     "id": "C",
+     "text": "Created desire for brand-name products and standardized consumer culture nationwide"
+    },
+    {
+     "id": "D",
+     "text": "Enabled purchases of expensive items like cars and appliances through delayed payment plans"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Installment buying and easy credit let Americans purchase cars, radios, and appliances over time, which expanded consumer demand but also increased household debt. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to an effect or consequence rather than the item being identified, not the historical point being tested. The consumer boom helped define the 1920s, but it also created economic vulnerability beneath the surface prosperity."
+   }
+  },
+  {
+   "id": "US.38-OK21",
+   "std": "US.38",
+   "dok": 2,
+   "stem": "How did stock market speculation contribute to the economic instability of the 1920s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Investors bought stocks on margin with borrowed money, inflating prices"
+    },
+    {
+     "id": "B",
+     "text": "The government banned all stock trading to prevent financial instability"
+    },
+    {
+     "id": "C",
+     "text": "Only wealthy individuals participated in stock market transactions"
+    },
+    {
+     "id": "D",
+     "text": "Stock prices accurately reflected the real economic value of companies"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Speculation in the 1920s encouraged people to buy stocks mainly because they expected prices to keep rising, not because businesses were necessarily earning more. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. This speculative mindset made the economy far more fragile by 1929.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "formB": [
+  {
+   "id": "US.28-OK24",
+   "std": "US.28",
+   "dok": 2,
+   "stem": "How did the Chicago Defender newspaper encourage the Great Migration?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They reflected the experiences and struggles of rural and working-class Americans"
+    },
+    {
+     "id": "B",
+     "text": "Created economic independence and served the needs of segregated Black communities"
+    },
+    {
+     "id": "C",
+     "text": "Published train schedules, job listings, and stories about Northern opportunities"
+    },
+    {
+     "id": "D",
+     "text": "Jim Crow segregation, racial violence, and limited economic opportunity in farming"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Chicago Defender encouraged the Great Migration by printing job ads, train schedules, and stories about better wages and voting opportunities in Northern cities. Choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice C refers to an effect or consequence rather than the item being identified, not the historical point being tested. Black newspapers proved they could shape migration, politics, and community life on a national scale.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.28-OK25",
+   "std": "US.28",
+   "dok": 2,
+   "stem": "What role did Black-owned businesses play during the Great Migration?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Were illegal in Northern cities due to discriminatory business licensing restrictions"
+    },
+    {
+     "id": "B",
+     "text": "Only existed in the South and never expanded to Northern or Midwestern cities"
+    },
+    {
+     "id": "C",
+     "text": "Declined significantly during the 1920s as integration reduced the need for them"
+    },
+    {
+     "id": "D",
+     "text": "Created economic independence and served the needs of segregated Black communities"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Black-owned businesses helped migrants survive in new cities by providing jobs, services, credit, and community institutions in segregated neighborhoods. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested. These businesses helped build the economic base of modern Black urban communities."
+   }
+  },
+  {
+   "id": "US.28-2167",
+   "std": "US.28",
+   "dok": 2,
+   "stem": "Push factors that motivated African Americans to leave the South during the Great Migration included:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Jim Crow laws, lynching, and limited economic opportunities"
+    },
+    {
+     "id": "B",
+     "text": "Higher wages and better job opportunities in Southern cities"
+    },
+    {
+     "id": "C",
+     "text": "Government programs encouraging relocation to Northern states"
+    },
+    {
+     "id": "D",
+     "text": "Natural disasters that destroyed agricultural land in the South"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Push factors in the Great Migration included Jim Crow segregation, lynching, disfranchisement, and low farm wages in the South, which drove many African Americans to leave. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. Those pressures show that the Great Migration was about escaping oppression as well as seeking work.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.29-OK21",
+   "std": "US.29",
+   "dok": 2,
+   "stem": "What was the significance of The Jazz Singer (1927)?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It was the first documentary film that captured actual historical events"
+    },
+    {
+     "id": "B",
+     "text": "It was the first feature-length movie shown entirely in full color"
+    },
+    {
+     "id": "C",
+     "text": "It was the first animated feature film produced in the United States"
+    },
+    {
+     "id": "D",
+     "text": "It was the first commercially successful movie with synchronized sound"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The Jazz Singer in 1927 popularized synchronized sound in film and marked the rapid decline of the silent-movie era. Choice B points to radio or mass media, not the specific person, law, or event asked for; choice A points to radio or mass media, not the specific person, law, or event asked for. That breakthrough changed the film industry and helped make Hollywood an even more powerful cultural force."
+   }
+  },
+  {
+   "id": "US.29-OK25",
+   "std": "US.29",
+   "dok": 2,
+   "stem": "How did radio create a \"national community\" in the 1920s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Millions heard same programs simultaneously, creating shared cultural experiences"
+    },
+    {
+     "id": "B",
+     "text": "Focused on emotions, desires, and creating needs rather than just product features"
+    },
+    {
+     "id": "C",
+     "text": "Popular radio show that attracted millions of listeners nightly across America"
+    },
+    {
+     "id": "D",
+     "text": "KDKA Pittsburgh broadcast election results, marking the beginning of commercial radio"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice C refers to radio or mass media, not the historical point being tested; choice D refers to radio or mass media, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.29-2170",
+   "std": "US.29",
+   "dok": 2,
+   "stem": "Radio became a significant form of mass communication in the 1920s because it:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Broadcast comedy shows, soap operas, music, and sports nationwide"
+    },
+    {
+     "id": "B",
+     "text": "Could reach large audiences simultaneously across great distances"
+    },
+    {
+     "id": "C",
+     "text": "Revolutionized the concept of distance and time in transportation"
+    },
+    {
+     "id": "D",
+     "text": "Powering new household appliances and extending productive hours"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice B refers to radio or mass media, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.30-2177",
+   "std": "US.30",
+   "dok": 2,
+   "stem": "Bessie Smith became known as the \"Empress of the Blues\" for her:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Powerful vocal style and influence on the development of blues music"
+    },
+    {
+     "id": "B",
+     "text": "Role in establishing the first blues music school in Tennessee"
+    },
+    {
+     "id": "C",
+     "text": "Invention of new musical instruments specifically for blues performances"
+    },
+    {
+     "id": "D",
+     "text": "Work as a radio broadcaster promoting blues artists nationwide"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Bessie Smith earned the title 'Empress of the Blues' through her powerful singing style and major influence on the growth of blues music in the 1920s. Choice D points to radio promotion rather than performance, and choice B invents a music school that was not her legacy. Her recordings helped make blues one of the defining sounds of modern American culture.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.30-OK27",
+   "std": "US.30",
+   "dok": 2,
+   "stem": "Compare the impact of country music and blues on American culture:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "First distinctly American music form that crossed racial boundaries and influenced culture"
+    },
+    {
+     "id": "B",
+     "text": "Both gave voice to working-class experiences but emerged from different regional and racial communities"
+    },
+    {
+     "id": "C",
+     "text": "For: reduce crime and improve morality; Against: violated personal freedom and increased organized crime"
+    },
+    {
+     "id": "D",
+     "text": "Technology enabled mass production and advertising, creating consumer demand and installment buying"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The Grand Ole Opry began on WSM radio in Nashville in 1925 and helped turn country music into a national form of entertainment. Choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.30-TN12",
+   "std": "US.30",
+   "dok": 2,
+   "stem": "The emergence of Nashville as 'Music City' in the 1920s–1930s, centered on the Grand Ole Opry and WSM radio, reflects which broader cultural development of the era?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The recording industry's deliberate decision to move from New York to Nashville to reduce production costs"
+    },
+    {
+     "id": "B",
+     "text": "The migration of rural Southerners to Nashville who brought their musical traditions and found commercial opportunities"
+    },
+    {
+     "id": "C",
+     "text": "Radio technology's power to take regional musical traditions"
+    },
+    {
+     "id": "D",
+     "text": "The federal government's program to preserve traditional folk music before it disappeared"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Broadcast from Nashville starting in 1925, the Grand Ole Opry carried regional country performers to listeners across the country and made Nashville a music center. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a destination or effect rather than the main idea, not the historical point being tested. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.31-1Q02",
+   "std": "US.31",
+   "dok": 2,
+   "stem": "The spread of electricity throughout American communities in the 1920s resulted in:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A return to pre-industrial agricultural society as rural electrification bypassed cities"
+    },
+    {
+     "id": "B",
+     "text": "Transformation of homes, workplaces, and public infrastructure"
+    },
+    {
+     "id": "C",
+     "text": "Decreased industrial productivity as electric machinery proved less reliable than steam power"
+    },
+    {
+     "id": "D",
+     "text": "The complete elimination of all other energy sources including coal, gas, and wood fuel"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The spread of electric power helped define a more modern, connected, and efficient society.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.31-1Q03",
+   "std": "US.31",
+   "dok": 2,
+   "stem": "Which statement best describes the impact of electricity on American households:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Electricity replaced all other forms of energy immediately"
+    },
+    {
+     "id": "B",
+     "text": "Electricity had minimal impact on daily life"
+    },
+    {
+     "id": "C",
+     "text": "Electricity enabled new household appliances and extended productive hours into"
+    },
+    {
+     "id": "D",
+     "text": "Electricity was used exclusively for industrial purposes"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice C mentions aviation or electricity, but it does not match the main cause or significance in the question; choice A mentions aviation or electricity, but it does not match the main cause or significance in the question. The spread of electric power helped define a more modern, connected, and efficient society.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.31-3181",
+   "std": "US.31",
+   "dok": 2,
+   "stem": "Evaluate the impact of new technologies like electricity and air travel on rural communities:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Created national celebrities and influenced fashion, behavior, and social norms nationwide"
+    },
+    {
+     "id": "B",
+     "text": "Created shared national culture but also exposed cultural conflicts and regional differences"
+    },
+    {
+     "id": "C",
+     "text": "Millions heard same radio programs, watched same movies, and followed same celebrities"
+    },
+    {
+     "id": "D",
+     "text": "Technology helped reduce the isolation of rural areas and connected them to urban centers"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice A mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question; choice B mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question. The spread of electric power helped define a more modern, connected, and efficient society."
+   }
+  },
+  {
+   "id": "US.32-OK24",
+   "std": "US.32",
+   "dok": 2,
+   "stem": "What impact did Ford's assembly line have on other industries?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Other industries rejected mechanization and continued using traditional craft methods"
+    },
+    {
+     "id": "B",
+     "text": "Only car manufacturers used assembly lines and no other industries adopted them"
+    },
+    {
+     "id": "C",
+     "text": "Mass production techniques spread to appliances, clothing, and other consumer goods"
+    },
+    {
+     "id": "D",
+     "text": "Had no meaningful influence beyond the automotive sector or car manufacturing"
+    }
+   ],
+   "key": "C",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice B mentions the automobile industry, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Mass production became a model for factories across the world in the twentieth century.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.32-2183",
+   "std": "US.32",
+   "dok": 2,
+   "stem": "Ford's assembly line method of production resulted in:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Oil, rubber, steel, glass, gas stations, motels, road construction"
+    },
+    {
+     "id": "B",
+     "text": "Enabled family road trips, vacations, and visits to distant relatives"
+    },
+    {
+     "id": "C",
+     "text": "It stimulated growth in steel, rubber, glass, and petroleum industries"
+    },
+    {
+     "id": "D",
+     "text": "Lower prices that made automobiles affordable for average Americans"
+    }
+   ],
+   "key": "D",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice D refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. Mass production became a model for factories across the world in the twentieth century."
+   }
+  },
+  {
+   "id": "US.32-2184",
+   "std": "US.32",
+   "dok": 2,
+   "stem": "The mass production of automobiles impacted American society by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Encouraging the growth of suburbs and changing social patterns"
+    },
+    {
+     "id": "B",
+     "text": "Black paint dried fastest, maximizing assembly line efficiency"
+    },
+    {
+     "id": "C",
+     "text": "Oil, rubber, steel, glass, gas stations, motels, road construction"
+    },
+    {
+     "id": "D",
+     "text": "Lower prices that made automobiles affordable for average Americans"
+    }
+   ],
+   "key": "A",
+   "rc": "Economics",
+   "distract": {
+    "A": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice A mentions the automobile industry, but it does not match the main cause or significance in the question; choice C mentions the automobile industry, but it does not match the main cause or significance in the question. Mass production became a model for factories across the world in the twentieth century.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.33-2188",
+   "std": "US.33",
+   "dok": 2,
+   "stem": "Duke Ellington's significance during the Harlem Renaissance included his:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Role as a prominent civil rights lawyer and activist"
+    },
+    {
+     "id": "B",
+     "text": "Poetry and literary works exploring African American identity"
+    },
+    {
+     "id": "C",
+     "text": "Paintings that depicted life in Harlem during the 1920s"
+    },
+    {
+     "id": "D",
+     "text": "Sophisticated jazz compositions and orchestra leadership"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Duke Ellington became important during the Harlem Renaissance because his sophisticated compositions and orchestra leadership raised jazz to the level of respected art. Choice B refers to poetry, not music, and choice A describes a lawyer rather than a bandleader. Ellington helped prove that Black musical innovation belonged at the heart of American culture."
+   }
+  },
+  {
+   "id": "US.33-2189",
+   "std": "US.33",
+   "dok": 2,
+   "stem": "Langston Hughes contributed to the Harlem Renaissance as:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A poet and writer who celebrated African American culture and experiences"
+    },
+    {
+     "id": "B",
+     "text": "Provided community centers and important platforms for cultural expression"
+    },
+    {
+     "id": "C",
+     "text": "Featured Black performers on stage but only admitted white audience patrons"
+    },
+    {
+     "id": "D",
+     "text": "Party charging admission to help tenants pay rent, featuring live jazz music"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Langston Hughes was one of the defining poets of the Harlem Renaissance because he celebrated African American culture and everyday Black experience in poems and essays. Choice A describes Black churches, and choice C describes rent parties, not Hughes himself. His writing helped give the movement a powerful literary voice and lasting influence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.33-2190",
+   "std": "US.33",
+   "dok": 2,
+   "stem": "Zora Neale Hurston was significant during the Harlem Renaissance for her:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A cultural movement celebrating African American arts and literature"
+    },
+    {
+     "id": "B",
+     "text": "Anthropological work and novels exploring African American folklore"
+    },
+    {
+     "id": "C",
+     "text": "Langston Hughes, a leading poet of the Harlem Renaissance movement"
+    },
+    {
+     "id": "D",
+     "text": "A poet and writer who celebrated African American culture and experiences"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Zora Neale Hurston became significant during the Harlem Renaissance through her anthropological work and fiction that preserved African American folklore and speech. Choice A describes the whole movement, not Hurston specifically, and choice B names Langston Hughes rather than her contribution. Her work broadened the movement beyond poetry and jazz into folklore and fiction.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.34-OK11",
+   "std": "US.34",
+   "dok": 1,
+   "stem": "What were flappers?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Young women who challenged traditional gender norms through dress and behavior"
+    },
+    {
+     "id": "B",
+     "text": "Conservative religious women who advocated for traditional Victorian family values"
+    },
+    {
+     "id": "C",
+     "text": "Female factory workers who organized labor unions to improve working conditions"
+    },
+    {
+     "id": "D",
+     "text": "Women activists who opposed the expansion of voting rights to all citizens"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice A refers to women's changing roles, not the historical point being tested; choice C refers to women's changing roles, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.34-OK12",
+   "std": "US.34",
+   "dok": 1,
+   "stem": "What did the term \"New Woman\" represent in the 1920s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Gained voting rights and cultural freedom but faced wage discrimination and limited careers"
+    },
+    {
+     "id": "B",
+     "text": "Independent women pursuing higher education, professional careers, and personal freedom"
+    },
+    {
+     "id": "C",
+     "text": "Women filled jobs left by soldiers, proving their workplace capabilities to society"
+    },
+    {
+     "id": "D",
+     "text": "Challenged gender norms but was limited to young, urban, middle-class white women"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The 'New Woman' represented women seeking higher education, paid work, political participation, and greater personal freedom after World War I and the 19th Amendment. Choice C points to women's changing roles, not the specific person, law, or event asked for; choice D points to women's changing roles, not the specific person, law, or event asked for. The term captured a broader social shift than the flapper image alone.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.34-1192",
+   "std": "US.34",
+   "dok": 1,
+   "stem": "\"Flappers\" in the 1920s were:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Provided new opportunities for economic independence and professional work"
+    },
+    {
+     "id": "B",
+     "text": "Advocated for birth control access and opened the first birth control clinic"
+    },
+    {
+     "id": "C",
+     "text": "Young women who challenged traditional gender roles and social conventions"
+    },
+    {
+     "id": "D",
+     "text": "Lower wages (60% of men), discrimination, pressure to quit upon marriage"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice B refers to women's changing roles, not the historical point being tested; choice A refers to an effect or consequence rather than the item being identified, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.35-X013",
+   "std": "US.35",
+   "dok": 2,
+   "stem": "The Palmer Raids violated civil liberties by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Requiring all arriving immigrants to take formal loyalty oaths before receiving citizenship papers"
+    },
+    {
+     "id": "B",
+     "text": "Arresting thousands of suspected radicals without warrants and detaining them without trial"
+    },
+    {
+     "id": "C",
+     "text": "Prosecuting labor union leaders who publicly expressed support for the Russian Bolshevik Revolution"
+    },
+    {
+     "id": "D",
+     "text": "Banning socialist and communist political parties from appearing on state and federal election ballots"
+    }
+   ],
+   "key": "B",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The Palmer Raids violated civil liberties by arresting suspected radicals without proper warrants, holding many without due process, and deporting hundreds with little evidence. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. They showed how fear can push the government to sacrifice constitutional protections in a crisis.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.35-X019",
+   "std": "US.35",
+   "dok": 2,
+   "stem": "The Ku Klux Klan of the 1920s differed from the Reconstruction-era Klan primarily in:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Being concentrated in the urban North rather than the rural South"
+    },
+    {
+     "id": "B",
+     "text": "Being exclusively focused on suppressing Black political activity"
+    },
+    {
+     "id": "C",
+     "text": "Targeting a wider range of groups including Catholics, Jews"
+    },
+    {
+     "id": "D",
+     "text": "Using political organizing rather than violence"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The second Ku Klux Klan of the 1920s promoted white Protestant supremacy and targeted Catholics, Jews, immigrants, and Black Americans, not just African Americans in the South. Choice C mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Its growth showed how widely racism and nativism spread in the decade.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.35-5Q07",
+   "std": "US.35",
+   "dok": 2,
+   "stem": "The resurgence of the Ku Klux Klan in the 1920s was enabled by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Government support and encouragement"
+    },
+    {
+     "id": "B",
+     "text": "Civil rights organizations\\\\' failure to oppose violence"
+    },
+    {
+     "id": "C",
+     "text": "Decreased racial tensions and improved race relations"
+    },
+    {
+     "id": "D",
+     "text": "Widespread nativism, racial prejudice, and fear of social change"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The second Ku Klux Klan of the 1920s promoted white Protestant supremacy and targeted Catholics, Jews, immigrants, and Black Americans, not just African Americans in the South. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. Its growth showed how widely racism and nativism spread in the decade."
+   }
+  },
+  {
+   "id": "US.36-6Q03",
+   "std": "US.36",
+   "dok": 2,
+   "stem": "The two sides of the Scopes Trial controversy represented:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Different political parties\\\\' views exclusively"
+    },
+    {
+     "id": "B",
+     "text": "Only scientific perspectives on evolution"
+    },
+    {
+     "id": "C",
+     "text": "Religious fundamentalism versus scientific evolution teaching"
+    },
+    {
+     "id": "D",
+     "text": "Disagreements among religious denominations only"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Scopes Trial pitted religious fundamentalists against supporters of modern science, making the courtroom a stage for larger clashes between rural traditionalism and urban modernism. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. It showed that culture-war debates over school curriculum and public values did not begin in the late twentieth century.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.36-6Q07",
+   "std": "US.36",
+   "dok": 2,
+   "stem": "The outcome of the Scopes Trial demonstrated that:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Scientific perspectives largely triumphed over religious views"
+    },
+    {
+     "id": "B",
+     "text": "Science and religion were largely compatible without any tension"
+    },
+    {
+     "id": "C",
+     "text": "Religious fundamentalism was largely eliminated from American public life by scientific advances"
+    },
+    {
+     "id": "D",
+     "text": "Tension between religious fundamentalism and scientific education"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Scopes was convicted under Tennessee's Butler Act, but the case mattered more for the national debate it created than for the small legal penalty itself. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The trial became a lasting symbol of conflict between religious fundamentalism and modern science in public life."
+   }
+  },
+  {
+   "id": "US.36-OK11",
+   "std": "US.36",
+   "dok": 1,
+   "stem": "What was the Scopes Trial about?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A teacher was prosecuted for teaching evolution in Tennessee public schools"
+    },
+    {
+     "id": "B",
+     "text": "A legal challenge questioned the validity of women's voting rights nationwide"
+    },
+    {
+     "id": "C",
+     "text": "A court debate challenged the constitutionality of alcohol prohibition laws"
+    },
+    {
+     "id": "D",
+     "text": "A dispute over labor union organizing and workers' collective bargaining rights"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice A points to women's changing roles, not the specific person, law, or event asked for; choice B points to Prohibition, not the specific person, law, or event asked for. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.37-OK22",
+   "std": "US.37",
+   "dok": 2,
+   "stem": "What were speakeasies, and why did they become widespread during Prohibition?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Government-run facilities that distributed alcohol to registered adults"
+    },
+    {
+     "id": "B",
+     "text": "Legal establishments that sold only non-alcoholic beverages to patrons"
+    },
+    {
+     "id": "C",
+     "text": "Religious meeting halls where temperance groups held regular rallies"
+    },
+    {
+     "id": "D",
+     "text": "Secret bars that served illegal alcohol despite the constitutional ban"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Prohibition began with the 18th Amendment and the Volstead Act, which banned the manufacture, sale, and transport of alcoholic beverages beginning in 1920. Choice A refers to Prohibition, not the historical point being tested; choice B refers to Prohibition, not the historical point being tested. The policy became one of the clearest examples of how reform can produce major unintended consequences."
+   }
+  },
+  {
+   "id": "US.37-ADD2",
+   "std": "US.37",
+   "dok": 2,
+   "stem": "How did Prohibition contribute to political corruption in many cities?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Bootlegging profits encouraged bribery of police and local officials"
+    },
+    {
+     "id": "B",
+     "text": "It increased crime, was unenforceable, and lost broad public support"
+    },
+    {
+     "id": "C",
+     "text": "Gangsters like Al Capone profited from illegal bootlegging operations"
+    },
+    {
+     "id": "D",
+     "text": "Secret bars that served illegal alcohol despite the constitutional ban"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Organized crime grew during Prohibition because illegal alcohol was hugely profitable, which let gang leaders like Al Capone bribe police, judges, and politicians. Choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice C refers to Prohibition, not the historical point being tested. Prohibition showed how banning a popular product can strengthen criminal networks instead of eliminating demand.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.37-ADD3",
+   "std": "US.37",
+   "dok": 2,
+   "stem": "Why did support for Prohibition decline during the Great Depression?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Reformers argued repeal would reduce voting participation"
+    },
+    {
+     "id": "B",
+     "text": "Voters linked repeal to new tax revenue and legal job growth"
+    },
+    {
+     "id": "C",
+     "text": "Business leaders claimed repeal would increase farm foreclosures"
+    },
+    {
+     "id": "D",
+     "text": "Courts ruled states could not regulate alcohol sales"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Prohibition began with the 18th Amendment and the Volstead Act, which banned the manufacture, sale, and transport of alcoholic beverages beginning in 1920. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. The policy became one of the clearest examples of how reform can produce major unintended consequences.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.38-OK22",
+   "std": "US.38",
+   "dok": 2,
+   "stem": "How did the rise of consumerism change American culture in the 1920s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Advertising and credit encouraged Americans to buy mass-produced goods"
+    },
+    {
+     "id": "B",
+     "text": "Investors bought stocks on margin with borrowed money, inflating prices"
+    },
+    {
+     "id": "C",
+     "text": "It expanded household debt while incomes became less able to absorb shocks"
+    },
+    {
+     "id": "D",
+     "text": "Purchasing goods with borrowed money and paying back over time"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.38-ADD2",
+   "std": "US.38",
+   "dok": 2,
+   "stem": "How did installment buying contribute to economic vulnerability before 1929?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Investors bought stocks on margin with borrowed money, inflating prices"
+    },
+    {
+     "id": "B",
+     "text": "It expanded household debt while incomes became less able to absorb shocks"
+    },
+    {
+     "id": "C",
+     "text": "Advertising and credit encouraged Americans to buy mass-produced goods"
+    },
+    {
+     "id": "D",
+     "text": "National advertising campaigns linked personal identity to mass-market products"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Installment buying and easy credit let Americans purchase cars, radios, and appliances over time, which expanded consumer demand but also increased household debt. Choice C refers to radio or mass media, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The consumer boom helped define the 1920s, but it also created economic vulnerability beneath the surface prosperity.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.38-8Q02",
+   "std": "US.38",
+   "dok": 2,
+   "stem": "Consumerism in the 1920s was characterized by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The complete elimination of advertising and commercial marketing from American business"
+    },
+    {
+     "id": "B",
+     "text": "Widespread public rejection of material goods, luxury items, and installment purchasing"
+    },
+    {
+     "id": "C",
+     "text": "Emphasis on purchasing consumer goods through aggressive advertising, installment credit, and planned obsolescence"
+    },
+    {
+     "id": "D",
+     "text": "Government-mandated reduction in consumer spending to fund federal infrastructure programs"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice A refers to radio or mass media, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "disclosure": "Classroom-formative · pre-field-test (pre-calibration) — not a secure TCAP form. First administration is what calibrates these items."
+}

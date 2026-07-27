@@ -1,0 +1,2332 @@
+{
+ "unit": "Unit 3",
+ "formative": {
+  "US.19": [
+   {
+    "id": "US.19-19Q1",
+    "std": "US.19",
+    "dok": 2,
+    "stem": "What economic factors drove American imperialism in the late 19th and early 20th centuries?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Need for raw materials, new markets for surplus goods, and investment opportunities abroad"
+     },
+     {
+      "id": "B",
+      "text": "Desire to reduce American manufacturing output, but the historical record tells a more complex story"
+     },
+     {
+      "id": "C",
+      "text": "Fear of domestic economic growth, which represents a common misconception about the period"
+     },
+     {
+      "id": "D",
+      "text": "Wish to import European political systems, which ignores key developments that shaped the outcome"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "American industrial growth created demand for raw materials, markets for manufactured goods, and profitable overseas investments, driving economic imperialism.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.19-19Q2",
+    "std": "US.19",
+    "dok": 2,
+    "stem": "How did the belief in spreading American democratic and moral ideals justify imperial expansion?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Americans rejected any moral justification for expansion, but contemporary accounts suggest a different explanation and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "B",
+      "text": "Concepts like \"White Man's Burden,\" Social Darwinism, and extended Manifest Destiny held that Americans had a duty to spread civilization and Christianity"
+     },
+     {
+      "id": "C",
+      "text": "Americans believed other nations were already democratic, which ignores key developments that shaped the outcome and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "D",
+      "text": "Moral ideals played no role in imperial arguments, which does not align with the documented historical record and does not reflect the scholarly consensus on this topic"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Americans used beliefs about cultural superiority, religious mission, and extending democracy to justify taking control of territories and peoples overseas.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.20": [
+   {
+    "id": "US.20-20Q1",
+    "std": "US.20",
+    "dok": 2,
+    "stem": "What arguments did interventionists make for American overseas expansion and involvement?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Economic benefits from overseas markets, strategic naval positions, moral duty to spread democracy, and competition with European powers"
+     },
+     {
+      "id": "B",
+      "text": "America should withdraw from all international affairs, but contemporary accounts suggest a different explanation"
+     },
+     {
+      "id": "C",
+      "text": "The Constitution prohibited any foreign involvement, but this oversimplifies the complex factors at work"
+     },
+     {
+      "id": "D",
+      "text": "America lacked the military capability for expansion, although this overlooks critical economic and social factors"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Interventionists combined economic arguments about markets and resources with strategic concerns about naval bases and moral claims about spreading American values.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.20-20Q2",
+    "std": "US.20",
+    "dok": 2,
+    "stem": "How did non-interventionists challenge the case for American imperialism?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "They supported all forms of expansion, though this interpretation lacks supporting historical evidence, which represents a common misconception about this historical period"
+     },
+     {
+      "id": "B",
+      "text": "They argued imperialism violated constitutional principles, was costly, contradicted democratic ideals, and went against Washington's warning about foreign entanglements"
+     },
+     {
+      "id": "C",
+      "text": "They had no organized opposition, despite limited evidence supporting this interpretation, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "They only opposed economic expansion, though this interpretation lacks supporting historical evidence, but the historical evidence paints a more nuanced picture"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Non-interventionists challenged imperialism on constitutional, economic, moral, and traditional grounds, forming the American Anti-Imperialist League to organize opposition.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.21": [
+   {
+    "id": "US.21-21Q1",
+    "std": "US.21",
+    "dok": 2,
+    "stem": "What specific events and factors led to the outbreak of the Spanish-American War in 1898?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The Cuban rebellion, USS Maine explosion, de Lôme Letter, yellow journalism coverage, and humanitarian concerns combined to push America toward war"
+     },
+     {
+      "id": "B",
+      "text": "Only the sinking of the Maine caused the war, though this interpretation lacks supporting historical evidence and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "C",
+      "text": "Spain declared war on the United States first, which ignores key developments that shaped the outcome, but closer analysis reveals a more complicated historical reality"
+     },
+     {
+      "id": "D",
+      "text": "Economic factors played no role in the conflict, though this interpretation lacks supporting historical evidence"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Multiple factors converged: Cuban instability threatened American investments, the Maine explosion provided a rallying cry, diplomatic insults inflamed opinion, and sensationalized journalism built war fever.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.21-21Q2",
+    "std": "US.21",
+    "dok": 2,
+    "stem": "How did American victories result in territorial acquisitions like Hawaii, the Philippines, and influence over Cuba?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "America gained no new territories, which ignores key developments that shaped the outcome, which represents a common misconception about this historical period"
+     },
+     {
+      "id": "B",
+      "text": "Hawaii was annexed for its strategic Pearl Harbor base, the Treaty of Paris transferred Philippines, Puerto Rico, and Guam, and the Platt Amendment gave the U.S. control over Cuban affairs"
+     },
+     {
+      "id": "C",
+      "text": "Spain voluntarily gave all territories to America, but this oversimplifies the complex factors at work when examined alongside the available primary and secondary sources"
+     },
+     {
+      "id": "D",
+      "text": "Only Cuba became American territory, which does not align with the documented historical record, but contemporary accounts and primary sources suggest otherwise"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The war and related actions gave America a Pacific empire (Hawaii, Philippines, Guam), Caribbean territories (Puerto Rico), and effective control over Cuba through the Platt Amendment.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.22": [
+   {
+    "id": "US.22-22Q1",
+    "std": "US.22",
+    "dok": 2,
+    "stem": "How did Theodore Roosevelt's \"Big Stick\" diplomacy use military strength to achieve foreign policy goals?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Roosevelt backed diplomacy with credible military force, demonstrated by the Great White Fleet, while acting as mediator and using the Roosevelt Corollary to justify Latin American interventions"
+     },
+     {
+      "id": "B",
+      "text": "Roosevelt avoided any military threats, which represents a common misconception about the period, but the historical evidence paints a more nuanced picture despite the fact that multiple contemporary sources contradict this"
+     },
+     {
+      "id": "C",
+      "text": "Roosevelt relied only on economic pressure, which does not align with the documented historical record, but the historical evidence paints a more nuanced picture, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "Roosevelt never used military demonstrations, though this interpretation lacks supporting historical evidence and oversimplifies the complex factors at work during this period"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Big Stick diplomacy combined diplomatic negotiation with the visible threat of military power, making American demands more credible and achieving results in Panama, Asia, and Latin America.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.22-22Q2",
+    "std": "US.22",
+    "dok": 2,
+    "stem": "What were the key features of Taft's \"Dollar Diplomacy\" and how did it differ from Roosevelt's approach?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Dollar Diplomacy was identical to Big Stick Diplomacy, which does not align with the documented historical record when examined alongside the available primary and secondary sources"
+     },
+     {
+      "id": "B",
+      "text": "Taft used American economic investment and financial leverage instead of military threat, believing economic influence was more effective and less costly, though it often still required military backup"
+     },
+     {
+      "id": "C",
+      "text": "Taft rejected all forms of intervention, although this overlooks critical economic and social factors, which contradicts the primary source evidence from this era when examined alongside the available primary and secondary sources"
+     },
+     {
+      "id": "D",
+      "text": "Dollar Diplomacy focused on moral values, although historical sources do not support this conclusion, although this overlooks critical economic and social factors involved"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Taft shifted from Roosevelt's military emphasis to economic tools—using American banks and investments to influence foreign governments—though the approach proved less effective.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.23": [
+   {
+    "id": "US.23-23Q1",
+    "std": "US.23",
+    "dok": 2,
+    "stem": "How did militarism, alliances, imperialism, and nationalism (MAIN) create conditions for World War I?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Military buildups created tension, alliances turned local conflicts into continental wars, imperial competition bred rivalry, and nationalism inflamed ethnic conflicts—together creating explosive conditions"
+     },
+     {
+      "id": "B",
+      "text": "Only one factor caused World War I, which ignores key developments that shaped the outcome, though this interpretation lacks supporting historical evidence and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "C",
+      "text": "These factors prevented war, although this overlooks critical economic and social factors and fails to account for key developments in the broader context, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "D",
+      "text": "World War I began without any underlying causes, but this fails to account for the broader historical context and does not reflect the scholarly consensus on this topic and oversimplifies the complex factors at work during this period"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The MAIN factors created a Europe ready to explode: massive armies waiting to be used, alliances that would spread any conflict, imperial rivalries, and nationalist movements demanding change.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.23-23Q2",
+    "std": "US.23",
+    "dok": 2,
+    "stem": "What specific events triggered the outbreak of war in Europe in 1914?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "War began without any triggering event, yet the available evidence points to a different conclusion, which represents a common misconception about this historical period"
+     },
+     {
+      "id": "B",
+      "text": "The assassination of Archduke Franz Ferdinand activated the alliance system, with Austria-Hungary attacking Serbia, Russia mobilizing, Germany supporting Austria, and France and Britain entering"
+     },
+     {
+      "id": "C",
+      "text": "The United States started the war, but this fails to account for the broader historical context, which ignores significant political and cultural developments of the era"
+     },
+     {
+      "id": "D",
+      "text": "Economic competition alone caused the war, yet the available evidence points to a different conclusion and oversimplifies the complex factors at work during this period"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The assassination in Sarajevo set off a chain reaction through the alliance system, turning a Balkan assassination into a continental and then world war within weeks.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.24": [
+   {
+    "id": "US.24-24Q1",
+    "std": "US.24",
+    "dok": 2,
+    "stem": "How did German submarine warfare, particularly unrestricted submarine warfare, push America toward war?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Attacks like the Lusitania sinking killed Americans and violated international law, and resumption of unrestricted warfare in 1917 threatened all American shipping, leading Wilson to sever relations"
+     },
+     {
+      "id": "B",
+      "text": "Submarine warfare had no effect on American opinion, though this interpretation lacks supporting historical evidence and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "C",
+      "text": "Germany never used submarines against American ships, but contemporary accounts suggest a different explanation, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "D",
+      "text": "Americans supported German submarine warfare, although this overlooks critical economic and social factors, but the historical evidence paints a more nuanced picture, which contradicts the primary source evidence from this era"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "German submarines killed Americans, violated neutral rights, and directly threatened American commerce, making war increasingly likely despite Wilson's efforts to maintain peace.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.24-24Q2",
+    "std": "US.24",
+    "dok": 2,
+    "stem": "What was the Zimmermann Telegram, and why did it outrage American public opinion?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It was a routine diplomatic communication, which ignores key developments that shaped the outcome, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "B",
+      "text": "Germany proposed an alliance with Mexico offering to return Texas, New Mexico, and Arizona, making German threat seem direct and immediate to Americans"
+     },
+     {
+      "id": "C",
+      "text": "It was a peace proposal from Germany, although this overlooks critical economic and social factors, although historical sources do not support this conclusion"
+     },
+     {
+      "id": "D",
+      "text": "Americans did not react to the telegram, though this interpretation lacks supporting historical evidence despite the fact that multiple contemporary sources contradict this"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The telegram revealed German willingness to attack American territory through a Mexican alliance, transforming the war from a distant European conflict to a direct threat to the homeland.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.25": [
+   {
+    "id": "US.25-25Q1",
+    "std": "US.25",
+    "dok": 2,
+    "stem": "How did trench warfare and new military technologies change the nature of combat in World War I?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Trenches created deadly stalemate while machine guns, poison gas, artillery, aircraft, and tanks made warfare far more destructive, resulting in massive casualties for minimal gains"
+     },
+     {
+      "id": "B",
+      "text": "Combat remained unchanged from previous wars, despite the fact that multiple sources contradict this view, and this view has been largely revised by modern historical research"
+     },
+     {
+      "id": "C",
+      "text": "New technologies ended the war quickly, but this fails to account for the broader historical context when examined alongside the available primary and secondary sources"
+     },
+     {
+      "id": "D",
+      "text": "Trench warfare was only used briefly, but contemporary accounts suggest a different explanation, but closer analysis reveals a more complicated historical reality"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The combination of defensive trenches and new weapons created unprecedented killing power, with millions dying in attempts to break through fortified positions.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.25-25Q2",
+    "std": "US.25",
+    "dok": 2,
+    "stem": "What contributions did Herbert Hoover, John J. Pershing, and Alvin C. York make to the American war effort?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "None of these figures contributed to the war, though this interpretation lacks supporting historical evidence, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "B",
+      "text": "Hoover organized food production and relief, Pershing commanded American forces maintaining independence from Allied command, and York became a hero through individual combat achievement"
+     },
+     {
+      "id": "C",
+      "text": "They all served in the same military unit, although historical sources do not support this conclusion despite the fact that multiple contemporary sources contradict this"
+     },
+     {
+      "id": "D",
+      "text": "Their contributions were limited to the home front, although this overlooks critical economic and social factors, which does not align with the documented historical record"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Each played a distinct role: Hoover managed the critical food supply, Pershing led American troops effectively, and York embodied American heroism that inspired the public.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.26": [
+   {
+    "id": "US.26-26Q1",
+    "std": "US.26",
+    "dok": 2,
+    "stem": "How did World War I expand federal government power over the American economy and society?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "New agencies controlled production, the draft conscripted millions, and the Espionage and Sedition Acts restricted speech, giving the federal government unprecedented authority"
+     },
+     {
+      "id": "B",
+      "text": "Government power decreased during the war, which contradicts the primary source evidence from this era and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "C",
+      "text": "Only the military expanded, although this overlooks critical economic and social factors and oversimplifies the complex factors at work during this period"
+     },
+     {
+      "id": "D",
+      "text": "State governments controlled the war effort, which ignores key developments that shaped the outcome despite the fact that multiple contemporary sources contradict this"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The war dramatically expanded federal power through economic regulation, military conscription, and restrictions on civil liberties that would have been unthinkable in peacetime.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.26-26Q2",
+    "std": "US.26",
+    "dok": 2,
+    "stem": "What new opportunities did the war create for women and minorities, and what limitations did they still face?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "No new opportunities emerged, but contemporary accounts suggest a different explanation and oversimplifies the complex factors at work during this period, although historical sources do not support this conclusion"
+     },
+     {
+      "id": "B",
+      "text": "Women gained industrial jobs and strengthened suffrage arguments while African Americans found northern factory jobs, though both faced continued discrimination and were expected to return to prewar roles"
+     },
+     {
+      "id": "C",
+      "text": "Women and minorities faced no discrimination, although historical sources do not support this conclusion, which represents a common misconception about this historical period"
+     },
+     {
+      "id": "D",
+      "text": "Only men participated in the war effort, which represents a common misconception about the period, though this interpretation lacks supporting historical evidence despite the fact that multiple contemporary sources contradict this"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The war created economic opportunities for women and minorities, but discrimination persisted, and many expected these gains to be temporary when the war ended.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.27": [
+   {
+    "id": "US.27-27Q1",
+    "std": "US.27",
+    "dok": 2,
+    "stem": "What were the main principles of Wilson's Fourteen Points, and how did they reflect his vision for post-war peace?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Wilson promoted open diplomacy, free trade, arms reduction, self-determination, and a League of Nations to prevent future wars through collective security rather than harsh punishment"
+     },
+     {
+      "id": "B",
+      "text": "Wilson supported punishing Germany harshly, which does not align with the documented historical record and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "C",
+      "text": "Wilson's plan focused only on territorial changes, but the historical record tells a more complex story, but contemporary accounts and primary sources suggest otherwise"
+     },
+     {
+      "id": "D",
+      "text": "The Fourteen Points supported American isolation, yet the available evidence points to a different conclusion, but the historical evidence paints a more nuanced picture"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Wilson's idealistic vision sought to address the causes of war through transparency, self-determination, and international cooperation rather than the traditional European approach of punishing the losers.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.27-27Q2",
+    "std": "US.27",
+    "dok": 2,
+    "stem": "Why did the United States Senate reject American membership in the League of Nations?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The Senate unanimously supported the League, but contemporary accounts suggest a different explanation despite the fact that multiple contemporary sources contradict this"
+     },
+     {
+      "id": "B",
+      "text": "Concerns about sovereignty, Article X commitments to defend other nations, fear of foreign entanglements, Wilson's refusal to compromise, and partisan opposition led to rejection"
+     },
+     {
+      "id": "C",
+      "text": "Americans supported isolationism without debate, yet the available evidence points to a different conclusion, but contemporary accounts and primary sources suggest otherwise"
+     },
+     {
+      "id": "D",
+      "text": "Only economic factors caused rejection, despite the fact that multiple sources contradict this view, but the historical evidence paints a more nuanced picture"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Senate opposition combined concerns about American sovereignty and entanglement in foreign conflicts with partisan politics and Wilson's stubborn refusal to accept any amendments.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ]
+ },
+ "formA": [
+  {
+   "id": "US.19-19Q3",
+   "std": "US.19",
+   "dok": 2,
+   "stem": "What role did yellow journalism play in building public support for American imperialism?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Sensationalized reporting by Hearst and Pulitzer inflamed public opinion against Spain and created pressure for military intervention"
+    },
+    {
+     "id": "B",
+     "text": "It had no influence on public opinion, but contemporary accounts suggest a different explanation"
+    },
+    {
+     "id": "C",
+     "text": "It only covered domestic news stories, though this interpretation lacks supporting historical evidence"
+    },
+    {
+     "id": "D",
+     "text": "It encouraged isolationism and non-intervention, which contradicts the primary source evidence from this era"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Yellow journalism used dramatic headlines and exaggerated stories about Spanish atrocities to build public support for war and expansion, representing early mass media influence on foreign policy.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.19-OK21",
+   "std": "US.19",
+   "dok": 2,
+   "stem": "How did yellow journalism contribute to American imperialism?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Strong nations had a duty to civilize \"weaker\" peoples"
+    },
+    {
+     "id": "B",
+     "text": "Sensational stories stirred public support for the war"
+    },
+    {
+     "id": "C",
+     "text": "It was an early example of expansion beyond the continent"
+    },
+    {
+     "id": "D",
+     "text": "It showed that canals were vital for trade and naval power"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Sensational stories stirred public support for the war, and imperialism means a stronger nation extends political, military, or economic control over weaker places. Choice A talks about strong nations had a duty to civilize \"weaker\" peoples, but that is a racial or missionary justification for empire, not the main idea in the question; Choice B talks about it was an early example of expansion beyond the continent, but that describes it was an early example of expansion beyond the continent, not the main idea in the question. This shows how the United States moved from continental expansion to a more active overseas empire at the turn of the 20th century.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.19-OK22",
+   "std": "US.19",
+   "dok": 2,
+   "stem": "How did Alfred Thayer Mahan influence American imperialism?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "He promoted strict neutrality and isolationism in foreign affairs"
+    },
+    {
+     "id": "B",
+     "text": "He advocated for peaceful diplomacy over the use of military force"
+    },
+    {
+     "id": "C",
+     "text": "He argued that naval sea power was essential for national greatness"
+    },
+    {
+     "id": "D",
+     "text": "He argued that maintaining large standing land armies was sufficient"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "He argued that naval sea power was essential for national greatness, and imperialism means a stronger nation extends political, military, or economic control over weaker places. Choice D talks about he argued that maintaining large standing land armies was sufficient, but that describes he argued that maintaining large standing land armies was sufficient, not the main idea in the question; Choice A talks about he promoted strict neutrality and isolationism in foreign affairs, but that describes he promoted strict neutrality and isolationism in foreign affairs, not the main idea in the question. This shows how the United States moved from continental expansion to a more active overseas empire at the turn of the 20th century.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.20-3107",
+   "std": "US.20",
+   "dok": 2,
+   "stem": "Compare the political arguments of interventionists and non-interventionists regarding imperialism:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It reflected a conflict between international cooperation and preserving U.S. foreign-policy autonomy"
+    },
+    {
+     "id": "B",
+     "text": "Interventionists saw expansion as destiny while non-interventionists feared constitutional violations"
+    },
+    {
+     "id": "C",
+     "text": "The Platt Amendment gave the U.S. significant control over Cuban affairs despite formal independence"
+    },
+    {
+     "id": "D",
+     "text": "The Court began upholding New Deal legislation, a shift called \"the switch in time that saved nine\""
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Interventionists saw expansion as destiny while non-interventionists feared constitutional violations, and opponents argued that ruling other peoples without their consent violated the nation’s democratic ideals and could drag the country into costly conflicts. Choice B talks about it reflected a conflict between international cooperation and preserving U.S. foreign-policy autonomy, but that describes it reflected a conflict between international cooperation and preserving U.S. foreign-policy autonomy, not the interpretation that best fits the historical situation; Choice C talks about the Platt Amendment gave the U.S. significant control over Cuban affairs despite formal independence, but that describes the Platt Amendment, not the interpretation that best fits the historical situation. This shows how the United States moved from continental expansion to a more active overseas empire at the turn of the 20th century.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.20-0014",
+   "std": "US.20",
+   "dok": 2,
+   "stem": "Which argument was most commonly used by non-interventionists to oppose American overseas expansion in the late 1800s and early 1900s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Foreign territories would drain military resources needed to defend the US mainland from invasion"
+    },
+    {
+     "id": "B",
+     "text": "Expanding into foreign markets would cause inflation that would hurt American consumers"
+    },
+    {
+     "id": "C",
+     "text": "Acquiring overseas colonies contradicted American democratic principles and the consent of the governed"
+    },
+    {
+     "id": "D",
+     "text": "Building a strong navy was unnecessary because the US had natural oceanic defenses"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The core anti-imperialist argument, advanced by figures like Mark Twain and the Anti-Imperialist League, held that governing foreign peoples without their consent violated the foundational American principle of self-determination established in the Declaration of Independence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.20-0015",
+   "std": "US.20",
+   "dok": 2,
+   "stem": "How did interventionists justify the acquisition of Pacific territories such as the Philippines in the 1890s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They claimed the Philippines had formally requested annexation through a popular vote of its citizens"
+    },
+    {
+     "id": "B",
+     "text": "They insisted that Pacific territories were necessary to prevent the spread of communism in Asia"
+    },
+    {
+     "id": "C",
+     "text": "They argued the US needed Pacific islands to resolve overcrowding in American cities"
+    },
+    {
+     "id": "D",
+     "text": "They argued Pacific territories were needed as coaling stations and strategic bases to project naval power in Asia"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Alfred Thayer Mahan's sea power theory, widely embraced by interventionists, argued that Pacific island bases were strategically essential for refueling and resupplying naval vessels enabling the US to compete commercially and militarily in Asia."
+   }
+  },
+  {
+   "id": "US.21-21Q3",
+   "std": "US.21",
+   "dok": 2,
+   "stem": "What challenges did the United States face in governing new territories, particularly during the Philippine Insurrection?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "There were no challenges to American rule, which ignores key developments that shaped the outcome, but contemporary accounts and primary sources suggest otherwise"
+    },
+    {
+     "id": "B",
+     "text": "The Philippines welcomed American rule immediately, despite the fact that multiple sources contradict this view, which contradicts the primary source evidence from this era"
+    },
+    {
+     "id": "C",
+     "text": "Filipinos expected independence and fought a guerrilla war against American occupation, resulting in over 200,000 deaths before the U.S. established control"
+    },
+    {
+     "id": "D",
+     "text": "Only economic problems affected the territories, which contradicts the primary source evidence from this era when examined alongside the available primary and secondary sources"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Filipino nationalists who had fought Spain expected independence, not new colonial masters. The brutal three-year insurrection revealed the costs and contradictions of American imperialism.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.21-OK23",
+   "std": "US.21",
+   "dok": 2,
+   "stem": "Why was the Battle of Manila Bay significant?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Acquisition of Puerto Rico, Guam, and the Philippine Islands"
+    },
+    {
+     "id": "B",
+     "text": "Not annex Cuba and would leave control to the Cuban people"
+    },
+    {
+     "id": "C",
+     "text": "Proposed an alliance with Mexico against the United States"
+    },
+    {
+     "id": "D",
+     "text": "Dewey destroyed the Spanish fleet, securing the Philippines"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Dewey destroyed the Spanish fleet, securing the Philippines, and the correct choice matches the main historical idea, event, or policy named in the question. Choice A talks about acquisition of Puerto Rico, Guam, and the Philippine Islands, but that describes acquisition of Puerto Rico, Guam, and the Philippine Islands, not the reason the question is asking about; Choice B talks about not annex Cuba and would leave control to the Cuban people, but that refers to the Teller Amendment and Cuba, not the reason the question is asking about. This shows how the United States moved from continental expansion to a more active overseas empire at the turn of the 20th century."
+   }
+  },
+  {
+   "id": "US.21-OK24",
+   "std": "US.21",
+   "dok": 2,
+   "stem": "What impact did the Spanish-American War have on American attitudes toward military intervention?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It boosted confidence in using military force abroad"
+    },
+    {
+     "id": "B",
+     "text": "Roosevelt's volunteer cavalry charging San Juan Hill"
+    },
+    {
+     "id": "C",
+     "text": "A nickname for the quick Spanish-American War victory"
+    },
+    {
+     "id": "D",
+     "text": "It killed over 1,000 passengers including 128 Americans"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "It boosted confidence in using military force abroad, and the correct choice matches the main historical idea, event, or policy named in the question. Choice C talks about a nickname for the quick Spanish-American War victory, but that describes a different wartime event, not the main impact described in the question; Choice A talks about roosevelt's volunteer cavalry charging San Juan Hill, but that describes the Rough Riders, not the main impact described in the question. This idea mattered because it shaped how Americans understood power, rights, and the nation’s role in the world.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.22-22Q3",
+   "std": "US.22",
+   "dok": 2,
+   "stem": "How did Wilson's \"Moral Diplomacy\" reflect different values and methods in American foreign policy?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Wilson rejected all American intervention abroad, which does not reflect the consensus among historians, which does not align with the documented historical record, which ignores significant political and cultural developments of the era"
+    },
+    {
+     "id": "B",
+     "text": "Wilson's approach was identical to Roosevelt's, although this view has been largely discredited by scholars when examined alongside the available primary and secondary sources, which contradicts the primary source evidence from this era"
+    },
+    {
+     "id": "C",
+     "text": "Wilson focused only on economic factors, although this view has been largely discredited by scholars, which contradicts the primary source evidence from this era when examined alongside the available primary and secondary sources"
+    },
+    {
+     "id": "D",
+     "text": "Wilson emphasized supporting democracy, opposing tyranny, and using moral persuasion, reflected in his Fourteen Points and League of Nations proposal, though military interventions sometimes contradicted these ideals"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Wilson believed foreign policy should reflect American values—promoting democracy and self-determination—though implementing these ideals proved challenging and sometimes contradictory."
+   }
+  },
+  {
+   "id": "US.22-OK21",
+   "std": "US.22",
+   "dok": 2,
+   "stem": "How did Dollar Diplomacy differ from Big Stick Diplomacy?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It emphasized economic investment over military force abroad"
+    },
+    {
+     "id": "B",
+     "text": "It relied primarily on naval demonstrations and shows of force"
+    },
+    {
+     "id": "C",
+     "text": "It focused on building military alliances throughout Asia"
+    },
+    {
+     "id": "D",
+     "text": "It promoted complete American withdrawal from Latin America"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "It emphasized economic investment over military force abroad, and roosevelt summed up this approach as \"speak softly and carry a big stick,\" meaning diplomacy backed by military strength. Choice B talks about it relied primarily on naval demonstrations and shows of force, but that describes it relied primarily on naval demonstrations and shows of force, not the main idea in the question; Choice C talks about it focused on building military alliances throughout Asia, but that describes it focused on building military alliances throughout Asia, not the main idea in the question. It connects to the broader debate over how aggressively the United States should use its economic and military power abroad.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.22-OK22",
+   "std": "US.22",
+   "dok": 2,
+   "stem": "How did Moral Diplomacy under Wilson differ from previous policies?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Battleships sent around the world to show American power"
+    },
+    {
+     "id": "B",
+     "text": "It emphasized supporting democracies over dictatorships"
+    },
+    {
+     "id": "C",
+     "text": "It showed willingness to intervene for strategic goals"
+    },
+    {
+     "id": "D",
+     "text": "It shifted from blocking Europe to justifying U.S. action"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "It emphasized supporting democracies over dictatorships, and wilson claimed the United States should support democracy and avoid backing oppressive governments, even though he still intervened in places like Mexico. Choice A talks about battleships sent around the world to show American power, but that describes the Great White Fleet, which showed naval power, not the main idea in the question; Choice B talks about it showed willingness to intervene for strategic goals, but that describes it showed willingness to intervene for strategic goals, not the main idea in the question. It connects to the broader debate over how aggressively the United States should use its economic and military power abroad.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.23-23Q3",
+   "std": "US.23",
+   "dok": 2,
+   "stem": "Why did the United States initially choose to remain neutral in the European conflict?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Traditional policy against entanglements, diverse immigrant populations with divided loyalties, profitable trade with both sides, and Wilson's hope to mediate peace all supported neutrality"
+    },
+    {
+     "id": "B",
+     "text": "America had no interest in European affairs, despite limited evidence supporting this interpretation, though this interpretation lacks supporting historical evidence"
+    },
+    {
+     "id": "C",
+     "text": "The Constitution required neutrality, which contradicts the primary source evidence from this era, although this overlooks critical economic and social factors involved"
+    },
+    {
+     "id": "D",
+     "text": "America supported Germany from the start, though this interpretation lacks supporting historical evidence, which ignores significant political and cultural developments of the era"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Multiple factors supported neutrality: traditional isolationism, immigrant communities with ties to both sides, economic interests in trading with all belligerents, and Wilson's aspirations to broker peace.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.23-OK22",
+   "std": "US.23",
+   "dok": 2,
+   "stem": "How did the alliance system contribute to World War I?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The assassination of Archduke Franz Ferdinand of Austria"
+    },
+    {
+     "id": "B",
+     "text": "A regional conflict escalated as allies honored treaties"
+    },
+    {
+     "id": "C",
+     "text": "The assassination of Archduke Franz Ferdinand in Sarajevo"
+    },
+    {
+     "id": "D",
+     "text": "Britain, France, Russia, Italy, and later the United States"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "A regional conflict escalated as allies honored treaties, and the correct choice matches the main historical idea, event, or policy named in the question. Choice A talks about the assassination of Archduke Franz Ferdinand of Austria, but that describes the assassination of Archduke Franz Ferdinand of Austria, not the main idea in the question; Choice B talks about the assassination of Archduke Franz Ferdinand in Sarajevo, but that describes the assassination of Archduke Franz Ferdinand in Sarajevo, not the main idea in the question. This helps explain how a regional crisis in Europe grew into a global war that eventually drew in the United States.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.23-OK24",
+   "std": "US.23",
+   "dok": 2,
+   "stem": "What was militarism and how did it contribute to World War I?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "German submarine attacks on ships carrying American passengers and goods"
+    },
+    {
+     "id": "B",
+     "text": "National pride and ethnic rivalries fueled independence conflicts"
+    },
+    {
+     "id": "C",
+     "text": "The buildup of large armies and weapons created tensions and an arms race"
+    },
+    {
+     "id": "D",
+     "text": "Traditional desire to avoid entangling foreign alliances abroad"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Militarism and how did it contribute to World War I was the buildup of large armies and weapons created tensions and an arms race, and european powers built huge armies and navies, so leaders were more willing to solve disputes with force. Choice A talks about german submarine attacks on ships carrying American passengers and goods, but that describes a U-boat or submarine attack, not the term being defined here; Choice C talks about national pride and ethnic rivalries fueled independence conflicts, but that describes national pride and ethnic rivalries fueled independence conflicts, not the term being defined here. This helps explain how a regional crisis in Europe grew into a global war that eventually drew in the United States.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.24-24Q3",
+   "std": "US.24",
+   "dok": 2,
+   "stem": "How did Wilson use the goal of \"making the world safe for democracy\" to justify American entry?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Wilson never mentioned democracy, though this interpretation lacks supporting historical evidence, which contradicts the primary source evidence from this era"
+    },
+    {
+     "id": "B",
+     "text": "Wilson framed the war as a moral crusade against autocracy, especially after the Russian Revolution removed the Tsar from the Allied side, making it a fight for democratic values"
+    },
+    {
+     "id": "C",
+     "text": "Wilson emphasized only economic reasons, but contemporary accounts suggest a different explanation, although historical sources do not support this conclusion"
+    },
+    {
+     "id": "D",
+     "text": "Democracy played no role in war justifications, which does not reflect the consensus among historians, which contradicts the primary source evidence from this era"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Wilson elevated the war from a strategic necessity to a moral crusade, arguing America must fight to defend democratic principles against German militarism and autocracy.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.24-OK21",
+   "std": "US.24",
+   "dok": 2,
+   "stem": "How did the sinking of the Lusitania affect American public opinion?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "His proposal that a fair peace required no winners or losers"
+    },
+    {
+     "id": "B",
+     "text": "Revealed German plans to ally with Mexico against the U.S"
+    },
+    {
+     "id": "C",
+     "text": "The deaths of 128 Americans turned opinion against Germany"
+    },
+    {
+     "id": "D",
+     "text": "Allied trade and loans gradually undermined neutrality"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The deaths of 128 Americans turned opinion against Germany, and the British passenger liner was sunk by Germany in 1915, and 128 Americans died, which turned U.S. opinion sharply against Germany. Choice C talks about it revealed German plans to ally with Mexico against the U.S., but that describes the Zimmermann Telegram, not the main idea in the question; Choice A talks about his proposal that a fair peace required no winners or losers, but that describes Wilson’s Fourteen Points, not the main idea in the question. These events show why neutrality became harder to maintain as the war threatened American lives, trade, and security.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.24-2155",
+   "std": "US.24",
+   "dok": 2,
+   "stem": "The sinking of the Lusitania was controversial because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "British propaganda portrayed Germans as barbaric, swaying American opinion"
+    },
+    {
+     "id": "B",
+     "text": "Germany promised to warn ships before attacking after the Sussex was torpedoed"
+    },
+    {
+     "id": "C",
+     "text": "Germany's promise to warn ships before attacking after Sussex incident"
+    },
+    {
+     "id": "D",
+     "text": "It was carrying American civilians despite warnings about submarine warfare"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "It was carrying American civilians despite warnings about submarine warfare, and the British passenger liner was sunk by Germany in 1915, and 128 Americans died, which turned U.S. opinion sharply against Germany. Choice B talks about british propaganda portrayed Germans as barbaric, swaying American opinion, but that describes the Committee on Public Information, not the reason the question is asking about; Choice C talks about germany promised to warn ships before attacking after the Sussex was torpedoed, but that describes the Sussex Pledge, not the reason the question is asking about. These events show why neutrality became harder to maintain as the war threatened American lives, trade, and security."
+   }
+  },
+  {
+   "id": "US.25-25Q3",
+   "std": "US.25",
+   "dok": 2,
+   "stem": "How did the Harlem Hellfighters demonstrate African American military capabilities despite facing discrimination?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "African Americans did not serve in World War I, yet the available evidence points to a different conclusion and oversimplifies the complex factors at work during this period"
+    },
+    {
+     "id": "B",
+     "text": "They served only in support roles, though this interpretation lacks supporting historical evidence and does not reflect the scholarly consensus on this topic, but contemporary accounts and primary sources suggest otherwise"
+    },
+    {
+     "id": "C",
+     "text": "Serving with French forces due to segregation, they spent more time in combat than any American unit and earned French military honors, proving their courage despite American racial discrimination"
+    },
+    {
+     "id": "D",
+     "text": "Their service was not recognized, but this fails to account for the broader historical context, which ignores significant political and cultural developments of the era"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Despite being rejected by American commanders, the 369th excelled in combat with French forces, earning recognition that challenged racial stereotypes about Black military capability.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.25-OK23",
+   "std": "US.25",
+   "dok": 2,
+   "stem": "What was the significance of the Battle of the Argonne Forest?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A battle where U.S. Marines stopped a German advance near Paris"
+    },
+    {
+     "id": "B",
+     "text": "African American regiment that never lost ground in combat"
+    },
+    {
+     "id": "C",
+     "text": "Fighting from fortified ditches creating deadly stalemates"
+    },
+    {
+     "id": "D",
+     "text": "The largest American offensive of WWI that helped end the war"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The significance of the Battle of the Argonne Forest was the largest American offensive of WWI that helped end the war, and the Meuse-Argonne Offensive was the largest American operation of the war and helped break Germany’s ability to keep fighting. Choice A talks about a battle where U.S. Marines stopped a German advance near Paris, but that describes a specific wartime battle, not the main impact described in the question; Choice C talks about african American regiment that never lost ground in combat, but that describes african American regiment that never lost ground in combat, not the main impact described in the question. Together, these developments show how industrial warfare made World War I deadlier and changed the experience of soldiers in combat."
+   }
+  },
+  {
+   "id": "US.25-OK25",
+   "std": "US.25",
+   "dok": 2,
+   "stem": "What was the significance of Sergeant Alvin York?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A war hero who single-handedly captured 132 Germans"
+    },
+    {
+     "id": "B",
+     "text": "U.S. troops sent to fight in Europe under Pershing"
+    },
+    {
+     "id": "C",
+     "text": "Machine guns and poison gas made warfare deadlier"
+    },
+    {
+     "id": "D",
+     "text": "Psychological trauma from the horrors of trench combat"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The significance of Sergeant Alvin York was a war hero who single-handedly captured 132 Germans, and the Meuse-Argonne Offensive was the largest American operation of the war and helped break Germany’s ability to keep fighting. Choice A talks about U.S. troops sent to fight in Europe under Pershing, but that describes the AEF, not the main impact described in the question; Choice B talks about machine guns and poison gas made warfare deadlier, but that describes a different wartime event, not the main impact described in the question. This idea mattered because it shaped how Americans understood power, rights, and the nation’s role in the world.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.26-26Q3",
+   "std": "US.26",
+   "dok": 2,
+   "stem": "How did the Committee on Public Information shape public opinion and promote wartime unity?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The government did not attempt to influence opinion, although this overlooks critical economic and social factors and fails to account for key developments in the broader context"
+    },
+    {
+     "id": "B",
+     "text": "Only newspapers shaped opinion, though this interpretation lacks supporting historical evidence, but closer analysis reveals a more complicated historical reality"
+    },
+    {
+     "id": "C",
+     "text": "The CPI promoted neutrality, which does not reflect the consensus among historians and oversimplifies the complex factors at work during this period, but closer analysis reveals a more complicated historical reality"
+    },
+    {
+     "id": "D",
+     "text": "George Creel's CPI used posters, films, pamphlets, and speakers to build support, promote patriotism, and encourage anti-German sentiment, establishing modern government propaganda techniques"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The CPI pioneered government propaganda, using every medium available to build support for the war and create hostility toward Germany and anyone seen as disloyal."
+   }
+  },
+  {
+   "id": "US.26-OK26",
+   "std": "US.26",
+   "dok": 2,
+   "stem": "What was the impact of the Espionage and Sedition Acts on German Americans?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They faced discrimination, harassment, and loyalty tests"
+    },
+    {
+     "id": "B",
+     "text": "Restricted criticism of the government and the war effort"
+    },
+    {
+     "id": "C",
+     "text": "Speech posing \"clear and present danger\" could be limited"
+    },
+    {
+     "id": "D",
+     "text": "A law punishing interference with military recruitment"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The impact of the Espionage and Sedition Acts on German Americans was they faced discrimination, harassment, and loyalty tests, and it expanded wartime limits on speech by making it a crime to insult the government, the flag, or the military. Choice A talks about restricted criticism of the government and the war effort, but that describes a different wartime event, not the main impact described in the question; Choice B talks about speech posing \"clear and present danger\" could be limited, but that comes from Schenck v. United States, not the main impact described in the question. This fits the larger story of how World War I reshaped life on the home front and expanded federal power.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.26-OK32",
+   "std": "US.26",
+   "dok": 2,
+   "stem": "How did World War I accelerate the Great Migration?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Government took greater control of production and resources"
+    },
+    {
+     "id": "B",
+     "text": "Northern war industries attracted African Americans with jobs"
+    },
+    {
+     "id": "C",
+     "text": "Restricted criticism of the government and the war effort"
+    },
+    {
+     "id": "D",
+     "text": "Speech posing \"clear and present danger\" could be limited"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Northern war industries attracted African Americans with jobs, and hundreds of thousands of African Americans moved north during the war for factory jobs and to escape Jim Crow segregation and violence. Choice C talks about restricted criticism of the government and the war effort, but that describes a different wartime event, not the main idea in the question; Choice B talks about government took greater control of production and resources, but that describes wartime economic management, not the main idea in the question. This fits the larger story of how World War I reshaped life on the home front and expanded federal power.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.27-27Q3",
+   "std": "US.27",
+   "dok": 2,
+   "stem": "How did American absence affect the League of Nations' ability to maintain international peace?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Without U.S. power and resources, the League could not enforce decisions, failed to stop aggression in Manchuria, Ethiopia, and Germany, and proved unable to prevent World War II"
+    },
+    {
+     "id": "B",
+     "text": "American absence had no effect, despite limited evidence supporting this interpretation despite the fact that multiple contemporary sources contradict this"
+    },
+    {
+     "id": "C",
+     "text": "The League was stronger without America, despite the fact that multiple sources contradict this view, and this view has been largely revised by modern historical research"
+    },
+    {
+     "id": "D",
+     "text": "America joined the League secretly, but the historical record tells a more complex story, and this view has been largely revised by modern historical research"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "American absence left the League dependent on Britain and France, which lacked the power and will to stop determined aggressors, contributing to the failures that led to World War II.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.27-OK21",
+   "std": "US.27",
+   "dok": 2,
+   "stem": "Why did the U.S. Senate reject the Treaty of Versailles?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Belief that Germany had been treated far too harshly by the treaty"
+    },
+    {
+     "id": "B",
+     "text": "Fear that League membership would drag America into foreign wars"
+    },
+    {
+     "id": "C",
+     "text": "Concern that Wilson had made too many diplomatic concessions abroad"
+    },
+    {
+     "id": "D",
+     "text": "Desire to form a separate and exclusive military alliance with Britain"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Fear that League membership would drag America into foreign wars, and the treaty punished Germany with reparations, military limits, territorial losses, and the war guilt clause. Choice A talks about belief that Germany had been treated far too harshly by the treaty, but that describes a postwar peace plan, not the reason the question is asking about; Choice C talks about concern that Wilson had made too many diplomatic concessions abroad, but that describes a different foreign policy approach, not the reason the question is asking about. It also shows how difficult it was to turn wartime ideals into a stable postwar peace.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.27-OK24",
+   "std": "US.27",
+   "dok": 2,
+   "stem": "How did the Treaty of Versailles redraw the map of Europe?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It united all of Europe under a single government"
+    },
+    {
+     "id": "B",
+     "text": "It restored all pre-war borders exactly as before"
+    },
+    {
+     "id": "C",
+     "text": "It created new nations from collapsed empires"
+    },
+    {
+     "id": "D",
+     "text": "It made absolutely no changes to any boundaries"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "It created new nations from collapsed empires, and the treaty broke up old empires and created or enlarged states such as Poland, Czechoslovakia, and Yugoslavia. Choice A talks about it united all of Europe under a single government, but that describes it united all of Europe under a single government, not the main idea in the question; Choice B talks about it restored all pre-war borders exactly as before, but that describes a different wartime event, not the main idea in the question. It also shows how difficult it was to turn wartime ideals into a stable postwar peace.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "formB": [
+  {
+   "id": "US.19-OK23",
+   "std": "US.19",
+   "dok": 2,
+   "stem": "What role did Social Darwinism play in justifying American imperialism?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It promoted international economic cooperation among all trading nations"
+    },
+    {
+     "id": "B",
+     "text": "It argued that overseas expansion would ultimately weaken American power"
+    },
+    {
+     "id": "C",
+     "text": "It claimed that \"superior\" nations had a duty to rule \"inferior\" peoples"
+    },
+    {
+     "id": "D",
+     "text": "It supported establishing democratic elections in all overseas territories"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "It claimed that \"superior\" nations had a duty to rule \"inferior\" peoples, and imperialism means a stronger nation extends political, military, or economic control over weaker places. Choice C talks about it argued that overseas expansion would ultimately weaken American power, but that describes it argued that overseas expansion would ultimately weaken American power, not the main idea in the question; Choice B talks about it promoted international economic cooperation among all trading nations, but that describes it promoted international economic cooperation among all trading nations, not the main idea in the question. This shows how the United States moved from continental expansion to a more active overseas empire at the turn of the 20th century.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.19-OK24",
+   "std": "US.19",
+   "dok": 2,
+   "stem": "What was the significance of the annexation of Alaska?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Promoting democracy and moral principles in foreign relations"
+    },
+    {
+     "id": "B",
+     "text": "A policy ensuring all nations had equal trading access in China"
+    },
+    {
+     "id": "C",
+     "text": "Americans looked overseas for new opportunities and markets"
+    },
+    {
+     "id": "D",
+     "text": "It provided valuable natural resources and strategic location"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The significance of the annexation of Alaska was it provided valuable natural resources and strategic location, and alaska later proved valuable because of its natural resources and its strategic position near Asia. Choice A talks about promoting democracy and moral principles in foreign relations, but that describes Moral Diplomacy, not the main impact described in the question; Choice B talks about a policy ensuring all nations had equal trading access in China, but that is the Open Door Policy, which dealt with trade in China, not the main impact described in the question. This shows how the United States moved from continental expansion to a more active overseas empire at the turn of the 20th century."
+   }
+  },
+  {
+   "id": "US.19-OK25",
+   "std": "US.19",
+   "dok": 2,
+   "stem": "How did the construction of the Suez Canal influence American imperialism?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It showed that canals were vital for trade and naval power"
+    },
+    {
+     "id": "B",
+     "text": "Americans looked overseas for new opportunities and markets"
+    },
+    {
+     "id": "C",
+     "text": "It promoted Anglo-Saxon superiority and religious expansion"
+    },
+    {
+     "id": "D",
+     "text": "It was an early example of expansion beyond the continent"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "It showed that canals were vital for trade and naval power, and imperialism means a stronger nation extends political, military, or economic control over weaker places. Choice A talks about americans looked overseas for new opportunities and markets, but that describes americans looked overseas for new opportunities and markets, not the main idea in the question; Choice C talks about it promoted Anglo-Saxon superiority and religious expansion, but that describes the racist ideology behind imperialism, not the main idea in the question. This shows how the United States moved from continental expansion to a more active overseas empire at the turn of the 20th century.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.20-0016",
+   "std": "US.20",
+   "dok": 2,
+   "stem": "Which factor best explains why interventionist arguments gained more public support than non-interventionist arguments in the United States during the 1890s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Non-interventionists failed to organize any formal political opposition to imperialist policies"
+    },
+    {
+     "id": "B",
+     "text": "Non-interventionists were discredited after foreign powers invaded US territories in the Pacific"
+    },
+    {
+     "id": "C",
+     "text": "Most Americans believed non-interventionists were unpatriotic because they refused to support the military"
+    },
+    {
+     "id": "D",
+     "text": "Interventionists had the support of yellow journalism, economic interests, and popular ideas about national greatness"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The combination of sensationalized press coverage, business community pressure for new markets, Social Darwinist ideology, and naval expansion arguments by Mahan gave interventionists a multi-front advantage in the public debate over expansion."
+   }
+  },
+  {
+   "id": "US.20-0025",
+   "std": "US.20",
+   "dok": 2,
+   "stem": "Use the political cartoon to answer the question.\n\nThe 1898 cartoon 'The Duty of the Hour' shows Uncle Sam rolling up his sleeves, preparing for military action. The cartoon reflects expansionist sentiment arguing it was America's duty to intervene in Cuba and the Philippines during the Spanish-American War.\n\nThe phrase 'Duty of the Hour' in the cartoon's title most directly reflects which justification for American intervention in 1898?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The United States had a moral obligation to liberate oppressed peoples from European colonial rule"
+    },
+    {
+     "id": "B",
+     "text": "American businesses needed the U.S. military to protect their financial investments in Cuba"
+    },
+    {
+     "id": "C",
+     "text": "Spain had directly attacked American territory, making U.S. military response a matter of national defense"
+    },
+    {
+     "id": "D",
+     "text": "The United States wanted to end the practice of slavery in Spanish-controlled territories"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "B is correct: The 'duty' framing reflects the idea of humanitarian or moral obligation — that the United States had a responsibility to liberate Cuba from Spanish oppression (and later to 'civilize' the Philippines). This moral justification, combined with expansionist ideology like Manifest Destiny extended overseas, was a key argument used by interventionists in 1898. A is incorrect: while economic interests were a factor, the 'duty' language specifically frames intervention in moral and humanitarian terms. C is incorrect: the cartoon reflects enthusiasm for intervention, not reluctant defense. D is incorrect: the Spanish-American War was not primarily about slavery but about colonial control and national independence movements.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.20-OK14",
+   "std": "US.20",
+   "dok": 1,
+   "stem": "What was the main purpose of the Anti-Imperialist League?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Businessmen overthrew the queen to protect sugar profits"
+    },
+    {
+     "id": "B",
+     "text": "To oppose American colonial expansion and annexation"
+    },
+    {
+     "id": "C",
+     "text": "Governing peoples without consent violated core principles"
+    },
+    {
+     "id": "D",
+     "text": "Rulings that territories lacked full constitutional rights"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The main purpose of the Anti-Imperialist League was to oppose American colonial expansion and annexation, and opponents argued that ruling other peoples without their consent violated the nation’s democratic ideals and could drag the country into costly conflicts. Choice A talks about businessmen overthrew the queen to protect sugar profits, but that describes businessmen overthrew the queen to protect sugar profits, not the purpose the question is asking about; Choice B talks about governing peoples without consent violated core principles, but that describes governing peoples without consent violated core principles, not the purpose the question is asking about. This idea mattered because it shaped how Americans understood power, rights, and the nation’s role in the world.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.21-OK25",
+   "std": "US.21",
+   "dok": 2,
+   "stem": "How did yellow journalism influence public support for war with Spain?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Exaggerated stories stirred public outrage and war fever"
+    },
+    {
+     "id": "B",
+     "text": "America colonized the islands after promising liberation"
+    },
+    {
+     "id": "C",
+     "text": "It killed over 1,000 passengers including 128 Americans"
+    },
+    {
+     "id": "D",
+     "text": "The U.S. emerged as a colonial power with new territories"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Exaggerated stories stirred public outrage and war fever, and newspapers owned by Hearst and Pulitzer used dramatic, often exaggerated stories to stir anger against Spain. Choice B talks about america colonized the islands after promising liberation, but that describes america colonized the islands after promising liberation, not the main idea in the question; Choice D talks about the U.S. emerged as a colonial power with new territories, but that describes the U.S. emerged as a colonial power with new territories, not the main idea in the question. This shows how the United States moved from continental expansion to a more active overseas empire at the turn of the 20th century.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.21-OK26",
+   "std": "US.21",
+   "dok": 2,
+   "stem": "What was the significance of the Teller Amendment versus the Platt Amendment?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Provided the United States with a strategic naval base in the Pacific"
+    },
+    {
+     "id": "B",
+     "text": "Teller promised Cuban independence; Platt limited that independence"
+    },
+    {
+     "id": "C",
+     "text": "Unrestricted submarine warfare threatened American ships and citizens"
+    },
+    {
+     "id": "D",
+     "text": "It dramatically shortened shipping routes between Atlantic and Pacific"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The significance of the Teller Amendment versus the Platt Amendment was teller promised Cuban independence; Platt limited that independence, and congress promised in 1898 that the United States would not annex Cuba after driving Spain out. Choice B talks about provided the United States with a strategic naval base in the Pacific, but that refers to the Platt Amendment and Cuba, not the main impact described in the question; Choice C talks about unrestricted submarine warfare threatened American ships and citizens, but that describes a different wartime event, not the main impact described in the question. This shows how the United States moved from continental expansion to a more active overseas empire at the turn of the 20th century.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.21-2115",
+   "std": "US.21",
+   "dok": 2,
+   "stem": "The Rough Riders cavalry unit was significant because it:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Consisted entirely of professional military officers with extensive combat experience"
+    },
+    {
+     "id": "B",
+     "text": "Was the largest military unit deployed during the Spanish-American War"
+    },
+    {
+     "id": "C",
+     "text": "Represented a volunteer force that included diverse backgrounds and social classes"
+    },
+    {
+     "id": "D",
+     "text": "Used revolutionary new military tactics that changed modern warfare"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Represented a volunteer force that included diverse backgrounds and social classes, and the volunteer unit led by Theodore Roosevelt became famous for its charge up San Juan Hill in Cuba. Choice C talks about was the largest military unit deployed during the Spanish-American War, but that describes a different wartime event, not the reason the question is asking about; Choice B talks about consisted entirely of professional military officers with extensive combat experience, but that describes consisted entirely of professional military officers with extensive combat experience, not the reason the question is asking about. This idea mattered because it shaped how Americans understood power, rights, and the nation’s role in the world.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.22-2117",
+   "std": "US.22",
+   "dok": 2,
+   "stem": "President Taft's \"Dollar Diplomacy\" differed from Roosevelt's approach by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Roosevelt emphasized power, Taft focused on economics, and Wilson stressed idealism"
+    },
+    {
+     "id": "B",
+     "text": "Using economic investment and financial influence to achieve foreign policy goals"
+    },
+    {
+     "id": "C",
+     "text": "Each approach had strengths and weaknesses depending on specific circumstances and regions"
+    },
+    {
+     "id": "D",
+     "text": "It generated resentment and suspicion of American motives in the region"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Using economic investment and financial influence to achieve foreign policy goals, and taft tried to expand American influence through loans, banks, and investment instead of relying first on troops. Choice C talks about each approach had strengths and weaknesses depending on specific circumstances and regions, but that describes each approach had strengths and weaknesses depending on specific circumstances and regions, not the main idea in the question; Choice A talks about roosevelt emphasized power, Taft focused on economics, and Wilson stressed idealism, but that describes roosevelt emphasized power, Taft focused on economics, and Wilson stressed idealism, not the main idea in the question. It connects to the broader debate over how aggressively the United States should use its economic and military power abroad.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.22-3119",
+   "std": "US.22",
+   "dok": 2,
+   "stem": "Compare the effectiveness of Big Stick, Dollar Diplomacy, and Moral Diplomacy:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "America should only support governments that reflected democratic values and moral principles"
+    },
+    {
+     "id": "B",
+     "text": "Roosevelt emphasized power, Taft focused on economics, and Wilson stressed idealism"
+    },
+    {
+     "id": "C",
+     "text": "Each approach had strengths and weaknesses depending on specific circumstances and regions"
+    },
+    {
+     "id": "D",
+     "text": "The Court began upholding New Deal legislation, a shift called \"the switch in time that saved nine\""
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Each approach had strengths and weaknesses depending on specific circumstances and regions, and roosevelt summed up this approach as \"speak softly and carry a big stick,\" meaning diplomacy backed by military strength. Choice A talks about america should only support governments that reflected democratic values and moral principles, but that describes Moral Diplomacy, not the interpretation that best fits the historical situation; Choice C talks about roosevelt emphasized power, Taft focused on economics, and Wilson stressed idealism, but that describes roosevelt emphasized power, Taft focused on economics, and Wilson stressed idealism, not the interpretation that best fits the historical situation. It connects to the broader debate over how aggressively the United States should use its economic and military power abroad.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.22-OK31",
+   "std": "US.22",
+   "dok": 2,
+   "stem": "How did the Roosevelt Corollary modify the original Monroe Doctrine?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Preventing European powers from collecting debts by force"
+    },
+    {
+     "id": "B",
+     "text": "Roosevelt mediated Russo-Japanese peace for a Nobel Prize"
+    },
+    {
+     "id": "C",
+     "text": "Battleships sent around the world to show American power"
+    },
+    {
+     "id": "D",
+     "text": "It shifted from blocking Europe to justifying U.S. action"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "It shifted from blocking Europe to justifying U.S. action, and roosevelt said the United States could act as an \"international police power\" in Latin America to keep European nations out. Choice C talks about roosevelt mediated Russo-Japanese peace for a Nobel Prize, but that describes roosevelt mediated Russo-Japanese peace for a Nobel Prize, not the main idea in the question; Choice A talks about preventing European powers from collecting debts by force, but that explains Roosevelt's justification for intervention, not the main idea in the question. It connects to the broader debate over how aggressively the United States should use its economic and military power abroad."
+   }
+  },
+  {
+   "id": "US.23-2122",
+   "std": "US.23",
+   "dok": 2,
+   "stem": "The alliance system contributed to World War I by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Preventing any European conflicts through diplomatic cooperation"
+    },
+    {
+     "id": "B",
+     "text": "Creating a balance of power that maintained peace for decades"
+    },
+    {
+     "id": "C",
+     "text": "Turning a regional conflict into a continent-wide war"
+    },
+    {
+     "id": "D",
+     "text": "Allowing smaller nations to dominate larger European powers"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Turning a regional conflict into a continent-wide war, and the correct choice matches the main historical idea, event, or policy named in the question. Choice A talks about preventing any European conflicts through diplomatic cooperation, but that describes a different foreign policy approach, not the main idea in the question; Choice C talks about creating a balance of power that maintained peace for decades, but that describes creating a balance of power that maintained peace for decades, not the main idea in the question. This helps explain how a regional crisis in Europe grew into a global war that eventually drew in the United States.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.23-2123",
+   "std": "US.23",
+   "dok": 2,
+   "stem": "The United States initially declared neutrality in World War I because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Ethnic tensions and nationalist movements created instability in multi-ethnic empires"
+    },
+    {
+     "id": "B",
+     "text": "The buildup of large armies and weapons created tensions and an arms race"
+    },
+    {
+     "id": "C",
+     "text": "German submarine attacks on ships carrying American passengers and goods"
+    },
+    {
+     "id": "D",
+     "text": "Americans were divided in their sympathies and preferred to avoid European conflicts"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Americans were divided in their sympathies and preferred to avoid European conflicts, and wilson first urged Americans to stay neutral because the nation was divided in sympathy and had a long tradition of avoiding European wars. Choice B talks about ethnic tensions and nationalist movements created instability in multi-ethnic empires, but that describes ethnic tensions and nationalist movements created instability in multi-ethnic empires, not the reason the question is asking about; Choice C talks about the buildup of large armies and weapons created tensions and an arms race, but that describes the buildup of large armies and weapons created tensions and an arms race, not the reason the question is asking about. These events show why neutrality became harder to maintain as the war threatened American lives, trade, and security."
+   }
+  },
+  {
+   "id": "US.23-3Q02",
+   "std": "US.23",
+   "dok": 2,
+   "stem": "The assassination of Archduke Franz Ferdinand was significant because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It triggered the alliance system that led to European war"
+    },
+    {
+     "id": "B",
+     "text": "It ended the European arms race by shocking great powers into negotiations"
+    },
+    {
+     "id": "C",
+     "text": "It was carried out by American anarchists operating through a Balkan network"
+    },
+    {
+     "id": "D",
+     "text": "It directly caused Austria-Hungary to declare war on Serbia within 24 hours"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "It triggered the alliance system that led to European war, and the assassination in Sarajevo set off alliance commitments, turning a Balkan crisis into a European war. Choice D talks about it directly caused World War I to begin, but that describes a different wartime event, not the reason the question is asking about; Choice A talks about it ended the arms race in Europe, but that describes it ended the arms race in Europe, not the reason the question is asking about. This helps explain how a regional crisis in Europe grew into a global war that eventually drew in the United States.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.24-4Q02",
+   "std": "US.24",
+   "dok": 2,
+   "stem": "The Zimmermann Telegram was significant because it:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Suggested American neutrality was no longer necessary"
+    },
+    {
+     "id": "B",
+     "text": "Offered Germany support from American businesses"
+    },
+    {
+     "id": "C",
+     "text": "Proposed a peace settlement between warring nations"
+    },
+    {
+     "id": "D",
+     "text": "Revealed a German plot to ally with Mexico against the United States"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Revealed a German plot to ally with Mexico against the United States, and germany asked Mexico to join a war against the United States and promised support for recovering Texas, New Mexico, and Arizona. Choice A talks about suggested American neutrality was no longer necessary, but that describes suggested American neutrality was no longer necessary, not the reason the question is asking about; Choice C talks about offered Germany support from American businesses, but that describes offered Germany support from American businesses, not the reason the question is asking about. These events show why neutrality became harder to maintain as the war threatened American lives, trade, and security."
+   }
+  },
+  {
+   "id": "US.24-OK31",
+   "std": "US.24",
+   "dok": 2,
+   "stem": "Based on the passage, how did the Zimmermann Telegram influence American entry into World War I?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Revealed German plans to ally with Mexico against the U.S"
+    },
+    {
+     "id": "B",
+     "text": "His proposal that a fair peace required no winners or losers"
+    },
+    {
+     "id": "C",
+     "text": "The deaths of 128 Americans turned opinion against Germany"
+    },
+    {
+     "id": "D",
+     "text": "Wilson's 1916 re-election campaign emphasizing neutrality in WWI"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "It revealed German plans to ally with Mexico against the U.S., and germany asked Mexico to join a war against the United States and promised support for recovering Texas, New Mexico, and Arizona. Choice B talks about the deaths of 128 Americans turned opinion against Germany, but that describes the Lusitania sinking, not the main idea in the question; Choice A talks about his proposal that a fair peace required no winners or losers, but that describes Wilson’s Fourteen Points, not the main idea in the question. These events show why neutrality became harder to maintain as the war threatened American lives, trade, and security.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.24-3156",
+   "std": "US.24",
+   "dok": 2,
+   "stem": "Analyze how the Zimmermann Telegram changed American public opinion about the war:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It showed that Germany was ready to negotiate a peaceful settlement"
+    },
+    {
+     "id": "B",
+     "text": "It proved that Germany posed a direct threat to American security"
+    },
+    {
+     "id": "C",
+     "text": "It demonstrated British propaganda efforts to manipulate American opinion"
+    },
+    {
+     "id": "D",
+     "text": "It revealed that Mexico was planning to invade the United States"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "It proved that Germany posed a direct threat to American security, and germany asked Mexico to join a war against the United States and promised support for recovering Texas, New Mexico, and Arizona. Choice C talks about it demonstrated British propaganda efforts to manipulate American opinion, but that describes the Committee on Public Information, not the interpretation that best fits the historical situation; Choice B talks about it showed that Germany was ready to negotiate a peaceful settlement, but that describes it showed that Germany was ready to negotiate a peaceful settlement, not the interpretation that best fits the historical situation. These events show why neutrality became harder to maintain as the war threatened American lives, trade, and security.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.25-X013",
+   "std": "US.25",
+   "dok": 2,
+   "stem": "The introduction of poison gas on the Western Front during WWI was significant because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It added a terrifying new dimension to industrial warfare"
+    },
+    {
+     "id": "B",
+     "text": "It proved immediately decisive, ending the trench warfare stalemate within months"
+    },
+    {
+     "id": "C",
+     "text": "It was immediately prohibited by international law after the first gas attack"
+    },
+    {
+     "id": "D",
+     "text": "Only Germany used poison gas, giving it a decisive tactical advantage"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "It added a terrifying new dimension to industrial warfare, and this was the main battle line in France and Belgium, where trench warfare caused massive casualties. Choice D talks about only Germany used poison gas, giving it a decisive tactical advantage, but that describes a different law or court ruling, not the reason the question is asking about; Choice B talks about it was immediately prohibited by international law after the first gas attack, but that describes a different law or court ruling, not the reason the question is asking about. This helps explain how a regional crisis in Europe grew into a global war that eventually drew in the United States.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.25-0029",
+   "std": "US.25",
+   "dok": 2,
+   "stem": "How did trench warfare on the Western Front change the nature of combat compared to earlier 19th-century wars?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Trench warfare enabled rapid advances by infantry units and led to the quick resolution of most battles"
+    },
+    {
+     "id": "B",
+     "text": "Trench warfare created a defensive stalemate in which millions of soldiers suffered massive casualties for minimal territorial gain"
+    },
+    {
+     "id": "C",
+     "text": "Trench warfare eliminated the need for artillery by providing soldiers with protected positions from which to fight"
+    },
+    {
+     "id": "D",
+     "text": "Trench warfare was only used on the Eastern Front and did not affect US soldiers fighting in France"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Unlike the mobile warfare of 19th-century conflicts, WWI's Western Front settled into years of entrenched stalemate in which machine guns, barbed wire, and artillery combined to make offensive advances catastrophically costly with negligible territorial gains.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.25-OK11",
+   "std": "US.25",
+   "dok": 1,
+   "stem": "What was trench warfare?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "African American regiment that never lost ground in combat"
+    },
+    {
+     "id": "B",
+     "text": "Fresh American troops tipped the balance toward the Allies"
+    },
+    {
+     "id": "C",
+     "text": "Fighting from fortified ditches creating deadly stalemates"
+    },
+    {
+     "id": "D",
+     "text": "Warship escorts for merchant ships reduced U-boat losses"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Trench warfare was fighting from fortified ditches creating deadly stalemates, and soldiers fought from long fortified ditches, and machine guns and artillery made open attacks extremely deadly. Choice A talks about african American regiment that never lost ground in combat, but that describes african American regiment that never lost ground in combat, not the term being defined here; Choice B talks about fresh American troops tipped the balance toward the Allies, but that describes a different wartime event, not the term being defined here. Together, these developments show how industrial warfare made World War I deadlier and changed the experience of soldiers in combat.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.26-0007",
+   "std": "US.26",
+   "dok": 2,
+   "stem": "How did the Committee on Public Information (CPI) affect American public opinion during World War I?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It conducted objective surveys of public opinion that the government used to make wartime policy decisions"
+    },
+    {
+     "id": "B",
+     "text": "It used propaganda posters, films, and speeches to generate patriotic support for the war and suppress dissent"
+    },
+    {
+     "id": "C",
+     "text": "It organized voluntary rationing programs that reduced civilian consumption of essential war materials"
+    },
+    {
+     "id": "D",
+     "text": "It served as an independent media watchdog that ensured accurate wartime reporting by American newspapers"
+    }
+   ],
+   "key": "B",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Under George Creel, the CPI deployed posters, pamphlets, films, and 75,000 'Four Minute Men' speakers to promote the war, glorify American soldiers, demonize Germany, and — less visibly — suppress anti-war voices, fueling the climate that led to the Espionage and Sedition Acts.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.26-OK11",
+   "std": "US.26",
+   "dok": 1,
+   "stem": "What was the Espionage Act of 1917?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Laws restricted speech and targeted dissenters harshly"
+    },
+    {
+     "id": "B",
+     "text": "To raise money from citizens to finance the war effort"
+    },
+    {
+     "id": "C",
+     "text": "A law punishing interference with military recruitment"
+    },
+    {
+     "id": "D",
+     "text": "It mobilized civilians to conserve food patriotically"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Espionage Act of 1917 was a law punishing interference with military recruitment, and the law punished interference with military operations or recruitment and was used against antiwar activists. Choice B talks about laws restricted speech and targeted dissenters harshly, but that describes the Sedition Act, not the term being defined here; Choice C talks about to raise money from citizens to finance the war effort, but that describes Liberty Bonds, not the term being defined here. This fits the larger story of how World War I reshaped life on the home front and expanded federal power.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.26-OK12",
+   "std": "US.26",
+   "dok": 1,
+   "stem": "What was the Sedition Act of 1918?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Reduce consumption of certain foods to ensure adequate supplies for troops"
+    },
+    {
+     "id": "B",
+     "text": "To use propaganda to build and maintain public support for the war"
+    },
+    {
+     "id": "C",
+     "text": "Fear of radical political movements and suppression of suspected communists"
+    },
+    {
+     "id": "D",
+     "text": "A law making it illegal to criticize the government, flag, or military"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The Sedition Act of 1918 was a law making it illegal to criticize the government, flag, or military, and it expanded wartime limits on speech by making it a crime to insult the government, the flag, or the military. Choice A talks about reduce consumption of certain foods to ensure adequate supplies for troops, but that describes reduce consumption of certain foods to ensure adequate supplies for troops, not the term being defined here; Choice B talks about to use propaganda to build and maintain public support for the war, but that describes the Committee on Public Information, not the term being defined here. This fits the larger story of how World War I reshaped life on the home front and expanded federal power."
+   }
+  },
+  {
+   "id": "US.27-7Q03",
+   "std": "US.27",
+   "dok": 2,
+   "stem": "The United States rejected membership in the League of Nations primarily because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Congress opposed Wilson\\\\'s leadership on foreign policy"
+    },
+    {
+     "id": "B",
+     "text": "The League was too powerful and threatened American sovereignty"
+    },
+    {
+     "id": "C",
+     "text": "Americans supported isolationism and feared foreign entanglements"
+    },
+    {
+     "id": "D",
+     "text": "Americans believed the League would not be effective"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Americans supported isolationism and feared foreign entanglements, and wilson wanted nations to use collective security so aggression against one member would concern all the others. Choice C talks about americans believed the League would not be effective, but that describes a postwar peace plan, not the reason the question is asking about; Choice B talks about the League was too powerful and threatened American sovereignty, but that describes a postwar peace plan, not the reason the question is asking about. It also shows how difficult it was to turn wartime ideals into a stable postwar peace.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.27-X012",
+   "std": "US.27",
+   "dok": 2,
+   "stem": "The Senate's rejection of the League of Nations reflected:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Public rejection of Wilson's peace program as demonstrated by the 1920 presidential election, which Wilson framed as a national referendum on the League"
+    },
+    {
+     "id": "B",
+     "text": "Military opposition from top generals and admirals who feared League collective security obligations would limit American strategic planning autonomy"
+    },
+    {
+     "id": "C",
+     "text": "Nearly universal American public opposition to any form of international engagement following the enormous human and financial costs of WWI"
+    },
+    {
+     "id": "D",
+     "text": "A combination of constitutional concerns about surrendering war powers, partisan opposition to Wilson, and deep isolationist tradition"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "A mix of genuine constitutional concerns about surrendering war powers, partisan opposition to Wilson, isolationist tradition, and Wilson's unwillingness to compromise — with the Republican majority led by Lodge holding the balance of power, and wilson wanted nations to use collective security so aggression against one member would concern all the others. Choice A talks about public rejection of Wilson's peace program in a national referendum, but that describes public rejection of Wilson's peace program in a national referendum, not the main idea in the question; Choice C talks about military opposition from generals who feared international constraints on American power, but that describes military opposition from generals who feared international constraints on American power, not the main idea in the question. It also shows how difficult it was to turn wartime ideals into a stable postwar peace."
+   }
+  },
+  {
+   "id": "US.27-F105",
+   "std": "US.27",
+   "dok": 2,
+   "stem": "The failure of the U.S. to join the League of Nations weakened the organization primarily because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The U.S. was the world's largest economy and a major military power; its absence removed the economic and military weight needed to make League sanctions and collective security threats credible to aggressive nations"
+    },
+    {
+     "id": "B",
+     "text": "Without U.S. membership, Britain and France both refused to honor their League collective security commitments, effectively preventing the organization from functioning as a military alliance"
+    },
+    {
+     "id": "C",
+     "text": "Without the U.S. financial contribution, the League was unable to fund its Secretariat, international court system, or peacekeeping operations adequately"
+    },
+    {
+     "id": "D",
+     "text": "The U.S. Senate's rejection of the treaty meant no signatory nation was legally obligated to comply with League resolutions or accept its arbitration decisions"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "The U.S. was the world's largest economy and a major military power; its absence removed the economic and military weight needed to make League sanctions and collective security threats credible to aggressive nations, and wilson wanted nations to use collective security so aggression against one member would concern all the others. Choice A talks about without U.S. membership, Britain and France refused to join the League's collective security arrangements, but that describes a postwar peace plan, not the reason the question is asking about; Choice B talks about without the U.S., the League could not raise the funds needed to operate its Secretariat and international court system, but that describes a postwar peace plan, not the reason the question is asking about. It also shows how difficult it was to turn wartime ideals into a stable postwar peace.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "disclosure": "Classroom-formative · pre-field-test (pre-calibration) — not a secure TCAP form. First administration is what calibrates these items."
+}

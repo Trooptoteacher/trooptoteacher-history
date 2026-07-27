@@ -1,0 +1,277 @@
+{
+ "US.08": {
+  "id": "us08-q1",
+  "stem": "How did Social Darwinism apply Darwin's theory of evolution to justify economic inequality and laissez-faire capitalism?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Social Darwinism promoted equal distribution of wealth, which represents a common misconception about the period, which contradicts the primary source evidence from this era"
+   },
+   {
+    "id": "B",
+    "text": "Social Darwinism supported strong government regulation, but this oversimplifies the complex factors at work and fails to account for key developments in the broader context"
+   },
+   {
+    "id": "C",
+    "text": "It argued that wealth indicated natural superiority while poverty indicated weakness, justifying minimal government intervention and opposing social welfare"
+   },
+   {
+    "id": "D",
+    "text": "It had no connection to economic policy, despite the fact that multiple sources contradict this view, but closer analysis reveals a more complicated historical reality"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.09": {
+  "id": "us09-q1",
+  "stem": "How did the different backgrounds and experiences of Booker T. Washington and W.E.B. Du Bois shape their philosophies?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Their backgrounds had no influence on their views, although this overlooks critical economic and social factors and oversimplifies the complex factors at work during this period, which contradicts the primary source evidence from this era"
+   },
+   {
+    "id": "B",
+    "text": "Both had identical backgrounds, although historical sources do not support this conclusion, but closer analysis reveals a more complicated historical reality, although historical sources do not support this conclusion"
+   },
+   {
+    "id": "C",
+    "text": "Du Bois was born in the South and Washington in the North, which ignores key developments that shaped the outcome, which does not align with the documented historical record when examined alongside the available primary and secondary sources"
+   },
+   {
+    "id": "D",
+    "text": "Washington's experience of slavery and Southern life led him toward practical accommodation, while Du Bois's Northern upbringing and Harvard education shaped his demand for immediate rights and higher education"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.10": {
+  "id": "us10-q1",
+  "stem": "What economic and social conditions led farmers to organize into movements like the Grangers and Farmers' Alliance?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Falling crop prices, high railroad shipping rates, crushing debt, and exploitation by middlemen and monopolies drove farmers to organize for collective action"
+   },
+   {
+    "id": "B",
+    "text": "Farmers were prosperous and content, but this fails to account for the broader historical context when examined alongside the available primary and secondary sources"
+   },
+   {
+    "id": "C",
+    "text": "Farmers had no complaints about railroads, which represents a common misconception about the period, although this overlooks critical economic and social factors involved"
+   },
+   {
+    "id": "D",
+    "text": "Urban workers led the agricultural movement, yet the available evidence points to a different conclusion when examined alongside the available primary and secondary sources"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ },
+ "US.11": {
+  "id": "us11-q1",
+  "stem": "What industrial conditions and practices led to the rise of organized labor in the late 1800s?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Workers were well-paid and satisfied, although historical sources do not support this conclusion and does not reflect the scholarly consensus on this topic"
+   },
+   {
+    "id": "B",
+    "text": "Dangerous conditions, long hours, low wages, child labor, lack of job security, and exploitation drove workers to organize unions for collective protection"
+   },
+   {
+    "id": "C",
+    "text": "Unions formed only for social activities, which does not reflect the consensus among historians despite the fact that multiple contemporary sources contradict this"
+   },
+   {
+    "id": "D",
+    "text": "Government mandated union formation, but contemporary accounts suggest a different explanation, though this interpretation lacks supporting historical evidence"
+   }
+  ],
+  "correct": "B",
+  "reportingCategory": "History"
+ },
+ "US.12": {
+  "id": "us12-q1",
+  "stem": "What factors enabled the rise of trusts and monopolies during the Gilded Age?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Strong government regulation prevented monopolies, although this view has been largely discredited by scholars despite the fact that multiple contemporary sources contradict this"
+   },
+   {
+    "id": "B",
+    "text": "Monopolies were illegal and did not exist, although this overlooks critical economic and social factors, but the historical evidence paints a more nuanced picture"
+   },
+   {
+    "id": "C",
+    "text": "Horizontal and vertical integration, economies of scale, weak regulation, anti-competitive practices, and national railroad networks allowed large corporations to dominate industries"
+   },
+   {
+    "id": "D",
+    "text": "Small businesses dominated all industries, though this interpretation lacks supporting historical evidence when examined alongside the available primary and secondary sources"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.13": {
+  "id": "us13-q1",
+  "stem": "What were typical working conditions in industrial settings during the Gilded Age?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Factories were safe and comfortable, but this fails to account for the broader historical context, and this view has been largely revised by modern historical research"
+   },
+   {
+    "id": "B",
+    "text": "Government strictly regulated all workplaces, although historical sources do not support this conclusion, although historical sources do not support this conclusion"
+   },
+   {
+    "id": "C",
+    "text": "Workers had strong protections and benefits, but contemporary accounts suggest a different explanation, although this overlooks critical economic and social factors involved"
+   },
+   {
+    "id": "D",
+    "text": "Workers faced 10-16 hour days, low wages, dangerous machinery, poor ventilation, fire hazards, and no job security in overcrowded, poorly lit facilities"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.14": {
+  "id": "us14-q1",
+  "stem": "How did muckraking journalists use investigative reporting to expose corruption and social problems?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "They conducted in-depth research, interviews, and investigations to document corruption and abuses, publishing in popular magazines to inform and mobilize the public for reform"
+   },
+   {
+    "id": "B",
+    "text": "Muckrakers invented stories without evidence, but this oversimplifies the complex factors at work, which ignores significant political and cultural developments of the era"
+   },
+   {
+    "id": "C",
+    "text": "Muckrakers only wrote about positive stories, but the historical record tells a more complex story and oversimplifies the complex factors at work during this period"
+   },
+   {
+    "id": "D",
+    "text": "Their work was ignored by the public, which does not align with the documented historical record and does not reflect the scholarly consensus on this topic"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ },
+ "US.15": {
+  "id": "us15-q1",
+  "stem": "What were the main goals of the Progressive movement in increasing democratic participation and government accountability?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Progressives wanted less democracy, yet the available evidence points to a different conclusion, though this interpretation lacks supporting historical evidence"
+   },
+   {
+    "id": "B",
+    "text": "They sought to expand citizen control through direct democracy reforms, regulate big business, eliminate corruption, improve social conditions, and apply scientific methods to government"
+   },
+   {
+    "id": "C",
+    "text": "Progressives only focused on business issues, yet the available evidence points to a different conclusion, although historical sources do not support this conclusion"
+   },
+   {
+    "id": "D",
+    "text": "The movement had no clear goals, but this fails to account for the broader historical context when examined alongside the available primary and secondary sources"
+   }
+  ],
+  "correct": "B",
+  "reportingCategory": "History"
+ },
+ "US.16": {
+  "id": "us16-q1",
+  "stem": "What were the key principles of Roosevelt's Square Deal, and how did it balance competing interests?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The Square Deal only favored big business, despite the fact that multiple sources contradict this view, and this view has been largely revised by modern historical research"
+   },
+   {
+    "id": "B",
+    "text": "Roosevelt opposed government involvement in the economy, although historical sources do not support this conclusion, but closer analysis reveals a more complicated historical reality"
+   },
+   {
+    "id": "C",
+    "text": "It promised fair treatment for workers, consumers, and businesses, with government mediating between interests, regulating when necessary, and conserving resources for future generations"
+   },
+   {
+    "id": "D",
+    "text": "The Square Deal only addressed labor issues, which ignores key developments that shaped the outcome, but contemporary accounts and primary sources suggest otherwise"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.17": {
+  "id": "us17-q1",
+  "stem": "How did Wilson's New Freedom platform differ from Roosevelt's approach to progressive reform?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "New Freedom and New Nationalism were identical, which does not reflect the consensus among historians, though this interpretation lacks supporting historical evidence and oversimplifies the complex factors at work during this period"
+   },
+   {
+    "id": "B",
+    "text": "Wilson opposed all reform, which does not reflect the consensus among historians and does not reflect the scholarly consensus on this topic, which ignores significant political and cultural developments of the era"
+   },
+   {
+    "id": "C",
+    "text": "Roosevelt wanted to break up all big business, which does not reflect the consensus among historians when examined alongside the available primary and secondary sources, but the historical evidence paints a more nuanced picture"
+   },
+   {
+    "id": "D",
+    "text": "Wilson emphasized breaking up monopolies and restoring competition, while Roosevelt accepted big business but regulated it heavily—Wilson wanted to destroy monopoly power, Roosevelt wanted to control it"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.18": {
+  "id": "us18-q1",
+  "stem": "What factors motivated the women's suffrage movement, and how did it build on earlier reform movements?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "It emerged from abolitionism, gained momentum from women's increasing education and employment, and was motivated by beliefs in natural rights, desire to influence reforms, and international inspiration"
+   },
+   {
+    "id": "B",
+    "text": "The suffrage movement had no historical background, but this oversimplifies the complex factors at work, although this overlooks critical economic and social factors involved"
+   },
+   {
+    "id": "C",
+    "text": "Women's suffrage began only in 1920, although historical sources do not support this conclusion, although historical sources do not support this conclusion, and this view has been largely revised by modern historical research"
+   },
+   {
+    "id": "D",
+    "text": "The movement had no connection to other reforms, which represents a common misconception about the period, which contradicts the primary source evidence from this era and oversimplifies the complex factors at work during this period"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ }
+}

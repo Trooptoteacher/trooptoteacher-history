@@ -1,0 +1,1670 @@
+{
+ "unit": {
+  "code": "Unit 2",
+  "title": "The Progressive Era (1890–1920)",
+  "standards_range": "US.08–US.18",
+  "publisher": "TroopToTeacher Technologies LLC",
+  "footer": "U.S. History Hack · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards & TCAP EOC"
+ },
+ "standards": {
+  "US.08": {
+   "title": "Social Darwinism & Social Gospel",
+   "tn": "Explain the concepts of Social Darwinism and the Social Gospel.",
+   "ican": "I can explain the concepts of Social Darwinism and the Social Gospel and how they shaped debates over government's role in addressing social problems.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Social Darwinism",
+     "say": "",
+     "es": "Darwinismo Social",
+     "def": "The belief that Charles Darwin's theory of natural selection applied to human society, arguing that the wealthy succeeded because they were naturally superior and that poverty resulted from weakness."
+    },
+    {
+     "term": "Social Gospel",
+     "say": "",
+     "es": "Evangelio Social",
+     "def": "A religious movement that emphasized the need to apply Christian principles to social problems like poverty, inequality, and workers' rights, advocating for social reform and justice."
+    },
+    {
+     "term": "Settlement House",
+     "say": "",
+     "es": "Casa de Asentamiento",
+     "def": "Community centers in poor urban neighborhoods that provided education, childcare, healthcare, and social services to immigrants and the poor."
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Gospel of Wealth",
+     "who": "Andrew Carnegie",
+     "date": "1889",
+     "quote": "The problem of our age is the proper administration of wealth, so that the ties of brotherhood may still bind together the rich and poor in harmonious relationship. The conditions of human life have not only been changed, but revolutionized",
+     "repo": "Carnegie, Andrew. \"The Gospel of Wealth.\" 1889. Carnegie Corporation of New York, www.carnegie.org/about/our-history/gospelofwealth/.",
+     "url": "https://www.carnegie.org/about/our-history/gospelofwealth/"
+    },
+    {
+     "title": "Christianity and the Social Crisis (Social Gospel)",
+     "who": "Walter Rauschenbusch",
+     "date": "1907",
+     "quote": "The essential purpose of Christianity was to transform human society into the kingdom of God by regenerating all human relations and reconstituting them in accordance with the will of God... It is not a matter of getting individuals into he",
+     "repo": "Rauschenbusch, Walter. Christianity and the Social Crisis. Macmillan, 1907. Project Gutenberg, www.gutenberg.org.",
+     "url": "https://www.gutenberg.org/ebooks/47426"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze how these competing philosophies shaped debates over government's role in addressing social and economic problems.",
+    "options": {
+     "A": "Social Darwinism argued government should not interfere while Social Gospel supported intervention, creating a fundamental tension about whether society should address inequality that continues today",
+     "B": "Both philosophies supported the same policies, but this fails to account for the broader historical context, and this view has been largely revised by modern historical research",
+     "C": "Neither philosophy influenced government policy, despite the fact that multiple sources contradict this view, but the historical evidence paints a more nuanced picture and does not reflect the scholarly consensus on this topic",
+     "D": "Government ignored both viewpoints, although this view has been largely discredited by scholars when examined alongside the available primary and secondary sources, although historical sources do not support this conclusion"
+    },
+    "key": "A",
+    "why": "These opposing views established the framework for ongoing debates about government responsibility for social welfare, regulation of business, and addressing economic inequality."
+   },
+   "auth": {
+    "close": "Social Darwinism applied Charles Darwin's theory of \"survival of the fittest\" to human society and economics. Proponents like Herbert Spencer and William Graham Sumner argued that wealth and success were indicators of natural superiority, while poverty indicated weakness. This philosophy was used to justify laissez-faire capitalism, oppose government regulation, and resist social welfare programs. Business leaders embraced these ideas to defend monopolies, low wages, and opposition to labor reforms. The Social Gospel was a Protestant reform movement that applied Christian ethics to social problems. Leaders like Walter Rauschenbusch argued that Christians had a duty to address poverty, unsafe working conditions, and urban problems. The movement taught that salvation involved not just individual souls but also transforming society to reflect Christian values of justice and compassion. Social Gospel advocates supported settlement houses like Jane Addams' Hull House, labor reforms, and government intervention to improve society. These competing philosophies shaped debates over government's role in addressing inequality. Social Darwinism supported the status quo of industrial capitalism, arguing that helping the poor was futile and even harmful. The Social Gospel provided moral justification for Progressive Era reforms, arguing that Christians must work to create a more just society. The tension between these viewpoints continues to influence debates about welfare, regulation, and the role of government today.",
+    "close_sections": [
+     [
+      "Social Darwinism Explained",
+      "Social Darwinism applied Charles Darwin's theory of \"survival of the fittest\" to human society and economics. Proponents like Herbert Spencer and William Graham Sumner argued that wealth and success were indicators of natural superiority, while poverty indicated weakness. This philosophy was used to justify laissez-faire capitalism, oppose government regulation, and resist social welfare programs. Business leaders embraced these ideas to defend monopolies, low wages, and opposition to labor reforms."
+     ],
+     [
+      "The Social Gospel Movement",
+      "The Social Gospel was a Protestant reform movement that applied Christian ethics to social problems. Leaders like Walter Rauschenbusch argued that Christians had a duty to address poverty, unsafe working conditions, and urban problems. The movement taught that salvation involved not just individual souls but also transforming society to reflect Christian values of justice and compassion. Social Gospel advocates supported settlement houses like Jane Addams' Hull House, labor reforms, and government intervention to improve society."
+     ],
+     [
+      "Cultural and Economic Impact",
+      "These competing philosophies shaped debates over government's role in addressing inequality. Social Darwinism supported the status quo of industrial capitalism, arguing that helping the poor was futile and even harmful. The Social Gospel provided moral justification for Progressive Era reforms, arguing that Christians must work to create a more just society. The tension between these viewpoints continues to influence debates about welfare, regulation, and the role of government today."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Social Darwinism Explained” section, and what evidence supports it?",
+     "What is the main idea of the “The Social Gospel Movement” section, and what evidence supports it?",
+     "What is the main idea of the “Cultural and Economic Impact” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Social Darwinism",
+     "Social Gospel"
+    ],
+    "quiz": [
+     {
+      "id": "us08-q2",
+      "dok": 2,
+      "stem": "How did the Social Gospel movement challenge Social Darwinism by promoting Christian responsibility for social problems?",
+      "opts": {
+       "A": "The Social Gospel argued Christians had a duty to address poverty and injustice, supporting settlement houses, labor reforms, and government intervention",
+       "B": "Social Gospel leaders agreed with Social Darwinism, but this fails to account for the broader historical context and does not reflect the scholarly consensus on this topic",
+       "C": "Social Gospel focused only on individual salvation, but this oversimplifies the complex factors at work, which contradicts the primary source evidence from this era",
+       "D": "The movement opposed all social reform, which ignores key developments that shaped the outcome, which ignores significant political and cultural developments of the era"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us08-q3",
+      "dok": 2,
+      "stem": "What cultural and economic impacts did the Social Gospel have on American society and reform movements?",
+      "opts": {
+       "A": "It had no lasting impact, which does not align with the documented historical record, which ignores significant political and cultural developments of the era",
+       "B": "The movement inspired settlement houses, supported labor reforms, promoted workplace safety laws, and provided moral foundation for Progressive Era activism",
+       "C": "It only affected religious practices, despite limited evidence supporting this interpretation, though this interpretation lacks supporting historical evidence",
+       "D": "Social Gospel opposed all reform movements, which does not reflect the consensus among historians, although historical sources do not support this conclusion"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — explain the concepts of Social Darwinism and the Social Gospel and how they shaped debates over government's role in addressing social problems? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "explain the concepts of Social Darwinism and the Social Gospel and how they shaped debates over government's role in addressing social problems",
+   "targets": [
+    "explain the concepts of Social Darwinism and the Social Gospel and how they shaped debates over government's role in addressing social problems"
+   ],
+   "criteria": [
+    "Social Darwinism Explained",
+    "The Social Gospel Movement",
+    "Cultural and Economic Impact"
+   ],
+   "cues": [
+    "What does the passage say about social Darwinism Explained?",
+    "What does the passage say about the Social Gospel Movement?",
+    "What does the passage say about cultural and Economic Impact?",
+    "Key terms →"
+   ],
+   "lenses": "History · Culture",
+   "dim_map": {
+    "H": "History lens on Social Darwinism & Social Gospel: Social Darwinism applied Charles Darwin's theory of \"survival of the fittest\" to human society and economics. …",
+    "C": "Culture lens on Social Darwinism & Social Gospel: Social Darwinism applied Charles Darwin's theory of \"survival of the fittest\" to human society and economics. …"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "The Social Gospel movement had Tennessee roots. Nashville's Fisk University and its churches promoted social justice, and Tennessee minister Edgar Gardner Murphy advocated for child labor reform as a Social Gospel cause. Vanderbilt University's School of Religion became a center for Social Gospel theology in the South.",
+   "hook": "Social Darwinism & Social Gospel: Explain the concepts of Social Darwinism and the Social Gospel. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.09": {
+   "title": "Booker T. Washington vs W.E.B. Du Bois",
+   "tn": "Compare and contrast the ideas and philosophies of Booker T. Washington and W.E.B. Du Bois. (TCA)",
+   "ican": "I can compare and contrast the ideas and philosophies of Booker T. Washington and W.E.B. Du Bois regarding education, civil rights, and strategies for African American advancement.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Booker T. Washington",
+     "say": "",
+     "es": "Booker T. Washington",
+     "def": "African American educator who founded Tuskegee Institute and advocated for vocational education and economic self-reliance as the path to Black advancement."
+    },
+    {
+     "term": "W.E.B. Du Bois",
+     "say": "",
+     "es": "W.E.B. Du Bois",
+     "def": "African American scholar and activist who demanded immediate civil rights and higher education for Black Americans, founding the NAACP and opposing Washington's accommodationist approach."
+    },
+    {
+     "term": "Atlanta Compromise (1895)",
+     "say": "",
+     "es": "Compromiso de Atlanta (1895)",
+     "def": "Famous speech where he urged Black Americans to \"cast down your bucket where you are\"—accept segregation temporarily and prove their worth through economic success"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Atlanta Compromise Speech",
+     "who": "Booker T. Washington",
+     "date": "1895",
+     "quote": "In all things that are purely social we can be as separate as the fingers, yet one as the hand in all things essential to mutual progress. There is no defense or security for any of us except in the highest intelligence and development of a",
+     "repo": "Washington, Booker T. \"Atlanta Compromise Speech.\" 1895. History Matters, historymatters.gmu.edu/d/39/.",
+     "url": "https://historymatters.gmu.edu/d/39/"
+    },
+    {
+     "title": "The Souls of Black Folk",
+     "who": "W.E.B. Du Bois",
+     "date": "1903",
+     "quote": "Mr. Washington distinctly asks that black people give up, at least for the present, three things—First, political power, Second, insistence on civil rights, Third, higher education of Negro youth... Is it possible, and probable, that nine m",
+     "repo": "Du Bois, W.E.B. \"The Souls of Black Folk.\" 1903. Library of Congress, www.loc.gov/item/03036475/.",
+     "url": "https://www.loc.gov/item/03036475/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Evaluate which approach was more effective for advancing African American progress during this era.",
+    "options": {
+     "A": "Washington's approach completely succeeded, yet the available evidence points to a different conclusion and oversimplifies the complex factors at work during this period and fails to account for key developments in the broader context",
+     "B": "Both contributed: Washington built institutions and economic opportunity while Du Bois established organizations like the NAACP that would lead later civil rights victories—different strategies served different needs",
+     "C": "Neither approach had any impact, but this oversimplifies the complex factors at work, which ignores significant political and cultural developments of the era, which represents a common misconception about this historical period",
+     "D": "Du Bois's approach achieved everything during his lifetime, which contradicts the primary source evidence from this era and does not reflect the scholarly consensus on this topic, which contradicts the primary source evidence from this era"
+    },
+    "key": "B",
+    "why": "Both approaches had value: Washington's pragmatism built important institutions in a hostile environment, while Du Bois's activism established the foundations for the later Civil Rights Movement."
+   },
+   "auth": {
+    "close": "Booker T. Washington (1856-1915) was born into slavery in Virginia and rose to found Tuskegee Institute in Alabama. His 1895 Atlanta Compromise speech made him the most prominent African American leader of his era. W.E.B. Du Bois (1868-1963) was born free in Massachusetts and became the first African American to earn a Ph.D. from Harvard. He co-founded the NAACP (1909) and challenged Washington's approach in his book \"The Souls of Black Folk\" (1903). Their different origins shaped their different philosophies. Washington emphasized vocational and industrial training to prepare African Americans for jobs in agriculture and trades. He believed economic self-sufficiency would gradually lead to respect and equal rights. Du Bois advocated for classical liberal arts education, especially for the \"Talented Tenth\"—the top 10% of African Americans who would become leaders and professionals to lift up the entire race. Du Bois argued that limiting education to vocational training would permanently consign African Americans to second-class status. Washington favored accommodation and gradualism, publicly accepting segregation temporarily while working behind the scenes for civil rights. He believed economic progress would eventually lead to social and political equality without direct confrontation. Du Bois demanded immediate civil and political rights, opposing accommodation and calling for direct action to secure voting rights, end segregation, and achieve full equality. He founded the Niagara Movement (1905) and later the NAACP to fight through political and legal means. Washington discouraged political agitation, working instead through economic development and relationships with white philanthropists and politicians. He built a powerful network called the \"Tuskegee Machine\" that influenced patronage and funding. Du Bois advocated for political activism, legal challenges, and organized protest. He believed African Americans should vote, run for office, and use every legal means to achieve equality. These competing strategies represented fundamental disagreements about how oppressed people should seek justice.",
+    "close_sections": [
+     [
+      "Background and Origins",
+      "Booker T. Washington (1856-1915) was born into slavery in Virginia and rose to found Tuskegee Institute in Alabama. His 1895 Atlanta Compromise speech made him the most prominent African American leader of his era. W.E.B. Du Bois (1868-1963) was born free in Massachusetts and became the first African American to earn a Ph.D. from Harvard. He co-founded the NAACP (1909) and challenged Washington's approach in his book \"The Souls of Black Folk\" (1903). Their different origins shaped their different philosophies."
+     ],
+     [
+      "Educational Philosophy",
+      "Washington emphasized vocational and industrial training to prepare African Americans for jobs in agriculture and trades. He believed economic self-sufficiency would gradually lead to respect and equal rights. Du Bois advocated for classical liberal arts education, especially for the \"Talented Tenth\"—the top 10% of African Americans who would become leaders and professionals to lift up the entire race. Du Bois argued that limiting education to vocational training would permanently consign African Americans to second-class status."
+     ],
+     [
+      "Approach to Rights and Equality",
+      "Washington favored accommodation and gradualism, publicly accepting segregation temporarily while working behind the scenes for civil rights. He believed economic progress would eventually lead to social and political equality without direct confrontation. Du Bois demanded immediate civil and political rights, opposing accommodation and calling for direct action to secure voting rights, end segregation, and achieve full equality. He founded the Niagara Movement (1905) and later the NAACP to fight through political and legal means."
+     ],
+     [
+      "Political Strategies",
+      "Washington discouraged political agitation, working instead through economic development and relationships with white philanthropists and politicians. He built a powerful network called the \"Tuskegee Machine\" that influenced patronage and funding. Du Bois advocated for political activism, legal challenges, and organized protest. He believed African Americans should vote, run for office, and use every legal means to achieve equality. These competing strategies represented fundamental disagreements about how oppressed people should seek justice."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Background and Origins” section, and what evidence supports it?",
+     "What is the main idea of the “Educational Philosophy” section, and what evidence supports it?",
+     "What is the main idea of the “Approach to Rights and Equality” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Booker T. Washington",
+     "W.E.B. Du Bois"
+    ],
+    "quiz": [
+     {
+      "id": "us09-q2",
+      "dok": 2,
+      "stem": "Compare their approaches to education: Washington's emphasis on vocational training versus Du Bois's \"Talented Tenth\" concept.",
+      "opts": {
+       "A": "Washington promoted industrial training for economic self-sufficiency while Du Bois advocated classical education to develop leaders who would advance the entire race",
+       "B": "Both supported only vocational education, although this overlooks critical economic and social factors, but contemporary accounts and primary sources suggest otherwise",
+       "C": "Both opposed education for African Americans, but the historical record tells a more complex story and fails to account for key developments in the broader context",
+       "D": "Du Bois supported only vocational training, but this fails to account for the broader historical context and oversimplifies the complex factors at work during this period"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us09-q3",
+      "dok": 2,
+      "stem": "How did Washington's accommodation strategy differ from Du Bois's demand for immediate civil rights?",
+      "opts": {
+       "A": "Both demanded immediate political rights, but this oversimplifies the complex factors at work, which contradicts the primary source evidence from this era, which does not align with the documented historical record",
+       "B": "Washington publicly accepted temporary segregation while working quietly for change, whereas Du Bois insisted on immediate voting rights, end to segregation, and full equality through political action",
+       "C": "Washington demanded immediate rights while Du Bois favored accommodation, despite the fact that multiple sources contradict this view, though this interpretation lacks supporting historical evidence",
+       "D": "Neither addressed civil rights issues, though this interpretation lacks supporting historical evidence, which contradicts the primary source evidence from this era, but the historical evidence paints a more nuanced picture"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — compare and contrast the ideas and philosophies of Booker T. Washington and W.E.B. Du Bois regarding education, civil rights, and strategies for African American advancement? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "compare and contrast the ideas and philosophies of Booker T. Washington and W.E.B. Du Bois regarding education, civil rights, and strategies for African American advancement",
+   "targets": [
+    "compare and contrast the ideas and philosophies of Booker T. Washington and W.E.B. Du Bois regarding education, civil rights, and strategies for African American advancement"
+   ],
+   "criteria": [
+    "Background and Origins",
+    "Educational Philosophy",
+    "Approach to Rights and Equality"
+   ],
+   "cues": [
+    "What does the passage say about background and Origins?",
+    "What does the passage say about educational Philosophy?",
+    "What does the passage say about approach to Rights and Equality?",
+    "Key terms →"
+   ],
+   "lenses": "Culture · History · Tennessee Connection",
+   "dim_map": {
+    "C": "Culture lens on Booker T. Washington vs W.E.B. Du Bois: Booker T. Washington (1856-1915) was born into slavery in Virginia and rose to found Tuskegee Institute in Ala…",
+    "H": "History lens on Booker T. Washington vs W.E.B. Du Bois: Booker T. Washington (1856-1915) was born into slavery in Virginia and rose to found Tuskegee Institute in Ala…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Fisk University in Nashville was central to the debate between Washington and Du Bois's philosophies. W.E.B. Du Bois attended Fisk and the university became a hub for higher education advocacy for African Americans. (TCA reference in standard)",
+   "hook": "Booker T. Washington vs W.E.B. Du Bois: Compare and contrast the ideas and philosophies of Booker T. Washington and W.E.B. Du Bois. (TCA). Who gained, who was left out — and why does it still matter?"
+  },
+  "US.10": {
+   "title": "Populism & Granger Movement",
+   "tn": "Explain the characteristics and impact of the Granger movement and populism, emphasizing the conflicts between farmers and the railroads.",
+   "ican": "I can explain the characteristics and impact of the Granger movement and populism, emphasizing the conflicts between farmers and the railroads.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Populism",
+     "say": "",
+     "es": "Populismo",
+     "def": "A political movement representing the interests of ordinary people, especially farmers, against wealthy elites and corporations. Populists called for government regulation of railroads, graduated income tax, and more democracy."
+    },
+    {
+     "term": "Granger Movement",
+     "say": "",
+     "es": "Movimiento Granger",
+     "def": "A farmers' organization formed in the 1860s-1870s to combat the power of railroads and grain elevator companies. Grangers pushed for state laws regulating railroad rates and corporate practices."
+    },
+    {
+     "term": "Farmers' Alliance",
+     "say": "",
+     "es": "Alianza de Agricultores",
+     "def": "A coalition of farmers' organizations in the 1870s-1890s that promoted cooperative buying and selling, education, and political action. The Alliance evolved into the Populist Party."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Populist Party Platform",
+     "who": "People's Party National Convention",
+     "date": "1892",
+     "quote": "We demand free and unlimited coinage of silver and gold at the present legal ratio of 16 to 1... We demand a graduated income tax... We believe that the power of government—in other words, of the people—should be expanded... to the end that",
+     "repo": "People's Party National Convention. \"Populist Party Platform.\" 1892. Library of Congress, www.loc.gov/item/90898110/.",
+     "url": "https://www.loc.gov/item/90898110/"
+    },
+    {
+     "title": "Cross of Gold Speech",
+     "who": "William Jennings Bryan",
+     "date": "July 9, 1896",
+     "quote": "We have petitioned, and our petitions have been scorned; we have entreated, and our entreaties have been disregarded... We beg no longer; we entreat no more; we petition no more. We defy them... You shall not crucify mankind upon a cross of",
+     "repo": "Bryan, William Jennings. \"Cross of Gold Speech.\" 9 July 1896. Library of Congress, www.loc.gov.",
+     "url": "https://www.loc.gov/exhibitions/william-jennings-bryan/about-this-exhibition/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze why the Populist movement ultimately failed but influenced later Progressive reforms.",
+    "options": {
+     "A": "Populism had no lasting influence, but contemporary accounts suggest a different explanation despite the fact that multiple contemporary sources contradict this, and this view has been largely revised by modern historical research",
+     "B": "Populism succeeded in all its goals immediately, although historical sources do not support this conclusion, but contemporary accounts and primary sources suggest otherwise and fails to account for key developments in the broader context",
+     "C": "The movement failed electorally when Bryan lost in 1896, but its ideas—income tax, direct election of senators, railroad regulation—were adopted by Progressives, showing how failed movements can shape future reform",
+     "D": "Progressive reforms were unrelated to Populism, although historical sources do not support this conclusion, which ignores significant political and cultural developments of the era, although historical sources do not support this conclusion"
+    },
+    "key": "C",
+    "why": "While Populism lost politically, its reform agenda was largely adopted by the Progressive movement, demonstrating how political movements can influence policy even after electoral defeat."
+   },
+   "auth": {
+    "close": "Populism was a political movement representing farmers and laborers who felt exploited by big business, railroads, and banks. Populists sought government regulation of monopolies, currency reform, and greater democratic participation to protect common people from wealthy elites. The movement emerged from agricultural distress as farmers faced falling crop prices, high railroad shipping rates, and crushing debt. Populism represented the first major challenge to industrial capitalism's dominance of American politics. The Patrons of Husbandry (Grangers), founded in 1867 by Oliver Kelley, organized farmers into cooperatives to bypass middlemen and lobbied for state laws regulating railroad rates and grain elevator charges (Granger Laws). The Farmers' Alliance, more politically active than the Grangers, organized cooperatives, pushed for government ownership of railroads, and formed the foundation of the People's Party (Populist Party) in 1892. These organizations gave farmers political voice and demonstrated the power of collective action. Farmers faced discriminatory pricing from railroads that charged more for short hauls than long hauls and gave rebates to big shippers while gouging small farmers. Railroad monopolies controlled the only means of getting crops to market, leaving farmers no alternatives. Grain elevator operators, often connected to railroads, charged excessive storage fees. These grievances led farmers to demand government regulation of railroads as common carriers serving the public interest, not just private profit. Populists demanded fundamental economic reforms: banking reform through an end to the gold standard and adoption of bimetallism (gold and silver currency) to inflate the money supply, raise crop prices, and ease farmers' debts; a graduated income tax to shift the tax burden from farmers to wealthy industrialists; government ownership or regulation of railroads, telegraph, and telephone as public utilities; direct election of senators; and secret ballot voting. Many of these reforms were later adopted during the Progressive Era.",
+    "close_sections": [
+     [
+      "Understanding Populism",
+      "Populism was a political movement representing farmers and laborers who felt exploited by big business, railroads, and banks. Populists sought government regulation of monopolies, currency reform, and greater democratic participation to protect common people from wealthy elites. The movement emerged from agricultural distress as farmers faced falling crop prices, high railroad shipping rates, and crushing debt. Populism represented the first major challenge to industrial capitalism's dominance of American politics."
+     ],
+     [
+      "The Granger Movement and Farmers' Alliance",
+      "The Patrons of Husbandry (Grangers), founded in 1867 by Oliver Kelley, organized farmers into cooperatives to bypass middlemen and lobbied for state laws regulating railroad rates and grain elevator charges (Granger Laws). The Farmers' Alliance, more politically active than the Grangers, organized cooperatives, pushed for government ownership of railroads, and formed the foundation of the People's Party (Populist Party) in 1892. These organizations gave farmers political voice and demonstrated the power of collective action."
+     ],
+     [
+      "Farmer vs. Railroad Conflicts",
+      "Farmers faced discriminatory pricing from railroads that charged more for short hauls than long hauls and gave rebates to big shippers while gouging small farmers. Railroad monopolies controlled the only means of getting crops to market, leaving farmers no alternatives. Grain elevator operators, often connected to railroads, charged excessive storage fees. These grievances led farmers to demand government regulation of railroads as common carriers serving the public interest, not just private profit."
+     ],
+     [
+      "Populist Reform Demands",
+      "Populists demanded fundamental economic reforms: banking reform through an end to the gold standard and adoption of bimetallism (gold and silver currency) to inflate the money supply, raise crop prices, and ease farmers' debts; a graduated income tax to shift the tax burden from farmers to wealthy industrialists; government ownership or regulation of railroads, telegraph, and telephone as public utilities; direct election of senators; and secret ballot voting. Many of these reforms were later adopted during the Progressive Era."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Understanding Populism” section, and what evidence supports it?",
+     "What is the main idea of the “The Granger Movement and Farmers' Alliance” section, and what evidence supports it?",
+     "What is the main idea of the “Farmer vs. Railroad Conflicts” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Populism",
+     "Granger Movement"
+    ],
+    "quiz": [
+     {
+      "id": "us10-q2",
+      "dok": 2,
+      "stem": "How did conflicts between farmers and railroads demonstrate the need for government regulation of big business?",
+      "opts": {
+       "A": "Railroad monopolies charged discriminatory rates, gave rebates to large shippers, and left farmers with no alternatives, showing that unregulated monopolies harmed the public interest",
+       "B": "Railroads treated all customers fairly, which ignores key developments that shaped the outcome when examined alongside the available primary and secondary sources",
+       "C": "Farmers supported railroad pricing practices, which does not align with the documented historical record and oversimplifies the complex factors at work during this period",
+       "D": "Government already regulated all railroad rates, but this oversimplifies the complex factors at work, which ignores significant political and cultural developments of the era"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us10-q3",
+      "dok": 2,
+      "stem": "What reforms did Populists advocate, including banking reform, graduated income tax, and utility regulation?",
+      "opts": {
+       "A": "Populists supported the gold standard and opposed taxation, but this fails to account for the broader historical context, but the historical evidence paints a more nuanced picture",
+       "B": "They demanded bimetallism to inflate currency and help debtors, graduated income taxes on the wealthy, and government control of railroads, telegraph, and telephone as public utilities",
+       "C": "Populists opposed all government regulation, despite the fact that multiple sources contradict this view when examined alongside the available primary and secondary sources",
+       "D": "They only focused on religious reform, although historical sources do not support this conclusion despite the fact that multiple contemporary sources contradict this"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — explain the characteristics and impact of the Granger movement and populism, emphasizing the conflicts between farmers and the railroads? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "explain the characteristics and impact of the Granger movement and populism, emphasizing the conflicts between farmers and the railroads",
+   "targets": [
+    "explain the characteristics and impact of the Granger movement and populism, emphasizing the conflicts between farmers and the railroads"
+   ],
+   "criteria": [
+    "Understanding Populism",
+    "The Granger Movement and Farmers' Alliance",
+    "Farmer vs. Railroad Conflicts"
+   ],
+   "cues": [
+    "What does the passage say about understanding Populism?",
+    "What does the passage say about the Granger Movement and Farmers' Alliance?",
+    "What does the passage say about farmer vs. Railroad Conflicts?",
+    "Key terms →"
+   ],
+   "lenses": "Economics · Politics/Government · History",
+   "dim_map": {
+    "E": "Economics lens on Populism & Granger Movement: Populism was a political movement representing farmers and laborers who felt exploited by big business, railro…",
+    "P": "Politics/Government lens on Populism & Granger Movement: Populism was a political movement representing farmers and laborers who felt exploited by big business, railro…",
+    "H": "History lens on Populism & Granger Movement: Populism was a political movement representing farmers and laborers who felt exploited by big business, railro…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Tennessee farmers were active participants in the Granger movement and populism. The Farmers' Alliance had strong chapters across rural Tennessee, and the state's agrarian economy — dependent on cotton and tobacco — made Tennessee farmers particularly receptive to populist calls for railroad regulation and currency reform.",
+   "hook": "Populism & Granger Movement: Explain the characteristics and impact of the Granger movement and populism, emphasizing the conflicts between farmers and the railroads. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.11": {
+   "title": "Rise of the Labor Movement",
+   "tn": "Explain the rise of the labor movement, union tactics (e.g. strikes), the role of leaders (e.g. Eugene Debs and Samuel Gompers), the unjust use of prison labor (e.g. Coal Creek labor saga), and the responses of management and government.",
+   "ican": "I can explain the rise of the labor movement, union tactics such as strikes, the role of leaders like Eugene Debs and Samuel Gompers, the unjust use of prison labor including the Coal Creek labor saga, and the responses of management and government.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Labor Union",
+     "say": "",
+     "es": "Sindicato Laboral",
+     "def": "An organization of workers formed to protect their rights, improve working conditions, and negotiate for better wages through collective bargaining."
+    },
+    {
+     "term": "Strike",
+     "say": "",
+     "es": "Huelga",
+     "def": "A work stoppage organized by workers to protest conditions and force employers to meet their demands for better pay, hours, or working conditions."
+    },
+    {
+     "term": "Collective Bargaining",
+     "say": "",
+     "es": "Negociación Colectiva",
+     "def": "The process where union representatives negotiate with employers on behalf of all workers to reach agreements on wages, hours, and working conditions."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Samuel Gompers Address",
+     "who": "Samuel Gompers, AFL President",
+     "date": "1893",
+     "quote": "What does labor want? We want more schoolhouses and less jails; more books and less arsenals; more learning and less vice; more leisure and less greed; more justice and less revenge; in fact, more of the opportunities to cultivate our bette",
+     "repo": "Gompers, Samuel. \"What Does Labor Want?\" 1893. Library of Congress, www.loc.gov/collections/samuel-gompers-papers/.",
+     "url": "https://www.loc.gov/collections/samuel-gompers-papers/"
+    },
+    {
+     "title": "Petition of the Committee of Citizens of Coal Creek to the Tennessee National Guard",
+     "who": "Committee of Citizens of Coal Creek, Anderson County, Tennessee",
+     "date": "July 22, 1892",
+     "quote": "The Coal Creek miners of Anderson County, Tennessee, rose in a series of armed uprisings between 1891 and 1892 to protest the state's convict lease system, by which the Tennessee Coal, Iron & Railroad Company replaced free miners with state",
+     "repo": "Committee of Citizens of Coal Creek. Petition to the Tennessee National Guard. 22 July 1892. Tennessee National Guard Adjutant General's Office Files, Record Gr",
+     "url": "https://teva.contentdm.oclc.org/digital/collection/p15138coll18/id/704/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze why government and business leaders often opposed labor unions and used force to break strikes.",
+    "options": {
+     "A": "Business and government supported all union activities, but this fails to account for the broader historical context, which does not align with the documented historical record, but contemporary accounts and primary sources suggest otherwise",
+     "B": "Government remained neutral in all labor disputes, but the historical record tells a more complex story, although this overlooks critical economic and social factors involved, which represents a common misconception about this historical period",
+     "C": "Unions never faced any opposition, despite the fact that multiple sources contradict this view despite the fact that multiple contemporary sources contradict this, although historical sources do not support this conclusion",
+     "D": "Unions threatened corporate profits and control, so owners used strikebreakers and private security while government deployed troops and injunctions, viewing organized labor as dangerous to economic and social order"
+    },
+    "key": "D",
+    "why": "The alliance between business and government against unions reflected shared interests in maintaining industrial production, controlling workers, and preserving the existing economic system."
+   },
+   "auth": {
+    "close": "Rapid industrialization created dangerous working conditions with workers facing 10-16 hour workdays, low wages often below subsistence level, and no job security. Child labor was widespread, and economic depressions caused unemployment and wage cuts. Immigration provided cheap labor that undercut American workers' bargaining power. These conditions drove workers to organize unions for collective bargaining, workplace safety, and fair wages. Labor unions employed various tactics to pressure employers: strikes (work stoppages), boycotts (refusing to buy products from anti-union companies), collective bargaining (negotiating as a group), picketing (protesting outside workplaces), and solidarity (supporting other unions during disputes). These tactics gave workers leverage they lacked as individuals, though employers and government often responded with force. Eugene Debs led the American Railway Union and organized the Pullman Strike (1894). Imprisoned for defying federal court injunctions, he later became a Socialist Party presidential candidate, advocating for industrial unions that included all workers regardless of skill. Samuel Gompers founded and led the American Federation of Labor (AFL), focusing on \"bread and butter\" issues—wages, hours, working conditions—rather than political revolution. He organized skilled workers into craft unions and avoided radical politics, making the AFL the dominant labor organization. Tennessee leased convicts to private companies as cheap labor, undermining free miners' wages. When convicts were used to break a strike at Coal Creek (1891-1892), armed miners freed the prisoners and burned the stockades. The conflict led to military intervention but eventually ended the convict lease system in Tennessee. This episode demonstrated how prison labor was used against free workers and how workers could challenge unjust systems through direct action. Management used strikebreakers (\"scabs\"), private security forces like the Pinkertons, blacklists of union members, and lockouts to break unions. Government often sided with business, using federal troops to break strikes, issuing court injunctions against union activities, and prosecuting union leaders. The Sherman Antitrust Act was initially used more against unions as \"conspiracies in restraint of trade\" than against business monopolies.",
+    "close_sections": [
+     [
+      "Factors Leading to Labor Organization",
+      "Rapid industrialization created dangerous working conditions with workers facing 10-16 hour workdays, low wages often below subsistence level, and no job security. Child labor was widespread, and economic depressions caused unemployment and wage cuts. Immigration provided cheap labor that undercut American workers' bargaining power. These conditions drove workers to organize unions for collective bargaining, workplace safety, and fair wages."
+     ],
+     [
+      "Union Tactics and Strategies",
+      "Labor unions employed various tactics to pressure employers: strikes (work stoppages), boycotts (refusing to buy products from anti-union companies), collective bargaining (negotiating as a group), picketing (protesting outside workplaces), and solidarity (supporting other unions during disputes). These tactics gave workers leverage they lacked as individuals, though employers and government often responded with force."
+     ],
+     [
+      "Key Labor Leaders",
+      "Eugene Debs led the American Railway Union and organized the Pullman Strike (1894). Imprisoned for defying federal court injunctions, he later became a Socialist Party presidential candidate, advocating for industrial unions that included all workers regardless of skill. Samuel Gompers founded and led the American Federation of Labor (AFL), focusing on \"bread and butter\" issues—wages, hours, working conditions—rather than political revolution. He organized skilled workers into craft unions and avoided radical politics, making the AFL the dominant labor organization."
+     ],
+     [
+      "Tennessee's Coal Creek Saga and Prison Labor",
+      "Tennessee leased convicts to private companies as cheap labor, undermining free miners' wages. When convicts were used to break a strike at Coal Creek (1891-1892), armed miners freed the prisoners and burned the stockades. The conflict led to military intervention but eventually ended the convict lease system in Tennessee. This episode demonstrated how prison labor was used against free workers and how workers could challenge unjust systems through direct action."
+     ],
+     [
+      "Management and Government Responses",
+      "Management used strikebreakers (\"scabs\"), private security forces like the Pinkertons, blacklists of union members, and lockouts to break unions. Government often sided with business, using federal troops to break strikes, issuing court injunctions against union activities, and prosecuting union leaders. The Sherman Antitrust Act was initially used more against unions as \"conspiracies in restraint of trade\" than against business monopolies."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Factors Leading to Labor Organization” section, and what evidence supports it?",
+     "What is the main idea of the “Union Tactics and Strategies” section, and what evidence supports it?",
+     "What is the main idea of the “Key Labor Leaders” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Labor Union",
+     "Strike"
+    ],
+    "quiz": [
+     {
+      "id": "us11-q2",
+      "dok": 2,
+      "stem": "How did labor leaders like Eugene Debs and Samuel Gompers use different strategies to advance workers' rights?",
+      "opts": {
+       "A": "Debs advocated industrial unions including all workers and embraced socialism, while Gompers organized skilled workers into craft unions and focused on practical gains through negotiation rather than political revolution",
+       "B": "Both used identical approaches, which ignores key developments that shaped the outcome, but the historical evidence paints a more nuanced picture, although historical sources do not support this conclusion",
+       "C": "Neither was involved in labor organizing, although historical sources do not support this conclusion and fails to account for key developments in the broader context, which ignores significant political and cultural developments of the era",
+       "D": "Gompers was more radical than Debs, despite the fact that multiple sources contradict this view, although historical sources do not support this conclusion, but the historical evidence paints a more nuanced picture"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us11-q3",
+      "dok": 2,
+      "stem": "What was the significance of Tennessee's Coal Creek labor conflict in challenging the convict lease system?",
+      "opts": {
+       "A": "Coal Creek had no impact on labor history, which represents a common misconception about the period, although historical sources do not support this conclusion",
+       "B": "Armed miners freed convict laborers and burned stockades, eventually ending Tennessee's use of prison labor to undercut free workers' wages and break strikes",
+       "C": "Miners supported the convict lease system, but contemporary accounts suggest a different explanation and fails to account for key developments in the broader context",
+       "D": "The conflict only affected national politics, although historical sources do not support this conclusion and fails to account for key developments in the broader context"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — explain the rise of the labor movement, union tactics such as strikes, the role of leaders like Eugene Debs and Samuel Gompers, the unjust use of prison labor including the Coal Creek labor saga, and the responses of management and government? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "explain the rise of the labor movement, union tactics such as strikes, the role of leaders like Eugene Debs and Samuel Gompers, the unjust use of prison labor including the Coal Creek labor saga, and the responses of management and government",
+   "targets": [
+    "explain the rise of the labor movement, union tactics such as strikes, the role of leaders like Eugene Debs and Samuel Gompers, the unjust use of prison labor including the Coal Creek labor saga, and the responses of management and government"
+   ],
+   "criteria": [
+    "Factors Leading to Labor Organization",
+    "Union Tactics and Strategies",
+    "Key Labor Leaders"
+   ],
+   "cues": [
+    "What does the passage say about factors Leading to Labor Organization?",
+    "What does the passage say about union Tactics and Strategies?",
+    "What does the passage say about key Labor Leaders?",
+    "Key terms →"
+   ],
+   "lenses": "Economics · History · Culture",
+   "dim_map": {
+    "E": "Economics lens on Rise of the Labor Movement: Rapid industrialization created dangerous working conditions with workers facing 10-16 hour workdays, low wage…",
+    "H": "History lens on Rise of the Labor Movement: Rapid industrialization created dangerous working conditions with workers facing 10-16 hour workdays, low wage…",
+    "C": "Culture lens on Rise of the Labor Movement: Rapid industrialization created dangerous working conditions with workers facing 10-16 hour workdays, low wage…"
+   },
+   "geo": "Locate the major sites of labor unrest in this era and mark what workers there were fighting for. The places and where they are are listed below — you do NOT have to know them from memory.",
+   "geo_places": [
+    [
+     "Homestead",
+     "Pennsylvania",
+     "1892 Homestead Strike at Carnegie’s steel works"
+    ],
+    [
+     "Pullman / Chicago",
+     "Illinois",
+     "1894 Pullman railcar strike"
+    ],
+    [
+     "Coal Creek / Anderson County",
+     "Tennessee",
+     "1891–92 Coal Creek War over convict-lease labor"
+    ]
+   ],
+   "tn_connection": "Tennessee's coal mining regions saw significant labor unrest during this era, including the Coal Creek War (1891-1892) where miners fought against the convict lease system in Anderson County.",
+   "hook": "Rise of the Labor Movement: Explain the rise of the labor movement, union tactics (e.g. strikes), the role of leaders (e.g. Eugene Debs and Samuel Gompers), the unjust use of prison labor (e.g. Coal Creek labor saga), and the responses of management and government. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.12": {
+   "title": "Trusts, Monopolies & Antitrust",
+   "tn": "Describe the rise of trusts and monopolies, their impact on consumers and workers, and the government's response, including the Sherman Antitrust Act of 1890 and the Clayton Antitrust Act of 1914.",
+   "ican": "I can describe the rise of trusts and monopolies, their impact on consumers and workers, and the government's response, including the Sherman Antitrust Act of 1890 and the Clayton Antitrust Act of 1914.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Trust",
+     "say": "",
+     "es": "Trust (Fideicomiso)",
+     "def": "A legal arrangement where stockholders in several companies transferred their shares to a board of trustees, creating a monopoly while appearing to remain separate companies."
+    },
+    {
+     "term": "Sherman Antitrust Act",
+     "say": "",
+     "es": "Ley Sherman Antimonopolio",
+     "def": "An 1890 federal law that prohibited monopolies and business practices that restrained trade, though it was initially weakly enforced."
+    },
+    {
+     "term": "Labor Union",
+     "say": "",
+     "es": "Sindicato Laboral",
+     "def": "An organization of workers formed to protect their rights, improve working conditions, and negotiate for better wages through collective bargaining."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sherman Antitrust Act",
+     "who": "U.S. Congress",
+     "date": "1890",
+     "quote": "Every contract, combination in the form of trust or otherwise, or conspiracy, in restraint of trade or commerce among the several States, or with foreign nations, is declared to be illegal... Every person who shall monopolize, or attempt to",
+     "repo": "United States Congress. \"Sherman Antitrust Act.\" 1890. National Archives, https://www.archives.gov/milestone-documents/sherman-anti-trust-act.",
+     "url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act"
+    },
+    {
+     "title": "Northern Securities Co. v. United States (Majority Opinion)",
+     "who": "Justice John Marshall Harlan, Supreme Court of the United States",
+     "date": "March 14, 1904",
+     "quote": "No scheme or device... could more certainly come within the words of the [Sherman] act... or could more effectively and certainly suppress free competition... If such combination be not destroyed, all the advantages that would naturally com",
+     "repo": "Harlan, John Marshall. \"Northern Securities Co. v. United States, 193 U.S. 197.\" 14 Mar. 1904. Legal Information Institute, Cornell Law School, www.law.cornell.",
+     "url": "https://www.law.cornell.edu/supremecourt/text/193/197"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Evaluate whether the Clayton Antitrust Act of 1914 successfully addressed the limitations of earlier antitrust legislation.",
+    "options": {
+     "A": "By specifying illegal practices, exempting labor unions, and creating the FTC for enforcement, the Clayton Act improved antitrust effectiveness, though success still depended on political will to enforce it",
+     "B": "The Clayton Act was identical to the Sherman Act, which represents a common misconception about the period and fails to account for key developments in the broader context, but contemporary accounts and primary sources suggest otherwise",
+     "C": "The Clayton Act weakened antitrust enforcement, which represents a common misconception about the period, which represents a common misconception about this historical period and does not reflect the scholarly consensus on this topic",
+     "D": "Antitrust laws had no impact on business practices, but the historical record tells a more complex story, and this view has been largely revised by modern historical research, but the historical evidence paints a more nuanced picture"
+    },
+    "key": "A",
+    "why": "The Clayton Act made significant improvements by clarifying prohibited practices and protecting unions, though effective antitrust enforcement remained dependent on presidential and judicial commitment."
+   },
+   "auth": {
+    "close": "Industrial consolidation occurred through horizontal integration (buying competitors) and vertical integration (controlling the entire supply chain from raw materials to finished products). Economies of scale made large corporations more efficient, while weak government regulation allowed anti-competitive practices like predatory pricing, secret railroad rebates, and market manipulation. Railroad networks enabled national markets that could be dominated by large firms with sufficient capital. Monopolies hurt consumers through higher prices, limited product choices, and price-fixing schemes. Workers faced exploitation through low wages, dangerous conditions, and suppression of unions—monopolies could blacklist troublemakers across entire industries. Small businesses were driven out through predatory pricing and exclusive dealing arrangements. Competition was stifled, innovation discouraged, and markets manipulated for maximum profit rather than public benefit. Public outcry over monopolistic abuses, farmers hurt by railroad and industrial trusts, and political pressure from Populists led to the Sherman Antitrust Act. The law prohibited \"restraint of trade\" and monopolization. However, vague language made prosecution difficult, weak enforcement limited its impact, and it was initially used more against unions (as \"conspiracies in restraint of trade\") than against the business trusts it was intended to control. The Clayton Act addressed Sherman Act weaknesses by specifying illegal practices: price discrimination, exclusive dealing arrangements, and interlocking directorates (the same people serving on competing companies' boards). Crucially, it exempted labor unions from antitrust prosecution, recognizing that workers organizing for better conditions was different from businesses conspiring to fix prices. The Federal Trade Commission (1914) was created to enforce antitrust laws more effectively.",
+    "close_sections": [
+     [
+      "Rise of Trusts and Monopolies",
+      "Industrial consolidation occurred through horizontal integration (buying competitors) and vertical integration (controlling the entire supply chain from raw materials to finished products). Economies of scale made large corporations more efficient, while weak government regulation allowed anti-competitive practices like predatory pricing, secret railroad rebates, and market manipulation. Railroad networks enabled national markets that could be dominated by large firms with sufficient capital."
+     ],
+     [
+      "Impact on Consumers, Workers, and Competition",
+      "Monopolies hurt consumers through higher prices, limited product choices, and price-fixing schemes. Workers faced exploitation through low wages, dangerous conditions, and suppression of unions—monopolies could blacklist troublemakers across entire industries. Small businesses were driven out through predatory pricing and exclusive dealing arrangements. Competition was stifled, innovation discouraged, and markets manipulated for maximum profit rather than public benefit."
+     ],
+     [
+      "Sherman Antitrust Act (1890)",
+      "Public outcry over monopolistic abuses, farmers hurt by railroad and industrial trusts, and political pressure from Populists led to the Sherman Antitrust Act. The law prohibited \"restraint of trade\" and monopolization. However, vague language made prosecution difficult, weak enforcement limited its impact, and it was initially used more against unions (as \"conspiracies in restraint of trade\") than against the business trusts it was intended to control."
+     ],
+     [
+      "Clayton Antitrust Act (1914)",
+      "The Clayton Act addressed Sherman Act weaknesses by specifying illegal practices: price discrimination, exclusive dealing arrangements, and interlocking directorates (the same people serving on competing companies' boards). Crucially, it exempted labor unions from antitrust prosecution, recognizing that workers organizing for better conditions was different from businesses conspiring to fix prices. The Federal Trade Commission (1914) was created to enforce antitrust laws more effectively."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Rise of Trusts and Monopolies” section, and what evidence supports it?",
+     "What is the main idea of the “Impact on Consumers, Workers, and Competition” section, and what evidence supports it?",
+     "What is the main idea of the “Sherman Antitrust Act (1890)” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Trust",
+     "Sherman Antitrust Act"
+    ],
+    "quiz": [
+     {
+      "id": "us12-q2",
+      "dok": 2,
+      "stem": "How did monopolies impact consumers, workers, and small businesses?",
+      "opts": {
+       "A": "Consumers faced higher prices and fewer choices, workers suffered low wages and union suppression, and small businesses were driven out through predatory practices",
+       "B": "Monopolies benefited everyone equally, despite limited evidence supporting this interpretation when examined alongside the available primary and secondary sources",
+       "C": "Monopolies had no effect on the economy, yet the available evidence points to a different conclusion, but the historical evidence paints a more nuanced picture",
+       "D": "Workers and consumers supported monopolies, though this interpretation lacks supporting historical evidence and oversimplifies the complex factors at work during this period"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us12-q3",
+      "dok": 2,
+      "stem": "Why was the Sherman Antitrust Act of 1890 initially ineffective in breaking up monopolies?",
+      "opts": {
+       "A": "The Sherman Act immediately broke up all monopolies, but this oversimplifies the complex factors at work",
+       "B": "Vague language made prosecution difficult, enforcement was weak, and the law was used more against labor unions than against business trusts",
+       "C": "Monopolies voluntarily dissolved, despite the fact that multiple sources contradict this view when examined alongside the available primary and secondary sources",
+       "D": "The Supreme Court strongly enforced the law, which represents a common misconception about the period, which does not align with the documented historical record"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the rise of trusts and monopolies, their impact on consumers and workers, and the government's response, including the Sherman Antitrust Act of 1890 and the Clayton Antitrust Act of 1914? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "describe the rise of trusts and monopolies, their impact on consumers and workers, and the government's response, including the Sherman Antitrust Act of 1890 and the Clayton Antitrust Act of 1914",
+   "targets": [
+    "describe the rise of trusts and monopolies, their impact on consumers and workers, and the government's response, including the Sherman Antitrust Act of 1890 and the Clayton Antitrust Act of 1914"
+   ],
+   "criteria": [
+    "Rise of Trusts and Monopolies",
+    "Impact on Consumers, Workers, and Competition",
+    "Sherman Antitrust Act (1890)"
+   ],
+   "cues": [
+    "What does the passage say about rise of Trusts and Monopolies?",
+    "What does the passage say about impact on Consumers, Workers, and Competition?",
+    "What does the passage say about sherman Antitrust Act (1890)?",
+    "Key terms →"
+   ],
+   "lenses": "Economics · Culture · History",
+   "dim_map": {
+    "E": "Economics lens on Trusts, Monopolies & Antitrust: Industrial consolidation occurred through horizontal integration (buying competitors) and vertical integration…",
+    "C": "Culture lens on Trusts, Monopolies & Antitrust: Industrial consolidation occurred through horizontal integration (buying competitors) and vertical integration…",
+    "H": "History lens on Trusts, Monopolies & Antitrust: Industrial consolidation occurred through horizontal integration (buying competitors) and vertical integration…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Tennessee was home to significant industrial consolidation. The Tennessee Coal, Iron and Railroad Company (TCI), headquartered in the state before its acquisition by U.S. Steel in 1907, was a major player in the trust era. This acquisition was controversially approved by President Theodore Roosevelt during the Panic of 1907.",
+   "hook": "Trusts, Monopolies & Antitrust: Describe the rise of trusts and monopolies, their impact on consumers and workers, and the government's response, including the Sherman Antitrust Act of 1890 and the Clayton Antitrust Act of 1914. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.13": {
+   "title": "Working Conditions, Women & Child Labor",
+   "tn": "Describe working conditions in industries during this era, including the use of labor by women and children.",
+   "ican": "I can describe working conditions in industries during this era, including the use of labor by women and children and the impact of tragedies like the Triangle Shirtwaist Factory Fire.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Child Labor",
+     "say": "",
+     "es": "Trabajo Infantil",
+     "def": "The employment of children in factories, mines, and farms, often in dangerous conditions for low pay, which was common during industrialization."
+    },
+    {
+     "term": "Triangle Fire",
+     "say": "",
+     "es": "Incendio Triangle",
+     "def": "1911: 146 workers died, trapped in burning factory"
+    },
+    {
+     "term": "Result",
+     "say": "",
+     "es": "Resultado",
+     "def": "Led to workplace safety laws and regulations"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Child Labor Testimony",
+     "who": "Helen Todd, Factory Inspector",
+     "date": "1913",
+     "quote": "I found a little girl of twelve years sewing buttons on knee pants. She was crying. I asked her why. She said: \"My fingers are sore. We have to sew six hundred dozen buttons on pants every day, and if we don't do it, we don't get paid at al",
+     "repo": "Todd, Helen. \"Child Labor Testimony.\" 1913. Library of Congress, www.loc.gov/collections/national-child-labor-committee/.",
+     "url": "https://www.loc.gov/collections/national-child-labor-committee/"
+    },
+    {
+     "title": "Triangle Shirtwaist Factory Fire Survivor Account",
+     "who": "Rose Safran",
+     "date": "1911",
+     "quote": "The door was locked and immediately there was a great jam of girls behind me... I stood there crying and praying while some girls jumped from the window ledge. They went through the air like bundles. I knew that if the door was not opened I",
+     "repo": "Safran, Rose. \"Triangle Shirtwaist Factory Fire Survivor Account.\" 1911. Cornell University ILR School, trianglefire.ilr.cornell.edu/.",
+     "url": "https://trianglefire.ilr.cornell.edu/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze how tragedies like the Triangle Shirtwaist Factory Fire led to workplace safety reforms.",
+    "options": {
+     "A": "The fire had no impact on workplace safety, although this view has been largely discredited by scholars despite the fact that multiple contemporary sources contradict this",
+     "B": "The deaths of 146 workers from locked exits, inadequate fire safety, and collapsed fire escapes shocked the public and led to fire codes, factory inspections, and workers' compensation laws",
+     "C": "Workplace safety was already adequate before the fire, but contemporary accounts suggest a different explanation, which represents a common misconception about this historical period",
+     "D": "Reforms only affected the garment industry, despite limited evidence supporting this interpretation, although historical sources do not support this conclusion"
+    },
+    "key": "B",
+    "why": "The Triangle Fire demonstrated the deadly consequences of prioritizing profits over safety, creating public demand for government regulation that produced lasting workplace safety reforms."
+   },
+   "auth": {
+    "close": "Industrial workers faced grueling conditions: 10-16 hour workdays, six-day work weeks, and wages often below subsistence level. Factories were dangerous with unguarded machinery, poor ventilation, fire hazards, and frequent industrial accidents. Workplaces were overcrowded, noisy, and poorly lit. Workers had no job security, no unemployment insurance, and could be easily replaced. These conditions made industrial work exhausting, dangerous, and often deadly. Women worked in textile mills, garment factories, domestic service, clerical positions, and teaching. They faced unique challenges: wages typically 50-60% of men's pay for the same work, sexual harassment, and limited advancement opportunities. Working conditions were often worse than men's jobs, and \"protective\" laws were sometimes used to exclude women from better-paying positions. Despite these obstacles, women's industrial work became increasingly important to the economy and family incomes. Children as young as 5-6 years old worked in textile mills, coal mines, glass factories, and agricultural fields. Child workers suffered stunted growth, injuries from machinery, and respiratory problems from factory conditions. Working prevented children from attending school, perpetuating cycles of poverty. Reform efforts gradually produced state child labor laws, compulsory education requirements, and eventually federal legislation, though comprehensive child labor protection came only with the New Deal. On March 25, 1911, the Triangle Shirtwaist Factory fire in New York killed 146 workers, mostly young immigrant women. Workers died because exits were locked to prevent breaks and theft, fire escapes collapsed, and there were no sprinklers or adequate safety equipment. The tragedy shocked the nation and led to major workplace safety reforms in New York and other states, including fire safety codes, factory inspections, and workers' compensation laws.",
+    "close_sections": [
+     [
+      "Industrial Working Conditions",
+      "Industrial workers faced grueling conditions: 10-16 hour workdays, six-day work weeks, and wages often below subsistence level. Factories were dangerous with unguarded machinery, poor ventilation, fire hazards, and frequent industrial accidents. Workplaces were overcrowded, noisy, and poorly lit. Workers had no job security, no unemployment insurance, and could be easily replaced. These conditions made industrial work exhausting, dangerous, and often deadly."
+     ],
+     [
+      "Women in the Industrial Workforce",
+      "Women worked in textile mills, garment factories, domestic service, clerical positions, and teaching. They faced unique challenges: wages typically 50-60% of men's pay for the same work, sexual harassment, and limited advancement opportunities. Working conditions were often worse than men's jobs, and \"protective\" laws were sometimes used to exclude women from better-paying positions. Despite these obstacles, women's industrial work became increasingly important to the economy and family incomes."
+     ],
+     [
+      "Child Labor Practices",
+      "Children as young as 5-6 years old worked in textile mills, coal mines, glass factories, and agricultural fields. Child workers suffered stunted growth, injuries from machinery, and respiratory problems from factory conditions. Working prevented children from attending school, perpetuating cycles of poverty. Reform efforts gradually produced state child labor laws, compulsory education requirements, and eventually federal legislation, though comprehensive child labor protection came only with the New Deal."
+     ],
+     [
+      "The Triangle Shirtwaist Fire",
+      "On March 25, 1911, the Triangle Shirtwaist Factory fire in New York killed 146 workers, mostly young immigrant women. Workers died because exits were locked to prevent breaks and theft, fire escapes collapsed, and there were no sprinklers or adequate safety equipment. The tragedy shocked the nation and led to major workplace safety reforms in New York and other states, including fire safety codes, factory inspections, and workers' compensation laws."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Industrial Working Conditions” section, and what evidence supports it?",
+     "What is the main idea of the “Women in the Industrial Workforce” section, and what evidence supports it?",
+     "What is the main idea of the “Child Labor Practices” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Child Labor",
+     "Triangle Fire"
+    ],
+    "quiz": [
+     {
+      "id": "us13-q2",
+      "dok": 2,
+      "stem": "How did women's work experiences differ from men's, and what challenges did working women face?",
+      "opts": {
+       "A": "Women earned 50-60% of men's wages, faced sexual harassment, had limited advancement opportunities, and sometimes faced worse conditions than men",
+       "B": "Women and men had identical work experiences, although this overlooks critical economic and social factors, although historical sources do not support this conclusion",
+       "C": "Women were not allowed to work, despite limited evidence supporting this interpretation, but closer analysis reveals a more complicated historical reality",
+       "D": "Women earned more than men, which represents a common misconception about the period, but closer analysis reveals a more complicated historical reality"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us13-q3",
+      "dok": 2,
+      "stem": "What industries relied heavily on child labor, and how did this affect children's health and education?",
+      "opts": {
+       "A": "Child labor did not exist in this era, but the historical record tells a more complex story, and this view has been largely revised by modern historical research",
+       "B": "Textile mills, coal mines, glass factories, and farms employed children who suffered health problems, injuries, and lost educational opportunities, perpetuating poverty",
+       "C": "Children only worked safe, educational jobs, which ignores key developments that shaped the outcome, which represents a common misconception about this historical period",
+       "D": "All children attended school full-time, although historical sources do not support this conclusion when examined alongside the available primary and secondary sources"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe working conditions in industries during this era, including the use of labor by women and children and the impact of tragedies like the Triangle Shirtwaist Factory Fire? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "describe working conditions in industries during this era, including the use of labor by women and children and the impact of tragedies like the Triangle Shirtwaist Factory Fire",
+   "targets": [
+    "describe working conditions in industries during this era, including the use of labor by women and children and the impact of tragedies like the Triangle Shirtwaist Factory Fire"
+   ],
+   "criteria": [
+    "Industrial Working Conditions",
+    "Women in the Industrial Workforce",
+    "Child Labor Practices"
+   ],
+   "cues": [
+    "What does the passage say about industrial Working Conditions?",
+    "What does the passage say about women in the Industrial Workforce?",
+    "What does the passage say about child Labor Practices?",
+    "Key terms →"
+   ],
+   "lenses": "Economics · History",
+   "dim_map": {
+    "E": "Economics lens on Working Conditions, Women & Child Labor: Industrial workers faced grueling conditions: 10-16 hour workdays, six-day work weeks, and wages often below s…",
+    "H": "History lens on Working Conditions, Women & Child Labor: Industrial workers faced grueling conditions: 10-16 hour workdays, six-day work weeks, and wages often below s…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Tennessee's textile mills, coal mines, and factories employed women and children under harsh conditions. The Coal Creek War (1891-1892) in Anderson County was partly driven by dangerous working conditions. Child labor in Tennessee's cotton mills prompted progressive reform efforts in the early 1900s.",
+   "hook": "Working Conditions, Women & Child Labor: Describe working conditions in industries during this era, including the use of labor by women and children. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.14": {
+   "title": "Muckrakers & Progressive Idealists",
+   "tn": "Explain the roles played by muckrakers and progressive idealists, including: Robert M. La Follette, Sr., President Theodore Roosevelt, Upton Sinclair, Lincoln Steffens, Ida Tarbell.",
+   "ican": "I can explain the roles played by muckrakers and progressive idealists, including Robert M. La Follette, President Theodore Roosevelt, Upton Sinclair, Lincoln Steffens, and Ida Tarbell.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Muckraker",
+     "say": "",
+     "es": "Periodista de Investigación",
+     "def": "Investigative journalists who exposed corruption, abuse, and social problems in the early 1900s, helping drive Progressive reforms."
+    },
+    {
+     "term": "Trust",
+     "say": "",
+     "es": "Trust (Fideicomiso)",
+     "def": "A legal arrangement where stockholders in several companies transferred their shares to a board of trustees, creating a monopoly while appearing to remain separate companies."
+    },
+    {
+     "term": "Direct Primary",
+     "say": "",
+     "es": "Primarias Directas",
+     "def": "A Progressive reform replacing party boss selection of candidates with direct elections where voters choose party nominees."
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Jungle",
+     "who": "Upton Sinclair",
+     "date": "1906",
+     "quote": "There would be meat that had tumbled out on the floor, in the dirt and sawdust, where the workers had tramped and spit uncounted billions of consumption germs. There would be meat stored in great piles in rooms; and the water from leaky roo",
+     "repo": "Sinclair, Upton. \"The Jungle.\" 1906. Library of Congress, www.loc.gov/item/06020675/.",
+     "url": "https://www.loc.gov/item/06020675/"
+    },
+    {
+     "title": "The History of the Standard Oil Company",
+     "who": "Ida Tarbell",
+     "date": "1904",
+     "quote": "Mr. Rockefeller has systematically played with loaded dice, and it is doubtful if there has ever been a time since 1872 when he has run a race with a competitor and started fair. Business played in this way loses all its sportmanlike qualit",
+     "repo": "Tarbell, Ida. \"The History of the Standard Oil Company.\" 1904. Library of Congress, www.loc.gov/item/04018073/.",
+     "url": "https://www.loc.gov/item/04018073/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Evaluate Theodore Roosevelt's complex relationship with muckrakers and his role in progressive reform.",
+    "options": {
+     "A": "Roosevelt completely supported all muckrakers, which does not reflect the consensus among historians, which does not align with the documented historical record and fails to account for key developments in the broader context",
+     "B": "Roosevelt opposed all muckraking journalism, which represents a common misconception about the period, although this overlooks critical economic and social factors involved, but the historical evidence paints a more nuanced picture",
+     "C": "Roosevelt used muckraker exposés to build support for reforms like consumer protection and trust-busting, but also criticized excessive negativity—showing how reform leaders balance media pressure with political strategy",
+     "D": "Muckrakers and Roosevelt had no connection, despite limited evidence supporting this interpretation, but closer analysis reveals a more complicated historical reality, which represents a common misconception about this historical period"
+    },
+    "key": "C",
+    "why": "Roosevelt's relationship with muckrakers was pragmatic: he used their work when it supported his agenda but distanced himself when their criticism became inconvenient."
+   },
+   "auth": {
+    "close": "Muckrakers were investigative journalists who exposed corruption, corporate abuses, and social problems. Named by Theodore Roosevelt (from a character in Pilgrim's Progress who focused only on filth), these reporters conducted in-depth research, interviews, and undercover investigations. They believed an informed public would demand reform, and their exposés in popular magazines reached millions of readers, shaping public opinion and pressuring politicians to act. \"Fighting Bob\" La Follette served as Wisconsin governor (1901-1906) and later as U.S. Senator. He implemented direct primary elections, railroad rate regulation, civil service reform, and workers' compensation. The \"Wisconsin Idea\" used university experts to draft legislation and administer programs, applying scientific methods to government. La Follette's reforms became a model adopted by other states and influenced national Progressive legislation. Lincoln Steffens wrote \"The Shame of the Cities\" (1904), exposing municipal corruption in St. Louis, Minneapolis, and other cities. He revealed connections between political machines, business interests, and organized crime. Ida Tarbell wrote \"The History of the Standard Oil Company\" (1904), documenting John D. Rockefeller's monopolistic practices including predatory pricing and secret railroad rebates. Her work helped build public support for antitrust action that eventually broke up Standard Oil. Upton Sinclair wrote \"The Jungle\" (1906) to expose the exploitation of immigrant workers in Chicago's meatpacking plants. Instead, readers focused on his descriptions of unsanitary meat processing. Sinclair later said, \"I aimed at the public's heart, and by accident I hit it in the stomach.\" His book led directly to the Pure Food and Drug Act and Meat Inspection Act. Theodore Roosevelt, while sometimes critical of muckrakers, used their exposés to build support for Progressive reforms including consumer protection and antitrust enforcement.",
+    "close_sections": [
+     [
+      "The Muckrakers",
+      "Muckrakers were investigative journalists who exposed corruption, corporate abuses, and social problems. Named by Theodore Roosevelt (from a character in Pilgrim's Progress who focused only on filth), these reporters conducted in-depth research, interviews, and undercover investigations. They believed an informed public would demand reform, and their exposés in popular magazines reached millions of readers, shaping public opinion and pressuring politicians to act."
+     ],
+     [
+      "Robert M. La Follette and the Wisconsin Idea",
+      "\"Fighting Bob\" La Follette served as Wisconsin governor (1901-1906) and later as U.S. Senator. He implemented direct primary elections, railroad rate regulation, civil service reform, and workers' compensation. The \"Wisconsin Idea\" used university experts to draft legislation and administer programs, applying scientific methods to government. La Follette's reforms became a model adopted by other states and influenced national Progressive legislation."
+     ],
+     [
+      "Lincoln Steffens and Ida Tarbell",
+      "Lincoln Steffens wrote \"The Shame of the Cities\" (1904), exposing municipal corruption in St. Louis, Minneapolis, and other cities. He revealed connections between political machines, business interests, and organized crime. Ida Tarbell wrote \"The History of the Standard Oil Company\" (1904), documenting John D. Rockefeller's monopolistic practices including predatory pricing and secret railroad rebates. Her work helped build public support for antitrust action that eventually broke up Standard Oil."
+     ],
+     [
+      "Upton Sinclair and Theodore Roosevelt",
+      "Upton Sinclair wrote \"The Jungle\" (1906) to expose the exploitation of immigrant workers in Chicago's meatpacking plants. Instead, readers focused on his descriptions of unsanitary meat processing. Sinclair later said, \"I aimed at the public's heart, and by accident I hit it in the stomach.\" His book led directly to the Pure Food and Drug Act and Meat Inspection Act. Theodore Roosevelt, while sometimes critical of muckrakers, used their exposés to build support for Progressive reforms including consumer protection and antitrust enforcement."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “The Muckrakers” section, and what evidence supports it?",
+     "What is the main idea of the “Robert M. La Follette and the Wisconsin Idea” section, and what evidence supports it?",
+     "What is the main idea of the “Lincoln Steffens and Ida Tarbell” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Muckraker",
+     "Trust"
+    ],
+    "quiz": [
+     {
+      "id": "us14-q2",
+      "dok": 2,
+      "stem": "What specific reforms did Robert M. La Follette implement in Wisconsin that became models for other states?",
+      "opts": {
+       "A": "He implemented direct primaries, railroad regulation, civil service reform, and workers' compensation, using the \"Wisconsin Idea\" of university experts drafting legislation",
+       "B": "La Follette opposed all reform, which contradicts the primary source evidence from this era, and this view has been largely revised by modern historical research",
+       "C": "Wisconsin reforms had no influence beyond the state, although this view has been largely discredited by scholars despite the fact that multiple contemporary sources contradict this",
+       "D": "La Follette focused only on national issues, but contemporary accounts suggest a different explanation despite the fact that multiple contemporary sources contradict this"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us14-q3",
+      "dok": 2,
+      "stem": "How did the investigative work of Lincoln Steffens, Ida Tarbell, and Upton Sinclair lead to specific government reforms?",
+      "opts": {
+       "A": "Their work had no political impact, although historical sources do not support this conclusion, which represents a common misconception about this historical period",
+       "B": "Steffens exposed municipal corruption, Tarbell's Standard Oil exposé supported antitrust action, and Sinclair's \"The Jungle\" led directly to the Pure Food and Drug Act and Meat Inspection Act",
+       "C": "They only entertained readers without influencing policy, which does not reflect the consensus among historians, which contradicts the primary source evidence from this era",
+       "D": "Government opposed all muckraking journalism, but contemporary accounts suggest a different explanation and fails to account for key developments in the broader context"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — explain the roles played by muckrakers and progressive idealists, including Robert M. La Follette, President Theodore Roosevelt, Upton Sinclair, Lincoln Steffens, and Ida Tarbell? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "explain the roles played by muckrakers and progressive idealists, including Robert M. La Follette, President Theodore Roosevelt, Upton Sinclair, Lincoln Steffens, and Ida Tarbell",
+   "targets": [
+    "explain the roles played by muckrakers and progressive idealists, including Robert M. La Follette, President Theodore Roosevelt, Upton Sinclair, Lincoln Steffens, and Ida Tarbell"
+   ],
+   "criteria": [
+    "The Muckrakers",
+    "Robert M. La Follette and the Wisconsin Idea",
+    "Lincoln Steffens and Ida Tarbell"
+   ],
+   "cues": [
+    "What does the passage say about the Muckrakers?",
+    "What does the passage say about robert M. La Follette and the Wisconsin Idea?",
+    "What does the passage say about lincoln Steffens and Ida Tarbell?",
+    "Key terms →"
+   ],
+   "lenses": "Politics/Government · History · Culture",
+   "dim_map": {
+    "P": "Politics/Government lens on Muckrakers & Progressive Idealists: Muckrakers were investigative journalists who exposed corruption, corporate abuses, and social problems. Named…",
+    "H": "History lens on Muckrakers & Progressive Idealists: Muckrakers were investigative journalists who exposed corruption, corporate abuses, and social problems. Named…",
+    "C": "Culture lens on Muckrakers & Progressive Idealists: Muckrakers were investigative journalists who exposed corruption, corporate abuses, and social problems. Named…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Tennessee had its own progressive reformers. Edward Ward Carmack, Nashville newspaper editor, used his platform to expose corruption before his assassination in 1908 — an event that galvanized Tennessee's temperance movement and led to statewide prohibition before the national amendment.",
+   "hook": "Muckrakers & Progressive Idealists: Explain the roles played by muckrakers and progressive idealists, including: Robert M. La Follette, Sr., President Theodore Roosevelt, Upton Sinclair, Lincoln Steffens, Ida Tarbell. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.15": {
+   "title": "Progressive Movement Goals & Achievements",
+   "tn": "Analyze the goals and achievements of the Progressive movement, including: Adoption of the initiative, referendum, and recall, Adoption of the primary system, 16th Amendment, 17th Amendment, 18th Amendment.",
+   "ican": "I can analyze the goals and achievements of the Progressive movement, including the adoption of the initiative, referendum, recall, primary system, and the 16th, 17th, and 18th Amendments.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Progressive Movement",
+     "say": "",
+     "es": "Movimiento Progresivo",
+     "def": "A reform movement (1890s-1920s) that sought to address problems caused by industrialization, including corruption, monopolies, poor working conditions, and social inequality."
+    },
+    {
+     "term": "Initiative",
+     "say": "",
+     "es": "Iniciativa",
+     "def": "A Progressive reform allowing citizens to propose new laws by petition, bypassing the legislature if enough signatures are gathered."
+    },
+    {
+     "term": "Referendum",
+     "say": "",
+     "es": "Referéndum",
+     "def": "A Progressive reform allowing voters to approve or reject laws passed by the legislature through a direct vote."
+    }
+   ],
+   "sources": [
+    {
+     "title": "16th Amendment",
+     "who": "U.S. Constitution",
+     "date": "1913",
+     "quote": "The Congress shall have power to lay and collect taxes on incomes, from whatever source derived, without apportionment among the several States, and without regard to any census or enumeration.",
+     "repo": "\"Amendment XVI.\" U.S. Constitution, 1913. Constitution Annotated, constitution.congress.gov/browse/amendment-16/.",
+     "url": "https://constitution.congress.gov/browse/amendment-16/"
+    },
+    {
+     "title": "Eighteenth Amendment to the United States Constitution",
+     "who": "United States Congress (proposed December 18, 1917; ratified January 16, 1919)",
+     "date": "January 16, 1919",
+     "quote": "\"After one year from the ratification of this article the manufacture, sale, or transportation of intoxicating liquors within, the importation thereof into, or the exportation thereof from the United States and all territory subject to the ",
+     "repo": "United States Constitution, Amendment XVIII. Proposed 18 Dec. 1917; ratified 16 Jan. 1919. Constitution Annotated, Congress.gov, constitution.congress.gov/const",
+     "url": "https://constitution.congress.gov/constitution/amendment-18/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze which Progressive reforms had the most lasting impact on American democracy.",
+    "options": {
+     "A": "No Progressive reforms survived, which represents a common misconception about the period, which contradicts the primary source evidence from this era and fails to account for key developments in the broader context",
+     "B": "Only Prohibition had lasting impact, although this view has been largely discredited by scholars and oversimplifies the complex factors at work during this period",
+     "C": "Progressive reforms were all reversed, but this oversimplifies the complex factors at work when examined alongside the available primary and secondary sources",
+     "D": "Direct primaries, direct election of senators, and the income tax fundamentally reshaped American politics and remain in effect, while Prohibition demonstrated that not all reforms succeed"
+    },
+    "key": "D",
+    "why": "The structural reforms expanding democracy and enabling federal taxation created permanent changes, while Prohibition's failure showed that reforms must have sustained public support to endure."
+   },
+   "auth": {
+    "close": "Progressives sought to increase democratic participation and government accountability, regulate big business and break up monopolies, improve working and living conditions, eliminate political corruption, promote social justice and moral reform, and use scientific methods to solve social problems. The movement drew support from middle-class reformers, journalists, social workers, and some business leaders who believed capitalism needed reform to survive. Progressive reforms expanded direct democracy: Initiative allowed citizens to propose laws through petition. Referendum let voters approve or reject laws passed by legislatures. Recall enabled voters to remove elected officials before their terms ended. These reforms reduced the power of political machines and corrupt officials by giving citizens direct control over legislation and officeholders, making government more responsive to public will. Direct primaries replaced party conventions for selecting candidates. Previously, party bosses chose nominees in smoke-filled rooms, giving voters only the choice between pre-selected candidates. Primaries let ordinary voters participate in choosing nominees, reducing the control of party machines and increasing democratic participation. This reform spread from Wisconsin to most states and remains the standard method for selecting candidates today. The 16th Amendment (1913) gave Congress power to levy income taxes without apportionment among states, enabling progressive taxation and funding expanded government programs. The 17th Amendment (1913) provided for direct election of senators by popular vote instead of state legislatures, reducing corruption and making the Senate more responsive to voters. The 18th Amendment (1919) established Prohibition, banning alcohol manufacture and sale—a reform later repealed by the 21st Amendment (1933) due to unintended consequences.",
+    "close_sections": [
+     [
+      "Goals of the Progressive Movement",
+      "Progressives sought to increase democratic participation and government accountability, regulate big business and break up monopolies, improve working and living conditions, eliminate political corruption, promote social justice and moral reform, and use scientific methods to solve social problems. The movement drew support from middle-class reformers, journalists, social workers, and some business leaders who believed capitalism needed reform to survive."
+     ],
+     [
+      "Initiative, Referendum, and Recall",
+      "Progressive reforms expanded direct democracy: Initiative allowed citizens to propose laws through petition. Referendum let voters approve or reject laws passed by legislatures. Recall enabled voters to remove elected officials before their terms ended. These reforms reduced the power of political machines and corrupt officials by giving citizens direct control over legislation and officeholders, making government more responsive to public will."
+     ],
+     [
+      "The Primary System",
+      "Direct primaries replaced party conventions for selecting candidates. Previously, party bosses chose nominees in smoke-filled rooms, giving voters only the choice between pre-selected candidates. Primaries let ordinary voters participate in choosing nominees, reducing the control of party machines and increasing democratic participation. This reform spread from Wisconsin to most states and remains the standard method for selecting candidates today."
+     ],
+     [
+      "Constitutional Amendments (16th, 17th, 18th)",
+      "The 16th Amendment (1913) gave Congress power to levy income taxes without apportionment among states, enabling progressive taxation and funding expanded government programs. The 17th Amendment (1913) provided for direct election of senators by popular vote instead of state legislatures, reducing corruption and making the Senate more responsive to voters. The 18th Amendment (1919) established Prohibition, banning alcohol manufacture and sale—a reform later repealed by the 21st Amendment (1933) due to unintended consequences."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Goals of the Progressive Movement” section, and what evidence supports it?",
+     "What is the main idea of the “Initiative, Referendum, and Recall” section, and what evidence supports it?",
+     "What is the main idea of the “The Primary System” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Progressive Movement",
+     "Initiative"
+    ],
+    "quiz": [
+     {
+      "id": "us15-q2",
+      "dok": 2,
+      "stem": "How did initiative, referendum, and recall processes give citizens more direct control over government?",
+      "opts": {
+       "A": "Initiative let citizens propose laws, referendum let voters approve or reject laws, and recall let voters remove officials—all reducing the power of political machines and corrupt politicians",
+       "B": "These reforms gave politicians more power, despite limited evidence supporting this interpretation, which does not align with the documented historical record, although historical sources do not support this conclusion",
+       "C": "Citizens already had complete control of government, but this oversimplifies the complex factors at work, although historical sources do not support this conclusion",
+       "D": "These reforms were never implemented, although this overlooks critical economic and social factors, but closer analysis reveals a more complicated historical reality"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us15-q3",
+      "dok": 2,
+      "stem": "What were the purposes and long-term impacts of the 16th, 17th, and 18th Amendments?",
+      "opts": {
+       "A": "These amendments had no lasting impact, but contemporary accounts suggest a different explanation, which represents a common misconception about this historical period despite the fact that multiple contemporary sources contradict this",
+       "B": "The 16th enabled federal income taxes funding expanded government; the 17th made senators directly elected, increasing democracy; the 18th banned alcohol but was later repealed due to unintended consequences",
+       "C": "All three amendments were repealed, but this oversimplifies the complex factors at work, and this view has been largely revised by modern historical research, though this interpretation lacks supporting historical evidence",
+       "D": "They only affected state governments, but this fails to account for the broader historical context, which represents a common misconception about this historical period, which does not align with the documented historical record"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — analyze the goals and achievements of the Progressive movement, including the adoption of the initiative, referendum, recall, primary system, and the 16th, 17th, and 18th Amendments? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "analyze the goals and achievements of the Progressive movement, including the adoption of the initiative, referendum, recall, primary system, and the 16th, 17th, and 18th Amendments",
+   "targets": [
+    "analyze the goals and achievements of the Progressive movement, including the adoption of the initiative, referendum, recall, primary system, and the 16th, 17th, and 18th Amendments"
+   ],
+   "criteria": [
+    "Goals of the Progressive Movement",
+    "Initiative, Referendum, and Recall",
+    "The Primary System"
+   ],
+   "cues": [
+    "What does the passage say about goals of the Progressive Movement?",
+    "What does the passage say about initiative, Referendum, and Recall?",
+    "What does the passage say about the Primary System?",
+    "Key terms →"
+   ],
+   "lenses": "Politics/Government · Culture · History",
+   "dim_map": {
+    "P": "Politics/Government lens on Progressive Movement Goals & Achievements: Progressives sought to increase democratic participation and government accountability, regulate big business …",
+    "C": "Culture lens on Progressive Movement Goals & Achievements: Progressives sought to increase democratic participation and government accountability, regulate big business …",
+    "H": "History lens on Progressive Movement Goals & Achievements: Progressives sought to increase democratic participation and government accountability, regulate big business …"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Tennessee adopted several progressive reforms, including statewide prohibition in 1909 (a decade before the 18th Amendment), election reforms, and public education improvements. Nashville reformers pushed for child labor laws and compulsory school attendance.",
+   "hook": "Progressive Movement Goals & Achievements: Analyze the goals and achievements of the Progressive movement, including: Adoption of the initiative, referendum, and recall, Adoption of the primary system, 16th Amendment, 17th Amendment, 18th Amendment. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.16": {
+   "title": "Theodore Roosevelt's Progressive Achievements",
+   "tn": "Analyze the significant progressive achievements during President Theodore Roosevelt's administration, including: Square Deal, \"Trust-busting\", Pure Food and Drug Act, Meat Inspection Act, Support for conservation.",
+   "ican": "I can analyze the significant progressive achievements during President Theodore Roosevelt's administration, including the Square Deal, trust-busting, Pure Food and Drug Act, Meat Inspection Act, and support for conservation.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Square Deal",
+     "say": "",
+     "es": "Trato Justo",
+     "def": "Theodore Roosevelt's domestic policy promising fairness for all Americans - workers, consumers, and businesses - including trust-busting, consumer protection, and conservation."
+    },
+    {
+     "term": "Trust-Busting",
+     "say": "",
+     "es": "Disolución de Trusts",
+     "def": "The effort to break up monopolies and trusts using antitrust laws, especially under Theodore Roosevelt who prosecuted over 40 companies."
+    },
+    {
+     "term": "Conservation",
+     "say": "",
+     "es": "Conservación",
+     "def": "The movement to protect and preserve natural resources and wilderness areas, championed by Theodore Roosevelt and the Progressive movement."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Square Deal Speech",
+     "who": "President Theodore Roosevelt",
+     "date": "1903",
+     "quote": "When I say I believe in a square deal I do not mean... to give every man the best hand. If the cards do not come to any man, or if they do come, and he has not got the power to play them, that is his affair. All I mean is that there shall b",
+     "repo": "Roosevelt, Theodore. \"Square Deal Speech.\" 1903. Library of Congress, www.loc.gov/collections/theodore-roosevelt-papers/.",
+     "url": "https://www.loc.gov/collections/theodore-roosevelt-papers/"
+    },
+    {
+     "title": "The New Nationalism Speech (Conservation and Fair Play)",
+     "who": "Theodore Roosevelt",
+     "date": "August 31, 1910",
+     "quote": "The conservation of natural resources is the fundamental problem. Unless we solve that problem it will avail us little to solve all others... I stand for the square deal... not merely fair play under the present rules of the game, but... a ",
+     "repo": "Roosevelt, Theodore. \"The New Nationalism.\" 31 Aug. 1910. Theodore Roosevelt Center, Dickinson State University, www.theodorerooseveltcenter.org.",
+     "url": "https://www.theodorerooseveltcenter.org/Learn-About-TR/TR-Encyclopedia/Politics-and-Government/New-Nationalism"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Evaluate Roosevelt's conservation legacy and its impact on environmental policy.",
+    "options": {
+     "A": "By creating national parks, forests, and wildlife refuges while balancing development with preservation, Roosevelt established conservation as a federal responsibility with lasting impact on American environmental policy",
+     "B": "Roosevelt opposed conservation, but the historical record tells a more complex story, although historical sources do not support this conclusion, and this view has been largely revised by modern historical research",
+     "C": "Conservation was unimportant to Roosevelt, which represents a common misconception about the period and fails to account for key developments in the broader context and oversimplifies the complex factors at work during this period",
+     "D": "His conservation policies were all reversed, but the historical record tells a more complex story and fails to account for key developments in the broader context and oversimplifies the complex factors at work during this period"
+    },
+    "key": "A",
+    "why": "Roosevelt's conservation achievements created the foundation for American environmental policy, establishing that natural resources should be managed for long-term public benefit."
+   },
+   "auth": {
+    "close": "Roosevelt's Square Deal promised fair treatment for workers, consumers, and businesses. He positioned the federal government as a neutral mediator between competing interests rather than always siding with business. The Square Deal called for regulation of big business when necessary and conservation of natural resources for future generations. It established the precedent that the federal government had a responsibility to ensure economic fairness and protect the public interest. Motivated by Upton Sinclair's \"The Jungle,\" patent medicine scandals, and consumer safety concerns, Roosevelt pushed for food and drug regulation. The Pure Food and Drug Act (1906) prohibited mislabeled and adulterated food and drugs, requiring ingredient labeling and creating the foundation for the FDA. The Meat Inspection Act (1906) required federal inspection of meat processing facilities and sanitary standards, restoring confidence in American meat products. Roosevelt distinguished between \"good trusts\" (efficient, fair to consumers) and \"bad trusts\" (abusive, monopolistic). He used the Sherman Antitrust Act selectively, negotiating with some corporations while prosecuting others. Major cases included breaking up the Northern Securities Company (1904) and later supporting the Standard Oil breakup. This demonstrated that the federal government had power over big business and would use it to restore competition. Roosevelt believed in \"conservation means development as much as it does protection.\" He expanded the national park system with 5 new parks, created 150 national forests covering 148 million acres, established 51 federal bird sanctuaries, and supported the Newlands Act (1902) for western irrigation. Roosevelt established conservation as a federal responsibility, balancing economic development with environmental preservation.",
+    "close_sections": [
+     [
+      "The Square Deal",
+      "Roosevelt's Square Deal promised fair treatment for workers, consumers, and businesses. He positioned the federal government as a neutral mediator between competing interests rather than always siding with business. The Square Deal called for regulation of big business when necessary and conservation of natural resources for future generations. It established the precedent that the federal government had a responsibility to ensure economic fairness and protect the public interest."
+     ],
+     [
+      "Pure Food and Drug Act and Meat Inspection Act",
+      "Motivated by Upton Sinclair's \"The Jungle,\" patent medicine scandals, and consumer safety concerns, Roosevelt pushed for food and drug regulation. The Pure Food and Drug Act (1906) prohibited mislabeled and adulterated food and drugs, requiring ingredient labeling and creating the foundation for the FDA. The Meat Inspection Act (1906) required federal inspection of meat processing facilities and sanitary standards, restoring confidence in American meat products."
+     ],
+     [
+      "Trust-Busting Approach",
+      "Roosevelt distinguished between \"good trusts\" (efficient, fair to consumers) and \"bad trusts\" (abusive, monopolistic). He used the Sherman Antitrust Act selectively, negotiating with some corporations while prosecuting others. Major cases included breaking up the Northern Securities Company (1904) and later supporting the Standard Oil breakup. This demonstrated that the federal government had power over big business and would use it to restore competition."
+     ],
+     [
+      "Conservation Efforts",
+      "Roosevelt believed in \"conservation means development as much as it does protection.\" He expanded the national park system with 5 new parks, created 150 national forests covering 148 million acres, established 51 federal bird sanctuaries, and supported the Newlands Act (1902) for western irrigation. Roosevelt established conservation as a federal responsibility, balancing economic development with environmental preservation."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “The Square Deal” section, and what evidence supports it?",
+     "What is the main idea of the “Pure Food and Drug Act and Meat Inspection Act” section, and what evidence supports it?",
+     "What is the main idea of the “Trust-Busting Approach” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Square Deal",
+     "Trust-Busting"
+    ],
+    "quiz": [
+     {
+      "id": "us16-q2",
+      "dok": 2,
+      "stem": "How did the Pure Food and Drug Act and Meat Inspection Act respond to public health concerns?",
+      "opts": {
+       "A": "They prohibited mislabeled and adulterated products, required ingredient labeling and federal meat inspection, creating the foundation for food safety regulation",
+       "B": "These acts had no connection to public health, although historical sources do not support this conclusion, but closer analysis reveals a more complicated historical reality",
+       "C": "The acts only affected imported products, despite limited evidence supporting this interpretation, although this overlooks critical economic and social factors involved",
+       "D": "Roosevelt opposed consumer protection, which represents a common misconception about the period, but closer analysis reveals a more complicated historical reality"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us16-q3",
+      "dok": 2,
+      "stem": "What was Roosevelt's approach to \"trust-busting,\" and how did he distinguish between good and bad trusts?",
+      "opts": {
+       "A": "Roosevelt broke up all large corporations, which does not align with the documented historical record, and this view has been largely revised by modern historical research",
+       "B": "He believed some trusts were efficient and beneficial while others abused their power, using antitrust laws selectively against harmful monopolies rather than all big business",
+       "C": "Roosevelt supported all monopolies, but contemporary accounts suggest a different explanation, although historical sources do not support this conclusion",
+       "D": "Trust-busting had no effect on business, although this view has been largely discredited by scholars, which represents a common misconception about this historical period"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — analyze the significant progressive achievements during President Theodore Roosevelt's administration, including the Square Deal, trust-busting, Pure Food and Drug Act, Meat Inspection Act, and support for conservation? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "analyze the significant progressive achievements during President Theodore Roosevelt's administration, including the Square Deal, trust-busting, Pure Food and Drug Act, Meat Inspection Act, and support for conservation",
+   "targets": [
+    "analyze the significant progressive achievements during President Theodore Roosevelt's administration, including the Square Deal, trust-busting, Pure Food and Drug Act, Meat Inspection Act, and support for conservation"
+   ],
+   "criteria": [
+    "The Square Deal",
+    "Pure Food and Drug Act and Meat Inspection Act",
+    "Trust-Busting Approach"
+   ],
+   "cues": [
+    "What does the passage say about the Square Deal?",
+    "What does the passage say about pure Food and Drug Act and Meat Inspection Act?",
+    "What does the passage say about trust-Busting Approach?",
+    "Key terms →"
+   ],
+   "lenses": "Politics/Government · Culture · Economics",
+   "dim_map": {
+    "P": "Politics/Government lens on Theodore Roosevelt's Progressive Achievements: Roosevelt's Square Deal promised fair treatment for workers, consumers, and businesses. He positioned the fede…",
+    "C": "Culture lens on Theodore Roosevelt's Progressive Achievements: Roosevelt's Square Deal promised fair treatment for workers, consumers, and businesses. He positioned the fede…",
+    "E": "Economics lens on Theodore Roosevelt's Progressive Achievements: Roosevelt's Square Deal promised fair treatment for workers, consumers, and businesses. He positioned the fede…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "President Theodore Roosevelt's conservation efforts directly impacted Tennessee. The Great Smoky Mountains region, which Roosevelt-era conservationists championed, would later become Great Smoky Mountains National Park (1934) — today the most visited national park in America.",
+   "hook": "Theodore Roosevelt's Progressive Achievements: Analyze the significant progressive achievements during President Theodore Roosevelt's administration, including: Square Deal, \"Trust-busting\", Pure Food and Drug Act, Meat Inspection Act, Support for conservation. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.17": {
+   "title": "Woodrow Wilson's Progressive Achievements",
+   "tn": "Analyze the significant progressive achievements during President Woodrow Wilson's administration, including: the New Freedom, the Federal Reserve Act, and the creation of the National Park Service.",
+   "ican": "I can analyze the significant progressive achievements during President Woodrow Wilson's administration, including the New Freedom, the Federal Reserve Act, and the creation of the National Park Service.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "New Freedom",
+     "say": "",
+     "es": "Nueva Libertad",
+     "def": "Woodrow Wilson's Progressive program emphasizing breaking up trusts, lowering tariffs, and reforming banking to help small businesses and increase competition."
+    },
+    {
+     "term": "Clayton Antitrust Act",
+     "say": "",
+     "es": "Ley Clayton Antimonopolio",
+     "def": "A 1914 law that strengthened the Sherman Antitrust Act by specifically prohibiting price discrimination, exclusive dealings, and interlocking directorates."
+    },
+    {
+     "term": "Trust",
+     "say": "",
+     "es": "Trust (Fideicomiso)",
+     "def": "A legal arrangement where stockholders in several companies transferred their shares to a board of trustees, creating a monopoly while appearing to remain separate companies."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Federal Reserve Act Message",
+     "who": "President Woodrow Wilson",
+     "date": "1913",
+     "quote": "We shall deal with our economic system as it is and as it may be modified, not as it might be if we had a clean sheet of paper to write upon... We must effect our reforms with a minimum of disturbance to business. The control of the system ",
+     "repo": "Wilson, Woodrow. \"Federal Reserve Act Message.\" 1913. Library of Congress, www.loc.gov/law/help/statutes-at-large/63rd-congress/session-1/c63s1ch6.pdf.",
+     "url": "https://www.loc.gov/law/help/statutes-at-large/63rd-congress/session-1/c63s1ch6.pdf"
+    },
+    {
+     "title": "The New Freedom — On Monopoly and Banking",
+     "who": "Woodrow Wilson",
+     "date": "1913",
+     "quote": "A monopoly of credit... is the most pernicious of all... The great monopoly in this country is the monopoly of big credits. So long as that exists, our old variety and freedom and individual energy of development are out of the question... ",
+     "repo": "Wilson, Woodrow. The New Freedom. Doubleday, 1913. Project Gutenberg, www.gutenberg.org/ebooks/14811.",
+     "url": "https://www.gutenberg.org/ebooks/14811"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze how Wilson's reforms created institutional frameworks that continue to influence American economic policy.",
+    "options": {
+     "A": "Wilson's reforms were all temporary, which does not align with the documented historical record when examined alongside the available primary and secondary sources and oversimplifies the complex factors at work during this period",
+     "B": "The Federal Reserve manages monetary policy, the FTC enforces consumer protection, and the NPS protects natural resources—institutions created over a century ago that remain central to American government today",
+     "C": "None of Wilson's institutions survived, which represents a common misconception about the period, and this view has been largely revised by modern historical research and fails to account for key developments in the broader context",
+     "D": "Only the income tax remained from Wilson's era, which does not reflect the consensus among historians when examined alongside the available primary and secondary sources and fails to account for key developments in the broader context"
+    },
+    "key": "B",
+    "why": "Wilson's administration created lasting institutions—the Fed, FTC, and NPS—that established frameworks for managing the economy, protecting consumers, and conserving resources that remain essential today."
+   },
+   "auth": {
+    "close": "Wilson's New Freedom emphasized restoring economic competition rather than accepting big business as inevitable. Its core principles included breaking up monopolies, reducing tariffs, and reforming banking. Wilson aimed to create opportunities for small business by promoting competition over regulation. This contrasted with Roosevelt's \"New Nationalism,\" which accepted large corporations but regulated them heavily. Wilson's philosophy was summed up as giving \"a man with a dollar in his pocket\" a fair chance against concentrated wealth. The Federal Reserve Act addressed problems exposed by the Panic of 1907: financial instability, inflexible currency, and concentrated banking power. The system created 12 regional Federal Reserve Banks overseen by a Federal Reserve Board in Washington. Member banks hold reserves with their regional Fed. Functions include issuing currency (Federal Reserve notes), regulating money supply and credit, serving as \"lender of last resort,\" and clearing checks. The Fed stabilized the banking system and remains central to American economic policy today. The National Park Service was established to manage the growing system of national parks and monuments. Its mission was to \"conserve the scenery and natural and historic objects...for the enjoyment of future generations.\" First Director Stephen Mather promoted tourism while protecting resources. The NPS professionalized park management, standardized conservation policies, and balanced public access with preservation. It remains responsible for America's national parks, monuments, and historic sites. Wilson's administration also achieved the Clayton Antitrust Act (1914), which strengthened antitrust laws and protected unions from antitrust prosecution. The Federal Trade Commission (1914) was created to enforce antitrust and consumer protection laws. The Underwood Tariff (1913) reduced tariffs and included the first permanent income tax under the new 16th Amendment. The Keating-Owen Child Labor Act (1916) prohibited interstate commerce in goods made with child labor, though it was later declared unconstitutional.",
+    "close_sections": [
+     [
+      "The New Freedom Platform",
+      "Wilson's New Freedom emphasized restoring economic competition rather than accepting big business as inevitable. Its core principles included breaking up monopolies, reducing tariffs, and reforming banking. Wilson aimed to create opportunities for small business by promoting competition over regulation. This contrasted with Roosevelt's \"New Nationalism,\" which accepted large corporations but regulated them heavily. Wilson's philosophy was summed up as giving \"a man with a dollar in his pocket\" a fair chance against concentrated wealth."
+     ],
+     [
+      "Federal Reserve Act (1913)",
+      "The Federal Reserve Act addressed problems exposed by the Panic of 1907: financial instability, inflexible currency, and concentrated banking power. The system created 12 regional Federal Reserve Banks overseen by a Federal Reserve Board in Washington. Member banks hold reserves with their regional Fed. Functions include issuing currency (Federal Reserve notes), regulating money supply and credit, serving as \"lender of last resort,\" and clearing checks. The Fed stabilized the banking system and remains central to American economic policy today."
+     ],
+     [
+      "National Park Service (1916)",
+      "The National Park Service was established to manage the growing system of national parks and monuments. Its mission was to \"conserve the scenery and natural and historic objects...for the enjoyment of future generations.\" First Director Stephen Mather promoted tourism while protecting resources. The NPS professionalized park management, standardized conservation policies, and balanced public access with preservation. It remains responsible for America's national parks, monuments, and historic sites."
+     ],
+     [
+      "Additional Wilson Reforms",
+      "Wilson's administration also achieved the Clayton Antitrust Act (1914), which strengthened antitrust laws and protected unions from antitrust prosecution. The Federal Trade Commission (1914) was created to enforce antitrust and consumer protection laws. The Underwood Tariff (1913) reduced tariffs and included the first permanent income tax under the new 16th Amendment. The Keating-Owen Child Labor Act (1916) prohibited interstate commerce in goods made with child labor, though it was later declared unconstitutional."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “The New Freedom Platform” section, and what evidence supports it?",
+     "What is the main idea of the “Federal Reserve Act (1913)” section, and what evidence supports it?",
+     "What is the main idea of the “National Park Service (1916)” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "New Freedom",
+     "Clayton Antitrust Act"
+    ],
+    "quiz": [
+     {
+      "id": "us17-q2",
+      "dok": 2,
+      "stem": "What problems did the Federal Reserve Act address, and how did it stabilize the American banking system?",
+      "opts": {
+       "A": "It addressed financial panics, inflexible currency, and concentrated banking power by creating regional Reserve Banks, a central Board, and mechanisms to regulate money supply and serve as lender of last resort",
+       "B": "The banking system had no problems before 1913, which contradicts the primary source evidence from this era, which contradicts the primary source evidence from this era, but closer analysis reveals a more complicated historical reality",
+       "C": "The Federal Reserve only affected international banking, although this overlooks critical economic and social factors, though this interpretation lacks supporting historical evidence",
+       "D": "The Act eliminated all banks, though this interpretation lacks supporting historical evidence, which contradicts the primary source evidence from this era, although this overlooks critical economic and social factors involved"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us17-q3",
+      "dok": 2,
+      "stem": "Why was the creation of the National Park Service important for conservation and public access to natural resources?",
+      "opts": {
+       "A": "The Park Service restricted all public access, although this view has been largely discredited by scholars, but closer analysis reveals a more complicated historical reality",
+       "B": "It professionalized park management, standardized conservation policies, and balanced promoting public access and tourism with preserving natural and historic resources for future generations",
+       "C": "National parks already had effective management, despite the fact that multiple sources contradict this view despite the fact that multiple contemporary sources contradict this",
+       "D": "The Park Service only managed one park, which contradicts the primary source evidence from this era, which ignores significant political and cultural developments of the era"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — analyze the significant progressive achievements during President Woodrow Wilson's administration, including the New Freedom, the Federal Reserve Act, and the creation of the National Park Service? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "analyze the significant progressive achievements during President Woodrow Wilson's administration, including the New Freedom, the Federal Reserve Act, and the creation of the National Park Service",
+   "targets": [
+    "analyze the significant progressive achievements during President Woodrow Wilson's administration, including the New Freedom, the Federal Reserve Act, and the creation of the National Park Service"
+   ],
+   "criteria": [
+    "The New Freedom Platform",
+    "Federal Reserve Act (1913)",
+    "National Park Service (1916)"
+   ],
+   "cues": [
+    "What does the passage say about the New Freedom Platform?",
+    "What does the passage say about federal Reserve Act (1913)?",
+    "What does the passage say about national Park Service (1916)?",
+    "Key terms →"
+   ],
+   "lenses": "Politics/Government · Culture · Economics",
+   "dim_map": {
+    "P": "Politics/Government lens on Woodrow Wilson's Progressive Achievements: Wilson's New Freedom emphasized restoring economic competition rather than accepting big business as inevitabl…",
+    "C": "Culture lens on Woodrow Wilson's Progressive Achievements: Wilson's New Freedom emphasized restoring economic competition rather than accepting big business as inevitabl…",
+    "E": "Economics lens on Woodrow Wilson's Progressive Achievements: Wilson's New Freedom emphasized restoring economic competition rather than accepting big business as inevitabl…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Woodrow Wilson had Tennessee roots — he lived in Columbia, Tennessee, as a child, where his family's home still stands. Wilson's progressive policies, including the Federal Reserve Act and Clayton Antitrust Act, had direct impacts on Tennessee's agricultural economy and banking system.",
+   "hook": "Woodrow Wilson's Progressive Achievements: Analyze the significant progressive achievements during President Woodrow Wilson's administration, including: the New Freedom, the Federal Reserve Act, and the creation of the National Park Service. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.18": {
+   "title": "Women's Suffrage Movement",
+   "tn": "Describe the movement to achieve suffrage for women, including: the significance of leaders such as Carrie Chapman Catt, Anne Dallas Dudley, and Alice Paul, the activities of suffragettes, the passage of the 19th Amendment, and the role of Tennessee as the \"Perfect 36\".",
+   "ican": "I can describe the movement to achieve suffrage for women, including the significance of leaders such as Carrie Chapman Catt, Anne Dallas Dudley, and Alice Paul, the activities of suffragettes, the passage of the 19th Amendment, and Tennessee as the \"Perfect 36.\"",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Women's Suffrage",
+     "say": "",
+     "es": "Sufragio Femenino",
+     "def": "The movement to secure voting rights for women, culminating in the 19th Amendment in 1920 after decades of activism."
+    },
+    {
+     "term": "19th Amendment",
+     "say": "",
+     "es": "19ª Enmienda",
+     "def": "Ratified in 1920, this amendment prohibited denying the right to vote based on sex, granting women full suffrage nationwide."
+    },
+    {
+     "term": "Alice Paul",
+     "say": "",
+     "es": "Alice Paul",
+     "def": "A radical suffragist who founded the National Woman's Party and organized protests, picketing the White House to demand voting rights for women."
+    }
+   ],
+   "sources": [
+    {
+     "title": "19th Amendment",
+     "who": "U.S. Constitution",
+     "date": "1920",
+     "quote": "The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of sex. Congress shall have power to enforce this article by appropriate legislation.",
+     "repo": "\"Amendment XIX.\" U.S. Constitution, 1920. National Archives, https://www.archives.gov/milestone-documents/19th-amendment.",
+     "url": "https://www.archives.gov/milestone-documents/19th-amendment"
+    },
+    {
+     "title": "Carrie Chapman Catt Speech",
+     "who": "Carrie Chapman Catt",
+     "date": "1917",
+     "quote": "The woman's hour has struck. If the Suffrage Amendments is defeated, women will know why. They will not be forever stupid... Every delay, every trick, every political dishonesty from now on will antagonize the women of the land more and mor",
+     "repo": "Catt, Carrie Chapman. \"The Crisis.\" 1917. Library of Congress, www.loc.gov/collections/women-of-protest/.",
+     "url": "https://www.loc.gov/collections/women-of-protest/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze the immediate and long-term impacts of women's suffrage on American politics and society.",
+    "options": {
+     "A": "Women's suffrage had no lasting impact, but the historical record tells a more complex story, but the historical evidence paints a more nuanced picture, which contradicts the primary source evidence from this era",
+     "B": "Women stopped participating in politics after 1920, though this interpretation lacks supporting historical evidence, which ignores significant political and cultural developments of the era",
+     "C": "Suffrage immediately enfranchised 26 million women, challenged gender roles, supported reforms in education and health, and laid the foundation for later women's rights movements and gender equality advances",
+     "D": "Only electoral politics was affected, but contemporary accounts suggest a different explanation when examined alongside the available primary and secondary sources, but the historical evidence paints a more nuanced picture"
+    },
+    "key": "C",
+    "why": "Women's suffrage transformed American democracy by doubling the electorate and began reshaping politics and society, with impacts that continued through later women's rights movements."
+   },
+   "auth": {
+    "close": "The women's suffrage movement emerged from the abolitionist movement, with the Seneca Falls Convention (1848) marking its formal beginning. Social changes including women's increased education, employment, and reform activities created momentum. Motivations included belief in natural rights and equality, desire to influence moral and social reforms, response to \"taxation without representation,\" and inspiration from international suffrage movements. The movement took 72 years from Seneca Falls to the 19th Amendment. Carrie Chapman Catt led the National American Woman Suffrage Association (NAWSA) using the \"Winning Plan\" that coordinated state-by-state and federal campaigns. Anne Dallas Dudley, a Nashville socialite, founded the Nashville Equal Suffrage League and was crucial in securing Tennessee's ratification. Alice Paul founded the National Woman's Party and used more militant tactics including picketing, protests, and hunger strikes. Paul's \"Silent Sentinels\" picketed the White House, using publicity and confrontation to maintain pressure for a federal amendment. Suffragists employed diverse tactics: traditional methods like lobbying, petitions, speaking tours, and parades; state campaigns to build momentum toward a federal amendment; publicity through dramatic parades, banners, and publications; militant tactics including picketing, civil disobedience, and hunger strikes in prison; and coalition building with other reform movements. Women endured arrests, force-feeding during hunger strikes, and violence to advance their cause. The 19th Amendment states: \"The right of citizens of the United States to vote shall not be denied or abridged...on account of sex.\" Ratification required 36 states. Tennessee's August 18, 1920 vote was the crucial 36th state. The legislature was closely divided with intense lobbying from both sides. Young legislator Harry Burn changed his vote after receiving a letter from his mother urging him to \"be a good boy\" and vote for suffrage. Tennessee's vote enfranchised approximately 26 million women in time for the 1920 presidential election.",
+    "close_sections": [
+     [
+      "Historical Context and Motivations",
+      "The women's suffrage movement emerged from the abolitionist movement, with the Seneca Falls Convention (1848) marking its formal beginning. Social changes including women's increased education, employment, and reform activities created momentum. Motivations included belief in natural rights and equality, desire to influence moral and social reforms, response to \"taxation without representation,\" and inspiration from international suffrage movements. The movement took 72 years from Seneca Falls to the 19th Amendment."
+     ],
+     [
+      "Key Leaders and Their Strategies",
+      "Carrie Chapman Catt led the National American Woman Suffrage Association (NAWSA) using the \"Winning Plan\" that coordinated state-by-state and federal campaigns. Anne Dallas Dudley, a Nashville socialite, founded the Nashville Equal Suffrage League and was crucial in securing Tennessee's ratification. Alice Paul founded the National Woman's Party and used more militant tactics including picketing, protests, and hunger strikes. Paul's \"Silent Sentinels\" picketed the White House, using publicity and confrontation to maintain pressure for a federal amendment."
+     ],
+     [
+      "Suffragette Activities and Tactics",
+      "Suffragists employed diverse tactics: traditional methods like lobbying, petitions, speaking tours, and parades; state campaigns to build momentum toward a federal amendment; publicity through dramatic parades, banners, and publications; militant tactics including picketing, civil disobedience, and hunger strikes in prison; and coalition building with other reform movements. Women endured arrests, force-feeding during hunger strikes, and violence to advance their cause."
+     ],
+     [
+      "The 19th Amendment and Tennessee as the \"Perfect 36\"",
+      "The 19th Amendment states: \"The right of citizens of the United States to vote shall not be denied or abridged...on account of sex.\" Ratification required 36 states. Tennessee's August 18, 1920 vote was the crucial 36th state. The legislature was closely divided with intense lobbying from both sides. Young legislator Harry Burn changed his vote after receiving a letter from his mother urging him to \"be a good boy\" and vote for suffrage. Tennessee's vote enfranchised approximately 26 million women in time for the 1920 presidential election."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Historical Context and Motivations” section, and what evidence supports it?",
+     "What is the main idea of the “Key Leaders and Their Strategies” section, and what evidence supports it?",
+     "What is the main idea of the “Suffragette Activities and Tactics” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Women's Suffrage",
+     "19th Amendment"
+    ],
+    "quiz": [
+     {
+      "id": "us18-q2",
+      "dok": 2,
+      "stem": "How did leaders like Carrie Chapman Catt, Anne Dallas Dudley, and Alice Paul use different strategies to advance women's voting rights?",
+      "opts": {
+       "A": "Catt used organized political campaigns, Dudley used social connections for lobbying, and Paul used militant tactics like picketing and hunger strikes—different approaches that complemented each other",
+       "B": "All leaders used identical strategies, but this fails to account for the broader historical context and does not reflect the scholarly consensus on this topic, which does not align with the documented historical record",
+       "C": "These leaders opposed women's suffrage, which contradicts the primary source evidence from this era, though this interpretation lacks supporting historical evidence, although historical sources do not support this conclusion",
+       "D": "Only one strategy was ever used, although this view has been largely discredited by scholars, which does not align with the documented historical record and does not reflect the scholarly consensus on this topic"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us18-q3",
+      "dok": 2,
+      "stem": "Why was Tennessee's role as the \"Perfect 36\" crucial for ratifying the 19th Amendment?",
+      "opts": {
+       "A": "Tennessee's vote was not important, but the historical record tells a more complex story, which contradicts the primary source evidence from this era, which does not align with the documented historical record",
+       "B": "As the 36th state to ratify, Tennessee provided the final approval needed for the amendment, with Harry Burn's vote change after his mother's letter proving decisive in the closely divided legislature",
+       "C": "Tennessee was the first state to ratify, although this view has been largely discredited by scholars and fails to account for key developments in the broader context, but the historical evidence paints a more nuanced picture",
+       "D": "The amendment did not require state ratification, which contradicts the primary source evidence from this era and fails to account for key developments in the broader context"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the movement to achieve suffrage for women, including the significance of leaders such as Carrie Chapman Catt, Anne Dallas Dudley, and Alice Paul, the activities of suffragettes, the passage of the 19th Amendment, and Tennessee as the \"Perfect 36.\"? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "describe the movement to achieve suffrage for women, including the significance of leaders such as Carrie Chapman Catt, Anne Dallas Dudley, and Alice Paul, the activities of suffragettes, the passage of the 19th Amendment, and Tennessee as the \"Perfect 36.\"",
+   "targets": [
+    "describe the movement to achieve suffrage for women, including the significance of leaders such as Carrie Chapman Catt, Anne Dallas Dudley, and Alice Paul, the activities of suffragettes, the passage of the 19th Amendment, and Tennessee as the \"Perfect 36.\""
+   ],
+   "criteria": [
+    "Historical Context and Motivations",
+    "Key Leaders and Their Strategies",
+    "Suffragette Activities and Tactics"
+   ],
+   "cues": [
+    "What does the passage say about historical Context and Motivations?",
+    "What does the passage say about key Leaders and Their Strategies?",
+    "What does the passage say about suffragette Activities and Tactics?",
+    "Key terms →"
+   ],
+   "lenses": "Culture · Politics/Government · History",
+   "dim_map": {
+    "C": "Culture lens on Women's Suffrage Movement: The women's suffrage movement emerged from the abolitionist movement, with the Seneca Falls Convention (1848) …",
+    "P": "Politics/Government lens on Women's Suffrage Movement: The women's suffrage movement emerged from the abolitionist movement, with the Seneca Falls Convention (1848) …",
+    "H": "History lens on Women's Suffrage Movement: The women's suffrage movement emerged from the abolitionist movement, with the Seneca Falls Convention (1848) …"
+   },
+   "geo": "Women’s suffrage spread unevenly across the country before the 19th Amendment passed in 1920. Use the regions below to map where the vote came early and where it came last — then explain the pattern.",
+   "geo_places": [
+    [
+     "Western states (e.g., Wyoming, Colorado)",
+     "The West",
+     "granted women the vote earliest — Wyoming Territory in 1869"
+    ],
+    [
+     "Tennessee",
+     "The South",
+     "the 36th and final state needed — ratified August 18, 1920"
+    ],
+    [
+     "Most Southern states",
+     "The South",
+     "ratified last, or rejected the 19th Amendment"
+    ]
+   ],
+   "tn_connection": "Tennessee played a pivotal role in women's suffrage. On August 18, 1920, Tennessee became the 36th and final state needed to ratify the 19th Amendment, thanks to 24-year-old state legislator Harry T. Burn who changed his vote after receiving a letter from his mother.",
+   "hook": "Women's Suffrage Movement: Describe the movement to achieve suffrage for women, including: the significance of leaders such as Carrie Chapman Catt, Anne Dallas Dudley, and Alice Paul, the activities of suffragettes, the passage of the 19th Amendment, and the role of Tennessee as the \"Perfect 36\". Who gained, who was left out — and why does it still matter?"
+  }
+ },
+ "order": [
+  "US.08",
+  "US.09",
+  "US.10",
+  "US.11",
+  "US.12",
+  "US.13",
+  "US.14",
+  "US.15",
+  "US.16",
+  "US.17",
+  "US.18"
+ ]
+}

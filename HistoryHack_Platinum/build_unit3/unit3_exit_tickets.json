@@ -1,0 +1,227 @@
+{
+ "US.19": {
+  "id": "us19-q1",
+  "stem": "What economic factors drove American imperialism in the late 19th and early 20th centuries?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Desire to reduce American manufacturing output, but the historical record tells a more complex story"
+   },
+   {
+    "id": "B",
+    "text": "Fear of domestic economic growth, which represents a common misconception about the period"
+   },
+   {
+    "id": "C",
+    "text": "Need for raw materials, new markets for surplus goods, and investment opportunities abroad"
+   },
+   {
+    "id": "D",
+    "text": "Wish to import European political systems, which ignores key developments that shaped the outcome"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.20": {
+  "id": "us20-q1",
+  "stem": "What arguments did interventionists make for American overseas expansion and involvement?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "America should withdraw from all international affairs, but contemporary accounts suggest a different explanation"
+   },
+   {
+    "id": "B",
+    "text": "The Constitution prohibited any foreign involvement, but this oversimplifies the complex factors at work"
+   },
+   {
+    "id": "C",
+    "text": "America lacked the military capability for expansion, although this overlooks critical economic and social factors"
+   },
+   {
+    "id": "D",
+    "text": "Economic benefits from overseas markets, strategic naval positions, moral duty to spread democracy, and competition with European powers"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.21": {
+  "id": "us21-q1",
+  "stem": "What specific events and factors led to the outbreak of the Spanish-American War in 1898?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The Cuban rebellion, USS Maine explosion, de Lôme Letter, yellow journalism coverage, and humanitarian concerns combined to push America toward war"
+   },
+   {
+    "id": "B",
+    "text": "Only the sinking of the Maine caused the war, though this interpretation lacks supporting historical evidence and does not reflect the scholarly consensus on this topic"
+   },
+   {
+    "id": "C",
+    "text": "Spain declared war on the United States first, which ignores key developments that shaped the outcome, but closer analysis reveals a more complicated historical reality"
+   },
+   {
+    "id": "D",
+    "text": "Economic factors played no role in the conflict, though this interpretation lacks supporting historical evidence"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ },
+ "US.22": {
+  "id": "us22-q1",
+  "stem": "How did Theodore Roosevelt's \"Big Stick\" diplomacy use military strength to achieve foreign policy goals?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Roosevelt avoided any military threats, which represents a common misconception about the period, but the historical evidence paints a more nuanced picture despite the fact that multiple contemporary sources contradict this"
+   },
+   {
+    "id": "B",
+    "text": "Roosevelt backed diplomacy with credible military force, demonstrated by the Great White Fleet, while acting as mediator and using the Roosevelt Corollary to justify Latin American interventions"
+   },
+   {
+    "id": "C",
+    "text": "Roosevelt relied only on economic pressure, which does not align with the documented historical record, but the historical evidence paints a more nuanced picture, which does not align with the documented historical record"
+   },
+   {
+    "id": "D",
+    "text": "Roosevelt never used military demonstrations, though this interpretation lacks supporting historical evidence and oversimplifies the complex factors at work during this period"
+   }
+  ],
+  "correct": "B",
+  "reportingCategory": "History"
+ },
+ "US.23": {
+  "id": "us23-q1",
+  "stem": "How did militarism, alliances, imperialism, and nationalism (MAIN) create conditions for World War I?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Only one factor caused World War I, which ignores key developments that shaped the outcome, though this interpretation lacks supporting historical evidence and fails to account for key developments in the broader context"
+   },
+   {
+    "id": "B",
+    "text": "These factors prevented war, although this overlooks critical economic and social factors and fails to account for key developments in the broader context, but the historical evidence paints a more nuanced picture"
+   },
+   {
+    "id": "C",
+    "text": "Military buildups created tension, alliances turned local conflicts into continental wars, imperial competition bred rivalry, and nationalism inflamed ethnic conflicts—together creating explosive conditions"
+   },
+   {
+    "id": "D",
+    "text": "World War I began without any underlying causes, but this fails to account for the broader historical context and does not reflect the scholarly consensus on this topic and oversimplifies the complex factors at work during this period"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.24": {
+  "id": "us24-q1",
+  "stem": "How did German submarine warfare, particularly unrestricted submarine warfare, push America toward war?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Submarine warfare had no effect on American opinion, though this interpretation lacks supporting historical evidence and fails to account for key developments in the broader context"
+   },
+   {
+    "id": "B",
+    "text": "Germany never used submarines against American ships, but contemporary accounts suggest a different explanation, which contradicts the primary source evidence from this era"
+   },
+   {
+    "id": "C",
+    "text": "Americans supported German submarine warfare, although this overlooks critical economic and social factors, but the historical evidence paints a more nuanced picture, which contradicts the primary source evidence from this era"
+   },
+   {
+    "id": "D",
+    "text": "Attacks like the Lusitania sinking killed Americans and violated international law, and resumption of unrestricted warfare in 1917 threatened all American shipping, leading Wilson to sever relations"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.25": {
+  "id": "us25-q1",
+  "stem": "How did trench warfare and new military technologies change the nature of combat in World War I?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Trenches created deadly stalemate while machine guns, poison gas, artillery, aircraft, and tanks made warfare far more destructive, resulting in massive casualties for minimal gains"
+   },
+   {
+    "id": "B",
+    "text": "Combat remained unchanged from previous wars, despite the fact that multiple sources contradict this view, and this view has been largely revised by modern historical research"
+   },
+   {
+    "id": "C",
+    "text": "New technologies ended the war quickly, but this fails to account for the broader historical context when examined alongside the available primary and secondary sources"
+   },
+   {
+    "id": "D",
+    "text": "Trench warfare was only used briefly, but contemporary accounts suggest a different explanation, but closer analysis reveals a more complicated historical reality"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ },
+ "US.26": {
+  "id": "us26-q1",
+  "stem": "How did World War I expand federal government power over the American economy and society?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Government power decreased during the war, which contradicts the primary source evidence from this era and fails to account for key developments in the broader context"
+   },
+   {
+    "id": "B",
+    "text": "New agencies controlled production, the draft conscripted millions, and the Espionage and Sedition Acts restricted speech, giving the federal government unprecedented authority"
+   },
+   {
+    "id": "C",
+    "text": "Only the military expanded, although this overlooks critical economic and social factors and oversimplifies the complex factors at work during this period"
+   },
+   {
+    "id": "D",
+    "text": "State governments controlled the war effort, which ignores key developments that shaped the outcome despite the fact that multiple contemporary sources contradict this"
+   }
+  ],
+  "correct": "B",
+  "reportingCategory": "History"
+ },
+ "US.27": {
+  "id": "us27-q1",
+  "stem": "What were the main principles of Wilson's Fourteen Points, and how did they reflect his vision for post-war peace?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Wilson supported punishing Germany harshly, which does not align with the documented historical record and fails to account for key developments in the broader context"
+   },
+   {
+    "id": "B",
+    "text": "Wilson's plan focused only on territorial changes, but the historical record tells a more complex story, but contemporary accounts and primary sources suggest otherwise"
+   },
+   {
+    "id": "C",
+    "text": "Wilson promoted open diplomacy, free trade, arms reduction, self-determination, and a League of Nations to prevent future wars through collective security rather than harsh punishment"
+   },
+   {
+    "id": "D",
+    "text": "The Fourteen Points supported American isolation, yet the available evidence points to a different conclusion, but the historical evidence paints a more nuanced picture"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ }
+}

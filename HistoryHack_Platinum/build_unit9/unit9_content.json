@@ -1,0 +1,773 @@
+{
+ "unit": {
+  "code": "Unit 9",
+  "title": "The Civil Rights Movement (1954–1975)",
+  "standards_range": "US.78–US.82",
+  "publisher": "TroopToTeacher Technologies LLC",
+  "footer": "U.S. History Hack · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards & TCAP EOC"
+ },
+ "standards": {
+  "US.78": {
+   "title": "Brown v. Board of Education",
+   "tn": "Examine the decision and impact of Brown v. Board of Education on desegregation. (TCA)",
+   "ican": "I can examine the decision and impact of Brown v. Board of Education on desegregation.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Brown v. Board of Education",
+     "say": "",
+     "es": "Brown contra el Consejo de Educación",
+     "def": "The landmark 1954 Supreme Court decision that declared state laws establishing separate public schools for Black and white students unconstitutional, overturning Plessy v. Ferguson and ending legal school segregation."
+    },
+    {
+     "term": "Thurgood Marshall",
+     "say": "",
+     "es": "Thurgood Marshall",
+     "def": "Chief counsel for the NAACP Legal Defense Fund who argued Brown v. Board of Education before the Supreme Court and later became the first African American Supreme Court Justice in 1967."
+    },
+    {
+     "term": "Resistance",
+     "say": "",
+     "es": "Resistencia",
+     "def": "Southern states launched \"massive resistance\" campaign to defy ruling."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Brown v. Board of Education Decision",
+     "who": "Chief Justice Earl Warren",
+     "date": "May 17, 1954",
+     "quote": "We conclude that, in the field of public education, the doctrine of \"separate but equal\" has no place. Separate educational facilities are inherently unequal. Therefore, we hold that the plaintiffs and others similarly situated... are, by r",
+     "repo": "Warren, Chief Justice Earl. \"Brown v. Board of Education Decision.\" May 17, 1954. National Archives, https://www.archives.gov/milestone-documents/brown-v-board-",
+     "url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education"
+    },
+    {
+     "title": "NAACP Legal Defense Fund Brief",
+     "who": "Thurgood Marshall",
+     "date": "1953",
+     "quote": "The evidence clearly shows that the Negro children in these cases have been required to attend schools which are inferior in every measurable aspect... But even more significant is the psychological damage inflicted on Negro children by the",
+     "repo": "Marshall, Thurgood. \"NAACP Legal Defense Fund Brief.\" 1953. Library of Congress, www.loc.gov/collections/thurgood-marshall-papers/.",
+     "url": "https://www.loc.gov/collections/thurgood-marshall-papers/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Why was school desegregation so difficult to implement despite the Supreme Court's ruling?",
+    "options": {
+     "A": "Brown II's \"all deliberate speed\" language allowed gradual implementation while Southern states launched \"massive resistance\" campaigns",
+     "B": "The ruling only applied to a few specific school districts, but the historical record tells a more complex story",
+     "C": "Federal troops refused to enforce the decision, but this fails to account for the broader historical context",
+     "D": "Most Black families preferred segregated schools, but contemporary accounts suggest a different explanation"
+    },
+    "key": "A",
+    "why": "The vague \"all deliberate speed\" timeline in Brown II gave Southern states room to delay, and many resisted through closing public schools, creating private academies, and outright defiance."
+   },
+   "auth": {
+    "close": "The case emerged from decades of \"separate but equal\" doctrine established in Plessy v. Ferguson (1896). By the 1950s, the NAACP's legal strategy, led by Thurgood Marshall, systematically challenged segregated education. Previous cases like Sweatt v. Painter (1950) had already weakened the separate but equal principle in higher education. Social science research, including Kenneth Clark's doll tests, demonstrated segregation's psychological harm to Black children. The Supreme Court consolidated five cases challenging school segregation. Chief Justice Earl Warren wrote the unanimous decision stating that \"separate educational facilities are inherently unequal\" and violated the 14th Amendment's Equal Protection Clause. The Court rejected the separate but equal doctrine for public education, declaring that segregation generated feelings of inferiority that damaged Black children's educational opportunities. The decision legally ended school segregation but implementation proved difficult. Brown II (1955) ordered desegregation \"with all deliberate speed,\" allowing gradual implementation. Many Southern states resisted through \"massive resistance\" campaigns, creating private academies and closing public schools. Progress was slow—by 1964, only 2% of Black Southern students attended integrated schools. However, the decision provided legal foundation for the broader civil rights movement.",
+    "close_sections": [
+     [
+      "Historical Context Leading to Brown v. Board",
+      "The case emerged from decades of \"separate but equal\" doctrine established in Plessy v. Ferguson (1896). By the 1950s, the NAACP's legal strategy, led by Thurgood Marshall, systematically challenged segregated education. Previous cases like Sweatt v. Painter (1950) had already weakened the separate but equal principle in higher education. Social science research, including Kenneth Clark's doll tests, demonstrated segregation's psychological harm to Black children."
+     ],
+     [
+      "Key Details of the Court Case and Decision",
+      "The Supreme Court consolidated five cases challenging school segregation. Chief Justice Earl Warren wrote the unanimous decision stating that \"separate educational facilities are inherently unequal\" and violated the 14th Amendment's Equal Protection Clause. The Court rejected the separate but equal doctrine for public education, declaring that segregation generated feelings of inferiority that damaged Black children's educational opportunities."
+     ],
+     [
+      "Impact on Desegregation",
+      "The decision legally ended school segregation but implementation proved difficult. Brown II (1955) ordered desegregation \"with all deliberate speed,\" allowing gradual implementation. Many Southern states resisted through \"massive resistance\" campaigns, creating private academies and closing public schools. Progress was slow—by 1964, only 2% of Black Southern students attended integrated schools. However, the decision provided legal foundation for the broader civil rights movement."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Historical Context Leading to Brown v. Board” section, and what evidence supports it?",
+     "What is the main idea of the “Key Details of the Court Case and Decision” section, and what evidence supports it?",
+     "What is the main idea of the “Impact on Desegregation” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Brown v. Board of Education",
+     "Thurgood Marshall"
+    ],
+    "quiz": [
+     {
+      "id": "us78-q2",
+      "dok": 2,
+      "stem": "How did the Supreme Court's decision in Brown v. Board overturn Plessy v. Ferguson?",
+      "opts": {
+       "A": "It ruled that \"separate educational facilities are inherently unequal,\" rejecting the separate but equal doctrine for public education",
+       "B": "It declared all forms of segregation unconstitutional immediately, yet the available evidence points to a different conclusion",
+       "C": "It upheld Plessy but made exceptions for public schools, despite the fact that multiple sources contradict this view",
+       "D": "It delegated the decision to individual states, which ignores key developments that shaped the outcome"
+      },
+      "key": "A"
+     },
+     {
+      "id": "us-78-x046",
+      "dok": 2,
+      "stem": "Which statement best describes the long-term significance of Brown v. Board of Education for the civil rights movement?",
+      "opts": {
+       "A": "It immediately ended segregation in all public facilities across the South",
+       "B": "It established a legal and moral foundation that activists used to challenge broader racial discrimination",
+       "C": "It persuaded most Southern whites to voluntarily accept school integration by 1960",
+       "D": "It gave the president unlimited power to enforce civil rights laws without congressional approval"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — examine the decision and impact of Brown v. Board of Education on desegregation? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "examine the decision and impact of Brown v. Board of Education on desegregation",
+   "targets": [
+    "examine the decision and impact of Brown v. Board of Education on desegregation"
+   ],
+   "criteria": [
+    "Historical Context Leading to Brown v. Board",
+    "Key Details of the Court Case and Decision",
+    "Impact on Desegregation"
+   ],
+   "cues": [
+    "What does the passage say about historical Context Leading to Brown v. Board?",
+    "What does the passage say about key Details of the Court Case and Decision?",
+    "What does the passage say about impact on Desegregation?",
+    "Key terms →"
+   ],
+   "lenses": "Culture · History · Tennessee Connection",
+   "dim_map": {
+    "C": "Culture lens on Brown v. Board of Education: The case emerged from decades of \"separate but equal\" doctrine established in Plessy v. Ferguson (1896). By th…",
+    "H": "History lens on Brown v. Board of Education: The case emerged from decades of \"separate but equal\" doctrine established in Plessy v. Ferguson (1896). By th…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Tennessee schools underwent desegregation following Brown v. Board of Education, though implementation was slow and contested. Clinton High School in Anderson County was one of the first public high schools in the South to desegregate in 1956. (TCA reference in standard)",
+   "hook": "Brown v. Board of Education: Examine the decision and impact of Brown v. Board of Education on desegregation. (TCA). Who gained, who was left out — and why does it still matter?"
+  },
+  "US.79": {
+   "title": "Civil Rights Advocates and Opponents",
+   "tn": "Examine the roles and actions of civil rights advocates and opponents and how they coincided, confronted, and challenged each other. (TCA)",
+   "ican": "I can examine the roles and actions of civil rights advocates (e.g., Malcolm X, Thurgood Marshall, Rosa Parks) and opponents (e.g., Bull Connor, Orval Faubus, Strom Thurmond) and how they coincided, confronted, and challenged each other.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Little Rock Nine",
+     "say": "",
+     "es": "Los Nueve de Little Rock",
+     "def": "The nine African American students who integrated Central High School in Little Rock, Arkansas in 1957, facing violent mobs and requiring federal troops protection ordered by President Eisenhower."
+    },
+    {
+     "term": "Thurgood Marshall",
+     "say": "",
+     "es": "Thurgood Marshall",
+     "def": "Chief counsel for the NAACP Legal Defense Fund who argued Brown v. Board of Education before the Supreme Court and later became the first African American Supreme Court Justice in 1967."
+    },
+    {
+     "term": "Rosa Parks",
+     "say": "",
+     "es": "Rosa Parks",
+     "def": "The \"Mother of the Civil Rights Movement\" who refused to give up her bus seat to a white passenger in Montgomery, Alabama in 1955, sparking the Montgomery Bus Boycott."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Montgomery Bus Boycott Account",
+     "who": "Rosa Parks",
+     "date": "1956",
+     "quote": "People always say that I didn't give up my seat because I was tired, but that isn't true. I was not tired physically, or no more tired than I usually was at the end of a working day... No, the only tired I was, was tired of giving in. I had",
+     "repo": "Parks, Rosa. \"Montgomery Bus Boycott Account.\" 1956. Library of Congress, www.loc.gov/collections/rosa-parks-papers/.",
+     "url": "https://www.loc.gov/collections/rosa-parks-papers/"
+    },
+    {
+     "title": "The Ballot or the Bullet",
+     "who": "Malcolm X",
+     "date": "April 3, 1964",
+     "quote": "It'll be the ballot or the bullet. It'll be liberty or it'll be death. And if you're not ready to pay that price don't use the word freedom in your vocabulary... I'm not an American. I'm one of the 22 million Black people who are the victim",
+     "repo": "X, Malcolm. \"The Ballot or the Bullet.\" April 3, 1964. Library of Congress, www.loc.gov/collections/malcolm-x/.",
+     "url": "https://www.loc.gov/collections/malcolm-x/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Compare the philosophies of Martin Luther King Jr. and Malcolm X regarding integration and Black identity.",
+    "options": {
+     "A": "Both leaders held identical views throughout their careers, which ignores key developments that shaped the outcome and oversimplifies the complex factors at work during this period",
+     "B": "King emphasized integration through Christian love and nonviolence while Malcolm X initially promoted Black nationalism and self-defense, though both evolved over time",
+     "C": "Malcolm X always supported King's nonviolent approach, despite limited evidence supporting this interpretation, but contemporary accounts and primary sources suggest otherwise",
+     "D": "King opposed integration while Malcolm X supported it, though this interpretation lacks supporting historical evidence, and this view has been largely revised by modern historical research"
+    },
+    "key": "B",
+    "why": "King and Malcolm X represented different but evolving approaches—King's dream of integration through nonviolence contrasted with Malcolm X's early separatism, though Malcolm X later embraced broader human rights perspectives."
+   },
+   "auth": {
+    "close": "Martin Luther King Jr. led nonviolent resistance, organized the Montgomery Bus Boycott, founded the Southern Christian Leadership Conference (SCLC), and delivered the \"I Have a Dream\" speech. Malcolm X initially promoted Black nationalism through the Nation of Islam, later evolving toward human rights after his pilgrimage to Mecca. Thurgood Marshall served as NAACP chief legal counsel, argued Brown v. Board, and became the first Black Supreme Court Justice. Rosa Parks sparked the Montgomery Bus Boycott and became a symbol of quiet dignity and resistance. Bull Connor, Birmingham Police Commissioner, used fire hoses and police dogs against peaceful protesters—his violent tactics backfired by generating sympathy for civil rights. Orval Faubus, Arkansas Governor, defied federal court orders using the National Guard to prevent the Little Rock Nine from entering Central High School, forcing President Eisenhower to intervene. Strom Thurmond, South Carolina Senator, led the \"Dixiecrat\" revolt in 1948 and conducted the longest individual Senate filibuster (24+ hours) against the 1957 Civil Rights Act. King emphasized integration and nonviolence while Malcolm X initially promoted separation and self-defense. Both evolved—King became more critical of economic inequality while Malcolm X moved toward a broader human rights perspective. Marshall used the courts while King used mass protests; both strategies complemented each other. Legal victories provided the framework while protests generated political pressure for change.",
+    "close_sections": [
+     [
+      "Civil Rights Advocates",
+      "Martin Luther King Jr. led nonviolent resistance, organized the Montgomery Bus Boycott, founded the Southern Christian Leadership Conference (SCLC), and delivered the \"I Have a Dream\" speech. Malcolm X initially promoted Black nationalism through the Nation of Islam, later evolving toward human rights after his pilgrimage to Mecca. Thurgood Marshall served as NAACP chief legal counsel, argued Brown v. Board, and became the first Black Supreme Court Justice. Rosa Parks sparked the Montgomery Bus Boycott and became a symbol of quiet dignity and resistance."
+     ],
+     [
+      "Civil Rights Opponents",
+      "Bull Connor, Birmingham Police Commissioner, used fire hoses and police dogs against peaceful protesters—his violent tactics backfired by generating sympathy for civil rights. Orval Faubus, Arkansas Governor, defied federal court orders using the National Guard to prevent the Little Rock Nine from entering Central High School, forcing President Eisenhower to intervene. Strom Thurmond, South Carolina Senator, led the \"Dixiecrat\" revolt in 1948 and conducted the longest individual Senate filibuster (24+ hours) against the 1957 Civil Rights Act."
+     ],
+     [
+      "Comparing Approaches",
+      "King emphasized integration and nonviolence while Malcolm X initially promoted separation and self-defense. Both evolved—King became more critical of economic inequality while Malcolm X moved toward a broader human rights perspective. Marshall used the courts while King used mass protests; both strategies complemented each other. Legal victories provided the framework while protests generated political pressure for change."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Civil Rights Advocates” section, and what evidence supports it?",
+     "What is the main idea of the “Civil Rights Opponents” section, and what evidence supports it?",
+     "What is the main idea of the “Comparing Approaches” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Little Rock Nine",
+     "Thurgood Marshall"
+    ],
+    "quiz": [
+     {
+      "id": "us79-q2",
+      "dok": 2,
+      "stem": "What tactics did opponents like Bull Connor, Orval Faubus, and Strom Thurmond use to resist civil rights progress?",
+      "opts": {
+       "A": "Connor used police violence, Faubus defied federal courts with the National Guard, and Thurmond used Senate filibusters",
+       "B": "They primarily used peaceful political lobbying, but contemporary accounts suggest a different explanation",
+       "C": "They focused exclusively on legal challenges in court, although historical sources do not support this conclusion",
+       "D": "They avoided public confrontation entirely, but the historical record tells a more complex story"
+      },
+      "key": "A"
+     },
+     {
+      "id": "q-us79-add-1",
+      "dok": 2,
+      "stem": "How did Malcolm X's approach to civil rights differ from Martin Luther King Jr.'s?",
+      "opts": {
+       "A": "Both leaders agreed on every major strategy; their differences were only stylistic",
+       "B": "Malcolm X advocated self-defense and Black nationalism while King promoted nonviolence",
+       "C": "Malcolm X focused on rural sharecroppers while King focused on urban workers",
+       "D": "Malcolm X supported the Civil Rights Act of 1964 while King opposed it"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — examine the roles and actions of civil rights advocates (e.g., Malcolm X, Thurgood Marshall, Rosa Parks) and opponents (e.g., Bull Connor, Orval Faubus, Strom Thurmond) and how they coincided, confronted, and challenged each other? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "examine the roles and actions of civil rights advocates (e.g., Malcolm X, Thurgood Marshall, Rosa Parks) and opponents (e.g., Bull Connor, Orval Faubus, Strom Thurmond) and how they coincided, confronted, and challenged each other",
+   "targets": [
+    "examine the roles and actions of civil rights advocates (e.g., Malcolm X, Thurgood Marshall, Rosa Parks) and opponents (e.g., Bull Connor, Orval Faubus, Strom Thurmond) and how they coincided, confronted, and challenged each other"
+   ],
+   "criteria": [
+    "Civil Rights Advocates",
+    "Civil Rights Opponents",
+    "Comparing Approaches"
+   ],
+   "cues": [
+    "What does the passage say about civil Rights Advocates?",
+    "What does the passage say about civil Rights Opponents?",
+    "What does the passage say about comparing Approaches?",
+    "Key terms →"
+   ],
+   "lenses": "Culture · History · Tennessee Connection",
+   "dim_map": {
+    "C": "Culture lens on Civil Rights Advocates and Opponents: Martin Luther King Jr. led nonviolent resistance, organized the Montgomery Bus Boycott, founded the Southern C…",
+    "H": "History lens on Civil Rights Advocates and Opponents: Martin Luther King Jr. led nonviolent resistance, organized the Montgomery Bus Boycott, founded the Southern C…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Highlander Folk School in Monteagle, Tennessee, trained civil rights leaders including Rosa Parks and Martin Luther King Jr. The school was a crucial training ground for nonviolent resistance strategies.",
+   "hook": "Civil Rights Advocates and Opponents: Examine the roles and actions of civil rights advocates and opponents and how they coincided, confronted, and challenged each other. (TCA). Who gained, who was left out — and why does it still matter?"
+  },
+  "US.80": {
+   "title": "Significant Civil Rights Events",
+   "tn": "Describe the significant events in the struggle to secure civil rights for African Americans, including: Montgomery Bus Boycott, Integration of Clinton High School and Central High School, Freedom Riders, Highlander Folk School, Tent City in Fayette County, TN, marches/demonstrations/boycotts/sit-ins, March on Washington D.C., Birmingham bombings of 1963, and assassination of Martin Luther King Jr. (TCA)",
+   "ican": "I can describe the significant events in the struggle to secure civil rights for African Americans, including the Montgomery Bus Boycott, Freedom Riders, March on Washington, Birmingham bombings, and assassination of Martin Luther King Jr.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Little Rock Nine",
+     "say": "",
+     "es": "Los Nueve de Little Rock",
+     "def": "The nine African American students who integrated Central High School in Little Rock, Arkansas in 1957, facing violent mobs and requiring federal troops protection ordered by President Eisenhower."
+    },
+    {
+     "term": "Rosa Parks",
+     "say": "",
+     "es": "Rosa Parks",
+     "def": "The \"Mother of the Civil Rights Movement\" who refused to give up her bus seat to a white passenger in Montgomery, Alabama in 1955, sparking the Montgomery Bus Boycott."
+    },
+    {
+     "term": "Bull Connor",
+     "say": "",
+     "es": "Bull Connor",
+     "def": "Birmingham, Alabama's Commissioner of Public Safety who violently opposed civil rights protesters in 1963, using police dogs and fire hoses against peaceful demonstrators, including children."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Letter from Birmingham Jail",
+     "who": "Dr. Martin Luther King Jr.",
+     "date": "April 16, 1963",
+     "quote": "Injustice anywhere is a threat to justice everywhere. We are caught in an inescapable network of mutuality, tied in a single garment of destiny. Whatever affects one directly, affects all indirectly... I have almost reached the regrettable ",
+     "repo": "Jr., Dr. Martin Luther King. \"Letter from Birmingham Jail.\" April 16, 1963. Martin Luther King Jr. Research and Education Institute, kinginstitute.stanford.edu/",
+     "url": "https://kinginstitute.stanford.edu/encyclopedia/letter-birmingham-jail"
+    },
+    {
+     "title": "I Have a Dream Speech",
+     "who": "Dr. Martin Luther King Jr.",
+     "date": "August 28, 1963",
+     "quote": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: \"We hold these truths to be self-evident, that all men are created equal.\"... I have a dream that my four little children will one day live in ",
+     "repo": "Jr., Dr. Martin Luther King. \"I Have a Dream Speech.\" August 28, 1963. National Archives, https://www.archives.gov/milestone-documents/official-program-for-the-",
+     "url": "https://www.archives.gov/milestone-documents/official-program-for-the-march-on-washington"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "How did television coverage of events like Birmingham and Little Rock build national support for civil rights legislation?",
+    "options": {
+     "A": "Television had minimal impact on public opinion, despite limited evidence supporting this interpretation, but closer analysis reveals a more complicated historical reality",
+     "B": "Television coverage primarily supported segregationists, yet the available evidence points to a different conclusion",
+     "C": "Images of fire hoses, police dogs, and troops protecting children shocked Americans and generated sympathy for the movement, pressuring Congress to act",
+     "D": "Most Americans did not have access to television coverage, yet the available evidence points to a different conclusion"
+    },
+    "key": "C",
+    "why": "Television brought the violence of segregation into American living rooms, creating widespread outrage that translated into political pressure for federal civil rights legislation."
+   },
+   "auth": {
+    "close": "The Montgomery Bus Boycott (1955-1956), sparked by Rosa Parks' arrest, demonstrated Black economic power through 381 days of sustained action. It established nonviolent resistance as the primary strategy and elevated Martin Luther King Jr. to national leadership. The Nashville Sit-ins (1960), led by John Lewis and Diane Nash, used disciplined nonviolent protests to desegregate lunch counters, inspiring similar actions nationwide. Clinton High School (1956) became the first Southern community to integrate its high school following Brown v. Board. Twelve Black students faced violent opposition, requiring National Guard protection. Highlander Folk School trained civil rights leaders including Rosa Parks and King in nonviolent resistance. Tent City in Fayette County (1960) formed when Black sharecroppers evicted for attempting to vote created a community on donated land, demonstrating both retaliation and resilience. The Little Rock Nine (1957) faced Governor Faubus's defiance until President Eisenhower sent federal troops. Freedom Riders (1961) tested desegregation rulings by riding buses through the South, facing firebombings and beatings that forced federal intervention. The Birmingham Campaign (1963) targeted \"the most segregated city in America,\" where Bull Connor's violent response to peaceful protesters shocked the nation. The March on Washington (1963) brought 250,000 people to hear King's \"I Have a Dream\" speech, pressuring Congress for legislation. Martin Luther King Jr.'s assassination in Memphis (1968) while supporting striking sanitation workers triggered nationwide riots and galvanized support for the Fair Housing Act, marking both the movement's peak and transformation.",
+    "close_sections": [
+     [
+      "Early Movement Victories",
+      "The Montgomery Bus Boycott (1955-1956), sparked by Rosa Parks' arrest, demonstrated Black economic power through 381 days of sustained action. It established nonviolent resistance as the primary strategy and elevated Martin Luther King Jr. to national leadership. The Nashville Sit-ins (1960), led by John Lewis and Diane Nash, used disciplined nonviolent protests to desegregate lunch counters, inspiring similar actions nationwide."
+     ],
+     [
+      "Tennessee's Role in the Movement",
+      "Clinton High School (1956) became the first Southern community to integrate its high school following Brown v. Board. Twelve Black students faced violent opposition, requiring National Guard protection. Highlander Folk School trained civil rights leaders including Rosa Parks and King in nonviolent resistance. Tent City in Fayette County (1960) formed when Black sharecroppers evicted for attempting to vote created a community on donated land, demonstrating both retaliation and resilience."
+     ],
+     [
+      "Confrontations That Changed America",
+      "The Little Rock Nine (1957) faced Governor Faubus's defiance until President Eisenhower sent federal troops. Freedom Riders (1961) tested desegregation rulings by riding buses through the South, facing firebombings and beatings that forced federal intervention. The Birmingham Campaign (1963) targeted \"the most segregated city in America,\" where Bull Connor's violent response to peaceful protesters shocked the nation."
+     ],
+     [
+      "Culminating Events",
+      "The March on Washington (1963) brought 250,000 people to hear King's \"I Have a Dream\" speech, pressuring Congress for legislation. Martin Luther King Jr.'s assassination in Memphis (1968) while supporting striking sanitation workers triggered nationwide riots and galvanized support for the Fair Housing Act, marking both the movement's peak and transformation."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Early Movement Victories” section, and what evidence supports it?",
+     "What is the main idea of the “Tennessee's Role in the Movement” section, and what evidence supports it?",
+     "What is the main idea of the “Confrontations That Changed America” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Little Rock Nine",
+     "Rosa Parks"
+    ],
+    "quiz": [
+     {
+      "id": "us80-q2",
+      "dok": 2,
+      "stem": "What role did Tennessee play in the Civil Rights Movement through events like the Nashville sit-ins and Clinton High School integration?",
+      "opts": {
+       "A": "Tennessee provided key sites including the first integrated Southern high school, student-led sit-ins, Highlander training center, and Tent City voter resistance",
+       "B": "Tennessee was not involved in the Civil Rights Movement, but this oversimplifies the complex factors at work and oversimplifies the complex factors at work during this period",
+       "C": "Tennessee only participated after the movement ended, but the historical record tells a more complex story, which does not align with the documented historical record",
+       "D": "Tennessee's role was limited to opposing civil rights, although this overlooks critical economic and social factors, and this view has been largely revised by modern historical research"
+      },
+      "key": "A"
+     },
+     {
+      "id": "q-us79-add-1",
+      "dok": 2,
+      "stem": "How did Malcolm X's approach to civil rights differ from Martin Luther King Jr.'s?",
+      "opts": {
+       "A": "Both leaders agreed on every major strategy; their differences were only stylistic",
+       "B": "Malcolm X advocated self-defense and Black nationalism while King promoted nonviolence",
+       "C": "Malcolm X focused on rural sharecroppers while King focused on urban workers",
+       "D": "Malcolm X supported the Civil Rights Act of 1964 while King opposed it"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the significant events in the struggle to secure civil rights for African Americans, including the Montgomery Bus Boycott, Freedom Riders, March on Washington, Birmingham bombings, and assassination of Martin Luther King Jr? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "describe the significant events in the struggle to secure civil rights for African Americans, including the Montgomery Bus Boycott, Freedom Riders, March on Washington, Birmingham bombings, and assassination of Martin Luther King Jr",
+   "targets": [
+    "describe the significant events in the struggle to secure civil rights for African Americans, including the Montgomery Bus Boycott, Freedom Riders, March on Washington, Birmingham bombings, and assassination of Martin Luther King Jr"
+   ],
+   "criteria": [
+    "Early Movement Victories",
+    "Tennessee's Role in the Movement",
+    "Confrontations That Changed America"
+   ],
+   "cues": [
+    "What does the passage say about early Movement Victories?",
+    "What does the passage say about tennessee's Role in the Movement?",
+    "What does the passage say about confrontations That Changed America?",
+    "Key terms →"
+   ],
+   "lenses": "Culture · History · Politics/Government · Tennessee Connection",
+   "dim_map": {
+    "C": "Culture lens on Significant Civil Rights Events: The Montgomery Bus Boycott (1955-1956), sparked by Rosa Parks' arrest, demonstrated Black economic power throu…",
+    "H": "History lens on Significant Civil Rights Events: The Montgomery Bus Boycott (1955-1956), sparked by Rosa Parks' arrest, demonstrated Black economic power throu…",
+    "P": "Politics/Government lens on Significant Civil Rights Events: The Montgomery Bus Boycott (1955-1956), sparked by Rosa Parks' arrest, demonstrated Black economic power throu…"
+   },
+   "geo": "The civil rights movement unfolded city by city across the South. Use the list below to map the key events, then explain why the movement targeted these particular places.",
+   "geo_places": [
+    [
+     "Montgomery, Alabama",
+     "Deep South",
+     "1955–56 bus boycott sparked by Rosa Parks; MLK emerges"
+    ],
+    [
+     "Little Rock, Arkansas",
+     "Upper South",
+     "1957 — federal troops escort the 'Little Rock Nine' into Central High"
+    ],
+    [
+     "Nashville, Tennessee",
+     "Tennessee",
+     "1960 lunch-counter sit-ins led by Diane Nash and John Lewis"
+    ],
+    [
+     "Birmingham, Alabama",
+     "Deep South",
+     "1963 campaign; the children's march and police violence shock the nation"
+    ],
+    [
+     "Selma, Alabama",
+     "Deep South",
+     "1965 voting-rights march ('Bloody Sunday') to Montgomery"
+    ],
+    [
+     "Memphis, Tennessee",
+     "Tennessee",
+     "1968 sanitation strike; Dr. King assassinated at the Lorraine Motel"
+    ]
+   ],
+   "tn_connection": "The Nashville sit-ins of 1960, led by students including Diane Nash and John Lewis from Fisk University, were among the most organized and successful of the civil rights movement. They desegregated Nashville's lunch counters and became a model for the movement.",
+   "hook": "Significant Civil Rights Events: Describe the significant events in the struggle to secure civil rights for African Americans, including: Montgomery Bus Boycott, Integration of Clinton High School and Central High School, Freedom Riders, Highlander Folk School, Tent City in Fayette County, TN, marches/demonstrations/boycotts/sit-ins, March on Washington D.C., Birmingham bombings of 1963, and assassination of Martin Luther King Jr. (TCA). Who gained, who was left out — and why does it still matter?"
+  },
+  "US.81": {
+   "title": "Civil and Voting Rights Legislation",
+   "tn": "Analyze civil and voting rights legislation, including: The Civil Rights Act of 1964, the Voting Rights Act of 1965, the Civil Rights Act of 1968 (e.g., Fair Housing Act), and the 24th Amendment. (TCA)",
+   "ican": "I can analyze civil and voting rights legislation, including the Civil Rights Act of 1964, the Voting Rights Act of 1965, the Civil Rights Act of 1968 (Fair Housing Act), and the 24th Amendment.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Civil Rights Act of 1964",
+     "say": "",
+     "es": "Ley de Derechos Civiles de 1964",
+     "def": "Landmark federal legislation that outlawed discrimination based on race, color, religion, sex, or national origin, ending segregation in public accommodations and employment."
+    },
+    {
+     "term": "Voting Rights Act of 1965",
+     "say": "",
+     "es": "Ley de Derechos de Voto de 1965",
+     "def": "Federal legislation that outlawed discriminatory voting practices (literacy tests, poll taxes) used to disenfranchise African Americans, dramatically increasing Black voter registration in the South."
+    },
+    {
+     "term": "Civil Rights Act of 1968 (Fair Housing Act)",
+     "say": "",
+     "es": "Ley de Derechos Civiles de 1968 (Ley de Vivienda Justa)",
+     "def": "Federal law that prohibited discrimination in the sale, rental, and financing of housing based on race, religion, national origin, or sex, addressing residential segregation."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Civil Rights Act of 1964",
+     "who": "U.S. Congress",
+     "date": "July 2, 1964",
+     "quote": "All persons shall be entitled to the full and equal enjoyment of the goods, services, facilities, privileges, advantages, and accommodations of any place of public accommodation... without discrimination or segregation on the ground of race",
+     "repo": "U.S. Congress. \"Civil Rights Act of 1964.\" July 2, 1964. National Archives, https://www.archives.gov/milestone-documents/civil-rights-act.",
+     "url": "https://www.archives.gov/milestone-documents/civil-rights-act"
+    },
+    {
+     "title": "Voting Rights Act of 1965",
+     "who": "U.S. Congress",
+     "date": "August 6, 1965",
+     "quote": "No voting qualification or prerequisite to voting, or standard, practice, or procedure shall be imposed or applied by any State or political subdivision to deny or abridge the right of any citizen of the United States to vote on account of ",
+     "repo": "U.S. Congress. \"Voting Rights Act of 1965.\" August 6, 1965. National Archives, https://www.archives.gov/milestone-documents/voting-rights-act.",
+     "url": "https://www.archives.gov/milestone-documents/voting-rights-act"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Why was the Fair Housing Act (1968) necessary even after earlier civil rights legislation?",
+    "options": {
+     "A": "Earlier legislation had already addressed housing discrimination, although this view has been largely discredited by scholars",
+     "B": "Housing discrimination was not a significant problem, despite limited evidence supporting this interpretation",
+     "C": "The Fair Housing Act replaced the 1964 Civil Rights Act, which does not align with the documented historical record",
+     "D": "The 1964 Act focused on public accommodations and employment but did not address residential segregation, which perpetuated inequality"
+    },
+    "key": "D",
+    "why": "While the 1964 Act addressed public segregation, housing discrimination continued to create segregated neighborhoods that affected educational and economic opportunity, requiring specific legislation."
+   },
+   "auth": {
+    "close": "This landmark legislation banned discrimination in public accommodations, employment, and federally funded programs. It created the Equal Employment Opportunity Commission (EEOC) and strengthened voting rights enforcement. The Act ended legal segregation in public facilities and opened economic opportunities for minorities, though housing discrimination and voting restrictions remained challenges. The Voting Rights Act banned literacy tests and other discriminatory voting practices. It required federal approval for voting changes in covered jurisdictions and authorized federal voting registrars in areas with low minority registration. The impact was dramatic—Black voter registration in the South increased from 23% to 61% by 1969, transforming Southern politics. Passed after King's assassination amid national grief and urban riots, this Act prohibited discrimination in housing sales, rentals, and financing based on race, religion, national origin, or sex. It addressed residential segregation, though enforcement remained weak. The Act completed the legal framework for civil rights protection. This constitutional amendment eliminated poll taxes in federal elections, removing economic barriers to voting that particularly affected poor Black and white voters in the South. It extended voting rights protection beyond racial discrimination to address economic discrimination in the electoral process.",
+    "close_sections": [
+     [
+      "Civil Rights Act of 1964",
+      "This landmark legislation banned discrimination in public accommodations, employment, and federally funded programs. It created the Equal Employment Opportunity Commission (EEOC) and strengthened voting rights enforcement. The Act ended legal segregation in public facilities and opened economic opportunities for minorities, though housing discrimination and voting restrictions remained challenges."
+     ],
+     [
+      "Voting Rights Act of 1965",
+      "The Voting Rights Act banned literacy tests and other discriminatory voting practices. It required federal approval for voting changes in covered jurisdictions and authorized federal voting registrars in areas with low minority registration. The impact was dramatic—Black voter registration in the South increased from 23% to 61% by 1969, transforming Southern politics."
+     ],
+     [
+      "Civil Rights Act of 1968 (Fair Housing Act)",
+      "Passed after King's assassination amid national grief and urban riots, this Act prohibited discrimination in housing sales, rentals, and financing based on race, religion, national origin, or sex. It addressed residential segregation, though enforcement remained weak. The Act completed the legal framework for civil rights protection."
+     ],
+     [
+      "24th Amendment (1964)",
+      "This constitutional amendment eliminated poll taxes in federal elections, removing economic barriers to voting that particularly affected poor Black and white voters in the South. It extended voting rights protection beyond racial discrimination to address economic discrimination in the electoral process."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Civil Rights Act of 1964” section, and what evidence supports it?",
+     "What is the main idea of the “Voting Rights Act of 1965” section, and what evidence supports it?",
+     "What is the main idea of the “Civil Rights Act of 1968 (Fair Housing Act)” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Civil Rights Act of 1964",
+     "Voting Rights Act of 1965"
+    ],
+    "quiz": [
+     {
+      "id": "us81-q2",
+      "dok": 2,
+      "stem": "What impact did the Voting Rights Act of 1965 have on Black political participation in the South?",
+      "opts": {
+       "A": "Black voter registration increased dramatically from 23% to 61% by 1969, transforming Southern politics",
+       "B": "It had minimal effect on voter registration, although this view has been largely discredited by scholars",
+       "C": "It only affected Northern states, but this fails to account for the broader historical context",
+       "D": "Registration rates decreased after the Act passed, yet the available evidence points to a different conclusion"
+      },
+      "key": "A"
+     },
+     {
+      "id": "q-us79-add-1",
+      "dok": 2,
+      "stem": "How did Malcolm X's approach to civil rights differ from Martin Luther King Jr.'s?",
+      "opts": {
+       "A": "Both leaders agreed on every major strategy; their differences were only stylistic",
+       "B": "Malcolm X advocated self-defense and Black nationalism while King promoted nonviolence",
+       "C": "Malcolm X focused on rural sharecroppers while King focused on urban workers",
+       "D": "Malcolm X supported the Civil Rights Act of 1964 while King opposed it"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — analyze civil and voting rights legislation, including the Civil Rights Act of 1964, the Voting Rights Act of 1965, the Civil Rights Act of 1968 (Fair Housing Act), and the 24th Amendment? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "analyze civil and voting rights legislation, including the Civil Rights Act of 1964, the Voting Rights Act of 1965, the Civil Rights Act of 1968 (Fair Housing Act), and the 24th Amendment",
+   "targets": [
+    "analyze civil and voting rights legislation, including the Civil Rights Act of 1964, the Voting Rights Act of 1965, the Civil Rights Act of 1968 (Fair Housing Act), and the 24th Amendment"
+   ],
+   "criteria": [
+    "Civil Rights Act of 1964",
+    "Voting Rights Act of 1965",
+    "Civil Rights Act of 1968 (Fair Housing Act)"
+   ],
+   "cues": [
+    "What does the passage say about civil Rights Act of 1964?",
+    "What does the passage say about voting Rights Act of 1965?",
+    "What does the passage say about civil Rights Act of 1968 (Fair Housing Act)?",
+    "Key terms →"
+   ],
+   "lenses": "Culture · Politics/Government · History · Tennessee Connection",
+   "dim_map": {
+    "C": "Culture lens on Civil and Voting Rights Legislation: This landmark legislation banned discrimination in public accommodations, employment, and federally funded pro…",
+    "P": "Politics/Government lens on Civil and Voting Rights Legislation: This landmark legislation banned discrimination in public accommodations, employment, and federally funded pro…",
+    "H": "History lens on Civil and Voting Rights Legislation: This landmark legislation banned discrimination in public accommodations, employment, and federally funded pro…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Tennessee was a battleground for voting rights, with significant voter registration drives in Memphis and Nashville. The state's compliance with the Voting Rights Act of 1965 transformed political participation for African Americans across Tennessee.",
+   "hook": "Civil and Voting Rights Legislation: Analyze civil and voting rights legislation, including: The Civil Rights Act of 1964, the Voting Rights Act of 1965, the Civil Rights Act of 1968 (e.g., Fair Housing Act), and the 24th Amendment. (TCA). Who gained, who was left out — and why does it still matter?"
+  },
+  "US.82": {
+   "title": "American Indian, Chicano & Feminist Movements",
+   "tn": "Analyze how the American Indian Movement, Chicano Movement, and Feminist Movement are related to the Civil Rights Movement in advancing equality across the broader spectrum of American society during this time period.",
+   "ican": "I can analyze how the American Indian Movement, Chicano Movement, and Feminist Movement are related to the Civil Rights Movement in advancing equality across American society.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "American Indian Movement (AIM)",
+     "say": "",
+     "es": "Movimiento Indio Americano",
+     "def": "Civil rights organization founded in 1968 to address issues of poverty, police brutality, and treaty rights affecting Native Americans, using tactics inspired by the Black civil rights movement."
+    },
+    {
+     "term": "Chicano Movement",
+     "say": "",
+     "es": "Movimiento Chicano",
+     "def": "Mexican American civil rights movement of the 1960s-70s that fought for labor rights, education reform, political representation, and cultural pride, led by figures like Cesar Chavez."
+    },
+    {
+     "term": "Tactics",
+     "say": "",
+     "es": "Tácticas",
+     "def": "Boycotts, strikes, marches inspired by civil rights movement."
+    }
+   ],
+   "sources": [
+    {
+     "title": "National Organization for Women Statement of Purpose",
+     "who": "Betty Friedan and NOW founders",
+     "date": "1966",
+     "quote": "We, men and women who hereby constitute ourselves as the National Organization for Women, believe that the time has come for a new movement toward true equality for all women in America, and toward a fully equal partnership of the sexes, as",
+     "repo": "founders, Betty Friedan and NOW. \"National Organization for Women Statement of Purpose.\" 1966. National Organization for Women, now.org/about/history/statement-",
+     "url": "https://now.org/about/history/statement-of-purpose/"
+    },
+    {
+     "title": "American Indian Movement Declaration",
+     "who": "American Indian Movement",
+     "date": "1972",
+     "quote": "We are not combatants against America. We are America, in a fundamental way. But we are that part of America which has been trampled upon and denied. We seek not separation but recognition—recognition of our treaty rights, our sovereignty, ",
+     "repo": "American Indian Movement. \"American Indian Movement Declaration.\" 1972. Library of Congress, www.loc.gov/collections/general-collections/.",
+     "url": "https://www.loc.gov/collections/general-collections/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Compare how these movements both built upon and differed from the African American Civil Rights Movement.",
+    "options": {
+     "A": "They adopted similar tactics (protests, legal challenges, legislation) but pursued distinct goals reflecting their communities' unique experiences and cultural identities",
+     "B": "These movements were completely unrelated to civil rights, although historical sources do not support this conclusion and oversimplifies the complex factors at work during this period",
+     "C": "They opposed the African American civil rights movement, but the historical record tells a more complex story, which ignores significant political and cultural developments of the era",
+     "D": "They were identical in every way to the civil rights movement, despite limited evidence supporting this interpretation and fails to account for key developments in the broader context"
+    },
+    "key": "A",
+    "why": "While borrowing successful tactics, each movement addressed specific injustices—AIM emphasized sovereignty and treaty rights, Chicanos focused on labor and education, and feminists targeted gender discrimination."
+   },
+   "auth": {
+    "close": "AIM pursued tribal sovereignty, treaty rights, cultural preservation, and economic development on reservations. Key actions included the Occupation of Alcatraz (1969-1971), Trail of Broken Treaties march (1972), and Wounded Knee occupation (1973). Leader Russell Means advocated for \"Red Power\" and challenged federal Indian policies, using tactics similar to the civil rights movement while asserting distinct cultural identity. The Chicano Movement sought educational equality, labor rights, political representation, and cultural pride for Mexican Americans. Key actions included East L.A. school walkouts (1968), formation of La Raza Unida Party, and grape boycotts. Cesar Chavez organized the United Farm Workers, using nonviolent tactics including strikes and boycotts to demand equal opportunities in employment and education. The feminist movement pursued equal pay, reproductive rights, political representation, and ending gender discrimination. Key actions included formation of the National Organization for Women (NOW), consciousness-raising groups, and protests against discriminatory practices. Betty Friedan wrote \"The Feminine Mystique\" (1963), co-founded NOW, and challenged traditional gender roles, using civil rights legal strategies and protest tactics. All movements shared common elements: legal strategies to challenge discriminatory laws, direct action through protests and demonstrations, pursuit of protective federal legislation, emphasis on group pride and cultural distinctiveness, coalition building with other movements, and strategic use of media. These movements collectively expanded civil rights from racial equality to broader concepts of human equality, creating templates for future social justice movements.",
+    "close_sections": [
+     [
+      "American Indian Movement (AIM)",
+      "AIM pursued tribal sovereignty, treaty rights, cultural preservation, and economic development on reservations. Key actions included the Occupation of Alcatraz (1969-1971), Trail of Broken Treaties march (1972), and Wounded Knee occupation (1973). Leader Russell Means advocated for \"Red Power\" and challenged federal Indian policies, using tactics similar to the civil rights movement while asserting distinct cultural identity."
+     ],
+     [
+      "Chicano Movement",
+      "The Chicano Movement sought educational equality, labor rights, political representation, and cultural pride for Mexican Americans. Key actions included East L.A. school walkouts (1968), formation of La Raza Unida Party, and grape boycotts. Cesar Chavez organized the United Farm Workers, using nonviolent tactics including strikes and boycotts to demand equal opportunities in employment and education."
+     ],
+     [
+      "Feminist Movement",
+      "The feminist movement pursued equal pay, reproductive rights, political representation, and ending gender discrimination. Key actions included formation of the National Organization for Women (NOW), consciousness-raising groups, and protests against discriminatory practices. Betty Friedan wrote \"The Feminine Mystique\" (1963), co-founded NOW, and challenged traditional gender roles, using civil rights legal strategies and protest tactics."
+     ],
+     [
+      "Synthesizing Connections",
+      "All movements shared common elements: legal strategies to challenge discriminatory laws, direct action through protests and demonstrations, pursuit of protective federal legislation, emphasis on group pride and cultural distinctiveness, coalition building with other movements, and strategic use of media. These movements collectively expanded civil rights from racial equality to broader concepts of human equality, creating templates for future social justice movements."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “American Indian Movement (AIM)” section, and what evidence supports it?",
+     "What is the main idea of the “Chicano Movement” section, and what evidence supports it?",
+     "What is the main idea of the “Feminist Movement” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "American Indian Movement (AIM)",
+     "Chicano Movement"
+    ],
+    "quiz": [
+     {
+      "id": "us82-q2",
+      "dok": 2,
+      "stem": "What specific goals did leaders like Russell Means, Cesar Chavez, and Betty Friedan pursue for their communities?",
+      "opts": {
+       "A": "Means sought tribal sovereignty and treaty rights, Chavez fought for farm worker labor rights, and Friedan demanded gender equality and an end to discrimination",
+       "B": "They all pursued identical goals, but this oversimplifies the complex factors at work, but the historical evidence paints a more nuanced picture",
+       "C": "They focused exclusively on voting rights, but the historical record tells a more complex story when examined alongside the available primary and secondary sources",
+       "D": "They avoided political activism entirely, but the historical record tells a more complex story and fails to account for key developments in the broader context"
+      },
+      "key": "A"
+     },
+     {
+      "id": "q-us82-4",
+      "dok": 2,
+      "stem": "How were the American Indian, Chicano, and Feminist movements related to the Civil Rights Movement?",
+      "opts": {
+       "A": "They competed with the movement for federal resources",
+       "B": "They drew inspiration from civil rights tactics and strategies",
+       "C": "They focused exclusively on regional rather than national issues",
+       "D": "They operated independently with no shared methods"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — analyze how the American Indian Movement, Chicano Movement, and Feminist Movement are related to the Civil Rights Movement in advancing equality across American society? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "analyze how the American Indian Movement, Chicano Movement, and Feminist Movement are related to the Civil Rights Movement in advancing equality across American society",
+   "targets": [
+    "analyze how the American Indian Movement, Chicano Movement, and Feminist Movement are related to the Civil Rights Movement in advancing equality across American society"
+   ],
+   "criteria": [
+    "American Indian Movement (AIM)",
+    "Chicano Movement",
+    "Feminist Movement"
+   ],
+   "cues": [
+    "What does the passage say about american Indian Movement (AIM)?",
+    "What does the passage say about chicano Movement?",
+    "What does the passage say about feminist Movement?",
+    "Key terms →"
+   ],
+   "lenses": "Culture · History",
+   "dim_map": {
+    "C": "Culture lens on American Indian, Chicano & Feminist Movements: AIM pursued tribal sovereignty, treaty rights, cultural preservation, and economic development on reservations…",
+    "H": "History lens on American Indian, Chicano & Feminist Movements: AIM pursued tribal sovereignty, treaty rights, cultural preservation, and economic development on reservations…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Tennessee had its own dimensions of the broader social movements. The Highlander Folk School in Monteagle trained activists across movements. Wilma Mankiller, who became the first female Principal Chief of the Cherokee Nation, spent her early life connected to the Cherokee's Tennessee heritage before relocation.",
+   "hook": "American Indian, Chicano & Feminist Movements: Analyze how the American Indian Movement, Chicano Movement, and Feminist Movement are related to the Civil Rights Movement in advancing equality across the broader spectrum of American society during this time period. Who gained, who was left out — and why does it still matter?"
+  }
+ },
+ "order": [
+  "US.78",
+  "US.79",
+  "US.80",
+  "US.81",
+  "US.82"
+ ]
+}
