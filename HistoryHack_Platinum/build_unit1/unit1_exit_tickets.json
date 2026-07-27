@@ -1,0 +1,177 @@
+{
+ "US.01": {
+  "id": "us01-q2",
+  "stem": "How did the Transcontinental Railroad connect to the concept of Manifest Destiny?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "It proved that railroads were more efficient than ships"
+   },
+   {
+    "id": "B",
+    "text": "It was built primarily to transport military troops"
+   },
+   {
+    "id": "C",
+    "text": "It physically connected the nation and enabled rapid westward expansion"
+   },
+   {
+    "id": "D",
+    "text": "It was designed solely for transporting gold from California"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.02": {
+  "id": "us02-q2",
+  "stem": "How did the Dawes Act affect tribal land ownership?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "It increased tribal lands by 90 million acres"
+   },
+   {
+    "id": "B",
+    "text": "It had no significant effect on land ownership"
+   },
+   {
+    "id": "C",
+    "text": "It consolidated tribal lands into larger reservations"
+   },
+   {
+    "id": "D",
+    "text": "It reduced tribal lands from 138 million to 48 million acres"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.03": {
+  "id": "us03-q2",
+  "stem": "How did Southern states use disenfranchisement methods to circumvent the 15th Amendment?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "They used poll taxes, literacy tests, and grandfather clauses that appeared race-neutral but targeted Black voters"
+   },
+   {
+    "id": "B",
+    "text": "They openly violated the Constitution without consequences, which ignores key developments that shaped the outcome"
+   },
+   {
+    "id": "C",
+    "text": "They amended the 15th Amendment at the state level, although historical sources do not support this conclusion"
+   },
+   {
+    "id": "D",
+    "text": "They only targeted immigrant voters, not African Americans, although historical sources do not support this conclusion"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ },
+ "US.04": {
+  "id": "us04-q2",
+  "stem": "What event directly led to the passage of the Pendleton Civil Service Act?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The Crédit Mobilier scandal"
+   },
+   {
+    "id": "B",
+    "text": "President Garfield's assassination by a disappointed office-seeker"
+   },
+   {
+    "id": "C",
+    "text": "Boss Tweed's conviction, which ignores key developments that shaped the outcome"
+   },
+   {
+    "id": "D",
+    "text": "A Supreme Court ruling on patronage"
+   }
+  ],
+  "correct": "B",
+  "reportingCategory": "History"
+ },
+ "US.05": {
+  "id": "us05-q2",
+  "stem": "How did John D. Rockefeller achieve dominance in the oil industry?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Through vertical integration of production stages"
+   },
+   {
+    "id": "B",
+    "text": "Through government monopoly grants"
+   },
+   {
+    "id": "C",
+    "text": "Through horizontal integration, buying out competitors"
+   },
+   {
+    "id": "D",
+    "text": "Through technological innovation in drilling"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.06": {
+  "id": "us06-q2",
+  "stem": "How did industrialization change population distribution in America?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Population remained stable in both rural and urban areas"
+   },
+   {
+    "id": "B",
+    "text": "People migrated from cities to farms"
+   },
+   {
+    "id": "C",
+    "text": "Only immigrants moved to cities"
+   },
+   {
+    "id": "D",
+    "text": "Massive rural-to-urban migration occurred as people sought factory jobs"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.07": {
+  "id": "us07-q2",
+  "stem": "How did the experience at Angel Island differ from Ellis Island?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Angel Island had far more restrictive procedures, particularly targeting Asian immigrants"
+   },
+   {
+    "id": "B",
+    "text": "Angel Island processed immigrants more quickly, which does not reflect the consensus among historians"
+   },
+   {
+    "id": "C",
+    "text": "Ellis Island was only for wealthy immigrants, but the historical record tells a more complex story"
+   },
+   {
+    "id": "D",
+    "text": "There was no significant difference between the two, which does not reflect the consensus among historians"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ }
+}

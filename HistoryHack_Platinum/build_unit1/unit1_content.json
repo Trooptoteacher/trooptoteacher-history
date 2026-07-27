@@ -1,0 +1,1056 @@
+{
+ "unit": {
+  "code": "Unit 4",
+  "title": "The 1920s (1920–1929)",
+  "standards_range": "US.28–US.38",
+  "publisher": "TroopToTeacher Technologies LLC",
+  "footer": "U.S. History Hack · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards & TCAP EOC"
+ },
+ "standards": {
+  "US.01": {
+   "title": "Homestead Act and Transcontinental Railroad",
+   "tn": "Explain how the Homestead Act and the Transcontinental Railroad impacted the settlement of the West.",
+   "ican": "I can explain how the Homestead Act and the Transcontinental Railroad impacted the settlement of the West, including their effects on American Indians, immigrants, and settlers.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Reconstruction",
+     "say": "",
+     "es": "Reconstrucción",
+     "def": "The period from 1865-1877 following the Civil War when the federal government worked to rebuild the South and integrate formerly enslaved people into American society as free citizens."
+    },
+    {
+     "term": "13th Amendment",
+     "say": "",
+     "es": "13ª Enmienda",
+     "def": "Constitutional amendment ratified in 1865 that abolished slavery and involuntary servitude throughout the United States, except as punishment for a crime."
+    },
+    {
+     "term": "Compromise of 1877",
+     "say": "",
+     "es": "Compromiso de 1877",
+     "def": "An informal agreement that resolved the disputed 1876 presidential election, resulting in Rutherford B. Hayes becoming president in exchange for removing federal troops from the South, effectively ending Reconstruction."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Homestead Act",
+     "who": "U.S. Congress",
+     "date": "May 20, 1862 (12 Stat. 392)",
+     "quote": "Any person who is the head of a family, or who has arrived at the age of twenty-one years, and is a citizen of the United States, or who shall have filed his declaration of intention to become such... shall be entitled to enter one quarter ",
+     "repo": "United States Congress. \"An Act to Secure Homesteads to Actual Settlers on the Public Domain (Homestead Act).\" 1862. National Archives, https://www.archives.gov",
+     "url": "https://www.archives.gov/milestone-documents/homestead-act"
+    },
+    {
+     "title": "Pacific Railway Act",
+     "who": "U.S. Congress",
+     "date": "July 1, 1862 (12 Stat. 489)",
+     "quote": "The United States shall extinguish as rapidly as may be the Indian titles to all lands falling under the operation of this act... There is hereby granted to the said company, for the purpose of aiding in the construction of said railroad an",
+     "repo": "United States Congress. \"Pacific Railway Act.\" 1862. National Archives, https://www.archives.gov/milestone-documents/pacific-railway-act.",
+     "url": "https://www.archives.gov/milestone-documents/pacific-railway-act"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze the relationship between the Homestead Act and the decline of American Indian territories. What was the primary cause-and-effect relationship?",
+    "options": {
+     "A": "Free land incentivized settlers to claim territory that had been promised to American Indians",
+     "B": "The Act directly funded military campaigns against tribes, but the historical record tells a more complex story",
+     "C": "American Indians voluntarily sold their land to homesteaders",
+     "D": "The Act only affected lands that had never been occupied, but this oversimplifies the complex factors at work"
+    },
+    "key": "A",
+    "why": "The Homestead Act created powerful economic incentives for settlers to claim western lands, many of which had been guaranteed to American Indian nations through treaties, leading to displacement and conflict."
+   },
+   "auth": {
+    "close": "The Homestead Act of 1862 offered 160 acres of free land to settlers who would farm it for five years. Combined with the completion of the Transcontinental Railroad in 1869, these policies accelerated westward expansion as part of Manifest Destiny—the belief that Americans were destined to spread across the continent. The Union Pacific built westward from Omaha while the Central Pacific built eastward from Sacramento, meeting at Promontory Summit, Utah. The Transcontinental Railroad dramatically reduced travel time from months to days, opening the West to settlement, commerce, and resource extraction. Towns sprang up along rail lines, and agricultural products could now reach eastern markets efficiently. However, this expansion came at tremendous cost to American Indian nations whose lands were taken and whose way of life was destroyed. Western expansion devastated American Indian communities through forced relocations, broken treaties, and the near-extinction of buffalo herds they depended upon. Immigrants, particularly Chinese workers who built much of the Central Pacific, faced discrimination despite their crucial contributions. The \"Buffalo Soldiers\"—African American cavalry regiments—served on the frontier, including George Jordan of Williamson County, Tennessee, who received the Medal of Honor for his service.",
+    "close_sections": [
+     [
+      "Sequence the expansion of the United States",
+      "The Homestead Act of 1862 offered 160 acres of free land to settlers who would farm it for five years. Combined with the completion of the Transcontinental Railroad in 1869, these policies accelerated westward expansion as part of Manifest Destiny—the belief that Americans were destined to spread across the continent. The Union Pacific built westward from Omaha while the Central Pacific built eastward from Sacramento, meeting at Promontory Summit, Utah."
+     ],
+     [
+      "Impact on Western Settlement",
+      "The Transcontinental Railroad dramatically reduced travel time from months to days, opening the West to settlement, commerce, and resource extraction. Towns sprang up along rail lines, and agricultural products could now reach eastern markets efficiently. However, this expansion came at tremendous cost to American Indian nations whose lands were taken and whose way of life was destroyed."
+     ],
+     [
+      "Impact on American Indians, Immigrants, and Settlers",
+      "Western expansion devastated American Indian communities through forced relocations, broken treaties, and the near-extinction of buffalo herds they depended upon. Immigrants, particularly Chinese workers who built much of the Central Pacific, faced discrimination despite their crucial contributions. The \"Buffalo Soldiers\"—African American cavalry regiments—served on the frontier, including George Jordan of Williamson County, Tennessee, who received the Medal of Honor for his service."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Sequence the expansion of the United States” section, and what evidence supports it?",
+     "What is the main idea of the “Impact on Western Settlement” section, and what evidence supports it?",
+     "What is the main idea of the “Impact on American Indians, Immigrants, and Settlers” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Reconstruction",
+     "13th Amendment"
+    ],
+    "quiz": [
+     {
+      "id": "US.01-Q02",
+      "dok": 2,
+      "stem": "Which statement best explains how the Transcontinental Railroad facilitated western expansion?",
+      "opts": {
+       "A": "It reduced travel time from months to days and enabled efficient movement of settlers, goods, and resources across the continent",
+       "B": "It was built exclusively by American workers, providing jobs for tens of thousands of unemployed citizens",
+       "C": "It eliminated the need for wagon trains and stagecoaches almost overnight, ending earlier overland travel",
+       "D": "It provided direct access to gold mines in California"
+      },
+      "key": "A"
+     },
+     {
+      "id": "US.01-Q04",
+      "dok": 2,
+      "stem": "Which of the following best describes a direct impact of the Homestead Act of 1862 on settlement patterns in the American West?",
+      "opts": {
+       "A": "It restricted western migration by requiring settlers to purchase land at market prices from the federal government",
+       "B": "It encouraged settlement by offering 160 acres of public land to citizens who agreed to farm it for five years",
+       "C": "It redirected migration to the Pacific Coast by offering free land only in Oregon and Washington territories",
+       "D": "It promoted settlement exclusively among formerly enslaved people as part of Reconstruction land redistribution"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — explain how the Homestead Act and the Transcontinental Railroad impacted the settlement of the West, including their effects on American Indians, immigrants, and settlers? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "explain how the Homestead Act and the Transcontinental Railroad impacted the settlement of the West, including their effects on American Indians, immigrants, and settlers",
+   "targets": [
+    "explain how the Homestead Act and the Transcontinental Railroad impacted the settlement of the West, including their effects on American Indians, immigrants, and settlers"
+   ],
+   "criteria": [
+    "Sequence the expansion of the United States",
+    "Impact on Western Settlement",
+    "Impact on American Indians, Immigrants, and Settlers"
+   ],
+   "cues": [
+    "What does the passage say about sequence the expansion of the United States?",
+    "What does the passage say about impact on Western Settlement?",
+    "What does the passage say about impact on American Indians, Immigrants, and Settlers?",
+    "Key terms →"
+   ],
+   "lenses": "History · Geography",
+   "dim_map": {
+    "H": "History lens on Homestead Act and Transcontinental Railroad: The Homestead Act of 1862 offered 160 acres of free land to settlers who would farm it for five years. Combine…",
+    "G": "Geography lens on Homestead Act and Transcontinental Railroad: The Homestead Act of 1862 offered 160 acres of free land to settlers who would farm it for five years. Combine…"
+   },
+   "geo": "The transcontinental railroad and the Homestead Act reshaped the American West. Locate the railroad route and the lands opened to settlement, then explain how geography drove westward expansion — and what it cost the Native nations already living there.",
+   "geo_places": [
+    [
+     "Omaha, Nebraska",
+     "Great Plains",
+     "eastern terminus — the Union Pacific built west from here"
+    ],
+    [
+     "Promontory Summit, Utah",
+     "Great Basin",
+     "1869 — the golden spike joined the Union Pacific and Central Pacific"
+    ],
+    [
+     "Sacramento, California",
+     "West Coast",
+     "western terminus — the Central Pacific built east from here"
+    ],
+    [
+     "The Great Plains",
+     "Interior West",
+     "Homestead Act opened 160-acre plots to settlers; the buffalo and Native nations were pushed out"
+    ],
+    [
+     "Indian Territory (Oklahoma)",
+     "Southern Plains",
+     "where the federal government forced many displaced Native nations"
+    ]
+   ],
+   "tn_connection": "George Jordan of Williamson County, Tennessee, was a Buffalo Soldier who received the Medal of Honor for distinguished service during westward expansion.",
+   "hook": "Homestead Act and Transcontinental Railroad: Explain how the Homestead Act and the Transcontinental Railroad impacted the settlement of the West. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.02": {
+   "title": "Federal Policies Toward American Indians",
+   "tn": "Examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act.",
+   "ican": "I can examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Reconstruction",
+     "say": "",
+     "es": "Reconstrucción",
+     "def": "The period from 1865-1877 following the Civil War when the federal government worked to rebuild the South and integrate formerly enslaved people into American society as free citizens."
+    },
+    {
+     "term": "13th Amendment",
+     "say": "",
+     "es": "13ª Enmienda",
+     "def": "Constitutional amendment ratified in 1865 that abolished slavery and involuntary servitude throughout the United States, except as punishment for a crime."
+    },
+    {
+     "term": "14th Amendment",
+     "say": "",
+     "es": "14ª Enmienda",
+     "def": "Constitutional amendment ratified in 1868 that granted citizenship to all persons born or naturalized in the United States and guaranteed equal protection under the law."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Dawes General Allotment Act",
+     "who": "U.S. Congress",
+     "date": "February 8, 1887 (24 Stat. 388)",
+     "quote": "In all cases where any tribe or band of Indians has been, or shall hereafter be, located upon any reservation created for their use... the President of the United States be authorized... to allot the lands in said reservation in severalty t",
+     "repo": "United States Congress. \"Dawes General Allotment Act.\" 1887. National Archives, https://www.archives.gov/milestone-documents/dawes-act.",
+     "url": "https://www.archives.gov/milestone-documents/dawes-act"
+    },
+    {
+     "title": "Indian Boarding School Regulations",
+     "who": "Office of Indian Affairs (Annual Report of the Commissioner of Indian Affairs, 1890)",
+     "date": "1890",
+     "quote": "All instruction must be in the English language. Pupils must be compelled to converse with each other in English, and should be properly rebuked or punished for persistent violation of this rule. Every effort should be made to encourage the",
+     "repo": "Bureau of Indian Affairs. \"Indian Boarding School Regulations.\" 1890. Carlisle Indian School Digital Resource Center, carlisleindian.dickinson.edu/teach/rules-i",
+     "url": "https://carlisleindian.dickinson.edu/teach/rules-indian-schools"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze the relationship between government assimilation policies and the destruction of American Indian cultural identity.",
+    "options": {
+     "A": "Assimilation policies had minimal cultural impact, which does not align with the documented historical record",
+     "B": "Policies systematically targeted language, religion, and family structures to eliminate tribal identities",
+     "C": "American Indians voluntarily abandoned their cultures, which does not align with the documented historical record",
+     "D": "Cultural destruction was an unintended consequence, although this view has been largely discredited by scholars"
+    },
+    "key": "B",
+    "why": "Assimilation policies deliberately targeted every aspect of American Indian culture—from language prohibitions to religious bans to family separations—as part of a systematic effort at cultural genocide."
+   },
+   "auth": {
+    "close": "Following the Civil War, the federal government intensified efforts to confine American Indian nations to reservations—designated territories far smaller than their traditional homelands. This policy aimed to open land for white settlement and eliminate perceived obstacles to westward expansion. Tribes were forced to sign treaties under duress, often surrendering millions of acres. The government pursued forced assimilation, attempting to destroy American Indian cultures and replace them with Euro-American ways. Boarding schools like Carlisle Indian Industrial School operated under the motto \"Kill the Indian, save the man.\" Children were taken from families, forbidden to speak their languages or practice traditions, and subjected to harsh discipline. This cultural genocide had devastating, generational impacts. The Dawes Act of 1887 divided tribal lands into individual allotments, supposedly to encourage farming and \"civilize\" American Indians. However, the true effect was catastrophic: tribal landholdings shrank from 138 million acres in 1887 to 48 million by 1934. \"Surplus\" lands were sold to white settlers, and many allotted lands were lost through taxation, fraud, or forced sales. The Act destroyed communal land ownership central to many tribal cultures.",
+    "close_sections": [
+     [
+      "Movement to Reservations",
+      "Following the Civil War, the federal government intensified efforts to confine American Indian nations to reservations—designated territories far smaller than their traditional homelands. This policy aimed to open land for white settlement and eliminate perceived obstacles to westward expansion. Tribes were forced to sign treaties under duress, often surrendering millions of acres."
+     ],
+     [
+      "Assimilation and Boarding Schools",
+      "The government pursued forced assimilation, attempting to destroy American Indian cultures and replace them with Euro-American ways. Boarding schools like Carlisle Indian Industrial School operated under the motto \"Kill the Indian, save the man.\" Children were taken from families, forbidden to speak their languages or practice traditions, and subjected to harsh discipline. This cultural genocide had devastating, generational impacts."
+     ],
+     [
+      "The Dawes Act and Its Impact",
+      "The Dawes Act of 1887 divided tribal lands into individual allotments, supposedly to encourage farming and \"civilize\" American Indians. However, the true effect was catastrophic: tribal landholdings shrank from 138 million acres in 1887 to 48 million by 1934. \"Surplus\" lands were sold to white settlers, and many allotted lands were lost through taxation, fraud, or forced sales. The Act destroyed communal land ownership central to many tribal cultures."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Movement to Reservations” section, and what evidence supports it?",
+     "What is the main idea of the “Assimilation and Boarding Schools” section, and what evidence supports it?",
+     "What is the main idea of the “The Dawes Act and Its Impact” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Reconstruction",
+     "13th Amendment"
+    ],
+    "quiz": [
+     {
+      "id": "US.01-Q07",
+      "dok": 2,
+      "stem": "How did western expansion in the 1860s–1880s affect American Indians and European immigrants differently?",
+      "opts": {
+       "A": "American Indians lost land and sovereignty through forced removal and treaty violations, while European immigrants gained economic opportunities and land ownership",
+       "B": "Both groups benefited equally from new economic opportunities created by railroad expansion and land grants",
+       "C": "European immigrants were confined to reservations while American Indians moved freely onto former frontier lands",
+       "D": "Both groups experienced forced relocation, but American Indians eventually received citizenship rights earlier than European immigrants"
+      },
+      "key": "A"
+     },
+     {
+      "id": "US.02-Q02",
+      "dok": 2,
+      "stem": "Which statement best describes the federal government\\'s assimilation policy toward American Indians in the late 19th century?",
+      "opts": {
+       "A": "The government focused exclusively on military conquest without",
+       "B": "The government aimed to eliminate American Indian cultural practices",
+       "C": "The government promoted cultural exchange between American Indians",
+       "D": "The government sought to preserve traditional American Indian languages and cultural practices on reservations"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act",
+   "targets": [
+    "examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act"
+   ],
+   "criteria": [
+    "Movement to Reservations",
+    "Assimilation and Boarding Schools",
+    "The Dawes Act and Its Impact"
+   ],
+   "cues": [
+    "What does the passage say about movement to Reservations?",
+    "What does the passage say about assimilation and Boarding Schools?",
+    "What does the passage say about the Dawes Act and Its Impact?",
+    "Key terms →"
+   ],
+   "lenses": "History · Culture · Geography",
+   "dim_map": {
+    "H": "History lens on Federal Policies Toward American Indians: Following the Civil War, the federal government intensified efforts to confine American Indian nations to rese…",
+    "C": "Culture lens on Federal Policies Toward American Indians: Following the Civil War, the federal government intensified efforts to confine American Indian nations to rese…",
+    "G": "Geography lens on Federal Policies Toward American Indians: Following the Civil War, the federal government intensified efforts to confine American Indian nations to rese…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "The Cherokee, Chickasaw, and other tribes had deep historical roots in Tennessee before the Indian Removal Act of 1830 forced their relocation along the Trail of Tears, which began at Ross's Landing (now Chattanooga). Federal reservation policies continued this pattern of displacement that started on Tennessee soil.",
+   "hook": "Federal Policies Toward American Indians: Examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.03": {
+   "title": "Compromise of 1877, Jim Crow & Plessy v. Ferguson",
+   "tn": "Explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Benjamin \"Pap\" Singleton and the Exodusters, and the Plessy v. Ferguson decision. (TCA)",
+   "ican": "I can explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Pap Singleton and the Exodusters, and the Plessy v. Ferguson decision.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Reconstruction",
+     "say": "",
+     "es": "Reconstrucción",
+     "def": "The period from 1865-1877 following the Civil War when the federal government worked to rebuild the South and integrate formerly enslaved people into American society as free citizens."
+    },
+    {
+     "term": "Exodusters",
+     "say": "",
+     "es": "Exodusters",
+     "def": "African Americans who migrated from the South to Kansas and other western states in the late 1870s, seeking to escape racial violence and economic oppression. Led by figures like Benjamin \"Pap\" Singleton."
+    },
+    {
+     "term": "13th Amendment",
+     "say": "",
+     "es": "13ª Enmienda",
+     "def": "Constitutional amendment ratified in 1865 that abolished slavery and involuntary servitude throughout the United States, except as punishment for a crime."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Plessy v. Ferguson Decision",
+     "who": "Supreme Court of the United States",
+     "date": "May 18, 1896 (163 U.S. 537)",
+     "quote": "Laws permitting, and even requiring, their separation in places where they are liable to be brought into contact do not necessarily imply the inferiority of either race to the other... We consider the underlying fallacy of the plaintiff's a",
+     "repo": "Supreme Court of the United States. \"Plessy v. Ferguson, 163 U.S. 537.\" 1896. Library of Congress, www.loc.gov/item/usrep163537/.",
+     "url": "https://www.loc.gov/item/usrep163537/"
+    },
+    {
+     "title": "Benjamin \"Pap\" Singleton Testimony",
+     "who": "Benjamin \"Pap\" Singleton",
+     "date": "1880",
+     "quote": "My people, for the want of land—we needed land for our children—and their disadvantages that caused my heart to grieve and sorrow; pity for my race, sir, that was coming down, instead of going up—that caused me to go to work for them. Right",
+     "repo": "Singleton, Benjamin \"Pap.\" \"Testimony before the Senate Select Committee.\" 1880. U.S. Senate Historical Office, www.senate.gov/artandhistory/history/resources/p",
+     "url": "https://www.senate.gov/artandhistory/history/resources/pdf/SingletonTestimony.pdf"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Evaluate the impact of Plessy v. Ferguson on American society and race relations.",
+    "options": {
+     "A": "It had minimal lasting impact on segregation, despite limited evidence supporting this interpretation",
+     "B": "It was immediately overturned by Congress, which contradicts the primary source evidence from this era",
+     "C": "It provided legal justification for sixty years of segregation, limiting opportunities and reinforcing white supremacy",
+     "D": "It only applied to railroad cars and had no broader significance, which does not align with the documented historical record"
+    },
+    "key": "C",
+    "why": "Plessy v. Ferguson gave constitutional sanction to segregation, allowing states to maintain separate and deeply unequal systems in education, transportation, housing, and all public facilities for nearly sixty years."
+   },
+   "auth": {
+    "close": "The disputed 1876 presidential election between Republican Rutherford B. Hayes and Democrat Samuel Tilden led to the Compromise of 1877. In exchange for the presidency, Hayes agreed to withdraw federal troops from the South, effectively ending Reconstruction. This abandonment left African Americans without federal protection against increasingly hostile state governments. With federal protection gone, Southern states implemented Jim Crow laws enforcing racial segregation in all aspects of life. African Americans faced systematic disenfranchisement through poll taxes, literacy tests, grandfather clauses, and white primaries. Those who resisted faced terrorism, including lynching—public murders that went unpunished and were often celebrated by white communities. Benjamin \"Pap\" Singleton, a formerly enslaved man, organized the migration of thousands of African Americans from the South to Kansas in 1879. These \"Exodusters\" sought to escape violence and oppression, establishing communities like Nicodemus, Kansas. While conditions in Kansas were often harsh, the Exoduster movement represented African American agency and resistance to Jim Crow terror. The 1896 Supreme Court decision in Plessy v. Ferguson established the \"separate but equal\" doctrine, ruling that racial segregation was constitutional as long as facilities were supposedly equal. In practice, facilities for African Americans were grossly inferior. This decision legitimized Jim Crow segregation for nearly sixty years until Brown v. Board of Education (1954).",
+    "close_sections": [
+     [
+      "The Election of 1876 and End of Reconstruction",
+      "The disputed 1876 presidential election between Republican Rutherford B. Hayes and Democrat Samuel Tilden led to the Compromise of 1877. In exchange for the presidency, Hayes agreed to withdraw federal troops from the South, effectively ending Reconstruction. This abandonment left African Americans without federal protection against increasingly hostile state governments."
+     ],
+     [
+      "Jim Crow Laws, Lynching, and Disenfranchisement",
+      "With federal protection gone, Southern states implemented Jim Crow laws enforcing racial segregation in all aspects of life. African Americans faced systematic disenfranchisement through poll taxes, literacy tests, grandfather clauses, and white primaries. Those who resisted faced terrorism, including lynching—public murders that went unpunished and were often celebrated by white communities."
+     ],
+     [
+      "Pap Singleton and the Exodusters",
+      "Benjamin \"Pap\" Singleton, a formerly enslaved man, organized the migration of thousands of African Americans from the South to Kansas in 1879. These \"Exodusters\" sought to escape violence and oppression, establishing communities like Nicodemus, Kansas. While conditions in Kansas were often harsh, the Exoduster movement represented African American agency and resistance to Jim Crow terror."
+     ],
+     [
+      "Plessy v. Ferguson and \"Separate But Equal\"",
+      "The 1896 Supreme Court decision in Plessy v. Ferguson established the \"separate but equal\" doctrine, ruling that racial segregation was constitutional as long as facilities were supposedly equal. In practice, facilities for African Americans were grossly inferior. This decision legitimized Jim Crow segregation for nearly sixty years until Brown v. Board of Education (1954)."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “The Election of 1876 and End of Reconstruction” section, and what evidence supports it?",
+     "What is the main idea of the “Jim Crow Laws, Lynching, and Disenfranchisement” section, and what evidence supports it?",
+     "What is the main idea of the “Pap Singleton and the Exodusters” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Reconstruction",
+     "Exodusters"
+    ],
+    "quiz": [
+     {
+      "id": "us03-q3",
+      "dok": 2,
+      "stem": "Why did Pap Singleton organize the Exoduster migration to Kansas?",
+      "opts": {
+       "A": "To escape Jim Crow violence and oppression in the South",
+       "B": "Kansas offered free land through the Homestead Act exclusively to African Americans",
+       "C": "The federal government mandated relocation",
+       "D": "Kansas had already abolished all forms of discrimination"
+      },
+      "key": "A"
+     },
+     {
+      "id": "US.03-Q04",
+      "dok": 2,
+      "stem": "Which of the following best explains how the Compromise of 1877 contributed to the end of Reconstruction?",
+      "opts": {
+       "A": "It gave Southern states greater congressional representation in exchange for ratifying the 14th Amendment",
+       "B": "It resolved the disputed 1876 presidential election by awarding the presidency to Hayes in exchange for withdrawing federal troops from the South",
+       "C": "It established the Freedmen's Bureau as a permanent federal agency to protect formerly enslaved people",
+       "D": "It required Southern states to hold new elections supervised by Northern military commanders before rejoining the Union"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Pap Singleton and the Exodusters, and the Plessy v. Ferguson decision? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Pap Singleton and the Exodusters, and the Plessy v. Ferguson decision",
+   "targets": [
+    "explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Pap Singleton and the Exodusters, and the Plessy v. Ferguson decision"
+   ],
+   "criteria": [
+    "The Election of 1876 and End of Reconstruction",
+    "Jim Crow Laws, Lynching, and Disenfranchisement",
+    "Pap Singleton and the Exodusters"
+   ],
+   "cues": [
+    "What does the passage say about the Election of 1876 and End of Reconstruction?",
+    "What does the passage say about jim Crow Laws, Lynching, and Disenfranchisement?",
+    "What does the passage say about pap Singleton and the Exodusters?",
+    "Key terms →"
+   ],
+   "lenses": "Culture · History · Politics/Government · Tennessee Connection",
+   "dim_map": {
+    "C": "Culture lens on Compromise of 1877, Jim Crow & Plessy v. Ferguson: The disputed 1876 presidential election between Republican Rutherford B. Hayes and Democrat Samuel Tilden led …",
+    "H": "History lens on Compromise of 1877, Jim Crow & Plessy v. Ferguson: The disputed 1876 presidential election between Republican Rutherford B. Hayes and Democrat Samuel Tilden led …",
+    "P": "Politics/Government lens on Compromise of 1877, Jim Crow & Plessy v. Ferguson: The disputed 1876 presidential election between Republican Rutherford B. Hayes and Democrat Samuel Tilden led …"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Tennessee experienced significant Jim Crow segregation, with state laws mandating separate facilities and schools. Ida B. Wells, born in Holly Springs, MS, lived and worked in Memphis before her anti-lynching crusade gained national prominence.",
+   "hook": "Compromise of 1877, Jim Crow & Plessy v. Ferguson: Explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Benjamin \"Pap\" Singleton and the Exodusters, and the Plessy v. Ferguson decision. (TCA). Who gained, who was left out — and why does it still matter?"
+  },
+  "US.04": {
+   "title": "Gilded Age Politics and Economics",
+   "tn": "Analyze the causes and consequences of Gilded Age politics and economics as well as the significance of the rise of political machines, major scandals, civil service reform, and the economic difference between farmers, wage earners, and industrial capitalists, including: Boss Tweed, Thomas Nast, Credit Mobilier, Spoils system and President James A. Garfield's assassination, Pendleton Act, Interstate Commerce Act.",
+   "ican": "I can analyze the causes and consequences of Gilded Age politics and economics, including political machines, major scandals, civil service reform, and economic differences between farmers, wage earners, and industrial capitalists.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Homestead Act",
+     "say": "",
+     "es": "Ley de Homestead",
+     "def": "An 1862 law that provided 160 acres of public land to settlers who agreed to live on and improve the land for five years, encouraging westward expansion."
+    },
+    {
+     "term": "Transcontinental Railroad",
+     "say": "",
+     "es": "Ferrocarril Transcontinental",
+     "def": "A continuous railroad line completed in 1869 that connected the eastern United States with the Pacific coast, revolutionizing transportation and commerce."
+    },
+    {
+     "term": "Reconstruction",
+     "say": "",
+     "es": "Reconstrucción",
+     "def": "The period from 1865-1877 following the Civil War when the federal government worked to rebuild the South and integrate formerly enslaved people into American society as free citizens."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Pendleton Civil Service Reform Act",
+     "who": "U.S. Congress",
+     "date": "January 16, 1883",
+     "quote": "No person in the public service is for that reason under any obligations to contribute to any political fund, or to render any political service, and he will not be removed or otherwise prejudiced for refusing to do so... No person in said ",
+     "repo": "United States Congress. \"Pendleton Civil Service Reform Act.\" 1883. National Archives, https://www.archives.gov/milestone-documents/pendleton-act.",
+     "url": "https://www.archives.gov/milestone-documents/pendleton-act"
+    },
+    {
+     "title": "Bryce, The American Commonwealth — On the Political 'Boss'",
+     "who": "James Bryce",
+     "date": "1888",
+     "quote": "A Boss... is the leader of a party 'ring' or 'machine.' ... He has no real interest in the welfare of the public, his object being to keep his party, and especially his own faction of the party, in power, because power means the disposal of",
+     "repo": "Bryce, James. The American Commonwealth. Macmillan, 1888. Project Gutenberg, www.gutenberg.org/ebooks/57869.",
+     "url": "https://www.gutenberg.org/ebooks/57869"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze the economic relationship between farmers, railroads, and industrial capitalists during the Gilded Age.",
+    "options": {
+     "A": "All three groups prospered equally from industrialization, which contradicts the primary source evidence from this era",
+     "B": "Railroads favored farmers over industrial interests, which represents a common misconception about the period",
+     "C": "The government ensured fair treatment for all economic groups, which does not align with the documented historical record",
+     "D": "Farmers were exploited by high railroad rates while capitalists accumulated wealth, creating vast economic disparity"
+    },
+    "key": "D",
+    "why": "The Gilded Age economy funneled wealth upward—railroads charged farmers high rates while serving industrial interests, and capitalists accumulated fortunes while farmers and workers struggled."
+   },
+   "auth": {
+    "close": "The Gilded Age (1870s-1900) saw the rise of powerful political machines that controlled city governments through patronage and corruption. Boss Tweed's Tammany Hall in New York City epitomized this system, funneling millions in public funds to Tweed and his associates. Political cartoonist Thomas Nast exposed Tweed's corruption through devastating illustrations in Harper's Weekly. The era was marked by corruption at all levels. The Crédit Mobilier scandal revealed that railroad executives and congressmen had profited enormously from fraudulent construction contracts. The spoils system—giving government jobs to political supporters regardless of qualification—reached its peak. President James Garfield's assassination by a disappointed office-seeker in 1881 finally prompted reform. Garfield's assassination led to the Pendleton Civil Service Act of 1883, which established merit-based hiring for federal positions through competitive examinations. This began the long process of professionalizing government service, though political influence remained significant in many positions. The Gilded Age saw extreme wealth concentration among industrial capitalists while farmers struggled with falling crop prices, high railroad shipping rates, and debt. Wage earners faced dangerous working conditions, long hours, and low pay. The Interstate Commerce Act of 1887 attempted to regulate railroad rates, representing early federal intervention in the economy.",
+    "close_sections": [
+     [
+      "Political Machines and Boss Tweed",
+      "The Gilded Age (1870s-1900) saw the rise of powerful political machines that controlled city governments through patronage and corruption. Boss Tweed's Tammany Hall in New York City epitomized this system, funneling millions in public funds to Tweed and his associates. Political cartoonist Thomas Nast exposed Tweed's corruption through devastating illustrations in Harper's Weekly."
+     ],
+     [
+      "Major Scandals and the Spoils System",
+      "The era was marked by corruption at all levels. The Crédit Mobilier scandal revealed that railroad executives and congressmen had profited enormously from fraudulent construction contracts. The spoils system—giving government jobs to political supporters regardless of qualification—reached its peak. President James Garfield's assassination by a disappointed office-seeker in 1881 finally prompted reform."
+     ],
+     [
+      "Civil Service Reform",
+      "Garfield's assassination led to the Pendleton Civil Service Act of 1883, which established merit-based hiring for federal positions through competitive examinations. This began the long process of professionalizing government service, though political influence remained significant in many positions."
+     ],
+     [
+      "Economic Disparity",
+      "The Gilded Age saw extreme wealth concentration among industrial capitalists while farmers struggled with falling crop prices, high railroad shipping rates, and debt. Wage earners faced dangerous working conditions, long hours, and low pay. The Interstate Commerce Act of 1887 attempted to regulate railroad rates, representing early federal intervention in the economy."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Political Machines and Boss Tweed” section, and what evidence supports it?",
+     "What is the main idea of the “Major Scandals and the Spoils System” section, and what evidence supports it?",
+     "What is the main idea of the “Civil Service Reform” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Homestead Act",
+     "Transcontinental Railroad"
+    ],
+    "quiz": [
+     {
+      "id": "US.04-Q03",
+      "dok": 2,
+      "stem": "Thomas Nast\\'s political cartoons were significant during the Gilded Age because they:",
+      "opts": {
+       "A": "Exposed political corruption and influenced public opinion against",
+       "B": "Supported the policies of political machines like Tammany Hall",
+       "C": "Promoted the expansion of the spoils system in government hiring",
+       "D": "Encouraged immigrants to participate more actively in politics"
+      },
+      "key": "A"
+     },
+     {
+      "id": "US.02-X021",
+      "dok": 2,
+      "stem": "A Gilded Age industrialist who purchases competing companies in the same industry to gain market control is using which business strategy?",
+      "opts": {
+       "A": "Vertical integration, because the company is expanding its control over different stages of its supply chain",
+       "B": "Horizontal integration, because the company is buying rivals at the same stage of production to reduce competition",
+       "C": "Trust-busting, because the company is reorganizing the industry to prevent monopolistic practices",
+       "D": "Scientific management, because the company is applying efficiency principles to industrial organization"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — analyze the causes and consequences of Gilded Age politics and economics, including political machines, major scandals, civil service reform, and economic differences between farmers, wage earners, and industrial capitalists? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "analyze the causes and consequences of Gilded Age politics and economics, including political machines, major scandals, civil service reform, and economic differences between farmers, wage earners, and industrial capitalists",
+   "targets": [
+    "analyze the causes and consequences of Gilded Age politics and economics, including political machines, major scandals, civil service reform, and economic differences between farmers, wage earners, and industrial capitalists"
+   ],
+   "criteria": [
+    "Political Machines and Boss Tweed",
+    "Major Scandals and the Spoils System",
+    "Civil Service Reform"
+   ],
+   "cues": [
+    "What does the passage say about political Machines and Boss Tweed?",
+    "What does the passage say about major Scandals and the Spoils System?",
+    "What does the passage say about civil Service Reform?",
+    "Key terms →"
+   ],
+   "lenses": "Economics · Politics/Government · History",
+   "dim_map": {
+    "E": "Economics lens on Gilded Age Politics and Economics: The Gilded Age (1870s-1900) saw the rise of powerful political machines that controlled city governments throu…",
+    "P": "Politics/Government lens on Gilded Age Politics and Economics: The Gilded Age (1870s-1900) saw the rise of powerful political machines that controlled city governments throu…",
+    "H": "History lens on Gilded Age Politics and Economics: The Gilded Age (1870s-1900) saw the rise of powerful political machines that controlled city governments throu…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Tennessee politics during the Gilded Age reflected national patterns of corruption and reform. Memphis boss Edward Hull Crump built one of the South's most powerful political machines, dominating Memphis and Shelby County politics from the early 1900s through the 1950s.",
+   "hook": "Gilded Age Politics and Economics: Analyze the causes and consequences of Gilded Age politics and economics as well as the significance of the rise of political machines, major scandals, civil service reform, and the economic difference between farmers, wage earners, and industrial capitalists, including: Boss Tweed, Thomas Nast, Credit Mobilier, Spoils system and President James A. Garfield's assassination, Pendleton Act, Interstate Commerce Act. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.05": {
+   "title": "Inventions & Innovations of Business Leaders & Entrepreneurs",
+   "tn": "Describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including: Alexander Graham Bell, Henry Bessemer, Andrew Carnegie, Thomas Edison, J.P. Morgan, John D. Rockefeller, Nikola Tesla, Cornelius Vanderbilt, Madam C.J. Walker, George Washington Carver.",
+   "ican": "I can describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including Alexander Graham Bell, Andrew Carnegie, Thomas Edison, John D. Rockefeller, Madam C.J. Walker, and George Washington Carver.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Reservation System",
+     "say": "",
+     "es": "Sistema de Reservaciones",
+     "def": "Federal policy that confined Native American tribes to designated areas of land, often far from their ancestral territories, as part of efforts to control indigenous populations and open land for white settlement."
+    },
+    {
+     "term": "Assimilation",
+     "say": "",
+     "es": "Asimilación",
+     "def": "Federal policy aimed at forcing Native Americans to abandon their traditional cultures and adopt European-American ways of life, including language, religion, and customs."
+    },
+    {
+     "term": "Dawes Act",
+     "say": "",
+     "es": "Ley Dawes",
+     "def": "An 1887 law that divided tribal lands into individual allotments for Native American families, aiming to break up reservations and assimilate Native Americans into mainstream American culture. It resulted in massive land loss."
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Gospel of Wealth",
+     "who": "Andrew Carnegie",
+     "date": "1889",
+     "quote": "This, then, is held to be the duty of the man of Wealth: First, to set an example of modest, unostentatious living, shunning display or extravagance; to provide moderately for the legitimate wants of those dependent upon him; and after doin",
+     "repo": "Carnegie, Andrew. \"The Gospel of Wealth.\" 1889. Carnegie Corporation of New York, www.carnegie.org/about/our-history/gospelofwealth/.",
+     "url": "https://www.carnegie.org/about/our-history/gospelofwealth/"
+    },
+    {
+     "title": "Newspaper Article on Madam C.J. Walker",
+     "who": "The Freeman (Indianapolis)",
+     "date": "1911",
+     "quote": "Madam C. J. Walker... is the most talked of woman in the country, having built up a business which has made her wealthy. She began with 25 cents, and today she is worth $100,000. She manufactures hair growing and beautifying preparations, a",
+     "repo": "\"Madam C. J. Walker.\" The Freeman, 1911. Library of Congress, www.loc.gov/collections/african-american-perspectives-rare-books/.",
+     "url": "https://www.loc.gov/collections/african-american-perspectives-rare-books/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze the significance of Madam C.J. Walker's success in the context of her era.",
+    "options": {
+     "A": "She became the first female self-made millionaire despite facing both racial and gender discrimination",
+     "B": "Her success was typical for women entrepreneurs of the time, but this oversimplifies the complex factors at work",
+     "C": "She succeeded primarily due to government assistance programs, which does not reflect the consensus among historians",
+     "D": "Her business had minimal economic or social impact, which represents a common misconception about the period"
+    },
+    "key": "A",
+    "why": "Walker's achievement was extraordinary given the severe limitations placed on African Americans and women. She created employment for thousands and demonstrated Black economic self-determination."
+   },
+   "auth": {
+    "close": "The late 19th century saw transformative inventions that reshaped American life. Alexander Graham Bell's telephone (1876) revolutionized communication. Thomas Edison's electrical systems and light bulb brought power to homes and factories. Nikola Tesla's alternating current system enabled long-distance electrical transmission. Henry Bessemer's steel process made skyscrapers and modern infrastructure possible. Andrew Carnegie built a steel empire through vertical integration, controlling every step from iron mines to finished products. John D. Rockefeller's Standard Oil pioneered horizontal integration, buying out competitors to dominate the oil industry. J.P. Morgan wielded enormous financial power, reorganizing railroads and creating U.S. Steel. Cornelius Vanderbilt consolidated railroad networks, enabling national commerce. Despite facing discrimination, African American entrepreneurs made significant contributions. Madam C.J. Walker became America's first female self-made millionaire through her hair care products, employing thousands of Black women. George Washington Carver's agricultural research at Tuskegee Institute developed hundreds of products from peanuts and sweet potatoes, helping diversify Southern agriculture.",
+    "close_sections": [
+     [
+      "Technological Innovations",
+      "The late 19th century saw transformative inventions that reshaped American life. Alexander Graham Bell's telephone (1876) revolutionized communication. Thomas Edison's electrical systems and light bulb brought power to homes and factories. Nikola Tesla's alternating current system enabled long-distance electrical transmission. Henry Bessemer's steel process made skyscrapers and modern infrastructure possible."
+     ],
+     [
+      "Industrial Titans",
+      "Andrew Carnegie built a steel empire through vertical integration, controlling every step from iron mines to finished products. John D. Rockefeller's Standard Oil pioneered horizontal integration, buying out competitors to dominate the oil industry. J.P. Morgan wielded enormous financial power, reorganizing railroads and creating U.S. Steel. Cornelius Vanderbilt consolidated railroad networks, enabling national commerce."
+     ],
+     [
+      "African American Entrepreneurs",
+      "Despite facing discrimination, African American entrepreneurs made significant contributions. Madam C.J. Walker became America's first female self-made millionaire through her hair care products, employing thousands of Black women. George Washington Carver's agricultural research at Tuskegee Institute developed hundreds of products from peanuts and sweet potatoes, helping diversify Southern agriculture."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Technological Innovations” section, and what evidence supports it?",
+     "What is the main idea of the “Industrial Titans” section, and what evidence supports it?",
+     "What is the main idea of the “African American Entrepreneurs” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Reservation System",
+     "Assimilation"
+    ],
+    "quiz": [
+     {
+      "id": "US.05-Q02",
+      "dok": 2,
+      "stem": "Madam C.J. Walker\\'s business innovations were significant because they:",
+      "opts": {
+       "A": "Demonstrated that women and African Americans could build successful",
+       "B": "Established the foundation for modern pharmaceutical companies",
+       "C": "Created the first franchise business model in American history",
+       "D": "Introduced the first mass-produced cosmetics to American markets"
+      },
+      "key": "A"
+     },
+     {
+      "id": "US.05-Q03",
+      "dok": 2,
+      "stem": "J.P. Morgan\\'s role in American business was primarily as:",
+      "opts": {
+       "A": "An inventor who created new manufacturing technologies",
+       "B": "A financier who organized and consolidated major industries",
+       "C": "A transportation entrepreneur who built railroad networks",
+       "D": "An oil refinery owner who controlled petroleum distribution"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including Alexander Graham Bell, Andrew Carnegie, Thomas Edison, John D. Rockefeller, Madam C.J. Walker, and George Washington Carver? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including Alexander Graham Bell, Andrew Carnegie, Thomas Edison, John D. Rockefeller, Madam C.J. Walker, and George Washington Carver",
+   "targets": [
+    "describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including Alexander Graham Bell, Andrew Carnegie, Thomas Edison, John D. Rockefeller, Madam C.J. Walker, and George Washington Carver"
+   ],
+   "criteria": [
+    "Technological Innovations",
+    "Industrial Titans",
+    "African American Entrepreneurs"
+   ],
+   "cues": [
+    "What does the passage say about technological Innovations?",
+    "What does the passage say about industrial Titans?",
+    "What does the passage say about african American Entrepreneurs?",
+    "Key terms →"
+   ],
+   "lenses": "Economics · History",
+   "dim_map": {
+    "E": "Economics lens on Inventions & Innovations of Business Leaders & Entrepreneurs: The late 19th century saw transformative inventions that reshaped American life. Alexander Graham Bell's telep…",
+    "H": "History lens on Inventions & Innovations of Business Leaders & Entrepreneurs: The late 19th century saw transformative inventions that reshaped American life. Alexander Graham Bell's telep…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Tennessee played a role in the era's innovation boom. The L&N Railroad connected Nashville and Chattanooga to national markets, and Chattanooga became an iron and steel center nicknamed the 'Dynamo of Dixie.' Jack Daniel's distillery in Lynchburg (est. 1866) became one of Tennessee's most recognizable brands.",
+   "hook": "Inventions & Innovations of Business Leaders & Entrepreneurs: Describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including: Alexander Graham Bell, Henry Bessemer, Andrew Carnegie, Thomas Edison, J.P. Morgan, John D. Rockefeller, Nikola Tesla, Cornelius Vanderbilt, Madam C.J. Walker, George Washington Carver. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.06": {
+   "title": "Industrial Centers and Urbanization",
+   "tn": "Locate the following major industrial centers, and describe how industrialization influenced the movement of people from rural to urban areas: Boston, Chicago, New York City, Pittsburgh, San Francisco.",
+   "ican": "I can locate major industrial centers and describe how industrialization influenced the movement of people from rural to urban areas.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Granger Movement",
+     "say": "",
+     "es": "Movimiento Granger",
+     "def": "A farmers' organization founded in 1867 that advocated for railroad regulation and fought against monopolistic practices that harmed farmers through high shipping rates."
+    },
+    {
+     "term": "Populism",
+     "say": "",
+     "es": "Populismo",
+     "def": "A political movement in the 1890s representing farmers and workers who sought government regulation of railroads, graduated income tax, and the free coinage of silver to combat economic inequality."
+    },
+    {
+     "term": "Crédit Mobilier Scandal",
+     "say": "",
+     "es": "Escándalo Crédit Mobilier",
+     "def": "A major 1872 corruption scandal involving the Union Pacific Railroad company overcharging the government for railroad construction and bribing congressmen to prevent investigation."
+    }
+   ],
+   "sources": [
+    {
+     "title": "How the Other Half Lives",
+     "who": "Jacob Riis",
+     "date": "1890",
+     "quote": "In the tenements all the influences make for evil; because they are the hot-beds of the epidemics that carry death to rich and poor alike; the nurseries of pauperism and crime that fill our jails and police courts; that throw off a scum of ",
+     "repo": "Riis, Jacob. \"How the Other Half Lives.\" 1890. Library of Congress, www.loc.gov/item/71184754/.",
+     "url": "https://www.loc.gov/item/71184754/"
+    },
+    {
+     "title": "Italian Immigrant Folk Saying",
+     "who": "Widely attributed to anonymous Italian immigrants",
+     "date": "c. late 1800s",
+     "quote": "We came to America because we heard the streets were paved with gold. When we got here, we found out three things: First, the streets weren't paved with gold; second, they weren't paved at all; and third, we were expected to pave them.",
+     "repo": "\"Italian Immigrant Folk Saying.\" Widely attributed, c. late 1800s. Commonly cited in immigration history resources. See Library of Congress Immigration resource",
+     "url": "https://www.loc.gov/teachers/classroommaterials/presentationsandactivities/presentations/immigration/"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze the relationship between Chicago's geographic location and its industrial development.",
+    "options": {
+     "A": "Geography had little impact on Chicago's growth, which ignores key developments that shaped the outcome",
+     "B": "Its position as a railroad hub connecting eastern factories with western resources made it ideal for meatpacking and trade",
+     "C": "Chicago grew primarily due to government subsidies, but this fails to account for the broader historical context",
+     "D": "Lake Michigan was the only factor in Chicago's development, but the historical record tells a more complex story"
+    },
+    "key": "B",
+    "why": "Chicago's central location at the junction of multiple railroad lines made it the ideal hub for shipping cattle from western ranges, processing them, and distributing meat to eastern markets."
+   },
+   "auth": {
+    "close": "Industrialization concentrated in cities with geographic advantages. Pittsburgh became the steel capital due to access to coal, iron ore, and rivers. Chicago emerged as a railroad hub and meatpacking center. New York City dominated finance and trade through its port. Boston led in textiles and manufacturing. San Francisco served as the gateway to Pacific trade and western resources. Industrialization drew millions from farms to cities seeking factory jobs. The promise of wages attracted both native-born Americans and immigrants. Cities grew explosively—Chicago's population increased from 30,000 in 1850 to over 1 million by 1890. This rapid growth created overcrowded tenements, inadequate sanitation, and new social challenges. Industries located based on access to raw materials, transportation, markets, and labor. Steel mills clustered near coal and iron deposits. Textile mills used water power and later concentrated near ports for cotton imports. Meatpacking centered in Chicago due to railroad connections to cattle ranges and eastern markets. These patterns shaped regional development for generations.",
+    "close_sections": [
+     [
+      "Major Industrial Centers",
+      "Industrialization concentrated in cities with geographic advantages. Pittsburgh became the steel capital due to access to coal, iron ore, and rivers. Chicago emerged as a railroad hub and meatpacking center. New York City dominated finance and trade through its port. Boston led in textiles and manufacturing. San Francisco served as the gateway to Pacific trade and western resources."
+     ],
+     [
+      "Rural-to-Urban Migration",
+      "Industrialization drew millions from farms to cities seeking factory jobs. The promise of wages attracted both native-born Americans and immigrants. Cities grew explosively—Chicago's population increased from 30,000 in 1850 to over 1 million by 1890. This rapid growth created overcrowded tenements, inadequate sanitation, and new social challenges."
+     ],
+     [
+      "Geographic Factors in Industrial Location",
+      "Industries located based on access to raw materials, transportation, markets, and labor. Steel mills clustered near coal and iron deposits. Textile mills used water power and later concentrated near ports for cotton imports. Meatpacking centered in Chicago due to railroad connections to cattle ranges and eastern markets. These patterns shaped regional development for generations."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Major Industrial Centers” section, and what evidence supports it?",
+     "What is the main idea of the “Rural-to-Urban Migration” section, and what evidence supports it?",
+     "What is the main idea of the “Geographic Factors in Industrial Location” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Granger Movement",
+     "Populism"
+    ],
+    "quiz": [
+     {
+      "id": "US.02-Q03",
+      "dok": 2,
+      "stem": "The primary purpose of American Indian boarding schools like Carlisle Industrial School was to:",
+      "opts": {
+       "A": "Remove children from tribal influences and teach them Euro-American language, dress, religion, and labor habits to force assimilation",
+       "B": "Provide advanced academic education while preserving tribal languages and customs",
+       "C": "Train American Indian students for leadership roles within their",
+       "D": "Offer vocational training that complemented traditional American Indian skills and economies"
+      },
+      "key": "A"
+     },
+     {
+      "id": "US.06-Q02",
+      "dok": 2,
+      "stem": "Which geographic factor best explains Chicago\\'s emergence as a major industrial center?",
+      "opts": {
+       "A": "Its mountainous terrain provided abundant water power for manufacturing operations",
+       "B": "Its position at the southern tip of Lake Michigan made it a natural hub connecting eastern rail lines with western agricultural resources",
+       "C": "Its location on the Atlantic coast provided easy access to European markets and immigrant labor",
+       "D": "Its proximity to Texas oil fields provided cheap energy for industrial production"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — locate major industrial centers and describe how industrialization influenced the movement of people from rural to urban areas? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "locate major industrial centers and describe how industrialization influenced the movement of people from rural to urban areas",
+   "targets": [
+    "locate major industrial centers and describe how industrialization influenced the movement of people from rural to urban areas"
+   ],
+   "criteria": [
+    "Major Industrial Centers",
+    "Rural-to-Urban Migration",
+    "Geographic Factors in Industrial Location"
+   ],
+   "cues": [
+    "What does the passage say about major Industrial Centers?",
+    "What does the passage say about rural-to-Urban Migration?",
+    "What does the passage say about geographic Factors in Industrial Location?",
+    "Key terms →"
+   ],
+   "lenses": "Geography · Economics",
+   "dim_map": {
+    "G": "Geography lens on Industrial Centers and Urbanization: Industrialization concentrated in cities with geographic advantages. Pittsburgh became the steel capital due t…",
+    "E": "Economics lens on Industrial Centers and Urbanization: Industrialization concentrated in cities with geographic advantages. Pittsburgh became the steel capital due t…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "Chattanooga emerged as a major industrial center due to its strategic railroad connections, earning the nickname 'Dynamo of Dixie' for its iron foundries and manufacturing. Memphis grew as a cotton trading hub, and Nashville developed a publishing and printing industry that would make it the 'Athens of the South.'",
+   "hook": "Industrial Centers and Urbanization: Locate the following major industrial centers, and describe how industrialization influenced the movement of people from rural to urban areas: Boston, Chicago, New York City, Pittsburgh, San Francisco. Who gained, who was left out — and why does it still matter?"
+  },
+  "US.07": {
+   "title": "Immigration: Old vs. New Immigrants",
+   "tn": "Describe the differences between \"old\" and \"new\" immigrants, analyze the assimilation process for \"new\" immigrants, and determine the impacts of increased migration on American society, including: Angel Island, Ellis Island, Push and pull factors, Ethnic clusters, Jane Addams, Competition for jobs, Rise of nativism, Jacob Riis, Chinese Exclusion Act and Gentleman's Agreement.",
+   "ican": "I can describe the differences between \"old\" and \"new\" immigrants, analyze the assimilation process for \"new\" immigrants, and determine the impacts of increased migration on American society.",
+   "ref": {
+    "range": "—",
+    "dt": "—",
+    "vocab": "—",
+    "source": "—",
+    "persp": "—",
+    "progress": "—"
+   },
+   "vocab": [
+    {
+     "term": "Old Immigrants",
+     "say": "",
+     "es": "Viejos Inmigrantes",
+     "def": "Immigrants who came to the United States primarily from Northern and Western Europe (England, Ireland, Germany, Scandinavia) before 1880, often Protestant and more easily assimilated."
+    },
+    {
+     "term": "New Immigrants",
+     "say": "",
+     "es": "Nuevos Inmigrantes",
+     "def": "Immigrants who came to the United States primarily from Southern and Eastern Europe (Italy, Poland, Russia) and Asia after 1880, often Catholic, Jewish, or Orthodox Christian, facing greater discrimination."
+    },
+    {
+     "term": "Urbanization",
+     "say": "",
+     "es": "Urbanización",
+     "def": "The rapid growth of cities due to industrialization and mass migration, transforming America from a predominantly rural to urban society."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Chinese Exclusion Act",
+     "who": "U.S. Congress",
+     "date": "May 6, 1882 (22 Stat. 58)",
+     "quote": "The coming of Chinese laborers to this country endangers the good order of certain localities within the territory thereof: Therefore... the coming of Chinese laborers to the United States be, and the same is hereby, suspended; and during s",
+     "repo": "United States Congress. \"Chinese Exclusion Act.\" 1882. National Archives, https://www.archives.gov/milestone-documents/chinese-exclusion-act.",
+     "url": "https://www.archives.gov/milestone-documents/chinese-exclusion-act"
+    },
+    {
+     "title": "Twenty Years at Hull-House",
+     "who": "Jane Addams",
+     "date": "1910",
+     "quote": "Hull-House was soberly opened on the theory that the dependence of classes on each other is reciprocal... We were ready to perform the humblest neighborhood services. We were asked to wash the newborn babies, and to prepare the dead for bur",
+     "repo": "Addams, Jane. \"Twenty Years at Hull-House.\" 1910. University of Pennsylvania Digital Library, digital.library.upenn.edu/women/addams/hullhouse/hullhouse.html.",
+     "url": "https://digital.library.upenn.edu/women/addams/hullhouse/hullhouse.html"
+    }
+   ],
+   "cfu": {
+    "dok": 3,
+    "stem": "Analyze the role of Jane Addams and settlement houses in the immigrant experience.",
+    "options": {
+     "A": "Settlement houses forced immigrants to abandon their cultures, although this view has been largely discredited by scholars",
+     "B": "Settlement houses were primarily religious conversion centers, which ignores key developments that shaped the outcome",
+     "C": "They provided services and community while helping immigrants navigate American society without erasing cultural identity",
+     "D": "They had minimal impact on immigrant communities, which represents a common misconception about the period"
+    },
+    "key": "C",
+    "why": "Settlement houses like Hull House balanced assimilation assistance (English classes, job help) with respect for immigrant cultures, creating community support systems that aided adjustment."
+   },
+   "auth": {
+    "close": "\"Old\" immigrants (pre-1880) came primarily from Northern and Western Europe—Britain, Ireland, Germany, Scandinavia. They often spoke English or related languages and were predominantly Protestant. \"New\" immigrants (1880-1920) came from Southern and Eastern Europe—Italy, Poland, Russia, Greece—as well as Asia. They brought different languages, religions (Catholic, Orthodox, Jewish), and customs that many Americans viewed with suspicion. Ellis Island in New York Harbor processed millions of European immigrants, while Angel Island in San Francisco served Asian immigrants with far more restrictive procedures. New immigrants faced difficult assimilation: language barriers, discrimination, and unfamiliar customs. Jane Addams's Hull House in Chicago pioneered settlement houses that helped immigrants learn English, navigate American systems, and maintain cultural connections. Push factors drove people from their homelands: religious persecution (especially of Jews in Russia), poverty, political upheaval, and lack of opportunity. Pull factors attracted them to America: economic opportunity, religious freedom, land availability, and established immigrant communities. Letters from successful immigrants encouraged others to follow. The rise of nativism—hostility toward immigrants—led to restrictive legislation. The Chinese Exclusion Act of 1882 banned Chinese immigration for ten years (repeatedly renewed until 1943). The Gentleman's Agreement of 1907 limited Japanese immigration. Jacob Riis's photographs and writings, including \"How the Other Half Lives,\" exposed immigrant living conditions, prompting both sympathy and nativist fears.",
+    "close_sections": [
+     [
+      "Old and New Immigrants",
+      "\"Old\" immigrants (pre-1880) came primarily from Northern and Western Europe—Britain, Ireland, Germany, Scandinavia. They often spoke English or related languages and were predominantly Protestant. \"New\" immigrants (1880-1920) came from Southern and Eastern Europe—Italy, Poland, Russia, Greece—as well as Asia. They brought different languages, religions (Catholic, Orthodox, Jewish), and customs that many Americans viewed with suspicion."
+     ],
+     [
+      "Entry Points and the Assimilation Process",
+      "Ellis Island in New York Harbor processed millions of European immigrants, while Angel Island in San Francisco served Asian immigrants with far more restrictive procedures. New immigrants faced difficult assimilation: language barriers, discrimination, and unfamiliar customs. Jane Addams's Hull House in Chicago pioneered settlement houses that helped immigrants learn English, navigate American systems, and maintain cultural connections."
+     ],
+     [
+      "Push and Pull Factors",
+      "Push factors drove people from their homelands: religious persecution (especially of Jews in Russia), poverty, political upheaval, and lack of opportunity. Pull factors attracted them to America: economic opportunity, religious freedom, land availability, and established immigrant communities. Letters from successful immigrants encouraged others to follow."
+     ],
+     [
+      "Nativism and Restriction",
+      "The rise of nativism—hostility toward immigrants—led to restrictive legislation. The Chinese Exclusion Act of 1882 banned Chinese immigration for ten years (repeatedly renewed until 1943). The Gentleman's Agreement of 1907 limited Japanese immigration. Jacob Riis's photographs and writings, including \"How the Other Half Lives,\" exposed immigrant living conditions, prompting both sympathy and nativist fears."
+     ]
+    ],
+    "tdq": [
+     "What is the main idea of the “Old and New Immigrants” section, and what evidence supports it?",
+     "What is the main idea of the “Entry Points and the Assimilation Process” section, and what evidence supports it?",
+     "What is the main idea of the “Push and Pull Factors” section, and what evidence supports it?",
+     "Whose perspective benefits in this passage, and whose is harmed or left out?"
+    ],
+    "frayer": [
+     "Old Immigrants",
+     "New Immigrants"
+    ],
+    "quiz": [
+     {
+      "id": "US.01-Q07",
+      "dok": 2,
+      "stem": "How did western expansion in the 1860s–1880s affect American Indians and European immigrants differently?",
+      "opts": {
+       "A": "American Indians lost land and sovereignty through forced removal and treaty violations, while European immigrants gained economic opportunities and land ownership",
+       "B": "Both groups benefited equally from new economic opportunities created by railroad expansion and land grants",
+       "C": "European immigrants were confined to reservations while American Indians moved freely onto former frontier lands",
+       "D": "Both groups experienced forced relocation, but American Indians eventually received citizenship rights earlier than European immigrants"
+      },
+      "key": "A"
+     },
+     {
+      "id": "US.07-Q02",
+      "dok": 2,
+      "stem": "Angel Island served as an immigration station primarily for immigrants from:",
+      "opts": {
+       "A": "Italy and Poland",
+       "B": "China and other Asian countries",
+       "C": "Mexico and Central America",
+       "D": "Ireland and Germany"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the differences between \"old\" and \"new\" immigrants, analyze the assimilation process for \"new\" immigrants, and determine the impacts of increased migration on American society? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+   },
+   "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+   "target": "describe the differences between \"old\" and \"new\" immigrants, analyze the assimilation process for \"new\" immigrants, and determine the impacts of increased migration on American society",
+   "targets": [
+    "describe the differences between \"old\" and \"new\" immigrants, analyze the assimilation process for \"new\" immigrants, and determine the impacts of increased migration on American society"
+   ],
+   "criteria": [
+    "Old and New Immigrants",
+    "Entry Points and the Assimilation Process",
+    "Push and Pull Factors"
+   ],
+   "cues": [
+    "What does the passage say about old and New Immigrants?",
+    "What does the passage say about entry Points and the Assimilation Process?",
+    "What does the passage say about push and Pull Factors?",
+    "Key terms →"
+   ],
+   "lenses": "History · Geography · Culture",
+   "dim_map": {
+    "H": "History lens on Immigration: Old vs. New Immigrants: \"Old\" immigrants (pre-1880) came primarily from Northern and Western Europe—Britain, Ireland, Germany, Scandin…",
+    "G": "Geography lens on Immigration: Old vs. New Immigrants: \"Old\" immigrants (pre-1880) came primarily from Northern and Western Europe—Britain, Ireland, Germany, Scandin…",
+    "C": "Culture lens on Immigration: Old vs. New Immigrants: \"Old\" immigrants (pre-1880) came primarily from Northern and Western Europe—Britain, Ireland, Germany, Scandin…"
+   },
+   "geo": "",
+   "geo_places": [],
+   "tn_connection": "While Tennessee did not receive the same volume of immigrants as Northern cities, Memphis attracted Irish and German immigrants in the mid-1800s, and Italian immigrants settled in Memphis's 'Pinch District.' Nashville's immigrant communities contributed to the city's growth as a commercial center.",
+   "hook": "Immigration: Old vs. New Immigrants: Describe the differences between \"old\" and \"new\" immigrants, analyze the assimilation process for \"new\" immigrants, and determine the impacts of increased migration on American society, including: Angel Island, Ellis Island, Push and pull factors, Ethnic clusters, Jane Addams, Competition for jobs, Rise of nativism, Jacob Riis, Chinese Exclusion Act and Gentleman's Agreement. Who gained, who was left out — and why does it still matter?"
+  }
+ },
+ "order": [
+  "US.01",
+  "US.02",
+  "US.03",
+  "US.04",
+  "US.05",
+  "US.06",
+  "US.07"
+ ]
+}

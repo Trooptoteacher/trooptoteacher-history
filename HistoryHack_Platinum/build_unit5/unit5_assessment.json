@@ -1,0 +1,1558 @@
+{
+ "unit": "Unit 4",
+ "formative": {
+  "US.39": [
+   {
+    "id": "US.39-39Q2",
+    "std": "US.39",
+    "dok": 2,
+    "stem": "What role did \"buying on margin\" and overextension of credit play in creating economic instability?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Margin buying inflated stock prices artificially, and when prices fell, margin calls forced panic selling that accelerated the collapse while widespread consumer debt created defaults"
+     },
+     {
+      "id": "B",
+      "text": "Margin buying had no connection to the crash, despite limited evidence supporting this interpretation and oversimplifies the complex factors at work during this period"
+     },
+     {
+      "id": "C",
+      "text": "Credit was carefully regulated in the 1920s, which represents a common misconception about the period, but contemporary accounts and primary sources suggest otherwise"
+     },
+     {
+      "id": "D",
+      "text": "Only wealthy investors bought on margin, which contradicts the primary source evidence from this era, which does not align with the documented historical record"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Buying on margin with only 10% down inflated stock prices beyond real value. When the market declined, margin calls forced investors to sell, accelerating the crash. Consumer credit overextension meant defaults cascaded through the banking system.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.39-39Q3",
+    "std": "US.39",
+    "dok": 2,
+    "stem": "How did overproduction in agriculture and manufacturing contribute to the economic collapse?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Overproduction actually helped the economy by lowering prices, but contemporary accounts suggest a different explanation and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "B",
+      "text": "Factories produced more than consumers could afford to buy, leading to inventory buildup, price collapse, production cuts, and layoffs while farm prices fell 60%"
+     },
+     {
+      "id": "C",
+      "text": "There was no overproduction during this period, which contradicts the primary source evidence from this era and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "D",
+      "text": "Manufacturing overproduction was offset by agricultural shortages, which does not reflect the consensus among historians, although historical sources do not support this conclusion"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Income inequality meant most Americans couldn't afford mass-produced goods. Unsold inventory forced production cuts and layoffs. Agricultural mechanization created surpluses that drove farm prices down 60%, causing rural bank failures and farm foreclosures.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.40": [
+   {
+    "id": "US.40-40Q1",
+    "std": "US.40",
+    "dok": 2,
+    "stem": "What combination of human farming practices and natural weather patterns created the Dust Bowl?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Farmers plowed up native grasses, practiced monoculture without conservation, and severe drought combined with strong winds eroded the exposed topsoil"
+     },
+     {
+      "id": "B",
+      "text": "The Dust Bowl was entirely caused by natural drought, although historical sources do not support this conclusion, which does not align with the documented historical record"
+     },
+     {
+      "id": "C",
+      "text": "Modern farming techniques prevented soil erosion, but this oversimplifies the complex factors at work, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "The Dust Bowl only affected a small local area, which does not reflect the consensus among historians, which does not align with the documented historical record"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The Dust Bowl resulted from human actions (destroying native grasses, over-farming, no conservation) combined with natural drought. Without protective vegetation, severe drought and wind eroded topsoil that had taken centuries to develop.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.40-40Q2",
+    "std": "US.40",
+    "dok": 2,
+    "stem": "How did the Dust Bowl force massive migration and reshape American demographics?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Most people stayed on their farms despite conditions, which contradicts the primary source evidence from this era, which ignores significant political and cultural developments of the era"
+     },
+     {
+      "id": "B",
+      "text": "3.5 million people fled the Great Plains, with over 200,000 \"Okies\" migrating to California via Route 66, depopulating rural communities and creating tensions in destination areas"
+     },
+     {
+      "id": "C",
+      "text": "Migration was limited to a few hundred families, which represents a common misconception about the period and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "D",
+      "text": "People only moved to nearby towns, which contradicts the primary source evidence from this era, but contemporary accounts and primary sources suggest otherwise"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The Dust Bowl triggered one of the largest internal migrations in American history. Millions fled environmental and economic devastation, overwhelming destination communities in California and other states, creating lasting demographic shifts.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.41": [
+   {
+    "id": "US.41-41Q1",
+    "std": "US.41",
+    "dok": 2,
+    "stem": "How did mass unemployment during the Great Depression affect individuals, families, and communities?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "With 25% unemployment, families faced psychological trauma, role reversals, increased divorce, child labor, and relied on mutual aid while communities experienced population loss and service decline"
+     },
+     {
+      "id": "B",
+      "text": "Unemployment had limited social effects, but this fails to account for the broader historical context, and this view has been largely revised by modern historical research"
+     },
+     {
+      "id": "C",
+      "text": "Government programs immediately solved unemployment, but the historical record tells a more complex story, though this interpretation lacks supporting historical evidence"
+     },
+     {
+      "id": "D",
+      "text": "Only industrial workers experienced unemployment, despite the fact that multiple sources contradict this view, and this view has been largely revised by modern historical research"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Mass unemployment devastated American society at every level: individuals lost self-esteem and skills, families faced stress and role reversals, and communities lost population, tax base, and social services as people struggled to survive.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.41-41Q2",
+    "std": "US.41",
+    "dok": 2,
+    "stem": "What factors drove internal migration during the 1930s, and where did people go seeking opportunities?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "People did not migrate during the Depression, but this fails to account for the broader historical context, and this view has been largely revised by modern historical research"
+     },
+     {
+      "id": "B",
+      "text": "Job seekers, displaced farmers, and Dust Bowl refugees moved rural to urban, South to North, and Plains to California, following family networks and government projects"
+     },
+     {
+      "id": "C",
+      "text": "Migration was limited to wealthy families, which ignores key developments that shaped the outcome, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "D",
+      "text": "All migration was from cities to farms, which does not align with the documented historical record and oversimplifies the complex factors at work during this period"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Economic desperation drove massive internal migration as Americans sought opportunities wherever they might exist—following family networks to cities, continuing the Great Migration northward, and fleeing the Dust Bowl for California.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.42": [
+   {
+    "id": "US.42-42Q1",
+    "std": "US.42",
+    "dok": 2,
+    "stem": "How did President Hoover's philosophy of \"Rugged Individualism\" shape his response to the Great Depression?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "His belief that individuals should solve problems without government help led to limited federal response, reliance on voluntary cooperation, and opposition to direct relief programs"
+     },
+     {
+      "id": "B",
+      "text": "It led to aggressive government intervention, but the historical record tells a more complex story and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "C",
+      "text": "He immediately provided direct payments to unemployed workers, but this oversimplifies the complex factors at work and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "D",
+      "text": "Rugged individualism had no impact on his policies, although historical sources do not support this conclusion, which contradicts the primary source evidence from this era"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Hoover's rugged individualism philosophy led him to resist direct federal relief, rely on voluntary business cooperation, and delay decisive government action, which proved inadequate for the scale of the economic crisis.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.42-42Q2",
+    "std": "US.42",
+    "dok": 2,
+    "stem": "What public works projects did Hoover initiate, and why were they insufficient to address the economic crisis?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Hoover initiated no public works projects, which represents a common misconception about the period and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "B",
+      "text": "Projects like Hoover Dam provided some jobs, but were too small in scale, took years to begin, concentrated in specific regions, and couldn't significantly reduce national unemployment"
+     },
+     {
+      "id": "C",
+      "text": "His public works completely solved unemployment, but this fails to account for the broader historical context, though this interpretation lacks supporting historical evidence"
+     },
+     {
+      "id": "D",
+      "text": "Public works projects were larger than New Deal programs, which ignores key developments that shaped the outcome, which represents a common misconception about this historical period"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "While Hoover did initiate public works including the massive Hoover Dam, these projects were insufficient due to limited scale, slow implementation, geographic concentration, and requirements for skilled labor that didn't match unemployed workers' skills.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.43": [
+   {
+    "id": "US.43-43Q1",
+    "std": "US.43",
+    "dok": 2,
+    "stem": "How did the \"Three R's\" (Relief, Recovery, Reform) organize Roosevelt's approach to ending the Great Depression?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Relief provided immediate help to unemployed (CCC, WPA), Recovery programs restored economic activity (AAA, NRA), and Reform programs fixed underlying problems (FDIC, SEC, Social Security)"
+     },
+     {
+      "id": "B",
+      "text": "FDR used only one approach throughout the New Deal, although this view has been largely discredited by scholars, although historical sources do not support this conclusion"
+     },
+     {
+      "id": "C",
+      "text": "The Three R's were unrelated programs, but contemporary accounts suggest a different explanation, which ignores significant political and cultural developments of the era"
+     },
+     {
+      "id": "D",
+      "text": "Roosevelt opposed the Three R's approach, which does not reflect the consensus among historians when examined alongside the available primary and secondary sources"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "FDR organized the New Deal around Relief (immediate aid to suffering), Recovery (restoring economic growth), and Reform (fixing problems that caused the Depression), creating a comprehensive approach to addressing the crisis at multiple levels.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.43-43Q2",
+    "std": "US.43",
+    "dok": 2,
+    "stem": "What impact did programs like the CCC, WPA, and TVA have on employment and infrastructure development?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "These programs had minimal employment impact, which does not reflect the consensus among historians, but closer analysis reveals a more complicated historical reality"
+     },
+     {
+      "id": "B",
+      "text": "CCC employed 3 million in conservation, WPA employed 8.5 million building infrastructure nationwide, and TVA transformed the Tennessee Valley with dams, electricity, and regional development"
+     },
+     {
+      "id": "C",
+      "text": "Only TVA created significant employment, but this fails to account for the broader historical context, which ignores significant political and cultural developments of the era"
+     },
+     {
+      "id": "D",
+      "text": "These programs focused on wealthy Americans, although this overlooks critical economic and social factors, although historical sources do not support this conclusion"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "These programs directly employed millions while creating lasting infrastructure. CCC planted 3 billion trees and built parks, WPA built roads, bridges, and schools nationwide, and TVA transformed an impoverished region through comprehensive development.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.44": [
+   {
+    "id": "US.44-44Q1",
+    "std": "US.44",
+    "dok": 2,
+    "stem": "What were the main economic effects of New Deal policies on employment, banking, and government spending?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Unemployment fell from 25% to 14%, bank runs ended with FDIC, manufacturing increased 60%, and government spending grew from 3% to 10% of GDP"
+     },
+     {
+      "id": "B",
+      "text": "New Deal policies had no measurable economic impact, though this interpretation lacks supporting historical evidence"
+     },
+     {
+      "id": "C",
+      "text": "The economy worsened under New Deal policies, although this view has been largely discredited by scholars"
+     },
+     {
+      "id": "D",
+      "text": "Only banking was affected by New Deal programs, though this interpretation lacks supporting historical evidence"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "New Deal policies produced measurable economic improvements: reduced unemployment, stabilized banking through FDIC, increased industrial production, doubled farm income, and fundamentally expanded government's economic role, though full recovery required WWII mobilization.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.44-44Q3",
+    "std": "US.44",
+    "dok": 2,
+    "stem": "What was Roosevelt's \"court-packing\" plan, and why did it create a constitutional crisis?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "FDR proposed reducing the number of Supreme Court justices, but this fails to account for the broader historical context and oversimplifies the complex factors at work during this period"
+     },
+     {
+      "id": "B",
+      "text": "After the Court struck down New Deal laws, FDR proposed adding justices to get favorable rulings, threatening judicial independence and separation of powers before the plan failed in Congress"
+     },
+     {
+      "id": "C",
+      "text": "The court-packing plan passed easily, although this overlooks critical economic and social factors and oversimplifies the complex factors at work during this period"
+     },
+     {
+      "id": "D",
+      "text": "Congress proposed the plan, not Roosevelt, which does not reflect the consensus among historians when examined alongside the available primary and secondary sources"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Frustrated by Supreme Court decisions striking down New Deal programs, FDR proposed adding justices to change the Court's composition. Critics from both parties saw this as an attack on judicial independence, and the plan's failure damaged FDR's political standing.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ]
+ },
+ "formA": [
+  {
+   "id": "US.39-OK22",
+   "std": "US.39",
+   "dok": 2,
+   "stem": "How did bank failures worsen the Great Depression for ordinary Americans?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Depositors lost their life savings because deposits were not insured"
+    },
+    {
+     "id": "B",
+     "text": "Purchasing stocks with mostly borrowed money and a small down payment"
+    },
+    {
+     "id": "C",
+     "text": "Stock speculation, bank failures, overproduction, and high tariffs"
+    },
+    {
+     "id": "D",
+     "text": "Surplus goods drove down prices, cutting profits, wages, and jobs"
+    }
+   ],
+   "key": "A",
+   "rc": "Economics",
+   "distract": {
+    "A": "Depositors lost their life savings because deposits were not insured, so depositors would trust banks and stop panicked withdrawals. Choice C refers to bank failures, which does not fit this question, and choice D refers to overproduction, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.39-9Q03",
+   "std": "US.39",
+   "dok": 2,
+   "stem": "Which statement best explains how overproduction in agriculture contributed to the Great Depression?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Agricultural overproduction caused inflation that reduced the purchasing power of American consumers"
+    },
+    {
+     "id": "B",
+     "text": "Surplus crops drove farm prices down, leaving millions of farmers"
+    },
+    {
+     "id": "C",
+     "text": "Excess food production led the federal government to impose price"
+    },
+    {
+     "id": "D",
+     "text": "Farmers produced too little food, causing widespread food shortages"
+    }
+   ],
+   "key": "B",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Surplus crops drove farm prices down, leaving millions of farmers. Choice A refers to overproduction, which does not fit this question, and choice D refers to farm losses, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Great Depression.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.39-X037",
+   "std": "US.39",
+   "dok": 2,
+   "stem": "Which characteristic of 1920s consumer culture contributed most directly to the banking collapse of 1929–1933?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The federal government had removed all regulations on consumer spending and credit availability"
+    },
+    {
+     "id": "B",
+     "text": "Americans were saving too much money in banks instead of spending on consumer goods"
+    },
+    {
+     "id": "C",
+     "text": "Widespread buying on credit and installment plans left consumers overextended when the economy contracted"
+    },
+    {
+     "id": "D",
+     "text": "Most Americans had moved their savings from banks into gold and silver"
+    }
+   ],
+   "key": "C",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Widespread buying on credit and installment plans left consumers overextended when the economy contracted, which left many households in debt when incomes dropped. Choice A refers to another event or policy from the era, which does not fit this question, and choice B refers to bank failures, which does not fit this question. The Depression revealed how closely jobs, banks, farms, and consumer spending were connected.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.40-OK11",
+   "std": "US.40",
+   "dok": 2,
+   "stem": "What caused the Dust Bowl?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Soil conservation programs promoting contour plowing and shelterbelts"
+    },
+    {
+     "id": "B",
+     "text": "Severe drought combined with overplowing that destroyed the topsoil"
+    },
+    {
+     "id": "C",
+     "text": "Hundreds of thousands of \"Okies\" migrated westward to California"
+    },
+    {
+     "id": "D",
+     "text": "Overplowing destroyed native grasses that held topsoil in place"
+    }
+   ],
+   "key": "B",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Severe drought combined with overplowing that destroyed the topsoil, after drought hit land already weakened by overplowing. Choice D refers to the Dust Bowl, which does not fit this question, and choice A refers to housing conditions, which does not fit this question. The crisis changed farming practices and became a lasting symbol of the link between ecology and economics.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.40-OK21",
+   "std": "US.40",
+   "dok": 2,
+   "stem": "What human activity MOST contributed to causing the Dust Bowl conditions?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Urban sprawl converted most Great Plains farmland into housing areas"
+    },
+    {
+     "id": "B",
+     "text": "Industrial pollution from factories contaminated agricultural soil"
+    },
+    {
+     "id": "C",
+     "text": "Overplowing destroyed native grasses that held topsoil in place"
+    },
+    {
+     "id": "D",
+     "text": "Excessive irrigation depleted all underground water sources completely"
+    }
+   ],
+   "key": "C",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Overplowing destroyed native grasses that held topsoil in place, after drought hit land already weakened by overplowing. Choice A refers to farm losses, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. The Dust Bowl showed that drought and poor land use could deepen the suffering of the Great Depression.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.40-OK22",
+   "std": "US.40",
+   "dok": 2,
+   "stem": "How did the Dust Bowl impact migration patterns in the United States?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The government relocated all Dust Bowl victims to federal housing"
+    },
+    {
+     "id": "B",
+     "text": "Great Plains farmers moved to large industrial cities in the East"
+    },
+    {
+     "id": "C",
+     "text": "Most affected families stayed and rebuilt their farms successfully"
+    },
+    {
+     "id": "D",
+     "text": "Hundreds of thousands of \"Okies\" migrated westward to California"
+    }
+   ],
+   "key": "D",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Hundreds of thousands of \"Okies\" migrated westward to California, many of whom headed to California looking for seasonal farm work. Choice A refers to housing conditions, which does not fit this question, and choice B refers to farm losses, which does not fit this question. The crisis changed farming practices and became a lasting symbol of the link between ecology and economics."
+   }
+  },
+  {
+   "id": "US.41-41Q3",
+   "std": "US.41",
+   "dok": 2,
+   "stem": "What were Hoovervilles, and what did they reveal about the extent of American poverty?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Hoovervilles were government-built housing projects, although this view has been largely discredited by scholars and oversimplifies the complex factors at work during this period"
+    },
+    {
+     "id": "B",
+     "text": "Hoovervilles existed only in rural areas, but the historical record tells a more complex story, and this view has been largely revised by modern historical research"
+    },
+    {
+     "id": "C",
+     "text": "They were makeshift shanty towns named sarcastically after Hoover, revealing widespread homelessness, government failure, and the depth of poverty affecting millions of Americans"
+    },
+    {
+     "id": "D",
+     "text": "They were well-organized communities with modern amenities, but contemporary accounts suggest a different explanation and does not reflect the scholarly consensus on this topic"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Hoovervilles—crude shanty towns built from scrap materials—symbolized both the Depression's devastating impact and government failure to address it. Their sarcastic name reflected public anger at Hoover's inadequate response.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.41-1Q03",
+   "std": "US.41",
+   "dok": 2,
+   "stem": "Which statement best explains why mass unemployment during the Great Depression had a self-reinforcing effect that made the Depression worse?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Unemployed workers defaulted on mortgages, which primarily affected wealthy investors rather than the broader economy"
+    },
+    {
+     "id": "B",
+     "text": "Unemployed workers migrated to cities, where they competed with existing residents for scarce jobs"
+    },
+    {
+     "id": "C",
+     "text": "Unemployed workers voted for politicians who raised tariffs, which damaged American export markets"
+    },
+    {
+     "id": "D",
+     "text": "Unemployed workers could not afford to purchase goods, reducing consumer demand and causing further business failures and layoffs"
+    }
+   ],
+   "key": "D",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Unemployed workers could not afford to purchase goods, reducing consumer demand and causing further business failures and layoffs. Choice A refers to another event or policy from the era, which does not fit this question, and choice D refers to tariffs and trade, which does not fit this question. The Depression revealed how closely jobs, banks, farms, and consumer spending were connected."
+   }
+  },
+  {
+   "id": "US.41-1Q07",
+   "std": "US.41",
+   "dok": 2,
+   "stem": "The psychological impact of the Great Depression on American society included:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Widespread shame, loss of identity tied to work and self-reliance,"
+    },
+    {
+     "id": "B",
+     "text": "A shift toward individualistic values as Americans concluded that collective action was ineffective in solving economic problems"
+    },
+    {
+     "id": "C",
+     "text": "Increased confidence in American capitalism and belief in the inevitability of continuous economic growth"
+    },
+    {
+     "id": "D",
+     "text": "Minimal psychological impact because most Americans were accustomed"
+    }
+   ],
+   "key": "A",
+   "rc": "Economics",
+   "distract": {
+    "A": "Widespread shame, loss of identity tied to work and self-reliance,. Choice D refers to another event or policy from the era, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Great Depression.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.42-42Q3",
+   "std": "US.42",
+   "dok": 2,
+   "stem": "How did the Reconstruction Finance Corporation represent Hoover's \"trickle-down\" approach to economic recovery?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The RFC provided direct relief to unemployed workers, though this interpretation lacks supporting historical evidence, which contradicts the primary source evidence from this era"
+    },
+    {
+     "id": "B",
+     "text": "The RFC was a small, insignificant program, but this oversimplifies the complex factors at work, which contradicts the primary source evidence from this era, which does not align with the documented historical record"
+    },
+    {
+     "id": "C",
+     "text": "Hoover opposed the RFC, which contradicts the primary source evidence from this era, which ignores significant political and cultural developments of the era, which contradicts the primary source evidence from this era"
+    },
+    {
+     "id": "D",
+     "text": "The RFC lent money to banks and large corporations, assuming benefits would eventually reach ordinary workers—a top-down approach that critics said helped the wealthy while ignoring the poor"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The RFC embodied trickle-down economics by lending to banks and large businesses rather than providing direct relief to individuals. Hoover believed stabilizing financial institutions would eventually benefit workers, but critics saw it as favoring the wealthy."
+   }
+  },
+  {
+   "id": "US.42-2Q02",
+   "std": "US.42",
+   "dok": 2,
+   "stem": "The Reconstruction Finance Corporation (RFC), created by Hoover in 1932, was significant because it:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Loaned federal money to banks, railroads, and large corporations on the theory that stabilizing major institutions would revive the broader economy"
+    },
+    {
+     "id": "B",
+     "text": "Nationalized failing banks by purchasing them with federal funds, absorbing their losses, and converting them to government-owned institutions"
+    },
+    {
+     "id": "C",
+     "text": "Rebuilt war-damaged infrastructure in Western Europe as a plan to revive American export markets and stabilize trading partners"
+    },
+    {
+     "id": "D",
+     "text": "Provided direct cash relief payments to unemployed individuals and poor families to restore consumer household spending"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Loaned federal money to banks, railroads, and large corporations on the theory that stabilizing major institutions would revive the broader economy, as Hoover tried to stabilize major institutions rather than give direct aid to individuals. Choice A refers to bank failures, which does not fit this question, and choice B refers to a public works project, which does not fit this question. Public frustration with Hoover helped shift many voters toward the New Deal in 1932.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.42-2Q07",
+   "std": "US.42",
+   "dok": 2,
+   "stem": "Hoover\\\\'s public works projects, including the Hoover Dam (Boulder Dam), were intended to address the Depression by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Demonstrating that the government could build infrastructure more"
+    },
+    {
+     "id": "B",
+     "text": "Creating some employment through large construction projects while maintaining his philosophical"
+    },
+    {
+     "id": "C",
+     "text": "Providing direct employment to all unemployed Americans through"
+    },
+    {
+     "id": "D",
+     "text": "Replacing private construction companies with government-operated"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Creating some employment through large construction projects while maintaining his philosophical opposition to direct federal relief, which provided jobs and power but did not solve mass unemployment. Choice B refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. This issue became part of the larger argument over how much the federal government should do in an economic crisis.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.43-43Q3",
+   "std": "US.43",
+   "dok": 2,
+   "stem": "How did New Deal financial reforms like the FDIC and SEC restore confidence in American economic institutions?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "FDIC guaranteed deposits to eliminate bank runs, while SEC regulated stock markets and required transparency, together stabilizing the financial system and restoring investor confidence"
+    },
+    {
+     "id": "B",
+     "text": "Financial reforms had no impact on public confidence, which represents a common misconception about the period, though this interpretation lacks supporting historical evidence"
+    },
+    {
+     "id": "C",
+     "text": "These agencies were eliminated after the Depression, but the historical record tells a more complex story, and this view has been largely revised by modern historical research"
+    },
+    {
+     "id": "D",
+     "text": "Banks and stock markets remained unregulated, although historical sources do not support this conclusion, which contradicts the primary source evidence from this era"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "FDIC deposit insurance virtually eliminated bank runs by protecting depositors, while SEC regulation restored investor confidence by requiring transparency and prohibiting fraud. Both institutions continue protecting Americans today.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.43-3Q02",
+   "std": "US.43",
+   "dok": 2,
+   "stem": "The Tennessee Valley Authority (TVA), established May 18, 1933, was chosen to focus on the Tennessee River Valley specifically because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Congress chose Tennessee because it was the home state of the most"
+    },
+    {
+     "id": "B",
+     "text": "The region was among the most economically impoverished in America,"
+    },
+    {
+     "id": "C",
+     "text": "The Tennessee Valley had the largest concentration of industrial workers needing employment in the South"
+    },
+    {
+     "id": "D",
+     "text": "The Tennessee Valley was already the most prosperous agricultural region in the South and could absorb investment"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The region was among the most economically impoverished in America,, through dams, electricity, flood control, and regional development. Choice D is wrong because the TVA focused on dams and electrification in the Tennessee Valley, and choice C is wrong because the TVA focused on dams and electrification in the Tennessee Valley. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.43-3Q03",
+   "std": "US.43",
+   "dok": 2,
+   "stem": "The New Deal\\\\'s relief programs (CCC, WPA) differed from direct cash payments to the unemployed in which important way?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Relief programs were administered by state governments while cash"
+    },
+    {
+     "id": "B",
+     "text": "Relief programs were temporary while cash payments would have been intended as permanent entitlements"
+    },
+    {
+     "id": "C",
+     "text": "Relief programs put unemployed Americans to work producing public"
+    },
+    {
+     "id": "D",
+     "text": "Relief programs targeted only young men under 25 while cash payments"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Relief programs put unemployed Americans to work producing public, by paying young men to plant trees, build parks, and fight erosion. Choice B refers to another event or policy from the era, which does not fit this question, and choice C refers to a different statistic or date, which does not fit this question. Programs like this changed what many Americans expected from the federal government in a national emergency.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.44-4Q03",
+   "std": "US.44",
+   "dok": 2,
+   "stem": "The Supreme Court struck down several major New Deal programs in 1935--1936, ruling them unconstitutional primarily because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The programs violated the First Amendment\\\\'s protection of freedom"
+    },
+    {
+     "id": "B",
+     "text": "The programs exceeded Congress\\\\'s authority under the Commerce"
+    },
+    {
+     "id": "C",
+     "text": "FDR had signed the programs without adequate congressional debate,"
+    },
+    {
+     "id": "D",
+     "text": "The programs were found to discriminate against small businesses in favor of large corporations"
+    }
+   ],
+   "key": "B",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The programs exceeded Congress\\\\'s authority under the Commerce. Choice A refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.44-X020",
+   "std": "US.44",
+   "dok": 1,
+   "stem": "FDR's court-packing plan (1937) proposed adding up to six justices to:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Speed up case processing with more justices"
+    },
+    {
+     "id": "B",
+     "text": "Prevent conservative justices over 70 from continuing to serve"
+    },
+    {
+     "id": "C",
+     "text": "Overcome a 'Four Horsemen' bloc blocking New Deal programs"
+    },
+    {
+     "id": "D",
+     "text": "Ensure a 9-3 majority upholding New Deal legislation"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Roosevelt's court-packing plan aimed to overcome a Supreme Court that had struck down major New Deal laws, but the pressure eased after the Court began upholding key legislation. Choice C refers to the Great Depression or New Deal, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The controversy showed the limits of presidential power even during a national crisis.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.44-44Q2",
+   "std": "US.44",
+   "dok": 3,
+   "stem": "Why did critics charge that New Deal programs represented \"socialism,\" and how valid were these accusations?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Critics never used the term socialism, although this overlooks critical economic and social factors, although historical sources do not support this conclusion and oversimplifies the complex factors at work during this period"
+    },
+    {
+     "id": "B",
+     "text": "New Deal programs were identical to Soviet communism, which represents a common misconception about the period despite the fact that multiple contemporary sources contradict this"
+    },
+    {
+     "id": "C",
+     "text": "All business leaders supported the New Deal, despite limited evidence supporting this interpretation, but closer analysis reveals a more complicated historical reality when examined alongside the available primary and secondary sources"
+    },
+    {
+     "id": "D",
+     "text": "Critics argued increased regulation and redistribution resembled socialism, but New Deal largely preserved private ownership while reforming capitalism rather than establishing government ownership of industry"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "While critics used \"socialism\" to attack expanded government regulation and social programs, the New Deal preserved private property and business ownership. It reformed capitalism through regulation and safety nets rather than replacing it with government ownership."
+   }
+  }
+ ],
+ "formB": [
+  {
+   "id": "US.39-OK11",
+   "std": "US.39",
+   "dok": 1,
+   "stem": "What was \"Black Tuesday\"?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Over 9,000 banks collapsed across the nation"
+    },
+    {
+     "id": "B",
+     "text": "Surplus goods drove down prices, cutting profits, wages, and jobs"
+    },
+    {
+     "id": "C",
+     "text": "October 29, 1929 - the day the stock market crashed"
+    },
+    {
+     "id": "D",
+     "text": "Stock speculation, bank failures, overproduction, and high tariffs"
+    }
+   ],
+   "key": "C",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Black Tuesday was October 29, 1929, when panic selling sent the stock market into a devastating crash. Choice C lists broader causes of the Depression, not the single day of the crash, and choice B describes a different Depression problem, not October 29, 1929. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.39-OK11",
+   "std": "US.39",
+   "dok": 1,
+   "stem": "What does \"buying on margin\" mean in the context of the 1920s stock market?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Depositors lost their life savings because deposits were not insured"
+    },
+    {
+     "id": "B",
+     "text": "Stock speculation, bank failures, overproduction, and high tariffs"
+    },
+    {
+     "id": "C",
+     "text": "Surplus goods drove down prices, cutting profits, wages, and jobs"
+    },
+    {
+     "id": "D",
+     "text": "Purchasing stocks with mostly borrowed money and a small down payment"
+    }
+   ],
+   "key": "D",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Buying on margin meant purchasing stocks with borrowed money, so losses grew even faster when prices fell. Choice C is wrong because margin involved borrowing for stocks, not ordinary consumer spending, and choice B is wrong because margin involved borrowing for stocks, not ordinary consumer spending. The Depression revealed how closely jobs, banks, farms, and consumer spending were connected."
+   }
+  },
+  {
+   "id": "US.39-9Q01",
+   "std": "US.39",
+   "dok": 1,
+   "stem": "What does \\\\'buying on margin\\\\' mean in the context of 1920s stock market investing?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Borrowing money to purchase stocks, using the stock itself as collateral for the loan"
+    },
+    {
+     "id": "B",
+     "text": "Purchasing stocks only from brokers located outside major financial centers"
+    },
+    {
+     "id": "C",
+     "text": "Investing exclusively in agricultural commodities rather than industrial stocks"
+    },
+    {
+     "id": "D",
+     "text": "Selling stocks at the highest possible price to maximize short-term"
+    }
+   ],
+   "key": "A",
+   "rc": "Economics",
+   "distract": {
+    "A": "Buying on margin meant purchasing stocks with borrowed money, so losses grew even faster when prices fell. Choice B is wrong because margin involved borrowing for stocks, not ordinary consumer spending, and choice A is wrong because margin involved borrowing for stocks, not ordinary consumer spending. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.40-ADD1",
+   "std": "US.40",
+   "dok": 2,
+   "stem": "Which New Deal response most directly addressed long-term soil damage from the Dust Bowl?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Severe drought combined with overplowing that destroyed the topsoil"
+    },
+    {
+     "id": "B",
+     "text": "It displaced families, reshaped agriculture, and deepened the Depression"
+    },
+    {
+     "id": "C",
+     "text": "A severe drought and dust storm disaster on the Great Plains in the 1930s"
+    },
+    {
+     "id": "D",
+     "text": "Soil conservation programs promoting contour plowing and shelterbelts"
+    }
+   ],
+   "key": "D",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Soil conservation programs promoting contour plowing and shelterbelts, after drought hit land already weakened by overplowing. Choice D refers to the Dust Bowl, which does not fit this question, and choice B refers to the Dust Bowl, which does not fit this question. The crisis changed farming practices and became a lasting symbol of the link between ecology and economics."
+   }
+  },
+  {
+   "id": "US.40-0Q02",
+   "std": "US.40",
+   "dok": 2,
+   "stem": "Which combination of factors caused the Dust Bowl?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Decades of deep plowing that destroyed native grasses, combined with a severe multi-year drought"
+    },
+    {
+     "id": "B",
+     "text": "Excessive rainfall eroding topsoil combined with misguided federal land-use policies"
+    },
+    {
+     "id": "C",
+     "text": "Industrial pollution from Midwestern coal-burning factories that damaged regional vegetation"
+    },
+    {
+     "id": "D",
+     "text": "Overgrazing by sheep that stripped the Great Plains of vegetation"
+    }
+   ],
+   "key": "A",
+   "rc": "Economics",
+   "distract": {
+    "A": "Decades of deep plowing destroyed the native grasses holding the topsoil in place, combined with severe drought beginning in 1930, after drought hit land already weakened by overplowing. Choice B refers to the Dust Bowl, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. This helps explain why environmental disaster and economic hardship pushed many Plains families to migrate west.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.40-0Q03",
+   "std": "US.40",
+   "dok": 2,
+   "stem": "The \\\\'Okies\\\\' of the 1930s were people who:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Were Oklahoma state government officials who administered federal relief programs during the 1930s"
+    },
+    {
+     "id": "B",
+     "text": "Migrated from Dust Bowl states — primarily Oklahoma — to California seeking work after their farms failed"
+    },
+    {
+     "id": "C",
+     "text": "Were federal government agents sent to the Great Plains to document the Dust Bowl for historical records"
+    },
+    {
+     "id": "D",
+     "text": "Were industrial workers from Oklahoma cities who relocated to urban"
+    }
+   ],
+   "key": "B",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Migrated from Dust Bowl states — primarily Oklahoma — to California seeking work after their farms failed, many of whom headed to California looking for seasonal farm work. Choice B is wrong because Okies were Dust Bowl migrants, not a government agency or military group, and choice A is wrong because Okies were Dust Bowl migrants, not a government agency or military group. The Dust Bowl showed that drought and poor land use could deepen the suffering of the Great Depression.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.41-X036",
+   "std": "US.41",
+   "dok": 2,
+   "stem": "The Civilian Conservation Corps (CCC) addressed unemployment primarily by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Employing young men in conservation and public works projects in national forests and parks"
+    },
+    {
+     "id": "B",
+     "text": "Offering job training programs in industrial skills for unemployed factory workers"
+    },
+    {
+     "id": "C",
+     "text": "Creating government-owned factories to produce goods for the domestic market"
+    },
+    {
+     "id": "D",
+     "text": "Providing direct cash payments to unemployed workers"
+    }
+   ],
+   "key": "A",
+   "rc": "Economics",
+   "distract": {
+    "A": "Employing young men in conservation and public works projects in national forests and parks, by paying young men to plant trees, build parks, and fight erosion. Choice A refers to another event or policy from the era, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.41-X013",
+   "std": "US.41",
+   "dok": 2,
+   "stem": "During the Great Depression, Hoovervilles were significant as:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Concrete evidence that Hoover's relief programs were successfully housing the urban homeless population"
+    },
+    {
+     "id": "B",
+     "text": "Visible symbols of Depression suffering and bitter commentary on Hoover's inaction"
+    },
+    {
+     "id": "C",
+     "text": "Primarily a Western regional phenomenon concentrated in cities like Los Angeles and Seattle"
+    },
+    {
+     "id": "D",
+     "text": "Temporary encampments quickly cleared and eliminated by arriving federal emergency relief workers"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Mass unemployment overwhelmed private charity and local relief, which is why breadlines and Hoovervilles became visible symbols of national hardship. Choice A refers to the Great Depression or New Deal, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. These images damaged faith in limited government responses to the crisis.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.41-OK14",
+   "std": "US.41",
+   "dok": 1,
+   "stem": "What was the unemployment rate before the stock market crash in 1929?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Around 15%, which was already quite serious"
+    },
+    {
+     "id": "B",
+     "text": "Already 25%, which signaled economic trouble"
+    },
+    {
+     "id": "C",
+     "text": "Only about 3%, which was near full employment"
+    },
+    {
+     "id": "D",
+     "text": "Over 50%, which made recovery nearly impossible"
+    }
+   ],
+   "key": "C",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The unemployment rate before the stock market crash in 1929 was only about 3%, which was near full employment. Choice A refers to a different statistic or date, which does not fit this question, and choice B refers to a different statistic or date, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.42-2Q01",
+   "std": "US.42",
+   "dok": 1,
+   "stem": "President Hoover\\\\'s philosophy of \\\\'Rugged Individualism\\\\' held that:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "State governments should replace the federal government as the primary providers of economic relief"
+    },
+    {
+     "id": "B",
+     "text": "Americans should rely on their own initiative and private charity"
+    },
+    {
+     "id": "C",
+     "text": "The federal government should directly employ all unemployed"
+    },
+    {
+     "id": "D",
+     "text": "Industrial corporations should be nationalized to ensure workers"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Americans should rely on their own initiative and private charity, because Hoover believed direct federal relief weakened self-reliance. Choice A refers to another event or policy from the era, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. This issue became part of the larger argument over how much the federal government should do in an economic crisis.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.42-X022",
+   "std": "US.42",
+   "dok": 1,
+   "stem": "Herbert Hoover's initial Depression response emphasized:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Immediate federal relief payments to prevent mass suffering"
+    },
+    {
+     "id": "B",
+     "text": "Public works programs employing millions of workers"
+    },
+    {
+     "id": "C",
+     "text": "Voluntary cooperation between businesses and local governments, opposing"
+    },
+    {
+     "id": "D",
+     "text": "Devaluing the dollar to stimulate exports"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Herbert Hoover believed voluntary cooperation, local aid, and business recovery should come before large direct federal relief programs for individuals. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. His approach came to look too limited once unemployment and bank failures spiraled out of control.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.42-X021",
+   "std": "US.42",
+   "dok": 1,
+   "stem": "Herbert Hoover's response to the beginning of the Great Depression reflected his belief that:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Aggressive tariff increases like Smoot-Hawley would protect American industrial and farm jobs from foreign competition"
+    },
+    {
+     "id": "B",
+     "text": "Large-scale federal public works programs could put unemployed Americans back to work quickly"
+    },
+    {
+     "id": "C",
+     "text": "The federal government should provide direct relief payments and unemployment insurance to Americans in need"
+    },
+    {
+     "id": "D",
+     "text": "Voluntary cooperation between business and government — without direct federal relief — could restore economic confidence"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The Great Depression deepened because stock speculation, weak banks, low farm prices, and unequal wealth made the economy fragile even before the crash. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The crisis transformed expectations about what the federal government should do in an economic emergency."
+   }
+  },
+  {
+   "id": "US.43-X012",
+   "std": "US.43",
+   "dok": 2,
+   "stem": "The Supreme Court's opposition to New Deal programs in 1935-1936 led Roosevelt to propose:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A constitutional amendment giving Congress authority to regulate the economy"
+    },
+    {
+     "id": "B",
+     "text": "Legislation that would allow Congress to override Supreme Court decisions by 2/3 vote"
+    },
+    {
+     "id": "C",
+     "text": "His 'court-packing' plan — adding one justice for each sitting justice over 70"
+    },
+    {
+     "id": "D",
+     "text": "An executive order requiring the Supreme Court to defer to Congress on economic legislation"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "His 'court-packing' plan — adding one justice for each sitting justice over 70 — which Congress rejected as overreach but that may have influenced the Court to uphold subsequent New Deal legislation, because Roosevelt wanted a Court more likely to uphold New Deal laws. Choice B refers to a different statistic or date, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.43-X014",
+   "std": "US.43",
+   "dok": 2,
+   "stem": "The role of women in the New Deal was primarily shaped by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Equal treatment in all programs regardless of gender"
+    },
+    {
+     "id": "B",
+     "text": "Women's activism forcing Congress to include gender equality provisions in all relief programs"
+    },
+    {
+     "id": "C",
+     "text": "A specific New Deal program creating jobs for women comparable to the CCC for men"
+    },
+    {
+     "id": "D",
+     "text": "Secretary of Labor Frances Perkins"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Secretary of Labor Frances Perkins. Choice D refers to unemployment, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. Programs like this changed what many Americans expected from the federal government in a national emergency."
+   }
+  },
+  {
+   "id": "US.43-X019",
+   "std": "US.43",
+   "dok": 2,
+   "stem": "FDR's 'court-packing' plan (1937) proposed adding six justices to the Supreme Court and was significant because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It failed but alarmed Congress and the public, and the Court began upholding New Deal programs anyway"
+    },
+    {
+     "id": "B",
+     "text": "It succeeded constitutionally but damaged FDR's political standing with conservative Democrats"
+    },
+    {
+     "id": "C",
+     "text": "It failed because the Constitution's Article III clearly prohibited changes to Court size"
+    },
+    {
+     "id": "D",
+     "text": "It succeeded in adding justices who reversed the Court's rejection of New Deal legislation"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "It failed but alarmed Congress and the public, and the Court began upholding New Deal programs anyway, because Roosevelt wanted a Court more likely to uphold New Deal laws. Choice C is wrong because Roosevelt wanted to add justices, not remove the Court entirely, and choice A is wrong because Roosevelt wanted to add justices, not remove the Court entirely. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.44-44Q4",
+   "std": "US.44",
+   "dok": 3,
+   "stem": "Analyze whether the New Deal saved American capitalism or fundamentally changed it.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The New Deal had no impact on capitalism, despite the fact that multiple sources contradict this view and fails to account for key developments in the broader context despite the fact that multiple contemporary sources contradict this"
+    },
+    {
+     "id": "B",
+     "text": "The New Deal replaced capitalism with socialism, but the historical record tells a more complex story, though this interpretation lacks supporting historical evidence, but the historical evidence paints a more nuanced picture"
+    },
+    {
+     "id": "C",
+     "text": "The New Deal returned America to pure laissez-faire capitalism, which ignores key developments that shaped the outcome, but contemporary accounts and primary sources suggest otherwise"
+    },
+    {
+     "id": "D",
+     "text": "The New Deal preserved capitalism while fundamentally reforming it through regulation, social safety nets, and expanded government role—creating a mixed economy that balanced free markets with government oversight"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The New Deal saved capitalism by reforming it—adding regulations, safety nets, and government oversight that addressed the failures that caused the Depression. This created a mixed economy that preserved private enterprise while protecting against its worst excesses."
+   }
+  },
+  {
+   "id": "US.44-5022",
+   "std": "US.44",
+   "dok": 3,
+   "stem": "Critics of the New Deal charged that Roosevelt's programs represented a dangerous move toward socialism. Defenders argued the New Deal actually saved capitalism. Which reasoning provides the strongest defense of the argument that the New Deal PRESERVED rather than threatened the capitalist system?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The New Deal preserved capitalism by using government power to restore the conditions market economies require — consumer purchasing power, banking stability, and honest financial markets — preventing the complete collapse that was fueling calls for genuinely radical alternatives."
+    },
+    {
+     "id": "B",
+     "text": "The New Deal preserved capitalism because Roosevelt explicitly rejected socialist proposals such as nationalizing the banking system, choosing instead to restore private banks to profitability through the FDIC."
+    },
+    {
+     "id": "C",
+     "text": "The New Deal preserved capitalism because it was funded entirely through taxation and borrowing rather than government ownership of businesses, ensuring that private enterprise remained the foundation of the American economy."
+    },
+    {
+     "id": "D",
+     "text": "The New Deal preserved capitalism because FDR's willingness to accept deficit spending demonstrated that a capitalist democracy could respond to crises more flexibly than socialist command economies."
+    }
+   ],
+   "key": "A",
+   "rc": "Economics",
+   "distract": {
+    "A": "The strongest argument that the New Deal saved capitalism is that it used government intervention to restore the basic conditions that market economies require to function: consumer purchasing power (through relief and job programs), bank stability (FDIC), honest securities markets (SEC), and labor peace (NLRA/Fair Labor Standards). Without these stabilizers, capitalism itself was collapsing into mass unemployment, bank runs, and social unrest that threatened revolution. The New Deal reformed the system to preserve it — the opposite of socialism, which would have replaced private ownership. Students must evaluate a complex historical interpretation, not recall a definition.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.44-5023",
+   "std": "US.44",
+   "dok": 3,
+   "stem": "In 1937, when the Supreme Court struck down several key New Deal programs as unconstitutional, FDR proposed his 'court-packing' plan to add up to six new justices. The plan was ultimately rejected — even by many congressional Democrats. Which analysis BEST explains why even FDR's political allies opposed the court-packing plan?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Democrats opposed the plan because they feared that adding justices would increase the federal judiciary's workload, requiring additional funding that would undermine New Deal spending priorities."
+    },
+    {
+     "id": "B",
+     "text": "Even New Deal supporters recognized that manipulating court composition to ensure favorable rulings would undermine judicial independence as a structural protection for all future governments — a precedent they were unwilling to set regardless of their policy preferences."
+    },
+    {
+     "id": "C",
+     "text": "Democrats in Congress opposed court-packing because FDR had not consulted them before announcing the plan, and the lack of consultation was seen as an executive overreach that threatened the independence of the legislative branch."
+    },
+    {
+     "id": "D",
+     "text": "Congressional Democrats opposed the plan because they believed the Supreme Court's rulings against New Deal programs were correct on constitutional grounds, and that FDR should instead write legislation that complied with the Constitution."
+    }
+   ],
+   "key": "B",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Even Democrats who supported New Deal policies opposed court-packing because manipulating the Supreme Court's composition to guarantee favorable rulings would destroy its independence as a co-equal branch of government. If FDR could pack the court when he disliked its rulings, a future conservative president could do the same. The principle of judicial independence is a structural protection for everyone — regardless of their policy preferences. FDR's allies understood that undermining the separation of powers to achieve short-term policy goals would set a precedent that threatened the constitutional order itself. This requires students to reason about institutional principles beyond partisan preferences.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "disclosure": "Classroom-formative · pre-field-test (pre-calibration) — not a secure TCAP form. First administration is what calibrates these items."
+}
