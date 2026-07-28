@@ -22,21 +22,39 @@
    "vocab": [
     {
      "term": "Great Depression",
-     "say": "",
+     "say": "grayt dee-PRESH-un",
      "es": "Gran Depresión",
      "def": "The worst economic downturn in American history, lasting from 1929 to the early 1940s, characterized by massive unemployment, bank failures, business closures, and widespread poverty."
     },
     {
+     "term": "Stock Market Crash of 1929",
+     "say": "stok MAR-ket krash",
+     "es": "Crash del Mercado de Valores de 1929",
+     "def": "The sudden collapse of stock prices in October 1929 (\"Black Tuesday\"), triggered by speculation, overproduction, and panic selling, which signaled the start of the Great Depression."
+    },
+    {
      "term": "Buying on Margin",
-     "say": "",
+     "say": "BY-ing on MAR-jin",
      "es": "Comprar con Margen",
      "def": "The practice of purchasing stocks by borrowing money (paying only 10% down), which created a speculative bubble that burst when stock prices fell and investors couldn't repay loans."
     },
     {
      "term": "Bank Failures",
-     "say": "",
+     "say": "bank FAYL-yerz",
      "es": "Quiebras Bancarias",
      "def": "The collapse of thousands of banks during the Great Depression when depositors rushed to withdraw their money (bank runs), causing banks to fail because deposits weren't insured."
+    },
+    {
+     "term": "Mass Unemployment",
+     "say": "mass un-em-PLOY-ment",
+     "es": "Desempleo Masivo",
+     "def": "During the Great Depression, unemployment reached 25% at its peak in 1933, with 15 million Americans out of work, creating widespread poverty and desperation."
+    },
+    {
+     "term": "Herbert Hoover",
+     "say": "HUR-bert HOO-ver",
+     "es": "Herbert Hoover",
+     "def": "The 31st U.S. President (1929-1933) who believed in limited government intervention and \"rugged individualism,\" initially opposing direct federal relief for Depression victims."
     }
    ],
    "sources": [
@@ -101,7 +119,7 @@
     ],
     "frayer": [
      "Great Depression",
-     "Buying on Margin"
+     "Stock Market Crash of 1929"
     ],
     "quiz": [
      {
@@ -172,21 +190,39 @@
    "vocab": [
     {
      "term": "Dust Bowl",
-     "say": "",
+     "say": "dust bohl",
      "es": "Cuenca de Polvo",
      "def": "A severe drought and ecological disaster in the Great Plains during the 1930s, caused by drought and poor farming practices, creating massive dust storms that destroyed farms and forced migration."
     },
     {
      "term": "Okies",
-     "say": "",
+     "say": "OH-keez",
      "es": "Okies",
      "def": "Derogatory term for migrant farmers from Oklahoma, Texas, Arkansas, and Missouri who fled the Dust Bowl to seek work in California, often facing discrimination and poverty."
     },
     {
-     "term": "Black Blizzards",
-     "say": "",
-     "es": "Ventiscas Negras",
-     "def": "Massive dust storms turned day to night; buried farms; caused respiratory illnesses"
+     "term": "Bank Failures",
+     "say": "bank FAYL-yerz",
+     "es": "Quiebras Bancarias",
+     "def": "The collapse of thousands of banks during the Great Depression when depositors rushed to withdraw their money (bank runs), causing banks to fail because deposits weren't insured."
+    },
+    {
+     "term": "Great Depression",
+     "say": "grayt dee-PRESH-un",
+     "es": "Gran Depresión",
+     "def": "The worst economic downturn in American history, lasting from 1929 to the early 1940s, characterized by massive unemployment, bank failures, business closures, and widespread poverty."
+    },
+    {
+     "term": "Mass Unemployment",
+     "say": "mass un-em-PLOY-ment",
+     "es": "Desempleo Masivo",
+     "def": "During the Great Depression, unemployment reached 25% at its peak in 1933, with 15 million Americans out of work, creating widespread poverty and desperation."
+    },
+    {
+     "term": "Hoovervilles",
+     "say": "HOO-ver-vilz",
+     "es": "Hoovervilles",
+     "def": "Shantytown settlements of homeless people during the Depression, named mockingly after President Herbert Hoover, who was blamed for the economic crisis."
     }
    ],
    "sources": [
@@ -348,22 +384,40 @@
    },
    "vocab": [
     {
-     "term": "Great Depression",
-     "say": "",
-     "es": "Gran Depresión",
-     "def": "The worst economic downturn in American history, lasting from 1929 to the early 1940s, characterized by massive unemployment, bank failures, business closures, and widespread poverty."
+     "term": "Mass Unemployment",
+     "say": "mass un-em-PLOY-ment",
+     "es": "Desempleo Masivo",
+     "def": "During the Great Depression, unemployment reached 25% at its peak in 1933, with 15 million Americans out of work, creating widespread poverty and desperation."
     },
     {
      "term": "Hoovervilles",
-     "say": "",
+     "say": "HOO-ver-vilz",
      "es": "Hoovervilles",
      "def": "Shantytown settlements of homeless people during the Depression, named mockingly after President Herbert Hoover, who was blamed for the economic crisis."
     },
     {
-     "term": "Mass Unemployment",
-     "say": "",
-     "es": "Desempleo Masivo",
-     "def": "During the Great Depression, unemployment reached 25% at its peak in 1933, with 15 million Americans out of work, creating widespread poverty and desperation."
+     "term": "Okies",
+     "say": "OH-keez",
+     "es": "Okies",
+     "def": "Derogatory term for migrant farmers from Oklahoma, Texas, Arkansas, and Missouri who fled the Dust Bowl to seek work in California, often facing discrimination and poverty."
+    },
+    {
+     "term": "Great Depression",
+     "say": "grayt dee-PRESH-un",
+     "es": "Gran Depresión",
+     "def": "The worst economic downturn in American history, lasting from 1929 to the early 1940s, characterized by massive unemployment, bank failures, business closures, and widespread poverty."
+    },
+    {
+     "term": "Dust Bowl",
+     "say": "dust bohl",
+     "es": "Cuenca de Polvo",
+     "def": "A severe drought and ecological disaster in the Great Plains during the 1930s, caused by drought and poor farming practices, creating massive dust storms that destroyed farms and forced migration."
+    },
+    {
+     "term": "Bank Failures",
+     "say": "bank FAYL-yerz",
+     "es": "Quiebras Bancarias",
+     "def": "The collapse of thousands of banks during the Great Depression when depositors rushed to withdraw their money (bank runs), causing banks to fail because deposits weren't insured."
     }
    ],
    "sources": [
@@ -427,7 +481,7 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Great Depression",
+     "Mass Unemployment",
      "Hoovervilles"
     ],
     "quiz": [
@@ -499,21 +553,39 @@
    "vocab": [
     {
      "term": "Herbert Hoover",
-     "say": "",
+     "say": "HUR-bert HOO-ver",
      "es": "Herbert Hoover",
      "def": "The 31st U.S. President (1929-1933) who believed in limited government intervention and \"rugged individualism,\" initially opposing direct federal relief for Depression victims."
     },
     {
      "term": "Rugged Individualism",
-     "say": "",
+     "say": "RUG-ed in-dih-VIJ-oo-uh-liz-um",
      "es": "Individualismo Robusto",
      "def": "Hoover's philosophy that individuals should succeed through their own efforts without government handouts, emphasizing self-reliance and private charity over federal aid."
     },
     {
      "term": "Bonus Army",
-     "say": "",
+     "say": "BOH-nus AR-mee",
      "es": "Ejército del Bono",
      "def": "Veterans who marched on Washington D.C. in 1932 demanding early payment of WWI bonuses. Hoover ordered the military to violently disperse them, damaging his reputation."
+    },
+    {
+     "term": "Reconstruction Finance Corporation (RFC)",
+     "say": "ree-kun-STRUK-shun fy-NANS",
+     "es": "Corporacion Financiera de Reconstruccion (RFC)",
+     "def": "A federal agency created under Hoover in 1932 that lent money to banks, railroads, and businesses to prevent further collapse."
+    },
+    {
+     "term": "Hoovervilles",
+     "say": "HOO-ver-vilz",
+     "es": "Hoovervilles",
+     "def": "Shantytown settlements of homeless people during the Depression, named mockingly after President Herbert Hoover, who was blamed for the economic crisis."
+    },
+    {
+     "term": "Mass Unemployment",
+     "say": "mass un-em-PLOY-ment",
+     "es": "Desempleo Masivo",
+     "def": "During the Great Depression, unemployment reached 25% at its peak in 1933, with 15 million Americans out of work, creating widespread poverty and desperation."
     }
    ],
    "sources": [
@@ -649,22 +721,40 @@
    },
    "vocab": [
     {
+     "term": "Franklin D. Roosevelt (FDR)",
+     "say": "FRANK-lin ROH-zuh-velt",
+     "es": "Franklin D. Roosevelt (FDR)",
+     "def": "The 32nd U.S. President (1933-1945) who led America through the Great Depression and World War II, implementing the New Deal and fundamentally expanding the federal government's role."
+    },
+    {
      "term": "New Deal",
-     "say": "",
+     "say": "noo deel",
      "es": "New Deal",
      "def": "FDR's comprehensive programs to provide relief, recovery, and reform during the Great Depression, fundamentally expanding federal government power and establishing the social safety net."
     },
     {
-     "term": "Social Security Act (1935)",
-     "say": "",
-     "es": "Ley de Seguridad Social (1935)",
-     "def": "Landmark New Deal legislation creating a federal system of old-age pensions, unemployment insurance, and aid for disabled and dependent children, forming America's social safety net."
+     "term": "Civilian Conservation Corps (CCC)",
+     "say": "sih-VIL-yun kon-ser-VAY-shun kor",
+     "es": "Cuerpo Civil de Conservación (CCC)",
+     "def": "New Deal program that employed young men in conservation projects, building trails, planting trees, and developing parks, providing jobs for over 3 million young men."
+    },
+    {
+     "term": "Works Progress Administration (WPA)",
+     "say": "werks PROG-res ad-min-ih-STRAY-shun",
+     "es": "Administración de Progreso de Obras (WPA)",
+     "def": "The largest New Deal agency, employing 8.5 million Americans to build roads, bridges, schools, airports, and create art, music, and literature projects."
     },
     {
      "term": "Tennessee Valley Authority (TVA)",
-     "say": "",
+     "say": "ten-eh-SEE VAL-ee aw-THOR-ih-tee",
      "es": "Autoridad del Valle de Tennessee (TVA)",
      "def": "Federal agency created to develop the Tennessee Valley region through hydroelectric dams, flood control, reforestation, and economic development, bringing electricity to rural areas."
+    },
+    {
+     "term": "Social Security Act (1935)",
+     "say": "SOH-shul sih-KYOOR-ih-tee",
+     "es": "Ley de Seguridad Social (1935)",
+     "def": "Landmark New Deal legislation creating a federal system of old-age pensions, unemployment insurance, and aid for disabled and dependent children, forming America's social safety net."
     }
    ],
    "sources": [
@@ -728,8 +818,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "New Deal",
-     "Social Security Act (1935)"
+     "Franklin D. Roosevelt (FDR)",
+     "New Deal"
     ],
     "quiz": [
      {
@@ -800,22 +890,40 @@
    },
    "vocab": [
     {
+     "term": "Court Packing Plan",
+     "say": "kort PAK-ing plan",
+     "es": "Plan de Empaquetar la Corte",
+     "def": "FDR's controversial 1937 proposal to add up to 6 justices to the Supreme Court after it struck down New Deal laws, seen as an attack on judicial independence."
+    },
+    {
+     "term": "Socialism Accusations",
+     "say": "SOH-shuh-liz-um ak-yoo-ZAY-shunz",
+     "es": "Acusaciones de Socialismo",
+     "def": "Conservative critics charged that the New Deal was socialist or communist for expanding government power, though FDR argued he was saving capitalism from collapse."
+    },
+    {
      "term": "New Deal",
-     "say": "",
+     "say": "noo deel",
      "es": "New Deal",
      "def": "FDR's comprehensive programs to provide relief, recovery, and reform during the Great Depression, fundamentally expanding federal government power and establishing the social safety net."
     },
     {
-     "term": "Socialism Charges",
-     "say": "",
-     "es": "Acusaciones de Socialismo",
-     "def": "Conservatives: New Deal expanded government too much, threatened free enterprise and liberty"
+     "term": "Fair Labor Standards Act (1938)",
+     "say": "fair LAY-bor STAN-derdz",
+     "es": "Ley de Normas Justas de Trabajo (1938)",
+     "def": "Established the first federal minimum wage ($0.25/hour), maximum 40-hour work week, overtime pay, and banned child labor in interstate commerce."
     },
     {
-     "term": "Court-Packing Plan",
-     "say": "",
-     "es": "Plan de Empaquetar la Corte",
-     "def": "FDR tried to add 6 justices to Supreme Court (1937) after it struck down New Deal laws"
+     "term": "Securities and Exchange Commission (SEC)",
+     "say": "sih-KYOOR-ih-teez and eks-CHAYNJ",
+     "es": "Comisión de Valores y Bolsa (SEC)",
+     "def": "Federal agency created to regulate the stock market, prevent fraud, and protect investors from the abuses that contributed to the 1929 crash."
+    },
+    {
+     "term": "Federal Deposit Insurance Corporation (FDIC)",
+     "say": "FED-er-ul dee-POZ-it in-SHOOR-uns",
+     "es": "Corporación Federal de Seguro de Depósitos (FDIC)",
+     "def": "New Deal agency that insures bank deposits up to $250,000, preventing bank runs by guaranteeing depositors won't lose their savings if banks fail."
     }
    ],
    "sources": [
@@ -879,8 +987,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "New Deal",
-     "Socialism Charges"
+     "Court Packing Plan",
+     "Socialism Accusations"
     ],
     "quiz": [
      {

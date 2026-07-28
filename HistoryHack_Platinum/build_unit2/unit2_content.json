@@ -22,21 +22,39 @@
    "vocab": [
     {
      "term": "Social Darwinism",
-     "say": "",
+     "say": "SO-shul DAR-win-iz-um",
      "es": "Darwinismo Social",
-     "def": "The belief that Charles Darwin's theory of natural selection applied to human society, arguing that the wealthy succeeded because they were naturally superior and that poverty resulted from weakness."
+     "def": "The belief that Darwin's theory of natural selection applies to human society — the wealthy are 'fit' and the poor are 'weak,' justifying laissez-faire capitalism and opposing government aid."
     },
     {
      "term": "Social Gospel",
      "say": "",
      "es": "Evangelio Social",
-     "def": "A religious movement that emphasized the need to apply Christian principles to social problems like poverty, inequality, and workers' rights, advocating for social reform and justice."
+     "def": "A religious movement that emphasized Christians' duty to address poverty, unsafe conditions, and inequality — providing moral foundation for Progressive Era reform."
     },
     {
      "term": "Settlement House",
-     "say": "",
+     "say": "SET-ul-ment HOWSS",
      "es": "Casa de Asentamiento",
-     "def": "Community centers in poor urban neighborhoods that provided education, childcare, healthcare, and social services to immigrants and the poor."
+     "def": "Community centers in poor urban neighborhoods staffed by reformers who provided services such as childcare, education, and job training to immigrants and the poor."
+    },
+    {
+     "term": "Progressive Movement",
+     "say": "pruh-GRES-iv MOO-vment",
+     "es": "Movimiento Progresivo",
+     "def": "A reform movement (1890s–1920s) that sought to address social and economic problems caused by industrialization, including corruption, poverty, and unsafe working conditions."
+    },
+    {
+     "term": "Laissez-Faire",
+     "say": "LEH-say FAIR",
+     "es": "Laissez-Faire",
+     "def": "The economic policy that government should not interfere in business; Social Darwinists used this principle to oppose worker protections and anti-poverty programs."
+    },
+    {
+     "term": "Muckraker",
+     "say": "MUK-ray-ker",
+     "es": "Periodista de Investigación",
+     "def": "Investigative journalists who exposed corruption, corporate abuse, and social injustice, helping fuel public demand for Progressive Era reform."
     }
    ],
    "sources": [
@@ -134,9 +152,9 @@
     "Cultural and Economic Impact"
    ],
    "cues": [
-    "What does the passage say about social Darwinism Explained?",
-    "What does the passage say about the Social Gospel Movement?",
-    "What does the passage say about cultural and Economic Impact?",
+    "Social Darwinism Explained",
+    "The Social Gospel Movement",
+    "Cultural & Economic Impact",
     "Key terms →"
    ],
    "lenses": "History · Culture",
@@ -166,19 +184,37 @@
      "term": "Booker T. Washington",
      "say": "",
      "es": "Booker T. Washington",
-     "def": "African American educator who founded Tuskegee Institute and advocated for vocational education and economic self-reliance as the path to Black advancement."
+     "def": "African American educator who founded Tuskegee Institute and advocated vocational training and economic self-sufficiency as the path to African American advancement, accepting temporary segregation."
     },
     {
      "term": "W.E.B. Du Bois",
-     "say": "",
+     "say": "doo-BOYSS",
      "es": "W.E.B. Du Bois",
-     "def": "African American scholar and activist who demanded immediate civil rights and higher education for Black Americans, founding the NAACP and opposing Washington's accommodationist approach."
+     "def": "African American scholar who demanded immediate civil and political rights, co-founded the NAACP, and advocated classical education for the 'Talented Tenth' of African American leaders."
     },
     {
-     "term": "Atlanta Compromise (1895)",
+     "term": "Atlanta Compromise",
+     "say": "at-LAN-tuh KOM-pruh-myz",
+     "es": "Compromiso de Atlanta",
+     "def": "Booker T. Washington's 1895 speech accepting racial segregation in exchange for economic opportunity, arguing African Americans should focus on industrial skills rather than political rights."
+    },
+    {
+     "term": "Talented Tenth",
+     "say": "TAL-en-tid TENTH",
+     "es": "El Décimo Talentoso",
+     "def": "W.E.B. Du Bois's concept that the top ten percent of educated African Americans should receive classical education and lead the broader community toward full equality."
+    },
+    {
+     "term": "NAACP",
      "say": "",
-     "es": "Compromiso de Atlanta (1895)",
-     "def": "Famous speech where he urged Black Americans to \"cast down your bucket where you are\"—accept segregation temporarily and prove their worth through economic success"
+     "es": "NAACP",
+     "def": "National Association for the Advancement of Colored People — founded 1909 by Du Bois and others to fight racial inequality through legal challenges, lobbying, and public education."
+    },
+    {
+     "term": "Accommodation",
+     "say": "uh-KOM-uh-DAY-shun",
+     "es": "Acomodación",
+     "def": "Washington's strategy of accepting some racial restrictions temporarily to build economic strength, contrasted with Du Bois's demand for immediate full equality."
     }
    ],
    "sources": [
@@ -280,9 +316,9 @@
     "Approach to Rights and Equality"
    ],
    "cues": [
-    "What does the passage say about background and Origins?",
-    "What does the passage say about educational Philosophy?",
-    "What does the passage say about approach to Rights and Equality?",
+    "Background & Origins",
+    "Educational Philosophy",
+    "Rights, Equality & Strategy",
     "Key terms →"
    ],
    "lenses": "Culture · History · Tennessee Connection",
@@ -310,21 +346,39 @@
    "vocab": [
     {
      "term": "Populism",
-     "say": "",
+     "say": "POP-yuh-liz-um",
      "es": "Populismo",
-     "def": "A political movement representing the interests of ordinary people, especially farmers, against wealthy elites and corporations. Populists called for government regulation of railroads, graduated income tax, and more democracy."
+     "def": "A political movement representing the interests of ordinary farmers and workers against the power of banks, railroads, and wealthy eastern interests in the late 19th century."
     },
     {
      "term": "Granger Movement",
-     "say": "",
+     "say": "GRAYN-jer MOO-vment",
      "es": "Movimiento Granger",
-     "def": "A farmers' organization formed in the 1860s-1870s to combat the power of railroads and grain elevator companies. Grangers pushed for state laws regulating railroad rates and corporate practices."
+     "def": "A farmers' organization founded in the 1860s–1870s that provided social support and lobbied for railroad regulation; won early 'Granger laws' capping freight rates."
     },
     {
      "term": "Farmers' Alliance",
-     "say": "",
+     "say": "FAR-merz uh-LY-unts",
      "es": "Alianza de Agricultores",
-     "def": "A coalition of farmers' organizations in the 1870s-1890s that promoted cooperative buying and selling, education, and political action. The Alliance evolved into the Populist Party."
+     "def": "A coalition of farmers' organizations in the 1870s–1890s that created cooperatives, lobbied for government credit, and laid the groundwork for the Populist Party."
+    },
+    {
+     "term": "Railroad Discrimination",
+     "say": "",
+     "es": "Discriminación Ferroviaria",
+     "def": "Unfair railroad practices including higher freight rates for farmers than for large businesses and charging more for short hauls than for long hauls on the same lines."
+    },
+    {
+     "term": "Free Silver",
+     "say": "FREE SIL-ver",
+     "es": "Plata Libre",
+     "def": "The Populist demand for unlimited coinage of silver to increase the money supply, raise prices, and reduce the debt burden on farmers — opposed by eastern banking interests."
+    },
+    {
+     "term": "Cross of Gold",
+     "say": "",
+     "es": "Cruz de Oro",
+     "def": "William Jennings Bryan's famous 1896 speech denouncing the gold standard as an economic burden on farmers and workers, winning him the Democratic presidential nomination."
     }
    ],
    "sources": [
@@ -426,9 +480,9 @@
     "Farmer vs. Railroad Conflicts"
    ],
    "cues": [
-    "What does the passage say about understanding Populism?",
-    "What does the passage say about the Granger Movement and Farmers' Alliance?",
-    "What does the passage say about farmer vs. Railroad Conflicts?",
+    "Understanding Populism",
+    "Granger Movement & Farmers’ Alliance",
+    "Farmer vs. Railroad Conflicts",
     "Key terms →"
    ],
    "lenses": "Economics · Politics/Government · History",
@@ -459,19 +513,37 @@
      "term": "Labor Union",
      "say": "",
      "es": "Sindicato Laboral",
-     "def": "An organization of workers formed to protect their rights, improve working conditions, and negotiate for better wages through collective bargaining."
+     "def": "An organization of workers formed to protect their rights and improve wages, hours, and working conditions through collective bargaining and, if necessary, strikes."
     },
     {
      "term": "Strike",
      "say": "",
      "es": "Huelga",
-     "def": "A work stoppage organized by workers to protest conditions and force employers to meet their demands for better pay, hours, or working conditions."
+     "def": "A work stoppage organized by union workers to pressure management to meet their demands for better wages, hours, or working conditions."
     },
     {
      "term": "Collective Bargaining",
-     "say": "",
+     "say": "kuh-LEK-tiv BAR-gun-ing",
      "es": "Negociación Colectiva",
-     "def": "The process where union representatives negotiate with employers on behalf of all workers to reach agreements on wages, hours, and working conditions."
+     "def": "The process where union representatives negotiate wages, hours, and conditions on behalf of all workers, giving workers more power than they would have bargaining individually."
+    },
+    {
+     "term": "American Federation of Labor",
+     "say": "uh-MAIR-ih-kun fed-er-AY-shun uv LAY-ber",
+     "es": "Federación Americana del Trabajo",
+     "def": "Trade union federation founded by Samuel Gompers in 1886, representing skilled workers and pursuing practical goals of higher wages and shorter hours within the capitalist system."
+    },
+    {
+     "term": "Convict Lease",
+     "say": "KON-vikt LEES",
+     "es": "Arrendamiento de Convictos",
+     "def": "A post-Civil War system in Southern states where prisoners were leased to private companies as forced labor — often replacing paid workers, as in Tennessee's Coal Creek crisis of 1891."
+    },
+    {
+     "term": "Injunction",
+     "say": "in-JUNK-shun",
+     "es": "Orden Judicial",
+     "def": "A court order requiring someone to stop a specific action; during the Pullman Strike, the federal government used an injunction to break the strike and imprison Eugene Debs."
     }
    ],
    "sources": [
@@ -577,9 +649,10 @@
     "Key Labor Leaders"
    ],
    "cues": [
-    "What does the passage say about factors Leading to Labor Organization?",
-    "What does the passage say about union Tactics and Strategies?",
-    "What does the passage say about key Labor Leaders?",
+    "Factors Leading to Organization",
+    "Union Tactics & Key Leaders",
+    "Coal Creek & Prison Labor",
+    "Management & Government Responses",
     "Key terms →"
    ],
    "lenses": "Economics · History · Culture",
@@ -626,19 +699,37 @@
      "term": "Trust",
      "say": "",
      "es": "Trust (Fideicomiso)",
-     "def": "A legal arrangement where stockholders in several companies transferred their shares to a board of trustees, creating a monopoly while appearing to remain separate companies."
+     "def": "A legal arrangement where stockholders in several companies transfer their shares to a central board, creating a single entity that controls an entire industry and eliminates competition."
+    },
+    {
+     "term": "Monopoly",
+     "say": "muh-NOP-uh-lee",
+     "es": "Monopolio",
+     "def": "Complete control of a product or service by a single company, allowing it to set prices without competition — harmful to consumers, workers, and smaller businesses."
     },
     {
      "term": "Sherman Antitrust Act",
-     "say": "",
+     "say": "SHER-mun AN-tee-trust AKT",
      "es": "Ley Sherman Antimonopolio",
-     "def": "An 1890 federal law that prohibited monopolies and business practices that restrained trade, though it was initially weakly enforced."
+     "def": "An 1890 federal law that made it illegal to form trusts, monopolies, or conspiracies that restrained trade — the first federal law to regulate corporate power."
     },
     {
-     "term": "Labor Union",
-     "say": "",
-     "es": "Sindicato Laboral",
-     "def": "An organization of workers formed to protect their rights, improve working conditions, and negotiate for better wages through collective bargaining."
+     "term": "Clayton Antitrust Act",
+     "say": "KLAY-tun AN-tee-trust AKT",
+     "es": "Ley Clayton Antimonopolio",
+     "def": "A 1914 law that strengthened the Sherman Act by prohibiting specific monopolistic practices and exempting labor unions from antitrust prosecution."
+    },
+    {
+     "term": "Vertical Integration",
+     "say": "VER-tih-kul in-teh-GRAY-shun",
+     "es": "Integración Vertical",
+     "def": "A business strategy of controlling every stage of production — from raw materials to retail — used by Carnegie Steel to dominate the steel industry."
+    },
+    {
+     "term": "Horizontal Integration",
+     "say": "hor-ih-ZON-tul in-teh-GRAY-shun",
+     "es": "Integración Horizontal",
+     "def": "A business strategy of buying out competitors in the same industry to eliminate competition — used by Rockefeller to control 90% of U.S. oil refining."
     }
    ],
    "sources": [
@@ -699,7 +790,7 @@
     ],
     "frayer": [
      "Trust",
-     "Sherman Antitrust Act"
+     "Monopoly"
     ],
     "quiz": [
      {
@@ -740,9 +831,9 @@
     "Sherman Antitrust Act (1890)"
    ],
    "cues": [
-    "What does the passage say about rise of Trusts and Monopolies?",
-    "What does the passage say about impact on Consumers, Workers, and Competition?",
-    "What does the passage say about sherman Antitrust Act (1890)?",
+    "Rise of Trusts & Monopolies",
+    "Impact on Consumers, Workers & Competition",
+    "Sherman (1890) & Clayton (1914)",
     "Key terms →"
    ],
    "lenses": "Economics · Culture · History",
@@ -770,22 +861,40 @@
    },
    "vocab": [
     {
+     "term": "Sweatshop",
+     "say": "",
+     "es": "Taller de Explotación",
+     "def": "A factory or workshop where workers faced long hours, low wages, and dangerous or unhealthy conditions — common in the garment industry employing immigrant women."
+    },
+    {
      "term": "Child Labor",
      "say": "",
      "es": "Trabajo Infantil",
-     "def": "The employment of children in factories, mines, and farms, often in dangerous conditions for low pay, which was common during industrialization."
+     "def": "The employment of children — sometimes as young as 5 or 6 — in factories, mines, and mills; an estimated 1.75 million children worked in American industry by 1900."
     },
     {
-     "term": "Triangle Fire",
-     "say": "",
-     "es": "Incendio Triangle",
-     "def": "1911: 146 workers died, trapped in burning factory"
+     "term": "Triangle Shirtwaist Fire",
+     "say": "TRY-ang-gul SHERT-wayst FYR",
+     "es": "Incendio de la Fábrica Triangle",
+     "def": "A 1911 factory fire in New York City that killed 146 workers — mostly young immigrant women — trapped by locked exits, becoming a catalyst for worker safety reform."
     },
     {
-     "term": "Result",
+     "term": "Lewis Hine",
      "say": "",
-     "es": "Resultado",
-     "def": "Led to workplace safety laws and regulations"
+     "es": "Lewis Hine",
+     "def": "Progressive Era photographer whose documentation of child labor in mines, mills, and canneries helped build public support for child labor laws."
+    },
+    {
+     "term": "Workers' Compensation",
+     "say": "WER-kerz kom-pen-SAY-shun",
+     "es": "Compensación Laboral",
+     "def": "A system requiring employers to pay workers injured on the job — did not exist in most states before Progressive Era reform; injured workers had no recourse."
+    },
+    {
+     "term": "National Child Labor Committee",
+     "say": "",
+     "es": "Comité Nacional de Trabajo Infantil",
+     "def": "Reform organization founded in 1904 that used photography, lobbying, and public campaigns to expose child labor and push for protective legislation."
     }
    ],
    "sources": [
@@ -845,8 +954,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Child Labor",
-     "Triangle Fire"
+     "Sweatshop",
+     "Child Labor"
     ],
     "quiz": [
      {
@@ -887,9 +996,10 @@
     "Child Labor Practices"
    ],
    "cues": [
-    "What does the passage say about industrial Working Conditions?",
-    "What does the passage say about women in the Industrial Workforce?",
-    "What does the passage say about child Labor Practices?",
+    "Industrial Working Conditions",
+    "Women in the Industrial Workforce",
+    "Child Labor Practices",
+    "The Triangle Shirtwaist Fire",
     "Key terms →"
    ],
    "lenses": "Economics · History",
@@ -917,21 +1027,39 @@
    "vocab": [
     {
      "term": "Muckraker",
-     "say": "",
+     "say": "MUK-ray-ker",
      "es": "Periodista de Investigación",
-     "def": "Investigative journalists who exposed corruption, abuse, and social problems in the early 1900s, helping drive Progressive reforms."
+     "def": "Investigative journalists and authors who exposed corporate abuse, government corruption, and social injustice in the Progressive Era, building public pressure for reform."
     },
     {
-     "term": "Trust",
-     "say": "",
-     "es": "Trust (Fideicomiso)",
-     "def": "A legal arrangement where stockholders in several companies transferred their shares to a board of trustees, creating a monopoly while appearing to remain separate companies."
+     "term": "Progressive Movement",
+     "say": "pruh-GRES-iv MOO-vment",
+     "es": "Movimiento Progresivo",
+     "def": "A broad reform effort (1890s–1920s) that used journalism, legislation, and political organizing to address the social and economic harms of industrialization."
     },
     {
-     "term": "Direct Primary",
+     "term": "Wisconsin Idea",
+     "say": "wis-KON-sin eye-DEE-uh",
+     "es": "Idea de Wisconsin",
+     "def": "Robert La Follette's model of Progressive reform using university experts to design legislation and regulate corporations, making Wisconsin 'the laboratory of democracy.'"
+    },
+    {
+     "term": "The Jungle",
      "say": "",
-     "es": "Primarias Directas",
-     "def": "A Progressive reform replacing party boss selection of candidates with direct elections where voters choose party nominees."
+     "es": "La Jungla",
+     "def": "Upton Sinclair's 1906 novel exposing unsanitary meatpacking conditions; it outraged consumers and drove passage of the Pure Food and Drug Act and Meat Inspection Act."
+    },
+    {
+     "term": "The Shame of the Cities",
+     "say": "",
+     "es": "La Vergüenza de las Ciudades",
+     "def": "Lincoln Steffens's 1904 book exposing systematic political corruption across America's major cities — how business interests controlled city governments through bribery and political machines."
+    },
+    {
+     "term": "History of Standard Oil",
+     "say": "",
+     "es": "Historia de la Standard Oil",
+     "def": "Ida Tarbell's landmark 1904 investigative work documenting how Rockefeller used secret railroad rebates and predatory pricing to build his monopoly — contributing to Standard Oil's 1911 breakup."
     }
    ],
    "sources": [
@@ -992,7 +1120,7 @@
     ],
     "frayer": [
      "Muckraker",
-     "Trust"
+     "Progressive Movement"
     ],
     "quiz": [
      {
@@ -1033,9 +1161,10 @@
     "Lincoln Steffens and Ida Tarbell"
    ],
    "cues": [
-    "What does the passage say about the Muckrakers?",
-    "What does the passage say about robert M. La Follette and the Wisconsin Idea?",
-    "What does the passage say about lincoln Steffens and Ida Tarbell?",
+    "The Muckrakers",
+    "La Follette & the Wisconsin Idea",
+    "Steffens & Tarbell",
+    "Sinclair & Roosevelt",
     "Key terms →"
    ],
    "lenses": "Politics/Government · History · Culture",
@@ -1063,22 +1192,40 @@
    },
    "vocab": [
     {
-     "term": "Progressive Movement",
-     "say": "",
-     "es": "Movimiento Progresivo",
-     "def": "A reform movement (1890s-1920s) that sought to address problems caused by industrialization, including corruption, monopolies, poor working conditions, and social inequality."
-    },
-    {
      "term": "Initiative",
-     "say": "",
+     "say": "ih-NISH-ee-uh-tiv",
      "es": "Iniciativa",
-     "def": "A Progressive reform allowing citizens to propose new laws by petition, bypassing the legislature if enough signatures are gathered."
+     "def": "A Progressive reform allowing citizens to propose new laws by collecting enough voter signatures to put the proposal directly on the ballot."
     },
     {
      "term": "Referendum",
-     "say": "",
+     "say": "ref-er-EN-dum",
      "es": "Referéndum",
-     "def": "A Progressive reform allowing voters to approve or reject laws passed by the legislature through a direct vote."
+     "def": "A Progressive reform allowing voters to approve or reject laws passed by the state legislature — giving citizens a direct check on legislative power."
+    },
+    {
+     "term": "Recall",
+     "say": "",
+     "es": "Revocación",
+     "def": "A Progressive reform allowing voters to remove elected officials from office before their terms expire — a direct accountability tool against corrupt or unresponsive officials."
+    },
+    {
+     "term": "Direct Primary",
+     "say": "duh-REKT PRY-mair-ee",
+     "es": "Primarias Directas",
+     "def": "A Progressive reform replacing party boss selection with a public vote allowing registered party members to choose their party's candidates directly."
+    },
+    {
+     "term": "16th Amendment",
+     "say": "",
+     "es": "16ª Enmienda",
+     "def": "Ratified in 1913, this amendment gave Congress the power to levy a federal income tax — enabling a more progressive tax system that taxed wealth rather than only consumption."
+    },
+    {
+     "term": "17th Amendment",
+     "say": "",
+     "es": "17ª Enmienda",
+     "def": "Ratified in 1913, this amendment established direct election of U.S. senators by voters — removing the power of state legislatures (often controlled by corporate interests) to choose senators."
     }
    ],
    "sources": [
@@ -1138,8 +1285,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Progressive Movement",
-     "Initiative"
+     "Initiative",
+     "Referendum"
     ],
     "quiz": [
      {
@@ -1180,9 +1327,10 @@
     "The Primary System"
    ],
    "cues": [
-    "What does the passage say about goals of the Progressive Movement?",
-    "What does the passage say about initiative, Referendum, and Recall?",
-    "What does the passage say about the Primary System?",
+    "Goals of the Progressive Movement",
+    "Initiative, Referendum & Recall",
+    "The Primary System",
+    "16th, 17th & 18th Amendments",
     "Key terms →"
    ],
    "lenses": "Politics/Government · Culture · History",
@@ -1213,19 +1361,37 @@
      "term": "Square Deal",
      "say": "",
      "es": "Trato Justo",
-     "def": "Theodore Roosevelt's domestic policy promising fairness for all Americans - workers, consumers, and businesses - including trust-busting, consumer protection, and conservation."
+     "def": "Theodore Roosevelt's domestic policy promising fair treatment for all Americans — balancing the interests of consumers, workers, and businesses through federal regulation."
     },
     {
      "term": "Trust-Busting",
      "say": "",
      "es": "Disolución de Trusts",
-     "def": "The effort to break up monopolies and trusts using antitrust laws, especially under Theodore Roosevelt who prosecuted over 40 companies."
+     "def": "Roosevelt's aggressive use of the Sherman Antitrust Act to break up monopolistic corporations — he filed 44 antitrust suits, earning the nickname 'trust-buster.'"
     },
     {
      "term": "Conservation",
      "say": "",
      "es": "Conservación",
-     "def": "The movement to protect and preserve natural resources and wilderness areas, championed by Theodore Roosevelt and the Progressive movement."
+     "def": "The protection and sustainable management of natural resources; Roosevelt established 150 national forests and 5 national parks, protecting 230 million acres of public land."
+    },
+    {
+     "term": "Pure Food and Drug Act",
+     "say": "PYOOR FOOD and DRUG AKT",
+     "es": "Ley de Alimentos y Medicamentos Puros",
+     "def": "A 1906 law requiring truthful labeling and prohibiting adulterated or misbranded food and drugs — establishing the principle of federal consumer protection that produced today's FDA."
+    },
+    {
+     "term": "Meat Inspection Act",
+     "say": "MEET in-SPEK-shun AKT",
+     "es": "Ley de Inspección de Carnes",
+     "def": "A 1906 law requiring federal inspection of meat processing plants after Upton Sinclair's 'The Jungle' exposed unsanitary conditions in Chicago meatpacking plants."
+    },
+    {
+     "term": "Northern Securities Case",
+     "say": "NOR-thern seh-KYOOR-ih-teez KAYSS",
+     "es": "Caso Northern Securities",
+     "def": "Roosevelt's 1902 antitrust suit against a railroad monopoly; the Supreme Court's 1904 ruling in his favor established presidential authority to use the Sherman Act against powerful corporations."
     }
    ],
    "sources": [
@@ -1327,9 +1493,10 @@
     "Trust-Busting Approach"
    ],
    "cues": [
-    "What does the passage say about the Square Deal?",
-    "What does the passage say about pure Food and Drug Act and Meat Inspection Act?",
-    "What does the passage say about trust-Busting Approach?",
+    "The Square Deal",
+    "Pure Food & Meat Inspection Acts",
+    "Trust-Busting",
+    "Conservation",
     "Key terms →"
    ],
    "lenses": "Politics/Government · Culture · Economics",
@@ -1360,19 +1527,37 @@
      "term": "New Freedom",
      "say": "",
      "es": "Nueva Libertad",
-     "def": "Woodrow Wilson's Progressive program emphasizing breaking up trusts, lowering tariffs, and reforming banking to help small businesses and increase competition."
+     "def": "Woodrow Wilson's Progressive program that targeted the 'triple wall of privilege' — high tariffs, monopolistic banks, and industrial trusts — seeking to restore competition rather than just regulate big business."
+    },
+    {
+     "term": "Federal Reserve System",
+     "say": "FED-er-ul reh-ZERV SIS-tem",
+     "es": "Sistema de la Reserva Federal",
+     "def": "The central banking system created by the Federal Reserve Act (1913) — 12 regional banks under a government-appointed board that manages the money supply and stabilizes the financial system."
+    },
+    {
+     "term": "Underwood Tariff",
+     "say": "UN-der-wood TAIR-if",
+     "es": "Arancel Underwood",
+     "def": "Wilson's 1913 tariff reduction that significantly lowered import taxes, making goods cheaper for consumers, while the new income tax (16th Amendment) replaced the lost revenue."
+    },
+    {
+     "term": "Federal Trade Commission",
+     "say": "FED-er-ul TRAYD kuh-MISH-un",
+     "es": "Comisión Federal de Comercio",
+     "def": "A regulatory agency created in 1914 to investigate and prevent unfair business practices — a permanent institutional watchdog that supplemented the antitrust laws."
     },
     {
      "term": "Clayton Antitrust Act",
-     "say": "",
+     "say": "KLAY-tun AN-tee-trust AKT",
      "es": "Ley Clayton Antimonopolio",
-     "def": "A 1914 law that strengthened the Sherman Antitrust Act by specifically prohibiting price discrimination, exclusive dealings, and interlocking directorates."
+     "def": "A 1914 law that strengthened the Sherman Antitrust Act by prohibiting specific monopolistic practices and explicitly exempting labor unions from antitrust prosecution."
     },
     {
-     "term": "Trust",
+     "term": "National Park Service",
      "say": "",
-     "es": "Trust (Fideicomiso)",
-     "def": "A legal arrangement where stockholders in several companies transferred their shares to a board of trustees, creating a monopoly while appearing to remain separate companies."
+     "es": "Servicio de Parques Nacionales",
+     "def": "Federal agency created in 1916 to manage and protect national parks 'unimpaired for future generations' — Tennessee's Great Smoky Mountains National Park operates under its framework."
     }
    ],
    "sources": [
@@ -1433,7 +1618,7 @@
     ],
     "frayer": [
      "New Freedom",
-     "Clayton Antitrust Act"
+     "Federal Reserve System"
     ],
     "quiz": [
      {
@@ -1474,9 +1659,9 @@
     "National Park Service (1916)"
    ],
    "cues": [
-    "What does the passage say about the New Freedom Platform?",
-    "What does the passage say about federal Reserve Act (1913)?",
-    "What does the passage say about national Park Service (1916)?",
+    "The New Freedom Platform",
+    "Federal Reserve Act",
+    "National Park Service",
     "Key terms →"
    ],
    "lenses": "Politics/Government · Culture · Economics",
@@ -1505,21 +1690,39 @@
    "vocab": [
     {
      "term": "Women's Suffrage",
-     "say": "",
+     "say": "WIM-enz SUF-rij",
      "es": "Sufragio Femenino",
-     "def": "The movement to secure voting rights for women, culminating in the 19th Amendment in 1920 after decades of activism."
+     "def": "The movement to secure voting rights for women, culminating in the 19th Amendment (1920) after more than 70 years of organized activism."
     },
     {
      "term": "19th Amendment",
-     "say": "",
+     "say": "NYNE-teenth uh-MEND-ment",
      "es": "19ª Enmienda",
-     "def": "Ratified in 1920, this amendment prohibited denying the right to vote based on sex, granting women full suffrage nationwide."
+     "def": "Ratified on August 18, 1920, this amendment prohibits denying any citizen the right to vote based on sex — extending the vote to women across the United States."
+    },
+    {
+     "term": "Carrie Chapman Catt",
+     "say": "KAIR-ee CHAP-mun KAT",
+     "es": "Carrie Chapman Catt",
+     "def": "NAWSA president who developed the 'Winning Plan' — a coordinated state-level and federal strategy that led to the 19th Amendment's ratification."
     },
     {
      "term": "Alice Paul",
-     "say": "",
+     "say": "AL-iss PAWL",
      "es": "Alice Paul",
-     "def": "A radical suffragist who founded the National Woman's Party and organized protests, picketing the White House to demand voting rights for women."
+     "def": "Militant suffragist who founded the National Woman's Party, organized the 1913 Washington parade, led White House picketing, and endured imprisonment and force-feeding for the cause."
+    },
+    {
+     "term": "Anne Dallas Dudley",
+     "say": "AN DAL-us DUD-lee",
+     "es": "Anne Dallas Dudley",
+     "def": "Tennessee suffragist who founded the Nashville Equal Suffrage League and built statewide organizing that made Tennessee the decisive 'Perfect 36' for ratification."
+    },
+    {
+     "term": "Perfect 36",
+     "say": "PER-fikt THUR-tee-siks",
+     "es": "El Perfecto 36",
+     "def": "The nickname for Tennessee's decisive role as the 36th and final state to ratify the 19th Amendment on August 18, 1920 — secured by Harry T. Burn's deciding vote."
     }
    ],
    "sources": [
@@ -1621,9 +1824,10 @@
     "Suffragette Activities and Tactics"
    ],
    "cues": [
-    "What does the passage say about historical Context and Motivations?",
-    "What does the passage say about key Leaders and Their Strategies?",
-    "What does the passage say about suffragette Activities and Tactics?",
+    "Historical Context & Motivations",
+    "Key Leaders & Strategies",
+    "Suffragette Activities & Tactics",
+    "19th Amendment & the ‘Perfect 36’",
     "Key terms →"
    ],
    "lenses": "Culture · Politics/Government · History",
