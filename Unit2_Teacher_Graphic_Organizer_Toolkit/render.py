@@ -45,7 +45,7 @@ def render_pdf_combined():
         p = os.path.join(EXPORTS, f"_{base}.pdf")
         chrome(["--no-pdf-header-footer", f"--print-to-pdf={p}", f"file://{h}"])
         parts.append(p)
-    out = os.path.join(EXPORTS, "Unit1_Teacher_Graphic_Organizer_Toolkit.pdf")
+    out = os.path.join(EXPORTS, "Unit2_Teacher_Graphic_Organizer_Toolkit.pdf")
     concat_pdfs(parts, out)
     for p in parts:
         os.remove(p)
