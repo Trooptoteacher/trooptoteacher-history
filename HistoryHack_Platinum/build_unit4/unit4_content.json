@@ -22,9 +22,21 @@
    "vocab": [
     {
      "term": "Great Migration",
-     "say": "",
+     "say": "grayt my-GRAY-shun",
      "es": "Gran Migración",
      "def": "The mass movement of over 6 million African Americans from the rural South to urban areas in the North and Midwest between 1916 and 1970, driven by economic opportunity and escape from Jim Crow segregation."
+    },
+    {
+     "term": "First Red Scare",
+     "say": "",
+     "es": "Primer Susto Rojo",
+     "def": "A period of intense fear of communism and radical political activity following World War I (1919-1920), leading to deportations, arrests, and violations of civil liberties."
+    },
+    {
+     "term": "Radio Broadcasting",
+     "say": "",
+     "es": "Radiodifusión",
+     "def": "The transmission of audio content over radio waves that revolutionized communication in the 1920s, creating mass media, national advertising, and shared popular culture."
     },
     {
      "term": "Harlem Renaissance",
@@ -33,10 +45,10 @@
      "def": "A 1920s cultural movement centered in Harlem, New York, where African American artists, writers, musicians, and intellectuals celebrated Black culture and identity through art, literature, and music."
     },
     {
-     "term": "Pull Factors",
+     "term": "Automobile Impact",
      "say": "",
-     "es": "Factores de Atracción",
-     "def": "Industrial jobs, higher wages, less discrimination, better education"
+     "es": "Impacto del Automóvil",
+     "def": "The widespread adoption of cars in the 1920s transformed American society, creating suburbs, highways, tourism, and related industries like gas stations, motels, and drive-in restaurants."
     }
    ],
    "sources": [
@@ -101,7 +113,7 @@
     ],
     "frayer": [
      "Great Migration",
-     "Harlem Renaissance"
+     "First Red Scare"
     ],
     "quiz": [
      {
@@ -198,22 +210,40 @@
    },
    "vocab": [
     {
+     "term": "Radio Broadcasting",
+     "say": "",
+     "es": "Radiodifusión",
+     "def": "The transmission of audio content over radio waves that revolutionized communication in the 1920s, creating mass media, national advertising, and shared popular culture."
+    },
+    {
+     "term": "Motion Pictures",
+     "say": "",
+     "es": "Imágenes en Movimiento",
+     "def": "Silent and \"talkie\" films that became America's most popular entertainment in the 1920s, creating celebrity culture and Hollywood as the film capital of the world."
+    },
+    {
      "term": "Commercial Aviation",
      "say": "",
      "es": "Aviación Comercial",
      "def": "The development of airplane technology and air travel in the 1920s, highlighted by Charles Lindbergh's 1927 solo transatlantic flight, which captured public imagination and demonstrated aviation's potential."
     },
     {
-     "term": "Radio Broadcasting",
-     "say": "",
-     "es": "Radiodifusión",
-     "def": "10 million households had radios by 1929; news, music, sports, entertainment"
+     "term": "Consumerism",
+     "say": "kun-SOO-mer-iz-um",
+     "es": "Consumismo",
+     "def": "A culture of increased purchasing of consumer goods, driven in the 1920s by mass production, national advertising, and installment credit."
     },
     {
-     "term": "Motion Pictures",
-     "say": "",
-     "es": "Imágenes en Movimiento",
-     "def": "Hollywood became film capital; silent films to \"talkies\"; stars like Chaplin"
+     "term": "Grand Ole Opry",
+     "say": "grand ohl AH-pree",
+     "es": "Grand Ole Opry",
+     "def": "A weekly country music radio show that began in Nashville in 1925, becoming the longest-running radio broadcast in U.S. history and establishing Nashville as country music's capital."
+    },
+    {
+     "term": "Electrification",
+     "say": "ee-lek-truh-fih-KAY-shun",
+     "es": "Electrificación",
+     "def": "The spread of electrical power throughout America in the 1920s, transforming daily life with electric appliances, lighting, and machinery in homes and factories."
     }
    ],
    "sources": [
@@ -277,8 +307,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Commercial Aviation",
-     "Radio Broadcasting"
+     "Radio Broadcasting",
+     "Motion Pictures"
     ],
     "quiz": [
      {
@@ -349,21 +379,39 @@
    "vocab": [
     {
      "term": "Grand Ole Opry",
-     "say": "",
+     "say": "grand ohl AH-pree",
      "es": "Grand Ole Opry",
      "def": "A weekly country music radio show that began in Nashville in 1925, becoming the longest-running radio broadcast in U.S. history and establishing Nashville as country music's capital."
     },
     {
      "term": "W.C. Handy",
-     "say": "",
+     "say": "double-yoo see HAN-dee",
      "es": "W.C. Handy",
      "def": "Known as the \"Father of the Blues,\" a musician and composer who published the first blues compositions and helped bring blues music from rural areas to mainstream audiences."
     },
     {
      "term": "Bessie Smith",
-     "say": "",
+     "say": "BESS-ee smith",
      "es": "Bessie Smith",
      "def": "The \"Empress of the Blues,\" the most popular female blues singer of the 1920s whose powerful voice and emotional performances influenced generations of musicians."
+    },
+    {
+     "term": "Radio Broadcasting",
+     "say": "",
+     "es": "Radiodifusión",
+     "def": "The transmission of audio content over radio waves that revolutionized communication in the 1920s, creating mass media, national advertising, and shared popular culture."
+    },
+    {
+     "term": "Harlem Renaissance",
+     "say": "",
+     "es": "Renacimiento de Harlem",
+     "def": "A 1920s cultural movement centered in Harlem, New York, where African American artists, writers, musicians, and intellectuals celebrated Black culture and identity through art, literature, and music."
+    },
+    {
+     "term": "Motion Pictures",
+     "say": "",
+     "es": "Imágenes en Movimiento",
+     "def": "Silent and \"talkie\" films that became America's most popular entertainment in the 1920s, creating celebrity culture and Hollywood as the film capital of the world."
     }
    ],
    "sources": [
@@ -505,9 +553,33 @@
     },
     {
      "term": "Electrification",
-     "say": "",
+     "say": "ee-lek-truh-fih-KAY-shun",
      "es": "Electrificación",
      "def": "The spread of electrical power throughout America in the 1920s, transforming daily life with electric appliances, lighting, and machinery in homes and factories."
+    },
+    {
+     "term": "Automobile Impact",
+     "say": "",
+     "es": "Impacto del Automóvil",
+     "def": "The widespread adoption of cars in the 1920s transformed American society, creating suburbs, highways, tourism, and related industries like gas stations, motels, and drive-in restaurants."
+    },
+    {
+     "term": "Assembly Line",
+     "say": "",
+     "es": "Línea de Ensamblaje",
+     "def": "A manufacturing method where workers remain stationary while products move past them on a conveyor belt, with each worker performing one specific task, dramatically increasing efficiency."
+    },
+    {
+     "term": "Consumerism",
+     "say": "kun-SOO-mer-iz-um",
+     "es": "Consumismo",
+     "def": "A culture of increased purchasing of consumer goods, driven in the 1920s by mass production, national advertising, and installment credit."
+    },
+    {
+     "term": "Radio Broadcasting",
+     "say": "",
+     "es": "Radiodifusión",
+     "def": "The transmission of audio content over radio waves that revolutionized communication in the 1920s, creating mass media, national advertising, and shared popular culture."
     }
    ],
    "sources": [
@@ -643,7 +715,7 @@
    "vocab": [
     {
      "term": "Henry Ford",
-     "say": "",
+     "say": "HEN-ree ford",
      "es": "Henry Ford",
      "def": "Automobile manufacturer who revolutionized production with the assembly line, making the Model T affordable for average Americans and transforming society."
     },
@@ -654,10 +726,28 @@
      "def": "A manufacturing method where workers remain stationary while products move past them on a conveyor belt, with each worker performing one specific task, dramatically increasing efficiency."
     },
     {
-     "term": "Assembly Line Innovation",
+     "term": "Automobile Impact",
      "say": "",
-     "es": "Innovación de Línea de Ensamblaje",
-     "def": "Reduced production time from 12 hours to 90 minutes; dropped Model T price from $850 to $260"
+     "es": "Impacto del Automóvil",
+     "def": "The widespread adoption of cars in the 1920s transformed American society, creating suburbs, highways, tourism, and related industries like gas stations, motels, and drive-in restaurants."
+    },
+    {
+     "term": "Buying on Credit",
+     "say": "",
+     "es": "Compra a Crédito",
+     "def": "The practice of purchasing goods with borrowed money repaid over time in installments, which fueled 1920s consumer spending."
+    },
+    {
+     "term": "Consumerism",
+     "say": "kun-SOO-mer-iz-um",
+     "es": "Consumismo",
+     "def": "A culture of increased purchasing of consumer goods, driven in the 1920s by mass production, national advertising, and installment credit."
+    },
+    {
+     "term": "Electrification",
+     "say": "ee-lek-truh-fih-KAY-shun",
+     "es": "Electrificación",
+     "def": "The spread of electrical power throughout America in the 1920s, transforming daily life with electric appliances, lighting, and machinery in homes and factories."
     }
    ],
    "sources": [
@@ -799,15 +889,33 @@
     },
     {
      "term": "Louis Armstrong",
-     "say": "",
+     "say": "LOO-ee ARM-strong",
      "es": "Louis Armstrong",
      "def": "A revolutionary jazz trumpeter and singer from New Orleans who became one of the most influential musicians of the 20th century, pioneering improvisational jazz and scat singing."
     },
     {
      "term": "Duke Ellington",
-     "say": "",
+     "say": "dook EL-ing-tun",
      "es": "Duke Ellington",
      "def": "A prolific jazz composer, pianist, and bandleader who led his orchestra for nearly 50 years, creating sophisticated jazz compositions that elevated the genre to high art."
+    },
+    {
+     "term": "Langston Hughes",
+     "say": "LANG-stun hyooz",
+     "es": "Langston Hughes",
+     "def": "A leading poet, novelist, and playwright of the Harlem Renaissance who wrote powerfully about the Black experience in America, using jazz rhythms and everyday language."
+    },
+    {
+     "term": "Zora Neale Hurston",
+     "say": "ZOR-uh neel HUR-stun",
+     "es": "Zora Neale Hurston",
+     "def": "An anthropologist, folklorist, and novelist who celebrated Southern Black culture and dialect in her masterpiece \"Their Eyes Were Watching God.\""
+    },
+    {
+     "term": "James Weldon Johnson",
+     "say": "jaymz WEL-dun JON-sun",
+     "es": "James Weldon Johnson",
+     "def": "A writer, diplomat, and civil rights activist who wrote \"Lift Every Voice and Sing\" (known as the Black National Anthem) and led the NAACP."
     }
    ],
    "sources": [
@@ -943,21 +1051,39 @@
    "vocab": [
     {
      "term": "Flappers",
-     "say": "",
+     "say": "FLAP-erz",
      "es": "Flappers",
      "def": "Young women in the 1920s who challenged traditional gender norms by wearing short skirts and bobbed hair, dancing, drinking, smoking, and asserting independence."
     },
     {
-     "term": "New Freedoms",
+     "term": "Birth Control Movement",
      "say": "",
-     "es": "Nuevas Libertades",
-     "def": "Flappers challenged conventions; birth control movement; more education opportunities"
+     "es": "Movimiento de Control de Natalidad",
+     "def": "Led by Margaret Sanger, the campaign to legalize contraception and provide women reproductive choice, facing opposition from religious and conservative groups."
     },
     {
-     "term": "Workforce Participation",
+     "term": "Women in the Workforce",
      "say": "",
-     "es": "Participación en Fuerza Laboral",
-     "def": "25% of workers were women by 1930; clerical and office jobs expanded"
+     "es": "Mujeres en la Fuerza Laboral",
+     "def": "The 1920s saw increased female employment in clerical and office jobs, though women still faced discrimination, lower wages, and were often expected to leave work upon marriage."
+    },
+    {
+     "term": "Consumerism",
+     "say": "kun-SOO-mer-iz-um",
+     "es": "Consumismo",
+     "def": "A culture of increased purchasing of consumer goods, driven in the 1920s by mass production, national advertising, and installment credit."
+    },
+    {
+     "term": "Automobile Impact",
+     "say": "",
+     "es": "Impacto del Automóvil",
+     "def": "The widespread adoption of cars in the 1920s transformed American society, creating suburbs, highways, tourism, and related industries like gas stations, motels, and drive-in restaurants."
+    },
+    {
+     "term": "Motion Pictures",
+     "say": "",
+     "es": "Imágenes en Movimiento",
+     "def": "Silent and \"talkie\" films that became America's most popular entertainment in the 1920s, creating celebrity culture and Hollywood as the film capital of the world."
     }
    ],
    "sources": [
@@ -1022,7 +1148,7 @@
     ],
     "frayer": [
      "Flappers",
-     "New Freedoms"
+     "Birth Control Movement"
     ],
     "quiz": [
      {
@@ -1105,10 +1231,28 @@
      "def": "The 1921 and 1924 laws that drastically limited immigration, especially from Southern and Eastern Europe, Asia, and Africa, based on racist national origins formulas."
     },
     {
-     "term": "Ida B. Wells-Barnett",
+     "term": "KKK Resurgence",
      "say": "",
+     "es": "Resurgimiento del KKK",
+     "def": "The Ku Klux Klan's revival in the 1920s, expanding beyond the South to target not just African Americans but also Catholics, Jews, immigrants, and others, reaching 4-5 million members."
+    },
+    {
+     "term": "Tulsa Race Massacre",
+     "say": "TUL-suh rays MASS-uh-ker",
+     "es": "Masacre Racial de Tulsa",
+     "def": "The May 31-June 1, 1921 attack on Tulsa's prosperous Black Greenwood district (\"Black Wall Street\") by white mobs, killing an estimated 300 Black residents and destroying 1,200 homes and businesses."
+    },
+    {
+     "term": "Ida B. Wells-Barnett",
+     "say": "EYE-duh bee wellz BAR-net",
      "es": "Ida B. Wells-Barnett",
      "def": "An investigative journalist and civil rights activist who led anti-lynching crusades, exposing the truth about racial violence through fearless reporting and organizing."
+    },
+    {
+     "term": "Garveyism",
+     "say": "GAR-vee-iz-um",
+     "es": "Garveyismo",
+     "def": "Marcus Garvey's movement promoting Black pride, economic independence, and pan-African unity, advocating for African Americans to build their own businesses and even return to Africa."
     }
    ],
    "sources": [
@@ -1251,15 +1395,33 @@
     },
     {
      "term": "Fundamentalism",
-     "say": "",
+     "say": "fun-duh-MEN-tuh-liz-um",
      "es": "Fundamentalismo",
      "def": "A religious movement emphasizing literal interpretation of the Bible, traditional values, and opposition to modernist ideas like evolution, gaining strength in the 1920s."
     },
     {
      "term": "Modernism",
-     "say": "",
+     "say": "MOD-ern-iz-um",
      "es": "Modernismo",
      "def": "A cultural movement embracing science, reason, and social change, including acceptance of evolution, urban lifestyles, and challenges to traditional religious and moral values."
+    },
+    {
+     "term": "Grand Ole Opry",
+     "say": "grand ohl AH-pree",
+     "es": "Grand Ole Opry",
+     "def": "A weekly country music radio show that began in Nashville in 1925, becoming the longest-running radio broadcast in U.S. history and establishing Nashville as country music's capital."
+    },
+    {
+     "term": "First Red Scare",
+     "say": "",
+     "es": "Primer Susto Rojo",
+     "def": "A period of intense fear of communism and radical political activity following World War I (1919-1920), leading to deportations, arrests, and violations of civil liberties."
+    },
+    {
+     "term": "Immigration Quota Acts",
+     "say": "",
+     "es": "Leyes de Cuotas de Inmigración",
+     "def": "The 1921 and 1924 laws that drastically limited immigration, especially from Southern and Eastern Europe, Asia, and Africa, based on racist national origins formulas."
     }
    ],
    "sources": [
@@ -1394,22 +1556,40 @@
    },
    "vocab": [
     {
-     "term": "Prohibition Era",
-     "say": "",
-     "es": "La Era de la Prohibición",
-     "def": "18th Amendment (1920-1933) banned manufacture, sale, transport of alcohol nationwide"
+     "term": "Prohibition",
+     "say": "proh-uh-BISH-un",
+     "es": "Prohibición",
+     "def": "The nationwide constitutional ban on the manufacture, sale, and transport of alcoholic beverages, in effect from 1920 to 1933 under the 18th Amendment."
     },
     {
      "term": "Organized Crime",
      "say": "",
-     "es": "Ascenso del Crimen Organizado",
-     "def": "Bootlegging became lucrative; Al Capone earned $60 million annually; gangsters controlled illegal alcohol trade"
+     "es": "Crimen Organizado",
+     "def": "Structured criminal enterprises that expanded dramatically during Prohibition by controlling the illegal liquor trade, led by figures such as Al Capone in Chicago."
     },
     {
-     "term": "Speakeasies and Social Impact",
+     "term": "Bootlegging",
+     "say": "BOOT-leg-ing",
+     "es": "Contrabando de Alcohol",
+     "def": "The illegal production, smuggling, and distribution of alcohol during Prohibition."
+    },
+    {
+     "term": "Speakeasy",
+     "say": "SPEEK-ee-zee",
+     "es": "Bar Clandestino",
+     "def": "An illicit establishment that sold alcoholic beverages during Prohibition, often hidden behind ordinary storefronts."
+    },
+    {
+     "term": "First Red Scare",
      "say": "",
-     "es": "Bares Clandestinos e Impacto Social",
-     "def": "32,000+ speakeasies in NYC alone; widespread disrespect for law; repealed by 21st Amendment (1933)"
+     "es": "Primer Susto Rojo",
+     "def": "A period of intense fear of communism and radical political activity following World War I (1919-1920), leading to deportations, arrests, and violations of civil liberties."
+    },
+    {
+     "term": "Consumerism",
+     "say": "kun-SOO-mer-iz-um",
+     "es": "Consumismo",
+     "def": "A culture of increased purchasing of consumer goods, driven in the 1920s by mass production, national advertising, and installment credit."
     }
    ],
    "sources": [
@@ -1473,7 +1653,7 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Prohibition Era",
+     "Prohibition",
      "Organized Crime"
     ],
     "quiz": [
@@ -1545,22 +1725,40 @@
    },
    "vocab": [
     {
-     "term": "Credit Expansion",
+     "term": "Buying on Credit",
      "say": "",
-     "es": "Expansión del Crédito",
-     "def": "\"Buy now, pay later\" became popular; installment plans for cars, appliances; 60% of cars bought on credit"
+     "es": "Compra a Crédito",
+     "def": "The practice of purchasing goods with borrowed money repaid over time in installments, which fueled 1920s consumer spending."
     },
     {
-     "term": "Consumer Culture",
-     "say": "",
-     "es": "Cultura de Consumo",
-     "def": "Advertising industry grew; department stores expanded; Americans embraced modern conveniences and leisure"
+     "term": "Consumerism",
+     "say": "kun-SOO-mer-iz-um",
+     "es": "Consumismo",
+     "def": "A culture of increased purchasing of consumer goods, driven in the 1920s by mass production, national advertising, and installment credit."
     },
     {
-     "term": "Financial Speculation",
+     "term": "Stock Speculation",
      "say": "",
-     "es": "Especulación Financiera",
-     "def": "Stock market speculation surged; buying on margin widespread; wealth inequality increased dramatically"
+     "es": "Especulación Bursátil",
+     "def": "The practice of buying stocks - frequently on margin with borrowed money - in the hope of selling at a higher price for quick profit."
+    },
+    {
+     "term": "Automobile Impact",
+     "say": "",
+     "es": "Impacto del Automóvil",
+     "def": "The widespread adoption of cars in the 1920s transformed American society, creating suburbs, highways, tourism, and related industries like gas stations, motels, and drive-in restaurants."
+    },
+    {
+     "term": "Assembly Line",
+     "say": "",
+     "es": "Línea de Ensamblaje",
+     "def": "A manufacturing method where workers remain stationary while products move past them on a conveyor belt, with each worker performing one specific task, dramatically increasing efficiency."
+    },
+    {
+     "term": "Motion Pictures",
+     "say": "",
+     "es": "Imágenes en Movimiento",
+     "def": "Silent and \"talkie\" films that became America's most popular entertainment in the 1920s, creating celebrity culture and Hollywood as the film capital of the world."
     }
    ],
    "sources": [
@@ -1624,8 +1822,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Credit Expansion",
-     "Consumer Culture"
+     "Buying on Credit",
+     "Consumerism"
     ],
     "quiz": [
      {
