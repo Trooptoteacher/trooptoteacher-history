@@ -103,7 +103,7 @@ HTML = f"""<!DOCTYPE html>
   <div class="cover">
     <div class="l">
       <div class="ttl"><span class="thin">Teacher Graphic Organizer Toolkit</span>Which Organizer, When?</div>
-      <div class="sub">Unit 1 &middot; Reconstruction &amp; the Gilded Age &nbsp;(US.REC &middot; US.01&ndash;US.07)</div>
+      <div class="sub">Unit 1 &middot; The Rise of Industrialization &nbsp;(1877&ndash;1900) &middot; US.01&ndash;US.07</div>
     </div>
     <div class="r">
       <div class="repro2">&#10003; Reproducible</div>
