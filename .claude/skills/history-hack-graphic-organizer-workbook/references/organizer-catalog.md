@@ -21,9 +21,12 @@ type onto a task it doesn't fit; add a new organizer if a task needs one.
 | Connect the **nation → Tennessee** | ★ Tennessee Connection | Local ties make it stick — the signature move (UDL relevance) | 10–15 |
 
 ## Design notes per type (the "real visual" requirement)
-- **Venn 2/3** — true overlapping circles (light tint fills, colored strokes), a gold center lens; labels
-  and topic keys **outside/inside via SVG text**, faded region captions, dotted writing guides in lobes.
-  Topics go in a legend row above (Venn 3) or SVG headers, never floating over the circle edges.
+- **Venn 2/3** — true overlapping circles (light tint fills, colored strokes), a gold center lens.
+  **Region labels + hints as `<text>` INSIDE the SVG** (viewBox coords, anchored at lobe centers) so they
+  never drift outside when the SVG scales; **topic keys + write-lines in a legend row ABOVE** the diagram;
+  **region captions minimized & faded** (watermark-like) to leave writing room; dotted guides in each lobe.
+  This is the #1 recurring failure — read the Venn rule in `guardrails.md` and copy the corrected example
+  packs. Never float "Topic A:" or "ONLY A" over a circle edge as an HTML overlay.
 - **T-chart** — two label bands over tall lined wells + a synthesis strip; for labeled versions, seed each
   side with sourced prompts and add a ★ TN box where a tie exists.
 - **Matrix** — CSS grid: colored column headers (options/cases) × navy row labels (criteria) × light

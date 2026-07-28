@@ -93,9 +93,15 @@ T-chart (with a TN box), a labeled timeline, and the Quick Guide generator.
    `assets/authoring-contract.md`.
 
 4. **Render + QC every page.** Run `render.py png` and *open each PNG* (Read tool). Verify: real visual
-   structure, writable areas are light, nothing clipped at the page bottom, labels sit inside their
-   shapes (a recurring failure mode — keep positioned text *inside* the SVG so it tracks the geometry),
-   footer present, no dead space. Fix and re-render until clean.
+   structure, writable areas light, nothing clipped at the bottom, footer present, no dead space. Two
+   checks fail most often — do them deliberately on every unit:
+   - **Venn labels inside the circles.** Region labels/hints must be `<text>` *inside the SVG*; topic
+     labels + write-lines go in a legend row *above* the diagram; region captions are small and faded.
+     HTML overlays drift into the letterbox margins — see the Venn rule in `references/guardrails.md`.
+   - **Wording review pass.** Re-read every title, band label, prompt, and criterion for loaded language
+     (win/lose, hero/villain, good/bad, "progress" as fact) and neutralize it — the framing table in
+     `references/guardrails.md` has the exact substitutions. Let students reach the judgment.
+   Fix and re-render until clean.
 
 5. **Assemble + export + deliver.** `render.py pdf` builds the combined US-Letter PDF. Then commit/push
    the source, import the public PDF URL into **Canva** (brand kit `kAG39-EGTcM`) for an editable design,

@@ -23,15 +23,36 @@ and every unit must hold them. When a request conflicts with a guardrail, surfac
 - Keep prompt/label text *out of* the writing space: put a cue in the label strip or fade it to a
   watermark, so the student has room. (Watch the center of hubs/ovals — a common offender.)
 
-## Keep positioned labels inside their shapes
-- On SVG-based organizers (Venn, web, 5 Ws), put region/topic labels and hints **inside the SVG** in
-  viewBox coordinates, not as HTML overlays positioned to the full frame. HTML overlays drift into the
-  letterbox margins when the SVG scales, landing outside the circles. In-SVG text always tracks geometry.
+## Venn diagrams — the label rule (learned the hard way; check this every time)
+Venns are the most-flagged organizer. Text kept drifting *outside* the circles because HTML overlay labels
+are positioned to the full frame, but the SVG letterboxes (scales to fit, leaving side margins) — so a
+label at, say, `left:12%` lands in the empty margin, not in the lobe. **Never position Venn text as HTML
+overlays over the circles.** The rule:
+- **Region labels and in-lobe hints go INSIDE the `<svg>`** as `<text>` at viewBox coordinates, so they
+  track the geometry no matter how it scales. Anchor at the lobe centers (e.g., left lobe ≈ x 210/900,
+  right lobe ≈ 690/900, lens ≈ 450/900).
+- **Topic identity labels + write-lines go in a legend row ABOVE the diagram** (HTML, clearly outside the
+  circles): a colored swatch/dot + "Topic A: ____", one line for A/B/C. Do not float "Topic A:" over a
+  circle's edge.
+- **Region captions (ONLY A / A&B / ALL 3 / BOTH) are minimized and faded** (small, light gray, ~11–13pt)
+  so they read as watermarks and leave the lobes open to write in.
+- Keep dotted writing guides in each lobe; verify at render that every label sits *inside* its circle.
+The corrected US.07 Venn and the Venn-3 legend in `assets/example_packs/` are the reference implementations.
 
-## Neutral, unbiased framing
-- Let students reach their own judgments. Use descriptive, non-loaded language: "Who benefited / Who bore
-  the cost" (not "winners/losers"); "Where things stood by 1900" (not "a win or a loss"); "whose land was
-  taken" (a sourced fact) rather than editorializing. Comparison organizers present both sides evenly.
+## Neutral, unbiased framing — tighten the wording every time
+Let students reach their own judgments; the organizer stays descriptive and even-handed. This applies to
+**titles, band labels, prompts, and criteria** — not just body text. Concrete calls from Unit 1:
+
+| Don't write (editorializing) | Write instead (neutral, sourced) |
+|---|---|
+| "Winners & Costs of Westward Expansion" | "Westward Expansion — Who Benefited, Who Bore the Cost" |
+| a criterion "A win or a loss" | "Where things stood by 1900 — what had changed?" |
+| "who lost land?" | "whose land was taken?" (states the sourced fact) |
+| "good vs. bad," "hero/villain," value verdicts baked into a label | present both lenses evenly; let the student decide (e.g., "Captain of Industry _or_ Robber Baron?") |
+
+Rules of thumb: avoid win/lose, hero/villain, good/bad, and "progress" stated as fact. Two-sided
+organizers give each side equal visual weight and identical prompt structure. A judgment belongs in a
+student's response line ("your verdict, because…"), never pre-decided in the design.
 
 ## Teach the teacher (the "why")
 - Every organizer carries a short **"When · Why"** blurb: when to reach for it and why it works, ending
