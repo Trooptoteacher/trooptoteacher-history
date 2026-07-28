@@ -77,6 +77,46 @@ pdftoppm -f 1 -l 1 -r 90 -png teacher_platinum.pdf qc_intro    # intro
 pdftoppm -f 6 -l 6 -r 90 -png teacher_platinum.pdf qc_map      # a map slide
 ```
 
+## CONTENT parity — alignment means same content, not just a map slide
+A map slide that *points* at the workbook is not enough. The workbook must **teach what
+the deck teaches**, per standard. Two fields drift because deck and workbook were authored
+separately — check and reconcile both (deck = source of truth):
+
+1. **Cornell cues == DIRECT INSTRUCTION labels** (`standards[code].criteria`). Usually already
+   exact; `extract_align.py` / `check_parity.py` flag any drift.
+2. **Workbook vocab == KEY VOCABULARY Word Wall** (`standards[code].vocab`). This is the one
+   that drifts hard — the deck Word Wall carries ~6 terms/standard (term + pronunciation +
+   Spanish + definition); workbooks were often authored with a different subset. Reconcile:
+   set `standards[code].vocab` to the deck's Word Wall (adopt term/say/es/def verbatim) and
+   point `auth.frayer` at the first two deck terms so Activity 2 uses real deck vocab. Then
+   **rebuild the workbook** and re-run the gate.
+
+```bash
+python3 scripts/check_parity.py "TEACHER_DECK.pptx" unit<N>_content.json   # exit 0 = aligned
+```
+Run it after ANY deck or workbook edit. Exit 1 prints every mismatch.
+
+### Rebuilding the workbook (runs from the unit's build workspace)
+The workbook builder reads `analysis/unit<N>_content.json` and writes `deliverables/`. Run it
+from the unit workspace (e.g. `/home/user/Unit<N>_Claude_Core/`) so its local `node_modules`
+(docx) resolve — `require` resolves from the script path, so also set NODE_PATH to that
+workspace's node_modules:
+```bash
+cd /home/user/Unit<N>_Claude_Core
+export NODE_PATH=/home/user/Unit<N>_Claude_Core/node_modules HOME=/home/user
+node <repo>/HistoryHack_Platinum/build_unit<N>/build_workbook_u<N>.js
+soffice --headless --convert-to pdf --outdir deliverables deliverables/Unit<N>_Student_Workbook_CourseStandard.docx
+```
+
+## No white space — fit each activity to a full page (hard rule)
+Adopting 6 vocab terms makes **Activity 1 (Word Bank + Language Support + Self-Check)** spill
+onto a second, near-empty page. That violates the no-white-space rule. Fit it to ONE full page:
+- Word Bank + Self-Check text at 9pt (`size:18`), self-check term at 8pt (`size:16`).
+- Drop the trailing "Quick Write" (redundant with Make-It-Yours / Preview-&-Predict / Cornell key terms).
+- Give "Make It Yours" `ruled(3)` response lines so the page fills to the margin (not gappy).
+Verify with the pagination probe: every standard's Activity 1 must span exactly 1 page
+(Activity 2 starts on Activity 1's page + 1) and leave no large bottom gap.
+
 ## Design contract (do not drift)
 - Canvas 13.333 × 7.5 in. Fonts Cambria (headers), Arial (body).
 - Tokens: NAVY `15223E`, GOLD `C89B3C`, GREEN `2E7D46`, RED `B22234`, BLUE `2F5FA6`,

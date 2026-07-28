@@ -128,12 +128,12 @@ function retrievalBox(code){return [gap(120),
   ],[3800,5848],{rowH:600})];}
 function vocabSelfCheck(code){const s=C.standards[code]; const W=[3048,1650,1650,1650,1650];
   const head=new TableRow({tableHeader:true,children:['Term','1 · never seen it','2 · heard it','3 · can use it','4 · can teach it'].map((h,i)=>cell(P(R(h,{s:15,b:true,c:i===0?NAVY:WHITE}),{align:i?AlignmentType.CENTER:AlignmentType.LEFT,spacing:{after:0}}),{w:W[i],fill:i===0?CREAM:NAVY}))});
-  const rows=s.vocab.map(v=>new TableRow({children:[cell(P(R(v.term,{s:18,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(ruled(1),{w:W[k]}))]}));
-  return [gap(40),
+  const rows=s.vocab.map(v=>new TableRow({children:[cell(P(R(v.term,{s:16,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(ruled(1),{w:W[k]}))]}));
+  return [
     callout('VOCABULARY SELF-CHECK · Knowledge Rating',['Rate each term NOW in pencil, then again at the END — growth is the goal; no penalty for “never seen it.”']),
     table([head,...rows],W),
     P([R('MAKE IT YOURS (RESPONSE CHOICE): ',{s:20,b:true,c:NAVY}),R('choose ONE term above and show you own it — write a sentence, sketch it, or give a real-world example.',{s:20})],{spacing:{before:60,after:40}}),
-    ...ruled(2)];}
+    ...ruled(3)];}
 function sourceExtension(code){return [gap(120),
   callout('EXTEND & RE-ENGAGE (open to all)',['Push past the document — corroborate, contextualize, and judge its meaning.']),
   writeTable(['Historian move','Your response'],[
@@ -247,10 +247,14 @@ function block(code){
   out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
   out.push(dataTable(['Term','Student-friendly meaning','Spanish'],s.vocab.map(v=>[
-    new TextRun({text:v.term,bold:true,size:20,font:FONT,color:INK}), v.def, v.es]),[2683,4282,2683]));
+    new TextRun({text:v.term,bold:true,size:18,font:FONT,color:INK}),
+    new TextRun({text:v.def,size:18,font:FONT,color:INK}),
+    new TextRun({text:v.es,size:18,font:FONT,color:INK})]),[2683,4282,2683]));
   out.push(callout('LANGUAGE SUPPORT',['Pronunciations: '+s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.']));
   out.push(...vocabSelfCheck(code));
-  out.push(...FILL_LIB.quickwrite('Which of these terms do you think will matter MOST for this standard, and why? You’ll revisit this at the end.'));
+  // (removed the trailing QUICK WRITE — it spilled the 6-term Word Bank onto a
+  //  second, near-empty page; the self-check "Make It Yours", the standard's
+  //  "Preview & Predict", and the Cornell "Key terms" already cover that reflection.)
   // Activity 2 — Frayer
   out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7}));
   out.push(callout('RESPONSE CHOICE',['Complete each studio by writing, speaking, or diagramming.']));

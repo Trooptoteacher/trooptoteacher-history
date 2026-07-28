@@ -22,21 +22,39 @@
    "vocab": [
     {
      "term": "Homestead Act",
-     "say": "",
+     "say": "HOHM-sted",
      "es": "Ley de Homestead",
      "def": "An 1862 law that provided 160 acres of public land to settlers who agreed to live on and improve the land for five years, encouraging westward expansion."
     },
     {
      "term": "Transcontinental Railroad",
-     "say": "",
+     "say": "tranz-kon-tih-NEN-tul RAYL-rohd",
      "es": "Ferrocarril Transcontinental",
      "def": "A continuous railroad line completed in 1869 that connected the eastern United States with the Pacific coast, revolutionizing transportation and commerce."
     },
     {
-     "term": "Eligible Claimants",
-     "say": "",
-     "es": "Reclamantes Elegibles",
-     "def": "Citizens, immigrants intending citizenship, women, and formerly enslaved people could claim land"
+     "term": "Westward Expansion",
+     "say": "WEST-werd ek-SPAN-shun",
+     "es": "Expansión hacia el Oeste",
+     "def": "The 19th-century movement of settlers, railroads, and U.S. authority across the continent toward the Pacific, encouraged by free land and new transportation."
+    },
+    {
+     "term": "Manifest Destiny",
+     "say": "MAN-ih-fest DES-tih-nee",
+     "es": "Destino Manifiesto",
+     "def": "The widely held 1800s belief that the United States was destined to expand across the entire continent, used to justify the displacement of American Indians."
+    },
+    {
+     "term": "Land Grant",
+     "say": "LAND grant",
+     "es": "Concesión de Tierras",
+     "def": "A gift of public land from the government — to railroad companies or settlers — used to fund and accelerate western settlement."
+    },
+    {
+     "term": "Reservation",
+     "say": "rez-er-VAY-shun",
+     "es": "Reservación",
+     "def": "An area of land set aside by the federal government for American Indian tribes, frequently far from their ancestral homelands."
     }
    ],
    "sources": [
@@ -134,9 +152,10 @@
     "Impact on American Indians, Immigrants, and Settlers"
    ],
    "cues": [
-    "What does the passage say about sequence the expansion of the United States?",
-    "What does the passage say about impact on Western Settlement?",
-    "What does the passage say about impact on American Indians, Immigrants, and Settlers?",
+    "The Homestead Act (1862)",
+    "The Transcontinental Railroad (1869)",
+    "Who Built It",
+    "The Cost to Native Nations",
     "Key terms →"
    ],
    "lenses": "History · Geography",
@@ -189,22 +208,40 @@
    },
    "vocab": [
     {
-     "term": "Assimilation",
+     "term": "Reservation System",
      "say": "",
+     "es": "Sistema de Reservaciones",
+     "def": "Federal policy that confined Native American tribes to designated areas of land, often far from their ancestral territories, as part of efforts to control indigenous populations and open land for white settlement."
+    },
+    {
+     "term": "Assimilation",
+     "say": "uh-sim-ih-LAY-shun",
      "es": "Asimilación",
      "def": "Federal policy aimed at forcing Native Americans to abandon their traditional cultures and adopt European-American ways of life, including language, religion, and customs."
     },
     {
      "term": "Dawes Act",
-     "say": "",
+     "say": "DAWZ",
      "es": "Ley Dawes",
-     "def": "An 1887 law that divided tribal lands into individual allotments for Native American families, aiming to break up reservations and assimilate Native Americans into mainstream American culture. It resulted in massive land loss."
+     "def": "An 1887 law that divided tribal lands into individual allotments for Native American families, aiming to break up reservations and assimilate Native Americans into mainstream American culture. It resulted in…"
     },
     {
-     "term": "Land Holdings (Bureau of Indian Affairs Records)",
+     "term": "Allotment",
      "say": "",
-     "es": "Tenencia de Tierras (Registros de la Oficina de Asuntos Indígenas)",
-     "def": "Native land holdings: 138 million acres (1887) → 48 million acres (1934)"
+     "es": "Asignación de Parcelas",
+     "def": "The division of communal tribal land into small individual plots under the Dawes Act, which opened \"surplus\" land to white settlers and caused massive Native land loss."
+    },
+    {
+     "term": "Boarding School",
+     "say": "",
+     "es": "Internado",
+     "def": "Off-reservation schools, such as Carlisle, where Native children were forced to abandon their languages, names, and cultures to be \"assimilated\" into white society."
+    },
+    {
+     "term": "Sovereignty",
+     "say": "",
+     "es": "Soberanía",
+     "def": "The right of a tribe or nation to govern itself; federal Indian policy in this era steadily eroded tribal sovereignty."
     }
    ],
    "sources": [
@@ -260,8 +297,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Assimilation",
-     "Dawes Act"
+     "Reservation System",
+     "Assimilation"
     ],
     "quiz": [
      {
@@ -302,9 +339,9 @@
     "The Dawes Act and Its Impact"
    ],
    "cues": [
-    "What does the passage say about movement to Reservations?",
-    "What does the passage say about assimilation and Boarding Schools?",
-    "What does the passage say about the Dawes Act and Its Impact?",
+    "Movement to Reservations",
+    "Assimilation & Boarding Schools",
+    "The Dawes Act & Its Impact",
     "Key terms →"
    ],
    "lenses": "History · Culture · Geography",
@@ -332,22 +369,34 @@
    },
    "vocab": [
     {
-     "term": "Reconstruction",
+     "term": "Compromise of 1877",
      "say": "",
-     "es": "Reconstrucción",
-     "def": "The period from 1865-1877 following the Civil War when the federal government worked to rebuild the South and integrate formerly enslaved people into American society as free citizens."
-    },
-    {
-     "term": "Exodusters",
-     "say": "",
-     "es": "Exodusters",
-     "def": "African Americans who migrated from the South to Kansas and other western states in the late 1870s, seeking to escape racial violence and economic oppression. Led by figures like Benjamin \"Pap\" Singleton."
+     "es": "Compromiso de 1877",
+     "def": "An informal agreement that resolved the disputed 1876 presidential election, resulting in Rutherford B. Hayes becoming president in exchange for removing federal troops from the South, effectively ending…"
     },
     {
      "term": "Jim Crow Laws",
      "say": "",
      "es": "Leyes de Jim Crow",
      "def": "State and local laws enacted primarily in the Southern states between 1877 and the 1960s that enforced racial segregation and denied African Americans their constitutional rights."
+    },
+    {
+     "term": "Disenfranchisement",
+     "say": "dis-en-FRAN-chyz-ment",
+     "es": "Privación del Derecho al Voto",
+     "def": "The systematic denial of voting rights through methods such as poll taxes, literacy tests, grandfather clauses, and violence, primarily targeting African American voters."
+    },
+    {
+     "term": "Plessy v. Ferguson",
+     "say": "",
+     "es": "Plessy contra Ferguson",
+     "def": "An 1896 Supreme Court decision that upheld racial segregation under the doctrine of \"separate but equal,\" legitimizing Jim Crow laws for nearly 60 years."
+    },
+    {
+     "term": "Exodusters",
+     "say": "",
+     "es": "Exodusters (colonos negros)",
+     "def": "African Americans who migrated from the South to Kansas and other western states in the late 1870s, seeking to escape racial violence and economic oppression. Led by figures like Benjamin \"Pap\" Singleton."
     }
    ],
    "sources": [
@@ -407,8 +456,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Reconstruction",
-     "Exodusters"
+     "Compromise of 1877",
+     "Jim Crow Laws"
     ],
     "quiz": [
      {
@@ -449,9 +498,10 @@
     "Pap Singleton and the Exodusters"
    ],
    "cues": [
-    "What does the passage say about the Election of 1876 and End of Reconstruction?",
-    "What does the passage say about jim Crow Laws, Lynching, and Disenfranchisement?",
-    "What does the passage say about pap Singleton and the Exodusters?",
+    "The Election of 1876 & End of Reconstruction",
+    "Jim Crow, Lynching & Disenfranchisement",
+    "Pap Singleton & the Exodusters",
+    "Plessy v. Ferguson",
     "Key terms →"
    ],
    "lenses": "Culture · History · Politics/Government · Tennessee Connection",
@@ -479,22 +529,40 @@
    },
    "vocab": [
     {
-     "term": "Crédit Mobilier Scandal",
-     "say": "",
-     "es": "Escándalo Crédit Mobilier",
-     "def": "A major 1872 corruption scandal involving the Union Pacific Railroad company overcharging the government for railroad construction and bribing congressmen to prevent investigation."
-    },
-    {
-     "term": "Interstate Commerce Act",
-     "say": "",
-     "es": "Ley de Comercio Interestatal",
-     "def": "An 1887 federal law that created the Interstate Commerce Commission to regulate railroad rates and practices, representing the first federal regulatory agency."
-    },
-    {
      "term": "Gilded Age",
      "say": "",
      "es": "Edad Dorada",
-     "def": "The period from roughly 1870 to 1900 characterized by rapid economic growth, industrialization, and extreme wealth inequality. Named by Mark Twain to suggest that a thin layer of prosperity covered deep social problems."
+     "def": "The period from roughly 1870 to 1900 characterized by rapid economic growth, industrialization, and extreme wealth inequality. Named by Mark Twain to suggest that a thin layer of prosperity covered deep social…"
+    },
+    {
+     "term": "Political Machines",
+     "say": "",
+     "es": "Máquinas Políticas",
+     "def": "Corrupt organizations that controlled city politics through patronage, bribery, and vote manipulation, often providing services to immigrants in exchange for political support."
+    },
+    {
+     "term": "Spoils System",
+     "say": "",
+     "es": "Sistema de Botín",
+     "def": "The practice of rewarding political supporters with government jobs regardless of qualifications, based on the principle \"to the victor belong the spoils.\""
+    },
+    {
+     "term": "Boss Tweed",
+     "say": "",
+     "es": "Jefe Tweed",
+     "def": "William M. Tweed, leader of New York City's Tammany Hall political machine, who controlled city politics and stole millions through kickbacks and corruption in the 1860s-1870s."
+    },
+    {
+     "term": "Thomas Nast",
+     "say": "",
+     "es": "Thomas Nast",
+     "def": "A political cartoonist whose illustrations exposed Boss Tweed's corruption and helped bring down the Tammany Hall machine, demonstrating the power of the press."
+    },
+    {
+     "term": "Pendleton Act",
+     "say": "",
+     "es": "Ley Pendleton",
+     "def": "An 1883 federal law that established the Civil Service Commission and required government jobs to be awarded based on merit through competitive examinations rather than political connections."
     }
    ],
    "sources": [
@@ -554,8 +622,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Crédit Mobilier Scandal",
-     "Interstate Commerce Act"
+     "Gilded Age",
+     "Political Machines"
     ],
     "quiz": [
      {
@@ -596,9 +664,10 @@
     "Civil Service Reform"
    ],
    "cues": [
-    "What does the passage say about political Machines and Boss Tweed?",
-    "What does the passage say about major Scandals and the Spoils System?",
-    "What does the passage say about civil Service Reform?",
+    "Political Machines & Boss Tweed",
+    "Scandals & the Spoils System",
+    "Civil Service & Economic Reform",
+    "Economic Disparity",
     "Key terms →"
    ],
    "lenses": "Economics · Politics/Government · History",
@@ -626,8 +695,14 @@
    },
    "vocab": [
     {
-     "term": "Vertical Integration",
+     "term": "Robber Barons/Captains of Industry",
      "say": "",
+     "es": "Barones Ladrones/Capitanes de Industria",
+     "def": "Wealthy industrialists of the late 1800s who built massive business empires. Critics called them \"robber barons\" for ruthless practices; supporters called them \"captains of industry\" for economic growth."
+    },
+    {
+     "term": "Vertical Integration",
+     "say": "VUR-tih-kul in-teh-GRAY-shun",
      "es": "Integración Vertical",
      "def": "A business strategy where a company controls all stages of production, from raw materials to finished product, as practiced by Andrew Carnegie in the steel industry."
     },
@@ -636,6 +711,24 @@
      "say": "",
      "es": "Integración Horizontal",
      "def": "A business strategy where a company buys out competitors in the same industry to reduce competition and control prices, as practiced by John D. Rockefeller in oil."
+    },
+    {
+     "term": "Monopoly",
+     "say": "muh-NOP-uh-lee",
+     "es": "Monopolio",
+     "def": "Complete control of a product or service by a single company, eliminating competition and allowing the company to set prices."
+    },
+    {
+     "term": "Trust",
+     "say": "",
+     "es": "Trust (Fideicomiso)",
+     "def": "A legal arrangement where stockholders in several companies transferred their shares to a single board of trustees, creating a monopoly while appearing to remain separate companies."
+    },
+    {
+     "term": "Bessemer Process",
+     "say": "",
+     "es": "Proceso Bessemer",
+     "def": "An efficient method of making steel by blowing air through molten iron, developed by Henry Bessemer, that made mass production of steel possible and revolutionized construction and manufacturing."
     }
    ],
    "sources": [
@@ -691,8 +784,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Vertical Integration",
-     "Horizontal Integration"
+     "Robber Barons/Captains of Industry",
+     "Vertical Integration"
     ],
     "quiz": [
      {
@@ -733,9 +826,9 @@
     "African American Entrepreneurs"
    ],
    "cues": [
-    "What does the passage say about technological Innovations?",
-    "What does the passage say about industrial Titans?",
-    "What does the passage say about african American Entrepreneurs?",
+    "Technological Innovations",
+    "Industrial Titans",
+    "African American Entrepreneurs",
     "Key terms →"
    ],
    "lenses": "Economics · History",
@@ -763,15 +856,39 @@
    "vocab": [
     {
      "term": "Urbanization",
-     "say": "",
+     "say": "ur-bun-ih-ZAY-shun",
      "es": "Urbanización",
      "def": "The rapid growth of cities due to industrialization and mass migration, transforming America from a predominantly rural to urban society."
     },
     {
-     "term": "Reconstruction",
+     "term": "Granger Movement",
      "say": "",
-     "es": "Reconstrucción",
-     "def": "The period from 1865-1877 following the Civil War when the federal government worked to rebuild the South and integrate formerly enslaved people into American society as free citizens."
+     "es": "Movimiento Granger",
+     "def": "A farmers' organization founded in 1867 that advocated for railroad regulation and fought against monopolistic practices that harmed farmers through high shipping rates."
+    },
+    {
+     "term": "Populism",
+     "say": "",
+     "es": "Populismo",
+     "def": "A political movement in the 1890s representing farmers and workers who sought government regulation of railroads, graduated income tax, and the free coinage of silver to combat economic inequality."
+    },
+    {
+     "term": "Interstate Commerce Act",
+     "say": "",
+     "es": "Ley de Comercio Interestatal",
+     "def": "An 1887 federal law that created the Interstate Commerce Commission to regulate railroad rates and practices, representing the first federal regulatory agency."
+    },
+    {
+     "term": "Tenement",
+     "say": "TEN-uh-ment",
+     "es": "Vivienda de Vecindad",
+     "def": "A crowded, often unsafe urban apartment building where many poor and immigrant families lived during rapid industrial-era city growth."
+    },
+    {
+     "term": "Industrialization",
+     "say": "",
+     "es": "Industrialización",
+     "def": "The shift from an economy based on farming and handcraft to one based on large factories, machines, and mass production."
     }
    ],
    "sources": [
@@ -828,7 +945,7 @@
     ],
     "frayer": [
      "Urbanization",
-     "Reconstruction"
+     "Granger Movement"
     ],
     "quiz": [
      {
@@ -869,9 +986,9 @@
     "Geographic Factors in Industrial Location"
    ],
    "cues": [
-    "What does the passage say about major Industrial Centers?",
-    "What does the passage say about rural-to-Urban Migration?",
-    "What does the passage say about geographic Factors in Industrial Location?",
+    "Major Industrial Centers",
+    "Rural-to-Urban Migration",
+    "Costs of Rapid Growth",
     "Key terms →"
    ],
    "lenses": "Geography · Economics",
@@ -898,6 +1015,12 @@
    },
    "vocab": [
     {
+     "term": "Old Immigrants",
+     "say": "",
+     "es": "Viejos Inmigrantes",
+     "def": "Immigrants who came to the United States primarily from Northern and Western Europe (England, Ireland, Germany, Scandinavia) before 1880, often Protestant and more easily assimilated."
+    },
+    {
      "term": "New Immigrants",
      "say": "",
      "es": "Nuevos Inmigrantes",
@@ -912,8 +1035,20 @@
     {
      "term": "Angel Island",
      "say": "",
-     "es": "Isla Angel",
+     "es": "Isla Ángel",
      "def": "The immigration station in San Francisco Bay from 1910 to 1940 that primarily processed Asian immigrants, especially Chinese, who faced lengthy detentions and harsh interrogations."
+    },
+    {
+     "term": "Push-Pull Factors",
+     "say": "",
+     "es": "Factores de Empuje y Atracción",
+     "def": "Push factors (poverty, persecution, lack of opportunity) drove people to leave their homelands, while pull factors (jobs, freedom, land) attracted them to America."
+    },
+    {
+     "term": "Ethnic Clusters",
+     "say": "",
+     "es": "Grupos Étnicos",
+     "def": "Neighborhoods where immigrants from the same country or region settled together, maintaining their language, culture, and traditions while adapting to American life."
     }
    ],
    "sources": [
@@ -973,8 +1108,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "New Immigrants",
-     "Ellis Island"
+     "Old Immigrants",
+     "New Immigrants"
     ],
     "quiz": [
      {
@@ -1015,9 +1150,10 @@
     "Push and Pull Factors"
    ],
    "cues": [
-    "What does the passage say about old and New Immigrants?",
-    "What does the passage say about entry Points and the Assimilation Process?",
-    "What does the passage say about push and Pull Factors?",
+    "Old vs. New Immigrants",
+    "Entry Points & Assimilation",
+    "Push & Pull Factors",
+    "Nativism & Restriction",
     "Key terms →"
    ],
    "lenses": "History · Geography · Culture",
