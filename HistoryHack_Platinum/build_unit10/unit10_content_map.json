@@ -1,0 +1,454 @@
+{
+ "US.83": {
+  "cornell_cues": [
+   "Great Society Programs Overview",
+   "Medicare's Effect on Healthcare",
+   "Urban Renewal Consequences",
+   "War on Poverty Effectiveness"
+  ],
+  "vocab": [
+   {
+    "term": "Great Society",
+    "es": "Gran Sociedad",
+    "def": "President Lyndon B. Johnson's 1960s domestic program to end poverty and racial injustice and expand education, health care, and civil rights."
+   },
+   {
+    "term": "War on Poverty",
+    "es": "Guerra contra la Pobreza",
+    "def": "LBJ's set of Great Society programs — including Head Start and Job Corps — created in 1964 to reduce poverty in the United States."
+   },
+   {
+    "term": "Medicare and Medicaid",
+    "es": "Medicare y Medicaid",
+    "def": "Federal health-insurance programs created in 1965: Medicare for Americans 65 and older, Medicaid for low-income families."
+   }
+  ],
+  "progress": {
+   "stem": "How did Medicare transform healthcare access for elderly Americans, and what challenges did it create?",
+   "choices": [
+    "It provided health insurance for seniors who previously faced discrimination, reducing bankruptcies, but costs escalated beyond projections, creating fiscal challenges",
+    "Medicare had no significant impact on elderly healthcare, although this overlooks critical economic and social factors when examined alongside the available primary and secondary sources",
+    "Medicare only covered wealthy Americans, which contradicts the primary source evidence from this era, which does not align with the documented historical record",
+    "The program was eliminated after one year due to lack of support, which contradicts the primary source evidence from this era, but closer analysis reveals a more complicated historical reality"
+   ],
+   "correct_idx": 0
+  }
+ },
+ "US.84": {
+  "cornell_cues": [
+   "Different Viewpoints on Social Activism",
+   "The Generation Gap",
+   "The Hippie Movement",
+   "Woodstock's Significance"
+  ],
+  "vocab": [
+   {
+    "term": "Counterculture",
+    "es": "Contracultura",
+    "def": "A 1960s youth movement that rejected mainstream values, embracing new music, dress, and views on peace, freedom, and social change."
+   },
+   {
+    "term": "Generation Gap",
+    "es": "Brecha Generacional",
+    "def": "The sharp differences in values, politics, and culture between 1960s youth and their parents' generation."
+   },
+   {
+    "term": "Hippie Movement",
+    "es": "Movimiento Hippie",
+    "def": "A counterculture group of the 1960s that promoted peace, love, communal living, and opposition to the Vietnam War."
+   }
+  ],
+  "progress": {
+   "stem": "How did the hippie movement challenge mainstream American values?",
+   "choices": [
+    "Hippies supported traditional American values, which contradicts the primary source evidence from this era, but the historical evidence paints a more nuanced picture",
+    "They rejected materialism, conformity, and militarism while embracing alternative lifestyles, peace, environmental awareness, and communal living",
+    "The hippie movement had no significant cultural impact, which does not align with the documented historical record",
+    "Hippies focused exclusively on political reform, although this view has been largely discredited by scholars"
+   ],
+   "correct_idx": 1
+  }
+ },
+ "US.85": {
+  "cornell_cues": [
+   "Significant Achievements",
+   "The \"Silent Majority\" Concept",
+   "Major Foreign Policy Initiatives"
+  ],
+  "vocab": [
+   {
+    "term": "Silent Majority",
+    "es": "Mayoría Silenciosa",
+    "def": "President Nixon's term for the many Americans who quietly supported his policies but did not join loud public protests."
+   },
+   {
+    "term": "Détente",
+    "es": "Distensión",
+    "def": "Nixon's policy of easing Cold War tensions with the Soviet Union and China through diplomacy and treaties."
+   },
+   {
+    "term": "Nixon Visits China",
+    "es": "Visita de Nixon a China",
+    "def": "Nixon's historic 1972 trip that reopened U.S. relations with Communist China after more than 20 years of hostility."
+   }
+  ],
+  "progress": {
+   "stem": "How did Nixon's \"Silent Majority\" strategy reshape American political campaigns and voter appeals?",
+   "choices": [
+    "The Silent Majority strategy had no lasting political impact, which represents a common misconception about the period despite the fact that multiple contemporary sources contradict this",
+    "Nixon only appealed to wealthy voters, which ignores key developments that shaped the outcome and does not reflect the scholarly consensus on this topic",
+    "It appealed to middle-class voters frustrated with protests and counterculture, winning working-class Democrats and reshaping Republican electoral strategy for decades",
+    "The strategy focused exclusively on young voters, though this interpretation lacks supporting historical evidence when examined alongside the available primary and secondary sources"
+   ],
+   "correct_idx": 2
+  }
+ },
+ "US.86": {
+  "cornell_cues": [
+   "The Break-in Circumstances",
+   "Media's Changing Role",
+   "United States v. Nixon",
+   "Ford's Pardon and Legacy of Distrust"
+  ],
+  "vocab": [
+   {
+    "term": "Watergate Scandal",
+    "es": "Escándalo de Watergate",
+    "def": "A political scandal beginning with a 1972 break-in at Democratic headquarters that exposed abuses of power and forced Nixon to resign in 1974."
+   },
+   {
+    "term": "United States v. Nixon",
+    "es": "Estados Unidos vs. Nixon",
+    "def": "A 1974 Supreme Court ruling that the president is not above the law and must release the Watergate tapes."
+   },
+   {
+    "term": "Executive Privilege",
+    "es": "Privilegio Ejecutivo",
+    "def": "A president's claimed right to keep some communications secret — rejected by the Court in the Watergate tapes case."
+   }
+  ],
+  "progress": {
+   "stem": "How did investigative journalism during Watergate change the relationship between media and government?",
+   "choices": [
+    "Media coverage had no significant impact on Watergate, which ignores key developments that shaped the outcome and fails to account for key developments in the broader context",
+    "The media supported Nixon throughout the scandal, but the historical record tells a more complex story when examined alongside the available primary and secondary sources",
+    "Journalism became less important after Watergate, which does not align with the documented historical record despite the fact that multiple contemporary sources contradict this",
+    "Woodward and Bernstein's persistent investigation demonstrated media's power to hold government accountable, establishing investigative journalism as crucial to democracy"
+   ],
+   "correct_idx": 3
+  }
+ },
+ "US.87": {
+  "cornell_cues": [
+   "Factors Leading to the Environmental Movement",
+   "EPA's Purpose and Functions",
+   "Love Canal Disaster",
+   "Three Mile Island Accident"
+  ],
+  "vocab": [
+   {
+    "term": "Environmentalism",
+    "es": "Ambientalismo",
+    "def": "A movement that grew in the 1960s-70s to protect nature and public health from pollution and industrial harm."
+   },
+   {
+    "term": "Environmental Protection Agency (EPA)",
+    "es": "Agencia de Protección Ambiental",
+    "def": "The federal agency created in 1970 to set and enforce standards for clean air, water, and land."
+   },
+   {
+    "term": "Earth Day",
+    "es": "Día de la Tierra",
+    "def": "First held April 22, 1970, a nationwide event that raised public awareness and support for protecting the environment."
+   }
+  ],
+  "progress": {
+   "stem": "What lessons did Love Canal and Three Mile Island teach Americans about industrial and nuclear safety?",
+   "choices": [
+    "Love Canal showed toxic waste dangers leading to Superfund, while Three Mile Island raised nuclear safety fears that halted reactor construction",
+    "These incidents had no lasting policy impact, but this oversimplifies the complex factors at work and oversimplifies the complex factors at work during this period",
+    "Both incidents proved industrial practices were completely safe, which does not align with the documented historical record",
+    "Only Love Canal affected environmental policy, although this overlooks critical economic and social factors"
+   ],
+   "correct_idx": 0
+  }
+ },
+ "US.88": {
+  "cornell_cues": [
+   "Economic Difficulties",
+   "Energy Crisis Implications",
+   "Panama Canal Treaty",
+   "Iran Hostage Crisis"
+  ],
+  "vocab": [
+   {
+    "term": "Stagflation",
+    "es": "Estanflación",
+    "def": "An unusual 1970s economy combining high inflation, high unemployment, and slow growth at the same time."
+   },
+   {
+    "term": "Energy Crisis",
+    "es": "Crisis Energética",
+    "def": "1970s fuel shortages and soaring gas prices, worsened by an OPEC oil embargo, that strained the U.S. economy."
+   },
+   {
+    "term": "Camp David Accords",
+    "es": "Acuerdos de Camp David",
+    "def": "A 1978 peace agreement between Egypt and Israel brokered by President Carter, a major diplomatic success."
+   }
+  ],
+  "progress": {
+   "stem": "What economic challenges did President Carter face, and why were his solutions unsuccessful?",
+   "choices": [
+    "Carter faced no significant economic challenges, although this overlooks critical economic and social factors, and this view has been largely revised by modern historical research",
+    "Stagflation combined high inflation and unemployment; his voluntary guidelines and monetary tightening proved insufficient against these complex, interconnected problems",
+    "The economy thrived during Carter's presidency, although historical sources do not support this conclusion and oversimplifies the complex factors at work during this period",
+    "Carter's policies immediately solved all economic problems, although this overlooks critical economic and social factors, which ignores significant political and cultural developments of the era"
+   ],
+   "correct_idx": 1
+  }
+ },
+ "US.89": {
+  "cornell_cues": [
+   "Strategies for Enhancing National Pride",
+   "Reaganomics Principles and Impacts",
+   "Strategic Defense Initiative",
+   "Iran-Contra Affair"
+  ],
+  "vocab": [
+   {
+    "term": "Reaganomics",
+    "es": "Reaganomía",
+    "def": "President Reagan's economic plan of tax cuts, reduced regulation, and lower domestic spending to spur growth (supply-side economics)."
+   },
+   {
+    "term": "Supply-Side Economics",
+    "es": "Economía de la Oferta",
+    "def": "The theory behind Reaganomics that cutting taxes on businesses and the wealthy encourages investment and benefits the whole economy."
+   },
+   {
+    "term": "Strategic Defense Initiative",
+    "es": "Iniciativa de Defensa Estratégica",
+    "def": "Reagan's proposed 1983 space-based missile-defense system, nicknamed 'Star Wars,' to intercept Soviet nuclear attacks."
+   }
+  ],
+  "progress": {
+   "stem": "Analyze the economic principles of Reaganomics and evaluate their impact on different groups of Americans.",
+   "choices": [
+    "Reaganomics affected all Americans equally, which does not align with the documented historical record, but contemporary accounts and primary sources suggest otherwise",
+    "Reaganomics eliminated all economic inequality, although historical sources do not support this conclusion and does not reflect the scholarly consensus on this topic",
+    "Supply-side tax cuts and deregulation promoted growth but increased inequality—wealthy Americans benefited most while social program cuts affected the poor",
+    "Only poor Americans benefited from Reagan's policies, but this fails to account for the broader historical context, which does not align with the documented historical record"
+   ],
+   "correct_idx": 2
+  }
+ },
+ "US.90": {
+  "cornell_cues": [
+   "Panama Invasion",
+   "Gulf War Context and Outcomes",
+   "Fall of Berlin Wall and Soviet Collapse (Honors)"
+  ],
+  "vocab": [
+   {
+    "term": "Persian Gulf War",
+    "es": "Guerra del Golfo Pérsico",
+    "def": "A 1991 U.S.-led coalition war that drove Iraqi forces out of Kuwait after Iraq's 1990 invasion."
+   },
+   {
+    "term": "Operation Desert Storm",
+    "es": "Operación Tormenta del Desierto",
+    "def": "The 1991 military campaign that quickly liberated Kuwait from Iraqi occupation."
+   },
+   {
+    "term": "Fall of the Berlin Wall",
+    "es": "Caída del Muro de Berlín",
+    "def": "The 1989 opening of the wall dividing East and West Berlin, a symbol of the Cold War's end."
+   }
+  ],
+  "progress": {
+   "stem": "How did Bush build international support for the Gulf War, and why was the military campaign successful?",
+   "choices": [
+    "The U.S. acted alone without international support, although this overlooks critical economic and social factors, which represents a common misconception about this historical period",
+    "The Gulf War lasted several years, despite limited evidence supporting this interpretation despite the fact that multiple contemporary sources contradict this",
+    "Coalition forces suffered heavy casualties, but this fails to account for the broader historical context, which represents a common misconception about this historical period",
+    "Bush assembled a UN-authorized coalition that quickly liberated Kuwait, demonstrating effective diplomacy, military superiority, and successful multilateral action"
+   ],
+   "correct_idx": 3
+  }
+ },
+ "US.91": {
+  "cornell_cues": [
+   "NAFTA Goals and Outcomes",
+   "Welfare-to-Work Transition",
+   "Scandals and Impeachment",
+   "Balanced Budget Significance"
+  ],
+  "vocab": [
+   {
+    "term": "NAFTA",
+    "es": "TLCAN",
+    "def": "The 1994 North American Free Trade Agreement removing most trade barriers among the U.S., Canada, and Mexico."
+   },
+   {
+    "term": "Welfare-to-Work Reform",
+    "es": "Reforma de Asistencia Social",
+    "def": "A 1996 Clinton-era law that limited welfare benefits and required recipients to find work."
+   },
+   {
+    "term": "Balanced Budget",
+    "es": "Presupuesto Equilibrado",
+    "def": "A federal budget in which spending does not exceed revenue; achieved in the late 1990s under Clinton."
+   }
+  ],
+  "progress": {
+   "stem": "What were the goals of NAFTA, and how did it affect American workers and the economy?",
+   "choices": [
+    "It eliminated trade barriers to boost economic growth, but while trade increased, manufacturing job losses to Mexico created ongoing debates about globalization's costs",
+    "NAFTA had no significant economic effects, but this fails to account for the broader historical context, but contemporary accounts and primary sources suggest otherwise",
+    "NAFTA only affected agricultural trade, yet the available evidence points to a different conclusion despite the fact that multiple contemporary sources contradict this",
+    "All American workers benefited equally from NAFTA, which ignores key developments that shaped the outcome, but contemporary accounts and primary sources suggest otherwise"
+   ],
+   "correct_idx": 0
+  }
+ },
+ "US.92": {
+  "cornell_cues": [
+   "Bush's Domestic and International Response",
+   "Afghanistan War",
+   "Iraq War",
+   "Global Counter-terrorism Efforts"
+  ],
+  "vocab": [
+   {
+    "term": "September 11, 2001 Attacks",
+    "es": "Ataques del 11 de Septiembre",
+    "def": "Coordinated al-Qaeda terrorist attacks that destroyed the World Trade Center and struck the Pentagon, killing nearly 3,000 people."
+   },
+   {
+    "term": "War on Terror",
+    "es": "Guerra contra el Terrorismo",
+    "def": "The U.S. global campaign after 9/11 to defeat terrorist groups and the nations that harbored them."
+   },
+   {
+    "term": "USA PATRIOT Act",
+    "es": "Ley Patriota",
+    "def": "A 2001 law expanding government surveillance powers to prevent terrorism, criticized by some as a threat to civil liberties."
+   }
+  ],
+  "progress": {
+   "stem": "What were the reasons for military action in Afghanistan and Iraq, and what were the consequences of each war?",
+   "choices": [
+    "Both wars achieved their stated objectives quickly, yet the available evidence points to a different conclusion and oversimplifies the complex factors at work during this period",
+    "Afghanistan targeted al-Qaeda and Taliban with initial success but became America's longest war; Iraq was based on WMD claims that proved false, creating instability",
+    "Neither war had significant consequences, which does not reflect the consensus among historians, which represents a common misconception about this historical period",
+    "Both wars were completed within one year, although this view has been largely discredited by scholars when examined alongside the available primary and secondary sources"
+   ],
+   "correct_idx": 1
+  }
+ },
+ "US.93": {
+  "cornell_cues": [
+   "Hillary Clinton's Contributions",
+   "Colin Powell's Leadership",
+   "Sandra Day O'Connor's Pioneering Impact",
+   "Condoleezza Rice's Foreign Policy Role"
+  ],
+  "vocab": [
+   {
+    "term": "Sandra Day O'Connor",
+    "es": "Sandra Day O'Connor",
+    "def": "The first woman to serve on the U.S. Supreme Court, appointed in 1981."
+   },
+   {
+    "term": "Colin Powell",
+    "es": "Colin Powell",
+    "def": "The first African American U.S. Secretary of State (2001) and Chairman of the Joint Chiefs of Staff."
+   },
+   {
+    "term": "Condoleezza Rice",
+    "es": "Condoleezza Rice",
+    "def": "The first African American woman U.S. Secretary of State (2005), a key foreign-policy leader."
+   }
+  ],
+  "progress": {
+   "stem": "Analyze how these leaders' achievements reflected broader changes in American society regarding gender and racial equality.",
+   "choices": [
+    "These individual achievements had no broader social significance, despite limited evidence supporting this interpretation, which does not align with the documented historical record",
+    "Racial and gender equality was fully achieved through their service, despite the fact that multiple sources contradict this view",
+    "Their success in previously exclusive positions demonstrated expanding opportunities while also revealing continuing barriers and debates about representation",
+    "Only one of these leaders faced discrimination, despite limited evidence supporting this interpretation when examined alongside the available primary and secondary sources"
+   ],
+   "correct_idx": 2
+  }
+ },
+ "US.94": {
+  "cornell_cues": [
+   "1970s Communication Technologies",
+   "Present-Day Communication Methods",
+   "Comparing Characteristics and Limitations",
+   "Societal Impact"
+  ],
+  "vocab": [
+   {
+    "term": "Internet Revolution",
+    "es": "Revolución de Internet",
+    "def": "The rapid late-20th-century spread of the internet, transforming how people communicate, work, and access information."
+   },
+   {
+    "term": "World Wide Web",
+    "es": "Red Informática Mundial",
+    "def": "A system of linked web pages, opened to the public in the 1990s, that made the internet easy to use."
+   },
+   {
+    "term": "Personal Computer",
+    "es": "Computadora Personal",
+    "def": "An affordable home computer that became common in the 1980s-90s, changing work, school, and daily life."
+   }
+  ],
+  "progress": {
+   "stem": "How have modern communication technologies changed the way Americans interact with each other and their government?",
+   "choices": [
+    "Modern technology has not changed communication patterns, which does not align with the documented historical record",
+    "Americans communicate less today than in the 1970s, which does not reflect the consensus among historians and does not reflect the scholarly consensus on this topic",
+    "Only young people use modern communication technology, which represents a common misconception about the period",
+    "Smartphones, social media, and internet enable instant global communication, transforming how citizens engage with politics, news, and each other"
+   ],
+   "correct_idx": 3
+  }
+ },
+ "US.95": {
+  "cornell_cues": [
+   "Major Achievements",
+   "Significant Setbacks",
+   "Partisan Conflicts"
+  ],
+  "vocab": [
+   {
+    "term": "Affordable Care Act",
+    "es": "Ley de Cuidado de Salud Asequible",
+    "def": "President Obama's 2010 health-care law ('Obamacare') expanding insurance coverage to millions of Americans."
+   },
+   {
+    "term": "Great Recession",
+    "es": "Gran Recesión",
+    "def": "The severe 2007-09 economic downturn — the worst since the Great Depression — marked by a housing and banking crisis."
+   },
+   {
+    "term": "American Recovery and Reinvestment Act",
+    "es": "Ley de Recuperación y Reinversión",
+    "def": "A 2009 stimulus law that used federal spending and tax cuts to fight the Great Recession."
+   }
+  ],
+  "progress": {
+   "stem": "How did Republican opposition limit Obama's ability to implement his agenda after 2010?",
+   "choices": [
+    "After 2010 midterm losses, Republican control of Congress led to legislative gridlock, government shutdowns, and blocking of Supreme Court nominations",
+    "Republicans fully supported Obama's agenda, which represents a common misconception about the period, though this interpretation lacks supporting historical evidence",
+    "Obama's agenda was unaffected by opposition, but this oversimplifies the complex factors at work, which represents a common misconception about this historical period",
+    "Democrats controlled Congress throughout his presidency, but this oversimplifies the complex factors at work, although historical sources do not support this conclusion"
+   ],
+   "correct_idx": 0
+  }
+ }
+}
