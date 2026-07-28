@@ -22,21 +22,39 @@
    "vocab": [
     {
      "term": "Fascism",
-     "say": "",
+     "say": "FASH-iz-um",
      "es": "Fascismo",
      "def": "An authoritarian political ideology that emphasizes extreme nationalism, militarism, totalitarian control, and a dictatorial leader. Suppresses opposition and glorifies the state above individual rights."
     },
     {
      "term": "Totalitarianism",
-     "say": "",
+     "say": "toh-tal-ih-TAIR-ee-uh-niz-um",
      "es": "Totalitarismo",
      "def": "A system of government where the state controls every aspect of public and private life, using propaganda, secret police, and terror to eliminate opposition."
     },
     {
+     "term": "Communism",
+     "say": "KOM-yoo-niz-um",
+     "es": "Comunismo",
+     "def": "A political and economic system in which the state owns property and the means of production in the name of the working class; in the 20th century it took the form of one-party dictatorship under leaders like…"
+    },
+    {
      "term": "Adolf Hitler",
-     "say": "",
+     "say": "AY-dolf HIT-ler",
      "es": "Adolf Hitler",
      "def": "Nazi dictator of Germany (1933-1945) who led Germany into World War II and orchestrated the Holocaust, resulting in the deaths of 6 million Jews and millions of others."
+    },
+    {
+     "term": "Benito Mussolini",
+     "say": "beh-NEE-toh moo-suh-LEE-nee",
+     "es": "Benito Mussolini",
+     "def": "Fascist dictator of Italy (1922-1943) who created the first fascist state, formed the Axis alliance with Hitler, and led Italy into World War II."
+    },
+    {
+     "term": "Joseph Stalin",
+     "say": "JOH-zef STAH-lin",
+     "es": "Joseph Stalin",
+     "def": "Communist dictator of the Soviet Union (1924-1953) who ruled through terror, forced collectivization, and purges, resulting in millions of deaths."
     }
    ],
    "sources": [
@@ -167,22 +185,40 @@
    },
    "vocab": [
     {
+     "term": "Quarantine Speech",
+     "say": "KWOR-un-teen speech",
+     "es": "Discurso de la Cuarentena",
+     "def": "FDR's 1937 address proposing that peace-loving nations 'quarantine' aggressor states to halt the spread of international lawlessness."
+    },
+    {
      "term": "Four Freedoms Speech",
-     "say": "",
+     "say": "for FREE-dumz speech",
      "es": "Discurso de las Cuatro Libertades",
      "def": "FDR's 1941 speech defining American war aims: freedom of speech, freedom of worship, freedom from want, and freedom from fear."
     },
     {
-     "term": "Quarantine Speech & Four Freedoms",
-     "say": "",
-     "es": "Discurso de Cuarentena y Cuatro Libertades",
-     "def": "Quarantine Speech (1937): isolate aggressor nations; Four Freedoms (1941): speech, worship, from want, from fear"
+     "term": "Lend-Lease Act (1941)",
+     "say": "lend lees akt",
+     "es": "Ley de Préstamo y Arriendo (1941)",
+     "def": "U.S. program allowing the President to lend or lease war supplies to any nation deemed vital to American defense, primarily Britain and the Soviet Union."
     },
     {
-     "term": "Atlantic Charter",
-     "say": "",
-     "es": "Carta del Atlántico",
-     "def": "August 1941: FDR and Churchill outlined post-war vision; self-determination, free trade, disarmament, peace"
+     "term": "Appeasement",
+     "say": "uh-PEEZ-ment",
+     "es": "Apaciguamiento",
+     "def": "Policy of making concessions to aggressive powers to avoid conflict. Britain's PM Chamberlain practiced appeasement with Hitler at the Munich Conference (1938), allowing Germany to annex the Sudetenland from…"
+    },
+    {
+     "term": "Axis Powers",
+     "say": "AK-sis POW-erz",
+     "es": "Potencias del Eje",
+     "def": "Military alliance of Germany, Italy, and Japan during World War II. United by shared goals of territorial expansion, militarism, and opposition to democratic nations."
+    },
+    {
+     "term": "Allied Powers",
+     "say": "AL-yd POW-erz",
+     "es": "Potencias Aliadas",
+     "def": "The World War II coalition led by the United States, Great Britain, and the Soviet Union that fought and defeated the Axis Powers."
     }
    ],
    "sources": [
@@ -242,8 +278,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Four Freedoms Speech",
-     "Quarantine Speech & Four Freedoms"
+     "Quarantine Speech",
+     "Four Freedoms Speech"
     ],
     "quiz": [
      {
@@ -314,21 +350,39 @@
    "vocab": [
     {
      "term": "Holocaust",
-     "say": "",
+     "say": "HOL-uh-kawst",
      "es": "Holocausto",
      "def": "Nazi Germany's systematic genocide of 6 million Jews and millions of others (Roma, disabled, homosexuals, political opponents) during World War II."
     },
     {
-     "term": "Liberation During War",
-     "say": "",
-     "es": "Liberación Durante Guerra",
-     "def": "U.S. forces liberated Dachau, Buchenwald camps; Eisenhower ordered extensive documentation of atrocities"
+     "term": "Nuremberg Laws (1935)",
+     "say": "NOOR-em-berg lawz",
+     "es": "Leyes de Nuremberg (1935)",
+     "def": "Nazi racial laws that stripped Jews of German citizenship, banned intermarriage between Jews and non-Jews, and defined \"Jewishness\" by ancestry. They institutionalized anti-Semitic persecution."
     },
     {
-     "term": "After the War",
-     "say": "",
-     "es": "Después de la Guerra",
-     "def": "Displaced Persons Act (1948): admitted 400,000 Holocaust survivors; evidence used at Nuremberg Trials"
+     "term": "Adolf Hitler",
+     "say": "AY-dolf HIT-ler",
+     "es": "Adolf Hitler",
+     "def": "Nazi dictator of Germany (1933-1945) who led Germany into World War II and orchestrated the Holocaust, resulting in the deaths of 6 million Jews and millions of others."
+    },
+    {
+     "term": "Totalitarianism",
+     "say": "toh-tal-ih-TAIR-ee-uh-niz-um",
+     "es": "Totalitarismo",
+     "def": "A system of government where the state controls every aspect of public and private life, using propaganda, secret police, and terror to eliminate opposition."
+    },
+    {
+     "term": "Appeasement",
+     "say": "uh-PEEZ-ment",
+     "es": "Apaciguamiento",
+     "def": "Policy of making concessions to aggressive powers to avoid conflict. Britain's PM Chamberlain practiced appeasement with Hitler at the Munich Conference (1938), allowing Germany to annex the Sudetenland from…"
+    },
+    {
+     "term": "Axis Powers",
+     "say": "AK-sis POW-erz",
+     "es": "Potencias del Eje",
+     "def": "Military alliance of Germany, Italy, and Japan during World War II. United by shared goals of territorial expansion, militarism, and opposition to democratic nations."
     }
    ],
    "sources": [
@@ -389,7 +443,7 @@
     ],
     "frayer": [
      "Holocaust",
-     "Liberation During War"
+     "Nuremberg Laws (1935)"
     ],
     "quiz": [
      {
@@ -460,21 +514,39 @@
    "vocab": [
     {
      "term": "Pearl Harbor",
-     "say": "",
+     "say": "purl HAR-ber",
      "es": "Pearl Harbor",
      "def": "Japan's surprise attack on the U.S. naval base in Hawaii on December 7, 1941, killing over 2,400 Americans and bringing the United States into World War II."
     },
     {
-     "term": "Pearl Harbor Attack",
-     "say": "",
-     "es": "Ataque a Pearl Harbor",
-     "def": "December 7, 1941: Japanese surprise attack on Hawaii; 2,403 killed; 8 battleships damaged/destroyed; Pacific Fleet devastated"
+     "term": "Hideki Tojo",
+     "say": "hee-DEH-kee TOH-joh",
+     "es": "Hideki Tojo",
+     "def": "Japanese military leader and Prime Minister (1941-1944) who led Japan into World War II and authorized the attack on Pearl Harbor."
     },
     {
-     "term": "\"Day of Infamy\" Speech",
-     "say": "",
-     "es": "Discurso \"Día de la Infamia\"",
-     "def": "FDR speech December 8: \"date which will live in infamy\"; Congress declared war on Japan; united nation"
+     "term": "Axis Powers",
+     "say": "AK-sis POW-erz",
+     "es": "Potencias del Eje",
+     "def": "Military alliance of Germany, Italy, and Japan during World War II. United by shared goals of territorial expansion, militarism, and opposition to democratic nations."
+    },
+    {
+     "term": "Allied Powers",
+     "say": "AL-yd POW-erz",
+     "es": "Potencias Aliadas",
+     "def": "The World War II coalition led by the United States, Great Britain, and the Soviet Union that fought and defeated the Axis Powers."
+    },
+    {
+     "term": "Lend-Lease Act (1941)",
+     "say": "lend lees akt",
+     "es": "Ley de Préstamo y Arriendo (1941)",
+     "def": "U.S. program allowing the President to lend or lease war supplies to any nation deemed vital to American defense, primarily Britain and the Soviet Union."
+    },
+    {
+     "term": "Nazi-Soviet Pact (1939)",
+     "say": "NOT-see SOH-vee-et pakt",
+     "es": "Pacto Nazi-Soviético (1939)",
+     "def": "Non-aggression agreement between Hitler and Stalin (August 1939) that shocked the world. Secret provisions divided Poland and Eastern Europe between Germany and the Soviet Union."
     }
    ],
    "sources": [
@@ -535,7 +607,7 @@
     ],
     "frayer": [
      "Pearl Harbor",
-     "Pearl Harbor Attack"
+     "Hideki Tojo"
     ],
     "quiz": [
      {
@@ -605,22 +677,40 @@
    },
    "vocab": [
     {
-     "term": "Holocaust",
-     "say": "",
-     "es": "Holocausto",
-     "def": "Nazi Germany's systematic genocide of 6 million Jews and millions of others (Roma, disabled, homosexuals, political opponents) during World War II."
+     "term": "Dwight D. Eisenhower",
+     "say": "dwyt EYE-zen-how-er",
+     "es": "Dwight D. Eisenhower",
+     "def": "Supreme Commander of Allied Forces in Europe who planned and led the D-Day invasion and coordinated Allied victory in Europe. Later became 34th President."
     },
     {
      "term": "Adolf Hitler",
-     "say": "",
+     "say": "AY-dolf HIT-ler",
      "es": "Adolf Hitler",
      "def": "Nazi dictator of Germany (1933-1945) who led Germany into World War II and orchestrated the Holocaust, resulting in the deaths of 6 million Jews and millions of others."
     },
     {
-     "term": "Benito Mussolini",
-     "say": "",
-     "es": "Benito Mussolini",
-     "def": "Fascist dictator of Italy (1922-1943) who created the first fascist state, formed the Axis alliance with Hitler, and led Italy into World War II."
+     "term": "Joseph Stalin",
+     "say": "JOH-zef STAH-lin",
+     "es": "Joseph Stalin",
+     "def": "Communist dictator of the Soviet Union (1924-1953) who ruled through terror, forced collectivization, and purges, resulting in millions of deaths."
+    },
+    {
+     "term": "Hideki Tojo",
+     "say": "hee-DEH-kee TOH-joh",
+     "es": "Hideki Tojo",
+     "def": "Japanese military leader and Prime Minister (1941-1944) who led Japan into World War II and authorized the attack on Pearl Harbor."
+    },
+    {
+     "term": "Allied Powers",
+     "say": "AL-yd POW-erz",
+     "es": "Potencias Aliadas",
+     "def": "The World War II coalition led by the United States, Great Britain, and the Soviet Union that fought and defeated the Axis Powers."
+    },
+    {
+     "term": "Axis Powers",
+     "say": "AK-sis POW-erz",
+     "es": "Potencias del Eje",
+     "def": "Military alliance of Germany, Italy, and Japan during World War II. United by shared goals of territorial expansion, militarism, and opposition to democratic nations."
     }
    ],
    "sources": [
@@ -680,7 +770,7 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Holocaust",
+     "Dwight D. Eisenhower",
      "Adolf Hitler"
     ],
     "quiz": [
@@ -751,22 +841,40 @@
    },
    "vocab": [
     {
+     "term": "D-Day (Normandy Invasion)",
+     "say": "dee-day NOR-mun-dee",
+     "es": "Día D (Invasión de Normandía)",
+     "def": "June 6, 1944 Allied invasion of Nazi-occupied France across the beaches of Normandy, the largest amphibious assault in history, turning point of the war in Europe."
+    },
+    {
      "term": "Battle of Midway",
-     "say": "",
+     "say": "BAT-ul uv MID-way",
      "es": "Batalla de Midway",
      "def": "June 1942 decisive U.S. naval victory that stopped Japanese expansion in the Pacific and marked the turning point of the Pacific War."
     },
     {
      "term": "Battle of Iwo Jima",
-     "say": "",
+     "say": "BAT-ul uv EE-woh JEE-muh",
      "es": "Batalla de Iwo Jima",
      "def": "February-March 1945 brutal battle for a strategic Pacific island, famous for the iconic flag-raising photograph on Mount Suribachi."
     },
     {
-     "term": "Pacific Theater",
-     "say": "",
-     "es": "Teatro del Pacífico",
-     "def": "Midway (1942): turned tide; Iwo Jima, Okinawa (1945): brutal island-hopping; MacArthur, Nimitz led"
+     "term": "Battle of the Bulge",
+     "say": "BAT-ul uv thuh bulj",
+     "es": "Batalla de las Ardenas",
+     "def": "Germany's last major offensive (December 1944-January 1945) in the Ardennes forest, creating a \"bulge\" in Allied lines before being defeated."
+    },
+    {
+     "term": "Dwight D. Eisenhower",
+     "say": "dwyt EYE-zen-how-er",
+     "es": "Dwight D. Eisenhower",
+     "def": "Supreme Commander of Allied Forces in Europe who planned and led the D-Day invasion and coordinated Allied victory in Europe. Later became 34th President."
+    },
+    {
+     "term": "Allied Powers",
+     "say": "AL-yd POW-erz",
+     "es": "Potencias Aliadas",
+     "def": "The World War II coalition led by the United States, Great Britain, and the Soviet Union that fought and defeated the Axis Powers."
     }
    ],
    "sources": [
@@ -826,8 +934,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Battle of Midway",
-     "Battle of Iwo Jima"
+     "D-Day (Normandy Invasion)",
+     "Battle of Midway"
     ],
     "quiz": [
      {
@@ -919,21 +1027,39 @@
    "vocab": [
     {
      "term": "Tuskegee Airmen",
-     "say": "",
+     "say": "tus-KEE-gee AIR-men",
      "es": "Aviadores de Tuskegee",
      "def": "First African American military pilots who fought in World War II, proving their skill despite facing racial discrimination and segregation."
     },
     {
      "term": "442nd Regimental Combat Team",
-     "say": "",
+     "say": "for-for-tee-SEK-und rej-ih-MEN-tul",
      "es": "442º Equipo de Combate Regimental",
      "def": "All Japanese-American unit that became the most decorated unit in U.S. military history, fighting in Europe while their families were interned at home."
     },
     {
      "term": "Navajo Code Talkers",
-     "say": "",
+     "say": "NAV-uh-hoh kohd TAWK-erz",
      "es": "Descifradores de Código Navajo",
      "def": "Navajo Marines who used their native language to create an unbreakable code for military communications in the Pacific theater."
+    },
+    {
+     "term": "Battle of Iwo Jima",
+     "say": "BAT-ul uv EE-woh JEE-muh",
+     "es": "Batalla de Iwo Jima",
+     "def": "February-March 1945 brutal battle for a strategic Pacific island, famous for the iconic flag-raising photograph on Mount Suribachi."
+    },
+    {
+     "term": "Allied Powers",
+     "say": "AL-yd POW-erz",
+     "es": "Potencias Aliadas",
+     "def": "The World War II coalition led by the United States, Great Britain, and the Soviet Union that fought and defeated the Axis Powers."
+    },
+    {
+     "term": "Holocaust",
+     "say": "HOL-uh-kawst",
+     "es": "Holocausto",
+     "def": "Nazi Germany's systematic genocide of 6 million Jews and millions of others (Roma, disabled, homosexuals, political opponents) during World War II."
     }
    ],
    "sources": [
@@ -1069,15 +1195,39 @@
    "vocab": [
     {
      "term": "Rosie the Riveter",
-     "say": "",
+     "say": "ROH-zee thuh RIV-eh-ter",
      "es": "Rosie la Remachadora",
      "def": "Cultural icon representing millions of American women who worked in factories and shipyards during World War II, filling jobs left by men who went to war."
     },
     {
-     "term": "Impact on Society",
-     "say": "",
-     "es": "Impacto en Sociedad",
-     "def": "Challenged gender stereotypes; many returned to domestic roles post-war but gained new opportunities; seeds of feminist movement"
+     "term": "Tuskegee Airmen",
+     "say": "tus-KEE-gee AIR-men",
+     "es": "Aviadores de Tuskegee",
+     "def": "First African American military pilots who fought in World War II, proving their skill despite facing racial discrimination and segregation."
+    },
+    {
+     "term": "Rationing",
+     "say": "RASH-un-ing",
+     "es": "Racionamiento",
+     "def": "Government-controlled limits on consumer goods during WWII to ensure adequate supplies for the military, requiring ration books and coupons."
+    },
+    {
+     "term": "War Bonds",
+     "say": "wor bondz",
+     "es": "Bonos de Guerra",
+     "def": "Government bonds sold to citizens to finance the war effort, promoted through massive publicity campaigns featuring celebrities and patriotic appeals."
+    },
+    {
+     "term": "Allied Powers",
+     "say": "AL-yd POW-erz",
+     "es": "Potencias Aliadas",
+     "def": "The World War II coalition led by the United States, Great Britain, and the Soviet Union that fought and defeated the Axis Powers."
+    },
+    {
+     "term": "442nd Regimental Combat Team",
+     "say": "for-for-tee-SEK-und rej-ih-MEN-tul",
+     "es": "442º Equipo de Combate Regimental",
+     "def": "All Japanese-American unit that became the most decorated unit in U.S. military history, fighting in Europe while their families were interned at home."
     }
    ],
    "sources": [
@@ -1138,7 +1288,7 @@
     ],
     "frayer": [
      "Rosie the Riveter",
-     "Impact on Society"
+     "Tuskegee Airmen"
     ],
     "quiz": [
      {
@@ -1209,22 +1359,40 @@
    },
    "vocab": [
     {
-     "term": "Fascism",
-     "say": "",
-     "es": "Fascismo",
-     "def": "An authoritarian political ideology that emphasizes extreme nationalism, militarism, totalitarian control, and a dictatorial leader. Suppresses opposition and glorifies the state above individual rights."
+     "term": "Executive Order 8802",
+     "say": "eg-ZEK-yuh-tiv OR-der",
+     "es": "Orden Ejecutiva 8802",
+     "def": "The June 1941 order signed by President Roosevelt banning racial discrimination in the defense industry and creating the Fair Employment Practices Committee."
+    },
+    {
+     "term": "Double V Campaign",
+     "say": "DUB-ul vee kam-PAYN",
+     "es": "Campaña de la Doble V",
+     "def": "A World War II campaign led by the Black press calling for a 'Double Victory' - over fascism abroad and racial discrimination at home."
     },
     {
      "term": "Tuskegee Airmen",
-     "say": "",
+     "say": "tus-KEE-gee AIR-men",
      "es": "Aviadores de Tuskegee",
      "def": "First African American military pilots who fought in World War II, proving their skill despite facing racial discrimination and segregation."
     },
     {
-     "term": "Fair Employment Practices",
-     "say": "",
-     "es": "Prácticas de Empleo Justo",
-     "def": "A. Philip Randolph threatened march; FDR created Fair Employment Practices Committee (Executive Order 8802, 1941); banned defense industry discrimination"
+     "term": "Rosie the Riveter",
+     "say": "ROH-zee thuh RIV-eh-ter",
+     "es": "Rosie la Remachadora",
+     "def": "Cultural icon representing millions of American women who worked in factories and shipyards during World War II, filling jobs left by men who went to war."
+    },
+    {
+     "term": "Rationing",
+     "say": "RASH-un-ing",
+     "es": "Racionamiento",
+     "def": "Government-controlled limits on consumer goods during WWII to ensure adequate supplies for the military, requiring ration books and coupons."
+    },
+    {
+     "term": "War Bonds",
+     "say": "wor bondz",
+     "es": "Bonos de Guerra",
+     "def": "Government bonds sold to citizens to finance the war effort, promoted through massive publicity campaigns featuring celebrities and patriotic appeals."
     }
    ],
    "sources": [
@@ -1284,8 +1452,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Fascism",
-     "Tuskegee Airmen"
+     "Executive Order 8802",
+     "Double V Campaign"
     ],
     "quiz": [
      {
@@ -1356,22 +1524,40 @@
    },
    "vocab": [
     {
+     "term": "Japanese Internment",
+     "say": "jap-uh-NEEZ in-TERN-ment",
+     "es": "Internamiento Japonés",
+     "def": "The forced relocation and incarceration of 120,000 Japanese Americans (two-thirds U.S. citizens) in concentration camps during WWII, based on racial prejudice, not evidence of disloyalty."
+    },
+    {
      "term": "Korematsu v. United States",
-     "say": "",
+     "say": "kor-eh-MAT-soo",
      "es": "Korematsu contra Estados Unidos",
      "def": "1944 Supreme Court decision upholding Japanese internment as a wartime necessity, later widely condemned as one of the Court's worst decisions."
     },
     {
+     "term": "Executive Order 9066",
+     "say": "eg-ZEK-yuh-tiv OR-der",
+     "es": "Orden Ejecutiva 9066",
+     "def": "The February 1942 order signed by President Roosevelt authorizing the military to exclude and relocate Japanese Americans from the West Coast."
+    },
+    {
+     "term": "442nd Regimental Combat Team",
+     "say": "for-for-tee-SEK-und rej-ih-MEN-tul",
+     "es": "442º Equipo de Combate Regimental",
+     "def": "All Japanese-American unit that became the most decorated unit in U.S. military history, fighting in Europe while their families were interned at home."
+    },
+    {
      "term": "Pearl Harbor",
-     "say": "",
+     "say": "purl HAR-ber",
      "es": "Pearl Harbor",
      "def": "Japan's surprise attack on the U.S. naval base in Hawaii on December 7, 1941, killing over 2,400 Americans and bringing the United States into World War II."
     },
     {
-     "term": "Executive Order 9066",
-     "say": "",
-     "es": "Orden Ejecutiva 9066",
-     "def": "Feb 1942: authorized removal from West Coast; racial prejudice, war hysteria; 2/3 were U.S. citizens"
+     "term": "Totalitarianism",
+     "say": "toh-tal-ih-TAIR-ee-uh-niz-um",
+     "es": "Totalitarismo",
+     "def": "A system of government where the state controls every aspect of public and private life, using propaganda, secret police, and terror to eliminate opposition."
     }
    ],
    "sources": [
@@ -1431,8 +1617,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Korematsu v. United States",
-     "Pearl Harbor"
+     "Japanese Internment",
+     "Korematsu v. United States"
     ],
     "quiz": [
      {
@@ -1503,21 +1689,39 @@
    "vocab": [
     {
      "term": "Rationing",
-     "say": "",
+     "say": "RASH-un-ing",
      "es": "Racionamiento",
      "def": "Government-controlled limits on consumer goods during WWII to ensure adequate supplies for the military, requiring ration books and coupons."
     },
     {
      "term": "War Bonds",
-     "say": "",
+     "say": "wor bondz",
      "es": "Bonos de Guerra",
      "def": "Government bonds sold to citizens to finance the war effort, promoted through massive publicity campaigns featuring celebrities and patriotic appeals."
     },
     {
+     "term": "Rosie the Riveter",
+     "say": "ROH-zee thuh RIV-eh-ter",
+     "es": "Rosie la Remachadora",
+     "def": "Cultural icon representing millions of American women who worked in factories and shipyards during World War II, filling jobs left by men who went to war."
+    },
+    {
      "term": "Manhattan Project",
-     "say": "",
+     "say": "man-HAT-un PROJ-ekt",
      "es": "Proyecto Manhattan",
      "def": "Top-secret U.S. program to develop the atomic bomb, involving sites at Oak Ridge (Tennessee), Los Alamos (New Mexico), and Hanford (Washington)."
+    },
+    {
+     "term": "Allied Powers",
+     "say": "AL-yd POW-erz",
+     "es": "Potencias Aliadas",
+     "def": "The World War II coalition led by the United States, Great Britain, and the Soviet Union that fought and defeated the Axis Powers."
+    },
+    {
+     "term": "Executive Order 8802",
+     "say": "eg-ZEK-yuh-tiv OR-der",
+     "es": "Orden Ejecutiva 8802",
+     "def": "The June 1941 order signed by President Roosevelt banning racial discrimination in the defense industry and creating the Fair Employment Practices Committee."
     }
    ],
    "sources": [
@@ -1649,21 +1853,39 @@
    "vocab": [
     {
      "term": "Manhattan Project",
-     "say": "",
+     "say": "man-HAT-un PROJ-ekt",
      "es": "Proyecto Manhattan",
      "def": "Top-secret U.S. program to develop the atomic bomb, involving sites at Oak Ridge (Tennessee), Los Alamos (New Mexico), and Hanford (Washington)."
     },
     {
      "term": "Atomic Bomb",
-     "say": "",
+     "say": "uh-TOM-ik bom",
      "es": "Bomba Atómica",
      "def": "Nuclear weapons dropped on Hiroshima (August 6) and Nagasaki (August 9, 1945), killing over 200,000 people and forcing Japan's surrender, ending World War II."
     },
     {
-     "term": "Truman's Rationale",
-     "say": "",
-     "es": "Razonamiento de Truman",
-     "def": "Avoided invasion that could kill 1M+; ended war quickly; demonstrated U.S. power; moral debate continues"
+     "term": "Battle of Iwo Jima",
+     "say": "BAT-ul uv EE-woh JEE-muh",
+     "es": "Batalla de Iwo Jima",
+     "def": "February-March 1945 brutal battle for a strategic Pacific island, famous for the iconic flag-raising photograph on Mount Suribachi."
+    },
+    {
+     "term": "Allied Powers",
+     "say": "AL-yd POW-erz",
+     "es": "Potencias Aliadas",
+     "def": "The World War II coalition led by the United States, Great Britain, and the Soviet Union that fought and defeated the Axis Powers."
+    },
+    {
+     "term": "Hideki Tojo",
+     "say": "hee-DEH-kee TOH-joh",
+     "es": "Hideki Tojo",
+     "def": "Japanese military leader and Prime Minister (1941-1944) who led Japan into World War II and authorized the attack on Pearl Harbor."
+    },
+    {
+     "term": "Pearl Harbor",
+     "say": "purl HAR-ber",
+     "es": "Pearl Harbor",
+     "def": "Japan's surprise attack on the U.S. naval base in Hawaii on December 7, 1941, killing over 2,400 Americans and bringing the United States into World War II."
     }
    ],
    "sources": [
@@ -1821,21 +2043,39 @@
    "vocab": [
     {
      "term": "Yalta Conference",
-     "say": "",
+     "say": "YAWL-tuh KON-fer-ens",
      "es": "Conferencia de Yalta",
      "def": "February 1945 meeting of Roosevelt, Churchill, and Stalin to plan post-war Europe, dividing Germany and establishing spheres of influence."
     },
     {
      "term": "Potsdam Conference",
-     "say": "",
+     "say": "POTS-dam KON-fer-ens",
      "es": "Conferencia de Potsdam",
      "def": "July-August 1945 meeting of Truman, Churchill/Attlee, and Stalin finalizing plans for occupied Germany and issuing surrender terms to Japan."
     },
     {
-     "term": "Cold War Begins",
-     "say": "",
-     "es": "Comienza Guerra Fría",
-     "def": "Stalin violated promises, imposed communism in Eastern Europe; U.S.-Soviet alliance collapsed into Cold War"
+     "term": "Joseph Stalin",
+     "say": "JOH-zef STAH-lin",
+     "es": "Joseph Stalin",
+     "def": "Communist dictator of the Soviet Union (1924-1953) who ruled through terror, forced collectivization, and purges, resulting in millions of deaths."
+    },
+    {
+     "term": "Atomic Bomb",
+     "say": "uh-TOM-ik bom",
+     "es": "Bomba Atómica",
+     "def": "Nuclear weapons dropped on Hiroshima (August 6) and Nagasaki (August 9, 1945), killing over 200,000 people and forcing Japan's surrender, ending World War II."
+    },
+    {
+     "term": "Allied Powers",
+     "say": "AL-yd POW-erz",
+     "es": "Potencias Aliadas",
+     "def": "The World War II coalition led by the United States, Great Britain, and the Soviet Union that fought and defeated the Axis Powers."
+    },
+    {
+     "term": "Axis Powers",
+     "say": "AK-sis POW-erz",
+     "es": "Potencias del Eje",
+     "def": "Military alliance of Germany, Italy, and Japan during World War II. United by shared goals of territorial expansion, militarism, and opposition to democratic nations."
     }
    ],
    "sources": [
@@ -1966,16 +2206,40 @@
    },
    "vocab": [
     {
-     "term": "Cordell Hull's Role",
-     "say": "",
-     "es": "Papel de Cordell Hull",
-     "def": "U.S. Secretary of State (1933-1944); \"Father of the United Nations\"; laid diplomatic groundwork; Nobel Peace Prize (1945)"
+     "term": "United Nations",
+     "say": "yoo-NY-ted NAY-shunz",
+     "es": "United Nations",
+     "def": "An international organization founded in 1945 by 50 nations to maintain global peace, security, and cooperation and to prevent another world war through collective diplomacy."
     },
     {
-     "term": "UN Charter & Structure",
-     "say": "",
-     "es": "Carta de ONU y Estructura",
-     "def": "Signed San Francisco (1945); Security Council (5 permanent members); General Assembly; International Court of Justice"
+     "term": "Cordell Hull",
+     "say": "kor-DEL hul",
+     "es": "Cordell Hull",
+     "def": "U.S. Secretary of State under Franklin D. Roosevelt (1933-1944), awarded the 1945 Nobel Peace Prize for his role in creating the United Nations."
+    },
+    {
+     "term": "Yalta Conference",
+     "say": "YAWL-tuh KON-fer-ens",
+     "es": "Conferencia de Yalta",
+     "def": "February 1945 meeting of Roosevelt, Churchill, and Stalin to plan post-war Europe, dividing Germany and establishing spheres of influence."
+    },
+    {
+     "term": "Allied Powers",
+     "say": "AL-yd POW-erz",
+     "es": "Potencias Aliadas",
+     "def": "The World War II coalition led by the United States, Great Britain, and the Soviet Union that fought and defeated the Axis Powers."
+    },
+    {
+     "term": "Four Freedoms Speech",
+     "say": "for FREE-dumz speech",
+     "es": "Discurso de las Cuatro Libertades",
+     "def": "FDR's 1941 speech defining American war aims: freedom of speech, freedom of worship, freedom from want, and freedom from fear."
+    },
+    {
+     "term": "Holocaust",
+     "say": "HOL-uh-kawst",
+     "es": "Holocausto",
+     "def": "Nazi Germany's systematic genocide of 6 million Jews and millions of others (Roma, disabled, homosexuals, political opponents) during World War II."
     }
    ],
    "sources": [
@@ -2035,8 +2299,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Cordell Hull's Role",
-     "UN Charter & Structure"
+     "United Nations",
+     "Cordell Hull"
     ],
     "quiz": [
      {
