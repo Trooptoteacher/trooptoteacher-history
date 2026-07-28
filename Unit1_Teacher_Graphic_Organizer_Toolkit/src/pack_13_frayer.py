@@ -22,11 +22,11 @@ CSS = r"""
   .fr-lbl .n{ color:var(--muted); font-weight:800; }
   /* center oval holding the term */
   .fr-oval{ position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
-    width:31%; height:26%; min-width:186px; background:var(--cream); border:3.5px solid var(--navy);
-    border-radius:50%; display:flex; flex-direction:column; align-items:center; justify-content:center;
-    text-align:center; z-index:5; box-shadow:0 0 0 6px var(--paper); padding:6px 10px; }
+    width:31%; height:27%; min-width:186px; background:var(--cream); border:3.5px solid var(--navy);
+    border-radius:50%; display:flex; flex-direction:column; align-items:center; justify-content:flex-start;
+    text-align:center; z-index:5; box-shadow:0 0 0 6px var(--paper); padding:16px 12px 10px; }
   .fr-oval .k{ font-size:8pt; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--red); }
-  .fr-oval .wl{ display:block; width:74%; border-bottom:2px solid var(--navy); height:16px; margin:14px auto 0; }
+  .fr-oval .wl{ display:block; width:76%; border-bottom:2px solid var(--navy); height:16px; margin:26px auto 0; }
 """
 
 BODY = r"""
