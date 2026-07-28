@@ -1,8 +1,13 @@
 # Unit 1 — the platinum worked example
 
-Unit 1 (Reconstruction & the Gilded Age · US.REC · US.01–US.07) is the gold standard. Every other unit
-copies its structure, quality, and rigor. Use it as the reference build; the source lives in
-`Unit1_Teacher_Graphic_Organizer_Toolkit/` (pack files in `src/`).
+Unit 1 in the approved Course Standard is **"The Rise of Industrialization" (1877–1900) · US.01–US.07**.
+Its organizer toolkit is the gold standard for structure, quality, and rigor — every other unit copies it.
+The source lives in `Unit1_Teacher_Graphic_Organizer_Toolkit/` (pack files in `src/`).
+
+> Note: the delivered Unit 1 toolkit's Quick Guide/SSP-crosswalk were first labeled "Reconstruction & the
+> Gilded Age (US.REC · US.01–US.07)" — a draft-scheme name. The organizer **content** (US.01–US.07) is
+> correct; only the unit label needs to read **"The Rise of Industrialization · US.01–US.07."** Fix labels
+> to the approved unit name when reusing.
 
 ## The 24-page set
 - **p1 — "Which Organizer, When?" Quick Guide** — task→organizer→why table, ≈Time column, and a

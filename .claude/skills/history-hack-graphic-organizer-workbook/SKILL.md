@@ -76,11 +76,14 @@ T-chart (with a TN box), a labeled timeline, and the Quick Guide generator.
 
 ## Process for building a unit
 
-1. **Source first (do not skip).** Follow `references/sourcing.md`: pull the unit's standards, learning
-   targets, and sourced content from the canonical files, and — critically — read the unit's **student
-   workbook chapter, student packets, and the student/teacher slide decks** to find the *high-impact
-   areas* those materials emphasize. Pre-make organizers for exactly those areas so the workbook aligns.
-   Record every fact's source. If you can't source a TN connection or a standard detail, don't print it.
+1. **Source first (do not skip) — from the APPROVED source only.** Follow `references/sourcing.md`. Unit
+   title + standard range come **verbatim** from the approved `standard_to_unit_map.json` in the Drive
+   "Platinum UDL Master" — never from the repo's `03_TEXTBOOK_UNITS/*` or `unit_standard_map.json` (those
+   are superseded drafts and are wrong). Then read the unit's **Student Workbook Platinum**: it is the
+   guide for *which* organizers to produce (its 7-activity cycle per standard — Frayer, HIPPO, CER,
+   Geographer's Lens, etc.) and the source of each labeled organizer's figures, terms, and framing. Pull
+   verbatim standards + "I can" targets from the unit's `standards_source.json`; pull images from the
+   History Hack bank (cited). Record every fact's source. If you can't source it, don't print it.
 
 2. **Map best-fit organizers.** For each standard, pick the organizer whose structure matches the task
    (compare 2 → Venn/T-chart; compare 3+ on criteria → matrix; causes/effects → cause-effect; sequence →
