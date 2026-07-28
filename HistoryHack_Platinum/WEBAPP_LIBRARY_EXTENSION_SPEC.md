@@ -1,78 +1,62 @@
-# Web App — Adding Documents to the Per-Unit Resource Sets (Digital Library)
+# Web App — Per-Unit Resource Sets in the Digital Library
 
-**Goal:** make each unit's document set (workbook, teacher guide, narrative textbook,
-student packet, decks, and anything added later) available on the History Hack web app,
-and make adding a new document a one-entry change going forward.
+**Reality check after reading the code:** the History Hack web app (`trooptoteacher/history-hack-web-app`)
+ALREADY has the full infrastructure for this — for both PDFs and decks. Almost nothing new is
+needed on the *model* side; the real work is uploading files to Azure Blob and turning on the flags.
 
-**Key finding:** the app ALREADY has this system — the gated **Digital Library**
-(`/library`), backed by Azure Blob + short-lived SAS links + auth/entitlement + per-view
-audit. Do NOT build a public downloads page; it would bypass licensing/audit. Extend the
-Library instead. (This is exactly how the DBQ Workbook/Teacher-Guide pair was added.)
+## What already exists
 
-Repo: `trooptoteacher/history-hack-web-app`
+### PDF library editions — `lib/storage/library-blob-path.ts`
+Blob layout `books/unitNN/HH_UnitNN_<Tier>.pdf`, served via short-lived SAS with auth + entitlement + audit.
+- `Reader` → **Source Reader** (the narrative textbook) ✅
+- `Worksheets` → **Student Worksheets** (student workbook) ✅
+- `TeacherKey` → **Teacher Key** (teacher guide, teacher-only) ✅
+- `DBQ_Workbook` / `DBQ_TeacherGuide` (units 1–3) ✅
 
----
+UI: `app/library/page.tsx` renders `UNITS × TIER_META`; teacher-only tiers hidden from students
+(`canAccessTier` in `lib/library/entitlement.ts`). Feature flag: `library-reader`.
 
-## The three pieces to add ONE new document edition ("tier")
+### Deck editions — `lib/storage/deck-blob-path.ts`
+Blob layout `decks/unitNN/HH_UnitNN_<Tier>.(pptx|pdf)`, own SAS (`deck-sas.ts`), downloads
+(`deck-downloads.ts`), gating (`canAccessDeckTier`), feature flag `lecture-decks`.
+- `LectureDeck` → the `.pptx` (teacher-only today) ✅
+- `DeckAnswerKey` → printable `.pdf` key (teacher-only) ✅
 
-### 1. Frontend registry  (I can author this)
-- `lib/storage/library-blob-path.ts`
-  - Add the token to the `LibraryTier` union and `LIBRARY_TIERS`.
-  - If it's only live for some units yet, add an availability list (mirror `LIBRARY_DBQ_UNITS` / `isTierAvailableForUnit`) so cards only render where a file exists — this is what prevents dead cards.
-  - Blob leaf follows the convention: `books/unitNN/HH_UnitNN_<Tier>.pdf`.
-- `app/library/page.tsx`
-  - Add a `TIER_META` entry: `{ tier, slug, labelEn, labelEs, teacherOnly }`.
-  - `teacherOnly: true` hides it from students (like `TeacherKey` / `DBQ_TeacherGuide`).
+## How our documents map
 
-### 2. Azure backend contract  (your infra — I cannot reach it)
-- The production SAS minter is the Hono backend (`historyhack-auth`), path
-  `${NEXT_PUBLIC_API_URL}/api/library/:unit/:tier/view`.
-- Add the same new tier token there so the SAS mint + role gate accept it.
-- Keep frontend and backend tier lists in lock-step (the code comments call this out).
-
-### 3. Upload the file  (your infra — I cannot reach it)
-- Upload the PDF to the `workbooks` container (account `sthistoryhackprod`, East US),
-  path `books/unitNN/HH_UnitNN_<Tier>.pdf`.
-- This mirrors the authoring repo `Trooptoteacher/History-Hack-US-History-Workbooks`.
-
-Once all three are in place, the card lights up for that unit and opens through the
-secure viewer, audited per view.
-
----
-
-## Mapping your documents
-
-| Your document | Edition (tier) | Action |
+| Document (this session / yours) | Existing edition | New work? |
 |---|---|---|
-| Narrative textbook | **`Reader`** ("Source Reader") — already exists | Just upload the blob (step 3). No code change. Confirm whether Reader is already populated per unit. |
-| Student packet | **New tier** e.g. `StudentPacket` (student-facing, `teacherOnly: false`) | Steps 1 + 2 + 3. |
-| Course Standard Student Workbook (this session) | Optional new tier e.g. `CourseStandard_Workbook` | Only if you want the platinum line in the licensed Library too. |
-| Course Standard Teacher Guide | Optional `CourseStandard_TeacherKey` (teacherOnly) | Same. |
-| Student / Teacher Decks (.pptx) | Optional `StudentDeck` / `TeacherDeck` | Note: the viewer today mints INLINE PDF views; PPTX would need either a PDF companion for in-browser view or an attachment-download variant. Decide viewer behavior first. |
+| Narrative textbook | `Reader` | Upload blob only |
+| Student Workbook (platinum) | `Worksheets` | Upload blob only |
+| Teacher Guide (How-to-Use & MTSS) | `TeacherKey` | Upload blob only |
+| Teacher (Full) Deck | `LectureDeck` | Upload blob only |
+| Teacher Answer Key (deck) | `DeckAnswerKey` | Upload blob only |
+| **Student (Lean) Deck** | — (LectureDeck is teacher-only) | **NEW student-facing deck tier** (small FE+BE change) |
 
-Note: the **Course Standard / Platinum** products I built this session live in a DIFFERENT
-source repo (`trooptoteacher-history`) than the Library's existing workbooks
-(`History-Hack-US-History-Workbooks`). Adding them to the Library is a product decision, not
-just a code change — confirm you want the platinum line in the paid Library.
+So the ONLY genuinely-new model piece is a **student-facing deck tier** (e.g. `StudentDeck`,
+`.pptx` or a PDF render) so the Lean deck can reach students. Everything else already has a home.
 
----
+## The remaining work, by owner
 
-## "Add to the sets as we go" — the steady-state workflow
-For every future document, per unit:
-1. Add/confirm the tier in the frontend registry + backend contract (once per new tier).
-2. Upload `HH_UnitNN_<Tier>.pdf` to the `workbooks` blob container.
-3. Add the unit to that tier's availability list (frontend) if it's unit-scoped.
+### Frontend (I can do)
+1. Add a `StudentDeck` tier to `DeckTier` + `DECK_TIERS` + extension/mime maps + `canAccessDeckTier`
+   (student-allowed) + `normalizeDeckTierParam` — mirrors the existing `LectureDeck` entry.
+2. Surface **deck editions** in `app/library/page.tsx` (today it lists only PDF tiers) — a deck
+   group per unit, availability-gated so cards only show where a blob exists (mirror `LIBRARY_DBQ_UNITS`).
+3. Add availability lists for the platinum editions so they light up per unit as blobs land.
 
-That's it — no page rewrites. `TIER_META` + the blob-path builder are the single source of truth.
+### Backend / infra (NOT reachable from this environment — see TODO + prompt)
+1. Azure Hono backend (`historyhack-auth`): add the `StudentDeck` tier to the deck SAS route +
+   role gate so it stays in lock-step with the frontend.
+2. Upload the actual files to Azure Blob:
+   - `books/unitNN/HH_UnitNN_Reader.pdf` (narrative)  · `HH_UnitNN_Worksheets.pdf` · `HH_UnitNN_TeacherKey.pdf`
+   - `decks/unitNN/HH_UnitNN_LectureDeck.pptx` · `HH_UnitNN_DeckAnswerKey.pdf` · `HH_UnitNN_StudentDeck.pptx`
+   Source files are in `trooptoteacher-history` → `HistoryHack_Platinum/deliverables_unitNN/`.
+3. Turn on feature flags (`library-reader`, `lecture-decks`) for the audience.
+4. Replace the entitlement STUB (`isEntitled` returns true for everyone) with a real license lookup
+   before commercial launch.
 
----
-
-## What I can do next from here
-- **Author the frontend registry diff** for the new editions you choose (Student Packet, and
-  optionally the platinum line / decks), availability-gated so nothing breaks before the
-  blobs exist — delivered as a ready-to-apply change to `history-hack-web-app`.
-- I **cannot** update the Azure backend contract or upload blobs (no infra access from here);
-  those are your pipeline / dev.
-
-Decide which editions you want, and whether the platinum products belong in the paid Library,
-and I'll stage the frontend piece.
+## Steady-state: "add a document as we go"
+Per new document, once its tier exists: drop `HH_UnitNN_<Tier>.<ext>` in the right blob container,
+add the unit to that tier's availability list. No page rewrites — `TIER_META` + the blob-path
+builders are the single source of truth.
