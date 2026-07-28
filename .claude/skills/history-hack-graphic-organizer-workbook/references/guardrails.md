@@ -29,8 +29,12 @@ are positioned to the full frame, but the SVG letterboxes (scales to fit, leavin
 label at, say, `left:12%` lands in the empty margin, not in the lobe. **Never position Venn text as HTML
 overlays over the circles.** The rule:
 - **Region labels and in-lobe hints go INSIDE the `<svg>`** as `<text>` at viewBox coordinates, so they
-  track the geometry no matter how it scales. Anchor at the lobe centers (e.g., left lobe ≈ x 210/900,
-  right lobe ≈ 690/900, lens ≈ 450/900).
+  track the geometry no matter how it scales. Anchor at the lobe centers — the non-overlapping part of
+  each circle, roughly halfway between the outer edge and the lens (for two circles at cx 330/570 r 245,
+  that's ≈ x 250 left / 650 right; lens ≈ 450). **Watch the vertical, too:** a circle is narrow near its
+  top and bottom, so a wide caption like "ONLY WASHINGTON" placed near the apex will run past the arc even
+  though its center is inside. Drop region captions down to where the chord is wide enough for the full
+  string (≈ 8–12% below the top), or shorten them — then confirm at render that both ends clear the arc.
 - **Topic identity labels + write-lines go in a legend row ABOVE the diagram** (HTML, clearly outside the
   circles): a colored swatch/dot + "Topic A: ____", one line for A/B/C. Do not float "Topic A:" over a
   circle's edge.
