@@ -51,6 +51,13 @@ EDITS = [
   out.push(...FILL_LIB.quickwrite('Which of these terms do you think will matter MOST for this standard, and why? You’ll revisit this at the end.'));""",
      """  {const _wl=s.vocab.reduce((a,v)=>a+Math.max(1,Math.ceil((v.def||'').length/52)),0);
    out.push(...vocabSelfCheck(code,Math.max(0,Math.min(4,23-_wl))));}"""),
+    # 7. LANGUAGE SUPPORT: no empty "Pronunciations: ." when the deck's terms carry no
+    #    pronunciation (e.g. proper nouns) — fall back to a Spanish-column note.
+    ("""  out.push(callout('LANGUAGE SUPPORT',['Pronunciations: '+s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.']));""",
+     """  {const _pron=s.vocab.filter(v=>v.say);
+   out.push(callout('LANGUAGE SUPPORT',[_pron.length
+     ? 'Pronunciations: '+_pron.map(v=>`${v.term} (${v.say})`).join('; ')+'.'
+     : 'Use the Spanish column in the Word Bank above to access these terms — cognates and translations support understanding, not translation of assessment.']));}"""),
 ]
 
 for old, new in EDITS:

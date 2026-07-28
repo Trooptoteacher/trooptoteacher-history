@@ -22,7 +22,7 @@
    "vocab": [
     {
      "term": "Imperialism",
-     "say": "",
+     "say": "im-PEER-ee-uh-liz-um",
      "es": "Imperialismo",
      "def": "A policy in which a stronger nation extends its economic, political, or military control over a weaker territory or nation."
     },
@@ -33,10 +33,28 @@
      "def": "Sensationalist newspaper reporting that exaggerates or fabricates stories to increase sales and influence public opinion."
     },
     {
-     "term": "Economic Motives",
+     "term": "Alfred Thayer Mahan",
+     "say": "AL-fred THAY-er muh-HAN",
+     "es": "Alfred Thayer Mahan",
+     "def": "U.S. naval officer and historian whose book \"The Influence of Sea Power upon History\" (1890) argued that national greatness depended on naval power, influencing American imperialism."
+    },
+    {
+     "term": "Spanish-American War",
      "say": "",
-     "es": "Motivos Económicos",
-     "def": "Need for raw materials for factories, new markets to sell American products, competition with European powers for resources and trade"
+     "es": "Guerra Hispano-Estadounidense",
+     "def": "A 1898 conflict between the United States and Spain, sparked by Cuban independence movements and the USS Maine explosion, resulting in American acquisition of overseas territories."
+    },
+    {
+     "term": "Roosevelt Corollary",
+     "say": "ROH-zuh-velt KOR-uh-lair-ee",
+     "es": "Corolario Roosevelt",
+     "def": "Theodore Roosevelt's 1904 addition to the Monroe Doctrine, asserting the U.S. right to intervene in Latin American countries to maintain stability and prevent European intervention."
+    },
+    {
+     "term": "Theodore Roosevelt",
+     "say": "",
+     "es": "Theodore Roosevelt",
+     "def": "The 26th U.S. President (1901-1909) known for progressive reforms, trust-busting, conservation, and aggressive foreign policy including building the Panama Canal and expanding American influence."
     }
    ],
    "sources": [
@@ -134,9 +152,9 @@
     "Yellow Journalism and Public Opinion"
    ],
    "cues": [
-    "What does the passage say about economic Motivations for Expansion?",
-    "What does the passage say about spreading American Democratic and Moral Ideals?",
-    "What does the passage say about yellow Journalism and Public Opinion?",
+    "Economic Motivations for Expansion",
+    "Spreading Democratic & Moral Ideals",
+    "Yellow Journalism & Public Opinion",
     "Key terms →"
    ],
    "lenses": "History · Geography · Economics",
@@ -165,21 +183,39 @@
    "vocab": [
     {
      "term": "Imperialism",
-     "say": "",
+     "say": "im-PEER-ee-uh-liz-um",
      "es": "Imperialismo",
      "def": "A policy in which a stronger nation extends its economic, political, or military control over a weaker territory or nation."
     },
     {
-     "term": "Militarism",
+     "term": "Yellow Journalism",
      "say": "",
-     "es": "Militarismo",
-     "def": "The belief that a nation should maintain a strong military and be prepared to use it to defend or promote national interests; one of the M.A.I.N. causes of World War I."
+     "es": "Periodismo Amarillo",
+     "def": "Sensationalist newspaper reporting that exaggerates or fabricates stories to increase sales and influence public opinion."
     },
     {
-     "term": "Henry Cabot Lodge",
+     "term": "Alfred Thayer Mahan",
+     "say": "AL-fred THAY-er muh-HAN",
+     "es": "Alfred Thayer Mahan",
+     "def": "U.S. naval officer and historian whose book \"The Influence of Sea Power upon History\" (1890) argued that national greatness depended on naval power, influencing American imperialism."
+    },
+    {
+     "term": "Spanish-American War",
      "say": "",
-     "es": "Henry Cabot Lodge",
-     "def": "Republican Senator from Massachusetts who led opposition to the Treaty of Versailles and League of Nations, fearing it would limit U.S. sovereignty and entangle America in European conflicts."
+     "es": "Guerra Hispano-Estadounidense",
+     "def": "A 1898 conflict between the United States and Spain, sparked by Cuban independence movements and the USS Maine explosion, resulting in American acquisition of overseas territories."
+    },
+    {
+     "term": "Roosevelt Corollary",
+     "say": "ROH-zuh-velt KOR-uh-lair-ee",
+     "es": "Corolario Roosevelt",
+     "def": "Theodore Roosevelt's 1904 addition to the Monroe Doctrine, asserting the U.S. right to intervene in Latin American countries to maintain stability and prevent European intervention."
+    },
+    {
+     "term": "Emilio Aguinaldo",
+     "say": "eh-MEE-lee-oh ah-gee-NAHL-doh",
+     "es": "Emilio Aguinaldo",
+     "def": "Filipino independence leader who initially fought alongside Americans against Spain, then led the Philippine resistance against U.S. occupation (1899-1901)."
     }
    ],
    "sources": [
@@ -236,7 +272,7 @@
     ],
     "frayer": [
      "Imperialism",
-     "Militarism"
+     "Yellow Journalism"
     ],
     "quiz": [
      {
@@ -277,9 +313,9 @@
     "Comparing Political, Economic, and Moral Factors"
    ],
    "cues": [
-    "What does the passage say about interventionist Arguments?",
-    "What does the passage say about non-Interventionist Arguments?",
-    "What does the passage say about comparing Political, Economic, and Moral Factors?",
+    "Interventionist Arguments",
+    "Non-Interventionist Arguments",
+    "Political, Economic & Moral Factors",
     "Key terms →"
    ],
    "lenses": "Politics/Government · Culture · History",
@@ -314,7 +350,7 @@
     },
     {
      "term": "Philippine Insurrection",
-     "say": "",
+     "say": "FILL-uh-peen in-suh-REK-shun",
      "es": "Insurrección Filipina",
      "def": "A guerrilla war (1899-1902) fought by Filipino independence fighters against U.S. forces after the Spanish-American War, when Filipinos realized America intended to rule rather than liberate them."
     },
@@ -323,6 +359,24 @@
      "say": "",
      "es": "Canal de Panamá",
      "def": "A man-made waterway connecting the Atlantic and Pacific Oceans, built by the United States (1904-1914) after supporting Panama's independence from Colombia."
+    },
+    {
+     "term": "Roosevelt Corollary",
+     "say": "ROH-zuh-velt KOR-uh-lair-ee",
+     "es": "Corolario Roosevelt",
+     "def": "Theodore Roosevelt's 1904 addition to the Monroe Doctrine, asserting the U.S. right to intervene in Latin American countries to maintain stability and prevent European intervention."
+    },
+    {
+     "term": "Theodore Roosevelt",
+     "say": "",
+     "es": "Theodore Roosevelt",
+     "def": "The 26th U.S. President (1901-1909) known for progressive reforms, trust-busting, conservation, and aggressive foreign policy including building the Panama Canal and expanding American influence."
+    },
+    {
+     "term": "Emilio Aguinaldo",
+     "say": "eh-MEE-lee-oh ah-gee-NAHL-doh",
+     "es": "Emilio Aguinaldo",
+     "def": "Filipino independence leader who initially fought alongside Americans against Spain, then led the Philippine resistance against U.S. occupation (1899-1901)."
     }
    ],
    "sources": [
@@ -420,9 +474,9 @@
     "Cuba and the Roosevelt Corollary"
    ],
    "cues": [
-    "What does the passage say about causes of the Spanish-American War?",
-    "What does the passage say about territorial Outcomes of American Imperialism?",
-    "What does the passage say about cuba and the Roosevelt Corollary?",
+    "Causes of the Spanish-American War",
+    "Territorial Outcomes of Imperialism",
+    "Cuba & the Roosevelt Corollary",
     "Key terms →"
    ],
    "lenses": "History · Geography",
@@ -475,12 +529,6 @@
    },
    "vocab": [
     {
-     "term": "Roosevelt Corollary",
-     "say": "",
-     "es": "Corolario Roosevelt",
-     "def": "Theodore Roosevelt's 1904 addition to the Monroe Doctrine, asserting the U.S. right to intervene in Latin American countries to maintain stability and prevent European intervention."
-    },
-    {
      "term": "Big Stick Diplomacy",
      "say": "",
      "es": "Diplomacia del Gran Garrote",
@@ -491,6 +539,30 @@
      "say": "",
      "es": "Diplomacia del Dólar",
      "def": "President William Howard Taft's foreign policy emphasizing American business investment and loans to extend influence abroad, especially in Latin America and East Asia."
+    },
+    {
+     "term": "Moral Diplomacy",
+     "say": "",
+     "es": "Diplomacia Moral",
+     "def": "Woodrow Wilson's foreign policy rejecting imperialism and emphasizing support for democratic governments and self-determination, though often inconsistently applied."
+    },
+    {
+     "term": "Theodore Roosevelt",
+     "say": "",
+     "es": "Theodore Roosevelt",
+     "def": "The 26th U.S. President (1901-1909) known for progressive reforms, trust-busting, conservation, and aggressive foreign policy including building the Panama Canal and expanding American influence."
+    },
+    {
+     "term": "William Howard Taft",
+     "say": "",
+     "es": "William Howard Taft",
+     "def": "The 27th U.S. President (1909-1913) who promoted Dollar Diplomacy, using American economic power to extend influence in Latin America and Asia."
+    },
+    {
+     "term": "Woodrow Wilson",
+     "say": "",
+     "es": "Woodrow Wilson",
+     "def": "The 28th U.S. President (1913-1921) who led America through WWI, promoted Moral Diplomacy, authored the Fourteen Points, and championed the League of Nations."
     }
    ],
    "sources": [
@@ -550,8 +622,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Roosevelt Corollary",
-     "Big Stick Diplomacy"
+     "Big Stick Diplomacy",
+     "Dollar Diplomacy"
     ],
     "quiz": [
      {
@@ -592,9 +664,9 @@
     "Woodrow Wilson's Moral Diplomacy (1913-1921)"
    ],
    "cues": [
-    "What does the passage say about theodore Roosevelt's Big Stick Diplomacy (1901-1909)?",
-    "What does the passage say about william Howard Taft's Dollar Diplomacy (1909-1913)?",
-    "What does the passage say about woodrow Wilson's Moral Diplomacy (1913-1921)?",
+    "Big Stick Diplomacy",
+    "Dollar Diplomacy",
+    "Moral Diplomacy",
     "Key terms →"
    ],
    "lenses": "Politics/Government · History · Geography",
@@ -623,7 +695,7 @@
    "vocab": [
     {
      "term": "Militarism",
-     "say": "",
+     "say": "MIL-ih-tuh-riz-um",
      "es": "Militarismo",
      "def": "The belief that a nation should maintain a strong military and be prepared to use it to defend or promote national interests; one of the M.A.I.N. causes of World War I."
     },
@@ -635,9 +707,27 @@
     },
     {
      "term": "Archduke Franz Ferdinand",
-     "say": "",
+     "say": "ARCH-dook FRANTS FUR-dih-nand",
      "es": "Archiduque Francisco Fernando",
      "def": "Heir to the Austro-Hungarian throne whose assassination in Sarajevo on June 28, 1914, by Serbian nationalist Gavrilo Princip triggered the chain of events leading to World War I."
+    },
+    {
+     "term": "Woodrow Wilson",
+     "say": "",
+     "es": "Woodrow Wilson",
+     "def": "The 28th U.S. President (1913-1921) who led America through WWI, promoted Moral Diplomacy, authored the Fourteen Points, and championed the League of Nations."
+    },
+    {
+     "term": "Imperialism",
+     "say": "im-PEER-ee-uh-liz-um",
+     "es": "Imperialismo",
+     "def": "A policy in which a stronger nation extends its economic, political, or military control over a weaker territory or nation."
+    },
+    {
+     "term": "Self-Determination",
+     "say": "self dee-tur-mih-NAY-shun",
+     "es": "Autodeterminación",
+     "def": "The principle that nations and peoples should have the right to decide their own political status and form of government, a key idea in Wilson's Fourteen Points."
     }
    ],
    "sources": [
@@ -735,9 +825,9 @@
     "Reasons for U.S. Neutrality"
    ],
    "cues": [
-    "What does the passage say about mAIN Causes of World War I?",
-    "What does the passage say about the Spark and Escalation?",
-    "What does the passage say about reasons for U.S. Neutrality?",
+    "MAIN Causes of World War I",
+    "The Spark & Escalation",
+    "Reasons for U.S. Neutrality",
     "Key terms →"
    ],
    "lenses": "History · Politics/Government",
@@ -781,21 +871,39 @@
    "vocab": [
     {
      "term": "Unrestricted Submarine Warfare",
-     "say": "",
+     "say": "un-ree-STRIK-ted SUB-muh-reen WOR-fair",
      "es": "Guerra Submarina Sin Restricciones",
      "def": "Germany's policy of attacking any ship—military or civilian—in the war zone around Britain without warning, which helped draw the United States into WWI."
     },
     {
      "term": "Zimmermann Telegram",
-     "say": "",
+     "say": "ZIM-er-mahn TEL-uh-gram",
      "es": "Telegrama Zimmermann",
      "def": "A 1917 secret message from Germany to Mexico proposing a military alliance against the United States, intercepted by the British and used to justify American entry into WWI."
     },
     {
-     "term": "Fourteen Points",
+     "term": "RMS Lusitania",
+     "say": "loo-suh-TAY-nee-uh",
+     "es": "RMS Lusitania",
+     "def": "British passenger ship torpedoed by a German U-boat on May 7, 1915, killing 1,198 people including 128 Americans, turning American public opinion against Germany."
+    },
+    {
+     "term": "Woodrow Wilson",
      "say": "",
-     "es": "Catorce Puntos",
-     "def": "Woodrow Wilson's 1918 peace plan emphasizing self-determination, free trade, open diplomacy, disarmament, and the creation of a League of Nations."
+     "es": "Woodrow Wilson",
+     "def": "The 28th U.S. President (1913-1921) who led America through WWI, promoted Moral Diplomacy, authored the Fourteen Points, and championed the League of Nations."
+    },
+    {
+     "term": "Militarism",
+     "say": "MIL-ih-tuh-riz-um",
+     "es": "Militarismo",
+     "def": "The belief that a nation should maintain a strong military and be prepared to use it to defend or promote national interests; one of the M.A.I.N. causes of World War I."
+    },
+    {
+     "term": "Alliance System",
+     "say": "",
+     "es": "Sistema de Alianzas",
+     "def": "The network of mutual defense agreements among European nations before WWI, creating two opposing blocs: Triple Alliance (Germany, Austria-Hungary, Italy) and Triple Entente (France, Russia, Britain)."
     }
    ],
    "sources": [
@@ -893,9 +1001,9 @@
     "Defense of Democracy and Economic Motivations"
    ],
    "cues": [
-    "What does the passage say about unrestricted Submarine Warfare?",
-    "What does the passage say about the Zimmermann Telegram?",
-    "What does the passage say about defense of Democracy and Economic Motivations?",
+    "Unrestricted Submarine Warfare",
+    "The Zimmermann Telegram",
+    "Defense of Democracy & Economics",
     "Key terms →"
    ],
    "lenses": "History · Politics/Government",
@@ -928,16 +1036,34 @@
      "def": "A type of combat in which soldiers fight from elaborate systems of trenches, creating a stalemate where neither side could advance; characteristic of WWI's Western Front."
     },
     {
-     "term": "John J. Pershing",
+     "term": "No Man's Land",
      "say": "",
+     "es": "Tierra de Nadie",
+     "def": "The dangerous, exposed ground between opposing trenches in WWI, filled with barbed wire, shell craters, and dead bodies."
+    },
+    {
+     "term": "John J. Pershing",
+     "say": "PUR-shing",
      "es": "John J. Pershing",
      "def": "Commander of the American Expeditionary Forces (AEF) in WWI, who insisted on keeping American troops together as an independent force rather than integrating them into Allied armies."
     },
     {
      "term": "Harlem Hellfighters",
-     "say": "",
+     "say": "HAR-lem HEL-fy-terz",
      "es": "Harlem Hellfighters",
      "def": "The 369th Infantry Regiment, a highly decorated African American unit that fought with the French army in WWI, spending 191 days in combat—more than any other American unit."
+    },
+    {
+     "term": "Alvin C. York",
+     "say": "",
+     "es": "Alvin C. York",
+     "def": "A Tennessee soldier who became one of WWI's most decorated American heroes after single-handedly capturing 132 German soldiers in the Meuse-Argonne Offensive."
+    },
+    {
+     "term": "Meuse-Argonne Offensive",
+     "say": "MYOOZ ar-GONN uh-FEN-siv",
+     "es": "Ofensiva Meuse-Argonne",
+     "def": "The largest and deadliest American battle of WWI (September-November 1918), where 1.2 million U.S. soldiers fought, helping to end the war but costing 26,000 American lives."
     }
    ],
    "sources": [
@@ -994,7 +1120,7 @@
     ],
     "frayer": [
      "Trench Warfare",
-     "John J. Pershing"
+     "No Man's Land"
     ],
     "quiz": [
      {
@@ -1035,9 +1161,9 @@
     "Harlem Hellfighters and Alvin C. York"
    ],
    "cues": [
-    "What does the passage say about trench Warfare and New Technologies?",
-    "What does the passage say about herbert Hoover and John J. Pershing?",
-    "What does the passage say about harlem Hellfighters and Alvin C. York?",
+    "Trench Warfare & New Technology",
+    "Herbert Hoover & John J. Pershing",
+    "Harlem Hellfighters & Alvin C. York",
     "Key terms →"
    ],
    "lenses": "History · Geography · Tennessee Connection",
@@ -1065,21 +1191,39 @@
    "vocab": [
     {
      "term": "Committee on Public Information",
-     "say": "",
+     "say": "kuh-MIT-ee on PUB-lik in-fer-MAY-shun",
      "es": "Comité de Información Pública",
      "def": "A government propaganda agency created in 1917 to build support for WWI through posters, films, speeches, and censorship of anti-war messages."
     },
     {
+     "term": "Espionage and Sedition Acts",
+     "say": "ES-pee-uh-nahzh and suh-DISH-un akts",
+     "es": "Leyes de Espionaje y Sedición",
+     "def": "Laws passed in 1917-1918 making it illegal to interfere with the draft, criticize the government or war effort, or encourage disloyalty, severely limiting free speech during WWI."
+    },
+    {
      "term": "Schenck v. United States",
-     "say": "",
+     "say": "SHENK versus united states",
      "es": "Schenck v. Estados Unidos",
      "def": "A 1919 Supreme Court case that upheld the Espionage Act, ruling that speech creating a \"clear and present danger\" could be restricted, even in peacetime."
     },
     {
      "term": "George Creel",
-     "say": "",
+     "say": "KREEL",
      "es": "George Creel",
      "def": "Journalist who headed the Committee on Public Information during WWI, creating America's first large-scale government propaganda campaign to build support for the war."
+    },
+    {
+     "term": "Armistice Day",
+     "say": "",
+     "es": "Día del Armisticio",
+     "def": "November 11, 1918—the day WWI fighting ended at 11:00 AM when Germany signed an armistice agreement; now commemorated as Veterans Day in the United States."
+    },
+    {
+     "term": "Woodrow Wilson",
+     "say": "",
+     "es": "Woodrow Wilson",
+     "def": "The 28th U.S. President (1913-1921) who led America through WWI, promoted Moral Diplomacy, authored the Fourteen Points, and championed the League of Nations."
     }
    ],
    "sources": [
@@ -1140,7 +1284,7 @@
     ],
     "frayer": [
      "Committee on Public Information",
-     "Schenck v. United States"
+     "Espionage and Sedition Acts"
     ],
     "quiz": [
      {
@@ -1181,9 +1325,9 @@
     "Women and Minorities"
    ],
    "cues": [
-    "What does the passage say about political Changes and Expanded Federal Power?",
-    "What does the passage say about economic Effects and Voluntary Rationing?",
-    "What does the passage say about women and Minorities?",
+    "Expanded Federal Power",
+    "Economic Effects & Rationing",
+    "Women & Minorities",
     "Key terms →"
    ],
    "lenses": "History · Economics · Culture",
@@ -1212,21 +1356,39 @@
    "vocab": [
     {
      "term": "Fourteen Points",
-     "say": "",
+     "say": "FOR-teen points",
      "es": "Catorce Puntos",
      "def": "Woodrow Wilson's 1918 peace plan emphasizing self-determination, free trade, open diplomacy, disarmament, and the creation of a League of Nations."
     },
     {
      "term": "Treaty of Versailles",
-     "say": "",
+     "say": "TREE-tee of ver-SIGH",
      "es": "Tratado de Versalles",
      "def": "The 1919 peace treaty ending WWI that blamed Germany for the war, imposed massive reparations, stripped Germany of territory, and created the League of Nations."
     },
     {
      "term": "League of Nations",
-     "say": "",
+     "say": "leeg of NAY-shunz",
      "es": "Liga de Naciones",
      "def": "An international organization created after WWI to prevent future wars through collective security and diplomacy; the United States never joined due to Senate opposition."
+    },
+    {
+     "term": "Henry Cabot Lodge",
+     "say": "KAB-ut lodj",
+     "es": "Henry Cabot Lodge",
+     "def": "Republican Senator from Massachusetts who led opposition to the Treaty of Versailles and League of Nations, fearing it would limit U.S. sovereignty and entangle America in European conflicts."
+    },
+    {
+     "term": "Self-Determination",
+     "say": "self dee-tur-mih-NAY-shun",
+     "es": "Autodeterminación",
+     "def": "The principle that nations and peoples should have the right to decide their own political status and form of government, a key idea in Wilson's Fourteen Points."
+    },
+    {
+     "term": "Woodrow Wilson",
+     "say": "",
+     "es": "Woodrow Wilson",
+     "def": "The 28th U.S. President (1913-1921) who led America through WWI, promoted Moral Diplomacy, authored the Fourteen Points, and championed the League of Nations."
     }
    ],
    "sources": [
@@ -1324,9 +1486,9 @@
     "Impact on World Politics"
    ],
    "cues": [
-    "What does the passage say about wilson's Fourteen Points?",
-    "What does the passage say about causes of U.S. Rejection of the League?",
-    "What does the passage say about impact on World Politics?",
+    "Wilson's Fourteen Points",
+    "Causes of U.S. Rejection",
+    "Impact on World Politics",
     "Key terms →"
    ],
    "lenses": "Politics/Government · History · Culture",

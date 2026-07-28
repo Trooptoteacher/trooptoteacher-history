@@ -250,7 +250,10 @@ function block(code){
     new TextRun({text:v.term,bold:true,size:18,font:FONT,color:INK}),
     new TextRun({text:v.def,size:18,font:FONT,color:INK}),
     new TextRun({text:v.es,size:18,font:FONT,color:INK})]),[2683,4282,2683]));
-  out.push(callout('LANGUAGE SUPPORT',['Pronunciations: '+s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.']));
+  {const _pron=s.vocab.filter(v=>v.say);
+   out.push(callout('LANGUAGE SUPPORT',[_pron.length
+     ? 'Pronunciations: '+_pron.map(v=>`${v.term} (${v.say})`).join('; ')+'.'
+     : 'Use the Spanish column in the Word Bank above to access these terms — cognates and translations support understanding, not translation of assessment.']));}
   {const _wl=s.vocab.reduce((a,v)=>a+Math.max(1,Math.ceil((v.def||'').length/52)),0);
    out.push(...vocabSelfCheck(code,Math.max(0,Math.min(4,23-_wl))));}
   // Activity 2 — Frayer

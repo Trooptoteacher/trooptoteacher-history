@@ -96,6 +96,17 @@ python3 scripts/check_parity.py "TEACHER_DECK.pptx" unit<N>_content.json   # exi
 ```
 Run it after ANY deck or workbook edit. Exit 1 prints every mismatch.
 
+### When the teacher deck is over the 10 MB Drive cap (no binary)
+You do NOT need the binary to reconcile vocab. The Drive connector's `read_file_content`
+returns a deck's full slide TEXT at any size. Save that result (`{"fileContent": "..."}`) and:
+```bash
+python3 scripts/wordwall_from_text.py read_file_content.json deck_vocab.json
+```
+It yields the same `{code:[{term,say,es,def}]}` the binary path produces (Unit 3, US.19–27,
+was reconciled this way — 6 terms/standard, verified). Then overwrite `standards[code].vocab`
++ `auth.frayer` from `deck_vocab.json` and rebuild. (check_parity.py still needs the binary;
+when you only have text, verify workbook vocab == `deck_vocab.json` instead.)
+
 ### Rebuilding the workbook (runs from the unit's build workspace)
 The workbook builder reads `analysis/unit<N>_content.json` and writes `deliverables/`. Run it
 from the unit workspace (e.g. `/home/user/Unit<N>_Claude_Core/`) so its local `node_modules`
