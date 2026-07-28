@@ -24,19 +24,37 @@
      "term": "White-Collar Jobs",
      "say": "",
      "es": "Empleos de Cuello Blanco",
-     "def": "Professional, managerial, and clerical jobs that grew dramatically in the 1950s as the U.S. economy shifted from manufacturing to service industries. Workers in these jobs typically wore white dress shirts to offices rather than blue work shirts to factories."
+     "def": "Office and professional occupations (managers, salespeople, clerks) that grew rapidly in the 1950s, outnumbering factory workers for the first time."
     },
     {
      "term": "Suburban Ideal",
      "say": "",
      "es": "Ideal Suburbano",
-     "def": "The 1950s American dream of owning a single-family home in the suburbs with a yard, garage, and modern appliances. Suburbs like Levittown offered affordable housing for middle-class families leaving cities."
+     "def": "The 1950s American dream of owning a single-family home in the suburbs with a yard, garage, and modern appliances, drawing families out of cities."
     },
     {
      "term": "G.I. Bill",
      "say": "",
      "es": "Ley G.I.",
-     "def": "The Servicemen's Readjustment Act of 1944 that provided veterans with benefits including college tuition, low-cost mortgages, and unemployment insurance. It helped millions of WWII veterans buy homes and get education, fueling 1950s prosperity."
+     "def": "The Servicemen’s Readjustment Act of 1944, which gave veterans college tuition, home loans, and job training, creating a massive new middle class."
+    },
+    {
+     "term": "Consumerism",
+     "say": "",
+     "es": "Consumismo",
+     "def": "The 1950s economic culture of buying goods beyond basic needs—televisions, cars, appliances, homes—driving growth and defining postwar life."
+    },
+    {
+     "term": "Levittown",
+     "say": "",
+     "es": "Levittown",
+     "def": "The first mass-produced suburb, built by William Levitt on Long Island starting in 1947 using assembly-line techniques to build homes quickly and cheaply."
+    },
+    {
+     "term": "Foreign Oil Dependence",
+     "say": "",
+     "es": "Dependencia de Petróleo Extranjero",
+     "def": "America’s growing reliance on imported petroleum from the Middle East to fuel its car-centered economy, creating vulnerabilities in the 1970s."
     }
    ],
    "sources": [
@@ -174,19 +192,7 @@
      "term": "Baby Boom",
      "say": "",
      "es": "Explosión de Natalidad",
-     "def": "The dramatic increase in birth rates from 1946-1964, when 76 million babies were born. This generation transformed American economy and culture as they grew up, creating demand for schools, products, and services."
-    },
-    {
-     "term": "G.I. Bill",
-     "say": "",
-     "es": "Ley G.I.",
-     "def": "The Servicemen's Readjustment Act of 1944 that provided veterans with benefits including college tuition, low-cost mortgages, and unemployment insurance. It helped millions of WWII veterans buy homes and get education, fueling 1950s prosperity."
-    },
-    {
-     "term": "Causes of the Baby Boom",
-     "say": "",
-     "es": "Causas del Baby Boom",
-     "def": "WWII veterans returning home; economic prosperity; G.I. Bill benefits; cultural emphasis on family; improved medical care"
+     "def": "The dramatic increase in birth rates from 1946–1964, when 76 million babies were born, transforming the American economy and culture as they grew up."
     }
    ],
    "sources": [
@@ -246,8 +252,7 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Baby Boom",
-     "G.I. Bill"
+     "Baby Boom"
     ],
     "quiz": [
      {
@@ -320,19 +325,13 @@
      "term": "Interstate Highway System",
      "say": "",
      "es": "Sistema de Autopistas Interestatales",
-     "def": "Massive network of highways authorized by President Eisenhower in 1956, covering 41,000 miles. Built for national defense and economic development, it transformed American travel, commerce, and settlement patterns."
+     "def": "Massive 41,000-mile highway network authorized by President Eisenhower in 1956 that transformed American travel, commerce, and settlement patterns."
     },
     {
      "term": "Polio Vaccine",
      "say": "",
      "es": "Vacuna contra la Polio",
-     "def": "Dr. Jonas Salk's 1955 vaccine that virtually eliminated polio, a crippling disease that had terrorized American families. Mass vaccination campaigns made it one of the great medical triumphs of the 1950s."
-    },
-    {
-     "term": "Salk Polio Vaccine (1955)",
-     "say": "",
-     "es": "Vacuna Salk contra la Polio (1955)",
-     "def": "Eliminated feared disease; 45,000+ cases/year before vaccine; restored confidence in medical science; children could safely attend schools"
+     "def": "The vaccine developed by Dr. Jonas Salk, announced safe in April 1955, that ended the epidemic that had paralyzed or killed thousands of children yearly."
     }
    ],
    "sources": [
@@ -464,22 +463,40 @@
    },
    "vocab": [
     {
+     "term": "Suburban Ideal",
+     "say": "",
+     "es": "Ideal Suburbano",
+     "def": "The 1950s American dream of owning a single-family home in the suburbs with a yard, garage, and modern appliances, drawing families out of cities."
+    },
+    {
+     "term": "Interstate Highway System",
+     "say": "",
+     "es": "Sistema de Autopistas Interestatales",
+     "def": "Massive 41,000-mile highway network authorized by President Eisenhower in 1956 that transformed American travel, commerce, and settlement patterns."
+    },
+    {
+     "term": "Automobile Culture",
+     "say": "",
+     "es": "Cultura del Automóvil",
+     "def": "The 1950s lifestyle centered on cars, which symbolized freedom and prosperity, reshaping cities, suburbs, and daily life across America."
+    },
+    {
      "term": "Fast Food Chains",
      "say": "",
      "es": "Cadenas de Comida Rápida",
-     "def": "Standardized restaurants offering quick, inexpensive meals that spread along highways in the 1950s. McDonald's, opened by Ray Kroc in 1955, became the symbol of this new industry."
+     "def": "Restaurant businesses like McDonald’s that used assembly-line prep and drive-through service to feed automobile travelers quickly and cheaply."
+    },
+    {
+     "term": "Motel/Hotel Chains",
+     "say": "",
+     "es": "Cadenas de Moteles/Hoteles",
+     "def": "Standardized roadside lodging like Holiday Inn, founded 1952, built along highways to serve automobile travelers with predictable quality and amenities."
     },
     {
      "term": "Levittown",
      "say": "",
      "es": "Levittown",
-     "def": "Pioneering planned suburban community built by William Levitt starting in 1947. Mass-produced affordable homes made homeownership accessible to middle-class families, becoming the model for suburban development."
-    },
-    {
-     "term": "Car Ownership Explosion",
-     "say": "",
-     "es": "Explosión de Propiedad de Autos",
-     "def": "1945: 25M registered cars; 1960: 61M cars; average family owned car by 1960; symbol of freedom and prosperity"
+     "def": "The first mass-produced suburb, built by William Levitt on Long Island starting in 1947 using assembly-line techniques to build homes quickly and cheaply."
     }
    ],
    "sources": [
@@ -539,8 +556,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Fast Food Chains",
-     "Levittown"
+     "Suburban Ideal",
+     "Interstate Highway System"
     ],
     "quiz": [
      {
@@ -640,19 +657,13 @@
      "term": "Television",
      "say": "",
      "es": "Televisión",
-     "def": "The dominant mass medium of the 1950s that transformed American home life, politics, and culture. TV ownership grew from 9% of homes in 1950 to 87% by 1960."
+     "def": "The electronic medium that became the dominant form of American entertainment and information by the late 1950s, creating shared national experiences."
     },
     {
      "term": "Mass Media",
      "say": "",
      "es": "Medios Masivos",
-     "def": "Forms of communication reaching large audiences, including television, radio, newspapers, and magazines. In the 1950s, mass media gained unprecedented influence over American opinions, politics, and purchasing habits."
-    },
-    {
-     "term": "Rapid TV Adoption",
-     "say": "",
-     "es": "Adopción Rápida de TV",
-     "def": "1950: 9% of homes had TV; 1960: 87% had TV; average viewing 5+ hours/day; replaced radio as center of home entertainment"
+     "def": "Communication channels—TV, radio, newspapers, magazines—that reach large audiences at once; in the 1950s television became the most powerful medium."
     }
    ],
    "sources": [
@@ -787,19 +798,37 @@
      "term": "Beatniks",
      "say": "",
      "es": "Beatniks",
-     "def": "Members of the 1950s Beat Generation who rejected mainstream culture, materialism, and conformity. Writers like Jack Kerouac and Allen Ginsberg challenged conventional values."
+     "def": "Members of the 1950s Beat Generation—writers like Jack Kerouac and Allen Ginsberg—who rejected mainstream culture, materialism, and conformity."
     },
     {
-     "term": "Rock 'n' Roll",
+     "term": "Rock ’n’ Roll",
      "say": "",
-     "es": "Rock 'n' Roll",
-     "def": "Revolutionary music genre emerging in the 1950s that combined rhythm and blues, country, and gospel. Elvis Presley became the \"King of Rock 'n' Roll,\" representing youth rebellion and cultural change."
+     "es": "Rock ’n’ Roll",
+     "def": "Revolutionary 1950s music genre combining rhythm and blues, country, and gospel; Elvis Presley became its “King,” representing youth rebellion."
     },
     {
      "term": "Elvis Presley",
      "say": "",
      "es": "Elvis Presley",
-     "def": "Tennessee singer who became \"The King of Rock 'n' Roll\" in the 1950s. His music, style, and performances revolutionized American popular culture and launched rock music as a global phenomenon."
+     "def": "Tennessee singer who became “The King of Rock ’n’ Roll” in the 1950s, revolutionizing popular culture and launching rock as a global phenomenon."
+    },
+    {
+     "term": "Sun Studio",
+     "say": "",
+     "es": "Sun Studio",
+     "def": "Memphis recording studio where Elvis Presley, Johnny Cash, Jerry Lee Lewis, and others recorded, creating the “Memphis Sound” of rock ’n’ roll."
+    },
+    {
+     "term": "Stax Records",
+     "say": "",
+     "es": "Stax Records",
+     "def": "Memphis record label founded 1957, legendary for soul music and home to Otis Redding and Isaac Hayes, putting Tennessee at the center of American music."
+    },
+    {
+     "term": "B.B. King",
+     "say": "",
+     "es": "B.B. King",
+     "def": "Mississippi-born blues guitarist who recorded in Memphis and became “King of the Blues,” shaping rock, soul, and popular music from Tennessee."
     }
    ],
    "sources": [
@@ -860,7 +889,7 @@
     ],
     "frayer": [
      "Beatniks",
-     "Rock 'n' Roll"
+     "Rock ’n’ Roll"
     ],
     "quiz": [
      {
@@ -933,19 +962,19 @@
      "term": "New Frontier",
      "say": "",
      "es": "Nueva Frontera",
-     "def": "President John F. Kennedy's 1960s domestic program promoting economic growth, education, civil rights, and space exploration. Represented optimism and progressive change."
+     "def": "President John F. Kennedy’s 1960s domestic program promoting economic growth, education, civil rights, and space exploration; a symbol of optimism."
     },
     {
      "term": "Peace Corps",
      "say": "",
      "es": "Cuerpo de Paz",
-     "def": "Volunteer program created by President Kennedy in 1961 sending Americans to developing countries to help with education, health, and economic development while promoting goodwill."
+     "def": "Volunteer program created by President Kennedy in 1961, sending Americans to developing countries to help with education, health, and economic development."
     },
     {
-     "term": "New Frontier Programs",
+     "term": "Moon Landing Goal",
      "say": "",
-     "es": "Programas de la Nueva Frontera",
-     "def": "Federal aid to education; civil rights enforcement; tax cuts for growth; increased minimum wage; Medicare proposal (passed later)"
+     "es": "Objetivo de Aterrizaje Lunar",
+     "def": "President Kennedy’s 1961 pledge to land Americans on the moon before 1970, mobilizing national resources, advancing technology, and inspiring a generation."
     }
    ],
    "sources": [

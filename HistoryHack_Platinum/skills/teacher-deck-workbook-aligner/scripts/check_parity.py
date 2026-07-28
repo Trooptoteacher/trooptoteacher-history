@@ -49,6 +49,11 @@ def deck_content(deck):
             vocab[c] = terms
     return di, vocab
 
+def _n(x):
+    # normalize curly quotes/apostrophes so "Tennessee’s" == "Tennessee's"
+    return (x.lower().replace("’", "'").replace("‘", "'")
+            .replace("“", '"').replace("”", '"').strip())
+
 def main(deck, content):
     di, dvoc = deck_content(deck)
     wb = json.load(open(content)); st = wb["standards"]
@@ -57,10 +62,10 @@ def main(deck, content):
         s = st[c]
         crit = s.get("criteria", [])
         dilabels = di.get(c, [])
-        di_ok = [d.lower() for d in dilabels[:len(crit)]] == [x.lower() for x in crit]
+        di_ok = [_n(d) for d in dilabels[:len(crit)]] == [_n(x) for x in crit]
         wv = [v["term"] for v in s.get("vocab", [])]
         dv = dvoc.get(c, [])
-        v_ok = [x.lower() for x in wv] == [x.lower() for x in dv]
+        v_ok = [_n(x) for x in wv] == [_n(x) for x in dv]
         if not (di_ok and v_ok):
             ok = False
             print(f"[{c}] DRIFT")

@@ -50,7 +50,18 @@ EDITS = [
     ("""  out.push(...vocabSelfCheck(code));
   out.push(...FILL_LIB.quickwrite('Which of these terms do you think will matter MOST for this standard, and why? You’ll revisit this at the end.'));""",
      """  {const _wl=s.vocab.reduce((a,v)=>a+Math.max(1,Math.ceil((v.def||'').length/52)),0);
-   out.push(...vocabSelfCheck(code,Math.max(0,Math.min(4,23-_wl))));}"""),
+   const _sparse=s.vocab.length<=3;   // deck Word Wall thin on terms -> fill the page with real work, not blanks
+   out.push(...vocabSelfCheck(code,_sparse?1:Math.max(0,Math.min(4,23-_wl))));
+   if(_sparse){
+     out.push(callout('APPLY THE VOCABULARY — show you own each term',['Use each term below in your own words, connected to this standard. Write, say, or diagram your answer.']));
+     const prompts=s.vocab.length===1
+       ? ['use it in a sentence about this standard','where do you see its effects today? explain or draw','why did it matter for this era?']
+       : ['use it in a sentence about this standard, then give a real example or a quick sketch'];
+     const per=s.vocab.length===1?5:s.vocab.length===2?6:3;
+     s.vocab.forEach(v=>{ prompts.forEach(pr=>{
+       out.push(P([R(v.term+':  ',{s:21,b:true,c:NAVY}),R(pr+'.',{s:20})],{spacing:{before:70,after:30}}));
+       out.push(...ruled(per)); }); });
+   }}"""),
     # 7. LANGUAGE SUPPORT: no empty "Pronunciations: ." when the deck's terms carry no
     #    pronunciation (e.g. proper nouns) — fall back to a Spanish-column note.
     ("""  out.push(callout('LANGUAGE SUPPORT',['Pronunciations: '+s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.']));""",
