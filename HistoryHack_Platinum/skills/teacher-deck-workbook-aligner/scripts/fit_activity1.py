@@ -57,7 +57,8 @@ EDITS = [
      const prompts=s.vocab.length===1
        ? ['use it in a sentence about this standard','where do you see its effects today? explain or draw','why did it matter for this era?']
        : ['use it in a sentence about this standard, then give a real example or a quick sketch'];
-     const per=s.vocab.length===1?5:s.vocab.length===2?6:3;
+     const _slots=s.vocab.length===1?3:s.vocab.length;
+     const per=Math.max(2,Math.min(6,Math.round(Math.max(3,18-_wl)/_slots)));
      s.vocab.forEach(v=>{ prompts.forEach(pr=>{
        out.push(P([R(v.term+':  ',{s:21,b:true,c:NAVY}),R(pr+'.',{s:20})],{spacing:{before:70,after:30}}));
        out.push(...ruled(per)); }); });

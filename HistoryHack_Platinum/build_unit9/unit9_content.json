@@ -24,7 +24,19 @@
      "term": "Brown v. Board of Education",
      "say": "",
      "es": "Brown contra el Consejo de Educación",
-     "def": "The landmark 1954 Supreme Court decision that declared state laws establishing separate public schools for Black and white students unconstitutional, overturning Plessy v. Ferguson and ending legal school segregation."
+     "def": "The landmark 1954 Supreme Court decision that declared state laws establishing separate public schools for Black and white students unconstitutional, overturning Plessy v. Ferguson and ending legal school…"
+    },
+    {
+     "term": "Clinton 12",
+     "say": "",
+     "es": "Los 12 de Clinton",
+     "def": "The 12 African American students who integrated Clinton High School in Tennessee in 1956, making it the first state-supported high school in the South to integrate following Brown v. Board of Education."
+    },
+    {
+     "term": "Little Rock Nine",
+     "say": "",
+     "es": "Los Nueve de Little Rock",
+     "def": "The nine African American students who integrated Central High School in Little Rock, Arkansas in 1957, facing violent mobs and requiring federal troops protection ordered by President Eisenhower."
     },
     {
      "term": "Thurgood Marshall",
@@ -33,10 +45,10 @@
      "def": "Chief counsel for the NAACP Legal Defense Fund who argued Brown v. Board of Education before the Supreme Court and later became the first African American Supreme Court Justice in 1967."
     },
     {
-     "term": "Resistance",
+     "term": "Orval Faubus",
      "say": "",
-     "es": "Resistencia",
-     "def": "Southern states launched \"massive resistance\" campaign to defy ruling."
+     "es": "Orval Faubus",
+     "def": "Arkansas Governor who defied the Supreme Court by using the National Guard to prevent the Little Rock Nine from integrating Central High School in 1957."
     }
    ],
    "sources": [
@@ -93,7 +105,7 @@
     ],
     "frayer": [
      "Brown v. Board of Education",
-     "Thurgood Marshall"
+     "Clinton 12"
     ],
     "quiz": [
      {
@@ -163,22 +175,34 @@
    },
    "vocab": [
     {
-     "term": "Little Rock Nine",
-     "say": "",
-     "es": "Los Nueve de Little Rock",
-     "def": "The nine African American students who integrated Central High School in Little Rock, Arkansas in 1957, facing violent mobs and requiring federal troops protection ordered by President Eisenhower."
-    },
-    {
-     "term": "Thurgood Marshall",
-     "say": "",
-     "es": "Thurgood Marshall",
-     "def": "Chief counsel for the NAACP Legal Defense Fund who argued Brown v. Board of Education before the Supreme Court and later became the first African American Supreme Court Justice in 1967."
-    },
-    {
      "term": "Rosa Parks",
      "say": "",
      "es": "Rosa Parks",
      "def": "The \"Mother of the Civil Rights Movement\" who refused to give up her bus seat to a white passenger in Montgomery, Alabama in 1955, sparking the Montgomery Bus Boycott."
+    },
+    {
+     "term": "Dr. Martin Luther King Jr.",
+     "say": "",
+     "es": "Dr. Martin Luther King Jr.",
+     "def": "Baptist minister and the most prominent leader of the Civil Rights Movement, advocating nonviolent resistance and delivering the iconic \"I Have a Dream\" speech at the 1963 March on Washington."
+    },
+    {
+     "term": "Malcolm X",
+     "say": "",
+     "es": "Malcolm X",
+     "def": "Influential civil rights leader and Nation of Islam minister who advocated for Black nationalism, self-defense, and economic independence before his assassination in 1965."
+    },
+    {
+     "term": "Bull Connor",
+     "say": "",
+     "es": "Bull Connor",
+     "def": "Birmingham, Alabama's Commissioner of Public Safety who violently opposed civil rights protesters in 1963, using police dogs and fire hoses against peaceful demonstrators, including children."
+    },
+    {
+     "term": "Strom Thurmond",
+     "say": "",
+     "es": "Strom Thurmond",
+     "def": "South Carolina Senator who opposed civil rights legislation and conducted the longest individual filibuster in Senate history (24 hours, 18 minutes) against the Civil Rights Act of 1957."
     }
    ],
    "sources": [
@@ -234,8 +258,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Little Rock Nine",
-     "Thurgood Marshall"
+     "Rosa Parks",
+     "Dr. Martin Luther King Jr."
     ],
     "quiz": [
      {
@@ -305,22 +329,40 @@
    },
    "vocab": [
     {
-     "term": "Little Rock Nine",
+     "term": "Montgomery Bus Boycott",
      "say": "",
-     "es": "Los Nueve de Little Rock",
-     "def": "The nine African American students who integrated Central High School in Little Rock, Arkansas in 1957, facing violent mobs and requiring federal troops protection ordered by President Eisenhower."
+     "es": "Boicot de Autobuses de Montgomery",
+     "def": "The 381-day boycott (1955-1956) of the Montgomery, Alabama bus system by African Americans protesting segregated seating, ending when the Supreme Court ruled bus segregation unconstitutional."
     },
     {
-     "term": "Rosa Parks",
+     "term": "Freedom Riders",
      "say": "",
-     "es": "Rosa Parks",
-     "def": "The \"Mother of the Civil Rights Movement\" who refused to give up her bus seat to a white passenger in Montgomery, Alabama in 1955, sparking the Montgomery Bus Boycott."
+     "es": "Jinetes de la Libertad",
+     "def": "Interracial groups of civil rights activists who rode interstate buses into the segregated South in 1961 to challenge illegal segregation of public transportation, facing violent attacks."
     },
     {
-     "term": "Bull Connor",
+     "term": "Highlander Folk School",
      "say": "",
-     "es": "Bull Connor",
-     "def": "Birmingham, Alabama's Commissioner of Public Safety who violently opposed civil rights protesters in 1963, using police dogs and fire hoses against peaceful demonstrators, including children."
+     "es": "Escuela Popular Highlander",
+     "def": "Tennessee education center founded in 1932 that trained civil rights leaders including Rosa Parks, Martin Luther King Jr., and John Lewis in nonviolent resistance and organizing tactics."
+    },
+    {
+     "term": "Tent City (Fayette County, TN)",
+     "say": "",
+     "es": "Ciudad de Tiendas (Condado de Fayette, TN)",
+     "def": "A 1960 settlement of African Americans evicted from their homes in Fayette County, Tennessee after registering to vote, living in tents to maintain their right to vote despite economic retaliation."
+    },
+    {
+     "term": "Sit-ins (Nashville)",
+     "say": "",
+     "es": "Sentadas (Nashville)",
+     "def": "Nonviolent protests where African Americans sat at segregated lunch counters requesting service, beginning in Greensboro (1960) and powerfully demonstrated in Nashville led by students like Diane Nash."
+    },
+    {
+     "term": "March on Washington",
+     "say": "",
+     "es": "Marcha en Washington",
+     "def": "The massive August 28, 1963 demonstration where over 250,000 people gathered at the Lincoln Memorial to demand civil rights, highlighted by Martin Luther King Jr.'s \"I Have a Dream\" speech."
     }
    ],
    "sources": [
@@ -380,8 +422,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Little Rock Nine",
-     "Rosa Parks"
+     "Montgomery Bus Boycott",
+     "Freedom Riders"
     ],
     "quiz": [
      {
@@ -499,6 +541,12 @@
      "say": "",
      "es": "Ley de Derechos Civiles de 1968 (Ley de Vivienda Justa)",
      "def": "Federal law that prohibited discrimination in the sale, rental, and financing of housing based on race, religion, national origin, or sex, addressing residential segregation."
+    },
+    {
+     "term": "24th Amendment",
+     "say": "",
+     "es": "Enmienda 24",
+     "def": "Constitutional amendment ratified in 1964 that abolished poll taxes in federal elections, removing a barrier used to prevent poor African Americans from voting."
     }
    ],
    "sources": [
@@ -642,10 +690,10 @@
      "def": "Mexican American civil rights movement of the 1960s-70s that fought for labor rights, education reform, political representation, and cultural pride, led by figures like Cesar Chavez."
     },
     {
-     "term": "Tactics",
+     "term": "Feminist Movement (1960s)",
      "say": "",
-     "es": "Tácticas",
-     "def": "Boycotts, strikes, marches inspired by civil rights movement."
+     "es": "Movimiento Feminista (1960s)",
+     "def": "The \"Second Wave\" women's rights movement that fought for equal pay, reproductive rights, workplace equality, and passage of the Equal Rights Amendment, led by activists like Betty Friedan."
     }
    ],
    "sources": [
