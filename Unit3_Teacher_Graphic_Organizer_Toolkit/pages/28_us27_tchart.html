@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Should the U.S. Join the League of Nations?</title>
+<style>
+  :root{
+    --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C;
+    --cream:#F7F5EF; --paper:#ffffff; --ink:#1B2A4A;
+    --navy-tint:#EEF1F7; --red-tint:#FBEEEF; --gold-tint:#FAF3E2; --green-tint:#EAF2EC;
+    --rule:#CBD2DE; --muted:#5A6579; --wl:#C4CCDA;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  @page{ size:8.5in 11in; margin:0; }
+  html,body{ background:#8a8f99; }
+  body{ font-family:"Helvetica Neue",Arial,sans-serif; color:var(--ink); }
+  .page{ position:relative; width:8.5in; height:11in; background:var(--paper);
+    margin:0 auto; padding:0.4in 0.5in 0.46in; display:flex; flex-direction:column; overflow:hidden; }
+
+  /* ---------- HEADER ---------- */
+  .hdr{ display:flex; align-items:flex-start; justify-content:space-between; gap:12px;
+        border-bottom:3px solid var(--navy); padding-bottom:7px; flex:0 0 auto; }
+  .hdr-left{ display:flex; flex-direction:column; gap:2px; }
+  .kicker{ font-size:8.5pt; letter-spacing:.13em; font-weight:800; color:var(--red); text-transform:uppercase; }
+  h1{ font-family:Georgia,"Times New Roman",serif; font-size:22pt; color:var(--navy); line-height:1.03; font-weight:700; }
+  .sub{ font-size:9pt; color:var(--muted); font-weight:600; margin-top:2px; }
+  .hdr-right{ display:flex; flex-direction:column; align-items:flex-end; gap:5px; flex:0 0 auto; }
+  .repro{ border:1.5px solid var(--gold); color:#8a6a1e; background:var(--gold-tint);
+          font-size:7.5pt; font-weight:800; letter-spacing:.08em; text-transform:uppercase;
+          padding:3px 8px; border-radius:3px; white-space:nowrap; }
+  .chip{ background:var(--navy); color:#fff; font-size:8pt; font-weight:700; letter-spacing:.03em;
+         padding:4px 9px; border-radius:12px; white-space:nowrap; }
+  .chip.skill{ background:var(--red); }
+  .chip.tn{ background:var(--gold); color:var(--navy); }
+  .tstar{ display:inline-flex; align-items:center; gap:5px; background:var(--gold-tint);
+          border:1.5px solid var(--gold); color:#7a5c15; font-size:7.8pt; font-weight:800;
+          letter-spacing:.05em; text-transform:uppercase; padding:3px 9px; border-radius:12px; white-space:nowrap; }
+  .timechip{ display:inline-flex; align-items:center; gap:5px; background:#fff; border:1.6px solid var(--navy);
+             color:var(--navy); font-size:8.2pt; font-weight:800; letter-spacing:.02em; padding:3px 9px;
+             border-radius:12px; white-space:nowrap; }
+  .timechip svg{ width:12px; height:12px; flex:0 0 auto; }
+
+  /* ---------- WHY STRIP ---------- */
+  .why{ margin-top:8px; background:var(--cream); border-left:5px solid var(--gold);
+        border-radius:0 5px 5px 0; padding:6px 12px; display:flex; gap:15px; align-items:baseline; flex:0 0 auto; }
+  .why b.k{ color:var(--navy); font-size:8.7pt; letter-spacing:.02em; text-transform:uppercase; flex:0 0 auto; white-space:nowrap; }
+  .why span{ font-size:9.1pt; color:#2c3446; line-height:1.3; }
+  .why .cite{ color:var(--muted); font-style:italic; }
+
+  /* ---------- ORGANIZER AREA ---------- */
+  .organizer{ flex:1 1 auto; position:relative; margin:9px 0 7px; display:flex; flex-direction:column; min-height:0; }
+  .prompt{ font-size:9.3pt; color:#2c3446; text-align:center; font-weight:600; margin-bottom:7px; flex:0 0 auto; }
+  .prompt b{ color:var(--navy); }
+  .canvas{ flex:1 1 auto; position:relative; min-height:0; display:flex; flex-direction:column; }
+
+  /* generic fl<ex helpers */
+  .row{ display:flex; gap:10px; }
+  .col{ display:flex; flex-direction:column; gap:10px; }
+  .fill{ flex:1 1 0; min-width:0; min-height:0; }
+
+  /* label band (dark is OK -- it is a LABEL, not a writing area) */
+  .band{ color:#fff; font-weight:800; font-size:10.5pt; letter-spacing:.02em; text-align:center;
+         padding:6px 8px; border-radius:6px 6px 0 0; }
+  .band.navy{ background:var(--navy);} .band.red{ background:var(--red);} .band.gold{ background:var(--gold); color:var(--navy);}
+  .band.sm{ font-size:9.5pt; padding:5px 8px; }
+
+  /* writable well -- ALWAYS light so students can write */
+  .well{ background:var(--paper); border:1.6px solid var(--rule); border-radius:0 0 6px 6px;
+         flex:1 1 0; min-height:0; position:relative; }
+  .well.top{ border-radius:6px; }
+  .well.cream{ background:var(--cream); }
+  .well.navy{ border-color:var(--navy);} .well.red{ border-color:var(--red);} .well.gold{ border-color:var(--gold);}
+  .well.tint-navy{ background:var(--navy-tint);} .well.tint-red{ background:var(--red-tint);}
+  .well.tint-gold{ background:var(--gold-tint);} .well.tint-green{ background:var(--green-tint);}
+  /* faint writing guide lines inside a well */
+  .well.lines{ background-image:repeating-linear-gradient(to bottom, transparent 0 32px, var(--wl) 32px 33px);
+               background-position:0 12px; background-clip:content-box; }
+  .well.lines.cream{ background-color:var(--cream); }
+  .wpad{ padding:7px 10px; }
+  .hint{ font-size:8pt; color:#8792a4; font-style:italic; }
+  .cue{ position:absolute; top:6px; left:10px; font-size:8pt; font-weight:800; letter-spacing:.04em;
+        text-transform:uppercase; color:var(--muted); }
+
+  /* arrows / connectors */
+  .arr-d{ width:0; height:0; border-left:12px solid transparent; border-right:12px solid transparent;
+          border-top:16px solid var(--navy); margin:2px auto; flex:0 0 auto; }
+  .arr-r{ width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent;
+          border-left:16px solid var(--navy); align-self:center; flex:0 0 auto; }
+  .arr-lbl{ font-size:8pt; font-weight:800; color:var(--navy); text-transform:uppercase; letter-spacing:.05em; text-align:center; }
+
+  /* ---------- UDL STRIP ---------- */
+  .udl{ flex:0 0 auto; border:2px solid var(--navy); border-radius:6px; overflow:hidden; }
+  .udl-h{ background:var(--navy); color:#fff; font-size:9pt; font-weight:800; letter-spacing:.07em;
+          text-transform:uppercase; padding:4px 11px; display:flex; align-items:center; gap:8px; }
+  .udl-h .tag{ background:var(--gold); color:var(--navy); font-size:7pt; padding:2px 6px; border-radius:8px; letter-spacing:.05em; }
+  .udl-body{ display:grid; grid-template-columns:1fr 1fr 1fr; }
+  .udl-col{ padding:5px 11px; border-right:1px solid var(--rule); }
+  .udl-col:last-child{ border-right:none; }
+  .udl-col h4{ font-size:8.3pt; color:var(--red); text-transform:uppercase; letter-spacing:.05em; margin-bottom:1px; }
+  .udl-col p{ font-size:8.5pt; line-height:1.26; color:#2c3446; }
+
+  /* ---------- FOOTER ---------- */
+  .foot{ flex:0 0 auto; display:flex; justify-content:space-between; align-items:center;
+         margin-top:6px; padding-top:5px; border-top:1px solid var(--rule); font-size:7.6pt; color:var(--muted); }
+  .foot .brand{ font-weight:700; color:var(--navy); }
+
+
+  .chip.gold{ background:var(--gold); color:var(--navy); }
+  .tc{ flex:1 1 auto; display:flex; flex-direction:column; gap:8px; min-height:0; }
+  .ctx{ flex:0 0 auto; display:flex; flex-direction:column; }
+  .ctx .band{ flex:0 0 auto; }
+  .ctx .well{ flex:0 0 auto; padding:6px 12px; font-size:8.6pt; line-height:1.32; color:#2c3446; }
+  .ctx .well b{ color:var(--navy); }
+  .tc-cols{ flex:1 1 auto; display:flex; gap:12px; min-height:0; }
+  .tc-col{ flex:1 1 0; display:flex; flex-direction:column; min-height:0; }
+  .tc-col .band{ flex:0 0 auto; position:relative; }
+  .tc-col .band small{ display:block; font-weight:600; font-size:8pt; opacity:.92; letter-spacing:0; text-transform:none; margin-top:1px; }
+  .tc-col .well{ flex:1 1 0; min-height:0; }
+  .fade{ position:absolute; top:8px; left:11px; right:11px; font-size:8.4pt; font-style:italic;
+         color:#9aa4b4; line-height:1.5; }
+  .tnbox{ flex:0 0 auto; background:var(--gold-tint); border:1.6px solid var(--gold);
+          border-left:6px solid var(--gold); border-radius:0 6px 6px 0; padding:7px 12px;
+          display:flex; gap:10px; align-items:flex-start; }
+  .tnbox .star{ color:#b8860b; font-size:14pt; line-height:1; flex:0 0 auto; }
+  .tnbox .t{ font-size:8.7pt; line-height:1.32; color:#3a2f12; }
+  .tnbox .t b{ color:#7a5c15; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="hdr">
+    <div class="hdr-left">
+      <div class="kicker">Unit 3 &middot; US.27 &middot; Best&#8209;Fit Organizer</div>
+      <h1>Should the U.S. Join the League of Nations?</h1>
+      <div class="sub">Name ______________________________&nbsp;&nbsp; Class __________&nbsp;&nbsp; Date __________</div>
+    </div>
+    <div class="hdr-right">
+      <div class="repro">&#10003; Reproducible</div>
+      <div class="timechip"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 V12 L15.2 14"/></svg>20-25 min</div>
+      <div class="chip">T&#8209;Chart &middot; Weigh Two Sides</div>
+      <div class="chip gold">&#9733; Tennessee Connection</div>
+      <div class="chip skill">DOK 3 &middot; Argument</div>
+    </div>
+  </div>
+
+  <div class="why">
+    <b class="k">When&nbsp;&middot;&nbsp;Why</b>
+    <span>A T&#8209;chart forces a decision that rests on evidence from <b>both</b> sides of the ratification debate before students commit to a stance. <span class='cite'>Building an argument from competing claims and evidence is SSP.04; comparing similarities and differences is Marzano&rsquo;s highest&#8209;yield move.</span></span>
+  </div>
+
+  <div class="organizer">
+    
+    <div class="prompt">Weigh <b>both sides</b> of the debate over joining the League of Nations. Add reasons and evidence to each column &mdash; then take a reasoned stance of your own.</div>
+    <div class="tc">
+      <div class="ctx">
+        <div class="band navy sm">Context &mdash; Wilson&rsquo;s Fourteen Points (1918)</div>
+        <div class="well top" style="border-radius:0 0 6px 6px;">A peace plan built on <b>self&#8209;determination</b>, <b>free trade</b>, and <b>open diplomacy</b> &mdash; and <b>Point 14</b>, a <b>League of Nations</b> to keep peace through collective security.</div>
+      </div>
+      <div class="tc-cols">
+        <div class="tc-col">
+          <div class="band navy">JOIN &middot; RATIFY<small>Wilson &amp; the internationalists</small></div>
+          <div class="well navy lines"><span class="fade">&bull;&nbsp; Collective security to help prevent future wars<br>&bull;&nbsp; U.S. moral leadership in the postwar world<br>&bull;&nbsp; Honor the peace settlement Wilson negotiated</span></div>
+        </div>
+        <div class="tc-col">
+          <div class="band red">REJECT<small>Sen. Henry Cabot Lodge &amp; the reservationists</small></div>
+          <div class="well red lines"><span class="fade">&bull;&nbsp; Article X could pull the U.S. into foreign wars<br>&bull;&nbsp; Protect Congress&rsquo;s power to declare war &amp; national sovereignty<br>&bull;&nbsp; Keep the tradition of avoiding &ldquo;entangling alliances&rdquo;</span></div>
+        </div>
+      </div>
+      <div class="tc-col" style="flex:0.72 1 0; min-height:0;">
+        <div class="band gold sm">What actually happened &middot; your stance</div>
+        <div class="well cream lines"><span class="fade">The U.S. Senate rejected the Treaty of Versailles, and the United States never joined the League. Should it have? &mdash; My stance: __________ <b>because</b> __________</span></div>
+      </div>
+      <div class="tnbox">
+        <span class="star">&#9733;</span>
+        <span class="t"><b>Tennessee Connection &mdash;</b> <b>Cordell Hull</b> of Pickett County, Tennessee &mdash; serving in Congress during the League debate &mdash;
+        later championed international cooperation as Secretary of State and helped found the United Nations.</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="udl">
+    <div class="udl-h">Make it work for every student <span class="tag">UDL &middot; MTSS</span></div>
+    <div class="udl-body">
+      <div class="udl-col"><h4>Scaffold</h4><p>Give a starter for each column: &ldquo;The U.S. should join because ___&rdquo; / &ldquo;The U.S. should stay out because ___.&rdquo; Fill one reason on each side together.</p></div>
+      <div class="udl-col"><h4>Extend</h4><p>Was rejecting the League a missed chance to prevent future war, or a wise choice to protect sovereignty? Defend either side with evidence.</p></div>
+      <div class="udl-col"><h4>Show it your way</h4><p>Students may <b>write</b> reasons, <b>say</b> a stance aloud, <b>draw</b> a two&#8209;pan balance, or <b>debate</b> it in teams.</p></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span class="brand">U.S. History Hack&trade; &nbsp;&middot;&nbsp; &copy; 2026 TroopToTeacher Technologies LLC</span>
+    <span>Teacher Graphic Organizer Toolkit &middot; Unit 3 &middot; US.27 (labeled)</span>
+  </div>
+</div>
+</body>
+</html>
