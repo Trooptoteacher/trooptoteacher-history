@@ -2,7 +2,7 @@
 
 All built student workbooks, teacher guides, assessment books, organizer toolkits, covers, and decks for Units 1–10. Regenerable from the build scripts; these are the rendered deliverables kept under version control.
 
-**Total: 198.5 MB across 176 files.**
+**Total: 199.2 MB across 179 files.**
 
 ## Unit 1 — The Rise of Industrialization (1877–1900)  ·  28 files, 43.9 MB
 - `deliverables_unit1/Unit1_Assessment_Book_Teacher.docx`  (30 KB)
@@ -182,7 +182,7 @@ All built student workbooks, teacher guides, assessment books, organizer toolkit
 - `deliverables_unit9/Unit9_Teacher_HowToUse_and_MTSS_Guide.docx`  (22 KB)
 - `deliverables_unit9/Unit9_Teacher_HowToUse_and_MTSS_Guide.pdf`  (222 KB)
 
-## Unit 10 — The Modern United States (1960s–present)  ·  16 files, 14.9 MB
+## Unit 10 — The Modern United States (1960s–present)  ·  19 files, 15.7 MB
 - `deliverables_unit10/Unit10_Assessment_Book_Teacher.docx`  (43 KB)
 - `deliverables_unit10/Unit10_Assessment_Book_Teacher.pdf`  (439 KB)
 - `deliverables_unit10/Unit10_Cover_Assessment_Book.docx`  (246 KB)
@@ -199,3 +199,6 @@ All built student workbooks, teacher guides, assessment books, organizer toolkit
 - `deliverables_unit10/Unit10_Teacher_Graphic_Organizer_Toolkit.pdf`  (719 KB)
 - `deliverables_unit10/Unit10_Teacher_HowToUse_and_MTSS_Guide.docx`  (26 KB)
 - `deliverables_unit10/Unit10_Teacher_HowToUse_and_MTSS_Guide.pdf`  (338 KB)
+- `deliverables_unit10/Unit10_WordWall_Enrichment.pdf`  (276 KB)
+- `deliverables_unit10/Unit10_WordWall_Enrichment.pptx`  (462 KB)
+- `deliverables_unit10/Unit10_WordWall_Enrichment_terms.json`  (16 KB)
