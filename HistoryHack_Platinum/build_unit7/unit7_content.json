@@ -21,22 +21,40 @@
    },
    "vocab": [
     {
-     "term": "Marshall Plan",
-     "say": "",
-     "es": "Plan Marshall",
-     "def": "The massive U.S. program providing over $13 billion in economic aid to rebuild Western European economies after World War II (1948-1952), designed to prevent communist expansion by fostering prosperity and stability."
+     "term": "Cold War",
+     "say": "kohld wor",
+     "es": "Guerra Fría",
+     "def": "The prolonged geopolitical, ideological, and military rivalry between the United States and the Soviet Union from 1945 to 1991, waged through alliances, proxy wars, and an arms race rather than direct combat."
     },
     {
-     "term": "Warsaw Pact",
+     "term": "Superpower",
      "say": "",
-     "es": "Pacto de Varsovia",
-     "def": "The Soviet Union's military alliance formed in 1955 with communist Eastern European nations in response to NATO, creating two opposing military blocs that defined Cold War Europe."
+     "es": "Superpotencia",
+     "def": "A nation with overwhelming military, economic, and political power capable of projecting force globally; during the Cold War, only the United States and Soviet Union qualified as superpowers."
     },
     {
-     "term": "Arms Race",
+     "term": "Capitalism",
+     "say": "KAP-ih-tul-iz-um",
+     "es": "Capitalismo",
+     "def": "An economic system based on private ownership, free markets, and competition, where individuals and businesses operate for profit, championed by the United States as superior to Soviet communism."
+    },
+    {
+     "term": "Communism",
+     "say": "KOM-yoo-niz-um",
+     "es": "Comunismo",
+     "def": "A political and economic system where the government owns all property and means of production, theoretically distributing resources equally, practiced in the Soviet Union and opposed by the United States during…"
+    },
+    {
+     "term": "Proxy War",
      "say": "",
-     "es": "Carrera Armamentista",
-     "def": "The Cold War competition between the United States and Soviet Union to develop increasingly powerful nuclear weapons and delivery systems, with each side trying to achieve military superiority."
+     "es": "Guerra por Poder",
+     "def": "Conflicts where the United States and Soviet Union supported opposing sides without directly fighting each other, allowing superpower competition while avoiding nuclear war."
+    },
+    {
+     "term": "Iron Curtain",
+     "say": "EYE-ern KUR-tun",
+     "es": "Cortina de Hierro",
+     "def": "Winston Churchill's metaphor for the political, military, and ideological barrier dividing Soviet-controlled Eastern Europe from Western Europe after World War II, symbolizing the split between communist and…"
     }
    ],
    "sources": [
@@ -96,8 +114,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Marshall Plan",
-     "Warsaw Pact"
+     "Cold War",
+     "Superpower"
     ],
     "quiz": [
      {
@@ -167,12 +185,6 @@
    },
    "vocab": [
     {
-     "term": "Cold War",
-     "say": "",
-     "es": "Guerra Fría",
-     "def": "The prolonged period of political and military tension between the United States and Soviet Union from 1947-1991, characterized by ideological conflict, proxy wars, nuclear arms race, and competition for global influence without direct military confrontation."
-    },
-    {
      "term": "Containment Policy",
      "say": "",
      "es": "Política de Contención",
@@ -180,9 +192,33 @@
     },
     {
      "term": "Truman Doctrine",
-     "say": "",
+     "say": "TROO-mun DOK-trin",
      "es": "Doctrina Truman",
-     "def": "President Truman's 1947 policy pledging U.S. support for nations threatened by Soviet communism, beginning with military and economic aid to Greece and Turkey, marking America's commitment to containing communist expansion."
+     "def": "President Truman's 1947 policy pledging U.S. support for nations threatened by Soviet communism, beginning with military and economic aid to Greece and Turkey, marking America's commitment to containing communist…"
+    },
+    {
+     "term": "Marshall Plan",
+     "say": "MAR-shul plan",
+     "es": "Plan Marshall",
+     "def": "The massive U.S. program providing over $13 billion in economic aid to rebuild Western European economies after World War II (1948-1952), designed to prevent communist expansion by fostering prosperity and…"
+    },
+    {
+     "term": "NATO (North Atlantic Treaty Organization)",
+     "say": "",
+     "es": "OTAN (Organización del Tratado del Atlántico Norte)",
+     "def": "The military alliance formed in 1949 by the United States, Canada, and Western European nations pledging mutual defense against Soviet aggression, embodying the principle that \"an attack on one is an attack on all.\""
+    },
+    {
+     "term": "Iron Curtain",
+     "say": "EYE-ern KUR-tun",
+     "es": "Cortina de Hierro",
+     "def": "Winston Churchill's metaphor for the political, military, and ideological barrier dividing Soviet-controlled Eastern Europe from Western Europe after World War II, symbolizing the split between communist and…"
+    },
+    {
+     "term": "Warsaw Pact",
+     "say": "WOR-saw pakt",
+     "es": "Pacto de Varsovia",
+     "def": "The Soviet Union's military alliance formed in 1955 with communist Eastern European nations in response to NATO, creating two opposing military blocs that defined Cold War Europe."
     }
    ],
    "sources": [
@@ -242,8 +278,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Cold War",
-     "Containment Policy"
+     "Containment Policy",
+     "Truman Doctrine"
     ],
     "quiz": [
      {
@@ -315,7 +351,7 @@
    "vocab": [
     {
      "term": "McCarthyism",
-     "say": "",
+     "say": "muh-KAR-thee-iz-um",
      "es": "Macartismo",
      "def": "The practice of making accusations of subversion or treason without proper evidence, named after Senator Joseph McCarthy who led aggressive investigations of suspected communists in the 1950s."
     },
@@ -327,9 +363,21 @@
     },
     {
      "term": "Blacklisting",
-     "say": "",
+     "say": "BLAK-list-ing",
      "es": "Listas Negras",
      "def": "The practice of denying employment to people suspected of communist sympathies or refusing to cooperate with anti-communist investigations, particularly prevalent in the entertainment industry."
+    },
+    {
+     "term": "Julius and Ethel Rosenberg",
+     "say": "JOOL-yus and ETH-ul ROH-zen-berg",
+     "es": "Julius y Ethel Rosenberg",
+     "def": "An American couple convicted of espionage in 1951 for allegedly passing atomic secrets to the Soviet Union and executed in 1953, the only civilians executed for espionage during the Cold War."
+    },
+    {
+     "term": "Containment Policy",
+     "say": "",
+     "es": "Política de Contención",
+     "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
     }
    ],
    "sources": [
@@ -467,16 +515,34 @@
      "def": "The 1950-1953 conflict in which communist North Korea (backed by China and the Soviet Union) invaded South Korea, prompting U.S.-led UN intervention in the first major \"hot war\" of the Cold War era."
     },
     {
-     "term": "Domino Theory",
+     "term": "Containment Policy",
      "say": "",
+     "es": "Política de Contención",
+     "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
+    },
+    {
+     "term": "Domino Theory",
+     "say": "DOM-ih-noh THEER-ee",
      "es": "Teoría del Dominó",
      "def": "The Cold War belief that if one country fell to communism, neighboring countries would also fall like a row of dominoes, justifying U.S. intervention to prevent communist expansion anywhere in the world."
     },
     {
-     "term": "Communism",
+     "term": "Superpower",
      "say": "",
-     "es": "Comunismo",
-     "def": "A political and economic system where the government owns all property and means of production, theoretically distributing resources equally, practiced in the Soviet Union and opposed by the United States during the Cold War."
+     "es": "Superpotencia",
+     "def": "A nation with overwhelming military, economic, and political power capable of projecting force globally; during the Cold War, only the United States and Soviet Union qualified as superpowers."
+    },
+    {
+     "term": "Proxy War",
+     "say": "",
+     "es": "Guerra por Poder",
+     "def": "Conflicts where the United States and Soviet Union supported opposing sides without directly fighting each other, allowing superpower competition while avoiding nuclear war."
+    },
+    {
+     "term": "NATO (North Atlantic Treaty Organization)",
+     "say": "",
+     "es": "OTAN (Organización del Tratado del Atlántico Norte)",
+     "def": "The military alliance formed in 1949 by the United States, Canada, and Western European nations pledging mutual defense against Soviet aggression, embodying the principle that \"an attack on one is an attack on all.\""
     }
    ],
    "sources": [
@@ -537,7 +603,7 @@
     ],
     "frayer": [
      "Korean War",
-     "Domino Theory"
+     "Containment Policy"
     ],
     "quiz": [
      {
@@ -634,16 +700,40 @@
    },
    "vocab": [
     {
-     "term": "Cold War",
-     "say": "",
-     "es": "Guerra Fría",
-     "def": "The prolonged period of political and military tension between the United States and Soviet Union from 1947-1991, characterized by ideological conflict, proxy wars, nuclear arms race, and competition for global influence without direct military confrontation."
-    },
-    {
      "term": "Brinkmanship",
-     "say": "",
+     "say": "BRINGK-mun-ship",
      "es": "Política al Borde del Abismo",
      "def": "The Cold War diplomatic strategy of pushing dangerous situations to the edge of war to force the other side to back down, associated with Secretary of State John Foster Dulles in the 1950s."
+    },
+    {
+     "term": "Domino Theory",
+     "say": "DOM-ih-noh THEER-ee",
+     "es": "Teoría del Dominó",
+     "def": "The Cold War belief that if one country fell to communism, neighboring countries would also fall like a row of dominoes, justifying U.S. intervention to prevent communist expansion anywhere in the world."
+    },
+    {
+     "term": "Eisenhower Doctrine",
+     "say": "",
+     "es": "Doctrina Eisenhower",
+     "def": "President Eisenhower's 1957 policy pledging U.S. military and economic aid to Middle Eastern countries resisting communist aggression, extending containment policy to protect oil supplies and strategic interests."
+    },
+    {
+     "term": "Warsaw Pact",
+     "say": "WOR-saw pakt",
+     "es": "Pacto de Varsovia",
+     "def": "The Soviet Union's military alliance formed in 1955 with communist Eastern European nations in response to NATO, creating two opposing military blocs that defined Cold War Europe."
+    },
+    {
+     "term": "Military-Industrial Complex",
+     "say": "MIL-ih-tair-ee in-DUS-tree-ul KOM-pleks",
+     "es": "Complejo Militar-Industrial",
+     "def": "The close relationship between the military, defense contractors, and government that President Eisenhower warned about in 1961, concerned that this alliance could drive unnecessary military spending and influence…"
+    },
+    {
+     "term": "Interstate Highway System",
+     "say": "",
+     "es": "Sistema de Autopistas Interestatales",
+     "def": "The massive network of limited-access highways authorized by President Eisenhower in 1956, connecting American cities and transforming transportation, commerce, and development patterns."
     }
    ],
    "sources": [
@@ -699,8 +789,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Cold War",
-     "Brinkmanship"
+     "Brinkmanship",
+     "Domino Theory"
     ],
     "quiz": [
      {
@@ -786,6 +876,24 @@
      "say": "",
      "es": "Destrucción Mutua Asegurada",
      "def": "The Cold War doctrine that nuclear war between the U.S. and Soviet Union would result in complete annihilation of both sides, theoretically preventing either from starting a war."
+    },
+    {
+     "term": "Baby Boom",
+     "say": "",
+     "es": "Baby Boom",
+     "def": "The dramatic increase in birth rates from 1946-1964, with 76 million babies born in the U.S., as returning World War II veterans started families in prosperous post-war America."
+    },
+    {
+     "term": "G.I. Bill",
+     "say": "",
+     "es": "Ley G.I.",
+     "def": "The Servicemen's Readjustment Act of 1944 that provided World War II veterans with benefits including college tuition, low-interest home loans, and unemployment benefits, transforming American society."
+    },
+    {
+     "term": "Growth of Suburbia",
+     "say": "",
+     "es": "Crecimiento de los Suburbios",
+     "def": "The explosive expansion of residential communities outside city centers during the 1950s, enabled by highways, affordable housing, and the desire for space and safety."
     }
    ],
    "sources": [
@@ -917,22 +1025,40 @@
    },
    "vocab": [
     {
-     "term": "Cold War",
-     "say": "",
-     "es": "Guerra Fría",
-     "def": "The prolonged period of political and military tension between the United States and Soviet Union from 1947-1991, characterized by ideological conflict, proxy wars, nuclear arms race, and competition for global influence without direct military confrontation."
+     "term": "Cuban Missile Crisis",
+     "say": "KYOO-bun MIS-ul KRY-sis",
+     "es": "Cuban Missile Crisis",
+     "def": "The thirteen-day 1962 confrontation between the United States and the Soviet Union over Soviet nuclear missiles installed in Cuba, widely regarded as the closest the Cold War came to full-scale nuclear war."
     },
     {
      "term": "Brinkmanship",
-     "say": "",
+     "say": "BRINGK-mun-ship",
      "es": "Política al Borde del Abismo",
      "def": "The Cold War diplomatic strategy of pushing dangerous situations to the edge of war to force the other side to back down, associated with Secretary of State John Foster Dulles in the 1950s."
     },
     {
-     "term": "Turning Communist",
+     "term": "Mutual Assured Destruction (MAD)",
      "say": "",
-     "es": "Volviéndose Comunista",
-     "def": "U.S. economic pressure pushed Castro toward Soviet alliance and communism."
+     "es": "Destrucción Mutua Asegurada",
+     "def": "The Cold War doctrine that nuclear war between the U.S. and Soviet Union would result in complete annihilation of both sides, theoretically preventing either from starting a war."
+    },
+    {
+     "term": "Containment Policy",
+     "say": "",
+     "es": "Política de Contención",
+     "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
+    },
+    {
+     "term": "Nuclear Fears",
+     "say": "",
+     "es": "Miedos Nucleares",
+     "def": "The widespread anxiety in 1950s America about nuclear war with the Soviet Union, driven by atomic bomb tests, the arms race, and fear of sudden nuclear annihilation."
+    },
+    {
+     "term": "Superpower",
+     "say": "",
+     "es": "Superpotencia",
+     "def": "A nation with overwhelming military, economic, and political power capable of projecting force globally; during the Cold War, only the United States and Soviet Union qualified as superpowers."
     }
    ],
    "sources": [
@@ -992,7 +1118,7 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Cold War",
+     "Cuban Missile Crisis",
      "Brinkmanship"
     ],
     "quiz": [
@@ -1090,22 +1216,40 @@
    },
    "vocab": [
     {
-     "term": "Colonial War",
+     "term": "Korean War",
      "say": "",
-     "es": "Guerra Colonial",
-     "def": "France fought to maintain Indochina colony against Viet Minh independence movement."
+     "es": "Guerra de Corea",
+     "def": "The 1950-1953 conflict in which communist North Korea (backed by China and the Soviet Union) invaded South Korea, prompting U.S.-led UN intervention in the first major \"hot war\" of the Cold War era."
     },
     {
-     "term": "Decisive Battle",
-     "say": "",
-     "es": "Batalla Decisiva",
-     "def": "Viet Minh surrounded and defeated French fortress (1954), ending French rule."
+     "term": "Domino Theory",
+     "say": "DOM-ih-noh THEER-ee",
+     "es": "Teoría del Dominó",
+     "def": "The Cold War belief that if one country fell to communism, neighboring countries would also fall like a row of dominoes, justifying U.S. intervention to prevent communist expansion anywhere in the world."
     },
     {
-     "term": "Geneva Accords",
+     "term": "Containment Policy",
      "say": "",
-     "es": "Acuerdos de Ginebra",
-     "def": "Temporarily divided Vietnam at 17th parallel. Elections never held."
+     "es": "Política de Contención",
+     "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
+    },
+    {
+     "term": "Proxy War",
+     "say": "",
+     "es": "Guerra por Poder",
+     "def": "Conflicts where the United States and Soviet Union supported opposing sides without directly fighting each other, allowing superpower competition while avoiding nuclear war."
+    },
+    {
+     "term": "Communism",
+     "say": "KOM-yoo-niz-um",
+     "es": "Comunismo",
+     "def": "A political and economic system where the government owns all property and means of production, theoretically distributing resources equally, practiced in the Soviet Union and opposed by the United States during…"
+    },
+    {
+     "term": "Cold War",
+     "say": "kohld wor",
+     "es": "Guerra Fría",
+     "def": "The prolonged geopolitical, ideological, and military rivalry between the United States and the Soviet Union from 1945 to 1991, waged through alliances, proxy wars, and an arms race rather than direct combat."
     }
    ],
    "sources": [
@@ -1169,8 +1313,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Colonial War",
-     "Decisive Battle"
+     "Korean War",
+     "Domino Theory"
     ],
     "quiz": [
      {
@@ -1267,22 +1411,40 @@
    },
    "vocab": [
     {
-     "term": "Kennedy",
-     "say": "",
-     "es": "Kennedy: Asesores",
-     "def": "Increased from 700 to 16,000 military advisors. Avoided major combat."
+     "term": "Domino Theory",
+     "say": "DOM-ih-noh THEER-ee",
+     "es": "Teoría del Dominó",
+     "def": "The Cold War belief that if one country fell to communism, neighboring countries would also fall like a row of dominoes, justifying U.S. intervention to prevent communist expansion anywhere in the world."
     },
     {
-     "term": "Johnson",
+     "term": "Containment Policy",
      "say": "",
-     "es": "Johnson: Escalada",
-     "def": "Sent 543,000 troops. Massive bombing. War destroyed his presidency."
+     "es": "Política de Contención",
+     "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
     },
     {
-     "term": "Nixon",
+     "term": "Cold War",
+     "say": "kohld wor",
+     "es": "Guerra Fría",
+     "def": "The prolonged geopolitical, ideological, and military rivalry between the United States and the Soviet Union from 1945 to 1991, waged through alliances, proxy wars, and an arms race rather than direct combat."
+    },
+    {
+     "term": "Communism",
+     "say": "KOM-yoo-niz-um",
+     "es": "Comunismo",
+     "def": "A political and economic system where the government owns all property and means of production, theoretically distributing resources equally, practiced in the Soviet Union and opposed by the United States during…"
+    },
+    {
+     "term": "Proxy War",
      "say": "",
-     "es": "Nixon: Vietnamización",
-     "def": "Withdrew troops while training South Vietnamese. War ended 1975 in defeat."
+     "es": "Guerra por Poder",
+     "def": "Conflicts where the United States and Soviet Union supported opposing sides without directly fighting each other, allowing superpower competition while avoiding nuclear war."
+    },
+    {
+     "term": "Superpower",
+     "say": "",
+     "es": "Superpotencia",
+     "def": "A nation with overwhelming military, economic, and political power capable of projecting force globally; during the Cold War, only the United States and Soviet Union qualified as superpowers."
     }
    ],
    "sources": [
@@ -1342,8 +1504,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Kennedy",
-     "Johnson"
+     "Domino Theory",
+     "Containment Policy"
     ],
     "quiz": [
      {
@@ -1413,22 +1575,40 @@
    },
    "vocab": [
     {
+     "term": "Youth Culture",
+     "say": "",
+     "es": "Cultura Juvenil",
+     "def": "The distinct set of tastes, music, fashion, and attitudes that emerged among American teenagers in the 1950s and 1960s, marking youth as a powerful new social and economic force."
+    },
+    {
+     "term": "Rock 'n' Roll",
+     "say": "",
+     "es": "Rock 'n' Roll",
+     "def": "A revolutionary music genre that emerged in the 1950s, blending rhythm and blues with country music, challenging racial barriers and traditional values while becoming the soundtrack of youth rebellion."
+    },
+    {
+     "term": "Elvis Presley",
+     "say": "",
+     "es": "Elvis Presley",
+     "def": "Tennessee-born musician who became the \"King of Rock 'n' Roll\" in the 1950s, bringing Black rhythm and blues to white mainstream audiences and revolutionizing popular music and youth culture."
+    },
+    {
      "term": "Sun Studio",
      "say": "",
      "es": "Sun Studio",
-     "def": "Recorded Elvis, Johnny Cash, Jerry Lee Lewis, B.B. King."
+     "def": "The legendary Memphis recording studio where Sam Phillips produced groundbreaking recordings by Elvis Presley, Johnny Cash, B.B. King, and others, helping create rock 'n' roll and shaping American music."
     },
     {
-     "term": "Beale Street",
+     "term": "Stax Records",
      "say": "",
-     "es": "Beale Street",
-     "def": "Long-time hub for blues music."
+     "es": "Stax Records",
+     "def": "The influential Memphis record label founded in 1957 that became a leading producer of soul and R\\&B music, featuring integrated musicians and promoting racial harmony through music."
     },
     {
-     "term": "Integration",
+     "term": "Television and Mass Media",
      "say": "",
-     "es": "Integración",
-     "def": "Unique racial dynamics allowed Black and white music to blend."
+     "es": "Televisión y Medios Masivos",
+     "def": "The rapid spread of television in the 1950s that transformed American culture, politics, and consumer habits, creating shared national experiences and powerful advertising platforms."
     }
    ],
    "sources": [
@@ -1484,8 +1664,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Sun Studio",
-     "Beale Street"
+     "Youth Culture",
+     "Rock 'n' Roll"
     ],
     "quiz": [
      {
@@ -1557,21 +1737,39 @@
    "vocab": [
     {
      "term": "Space Race",
-     "say": "",
+     "say": "spays rays",
      "es": "Carrera Espacial",
      "def": "The Cold War competition between the United States and Soviet Union for supremacy in space exploration, driven by national pride, technological advancement, and military implications of rocket technology."
     },
     {
      "term": "Sputnik",
-     "say": "",
+     "say": "SPUUT-nik",
      "es": "Sputnik",
      "def": "The world's first artificial satellite, launched by the Soviet Union on October 4, 1957, shocking Americans and triggering fears about Soviet technological superiority and the \"missile gap.\""
     },
     {
-     "term": "Communism",
+     "term": "Arms Race",
      "say": "",
-     "es": "Comunismo",
-     "def": "A political and economic system where the government owns all property and means of production, theoretically distributing resources equally, practiced in the Soviet Union and opposed by the United States during the Cold War."
+     "es": "Carrera Armamentista",
+     "def": "The Cold War competition between the United States and Soviet Union to develop increasingly powerful nuclear weapons and delivery systems, with each side trying to achieve military superiority."
+    },
+    {
+     "term": "Mutual Assured Destruction (MAD)",
+     "say": "",
+     "es": "Destrucción Mutua Asegurada",
+     "def": "The Cold War doctrine that nuclear war between the U.S. and Soviet Union would result in complete annihilation of both sides, theoretically preventing either from starting a war."
+    },
+    {
+     "term": "Military-Industrial Complex",
+     "say": "MIL-ih-tair-ee in-DUS-tree-ul KOM-pleks",
+     "es": "Complejo Militar-Industrial",
+     "def": "The close ties among the military, defense contractors, and government that President Eisenhower warned about in 1961 as a driver of unnecessary military spending."
+    },
+    {
+     "term": "Superpower",
+     "say": "",
+     "es": "Superpotencia",
+     "def": "A nation with overwhelming military, economic, and political power able to project force globally; during the Cold War, only the U.S. and Soviet Union qualified."
     }
    ],
    "sources": [
@@ -1702,10 +1900,22 @@
    },
    "vocab": [
     {
-     "term": "Cold War",
+     "term": "Iron Curtain",
+     "say": "EYE-ern KUR-tun",
+     "es": "Cortina de Hierro",
+     "def": "Winston Churchill's metaphor for the political and military barrier dividing Soviet-controlled Eastern Europe from Western Europe after World War II."
+    },
+    {
+     "term": "Containment Policy",
      "say": "",
+     "es": "Política de Contención",
+     "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
+    },
+    {
+     "term": "Cold War",
+     "say": "kohld wor",
      "es": "Guerra Fría",
-     "def": "The prolonged period of political and military tension between the United States and Soviet Union from 1947-1991, characterized by ideological conflict, proxy wars, nuclear arms race, and competition for global influence without direct military confrontation."
+     "def": "The prolonged geopolitical, ideological, and military rivalry between the United States and the Soviet Union from 1945 to 1991, waged through alliances, proxy wars, and an arms race rather than direct combat."
     },
     {
      "term": "Arms Race",
@@ -1715,9 +1925,15 @@
     },
     {
      "term": "Communism",
-     "say": "",
+     "say": "KOM-yoo-niz-um",
      "es": "Comunismo",
-     "def": "A political and economic system where the government owns all property and means of production, theoretically distributing resources equally, practiced in the Soviet Union and opposed by the United States during the Cold War."
+     "def": "A political and economic system in which the government owns all property and means of production; practiced in the Soviet Union and opposed by the U.S."
+    },
+    {
+     "term": "NATO (North Atlantic Treaty Organization)",
+     "say": "",
+     "es": "OTAN (Organización del Tratado del Atlántico Norte)",
+     "def": "The military alliance formed in 1949 by the United States, Canada, and Western European nations pledging mutual defense against Soviet aggression, embodying the principle that \"an attack on one is an attack on all.\""
     }
    ],
    "sources": [
@@ -1777,8 +1993,8 @@
      "Whose perspective benefits in this passage, and whose is harmed or left out?"
     ],
     "frayer": [
-     "Cold War",
-     "Arms Race"
+     "Iron Curtain",
+     "Containment Policy"
     ],
     "quiz": [
      {
