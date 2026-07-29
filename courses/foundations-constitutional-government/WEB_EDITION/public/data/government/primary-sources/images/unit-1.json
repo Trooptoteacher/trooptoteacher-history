@@ -1,6 +1,179 @@
 {
-  "_schema": "Image primary sources for Unit 1. Each: id,file,title,author,date,repository,url,rights,alt_en,alt_es,colorKey,standards.",
+  "_schema": "Government Hack canonical image primary-source bank. file=asset path (drop the downloaded public-domain image here); url=source catalog page; rights per item; colorKey:true when color carries meaning.",
   "subject": "government",
   "unit": 1,
-  "images": []
+  "unit_title": "Foundations of Constitutional Government",
+  "images": [
+    {
+      "id": "gov-u1-gc01",
+      "standard": "GC.01",
+      "file": "assets/primary_sources/GC.01_locke-portrait.jpg",
+      "type": "portrait",
+      "title": "Portrait of John Locke",
+      "author": "Godfrey Kneller",
+      "date": "1697",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Godfrey_Kneller_-_Portrait_of_John_Locke_(Hermitage).jpg",
+      "rights": "Public domain — artist d.1723 (PD-old/PD-US)",
+      "verified": true,
+      "alt_en": "Portrait: Portrait of John Locke (Godfrey Kneller, 1697).",
+      "alt_es": "Retrato: Portrait of John Locke (Godfrey Kneller, 1697).",
+      "colorKey": true,
+      "standards": [
+        "GC.01"
+      ]
+    },
+    {
+      "id": "gov-u1-gc02",
+      "standard": "GC.02",
+      "file": "assets/primary_sources/GC.02_declaration-of-independence.jpg",
+      "type": "document",
+      "title": "U.S. Declaration of Independence (engrossed)",
+      "author": "2nd Continental Congress",
+      "date": "1776",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:United_States_Declaration_of_Independence.jpg",
+      "rights": "Public domain — U.S. gov document, 1776",
+      "verified": true,
+      "alt_en": "Document: U.S. Declaration of Independence (engrossed) (2nd Continental Congress, 1776).",
+      "alt_es": "Documento: U.S. Declaration of Independence (engrossed) (2nd Continental Congress, 1776).",
+      "colorKey": false,
+      "standards": [
+        "GC.02"
+      ]
+    },
+    {
+      "id": "gov-u1-gc03",
+      "standard": "GC.03",
+      "file": "assets/primary_sources/GC.03_join-or-die.jpg",
+      "type": "cartoon",
+      "title": "Join, or Die",
+      "author": "Benjamin Franklin",
+      "date": "1754",
+      "repository": "Library of Congress",
+      "url": "https://www.loc.gov/item/2002695523/",
+      "rights": "Public domain — published 1754 (pre-1929)",
+      "verified": true,
+      "alt_en": "Cartoon: Join, or Die (Benjamin Franklin, 1754).",
+      "alt_es": "Caricatura política: Join, or Die (Benjamin Franklin, 1754).",
+      "colorKey": true,
+      "standards": [
+        "GC.03"
+      ]
+    },
+    {
+      "id": "gov-u1-gc04",
+      "standard": "GC.04",
+      "file": "assets/primary_sources/GC.04_looking-glass-1787.jpg",
+      "type": "cartoon",
+      "title": "The Looking Glass for 1787",
+      "author": "Amos Doolittle",
+      "date": "1787",
+      "repository": "Library of Congress",
+      "url": "https://www.loc.gov/item/2008661778/",
+      "rights": "Public domain — 1787 engraving (pre-1929)",
+      "verified": true,
+      "alt_en": "Cartoon: The Looking Glass for 1787 (Amos Doolittle, 1787).",
+      "alt_es": "Caricatura política: The Looking Glass for 1787 (Amos Doolittle, 1787).",
+      "colorKey": true,
+      "standards": [
+        "GC.04"
+      ]
+    },
+    {
+      "id": "gov-u1-gc05",
+      "standard": "GC.05",
+      "file": "assets/primary_sources/GC.05_constitution-page1.jpg",
+      "type": "document",
+      "title": "U.S. Constitution, Page 1 (We the People)",
+      "author": "Constitutional Convention",
+      "date": "1787",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_(page_1).jpg",
+      "rights": "Public domain — U.S. gov document, 1787",
+      "verified": true,
+      "alt_en": "Document: U.S. Constitution, Page 1 (We the People) (Constitutional Convention, 1787).",
+      "alt_es": "Documento: U.S. Constitution, Page 1 (We the People) (Constitutional Convention, 1787).",
+      "colorKey": false,
+      "standards": [
+        "GC.05"
+      ]
+    },
+    {
+      "id": "gov-u1-gc06",
+      "standard": "GC.06",
+      "file": "assets/primary_sources/GC.06_federalist-title-page.jpg",
+      "type": "document",
+      "title": "The Federalist (1st ed., 1788, Vol. I) — title page",
+      "author": "Hamilton, Madison, Jay",
+      "date": "1788",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Federalist_(1st_ed,_1788,_vol_I,_title_page).jpg",
+      "rights": "Public domain — published 1788 (pre-1929)",
+      "verified": true,
+      "alt_en": "Document: The Federalist (1st ed., 1788, Vol. I) — title page (Hamilton, Madison, Jay, 1788).",
+      "alt_es": "Documento: The Federalist (1st ed., 1788, Vol. I) — title page (Hamilton, Madison, Jay, 1788).",
+      "colorKey": false,
+      "standards": [
+        "GC.06"
+      ]
+    },
+    {
+      "id": "gov-u1-gc07",
+      "standard": "GC.07",
+      "file": "assets/primary_sources/GC.07_federal-pillars.jpg",
+      "type": "cartoon",
+      "title": "The Federal Pillars (Grand Federal Edifice)",
+      "author": "Massachusetts Centinel",
+      "date": "1788",
+      "repository": "Library of Congress",
+      "url": "https://www.loc.gov/item/2004676796/",
+      "rights": "Public domain — published 1788 (pre-1929)",
+      "verified": true,
+      "alt_en": "Cartoon: The Federal Pillars (Grand Federal Edifice) (Massachusetts Centinel, 1788).",
+      "alt_es": "Caricatura política: The Federal Pillars (Grand Federal Edifice) (Massachusetts Centinel, 1788).",
+      "colorKey": true,
+      "standards": [
+        "GC.07"
+      ]
+    },
+    {
+      "id": "gov-u1-gc08",
+      "standard": "GC.08",
+      "file": "assets/primary_sources/GC.08_bill-of-rights.jpg",
+      "type": "document",
+      "title": "U.S. Bill of Rights (engrossed)",
+      "author": "1st U.S. Congress",
+      "date": "1789",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Bill_of_Rights_Pg1of1_AC.jpg",
+      "rights": "Public domain — U.S. gov document, 1789",
+      "verified": true,
+      "alt_en": "Document: U.S. Bill of Rights (engrossed) (1st U.S. Congress, 1789).",
+      "alt_es": "Documento: U.S. Bill of Rights (engrossed) (1st U.S. Congress, 1789).",
+      "colorKey": false,
+      "standards": [
+        "GC.08"
+      ]
+    },
+    {
+      "id": "gov-u1-gc09",
+      "standard": "GC.09",
+      "file": "assets/primary_sources/GC.09_great-seal.svg",
+      "type": "emblem",
+      "title": "Great Seal of the United States (obverse)",
+      "author": "Thomson/Barton design",
+      "date": "1782",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg",
+      "rights": "Public domain — U.S. federal government work",
+      "verified": true,
+      "alt_en": "Emblem: Great Seal of the United States (obverse) (Thomson/Barton design, 1782).",
+      "alt_es": "Emblema: Great Seal of the United States (obverse) (Thomson/Barton design, 1782).",
+      "colorKey": false,
+      "standards": [
+        "GC.09"
+      ]
+    }
+  ]
 }

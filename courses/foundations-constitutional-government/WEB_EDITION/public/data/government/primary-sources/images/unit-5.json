@@ -1,0 +1,84 @@
+{
+  "_schema": "Government Hack canonical image primary-source bank. file=asset path (drop the downloaded public-domain image here); url=source catalog page; rights per item; colorKey:true when color carries meaning.",
+  "subject": "government",
+  "unit": 5,
+  "unit_title": "Judicial Branch",
+  "images": [
+    {
+      "id": "gov-u5-gc19",
+      "standard": "GC.19",
+      "file": "assets/primary_sources/GC.19_judiciary-act-1789.jpg",
+      "type": "document",
+      "title": "Judiciary Act of 1789",
+      "author": "1st U.S. Congress",
+      "date": "1789",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Judiciary_Act_of_1789.jpg",
+      "rights": "Public domain — U.S. federal statute, 1789",
+      "verified": false,
+      "alt_en": "Document: Judiciary Act of 1789 (1st U.S. Congress, 1789).",
+      "alt_es": "Documento: Judiciary Act of 1789 (1st U.S. Congress, 1789).",
+      "colorKey": false,
+      "standards": [
+        "GC.19"
+      ]
+    },
+    {
+      "id": "gov-u5-gc20",
+      "standard": "GC.20",
+      "file": "assets/primary_sources/GC.20_john-jay-portrait.jpg",
+      "type": "portrait",
+      "title": "John Jay",
+      "author": "Gilbert Stuart",
+      "date": "1794",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart,_John_Jay,_1794,_NGA_75023.jpg",
+      "rights": "Public domain — pre-1929; National Gallery of Art",
+      "verified": false,
+      "alt_en": "Portrait: John Jay (Gilbert Stuart, 1794).",
+      "alt_es": "Retrato: John Jay (Gilbert Stuart, 1794).",
+      "colorKey": true,
+      "standards": [
+        "GC.20"
+      ]
+    },
+    {
+      "id": "gov-u5-gc21",
+      "standard": "GC.21",
+      "file": "assets/primary_sources/GC.21_john-marshall.jpg",
+      "type": "portrait",
+      "title": "Chief Justice John Marshall (judicial review / Marbury)",
+      "author": "(artist unconfirmed)",
+      "date": "19th c.",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Chief_Justice_John_Marshall.jpg",
+      "rights": "Public domain — portrait pre-1929 (Marshall d.1835)",
+      "verified": false,
+      "alt_en": "Portrait: Chief Justice John Marshall (judicial review / Marbury) ((artist unconfirmed), 19th c.).",
+      "alt_es": "Retrato: Chief Justice John Marshall (judicial review / Marbury) ((artist unconfirmed), 19th c.).",
+      "colorKey": true,
+      "standards": [
+        "GC.21"
+      ]
+    },
+    {
+      "id": "gov-u5-gc22",
+      "standard": "GC.22",
+      "file": "assets/primary_sources/GC.22_supreme-court-building.jpg",
+      "type": "photo",
+      "title": "U.S. Supreme Court Building",
+      "author": "Ken Hammond (USDA)",
+      "date": "modern",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Supreme_Court.jpg",
+      "rights": "Public domain — U.S. federal (USDA) work",
+      "verified": false,
+      "alt_en": "Photo: U.S. Supreme Court Building (Ken Hammond (USDA), modern).",
+      "alt_es": "Fotografía: U.S. Supreme Court Building (Ken Hammond (USDA), modern).",
+      "colorKey": true,
+      "standards": [
+        "GC.22"
+      ]
+    }
+  ]
+}
