@@ -74,6 +74,15 @@ ol.tdq{margin:6px 0 4px 20px}ol.tdq li{margin-bottom:5px;font-size:9.5pt}
 .tnote{background:#fff6d9;border:1px solid #e5cf8a;border-left:4px solid #C9A227;border-radius:0 5px 5px 0;padding:10px 14px;margin:11px 0}
 .tnote .k{font-weight:700;color:#7a5c00;font-size:8.5pt;text-transform:uppercase;letter-spacing:.05em}
 .key{font-weight:700;color:#2f5233}
+.udl{border:1.5px solid #4a7c59;border-radius:5px;margin:11px 0;overflow:hidden}
+.udl-h{background:#4a7c59;color:#fff;padding:5px 12px;font-weight:700;font-size:9.5pt}
+.udl-grid{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.udl-grid div{padding:7px 12px;font-size:9pt;border-top:1px solid #dbe7de}
+.udl-grid div:nth-child(odd){border-right:1px solid #dbe7de}
+.udl-acc{padding:7px 12px;font-size:8.5pt;color:#2f5233;background:#eef4ec;border-top:1px solid #dbe7de}
+.refs{padding:12px .6in 4px}
+.refs h2{font-family:'Merriweather',serif;font-size:12pt;color:#1B2A4A;margin-bottom:8px;border-bottom:2px solid #C9A227;padding-bottom:4px}
+.refs ol{margin-left:22px;font-size:8.5pt;line-height:1.5}.refs li{margin-bottom:5px}
 """
 
 def head(title,sub):
@@ -106,9 +115,21 @@ def frayer(v):
 
 def spotlight(src):
     return (f'<div class="pss"><div class="lbl">Founding-Document / Landmark-Case Spotlight</div>'
-            f'<div class="src-t">{e(src["title"])}</div>'
+            f'<div class="src-t">{e(src["title"])} &mdash; <span style="font-weight:400">{e(src["who"])}, {e(src["date"])}</span></div>'
             f'<blockquote>&ldquo;{e(src["quote"])}&rdquo;</blockquote>'
-            f'<cite>{e(src["who"])}, {e(src["date"])}. {e(src["repo"])}. {e(src["url"])}</cite></div>')
+            f'<cite><b>Source:</b> {e(src["who"])}, &ldquo;{e(src["title"])},&rdquo; {e(src["date"])}. {e(src["repo"])}. '
+            f'<span style="word-break:break-all">{e(src["url"])}</span> &middot; Public domain.</cite></div>')
+
+def udl(s):
+    """UDL — multiple means of engagement, representation, and action/expression."""
+    return ('<div class="udl"><div class="udl-h">Show What You Know &mdash; Your Choice (UDL)</div>'
+            '<div class="udl-grid">'
+            '<div><b>✍ Write</b> a short paragraph answering the standard\'s question.</div>'
+            '<div><b>🎨 Draw</b> a labeled diagram or one-page sketch-note.</div>'
+            '<div><b>🎙 Record</b> a 30-second spoken explanation.</div>'
+            '<div><b>🗣 Discuss</b> with a partner, then summarize your best idea.</div>'
+            '</div><div class="udl-acc"><b>Access supports:</b> read-aloud friendly · vocabulary in English &amp; Spanish (above) · '
+            'use the matching graphic organizer · sentence starter: &ldquo;One key idea of this standard is ___ because ___.&rdquo;</div></div>')
 
 # ---------------- STUDENT CHAPTER ----------------
 def student():
@@ -141,7 +162,18 @@ def student():
                  f'<p>{e(c["stem"])}</p><ol type="A">'+''.join(f'<li>{e(c["options"][k])}</li>' for k in ["A","B","C","D"])+'</ol></div>')
         # CER
         b.append(f'<div class="card"><b>Claim–Evidence–Reasoning.</b> {e(s["auth"]["cer"])}<div class="write"></div><div class="write"></div></div>')
+        # UDL response choice + access supports
+        b.append(udl(s))
         b.append('</div></div>')  # body, std
+    # Sources & Attributions (from the canonical primary-source bank)
+    bankp=os.path.abspath(os.path.join(HERE,"..","..","WEB_EDITION","public","data","government","primary-sources","unit-1.json"))
+    if os.path.exists(bankp):
+        bank=json.load(open(bankp))["sources"]
+        b.append('<div class="refs"><h2>Sources &amp; Attributions</h2>'
+                 '<p style="font-size:8.5pt;color:#555">All primary-source excerpts in this chapter are public domain, quoted verbatim from the cited repository.</p><ol>')
+        for r in bank:
+            b.append(f'<li>{e(r["citation_chicago"])} <i>(Rights: {e(r["rights"])} · Standards: {e(", ".join(r["standards"]))})</i></li>')
+        b.append('</ol></div>')
     # spaced retrieval
     b.append('</div><div class="retrieval"><h2>Spaced Retrieval — 3 Rounds</h2>'
              '<p>Close your notes. Answer from memory. Your teacher will run these at increasing intervals.</p>'

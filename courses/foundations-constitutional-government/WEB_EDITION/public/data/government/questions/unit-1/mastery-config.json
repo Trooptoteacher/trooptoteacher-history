@@ -1,0 +1,36 @@
+{
+  "_doc": "Standards-mastery + remediation model (the analytics selling point). Mirrors US-History analytics.",
+  "subject": "government",
+  "unit": 1,
+  "mastery_rule": {
+    "scale": "per GC standard",
+    "evidence": "all items tagged to the standard across DOK 1–4",
+    "thresholds": {
+      "not_started": 0,
+      "developing": "<50% correct",
+      "approaching": "50–74%",
+      "proficient": "75–89%",
+      "mastered": "90%+"
+    },
+    "dok_weighting": "DOK 3–4 items weighted x1.5 toward mastery (depth over recall)",
+    "min_items_for_mastery": 3
+  },
+  "remediation_trigger": "Any standard below 'proficient' surfaces its reteach route (narrative section + teacher reteach + vocab + primary source) on the teacher dashboard and the student's practice queue.",
+  "spiral": "Missed standards re-enter the 3 spaced-retrieval rounds automatically (interleaving).",
+  "reporting_categories": [
+    "Foundations of Constitutional Government"
+  ],
+  "standards_covered": [
+    "GC.01",
+    "GC.01–GC.09",
+    "GC.02",
+    "GC.03",
+    "GC.04",
+    "GC.05",
+    "GC.06",
+    "GC.07",
+    "GC.08",
+    "GC.09"
+  ],
+  "disclosure": "Items are classroom-formative · pre-field-test; mastery estimates are formative, not a state score."
+}

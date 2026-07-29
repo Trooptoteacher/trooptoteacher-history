@@ -1,0 +1,207 @@
+{
+  "_schema": "History Hack canonical question bank (mirrors public/data/us-history/questions/). Psychometric metadata: dok, bloom, level, reporting_category, difficulty, per-distractor rationale, answer_explanation, bilingual question_es, de-biased keys. Items are classroom-formative · pre-field-test.",
+  "subject": "government",
+  "unit": 1,
+  "dok": 1,
+  "count": 4,
+  "items": [
+    {
+      "type": "multiple_choice",
+      "standard": "GC.01",
+      "unit": 1,
+      "dok": 1,
+      "bloom": "Remember",
+      "level": "Developing",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "easy",
+      "question": "Which Enlightenment thinker is most associated with the idea of natural rights and the social contract?",
+      "question_es": "¿Qué pensador de la Ilustración se asocia más con la idea de los derechos naturales y el contrato social?",
+      "options": {
+        "A": "John Locke",
+        "B": "Thomas Hobbes",
+        "C": "King John",
+        "D": "Julius Caesar"
+      },
+      "correct_answer": "A",
+      "distractor_rationale": {
+        "A": "Correct — Locke argued people are born with natural rights to life, liberty, and property.",
+        "B": "Hobbes stressed order and the need for a strong sovereign, not natural rights as Locke framed them.",
+        "C": "King John signed Magna Carta but did not develop natural-rights theory.",
+        "D": "A Roman leader, not an Enlightenment natural-rights theorist."
+      },
+      "answer_explanation": "Locke's natural-rights and social-contract ideas directly shaped the Declaration's 'consent of the governed.'",
+      "tennessee_specific": false,
+      "topics": [
+        "Enlightenment",
+        "natural rights",
+        "Locke"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.01",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.01",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.01",
+        "vocabulary": "Frayer terms for GC.01",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "(correct)",
+        "B": "Hobbes stressed order and the need for a strong sovereign, not natural rights as Locke framed them.",
+        "C": "King John signed Magna Carta but did not develop natural-rights theory.",
+        "D": "A Roman leader, not an Enlightenment natural-rights theorist."
+      },
+      "id": "GC.01-U1Q01"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.02",
+      "unit": 1,
+      "dok": 1,
+      "bloom": "Remember",
+      "level": "Developing",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "easy",
+      "question": "According to the Declaration of Independence, governments derive their just powers from:",
+      "question_es": "Según la Declaración de Independencia, los gobiernos obtienen sus poderes justos de:",
+      "options": {
+        "A": "the wealthiest citizens",
+        "B": "the army",
+        "C": "the consent of the governed",
+        "D": "the king"
+      },
+      "correct_answer": "C",
+      "distractor_rationale": {
+        "A": "The Declaration rejects rule by a privileged few.",
+        "B": "Military force is not the source of just power in the text.",
+        "C": "Correct — 'deriving their just powers from the consent of the governed.'",
+        "D": "The Declaration is a break FROM the king's authority."
+      },
+      "answer_explanation": "Consent of the governed is the Declaration's core principle of legitimate government.",
+      "tennessee_specific": false,
+      "topics": [
+        "Declaration",
+        "consent"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.02",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.02",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.02",
+        "vocabulary": "Frayer terms for GC.02",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "The Declaration rejects rule by a privileged few.",
+        "B": "Military force is not the source of just power in the text.",
+        "C": "(correct)",
+        "D": "The Declaration is a break FROM the king's authority."
+      },
+      "id": "GC.02-U1Q01"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.08",
+      "unit": 1,
+      "dok": 1,
+      "bloom": "Remember",
+      "level": "Developing",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "easy",
+      "question": "According to the Tenth Amendment, powers not given to the national government are:",
+      "question_es": "Según la Décima Enmienda, los poderes no otorgados al gobierno nacional están:",
+      "options": {
+        "A": "given to the president",
+        "B": "reserved to the states or the people",
+        "C": "held only by the courts",
+        "D": "eliminated entirely"
+      },
+      "correct_answer": "B",
+      "distractor_rationale": {
+        "A": "The amendment does not assign them to the president.",
+        "B": "Correct — reserved powers are a cornerstone of federalism.",
+        "C": "Courts are not the default holder of reserved powers.",
+        "D": "They are retained, not eliminated."
+      },
+      "answer_explanation": "The Tenth Amendment reserves undelegated powers to the states or the people — federalism in the Bill of Rights.",
+      "tennessee_specific": true,
+      "topics": [
+        "Tenth Amendment",
+        "federalism",
+        "reserved powers"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.08",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.08",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.08",
+        "vocabulary": "Frayer terms for GC.08",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "The amendment does not assign them to the president.",
+        "B": "(correct)",
+        "C": "Courts are not the default holder of reserved powers.",
+        "D": "They are retained, not eliminated."
+      },
+      "id": "GC.08-U1Q02"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.09",
+      "unit": 1,
+      "dok": 1,
+      "bloom": "Remember",
+      "level": "Developing",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "easy",
+      "question": "The United States is best described as a:",
+      "question_es": "Estados Unidos se describe mejor como:",
+      "options": {
+        "A": "direct democracy",
+        "B": "monarchy",
+        "C": "constitutional republic / representative democracy",
+        "D": "confederation"
+      },
+      "correct_answer": "C",
+      "distractor_rationale": {
+        "A": "Citizens elect representatives rather than voting on every law.",
+        "B": "There is no monarch.",
+        "C": "Correct — a constitutional republic in which the people elect representatives.",
+        "D": "The confederation model was abandoned with the Articles."
+      },
+      "answer_explanation": "A constitutional republic combines majority rule through elections with protection of minority rights.",
+      "tennessee_specific": false,
+      "topics": [
+        "republic",
+        "democracy"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.09",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.09",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.09",
+        "vocabulary": "Frayer terms for GC.09",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "Citizens elect representatives rather than voting on every law.",
+        "B": "There is no monarch.",
+        "C": "(correct)",
+        "D": "The confederation model was abandoned with the Articles."
+      },
+      "id": "GC.09-U1Q01"
+    }
+  ]
+}
