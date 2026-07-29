@@ -39,7 +39,86 @@
    "PARTICIPATION"
   ],
   "cover_image": "GC.34_1913-suffrage-procession.jpg",
-  "brand": "Government Hack"
+  "brand": "Government Hack",
+  "frameworks": {
+   "udl_designed_in": {
+    "engagement": [
+     "7.1 choice",
+     "7.2 relevance (TN 'Perfect 36')",
+     "7.3 play (Nominate! simulation)",
+     "7.4 neutral framing",
+     "8.1 I-can goals",
+     "8.2 scaffold+extend",
+     "8.4 belonging (expanding franchise)",
+     "8.5 rationale feedback",
+     "9.1 belief-check",
+     "9.3 reflection",
+     "9.4 discussion norms"
+    ],
+    "representation": [
+     "1.1 print+digital",
+     "1.2 read-aloud+image",
+     "1.3 multiple perspectives",
+     "2.1 Frayer",
+     "2.2 pronunciation",
+     "2.3 EN/ES",
+     "2.4 neutral language",
+     "2.5 multimedia",
+     "3.1 K-W-L/hooks",
+     "3.2 concept web/EQ",
+     "3.4 spiral back to Unit 1"
+    ],
+    "action_expression": [
+     "4.1 write/say/draw/build",
+     "4.2 alt text/AT",
+     "5.1 multiple media",
+     "5.2 organizer toolkit",
+     "5.3 graduated support",
+     "5.4 access-format items",
+     "6.1 goals",
+     "6.3 organizers",
+     "6.4 CFU+analytics",
+     "6.5 access not tracking"
+    ]
+   },
+   "mtss": {
+    "tier1": "UDL core for all",
+    "tier2": "scaffold column + support-form items",
+    "tier3": "teacher reteach + most-supported modes",
+    "progress": "per-standard CFU + mastery analytics"
+   }
+  },
+  "belief_check": "Predict first: Does one person's vote actually matter? Write your gut answer now — you'll test it against Tennessee's 'Perfect 36,' Harry Burn's single deciding vote, and real turnout data.",
+  "play": {
+   "name": "Nominate!",
+   "how": "5-minute simulation (GC.32). The class runs a mock nomination in fast motion: a Primary/Caucus straw poll narrows five 'candidates' to two, a snap Convention names a nominee + running mate, then a General Election vote. Students feel the funnel that turns many hopefuls into one winner."
+  },
+  "spiral": [
+   {
+    "from": "GC.34",
+    "to": "Unit 1 (GC.08, Bill of Rights)",
+    "link": "The right to assemble and petition you use here was written in Unit 1 — the First Amendment in action."
+   },
+   {
+    "from": "GC.31",
+    "to": "Unit 1 (GC.05, popular sovereignty)",
+    "link": "Government by the consent of the governed is WHY citizens carry responsibilities — retrieve it from Foundations."
+   },
+   {
+    "from": "GC.32",
+    "to": "Unit 1 (GC.04 & Federalist 10)",
+    "link": "Washington's warning and Madison's 'faction' come straight from the ratification debate you studied in Unit 1."
+   }
+  ],
+  "discussion_norms": {
+   "name": "Civic Conversations",
+   "norms": [
+    "Separate evidence from spin — name the source and its framing.",
+    "Steelman the other side before you argue yours.",
+    "Disagree with the claim, not the classmate.",
+    "One voice at a time; make room for the quiet voice."
+   ]
+  }
  },
  "order": [
   "GC.31",

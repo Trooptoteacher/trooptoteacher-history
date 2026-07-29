@@ -263,6 +263,27 @@ slide(f"""
   <div class="tnotes"><b>Task</b><span>{esc(U.get('tn_connection_task',''))}</span></div>
 """, pageno=str(pg)); pg += 1
 
+# ---- Make It Stick (UDL 3.0 elements embedded: 9.1 belief-check, 7.3 play, 3.4 spiral, 9.4 norms) ----
+if U.get("belief_check") or U.get("spiral"):
+    play = U.get("play", {})
+    spiral = U.get("spiral", [])
+    norms = U.get("discussion_norms", {})
+    spiral_html = "".join(
+        f'<div style="margin-bottom:5px"><b style="color:var(--navy)">{esc(x["from"])} &rarr; {esc(x["to"])}</b><br>{esc(x["link"])}</div>'
+        for x in spiral)
+    norms_html = "".join(f"<li>{esc(n)}</li>" for n in norms.get("norms", []))
+    slide(f"""
+  <div class="shead"><div class="l"><div class="kick">{esc(U['code'])} &middot; Make It Stick</div><h2>Predict &middot; Play &middot; Spiral</h2></div>
+    <div class="r"><span class="chip">UDL &middot; MTSS</span></div></div>
+  <div class="persp">
+    <div class="p" style="border-top-color:var(--gold)"><h3>Predict First &mdash; open the unit</h3><p>{esc(U.get('belief_check',''))}</p></div>
+    <div class="p"><h3>Warm-Up Play &mdash; {esc(play.get('name',''))}</h3><p>{esc(play.get('how',''))}</p></div>
+    <div class="p" style="border-top-color:var(--navy)"><h3>Spiral &mdash; retrieve &amp; connect</h3><p style="font-size:10.5pt">{spiral_html}</p></div>
+    <div class="p" style="border-top-color:var(--gold)"><h3>{esc(norms.get('name','Discussion Norms'))}</h3><p><ul style="margin-left:15px">{norms_html}</ul></p></div>
+  </div>
+  <div class="tnotes"><b>Why it's here</b><span>These are the built-in UDL 3.0 moves — a belief-check (9.1), on-standard play (7.3), cross-unit spiral (3.4), and conversation norms (9.4). Use them; they make the unit stick.</span></div>
+""", pageno=str(pg)); pg += 1
+
 # ---- Closing ----
 stds = " &middot; ".join(ORDER)
 slide(f"""
