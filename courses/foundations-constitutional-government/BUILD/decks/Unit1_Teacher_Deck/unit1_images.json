@@ -1,11 +1,12 @@
 {
   "_schema": "Government Hack image manifest for the Unit 1 Teacher Deck. Per standard: an 'anchor' primary-source VISUAL (document scan, period political cartoon, or portrait). Mirrors HistoryHack_Platinum/build/unit1_images.json. file = expected asset path under assets/primary_sources/; if the binary is not yet present the deck renders a cited source frame in its place.",
-  "_rule": "Curated genuine public-domain works only. Citations are accurate at the work + repository level. Nothing fabricated. Actual image files must be procured from the cited repository (public domain) and dropped at the given file path; naming convention GC.NN_slug.jpg mirrors the US History Hack bank.",
+  "_rule": "Curated genuine public-domain works only. Citations are accurate at the work + repository level. Nothing fabricated. Actual image files must be procured from the cited repository (public domain) and dropped at the given file path; naming convention GC.NN_slug.jpg follows the course primary-source naming convention.",
   "_rights_note": "All works listed are in the public domain in the United States: U.S. government documents, or works published before 1929, or works whose creators died more than 95 years ago. Verify the specific digital reproduction's terms at the repository before publishing.",
   "GC.01": {
     "anchor": {
       "file": "assets/primary_sources/GC.01_locke-portrait.jpg",
-      "w": 300, "h": 360,
+      "w": 300,
+      "h": 360,
       "type": "portrait",
       "title": "Portrait of John Locke",
       "creator": "Sir Godfrey Kneller",
@@ -20,7 +21,8 @@
   "GC.02": {
     "anchor": {
       "file": "assets/primary_sources/GC.02_declaration-of-independence.jpg",
-      "w": 320, "h": 380,
+      "w": 320,
+      "h": 380,
       "type": "document",
       "title": "Declaration of Independence (engrossed copy)",
       "creator": "Second Continental Congress; engrossed by Timothy Matlack",
@@ -35,7 +37,8 @@
   "GC.03": {
     "anchor": {
       "file": "assets/primary_sources/GC.03_join-or-die.jpg",
-      "w": 340, "h": 240,
+      "w": 340,
+      "h": 240,
       "type": "cartoon",
       "title": "Join, or Die",
       "creator": "Benjamin Franklin",
@@ -50,7 +53,8 @@
   "GC.04": {
     "anchor": {
       "file": "assets/primary_sources/GC.04_looking-glass-1787.jpg",
-      "w": 340, "h": 260,
+      "w": 340,
+      "h": 260,
       "type": "cartoon",
       "title": "The Looking Glass for 1787",
       "creator": "Amos Doolittle",
@@ -65,7 +69,8 @@
   "GC.05": {
     "anchor": {
       "file": "assets/primary_sources/GC.05_constitution-page1.jpg",
-      "w": 300, "h": 380,
+      "w": 300,
+      "h": 380,
       "type": "document",
       "title": "U.S. Constitution, Page 1 (“We the People”)",
       "creator": "Constitutional Convention; engrossed by Jacob Shallus",
@@ -80,7 +85,8 @@
   "GC.06": {
     "anchor": {
       "file": "assets/primary_sources/GC.06_federalist-title-page.jpg",
-      "w": 300, "h": 380,
+      "w": 300,
+      "h": 380,
       "type": "document",
       "title": "The Federalist, Volume 1 (title page)",
       "creator": "Alexander Hamilton, James Madison, John Jay ('Publius')",
@@ -95,7 +101,8 @@
   "GC.07": {
     "anchor": {
       "file": "assets/primary_sources/GC.07_federal-pillars.jpg",
-      "w": 340, "h": 260,
+      "w": 340,
+      "h": 260,
       "type": "cartoon",
       "title": "The Federal Edifice (“The Federal Pillars”)",
       "creator": "Massachusetts Centinel",
@@ -110,7 +117,8 @@
   "GC.08": {
     "anchor": {
       "file": "assets/primary_sources/GC.08_bill-of-rights.jpg",
-      "w": 300, "h": 380,
+      "w": 300,
+      "h": 380,
       "type": "document",
       "title": "The Bill of Rights (engrossed copy)",
       "creator": "1st U.S. Congress",
@@ -124,8 +132,9 @@
   },
   "GC.09": {
     "anchor": {
-      "file": "assets/primary_sources/GC.09_great-seal.jpg",
-      "w": 320, "h": 320,
+      "file": "assets/primary_sources/GC.09_great-seal.svg",
+      "w": 320,
+      "h": 320,
       "type": "emblem",
       "title": "Great Seal of the United States (obverse)",
       "creator": "Charles Thomson & William Barton (design)",
