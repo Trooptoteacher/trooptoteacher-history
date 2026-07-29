@@ -1,0 +1,314 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<title>Unit 1 Teacher Deck &mdash; Foundations of Constitutional Government</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{ --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C; --cream:#F7F5EF; --paper:#fff;
+  --navy-tint:#EEF1F7; --red-tint:#FBEEEF; --gold-tint:#FAF3E2; --green-tint:#EAF2EC;
+  --rule:#CBD2DE; --muted:#5A6579; --ink:#1B2A4A; }
+@page{ size:13.333in 7.5in; margin:0; }
+html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; color:var(--ink); }
+.slide{ position:relative; width:13.333in; height:7.5in; background:var(--paper); overflow:hidden;
+  page-break-after:always; display:flex; flex-direction:column; }
+.slide:last-child{ page-break-after:auto; }
+
+/* ---- shared header band ---- */
+.shead{ flex:0 0 auto; background:var(--navy); color:#fff; display:flex; align-items:center;
+  justify-content:space-between; padding:16px 34px; border-bottom:5px solid var(--red); }
+.shead .l{ display:flex; flex-direction:column; gap:3px; }
+.shead .kick{ font-size:11pt; letter-spacing:.14em; font-weight:800; color:var(--gold); text-transform:uppercase; }
+.shead h2{ font-family:Georgia,serif; font-size:27pt; font-weight:700; line-height:1.02; }
+.shead .r{ display:flex; flex-direction:column; align-items:flex-end; gap:6px; }
+.chip{ background:rgba(255,255,255,.12); border:1.5px solid var(--gold); color:#fff; font-size:9.5pt;
+  font-weight:700; padding:5px 12px; border-radius:14px; white-space:nowrap; }
+.chip.ssp{ background:var(--red); border-color:var(--red); }
+
+/* ---- body grid ---- */
+.body{ flex:1 1 auto; display:flex; gap:22px; padding:22px 34px; min-height:0; }
+.col{ display:flex; flex-direction:column; gap:14px; min-height:0; }
+.col.main{ flex:1.35 1 0; } .col.side{ flex:1 1 0; }
+
+.card{ border:1.8px solid var(--rule); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
+.card .ch{ font-size:10.5pt; font-weight:800; letter-spacing:.03em; text-transform:uppercase; color:#fff;
+  padding:6px 14px; }
+.card .cb{ padding:11px 15px; font-size:13.5pt; line-height:1.4; color:#22303f; }
+.ch.navy{ background:var(--navy); } .ch.red{ background:var(--red); } .ch.gold{ background:var(--gold); color:var(--navy); }
+.ch.green{ background:#1e6b40; }
+
+.target{ background:var(--navy-tint); border-left:6px solid var(--navy); border-radius:0 8px 8px 0;
+  padding:12px 16px; font-size:14pt; line-height:1.34; color:#22303f; }
+.target b{ color:var(--navy); }
+.hook{ background:var(--gold-tint); border-left:6px solid var(--gold); border-radius:0 8px 8px 0;
+  padding:12px 16px; font-size:15pt; line-height:1.34; font-style:italic; color:#3a2f12; }
+.hook .lbl{ font-style:normal; font-weight:800; font-size:9.5pt; letter-spacing:.08em; text-transform:uppercase; color:#7a5c15; display:block; margin-bottom:3px; }
+
+/* vocab */
+.vterm{ font-size:15pt; font-weight:800; color:var(--navy); }
+.vterm .say{ font-size:10pt; font-weight:600; color:var(--muted); font-style:italic; }
+.ves{ font-size:11pt; color:var(--red); font-weight:700; margin:2px 0 5px; }
+.vdef{ font-size:12.5pt; line-height:1.36; color:#22303f; }
+
+/* source image frame */
+.srcimg .cb{ display:flex; gap:14px; align-items:stretch; padding:12px 15px; }
+.imgwrap{ flex:0 0 auto; width:2.5in; display:flex; align-items:center; justify-content:center; }
+.imgwrap img{ max-width:100%; max-height:2.9in; border:2px solid var(--navy); border-radius:4px; object-fit:contain; }
+.imgph{ flex:0 0 auto; width:2.5in; min-height:2.6in; border:2.5px dashed var(--gold); border-radius:8px; background:var(--gold-tint);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:14px; gap:6px; }
+.imgph .ic{ font-size:42pt; line-height:1; }
+.imgph .phlbl{ font-size:8.5pt; font-weight:800; letter-spacing:.08em; color:#7a5c15; }
+.imgph .phttl{ font-size:12pt; font-weight:800; color:var(--navy); line-height:1.2; }
+.imgph .phsub{ font-size:8.5pt; color:var(--muted); } .imgph code{ font-size:8pt; background:#fff; padding:1px 5px; border-radius:3px; border:1px solid var(--rule); }
+.imgtext{ flex:1 1 0; display:flex; flex-direction:column; gap:7px; min-width:0; }
+.imgcap{ font-size:12pt; line-height:1.36; color:#22303f; }
+.imgquote{ font-family:Georgia,serif; font-style:italic; font-size:12pt; line-height:1.38; color:#3a4455;
+  border-left:4px solid var(--gold); padding:2px 0 2px 11px; }
+.imgquote .qa{ font-style:normal; font-size:9.5pt; font-weight:700; color:var(--muted); }
+.imgcite{ margin-top:auto; font-size:8.5pt; color:var(--muted); font-weight:700; }
+
+/* CFU */
+.cfu .opt{ display:flex; gap:9px; align-items:flex-start; font-size:12.5pt; line-height:1.32; padding:3px 0; }
+.cfu .k{ font-weight:800; color:var(--navy); flex:0 0 auto; }
+.cfu .opt.key{ background:var(--green-tint); border-radius:6px; padding:5px 8px; }
+.cfu .opt.key .k{ color:#1e6b40; }
+.ans{ margin-top:9px; background:var(--green-tint); border:1.6px solid #1e6b40; border-radius:8px;
+  padding:9px 13px; font-size:11.5pt; line-height:1.34; color:#173d27; }
+.ans b{ color:#1e6b40; }
+
+/* teacher notes strip */
+.tnotes{ flex:0 0 auto; background:var(--cream); border-top:2px solid var(--gold); padding:9px 34px;
+  font-size:10.5pt; line-height:1.3; color:#3a2f12; display:flex; gap:12px; align-items:baseline; }
+.tnotes b{ color:#7a5c15; text-transform:uppercase; letter-spacing:.05em; font-size:9pt; flex:0 0 auto; }
+
+/* footer */
+.sfoot{ position:absolute; bottom:8px; right:20px; font-size:8pt; color:#9aa2b2; }
+.sfoot .brand{ color:var(--navy); font-weight:700; }
+.pgno{ position:absolute; bottom:8px; left:20px; font-size:8pt; color:#9aa2b2; }
+
+/* ---- title slide ---- */
+.title{ background:var(--navy); color:#fff; justify-content:center; align-items:center; text-align:center; padding:0 90px; }
+.title .eye{ font-size:12pt; letter-spacing:.22em; font-weight:800; text-transform:uppercase; color:var(--gold); }
+.title h1{ font-family:Georgia,serif; font-size:52pt; font-weight:700; line-height:1.04; margin:16px 0 6px; }
+.title .course{ font-size:16pt; color:#B5D4F4; font-weight:600; }
+.title .rule{ width:120px; height:4px; background:var(--red); margin:22px auto; border-radius:2px; }
+.title .eq{ font-family:Georgia,serif; font-style:italic; font-size:19pt; color:#e6d3a3; max-width:9in; line-height:1.4; }
+.title .meta{ margin-top:20px; font-size:11pt; color:#8ea3c4; letter-spacing:.03em; }
+.title .badge{ position:absolute; top:34px; right:44px; border:2px solid var(--gold); color:var(--gold);
+  font-size:10pt; font-weight:800; letter-spacing:.1em; text-transform:uppercase; padding:6px 14px; border-radius:5px; }
+
+/* ---- section/list slide ---- */
+.big-eq{ flex:1 1 auto; display:flex; flex-direction:column; justify-content:center; padding:34px 60px; gap:20px; }
+.big-eq .q{ font-family:Georgia,serif; font-size:30pt; font-weight:700; color:var(--navy); line-height:1.18; }
+.big-eq .q .u{ color:var(--red); }
+.road{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; }
+.road .r{ background:var(--navy-tint); border-left:5px solid var(--navy); border-radius:0 8px 8px 0; padding:9px 13px; }
+.road .r .c{ font-weight:800; color:var(--red); font-size:11pt; }
+.road .r .t{ font-size:12pt; color:#22303f; line-height:1.25; margin-top:2px; }
+
+/* perspectives */
+.persp{ flex:1 1 auto; display:grid; grid-template-columns:1fr 1fr; gap:16px; padding:22px 34px; }
+.persp .p{ background:var(--paper); border:1.8px solid var(--rule); border-top:5px solid var(--red); border-radius:8px; padding:13px 16px; }
+.persp .p h3{ font-size:15pt; color:var(--navy); margin-bottom:5px; }
+.persp .p p{ font-size:12pt; line-height:1.36; color:#22303f; }
+
+/* tn slide */
+.tnbig{ flex:1 1 auto; display:flex; gap:24px; padding:26px 44px; align-items:center; }
+.tnbig .star{ font-size:80pt; color:var(--gold); flex:0 0 auto; }
+.tnbig .t{ font-size:17pt; line-height:1.5; color:#22303f; } .tnbig .t b{ color:var(--navy); }
+
+/* closing */
+.close{ background:var(--navy); color:#fff; justify-content:center; align-items:center; text-align:center; padding:0 90px; }
+.close h1{ font-family:Georgia,serif; font-size:34pt; margin-bottom:14px; }
+.close .rule{ width:120px; height:4px; background:var(--red); margin:16px auto; border-radius:2px; }
+.close p{ font-size:15pt; color:#cdd4e2; line-height:1.5; max-width:9in; }
+.close .stds{ margin-top:18px; font-size:12pt; color:var(--gold); letter-spacing:.05em; }
+</style></head><body>
+<div class="slide title">
+  <div class="badge">Teacher Deck</div>
+  <div class="eye">Government Hack &middot; TroopToTeacher Technologies</div>
+  <h1>Foundations of<br>Constitutional Government</h1>
+  <div class="course">United States Government &amp; Civics (GC) &middot; Unit 1 &middot; GC.01&ndash;GC.09</div>
+  <div class="rule"></div>
+  <div class="eq">&ldquo;How does Congress represent the people — and where do its powers begin and end?&rdquo;</div>
+  <div class="meta">Grades 9&ndash;12 &middot; Suggested 15–17 days &middot; Supplemental under TCA &sect; 49-6-2202(a)(3)</div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; Roadmap</div><h2>Where We Are Going</h2></div>
+    <div class="r"><span class="chip">9 standards</span><span class="chip ssp">SSP.01&ndash;06</span></div></div>
+  <div class="big-eq">
+    <div class="q">Essential Question: <span class="u">How does Congress represent the people — and where do its powers begin and end?</span></div>
+    <div class="road"><div class="r"><div class="c">GC.35</div><div class="t">Citizenship &amp; Naturalization</div></div><div class="r"><div class="c">GC.10</div><div class="t">Article I &amp; the 17th Amendment</div></div><div class="r"><div class="c">GC.11</div><div class="t">Census, Redistricting &amp; Baker v. Carr</div></div><div class="r"><div class="c">GC.12</div><div class="t">Leadership of Congress</div></div><div class="r"><div class="c">GC.13</div><div class="t">How a Bill Becomes a Law</div></div><div class="r"><div class="c">GC.14</div><div class="t">Tennessee's Delegation to Congress</div></div><div class="r"><div class="c">GC.15</div><div class="t">The Powers of Congress</div></div></div>
+  </div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">2</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.35 &middot; CITIZENSHIP</div><h2>Citizenship &amp; Naturalization</h2></div>
+    <div class="r"><span class="chip">GC.35</span><span class="chip ssp">SSP.01</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can explain who is a natural-born U.S. citizen and describe the process of naturalization.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; PHOTO</div><div class="phttl">Inspectors examining eyes of immigrants, Ellis Island</div><div class="phsub">drop image: <code>GC.35_ellis-island-immigrants.jpg</code></div></div><div class="imgtext"><div class="imgcap">Immigrants at Ellis Island (c.1913): the doorway to naturalized citizenship — the process Congress controls under Article I.</div><div class="imgquote">&ldquo;The Congress shall have Power… To establish an uniform Rule of Naturalization.&rdquo; <span class="qa">&mdash; Constitutional Convention, U.S. Constitution, Article I, Section 8 (1787)</span></div><div class="imgcite">Inspectors examining eyes of immigrants, Ellis Island &middot; LOC (c.1913) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>You could be asked the same civics question a new citizen must answer to be sworn in. Could you pass the test to join the country you already live in?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Natural-Born Citizen <span class="say">/NATCH-rul born SIT-ih-zen/</span></div>
+          <div class="ves">ciudadano por nacimiento</div>
+          <div class="vdef">A person who is a U.S. citizen at birth — by being born in the U.S. or, in most cases, to U.S.-citizen parents; a requirement to be President.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">Which power does the Constitution give to Congress regarding citizenship?</div>
+          <div class="opt"><span class="k">A</span><span>To choose which states may grant citizenship</span></div><div class="opt"><span class="k">B</span><span>To deny citizenship to anyone born in the U.S.</span></div><div class="opt key"><span class="k">C &check;</span><span>To establish a uniform rule of naturalization</span></div><div class="opt"><span class="k">D</span><span>To require every citizen to pass the Naturalization Test</span></div>
+          <div class="ans"><b>Answer: C.</b> DOK 2: Article I, Section 8 gives Congress the power 'to establish an uniform Rule of Naturalization,' so the rules for becoming a citizen are the same nationwide.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">3</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.10 &middot; REPRESENTATION</div><h2>Article I &amp; the 17th Amendment</h2></div>
+    <div class="r"><span class="chip">GC.10</span><span class="chip ssp">SSP.03</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can analyze Article I and the 17th Amendment — the qualifications, terms, and election of members of the House and Senate.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; DOCUMENT</div><div class="phttl">17th Amendment — Direct Election of Senators (1913)</div><div class="phsub">drop image: <code>GC.10_seventeenth-amendment.jpg</code></div></div><div class="imgtext"><div class="imgcap">The 17th Amendment (1913): the moment U.S. senators became elected directly by the people instead of by state legislatures.</div><div class="imgquote">&ldquo;The Senate of the United States shall be composed of two Senators from each State, elected by the people thereof, for six years.&rdquo; <span class="qa">&mdash; 62nd U.S. Congress, U.S. Constitution, Amendment XVII (1913)</span></div><div class="imgcite">17th Amendment — Direct Election of Senators (1913) &middot; U.S. Congress (NARA) (1913) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>One chamber turns over every two years; the other moves at a six-year pace and once answered to state politicians, not voters. Why build Congress out of two such different halves?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Bicameral <span class="say">/by-KAM-er-ul/</span></div>
+          <div class="ves">bicameral</div>
+          <div class="vdef">A legislature made of two houses — in Congress, the House of Representatives and the Senate.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">What key change did the 17th Amendment make to the Senate?</div>
+          <div class="opt key"><span class="k">A &check;</span><span>Senators are now elected directly by the people instead of by state legislatures</span></div><div class="opt"><span class="k">B</span><span>Senators now serve two-year terms instead of six</span></div><div class="opt"><span class="k">C</span><span>The number of senators per state increased to three</span></div><div class="opt"><span class="k">D</span><span>The Senate lost its power to confirm appointments</span></div>
+          <div class="ans"><b>Answer: A.</b> DOK 2: Before 1913, state legislatures chose U.S. senators; the 17th Amendment gave that choice directly to the voters of each state.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">4</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.11 &middot; REDISTRICTING</div><h2>Census, Redistricting &amp; Baker v. Carr</h2></div>
+    <div class="r"><span class="chip">GC.11</span><span class="chip ssp">SSP.05</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can describe the census and its role in reapportionment and redistricting, including the significance of Baker v. Carr.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128499;</div><div class="phlbl">PRIMARY SOURCE &middot; CARTOON</div><div class="phttl">The Gerry-Mander</div><div class="phsub">drop image: <code>GC.11_gerry-mander-1812.png</code></div></div><div class="imgtext"><div class="imgcap">'The Gerry-Mander' (1812): the original cartoon of a district drawn to win — the line-drawing that Baker v. Carr's era confronted.</div><div class="imgquote">&ldquo;We conclude that the complaint's allegations of a denial of equal protection present a justiciable constitutional cause of action… the right asserted is within the reach of judicial protection under the Fourteenth Amendment.&rdquo; <span class="qa">&mdash; U.S. Supreme Court, Baker v. Carr, 369 U.S. 186 (1962)</span></div><div class="imgcite">The Gerry-Mander &middot; Elkanah Tisdale (1812) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>A vote in Memphis once counted for one-eighth of a vote in the countryside — legally. A Tennessean sued, and changed the country. How?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Census <span class="say">/SEN-sus/</span></div>
+          <div class="ves">censo</div>
+          <div class="vdef">The count of the U.S. population taken every ten years, used to apportion House seats and federal funds.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 3</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">Why was Baker v. Carr (1962) so important for representation?</div>
+          <div class="opt"><span class="k">A</span><span>It abolished the census</span></div><div class="opt"><span class="k">B</span><span>It made gerrymandering a federal crime</span></div><div class="opt"><span class="k">C</span><span>It ended the Senate's six-year terms</span></div><div class="opt key"><span class="k">D &check;</span><span>It ruled that federal courts could hear redistricting cases, opening the door to 'one person, one vote'</span></div>
+          <div class="ans"><b>Answer: D.</b> DOK 3: Baker v. Carr held that unequal districts could be challenged in federal court under the 14th Amendment — making reapportionment a justiciable issue and leading to the 'one person, one vote' standard.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">5</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.12 &middot; CONGRESSIONAL STRUCTURE</div><h2>Leadership of Congress</h2></div>
+    <div class="r"><span class="chip">GC.12</span><span class="chip ssp">SSP.01</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can identify the leadership positions in both houses of Congress and explain how each is chosen.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; PHOTO</div><div class="phttl">United States Capitol, c.1846 (Plumbe daguerreotype)</div><div class="phsub">drop image: <code>GC.12_us-capitol.jpg</code></div></div><div class="imgtext"><div class="imgcap">The U.S. Capitol, c.1846 (earliest known photo): home of the House and Senate and their party leadership.</div><div class="imgquote">&ldquo;The House of Representatives shall chuse their Speaker and other Officers.&rdquo; <span class="qa">&mdash; Constitutional Convention, U.S. Constitution, Article I, Section 2 (1787)</span></div><div class="imgcite">United States Capitol, c.1846 (Plumbe daguerreotype) &middot; John Plumbe Jr. (c.1846) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>One person decides which bills the House will even vote on. Who holds that gatekeeper's gavel — and how did they get it?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Speaker of the House <span class="say">/SPEE-ker/</span></div>
+          <div class="ves">presidente de la Cámara</div>
+          <div class="vdef">The leader of the House of Representatives, chosen by the majority party; sets the House agenda and is second in line to the presidency.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">Who leads the House of Representatives and sets its agenda?</div>
+          <div class="opt"><span class="k">A</span><span>The President pro tempore</span></div><div class="opt key"><span class="k">B &check;</span><span>The Speaker of the House</span></div><div class="opt"><span class="k">C</span><span>The Vice President</span></div><div class="opt"><span class="k">D</span><span>The Chief Justice</span></div>
+          <div class="ans"><b>Answer: B.</b> DOK 2: The Constitution says the House shall 'chuse their Speaker'; the Speaker, chosen by the majority party, leads the House and controls its agenda.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">6</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.13 &middot; LAWMAKING</div><h2>How a Bill Becomes a Law</h2></div>
+    <div class="r"><span class="chip">GC.13</span><span class="chip ssp">SSP.05</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can describe how a bill becomes a law, including the differences between the House and Senate processes.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; PHOTO</div><div class="phttl">Congress in session (pre-1929) — bill/legislative process</div><div class="phsub">drop image: <code>GC.13_congress-in-session.jpg</code></div></div><div class="imgtext"><div class="imgcap">Congress in session: where a bill runs the gauntlet from committee to filibuster to the President's desk.</div><div class="imgquote">&ldquo;Every Bill which shall have passed the House of Representatives and the Senate, shall, before it become a Law, be presented to the President of the United States.&rdquo; <span class="qa">&mdash; Constitutional Convention, U.S. Constitution, Article I, Section 7 (1787)</span></div><div class="imgcite">Congress in session (pre-1929) — bill/legislative process &middot; U.S. Government (1920s) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>Thousands of bills are introduced each year; only a few hundred become law. What kills the rest — and why did the Framers make it so hard?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Filibuster <span class="say">/FIL-ih-bus-ter/</span></div>
+          <div class="ves">obstruccionismo</div>
+          <div class="vdef">A Senate tactic of extended debate used to delay or block a vote on a bill.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">A Senate tactic of unlimited debate used to block a bill is a:</div>
+          <div class="opt"><span class="k">A</span><span>Cloture</span></div><div class="opt"><span class="k">B</span><span>Veto</span></div><div class="opt key"><span class="k">C &check;</span><span>Filibuster</span></div><div class="opt"><span class="k">D</span><span>Quorum</span></div>
+          <div class="ans"><b>Answer: C.</b> DOK 2: A filibuster uses extended debate to delay or block a Senate vote; it takes a cloture vote (usually 60 senators) to end one.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">7</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.14 &middot; TENNESSEE &amp; CONGRESS</div><h2>Tennessee's Delegation to Congress</h2></div>
+    <div class="r"><span class="chip">GC.14</span><span class="chip ssp">SSP.06</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can identify who represents Tennessee in the U.S. Congress and locate my own congressional district.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#127894;</div><div class="phlbl">PRIMARY SOURCE &middot; EMBLEM</div><div class="phttl">Seal of Tennessee</div><div class="phsub">drop image: <code>GC.14_tennessee-seal.svg</code></div></div><div class="imgtext"><div class="imgcap">The Seal of Tennessee — the state whose two senators and House delegation you can name, locate, and contact.</div><div class="imgquote">&ldquo;Representatives… shall be apportioned among the several States… according to their respective Numbers.&rdquo; <span class="qa">&mdash; Constitutional Convention, U.S. Constitution, Article I, Section 2 (1787)</span></div><div class="imgcite">Seal of Tennessee &middot; State of Tennessee (1802 design) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>Two people in Washington are paid to answer to you personally — plus one more for your neighborhood. Do you know their names?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Congressional District <span class="say">/kun-GRESH-un-ul/</span></div>
+          <div class="ves">distrito congresional</div>
+          <div class="vdef">A geographic area whose voters elect one member of the U.S. House of Representatives; Tennessee is divided into several.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">How many U.S. Senators does Tennessee — like every state — send to Congress?</div>
+          <div class="opt key"><span class="k">A &check;</span><span>Two</span></div><div class="opt"><span class="k">B</span><span>One per congressional district</span></div><div class="opt"><span class="k">C</span><span>Based on its population</span></div><div class="opt"><span class="k">D</span><span>Ten</span></div>
+          <div class="ans"><b>Answer: A.</b> DOK 2: The Constitution gives every state exactly two U.S. Senators, regardless of population; a state's number of U.S. Representatives, by contrast, depends on population.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">8</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.15 &middot; POWERS OF CONGRESS</div><h2>The Powers of Congress</h2></div>
+    <div class="r"><span class="chip">GC.15</span><span class="chip ssp">SSP.02</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can describe the enumerated and implied powers of Congress, including the Necessary and Proper Clause and McCulloch v. Maryland.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128100;</div><div class="phlbl">PRIMARY SOURCE &middot; PORTRAIT</div><div class="phttl">Chief Justice John Marshall (McCulloch v. Maryland)</div><div class="phsub">drop image: <code>GC.15_john-marshall.jpg</code></div></div><div class="imgtext"><div class="imgcap">Chief Justice John Marshall, whose McCulloch v. Maryland (1819) opinion upheld Congress's implied powers.</div><div class="imgquote">&ldquo;The Congress shall have Power… To make all Laws which shall be necessary and proper for carrying into Execution the foregoing Powers.&rdquo; <span class="qa">&mdash; Constitutional Convention, U.S. Constitution, Article I, Section 8 (1787)</span></div><div class="imgcite">Chief Justice John Marshall (McCulloch v. Maryland) &middot; (artist unconfirmed) (19th c.) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>The Constitution never says Congress can create an air force, a national bank, or the interstate highways — yet it did all three. Where does that power come from?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Enumerated Powers <span class="say">/ee-NOO-mer-ay-ted/</span></div>
+          <div class="ves">poderes enumerados</div>
+          <div class="vdef">The powers specifically listed for Congress in the Constitution, such as taxing, borrowing, regulating commerce, and declaring war.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 3</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">How did McCulloch v. Maryland (1819) affect the powers of Congress?</div>
+          <div class="opt"><span class="k">A</span><span>It abolished the Necessary and Proper Clause</span></div><div class="opt"><span class="k">B</span><span>It limited Congress to only the powers explicitly listed</span></div><div class="opt"><span class="k">C</span><span>It gave the states power to tax the federal government</span></div><div class="opt key"><span class="k">D &check;</span><span>It upheld broad implied powers under the Necessary and Proper Clause</span></div>
+          <div class="ans"><b>Answer: D.</b> DOK 3: Marshall's opinion read the Necessary and Proper Clause broadly — Congress may use any appropriate means to carry out its enumerated powers — establishing implied powers and upholding the national bank.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">9</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; Multiple Perspectives</div><h2>Who Gets Represented? Perspectives on Congress</h2></div>
+    <div class="r"><span class="chip ssp">SSP.03</span></div></div>
+  <div class="persp"><div class="p"><h3>Large vs. Small States</h3><p>The Great Compromise gave every state two senators but seats the House by population — a bargain carried straight from the Constitutional Convention (connects to GC.10, GC.04).</p></div><div class="p"><h3>Urban vs. Rural Voters</h3><p>For decades Tennessee's unequal districts made a rural vote worth many times an urban one, until Baker v. Carr forced 'one person, one vote' (GC.11).</p></div><div class="p"><h3>Majority vs. Minority Power</h3><p>Senate rules like the filibuster let a minority slow or block the majority; House rules move faster — the same bill can face very different odds (GC.13).</p></div><div class="p"><h3>Who Draws the Lines</h3><p>Whoever controls redistricting can shape outcomes through gerrymandering, changing who wins without changing a single vote (GC.11).</p></div></div>
+  <div class="tnotes"><b>Why it matters</b><span>This section examines how representation is built and contested: which places and people a legislature counts, and who draws the lines. It is Government Hack–authored instructional synthesis grounded in this un</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">10</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; TENNESSEE CONNECTION</div><h2>Our Signature Move</h2></div>
+    <div class="r"><span class="chip">&#9733; Tennessee</span></div></div>
+  <div class="tnbig"><div class="star">&#9733;</div><div class="t">One person, one vote started in Tennessee. Charles Baker, a voter from Shelby County (Memphis), sued because the state had not redrawn its legislative districts since 1901 — leaving a Memphis vote worth about one-eighth of a rural vote. In Baker v. Carr (1962) the Supreme Court ruled that federal courts could hear redistricting cases, opening the door to the 'one person, one vote' standard (GC.11).</div></div>
+  <div class="tnotes"><b>Task</b><span>Tennessee's own unequal districts sparked a national rule. Investigate your current Tennessee state legislative district or U.S. House district — who represents it, and roughly how many people live there — and record what you find.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">11</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 3 &middot; Make It Stick</div><h2>Predict &middot; Play &middot; Spiral</h2></div>
+    <div class="r"><span class="chip">UDL &middot; MTSS</span></div></div>
+  <div class="persp">
+    <div class="p" style="border-top-color:var(--gold)"><h3>Predict First &mdash; open the unit</h3><p>Predict first: Should a vote in the city count the same as a vote in the countryside? Write your gut answer now — you'll test it against Tennessee's own Baker v. Carr and the idea of 'one person, one vote.'</p></div>
+    <div class="p"><h3>Warm-Up Play &mdash; Redistrict It!</h3><p>4-minute map game (GC.11). Give teams a small grid 'state' of colored voters and ask them to draw the district lines so their side wins. Reveal how the same voters produce different winners depending only on where the lines go — gerrymandering, felt in four minutes.</p></div>
+    <div class="p" style="border-top-color:var(--navy)"><h3>Spiral &mdash; retrieve &amp; connect</h3><p style="font-size:10.5pt"><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.10 &rarr; Unit 1 (GC.04, the Great Compromise)</b><br>Two senators per state + a House by population is the Great Compromise you studied in Foundations, now in action.</div><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.13 &rarr; Unit 1 (GC.06, checks &amp; balances)</b><br>The presidential veto and the override are checks &amp; balances — retrieve the principle, then watch a bill run the gauntlet.</div><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.14 &rarr; Unit 2 (GC.34, participation)</b><br>Contacting or petitioning your representative is the participation you practiced in Unit 2 — now you know who to contact.</div></p></div>
+    <div class="p" style="border-top-color:var(--gold)"><h3>Legislative Debate</h3><p><ul style="margin-left:15px"><li>Cite the clause — point to Article I before you argue.</li><li>Represent a position fairly before you rebut it.</li><li>Disagree with the rule, not the person.</li><li>One voice at a time; make room for the quiet voice.</li></ul></p></div>
+  </div>
+  <div class="tnotes"><b>Why it's here</b><span>These are the built-in UDL 3.0 moves — a belief-check (9.1), on-standard play (7.3), cross-unit spiral (3.4), and conversation norms (9.4). Use them; they make the unit stick.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">12</div></div><div class="slide close">
+  <div class="close-inner" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;height:100%;padding:0 90px">
+  <h1>Revisit the Essential Question</h1>
+  <div class="rule"></div>
+  <p>&ldquo;How does Congress represent the people — and where do its powers begin and end?&rdquo;</p>
+  <p style="margin-top:14px;font-size:13pt">Students now have the sources, vocabulary, and reasoning to answer it &mdash; in a CER paragraph or the unit DBQ.</p>
+  <div class="stds">GC.35 &middot; GC.10 &middot; GC.11 &middot; GC.12 &middot; GC.13 &middot; GC.14 &middot; GC.15</div></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">13</div></div>
+</body></html>
