@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Contents</title>
+<style>
+  :root{ --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C; --paper:#ffffff; --ink:#1B2A4A;
+         --gold-tint:#FAF3E2; --navy-tint:#EEF1F7; --muted:#5A6579; --rule:#CBD2DE; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  @page{ size:8.5in 11in; margin:0; }
+  html,body{ background:#8a8f99; }
+  body{ font-family:"Helvetica Neue",Arial,sans-serif; color:var(--ink); }
+  .page{ position:relative; width:8.5in; height:11in; background:var(--paper);
+         margin:0 auto; padding:0.6in 0.72in 0.55in; display:flex; flex-direction:column; overflow:hidden; }
+  .top{ text-align:center; border-bottom:3px solid var(--navy); padding-bottom:11px; }
+  .brand{ color:var(--red); font-size:9pt; font-weight:800; letter-spacing:.20em; text-transform:uppercase; }
+  h1{ font-family:Georgia,serif; color:var(--navy); font-size:23pt; font-weight:700; margin-top:6px; }
+  .subt{ color:var(--muted); font-size:10pt; font-weight:600; margin-top:4px; }
+  .toc{ flex:1 1 auto; padding-top:16px; display:flex; flex-direction:column; }
+  .thead{ display:grid; grid-template-columns:44px 1fr 118px 96px 52px; gap:10px;
+          font-size:8pt; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:var(--muted);
+          padding:0 12px 7px; border-bottom:1.5px solid var(--rule); }
+  .thead .r{ text-align:right; }
+  .row{ display:grid; grid-template-columns:44px 1fr 118px 96px 52px; gap:10px; align-items:center;
+        padding:9px 12px; border-bottom:1px solid #E7EBF1; }
+  .row:nth-child(even){ background:#FafbfC; }
+  .unum{ font-family:Georgia,serif; font-size:15pt; font-weight:700; color:var(--gold); text-align:center; }
+  .uname{ font-family:Georgia,serif; font-size:12pt; font-weight:700; color:var(--navy); line-height:1.1; }
+  .uyears{ font-size:9.5pt; color:var(--muted); font-weight:600; }
+  .ustd{ font-size:9.5pt; color:var(--navy); font-weight:700; }
+  .upage{ font-size:11pt; color:var(--navy); font-weight:800; text-align:right; }
+  .totrow{ display:flex; justify-content:space-between; align-items:center; margin-top:auto; padding:12px 14px 0; }
+  .totrow .stat{ text-align:center; flex:1 1 0; }
+  .totrow .stat .n{ font-family:Georgia,serif; font-size:20pt; font-weight:700; color:var(--navy); }
+  .totrow .stat .l{ font-size:8pt; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-top:2px; }
+  .totrow .sep{ width:1px; align-self:stretch; background:var(--rule); }
+  .howto{ margin-top:14px; background:var(--navy-tint); border-left:5px solid var(--navy); border-radius:0 6px 6px 0;
+          padding:11px 15px; font-size:9.3pt; line-height:1.45; color:#2c3446; }
+  .howto b{ color:var(--navy); }
+  .foot{ flex:0 0 auto; border-top:1.5px solid var(--rule); padding-top:9px; margin-top:12px;
+         display:flex; justify-content:space-between; font-size:8.4pt; color:var(--muted); }
+  .foot b{ color:var(--navy); }
+</style></head>
+<body>
+  <div class="page">
+    <div class="top">
+      <div class="brand">Contents</div>
+      <h1>Ten Units, One Toolkit</h1>
+      <div class="subt">Each unit opens with a &ldquo;Which Organizer, When?&rdquo; guide and an SSP crosswalk, then 15 blank reproducibles and a best&#8209;fit organizer for every standard.</div>
+    </div>
+
+    <div class="toc">
+      <div class="thead"><div>Unit</div><div>Theme</div><div>Era</div><div>Standards</div><div class="r">Page</div></div>
+
+      <div class="row"><div class="unum">1</div><div class="uname">The Rise of Industrialization</div><div class="uyears">1877&ndash;1900</div><div class="ustd">US.01&ndash;US.07</div><div class="upage">4</div></div>
+      <div class="row"><div class="unum">2</div><div class="uname">The Progressive Era</div><div class="uyears">1890&ndash;1920</div><div class="ustd">US.08&ndash;US.18</div><div class="upage">28</div></div>
+      <div class="row"><div class="unum">3</div><div class="uname">Imperialism &amp; World War I</div><div class="uyears">1890&ndash;1920</div><div class="ustd">US.19&ndash;US.27</div><div class="upage">55</div></div>
+      <div class="row"><div class="unum">4</div><div class="uname">The Roaring Twenties</div><div class="uyears">1920&ndash;1929</div><div class="ustd">US.28&ndash;US.38</div><div class="upage">81</div></div>
+      <div class="row"><div class="unum">5</div><div class="uname">The Great Depression &amp; New Deal</div><div class="uyears">1929&ndash;1941</div><div class="ustd">US.39&ndash;US.44</div><div class="upage">109</div></div>
+      <div class="row"><div class="unum">6</div><div class="uname">World War II</div><div class="uyears">1939&ndash;1945</div><div class="ustd">US.45&ndash;US.58</div><div class="upage">132</div></div>
+      <div class="row"><div class="unum">7</div><div class="uname">The Cold War</div><div class="uyears">1945&ndash;1991</div><div class="ustd">US.59&ndash;US.70</div><div class="upage">163</div></div>
+      <div class="row"><div class="unum">8</div><div class="uname">Postwar America</div><div class="uyears">1945&ndash;1963</div><div class="ustd">US.71&ndash;US.77</div><div class="upage">192</div></div>
+      <div class="row"><div class="unum">9</div><div class="uname">The Civil Rights Movement</div><div class="uyears">1954&ndash;1975</div><div class="ustd">US.78&ndash;US.82</div><div class="upage">216</div></div>
+      <div class="row"><div class="unum">10</div><div class="uname">Contemporary America</div><div class="uyears">1964&ndash;2016</div><div class="ustd">US.83&ndash;US.95</div><div class="upage">238</div></div>
+
+      <div class="totrow">
+        <div class="stat"><div class="n">10</div><div class="l">Units</div></div>
+        <div class="sep"></div>
+        <div class="stat"><div class="n">95</div><div class="l">Standards Covered</div></div>
+        <div class="sep"></div>
+        <div class="stat"><div class="n">95</div><div class="l">Best&#8209;Fit Organizers</div></div>
+        <div class="sep"></div>
+        <div class="stat"><div class="n">150+</div><div class="l">Blank Reproducibles</div></div>
+      </div>
+
+      <div class="howto">
+        <b>How to use this toolkit.</b> Match the <b>task</b> to the thinking tool. Each unit&rsquo;s front &ldquo;Which Organizer,
+        When?&rdquo; guide names the right organizer for each kind of task; the SSP crosswalk ties every organizer to a
+        Tennessee Social Studies Practice. Every labeled page includes a Tennessee Connection and UDL&nbsp;/&nbsp;MTSS supports.
+      </div>
+    </div>
+
+    <div class="foot">
+      <span><b>U.S. History Hack&trade;</b> &nbsp;&middot;&nbsp; &copy; 2026 TroopToTeacher Technologies LLC</span>
+      <span>Content by Isabella Stuart</span>
+    </div>
+  </div>
+</body></html>
