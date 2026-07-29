@@ -99,11 +99,11 @@
         "stem": "According to John Locke, where does a government's rightful authority come from?",
         "options": {
           "A": "The divine right of kings",
-          "B": "The consent of the people being governed",
-          "C": "The strongest military",
+          "B": "The strongest military",
+          "C": "The consent of the people being governed",
           "D": "Inherited wealth and land"
         },
-        "key": "B",
+        "key": "C",
         "why": "DOK 2: Locke's social-contract theory holds that legitimate government rests on the consent of the governed to protect natural rights — a direct root of the Declaration's 'consent of the governed.'"
       },
       "auth": {
@@ -210,12 +210,12 @@
         "dok": 3,
         "stem": "The Declaration lists the colonists' natural rights and then a long list of grievances against the king. Why did the writers put these two parts together?",
         "options": {
-          "A": "To make the document longer and more impressive",
-          "B": "To show that when a government repeatedly violates the people's rights, the people may justly alter or abolish it",
+          "A": "To show that when a government repeatedly violates the people's rights, the people may justly alter or abolish it",
+          "B": "To make the document longer and more impressive",
           "C": "To ask King George III to apologize",
           "D": "To describe how to run the new state governments"
         },
-        "key": "B",
+        "key": "A",
         "why": "DOK 3: The structure is an argument — universal rights (major premise) + the king's specific violations (evidence) → the conclusion that the colonies may rightfully separate. Grievances turn principle into justification."
       },
       "auth": {
@@ -322,11 +322,11 @@
         "stem": "Under the Articles of Confederation, which power did the national government LACK that caused serious problems?",
         "options": {
           "A": "The power to declare war",
-          "B": "The power to tax the states and citizens directly",
+          "B": "The power to make treaties",
           "C": "The power to run a post office",
-          "D": "The power to make treaties"
+          "D": "The power to tax the states and citizens directly"
         },
-        "key": "B",
+        "key": "D",
         "why": "DOK 2: The Articles denied Congress the power to tax; it could only request money from the states. Without reliable revenue, the national government could not pay debts or respond to crises like Shays's Rebellion."
       },
       "auth": {
@@ -544,11 +544,11 @@
         "stem": "The Preamble begins with the words 'We the People.' Which principle of government does this phrase express?",
         "options": {
           "A": "Judicial review",
-          "B": "Popular sovereignty — government power comes from the people",
-          "C": "Separation of powers",
+          "B": "Separation of powers",
+          "C": "Popular sovereignty — government power comes from the people",
           "D": "Federalism"
         },
-        "key": "B",
+        "key": "C",
         "why": "DOK 2: 'We the People' declares that the Constitution's authority flows from the people themselves — the principle of popular sovereignty — not from a king or a single state."
       },
       "auth": {
@@ -654,12 +654,12 @@
         "dok": 3,
         "stem": "In Federalist No. 51, Madison writes that 'ambition must be made to counteract ambition.' Which constitutional design does this describe?",
         "options": {
-          "A": "Popular sovereignty",
-          "B": "Checks and balances that let each branch limit the others",
+          "A": "Checks and balances that let each branch limit the others",
+          "B": "Popular sovereignty",
           "C": "Federalism between nation and states",
           "D": "The amendment process"
         },
-        "key": "B",
+        "key": "A",
         "why": "DOK 3: Madison's point is structural — because people seek power, the Constitution pits the branches against each other so each checks the others' ambition. That is the logic of checks and balances."
       },
       "auth": {
@@ -767,11 +767,11 @@
         "stem": "Why did the Framers make the amendment process in Article V deliberately difficult?",
         "options": {
           "A": "To make sure the Constitution could never change",
-          "B": "So the Constitution could adapt over time, but only with broad agreement across the country",
+          "B": "To let a single state change it alone",
           "C": "To give the president control over amendments",
-          "D": "To let a single state change it alone"
+          "D": "So the Constitution could adapt over time, but only with broad agreement across the country"
         },
-        "key": "B",
+        "key": "D",
         "why": "DOK 2: Requiring supermajorities to propose (2/3 of Congress) and ratify (3/4 of states) means change is possible but requires broad national consensus — balancing stability with flexibility."
       },
       "auth": {
@@ -989,12 +989,12 @@
         "dok": 2,
         "stem": "What is the main difference between a direct democracy and a republic (representative democracy)?",
         "options": {
-          "A": "A republic has no elections",
-          "B": "In a direct democracy citizens vote on laws themselves; in a republic they elect representatives to make laws",
+          "A": "In a direct democracy citizens vote on laws themselves; in a republic they elect representatives to make laws",
+          "B": "A republic has no elections",
           "C": "A republic is ruled by a king",
           "D": "There is no difference"
         },
-        "key": "B",
+        "key": "A",
         "why": "DOK 2: In a direct democracy the people vote on laws directly; in a republic (representative democracy) the people elect representatives who make laws on their behalf — the model the Framers chose."
       },
       "auth": {

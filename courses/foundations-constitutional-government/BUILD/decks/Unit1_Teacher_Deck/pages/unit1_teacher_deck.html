@@ -1,0 +1,379 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<title>Unit 1 Teacher Deck &mdash; Foundations of Constitutional Government</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{ --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C; --cream:#F7F5EF; --paper:#fff;
+  --navy-tint:#EEF1F7; --red-tint:#FBEEEF; --gold-tint:#FAF3E2; --green-tint:#EAF2EC;
+  --rule:#CBD2DE; --muted:#5A6579; --ink:#1B2A4A; }
+@page{ size:13.333in 7.5in; margin:0; }
+html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; color:var(--ink); }
+.slide{ position:relative; width:13.333in; height:7.5in; background:var(--paper); overflow:hidden;
+  page-break-after:always; display:flex; flex-direction:column; }
+.slide:last-child{ page-break-after:auto; }
+
+/* ---- shared header band ---- */
+.shead{ flex:0 0 auto; background:var(--navy); color:#fff; display:flex; align-items:center;
+  justify-content:space-between; padding:16px 34px; border-bottom:5px solid var(--red); }
+.shead .l{ display:flex; flex-direction:column; gap:3px; }
+.shead .kick{ font-size:11pt; letter-spacing:.14em; font-weight:800; color:var(--gold); text-transform:uppercase; }
+.shead h2{ font-family:Georgia,serif; font-size:27pt; font-weight:700; line-height:1.02; }
+.shead .r{ display:flex; flex-direction:column; align-items:flex-end; gap:6px; }
+.chip{ background:rgba(255,255,255,.12); border:1.5px solid var(--gold); color:#fff; font-size:9.5pt;
+  font-weight:700; padding:5px 12px; border-radius:14px; white-space:nowrap; }
+.chip.ssp{ background:var(--red); border-color:var(--red); }
+
+/* ---- body grid ---- */
+.body{ flex:1 1 auto; display:flex; gap:22px; padding:22px 34px; min-height:0; }
+.col{ display:flex; flex-direction:column; gap:14px; min-height:0; }
+.col.main{ flex:1.35 1 0; } .col.side{ flex:1 1 0; }
+
+.card{ border:1.8px solid var(--rule); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
+.card .ch{ font-size:10.5pt; font-weight:800; letter-spacing:.03em; text-transform:uppercase; color:#fff;
+  padding:6px 14px; }
+.card .cb{ padding:11px 15px; font-size:13.5pt; line-height:1.4; color:#22303f; }
+.ch.navy{ background:var(--navy); } .ch.red{ background:var(--red); } .ch.gold{ background:var(--gold); color:var(--navy); }
+.ch.green{ background:#1e6b40; }
+
+.target{ background:var(--navy-tint); border-left:6px solid var(--navy); border-radius:0 8px 8px 0;
+  padding:12px 16px; font-size:14pt; line-height:1.34; color:#22303f; }
+.target b{ color:var(--navy); }
+.hook{ background:var(--gold-tint); border-left:6px solid var(--gold); border-radius:0 8px 8px 0;
+  padding:12px 16px; font-size:15pt; line-height:1.34; font-style:italic; color:#3a2f12; }
+.hook .lbl{ font-style:normal; font-weight:800; font-size:9.5pt; letter-spacing:.08em; text-transform:uppercase; color:#7a5c15; display:block; margin-bottom:3px; }
+
+/* vocab */
+.vterm{ font-size:15pt; font-weight:800; color:var(--navy); }
+.vterm .say{ font-size:10pt; font-weight:600; color:var(--muted); font-style:italic; }
+.ves{ font-size:11pt; color:var(--red); font-weight:700; margin:2px 0 5px; }
+.vdef{ font-size:12.5pt; line-height:1.36; color:#22303f; }
+
+/* source */
+.src blockquote{ font-family:Georgia,serif; font-size:14.5pt; line-height:1.42; color:#22303f; font-style:italic; }
+.src .attr{ margin-top:8px; font-size:11pt; color:var(--muted); font-weight:700; }
+.src .attr b{ color:var(--navy); } .src .repo{ font-weight:600; font-style:italic; }
+
+/* CFU */
+.cfu .opt{ display:flex; gap:9px; align-items:flex-start; font-size:12.5pt; line-height:1.32; padding:3px 0; }
+.cfu .k{ font-weight:800; color:var(--navy); flex:0 0 auto; }
+.cfu .opt.key{ background:var(--green-tint); border-radius:6px; padding:5px 8px; }
+.cfu .opt.key .k{ color:#1e6b40; }
+.ans{ margin-top:9px; background:var(--green-tint); border:1.6px solid #1e6b40; border-radius:8px;
+  padding:9px 13px; font-size:11.5pt; line-height:1.34; color:#173d27; }
+.ans b{ color:#1e6b40; }
+
+/* teacher notes strip */
+.tnotes{ flex:0 0 auto; background:var(--cream); border-top:2px solid var(--gold); padding:9px 34px;
+  font-size:10.5pt; line-height:1.3; color:#3a2f12; display:flex; gap:12px; align-items:baseline; }
+.tnotes b{ color:#7a5c15; text-transform:uppercase; letter-spacing:.05em; font-size:9pt; flex:0 0 auto; }
+
+/* footer */
+.sfoot{ position:absolute; bottom:8px; right:20px; font-size:8pt; color:#9aa2b2; }
+.sfoot .brand{ color:var(--navy); font-weight:700; }
+.pgno{ position:absolute; bottom:8px; left:20px; font-size:8pt; color:#9aa2b2; }
+
+/* ---- title slide ---- */
+.title{ background:var(--navy); color:#fff; justify-content:center; align-items:center; text-align:center; padding:0 90px; }
+.title .eye{ font-size:12pt; letter-spacing:.22em; font-weight:800; text-transform:uppercase; color:var(--gold); }
+.title h1{ font-family:Georgia,serif; font-size:52pt; font-weight:700; line-height:1.04; margin:16px 0 6px; }
+.title .course{ font-size:16pt; color:#B5D4F4; font-weight:600; }
+.title .rule{ width:120px; height:4px; background:var(--red); margin:22px auto; border-radius:2px; }
+.title .eq{ font-family:Georgia,serif; font-style:italic; font-size:19pt; color:#e6d3a3; max-width:9in; line-height:1.4; }
+.title .meta{ margin-top:20px; font-size:11pt; color:#8ea3c4; letter-spacing:.03em; }
+.title .badge{ position:absolute; top:34px; right:44px; border:2px solid var(--gold); color:var(--gold);
+  font-size:10pt; font-weight:800; letter-spacing:.1em; text-transform:uppercase; padding:6px 14px; border-radius:5px; }
+
+/* ---- section/list slide ---- */
+.big-eq{ flex:1 1 auto; display:flex; flex-direction:column; justify-content:center; padding:34px 60px; gap:20px; }
+.big-eq .q{ font-family:Georgia,serif; font-size:30pt; font-weight:700; color:var(--navy); line-height:1.18; }
+.big-eq .q .u{ color:var(--red); }
+.road{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; }
+.road .r{ background:var(--navy-tint); border-left:5px solid var(--navy); border-radius:0 8px 8px 0; padding:9px 13px; }
+.road .r .c{ font-weight:800; color:var(--red); font-size:11pt; }
+.road .r .t{ font-size:12pt; color:#22303f; line-height:1.25; margin-top:2px; }
+
+/* perspectives */
+.persp{ flex:1 1 auto; display:grid; grid-template-columns:1fr 1fr; gap:16px; padding:22px 34px; }
+.persp .p{ background:var(--paper); border:1.8px solid var(--rule); border-top:5px solid var(--red); border-radius:8px; padding:13px 16px; }
+.persp .p h3{ font-size:15pt; color:var(--navy); margin-bottom:5px; }
+.persp .p p{ font-size:12pt; line-height:1.36; color:#22303f; }
+
+/* tn slide */
+.tnbig{ flex:1 1 auto; display:flex; gap:24px; padding:26px 44px; align-items:center; }
+.tnbig .star{ font-size:80pt; color:var(--gold); flex:0 0 auto; }
+.tnbig .t{ font-size:17pt; line-height:1.5; color:#22303f; } .tnbig .t b{ color:var(--navy); }
+
+/* closing */
+.close{ background:var(--navy); color:#fff; justify-content:center; align-items:center; text-align:center; padding:0 90px; }
+.close h1{ font-family:Georgia,serif; font-size:34pt; margin-bottom:14px; }
+.close .rule{ width:120px; height:4px; background:var(--red); margin:16px auto; border-radius:2px; }
+.close p{ font-size:15pt; color:#cdd4e2; line-height:1.5; max-width:9in; }
+.close .stds{ margin-top:18px; font-size:12pt; color:var(--gold); letter-spacing:.05em; }
+</style></head><body>
+<div class="slide title">
+  <div class="badge">Teacher Deck</div>
+  <div class="eye">Government Hack &middot; TroopToTeacher Technologies</div>
+  <h1>Foundations of<br>Constitutional Government</h1>
+  <div class="course">United States Government &amp; Civics (GC) &middot; Unit 1 &middot; GC.01&ndash;GC.09</div>
+  <div class="rule"></div>
+  <div class="eq">&ldquo;How and why did the Founders build a limited constitutional republic?&rdquo;</div>
+  <div class="meta">Grades 9&ndash;12 &middot; Suggested 15–17 days &middot; Supplemental under TCA &sect; 49-6-2202(a)(3)</div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; Roadmap</div><h2>Where We Are Going</h2></div>
+    <div class="r"><span class="chip">9 standards</span><span class="chip ssp">SSP.01&ndash;06</span></div></div>
+  <div class="big-eq">
+    <div class="q">Essential Question: <span class="u">How and why did the Founders build a limited constitutional republic?</span></div>
+    <div class="road"><div class="r"><div class="c">GC.01</div><div class="t">Enlightenment Roots of American Government</div></div><div class="r"><div class="c">GC.02</div><div class="t">The Declaration of Independence</div></div><div class="r"><div class="c">GC.03</div><div class="t">The Articles of Confederation</div></div><div class="r"><div class="c">GC.04</div><div class="t">The Constitutional Convention &amp; Ratification</div></div><div class="r"><div class="c">GC.05</div><div class="t">The Preamble: Purposes of Government</div></div><div class="r"><div class="c">GC.06</div><div class="t">Principles of Limited Government</div></div><div class="r"><div class="c">GC.07</div><div class="t">Structure of the Constitution &amp; How to Amend It</div></div><div class="r"><div class="c">GC.08</div><div class="t">The Bill of Rights</div></div><div class="r"><div class="c">GC.09</div><div class="t">Republic and Democracy</div></div></div>
+  </div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">2</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.01 &middot; CONSTITUTIONAL PRINCIPLES</div><h2>Enlightenment Roots of American Government</h2></div>
+    <div class="r"><span class="chip">GC.01</span><span class="chip ssp">SSP.02</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can examine the influences of leading European thinkers (e.g., John Locke, Charles-Louis Montesquieu, Thomas Hobbes) and other roots of American government (e.g., Greek democracy, Roman Republic, Magna Carta).</div>
+      <div class="hook"><span class="lbl">Hook</span>You already have rights no ruler gave you and none can take away — that's the idea that started a revolution. Where did it come from?</div>
+      <div class="card src" style="flex:1 1 auto;">
+        <div class="ch navy">Primary Source</div>
+        <div class="cb src"><blockquote>&ldquo;Men being, as has been said, by nature all free, equal, and independent, no one can be put out of this estate and subjected to the political power of another without his own consent.&rdquo;</blockquote>
+          <div class="attr"><b>John Locke</b>, <i>Second Treatise of Government</i> (1689)
+          &middot; <span class="repo">Avalon Project, Yale Law School</span></div></div>
+      </div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Natural Rights <span class="say">/NATCH-rul RYTS/</span></div>
+          <div class="ves">derechos naturales</div>
+          <div class="vdef">God-given rights to life, liberty, and property that government does not grant and cannot rightfully take away — central to John Locke's political thought.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">According to John Locke, where does a government's rightful authority come from?</div>
+          <div class="opt"><span class="k">A</span><span>The divine right of kings</span></div><div class="opt"><span class="k">B</span><span>The strongest military</span></div><div class="opt key"><span class="k">C &check;</span><span>The consent of the people being governed</span></div><div class="opt"><span class="k">D</span><span>Inherited wealth and land</span></div>
+          <div class="ans"><b>Answer: C.</b> DOK 2: Locke's social-contract theory holds that legitimate government rests on the consent of the governed to protect natural rights — a direct root of the Declaration's 'consent of the governed.'</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">3</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.02 &middot; CIVIC ARGUMENTATION</div><h2>The Declaration of Independence</h2></div>
+    <div class="r"><span class="chip">GC.02</span><span class="chip ssp">SSP.02</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can examine the Declaration of Independence and American grievances against British rule.</div>
+      <div class="hook"><span class="lbl">Hook</span>'All men are created equal.' A bold claim in 1776 — and the colonists used it to fire a king. How does the Declaration build its case?</div>
+      <div class="card src" style="flex:1 1 auto;">
+        <div class="ch navy">Primary Source</div>
+        <div class="cb src"><blockquote>&ldquo;We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.&rdquo;</blockquote>
+          <div class="attr"><b>Continental Congress (drafted by Thomas Jefferson)</b>, <i>Declaration of Independence</i> (July 4, 1776)
+          &middot; <span class="repo">National Archives</span></div></div>
+      </div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Unalienable Rights <span class="say">/un-AY-lee-uh-nuh-bul RYTS/</span></div>
+          <div class="ves">derechos inalienables</div>
+          <div class="vdef">Rights so fundamental they cannot be taken away or given up — in the Declaration, 'Life, Liberty and the pursuit of Happiness.'</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 3</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">The Declaration lists the colonists' natural rights and then a long list of grievances against the king. Why did the writers put these two parts together?</div>
+          <div class="opt key"><span class="k">A &check;</span><span>To show that when a government repeatedly violates the people's rights, the people may justly alter or abolish it</span></div><div class="opt"><span class="k">B</span><span>To make the document longer and more impressive</span></div><div class="opt"><span class="k">C</span><span>To ask King George III to apologize</span></div><div class="opt"><span class="k">D</span><span>To describe how to run the new state governments</span></div>
+          <div class="ans"><b>Answer: A.</b> DOK 3: The structure is an argument — universal rights (major premise) + the king's specific violations (evidence) → the conclusion that the colonies may rightfully separate. Grievances turn principle into justification.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">4</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.03 &middot; CONSTITUTIONAL PRINCIPLES</div><h2>The Articles of Confederation</h2></div>
+    <div class="r"><span class="chip">GC.03</span><span class="chip ssp">SSP.04</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can identify the strengths and weaknesses of the Articles of Confederation.</div>
+      <div class="hook"><span class="lbl">Hook</span>Imagine a national government that can declare war but can't collect a dime to pay for it. That was America under the Articles. What went wrong?</div>
+      <div class="card src" style="flex:1 1 auto;">
+        <div class="ch navy">Primary Source</div>
+        <div class="cb src"><blockquote>&ldquo;Each state retains its sovereignty, freedom, and independence, and every power, jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled.&rdquo;</blockquote>
+          <div class="attr"><b>Second Continental Congress</b>, <i>Articles of Confederation, Article II</i> (ratified 1781)
+          &middot; <span class="repo">Avalon Project, Yale Law School</span></div></div>
+      </div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Confederation <span class="say">/kon-fed-uh-RAY-shun/</span></div>
+          <div class="ves">confederación</div>
+          <div class="vdef">A loose union of independent states that keep most of their power, giving only limited authority to a weak central government.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">Under the Articles of Confederation, which power did the national government LACK that caused serious problems?</div>
+          <div class="opt"><span class="k">A</span><span>The power to declare war</span></div><div class="opt"><span class="k">B</span><span>The power to make treaties</span></div><div class="opt"><span class="k">C</span><span>The power to run a post office</span></div><div class="opt key"><span class="k">D &check;</span><span>The power to tax the states and citizens directly</span></div>
+          <div class="ans"><b>Answer: D.</b> DOK 2: The Articles denied Congress the power to tax; it could only request money from the states. Without reliable revenue, the national government could not pay debts or respond to crises like Shays's Rebellion.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">5</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.04 &middot; CIVIC ARGUMENTATION</div><h2>The Constitutional Convention &amp; Ratification</h2></div>
+    <div class="r"><span class="chip">GC.04</span><span class="chip ssp">SSP.04</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can discuss the Constitutional Convention of 1787, including the Great Compromise and the ensuing debate over ratification between the Federalists and Anti-Federalists.</div>
+      <div class="hook"><span class="lbl">Hook</span>Two plans, thirteen stubborn states, one hot Philadelphia summer. How did the Framers turn a deadlock into a Constitution?</div>
+      <div class="card src" style="flex:1 1 auto;">
+        <div class="ch navy">Primary Source</div>
+        <div class="cb src"><blockquote>&ldquo;The latent causes of faction are thus sown in the nature of man… The regulation of these various and interfering interests forms the principal task of modern legislation.&rdquo;</blockquote>
+          <div class="attr"><b>James Madison (Publius)</b>, <i>Federalist No. 10</i> (1787)
+          &middot; <span class="repo">Congress.gov / Library of Congress</span></div></div>
+      </div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Great Compromise <span class="say">/GRAYT KOM-pruh-myz/</span></div>
+          <div class="ves">Gran Compromiso</div>
+          <div class="vdef">The 1787 agreement creating a two-house Congress: a House based on state population and a Senate with equal representation (two per state) — settling the fight between large and small states.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 3</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">The Great Compromise settled which major disagreement at the Constitutional Convention?</div>
+          <div class="opt"><span class="k">A</span><span>Whether to have a president or a king</span></div><div class="opt key"><span class="k">B &check;</span><span>How states should be represented in Congress — by population or equally</span></div><div class="opt"><span class="k">C</span><span>Whether to keep the Articles of Confederation</span></div><div class="opt"><span class="k">D</span><span>Whether to allow political parties</span></div>
+          <div class="ans"><b>Answer: B.</b> DOK 3: Large states favored the Virginia Plan (representation by population); small states favored the New Jersey Plan (equal representation). The Great Compromise combined both — a population-based House and an equal-representation Senate.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">6</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.05 &middot; CONSTITUTIONAL PRINCIPLES</div><h2>The Preamble: Purposes of Government</h2></div>
+    <div class="r"><span class="chip">GC.05</span><span class="chip ssp">SSP.04</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can describe the purposes and functions of government as outlined in the Preamble of the Constitution.</div>
+      <div class="hook"><span class="lbl">Hook</span>Six goals, one sentence, and it starts with three world-changing words: 'We the People.' What did the Framers promise?</div>
+      <div class="card src" style="flex:1 1 auto;">
+        <div class="ch navy">Primary Source</div>
+        <div class="cb src"><blockquote>&ldquo;We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.&rdquo;</blockquote>
+          <div class="attr"><b>Constitutional Convention</b>, <i>Preamble to the U.S. Constitution</i> (1787)
+          &middot; <span class="repo">National Archives</span></div></div>
+      </div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Preamble <span class="say">/PREE-am-bul/</span></div>
+          <div class="ves">preámbulo</div>
+          <div class="vdef">The introduction to the Constitution that states the document's purposes, beginning 'We the People.'</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">The Preamble begins with the words 'We the People.' Which principle of government does this phrase express?</div>
+          <div class="opt"><span class="k">A</span><span>Judicial review</span></div><div class="opt"><span class="k">B</span><span>Separation of powers</span></div><div class="opt key"><span class="k">C &check;</span><span>Popular sovereignty — government power comes from the people</span></div><div class="opt"><span class="k">D</span><span>Federalism</span></div>
+          <div class="ans"><b>Answer: C.</b> DOK 2: 'We the People' declares that the Constitution's authority flows from the people themselves — the principle of popular sovereignty — not from a king or a single state.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">7</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.06 &middot; SEPARATION OF POWERS / CHECKS &amp; BALANCES</div><h2>Principles of Limited Government</h2></div>
+    <div class="r"><span class="chip">GC.06</span><span class="chip ssp">SSP.04</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can describe limited government within the Constitution, including: checks and balances; civilian control of the military; federalism; judicial review; popular sovereignty; rule of law; separation of powers.</div>
+      <div class="hook"><span class="lbl">Hook</span>'If men were angels, no government would be necessary.' Since we're not angels, how did Madison design a government to guard against itself?</div>
+      <div class="card src" style="flex:1 1 auto;">
+        <div class="ch navy">Primary Source</div>
+        <div class="cb src"><blockquote>&ldquo;If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary… Ambition must be made to counteract ambition.&rdquo;</blockquote>
+          <div class="attr"><b>James Madison (Publius)</b>, <i>Federalist No. 51</i> (1788)
+          &middot; <span class="repo">Congress.gov / Library of Congress</span></div></div>
+      </div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Separation of Powers <span class="say">/sep-uh-RAY-shun/</span></div>
+          <div class="ves">separación de poderes</div>
+          <div class="vdef">Dividing government into three branches — legislative, executive, and judicial — so no one branch holds all power.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 3</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">In Federalist No. 51, Madison writes that 'ambition must be made to counteract ambition.' Which constitutional design does this describe?</div>
+          <div class="opt key"><span class="k">A &check;</span><span>Checks and balances that let each branch limit the others</span></div><div class="opt"><span class="k">B</span><span>Popular sovereignty</span></div><div class="opt"><span class="k">C</span><span>Federalism between nation and states</span></div><div class="opt"><span class="k">D</span><span>The amendment process</span></div>
+          <div class="ans"><b>Answer: A.</b> DOK 3: Madison's point is structural — because people seek power, the Constitution pits the branches against each other so each checks the others' ambition. That is the logic of checks and balances.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">8</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.07 &middot; CONSTITUTIONAL PRINCIPLES</div><h2>Structure of the Constitution &amp; How to Amend It</h2></div>
+    <div class="r"><span class="chip">GC.07</span><span class="chip ssp">SSP.04</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can describe the structure of the Constitution and the process to amend it.</div>
+      <div class="hook"><span class="lbl">Hook</span>Only 27 changes in more than 230 years. Is the Constitution nearly perfect — or nearly impossible to change? Article V holds the answer.</div>
+      <div class="card src" style="flex:1 1 auto;">
+        <div class="ch navy">Primary Source</div>
+        <div class="cb src"><blockquote>&ldquo;The Congress, whenever two thirds of both Houses shall deem it necessary, shall propose Amendments to this Constitution, or… shall call a Convention for proposing Amendments, which… shall be valid… when ratified by the Legislatures of three fourths of the several States.&rdquo;</blockquote>
+          <div class="attr"><b>Constitutional Convention</b>, <i>U.S. Constitution, Article V</i> (1787)
+          &middot; <span class="repo">National Archives</span></div></div>
+      </div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Amendment <span class="say">/uh-MEND-munt/</span></div>
+          <div class="ves">enmienda</div>
+          <div class="vdef">A formal change or addition to the Constitution; there have been 27, beginning with the Bill of Rights.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">Why did the Framers make the amendment process in Article V deliberately difficult?</div>
+          <div class="opt"><span class="k">A</span><span>To make sure the Constitution could never change</span></div><div class="opt"><span class="k">B</span><span>To let a single state change it alone</span></div><div class="opt"><span class="k">C</span><span>To give the president control over amendments</span></div><div class="opt key"><span class="k">D &check;</span><span>So the Constitution could adapt over time, but only with broad agreement across the country</span></div>
+          <div class="ans"><b>Answer: D.</b> DOK 2: Requiring supermajorities to propose (2/3 of Congress) and ratify (3/4 of states) means change is possible but requires broad national consensus — balancing stability with flexibility.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">9</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.08 &middot; RIGHTS ANALYSIS</div><h2>The Bill of Rights</h2></div>
+    <div class="r"><span class="chip">GC.08</span><span class="chip ssp">SSP.02</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can analyze how the Bill of Rights limits the powers of the government and ensures individual rights.</div>
+      <div class="hook"><span class="lbl">Hook</span>Ten amendments, one purpose: to tell the government what it may NOT do to you. Why did Americans insist on adding them?</div>
+      <div class="card src" style="flex:1 1 auto;">
+        <div class="ch navy">Primary Source</div>
+        <div class="cb src"><blockquote>&ldquo;Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.&rdquo;</blockquote>
+          <div class="attr"><b>U.S. Congress (Bill of Rights)</b>, <i>First Amendment</i> (ratified 1791)
+          &middot; <span class="repo">National Archives</span></div></div>
+      </div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Bill of Rights <span class="say">/BIL of RYTS/</span></div>
+          <div class="ves">Carta de Derechos</div>
+          <div class="vdef">The first ten amendments to the Constitution (1791), which protect individual freedoms and limit the power of government.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 3</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">The First Amendment begins 'Congress shall make no law…' Why does the Bill of Rights phrase protections as limits on the government rather than as gifts to the people?</div>
+          <div class="opt"><span class="k">A</span><span>To show the government created these rights and can remove them</span></div><div class="opt key"><span class="k">B &check;</span><span>Because the Framers saw rights as belonging to people already — the Constitution's job is to stop government from violating them</span></div><div class="opt"><span class="k">C</span><span>To give Congress more power over speech and religion</span></div><div class="opt"><span class="k">D</span><span>Because only Congress has rights</span></div>
+          <div class="ans"><b>Answer: B.</b> DOK 3: The Bill of Rights reflects natural-rights thinking: rights pre-exist government. Framing them as prohibitions ('shall make no law') limits government power rather than granting rights it could later revoke.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">10</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.09 &middot; CONSTITUTIONAL PRINCIPLES</div><h2>Republic and Democracy</h2></div>
+    <div class="r"><span class="chip">GC.09</span><span class="chip ssp">SSP.04</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can define the concepts of democracy and republic and examine the relationship between the two.</div>
+      <div class="hook"><span class="lbl">Hook</span>Is the United States a democracy or a republic? The answer is 'both, on purpose' — and it changes how your voice reaches government.</div>
+      <div class="card src" style="flex:1 1 auto;">
+        <div class="ch navy">Primary Source</div>
+        <div class="cb src"><blockquote>&ldquo;A republic, by which I mean a government in which the scheme of representation takes place… promises the cure for which we are seeking. Let us examine the points in which it varies from pure democracy.&rdquo;</blockquote>
+          <div class="attr"><b>James Madison (Publius)</b>, <i>Federalist No. 10</i> (1787)
+          &middot; <span class="repo">Congress.gov / Library of Congress</span></div></div>
+      </div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Republic <span class="say">/ree-PUB-lik/</span></div>
+          <div class="ves">república</div>
+          <div class="vdef">A government in which citizens elect representatives to make laws and decisions on their behalf.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">What is the main difference between a direct democracy and a republic (representative democracy)?</div>
+          <div class="opt key"><span class="k">A &check;</span><span>In a direct democracy citizens vote on laws themselves; in a republic they elect representatives to make laws</span></div><div class="opt"><span class="k">B</span><span>A republic has no elections</span></div><div class="opt"><span class="k">C</span><span>A republic is ruled by a king</span></div><div class="opt"><span class="k">D</span><span>There is no difference</span></div>
+          <div class="ans"><b>Answer: A.</b> DOK 2: In a direct democracy the people vote on laws directly; in a republic (representative democracy) the people elect representatives who make laws on their behalf — the model the Framers chose.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">11</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; Multiple Perspectives</div><h2>Whose Voice Counted? Perspectives on the Founding</h2></div>
+    <div class="r"><span class="chip ssp">SSP.03</span></div></div>
+  <div class="persp"><div class="p"><h3>Federalists</h3><p>Argued for a stronger national union and ratification; Madison and Hamilton defended checks and balances and the large republic in the Federalist Papers (GC.04, GC.06).</p></div><div class="p"><h3>Anti-Federalists</h3><p>Feared a distant, too-powerful central government and refused to ratify without a Bill of Rights to protect individual liberty (GC.04, GC.08).</p></div><div class="p"><h3>Enslaved &amp; Free Black Americans</h3><p>The Three-Fifths Compromise counted enslaved people as three-fifths of a person for representation (GC.04), even as the Declaration proclaimed that 'all men are created equal' (GC.02).</p></div><div class="p"><h3>Women &amp; the Unenfranchised</h3><p>Women, most non-property holders, and Native peoples could not vote at ratification; the Article V amendment process (GC.07) later became the path to expand the franchise.</p></div></div>
+  <div class="tnotes"><b>Why it matters</b><span>This section complicates the founding narrative: whose interests the new government served, who was left out, and who organized in response. It is Government Hack–authored instructional synthesis grounded in th</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">12</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; TENNESSEE CONNECTION</div><h2>Our Signature Move</h2></div>
+    <div class="r"><span class="chip">&#9733; Tennessee</span></div></div>
+  <div class="tnbig"><div class="star">&#9733;</div><div class="t">Tennessee entered the Union in 1796 as the 16th state. Its own state constitution echoes the federal design studied in this unit — a separation of powers among three branches and a Declaration of Rights modeled on the Bill of Rights (GC.06, GC.08).</div></div>
+  <div class="tnotes"><b>Task</b><span>Tennessee's government mirrors the federal framework. Investigate one way your state or local government reflects a principle from this unit — separation of powers, checks and balances, or the protection of individual rights — and record what you find.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">13</div></div><div class="slide close">
+  <div class="close-inner" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;height:100%;padding:0 90px">
+  <h1>Revisit the Essential Question</h1>
+  <div class="rule"></div>
+  <p>&ldquo;How and why did the Founders build a limited constitutional republic?&rdquo;</p>
+  <p style="margin-top:14px;font-size:13pt">Students now have the sources, vocabulary, and reasoning to answer it &mdash; in a CER paragraph or the unit DBQ.</p>
+  <div class="stds">GC.01 &middot; GC.02 &middot; GC.03 &middot; GC.04 &middot; GC.05 &middot; GC.06 &middot; GC.07 &middot; GC.08 &middot; GC.09</div></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">14</div></div>
+</body></html>
