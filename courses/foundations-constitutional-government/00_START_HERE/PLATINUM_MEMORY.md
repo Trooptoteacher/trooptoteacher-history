@@ -36,6 +36,7 @@ auth{close, tdq[3], frayer[2], quiz[1], cer} · std_source · target · criteria
 ## Guardrails (every artifact)
 - Source of truth only; **never print the source-district label** (the three-letter district acronym) anywhere — preflight fails on it.
 - Standards + "I can" verbatim; dimension tags + TCA citations are part of the standard.
+- **Brand palette (canonical):** Navy `#1B2A4A` · **Red `#B22234`** (Old Glory Red) · Gold `#C9A227`/`#C89B3C` · Cream `#F7F5EF` · White. Light writable tints: navy `#EEF1F7`, red `#FBEEEF`, gold `#FAF3E2`, green `#EAF2EC`. Red is a first-class accent — flag stripe under banners, **TCA legally-required badges**, and teacher-only warnings — used print-safe (always paired with text/contrast so it reads in B&W).
 - Print-first, B&W-safe interior; color only when it *encodes* meaning → `colorKey:true`
   (build prints "view full-color on the projection slide"; color original lives in the deck).
 - Bilingual EN/ES · WCAG AA · ≥9pt · UDL response choice · grayscale-legible.
