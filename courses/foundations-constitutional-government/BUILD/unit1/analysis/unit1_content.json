@@ -1,0 +1,955 @@
+{
+  "unit": {
+    "code": "Unit 1",
+    "title": "Foundations of Constitutional Government",
+    "standards_range": "GC.01–GC.09",
+    "quarter": 1,
+    "suggested_days": "15–17",
+    "essential_question": "How and why did the Founders build a limited constitutional republic?",
+    "publisher": "TroopToTeacher Technologies LLC",
+    "footer": "Foundations of Constitutional Government · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards (GC) · Supplemental under TCA § 49-6-2202(a)(3)"
+  },
+  "order": [
+    "GC.01",
+    "GC.02",
+    "GC.03",
+    "GC.04",
+    "GC.05",
+    "GC.06",
+    "GC.07",
+    "GC.08",
+    "GC.09"
+  ],
+  "standards": {
+    "GC.01": {
+      "title": "Enlightenment Roots of American Government",
+      "tn": "Examine the influences of leading European thinkers (e.g., John Locke, Charles-Louis Montesquieu, Thomas Hobbes) and other roots of American government (e.g., Greek democracy, Roman Republic, Magna Carta). (C, E)",
+      "ican": "I can examine the influences of leading European thinkers (e.g., John Locke, Charles-Louis Montesquieu, Thomas Hobbes) and other roots of American government (e.g., Greek democracy, Roman Republic, Magna Carta).",
+      "vocab": [
+        {
+          "term": "Natural Rights",
+          "say": "NATCH-rul RYTS",
+          "es": "derechos naturales",
+          "def": "God-given rights to life, liberty, and property that government does not grant and cannot rightfully take away — central to John Locke's political thought."
+        },
+        {
+          "term": "Social Contract",
+          "say": "SOH-shul KON-trakt",
+          "es": "contrato social",
+          "def": "The idea that people agree to give up some freedom to a government in exchange for protection of their rights, and that government's authority comes from the consent of the governed."
+        },
+        {
+          "term": "Magna Carta",
+          "say": "MAG-nuh KAR-tuh",
+          "es": "Carta Magna",
+          "def": "The 1215 English charter that limited the king's power and protected certain rights of life, liberty, and property — an early root of limited government and due process."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Second Treatise of Government",
+          "who": "John Locke",
+          "date": "1689",
+          "quote": "Men being, as has been said, by nature all free, equal, and independent, no one can be put out of this estate and subjected to the political power of another without his own consent.",
+          "repo": "Avalon Project, Yale Law School",
+          "url": "https://avalon.law.yale.edu/17th_century/locke.asp"
+        },
+        {
+          "title": "Magna Carta, Clause 39",
+          "who": "King John of England",
+          "date": "1215",
+          "quote": "No free man shall be seized or imprisoned, or stripped of his rights or possessions… except by the lawful judgment of his equals or by the law of the land.",
+          "repo": "The National Archives (UK)",
+          "url": "https://www.bl.uk/magna-carta"
+        }
+      ],
+      "cfu": {
+        "dok": 2,
+        "stem": "According to John Locke, where does a government's rightful authority come from?",
+        "options": {
+          "A": "The divine right of kings",
+          "B": "The consent of the people being governed",
+          "C": "The strongest military",
+          "D": "Inherited wealth and land"
+        },
+        "key": "B",
+        "why": "DOK 2: Locke's social-contract theory holds that legitimate government rests on the consent of the governed to protect natural rights — a direct root of the Declaration's 'consent of the governed.'"
+      },
+      "auth": {
+        "close": "American ideas about liberty and self-government did not appear all at once in 1776. They grew from older European roots. The English philosopher John Locke argued that people are born with natural rights to life, liberty, and property, and that government exists by a social contract to protect those rights — losing its authority if it does not. Montesquieu argued that liberty is safest when government power is divided among separate branches. Thomas Hobbes stressed why people trade some freedom for order and security. Older still were the examples of Greek democracy and the Roman republic, and the English tradition of limits on the ruler set down in Magna Carta (1215) and the English Bill of Rights (1689). The colonists did not invent these ideas — they inherited and reshaped them.",
+        "tdq": [
+          "According to Locke, what rights do people have simply by being born, and what is government's job regarding them?",
+          "What limit on the king's power does Magna Carta's Clause 39 establish, and how does it connect to due process today?",
+          "Why does the text say the colonists used 'old ideas, not new ones' to justify independence?"
+        ],
+        "frayer": [
+          "Natural Rights",
+          "Social Contract"
+        ],
+        "quiz": [
+          {
+            "id": "u1-gc01-dok1-1",
+            "dok": 1,
+            "stem": "Which thinker is most associated with natural rights and the social contract?",
+            "opts": {
+              "A": "Thomas Hobbes",
+              "B": "John Locke",
+              "C": "Julius Caesar",
+              "D": "King John"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Which European root — Locke's natural rights, Montesquieu's separated powers, or Magna Carta's limits on the king — shaped American government the most? Defend your claim with evidence from two sources."
+      },
+      "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+      "target": "I can examine the influences of leading European thinkers (e.g., John Locke, Charles-Louis Montesquieu, Thomas Hobbes) and other roots of American government (e.g., Greek democracy, Roman Republic, Magna Carta).",
+      "learning_targets": "Read and understand primary source documents (particularly John Locke’s and Jean Jacques Rousseau’s writings) that the Framers used as references in creating the American political system. Explain the Social Contract Theory and make a connection between it and the overall purpose of government, particularly, the U.S. Government.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one primary source to support your explanation;",
+        "connect the idea to how it limits or empowers government today."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One primary source that supports it?",
+        "One effect on government or rights?",
+        "Key terms →"
+      ],
+      "lenses": "Culture (C) · Economics (E)",
+      "dim_map": {
+        "C": "How Enlightenment and classical ideas shaped a shared political culture of liberty.",
+        "E": "Locke's inclusion of property among the natural rights government protects."
+      },
+      "hook": "You already have rights no ruler gave you and none can take away — that's the idea that started a revolution. Where did it come from?",
+      "civic_label": "CONSTITUTIONAL PRINCIPLES",
+      "ssp_focus": "SSP.02"
+    },
+    "GC.02": {
+      "title": "The Declaration of Independence",
+      "tn": "Examine the Declaration of Independence and American grievances against British rule. (H)",
+      "ican": "I can examine the Declaration of Independence and American grievances against British rule.",
+      "vocab": [
+        {
+          "term": "Unalienable Rights",
+          "say": "un-AY-lee-uh-nuh-bul RYTS",
+          "es": "derechos inalienables",
+          "def": "Rights so fundamental they cannot be taken away or given up — in the Declaration, 'Life, Liberty and the pursuit of Happiness.'"
+        },
+        {
+          "term": "Grievances",
+          "say": "GREE-vun-sez",
+          "es": "agravios",
+          "def": "Formal complaints; in the Declaration, the list of specific abuses by King George III used to justify independence."
+        },
+        {
+          "term": "Declaration of Independence",
+          "say": "dek-luh-RAY-shun",
+          "es": "Declaración de Independencia",
+          "def": "The 1776 document, drafted mainly by Thomas Jefferson, that announced the colonies' separation from Britain and stated the principles of government by consent."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Declaration of Independence",
+          "who": "Continental Congress (drafted by Thomas Jefferson)",
+          "date": "July 4, 1776",
+          "quote": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.",
+          "repo": "National Archives",
+          "url": "https://www.archives.gov/founding-docs/declaration-transcript"
+        },
+        {
+          "title": "Declaration of Independence (grievance)",
+          "who": "Continental Congress",
+          "date": "July 4, 1776",
+          "quote": "He has refused his Assent to Laws, the most wholesome and necessary for the public good… He has dissolved Representative Houses repeatedly.",
+          "repo": "National Archives",
+          "url": "https://www.archives.gov/founding-docs/declaration-transcript"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "The Declaration lists the colonists' natural rights and then a long list of grievances against the king. Why did the writers put these two parts together?",
+        "options": {
+          "A": "To make the document longer and more impressive",
+          "B": "To show that when a government repeatedly violates the people's rights, the people may justly alter or abolish it",
+          "C": "To ask King George III to apologize",
+          "D": "To describe how to run the new state governments"
+        },
+        "key": "B",
+        "why": "DOK 3: The structure is an argument — universal rights (major premise) + the king's specific violations (evidence) → the conclusion that the colonies may rightfully separate. Grievances turn principle into justification."
+      },
+      "auth": {
+        "close": "On July 4, 1776, the Continental Congress adopted the Declaration of Independence, drafted mainly by Thomas Jefferson. Its most famous lines borrow directly from Locke: all people are 'created equal' and hold 'unalienable Rights' to 'Life, Liberty and the pursuit of Happiness,' and governments derive 'their just powers from the consent of the governed.' The Declaration then lists specific grievances against King George III — dissolving colonial legislatures, taxing without consent, keeping standing armies. The logic is an argument: because government exists to protect rights, a government that repeatedly violates them may justly be altered or abolished. The Declaration announced not just a separation, but a theory of legitimate government.",
+        "tdq": [
+          "What three unalienable rights does the Declaration name, and where does government get its 'just powers'?",
+          "Choose one grievance against King George III and explain how it violated the colonists' rights.",
+          "How does the Declaration use natural rights to justify the colonies' break from Britain?"
+        ],
+        "frayer": [
+          "Unalienable Rights",
+          "Declaration of Independence"
+        ],
+        "quiz": [
+          {
+            "id": "u1-gc02-dok1-1",
+            "dok": 1,
+            "stem": "According to the Declaration, governments derive their just powers from:",
+            "opts": {
+              "A": "the consent of the governed",
+              "B": "the king",
+              "C": "the wealthiest citizens",
+              "D": "the army"
+            },
+            "key": "A"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Was the Declaration of Independence mainly a list of complaints, or an argument about the purpose of government? Defend your claim with two quotations from the text."
+      },
+      "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+      "target": "I can examine the Declaration of Independence and American grievances against British rule.",
+      "learning_targets": "Cite evidence from the Magna Carta, Petition of Right, and English Bill of Rights and explain how the British government violated the rights of American colonists and how this led to the Declaration of Independence.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one primary source to support your explanation;",
+        "connect the idea to how it limits or empowers government today."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One primary source that supports it?",
+        "One effect on government or rights?",
+        "Key terms →"
+      ],
+      "lenses": "History (H)",
+      "dim_map": {
+        "H": "The 1776 break from Britain and the grievances that justified it."
+      },
+      "hook": "'All men are created equal.' A bold claim in 1776 — and the colonists used it to fire a king. How does the Declaration build its case?",
+      "civic_label": "CIVIC ARGUMENTATION",
+      "ssp_focus": "SSP.02"
+    },
+    "GC.03": {
+      "title": "The Articles of Confederation",
+      "tn": "Identify the strengths and weaknesses of the Articles of Confederation. (H)",
+      "ican": "I can identify the strengths and weaknesses of the Articles of Confederation.",
+      "vocab": [
+        {
+          "term": "Confederation",
+          "say": "kon-fed-uh-RAY-shun",
+          "es": "confederación",
+          "def": "A loose union of independent states that keep most of their power, giving only limited authority to a weak central government."
+        },
+        {
+          "term": "Articles of Confederation",
+          "say": "AR-tih-kulz",
+          "es": "Artículos de la Confederación",
+          "def": "The first national constitution of the United States (1781–1789); it created a weak central government that could not tax or regulate trade."
+        },
+        {
+          "term": "Shays's Rebellion",
+          "say": "SHAYZ ree-BEL-yun",
+          "es": "Rebelión de Shays",
+          "def": "A 1786–1787 uprising of Massachusetts farmers that the weak national government could not put down — exposing the failures of the Articles and pushing leaders toward a new constitution."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Articles of Confederation, Article II",
+          "who": "Second Continental Congress",
+          "date": "ratified 1781",
+          "quote": "Each state retains its sovereignty, freedom, and independence, and every power, jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled.",
+          "repo": "Avalon Project, Yale Law School",
+          "url": "https://avalon.law.yale.edu/18th_century/artconf.asp"
+        },
+        {
+          "title": "Letter on Shays's Rebellion",
+          "who": "George Washington",
+          "date": "1786",
+          "quote": "There are combustibles in every State, which a spark might set fire to… I feel infinitely more than I can express for the disorders which have arisen.",
+          "repo": "National Archives, Founders Online",
+          "url": "https://founders.archives.gov"
+        }
+      ],
+      "cfu": {
+        "dok": 2,
+        "stem": "Under the Articles of Confederation, which power did the national government LACK that caused serious problems?",
+        "options": {
+          "A": "The power to declare war",
+          "B": "The power to tax the states and citizens directly",
+          "C": "The power to run a post office",
+          "D": "The power to make treaties"
+        },
+        "key": "B",
+        "why": "DOK 2: The Articles denied Congress the power to tax; it could only request money from the states. Without reliable revenue, the national government could not pay debts or respond to crises like Shays's Rebellion."
+      },
+      "auth": {
+        "close": "Winning independence required a national government, but Americans feared creating another all-powerful ruler. So the Articles of Confederation (ratified 1781) kept the states 'sovereign' and gave Congress only limited powers. Congress could declare war, make treaties, and run a post office — but it could NOT tax, could NOT regulate trade between states, and needed nine of thirteen states to pass major laws and all thirteen to amend the Articles. The result was a government too weak to pay its debts or keep order. When Shays's Rebellion broke out in Massachusetts in 1786, the national government could not raise an army to stop it. Leaders like Washington and Madison concluded the Articles had to be replaced.",
+        "tdq": [
+          "According to Article II, how much power did each state keep under the Articles of Confederation?",
+          "Name two powers the national government lacked under the Articles, and explain one problem each caused.",
+          "How did Shays's Rebellion reveal the weaknesses of the Articles?"
+        ],
+        "frayer": [
+          "Confederation",
+          "Articles of Confederation"
+        ],
+        "quiz": [
+          {
+            "id": "u1-gc03-dok1-1",
+            "dok": 1,
+            "stem": "The Articles of Confederation created a national government that was:",
+            "opts": {
+              "A": "too weak to tax or regulate trade",
+              "B": "a monarchy",
+              "C": "stronger than today's federal government",
+              "D": "controlled by the president"
+            },
+            "key": "A"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Was the greatest weakness of the Articles the lack of taxing power, the lack of a strong executive, or the difficulty of amendment? Defend your claim with evidence."
+      },
+      "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+      "target": "I can identify the strengths and weaknesses of the Articles of Confederation.",
+      "learning_targets": "Define confederation. Explain the structure of government and weaknesses the United States faced under the Articles of Confederation.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one primary source to support your explanation;",
+        "connect the idea to how it limits or empowers government today."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One primary source that supports it?",
+        "One effect on government or rights?",
+        "Key terms →"
+      ],
+      "lenses": "History (H)",
+      "dim_map": {
+        "H": "Why the first national constitution failed and set up the 1787 Convention."
+      },
+      "hook": "Imagine a national government that can declare war but can't collect a dime to pay for it. That was America under the Articles. What went wrong?",
+      "civic_label": "CONSTITUTIONAL PRINCIPLES",
+      "ssp_focus": "SSP.04"
+    },
+    "GC.04": {
+      "title": "The Constitutional Convention & Ratification",
+      "tn": "Discuss the Constitutional Convention of 1787, including the Great Compromise and the ensuing debate over ratification between the Federalists and Anti-Federalists. (H)",
+      "ican": "I can discuss the Constitutional Convention of 1787, including the Great Compromise and the ensuing debate over ratification between the Federalists and Anti-Federalists.",
+      "vocab": [
+        {
+          "term": "Great Compromise",
+          "say": "GRAYT KOM-pruh-myz",
+          "es": "Gran Compromiso",
+          "def": "The 1787 agreement creating a two-house Congress: a House based on state population and a Senate with equal representation (two per state) — settling the fight between large and small states."
+        },
+        {
+          "term": "Federalists",
+          "say": "FED-uh-rul-ists",
+          "es": "federalistas",
+          "def": "Supporters of ratifying the Constitution who favored a stronger national government; their arguments appear in the Federalist Papers."
+        },
+        {
+          "term": "Anti-Federalists",
+          "say": "AN-tee-FED-uh-rul-ists",
+          "es": "antifederalistas",
+          "def": "Opponents of ratifying the Constitution as written, who feared a too-powerful central government and demanded a bill of rights to protect individual liberty."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Federalist No. 10",
+          "who": "James Madison (Publius)",
+          "date": "1787",
+          "quote": "The latent causes of faction are thus sown in the nature of man… The regulation of these various and interfering interests forms the principal task of modern legislation.",
+          "repo": "Congress.gov / Library of Congress",
+          "url": "https://guides.loc.gov/federalist-papers/text-1-10"
+        },
+        {
+          "title": "Brutus No. 1 (Anti-Federalist)",
+          "who": "'Brutus' (likely Robert Yates)",
+          "date": "1787",
+          "quote": "In a republic, the manners, sentiments, and interests of the people should be similar… In a large extended country, it is impossible to have a representation, possessing the sentiments, and of integrity, to declare the minds of the people.",
+          "repo": "Teaching American History / Avalon Project",
+          "url": "https://teachingamericanhistory.org/document/brutus-i/"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "The Great Compromise settled which major disagreement at the Constitutional Convention?",
+        "options": {
+          "A": "Whether to have a president or a king",
+          "B": "How states should be represented in Congress — by population or equally",
+          "C": "Whether to keep the Articles of Confederation",
+          "D": "Whether to allow political parties"
+        },
+        "key": "B",
+        "why": "DOK 3: Large states favored the Virginia Plan (representation by population); small states favored the New Jersey Plan (equal representation). The Great Compromise combined both — a population-based House and an equal-representation Senate."
+      },
+      "auth": {
+        "close": "In 1787, delegates met in Philadelphia — officially to fix the Articles, but they wrote an entirely new Constitution. The hardest fight was representation. Large states backed the Virginia Plan (seats by population); small states backed the New Jersey Plan (equal seats). The Great Compromise split the difference: a House of Representatives based on population and a Senate with two senators per state. The Three-Fifths Compromise, counting enslaved people as three-fifths of a person for representation and taxation, exposed the deep contradiction of slavery in a document about liberty. Once signed, the Constitution faced a fierce ratification debate. Federalists (Madison, Hamilton, Jay, writing as 'Publius' in the Federalist Papers) argued for a stronger union; Anti-Federalists (like 'Brutus') warned of a distant, too-powerful government and demanded a bill of rights.",
+        "tdq": [
+          "How did the Great Compromise resolve the conflict between large and small states?",
+          "In Federalist No. 10, what problem does Madison say a large republic can control better than a small one?",
+          "What was the Anti-Federalists' main fear, and what did they demand before ratifying?"
+        ],
+        "frayer": [
+          "Great Compromise",
+          "Federalists"
+        ],
+        "quiz": [
+          {
+            "id": "u1-gc04-dok1-1",
+            "dok": 1,
+            "stem": "The Federalist Papers were written to:",
+            "opts": {
+              "A": "persuade people to ratify the Constitution",
+              "B": "declare independence",
+              "C": "repeal the Bill of Rights",
+              "D": "end the Convention early"
+            },
+            "key": "A"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: In the ratification debate, whose warning has aged better — the Federalists' case for a strong union, or the Anti-Federalists' fear of centralized power? Use one quote from each side."
+      },
+      "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+      "target": "I can discuss the Constitutional Convention of 1787, including the Great Compromise and the ensuing debate over ratification between the Federalists and Anti-Federalists.",
+      "learning_targets": "Explain why the Founding Fathers set up our government as they did, explaining differences between the Articles of Confederation and the U.S. Constitution. Explain the details of the Virginia Plan and New Jersey Plan and what led to the Great Compromise. Explain the distinct positions of the Federalists and Anti-Federalists, including views on government power, key political figures, and economic interests. Honors: Cite evidence from the Federalist and Anti-Federalist papers concerning the fight over ratification.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one primary source to support your explanation;",
+        "connect the idea to how it limits or empowers government today."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One primary source that supports it?",
+        "One effect on government or rights?",
+        "Key terms →"
+      ],
+      "lenses": "History (H)",
+      "dim_map": {
+        "H": "The 1787 Convention, its compromises, and the ratification debate."
+      },
+      "hook": "Two plans, thirteen stubborn states, one hot Philadelphia summer. How did the Framers turn a deadlock into a Constitution?",
+      "civic_label": "CIVIC ARGUMENTATION",
+      "ssp_focus": "SSP.04"
+    },
+    "GC.05": {
+      "title": "The Preamble: Purposes of Government",
+      "tn": "Describe the purposes and functions of government as outlined in the Preamble of the Constitution.",
+      "ican": "I can describe the purposes and functions of government as outlined in the Preamble of the Constitution.",
+      "vocab": [
+        {
+          "term": "Preamble",
+          "say": "PREE-am-bul",
+          "es": "preámbulo",
+          "def": "The introduction to the Constitution that states the document's purposes, beginning 'We the People.'"
+        },
+        {
+          "term": "Popular Sovereignty",
+          "say": "POP-yuh-lur SOV-rin-tee",
+          "es": "soberanía popular",
+          "def": "The principle that government's authority comes from the people — expressed in the Preamble's opening words, 'We the People.'"
+        },
+        {
+          "term": "General Welfare",
+          "say": "JEN-uh-rul WEL-fair",
+          "es": "bienestar general",
+          "def": "The well-being of the whole community; one of the Preamble's stated purposes of government ('promote the general Welfare')."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Preamble to the U.S. Constitution",
+          "who": "Constitutional Convention",
+          "date": "1787",
+          "quote": "We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.",
+          "repo": "National Archives",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+        },
+        {
+          "title": "Federalist No. 51",
+          "who": "James Madison (Publius)",
+          "date": "1788",
+          "quote": "Justice is the end of government. It is the end of civil society. It ever has been and ever will be pursued until it be obtained, or until liberty be lost in the pursuit.",
+          "repo": "Congress.gov / Library of Congress",
+          "url": "https://guides.loc.gov/federalist-papers/text-51-60"
+        }
+      ],
+      "cfu": {
+        "dok": 2,
+        "stem": "The Preamble begins with the words 'We the People.' Which principle of government does this phrase express?",
+        "options": {
+          "A": "Judicial review",
+          "B": "Popular sovereignty — government power comes from the people",
+          "C": "Separation of powers",
+          "D": "Federalism"
+        },
+        "key": "B",
+        "why": "DOK 2: 'We the People' declares that the Constitution's authority flows from the people themselves — the principle of popular sovereignty — not from a king or a single state."
+      },
+      "auth": {
+        "close": "Before a single power is granted, the Constitution states WHY it exists. The Preamble — 'We the People of the United States' — opens by declaring popular sovereignty: the government's authority comes from the people. It then lists six purposes: to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty for ourselves and future generations ('our Posterity'). The Preamble grants no powers by itself, but it is a mission statement: every power in the articles that follow is meant to serve these ends.",
+        "tdq": [
+          "What do the first three words of the Preamble tell us about where government power comes from?",
+          "List three of the six purposes of government named in the Preamble.",
+          "How does the phrase 'to ourselves and our Posterity' show the Framers were thinking beyond their own time?"
+        ],
+        "frayer": [
+          "Preamble",
+          "Popular Sovereignty"
+        ],
+        "quiz": [
+          {
+            "id": "u1-gc05-dok1-1",
+            "dok": 1,
+            "stem": "'We the People' at the start of the Preamble expresses the principle of:",
+            "opts": {
+              "A": "popular sovereignty",
+              "B": "monarchy",
+              "C": "judicial review",
+              "D": "federal supremacy"
+            },
+            "key": "A"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Of the six purposes in the Preamble, which is most important for a free society today? Defend your claim with reasoning tied to the text."
+      },
+      "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+      "target": "I can describe the purposes and functions of government as outlined in the Preamble of the Constitution.",
+      "learning_targets": "Define and supply examples for each of the six basic principles of the U.S. Constitution, including: checks and balances, separation of powers, limited government, federalism, judicial review, popular sovereignty.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one primary source to support your explanation;",
+        "connect the idea to how it limits or empowers government today."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One primary source that supports it?",
+        "One effect on government or rights?",
+        "Key terms →"
+      ],
+      "lenses": "",
+      "dim_map": {
+        "P": "The Preamble's statement of popular sovereignty and the purposes of government."
+      },
+      "hook": "Six goals, one sentence, and it starts with three world-changing words: 'We the People.' What did the Framers promise?",
+      "civic_label": "CONSTITUTIONAL PRINCIPLES",
+      "ssp_focus": "SSP.04"
+    },
+    "GC.06": {
+      "title": "Principles of Limited Government",
+      "tn": "Describe limited government within the Constitution, including: checks and balances; civilian control of the military; federalism; judicial review; popular sovereignty; rule of law; separation of powers.",
+      "ican": "I can describe limited government within the Constitution, including: checks and balances; civilian control of the military; federalism; judicial review; popular sovereignty; rule of law; separation of powers.",
+      "vocab": [
+        {
+          "term": "Separation of Powers",
+          "say": "sep-uh-RAY-shun",
+          "es": "separación de poderes",
+          "def": "Dividing government into three branches — legislative, executive, and judicial — so no one branch holds all power."
+        },
+        {
+          "term": "Checks and Balances",
+          "say": "CHEKS and BAL-un-sez",
+          "es": "controles y equilibrios",
+          "def": "The system that lets each branch limit the others (e.g., the president vetoes laws; Congress can override; courts can rule laws unconstitutional)."
+        },
+        {
+          "term": "Judicial Review",
+          "say": "joo-DISH-ul ree-VYOO",
+          "es": "revisión judicial",
+          "def": "The power of courts to decide whether a law or government action is constitutional — established in Marbury v. Madison (1803)."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Federalist No. 51",
+          "who": "James Madison (Publius)",
+          "date": "1788",
+          "quote": "If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary… Ambition must be made to counteract ambition.",
+          "repo": "Congress.gov / Library of Congress",
+          "url": "https://guides.loc.gov/federalist-papers/text-51-60"
+        },
+        {
+          "title": "Federalist No. 78",
+          "who": "Alexander Hamilton (Publius)",
+          "date": "1788",
+          "quote": "A constitution is, in fact, and must be regarded by the judges, as a fundamental law… No legislative act, therefore, contrary to the Constitution, can be valid.",
+          "repo": "Congress.gov / Library of Congress",
+          "url": "https://guides.loc.gov/federalist-papers/text-71-85"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "In Federalist No. 51, Madison writes that 'ambition must be made to counteract ambition.' Which constitutional design does this describe?",
+        "options": {
+          "A": "Popular sovereignty",
+          "B": "Checks and balances that let each branch limit the others",
+          "C": "Federalism between nation and states",
+          "D": "The amendment process"
+        },
+        "key": "B",
+        "why": "DOK 3: Madison's point is structural — because people seek power, the Constitution pits the branches against each other so each checks the others' ambition. That is the logic of checks and balances."
+      },
+      "auth": {
+        "close": "The Framers feared concentrated power, so they built limits into the Constitution's structure. Separation of powers divides government into three branches — Congress makes laws, the president executes them, the courts interpret them. Checks and balances let each branch restrain the others: the president can veto a bill, Congress can override the veto and impeach officials, and the courts can strike down unconstitutional acts through judicial review, established in Marbury v. Madison (1803). Other limits include federalism (power split between nation and states), the rule of law (everyone, including leaders, is bound by law), popular sovereignty, and civilian control of the military. As Madison put it in Federalist No. 51, 'ambition must be made to counteract ambition.'",
+        "tdq": [
+          "Name the three branches of government and one job of each.",
+          "According to Federalist No. 51, why can't we simply trust leaders to limit their own power?",
+          "How did Marbury v. Madison strengthen the system of checks and balances?"
+        ],
+        "frayer": [
+          "Checks and Balances",
+          "Judicial Review"
+        ],
+        "quiz": [
+          {
+            "id": "u1-gc06-dok1-1",
+            "dok": 1,
+            "stem": "The power of courts to declare a law unconstitutional is called:",
+            "opts": {
+              "A": "judicial review",
+              "B": "the veto",
+              "C": "impeachment",
+              "D": "popular sovereignty"
+            },
+            "key": "A"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Which principle does the most to prevent tyranny — separation of powers, checks and balances, or federalism? Defend your claim with evidence from the sources."
+      },
+      "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+      "target": "I can describe limited government within the Constitution, including: checks and balances; civilian control of the military; federalism; judicial review; popular sovereignty; rule of law; separation of powers.",
+      "learning_targets": "Define judicial review and explain how Marbury v. Madison established it. Define rule of law. Define federalism and explain how it relates to concurrent, enumerated (delegated), and reserved powers as well as plot the powers on a Venn Diagram. Explain how checks and balances, civilian control of the military, federalism, judicial review, popular sovereignty, rule of law, and separation of powers limits the power of government. Honors: analyze and cite evidence from Federalist 51 concerning checks and balances.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one primary source to support your explanation;",
+        "connect the idea to how it limits or empowers government today."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One primary source that supports it?",
+        "One effect on government or rights?",
+        "Key terms →"
+      ],
+      "lenses": "",
+      "dim_map": {
+        "P": "Separation of powers, checks and balances, and judicial review as limits on government.",
+        "H": "Marbury v. Madison (1803) establishing judicial review."
+      },
+      "hook": "'If men were angels, no government would be necessary.' Since we're not angels, how did Madison design a government to guard against itself?",
+      "civic_label": "SEPARATION OF POWERS / CHECKS & BALANCES",
+      "ssp_focus": "SSP.04"
+    },
+    "GC.07": {
+      "title": "Structure of the Constitution & How to Amend It",
+      "tn": "Describe the structure of the Constitution and the process to amend it.",
+      "ican": "I can describe the structure of the Constitution and the process to amend it.",
+      "vocab": [
+        {
+          "term": "Amendment",
+          "say": "uh-MEND-munt",
+          "es": "enmienda",
+          "def": "A formal change or addition to the Constitution; there have been 27, beginning with the Bill of Rights."
+        },
+        {
+          "term": "Article V",
+          "say": "AR-tih-kul FYV",
+          "es": "Artículo V",
+          "def": "The part of the Constitution that sets out how it can be amended — a deliberately difficult, two-step process of proposal and ratification."
+        },
+        {
+          "term": "Ratification",
+          "say": "rat-ih-fih-KAY-shun",
+          "es": "ratificación",
+          "def": "Formal approval; an amendment must be ratified by three-fourths of the states (38 of 50) to take effect."
+        }
+      ],
+      "sources": [
+        {
+          "title": "U.S. Constitution, Article V",
+          "who": "Constitutional Convention",
+          "date": "1787",
+          "quote": "The Congress, whenever two thirds of both Houses shall deem it necessary, shall propose Amendments to this Constitution, or… shall call a Convention for proposing Amendments, which… shall be valid… when ratified by the Legislatures of three fourths of the several States.",
+          "repo": "National Archives",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+        },
+        {
+          "title": "U.S. Constitution, structure",
+          "who": "Constitutional Convention",
+          "date": "1787",
+          "quote": "The Constitution consists of a Preamble and seven Articles: Article I (Legislative), II (Executive), III (Judicial), IV (States), V (Amendment), VI (Supremacy), and VII (Ratification).",
+          "repo": "National Archives",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+        }
+      ],
+      "cfu": {
+        "dok": 2,
+        "stem": "Why did the Framers make the amendment process in Article V deliberately difficult?",
+        "options": {
+          "A": "To make sure the Constitution could never change",
+          "B": "So the Constitution could adapt over time, but only with broad agreement across the country",
+          "C": "To give the president control over amendments",
+          "D": "To let a single state change it alone"
+        },
+        "key": "B",
+        "why": "DOK 2: Requiring supermajorities to propose (2/3 of Congress) and ratify (3/4 of states) means change is possible but requires broad national consensus — balancing stability with flexibility."
+      },
+      "auth": {
+        "close": "The Constitution is short and organized: a Preamble and seven Articles. Article I creates the legislative branch (Congress), Article II the executive, Article III the judiciary; Article IV covers the states, Article V the amendment process, Article VI the supremacy of federal law, and Article VII ratification. The Framers knew the document would need to change, so Article V provides a path — but a hard one. An amendment must be proposed by two-thirds of both houses of Congress (or a national convention) and then ratified by three-fourths of the states. This high bar keeps the Constitution stable while still allowing change: in over 230 years it has been amended just 27 times.",
+        "tdq": [
+          "How many Articles does the Constitution have, and what do the first three establish?",
+          "What are the two steps to amend the Constitution, and what fraction is required at each step?",
+          "Why does the difficulty of Article V protect both stability and federalism?"
+        ],
+        "frayer": [
+          "Amendment",
+          "Article V"
+        ],
+        "quiz": [
+          {
+            "id": "u1-gc07-dok1-1",
+            "dok": 1,
+            "stem": "To ratify a constitutional amendment requires approval by:",
+            "opts": {
+              "A": "three-fourths of the states",
+              "B": "the president",
+              "C": "a simple majority of voters",
+              "D": "the Supreme Court"
+            },
+            "key": "A"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Is the difficulty of amending the Constitution a strength or a weakness for a modern democracy? Defend your claim with reasoning tied to Article V."
+      },
+      "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+      "target": "I can describe the structure of the Constitution and the process to amend it.",
+      "learning_targets": "Summarize the seven articles of the U.S. Constitution. Explain the two methods of proposing constitutional amendments from Article V of the U.S. Constitution and why the Founding Fathers set it up this way, including: the difficult and lengthy process; emphasis on federalism; checks and balances between states and the federal government.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one primary source to support your explanation;",
+        "connect the idea to how it limits or empowers government today."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One primary source that supports it?",
+        "One effect on government or rights?",
+        "Key terms →"
+      ],
+      "lenses": "",
+      "dim_map": {
+        "P": "The structure of the Constitution and the Article V amendment process."
+      },
+      "hook": "Only 27 changes in more than 230 years. Is the Constitution nearly perfect — or nearly impossible to change? Article V holds the answer.",
+      "civic_label": "CONSTITUTIONAL PRINCIPLES",
+      "ssp_focus": "SSP.04"
+    },
+    "GC.08": {
+      "title": "The Bill of Rights",
+      "tn": "Analyze how the Bill of Rights limits the powers of the government and ensures individual rights. (C)",
+      "ican": "I can analyze how the Bill of Rights limits the powers of the government and ensures individual rights.",
+      "vocab": [
+        {
+          "term": "Bill of Rights",
+          "say": "BIL of RYTS",
+          "es": "Carta de Derechos",
+          "def": "The first ten amendments to the Constitution (1791), which protect individual freedoms and limit the power of government."
+        },
+        {
+          "term": "Reserved Powers",
+          "say": "ree-ZURVD POW-erz",
+          "es": "poderes reservados",
+          "def": "Powers kept by the states or the people, not given to the national government — protected by the Tenth Amendment."
+        },
+        {
+          "term": "Due Process",
+          "say": "DOO PROSS-ess",
+          "es": "debido proceso",
+          "def": "The requirement that government follow fair legal procedures before taking a person's life, liberty, or property — guaranteed by the Fifth Amendment."
+        }
+      ],
+      "sources": [
+        {
+          "title": "First Amendment",
+          "who": "U.S. Congress (Bill of Rights)",
+          "date": "ratified 1791",
+          "quote": "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.",
+          "repo": "National Archives",
+          "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript"
+        },
+        {
+          "title": "Tenth Amendment",
+          "who": "U.S. Congress (Bill of Rights)",
+          "date": "ratified 1791",
+          "quote": "The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States respectively, or to the people.",
+          "repo": "National Archives",
+          "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "The First Amendment begins 'Congress shall make no law…' Why does the Bill of Rights phrase protections as limits on the government rather than as gifts to the people?",
+        "options": {
+          "A": "To show the government created these rights and can remove them",
+          "B": "Because the Framers saw rights as belonging to people already — the Constitution's job is to stop government from violating them",
+          "C": "To give Congress more power over speech and religion",
+          "D": "Because only Congress has rights"
+        },
+        "key": "B",
+        "why": "DOK 3: The Bill of Rights reflects natural-rights thinking: rights pre-exist government. Framing them as prohibitions ('shall make no law') limits government power rather than granting rights it could later revoke."
+      },
+      "auth": {
+        "close": "The Anti-Federalists agreed to the Constitution only if a bill of rights was added. In 1791 the first ten amendments were ratified. The Bill of Rights protects individual freedoms and, notably, most protections apply to 'persons,' not only citizens. The First Amendment guards religion, speech, press, assembly, and petition. The Fourth through Eighth protect people accused of crimes — from unreasonable searches to cruel and unusual punishment — through guarantees like due process. The Ninth Amendment says the people keep other rights not listed, and the Tenth reserves to the states and the people all powers not given to the national government — a cornerstone of federalism. Every clause is a limit on government power. This standard is required instruction under Tennessee law (T.C.A. § 49-6-1028).",
+        "tdq": [
+          "List three freedoms protected by the First Amendment.",
+          "According to the Tenth Amendment, who keeps the powers not given to the national government?",
+          "Why does it matter that the Bill of Rights protects 'persons' and not only citizens?"
+        ],
+        "frayer": [
+          "Bill of Rights",
+          "Reserved Powers"
+        ],
+        "quiz": [
+          {
+            "id": "u1-gc08-dok1-1",
+            "dok": 1,
+            "stem": "The Bill of Rights is the name for:",
+            "opts": {
+              "A": "the first ten amendments to the Constitution",
+              "B": "the Preamble",
+              "C": "the Articles of Confederation",
+              "D": "the Declaration of Independence"
+            },
+            "key": "A"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Which amendment in the Bill of Rights does the most to protect individual liberty today? Defend your claim with evidence from the text."
+      },
+      "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+      "target": "I can analyze how the Bill of Rights limits the powers of the government and ensures individual rights.",
+      "learning_targets": "Summarize the first eight Amendments and explain the personal protections they guarantee for citizens. Explain the relationship between the 9th and 10th Amendments and federalism. Using examples, explain the relationship between national and state governments, emphasizing how and why conflicts arise in a federalist system and how they are resolved with the Supremacy Clause and checks and balances.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one primary source to support your explanation;",
+        "connect the idea to how it limits or empowers government today."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One primary source that supports it?",
+        "One effect on government or rights?",
+        "Key terms →"
+      ],
+      "lenses": "Culture (C)",
+      "dim_map": {
+        "C": "How the Bill of Rights protects the individual freedoms at the heart of American civic culture."
+      },
+      "hook": "Ten amendments, one purpose: to tell the government what it may NOT do to you. Why did Americans insist on adding them?",
+      "civic_label": "RIGHTS ANALYSIS",
+      "ssp_focus": "SSP.02",
+      "tca": "(T.C.A. § 49-6-1028)"
+    },
+    "GC.09": {
+      "title": "Republic and Democracy",
+      "tn": "Define the concepts of democracy and republic and examine the relationship between the two.",
+      "ican": "I can define the concepts of democracy and republic and examine the relationship between the two.",
+      "vocab": [
+        {
+          "term": "Republic",
+          "say": "ree-PUB-lik",
+          "es": "república",
+          "def": "A government in which citizens elect representatives to make laws and decisions on their behalf."
+        },
+        {
+          "term": "Representative Democracy",
+          "say": "rep-ree-ZEN-tuh-tiv",
+          "es": "democracia representativa",
+          "def": "A system in which the people rule indirectly by electing officials to represent them — the model of U.S. government."
+        },
+        {
+          "term": "Direct Democracy",
+          "say": "dih-REKT dih-MOK-ruh-see",
+          "es": "democracia directa",
+          "def": "A system in which citizens vote directly on laws themselves, rather than through elected representatives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Federalist No. 10",
+          "who": "James Madison (Publius)",
+          "date": "1787",
+          "quote": "A republic, by which I mean a government in which the scheme of representation takes place… promises the cure for which we are seeking. Let us examine the points in which it varies from pure democracy.",
+          "repo": "Congress.gov / Library of Congress",
+          "url": "https://guides.loc.gov/federalist-papers/text-1-10"
+        },
+        {
+          "title": "U.S. Constitution, Article IV, Section 4",
+          "who": "Constitutional Convention",
+          "date": "1787",
+          "quote": "The United States shall guarantee to every State in this Union a Republican Form of Government.",
+          "repo": "National Archives",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+        }
+      ],
+      "cfu": {
+        "dok": 2,
+        "stem": "What is the main difference between a direct democracy and a republic (representative democracy)?",
+        "options": {
+          "A": "A republic has no elections",
+          "B": "In a direct democracy citizens vote on laws themselves; in a republic they elect representatives to make laws",
+          "C": "A republic is ruled by a king",
+          "D": "There is no difference"
+        },
+        "key": "B",
+        "why": "DOK 2: In a direct democracy the people vote on laws directly; in a republic (representative democracy) the people elect representatives who make laws on their behalf — the model the Framers chose."
+      },
+      "auth": {
+        "close": "Americans often call the United States a 'democracy,' but the Framers designed a republic — a representative democracy. In a direct democracy, citizens vote on laws themselves; in a republic, they elect representatives to make laws for them. In Federalist No. 10, Madison argued a large republic would better control the dangers of 'faction' than a small direct democracy. The Constitution guarantees every state 'a Republican Form of Government' (Article IV). A constitutional republic combines majority rule through elections with protection of minority rights and individual liberties through the Constitution — so the majority governs, but cannot simply vote away the basic rights of others.",
+        "tdq": [
+          "What is the difference between a direct democracy and a representative democracy (republic)?",
+          "In Federalist No. 10, why does Madison prefer a large republic over a pure democracy?",
+          "How does a constitutional republic balance majority rule with minority rights?"
+        ],
+        "frayer": [
+          "Republic",
+          "Direct Democracy"
+        ],
+        "quiz": [
+          {
+            "id": "u1-gc09-dok1-1",
+            "dok": 1,
+            "stem": "The United States is best described as a:",
+            "opts": {
+              "A": "constitutional republic / representative democracy",
+              "B": "direct democracy",
+              "C": "monarchy",
+              "D": "confederation"
+            },
+            "key": "A"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Was the Framers' choice of a republic over a direct democracy the right one for a large nation? Defend your claim using Federalist No. 10."
+      },
+      "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+      "target": "I can define the concepts of democracy and republic and examine the relationship between the two.",
+      "learning_targets": "Explain the difference between a “constitutional republic” and a “constitutional democracy,” give an example of each. Find current events showing evidence of government limitations. Honors: Cite examples of unitary, federal, and confederate government and explain how the United States relates to all three.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one primary source to support your explanation;",
+        "connect the idea to how it limits or empowers government today."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One primary source that supports it?",
+        "One effect on government or rights?",
+        "Key terms →"
+      ],
+      "lenses": "",
+      "dim_map": {
+        "P": "The distinction between a republic and a democracy and the U.S. as a constitutional republic."
+      },
+      "hook": "Is the United States a democracy or a republic? The answer is 'both, on purpose' — and it changes how your voice reaches government.",
+      "civic_label": "CONSTITUTIONAL PRINCIPLES",
+      "ssp_focus": "SSP.04"
+    }
+  }
+}
