@@ -1,0 +1,230 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<title>Unit 1 Teacher Deck &mdash; Foundations of Constitutional Government</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{ --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C; --cream:#F7F5EF; --paper:#fff;
+  --navy-tint:#EEF1F7; --red-tint:#FBEEEF; --gold-tint:#FAF3E2; --green-tint:#EAF2EC;
+  --rule:#CBD2DE; --muted:#5A6579; --ink:#1B2A4A; }
+@page{ size:13.333in 7.5in; margin:0; }
+html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; color:var(--ink); }
+.slide{ position:relative; width:13.333in; height:7.5in; background:var(--paper); overflow:hidden;
+  page-break-after:always; display:flex; flex-direction:column; }
+.slide:last-child{ page-break-after:auto; }
+
+/* ---- shared header band ---- */
+.shead{ flex:0 0 auto; background:var(--navy); color:#fff; display:flex; align-items:center;
+  justify-content:space-between; padding:16px 34px; border-bottom:5px solid var(--red); }
+.shead .l{ display:flex; flex-direction:column; gap:3px; }
+.shead .kick{ font-size:11pt; letter-spacing:.14em; font-weight:800; color:var(--gold); text-transform:uppercase; }
+.shead h2{ font-family:Georgia,serif; font-size:27pt; font-weight:700; line-height:1.02; }
+.shead .r{ display:flex; flex-direction:column; align-items:flex-end; gap:6px; }
+.chip{ background:rgba(255,255,255,.12); border:1.5px solid var(--gold); color:#fff; font-size:9.5pt;
+  font-weight:700; padding:5px 12px; border-radius:14px; white-space:nowrap; }
+.chip.ssp{ background:var(--red); border-color:var(--red); }
+
+/* ---- body grid ---- */
+.body{ flex:1 1 auto; display:flex; gap:22px; padding:22px 34px; min-height:0; }
+.col{ display:flex; flex-direction:column; gap:14px; min-height:0; }
+.col.main{ flex:1.35 1 0; } .col.side{ flex:1 1 0; }
+
+.card{ border:1.8px solid var(--rule); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
+.card .ch{ font-size:10.5pt; font-weight:800; letter-spacing:.03em; text-transform:uppercase; color:#fff;
+  padding:6px 14px; }
+.card .cb{ padding:11px 15px; font-size:13.5pt; line-height:1.4; color:#22303f; }
+.ch.navy{ background:var(--navy); } .ch.red{ background:var(--red); } .ch.gold{ background:var(--gold); color:var(--navy); }
+.ch.green{ background:#1e6b40; }
+
+.target{ background:var(--navy-tint); border-left:6px solid var(--navy); border-radius:0 8px 8px 0;
+  padding:12px 16px; font-size:14pt; line-height:1.34; color:#22303f; }
+.target b{ color:var(--navy); }
+.hook{ background:var(--gold-tint); border-left:6px solid var(--gold); border-radius:0 8px 8px 0;
+  padding:12px 16px; font-size:15pt; line-height:1.34; font-style:italic; color:#3a2f12; }
+.hook .lbl{ font-style:normal; font-weight:800; font-size:9.5pt; letter-spacing:.08em; text-transform:uppercase; color:#7a5c15; display:block; margin-bottom:3px; }
+
+/* vocab */
+.vterm{ font-size:15pt; font-weight:800; color:var(--navy); }
+.vterm .say{ font-size:10pt; font-weight:600; color:var(--muted); font-style:italic; }
+.ves{ font-size:11pt; color:var(--red); font-weight:700; margin:2px 0 5px; }
+.vdef{ font-size:12.5pt; line-height:1.36; color:#22303f; }
+
+/* source image frame */
+.srcimg .cb{ display:flex; gap:14px; align-items:stretch; padding:12px 15px; }
+.imgwrap{ flex:0 0 auto; width:2.5in; display:flex; align-items:center; justify-content:center; }
+.imgwrap img{ max-width:100%; max-height:2.9in; border:2px solid var(--navy); border-radius:4px; object-fit:contain; }
+.imgph{ flex:0 0 auto; width:2.5in; min-height:2.6in; border:2.5px dashed var(--gold); border-radius:8px; background:var(--gold-tint);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:14px; gap:6px; }
+.imgph .ic{ font-size:42pt; line-height:1; }
+.imgph .phlbl{ font-size:8.5pt; font-weight:800; letter-spacing:.08em; color:#7a5c15; }
+.imgph .phttl{ font-size:12pt; font-weight:800; color:var(--navy); line-height:1.2; }
+.imgph .phsub{ font-size:8.5pt; color:var(--muted); } .imgph code{ font-size:8pt; background:#fff; padding:1px 5px; border-radius:3px; border:1px solid var(--rule); }
+.imgtext{ flex:1 1 0; display:flex; flex-direction:column; gap:7px; min-width:0; }
+.imgcap{ font-size:12pt; line-height:1.36; color:#22303f; }
+.imgquote{ font-family:Georgia,serif; font-style:italic; font-size:12pt; line-height:1.38; color:#3a4455;
+  border-left:4px solid var(--gold); padding:2px 0 2px 11px; }
+.imgquote .qa{ font-style:normal; font-size:9.5pt; font-weight:700; color:var(--muted); }
+.imgcite{ margin-top:auto; font-size:8.5pt; color:var(--muted); font-weight:700; }
+
+/* CFU */
+.cfu .opt{ display:flex; gap:9px; align-items:flex-start; font-size:12.5pt; line-height:1.32; padding:3px 0; }
+.cfu .k{ font-weight:800; color:var(--navy); flex:0 0 auto; }
+.cfu .opt.key{ background:var(--green-tint); border-radius:6px; padding:5px 8px; }
+.cfu .opt.key .k{ color:#1e6b40; }
+.ans{ margin-top:9px; background:var(--green-tint); border:1.6px solid #1e6b40; border-radius:8px;
+  padding:9px 13px; font-size:11.5pt; line-height:1.34; color:#173d27; }
+.ans b{ color:#1e6b40; }
+
+/* teacher notes strip */
+.tnotes{ flex:0 0 auto; background:var(--cream); border-top:2px solid var(--gold); padding:9px 34px;
+  font-size:10.5pt; line-height:1.3; color:#3a2f12; display:flex; gap:12px; align-items:baseline; }
+.tnotes b{ color:#7a5c15; text-transform:uppercase; letter-spacing:.05em; font-size:9pt; flex:0 0 auto; }
+
+/* footer */
+.sfoot{ position:absolute; bottom:8px; right:20px; font-size:8pt; color:#9aa2b2; }
+.sfoot .brand{ color:var(--navy); font-weight:700; }
+.pgno{ position:absolute; bottom:8px; left:20px; font-size:8pt; color:#9aa2b2; }
+
+/* ---- title slide ---- */
+.title{ background:var(--navy); color:#fff; justify-content:center; align-items:center; text-align:center; padding:0 90px; }
+.title .eye{ font-size:12pt; letter-spacing:.22em; font-weight:800; text-transform:uppercase; color:var(--gold); }
+.title h1{ font-family:Georgia,serif; font-size:52pt; font-weight:700; line-height:1.04; margin:16px 0 6px; }
+.title .course{ font-size:16pt; color:#B5D4F4; font-weight:600; }
+.title .rule{ width:120px; height:4px; background:var(--red); margin:22px auto; border-radius:2px; }
+.title .eq{ font-family:Georgia,serif; font-style:italic; font-size:19pt; color:#e6d3a3; max-width:9in; line-height:1.4; }
+.title .meta{ margin-top:20px; font-size:11pt; color:#8ea3c4; letter-spacing:.03em; }
+.title .badge{ position:absolute; top:34px; right:44px; border:2px solid var(--gold); color:var(--gold);
+  font-size:10pt; font-weight:800; letter-spacing:.1em; text-transform:uppercase; padding:6px 14px; border-radius:5px; }
+
+/* ---- section/list slide ---- */
+.big-eq{ flex:1 1 auto; display:flex; flex-direction:column; justify-content:center; padding:34px 60px; gap:20px; }
+.big-eq .q{ font-family:Georgia,serif; font-size:30pt; font-weight:700; color:var(--navy); line-height:1.18; }
+.big-eq .q .u{ color:var(--red); }
+.road{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; }
+.road .r{ background:var(--navy-tint); border-left:5px solid var(--navy); border-radius:0 8px 8px 0; padding:9px 13px; }
+.road .r .c{ font-weight:800; color:var(--red); font-size:11pt; }
+.road .r .t{ font-size:12pt; color:#22303f; line-height:1.25; margin-top:2px; }
+
+/* perspectives */
+.persp{ flex:1 1 auto; display:grid; grid-template-columns:1fr 1fr; gap:16px; padding:22px 34px; }
+.persp .p{ background:var(--paper); border:1.8px solid var(--rule); border-top:5px solid var(--red); border-radius:8px; padding:13px 16px; }
+.persp .p h3{ font-size:15pt; color:var(--navy); margin-bottom:5px; }
+.persp .p p{ font-size:12pt; line-height:1.36; color:#22303f; }
+
+/* tn slide */
+.tnbig{ flex:1 1 auto; display:flex; gap:24px; padding:26px 44px; align-items:center; }
+.tnbig .star{ font-size:80pt; color:var(--gold); flex:0 0 auto; }
+.tnbig .t{ font-size:17pt; line-height:1.5; color:#22303f; } .tnbig .t b{ color:var(--navy); }
+
+/* closing */
+.close{ background:var(--navy); color:#fff; justify-content:center; align-items:center; text-align:center; padding:0 90px; }
+.close h1{ font-family:Georgia,serif; font-size:34pt; margin-bottom:14px; }
+.close .rule{ width:120px; height:4px; background:var(--red); margin:16px auto; border-radius:2px; }
+.close p{ font-size:15pt; color:#cdd4e2; line-height:1.5; max-width:9in; }
+.close .stds{ margin-top:18px; font-size:12pt; color:var(--gold); letter-spacing:.05em; }
+</style></head><body>
+<div class="slide title">
+  <div class="badge">Teacher Deck</div>
+  <div class="eye">Government Hack &middot; TroopToTeacher Technologies</div>
+  <h1>Foundations of<br>Constitutional Government</h1>
+  <div class="course">United States Government &amp; Civics (GC) &middot; Unit 1 &middot; GC.01&ndash;GC.09</div>
+  <div class="rule"></div>
+  <div class="eq">&ldquo;How much power should one person hold — and how is the presidency kept in check?&rdquo;</div>
+  <div class="meta">Grades 9&ndash;12 &middot; Suggested 8–10 days &middot; Supplemental under TCA &sect; 49-6-2202(a)(3)</div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; Roadmap</div><h2>Where We Are Going</h2></div>
+    <div class="r"><span class="chip">9 standards</span><span class="chip ssp">SSP.01&ndash;06</span></div></div>
+  <div class="big-eq">
+    <div class="q">Essential Question: <span class="u">How much power should one person hold — and how is the presidency kept in check?</span></div>
+    <div class="road"><div class="r"><div class="c">GC.16</div><div class="t">Article II &amp; the Presidency</div></div><div class="r"><div class="c">GC.17</div><div class="t">Departments of the Executive Branch</div></div><div class="r"><div class="c">GC.18</div><div class="t">The Electoral College</div></div></div>
+  </div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">2</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.16 &middot; EXECUTIVE POWER</div><h2>Article II &amp; the Presidency</h2></div>
+    <div class="r"><span class="chip">GC.16</span><span class="chip ssp">SSP.02</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can analyze Article II — the qualifications, powers, roles, term, and succession of the President.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128100;</div><div class="phlbl">PRIMARY SOURCE &middot; PORTRAIT</div><div class="phttl">George Washington (Athenaeum Portrait)</div><div class="phsub">drop image: <code>GC.16_washington-portrait.jpg</code></div></div><div class="imgtext"><div class="imgcap">Gilbert Stuart's George Washington (1796): the first President set the precedents for an office defined by Article II.</div><div class="imgquote">&ldquo;I do solemnly swear (or affirm) that I will faithfully execute the Office of President of the United States, and will to the best of my Ability, preserve, protect and defend the Constitution of the United States.&rdquo; <span class="qa">&mdash; Constitutional Convention, U.S. Constitution, Article II, Section 1 (Oath) (1787)</span></div><div class="imgcite">George Washington (Athenaeum Portrait) &middot; Gilbert Stuart (1796) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>One person commands the world's most powerful military — yet cannot make a treaty or hire a cabinet officer alone. Who holds the leash?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Commander-in-Chief <span class="say">/kuh-MAN-der in cheef/</span></div>
+          <div class="ves">comandante en jefe</div>
+          <div class="vdef">The President's role as civilian head of the U.S. armed forces, ensuring the military answers to elected leadership.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">Which check on the President is built into the treaty and appointment powers of Article II?</div>
+          <div class="opt"><span class="k">A</span><span>The President may act only during wartime</span></div><div class="opt"><span class="k">B</span><span>The Supreme Court must approve every treaty</span></div><div class="opt key"><span class="k">C &check;</span><span>The Senate must give its 'Advice and Consent'</span></div><div class="opt"><span class="k">D</span><span>The House must sign every appointment</span></div>
+          <div class="ans"><b>Answer: C.</b> DOK 2: Article II gives the President power to make treaties and appointments only 'by and with the Advice and Consent of the Senate' — a legislative check on executive power.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">3</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.17 &middot; THE BUREAUCRACY</div><h2>Departments of the Executive Branch</h2></div>
+    <div class="r"><span class="chip">GC.17</span><span class="chip ssp">SSP.01</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can identify the major executive departments and describe what each one does to carry out the law.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#127894;</div><div class="phlbl">PRIMARY SOURCE &middot; EMBLEM</div><div class="phttl">Seal of the U.S. Department of State (1900)</div><div class="phsub">drop image: <code>GC.17_executive-department-seal.png</code></div></div><div class="imgtext"><div class="imgcap">The Seal of the U.S. Department of State — one of the executive departments that carry out the President's duty to faithfully execute the law.</div><div class="imgquote">&ldquo;…he may require the Opinion, in writing, of the principal Officer in each of the executive Departments, upon any Subject relating to the Duties of their respective Offices.&rdquo; <span class="qa">&mdash; Constitutional Convention, U.S. Constitution, Article II, Section 2 (1787)</span></div><div class="imgcite">Seal of the U.S. Department of State (1900) &middot; U.S. Dept. of State (1900) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>An outbreak, a counterfeit bill, a border dispute, a school-funding fight — four problems, four different departments. Do you know which handles which?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Bureaucracy <span class="say">/byoo-ROK-ruh-see/</span></div>
+          <div class="ves">burocracia</div>
+          <div class="vdef">The departments, agencies, and employees of the executive branch that carry out and administer federal laws and programs day to day.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">Which executive department is chiefly responsible for foreign policy and relations with other countries?</div>
+          <div class="opt"><span class="k">A</span><span>The Department of the Treasury</span></div><div class="opt key"><span class="k">B &check;</span><span>The Department of State</span></div><div class="opt"><span class="k">C</span><span>The Department of Defense</span></div><div class="opt"><span class="k">D</span><span>The Department of Education</span></div>
+          <div class="ans"><b>Answer: B.</b> DOK 2: The Department of State manages diplomacy and foreign relations; Treasury handles money, Defense the military, Justice the law, and Education federal school policy.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">4</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.18 &middot; ELECTIONS</div><h2>The Electoral College</h2></div>
+    <div class="r"><span class="chip">GC.18</span><span class="chip ssp">SSP.04</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can explain how the Electoral College works and weigh the arguments for and against it.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128499;</div><div class="phlbl">PRIMARY SOURCE &middot; CARTOON</div><div class="phttl">The Political Farce of 1876 (Hayes–Tilden)</div><div class="phsub">drop image: <code>GC.18_electoral-college-cartoon.jpg</code></div></div><div class="imgtext"><div class="imgcap">The disputed 1876 Hayes–Tilden election: a candidate can win the popular vote yet lose the presidency — the Electoral College debate in one image.</div><div class="imgquote">&ldquo;Each State shall appoint, in such Manner as the Legislature thereof may direct, a Number of Electors, equal to the whole Number of Senators and Representatives to which the State may be entitled in the Congress.&rdquo; <span class="qa">&mdash; Constitutional Convention, U.S. Constitution, Article II, Section 1 (1787)</span></div><div class="imgcite">The Political Farce of 1876 (Hayes–Tilden) &middot; (unattributed) (1876) &middot; Library of Congress</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>You never actually vote for President — you vote for someone who does. Meet the electors, and decide if the system still makes sense.</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Electoral College <span class="say">/ee-LEK-tor-ul KOL-ij/</span></div>
+          <div class="ves">Colegio Electoral</div>
+          <div class="vdef">The body of electors — one per senator and representative — that formally elects the President; a candidate needs a majority (270 of 538).</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 3</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">Why can a candidate win the national popular vote yet still lose the presidency?</div>
+          <div class="opt"><span class="k">A</span><span>Because the Supreme Court chooses the President</span></div><div class="opt"><span class="k">B</span><span>Because Congress ignores the popular vote entirely</span></div><div class="opt"><span class="k">C</span><span>Because the President is chosen by the Cabinet</span></div><div class="opt key"><span class="k">D &check;</span><span>Because most states award all their electoral votes winner-take-all, so the Electoral College total can differ from the national vote</span></div>
+          <div class="ans"><b>Answer: D.</b> DOK 3: The winner is decided by electoral votes, not the national popular vote; because most states use winner-take-all, a candidate can gather more electoral votes while another wins more total votes nationwide.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">5</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; Multiple Perspectives</div><h2>How Strong Should the President Be? Perspectives on Executive Power</h2></div>
+    <div class="r"><span class="chip ssp">SSP.03</span></div></div>
+  <div class="persp"><div class="p"><h3>Energy in the Executive</h3><p>Hamilton argued a single, energetic executive is essential to act decisively in war and crisis (Federalist 68/70; connects to GC.16).</p></div><div class="p"><h3>Fear of a King</h3><p>Anti-Federalists worried the presidency could become an elected monarchy — a fear that shaped term limits and impeachment (GC.16, connects to Unit 1 GC.04).</p></div><div class="p"><h3>The Bureaucracy</h3><p>Millions of federal employees in departments and agencies carry out the law day to day, raising questions about who really controls policy (GC.17).</p></div><div class="p"><h3>The Electoral College</h3><p>The winner of the most national votes has sometimes lost the presidency, sparking a lasting debate over how we choose a President (GC.18).</p></div></div>
+  <div class="tnotes"><b>Why it matters</b><span>This section weighs a central tension of the office: energy in the executive versus the danger of one person holding too much power. It is Government Hack–authored instructional synthesis grounded in this unit'</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">6</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; TENNESSEE CONNECTION</div><h2>Our Signature Move</h2></div>
+    <div class="r"><span class="chip">&#9733; Tennessee</span></div></div>
+  <div class="tnbig"><div class="star">&#9733;</div><div class="t">Tennessee has sent three of its own to the presidency: Andrew Jackson, James K. Polk, and Andrew Johnson all built their careers in Tennessee before reaching the White House. Andrew Johnson's presidency ended in the first impeachment trial of a President — a direct test of the checks on executive power studied in this unit (GC.16).</div></div>
+  <div class="tnotes"><b>Task</b><span>Three Presidents called Tennessee home. Choose one — Jackson, Polk, or Johnson — and investigate one power of the presidency they used or tested, and record what you find with a source.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">7</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 4 &middot; Make It Stick</div><h2>Predict &middot; Play &middot; Spiral</h2></div>
+    <div class="r"><span class="chip">UDL &middot; MTSS</span></div></div>
+  <div class="persp">
+    <div class="p" style="border-top-color:var(--gold)"><h3>Predict First &mdash; open the unit</h3><p>Predict first: Should the candidate with the most votes nationwide always become President? Write your gut answer now — you'll test it against the Electoral College and Hamilton's Federalist 68.</p></div>
+    <div class="p"><h3>Warm-Up Play &mdash; Cabinet Match</h3><p>2-minute game (GC.17). Read a real problem — a disease outbreak, a border dispute, a counterfeit bill, a civil-rights complaint — and race to name the department that handles it (State, Treasury, Defense, Justice, Education). Students feel how the executive branch divides the work of running the country.</p></div>
+    <div class="p" style="border-top-color:var(--navy)"><h3>Spiral &mdash; retrieve &amp; connect</h3><p style="font-size:10.5pt"><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.16 &rarr; Unit 3 (GC.15, Senate confirmation)</b><br>The Senate that confirms the President's appointments is the same power you studied in the Legislative unit — checks &amp; balances in action.</div><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.16 &rarr; Unit 1 (GC.06, checks &amp; balances)</b><br>The veto, impeachment, and appointment checks all come from the separation of powers you learned in Foundations.</div><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.18 &rarr; Unit 1 (GC.04, the Great Compromise)</b><br>The Electoral College's mix of population and state equality echoes the same large-vs-small-state bargain from the Convention.</div></p></div>
+    <div class="p" style="border-top-color:var(--gold)"><h3>Executive Debate</h3><p><ul style="margin-left:15px"><li>Cite the clause — point to Article II before you argue.</li><li>Separate the power from the person who used it.</li><li>Disagree with the argument, not the classmate.</li><li>One voice at a time; make room for the quiet voice.</li></ul></p></div>
+  </div>
+  <div class="tnotes"><b>Why it's here</b><span>These are the built-in UDL 3.0 moves — a belief-check (9.1), on-standard play (7.3), cross-unit spiral (3.4), and conversation norms (9.4). Use them; they make the unit stick.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">8</div></div><div class="slide close">
+  <div class="close-inner" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;height:100%;padding:0 90px">
+  <h1>Revisit the Essential Question</h1>
+  <div class="rule"></div>
+  <p>&ldquo;How much power should one person hold — and how is the presidency kept in check?&rdquo;</p>
+  <p style="margin-top:14px;font-size:13pt">Students now have the sources, vocabulary, and reasoning to answer it &mdash; in a CER paragraph or the unit DBQ.</p>
+  <div class="stds">GC.16 &middot; GC.17 &middot; GC.18</div></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">9</div></div>
+</body></html>
