@@ -1,0 +1,272 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<title>Unit 1 Teacher Deck &mdash; Foundations of Constitutional Government</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{ --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C; --cream:#F7F5EF; --paper:#fff;
+  --navy-tint:#EEF1F7; --red-tint:#FBEEEF; --gold-tint:#FAF3E2; --green-tint:#EAF2EC;
+  --rule:#CBD2DE; --muted:#5A6579; --ink:#1B2A4A; }
+@page{ size:13.333in 7.5in; margin:0; }
+html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; color:var(--ink); }
+.slide{ position:relative; width:13.333in; height:7.5in; background:var(--paper); overflow:hidden;
+  page-break-after:always; display:flex; flex-direction:column; }
+.slide:last-child{ page-break-after:auto; }
+
+/* ---- shared header band ---- */
+.shead{ flex:0 0 auto; background:var(--navy); color:#fff; display:flex; align-items:center;
+  justify-content:space-between; padding:16px 34px; border-bottom:5px solid var(--red); }
+.shead .l{ display:flex; flex-direction:column; gap:3px; }
+.shead .kick{ font-size:11pt; letter-spacing:.14em; font-weight:800; color:var(--gold); text-transform:uppercase; }
+.shead h2{ font-family:Georgia,serif; font-size:27pt; font-weight:700; line-height:1.02; }
+.shead .r{ display:flex; flex-direction:column; align-items:flex-end; gap:6px; }
+.chip{ background:rgba(255,255,255,.12); border:1.5px solid var(--gold); color:#fff; font-size:9.5pt;
+  font-weight:700; padding:5px 12px; border-radius:14px; white-space:nowrap; }
+.chip.ssp{ background:var(--red); border-color:var(--red); }
+
+/* ---- body grid ---- */
+.body{ flex:1 1 auto; display:flex; gap:22px; padding:22px 34px; min-height:0; }
+.col{ display:flex; flex-direction:column; gap:14px; min-height:0; }
+.col.main{ flex:1.35 1 0; } .col.side{ flex:1 1 0; }
+
+.card{ border:1.8px solid var(--rule); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
+.card .ch{ font-size:10.5pt; font-weight:800; letter-spacing:.03em; text-transform:uppercase; color:#fff;
+  padding:6px 14px; }
+.card .cb{ padding:11px 15px; font-size:13.5pt; line-height:1.4; color:#22303f; }
+.ch.navy{ background:var(--navy); } .ch.red{ background:var(--red); } .ch.gold{ background:var(--gold); color:var(--navy); }
+.ch.green{ background:#1e6b40; }
+
+.target{ background:var(--navy-tint); border-left:6px solid var(--navy); border-radius:0 8px 8px 0;
+  padding:12px 16px; font-size:14pt; line-height:1.34; color:#22303f; }
+.target b{ color:var(--navy); }
+.hook{ background:var(--gold-tint); border-left:6px solid var(--gold); border-radius:0 8px 8px 0;
+  padding:12px 16px; font-size:15pt; line-height:1.34; font-style:italic; color:#3a2f12; }
+.hook .lbl{ font-style:normal; font-weight:800; font-size:9.5pt; letter-spacing:.08em; text-transform:uppercase; color:#7a5c15; display:block; margin-bottom:3px; }
+
+/* vocab */
+.vterm{ font-size:15pt; font-weight:800; color:var(--navy); }
+.vterm .say{ font-size:10pt; font-weight:600; color:var(--muted); font-style:italic; }
+.ves{ font-size:11pt; color:var(--red); font-weight:700; margin:2px 0 5px; }
+.vdef{ font-size:12.5pt; line-height:1.36; color:#22303f; }
+
+/* source image frame */
+.srcimg .cb{ display:flex; gap:14px; align-items:stretch; padding:12px 15px; }
+.imgwrap{ flex:0 0 auto; width:2.5in; display:flex; align-items:center; justify-content:center; }
+.imgwrap img{ max-width:100%; max-height:2.9in; border:2px solid var(--navy); border-radius:4px; object-fit:contain; }
+.imgph{ flex:0 0 auto; width:2.5in; min-height:2.6in; border:2.5px dashed var(--gold); border-radius:8px; background:var(--gold-tint);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:14px; gap:6px; }
+.imgph .ic{ font-size:42pt; line-height:1; }
+.imgph .phlbl{ font-size:8.5pt; font-weight:800; letter-spacing:.08em; color:#7a5c15; }
+.imgph .phttl{ font-size:12pt; font-weight:800; color:var(--navy); line-height:1.2; }
+.imgph .phsub{ font-size:8.5pt; color:var(--muted); } .imgph code{ font-size:8pt; background:#fff; padding:1px 5px; border-radius:3px; border:1px solid var(--rule); }
+.imgtext{ flex:1 1 0; display:flex; flex-direction:column; gap:7px; min-width:0; }
+.imgcap{ font-size:12pt; line-height:1.36; color:#22303f; }
+.imgquote{ font-family:Georgia,serif; font-style:italic; font-size:12pt; line-height:1.38; color:#3a4455;
+  border-left:4px solid var(--gold); padding:2px 0 2px 11px; }
+.imgquote .qa{ font-style:normal; font-size:9.5pt; font-weight:700; color:var(--muted); }
+.imgcite{ margin-top:auto; font-size:8.5pt; color:var(--muted); font-weight:700; }
+
+/* CFU */
+.cfu .opt{ display:flex; gap:9px; align-items:flex-start; font-size:12.5pt; line-height:1.32; padding:3px 0; }
+.cfu .k{ font-weight:800; color:var(--navy); flex:0 0 auto; }
+.cfu .opt.key{ background:var(--green-tint); border-radius:6px; padding:5px 8px; }
+.cfu .opt.key .k{ color:#1e6b40; }
+.ans{ margin-top:9px; background:var(--green-tint); border:1.6px solid #1e6b40; border-radius:8px;
+  padding:9px 13px; font-size:11.5pt; line-height:1.34; color:#173d27; }
+.ans b{ color:#1e6b40; }
+
+/* teacher notes strip */
+.tnotes{ flex:0 0 auto; background:var(--cream); border-top:2px solid var(--gold); padding:9px 34px;
+  font-size:10.5pt; line-height:1.3; color:#3a2f12; display:flex; gap:12px; align-items:baseline; }
+.tnotes b{ color:#7a5c15; text-transform:uppercase; letter-spacing:.05em; font-size:9pt; flex:0 0 auto; }
+
+/* footer */
+.sfoot{ position:absolute; bottom:8px; right:20px; font-size:8pt; color:#9aa2b2; }
+.sfoot .brand{ color:var(--navy); font-weight:700; }
+.pgno{ position:absolute; bottom:8px; left:20px; font-size:8pt; color:#9aa2b2; }
+
+/* ---- title slide ---- */
+.title{ background:var(--navy); color:#fff; justify-content:center; align-items:center; text-align:center; padding:0 90px; }
+.title .eye{ font-size:12pt; letter-spacing:.22em; font-weight:800; text-transform:uppercase; color:var(--gold); }
+.title h1{ font-family:Georgia,serif; font-size:52pt; font-weight:700; line-height:1.04; margin:16px 0 6px; }
+.title .course{ font-size:16pt; color:#B5D4F4; font-weight:600; }
+.title .rule{ width:120px; height:4px; background:var(--red); margin:22px auto; border-radius:2px; }
+.title .eq{ font-family:Georgia,serif; font-style:italic; font-size:19pt; color:#e6d3a3; max-width:9in; line-height:1.4; }
+.title .meta{ margin-top:20px; font-size:11pt; color:#8ea3c4; letter-spacing:.03em; }
+.title .badge{ position:absolute; top:34px; right:44px; border:2px solid var(--gold); color:var(--gold);
+  font-size:10pt; font-weight:800; letter-spacing:.1em; text-transform:uppercase; padding:6px 14px; border-radius:5px; }
+
+/* ---- section/list slide ---- */
+.big-eq{ flex:1 1 auto; display:flex; flex-direction:column; justify-content:center; padding:34px 60px; gap:20px; }
+.big-eq .q{ font-family:Georgia,serif; font-size:30pt; font-weight:700; color:var(--navy); line-height:1.18; }
+.big-eq .q .u{ color:var(--red); }
+.road{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; }
+.road .r{ background:var(--navy-tint); border-left:5px solid var(--navy); border-radius:0 8px 8px 0; padding:9px 13px; }
+.road .r .c{ font-weight:800; color:var(--red); font-size:11pt; }
+.road .r .t{ font-size:12pt; color:#22303f; line-height:1.25; margin-top:2px; }
+
+/* perspectives */
+.persp{ flex:1 1 auto; display:grid; grid-template-columns:1fr 1fr; gap:16px; padding:22px 34px; }
+.persp .p{ background:var(--paper); border:1.8px solid var(--rule); border-top:5px solid var(--red); border-radius:8px; padding:13px 16px; }
+.persp .p h3{ font-size:15pt; color:var(--navy); margin-bottom:5px; }
+.persp .p p{ font-size:12pt; line-height:1.36; color:#22303f; }
+
+/* tn slide */
+.tnbig{ flex:1 1 auto; display:flex; gap:24px; padding:26px 44px; align-items:center; }
+.tnbig .star{ font-size:80pt; color:var(--gold); flex:0 0 auto; }
+.tnbig .t{ font-size:17pt; line-height:1.5; color:#22303f; } .tnbig .t b{ color:var(--navy); }
+
+/* closing */
+.close{ background:var(--navy); color:#fff; justify-content:center; align-items:center; text-align:center; padding:0 90px; }
+.close h1{ font-family:Georgia,serif; font-size:34pt; margin-bottom:14px; }
+.close .rule{ width:120px; height:4px; background:var(--red); margin:16px auto; border-radius:2px; }
+.close p{ font-size:15pt; color:#cdd4e2; line-height:1.5; max-width:9in; }
+.close .stds{ margin-top:18px; font-size:12pt; color:var(--gold); letter-spacing:.05em; }
+</style></head><body>
+<div class="slide title">
+  <div class="badge">Teacher Deck</div>
+  <div class="eye">Government Hack &middot; TroopToTeacher Technologies</div>
+  <h1>Foundations of<br>Constitutional Government</h1>
+  <div class="course">United States Government &amp; Civics (GC) &middot; Unit 1 &middot; GC.01&ndash;GC.09</div>
+  <div class="rule"></div>
+  <div class="eq">&ldquo;How do the courts decide where your rights end and the government's power begins?&rdquo;</div>
+  <div class="meta">Grades 9&ndash;12 &middot; Suggested 16–18 days &middot; Supplemental under TCA &sect; 49-6-2202(a)(3)</div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; Roadmap</div><h2>Where We Are Going</h2></div>
+    <div class="r"><span class="chip">9 standards</span><span class="chip ssp">SSP.01&ndash;06</span></div></div>
+  <div class="big-eq">
+    <div class="q">Essential Question: <span class="u">How do the courts decide where your rights end and the government's power begins?</span></div>
+    <div class="road"><div class="r"><div class="c">GC.23</div><div class="t">The First Amendment in Court</div></div><div class="r"><div class="c">GC.24</div><div class="t">The Second Amendment in Court</div></div><div class="r"><div class="c">GC.25</div><div class="t">Rights of the Accused (4th–8th Amendments)</div></div><div class="r"><div class="c">GC.26</div><div class="t">The 14th Amendment — Equal Protection &amp; Due Process</div></div><div class="r"><div class="c">GC.27</div><div class="t">Rights for the Underserved</div></div></div>
+  </div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">2</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.23 &middot; FIRST AMENDMENT</div><h2>The First Amendment in Court</h2></div>
+    <div class="r"><span class="chip">GC.23</span><span class="chip ssp">SSP.02</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can evaluate how the Supreme Court has interpreted the First Amendment freedoms.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; DOCUMENT</div><div class="phttl">Bill of Rights (First Amendment detail)</div><div class="phsub">drop image: <code>GC.23_first-amendment.jpg</code></div></div><div class="imgtext"><div class="imgcap">The First Amendment: the 45 words the Supreme Court has interpreted case by case — Tinker, Engel, Texas v. Johnson.</div><div class="imgquote">&ldquo;Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press.&rdquo; <span class="qa">&mdash; 1st U.S. Congress, U.S. Constitution, Amendment I (1791)</span></div><div class="imgcite">Bill of Rights (First Amendment detail) &middot; 1st U.S. Congress (NARA) (1789) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>A silent armband, a burning flag, a banned book, a school prayer — the same 45 words protect or limit each one. Where does your freedom to express end?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Clear and Present Danger <span class="say">/kleer and PREZ-ent DAYN-jer/</span></div>
+          <div class="ves">peligro claro y presente</div>
+          <div class="vdef">The test from Schenck v. United States (1919) allowing limits on speech that creates a real, immediate danger — such as falsely shouting fire in a crowded theater.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 3</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">What did the Supreme Court decide in Tinker v. Des Moines (1969)?</div>
+          <div class="opt"><span class="k">A</span><span>Schools may ban any student speech they dislike</span></div><div class="opt key"><span class="k">B &check;</span><span>Students keep their free-speech rights at school, unless the speech substantially disrupts</span></div><div class="opt"><span class="k">C</span><span>The First Amendment does not apply to students</span></div><div class="opt"><span class="k">D</span><span>Only teachers, not students, have free-speech rights</span></div>
+          <div class="ans"><b>Answer: B.</b> DOK 3: The Court held that students do not 'shed their constitutional rights… at the schoolhouse gate,' protecting non-disruptive student expression like the silent armband protest.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">3</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.24 &middot; SECOND AMENDMENT</div><h2>The Second Amendment in Court</h2></div>
+    <div class="r"><span class="chip">GC.24</span><span class="chip ssp">SSP.04</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can explain the Second Amendment and evaluate how the Supreme Court has interpreted it.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; DOCUMENT</div><div class="phttl">Second Amendment (document detail)</div><div class="phsub">drop image: <code>GC.24_second-amendment.jpg</code></div></div><div class="imgtext"><div class="imgcap">The Second Amendment: one sentence at the center of the individual-right debate the Court settled in Heller (2008).</div><div class="imgquote">&ldquo;A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.&rdquo; <span class="qa">&mdash; 1st U.S. Congress, U.S. Constitution, Amendment II (1791)</span></div><div class="imgcite">Second Amendment (document detail) &middot; 1st U.S. Congress (NARA) (1789) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>One sentence, written in 1791, still splits the country: is the right to 'keep and bear Arms' yours as a person, or only as part of a militia? The Court finally answered in 2008.</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Second Amendment <span class="say">/SEK-und uh-MEND-ment/</span></div>
+          <div class="ves">Segunda Enmienda</div>
+          <div class="vdef">The amendment protecting 'the right of the people to keep and bear Arms,' whose meaning has been debated between an individual right and a militia-based right.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">What did District of Columbia v. Heller (2008) decide about the Second Amendment?</div>
+          <div class="opt"><span class="k">A</span><span>That only the military may own weapons</span></div><div class="opt"><span class="k">B</span><span>That the amendment applies only to the federal government forever</span></div><div class="opt"><span class="k">C</span><span>That states may ban all firearms</span></div><div class="opt key"><span class="k">D &check;</span><span>That the Second Amendment protects an individual right to keep and bear arms</span></div>
+          <div class="ans"><b>Answer: D.</b> DOK 2: In Heller, the Court held that the Second Amendment 'conferred an individual right to keep and bear arms'; McDonald v. Chicago (2010) then applied that right to the states through incorporation.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">4</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.25 &middot; RIGHTS OF THE ACCUSED</div><h2>Rights of the Accused (4th–8th Amendments)</h2></div>
+    <div class="r"><span class="chip">GC.25</span><span class="chip ssp">SSP.02</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can evaluate how the Supreme Court has protected the rights of the accused under the 4th through 8th Amendments.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; DOCUMENT</div><div class="phttl">Clarence Gideon's handwritten cert. petition</div><div class="phsub">drop image: <code>GC.25_gideon-petition.jpg</code></div></div><div class="imgtext"><div class="imgcap">Clarence Gideon's handwritten petition to the Supreme Court (1962) — one prisoner's letter that won the right to a lawyer.</div><div class="imgquote">&ldquo;In all criminal prosecutions, the accused shall enjoy the right… to have the Assistance of Counsel for his defence.&rdquo; <span class="qa">&mdash; 1st U.S. Congress, U.S. Constitution, Amendment VI (1791)</span></div><div class="imgcite">Clarence Gideon's handwritten cert. petition &middot; Clarence Earl Gideon (NARA RG 267) (1962) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>'You have the right to remain silent.' You've heard it a hundred times on TV — but a real person had to fight to the Supreme Court to make it law. Which rights protect the accused?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Exclusionary Rule <span class="say">/eks-KLOO-zhun-air-ee/</span></div>
+          <div class="ves">regla de exclusión</div>
+          <div class="vdef">The rule from Mapp v. Ohio (1961) that evidence obtained by an illegal search cannot be used in court — enforcing the 4th Amendment.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">What right did Gideon v. Wainwright (1963) guarantee?</div>
+          <div class="opt key"><span class="k">A &check;</span><span>The state must provide a lawyer to a defendant who cannot afford one</span></div><div class="opt"><span class="k">B</span><span>Police may search a home without a warrant</span></div><div class="opt"><span class="k">C</span><span>A suspect must answer all police questions</span></div><div class="opt"><span class="k">D</span><span>Trials may be held in secret</span></div>
+          <div class="ans"><b>Answer: A.</b> DOK 2: Gideon held that a fair trial requires counsel, so the state must provide a lawyer to defendants too poor to hire one — applying the 6th Amendment to the states.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">5</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.26 &middot; EQUAL PROTECTION</div><h2>The 14th Amendment — Equal Protection &amp; Due Process</h2></div>
+    <div class="r"><span class="chip">GC.26</span><span class="chip ssp">SSP.05</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can evaluate how the Supreme Court has interpreted the 14th Amendment's equal protection and due process clauses.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; DOCUMENT</div><div class="phttl">14th Amendment (engrossed, page 1)</div><div class="phsub">drop image: <code>GC.26_fourteenth-amendment.jpg</code></div></div><div class="imgtext"><div class="imgcap">The 14th Amendment (1868): equal protection and due process — the clauses behind Plessy, Brown, and Obergefell.</div><div class="imgquote">&ldquo;…nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.&rdquo; <span class="qa">&mdash; 39th U.S. Congress, U.S. Constitution, Amendment XIV, Section 1 (1868)</span></div><div class="imgcite">14th Amendment (engrossed, page 1) &middot; 39th U.S. Congress (NARA) (1868) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>The same 14th Amendment once allowed 'separate but equal' — and later ended it. How can the identical words mean opposite things fifty years apart?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Equal Protection Clause <span class="say">/EE-kwul pro-TEK-shun/</span></div>
+          <div class="ves">cláusula de igual protección</div>
+          <div class="vdef">The 14th Amendment guarantee that no state may 'deny to any person… the equal protection of the laws' — the basis of Brown v. Board.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 3</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">How did Brown v. Board of Education (1954) change the meaning of the Equal Protection Clause?</div>
+          <div class="opt"><span class="k">A</span><span>It upheld 'separate but equal' from Plessy</span></div><div class="opt"><span class="k">B</span><span>It ended the 14th Amendment</span></div><div class="opt key"><span class="k">C &check;</span><span>It ruled that 'separate educational facilities are inherently unequal,' overturning school segregation</span></div><div class="opt"><span class="k">D</span><span>It applied only to colleges, not public schools</span></div>
+          <div class="ans"><b>Answer: C.</b> DOK 3: Brown held that segregated schools violate the Equal Protection Clause because 'separate educational facilities are inherently unequal,' overturning the 'separate but equal' doctrine of Plessy v. Ferguson.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">6</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.27 &middot; EXPANDING RIGHTS</div><h2>Rights for the Underserved</h2></div>
+    <div class="r"><span class="chip">GC.27</span><span class="chip ssp">SSP.03</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can identify legislation and legal precedents that expanded rights for underserved groups, including Title IX and the ADA.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; PHOTO</div><div class="phttl">Japanese-American incarceration, Lodi CA (WRA)</div><div class="phsub">drop image: <code>GC.27_wra-incarceration-1942.jpg</code></div></div><div class="imgtext"><div class="imgcap">Dorothea Lange's 1942 photograph of Japanese-American incarceration — the Korematsu context and a warning about rights in wartime.</div><div class="imgquote">&ldquo;No person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any education program or activity receiving Federal financial assistance.&rdquo; <span class="qa">&mdash; U.S. Congress, Title IX, Education Amendments of 1972 (1972)</span></div><div class="imgcite">Japanese-American incarceration, Lodi CA (WRA) &middot; Dorothea Lange (WRA) (1942) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>A law barely two sentences long transformed school sports for millions of girls. What other laws quietly widened the circle of who counts as equal?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Title IX <span class="say">/TY-tul nine/</span></div>
+          <div class="ves">Título IX</div>
+          <div class="vdef">A 1972 federal law barring sex discrimination in any education program that receives federal funds — landmark for equal opportunity, including in school athletics.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">What does Title IX (1972) prohibit?</div>
+          <div class="opt key"><span class="k">A &check;</span><span>Discrimination based on sex in federally funded education programs</span></div><div class="opt"><span class="k">B</span><span>All private-school tuition</span></div><div class="opt"><span class="k">C</span><span>The teaching of history</span></div><div class="opt"><span class="k">D</span><span>Voting by people under 21</span></div>
+          <div class="ans"><b>Answer: A.</b> DOK 2: Title IX bars sex discrimination in any education program or activity that receives federal funds — a landmark for equal opportunity, including in school sports.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">7</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; Multiple Perspectives</div><h2>Whose Liberty? Perspectives on Rights</h2></div>
+    <div class="r"><span class="chip ssp">SSP.03</span></div></div>
+  <div class="persp"><div class="p"><h3>The Individual vs. the State</h3><p>Nearly every case here pits one person's liberty — to speak, protest, worship, remain silent, or be treated equally — against a government's claim of order or authority (GC.23–GC.26).</p></div><div class="p"><h3>Incorporation</h3><p>Through the 14th Amendment, the Supreme Court gradually applied the Bill of Rights to the states, so protections once binding only the federal government now bind all governments (GC.26).</p></div><div class="p"><h3>The Expanding Circle</h3><p>Legislation and rulings extended rights to groups long left out — by race, sex, and disability — through Brown, Title IX, the ADA, and more (GC.26, GC.27).</p></div><div class="p"><h3>Security vs. Liberty</h3><p>Cases from Schenck to Korematsu show the Court sometimes narrowing rights in the name of security — a tension every generation revisits (GC.23, GC.27).</p></div></div>
+  <div class="tnotes"><b>Why it matters</b><span>This section traces how the meaning of the Bill of Rights has been fought over case by case — expanded for some, contested by others, and applied to the states over time. It is Government Hack–authored instruct</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">8</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; TENNESSEE CONNECTION</div><h2>Our Signature Move</h2></div>
+    <div class="r"><span class="chip">&#9733; Tennessee</span></div></div>
+  <div class="tnbig"><div class="star">&#9733;</div><div class="t">One of the most famous civil-liberties trials in U.S. history happened in Tennessee. In State of Tennessee v. Scopes (1925), a Dayton teacher named John Scopes was tried under the Butler Act for teaching evolution — the first U.S. law to ban it. The ACLU defended the case as a fight for academic freedom and free speech; Scopes was convicted, but the Tennessee Supreme Court later reversed the conviction on a technicality (GC.23).</div></div>
+  <div class="tnotes"><b>Task</b><span>Tennessee was the stage for a landmark free-speech and academic-freedom fight. Investigate one right protected by the First Amendment and one way it is debated in schools today, and record what you find with a source.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">9</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 6 &middot; Make It Stick</div><h2>Predict &middot; Play &middot; Spiral</h2></div>
+    <div class="r"><span class="chip">UDL &middot; MTSS</span></div></div>
+  <div class="persp">
+    <div class="p" style="border-top-color:var(--gold)"><h3>Predict First &mdash; open the unit</h3><p>Predict first: Should a student have the same free-speech rights at school as an adult on the street? Write your gut answer now — you'll test it against Tinker v. Des Moines and the 'schoolhouse gate.'</p></div>
+    <div class="p"><h3>Warm-Up Play &mdash; You Be the Court</h3><p>4-minute game (GC.23–GC.26). Read a one-line scenario — a silent armband protest, a school-led prayer, an illegal search, a suspect never told their rights — and call which amendment protects it and which landmark case decided it. Students feel how the Bill of Rights lives in real disputes.</p></div>
+    <div class="p" style="border-top-color:var(--navy)"><h3>Spiral &mdash; retrieve &amp; connect</h3><p style="font-size:10.5pt"><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.23 &rarr; Unit 1 (GC.08, the Bill of Rights)</b><br>Every case here interprets an amendment you first met in Foundations — the Bill of Rights, now in the courtroom.</div><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.26 &rarr; Unit 3 (GC.11, Baker v. Carr)</b><br>The 14th Amendment's Equal Protection Clause powered both Baker v. Carr and Brown — the same clause, different fights.</div><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.25 &rarr; Unit 5 (GC.21, judicial review)</b><br>The Court can protect your rights against a law only because Marbury gave it judicial review — retrieve it from Unit 5.</div></p></div>
+    <div class="p" style="border-top-color:var(--gold)"><h3>Rights Debate</h3><p><ul style="margin-left:15px"><li>Name the amendment and the case before you argue.</li><li>Steelman the other side's liberty claim first.</li><li>Disagree with the reasoning, not the classmate.</li><li>One voice at a time; make room for the quiet voice.</li></ul></p></div>
+  </div>
+  <div class="tnotes"><b>Why it's here</b><span>These are the built-in UDL 3.0 moves — a belief-check (9.1), on-standard play (7.3), cross-unit spiral (3.4), and conversation norms (9.4). Use them; they make the unit stick.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">10</div></div><div class="slide close">
+  <div class="close-inner" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;height:100%;padding:0 90px">
+  <h1>Revisit the Essential Question</h1>
+  <div class="rule"></div>
+  <p>&ldquo;How do the courts decide where your rights end and the government's power begins?&rdquo;</p>
+  <p style="margin-top:14px;font-size:13pt">Students now have the sources, vocabulary, and reasoning to answer it &mdash; in a CER paragraph or the unit DBQ.</p>
+  <div class="stds">GC.23 &middot; GC.24 &middot; GC.25 &middot; GC.26 &middot; GC.27</div></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">11</div></div>
+</body></html>
