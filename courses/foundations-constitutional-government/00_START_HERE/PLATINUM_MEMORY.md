@@ -43,7 +43,8 @@ auth{close, tdq[3], frayer[2], quiz[1], cer} · std_source · target · criteria
 - Assessment items disclose "classroom-formative · pre-field-test."
 - Theme: "Teachers power our progress, not technology." SAMR honesty (print when print is best).
 - Nothing claims state/waiver approval where external review is pending.
-- **TCA legally-required flag** on GC.08 (§49-6-1028) and the T/TCA-tagged GC.11, GC.14, GC.23–GC.27.
+- **TCA legally-required flag: GC.08 only** (T.C.A. § 49-6-1028), per the authoritative source. Other (T) tags = Tennessee *dimension*, not a legal mandate. Course-level compliance also cites T.C.A. §§ 49-6-1011, 49-6-1014 (Freedom Week) and 36 U.S. Code § 106.
+- **Never print "WCS"**: the "I can" targets come from the WCS instructional-guide column and WCS-local references (e.g., "Williamson County" in GC.29) — carry the target text, never the WCS label, and generalize local references on student-facing surfaces.
 
 ## preflight.py — 11 release checks (must pass before packaging)
 standards verbatim · no answer leak (student side) · de-biased keys · citations + alt text ·
@@ -61,7 +62,7 @@ SSP/dimension crosswalks present · pre-field-test disclosure · **no "WCS"** ·
 Register "government" as an entitlement-gated course mirroring U.S. History:
 product-edition registry + capability/entitlement; canonical banks
 `public/data/government/primary-sources/…` and `…/questions/unit-<N>/dok-<1..4>.json`;
-`lib/units` (5 GC units), `government-standards`, `lib/question-data`, cornell-notes, vocabulary, spiral, trivia;
+`lib/units` (**7 GC units**), `government-standards`, `lib/question-data`, cornell-notes, vocabulary, spiral, trivia;
 wire `app/[subject]/…` routes for "government"; keep route-isolation + CI isolation assertion green;
 non-core features behind `lib/feature-flags/optional-features.ts`. See `HistoryHack_Platinum/WEBAPP_LIBRARY_EXTENSION_SPEC.md`.
 

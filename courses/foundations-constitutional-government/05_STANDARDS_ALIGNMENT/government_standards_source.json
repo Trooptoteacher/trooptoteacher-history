@@ -1,12 +1,26 @@
 {
-  "_source": "Tennessee Academic Standards for Social Studies — United States Government and Civics (GC). AWAITING verbatim capture from official TDOE source (egress-blocked in this session; author to paste).",
-  "_rule": "The 'standard' field MUST be the VERBATIM official Tennessee GC standard. Never paraphrase, shorten, or invent. Dimension tags (C,E,G,P,H,T,TCA) and TCA citations are part of the standard. 'ican' derives from the verbatim standard (as in the US-History source).",
-  "_status": "SCAFFOLD — standard/ican/dimensions fields are empty pending verbatim TDOE text. titles are editorial working titles from the course brief and must be confirmed against the official text.",
-  "_course": "Foundations of Constitutional Government (TN GC, grades 9–12; supplemental under TCA §49-6-2202(a)(3))",
+  "_source": "2025-2026, HS, United States Government and Civics (Tennessee Academic Standards for Social Studies; instructional guide learning targets). Provenance: author's Google Drive 'Standards & I Can' — '2025-2026, HS, United States Government and Civics (1).docx' (fileId 1WTwNJjiV_pyUWjh5VzlzFRm73OZi_206, modified 2026-03-23) + 'TN Social Studies Practices.pdf' (fileId 13NfaGvSbNqO7uoXyFs6EK1etaNAvJ3Xy). Verbatim TN State Standards column; learning targets from the instructional guide right column.",
+  "_rule": "The 'standard' field is the VERBATIM official Tennessee GC standard. The 'ican' field is the verbatim instructional-guide learning target. Never paraphrase, shorten, invent, or print 'WCS'. Dimension tags (C,E,G,H,P,T,TCA) and TCA citations are part of the standard.",
+  "_dimension_legend": "C=Culture, E=Economics, G=Geography, H=History, P=Politics/Government, T=Tennessee, TCA=Tennessee Code Annotated (legally required to be taught).",
+  "_course": {
+    "name": "Foundations of Constitutional Government",
+    "official": "United States Government and Civics (GC)",
+    "grades": "9-12",
+    "status": "Supplemental instructional materials under TCA § 49-6-2202(a)(3). Not a claim of state/waiver approval.",
+    "compliance": [
+      "T.C.A. § 49-6-1028",
+      "T.C.A. § 49-6-1011",
+      "Freedom Week TCA § 49-6-1014",
+      "Federal Mandate 36 U.S. Code § 106"
+    ],
+    "legally_required_TCA_standards": [
+      "GC.08"
+    ]
+  },
   "_units": {
     "1": {
       "title": "Foundations of Constitutional Government",
-      "essential_question": "How and why did the Founders build a limited constitutional republic?",
+      "quarter": 1,
       "standards": [
         "GC.01",
         "GC.02",
@@ -20,9 +34,20 @@
       ]
     },
     "2": {
-      "title": "The Legislative Branch",
-      "essential_question": "How does Article I make Congress both powerful and accountable?",
+      "title": "Citizen Participation",
+      "quarter": 1,
       "standards": [
+        "GC.31",
+        "GC.32",
+        "GC.33",
+        "GC.34"
+      ]
+    },
+    "3": {
+      "title": "Legislative Branch",
+      "quarter": 1,
+      "standards": [
+        "GC.35",
         "GC.10",
         "GC.11",
         "GC.12",
@@ -31,18 +56,18 @@
         "GC.15"
       ]
     },
-    "3": {
-      "title": "The Executive Branch",
-      "essential_question": "What are the powers and limits of the presidency?",
+    "4": {
+      "title": "Executive Branch",
+      "quarter": 2,
       "standards": [
         "GC.16",
         "GC.17",
         "GC.18"
       ]
     },
-    "4": {
-      "title": "The Judicial Branch",
-      "essential_question": "How did the courts gain the power to say what the Constitution means?",
+    "5": {
+      "title": "Judicial Branch",
+      "quarter": 2,
       "standards": [
         "GC.19",
         "GC.20",
@@ -50,9 +75,9 @@
         "GC.22"
       ]
     },
-    "5": {
+    "6": {
       "title": "Civil Liberties",
-      "essential_question": "How do the Bill of Rights and the 14th Amendment protect individual liberty?",
+      "quarter": 2,
       "standards": [
         "GC.23",
         "GC.24",
@@ -60,281 +85,426 @@
         "GC.26",
         "GC.27"
       ]
+    },
+    "7": {
+      "title": "Tennessee State and Local Government",
+      "quarter": 2,
+      "standards": [
+        "GC.28",
+        "GC.29",
+        "GC.30"
+      ]
     }
   },
   "_practices_SSP": {
     "SSP.01": {
-      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
-      "standard": "",
-      "ican": ""
+      "standard": "Collect data and information from a variety of primary and secondary sources, including: printed materials (e.g., literary texts, newspapers, autobiographies, speeches, interviews, letters, personal journals); graphic representations (e.g., maps, timelines, charts, political cartoons, photographs, artwork); field observations/landscape analysis; artifacts; media and technology sources.",
+      "role": "disciplinary-skills spine (inquiry cycle; SOAPS/HIPP analog)"
     },
     "SSP.02": {
-      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
-      "standard": "",
-      "ican": ""
+      "standard": "Critically examine a primary or secondary source in order to: extract and paraphrase significant ideas; discern differences between evidence and assertion; draw inferences and conclusions; recognize author’s purpose, point of view, and potential bias; assess the strengths and limitations of arguments.",
+      "role": "disciplinary-skills spine (inquiry cycle; SOAPS/HIPP analog)"
     },
     "SSP.03": {
-      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
-      "standard": "",
-      "ican": ""
+      "standard": "Synthesize data from a variety of sources in order to: establish accuracy and validity by comparing sources to each other; recognize disparities among multiple accounts; frame appropriate questions for further investigation.",
+      "role": "disciplinary-skills spine (inquiry cycle; SOAPS/HIPP analog)"
     },
     "SSP.04": {
-      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
-      "standard": "",
-      "ican": ""
+      "standard": "Construct and communicate arguments citing supporting evidence to: demonstrate and defend an understanding of ideas; compare and contrast viewpoints; illustrate cause and effect; predict likely outcomes; devise new outcomes or solutions.",
+      "role": "disciplinary-skills spine (inquiry cycle; SOAPS/HIPP analog)"
     },
     "SSP.05": {
-      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
-      "standard": "",
-      "ican": ""
+      "standard": "Develop historical awareness by: recognizing how and why historical accounts change over time; perceiving and presenting past events and issues as they might have been experienced by the people of the time, with historical empathy rather than present-mindedness; evaluating how unique circumstances of time and place create context and contribute to action and reaction; identifying patterns of continuity and change over time, making connections to the present.",
+      "role": "disciplinary-skills spine (inquiry cycle; SOAPS/HIPP analog)"
     },
     "SSP.06": {
-      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
-      "standard": "",
-      "ican": ""
+      "standard": "Develop geographic awareness by: using the geographic perspective to analyze relationships, patterns, and diffusion across space at multiple scales (e.g., local, national, global); analyzing and determining the use of diverse types of maps based on the origin, authority, structure, context, and validity; analyzing locations, conditions, and connections of places and using maps to investigate spatial associations among phenomena; examining how geographers use regions and how perceptions of regions are fluid across time and space; analyzing interaction between humans and the physical environment.",
+      "role": "disciplinary-skills spine (inquiry cycle; SOAPS/HIPP analog)"
     }
   },
   "GC.01": {
     "title": "Enlightenment roots of American government",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "standard": "Examine the influences of leading European thinkers (e.g., John Locke, Charles-Louis Montesquieu, Thomas Hobbes) and other roots of American government (e.g., Greek democracy, Roman Republic, Magna Carta).",
+    "ican": "Read and understand primary source documents (particularly John Locke’s and Jean Jacques Rousseau’s writings) that the Framers used as references in creating the American political system. Explain the Social Contract Theory and make a connection between it and the overall purpose of government, particularly, the U.S. Government.",
+    "dimensions": "(C, E)",
     "tca": "",
     "legally_required": false,
-    "unit": 1
+    "unit": 1,
+    "unit_title": "Foundations of Constitutional Government",
+    "quarter": 1
   },
   "GC.02": {
     "title": "Declaration of Independence",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "standard": "Examine the Declaration of Independence and American grievances against British rule.",
+    "ican": "Cite evidence from the Magna Carta, Petition of Right, and English Bill of Rights and explain how the British government violated the rights of American colonists and how this led to the Declaration of Independence.",
+    "dimensions": "(H)",
     "tca": "",
     "legally_required": false,
-    "unit": 1
+    "unit": 1,
+    "unit_title": "Foundations of Constitutional Government",
+    "quarter": 1
   },
   "GC.03": {
     "title": "Articles of Confederation",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "standard": "Identify the strengths and weaknesses of the Articles of Confederation.",
+    "ican": "Define confederation. Explain the structure of government and weaknesses the United States faced under the Articles of Confederation.",
+    "dimensions": "(H)",
     "tca": "",
     "legally_required": false,
-    "unit": 1
+    "unit": 1,
+    "unit_title": "Foundations of Constitutional Government",
+    "quarter": 1
   },
   "GC.04": {
-    "title": "1787 Convention & the Great Compromise",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "title": "Constitutional Convention of 1787",
+    "standard": "Discuss the Constitutional Convention of 1787, including the Great Compromise and the ensuing debate over ratification between the Federalists and Anti-Federalists.",
+    "ican": "Explain why the Founding Fathers set up our government as they did, explaining differences between the Articles of Confederation and the U.S. Constitution. Explain the details of the Virginia Plan and New Jersey Plan and what led to the Great Compromise. Explain the distinct positions of the Federalists and Anti-Federalists, including views on government power, key political figures, and economic interests. Honors: Cite evidence from the Federalist and Anti-Federalist papers concerning the fight over ratification.",
+    "dimensions": "(H)",
     "tca": "",
     "legally_required": false,
-    "unit": 1
+    "unit": 1,
+    "unit_title": "Foundations of Constitutional Government",
+    "quarter": 1
   },
   "GC.05": {
-    "title": "Federalists vs. Anti-Federalists / Federalist Papers",
-    "standard": "",
-    "ican": "",
+    "title": "Preamble: purposes and functions of government",
+    "standard": "Describe the purposes and functions of government as outlined in the Preamble of the Constitution.",
+    "ican": "Define and supply examples for each of the six basic principles of the U.S. Constitution, including: checks and balances, separation of powers, limited government, federalism, judicial review, popular sovereignty.",
     "dimensions": "",
     "tca": "",
     "legally_required": false,
-    "unit": 1
+    "unit": 1,
+    "unit_title": "Foundations of Constitutional Government",
+    "quarter": 1
   },
   "GC.06": {
-    "title": "Preamble & purposes of government",
-    "standard": "",
-    "ican": "",
+    "title": "Limited government principles",
+    "standard": "Describe limited government within the Constitution, including: checks and balances; civilian control of the military; federalism; judicial review; popular sovereignty; rule of law; separation of powers.",
+    "ican": "Define judicial review and explain how Marbury v. Madison established it. Define rule of law. Define federalism and explain how it relates to concurrent, enumerated (delegated), and reserved powers as well as plot the powers on a Venn Diagram. Explain how checks and balances, civilian control of the military, federalism, judicial review, popular sovereignty, rule of law, and separation of powers limits the power of government. Honors: analyze and cite evidence from Federalist 51 concerning checks and balances.",
     "dimensions": "",
     "tca": "",
     "legally_required": false,
-    "unit": 1
+    "unit": 1,
+    "unit_title": "Foundations of Constitutional Government",
+    "quarter": 1
   },
   "GC.07": {
-    "title": "Principles of limited government",
-    "standard": "",
-    "ican": "",
+    "title": "Structure of the Constitution & amendment process",
+    "standard": "Describe the structure of the Constitution and the process to amend it.",
+    "ican": "Summarize the seven articles of the U.S. Constitution. Explain the two methods of proposing constitutional amendments from Article V of the U.S. Constitution and why the Founding Fathers set it up this way, including: the difficult and lengthy process; emphasis on federalism; checks and balances between states and the federal government.",
     "dimensions": "",
     "tca": "",
     "legally_required": false,
-    "unit": 1
+    "unit": 1,
+    "unit_title": "Foundations of Constitutional Government",
+    "quarter": 1
   },
   "GC.08": {
-    "title": "Structure & the amendment process; Bill of Rights",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "title": "Bill of Rights",
+    "standard": "Analyze how the Bill of Rights limits the powers of the government and ensures individual rights.",
+    "ican": "Summarize the first eight Amendments and explain the personal protections they guarantee for citizens. Explain the relationship between the 9th and 10th Amendments and federalism. Using examples, explain the relationship between national and state governments, emphasizing how and why conflicts arise in a federalist system and how they are resolved with the Supremacy Clause and checks and balances.",
+    "dimensions": "(C)",
     "tca": "(T.C.A. § 49-6-1028)",
     "legally_required": true,
-    "unit": 1
+    "unit": 1,
+    "unit_title": "Foundations of Constitutional Government",
+    "quarter": 1
   },
   "GC.09": {
     "title": "Democracy vs. republic",
-    "standard": "",
-    "ican": "",
+    "standard": "Define the concepts of democracy and republic and examine the relationship between the two.",
+    "ican": "Explain the difference between a “constitutional republic” and a “constitutional democracy,” give an example of each. Find current events showing evidence of government limitations. Honors: Cite examples of unitary, federal, and confederate government and explain how the United States relates to all three.",
     "dimensions": "",
     "tca": "",
     "legally_required": false,
-    "unit": 1
+    "unit": 1,
+    "unit_title": "Foundations of Constitutional Government",
+    "quarter": 1
+  },
+  "GC.31": {
+    "title": "Responsibilities of citizens",
+    "standard": "Describe what should be reasonably expected from any citizen or resident of the U.S., and explain why it is important for the well-being of the nation, including: being informed on civic issues; obeying the law; paying taxes; respecting the rights of others; serving as a juror; serving in the military or alternative service; volunteering and performing public service; voting.",
+    "ican": "Name the responsibilities of citizens including obeying the law, serving jury duty, and paying taxes. List various methods of communication used by public officials to connect to the public. List local requirements to serve on a jury and voting requirements, including establishing state citizenship. Describe the impact of voting and not voting.",
+    "dimensions": "(C, T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 2,
+    "unit_title": "Citizen Participation",
+    "quarter": 1
+  },
+  "GC.32": {
+    "title": "Political parties & the nomination process",
+    "standard": "Explain the role of political parties in the nomination process for presidential candidates and the importance of and difference between primaries, caucuses, and general elections.",
+    "ican": "Explain how the United States developed into a two-party system and what factors continue to promote it. Define caucus (both Republican and Democratic), the two types of direct primaries (open and closed), and general elections and explain the difference.",
+    "dimensions": "(T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 2,
+    "unit_title": "Citizen Participation",
+    "quarter": 1
+  },
+  "GC.33": {
+    "title": "Role of the media & public opinion",
+    "standard": "Describe the role of the media as a means of communicating information and how it influences the importance of issues and public opinion.",
+    "ican": "Describe how public opinion polls affect an individual’s voting behavior. Describe methods used in constructing public opinion polls and how the wording can affect poll results and voter behavior/response. Define media bias and cite textual examples to explain how the media influences public opinion about government and politics. List the means of political participation in the political process, emphasizing voting and recent voter behavior and turnout.",
+    "dimensions": "(T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 2,
+    "unit_title": "Citizen Participation",
+    "quarter": 1
+  },
+  "GC.34": {
+    "title": "Means of political participation",
+    "standard": "Describe the means that citizens use to participate in the political process, including: campaigning; demonstrating; lobbying; petitioning; running for office; voting.",
+    "ican": "List ways citizens take part in government through petitions, protesting, and speaking at council meetings. Define initiative, referendum, and recall elections and explain how and why they help to increase political participation and voter turnout. Honors: explain how a person’s political party affiliation is linked to certain social, economic, etc. indicators and how those patterns change over time.",
+    "dimensions": "(T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 2,
+    "unit_title": "Citizen Participation",
+    "quarter": 1
+  },
+  "GC.35": {
+    "title": "Citizenship & naturalization",
+    "standard": "Explain the requirements to be considered a natural-born U.S. citizen, and describe the process of naturalization, including the knowledge required by the Naturalization Test.",
+    "ican": "Identify the right of Congress to create rules on naturalization and explain the process of becoming a naturalized citizen. Honors: answer the 100 question Naturalization Test as group work or individually and discuss your opinion of its validity.",
+    "dimensions": "(T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 3,
+    "unit_title": "Legislative Branch",
+    "quarter": 1
   },
   "GC.10": {
-    "title": "Article I — structure of Congress & the 17th Amendment",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "title": "Article I & the 17th Amendment",
+    "standard": "Analyze Article I and the 17th Amendment of the Constitution as they relate to the legislative branch, including eligibility for office, roles, length of terms, and election to office for representatives and senators, respectively.",
+    "ican": "List the constitutional qualifications to serve in the House of Representatives and Senate and terms in office and the role of the Vice-President. List informal qualifications for members of Congress. Explain the significance of the 17th amendment. Identify the length of a House of Representatives and Senators term, and a session and term of Congress.",
+    "dimensions": "(H)",
     "tca": "",
     "legally_required": false,
-    "unit": 2
+    "unit": 3,
+    "unit_title": "Legislative Branch",
+    "quarter": 1
   },
   "GC.11": {
     "title": "Census, redistricting & Baker v. Carr",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "standard": "Describe the census and its role in redistricting and reapportionment, including the role of Baker v. Carr.",
+    "ican": "Explain the Supreme Court decision of Baker v. Carr and its role in the redistricting process. Explain the constitutional reason the government takes a census every ten years and how that census leads to reapportionment, redistricting, and gerrymandering. Evaluate how population shifts affect congressional representation.",
+    "dimensions": "(T)",
     "tca": "",
-    "legally_required": true,
-    "unit": 2
+    "legally_required": false,
+    "unit": 3,
+    "unit_title": "Legislative Branch",
+    "quarter": 1
   },
   "GC.12": {
-    "title": "Congressional leadership",
-    "standard": "",
-    "ican": "",
+    "title": "Legislative leadership positions",
+    "standard": "Identify leadership positions of the legislative branch, including: Majority and Minority leaders; President pro tempore; role of the vice president; Speaker of the House.",
+    "ican": "Create a chart of Congressional leadership in both houses and explain the selection process for their respective positions.",
     "dimensions": "",
     "tca": "",
     "legally_required": false,
-    "unit": 2
+    "unit": 3,
+    "unit_title": "Legislative Branch",
+    "quarter": 1
   },
   "GC.13": {
-    "title": "How a bill becomes law",
-    "standard": "",
-    "ican": "",
+    "title": "How a bill becomes a law",
+    "standard": "Describe the process of how a bill becomes a law.",
+    "ican": "Create a flow chart of how a bill becomes a law, including the steps a bill takes through both houses of Congress and the differences between the process in the House and the Senate including House Rules Committee, filibuster, and cloture.",
     "dimensions": "",
     "tca": "",
     "legally_required": false,
-    "unit": 2
+    "unit": 3,
+    "unit_title": "Legislative Branch",
+    "quarter": 1
   },
   "GC.14": {
-    "title": "The Tennessee delegation",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "title": "Tennessee’s congressional delegation",
+    "standard": "Identify the Tennessee representatives and senators to the U.S. Congress.",
+    "ican": "Name my current Representative for my district and the current U.S. Senators.",
+    "dimensions": "(T)",
     "tca": "",
-    "legally_required": true,
-    "unit": 2
+    "legally_required": false,
+    "unit": 3,
+    "unit_title": "Legislative Branch",
+    "quarter": 1
   },
   "GC.15": {
-    "title": "Powers of Congress incl. necessary-and-proper",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "title": "Powers of Congress",
+    "standard": "Describe the powers of U.S. Congress, including: appropriations; commerce; confirmations; declaration of war; implied powers; Necessary and proper clause.",
+    "ican": "List and give historic examples of the enumerated powers of Congress, including the power to: impeach, tax, borrow, issue copyrights and patents. Explain Congress’ role in the budget making process and name the most significant federal taxes collected today. Describe federal borrowing. Explain the Commerce Clause and list historical examples of expansion and retraction over time. Explain the relationship between Congress and the President regarding foreign policy and why the U.S. Constitution is set up that way. List the offices that the Senate confirms and their role in Presidential confirmations. Define implied powers and explain its significance with the Necessary and Proper clause. Explain why the Necessary and Proper clause is also known as the Elastic Clause and cite examples. Explain the outcome of McCulloch v. Maryland as it relates to the Supremacy Clause. Honors: Define and explain senatorial courtesy.",
+    "dimensions": "(H)",
     "tca": "",
     "legally_required": false,
-    "unit": 2
+    "unit": 3,
+    "unit_title": "Legislative Branch",
+    "quarter": 1
   },
   "GC.16": {
-    "title": "Article II — the executive",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "title": "Article II & the executive",
+    "standard": "Analyze Article II of the U.S. Constitution as it relates to the executive branch, including: appointments; Commander-in-chief of the military; eligibility for office; executive orders; length of term (22nd Amendment); oath of office; powers of the president; succession (25th Amendment); treaties.",
+    "ican": "Explain the process of presidential appointments and name the various positions to be filled. Explain the significance of a civilian leader of the military and the impact of the War Powers Act of 1973. List and explain reasons why presidential powers have expanded by using textual evidence for support from historical examples. List the formal qualifications to serve as President. Explain the historical reasoning behind the 22nd Amendment. Describe the primary duties and powers of the Executive Branch as outlined in Article II of the U.S. Constitution. Identify the eight official and unofficial roles of the President including; Commander-in-Chief, Chief of State, Chief Executive, Chief Diplomat, Chief Administrator, Chief Legislator, Chief Citizen, and Chief of Party. List and define the enumerated executive powers. Explain the significance of presidential succession and disability based on the 25th amendment. Create a chart of presidential succession and cite historical examples. Describe methods presidents use to influence events outside of the United States, including treaties, diplomacy, and military force. Honors: Research the use of executive orders and present findings and compare how presidents have used over time.",
+    "dimensions": "(H)",
     "tca": "",
     "legally_required": false,
-    "unit": 3
+    "unit": 4,
+    "unit_title": "Executive Branch",
+    "quarter": 2
   },
   "GC.17": {
-    "title": "22nd & 25th Amendments; executive departments",
-    "standard": "",
-    "ican": "",
+    "title": "Departments of the executive branch",
+    "standard": "Identify major departments of the executive branch, including: Defense; Education; Justice; State; Treasury.",
+    "ican": "List and describe the duties of the agencies used by the president in the executive branch. Identify historical policy changes in the major departments of the executive branch. Explain the relationship between the bureaucracy, standing committees, and interest groups and why people use the term “iron triangle” when referring to them.",
     "dimensions": "",
     "tca": "",
     "legally_required": false,
-    "unit": 3
+    "unit": 4,
+    "unit_title": "Executive Branch",
+    "quarter": 2
   },
   "GC.18": {
-    "title": "The Electoral College debate",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "title": "The Electoral College",
+    "standard": "Explain the Electoral College system and compare and contrast arguments for and against it.",
+    "ican": "Explain how each state’s number of Electoral College electors is determined and explain the reasoning behind the establishment of the Electoral College including: maintaining federalism; encourage national campaigns; prevent system fraud; prevent majority-rule tyranny. Explain how population shifts affect presidential elections and electoral votes. Explain how the President is selected when there is no candidate with a majority of electoral votes. Honors: Compare arguments for and against the Electoral College and analyze and explain potential reforms, e.g., direct election, proportional allocation, congressional districts, and the National Popular Vote Interstate Compact.",
+    "dimensions": "(G, H)",
     "tca": "",
     "legally_required": false,
-    "unit": 3
+    "unit": 4,
+    "unit_title": "Executive Branch",
+    "quarter": 2
   },
   "GC.19": {
-    "title": "Article III — the judiciary",
-    "standard": "",
-    "ican": "",
+    "title": "Article III & judicial power",
+    "standard": "Analyze Article III of the U.S. Constitution as it relates to judicial power, including the length of terms and the jurisdiction of the U.S. Supreme Court.",
+    "ican": "Describe the primary duties and power of the Judicial Branch as outlined in Article III of the U.S. Constitution. Explain the process to remove a Supreme Court justice and historically analyze its relevance.",
     "dimensions": "",
     "tca": "",
     "legally_required": false,
-    "unit": 4
+    "unit": 5,
+    "unit_title": "Judicial Branch",
+    "quarter": 2
   },
   "GC.20": {
-    "title": "Selection & confirmation of judges",
-    "standard": "",
-    "ican": "",
+    "title": "Selection & confirmation of justices",
+    "standard": "Explain the processes of selection and confirmation of Supreme Court justices.",
+    "ican": "Explain why the president nominates Supreme Court Justices and why the Senate confirms the nominations by 2/3rds of the Senators.",
     "dimensions": "",
     "tca": "",
     "legally_required": false,
-    "unit": 4
+    "unit": 5,
+    "unit_title": "Judicial Branch",
+    "quarter": 2
   },
   "GC.21": {
-    "title": "Marbury v. Madison & judicial review",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "title": "Judicial review & Marbury v. Madison",
+    "standard": "Explain the process of judicial review established by Marbury v. Madison.",
+    "ican": "Define judicial review. Give historical examples of relevant cases including Marbury v. Madison.",
+    "dimensions": "(H, T)",
     "tca": "",
     "legally_required": false,
-    "unit": 4
+    "unit": 5,
+    "unit_title": "Judicial Branch",
+    "quarter": 2
   },
   "GC.22": {
-    "title": "Constitutionality of laws & acts",
-    "standard": "",
-    "ican": "",
+    "title": "Constitutionality of laws and acts",
+    "standard": "Describe the Supreme Court’s role in determining the constitutionality of laws and acts of the legislative and executive branches.",
+    "ican": "List the various courts in the federal court system, including district courts, courts of appeals, and the Supreme Court and outline the process a case takes from its introduction to its final appeal. Define terms related to getting the Supreme Court to take a case, including “rule of four” and “writ of certiorari.” Define constitutional interpretation. Define judicial activism and judicial restraint. Identify verdicts which demonstrate judicial activism and judicial restraint with evidence to support that opinion. Honors: Compose a paragraph with supporting details and court case examples arguing either for judicial activism (the U.S. Constitution is a “living document”) or for judicial restraint (it is to be interpreted by the “original intent” of the Founding Fathers). Honors: Identify the significance of the Warren, Burger, Rehnquist, and Roberts courts.",
+    "dimensions": "(T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 5,
+    "unit_title": "Judicial Branch",
+    "quarter": 2
+  },
+  "GC.23": {
+    "title": "First Amendment interpretations",
+    "standard": "Evaluate the Supreme Court’s interpretations of the freedoms articulated in the 1st Amendment, including: Schenck v. United States; Engel v. Vitale; Tinker v. Des Moines; Lemon v. Kurtzman; New York Times v. United States; Miller v. California; Texas v. Johnson.",
+    "ican": "Explain the controversies resulting over the interpretations of civil liberties in speech, press, and the rights of students. Explain the concept of “clear and present danger” and how it applies to the 1st Amendment. Reference the 1st Amendment right of freedom of religion to explain the Establishment Clause and the Free Exercise Clause and how their interpretations have changed over time, including the Lemon Test.",
+    "dimensions": "(H, T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 6,
+    "unit_title": "Civil Liberties",
+    "quarter": 2
+  },
+  "GC.24": {
+    "title": "Second Amendment interpretations",
+    "standard": "Explain the 2nd Amendment and evaluate its various interpretations.",
+    "ican": "Analyze the cases of Heller v. District of Columbia and McDonald v. Chicago and their effect on the 2nd Amendment and the states. Honors: Cite examples of different state laws concerning the 2nd amendment.",
+    "dimensions": "(T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 6,
+    "unit_title": "Civil Liberties",
+    "quarter": 2
+  },
+  "GC.25": {
+    "title": "Fourth–Eighth Amendment interpretations",
+    "standard": "Evaluate the Supreme Court’s interpretations of freedoms in the 4th through 8th Amendments, including: Mapp v. Ohio; Gideon v. Wainwright; Miranda v. Arizona.",
+    "ican": "Use landmark cases to explain the reasoning for government limits to protect individual liberties involving: search and seizure; right to an attorney; right to remain silent as guaranteed in the Bill of Rights.",
+    "dimensions": "(H, T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 6,
+    "unit_title": "Civil Liberties",
+    "quarter": 2
+  },
+  "GC.26": {
+    "title": "14th Amendment: equal protection & due process",
+    "standard": "Evaluate the Supreme Court’s interpretations of the freedoms in the 14th Amendment, equal protection, and due process clauses, including: Plessy v. Ferguson; Gitlow v. New York; Brown v. Board of Education; Obergefell v. Hodges.",
+    "ican": "Explain incorporation doctrine. Articulate with textual evidence the interpretations of the basic freedoms in the 1st Amendment and the due process and equal protection of the law clauses of the 14th Amendment using landmark Supreme Court decisions.",
     "dimensions": "",
     "tca": "",
     "legally_required": false,
-    "unit": 4
-  },
-  "GC.23": {
-    "title": "First Amendment cases",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
-    "tca": "",
-    "legally_required": true,
-    "unit": 5
-  },
-  "GC.24": {
-    "title": "Second Amendment",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
-    "tca": "",
-    "legally_required": true,
-    "unit": 5
-  },
-  "GC.25": {
-    "title": "Fourth–Eighth Amendments (Mapp, Gideon, Miranda)",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
-    "tca": "",
-    "legally_required": true,
-    "unit": 5
-  },
-  "GC.26": {
-    "title": "14th Amendment — equal protection & due process (Plessy, Brown, Gitlow, Roe, Obergefell)",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
-    "tca": "",
-    "legally_required": true,
-    "unit": 5
+    "unit": 6,
+    "unit_title": "Civil Liberties",
+    "quarter": 2
   },
   "GC.27": {
-    "title": "Title IX & the ADA",
-    "standard": "",
-    "ican": "",
-    "dimensions": "",
+    "title": "Rights for the underserved: Title IX & ADA",
+    "standard": "Identify and explain legislation and legal precedents that established rights for the underserved, including Title IX and the Americans with Disabilities Act.",
+    "ican": "Identify the significance of the following in advancing the rights of minorities – disabled, Hispanics, and Asians including: Adarand Constructors v. Peña; Korematsu v. United States; Americans with Disabilities Act. Identify the role of the Women’s Rights Movement and analyze the proposed and resulting legislation and legal precedents, such as: the Equal Rights Amendment; Title IX; the Pay Equity Act.",
+    "dimensions": "(H, T)",
     "tca": "",
-    "legally_required": true,
-    "unit": 5
+    "legally_required": false,
+    "unit": 6,
+    "unit_title": "Civil Liberties",
+    "quarter": 2
+  },
+  "GC.28": {
+    "title": "Tennessee branches: departments & agencies",
+    "standard": "Identify the functions of departments and agencies of the executive, legislative, and judicial branches in the state of Tennessee.",
+    "ican": "List duties of agencies within the executive branch. Define citizen-legislature and identify Tennessee’s General Assembly as such and how the Constitution limits their “legislative days” and the balance between the grand divisions within the state. Explain the Tennessee Plan and how it affects the state court system, along with the difference between: Chancery courts; Criminal courts; Circuit courts. Name the current chief justice of the Tennessee State Supreme Court.",
+    "dimensions": "(T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 7,
+    "unit_title": "Tennessee State and Local Government",
+    "quarter": 2
+  },
+  "GC.29": {
+    "title": "Types of local government in Tennessee",
+    "standard": "Explain the differences among the types of local governments in Tennessee, including county, city, and metro governments, as well as the legal, fiscal, and operational relationships between them and the state government.",
+    "ican": "Define unitary government and show Tennessee as such. Define the structure of local governments including: the mayoral model; the commission model; the metro model. Describe specifically how the structures of local government relate to Williamson County. Write an opinion piece with supporting details to explain the specific ways individuals can best serve their communities and take part in the political process at the local, state, and national levels of government.",
+    "dimensions": "(T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 7,
+    "unit_title": "Tennessee State and Local Government",
+    "quarter": 2
+  },
+  "GC.30": {
+    "title": "Current TN governor & General Assembly",
+    "standard": "Identify the current governor of Tennessee and the representatives in the General Assembly.",
+    "ican": "Name the current Tennessee governor and the current Governor’s three main priorities. Name who currently represents you in the Tennessee Senate and House and your current senate and house voting district.",
+    "dimensions": "(T)",
+    "tca": "",
+    "legally_required": false,
+    "unit": 7,
+    "unit_title": "Tennessee State and Local Government",
+    "quarter": 2
   }
 }
