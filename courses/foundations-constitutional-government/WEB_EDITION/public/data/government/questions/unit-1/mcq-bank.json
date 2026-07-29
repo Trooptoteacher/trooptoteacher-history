@@ -1,0 +1,505 @@
+{
+  "_schema": "tn-assessment-specialist / tcap-item-writer-v2 item schema (adapted for the Government course: no US-History EOC, so reportingCategory=GC domain, tcapFormat=false, itemWritingCompliant flag). Full psychometric metadata: dok+blooms(+rationales), C3, SSP, distractor tags (PK/MC/PE/NE)+rationales, content tags, de-biased keys. Items are classroom-formative · pre-field-test.",
+  "subject": "government",
+  "unit": 1,
+  "count": 9,
+  "items": [
+    {
+      "id": "GC.01-U1Q01",
+      "standard": "GC.01",
+      "secondaryStandard": null,
+      "unit": 1,
+      "reportingCategory": "RC-GOV1: Foundations of Constitutional Government",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Requires interpreting which concept underlies self-government, not recalling a name.",
+      "bloomsRationale": "Student explains a relationship between an idea and a political outcome.",
+      "question": "Which idea from John Locke did the American colonists rely on most directly to justify self-government?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "Natural rights that government exists to protect",
+        "B": "The divine right of kings to rule alone",
+        "C": "The economic theory of laissez-faire markets",
+        "D": "The military duty of every free citizen"
+      },
+      "correctAnswer": "A",
+      "distractorTags": {
+        "A": null,
+        "B": "MC",
+        "C": "PK",
+        "D": "PE"
+      },
+      "distractorRationales": {
+        "A": "Correct — Locke's natural-rights/social-contract idea underlies self-government.",
+        "B": "Misconception — colonists rejected divine right; it is the opposite of Locke.",
+        "C": "Prior-knowledge error — laissez-faire is an economic idea, not Locke's rights theory.",
+        "D": "Plausible error — civic duty is real but not the Lockean basis for self-rule."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.02",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "C",
+        "E"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.01",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.01",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.01"
+      }
+    },
+    {
+      "id": "GC.02-U1Q02",
+      "standard": "GC.02",
+      "secondaryStandard": null,
+      "unit": 1,
+      "reportingCategory": "RC-GOV1: Foundations of Constitutional Government",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Requires explaining the document's argument structure, not recalling its date.",
+      "bloomsRationale": "Student explains how evidence supports a conclusion.",
+      "question": "How does the Declaration of Independence justify the colonies' break from Britain?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "By blaming the colonists for the whole conflict",
+        "B": "By listing the king's abuses of colonists' rights",
+        "C": "By promising to restore the monarchy's power",
+        "D": "By offering to pay Britain for its losses"
+      },
+      "correctAnswer": "B",
+      "distractorTags": {
+        "A": "PE",
+        "B": null,
+        "C": "MC",
+        "D": "NE"
+      },
+      "distractorRationales": {
+        "A": "Plausible error — the Declaration blames the king, not the colonists.",
+        "B": "Correct — grievances document the king's violations to justify separation.",
+        "C": "Misconception — it rejects monarchy rather than restoring it.",
+        "D": "Near miss — economics is not the Declaration's stated justification."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D3",
+      "sspAlignment": "SSP.02",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "H"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.02",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.02",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.02"
+      }
+    },
+    {
+      "id": "GC.03-U1Q03",
+      "standard": "GC.03",
+      "secondaryStandard": null,
+      "unit": 1,
+      "reportingCategory": "RC-GOV1: Foundations of Constitutional Government",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Requires identifying a structural weakness and its effect, not a single fact.",
+      "bloomsRationale": "Student explains cause and effect of a policy design.",
+      "question": "What was the main weakness of the national government under the Articles of Confederation?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "It gave the president too much military authority",
+        "B": "It abolished the separate state governments completely",
+        "C": "It could not tax the states or citizens",
+        "D": "It let one state pass laws by itself"
+      },
+      "correctAnswer": "C",
+      "distractorTags": {
+        "A": "MC",
+        "B": "MC",
+        "C": null,
+        "D": "PE"
+      },
+      "distractorRationales": {
+        "A": "Misconception — the Articles had no strong executive at all.",
+        "B": "Misconception — states kept their power; the center was weak.",
+        "C": "Correct — no taxing power left the government unable to pay debts.",
+        "D": "Plausible error — major laws needed nine of thirteen states, not one."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.05",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "H"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.03",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.03",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.03"
+      }
+    },
+    {
+      "id": "GC.04-U1Q04",
+      "standard": "GC.04",
+      "secondaryStandard": null,
+      "unit": 1,
+      "reportingCategory": "RC-GOV1: Foundations of Constitutional Government",
+      "dok": 3,
+      "blooms": "Analyze",
+      "dokRationale": "Requires analyzing how a compromise balanced competing interests.",
+      "bloomsRationale": "Student examines how a solution reconciles opposing positions.",
+      "question": "How did the Great Compromise resolve the dispute between large and small states?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "It gave each state a single equal vote in the Congress",
+        "B": "It removed the smallest states from the newly formed Union",
+        "C": "It let the very largest states control both of the houses",
+        "D": "It based the House on population and the Senate on equality"
+      },
+      "correctAnswer": "D",
+      "distractorTags": {
+        "A": "NE",
+        "B": "MC",
+        "C": "PE",
+        "D": null
+      },
+      "distractorRationales": {
+        "A": "Near miss — that describes the Articles, not the Great Compromise.",
+        "B": "Misconception — no states were removed; both were accommodated.",
+        "C": "Plausible error — the compromise checked large-state dominance.",
+        "D": "Correct — a population House plus an equal Senate reconciled both sides."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "H"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.04",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.04",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.04"
+      }
+    },
+    {
+      "id": "GC.05-U1Q05",
+      "standard": "GC.05",
+      "secondaryStandard": null,
+      "unit": 1,
+      "reportingCategory": "RC-GOV1: Foundations of Constitutional Government",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Requires interpreting the meaning of a phrase, not recalling it.",
+      "bloomsRationale": "Student explains the principle a phrase expresses.",
+      "question": "What does the phrase 'We the People' in the Preamble establish about government?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "That authority comes from the people themselves",
+        "B": "That the courts decide every national question",
+        "C": "That the president leads the federal government",
+        "D": "That the states hold all the governing power"
+      },
+      "correctAnswer": "A",
+      "distractorTags": {
+        "A": null,
+        "B": "PK",
+        "C": "PK",
+        "D": "NE"
+      },
+      "distractorRationales": {
+        "A": "Correct — 'We the People' declares popular sovereignty.",
+        "B": "Prior-knowledge error — that is judicial review, a different principle.",
+        "C": "Prior-knowledge error — that describes the executive, not popular sovereignty.",
+        "D": "Near miss — that is federalism, not the meaning of 'We the People.'"
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.02",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.05",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.05",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.05"
+      }
+    },
+    {
+      "id": "GC.06-U1Q06",
+      "standard": "GC.06",
+      "secondaryStandard": null,
+      "unit": 1,
+      "reportingCategory": "RC-GOV1: Foundations of Constitutional Government",
+      "dok": 3,
+      "blooms": "Analyze",
+      "dokRationale": "Requires connecting a quotation to a structural design, not recalling a term.",
+      "bloomsRationale": "Student analyzes how a design controls power.",
+      "question": "Madison wrote that 'ambition must be made to counteract ambition.' Which design does this describe?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "Popular sovereignty exercised through regular elections",
+        "B": "Checks and balances among the three branches",
+        "C": "Federal power divided between nation and states",
+        "D": "The difficult process for amending the document"
+      },
+      "correctAnswer": "B",
+      "distractorTags": {
+        "A": "PK",
+        "B": null,
+        "C": "NE",
+        "D": "PK"
+      },
+      "distractorRationales": {
+        "A": "Prior-knowledge error — that concerns the source of power, not checks.",
+        "B": "Correct — branches restrain each other's ambition (checks and balances).",
+        "C": "Near miss — federalism is a limit, but not the one Madison describes here.",
+        "D": "Prior-knowledge error — Article V is unrelated to Madison's point."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.06",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.06",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.06"
+      }
+    },
+    {
+      "id": "GC.07-U1Q07",
+      "standard": "GC.07",
+      "secondaryStandard": null,
+      "unit": 1,
+      "reportingCategory": "RC-GOV1: Foundations of Constitutional Government",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Requires explaining the purpose behind a process, not recalling the steps.",
+      "bloomsRationale": "Student explains the rationale for a design choice.",
+      "question": "Why did the Framers make the amendment process in Article V deliberately difficult?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "To give the president control over amendments",
+        "B": "To keep the Constitution from ever being changed",
+        "C": "To allow change only with broad national agreement",
+        "D": "To let a single state change it on its own"
+      },
+      "correctAnswer": "C",
+      "distractorTags": {
+        "A": "PK",
+        "B": "MC",
+        "C": null,
+        "D": "MC"
+      },
+      "distractorRationales": {
+        "A": "Prior-knowledge error — the president has no formal amendment role.",
+        "B": "Misconception — it permits change; it has happened 27 times.",
+        "C": "Correct — supermajorities require broad consensus while allowing change.",
+        "D": "Misconception — ratification needs three-fourths of the states."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.05",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.07",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.07",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.07"
+      }
+    },
+    {
+      "id": "GC.08-U1Q08",
+      "standard": "GC.08",
+      "secondaryStandard": null,
+      "unit": 1,
+      "reportingCategory": "RC-GOV1: Foundations of Constitutional Government",
+      "dok": 3,
+      "blooms": "Analyze",
+      "dokRationale": "Requires analyzing why a right is framed as a limit, not recalling its text.",
+      "bloomsRationale": "Student evaluates the reasoning behind constitutional phrasing.",
+      "question": "Why does the First Amendment phrase its protections as limits on Congress ('shall make no law')?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "Because Congress creates the rights it can remove",
+        "B": "Because courts alone define the people's freedoms",
+        "C": "Because only the states may protect these rights",
+        "D": "Because rights precede government, which cannot violate them"
+      },
+      "correctAnswer": "D",
+      "distractorTags": {
+        "A": "MC",
+        "B": "PK",
+        "C": "NE",
+        "D": null
+      },
+      "distractorRationales": {
+        "A": "Misconception — rights are not government gifts in this framing.",
+        "B": "Prior-knowledge error — courts interpret, but the clause limits Congress.",
+        "C": "Near miss — states matter, but the clause restrains Congress directly.",
+        "D": "Correct — natural-rights logic: limits restrain government from violating rights."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D3",
+      "sspAlignment": "SSP.02",
+      "tennesseeSpecific": false,
+      "tcaRequired": true,
+      "contentTags": [
+        "C"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.08",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.08",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.08"
+      }
+    },
+    {
+      "id": "GC.09-U1Q09",
+      "standard": "GC.09",
+      "secondaryStandard": null,
+      "unit": 1,
+      "reportingCategory": "RC-GOV1: Foundations of Constitutional Government",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Requires distinguishing two related systems, not recalling one definition.",
+      "bloomsRationale": "Student compares and contrasts two forms of government.",
+      "question": "What best distinguishes a republic from a direct democracy?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "Citizens elect representatives to make the laws",
+        "B": "A single monarch inherits and holds the power",
+        "C": "Citizens vote directly on every proposed law",
+        "D": "The states act as fully independent nations"
+      },
+      "correctAnswer": "A",
+      "distractorTags": {
+        "A": null,
+        "B": "MC",
+        "C": "NE",
+        "D": "PK"
+      },
+      "distractorRationales": {
+        "A": "Correct — in a republic the people rule through elected representatives.",
+        "B": "Misconception — a republic is not a monarchy.",
+        "C": "Near miss — that describes direct democracy, not a republic.",
+        "D": "Prior-knowledge error — that describes a confederation."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.09",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.09",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.09"
+      }
+    }
+  ]
+}
