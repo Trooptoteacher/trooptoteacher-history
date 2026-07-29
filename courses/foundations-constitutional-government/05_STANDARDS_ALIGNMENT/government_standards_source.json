@@ -1,0 +1,340 @@
+{
+  "_source": "Tennessee Academic Standards for Social Studies — United States Government and Civics (GC). AWAITING verbatim capture from official TDOE source (egress-blocked in this session; author to paste).",
+  "_rule": "The 'standard' field MUST be the VERBATIM official Tennessee GC standard. Never paraphrase, shorten, or invent. Dimension tags (C,E,G,P,H,T,TCA) and TCA citations are part of the standard. 'ican' derives from the verbatim standard (as in the US-History source).",
+  "_status": "SCAFFOLD — standard/ican/dimensions fields are empty pending verbatim TDOE text. titles are editorial working titles from the course brief and must be confirmed against the official text.",
+  "_course": "Foundations of Constitutional Government (TN GC, grades 9–12; supplemental under TCA §49-6-2202(a)(3))",
+  "_units": {
+    "1": {
+      "title": "Foundations of Constitutional Government",
+      "essential_question": "How and why did the Founders build a limited constitutional republic?",
+      "standards": [
+        "GC.01",
+        "GC.02",
+        "GC.03",
+        "GC.04",
+        "GC.05",
+        "GC.06",
+        "GC.07",
+        "GC.08",
+        "GC.09"
+      ]
+    },
+    "2": {
+      "title": "The Legislative Branch",
+      "essential_question": "How does Article I make Congress both powerful and accountable?",
+      "standards": [
+        "GC.10",
+        "GC.11",
+        "GC.12",
+        "GC.13",
+        "GC.14",
+        "GC.15"
+      ]
+    },
+    "3": {
+      "title": "The Executive Branch",
+      "essential_question": "What are the powers and limits of the presidency?",
+      "standards": [
+        "GC.16",
+        "GC.17",
+        "GC.18"
+      ]
+    },
+    "4": {
+      "title": "The Judicial Branch",
+      "essential_question": "How did the courts gain the power to say what the Constitution means?",
+      "standards": [
+        "GC.19",
+        "GC.20",
+        "GC.21",
+        "GC.22"
+      ]
+    },
+    "5": {
+      "title": "Civil Liberties",
+      "essential_question": "How do the Bill of Rights and the 14th Amendment protect individual liberty?",
+      "standards": [
+        "GC.23",
+        "GC.24",
+        "GC.25",
+        "GC.26",
+        "GC.27"
+      ]
+    }
+  },
+  "_practices_SSP": {
+    "SSP.01": {
+      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
+      "standard": "",
+      "ican": ""
+    },
+    "SSP.02": {
+      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
+      "standard": "",
+      "ican": ""
+    },
+    "SSP.03": {
+      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
+      "standard": "",
+      "ican": ""
+    },
+    "SSP.04": {
+      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
+      "standard": "",
+      "ican": ""
+    },
+    "SSP.05": {
+      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
+      "standard": "",
+      "ican": ""
+    },
+    "SSP.06": {
+      "role": "disciplinary-skills spine (SOAPS/HIPP analog)",
+      "standard": "",
+      "ican": ""
+    }
+  },
+  "GC.01": {
+    "title": "Enlightenment roots of American government",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 1
+  },
+  "GC.02": {
+    "title": "Declaration of Independence",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 1
+  },
+  "GC.03": {
+    "title": "Articles of Confederation",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 1
+  },
+  "GC.04": {
+    "title": "1787 Convention & the Great Compromise",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 1
+  },
+  "GC.05": {
+    "title": "Federalists vs. Anti-Federalists / Federalist Papers",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 1
+  },
+  "GC.06": {
+    "title": "Preamble & purposes of government",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 1
+  },
+  "GC.07": {
+    "title": "Principles of limited government",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 1
+  },
+  "GC.08": {
+    "title": "Structure & the amendment process; Bill of Rights",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "(T.C.A. § 49-6-1028)",
+    "legally_required": true,
+    "unit": 1
+  },
+  "GC.09": {
+    "title": "Democracy vs. republic",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 1
+  },
+  "GC.10": {
+    "title": "Article I — structure of Congress & the 17th Amendment",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 2
+  },
+  "GC.11": {
+    "title": "Census, redistricting & Baker v. Carr",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": true,
+    "unit": 2
+  },
+  "GC.12": {
+    "title": "Congressional leadership",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 2
+  },
+  "GC.13": {
+    "title": "How a bill becomes law",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 2
+  },
+  "GC.14": {
+    "title": "The Tennessee delegation",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": true,
+    "unit": 2
+  },
+  "GC.15": {
+    "title": "Powers of Congress incl. necessary-and-proper",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 2
+  },
+  "GC.16": {
+    "title": "Article II — the executive",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 3
+  },
+  "GC.17": {
+    "title": "22nd & 25th Amendments; executive departments",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 3
+  },
+  "GC.18": {
+    "title": "The Electoral College debate",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 3
+  },
+  "GC.19": {
+    "title": "Article III — the judiciary",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 4
+  },
+  "GC.20": {
+    "title": "Selection & confirmation of judges",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 4
+  },
+  "GC.21": {
+    "title": "Marbury v. Madison & judicial review",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 4
+  },
+  "GC.22": {
+    "title": "Constitutionality of laws & acts",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": false,
+    "unit": 4
+  },
+  "GC.23": {
+    "title": "First Amendment cases",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": true,
+    "unit": 5
+  },
+  "GC.24": {
+    "title": "Second Amendment",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": true,
+    "unit": 5
+  },
+  "GC.25": {
+    "title": "Fourth–Eighth Amendments (Mapp, Gideon, Miranda)",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": true,
+    "unit": 5
+  },
+  "GC.26": {
+    "title": "14th Amendment — equal protection & due process (Plessy, Brown, Gitlow, Roe, Obergefell)",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": true,
+    "unit": 5
+  },
+  "GC.27": {
+    "title": "Title IX & the ADA",
+    "standard": "",
+    "ican": "",
+    "dimensions": "",
+    "tca": "",
+    "legally_required": true,
+    "unit": 5
+  }
+}
