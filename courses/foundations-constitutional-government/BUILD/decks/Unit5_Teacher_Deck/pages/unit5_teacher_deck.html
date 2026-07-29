@@ -1,0 +1,251 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<title>Unit 1 Teacher Deck &mdash; Foundations of Constitutional Government</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{ --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C; --cream:#F7F5EF; --paper:#fff;
+  --navy-tint:#EEF1F7; --red-tint:#FBEEEF; --gold-tint:#FAF3E2; --green-tint:#EAF2EC;
+  --rule:#CBD2DE; --muted:#5A6579; --ink:#1B2A4A; }
+@page{ size:13.333in 7.5in; margin:0; }
+html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; color:var(--ink); }
+.slide{ position:relative; width:13.333in; height:7.5in; background:var(--paper); overflow:hidden;
+  page-break-after:always; display:flex; flex-direction:column; }
+.slide:last-child{ page-break-after:auto; }
+
+/* ---- shared header band ---- */
+.shead{ flex:0 0 auto; background:var(--navy); color:#fff; display:flex; align-items:center;
+  justify-content:space-between; padding:16px 34px; border-bottom:5px solid var(--red); }
+.shead .l{ display:flex; flex-direction:column; gap:3px; }
+.shead .kick{ font-size:11pt; letter-spacing:.14em; font-weight:800; color:var(--gold); text-transform:uppercase; }
+.shead h2{ font-family:Georgia,serif; font-size:27pt; font-weight:700; line-height:1.02; }
+.shead .r{ display:flex; flex-direction:column; align-items:flex-end; gap:6px; }
+.chip{ background:rgba(255,255,255,.12); border:1.5px solid var(--gold); color:#fff; font-size:9.5pt;
+  font-weight:700; padding:5px 12px; border-radius:14px; white-space:nowrap; }
+.chip.ssp{ background:var(--red); border-color:var(--red); }
+
+/* ---- body grid ---- */
+.body{ flex:1 1 auto; display:flex; gap:22px; padding:22px 34px; min-height:0; }
+.col{ display:flex; flex-direction:column; gap:14px; min-height:0; }
+.col.main{ flex:1.35 1 0; } .col.side{ flex:1 1 0; }
+
+.card{ border:1.8px solid var(--rule); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
+.card .ch{ font-size:10.5pt; font-weight:800; letter-spacing:.03em; text-transform:uppercase; color:#fff;
+  padding:6px 14px; }
+.card .cb{ padding:11px 15px; font-size:13.5pt; line-height:1.4; color:#22303f; }
+.ch.navy{ background:var(--navy); } .ch.red{ background:var(--red); } .ch.gold{ background:var(--gold); color:var(--navy); }
+.ch.green{ background:#1e6b40; }
+
+.target{ background:var(--navy-tint); border-left:6px solid var(--navy); border-radius:0 8px 8px 0;
+  padding:12px 16px; font-size:14pt; line-height:1.34; color:#22303f; }
+.target b{ color:var(--navy); }
+.hook{ background:var(--gold-tint); border-left:6px solid var(--gold); border-radius:0 8px 8px 0;
+  padding:12px 16px; font-size:15pt; line-height:1.34; font-style:italic; color:#3a2f12; }
+.hook .lbl{ font-style:normal; font-weight:800; font-size:9.5pt; letter-spacing:.08em; text-transform:uppercase; color:#7a5c15; display:block; margin-bottom:3px; }
+
+/* vocab */
+.vterm{ font-size:15pt; font-weight:800; color:var(--navy); }
+.vterm .say{ font-size:10pt; font-weight:600; color:var(--muted); font-style:italic; }
+.ves{ font-size:11pt; color:var(--red); font-weight:700; margin:2px 0 5px; }
+.vdef{ font-size:12.5pt; line-height:1.36; color:#22303f; }
+
+/* source image frame */
+.srcimg .cb{ display:flex; gap:14px; align-items:stretch; padding:12px 15px; }
+.imgwrap{ flex:0 0 auto; width:2.5in; display:flex; align-items:center; justify-content:center; }
+.imgwrap img{ max-width:100%; max-height:2.9in; border:2px solid var(--navy); border-radius:4px; object-fit:contain; }
+.imgph{ flex:0 0 auto; width:2.5in; min-height:2.6in; border:2.5px dashed var(--gold); border-radius:8px; background:var(--gold-tint);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:14px; gap:6px; }
+.imgph .ic{ font-size:42pt; line-height:1; }
+.imgph .phlbl{ font-size:8.5pt; font-weight:800; letter-spacing:.08em; color:#7a5c15; }
+.imgph .phttl{ font-size:12pt; font-weight:800; color:var(--navy); line-height:1.2; }
+.imgph .phsub{ font-size:8.5pt; color:var(--muted); } .imgph code{ font-size:8pt; background:#fff; padding:1px 5px; border-radius:3px; border:1px solid var(--rule); }
+.imgtext{ flex:1 1 0; display:flex; flex-direction:column; gap:7px; min-width:0; }
+.imgcap{ font-size:12pt; line-height:1.36; color:#22303f; }
+.imgquote{ font-family:Georgia,serif; font-style:italic; font-size:12pt; line-height:1.38; color:#3a4455;
+  border-left:4px solid var(--gold); padding:2px 0 2px 11px; }
+.imgquote .qa{ font-style:normal; font-size:9.5pt; font-weight:700; color:var(--muted); }
+.imgcite{ margin-top:auto; font-size:8.5pt; color:var(--muted); font-weight:700; }
+
+/* CFU */
+.cfu .opt{ display:flex; gap:9px; align-items:flex-start; font-size:12.5pt; line-height:1.32; padding:3px 0; }
+.cfu .k{ font-weight:800; color:var(--navy); flex:0 0 auto; }
+.cfu .opt.key{ background:var(--green-tint); border-radius:6px; padding:5px 8px; }
+.cfu .opt.key .k{ color:#1e6b40; }
+.ans{ margin-top:9px; background:var(--green-tint); border:1.6px solid #1e6b40; border-radius:8px;
+  padding:9px 13px; font-size:11.5pt; line-height:1.34; color:#173d27; }
+.ans b{ color:#1e6b40; }
+
+/* teacher notes strip */
+.tnotes{ flex:0 0 auto; background:var(--cream); border-top:2px solid var(--gold); padding:9px 34px;
+  font-size:10.5pt; line-height:1.3; color:#3a2f12; display:flex; gap:12px; align-items:baseline; }
+.tnotes b{ color:#7a5c15; text-transform:uppercase; letter-spacing:.05em; font-size:9pt; flex:0 0 auto; }
+
+/* footer */
+.sfoot{ position:absolute; bottom:8px; right:20px; font-size:8pt; color:#9aa2b2; }
+.sfoot .brand{ color:var(--navy); font-weight:700; }
+.pgno{ position:absolute; bottom:8px; left:20px; font-size:8pt; color:#9aa2b2; }
+
+/* ---- title slide ---- */
+.title{ background:var(--navy); color:#fff; justify-content:center; align-items:center; text-align:center; padding:0 90px; }
+.title .eye{ font-size:12pt; letter-spacing:.22em; font-weight:800; text-transform:uppercase; color:var(--gold); }
+.title h1{ font-family:Georgia,serif; font-size:52pt; font-weight:700; line-height:1.04; margin:16px 0 6px; }
+.title .course{ font-size:16pt; color:#B5D4F4; font-weight:600; }
+.title .rule{ width:120px; height:4px; background:var(--red); margin:22px auto; border-radius:2px; }
+.title .eq{ font-family:Georgia,serif; font-style:italic; font-size:19pt; color:#e6d3a3; max-width:9in; line-height:1.4; }
+.title .meta{ margin-top:20px; font-size:11pt; color:#8ea3c4; letter-spacing:.03em; }
+.title .badge{ position:absolute; top:34px; right:44px; border:2px solid var(--gold); color:var(--gold);
+  font-size:10pt; font-weight:800; letter-spacing:.1em; text-transform:uppercase; padding:6px 14px; border-radius:5px; }
+
+/* ---- section/list slide ---- */
+.big-eq{ flex:1 1 auto; display:flex; flex-direction:column; justify-content:center; padding:34px 60px; gap:20px; }
+.big-eq .q{ font-family:Georgia,serif; font-size:30pt; font-weight:700; color:var(--navy); line-height:1.18; }
+.big-eq .q .u{ color:var(--red); }
+.road{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; }
+.road .r{ background:var(--navy-tint); border-left:5px solid var(--navy); border-radius:0 8px 8px 0; padding:9px 13px; }
+.road .r .c{ font-weight:800; color:var(--red); font-size:11pt; }
+.road .r .t{ font-size:12pt; color:#22303f; line-height:1.25; margin-top:2px; }
+
+/* perspectives */
+.persp{ flex:1 1 auto; display:grid; grid-template-columns:1fr 1fr; gap:16px; padding:22px 34px; }
+.persp .p{ background:var(--paper); border:1.8px solid var(--rule); border-top:5px solid var(--red); border-radius:8px; padding:13px 16px; }
+.persp .p h3{ font-size:15pt; color:var(--navy); margin-bottom:5px; }
+.persp .p p{ font-size:12pt; line-height:1.36; color:#22303f; }
+
+/* tn slide */
+.tnbig{ flex:1 1 auto; display:flex; gap:24px; padding:26px 44px; align-items:center; }
+.tnbig .star{ font-size:80pt; color:var(--gold); flex:0 0 auto; }
+.tnbig .t{ font-size:17pt; line-height:1.5; color:#22303f; } .tnbig .t b{ color:var(--navy); }
+
+/* closing */
+.close{ background:var(--navy); color:#fff; justify-content:center; align-items:center; text-align:center; padding:0 90px; }
+.close h1{ font-family:Georgia,serif; font-size:34pt; margin-bottom:14px; }
+.close .rule{ width:120px; height:4px; background:var(--red); margin:16px auto; border-radius:2px; }
+.close p{ font-size:15pt; color:#cdd4e2; line-height:1.5; max-width:9in; }
+.close .stds{ margin-top:18px; font-size:12pt; color:var(--gold); letter-spacing:.05em; }
+</style></head><body>
+<div class="slide title">
+  <div class="badge">Teacher Deck</div>
+  <div class="eye">Government Hack &middot; TroopToTeacher Technologies</div>
+  <h1>Foundations of<br>Constitutional Government</h1>
+  <div class="course">United States Government &amp; Civics (GC) &middot; Unit 1 &middot; GC.01&ndash;GC.09</div>
+  <div class="rule"></div>
+  <div class="eq">&ldquo;How can unelected judges check the other branches — and what limits their power?&rdquo;</div>
+  <div class="meta">Grades 9&ndash;12 &middot; Suggested 10–12 days &middot; Supplemental under TCA &sect; 49-6-2202(a)(3)</div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; Roadmap</div><h2>Where We Are Going</h2></div>
+    <div class="r"><span class="chip">9 standards</span><span class="chip ssp">SSP.01&ndash;06</span></div></div>
+  <div class="big-eq">
+    <div class="q">Essential Question: <span class="u">How can unelected judges check the other branches — and what limits their power?</span></div>
+    <div class="road"><div class="r"><div class="c">GC.19</div><div class="t">Article III &amp; Judicial Power</div></div><div class="r"><div class="c">GC.20</div><div class="t">Selecting &amp; Confirming Justices</div></div><div class="r"><div class="c">GC.21</div><div class="t">Judicial Review &amp; Marbury v. Madison</div></div><div class="r"><div class="c">GC.22</div><div class="t">Deciding What Is Constitutional</div></div></div>
+  </div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">2</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.19 &middot; JUDICIAL POWER</div><h2>Article III &amp; Judicial Power</h2></div>
+    <div class="r"><span class="chip">GC.19</span><span class="chip ssp">SSP.01</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can analyze Article III — the judicial power, the tenure of judges, and the jurisdiction of the Supreme Court.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; DOCUMENT</div><div class="phttl">Judiciary Act of 1789</div><div class="phsub">drop image: <code>GC.19_judiciary-act-1789.jpg</code></div></div><div class="imgtext"><div class="imgcap">The Judiciary Act of 1789: Congress built the federal court system that Article III only sketched.</div><div class="imgquote">&ldquo;The judicial Power of the United States, shall be vested in one supreme Court… The Judges, both of the supreme and inferior Courts, shall hold their Offices during good Behaviour.&rdquo; <span class="qa">&mdash; Constitutional Convention, U.S. Constitution, Article III, Section 1 (1787)</span></div><div class="imgcite">Judiciary Act of 1789 &middot; 1st U.S. Congress (1789) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>These nine officials never face an election, can't be fired for their rulings, and keep their jobs for life. Why would a democracy design a branch like that?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Jurisdiction <span class="say">/joor-is-DIK-shun/</span></div>
+          <div class="ves">jurisdicción</div>
+          <div class="vdef">The authority of a court to hear and decide a case; the Supreme Court has both original and appellate jurisdiction under Article III.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">Why does the Constitution give federal judges their offices 'during good Behaviour' — effectively for life?</div>
+          <div class="opt key"><span class="k">A &check;</span><span>So they can decide cases free from political pressure</span></div><div class="opt"><span class="k">B</span><span>Because judges cannot be removed for any reason</span></div><div class="opt"><span class="k">C</span><span>So the President can replace them every four years</span></div><div class="opt"><span class="k">D</span><span>Because judges must also serve in Congress</span></div>
+          <div class="ans"><b>Answer: A.</b> DOK 2: Life tenure ('good Behaviour') insulates judges from elections and political retaliation, so they can rule on the law without fear of losing their jobs.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">3</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.20 &middot; APPOINTMENTS</div><h2>Selecting &amp; Confirming Justices</h2></div>
+    <div class="r"><span class="chip">GC.20</span><span class="chip ssp">SSP.05</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can explain how a Supreme Court justice is nominated by the President and confirmed by the Senate.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128100;</div><div class="phlbl">PRIMARY SOURCE &middot; PORTRAIT</div><div class="phttl">John Jay</div><div class="phsub">drop image: <code>GC.20_john-jay-portrait.jpg</code></div></div><div class="imgtext"><div class="imgcap">Gilbert Stuart's John Jay (1794), the first Chief Justice — nominated by the President, confirmed by the Senate.</div><div class="imgquote">&ldquo;…he shall nominate, and by and with the Advice and Consent of the Senate, shall appoint… Judges of the supreme Court.&rdquo; <span class="qa">&mdash; Constitutional Convention, U.S. Constitution, Article II, Section 2 (1787)</span></div><div class="imgcite">John Jay &middot; Gilbert Stuart (1794) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>A single choice can steer the Constitution for forty years. That's why one open seat can freeze all of Washington. How does someone actually get the robe?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Nomination <span class="say">/nom-ih-NAY-shun/</span></div>
+          <div class="ves">nominación</div>
+          <div class="vdef">The President's naming of a person to fill a Supreme Court vacancy; the first step in seating a justice.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 2</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">Which two parts of government share the power to seat a new Supreme Court justice?</div>
+          <div class="opt"><span class="k">A</span><span>The House and the Senate</span></div><div class="opt"><span class="k">B</span><span>The President and the Supreme Court</span></div><div class="opt key"><span class="k">C &check;</span><span>The President nominates and the Senate confirms</span></div><div class="opt"><span class="k">D</span><span>The states and the Supreme Court</span></div>
+          <div class="ans"><b>Answer: C.</b> DOK 2: Article II gives the President the power to nominate and the Senate the power to confirm ('Advice and Consent') — a shared appointment power that checks both branches.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">4</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.21 &middot; JUDICIAL REVIEW</div><h2>Judicial Review &amp; Marbury v. Madison</h2></div>
+    <div class="r"><span class="chip">GC.21</span><span class="chip ssp">SSP.02</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can explain judicial review and how Marbury v. Madison (1803) established it.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128100;</div><div class="phlbl">PRIMARY SOURCE &middot; PORTRAIT</div><div class="phttl">Chief Justice John Marshall (judicial review / Marbury)</div><div class="phsub">drop image: <code>GC.21_john-marshall.jpg</code></div></div><div class="imgtext"><div class="imgcap">Chief Justice John Marshall, whose Marbury v. Madison (1803) opinion established judicial review.</div><div class="imgquote">&ldquo;It is emphatically the province and duty of the judicial department to say what the law is.&rdquo; <span class="qa">&mdash; Chief Justice John Marshall, Marbury v. Madison, 5 U.S. 137 (1803)</span></div><div class="imgcite">Chief Justice John Marshall (judicial review / Marbury) &middot; (artist unconfirmed) (19th c.) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>The Constitution never says the courts can cancel a law — so how did nine judges claim the power to overrule Congress? One 1803 case answered it forever.</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Judicial Review <span class="say">/joo-DISH-ul ree-VYOO/</span></div>
+          <div class="ves">revisión judicial</div>
+          <div class="vdef">The power of the courts to declare a law or government action unconstitutional and therefore void — established by Marbury v. Madison.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 3</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">What power did Marbury v. Madison (1803) establish for the courts?</div>
+          <div class="opt"><span class="k">A</span><span>The power to elect the President</span></div><div class="opt key"><span class="k">B &check;</span><span>Judicial review — the power to declare a law unconstitutional and void</span></div><div class="opt"><span class="k">C</span><span>The power to collect taxes</span></div><div class="opt"><span class="k">D</span><span>The power to declare war</span></div>
+          <div class="ans"><b>Answer: B.</b> DOK 3: Marshall reasoned that it is 'the province and duty of the judicial department to say what the law is,' and that a law 'repugnant to the constitution is void' — establishing judicial review.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">5</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">GC.22 &middot; CONSTITUTIONALITY</div><h2>Deciding What Is Constitutional</h2></div>
+    <div class="r"><span class="chip">GC.22</span><span class="chip ssp">SSP.04</span></div></div>
+  <div class="body">
+    <div class="col main">
+      <div class="target"><b>Learning target:</b> I can describe how the Supreme Court decides constitutionality, and explain judicial activism and restraint.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; PHOTO</div><div class="phttl">U.S. Supreme Court Building</div><div class="phsub">drop image: <code>GC.22_supreme-court-building.jpg</code></div></div><div class="imgtext"><div class="imgcap">The U.S. Supreme Court Building — where the 'rule of four' decides which laws the Court will judge.</div><div class="imgquote">&ldquo;the constitution controls any legislative act repugnant to it.&rdquo; <span class="qa">&mdash; Chief Justice John Marshall, Marbury v. Madison, 5 U.S. 137 (1803)</span></div><div class="imgcite">U.S. Supreme Court Building &middot; Ken Hammond (USDA) (modern) &middot; Wikimedia Commons</div></div></div></div>
+      <div class="hook"><span class="lbl">Hook</span>Thousands of cases ask the Supreme Court for a hearing each year; it takes only about 60. Who decides which — and how boldly should they rule once they do?</div>
+    </div>
+    <div class="col side">
+      <div class="card"><div class="ch gold">Key Vocabulary</div>
+        <div class="cb"><div class="vterm">Writ of Certiorari <span class="say">/sur-shee-uh-RAIR-ee/</span></div>
+          <div class="ves">auto de avocación (certiorari)</div>
+          <div class="vdef">An order by which the Supreme Court agrees to hear a case; it takes the 'rule of four' — four of the nine justices — to grant it.</div></div></div>
+      <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK 3</div>
+        <div class="cb"><div style="font-weight:700;margin-bottom:6px">How do judicial activism and judicial restraint differ?</div>
+          <div class="opt"><span class="k">A</span><span>Activism means judges never rule; restraint means they rule on everything</span></div><div class="opt"><span class="k">B</span><span>Activism applies only to state courts; restraint only to federal courts</span></div><div class="opt"><span class="k">C</span><span>They are two names for the same approach</span></div><div class="opt key"><span class="k">D &check;</span><span>Activism is a greater willingness to strike down laws or set new policy; restraint defers to the elected branches and precedent</span></div>
+          <div class="ans"><b>Answer: D.</b> DOK 3: Judicial activism describes judges more willing to overturn laws or make new policy (often via a 'living Constitution'); judicial restraint describes judges who defer to elected branches and original intent.</div></div></div>
+    </div>
+  </div>
+  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">6</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; Multiple Perspectives</div><h2>Who Guards the Constitution? Perspectives on Judicial Power</h2></div>
+    <div class="r"><span class="chip ssp">SSP.03</span></div></div>
+  <div class="persp"><div class="p"><h3>The Guardian of Rights</h3><p>Because justices are not elected and serve for life, the Court can protect minority rights and the Constitution even when the majority objects (GC.21, GC.22).</p></div><div class="p"><h3>The Countermajoritarian Worry</h3><p>Others argue that letting nine unelected judges overturn laws passed by elected representatives is in tension with democracy (GC.21).</p></div><div class="p"><h3>Activism vs. Restraint</h3><p>Should judges read the Constitution as a 'living document' that adapts, or interpret the 'original intent' of the Framers? The debate shapes every major ruling (GC.22).</p></div><div class="p"><h3>The Appointment Fight</h3><p>Because a justice can serve for decades, the President's nomination and the Senate's confirmation have become high-stakes political battles (GC.20).</p></div></div>
+  <div class="tnotes"><b>Why it matters</b><span>This section weighs the paradox of an unelected branch with the power to overturn the elected ones: a guardian of rights to some, a check that can overreach to others. It is Government Hack–authored instruction</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">7</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 1 &middot; TENNESSEE CONNECTION</div><h2>Our Signature Move</h2></div>
+    <div class="r"><span class="chip">&#9733; Tennessee</span></div></div>
+  <div class="tnbig"><div class="star">&#9733;</div><div class="t">Tennessee has sat on the nation's highest bench. John Catron, who had served as Chief Justice of Tennessee's own Supreme Court, was appointed to the U.S. Supreme Court in 1837 and served until his death in Nashville in 1865 — the first Tennessean to help decide what the Constitution means (GC.20).</div></div>
+  <div class="tnotes"><b>Task</b><span>A Tennessean once helped shape the U.S. Supreme Court. Investigate the current Tennessee Supreme Court — name one current justice and one type of case it hears — and record what you find with a source.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">8</div></div><div class="slide ">
+  <div class="shead"><div class="l"><div class="kick">Unit 5 &middot; Make It Stick</div><h2>Predict &middot; Play &middot; Spiral</h2></div>
+    <div class="r"><span class="chip">UDL &middot; MTSS</span></div></div>
+  <div class="persp">
+    <div class="p" style="border-top-color:var(--gold)"><h3>Predict First &mdash; open the unit</h3><p>Predict first: Should nine unelected judges be able to strike down a law passed by Congress and signed by the President? Write your gut answer now — you'll test it against Marbury v. Madison and the idea of judicial review.</p></div>
+    <div class="p"><h3>Warm-Up Play &mdash; Activist or Restrained?</h3><p>3-minute sorting game (GC.22). Read a short summary of a real ruling and call whether the Court 'made new policy' (judicial activism) or 'deferred to the elected branches / original text' (judicial restraint). Students feel that the same case can look like either, depending on your lens.</p></div>
+    <div class="p" style="border-top-color:var(--navy)"><h3>Spiral &mdash; retrieve &amp; connect</h3><p style="font-size:10.5pt"><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.21 &rarr; Unit 1 (GC.06, checks &amp; balances)</b><br>Judicial review is the judiciary's check on the other branches — the principle you first met in Foundations, now with the case that created it.</div><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.20 &rarr; Unit 4 (GC.16) &amp; Unit 3 (GC.15)</b><br>The President nominates and the Senate confirms — the same appointment power you studied in the Executive and Legislative units.</div><div style="margin-bottom:5px"><b style="color:var(--navy)">GC.22 &rarr; Unit 3 (GC.11, Baker v. Carr)</b><br>Tennessee's Baker v. Carr showed the Court deciding questions once thought 'political' — judicial power in action.</div></p></div>
+    <div class="p" style="border-top-color:var(--gold)"><h3>Judicial Reasoning</h3><p><ul style="margin-left:15px"><li>Cite the clause or the case before you argue.</li><li>Separate what the law says from what you wish it said.</li><li>Disagree with the reasoning, not the person.</li><li>One voice at a time; make room for the quiet voice.</li></ul></p></div>
+  </div>
+  <div class="tnotes"><b>Why it's here</b><span>These are the built-in UDL 3.0 moves — a belief-check (9.1), on-standard play (7.3), cross-unit spiral (3.4), and conversation norms (9.4). Use them; they make the unit stick.</span></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">9</div></div><div class="slide close">
+  <div class="close-inner" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;height:100%;padding:0 90px">
+  <h1>Revisit the Essential Question</h1>
+  <div class="rule"></div>
+  <p>&ldquo;How can unelected judges check the other branches — and what limits their power?&rdquo;</p>
+  <p style="margin-top:14px;font-size:13pt">Students now have the sources, vocabulary, and reasoning to answer it &mdash; in a CER paragraph or the unit DBQ.</p>
+  <div class="stds">GC.19 &middot; GC.20 &middot; GC.21 &middot; GC.22</div></div>
+<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; Unit 1</div><div class="pgno">10</div></div>
+</body></html>
