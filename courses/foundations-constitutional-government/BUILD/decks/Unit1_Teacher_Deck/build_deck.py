@@ -9,19 +9,49 @@ invented here. Brand = Government Hack (navy / red / gold / cream), matching the
 U.S. History Hack teacher-deck house style. Rendered to a landscape PDF via
 headless Chromium.
 """
-import os, json, html
+import os, json, html, base64, mimetypes
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(HERE, "..", "..", "unit1", "analysis", "unit1_content.json")
+IMAGES = os.path.join(HERE, "unit1_images.json")
+ASSETS = HERE  # image 'file' paths in the manifest are relative to this folder
 OUT = os.path.join(HERE, "pages", "unit1_teacher_deck.html")
 
 D = json.load(open(CONTENT))
 U = D["unit"]
 ORDER = D["order"]
 S = D["standards"]
+IMG = json.load(open(IMAGES)) if os.path.exists(IMAGES) else {}
 
 def esc(x):
     return html.escape(str(x), quote=False)
+
+TYPE_ICON = {"document": "&#128220;", "cartoon": "&#128499;", "portrait": "&#128100;", "emblem": "&#127894;"}
+
+def source_frame(code, quote=None, qattr=None):
+    """Render the primary-source visual for a standard: the real image if the
+    binary is present, else a cited source frame (so the deck teaches with the
+    source now and auto-fills when the scan is dropped in). Never fabricates."""
+    rec = (IMG.get(code) or {}).get("anchor")
+    if not rec:
+        return ""
+    quote_html = (f'<div class="imgquote">&ldquo;{esc(quote)}&rdquo; '
+                  f'<span class="qa">&mdash; {esc(qattr)}</span></div>') if quote else ""
+    cite = f"{esc(rec['title'])} &middot; {esc(rec['creator'])} ({esc(rec['year'])}) &middot; {esc(rec['repository'])}"
+    fpath = os.path.join(ASSETS, rec["file"])
+    if os.path.exists(fpath):
+        mime = mimetypes.guess_type(fpath)[0] or "image/jpeg"
+        b64 = base64.b64encode(open(fpath, "rb").read()).decode()
+        inner = f'<div class="imgwrap"><img src="data:{mime};base64,{b64}" alt="{esc(rec.get("alt_en",""))}"></div>'
+    else:
+        icon = TYPE_ICON.get(rec.get("type", "document"), "&#128220;")
+        inner = (f'<div class="imgph"><div class="ic">{icon}</div>'
+                 f'<div class="phlbl">PRIMARY SOURCE &middot; {esc(rec.get("type","document")).upper()}</div>'
+                 f'<div class="phttl">{esc(rec["title"])}</div>'
+                 f'<div class="phsub">drop image: <code>{esc(os.path.basename(rec["file"]))}</code></div></div>')
+    return (f'<div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div>'
+            f'<div class="cb">{inner}<div class="imgtext"><div class="imgcap">{esc(rec["caption"])}</div>'
+            f'{quote_html}<div class="imgcite">{cite}</div></div></div></div>')
 
 FOOT = "Government Hack&trade; &middot; Foundations of Constitutional Government &middot; Unit 1 Teacher Deck"
 
@@ -72,10 +102,22 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
 .ves{ font-size:11pt; color:var(--red); font-weight:700; margin:2px 0 5px; }
 .vdef{ font-size:12.5pt; line-height:1.36; color:#22303f; }
 
-/* source */
-.src blockquote{ font-family:Georgia,serif; font-size:14.5pt; line-height:1.42; color:#22303f; font-style:italic; }
-.src .attr{ margin-top:8px; font-size:11pt; color:var(--muted); font-weight:700; }
-.src .attr b{ color:var(--navy); } .src .repo{ font-weight:600; font-style:italic; }
+/* source image frame */
+.srcimg .cb{ display:flex; gap:14px; align-items:stretch; padding:12px 15px; }
+.imgwrap{ flex:0 0 auto; width:2.5in; display:flex; align-items:center; justify-content:center; }
+.imgwrap img{ max-width:100%; max-height:2.9in; border:2px solid var(--navy); border-radius:4px; object-fit:contain; }
+.imgph{ flex:0 0 auto; width:2.5in; min-height:2.6in; border:2.5px dashed var(--gold); border-radius:8px; background:var(--gold-tint);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:14px; gap:6px; }
+.imgph .ic{ font-size:42pt; line-height:1; }
+.imgph .phlbl{ font-size:8.5pt; font-weight:800; letter-spacing:.08em; color:#7a5c15; }
+.imgph .phttl{ font-size:12pt; font-weight:800; color:var(--navy); line-height:1.2; }
+.imgph .phsub{ font-size:8.5pt; color:var(--muted); } .imgph code{ font-size:8pt; background:#fff; padding:1px 5px; border-radius:3px; border:1px solid var(--rule); }
+.imgtext{ flex:1 1 0; display:flex; flex-direction:column; gap:7px; min-width:0; }
+.imgcap{ font-size:12pt; line-height:1.36; color:#22303f; }
+.imgquote{ font-family:Georgia,serif; font-style:italic; font-size:12pt; line-height:1.38; color:#3a4455;
+  border-left:4px solid var(--gold); padding:2px 0 2px 11px; }
+.imgquote .qa{ font-style:normal; font-size:9.5pt; font-weight:700; color:var(--muted); }
+.imgcite{ margin-top:auto; font-size:8.5pt; color:var(--muted); font-weight:700; }
 
 /* CFU */
 .cfu .opt{ display:flex; gap:9px; align-items:flex-start; font-size:12.5pt; line-height:1.32; padding:3px 0; }
@@ -184,13 +226,8 @@ for c in ORDER:
   <div class="body">
     <div class="col main">
       <div class="target"><b>Learning target:</b> {esc(s['target'])}</div>
+      {source_frame(c, src['quote'], f"{src['who']}, {src['title']} ({src['date']})")}
       <div class="hook"><span class="lbl">Hook</span>{esc(s['hook'])}</div>
-      <div class="card src" style="flex:1 1 auto;">
-        <div class="ch navy">Primary Source</div>
-        <div class="cb src"><blockquote>&ldquo;{esc(src['quote'])}&rdquo;</blockquote>
-          <div class="attr"><b>{esc(src['who'])}</b>, <i>{esc(src['title'])}</i> ({esc(src['date'])})
-          {f'&middot; <span class="repo">{esc(repo)}</span>' if repo else ''}</div></div>
-      </div>
     </div>
     <div class="col side">
       <div class="card"><div class="ch gold">Key Vocabulary</div>

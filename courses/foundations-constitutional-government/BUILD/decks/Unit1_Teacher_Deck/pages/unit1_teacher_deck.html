@@ -47,10 +47,22 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
 .ves{ font-size:11pt; color:var(--red); font-weight:700; margin:2px 0 5px; }
 .vdef{ font-size:12.5pt; line-height:1.36; color:#22303f; }
 
-/* source */
-.src blockquote{ font-family:Georgia,serif; font-size:14.5pt; line-height:1.42; color:#22303f; font-style:italic; }
-.src .attr{ margin-top:8px; font-size:11pt; color:var(--muted); font-weight:700; }
-.src .attr b{ color:var(--navy); } .src .repo{ font-weight:600; font-style:italic; }
+/* source image frame */
+.srcimg .cb{ display:flex; gap:14px; align-items:stretch; padding:12px 15px; }
+.imgwrap{ flex:0 0 auto; width:2.5in; display:flex; align-items:center; justify-content:center; }
+.imgwrap img{ max-width:100%; max-height:2.9in; border:2px solid var(--navy); border-radius:4px; object-fit:contain; }
+.imgph{ flex:0 0 auto; width:2.5in; min-height:2.6in; border:2.5px dashed var(--gold); border-radius:8px; background:var(--gold-tint);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:14px; gap:6px; }
+.imgph .ic{ font-size:42pt; line-height:1; }
+.imgph .phlbl{ font-size:8.5pt; font-weight:800; letter-spacing:.08em; color:#7a5c15; }
+.imgph .phttl{ font-size:12pt; font-weight:800; color:var(--navy); line-height:1.2; }
+.imgph .phsub{ font-size:8.5pt; color:var(--muted); } .imgph code{ font-size:8pt; background:#fff; padding:1px 5px; border-radius:3px; border:1px solid var(--rule); }
+.imgtext{ flex:1 1 0; display:flex; flex-direction:column; gap:7px; min-width:0; }
+.imgcap{ font-size:12pt; line-height:1.36; color:#22303f; }
+.imgquote{ font-family:Georgia,serif; font-style:italic; font-size:12pt; line-height:1.38; color:#3a4455;
+  border-left:4px solid var(--gold); padding:2px 0 2px 11px; }
+.imgquote .qa{ font-style:normal; font-size:9.5pt; font-weight:700; color:var(--muted); }
+.imgcite{ margin-top:auto; font-size:8.5pt; color:var(--muted); font-weight:700; }
 
 /* CFU */
 .cfu .opt{ display:flex; gap:9px; align-items:flex-start; font-size:12.5pt; line-height:1.32; padding:3px 0; }
@@ -130,13 +142,8 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
   <div class="body">
     <div class="col main">
       <div class="target"><b>Learning target:</b> I can examine the influences of leading European thinkers (e.g., John Locke, Charles-Louis Montesquieu, Thomas Hobbes) and other roots of American government (e.g., Greek democracy, Roman Republic, Magna Carta).</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128100;</div><div class="phlbl">PRIMARY SOURCE &middot; PORTRAIT</div><div class="phttl">Portrait of John Locke</div><div class="phsub">drop image: <code>GC.01_locke-portrait.jpg</code></div></div><div class="imgtext"><div class="imgcap">John Locke (1632–1704), whose Second Treatise of Government argued that legitimate government rests on the consent of the governed — a direct root of American political thought.</div><div class="imgquote">&ldquo;Men being, as has been said, by nature all free, equal, and independent, no one can be put out of this estate and subjected to the political power of another without his own consent.&rdquo; <span class="qa">&mdash; John Locke, Second Treatise of Government (1689)</span></div><div class="imgcite">Portrait of John Locke &middot; Sir Godfrey Kneller (1697) &middot; public domain (artist d. 1723)</div></div></div></div>
       <div class="hook"><span class="lbl">Hook</span>You already have rights no ruler gave you and none can take away — that's the idea that started a revolution. Where did it come from?</div>
-      <div class="card src" style="flex:1 1 auto;">
-        <div class="ch navy">Primary Source</div>
-        <div class="cb src"><blockquote>&ldquo;Men being, as has been said, by nature all free, equal, and independent, no one can be put out of this estate and subjected to the political power of another without his own consent.&rdquo;</blockquote>
-          <div class="attr"><b>John Locke</b>, <i>Second Treatise of Government</i> (1689)
-          &middot; <span class="repo">Avalon Project, Yale Law School</span></div></div>
-      </div>
     </div>
     <div class="col side">
       <div class="card"><div class="ch gold">Key Vocabulary</div>
@@ -156,13 +163,8 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
   <div class="body">
     <div class="col main">
       <div class="target"><b>Learning target:</b> I can examine the Declaration of Independence and American grievances against British rule.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; DOCUMENT</div><div class="phttl">Declaration of Independence (engrossed copy)</div><div class="phsub">drop image: <code>GC.02_declaration-of-independence.jpg</code></div></div><div class="imgtext"><div class="imgcap">The engrossed Declaration of Independence, 1776 — the document that turned the colonists' grievances into a claim of natural rights and self-government.</div><div class="imgquote">&ldquo;We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.&rdquo; <span class="qa">&mdash; Continental Congress (drafted by Thomas Jefferson), Declaration of Independence (July 4, 1776)</span></div><div class="imgcite">Declaration of Independence (engrossed copy) &middot; Second Continental Congress; engrossed by Timothy Matlack (1776) &middot; U.S. National Archives</div></div></div></div>
       <div class="hook"><span class="lbl">Hook</span>'All men are created equal.' A bold claim in 1776 — and the colonists used it to fire a king. How does the Declaration build its case?</div>
-      <div class="card src" style="flex:1 1 auto;">
-        <div class="ch navy">Primary Source</div>
-        <div class="cb src"><blockquote>&ldquo;We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.&rdquo;</blockquote>
-          <div class="attr"><b>Continental Congress (drafted by Thomas Jefferson)</b>, <i>Declaration of Independence</i> (July 4, 1776)
-          &middot; <span class="repo">National Archives</span></div></div>
-      </div>
     </div>
     <div class="col side">
       <div class="card"><div class="ch gold">Key Vocabulary</div>
@@ -182,13 +184,8 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
   <div class="body">
     <div class="col main">
       <div class="target"><b>Learning target:</b> I can identify the strengths and weaknesses of the Articles of Confederation.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128499;</div><div class="phlbl">PRIMARY SOURCE &middot; CARTOON</div><div class="phttl">Join, or Die</div><div class="phsub">drop image: <code>GC.03_join-or-die.jpg</code></div></div><div class="imgtext"><div class="imgcap">Franklin's 'Join, or Die' (1754): a severed snake labeled with the colonies. Under the loose Articles of Confederation, the states struggled to act as one — the cartoon's warning about disunity still fit.</div><div class="imgquote">&ldquo;Each state retains its sovereignty, freedom, and independence, and every power, jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled.&rdquo; <span class="qa">&mdash; Second Continental Congress, Articles of Confederation, Article II (ratified 1781)</span></div><div class="imgcite">Join, or Die &middot; Benjamin Franklin (1754) &middot; Library of Congress, Prints &amp; Photographs Division</div></div></div></div>
       <div class="hook"><span class="lbl">Hook</span>Imagine a national government that can declare war but can't collect a dime to pay for it. That was America under the Articles. What went wrong?</div>
-      <div class="card src" style="flex:1 1 auto;">
-        <div class="ch navy">Primary Source</div>
-        <div class="cb src"><blockquote>&ldquo;Each state retains its sovereignty, freedom, and independence, and every power, jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled.&rdquo;</blockquote>
-          <div class="attr"><b>Second Continental Congress</b>, <i>Articles of Confederation, Article II</i> (ratified 1781)
-          &middot; <span class="repo">Avalon Project, Yale Law School</span></div></div>
-      </div>
     </div>
     <div class="col side">
       <div class="card"><div class="ch gold">Key Vocabulary</div>
@@ -208,13 +205,8 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
   <div class="body">
     <div class="col main">
       <div class="target"><b>Learning target:</b> I can discuss the Constitutional Convention of 1787, including the Great Compromise and the ensuing debate over ratification between the Federalists and Anti-Federalists.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128499;</div><div class="phlbl">PRIMARY SOURCE &middot; CARTOON</div><div class="phttl">The Looking Glass for 1787</div><div class="phsub">drop image: <code>GC.04_looking-glass-1787.jpg</code></div></div><div class="imgtext"><div class="imgcap">A 1787 cartoon of Connecticut's ratification debate — a wagon of state pulled in opposite directions. It captures the Federalist vs. Anti-Federalist struggle over the new Constitution.</div><div class="imgquote">&ldquo;The latent causes of faction are thus sown in the nature of man… The regulation of these various and interfering interests forms the principal task of modern legislation.&rdquo; <span class="qa">&mdash; James Madison (Publius), Federalist No. 10 (1787)</span></div><div class="imgcite">The Looking Glass for 1787 &middot; Amos Doolittle (1787) &middot; Library of Congress, Prints &amp; Photographs Division</div></div></div></div>
       <div class="hook"><span class="lbl">Hook</span>Two plans, thirteen stubborn states, one hot Philadelphia summer. How did the Framers turn a deadlock into a Constitution?</div>
-      <div class="card src" style="flex:1 1 auto;">
-        <div class="ch navy">Primary Source</div>
-        <div class="cb src"><blockquote>&ldquo;The latent causes of faction are thus sown in the nature of man… The regulation of these various and interfering interests forms the principal task of modern legislation.&rdquo;</blockquote>
-          <div class="attr"><b>James Madison (Publius)</b>, <i>Federalist No. 10</i> (1787)
-          &middot; <span class="repo">Congress.gov / Library of Congress</span></div></div>
-      </div>
     </div>
     <div class="col side">
       <div class="card"><div class="ch gold">Key Vocabulary</div>
@@ -234,13 +226,8 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
   <div class="body">
     <div class="col main">
       <div class="target"><b>Learning target:</b> I can describe the purposes and functions of government as outlined in the Preamble of the Constitution.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; DOCUMENT</div><div class="phttl">U.S. Constitution, Page 1 (“We the People”)</div><div class="phsub">drop image: <code>GC.05_constitution-page1.jpg</code></div></div><div class="imgtext"><div class="imgcap">The first page of the Constitution opens with the Preamble — 'We the People' — stating the purposes government exists to serve.</div><div class="imgquote">&ldquo;We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.&rdquo; <span class="qa">&mdash; Constitutional Convention, Preamble to the U.S. Constitution (1787)</span></div><div class="imgcite">U.S. Constitution, Page 1 (“We the People”) &middot; Constitutional Convention; engrossed by Jacob Shallus (1787) &middot; U.S. National Archives</div></div></div></div>
       <div class="hook"><span class="lbl">Hook</span>Six goals, one sentence, and it starts with three world-changing words: 'We the People.' What did the Framers promise?</div>
-      <div class="card src" style="flex:1 1 auto;">
-        <div class="ch navy">Primary Source</div>
-        <div class="cb src"><blockquote>&ldquo;We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.&rdquo;</blockquote>
-          <div class="attr"><b>Constitutional Convention</b>, <i>Preamble to the U.S. Constitution</i> (1787)
-          &middot; <span class="repo">National Archives</span></div></div>
-      </div>
     </div>
     <div class="col side">
       <div class="card"><div class="ch gold">Key Vocabulary</div>
@@ -260,13 +247,8 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
   <div class="body">
     <div class="col main">
       <div class="target"><b>Learning target:</b> I can describe limited government within the Constitution, including: checks and balances; civilian control of the military; federalism; judicial review; popular sovereignty; rule of law; separation of powers.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; DOCUMENT</div><div class="phttl">The Federalist, Volume 1 (title page)</div><div class="phsub">drop image: <code>GC.06_federalist-title-page.jpg</code></div></div><div class="imgtext"><div class="imgcap">The Federalist (1788). In No. 51, Madison argued that a government of separated, checking powers is necessary 'because men are not angels' — the logic of limited government.</div><div class="imgquote">&ldquo;If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary… Ambition must be made to counteract ambition.&rdquo; <span class="qa">&mdash; James Madison (Publius), Federalist No. 51 (1788)</span></div><div class="imgcite">The Federalist, Volume 1 (title page) &middot; Alexander Hamilton, James Madison, John Jay ('Publius') (1788) &middot; Library of Congress, Rare Book &amp; Special Collections</div></div></div></div>
       <div class="hook"><span class="lbl">Hook</span>'If men were angels, no government would be necessary.' Since we're not angels, how did Madison design a government to guard against itself?</div>
-      <div class="card src" style="flex:1 1 auto;">
-        <div class="ch navy">Primary Source</div>
-        <div class="cb src"><blockquote>&ldquo;If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary… Ambition must be made to counteract ambition.&rdquo;</blockquote>
-          <div class="attr"><b>James Madison (Publius)</b>, <i>Federalist No. 51</i> (1788)
-          &middot; <span class="repo">Congress.gov / Library of Congress</span></div></div>
-      </div>
     </div>
     <div class="col side">
       <div class="card"><div class="ch gold">Key Vocabulary</div>
@@ -286,13 +268,8 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
   <div class="body">
     <div class="col main">
       <div class="target"><b>Learning target:</b> I can describe the structure of the Constitution and the process to amend it.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128499;</div><div class="phlbl">PRIMARY SOURCE &middot; CARTOON</div><div class="phttl">The Federal Edifice (“The Federal Pillars”)</div><div class="phsub">drop image: <code>GC.07_federal-pillars.jpg</code></div></div><div class="imgtext"><div class="imgcap">The 'Federal Pillars' cartoon (1788) shows states rising as columns of the new structure — a fitting image for the Constitution's architecture and its deliberately hard amendment process.</div><div class="imgquote">&ldquo;The Congress, whenever two thirds of both Houses shall deem it necessary, shall propose Amendments to this Constitution, or… shall call a Convention for proposing Amendments, which… shall be valid… when ratified by the Legislatures of three fourths of the several States.&rdquo; <span class="qa">&mdash; Constitutional Convention, U.S. Constitution, Article V (1787)</span></div><div class="imgcite">The Federal Edifice (“The Federal Pillars”) &middot; Massachusetts Centinel (1788) &middot; Library of Congress, Prints &amp; Photographs Division</div></div></div></div>
       <div class="hook"><span class="lbl">Hook</span>Only 27 changes in more than 230 years. Is the Constitution nearly perfect — or nearly impossible to change? Article V holds the answer.</div>
-      <div class="card src" style="flex:1 1 auto;">
-        <div class="ch navy">Primary Source</div>
-        <div class="cb src"><blockquote>&ldquo;The Congress, whenever two thirds of both Houses shall deem it necessary, shall propose Amendments to this Constitution, or… shall call a Convention for proposing Amendments, which… shall be valid… when ratified by the Legislatures of three fourths of the several States.&rdquo;</blockquote>
-          <div class="attr"><b>Constitutional Convention</b>, <i>U.S. Constitution, Article V</i> (1787)
-          &middot; <span class="repo">National Archives</span></div></div>
-      </div>
     </div>
     <div class="col side">
       <div class="card"><div class="ch gold">Key Vocabulary</div>
@@ -312,13 +289,8 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
   <div class="body">
     <div class="col main">
       <div class="target"><b>Learning target:</b> I can analyze how the Bill of Rights limits the powers of the government and ensures individual rights.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#128220;</div><div class="phlbl">PRIMARY SOURCE &middot; DOCUMENT</div><div class="phttl">The Bill of Rights (engrossed copy)</div><div class="phsub">drop image: <code>GC.08_bill-of-rights.jpg</code></div></div><div class="imgtext"><div class="imgcap">The engrossed Bill of Rights, 1789. The first eight Amendments each draw a boundary government may not cross; the 9th and 10th reserve rights and powers to the people and the states.</div><div class="imgquote">&ldquo;Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.&rdquo; <span class="qa">&mdash; U.S. Congress (Bill of Rights), First Amendment (ratified 1791)</span></div><div class="imgcite">The Bill of Rights (engrossed copy) &middot; 1st U.S. Congress (1789) &middot; U.S. National Archives</div></div></div></div>
       <div class="hook"><span class="lbl">Hook</span>Ten amendments, one purpose: to tell the government what it may NOT do to you. Why did Americans insist on adding them?</div>
-      <div class="card src" style="flex:1 1 auto;">
-        <div class="ch navy">Primary Source</div>
-        <div class="cb src"><blockquote>&ldquo;Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.&rdquo;</blockquote>
-          <div class="attr"><b>U.S. Congress (Bill of Rights)</b>, <i>First Amendment</i> (ratified 1791)
-          &middot; <span class="repo">National Archives</span></div></div>
-      </div>
     </div>
     <div class="col side">
       <div class="card"><div class="ch gold">Key Vocabulary</div>
@@ -338,13 +310,8 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
   <div class="body">
     <div class="col main">
       <div class="target"><b>Learning target:</b> I can define the concepts of democracy and republic and examine the relationship between the two.</div>
+      <div class="card srcimg" style="flex:1 1 auto;"><div class="ch navy">Primary Source</div><div class="cb"><div class="imgph"><div class="ic">&#127894;</div><div class="phlbl">PRIMARY SOURCE &middot; EMBLEM</div><div class="phttl">Great Seal of the United States (obverse)</div><div class="phsub">drop image: <code>GC.09_great-seal.jpg</code></div></div><div class="imgtext"><div class="imgcap">The Great Seal's motto, E Pluribus Unum — 'out of many, one' — captures the constitutional republic: many states and citizens under one representative government limited by law.</div><div class="imgquote">&ldquo;A republic, by which I mean a government in which the scheme of representation takes place… promises the cure for which we are seeking. Let us examine the points in which it varies from pure democracy.&rdquo; <span class="qa">&mdash; James Madison (Publius), Federalist No. 10 (1787)</span></div><div class="imgcite">Great Seal of the United States (obverse) &middot; Charles Thomson &amp; William Barton (design) (1782) &middot; U.S. National Archives / public domain (U.S. government emblem)</div></div></div></div>
       <div class="hook"><span class="lbl">Hook</span>Is the United States a democracy or a republic? The answer is 'both, on purpose' — and it changes how your voice reaches government.</div>
-      <div class="card src" style="flex:1 1 auto;">
-        <div class="ch navy">Primary Source</div>
-        <div class="cb src"><blockquote>&ldquo;A republic, by which I mean a government in which the scheme of representation takes place… promises the cure for which we are seeking. Let us examine the points in which it varies from pure democracy.&rdquo;</blockquote>
-          <div class="attr"><b>James Madison (Publius)</b>, <i>Federalist No. 10</i> (1787)
-          &middot; <span class="repo">Congress.gov / Library of Congress</span></div></div>
-      </div>
     </div>
     <div class="col side">
       <div class="card"><div class="ch gold">Key Vocabulary</div>
