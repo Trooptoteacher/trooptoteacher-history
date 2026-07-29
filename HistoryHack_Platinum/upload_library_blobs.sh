@@ -93,6 +93,29 @@ up "narrative_reader/HH_Unit08_Reader.pdf" "books/unit08/HH_Unit08_Reader.pdf"
 up "narrative_reader/HH_Unit09_Reader.pdf" "books/unit09/HH_Unit09_Reader.pdf"
 up "narrative_reader/HH_Unit10_Reader.pdf" "books/unit10/HH_Unit10_Reader.pdf"
 
+# ── Flight Logs (student companion + teacher answer key) — per unit ──
+# Student log = all roles; teacher key = teacher-only (canAccessTier gate).
+up "flight_logs/HH_Unit01_FlightLog.pdf"    "books/unit01/HH_Unit01_FlightLog.pdf"
+up "flight_logs/HH_Unit01_FlightLogKey.pdf" "books/unit01/HH_Unit01_FlightLogKey.pdf"
+up "flight_logs/HH_Unit02_FlightLog.pdf"    "books/unit02/HH_Unit02_FlightLog.pdf"
+up "flight_logs/HH_Unit02_FlightLogKey.pdf" "books/unit02/HH_Unit02_FlightLogKey.pdf"
+up "flight_logs/HH_Unit03_FlightLog.pdf"    "books/unit03/HH_Unit03_FlightLog.pdf"
+up "flight_logs/HH_Unit03_FlightLogKey.pdf" "books/unit03/HH_Unit03_FlightLogKey.pdf"
+up "flight_logs/HH_Unit04_FlightLog.pdf"    "books/unit04/HH_Unit04_FlightLog.pdf"
+up "flight_logs/HH_Unit04_FlightLogKey.pdf" "books/unit04/HH_Unit04_FlightLogKey.pdf"
+up "flight_logs/HH_Unit05_FlightLog.pdf"    "books/unit05/HH_Unit05_FlightLog.pdf"
+up "flight_logs/HH_Unit05_FlightLogKey.pdf" "books/unit05/HH_Unit05_FlightLogKey.pdf"
+up "flight_logs/HH_Unit06_FlightLog.pdf"    "books/unit06/HH_Unit06_FlightLog.pdf"
+up "flight_logs/HH_Unit06_FlightLogKey.pdf" "books/unit06/HH_Unit06_FlightLogKey.pdf"
+up "flight_logs/HH_Unit07_FlightLog.pdf"    "books/unit07/HH_Unit07_FlightLog.pdf"
+up "flight_logs/HH_Unit07_FlightLogKey.pdf" "books/unit07/HH_Unit07_FlightLogKey.pdf"
+up "flight_logs/HH_Unit08_FlightLog.pdf"    "books/unit08/HH_Unit08_FlightLog.pdf"
+up "flight_logs/HH_Unit08_FlightLogKey.pdf" "books/unit08/HH_Unit08_FlightLogKey.pdf"
+up "flight_logs/HH_Unit09_FlightLog.pdf"    "books/unit09/HH_Unit09_FlightLog.pdf"
+up "flight_logs/HH_Unit09_FlightLogKey.pdf" "books/unit09/HH_Unit09_FlightLogKey.pdf"
+up "flight_logs/HH_Unit10_FlightLog.pdf"    "books/unit10/HH_Unit10_FlightLog.pdf"
+up "flight_logs/HH_Unit10_FlightLogKey.pdf" "books/unit10/HH_Unit10_FlightLogKey.pdf"
+
 # ── Optional extras (upload from their own source) ──
 # Deck answer key → decks/unitNN/HH_UnitNN_DeckAnswerKey.pdf  (platinum has no separate deck key)
 
