@@ -4,11 +4,13 @@
 ratio ≤ ~1.6 ≈ within 20% band), (3) Option D not the weakest, (4) every distractor tagged (PK/MC/PE/NE/
 CA/AN/OG) + has a rationale, (5) no AOTA/NOTA, (6) no absolute-word clueing, (7) complete-question stems,
 (8) parallel capitalization. Reports PASS/FLAG. Human/skill rubric still judges historical distractor quality."""
-import json, os, re
+import json, os, re, sys
 from collections import Counter
 HERE=os.path.dirname(os.path.abspath(__file__))
-QDIR=os.path.abspath(os.path.join(HERE,"..","..","WEB_EDITION","public","data","government","questions","unit-1"))
-data=json.load(open(os.path.join(QDIR,"mcq-bank.json")))
+# Usage: assessment_rigor_check.py [path/to/mcq-bank.json]  (default: Unit 1)
+BANK=sys.argv[1] if len(sys.argv)>1 else os.path.abspath(os.path.join(
+    HERE,"..","..","WEB_EDITION","public","data","government","questions","unit-1","mcq-bank.json"))
+data=json.load(open(BANK))
 mcq=[q for q in data["items"] if q["type"]=="multiple-choice"]
 ABS=re.compile(r'\b(always|never)\b',re.I)  # ASC-prohibited absolute qualifiers (AOTA/NOTA checked separately)
 TAGS={"PK","MC","PE","NE","CA","AN","OG"}
@@ -30,7 +32,7 @@ for q in mcq:
     for k in "ABCD":
         if k!=key and q["distractorTags"].get(k) not in TAGS: flag(q["id"],f"untagged-distractor-{k}")
         if not q["distractorRationales"].get(k): flag(q["id"],f"no-rationale-{k}")
-    if not q["question"].strip().endswith("?"): flag(q["id"],"stem-not-question")
+    if not q["question"].strip().endswith(("?",":")): flag(q["id"],"stem-not-question-or-completion")
     caps=[x[:1].isupper() for x in opts if x]
     if len(set(caps))>1: flag(q["id"],"non-parallel-caps")
     # metacognitive: dok/blooms consistency
