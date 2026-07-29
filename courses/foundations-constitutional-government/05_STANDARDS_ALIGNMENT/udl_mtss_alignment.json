@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "title": "UDL 3.0 + MTSS Alignment Map — Foundations of Constitutional Government",
+    "purpose": "Machine-readable framework layer. Maps every recurring design element in the Government & Civics course to specific CAST UDL 3.0 considerations and MTSS tiers, with on-artifact evidence and a score. Invisible to teacher and student; queryable for district curriculum review and adoption defensibility.",
+    "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0. Lynnfield, MA: Author. https://udlguidelines.cast.org/",
+    "mtss_model": "Tier 1 universal core (all students) · Tier 2 targeted supports · Tier 3 intensive supports, driven by progress-monitoring data.",
+    "scoring": "present_strong = option designed into the artifact; present_weak = present but not yet operational course-wide; absent = single path only.",
+    "principle": "The barrier is in the design of the environment, not the learner. Accommodations are designed in by default, not retrofitted. Firm goals (TN GC standards + SSPs), flexible means."
+  },
+  "udl": {
+    "engagement": {
+      "principle": "Multiple Means of Engagement — the WHY of learning (affective networks).",
+      "guideline_7_welcoming_interests_identities": {
+        "7.1_choice_and_autonomy": {"score": "present_strong", "evidence": ["Response choice on every task: write / say (record) / draw / build.", "“Which Organizer, When” quick guide lets students/teachers choose the thinking tool.", "Assessment response-choice: full form (A–D) or support form (A–B) as an access format, same standard."]},
+        "7.2_relevance_value_authenticity": {"score": "present_strong", "evidence": ["Tennessee Connection on every unit ties national civics to students’ own state/community.", "Verbatim primary sources and real political cartoons, not invented text.", "Provocative real-world hooks open every standard."]},
+        "7.3_joy_and_play": {"score": "present_weak", "evidence": ["Curiosity-driven hooks and ‘spot the bias / your verdict’ challenges.", "GAP: limited game-like/playful mechanics in print; web edition is the venue to strengthen this."]},
+        "7.4_address_biases_threats_distractions": {"score": "present_strong", "evidence": ["Neutral-framing guardrail: no loaded language; ‘Who benefited / Who bore the cost’ instead of winners/losers.", "Judgment is left to the student’s response line, never pre-decided in the design."]}
+      },
+      "guideline_8_sustaining_effort_persistence": {
+        "8.1_clarify_meaning_and_purpose_of_goals": {"score": "present_strong", "evidence": ["Verbatim ‘I can’ learning target on every standard.", "Explicit success criteria (3-part) and cues per standard."]},
+        "8.2_optimize_challenge_and_support": {"score": "present_strong", "evidence": ["Scaffold + Extend columns on every organizer (Tier 2 support and enrichment on the same page).", "DOK range 1–4 per standard; ‘choose your challenge’ CER levels at one firm standard."]},
+        "8.3_collaboration_interdependence": {"score": "present_strong", "evidence": ["Partner-first and ‘talk-first’ scaffolds; discuss options; card-sort collaborative moves in scaffolds."]},
+        "8.4_foster_belonging_and_community": {"score": "present_strong", "evidence": ["‘Whose Voice Counted / Whose Participation Counts’ multiple-perspectives sections surface historically excluded voices.", "Bilingual EN/ES presence signals belonging for multilingual learners."]},
+        "8.5_action_oriented_feedback": {"score": "present_strong", "evidence": ["Check-for-Understanding with answer rationale (the ‘why’), not just a key.", "Progress self-check (‘how sure are you?’); teacher-side reteach; mastery analytics feed next steps."]}
+      },
+      "guideline_9_emotional_capacity": {
+        "9.1_recognize_expectations_beliefs_motivations": {"score": "present_weak", "evidence": ["Predict-first prompts (‘guess who this helped/hurt’) surface prior beliefs before reading.", "GAP: could add explicit belief-check reflection more consistently."]},
+        "9.2_awareness_of_self_and_others": {"score": "present_strong", "evidence": ["Multiple-perspectives framing builds awareness of others’ viewpoints (SSP.03).", "Historical-empathy prompts (SSP.05) ask students to view events as people of the time."]},
+        "9.3_individual_and_collective_reflection": {"score": "present_strong", "evidence": ["CER and ‘your verdict, because…’ reflection lines; progress checks; unit essential-question revisit slide."]},
+        "9.4_empathy_and_restorative_practices": {"score": "present_weak", "evidence": ["Perspective-taking and ‘who was excluded’ framing build empathy.", "GAP: restorative/discussion-norm structures are a teacher-guide opportunity."]}
+      }
+    },
+    "representation": {
+      "principle": "Multiple Means of Representation — the WHAT of learning (recognition networks).",
+      "guideline_1_perception": {
+        "1.1_customize_display_of_information": {"score": "present_strong", "evidence": ["Print-first and digital; ≥9pt type, B&W-safe, WCAG-AA contrast; web edition scales/reflows."]},
+        "1.2_multiple_ways_to_perceive_information": {"score": "present_strong", "evidence": ["Read-aloud-friendly text; primary sources presented as image + text; alt text on every image (bilingual)."]},
+        "1.3_diversity_of_perspectives_and_identities": {"score": "present_strong", "evidence": ["Federalist and Anti-Federalist; enslaved & free Black Americans; women & the unenfranchised; the expanding franchise — named explicitly, not as a single ‘neutral’ narrative."]}
+      },
+      "guideline_2_language_and_symbols": {
+        "2.1_clarify_vocabulary_symbols_structures": {"score": "present_strong", "evidence": ["Frayer vocabulary; per-term definitions in plain language; key-term cues in organizers."]},
+        "2.2_support_decoding": {"score": "present_strong", "evidence": ["Phonetic pronunciation on every vocabulary term; sentence frames; word banks."]},
+        "2.3_understanding_respect_across_languages": {"score": "present_strong", "evidence": ["Bilingual EN/ES vocabulary and alt text on every term and image — designed in, not retrofitted."]},
+        "2.4_address_biases_in_language_and_symbols": {"score": "present_strong", "evidence": ["Neutral-framing substitutions enforced in titles, band labels, prompts, and criteria (guardrail)."]},
+        "2.5_illustrate_through_multiple_media": {"score": "present_strong", "evidence": ["Text + verbatim source + image/cartoon + graphic organizer + slide deck for the same idea."]}
+      },
+      "guideline_3_building_knowledge": {
+        "3.1_connect_prior_knowledge": {"score": "present_strong", "evidence": ["K-W-L reproducible; hooks activate prior knowledge; ‘predict first’ prompts."]},
+        "3.2_highlight_patterns_big_ideas_relationships": {"score": "present_strong", "evidence": ["Essential question per unit; concept webs and comparison matrices; cause-effect chains."]},
+        "3.3_cultivate_multiple_ways_of_knowing": {"score": "present_strong", "evidence": ["Primary vs. secondary source work; multiple perspectives; disciplinary practices (SSP.01–06)."]},
+        "3.4_maximize_transfer_and_generalization": {"score": "present_weak", "evidence": ["CER and unit DBQ require transfer; cross-standard synthesis.", "GAP: explicit cross-unit spiral/interleaving to be strengthened as units 3–7 build out."]}
+      }
+    },
+    "action_expression": {
+      "principle": "Multiple Means of Action & Expression — the HOW of learning (strategic networks).",
+      "guideline_4_interaction": {
+        "4.1_vary_methods_for_response_navigation": {"score": "present_strong", "evidence": ["Write / say / draw / build response on every task; movement via card-sorts and gallery moves in scaffolds."]},
+        "4.2_access_to_assistive_and_accessible_tech": {"score": "present_strong", "evidence": ["Digital format is screen-reader compatible; images carry alt text; print is high-contrast/B&W-safe.", "Web edition designed for keyboard and AT access."]}
+      },
+      "guideline_5_expression_and_communication": {
+        "5.1_use_multiple_media_for_communication": {"score": "present_strong", "evidence": ["Students may express mastery in writing, speech (recorded), drawing, or a built product."]},
+        "5.2_tools_for_construction_and_creativity": {"score": "present_strong", "evidence": ["The full graphic-organizer toolkit; CER frames; DBQ; concept webs as construction tools."]},
+        "5.3_graduated_support_for_practice_and_performance": {"score": "present_strong", "evidence": ["Sentence starters and word banks → partner practice → independent performance; support-form items."]},
+        "5.4_address_biases_in_modes_of_expression": {"score": "present_strong", "evidence": ["Response choice removes the single-mode penalty; reduced-choice (A–B) is labeled an access format at the same standard, not a lower expectation."]}
+      },
+      "guideline_6_strategy_development": {
+        "6.1_set_meaningful_goals": {"score": "present_strong", "evidence": ["‘I can’ targets + success criteria make the goal explicit and student-facing."]},
+        "6.2_anticipate_and_plan_for_challenges": {"score": "present_strong", "evidence": ["Scaffold column anticipates common barriers; ‘Which Organizer, When’ plans tool choice for a task."]},
+        "6.3_organize_information_and_resources": {"score": "present_strong", "evidence": ["The graphic-organizer toolkit is a dedicated Strategy-Development instrument (Venn, matrix, CER, HIPPO, timeline, concept web, etc.)."]},
+        "6.4_enhance_capacity_for_monitoring_progress": {"score": "present_strong", "evidence": ["Check-for-Understanding + progress self-check + mastery analytics (standard mastery, DOK weighting, remediation triggers)."]},
+        "6.5_challenge_exclusionary_practices": {"score": "present_strong", "evidence": ["Reduced-choice as access (never a lowered ceiling); bilingual by default; multiple perspectives; neutral framing — all designed to widen access, not track students down."]}
+      }
+    }
+  },
+  "mtss": {
+    "tier_1_universal": {
+      "description": "The platinum core instruction itself is Tier 1: UDL-embedded, all students, firm TN GC standard + SSP goals.",
+      "evidence": ["Every lesson is print + digital, bilingual, neutral-framed, with response choice and success criteria.", "Primary-source-based inquiry with graphic-organizer support for all learners."]
+    },
+    "tier_2_targeted": {
+      "description": "Same standard, added support for learners who need it — designed into the page, not a separate worksheet.",
+      "evidence": ["Scaffold column: sentence frames, word banks, partner-first, card-sorts.", "Support-form (A–B) assessment items keep the correct answer + one strong distractor.", "Frayer vocabulary and pronunciation guides for language demand."]
+    },
+    "tier_3_intensive": {
+      "description": "Most-scaffolded pathway and teacher-directed reteach for learners needing intensive support.",
+      "evidence": ["Teacher-side reteach / priority-teaching guidance in the Teacher Guide.", "Most-supported response mode (say/draw/build) available at the same standard.", "1:1 conferring prompts and re-teach triggers surfaced by the mastery model."]
+    },
+    "progress_monitoring": {
+      "description": "The data layer that drives MTSS tier decisions.",
+      "evidence": ["Per-standard Check-for-Understanding with DOK tags.", "Mastery analytics: standard-level mastery, DOK 3–4 weighting, remediation triggers, spiral interleaving.", "Formative question banks with psychometric metadata for pre-field-test analysis."]
+    }
+  },
+  "design_contract": [
+    "Every activity offers a firm goal (the TN GC standard + SSP) and at least two flexible means to reach it.",
+    "Every writable task offers response choice (write / say / draw / build).",
+    "Every vocabulary term carries a plain-language definition, pronunciation, and an EN/ES gloss.",
+    "Every image carries bilingual alt text; every page is print + digital, B&W-safe, WCAG-AA.",
+    "Every page carries a Scaffold (Tier 2) and an Extend option without lowering the standard’s ceiling.",
+    "Framing is neutral in titles, labels, prompts, and criteria; judgment is left to the student.",
+    "Multiple perspectives and historically excluded voices are named, not flattened into one ‘neutral’ narrative.",
+    "Reduced-choice and language supports are access formats at the same standard — never IEP modification labeled as UDL."
+  ],
+  "defensibility": {
+    "IEP": "Accommodations (extended response modes, read-aloud, reduced-choice access format, graphic-organizer support) are designed into the core materials by default, satisfying least-restrictive-environment expectations without a separate retrofit.",
+    "504": "Access features (high-contrast print, digital reflow, AT-compatible digital, pronunciation and language supports) are universal, not conditional on a plan.",
+    "WIDA": "Bilingual EN/ES vocabulary and alt text, sentence frames, word banks, and multimodal representation support multilingual learners across WIDA levels while holding the same content standard.",
+    "GT": "Extend options, DOK 3–4 tasks, honors prompts, and open inquiry raise the ceiling for gifted/talented learners within the same lesson.",
+    "boundary": "UDL never lowers the ceiling on a TN GC standard or drops an SSP. Anything that would change the skill assessed is IEP modification and is routed separately, not labeled UDL."
+  }
+}
