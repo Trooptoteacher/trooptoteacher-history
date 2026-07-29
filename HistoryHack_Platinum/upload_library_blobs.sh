@@ -79,9 +79,22 @@ up "deliverables_unit10/Unit10_Teacher_HowToUse_and_MTSS_Guide.pdf" "books/unit1
 up "deliverables_unit10/Unit10_Teacher_Deck_CourseStandard.pptx" "decks/unit10/HH_Unit10_LectureDeck.pptx"
 up "deliverables_unit10/Unit10_Student_Deck_CourseStandard.pptx" "decks/unit10/HH_Unit10_StudentDeck.pptx"
 
-# ── NOT in the Course Standard deliverables set (upload from their own source) ──
-# Narrative textbook  → books/unitNN/HH_UnitNN_Reader.pdf   (from the narrative-textbook repo)
-# Deck answer key      → decks/unitNN/HH_UnitNN_DeckAnswerKey.pdf   (optional; platinum has no separate deck key)
+# ── Narrative textbook (Reader) — dropped into narrative_reader/ per unit ──
+# Each unit's Reader is served on its own Library card (no whole-course slot).
+# Files that aren't present are SKIPped, so partial drops are safe.
+up "narrative_reader/HH_Unit01_Reader.pdf" "books/unit01/HH_Unit01_Reader.pdf"
+up "narrative_reader/HH_Unit02_Reader.pdf" "books/unit02/HH_Unit02_Reader.pdf"
+up "narrative_reader/HH_Unit03_Reader.pdf" "books/unit03/HH_Unit03_Reader.pdf"
+up "narrative_reader/HH_Unit04_Reader.pdf" "books/unit04/HH_Unit04_Reader.pdf"
+up "narrative_reader/HH_Unit05_Reader.pdf" "books/unit05/HH_Unit05_Reader.pdf"
+up "narrative_reader/HH_Unit06_Reader.pdf" "books/unit06/HH_Unit06_Reader.pdf"
+up "narrative_reader/HH_Unit07_Reader.pdf" "books/unit07/HH_Unit07_Reader.pdf"
+up "narrative_reader/HH_Unit08_Reader.pdf" "books/unit08/HH_Unit08_Reader.pdf"
+up "narrative_reader/HH_Unit09_Reader.pdf" "books/unit09/HH_Unit09_Reader.pdf"
+up "narrative_reader/HH_Unit10_Reader.pdf" "books/unit10/HH_Unit10_Reader.pdf"
+
+# ── Optional extras (upload from their own source) ──
+# Deck answer key → decks/unitNN/HH_UnitNN_DeckAnswerKey.pdf  (platinum has no separate deck key)
 
 echo "Done. After upload, set LIBRARY_READER_ENABLED=true and LECTURE_DECKS_ENABLED=true,"
 echo "and extend DECK_AVAILABLE_UNITS / LIBRARY availability to the uploaded units."
