@@ -1,0 +1,729 @@
+{
+  "disclosure": "Assessment items are classroom-formative · pre-field-test.",
+  "formative": {
+    "GC.01": [
+      {
+        "stem": "Which idea from John Locke did the American colonists rely on most directly to justify self-government?",
+        "std": "GC.01",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Natural rights that government exists to protect"
+          },
+          {
+            "id": "B",
+            "text": "The divine right of kings to rule alone"
+          },
+          {
+            "id": "C",
+            "text": "The economic theory of laissez-faire markets"
+          },
+          {
+            "id": "D",
+            "text": "The military duty of every free citizen"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Re-anchor on Locke's Second Treatise; re-teach natural rights + social contract."
+      }
+    ],
+    "GC.02": [
+      {
+        "stem": "How does the Declaration of Independence justify the colonies' break from Britain?",
+        "std": "GC.02",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "By blaming the colonists for the whole conflict"
+          },
+          {
+            "id": "B",
+            "text": "By listing the king's abuses of colonists' rights"
+          },
+          {
+            "id": "C",
+            "text": "By promising to restore the monarchy's power"
+          },
+          {
+            "id": "D",
+            "text": "By offering to pay Britain for its losses"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Re-read the Declaration's preamble; connect grievances to the argument for separation."
+      }
+    ],
+    "GC.03": [
+      {
+        "stem": "What was the main weakness of the national government under the Articles of Confederation?",
+        "std": "GC.03",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "It gave the president too much military authority"
+          },
+          {
+            "id": "B",
+            "text": "It abolished the separate state governments completely"
+          },
+          {
+            "id": "C",
+            "text": "It could not tax the states or citizens"
+          },
+          {
+            "id": "D",
+            "text": "It let one state pass laws by itself"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Review the Articles' lack of taxing power and Shays's Rebellion."
+      }
+    ],
+    "GC.04": [
+      {
+        "stem": "How did the Great Compromise resolve the dispute between large and small states?",
+        "std": "GC.04",
+        "dok": 3,
+        "choices": [
+          {
+            "id": "A",
+            "text": "It gave each state a single equal vote in the Congress"
+          },
+          {
+            "id": "B",
+            "text": "It removed the smallest states from the newly formed Union"
+          },
+          {
+            "id": "C",
+            "text": "It let the very largest states control both of the houses"
+          },
+          {
+            "id": "D",
+            "text": "It based the House on population and the Senate on equality"
+          }
+        ],
+        "key": "D",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Compare the Virginia and New Jersey Plans; re-teach the Great Compromise."
+      }
+    ],
+    "GC.05": [
+      {
+        "stem": "What does the phrase 'We the People' in the Preamble establish about government?",
+        "std": "GC.05",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "That authority comes from the people themselves"
+          },
+          {
+            "id": "B",
+            "text": "That the courts decide every national question"
+          },
+          {
+            "id": "C",
+            "text": "That the president leads the federal government"
+          },
+          {
+            "id": "D",
+            "text": "That the states hold all the governing power"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Re-read the Preamble; list its six purposes and 'We the People'."
+      }
+    ],
+    "GC.06": [
+      {
+        "stem": "Madison wrote that 'ambition must be made to counteract ambition.' Which design does this describe?",
+        "std": "GC.06",
+        "dok": 3,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Popular sovereignty exercised through regular elections"
+          },
+          {
+            "id": "B",
+            "text": "Checks and balances among the three branches"
+          },
+          {
+            "id": "C",
+            "text": "Federal power divided between nation and states"
+          },
+          {
+            "id": "D",
+            "text": "The difficult process for amending the document"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Re-teach separation of powers + checks and balances with Federalist 51."
+      }
+    ],
+    "GC.07": [
+      {
+        "stem": "Why did the Framers make the amendment process in Article V deliberately difficult?",
+        "std": "GC.07",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "To give the president control over amendments"
+          },
+          {
+            "id": "B",
+            "text": "To keep the Constitution from ever being changed"
+          },
+          {
+            "id": "C",
+            "text": "To allow change only with broad national agreement"
+          },
+          {
+            "id": "D",
+            "text": "To let a single state change it on its own"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Walk through Article V's two-step amendment process."
+      }
+    ],
+    "GC.08": [
+      {
+        "stem": "Why does the First Amendment phrase its protections as limits on Congress ('shall make no law')?",
+        "std": "GC.08",
+        "dok": 3,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Because Congress creates the rights it can remove"
+          },
+          {
+            "id": "B",
+            "text": "Because courts alone define the people's freedoms"
+          },
+          {
+            "id": "C",
+            "text": "Because only the states may protect these rights"
+          },
+          {
+            "id": "D",
+            "text": "Because rights precede government, which cannot violate them"
+          }
+        ],
+        "key": "D",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Re-teach the Bill of Rights as limits on government; 1st and 10th Amendments."
+      }
+    ],
+    "GC.09": [
+      {
+        "stem": "What best distinguishes a republic from a direct democracy?",
+        "std": "GC.09",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Citizens elect representatives to make the laws"
+          },
+          {
+            "id": "B",
+            "text": "A single monarch inherits and holds the power"
+          },
+          {
+            "id": "C",
+            "text": "Citizens vote directly on every proposed law"
+          },
+          {
+            "id": "D",
+            "text": "The states act as fully independent nations"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Contrast a republic and a direct democracy using Federalist 10."
+      }
+    ]
+  },
+  "formA": [
+    {
+      "stem": "Which idea from John Locke did the American colonists rely on most directly to justify self-government?",
+      "std": "GC.01",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Natural rights that government exists to protect"
+        },
+        {
+          "id": "B",
+          "text": "The divine right of kings to rule alone"
+        },
+        {
+          "id": "C",
+          "text": "The economic theory of laissez-faire markets"
+        },
+        {
+          "id": "D",
+          "text": "The military duty of every free citizen"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-anchor on Locke's Second Treatise; re-teach natural rights + social contract."
+    },
+    {
+      "stem": "How does the Declaration of Independence justify the colonies' break from Britain?",
+      "std": "GC.02",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "By blaming the colonists for the whole conflict"
+        },
+        {
+          "id": "B",
+          "text": "By listing the king's abuses of colonists' rights"
+        },
+        {
+          "id": "C",
+          "text": "By promising to restore the monarchy's power"
+        },
+        {
+          "id": "D",
+          "text": "By offering to pay Britain for its losses"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-read the Declaration's preamble; connect grievances to the argument for separation."
+    },
+    {
+      "stem": "What was the main weakness of the national government under the Articles of Confederation?",
+      "std": "GC.03",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "It gave the president too much military authority"
+        },
+        {
+          "id": "B",
+          "text": "It abolished the separate state governments completely"
+        },
+        {
+          "id": "C",
+          "text": "It could not tax the states or citizens"
+        },
+        {
+          "id": "D",
+          "text": "It let one state pass laws by itself"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Review the Articles' lack of taxing power and Shays's Rebellion."
+    },
+    {
+      "stem": "How did the Great Compromise resolve the dispute between large and small states?",
+      "std": "GC.04",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "It gave each state a single equal vote in the Congress"
+        },
+        {
+          "id": "B",
+          "text": "It removed the smallest states from the newly formed Union"
+        },
+        {
+          "id": "C",
+          "text": "It let the very largest states control both of the houses"
+        },
+        {
+          "id": "D",
+          "text": "It based the House on population and the Senate on equality"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Compare the Virginia and New Jersey Plans; re-teach the Great Compromise."
+    },
+    {
+      "stem": "What does the phrase 'We the People' in the Preamble establish about government?",
+      "std": "GC.05",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "That authority comes from the people themselves"
+        },
+        {
+          "id": "B",
+          "text": "That the courts decide every national question"
+        },
+        {
+          "id": "C",
+          "text": "That the president leads the federal government"
+        },
+        {
+          "id": "D",
+          "text": "That the states hold all the governing power"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-read the Preamble; list its six purposes and 'We the People'."
+    },
+    {
+      "stem": "Madison wrote that 'ambition must be made to counteract ambition.' Which design does this describe?",
+      "std": "GC.06",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Popular sovereignty exercised through regular elections"
+        },
+        {
+          "id": "B",
+          "text": "Checks and balances among the three branches"
+        },
+        {
+          "id": "C",
+          "text": "Federal power divided between nation and states"
+        },
+        {
+          "id": "D",
+          "text": "The difficult process for amending the document"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-teach separation of powers + checks and balances with Federalist 51."
+    },
+    {
+      "stem": "Why did the Framers make the amendment process in Article V deliberately difficult?",
+      "std": "GC.07",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "To give the president control over amendments"
+        },
+        {
+          "id": "B",
+          "text": "To keep the Constitution from ever being changed"
+        },
+        {
+          "id": "C",
+          "text": "To allow change only with broad national agreement"
+        },
+        {
+          "id": "D",
+          "text": "To let a single state change it on its own"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Walk through Article V's two-step amendment process."
+    },
+    {
+      "stem": "Why does the First Amendment phrase its protections as limits on Congress ('shall make no law')?",
+      "std": "GC.08",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Because Congress creates the rights it can remove"
+        },
+        {
+          "id": "B",
+          "text": "Because courts alone define the people's freedoms"
+        },
+        {
+          "id": "C",
+          "text": "Because only the states may protect these rights"
+        },
+        {
+          "id": "D",
+          "text": "Because rights precede government, which cannot violate them"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-teach the Bill of Rights as limits on government; 1st and 10th Amendments."
+    },
+    {
+      "stem": "What best distinguishes a republic from a direct democracy?",
+      "std": "GC.09",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Citizens elect representatives to make the laws"
+        },
+        {
+          "id": "B",
+          "text": "A single monarch inherits and holds the power"
+        },
+        {
+          "id": "C",
+          "text": "Citizens vote directly on every proposed law"
+        },
+        {
+          "id": "D",
+          "text": "The states act as fully independent nations"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Contrast a republic and a direct democracy using Federalist 10."
+    }
+  ],
+  "formB": [
+    {
+      "stem": "Locke's idea that people are born with rights to life, liberty, and property is called:",
+      "std": "GC.01",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "natural rights"
+        },
+        {
+          "id": "B",
+          "text": "the divine right of kings"
+        },
+        {
+          "id": "C",
+          "text": "popular sovereignty"
+        },
+        {
+          "id": "D",
+          "text": "judicial review"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-anchor on Locke's Second Treatise; re-teach natural rights + social contract."
+    },
+    {
+      "stem": "The Declaration of Independence was written mainly to:",
+      "std": "GC.02",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "create the U.S. Congress"
+        },
+        {
+          "id": "B",
+          "text": "justify the colonies' separation from Britain"
+        },
+        {
+          "id": "C",
+          "text": "end slavery in the colonies"
+        },
+        {
+          "id": "D",
+          "text": "declare war on France"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-read the Declaration's preamble; connect grievances to the argument for separation."
+    },
+    {
+      "stem": "A key weakness of the Articles of Confederation was that the national government could not:",
+      "std": "GC.03",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "sign treaties abroad"
+        },
+        {
+          "id": "B",
+          "text": "declare war on enemies"
+        },
+        {
+          "id": "C",
+          "text": "tax the states or citizens"
+        },
+        {
+          "id": "D",
+          "text": "operate a post office"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Review the Articles' lack of taxing power and Shays's Rebellion."
+    },
+    {
+      "stem": "The Virginia and New Jersey Plans disagreed most about:",
+      "std": "GC.04",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "the president's term length"
+        },
+        {
+          "id": "B",
+          "text": "whether to add a Bill of Rights"
+        },
+        {
+          "id": "C",
+          "text": "the date slavery would end"
+        },
+        {
+          "id": "D",
+          "text": "how states would be represented in Congress"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Compare the Virginia and New Jersey Plans; re-teach the Great Compromise."
+    },
+    {
+      "stem": "The Preamble's phrase 'promote the general Welfare' names a:",
+      "std": "GC.05",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "purpose of the government"
+        },
+        {
+          "id": "B",
+          "text": "branch of the government"
+        },
+        {
+          "id": "C",
+          "text": "constitutional amendment"
+        },
+        {
+          "id": "D",
+          "text": "power of the courts"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-read the Preamble; list its six purposes and 'We the People'."
+    },
+    {
+      "stem": "Separation of powers divides the federal government into:",
+      "std": "GC.06",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "two houses"
+        },
+        {
+          "id": "B",
+          "text": "three branches"
+        },
+        {
+          "id": "C",
+          "text": "fifty states"
+        },
+        {
+          "id": "D",
+          "text": "nine courts"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-teach separation of powers + checks and balances with Federalist 51."
+    },
+    {
+      "stem": "A new amendment is formally added to the Constitution through:",
+      "std": "GC.07",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "one Supreme Court ruling"
+        },
+        {
+          "id": "B",
+          "text": "a single presidential order"
+        },
+        {
+          "id": "C",
+          "text": "the Article V process"
+        },
+        {
+          "id": "D",
+          "text": "a single state's vote"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Walk through Article V's two-step amendment process."
+    },
+    {
+      "stem": "The Tenth Amendment reserves undelegated powers to the:",
+      "std": "GC.08",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Congress only"
+        },
+        {
+          "id": "B",
+          "text": "president alone"
+        },
+        {
+          "id": "C",
+          "text": "federal courts"
+        },
+        {
+          "id": "D",
+          "text": "states and the people"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-teach the Bill of Rights as limits on government; 1st and 10th Amendments."
+    },
+    {
+      "stem": "In a representative democracy, laws are made by:",
+      "std": "GC.09",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "elected representatives"
+        },
+        {
+          "id": "B",
+          "text": "the people voting on each law"
+        },
+        {
+          "id": "C",
+          "text": "a single monarch"
+        },
+        {
+          "id": "D",
+          "text": "the military"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Contrast a republic and a direct democracy using Federalist 10."
+    }
+  ]
+}
