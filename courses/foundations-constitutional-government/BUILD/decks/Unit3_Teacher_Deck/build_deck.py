@@ -220,9 +220,13 @@ for c in ORDER:
         mark = " &check;" if k == cfu["key"] else ""
         opts += f'<div class="opt{keycls}"><span class="k">{k}{mark}</span><span>{esc(cfu["options"][k])}</span></div>'
     repo = src.get("repo", "")
+    tn = s.get("tn_connection")
+    tn_chip = '<span class="chip" style="background:var(--gold);color:var(--navy)">&#9733; Tennessee</span>' if tn else ""
+    tnotes = (f'<b>&#9733; Tennessee</b><span>{esc(tn)}</span>' if tn else
+              '<b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span>')
     slide(f"""
   <div class="shead"><div class="l"><div class="kick">{esc(c)} &middot; {esc(s['civic_label'])}</div><h2>{esc(s['title'])}</h2></div>
-    <div class="r"><span class="chip">{esc(c)}</span><span class="chip ssp">{esc(s['ssp_focus'])}</span></div></div>
+    <div class="r"><span class="chip">{esc(c)}</span><span class="chip ssp">{esc(s['ssp_focus'])}</span>{tn_chip}</div></div>
   <div class="body">
     <div class="col main">
       <div class="target"><b>Learning target:</b> {esc(s['target'])}</div>
@@ -240,7 +244,7 @@ for c in ORDER:
           <div class="ans"><b>Answer: {esc(cfu['key'])}.</b> {esc(cfu['why'])}</div></div></div>
     </div>
   </div>
-  <div class="tnotes"><b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span></div>
+  <div class="tnotes">{tnotes}</div>
 """, pageno=str(pg))
     pg += 1
 

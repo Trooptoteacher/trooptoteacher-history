@@ -399,6 +399,13 @@ S["GC.15"] = std(
   hook="The Constitution never says Congress can create an air force, a national bank, or the interstate highways — yet it did all three. Where does that power come from?",
   civic_label="POWERS OF CONGRESS", ssp_focus="SSP.02", ref=REF)
 
+# Per-standard Tennessee highlights — ONLY where the TN tie is part of the standard itself.
+S["GC.11"]["tn_connection"] = ("A Tennessee case named in this standard: Baker v. Carr (1962) began with Charles Baker, "
+    "a voter from Shelby County (Memphis). Tennessee's districts — unchanged since 1901 — had made a Memphis vote worth "
+    "about one-eighth of a rural vote, and the ruling opened the door to 'one person, one vote.'")
+S["GC.14"]["tn_connection"] = ("This standard is Tennessee: it asks you to name your own members of Congress. Tennessee sends "
+    "two U.S. Senators who represent the whole state, plus a House delegation set by population — find the ones who represent you.")
+
 order = ["GC.35", "GC.10", "GC.11", "GC.12", "GC.13", "GC.14", "GC.15"]
 doc = {"unit": unit, "order": order, "standards": S}
 blob = json.dumps(doc, ensure_ascii=False)
