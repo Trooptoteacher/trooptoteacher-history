@@ -44,7 +44,7 @@ auth{close, tdq[3], frayer[2], quiz[1], cer} · std_source · target · criteria
 - Theme: "Teachers power our progress, not technology." SAMR honesty (print when print is best).
 - Nothing claims state/waiver approval where external review is pending.
 - **TCA legally-required flag: GC.08 only** (T.C.A. § 49-6-1028), per the authoritative source. Other (T) tags = Tennessee *dimension*, not a legal mandate. Course-level compliance also cites T.C.A. §§ 49-6-1011, 49-6-1014 (Freedom Week) and 36 U.S. Code § 106.
-- **Never print "WCS"**: the "I can" targets come from the WCS instructional-guide column and WCS-local references (e.g., "Williamson County" in GC.29) — carry the target text, never the WCS label, and generalize local references on student-facing surfaces.
+- **NEVER mention "WCS" anywhere — in content, teacher materials, matrices, or the site (author-confirmed, absolute).** The "I can" targets originate from the WCS instructional-guide column and contain WCS-local references (e.g., "Williamson County" in GC.29). Carry the target *text* only; strip the WCS label entirely and generalize local references ("your county/district") on every surface. preflight fails on any "WCS".
 
 ## preflight.py — 11 release checks (must pass before packaging)
 standards verbatim · no answer leak (student side) · de-biased keys · citations + alt text ·
