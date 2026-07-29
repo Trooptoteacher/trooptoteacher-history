@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Reproducible generator: Standards Alignment Matrix + Scope & Sequence (HTML, print-first).
 Source of truth: government_standards_source.json (verbatim GC + SSP). Never invents standards.
-Design tokens mirror the History Hack US-History matrix (navy #1B2A4A / gold #C9A227).
+Design tokens mirror the Government Hack US-History matrix (navy #1B2A4A / gold #C9A227).
 Never emits the source-district label. © 2026 TroopToTeacher Technologies LLC."""
 import json, os, html
 
@@ -95,7 +95,7 @@ def build_matrix():
     b=[]
     b.append("<h1>TENNESSEE STANDARDS ALIGNMENT MATRIX</h1>")
     b.append("<h2>Foundations of Constitutional Government · United States Government &amp; Civics (GC)</h2>")
-    b.append("<h3>History Hack Course Series | TroopToTeacher Technologies LLC</h3>")
+    b.append("<h3>Government Hack Course Series | TroopToTeacher Technologies LLC</h3>")
     b.append("<blockquote><p><strong>GATEWAY DOCUMENT — STANDARDS ALIGNMENT.</strong> Standard codes and text are "
       "<strong>verbatim</strong> from the Tennessee Academic Standards for the United States Government &amp; Civics (GC) "
       "course as supplied in the author's instructional source; dimension tags (C, E, G, H, P, T, TCA) are part of the standard. "

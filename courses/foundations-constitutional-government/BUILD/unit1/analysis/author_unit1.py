@@ -427,7 +427,7 @@ out=dict(
     publisher="TroopToTeacher Technologies LLC",
     footer="Foundations of Constitutional Government · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards (GC) · Supplemental under TCA § 49-6-2202(a)(3)",
     perspectives_title="Whose Voice Counted? Perspectives on the Founding",
-    perspectives_intro="This section complicates the founding narrative: whose interests the new government served, who was left out, and who organized in response. It is History Hack–authored instructional synthesis grounded in this unit's sourced record — not a primary source.",
+    perspectives_intro="This section complicates the founding narrative: whose interests the new government served, who was left out, and who organized in response. It is Government Hack–authored instructional synthesis grounded in this unit's sourced record — not a primary source.",
     perspectives=[
       ["Federalists","Argued for a stronger national union and ratification; Madison and Hamilton defended checks and balances and the large republic in the Federalist Papers (GC.04, GC.06)."],
       ["Anti-Federalists","Feared a distant, too-powerful central government and refused to ratify without a Bill of Rights to protect individual liberty (GC.04, GC.08)."],

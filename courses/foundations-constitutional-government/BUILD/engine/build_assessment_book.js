@@ -37,12 +37,12 @@ function studentForm(title,items,{brk=true}={}){const out=[H(title,1,{brk})];
 const header=new Header({children:[P(R(`${U.course_name} · ${U.code} · Assessment Book (Teacher)`,{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
 const footer=new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,children:[R(`${U.course_name} · ${U.code} (Course Standard) © 2026 TroopToTeacher Technologies LLC   |   Page `,{s:16,c:GREY}),new TextRun({children:[PageNumber.CURRENT],size:16,color:GREY,font:FONT})]})]});
 const cover=[
- new Paragraph({spacing:{before:1400,after:0},children:[R('U.S. HISTORY HACK™',{s:30,b:true,c:GOLD})]}),
+ new Paragraph({spacing:{before:1400,after:0},children:[R('U.S. GOVERNMENT HACK™',{s:30,b:true,c:GOLD})]}),
  new Paragraph({spacing:{after:0},children:[R('Unit Assessment Book',{s:52,b:true,c:NAVY})]}),
  new Paragraph({spacing:{after:200},children:[R(`${U.code} — ${U.title}  ·  Teacher Edition`,{s:26})]}),
  callout('HOW TO USE THIS BOOK',[
    'Three parts: (1) Formative Checkpoints — a short check per standard for progress monitoring (MTSS); (2) Unit Summative — two parallel forms (A and B) for pre/post or retakes; (3) Teacher Answer Key + Item Analysis + Reteach.',
-   'All items are pulled from the History Hack question bank. '+A.disclosure,
+   'All items are pulled from the Government Hack question bank. '+A.disclosure,
    'Administering these forms is what generates the response data to CALIBRATE the pre-calibrated items — the first cycle of use closes the loop.',
    'Keys and reteach live in this teacher book only — reproduce the student sections (formative + Form A/B) without the key section.']),
  H('Contents',1), new TableOfContents('Contents',{hyperlink:true,headingStyleRange:'1-1'}),

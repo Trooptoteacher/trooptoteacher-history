@@ -116,11 +116,11 @@ const GUIDE=grid(['When the task asks students to…','Reach for…','Why it wor
 ],[3400,2600,3648],2);
 
 // ---------- ASSEMBLE ----------
-const header=new Header({children:[P(R('History Hack™ · Unit 1 · Teacher Graphic Organizer Toolkit',{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
-const footer=new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:0},children:[R('History Hack™ · Unit 1 (Course Standard) © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:16,c:GREY}),new TextRun({children:[PageNumber.CURRENT],size:16,color:GREY,font:FONT})]})]});
+const header=new Header({children:[P(R('Government Hack™ · Unit 1 · Teacher Graphic Organizer Toolkit',{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
+const footer=new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:0},children:[R('Government Hack™ · Unit 1 (Course Standard) © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:16,c:GREY}),new TextRun({children:[PageNumber.CURRENT],size:16,color:GREY,font:FONT})]})]});
 
 const cover=[
- new Paragraph({spacing:{before:1400,after:0},children:[R('HISTORY HACK™',{s:30,b:true,c:GOLD})]}),
+ new Paragraph({spacing:{before:1400,after:0},children:[R('GOVERNMENT HACK™',{s:30,b:true,c:GOLD})]}),
  new Paragraph({spacing:{after:0},children:[R('Teacher Graphic Organizer Toolkit',{s:52,b:true,c:NAVY})]}),
  new Paragraph({spacing:{after:200},children:[R('Unit 1 — Foundations of Constitutional Government  ·  Reproducible',{s:26,c:INK})]}),
  callout('WHY THIS TOOLKIT',['Knowing WHICH organizer to use, and WHEN, is half the battle. This toolkit tells you — with a brief why for each — then gives you reproducible blanks (Part 1) and Unit 1 ready-to-print, pre-labeled organizers (Part 2). Tennessee connections are highlighted throughout; the local-to-national move is a HistoryHack signature and a point of difference for our classrooms.']),

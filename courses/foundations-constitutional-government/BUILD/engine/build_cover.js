@@ -50,7 +50,7 @@ function buildCover(spec){
     new ImageRun({data:fs.readFileSync(_hero),transformation:{width:560,height:400},altText:{title:'Cover image',description:'Course cover',name:'cover'}})]}):new Paragraph({spacing:{after:120},children:[R('',{s:2})]});
   // FRONT
   const front=fullPanel([
-    P(R('HISTORY HACK™',{s:30,b:true,c:GOLD,caps:true}),{align:AlignmentType.CENTER,spacing:{after:26}}),
+    P(R('GOVERNMENT HACK™',{s:30,b:true,c:GOLD,caps:true}),{align:AlignmentType.CENTER,spacing:{after:26}}),
     bandBar('COURSE STANDARD  ·  PLATINUM EDITION',RED,WHITE,17),
     P(R('',{s:10}),{spacing:{after:170}}),
     P(R(C.unit.cover_title_lines[0],{s:40,b:true,c:WHITE,caps:true}),{align:AlignmentType.CENTER,spacing:{after:0}}),
@@ -70,7 +70,7 @@ function buildCover(spec){
     textDirection:TextDirection.BOTTOM_TO_TOP_LEFT_TO_RIGHT,shading:{type:ShadingType.CLEAR,fill:NAVY,color:'auto'},borders:noB,
     margins:{top:200,bottom:200,left:60,right:60},
     children:[new Paragraph({alignment:AlignmentType.CENTER,children:[
-      R('U.S. HISTORY HACK™   ',{s:26,b:true,c:GOLD,caps:true}),
+      R('U.S. GOVERNMENT HACK™   ',{s:26,b:true,c:GOLD,caps:true}),
       R('Unit 1 — Foundations of Constitutional Government      ',{s:22,b:true,c:WHITE}),
       R(`${spec.designation}   ·   TroopToTeacher Technologies LLC`,{s:18,b:true,c:GOLD})]})]});
   const spine=new Table({width:{size:900,type:WidthType.DXA},alignment:AlignmentType.CENTER,columnWidths:[900],
@@ -83,7 +83,7 @@ function buildCover(spec){
   ];
   // BACK
   const backTop=fullPanel([
-    P(R('U.S. HISTORY HACK™',{s:22,b:true,c:GOLD,caps:true}),{align:AlignmentType.CENTER,spacing:{after:20}}),
+    P(R('U.S. GOVERNMENT HACK™',{s:22,b:true,c:GOLD,caps:true}),{align:AlignmentType.CENTER,spacing:{after:20}}),
     P(R(spec.backHeadline,{s:26,b:true,c:WHITE}),{align:AlignmentType.CENTER,spacing:{after:40}}),
     P(R(`Unit 1 — Foundations of Constitutional Government  ·  ${spec.audience}`,{s:19,i:true,c:WHITE}),{align:AlignmentType.CENTER,spacing:{after:20}}),
   ],{fill:NAVY,h:2000,valign:VerticalAlign.CENTER});
@@ -96,14 +96,14 @@ function buildCover(spec){
     rule(2400,RED,28),
     P(R('',{s:8}),{spacing:{after:50}}),
     ...stdList(),
-    P(R('Part of the History Hack™ Course Standard series — a complete, standards-aligned system: Student Workbook · Teacher Edition · Student & Teacher Slide Decks · Graphic Organizer Toolkit · Unit Assessment Book.',{s:19,i:true,c:INK}),{spacing:{before:120,after:120}}),
+    P(R('Part of the Government Hack™ Course Standard series — a complete, standards-aligned system: Student Workbook · Teacher Edition · Student & Teacher Slide Decks · Graphic Organizer Toolkit · Unit Assessment Book.',{s:19,i:true,c:INK}),{spacing:{before:120,after:120}}),
   ];
   const backFooter=new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[CW-3400,3400],
     rows:[new TableRow({children:[
       cell([
         P(R('TroopToTeacher Technologies LLC',{s:20,b:true,c:NAVY}),{spacing:{after:24}}),
-        P(R(`History Hack™  ·  Course Standard (Platinum) Edition  ·  ${spec.audience}`,{s:18,c:INK}),{spacing:{after:24}}),
-        P(R('© 2026 TroopToTeacher Technologies LLC. All rights reserved. History Hack™ is a trademark of TroopToTeacher Technologies LLC. No part of this book may be reproduced without written permission, except as licensed for classroom use.',{s:15,c:GREY}),{spacing:{after:20}}),
+        P(R(`Government Hack™  ·  Course Standard (Platinum) Edition  ·  ${spec.audience}`,{s:18,c:INK}),{spacing:{after:24}}),
+        P(R('© 2026 TroopToTeacher Technologies LLC. All rights reserved. Government Hack™ is a trademark of TroopToTeacher Technologies LLC. No part of this book may be reproduced without written permission, except as licensed for classroom use.',{s:15,c:GREY}),{spacing:{after:20}}),
         P([R('www.trooptoteacher.com',{s:17,b:true,c:NAVY}),R('   ·   Printed in the U.S.A.   ·   First Edition',{s:16,c:GREY})],{spacing:{after:0}}),
       ],{w:CW-3400,valign:VerticalAlign.BOTTOM}),
       cell([barcodeBox()],{w:3400,valign:VerticalAlign.BOTTOM}),
@@ -115,7 +115,7 @@ function buildCover(spec){
     P(R('An internal handoff sheet for your printer and your storefront listing — not part of the printed book.',{s:19,i:true,c:GREY}),{spacing:{before:100,after:120}}),
     ...[
       ['Title (listing)',spec.listingTitle],
-      ['Series','History Hack™ Course Standard (Platinum) Edition'],
+      ['Series','Government Hack™ Course Standard (Platinum) Edition'],
       ['Publisher / Author','TroopToTeacher Technologies LLC'],
       ['Trim size','8.5 × 11 in (US Letter)'],
       ['Interior',`${spec.pages} pages, black-and-white, 60-lb (90 gsm) white offset`],
@@ -159,9 +159,9 @@ const SPECS=[
     ['Cornell notes paired to the slide deck.','Structured note pages capture the direct-teaching slides, with retrieval checks and doodle zones for visual learners.'],
     ['Standards-aligned & standards-aligned.','DOK-balanced checks and a companion Assessment Book with two parallel forms, keyed to the standards and reporting categories.'],
   ],
-  listingTitle:'History Hack™ — Unit 1: Foundations of Constitutional Government · Student Workbook',
+  listingTitle:'Government Hack™ — Unit 1: Foundations of Constitutional Government · Student Workbook',
   keywords:'government and civics workbook, high school history, UDL curriculum, MTSS, CER writing, primary source analysis, Cornell notes, standards-aligned, Constitution, Bill of Rights, federalism, civics review',
-  blurb:'History Hack™ turns a full unit of high-school Government & Civics into one student-ready workbook that reaches every learner without lowering the bar. Built on Universal Design for Learning (UDL 3.0) and Multi-Tiered Systems of Support (MTSS), each of each of the nine standards moves from a core lesson to Cornell notes paired with the slide deck, real National-Archives primary sources analyzed with HIPPO, evidence-based writing on a 6-point CER rubric, and a formative Exit Ticket with a built-in reteach path. Standards-aligned, DOK-balanced, and standards-aligned — with a companion Assessment Book of two parallel forms. Unit 1 covers the Foundations of Constitutional Government (the roots, framing, and ratification of the U.S. Constitution).'},
+  blurb:'Government Hack™ turns a full unit of high-school Government & Civics into one student-ready workbook that reaches every learner without lowering the bar. Built on Universal Design for Learning (UDL 3.0) and Multi-Tiered Systems of Support (MTSS), each of each of the nine standards moves from a core lesson to Cornell notes paired with the slide deck, real National-Archives primary sources analyzed with HIPPO, evidence-based writing on a 6-point CER rubric, and a formative Exit Ticket with a built-in reteach path. Standards-aligned, DOK-balanced, and standards-aligned — with a companion Assessment Book of two parallel forms. Unit 1 covers the Foundations of Constitutional Government (the roots, framing, and ratification of the U.S. Constitution).'},
 
  {out:'Unit1_Cover_Teacher_Edition.docx', designation:'TEACHER EDITION', audience:'Teacher Edition', pages:13,
   backHeadline:'Everything you need to teach the unit — with the supports already built in.',
@@ -174,9 +174,9 @@ const SPECS=[
     ['Answer keys — teacher-side only.','Practice-quiz keys with rationales and exit-ticket keys with “What’s Next” reteach routing, kept separate from student copies.'],
     ['Deck + Cornell workflow.','How the Lean Student and Full Teacher decks pair with the workbook’s Cornell notes and primary-source analysis.'],
   ],
-  listingTitle:'History Hack™ — Unit 1: Foundations of Constitutional Government · Teacher How-to-Use & MTSS Guide',
+  listingTitle:'Government Hack™ — Unit 1: Foundations of Constitutional Government · Teacher How-to-Use & MTSS Guide',
   keywords:'teacher edition, lesson plans, MTSS, UDL, CER rubric, social studies practices, standards crosswalk, pacing guide, government and civics, answer key',
-  blurb:'The Teacher Edition for History Hack™ Unit 1 gives you the full teaching system: a one-standard-one-period pacing map with honest activity time estimates, the MTSS decision cycle, standards/SSP and dimension crosswalks, the 6-point CER rubric, teacher-side answer keys with reteach routing, and the deck-plus-Cornell workflow. Designed on UDL 3.0 so the rigor stays the same for every learner.'},
+  blurb:'The Teacher Edition for Government Hack™ Unit 1 gives you the full teaching system: a one-standard-one-period pacing map with honest activity time estimates, the MTSS decision cycle, standards/SSP and dimension crosswalks, the 6-point CER rubric, teacher-side answer keys with reteach routing, and the deck-plus-Cornell workflow. Designed on UDL 3.0 so the rigor stays the same for every learner.'},
 
  {out:'Unit1_Cover_Assessment_Book.docx', designation:'ASSESSMENT BOOK', audience:'Teacher Edition', pages:17,
   backHeadline:'Formative + summative, parallel forms, keyed and ready to reteach.',
@@ -186,12 +186,12 @@ const SPECS=[
     ['Two parallel summative forms.','Form A and Form B for pre/post or retakes, built for minimal overlap.'],
     ['Keyed with item analysis.','Correct answer, DOK, reporting category, and distractor-based routing — teacher-side only.'],
     ['Reteach built in.','Each item maps to a “What’s Next” move tied to the workbook’s Cornell notes and Guided Support.'],
-    ['From a real item bank.','Every item is pulled from the History Hack question bank; positions de-biased and synced across surfaces.'],
+    ['From a real item bank.','Every item is pulled from the Government Hack question bank; positions de-biased and synced across surfaces.'],
     ['Honest calibration status.','Items are classroom-formative and pre-field-test — the first cycle of use is what calibrates them.'],
   ],
-  listingTitle:'History Hack™ — Unit 1: Foundations of Constitutional Government · Assessment Book (Teacher)',
+  listingTitle:'Government Hack™ — Unit 1: Foundations of Constitutional Government · Assessment Book (Teacher)',
   keywords:'assessment, formative, summative, parallel forms, item analysis, reteach, DOK, reporting category, government and civics, standards-aligned',
-  blurb:'The Unit 1 Assessment Book gives you a formative checkpoint for each standard, two parallel summative forms (A and B) for pre/post or retakes, and a full teacher answer key with item analysis and reteach routing. Every item is drawn from the History Hack question bank, de-biased, and labeled classroom-formative · pre-field-test. Reproduce the student sections; keep the key section for yourself.'},
+  blurb:'The Unit 1 Assessment Book gives you a formative checkpoint for each standard, two parallel summative forms (A and B) for pre/post or retakes, and a full teacher answer key with item analysis and reteach routing. Every item is drawn from the Government Hack question bank, de-biased, and labeled classroom-formative · pre-field-test. Reproduce the student sections; keep the key section for yourself.'},
 
  {out:'Unit1_Cover_Organizer_Toolkit.docx', designation:'GRAPHIC ORGANIZER TOOLKIT', audience:'Teacher Edition', pages:26,
   backHeadline:'Reproducible thinking tools — blank and labeled, ready to print.',
@@ -204,7 +204,7 @@ const SPECS=[
     ['Reproducible for your class.','Print as needed for licensed classroom use.'],
     ['Consistent across the course.','The same tools students meet in every unit, so routines transfer.'],
   ],
-  listingTitle:'History Hack™ — Unit 1 · Teacher Graphic Organizer Toolkit',
+  listingTitle:'Government Hack™ — Unit 1 · Teacher Graphic Organizer Toolkit',
   keywords:'graphic organizers, Frayer, CER, HIPPO, Cornell notes, cause and effect, timeline, UDL, reproducible, social studies',
   blurb:'The Graphic Organizer Toolkit collects the reproducible thinking tools the course runs on — Frayer, CER, HIPPO, Cornell, cause–effect, timeline, T-chart, Venn, and more — each in a blank and a labeled version, with a quick-use guide. Built on UDL so students can write, diagram, or map their thinking. Print as needed for your classroom.'},
 ];

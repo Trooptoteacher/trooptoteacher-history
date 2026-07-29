@@ -89,7 +89,7 @@ def head(title,sub):
     return f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><style>{CSS}</style></head>
 <body><button class="no-print" onclick="window.print()">⎙ Print</button>
-<div class="hero"><div class="eye">History Hack Course Series · Foundations of Constitutional Government</div>
+<div class="hero"><div class="eye">Government Hack Course Series · Foundations of Constitutional Government</div>
 <h1>{e(title)}</h1><div class="sub">{e(sub)}</div></div>
 <div class="gold-bar"><span>Unit 1 · {e(C['unit']['standards_range'])} · Quarter 1 · Suggested {e(C['unit']['suggested_days'])} days</span>
 <span>Supplemental · TCA § 49-6-2202(a)(3) · Not a claim of state approval</span></div>

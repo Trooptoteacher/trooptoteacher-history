@@ -130,7 +130,7 @@ const body=[
   PB(),
 
   H('9. Assessment Source & Item Metadata',1),
-  P(Rr('Each standard’s Progress Check / Transfer Check is a Teacher-Deck Check for Understanding (DOK 2–3). The additional Practice-Quiz DOK-1 items are History Hack-authored recall items. All items are pre-field-test (classroom-formative), not a secure TCAP form. Correct-answer positions are de-biased and identical across Student Progress Check, Teacher CFU/Reveal, and the workbook Transfer Check.',{s:22})),
+  P(Rr('Each standard’s Progress Check / Transfer Check is a Teacher-Deck Check for Understanding (DOK 2–3). The additional Practice-Quiz DOK-1 items are Government Hack-authored recall items. All items are pre-field-test (classroom-formative), not a secure TCAP form. Correct-answer positions are de-biased and identical across Student Progress Check, Teacher CFU/Reveal, and the workbook Transfer Check.',{s:22})),
   callout(`De-biased key distribution (Transfer Checks, ${C.unit.standards_range})`,[C.order.map(c=>C.standards[c].cfu.key).join(' · ')]),
 
   H('10. Practice Quiz — Answer Key & Rationales',1),

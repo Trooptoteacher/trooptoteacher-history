@@ -1,5 +1,5 @@
 {
-  "_schema": "History Hack canonical primary-source bank. Mirrors public/data/us-history/primary-sources/unit-<N>.json.",
+  "_schema": "Government Hack canonical primary-source bank. Mirrors public/data/us-history/primary-sources/unit-<N>.json.",
   "_rule": "Verbatim excerpts only, from a cited repository. Every record carries rights + Chicago citation. Images live in images/unit-<N>.json with EN/ES alt text; colorKey:true only when color encodes meaning (build prints a 'see full-color on the slide' note).",
   "subject": "government",
   "unit": 1,

@@ -33,7 +33,7 @@ function coreCallout(label,lines=[]){const kids=[P(R(label,{s:23,b:true,c:GOLD})
   (Array.isArray(lines)?lines:[lines]).forEach(l=>kids.push(P(typeof l==='string'?R(l,{s:22,c:WHITE}):l,{spacing:{after:40}})));
   return table([new TableRow({children:[cell(kids,{w:CW,fill:NAVY,borders:CELLB(NAVY)})]})],[CW]);}
 // Primary-source image: picture (with alt text) + caption + full public-domain citation.
-// Records come from the verified History Hack primary-source bank (see references).
+// Records come from the verified Government Hack primary-source bank (see references).
 function sourceImage(rec,{max}={}){
   const w=max?Math.min(rec.w,max):rec.w, h=max?Math.round(rec.h*(w/rec.w)):rec.h;
   const out=[new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:60},children:[
@@ -126,7 +126,7 @@ function sourceExtension(code){return [gap(120),
 // ================= COVER =================
 const cover=[
   P(R("1776 - 2026   •   AMERICA'S 250TH ANNIVERSARY   •   SEMIQUINCENTENNIAL EDITION",{s:20,b:true,c:GOLD}),{align:AlignmentType.CENTER,spacing:{before:200,after:220}}),
-  P(R('U.S. HISTORY HACK™',{s:44,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:40}}),
+  P(R('U.S. GOVERNMENT HACK™',{s:44,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:40}}),
   P(R('TROOPTOTEACHER TECHNOLOGIES',{s:20,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:320}}),
   P(R('UNIT 1',{s:52,b:true,c:RED}),{align:AlignmentType.CENTER,spacing:{after:60}}),
   P(R(C.unit.title,{s:32,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:120}}),
@@ -144,7 +144,7 @@ const front=[
   P(R(`${C.unit.course_name} — ${C.unit.code}: ${C.unit.title}, Course Standard Edition.`,{s:22,b:true})),
   P(R('© 2026 TroopToTeacher Technologies LLC. All rights reserved. This workbook is proprietary; reproduction or redistribution outside a licensed classroom is prohibited.',{s:22})),
   P(R('Source integrity. Every primary source in this unit is public-domain and cited to its holding repository (National Archives, Library of Congress, HathiTrust). See the Source Library.',{s:22})),
-  P(R('Reading provenance (district-clear). Close-Read passages are labeled “History Hack-authored instructional synthesis” — they build on the standard record and are not presented as primary sources.',{s:22})),
+  P(R('Reading provenance (district-clear). Close-Read passages are labeled “Government Hack-authored instructional synthesis” — they build on the standard record and are not presented as primary sources.',{s:22})),
   P(R(`Framework stack. This workbook anchors to Tennessee ${C.unit.course_name} standards ${C.unit.standards_range} and the Social Studies Practices (SSP.01–SSP.06), and is designed on CAST UDL 3.0 and an MTSS support model.`,{s:22})),
   P([R('Pacing. ',{s:22,b:true}),R('Each standard is built for ',{s:22}),R('one 45-minute class period.',{s:22,b:true}),R(' Each activity shows a ',{s:22}),R('⏱ ~ minutes',{s:22,b:true,c:GOLD}),R(' estimate at its heading. There is more here than one period holds — your teacher chooses which activities you do in class; the rest may become warm-ups, stations, or homework.',{s:22})]),
   PB(),
@@ -289,7 +289,7 @@ function block(code){
   out.push(...ruled(8));
   // Activity 4 — Close Read
   out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15}));
-  out.push(P(R('Reading type: History Hack-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
+  out.push(P(R('Reading type: Government Hack-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
   out.push(callout('CORE PATH',[a.close]));
   out.push(callout('LANGUAGE SUPPORT',['Key terms to know first: '+s.vocab.slice(0,2).map(v=>v.term).join(', ')+'. Read once for the gist, then again for evidence.']));
   out.push(P(R('Text-dependent questions (answer in the Evidence Lab below or aloud):',{s:21,b:true})));
