@@ -11,12 +11,23 @@
 set -euo pipefail
 : "${ACCOUNT:=sthistoryhackprod}"      # AZURE_WORKBOOKS_STORAGE_ACCOUNT
 : "${CONTAINER:=workbooks}"            # AZURE_WORKBOOKS_CONTAINER
+: "${AUTH_MODE:=login}"                # `login` = use YOUR Azure sign-in (no
+                                       # account key needed). Works out-of-the-box
+                                       # in Azure Cloud Shell. Requires your
+                                       # identity to have the "Storage Blob Data
+                                       # Contributor" role on $ACCOUNT.
+
+ok=0; skipped=0; failed=0
 up() { # up <local> <blob>
   if [ -f "$1" ]; then
     echo "→ $2"
-    az storage blob upload --account-name "$ACCOUNT" --container-name "$CONTAINER" \
-      --file "$1" --name "$2" --overwrite --only-show-errors
-  else echo "SKIP (missing source): $1"; fi
+    if az storage blob upload --account-name "$ACCOUNT" --container-name "$CONTAINER" \
+         --auth-mode "$AUTH_MODE" --file "$1" --name "$2" --overwrite --only-show-errors; then
+      ok=$((ok+1))
+    else
+      echo "  ✗ FAILED: $2"; failed=$((failed+1))
+    fi
+  else echo "SKIP (missing source): $1"; skipped=$((skipped+1)); fi
 }
 
 # ── Unit 1 ──
@@ -119,5 +130,14 @@ up "flight_logs/HH_Unit10_FlightLogKey.pdf" "books/unit10/HH_Unit10_FlightLogKey
 # ── Optional extras (upload from their own source) ──
 # Deck answer key → decks/unitNN/HH_UnitNN_DeckAnswerKey.pdf  (platinum has no separate deck key)
 
+echo "─────────────────────────────────────────────"
+echo "Uploaded: $ok   Skipped (file not found): $skipped   Failed: $failed"
+if [ "$failed" -gt 0 ]; then
+  echo "Some uploads FAILED. Most common cause: your Azure sign-in lacks the"
+  echo "'Storage Blob Data Contributor' role on $ACCOUNT. Grant it in the portal"
+  echo "(Storage account → Access Control (IAM) → Add role assignment), wait ~1 min,"
+  echo "then re-run this script."
+  exit 1
+fi
 echo "Done. After upload, set LIBRARY_READER_ENABLED=true and LECTURE_DECKS_ENABLED=true,"
 echo "and extend DECK_AVAILABLE_UNITS / LIBRARY availability to the uploaded units."
