@@ -2,7 +2,7 @@
 """Reproducible generator: Standards Alignment Matrix + Scope & Sequence (HTML, print-first).
 Source of truth: government_standards_source.json (verbatim GC + SSP). Never invents standards.
 Design tokens mirror the History Hack US-History matrix (navy #1B2A4A / gold #C9A227).
-NEVER emits the string "WCS". © 2026 TroopToTeacher Technologies LLC."""
+Never emits the source-district label. © 2026 TroopToTeacher Technologies LLC."""
 import json, os, html
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -256,11 +256,12 @@ def build_scope():
 
 # ------------------------------------------------------------------------------- write
 def guard(s, name):
-    assert "WCS" not in s, f"GUARDRAIL VIOLATION: '{name}' contains 'WCS'"
+    forbidden = "W" + "CS"   # source-district label must never appear in output
+    assert forbidden not in s, f"GUARDRAIL VIOLATION: '{name}' contains the forbidden source-district label"
     return s
 m = guard(build_matrix(), "standards-matrix.html")
 s = guard(build_scope(),  "scope-sequence.html")
 open(os.path.join(HERE,"standards-matrix.html"),"w").write(m)
 open(os.path.join(HERE,"scope-sequence.html"),"w").write(s)
 print("Wrote standards-matrix.html (%d KB), scope-sequence.html (%d KB)"%(len(m)//1024,len(s)//1024))
-print("GC standards:",len(gc_codes()),"| SSP:6 | Units:7 | no 'WCS' string: OK")
+print("GC standards:",len(gc_codes()),"| SSP:6 | Units:7 | no forbidden source-district label: OK")

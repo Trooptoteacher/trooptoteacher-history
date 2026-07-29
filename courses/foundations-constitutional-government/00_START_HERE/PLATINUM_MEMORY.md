@@ -34,7 +34,7 @@ CODE → {
 auth{close, tdq[3], frayer[2], quiz[1], cer} · std_source · target · criteria[3] · cues[4]`
 
 ## Guardrails (every artifact)
-- Source of truth only; **never print "WCS"** (preflight fails on it).
+- Source of truth only; **never print the source-district label** (the three-letter district acronym) anywhere — preflight fails on it.
 - Standards + "I can" verbatim; dimension tags + TCA citations are part of the standard.
 - Print-first, B&W-safe interior; color only when it *encodes* meaning → `colorKey:true`
   (build prints "view full-color on the projection slide"; color original lives in the deck).
@@ -44,11 +44,11 @@ auth{close, tdq[3], frayer[2], quiz[1], cer} · std_source · target · criteria
 - Theme: "Teachers power our progress, not technology." SAMR honesty (print when print is best).
 - Nothing claims state/waiver approval where external review is pending.
 - **TCA legally-required flag: GC.08 only** (T.C.A. § 49-6-1028), per the authoritative source. Other (T) tags = Tennessee *dimension*, not a legal mandate. Course-level compliance also cites T.C.A. §§ 49-6-1011, 49-6-1014 (Freedom Week) and 36 U.S. Code § 106.
-- **NEVER mention "WCS" anywhere — in content, teacher materials, matrices, or the site (author-confirmed, absolute).** The "I can" targets originate from the WCS instructional-guide column and contain WCS-local references (e.g., "Williamson County" in GC.29). Carry the target *text* only; strip the WCS label entirely and generalize local references ("your county/district") on every surface. preflight fails on any "WCS".
+- **NEVER mention the source district's name or acronym anywhere — in content, teacher materials, matrices, or the site (author-confirmed, absolute).** The "I can" targets originate from the source district's instructional-guide column and contain district-local references (e.g., "Williamson County" in GC.29). Carry the target *text* only; strip the district label entirely and generalize local references ("your county/district") on every surface. preflight fails on the district acronym.
 
 ## preflight.py — 11 release checks (must pass before packaging)
 standards verbatim · no answer leak (student side) · de-biased keys · citations + alt text ·
-SSP/dimension crosswalks present · pre-field-test disclosure · **no "WCS"** · (+ others — run to enumerate).
+SSP/dimension crosswalks present · pre-field-test disclosure · **no source-district label** · (+ others — run to enumerate).
 
 ## Government-specific adaptations
 - Primary Source Spotlight → **Founding-Document / Landmark-Case Spotlight** (Constitution & amendments,
