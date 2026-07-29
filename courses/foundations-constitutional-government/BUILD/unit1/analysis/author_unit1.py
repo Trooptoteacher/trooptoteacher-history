@@ -436,7 +436,11 @@ out=dict(
     ],
     tn_connection_label="TENNESSEE CONNECTION",
     tn_connection="Tennessee entered the Union in 1796 as the 16th state. Its own state constitution echoes the federal design studied in this unit — a separation of powers among three branches and a Declaration of Rights modeled on the Bill of Rights (GC.06, GC.08).",
-    tn_connection_task="Tennessee's government mirrors the federal framework. Investigate one way your state or local government reflects a principle from this unit — separation of powers, checks and balances, or the protection of individual rights — and record what you find."),
+    tn_connection_task="Tennessee's government mirrors the federal framework. Investigate one way your state or local government reflects a principle from this unit — separation of powers, checks and balances, or the protection of individual rights — and record what you find.",
+    course_short="Government & Civics",
+    cover_era="1776 · 1787 · 1791",
+    cover_title_lines=["FOUNDATIONS OF","CONSTITUTIONAL GOVERNMENT"],
+    cover_image=""),
   order=order, standards=standards)
 
 s=json.dumps(out,indent=2,ensure_ascii=False)
