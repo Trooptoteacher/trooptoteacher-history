@@ -225,20 +225,20 @@ function block(code){
     new TextRun({text:v.term,bold:true,size:20,font:FONT,color:INK}), v.def, v.es]),[2683,4282,2683]));
   out.push(callout('LANGUAGE SUPPORT',['Pronunciations: '+s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.']));
   out.push(...vocabSelfCheck(code));
-  out.push(...FILL_LIB.quickwrite('Which of these terms do you think will matter MOST for this standard, and why? You’ll revisit this at the end.'));
+  // (Activity 1 reflection consolidated into the end-of-standard reflection to keep this to one page)
   // Activity 2 — Frayer
   out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7}));
   out.push(callout('RESPONSE CHOICE',['Complete each studio by writing, speaking, or diagramming.']));
   a.frayer.forEach((term,fi)=>{const v=s.vocab.find(x=>x.term===term)||s.vocab[0];
-    out.push(gap(fi===0?40:200));
+    out.push(gap(fi===0?30:110));
     out.push(priorityBar(fi+1,term,v.es));
     out.push(P(R('Word-bank meaning to build on: '+v.def,{s:20})));
-    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4824,4824],{rowH:760}));
+    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4824,4824],{rowH:520}));
     out.push(callout('Use it to explain',['Write one sentence that uses “'+term+'” to explain this standard.']));
-    out.push(...ruled(2));});
-  out.push(gap(140));
+    out.push(...ruled(1));});
+  out.push(gap(70));
   out.push(callout('CONNECT THE TERMS (UDL · build understanding)',['How do these priority terms fit together? Write or sketch how one leads to or affects another.']));
-  out.push(...ruled(2));
+  out.push(...ruled(1));
   // Activity 3 — Cornell Notes — FRONT (note-taking; the whole page is writing space)
   out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true,mins:20}));
   out.push(P(R('Name: ______________________    Class / Period: __________    Date: __________',{s:21})));
@@ -296,7 +296,7 @@ function block(code){
   a.tdq.forEach((q,i)=>out.push(P(R(`${i+1}. ${q}`,{s:20}))));
   out.push(P(R('RESPONSE CHOICE: answer any question by writing in the Evidence Lab, saying/recording it, or diagramming it.',{s:20,i:true})));
   out.push(callout('CLOSE-READ EVIDENCE LAB',['Log evidence from the passage below.']));
-  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','',''],['','','']],[3216,3216,3216],{rowH:760}));
+  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','','']],[3216,3216,3216],{rowH:600}));
   const gmap=(IMG[code]||{}).map;
   if(s.geo && !gmap){out.push(gap(100));
     out.push(...doodle('GEOGRAPHER’S LENS (G · SSP.06) — sketch & label the geography',s.geo+' Then draw a quick map below and label at least two places.',1050));}
