@@ -296,7 +296,7 @@ function block(code){
   a.tdq.forEach((q,i)=>out.push(P(R(`${i+1}. ${q}`,{s:20}))));
   out.push(P(R('RESPONSE CHOICE: answer any question by writing in the Evidence Lab, saying/recording it, or diagramming it.',{s:20,i:true})));
   out.push(callout('CLOSE-READ EVIDENCE LAB',['Log evidence from the passage below.']));
-  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','','']],[3216,3216,3216],{rowH:600}));
+  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','','']],[3216,3216,3216],{rowH:540}));
   const gmap=(IMG[code]||{}).map;
   if(s.geo && !gmap){out.push(gap(100));
     out.push(...doodle('GEOGRAPHER’S LENS (G · SSP.06) — sketch & label the geography',s.geo+' Then draw a quick map below and label at least two places.',1050));}
