@@ -415,14 +415,29 @@ for code in order:
     )
     if a.get("tca") or src["tca"]:
         entry["tca"]=src["tca"] or a.get("tca")
+    i=order.index(code); base=2+i*7
+    entry["ref"]={"vocab":base+1,"dt":f"{base+2}–{base+4}","source":base+5,"persp":base+5,
+                  "progress":base+6,"range":f"{base}–{base+6}"}
     standards[code]=entry
 
 out=dict(
   unit=dict(code="Unit 1", title="Foundations of Constitutional Government",
+    course_name="Foundations of Constitutional Government",
     standards_range="GC.01–GC.09", quarter=1, suggested_days="15–17",
     essential_question="How and why did the Founders build a limited constitutional republic?",
     publisher="TroopToTeacher Technologies LLC",
-    footer="Foundations of Constitutional Government · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards (GC) · Supplemental under TCA § 49-6-2202(a)(3)"),
+    footer="Foundations of Constitutional Government · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards (GC) · Supplemental under TCA § 49-6-2202(a)(3)",
+    perspectives_title="Whose Voice Counted? Perspectives on the Founding",
+    perspectives_intro="This section complicates the founding narrative: whose interests the new government served, who was left out, and who organized in response. It is History Hack–authored instructional synthesis grounded in this unit's sourced record — not a primary source.",
+    perspectives=[
+      ["Federalists","Argued for a stronger national union and ratification; Madison and Hamilton defended checks and balances and the large republic in the Federalist Papers (GC.04, GC.06)."],
+      ["Anti-Federalists","Feared a distant, too-powerful central government and refused to ratify without a Bill of Rights to protect individual liberty (GC.04, GC.08)."],
+      ["Enslaved & Free Black Americans","The Three-Fifths Compromise counted enslaved people as three-fifths of a person for representation (GC.04), even as the Declaration proclaimed that 'all men are created equal' (GC.02)."],
+      ["Women & the Unenfranchised","Women, most non-property holders, and Native peoples could not vote at ratification; the Article V amendment process (GC.07) later became the path to expand the franchise."],
+    ],
+    tn_connection_label="TENNESSEE CONNECTION",
+    tn_connection="Tennessee entered the Union in 1796 as the 16th state. Its own state constitution echoes the federal design studied in this unit — a separation of powers among three branches and a Declaration of Rights modeled on the Bill of Rights (GC.06, GC.08).",
+    tn_connection_task="Tennessee's government mirrors the federal framework. Investigate one way your state or local government reflects a principle from this unit — separation of powers, checks and balances, or the protection of individual rights — and record what you find."),
   order=order, standards=standards)
 
 s=json.dumps(out,indent=2,ensure_ascii=False)

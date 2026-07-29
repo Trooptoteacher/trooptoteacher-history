@@ -2,12 +2,36 @@
   "unit": {
     "code": "Unit 1",
     "title": "Foundations of Constitutional Government",
+    "course_name": "Foundations of Constitutional Government",
     "standards_range": "GC.01–GC.09",
     "quarter": 1,
     "suggested_days": "15–17",
     "essential_question": "How and why did the Founders build a limited constitutional republic?",
     "publisher": "TroopToTeacher Technologies LLC",
-    "footer": "Foundations of Constitutional Government · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards (GC) · Supplemental under TCA § 49-6-2202(a)(3)"
+    "footer": "Foundations of Constitutional Government · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards (GC) · Supplemental under TCA § 49-6-2202(a)(3)",
+    "perspectives_title": "Whose Voice Counted? Perspectives on the Founding",
+    "perspectives_intro": "This section complicates the founding narrative: whose interests the new government served, who was left out, and who organized in response. It is History Hack–authored instructional synthesis grounded in this unit's sourced record — not a primary source.",
+    "perspectives": [
+      [
+        "Federalists",
+        "Argued for a stronger national union and ratification; Madison and Hamilton defended checks and balances and the large republic in the Federalist Papers (GC.04, GC.06)."
+      ],
+      [
+        "Anti-Federalists",
+        "Feared a distant, too-powerful central government and refused to ratify without a Bill of Rights to protect individual liberty (GC.04, GC.08)."
+      ],
+      [
+        "Enslaved & Free Black Americans",
+        "The Three-Fifths Compromise counted enslaved people as three-fifths of a person for representation (GC.04), even as the Declaration proclaimed that 'all men are created equal' (GC.02)."
+      ],
+      [
+        "Women & the Unenfranchised",
+        "Women, most non-property holders, and Native peoples could not vote at ratification; the Article V amendment process (GC.07) later became the path to expand the franchise."
+      ]
+    ],
+    "tn_connection_label": "TENNESSEE CONNECTION",
+    "tn_connection": "Tennessee entered the Union in 1796 as the 16th state. Its own state constitution echoes the federal design studied in this unit — a separation of powers among three branches and a Declaration of Rights modeled on the Bill of Rights (GC.06, GC.08).",
+    "tn_connection_task": "Tennessee's government mirrors the federal framework. Investigate one way your state or local government reflects a principle from this unit — separation of powers, checks and balances, or the protection of individual rights — and record what you find."
   },
   "order": [
     "GC.01",
@@ -123,7 +147,15 @@
       },
       "hook": "You already have rights no ruler gave you and none can take away — that's the idea that started a revolution. Where did it come from?",
       "civic_label": "CONSTITUTIONAL PRINCIPLES",
-      "ssp_focus": "SSP.02"
+      "ssp_focus": "SSP.02",
+      "ref": {
+        "vocab": 3,
+        "dt": "4–6",
+        "source": 7,
+        "persp": 7,
+        "progress": 8,
+        "range": "2–8"
+      }
     },
     "GC.02": {
       "title": "The Declaration of Independence",
@@ -226,7 +258,15 @@
       },
       "hook": "'All men are created equal.' A bold claim in 1776 — and the colonists used it to fire a king. How does the Declaration build its case?",
       "civic_label": "CIVIC ARGUMENTATION",
-      "ssp_focus": "SSP.02"
+      "ssp_focus": "SSP.02",
+      "ref": {
+        "vocab": 10,
+        "dt": "11–13",
+        "source": 14,
+        "persp": 14,
+        "progress": 15,
+        "range": "9–15"
+      }
     },
     "GC.03": {
       "title": "The Articles of Confederation",
@@ -329,7 +369,15 @@
       },
       "hook": "Imagine a national government that can declare war but can't collect a dime to pay for it. That was America under the Articles. What went wrong?",
       "civic_label": "CONSTITUTIONAL PRINCIPLES",
-      "ssp_focus": "SSP.04"
+      "ssp_focus": "SSP.04",
+      "ref": {
+        "vocab": 17,
+        "dt": "18–20",
+        "source": 21,
+        "persp": 21,
+        "progress": 22,
+        "range": "16–22"
+      }
     },
     "GC.04": {
       "title": "The Constitutional Convention & Ratification",
@@ -432,7 +480,15 @@
       },
       "hook": "Two plans, thirteen stubborn states, one hot Philadelphia summer. How did the Framers turn a deadlock into a Constitution?",
       "civic_label": "CIVIC ARGUMENTATION",
-      "ssp_focus": "SSP.04"
+      "ssp_focus": "SSP.04",
+      "ref": {
+        "vocab": 24,
+        "dt": "25–27",
+        "source": 28,
+        "persp": 28,
+        "progress": 29,
+        "range": "23–29"
+      }
     },
     "GC.05": {
       "title": "The Preamble: Purposes of Government",
@@ -535,7 +591,15 @@
       },
       "hook": "Six goals, one sentence, and it starts with three world-changing words: 'We the People.' What did the Framers promise?",
       "civic_label": "CONSTITUTIONAL PRINCIPLES",
-      "ssp_focus": "SSP.04"
+      "ssp_focus": "SSP.04",
+      "ref": {
+        "vocab": 31,
+        "dt": "32–34",
+        "source": 35,
+        "persp": 35,
+        "progress": 36,
+        "range": "30–36"
+      }
     },
     "GC.06": {
       "title": "Principles of Limited Government",
@@ -639,7 +703,15 @@
       },
       "hook": "'If men were angels, no government would be necessary.' Since we're not angels, how did Madison design a government to guard against itself?",
       "civic_label": "SEPARATION OF POWERS / CHECKS & BALANCES",
-      "ssp_focus": "SSP.04"
+      "ssp_focus": "SSP.04",
+      "ref": {
+        "vocab": 38,
+        "dt": "39–41",
+        "source": 42,
+        "persp": 42,
+        "progress": 43,
+        "range": "37–43"
+      }
     },
     "GC.07": {
       "title": "Structure of the Constitution & How to Amend It",
@@ -742,7 +814,15 @@
       },
       "hook": "Only 27 changes in more than 230 years. Is the Constitution nearly perfect — or nearly impossible to change? Article V holds the answer.",
       "civic_label": "CONSTITUTIONAL PRINCIPLES",
-      "ssp_focus": "SSP.04"
+      "ssp_focus": "SSP.04",
+      "ref": {
+        "vocab": 45,
+        "dt": "46–48",
+        "source": 49,
+        "persp": 49,
+        "progress": 50,
+        "range": "44–50"
+      }
     },
     "GC.08": {
       "title": "The Bill of Rights",
@@ -846,7 +926,15 @@
       "hook": "Ten amendments, one purpose: to tell the government what it may NOT do to you. Why did Americans insist on adding them?",
       "civic_label": "RIGHTS ANALYSIS",
       "ssp_focus": "SSP.02",
-      "tca": "(T.C.A. § 49-6-1028)"
+      "tca": "(T.C.A. § 49-6-1028)",
+      "ref": {
+        "vocab": 52,
+        "dt": "53–55",
+        "source": 56,
+        "persp": 56,
+        "progress": 57,
+        "range": "51–57"
+      }
     },
     "GC.09": {
       "title": "Republic and Democracy",
@@ -949,7 +1037,15 @@
       },
       "hook": "Is the United States a democracy or a republic? The answer is 'both, on purpose' — and it changes how your voice reaches government.",
       "civic_label": "CONSTITUTIONAL PRINCIPLES",
-      "ssp_focus": "SSP.04"
+      "ssp_focus": "SSP.04",
+      "ref": {
+        "vocab": 59,
+        "dt": "60–62",
+        "source": 63,
+        "persp": 63,
+        "progress": 64,
+        "range": "58–64"
+      }
     }
   }
 }
