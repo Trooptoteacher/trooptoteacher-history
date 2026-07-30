@@ -3,7 +3,7 @@
 // Design tokens extracted from Unit5_Student_Workbook_CourseStandard.docx.
 const fs=require('fs'); const D=require('docx');
 const {Document,Packer,Paragraph,TextRun,HeadingLevel,AlignmentType,Table,TableRow,TableCell,
-  WidthType,BorderStyle,ShadingType,PageBreak,TableOfContents,Header,Footer,PageNumber,HeightRule,ImageRun}=D;
+  WidthType,BorderStyle,ShadingType,PageBreak,TableOfContents,Header,Footer,PageNumber,HeightRule,ImageRun,TableLayoutType}=D;
 const C=JSON.parse(fs.readFileSync('analysis/unit1_content.json','utf8'));
 const IMG=fs.existsSync('analysis/unit1_images.json')?JSON.parse(fs.readFileSync('analysis/unit1_images.json','utf8')):{};
 const EXIT=fs.existsSync('analysis/unit1_exit_tickets.json')?JSON.parse(fs.readFileSync('analysis/unit1_exit_tickets.json','utf8')):{};
@@ -35,7 +35,7 @@ function H(text,lvl,{brk=false,mins=null}={}){const map={1:HeadingLevel.HEADING_
 function cell(children,{w,fill,borders}={}){return new TableCell({width:{size:w,type:WidthType.DXA},
   shading:fill?{type:ShadingType.CLEAR,fill,color:'auto'}:undefined,margins:{top:55,bottom:55,left:110,right:110},
   borders:borders||CELLB(),children:Array.isArray(children)?children:[children]});}
-function table(rows,widths){return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:widths,rows});}
+function table(rows,widths){return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:widths,layout:TableLayoutType.FIXED,rows});}
 // single-cell cream callout: LABEL then content lines
 function callout(label,lines=[]){const kids=[P(R(label,{s:21,b:true,c:NAVY,caps:false}),{spacing:{after:lines.length?60:0}})];
   (Array.isArray(lines)?lines:[lines]).forEach(l=>kids.push(P(typeof l==='string'?R(l,{s:22}):l,{spacing:{after:40}})));
@@ -103,7 +103,7 @@ function cornell(cues,rightLabel,nLines=3){
   const rows=cues.map((q,i)=>new TableRow({cantSplit:true,height:{value:520,rule:HeightRule.ATLEAST},children:[
     cornellCell(P(R(q,{s:21,c:NAVY}),{spacing:{after:40}}),{w:2448,fill:i%2?WHITE:CREAM}),
     cornellCell(ruled(nLines),{w:7344,fill:i%2?WHITE:CREAM})]}));
-  return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[4896,4896],rows:[head,...rows]});}
+  return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[4896,4896],layout:TableLayoutType.FIXED,rows:[head,...rows]});}
 const PB=()=>new Paragraph({children:[new PageBreak()]});
 // ---- white-space FILL rule: right-sized activities so no page is left blank ----
 const FILL_LIB={
@@ -390,7 +390,7 @@ function block(code){
   out.push(writeTable(['Plan your argument','Your quick notes (from this standard)'],
     [['My claim (answer the prompt)',''],['Evidence 1 (a source or fact)',''],['Reasoning (why it proves the claim)','']],[3096,6696],{lines:1}));
   out.push(callout('CONSTRUCTED RESPONSE (CER) — builds SSP.04 Argumentation',[a.cer]));
-  out.push(new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[2233,7559],rows:[
+  out.push(new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[2233,7559],layout:TableLayoutType.FIXED,rows:[
     new TableRow({tableHeader:true,children:[cell(P(R('Part',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:2233,fill:NAVY}),cell(P(R('Write here',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:7559,fill:NAVY})]}),
     ...[['Claim',3],['Evidence (two specifics)',5],['Reasoning',4]].map(([lab,n])=>new TableRow({children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2233}),cell(ruled(n),{w:7559})]}))
   ]}));
