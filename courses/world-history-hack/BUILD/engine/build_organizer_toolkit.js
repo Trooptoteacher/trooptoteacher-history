@@ -7,6 +7,9 @@ const {Document,Packer,Paragraph,TextRun,HeadingLevel,AlignmentType,Table,TableR
   WidthType,BorderStyle,ShadingType,PageBreak,Header,Footer,PageNumber,ImageRun}=D;
 const NAVY='1B2A4A',RED='B22234',GOLD='C89B3C',INK='1A1A1A',CREAM='F7F5EF',WHITE='FFFFFF',GREY='6B7280',BORD='D9D5C8';
 const FONT='Calibri', CW=9648;
+const C=JSON.parse(fs.readFileSync('analysis/unit1_content.json','utf8'));
+const U=C.unit; const BRAND=U.brand||'Course'; const BRANDTM=BRAND+'™'; const BRANDUP=BRANDTM.toUpperCase();
+const UNITLABEL=(U.code||'Unit 1')+' — '+(U.title||'');
 const bd=(c=BORD)=>({style:BorderStyle.SINGLE,size:4,color:c,space:0});
 const CELLB=(c=BORD)=>({top:bd(c),bottom:bd(c),left:bd(c),right:bd(c)});
 function R(t,{s=22,b=false,i=false,c=INK,caps=false}={}){return new TextRun({text:t,size:s,bold:b,italics:i,color:c,font:FONT,allCaps:caps});}
@@ -84,18 +87,17 @@ const PART1=[
  organizer('Frayer Model — Deep Vocabulary','Learning a key term deeply (definition, characteristics, examples, non-examples).',frayer()),
  organizer('CER — Build an Argument','Any “make a claim / defend / argue” task. Claim + two pieces of evidence + reasoning (builds SSP.04).',cer()),
  organizer('HIPPO — Analyze a Primary Source','Analyzing a photo, cartoon, map, or document (builds SSP.01–SSP.02). Pair with OPTIC for visuals.',hippo()),
- organizer('★ Tennessee Connection — Local ↔ National','Whenever a standard has a Tennessee tie: link the national event to our state/community and say why the local story matters. This local-to-national move is a HistoryHack signature — use it often.',tnOrg()),
+ organizer('★ Tennessee Connection — Local ↔ Global','Whenever a standard has a Tennessee tie: link the world event or idea to our state/community and say why the local story matters. This local-to-global move is a World History Hack signature — use it whenever a genuine tie exists.',tnOrg()),
 ];
 
 // ---------- PART 2: Unit 1 pre-labeled (best-fit per standard) ----------
 const PART2=[
- [...organizer('GC.04 — Federalists vs. Anti-Federalists (T-Chart)','This standard weighs the ratification debate. A T-chart makes the two positions explicit: Federalists favored a stronger union; Anti-Federalists feared central power and demanded a Bill of Rights.',tchart('Federalists (for ratification)','Anti-Federalists (against, as written)')), TN('Tennessee entered the Union in 1796; its state constitution echoes the same separation of powers and Bill of Rights framed in this unit.')],
- organizer('GC.03 — Weaknesses of the Articles of Confederation (Cause & Effect)','The Articles created a weak national government. A cause -> effect flow shows how each weakness led to a problem: no taxing power -> unpaid debts; no army -> Shays’s Rebellion went unchecked.',causeEffect()),
- organizer('GC.02–GC.08 — Founding Documents Timeline','The founding is a sequence of documents. A timeline makes the chronology clear: Declaration of Independence (1776) -> Articles of Confederation (1781) -> Constitutional Convention (1787) -> Constitution ratified (1788) -> Bill of Rights (1791).',timeline()),
- organizer('GC.06 — Principles of Limited Government (Matrix)','The standard names the principles that limit government. A matrix compares each across the same criteria.',matrix(['Principle','What it does','Example'],['Separation of powers','Checks and balances','Federalism','Judicial review','Popular sovereignty','Rule of law'],2)),
- organizer('GC.09 — Republic vs. Direct Democracy (T-Chart)','The standard asks students to distinguish two systems. A T-chart makes the contrast explicit.',tchart('Republic (representative)','Direct democracy')),
- organizer('GC.08 — The Bill of Rights (Matrix)','The standard analyzes how the first amendments limit government. A matrix pairs each amendment with what it protects and an example.',matrix(['Amendment','What it protects','Example / limit on government'],['1st','2nd','4th','5th','10th'],2)),
- organizer('GC.03–GC.04 — Articles vs. U.S. Constitution (Venn)','The standard compares the two frameworks. A Venn captures what changed, what stayed, and what both shared.',venn2('Only the Articles','Both frameworks','Only the U.S. Constitution')),
+ organizer('W.01 — Absolutism: Louis XIV vs. Peter the Great (Matrix)','The standard compares two absolute monarchs. A compare-and-contrast matrix lines them up on the same criteria so the similarities (total power) and differences (tradition vs. westernization) are explicit.',matrix(['Ruler','How power was used','Signature project','One strength','One weakness'],['Louis XIV (France)','Peter the Great (Russia)'],2)),
+ organizer('W.02 — Magna Carta vs. English Bill of Rights (Venn)','The standard compares two documents that limited the monarch. A Venn captures what each did alone and what both shared (the rule of law and a limited crown).',venn2('Only Magna Carta (1215)','Both limit the monarch','Only English Bill of Rights (1689)')),
+ organizer('W.03 — Enlightenment Thinkers (Matrix)','The standard compares four philosophers. A matrix pairs each thinker with their key work, main idea, and view of government — the highest-yield way to compare 3+ items on set criteria.',matrix(['Thinker','Key work','Main idea','View of government'],['Hobbes','Locke','Montesquieu','Rousseau'],2)),
+ organizer('W.04 — The English Civil War → Constitutional Monarchy (Timeline)','The standard traces causes and consequences across time. A timeline makes the sequence visible: clashes between king and Parliament → civil war (1640s) → execution of Charles I (1649) → Commonwealth → Restoration → Glorious Revolution (1688) → constitutional monarchy.',timeline()),
+ organizer('W.04 — Causes → Consequences of the English Civil War (Cause & Effect)','A cause → effect flow shows how each grievance (taxes, religion, king vs. Parliament) drove the conflict and its outcomes.',causeEffect()),
+ organizer('W.08a — Enlightenment Idea → Declaration Wording (T-Chart)','The standard asks students to trace ideas into a document. A T-chart maps each Enlightenment idea (Locke’s natural rights, consent of the governed) to where it appears in the Declaration of Independence.',tchart('Enlightenment idea (Locke, Rousseau…)','Where it appears in the Declaration of Independence')),
 ];
 
 // ---------- MASTER "WHICH ORGANIZER WHEN" GUIDE ----------
@@ -116,14 +118,14 @@ const GUIDE=grid(['When the task asks students to…','Reach for…','Why it wor
 ],[3400,2600,3648],2);
 
 // ---------- ASSEMBLE ----------
-const header=new Header({children:[P(R('Government Hack™ · Unit 1 · Teacher Graphic Organizer Toolkit',{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
-const footer=new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:0},children:[R('Government Hack™ · Unit 1 (Course Standard) © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:16,c:GREY}),new TextRun({children:[PageNumber.CURRENT],size:16,color:GREY,font:FONT})]})]});
+const header=new Header({children:[P(R(`${BRANDTM} · ${U.code||'Unit 1'} · Teacher Graphic Organizer Toolkit`,{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
+const footer=new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:0},children:[R(`${BRANDTM} · ${U.code||'Unit 1'} (Course Standard) © 2026 TroopToTeacher Technologies LLC   |   Page `,{s:16,c:GREY}),new TextRun({children:[PageNumber.CURRENT],size:16,color:GREY,font:FONT})]})]});
 
 const cover=[
- new Paragraph({spacing:{before:1400,after:0},children:[R('GOVERNMENT HACK™',{s:30,b:true,c:GOLD})]}),
+ new Paragraph({spacing:{before:1400,after:0},children:[R(BRANDUP,{s:30,b:true,c:GOLD})]}),
  new Paragraph({spacing:{after:0},children:[R('Teacher Graphic Organizer Toolkit',{s:52,b:true,c:NAVY})]}),
- new Paragraph({spacing:{after:200},children:[R('Unit 1 — Foundations of Constitutional Government  ·  Reproducible',{s:26,c:INK})]}),
- callout('WHY THIS TOOLKIT',['Knowing WHICH organizer to use, and WHEN, is half the battle. This toolkit tells you — with a brief why for each — then gives you reproducible blanks (Part 1) and Unit 1 ready-to-print, pre-labeled organizers (Part 2). Tennessee connections are highlighted throughout; the local-to-national move is a HistoryHack signature and a point of difference for our classrooms.']),
+ new Paragraph({spacing:{after:200},children:[R(`${UNITLABEL}  ·  Reproducible`,{s:26,c:INK})]}),
+ callout('WHY THIS TOOLKIT',['Knowing WHICH organizer to use, and WHEN, is half the battle. This toolkit tells you — with a brief why for each — then gives you reproducible blanks (Part 1) and '+(U.code||'Unit 1')+' ready-to-print, pre-labeled organizers (Part 2). Tennessee connections are highlighted where a genuine tie exists; the local-to-global move is a World History Hack signature and a point of difference for our classrooms.']),
  PB(),
  H('Which Organizer, When — Quick Guide',1),
  P(R('Scan the left column for what the activity asks students to do; reach for the organizer on the right. Every organizer in Part 1 also carries its own “when to use · why it works” note.',{s:22})),
