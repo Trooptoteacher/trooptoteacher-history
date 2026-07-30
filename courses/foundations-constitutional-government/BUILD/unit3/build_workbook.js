@@ -21,7 +21,9 @@ const FONT='Calibri';
 const CW=9648;                         // 6.7in content width (DXA)
 const bd=(c=BORD,sz=4)=>({style:BorderStyle.SINGLE,size:sz,color:c});
 const CELLB=(c=BORD)=>({top:bd(c),bottom:bd(c),left:bd(c),right:bd(c)});
-function R(text,{s=22,b=false,i=false,c=INK,caps=false}={}){return new TextRun({text,size:s,bold:b,italics:i,color:c,font:FONT,allCaps:caps});}
+const LP=process.env.LARGEPRINT?Number(process.env.LARGEPRINT):1;
+const SZ=(n)=>Math.round(n*LP);
+function R(text,{s=22,b=false,i=false,c=INK,caps=false}={}){return new TextRun({text,size:SZ(s),bold:b,italics:i,color:c,font:FONT,allCaps:caps});}
 function P(runs,{align,spacing,indent,border}={}){return new Paragraph({alignment:align,spacing:spacing||{after:100},indent,border,children:Array.isArray(runs)?runs:[runs]});}
 function H(text,lvl,{brk=false,mins=null}={}){const map={1:HeadingLevel.HEADING_1,2:HeadingLevel.HEADING_2,3:HeadingLevel.HEADING_3};
   const kids=[R(text,{s:lvl===1?36:lvl===2?28:24,b:true,c:lvl===3?RED:NAVY})];
@@ -232,7 +234,7 @@ function block(code){
   out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
   out.push(dataTable(['Term','Student-friendly meaning','Spanish'],s.vocab.map(v=>[
-    new TextRun({text:v.term,bold:true,size:20,font:FONT,color:INK}), v.def, v.es]),[2683,4282,2683]));
+    new TextRun({text:v.term,bold:true,size:SZ(20),font:FONT,color:INK}), v.def, v.es]),[2683,4282,2683]));
   out.push(callout('LANGUAGE SUPPORT',['Pronunciations: '+s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.']));
   out.push(...vocabSelfCheck(code));
   out.push(...FILL_LIB.quickwrite('Which of these terms do you think will matter MOST for this standard, and why? You’ll revisit this at the end.'));
@@ -277,7 +279,7 @@ function block(code){
   out.push(H(`Guided Support for the Cornell Notes — ${code}`,3,{brk:true}));
   out.push(P(R('These scaffolds support ONLY the Cornell notes — use them to take and process those notes. Optional and easy to set aside; not a separate assignment or a label.',{s:20,i:true})));
   out.push(dataTable(['Key vocabulary','What it means'],s.vocab.map(v=>[
-    new TextRun({text:v.term,bold:true,size:20,font:FONT,color:INK}),v.def]),[3200,6448]));
+    new TextRun({text:v.term,bold:true,size:SZ(20),font:FONT,color:INK}),v.def]),[3200,6448]));
   out.push(P(R('Break it into steps:',{s:21,b:true})));
   out.push(P(R('1) Name one cause or effect.    2) Give one piece of evidence.    3) Write one sentence explaining the link.',{s:20})));
   out.push(callout('Sentence frame',['One key cause/effect of '+s.title.split(':')[0].toLowerCase()+' was ______, shown by ______, which mattered because ______.']));
@@ -434,12 +436,12 @@ const footer=new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER
   new TextRun({children:[PageNumber.CURRENT],size:15,color:GREY,bold:true,font:FONT})]})]});
 const doc=new Document({creator:'TroopToTeacher Technologies LLC',title:BRAND+' — '+(U.code||'Unit 1')+' Course Standard Student Workbook',
   features:{updateFields:true},
-  styles:{default:{document:{run:{font:FONT,size:22,color:INK}}},paragraphStyles:[
+  styles:{default:{document:{run:{font:FONT,size:SZ(22),color:INK}}},paragraphStyles:[
     {id:'Heading1',name:'Heading 1',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:36,bold:true,color:NAVY},paragraph:{spacing:{before:220,after:90},outlineLevel:0,keepNext:true}},
     {id:'Heading2',name:'Heading 2',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:28,bold:true,color:NAVY},paragraph:{spacing:{before:150,after:80},outlineLevel:1,keepNext:true}},
     {id:'Heading3',name:'Heading 3',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:24,bold:true,color:RED},paragraph:{spacing:{before:120,after:70},outlineLevel:2,keepNext:true}},
   ]},
   sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1296,right:1296,header:720,footer:720}}},
     headers:{default:header},footers:{default:footer},children: SAMPLE ? [P(R(`SAMPLE — Unit 1 · first ${SAMPLE} standards (activities only, ruled-line writing) — for review`,{s:24,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:120}}), ...standards] : [...cover,...front,...standards,...back]}]});
-const OUTFILE=SAMPLE?`deliverables/Unit3_SAMPLE_${SAMPLE}standards.docx`:'deliverables/Unit3_Student_Workbook_CourseStandard.docx';
+const OUTFILE=SAMPLE?`deliverables/Unit3_SAMPLE_${SAMPLE}standards.docx`:'deliverables/Unit3_Student_Workbook_CourseStandard'+(LP>1?'_LargePrint':'')+'.docx';
 Packer.toBuffer(doc).then(b=>{fs.writeFileSync(OUTFILE,b);console.log('WROTE',OUTFILE,b.length,'bytes');});
