@@ -13,7 +13,7 @@ CAST UDL 3.0 supports, and distractor-based MTSS remediation. Answer keys are te
 | DOK | DOK1: 140, DOK2: 245, DOK3: 315 |
 | Item type | multiple_choice: 525, constructed_response: 70, document_based: 57, short_answer: 35, extended_response: 13 |
 | Bloom's | Understand: 212, Analyze: 150, Remember: 136, Evaluate: 136, Apply: 64, Create: 2 |
-| MC answer-key balance | A: 139, B: 135, C: 139, D: 112 (n=525) |
+| MC answer-key balance | A: 139, B: 135, C: 138, D: 113 (n=525) |
 | TN-specific items | 94 |
 | IRT difficulty b | mean 0.28, range -1.40…1.45 |
 | TCAP-format MC/MS | 525 · field-test-ready 525 |

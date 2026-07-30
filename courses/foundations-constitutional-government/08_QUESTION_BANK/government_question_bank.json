@@ -1380,10 +1380,10 @@
   "options": {
    "A": "They could not agree on any one thinker to follow",
    "B": "Each root said exactly the same thing, so the choice did not matter",
-   "C": "Different roots supplied different ideas, such as democracy, limited government, and natural rights, that together shaped a limited republic",
-   "D": "They rejected all older ideas as outdated and started over"
+   "C": "They rejected all older ideas as outdated and started over",
+   "D": "Different roots supplied different ideas, such as democracy, limited government, and natural rights, that together shaped a limited republic"
   },
-  "correct_answer": "C",
+  "correct_answer": "D",
   "distractor_tags": [
    {
     "label": "A",
@@ -1396,7 +1396,7 @@
     "rationale": "The roots contributed distinct ideas; they were not identical."
    },
    {
-    "label": "D",
+    "label": "C",
     "code": "MC",
     "rationale": "The Founders reshaped older ideas rather than rejecting them all."
    }
@@ -1427,7 +1427,7 @@
      "reteach": "If chosen: test the overgeneralization against a specific case where it breaks down."
     },
     {
-     "choice": "D",
+     "choice": "C",
      "signals_misconception": "The Founders reshaped older ideas rather than rejecting them all.",
      "reteach": "If chosen: directly confront and correct the misconception with a worked counter-example."
     }
