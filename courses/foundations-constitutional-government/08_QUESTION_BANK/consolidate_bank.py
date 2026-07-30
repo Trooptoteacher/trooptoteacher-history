@@ -9,7 +9,7 @@ import os, json, glob, re
 HERE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.dirname(HERE)
 OUT=os.path.join(HERE,"government_question_bank.json")
 items=[]
-for p in sorted(glob.glob(os.path.join(ROOT,"BUILD","unit*","analysis","unit*_item_bank.json"))):
+for p in sorted(glob.glob(os.path.join(ROOT,"BUILD","unit*","analysis","unit*_item_bank*.json"))):
     try:
         d=json.load(open(p,encoding="utf-8"))
     except Exception as e:

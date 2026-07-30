@@ -91,25 +91,50 @@ def opt_lines(it):
     return "\n".join(f"   {L}. {o[L]}" for L in ["A","B","C","D"] if L in o)
 
 L=[chr(65+i) for i in range(FORMS)]  # form labels A,B,C,...
+UDL_BANNER=("> **Universal supports — available to every student, no special request needed:** this test may be "
+ "read aloud; key civics terms are glossed on request; large-print and screen-reader formats are available; "
+ "extended time is available. For any written-response question you may answer **in writing, by recording your "
+ "spoken response, or with a labeled diagram/organizer.** The learning target is the same for everyone. "
+ "_(Designed on CAST UDL Guidelines 3.0 — firm goal, flexible means.)_")
+
 def write_form(fi):
     label=L[fi]; items=forms[fi]
-    # student
-    s=[f"# {TITLE.replace('_',' ')} — Form {label} (Student)",
-       "",f"**Name:** ______________________  **Class/Period:** ______  **Date:** ______","",
+    # ---- student form (no keys) ----
+    s=[f"# {TITLE.replace('_',' ')} — Form {label} (Student)","",
+       f"**Name:** ______________________  **Class/Period:** ______  **Date:** ______","",
+       UDL_BANNER,"",
        "_Choose the best answer for each question. Assessment items are classroom-formative · pre-field-test._",""]
     for n,it in enumerate(items,1):
         s.append(f"**{n}.** {it['question']}  _[{it['standard']} · DOK {it['dok']}]_")
         s.append(opt_lines(it)); s.append("")
     open(os.path.join(OUTDIR,f"{TITLE}_Form_{label}_STUDENT.md"),"w",encoding="utf-8").write("\n".join(s))
-    # teacher key
-    k=[f"# {TITLE.replace('_',' ')} — Form {label} (TEACHER KEY — do not distribute)","",
+    # ---- teacher answer key + remediation (accompanies every form) ----
+    k=[f"# {TITLE.replace('_',' ')} — Form {label} — TEACHER ANSWER KEY + REMEDIATION",
+       "","_Teacher copy — do not distribute. Answer key, item psychometrics, and UDL-grounded reteach/MTSS "
+       "routing. IRT values are pre-field-test design-time estimates._","",
+       "## Answer key","",
        "| # | Std | DOK | Bloom's (Hess) | Key | IRT b | Why the key is correct |","|--|--|--|--|--|--|--|"]
     for n,it in enumerate(items,1):
         k.append(f"| {n} | {it['standard']} | {it['dok']} | {it.get('hess_crm_cell','—')} | "
-                 f"{it.get('correct_answer','—')} | {it.get('irt_b','—')} | {str(it.get('key_rationale','')).replace('|','/')} |")
+                 f"{it.get('correct_answer','—')} | {it.get('irt_b','—')} | {str(it.get('key_rationale','')).replace(chr(124),'/')} |")
     dok=Counter(it["dok"] for it in items); bs=[it.get("irt_b") for it in items if isinstance(it.get("irt_b"),(int,float))]
-    k+=["","**Form stats:** DOK "+", ".join(f"{d}:{dok.get(d,0)}" for d in [1,2,3])+
-        f" · mean IRT-b {statistics.mean(bs):.2f}" if bs else ""]
+    k+=["",("**Form stats:** DOK "+", ".join(f"{d}:{dok.get(d,0)}" for d in [1,2,3])+
+        (f" · mean IRT-b {statistics.mean(bs):.2f}" if bs else "")),
+       "","## Remediation & MTSS routing (if missed)",""]
+    for n,it in enumerate(items,1):
+        rem=it.get("remediation") or {}
+        k.append(f"**{n}. {it['standard']} — {it.get('correct_answer','')}**  {rem.get('if_missed','Reteach the standard; re-assess with a parallel item.')}")
+        for d in (rem.get("by_distractor") or []):
+            k.append(f"  - **{d.get('choice')}** → {str(d.get('signals_misconception','')).strip()}  _{d.get('reteach','')}_")
+        m=rem.get("mtss") or {}
+        if m: k.append(f"  - _Tier 2:_ {m.get('tier2','')}  _Tier 3:_ {m.get('tier3','')}")
+        k.append("")
+    u=(items[0].get("udl_supports") or {}) if items else {}
+    k+=["## UDL supports on this form (CAST 3.0)","",
+        f"- **Representation:** {u.get('representation','key terms glossed; read-aloud; large-print/screen-reader.')}",
+        f"- **Action & Expression:** {u.get('action_expression','multiple response modes for constructed items; AT-compatible.')}",
+        f"- **Engagement:** {u.get('engagement','action-oriented feedback; DOK-tiered challenge; authentic civic contexts.')}",
+        f"- _{u.get('firm_goal_note','Supports vary the means, not the mastery target — UDL design, not modification.')}_"]
     open(os.path.join(OUTDIR,f"{TITLE}_Form_{label}_TEACHER_KEY.md"),"w",encoding="utf-8").write("\n".join(k))
     return dok,(statistics.mean(bs) if bs else 0)
 
