@@ -57,24 +57,34 @@ for it in bank:
 
 # Build FORMS parallel forms. For each standard, sort its items by DOK then difficulty, then
 # assign to forms with a per-standard rotating offset so easy/hard items spread across forms.
+def interleave_by_dok(pool):
+    """Order a standard's items so DOK levels alternate (d1,d2,d3,d1,...) — a round-robin
+    across DOK buckets, each bucket internally sorted by difficulty. This spreads recall/
+    reasoning/analysis across form slots so every form gets a balanced DOK mix, not just the
+    easiest items."""
+    buckets={1:[],2:[],3:[]}
+    for it in sorted(pool,key=lambda x:x.get("irt_b",0)):
+        buckets.setdefault(it.get("dok",2),[]).append(it)
+    ordered=[];
+    while any(buckets.values()):
+        for dk in (1,2,3):
+            if buckets.get(dk): ordered.append(buckets[dk].pop(0))
+    return ordered
+
 forms=[[] for _ in range(FORMS)]
 reuse_warnings=[]
 for j,std in enumerate(scope):
-    pool=sorted(by_std.get(std,[]),key=lambda x:(x.get("dok",2),x.get("irt_b",0)))
+    pool=interleave_by_dok(by_std.get(std,[]))
     if not pool:
         reuse_warnings.append(f"{std}: NO items in pool"); continue
     need=FORMS*PER
-    picks=[]
-    if len(pool)>=need:
-        picks=pool[:need]
-    else:
-        # reuse cyclically to fill; note it
-        picks=[pool[k%len(pool)] for k in range(need)]
-        reuse_warnings.append(f"{std}: pool {len(pool)} < needed {need} — items reused across forms")
-    # rotate assignment by standard index so difficulty balances across forms
-    for k,it in enumerate(picks):
-        f=(k+j)%FORMS
-        forms[f].append(it)
+    if len(pool)<need:
+        reuse_warnings.append(f"{std}: pool {len(pool)} < needed {need} — some items reused across forms")
+    # rotating offset by standard so each form samples different DOK positions and difficulty
+    # balances across forms; distinct items per form while the pool lasts.
+    for slot in range(need):
+        it=pool[(slot+j)%len(pool)]
+        forms[slot%FORMS].append(it)
 
 def opt_lines(it):
     o=it.get("options") or {}
