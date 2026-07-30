@@ -1,0 +1,878 @@
+{
+  "disclosure": "Assessment items are classroom-formative · pre-field-test.",
+  "formative": {
+    "GC.23": [
+      {
+        "stem": "In Tinker v. Des Moines (1969), what did the Supreme Court decide about students' free-speech rights?",
+        "std": "GC.23",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Schools may ban any student expression that administrators dislike"
+          },
+          {
+            "id": "B",
+            "text": "Students keep their free-speech rights at school unless the expression substantially disrupts learning"
+          },
+          {
+            "id": "C",
+            "text": "The First Amendment does not apply to public-school students"
+          },
+          {
+            "id": "D",
+            "text": "Only teachers, not students, hold free-speech rights at school"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV6: Civil Liberties",
+        "reteach": "Re-read the 'schoolhouse gate' quote; distinguish protected non-disruptive expression from speech that substantially disrupts.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.3,
+        "irt_b": 0.1,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Overstates school authority; Tinker limits, not expands, the power to ban expression."
+          },
+          {
+            "label": "C",
+            "code": "MC",
+            "rationale": "Misconception that students have no First Amendment rights; Tinker holds the opposite."
+          },
+          {
+            "label": "D",
+            "code": "NE",
+            "rationale": "Right topic but wrong holding; both students and teachers retain rights under Tinker."
+          }
+        ],
+        "key_rationale": "Tinker held students do not shed their rights at the schoolhouse gate, protecting non-disruptive expression.",
+        "dok_rationale": "Students interpret the meaning of a landmark holding.",
+        "blooms_rationale": "Students explain what the Court decided and its limit.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ],
+    "GC.24": [
+      {
+        "stem": "In District of Columbia v. Heller (2008), what did the Supreme Court hold about the Second Amendment?",
+        "std": "GC.24",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "That only the military may lawfully own weapons"
+          },
+          {
+            "id": "B",
+            "text": "That the amendment applies only to state militias"
+          },
+          {
+            "id": "C",
+            "text": "That states may ban all firearms within their borders"
+          },
+          {
+            "id": "D",
+            "text": "That the Second Amendment protects an individual right to keep and bear arms"
+          }
+        ],
+        "key": "D",
+        "rc": "RC-GOV6: Civil Liberties",
+        "reteach": "Re-read the Heller quote on an 'individual right'; then trace how McDonald v. Chicago applied it to the states.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.2,
+        "irt_b": 0.0,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.04",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Misconception that only the military may bear arms; Heller recognized an individual right."
+          },
+          {
+            "label": "B",
+            "code": "NE",
+            "rationale": "The militia-only reading is the interpretation Heller rejected."
+          },
+          {
+            "label": "C",
+            "code": "OG",
+            "rationale": "Overgeneralizes state power; Heller struck down a strict handgun ban."
+          }
+        ],
+        "key_rationale": "Heller held that the Second Amendment confers an individual right to keep and bear arms.",
+        "dok_rationale": "Students interpret the outcome of a landmark case.",
+        "blooms_rationale": "Students explain the ruling rather than merely name the case.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ],
+    "GC.25": [
+      {
+        "stem": "The exclusionary rule, established in Mapp v. Ohio (1961), provides that —",
+        "std": "GC.25",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "evidence obtained through an illegal search cannot be used against a defendant in court"
+          },
+          {
+            "id": "B",
+            "text": "police may search a home without a warrant in most situations"
+          },
+          {
+            "id": "C",
+            "text": "a suspect must answer every question police ask"
+          },
+          {
+            "id": "D",
+            "text": "criminal trials may be conducted in secret"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV6: Civil Liberties",
+        "reteach": "Connect the exclusionary rule to the 4th Amendment; use a short scenario of an illegal search and ask what happens to the evidence.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.3,
+        "irt_b": -0.1,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "B",
+            "code": "MC",
+            "rationale": "Contradicts the 4th Amendment, which the exclusionary rule enforces."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Confuses the 4th Amendment rule with the 5th Amendment right to remain silent."
+          },
+          {
+            "label": "D",
+            "code": "MC",
+            "rationale": "Misconception unrelated to the exclusionary rule; trials are public under the 6th Amendment."
+          }
+        ],
+        "key_rationale": "Mapp's exclusionary rule bars illegally obtained evidence from being used in court.",
+        "dok_rationale": "Students interpret the effect of a rule established by a case.",
+        "blooms_rationale": "Students explain the consequence the exclusionary rule creates.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ],
+    "GC.26": [
+      {
+        "stem": "Why is Brown v. Board of Education (1954) considered a turning point in interpreting the Equal Protection Clause?",
+        "std": "GC.26",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "It upheld the 'separate but equal' doctrine from Plessy v. Ferguson"
+          },
+          {
+            "id": "B",
+            "text": "It removed the Equal Protection Clause from the 14th Amendment"
+          },
+          {
+            "id": "C",
+            "text": "It ruled that 'separate educational facilities are inherently unequal,' ending lawful school segregation"
+          },
+          {
+            "id": "D",
+            "text": "It applied only to private colleges, not public schools"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-GOV6: Civil Liberties",
+        "reteach": "Contrast Plessy (1896) and Brown (1954); underline how the same clause was read in opposite ways.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.4,
+        "irt_b": 0.2,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.05",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Reverses the ruling; Brown overturned, not upheld, 'separate but equal.'"
+          },
+          {
+            "label": "B",
+            "code": "MC",
+            "rationale": "Misconception that a case can delete a constitutional clause."
+          },
+          {
+            "label": "D",
+            "code": "NE",
+            "rationale": "Wrong scope; Brown concerned public schools, not private colleges."
+          }
+        ],
+        "key_rationale": "Brown held segregated schools inherently unequal, overturning Plessy's 'separate but equal.'",
+        "dok_rationale": "Students interpret how a ruling changed a clause's meaning.",
+        "blooms_rationale": "Students explain the significance of the Brown decision.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ],
+    "GC.27": [
+      {
+        "stem": "What does Title IX of the Education Amendments of 1972 prohibit?",
+        "std": "GC.27",
+        "dok": 1,
+        "choices": [
+          {
+            "id": "A",
+            "text": "All tuition charged by private schools"
+          },
+          {
+            "id": "B",
+            "text": "Discrimination based on sex in education programs that receive federal funds"
+          },
+          {
+            "id": "C",
+            "text": "The teaching of American history in public schools"
+          },
+          {
+            "id": "D",
+            "text": "Voting by citizens under the age of 21"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV6: Civil Liberties",
+        "reteach": "Read the Title IX text aloud; list two concrete school settings (athletics, admissions) where it applies.",
+        "blooms": "Remember",
+        "hess_crm_cell": "Remember × DOK 1",
+        "irt_a": 1.0,
+        "irt_b": -1.2,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.03",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "OG",
+            "rationale": "Overgeneralizes; Title IX bars sex discrimination, not tuition."
+          },
+          {
+            "label": "C",
+            "code": "MC",
+            "rationale": "Misconception unrelated to Title IX's actual purpose."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Confuses Title IX with the 26th Amendment's voting age."
+          }
+        ],
+        "key_rationale": "Title IX bars sex discrimination in federally funded education programs.",
+        "dok_rationale": "Students recall what a specific law prohibits.",
+        "blooms_rationale": "Students retrieve the purpose of Title IX from memory.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ]
+  },
+  "formA": [
+    {
+      "stem": "A public high school suspends a student for silently wearing an armband to protest a government policy, and the protest caused no disruption. Based on Tinker v. Des Moines, how should a court most likely rule?",
+      "std": "GC.23",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "For the student, because non-disruptive symbolic speech is protected at school"
+        },
+        {
+          "id": "B",
+          "text": "For the school, because students give up their rights at the schoolhouse gate"
+        },
+        {
+          "id": "C",
+          "text": "For the school, because all forms of student protest are banned"
+        },
+        {
+          "id": "D",
+          "text": "For the student, because the First Amendment allows no limits on speech"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV6: Civil Liberties",
+      "reteach": "Apply the Tinker test to the fact pattern: was the speech symbolic and non-disruptive? Practice with additional armband/T-shirt scenarios.",
+      "blooms": "Apply",
+      "hess_crm_cell": "Apply × DOK 3",
+      "irt_a": 1.6,
+      "irt_b": 0.7,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Contradicts Tinker's core holding that students keep their rights."
+        },
+        {
+          "label": "C",
+          "code": "OG",
+          "rationale": "Overgeneralizes; Tinker protects non-disruptive protest, not bans all protest."
+        },
+        {
+          "label": "D",
+          "code": "PE",
+          "rationale": "Uses a partly-true idea (speech is protected) but ignores the 'substantial disruption' limit."
+        }
+      ],
+      "key_rationale": "Tinker protects silent, non-disruptive symbolic speech, so the student should prevail.",
+      "dok_rationale": "Students apply a precedent to a new fact pattern to predict the outcome.",
+      "blooms_rationale": "Students carry out the Tinker rule in an unfamiliar scenario.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "The principle that a protection in the Bill of Rights is applied to state and local governments through the 14th Amendment is called —",
+      "std": "GC.24",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "judicial review"
+        },
+        {
+          "id": "B",
+          "text": "symbolic speech"
+        },
+        {
+          "id": "C",
+          "text": "incorporation"
+        },
+        {
+          "id": "D",
+          "text": "original jurisdiction"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV6: Civil Liberties",
+      "reteach": "Define incorporation with McDonald v. Chicago as the example; map how a federal right becomes binding on the states.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": 0.3,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Judicial review is the power to void laws, not the process of applying rights to states."
+        },
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Symbolic speech is a First Amendment concept, not the state-application doctrine."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Original jurisdiction concerns which court hears a case first."
+        }
+      ],
+      "key_rationale": "Incorporation applies Bill of Rights protections to the states via the 14th Amendment.",
+      "dok_rationale": "Students match a defined process to the correct concept.",
+      "blooms_rationale": "Students construct meaning of the incorporation concept.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "Police arrest a suspect and begin questioning her without telling her she has the right to remain silent and to a lawyer. Based on Miranda v. Arizona, what is the most likely consequence?",
+      "std": "GC.25",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Her statements are automatically valid because she was under arrest"
+        },
+        {
+          "id": "B",
+          "text": "Her statements may be excluded from trial because she was not warned of her rights"
+        },
+        {
+          "id": "C",
+          "text": "She permanently loses her right to a jury trial"
+        },
+        {
+          "id": "D",
+          "text": "The arrest violates the Second Amendment"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV6: Civil Liberties",
+      "reteach": "Apply Miranda step by step: no warning before custodial questioning means statements can be suppressed. Use a short arrest scenario.",
+      "blooms": "Apply",
+      "hess_crm_cell": "Apply × DOK 3",
+      "irt_a": 1.6,
+      "irt_b": 0.8,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Contradicts Miranda; being under arrest does not validate unwarned statements."
+        },
+        {
+          "label": "C",
+          "code": "OG",
+          "rationale": "Overgeneralizes a consequence; Miranda affects statements, not the right to trial."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Confuses amendments; Miranda involves the 5th Amendment, not the 2nd."
+        }
+      ],
+      "key_rationale": "Under Miranda, statements from unwarned custodial questioning may be excluded.",
+      "dok_rationale": "Students apply a precedent to a scenario to predict the legal result.",
+      "blooms_rationale": "Students carry out the Miranda rule in an unfamiliar case.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "How can the same Equal Protection Clause have supported segregation in Plessy v. Ferguson (1896) yet ended it in Brown v. Board of Education (1954)?",
+      "std": "GC.26",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Congress rewrote the clause between the two cases"
+        },
+        {
+          "id": "B",
+          "text": "Plessy did not actually involve the Equal Protection Clause"
+        },
+        {
+          "id": "C",
+          "text": "The two rulings interpreted different amendments"
+        },
+        {
+          "id": "D",
+          "text": "The Supreme Court reinterpreted the clause's meaning over time"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV6: Civil Liberties",
+      "reteach": "Trace the change in interpretation across 1896–1954; emphasize that constitutional meaning is decided by people over time.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.7,
+      "irt_b": 1.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.05",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception that a clause was rewritten; the text stayed the same."
+        },
+        {
+          "label": "B",
+          "code": "NE",
+          "rationale": "Plessy did rest on equal protection, so this is factually wrong."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Both cases interpreted the 14th Amendment, not different amendments."
+        }
+      ],
+      "key_rationale": "The same clause yielded opposite results because the Court reinterpreted it over time.",
+      "dok_rationale": "Students analyze how interpretation, not text, changed between rulings.",
+      "blooms_rationale": "Students break down the cause of two opposite outcomes from one clause.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "How did the Americans with Disabilities Act of 1990 expand rights for underserved groups?",
+      "std": "GC.27",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "By prohibiting discrimination against people with disabilities and requiring reasonable accommodations"
+        },
+        {
+          "id": "B",
+          "text": "By banning sex discrimination in school athletics"
+        },
+        {
+          "id": "C",
+          "text": "By guaranteeing a lawyer to defendants who cannot afford one"
+        },
+        {
+          "id": "D",
+          "text": "By applying the Second Amendment to the states"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV6: Civil Liberties",
+      "reteach": "List the ADA's coverage areas (employment, public services, public places) and give a concrete accommodation example.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.2,
+      "irt_b": 0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.03",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Describes Title IX, not the ADA."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Describes Gideon v. Wainwright, not the ADA."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Describes McDonald v. Chicago, not the ADA."
+        }
+      ],
+      "key_rationale": "The ADA bars disability discrimination and requires reasonable accommodations.",
+      "dok_rationale": "Students interpret the reach of a specific law.",
+      "blooms_rationale": "Students explain how the ADA widened protected rights.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    }
+  ],
+  "formB": [
+    {
+      "stem": "Engel v. Vitale (1962) and Lemon v. Kurtzman (1971) both interpreted which part of the First Amendment?",
+      "std": "GC.23",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "the freedom of the press"
+        },
+        {
+          "id": "B",
+          "text": "the right to peaceably assemble"
+        },
+        {
+          "id": "C",
+          "text": "the right to petition the government"
+        },
+        {
+          "id": "D",
+          "text": "the Establishment Clause separating government and religion"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV6: Civil Liberties",
+      "reteach": "Group the First Amendment cases by clause: speech, press, religion; place Engel and Lemon under the Establishment Clause.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": 0.2,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Press cases are New York Times v. United States and Miller, not Engel or Lemon."
+        },
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Assembly is a different First Amendment freedom not at issue in these cases."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Petition is a separate freedom; these cases concern religion."
+        }
+      ],
+      "key_rationale": "Both Engel and Lemon applied the Establishment Clause to church-state questions.",
+      "dok_rationale": "Students categorize cases under the correct constitutional clause.",
+      "blooms_rationale": "Students construct meaning by grouping cases by the freedom involved.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "The Supreme Court has said the Second Amendment right is 'not unlimited.' What does that mean?",
+      "std": "GC.24",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Governments may still regulate who may carry firearms, and where and how"
+        },
+        {
+          "id": "B",
+          "text": "Only the military may lawfully own weapons"
+        },
+        {
+          "id": "C",
+          "text": "States may ban all firearms outright"
+        },
+        {
+          "id": "D",
+          "text": "The amendment does not protect any individual at all"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV6: Civil Liberties",
+      "reteach": "List examples of allowed regulation the Court signaled in Heller; distinguish 'protected right' from 'unlimited right.'",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.4,
+      "irt_b": 0.4,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Contradicts Heller's individual-right holding."
+        },
+        {
+          "label": "C",
+          "code": "OG",
+          "rationale": "Overgeneralizes; a total ban conflicts with the recognized right."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Contradicts Heller, which found an individual right."
+        }
+      ],
+      "key_rationale": "'Not unlimited' means firearms may still be regulated as to who, where, and how.",
+      "dok_rationale": "Students interpret the meaning of a qualifying phrase from the Court.",
+      "blooms_rationale": "Students explain what a limited right permits governments to do.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "The requirement that the state provide a lawyer to a defendant who cannot afford one comes from which Supreme Court case?",
+      "std": "GC.25",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mapp v. Ohio"
+        },
+        {
+          "id": "B",
+          "text": "Gideon v. Wainwright"
+        },
+        {
+          "id": "C",
+          "text": "Miranda v. Arizona"
+        },
+        {
+          "id": "D",
+          "text": "Brown v. Board of Education"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV6: Civil Liberties",
+      "reteach": "Match each accused-rights case to its amendment: Mapp (4th), Gideon (6th), Miranda (5th); quiz with the case-to-right pairing.",
+      "blooms": "Remember",
+      "hess_crm_cell": "Remember × DOK 1",
+      "irt_a": 1.0,
+      "irt_b": -1.2,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "NE",
+          "rationale": "Mapp established the exclusionary rule, not the right to counsel."
+        },
+        {
+          "label": "C",
+          "code": "NE",
+          "rationale": "Miranda concerns warnings and silence, not appointed counsel."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Brown is an equal-protection case, unrelated to right to counsel."
+        }
+      ],
+      "key_rationale": "Gideon v. Wainwright guaranteed appointed counsel to defendants who cannot afford one.",
+      "dok_rationale": "Students recall which case established a specific right.",
+      "blooms_rationale": "Students retrieve the correct case from memory.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "The 14th Amendment's guarantee that no state may 'deny to any person… the equal protection of the laws' was the constitutional basis for which ruling?",
+      "std": "GC.26",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Schenck v. United States"
+        },
+        {
+          "id": "B",
+          "text": "District of Columbia v. Heller"
+        },
+        {
+          "id": "C",
+          "text": "Brown v. Board of Education"
+        },
+        {
+          "id": "D",
+          "text": "Miranda v. Arizona"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV6: Civil Liberties",
+      "reteach": "Link the Equal Protection Clause to Brown; contrast with cases resting on other amendments (Schenck-1st, Heller-2nd, Miranda-5th).",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": 0.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.05",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Schenck rests on the First Amendment, not equal protection."
+        },
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Heller rests on the Second Amendment, not equal protection."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Miranda rests on the Fifth Amendment, not equal protection."
+        }
+      ],
+      "key_rationale": "Brown v. Board rested on the 14th Amendment's Equal Protection Clause.",
+      "dok_rationale": "Students connect a constitutional clause to the case it grounded.",
+      "blooms_rationale": "Students construct meaning by matching clause to ruling.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "Why do many scholars today point to Korematsu v. United States (1944) as a cautionary example rather than a model to follow?",
+      "std": "GC.27",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "It created Title IX and later proved unnecessary"
+        },
+        {
+          "id": "B",
+          "text": "It expanded voting rights too quickly"
+        },
+        {
+          "id": "C",
+          "text": "It ended school segregation before the country was ready"
+        },
+        {
+          "id": "D",
+          "text": "It upheld the wartime incarceration of Japanese Americans, showing how liberty can be sacrificed to claimed security"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV6: Civil Liberties",
+      "reteach": "Discuss the security-vs-liberty tension using Korematsu; have students judge why it is now condemned, citing the facts.",
+      "blooms": "Evaluate",
+      "hess_crm_cell": "Evaluate × DOK 3",
+      "irt_a": 1.7,
+      "irt_b": 1.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D3",
+      "ssp": "SSP.03",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Korematsu had nothing to do with Title IX."
+        },
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Korematsu narrowed rights; it did not expand voting rights."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Ending segregation was Brown, not Korematsu."
+        }
+      ],
+      "key_rationale": "Korematsu is a warning because it upheld incarcerating Japanese Americans in the name of security.",
+      "dok_rationale": "Students judge why a ruling is condemned, weighing liberty against security.",
+      "blooms_rationale": "Students evaluate the case against a criterion of protected rights.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    }
+  ],
+  "_psychometric_summary": {
+    "dok_distribution": {
+      "1": 2,
+      "2": 9,
+      "3": 4
+    },
+    "blooms_distribution": {
+      "Understand": 9,
+      "Remember": 2,
+      "Apply": 2,
+      "Analyze": 1,
+      "Evaluate": 1
+    },
+    "irt_a_mean": 1.353,
+    "irt_b_mean": 0.16,
+    "field_test_ready_count": 15,
+    "total_items": 15,
+    "note": "IRT 3PL parameters are pre-field-test design-time estimates, to be calibrated on field-test data."
+  }
+}

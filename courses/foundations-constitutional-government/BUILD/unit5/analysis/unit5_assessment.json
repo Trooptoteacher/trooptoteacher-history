@@ -1,0 +1,707 @@
+{
+  "disclosure": "Assessment items are classroom-formative · pre-field-test.",
+  "formative": {
+    "GC.19": [
+      {
+        "stem": "Most cases arrive at the U.S. Supreme Court through which type of jurisdiction?",
+        "std": "GC.19",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Appellate jurisdiction, on appeal from a lower court"
+          },
+          {
+            "id": "B",
+            "text": "Original jurisdiction, as the first court to hear the case"
+          },
+          {
+            "id": "C",
+            "text": "Legislative jurisdiction, referred by Congress"
+          },
+          {
+            "id": "D",
+            "text": "Executive jurisdiction, assigned by the President"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV5: The Judicial Branch",
+        "reteach": "Revisit Article III, Section 2 and the close reading; contrast original vs. appellate jurisdiction with the 'a case starts here vs. an appeal arrives here' distinction.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.2,
+        "irt_b": -0.2,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.01",
+        "distractor_tags": [
+          {
+            "label": "B",
+            "code": "NE",
+            "rationale": "Original jurisdiction exists but is the exception, not how most cases arrive — right topic, wrong frequency."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Confuses the judicial branch with the legislative role; Congress does not refer cases up as 'jurisdiction.'"
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Confuses judicial jurisdiction with an executive assignment; the President does not route cases to the Court."
+          }
+        ],
+        "key_rationale": "Article III routes most cases to the Court on appeal from lower courts — appellate jurisdiction.",
+        "dok_rationale": "Students must interpret how cases reach the Court, not merely recall a term.",
+        "blooms_rationale": "Students construct meaning by distinguishing two forms of jurisdiction.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ],
+    "GC.20": [
+      {
+        "stem": "Under the Constitution's 'Advice and Consent' requirement, which body must approve a Supreme Court nominee before that person can take the bench?",
+        "std": "GC.20",
+        "dok": 1,
+        "choices": [
+          {
+            "id": "A",
+            "text": "The House of Representatives"
+          },
+          {
+            "id": "B",
+            "text": "The Senate"
+          },
+          {
+            "id": "C",
+            "text": "The state legislatures"
+          },
+          {
+            "id": "D",
+            "text": "The current Supreme Court justices"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV5: The Judicial Branch",
+        "reteach": "Re-read Article II, Section 2; map the two-step process — President nominates, Senate confirms — and label who controls each step.",
+        "blooms": "Remember",
+        "hess_crm_cell": "Remember × DOK 1",
+        "irt_a": 1.0,
+        "irt_b": -1.1,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.05",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "PK",
+            "rationale": "Confuses the Senate's confirmation role with the House; the House does not confirm justices."
+          },
+          {
+            "label": "C",
+            "code": "MC",
+            "rationale": "Misconception that states approve federal appointments; confirmation is a federal Senate power."
+          },
+          {
+            "label": "D",
+            "code": "MC",
+            "rationale": "Misconception that the Court fills its own seats; sitting justices play no formal role."
+          }
+        ],
+        "key_rationale": "Article II gives the Senate the power of Advice and Consent to confirm nominees.",
+        "dok_rationale": "Students recall a single constitutional fact about who confirms nominees.",
+        "blooms_rationale": "Students retrieve the confirming body from memory.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ],
+    "GC.21": [
+      {
+        "stem": "Marbury v. Madison (1803) is most significant because it established which power of the courts?",
+        "std": "GC.21",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "The power to collect federal taxes"
+          },
+          {
+            "id": "B",
+            "text": "The power to declare war on other nations"
+          },
+          {
+            "id": "C",
+            "text": "Judicial review — the power to declare a law unconstitutional and void"
+          },
+          {
+            "id": "D",
+            "text": "The power to choose the President in a tie"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-GOV5: The Judicial Branch",
+        "reteach": "Re-read Marshall's holding ('a law repugnant to the constitution is void'); define judicial review and connect it to checks and balances from Unit 1.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.3,
+        "irt_b": 0.1,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "PK",
+            "rationale": "Taxing is a legislative power, not a judicial one established by Marbury."
+          },
+          {
+            "label": "B",
+            "code": "PK",
+            "rationale": "Declaring war is a power of Congress, not a court power from Marbury."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Choosing a President in a tie is a House role under the 12th Amendment, unrelated to Marbury."
+          }
+        ],
+        "key_rationale": "Marshall's opinion established judicial review — courts may void a law that conflicts with the Constitution.",
+        "dok_rationale": "Students explain the significance of a landmark case, not just name it.",
+        "blooms_rationale": "Students construct meaning about what power the ruling created.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ],
+    "GC.22": [
+      {
+        "stem": "A judge who defers to the elected branches and interprets the Constitution narrowly by its 'original intent' is practicing —",
+        "std": "GC.22",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "judicial review"
+          },
+          {
+            "id": "B",
+            "text": "judicial activism"
+          },
+          {
+            "id": "C",
+            "text": "incorporation"
+          },
+          {
+            "id": "D",
+            "text": "judicial restraint"
+          }
+        ],
+        "key": "D",
+        "rc": "RC-GOV5: The Judicial Branch",
+        "reteach": "Build a Frayer for judicial restraint vs. activism; sort short case summaries into 'defers to elected branches' vs. 'sets new policy.'",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.4,
+        "irt_b": 0.3,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.04",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "PK",
+            "rationale": "Judicial review is the power itself, not the philosophy of how boldly to use it."
+          },
+          {
+            "label": "B",
+            "code": "NE",
+            "rationale": "Activism is the opposite approach — greater willingness to strike down laws or set policy."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Incorporation applies the Bill of Rights to the states; it is unrelated to activism vs. restraint."
+          }
+        ],
+        "key_rationale": "Deferring to elected branches and reading for original intent defines judicial restraint.",
+        "dok_rationale": "Students classify a described approach against a concept, requiring interpretation.",
+        "blooms_rationale": "Students construct meaning by matching behavior to the correct philosophy.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ]
+  },
+  "formA": [
+    {
+      "stem": "The Constitution gives federal judges their offices 'during good Behaviour' — effectively for life — mainly to —",
+      "std": "GC.19",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "guarantee that they can never be removed for any reason"
+        },
+        {
+          "id": "B",
+          "text": "protect their independence from political pressure so they can rule on the law"
+        },
+        {
+          "id": "C",
+          "text": "allow the President to replace them at the start of each term"
+        },
+        {
+          "id": "D",
+          "text": "require them to also serve as members of Congress"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV5: The Judicial Branch",
+      "reteach": "Re-read Article III on tenure and pay protection; explain how life tenure trades democratic control for independence, and note that removal is only by impeachment.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": 0.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "OG",
+          "rationale": "Overgeneralizes tenure; judges can be removed by impeachment, so 'never for any reason' is false."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception that terms reset with each President; life tenure prevents this."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Confuses the branches; judges do not also sit in Congress."
+        }
+      ],
+      "key_rationale": "Life tenure insulates judges from politics so they can decide cases on the law.",
+      "dok_rationale": "Students interpret the purpose behind a constitutional design feature.",
+      "blooms_rationale": "Students explain why the framers chose life tenure.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "Which sequence correctly describes how a person becomes a U.S. Supreme Court justice?",
+      "std": "GC.20",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Senate nominates; the President confirms by executive order"
+        },
+        {
+          "id": "B",
+          "text": "The current justices choose a successor and the President signs off"
+        },
+        {
+          "id": "C",
+          "text": "The President nominates; the Senate Judiciary Committee holds hearings; the full Senate confirms by majority vote"
+        },
+        {
+          "id": "D",
+          "text": "The states nominate a candidate and the House confirms the choice"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV5: The Judicial Branch",
+      "reteach": "Diagram the confirmation flow: nomination → Judiciary Committee hearing → full Senate majority vote; label the branch responsible at each stage.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.4,
+      "irt_b": 0.2,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.05",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Reverses the roles; the President nominates and the Senate confirms, not the reverse."
+        },
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception that the Court is self-perpetuating; justices do not pick successors."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Confuses the confirming body; states do not nominate and the House does not confirm justices."
+        }
+      ],
+      "key_rationale": "The correct order is Presidential nomination, Judiciary Committee hearing, then full-Senate confirmation.",
+      "dok_rationale": "Students order the steps of a process and match each to the correct actor.",
+      "blooms_rationale": "Students summarize the multi-step appointment procedure.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "A federal law directly conflicts with a clause of the U.S. Constitution. Based on the reasoning in Marbury v. Madison, how should a court resolve the conflict?",
+      "std": "GC.21",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Enforce the law, because Congress passed it and courts must defer to Congress"
+        },
+        {
+          "id": "B",
+          "text": "Ask the President to decide which one controls"
+        },
+        {
+          "id": "C",
+          "text": "Send the question to the state legislatures for a vote"
+        },
+        {
+          "id": "D",
+          "text": "Treat the law as void, because the Constitution is the supreme law"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV5: The Judicial Branch",
+      "reteach": "Apply Marshall's logic step by step: the Constitution is supreme, a conflicting law is void, and courts 'say what the law is'; practice with a hypothetical statute.",
+      "blooms": "Apply",
+      "hess_crm_cell": "Apply × DOK 3",
+      "irt_a": 1.6,
+      "irt_b": 0.9,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Contradicts Marbury; a law repugnant to the Constitution cannot simply be enforced."
+        },
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Confuses the branches; courts, not the President, decide constitutionality."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception that states resolve constitutional conflicts; that is the judiciary's role."
+        }
+      ],
+      "key_rationale": "Marbury holds that a law conflicting with the supreme Constitution is void.",
+      "dok_rationale": "Students apply a precedent's reasoning to a new hypothetical conflict.",
+      "blooms_rationale": "Students use the Marbury rule to reach a conclusion in an unfamiliar case.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "A court strikes down a long-standing law, reading the Constitution as a 'living document' that must adapt to new circumstances. This approach is best described as —",
+      "std": "GC.22",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "judicial activism"
+        },
+        {
+          "id": "B",
+          "text": "judicial restraint"
+        },
+        {
+          "id": "C",
+          "text": "original jurisdiction"
+        },
+        {
+          "id": "D",
+          "text": "the rule of four"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV5: The Judicial Branch",
+      "reteach": "Play 'Activist or Restrained?': classify rulings by whether the Court set new policy (activism) or deferred to elected branches and original text (restraint).",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.5,
+      "irt_b": 0.8,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "NE",
+          "rationale": "Restraint is the opposite; it defers to elected branches and original intent rather than striking laws down."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Original jurisdiction is about which court hears a case first, not a judicial philosophy."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "The rule of four is how the Court agrees to hear a case, not how boldly it rules."
+        }
+      ],
+      "key_rationale": "Reading the Constitution as a living document and striking down a law reflects judicial activism.",
+      "dok_rationale": "Students analyze a scenario's reasoning to classify the judicial philosophy at work.",
+      "blooms_rationale": "Students break down the judge's approach to identify activism.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    }
+  ],
+  "formB": [
+    {
+      "stem": "What distinguishes the Supreme Court's original jurisdiction from its appellate jurisdiction?",
+      "std": "GC.19",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Original jurisdiction means the Court is reviewing a lower court's decision"
+        },
+        {
+          "id": "B",
+          "text": "Original jurisdiction applies only to cases that begin in state courts"
+        },
+        {
+          "id": "C",
+          "text": "The two terms describe exactly the same kind of case"
+        },
+        {
+          "id": "D",
+          "text": "Original jurisdiction means the case is heard first at that court, not on appeal"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV5: The Judicial Branch",
+      "reteach": "Use a two-column chart: 'starts here' (original) vs. 'arrives on appeal' (appellate); tie back to Article III, Section 2.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.2,
+      "irt_b": -0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Reverses the definitions; reviewing a lower court is appellate, not original, jurisdiction."
+        },
+        {
+          "label": "B",
+          "code": "NE",
+          "rationale": "Original jurisdiction is not limited to state-court origins; it is about hearing a case first."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception that the two are identical; they describe different roles."
+        }
+      ],
+      "key_rationale": "Original jurisdiction means the Court hears the case first, not on appeal.",
+      "dok_rationale": "Students distinguish two related concepts by their defining feature.",
+      "blooms_rationale": "Students construct meaning by contrasting original and appellate jurisdiction.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "A Supreme Court seat opens with two years left in a President's term. Given how long a justice can serve, why might both parties in the Senate treat this single confirmation as unusually important?",
+      "std": "GC.20",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Because the new justice could shape the Court's decisions for decades, long after this President leaves office"
+        },
+        {
+          "id": "B",
+          "text": "Because the justice must be re-confirmed by the Senate every year"
+        },
+        {
+          "id": "C",
+          "text": "Because the House of Representatives will overturn the choice if it disagrees"
+        },
+        {
+          "id": "D",
+          "text": "Because the President loses all other powers while a confirmation is pending"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV5: The Judicial Branch",
+      "reteach": "Connect life tenure (GC.19) to high-stakes confirmations: a decades-long term means one appointment outlasts the President who made it.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.6,
+      "irt_b": 1.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.05",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception that justices face annual re-confirmation; they serve during good behavior."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "The House has no role in confirming or overturning a justice."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception that a President is stripped of powers during a confirmation."
+        }
+      ],
+      "key_rationale": "A justice's decades-long tenure means one confirmation shapes the law far beyond the President's term.",
+      "dok_rationale": "Students reason from the consequence of life tenure to explain the political stakes.",
+      "blooms_rationale": "Students analyze cause and effect linking tenure length to confirmation intensity.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "Judicial review is best defined as the power of courts to —",
+      "std": "GC.21",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "propose new laws for Congress to consider"
+        },
+        {
+          "id": "B",
+          "text": "declare a law or government action unconstitutional and therefore void"
+        },
+        {
+          "id": "C",
+          "text": "remove the President from office through impeachment"
+        },
+        {
+          "id": "D",
+          "text": "set the federal budget each year"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV5: The Judicial Branch",
+      "reteach": "Re-state the definition of judicial review in students' own words and pair it with the source case, Marbury v. Madison (1803).",
+      "blooms": "Remember",
+      "hess_crm_cell": "Remember × DOK 1",
+      "irt_a": 1.0,
+      "irt_b": -1.3,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Proposing laws is a legislative function, not judicial review."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Impeachment is a congressional power, not judicial review."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Setting the budget is a legislative power, not a court power."
+        }
+      ],
+      "key_rationale": "Judicial review is the courts' power to void laws that conflict with the Constitution.",
+      "dok_rationale": "Students recall the definition of a key term.",
+      "blooms_rationale": "Students retrieve the meaning of judicial review from memory.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "Reading the Constitution as a 'living document' and being more willing to strike down laws or set new policy reflects which judicial approach?",
+      "std": "GC.22",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "judicial restraint"
+        },
+        {
+          "id": "B",
+          "text": "original jurisdiction"
+        },
+        {
+          "id": "C",
+          "text": "judicial activism"
+        },
+        {
+          "id": "D",
+          "text": "appellate review"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV5: The Judicial Branch",
+      "reteach": "Contrast the 'living document' (activism) and 'original intent' (restraint) lenses; have students label a ruling and defend the label with evidence.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": 0.2,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "NE",
+          "rationale": "Restraint is the opposite approach — deference and original intent."
+        },
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Original jurisdiction concerns which court hears a case first, not a philosophy."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Appellate review is a process, not the activism-vs-restraint philosophy."
+        }
+      ],
+      "key_rationale": "The 'living document' view with willingness to strike down laws is judicial activism.",
+      "dok_rationale": "Students match a described approach to the correct concept.",
+      "blooms_rationale": "Students construct meaning by identifying the activist philosophy.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    }
+  ],
+  "_psychometric_summary": {
+    "dok_distribution": {
+      "1": 2,
+      "2": 7,
+      "3": 3
+    },
+    "blooms_distribution": {
+      "Understand": 7,
+      "Remember": 2,
+      "Apply": 1,
+      "Analyze": 2
+    },
+    "irt_a_mean": 1.317,
+    "irt_b_mean": 0.067,
+    "field_test_ready_count": 12,
+    "total_items": 12,
+    "note": "IRT 3PL parameters are pre-field-test design-time estimates, to be calibrated on field-test data."
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "disclosure": "Assessment items are classroom-formative · pre-field-test.",
+  "formative": {
+    "GC.28": [
+      {
+        "stem": "Under the 'Tennessee Plan,' how do the state's appellate judges reach the bench?",
+        "std": "GC.28",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "The governor appoints them, and they then face yes-or-no retention elections"
+          },
+          {
+            "id": "B",
+            "text": "They are chosen in contested partisan elections statewide"
+          },
+          {
+            "id": "C",
+            "text": "They are appointed by the President and confirmed by the U.S. Senate"
+          },
+          {
+            "id": "D",
+            "text": "They inherit their seats and serve for life without any election"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV7: Tennessee State and Local Government",
+        "reteach": "Re-read the Tennessee Plan description; contrast merit appointment plus retention with contested partisan races.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.3,
+        "irt_b": 0.2,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.01",
+        "distractor_tags": [
+          {
+            "label": "B",
+            "code": "NE",
+            "rationale": "Right topic (judicial selection) but wrong method; the Tennessee Plan uses retention, not partisan races."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Confuses state selection with the federal appointment process."
+          },
+          {
+            "label": "D",
+            "code": "MC",
+            "rationale": "Misconception that appellate judges never face voters; they face retention elections."
+          }
+        ],
+        "key_rationale": "The Tennessee Plan appoints appellate judges who then face yes-or-no retention elections.",
+        "dok_rationale": "Students interpret how a state selection process works, not just name it.",
+        "blooms_rationale": "Students explain the steps of the Tennessee Plan.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ],
+    "GC.29": [
+      {
+        "stem": "Because Tennessee is a unitary state, its county and city governments —",
+        "std": "GC.29",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "are completely independent of the state government"
+          },
+          {
+            "id": "B",
+            "text": "hold only the powers that the state grants them"
+          },
+          {
+            "id": "C",
+            "text": "report directly to the federal government"
+          },
+          {
+            "id": "D",
+            "text": "may set aside state law within their own borders"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV7: Tennessee State and Local Government",
+        "reteach": "Re-teach unitary government and Dillon's Rule; use a chart showing authority flowing from state down to local governments.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.3,
+        "irt_b": 0.1,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Contradicts a unitary system; local governments are creatures of the state, not independent."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Confuses federalism levels; local governments answer to the state, not directly to Washington."
+          },
+          {
+            "label": "D",
+            "code": "MC",
+            "rationale": "Misconception that localities can override state law; Dillon's Rule forbids this."
+          }
+        ],
+        "key_rationale": "In a unitary state, local governments have only the powers the state grants under Dillon's Rule.",
+        "dok_rationale": "Students interpret the consequence of the unitary model for local power.",
+        "blooms_rationale": "Students explain what being a unitary state means for counties and cities.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ],
+    "GC.30": [
+      {
+        "stem": "The Tennessee General Assembly is made up of which two chambers?",
+        "std": "GC.30",
+        "dok": 1,
+        "choices": [
+          {
+            "id": "A",
+            "text": "a Cabinet and a Supreme Court"
+          },
+          {
+            "id": "B",
+            "text": "a House of Lords and a House of Commons"
+          },
+          {
+            "id": "C",
+            "text": "a Senate and a House of Representatives"
+          },
+          {
+            "id": "D",
+            "text": "the Grand Divisions and the counties"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-GOV7: Tennessee State and Local Government",
+        "reteach": "Re-read Article II, Section 3 of the Tennessee Constitution; label the two chambers and note the 33/99 membership.",
+        "blooms": "Remember",
+        "hess_crm_cell": "Remember × DOK 1",
+        "irt_a": 1.0,
+        "irt_b": -1.3,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.06",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "PK",
+            "rationale": "Confuses legislative chambers with executive and judicial bodies."
+          },
+          {
+            "label": "B",
+            "code": "AN",
+            "rationale": "Anachronism importing the British Parliament's chambers into Tennessee."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Confuses the legislature's chambers with geographic and local divisions."
+          }
+        ],
+        "key_rationale": "The General Assembly consists of a Senate and a House of Representatives.",
+        "dok_rationale": "Students recall the structure of the state legislature.",
+        "blooms_rationale": "Students retrieve the two chambers from memory.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true
+      }
+    ]
+  },
+  "formA": [
+    {
+      "stem": "A Tennessean files a lawsuit seeking an injunction and asks a court of equity to resolve a property dispute. In Tennessee's trial-court system, which court hears matters of equity and is presided over by a Chancellor?",
+      "std": "GC.28",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Criminal Court"
+        },
+        {
+          "id": "B",
+          "text": "Chancery Court"
+        },
+        {
+          "id": "C",
+          "text": "Circuit Court"
+        },
+        {
+          "id": "D",
+          "text": "U.S. District Court"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV7: Tennessee State and Local Government",
+      "reteach": "Sort scenarios into Circuit (general civil/criminal), Chancery (equity), and Criminal (felonies) courts; anchor Chancery to 'Chancellor' and 'equity.'",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": 0.3,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "NE",
+          "rationale": "Right court system but wrong court; Criminal Court handles felonies, not equity."
+        },
+        {
+          "label": "C",
+          "code": "NE",
+          "rationale": "Circuit Court hears general civil and criminal trials, not specifically equity."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Confuses a state court with a federal court."
+        }
+      ],
+      "key_rationale": "Chancery courts are Tennessee's courts of equity, led by a Chancellor.",
+      "dok_rationale": "Students match a scenario to the correct state trial court.",
+      "blooms_rationale": "Students explain which court handles equity matters.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "A Tennessee city wants to create a new tax that state law does not authorize. Based on Dillon's Rule, what is the most likely legal outcome?",
+      "std": "GC.29",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "The city may impose it because cities are sovereign governments"
+        },
+        {
+          "id": "B",
+          "text": "The federal government must approve the new tax first"
+        },
+        {
+          "id": "C",
+          "text": "The city cannot impose it, because local governments hold only the powers the state grants"
+        },
+        {
+          "id": "D",
+          "text": "The tax becomes legal automatically once local voters approve it"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV7: Tennessee State and Local Government",
+      "reteach": "Apply Dillon's Rule to revenue: a Tennessee locality may raise only taxes the state authorizes; test with additional 'can the city do X?' scenarios.",
+      "blooms": "Apply",
+      "hess_crm_cell": "Apply × DOK 3",
+      "irt_a": 1.6,
+      "irt_b": 0.9,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Contradicts Dillon's Rule; localities are not sovereign in a unitary state."
+        },
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Confuses federal and state authority; state law, not federal approval, governs local taxing."
+        },
+        {
+          "label": "D",
+          "code": "PE",
+          "rationale": "Uses a partly-true idea (voter approval) but ignores that the state must first authorize the tax."
+        }
+      ],
+      "key_rationale": "Under Dillon's Rule, a city may levy only taxes the state has authorized.",
+      "dok_rationale": "Students apply Dillon's Rule to a new revenue scenario to predict the outcome.",
+      "blooms_rationale": "Students carry out the unitary-state principle in an unfamiliar case.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "In the Tennessee General Assembly, how is each individual Tennessean represented?",
+      "std": "GC.30",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "by one state senator and one state representative, based on where the person lives"
+        },
+        {
+          "id": "B",
+          "text": "by two state senators and one state representative"
+        },
+        {
+          "id": "C",
+          "text": "by one state senator only, with no representative"
+        },
+        {
+          "id": "D",
+          "text": "by all 33 senators and all 99 representatives equally"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV7: Tennessee State and Local Government",
+      "reteach": "Re-teach the constituent concept: each Tennessean lives in one Senate district and one House district; practice locating both district numbers from an official source.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": 0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.06",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "NE",
+          "rationale": "Right idea, wrong count; each person has one senator, not two."
+        },
+        {
+          "label": "C",
+          "code": "PE",
+          "rationale": "Partly true (one senator) but omits the one representative each person also has."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception about representation; a person is represented by their own district's two legislators, not the whole body."
+        }
+      ],
+      "key_rationale": "Each Tennessean is represented by one state senator and one state representative from their district.",
+      "dok_rationale": "Students interpret how district-based representation applies to an individual.",
+      "blooms_rationale": "Students explain the constituent-to-legislator relationship.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    }
+  ],
+  "formB": [
+    {
+      "stem": "Tennessee copied the federal three-branch design but added its own features: the Grand Divisions, a part-time citizen legislature, and the Tennessee Plan. What do these three features have in common?",
+      "std": "GC.28",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Each was required by the U.S. Constitution"
+        },
+        {
+          "id": "B",
+          "text": "Each concerns only city and county government"
+        },
+        {
+          "id": "C",
+          "text": "Each is a distinctive feature of Tennessee's own constitution and government, not the federal model"
+        },
+        {
+          "id": "D",
+          "text": "Each was created by an act of the U.S. Congress"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV7: Tennessee State and Local Government",
+      "reteach": "Have students group the three features as 'Tennessee-specific additions' and explain how each differs from the federal design.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.6,
+      "irt_b": 1.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "The U.S. Constitution does not require these state-specific features."
+        },
+        {
+          "label": "B",
+          "code": "NE",
+          "rationale": "Right subject area but wrong scope; these are state-level, not only local, features."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Confuses federal and state authorship; these come from Tennessee law, not Congress."
+        }
+      ],
+      "key_rationale": "All three are distinctive features of Tennessee's own government beyond the federal model.",
+      "dok_rationale": "Students analyze what several state features share to identify a common trait.",
+      "blooms_rationale": "Students break down three features to find their unifying characteristic.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "A government that merges a city with its surrounding county into a single consolidated unit is called a —",
+      "std": "GC.29",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "metropolitan government"
+        },
+        {
+          "id": "B",
+          "text": "county commission"
+        },
+        {
+          "id": "C",
+          "text": "unitary state"
+        },
+        {
+          "id": "D",
+          "text": "Grand Division"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV7: Tennessee State and Local Government",
+      "reteach": "Re-read the Article XI, Section 9 clause on consolidation; contrast county, city, and metropolitan structural models.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.2,
+      "irt_b": 0.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "NE",
+          "rationale": "A county commission is a county's legislative body, not a merged city-county unit."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "A unitary state describes the state-local power relationship, not a merged local government."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "A Grand Division is a region of the state, not a form of local government."
+        }
+      ],
+      "key_rationale": "A consolidated city-county unit is a metropolitan government.",
+      "dok_rationale": "Students match a described structure to the correct local-government model.",
+      "blooms_rationale": "Students explain what a metropolitan government is.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    },
+    {
+      "stem": "To identify the state senator and state representative who currently represent you, which is the most reliable source?",
+      "std": "GC.30",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "a claim shared on social media"
+        },
+        {
+          "id": "B",
+          "text": "the official 'Find My Legislator' tool on the Tennessee General Assembly site (capitol.tn.gov)"
+        },
+        {
+          "id": "C",
+          "text": "a textbook printed several years ago"
+        },
+        {
+          "id": "D",
+          "text": "a friend's best guess"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV7: Tennessee State and Local Government",
+      "reteach": "Model using the official capitol.tn.gov 'Find My Legislator' address lookup; stress that officeholders change and must be confirmed from an official source.",
+      "blooms": "Remember",
+      "hess_crm_cell": "Remember × DOK 1",
+      "irt_a": 1.1,
+      "irt_b": -1.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.06",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Social media is unverified and unreliable for current officeholders."
+        },
+        {
+          "label": "C",
+          "code": "NE",
+          "rationale": "An old textbook may be outdated because officeholders change with elections."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "A guess is not an authoritative or reliable source."
+        }
+      ],
+      "key_rationale": "The official 'Find My Legislator' tool at capitol.tn.gov gives current, accurate representation.",
+      "dok_rationale": "Students recall the correct authoritative source for a civic lookup.",
+      "blooms_rationale": "Students identify the reliable official source from memory.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true
+    }
+  ],
+  "_psychometric_summary": {
+    "dok_distribution": {
+      "1": 2,
+      "2": 5,
+      "3": 2
+    },
+    "blooms_distribution": {
+      "Understand": 5,
+      "Remember": 2,
+      "Apply": 1,
+      "Analyze": 1
+    },
+    "irt_a_mean": 1.3,
+    "irt_b_mean": 0.033,
+    "field_test_ready_count": 9,
+    "total_items": 9,
+    "note": "IRT 3PL parameters are pre-field-test design-time estimates, to be calibrated on field-test data."
+  }
+}
