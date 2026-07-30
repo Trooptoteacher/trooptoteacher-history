@@ -1,11 +1,11 @@
 // Unit 1 — TEACHER Assessment Book (Formative + Summative Form A/B + Teacher Key/Analysis).
-// Items pulled from the canonical question bank (unit6_assessment.json). Platinum tokens.
+// Items pulled from the canonical question bank (unit1_assessment.json). Platinum tokens.
 const fs=require('fs'); const D=require('docx');
 const {Document,Packer,Paragraph,TextRun,HeadingLevel,AlignmentType,Table,TableRow,TableCell,
   WidthType,BorderStyle,ShadingType,PageBreak,Header,Footer,PageNumber,TableOfContents}=D;
-const A=JSON.parse(fs.readFileSync('analysis/unit6_assessment.json','utf8'));
-const C=JSON.parse(fs.readFileSync('analysis/unit6_content.json','utf8')).standards;
-const UNIT=JSON.parse(fs.readFileSync('analysis/unit6_content.json','utf8')).unit;
+const A=JSON.parse(fs.readFileSync('analysis/unit3_assessment.json','utf8'));
+const C=JSON.parse(fs.readFileSync('analysis/unit3_content.json','utf8')).standards;
+const UNIT=JSON.parse(fs.readFileSync('analysis/unit3_content.json','utf8')).unit;
 const BRAND=(UNIT.brand||'Government Hack'); const BRANDTM=BRAND+'\u2122'; const UCODE=UNIT.code||'Unit 1'; const UTITLE=UNIT.title||'';
 const NAVY='1B2A4A',RED='B22234',GOLD='C89B3C',INK='1A1A1A',CREAM='F7F5EF',WHITE='FFFFFF',GREY='6B7280',BORD='D9D5C8',FONT='Calibri',CW=9648;
 const bd=(c=BORD)=>({style:BorderStyle.SINGLE,size:4,color:c,space:0});
@@ -103,4 +103,4 @@ const doc=new Document({styles:{default:{document:{run:{font:FONT,size:22,color:
   sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1296,right:1296,header:720,footer:720}}},
   headers:{default:header},footers:{default:footer},
   children:[...cover,...formative,...formA,...formB,...key,...psych]}]});
-Packer.toBuffer(doc).then(b=>{fs.writeFileSync('deliverables/Unit6_Assessment_Book_Teacher.docx',b);console.log('WROTE assessment book',b.length,'bytes');});
+Packer.toBuffer(doc).then(b=>{fs.writeFileSync('deliverables/Unit3_Assessment_Book_Teacher.docx',b);console.log('WROTE assessment book',b.length,'bytes');});

@@ -74,8 +74,33 @@ const key=[H('Part 4 — Teacher Answer Key + Item Analysis + Reteach',1,{brk:tr
  ...keyTable('Form B — key & reteach',A.formB),
  ...keyTable('Formative Checkpoints — key & reteach',flatFormative)];
 
+// ---- Section 5: Psychometric Blueprint (teacher-facing; design-time estimates) ----
+function psychTable(title,items){const ws=[600,980,700,1560,600,600,600,680,720,2568];
+  const rows=[dhead(['Item','Std','DOK','Bloom’s (Hess cell)','a','b','c','C3','FT?','Distractor codes'],ws)];
+  items.forEach((q,i)=>{
+    const dt=(q.distractor_tags||[]).map(t=>`${t.label}:${t.code}`).join(' ');
+    rows.push(drow([i+1,q.std,q.dok,(q.hess_crm_cell||q.blooms||'—'),
+      (q.irt_a!=null?q.irt_a:'—'),(q.irt_b!=null?q.irt_b:'—'),(q.irt_c!=null?q.irt_c:'—'),
+      (q.c3_dimension||'—'),(q.field_test_ready?'Y':'N'),dt||'—'],ws));});
+  return [H(title,2),table(rows,ws)];}
+const PS=A._psychometric_summary||{};
+function distRow(obj){return obj?Object.keys(obj).map(k=>`${k}: ${obj[k]}`).join('   ·   '):'—';}
+const psych=[H('Part 5 — Psychometric Blueprint (Teacher)',1,{brk:true}),
+ callout('ABOUT THESE NUMBERS',[
+   'Every item carries a cognitive-rigor classification (Webb’s DOK × Bloom’s, located on the Hess Cognitive Rigor Matrix) and a pre-calibration IRT 3PL estimate: a = discrimination, b = difficulty, c = pseudo-guessing.',
+   'These IRT parameters are DESIGN-TIME ESTIMATES, not empirical calibrations. '+(PS.note||'They are refined once field-test response data is collected.')+' '+A.disclosure,
+   'Distractor codes: PK prior-knowledge · MC misconception · PE partial evidence · NE nearby error · CA causal attribution · AN anachronism · OG overgeneralization.']),
+ ...(PS.dok_distribution?[callout('BANK DISTRIBUTION',[
+   'DOK: '+distRow(PS.dok_distribution),
+   'Bloom’s: '+distRow(PS.blooms_distribution),
+   'Mean discrimination a ≈ '+(PS.irt_a_mean!=null?PS.irt_a_mean:'—')+'   ·   Mean difficulty b ≈ '+(PS.irt_b_mean!=null?PS.irt_b_mean:'—'),
+   'Field-test-ready items: '+(PS.field_test_ready_count!=null?PS.field_test_ready_count:'—')+' of '+(PS.total_items!=null?PS.total_items:'—')])]:[]),
+ ...psychTable('Form A — item psychometrics',A.formA),
+ ...psychTable('Form B — item psychometrics',A.formB),
+ ...psychTable('Formative — item psychometrics',flatFormative)];
+
 const doc=new Document({styles:{default:{document:{run:{font:FONT,size:22,color:INK}}}},
   sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1296,right:1296,header:720,footer:720}}},
   headers:{default:header},footers:{default:footer},
-  children:[...cover,...formative,...formA,...formB,...key]}]});
+  children:[...cover,...formative,...formA,...formB,...key,...psych]}]});
 Packer.toBuffer(doc).then(b=>{fs.writeFileSync('deliverables/Unit7_Assessment_Book_Teacher.docx',b);console.log('WROTE assessment book',b.length,'bytes');});
