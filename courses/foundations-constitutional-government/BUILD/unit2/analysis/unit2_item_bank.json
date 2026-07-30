@@ -1,0 +1,1954 @@
+[
+  {
+    "id": "GC.31-Q01",
+    "standard": "GC.31",
+    "unit": 2,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which of the following is a legal responsibility that U.S. citizens can be required by law to fulfill?",
+    "options": {
+      "A": "Voting in every local and national election",
+      "B": "Serving in the military when there is no draft",
+      "C": "Paying federal taxes",
+      "D": "Attending city council meetings"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "civic responsibility",
+      "legal duties"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Voting is a strongly expected responsibility but is not legally required; citizens are not punished for not voting."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "Military service is compulsory only when a draft is in effect; absent a draft it is voluntary."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Attending public meetings is a form of civic engagement but is entirely voluntary."
+      }
+    ],
+    "key_rationale": "Paying taxes is one of the legal duties every citizen must meet, alongside obeying the law and serving on a jury when called.",
+    "dok_rationale": "Student recalls which listed responsibility is a legal duty rather than a voluntary expectation.",
+    "blooms_rationale": "Student retrieves a factual classification of a civic responsibility.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.31-Q02",
+    "standard": "GC.31",
+    "unit": 2,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What does the term naturalization refer to?",
+    "options": {
+      "A": "The legal process by which a foreign-born person becomes a U.S. citizen",
+      "B": "The process of registering to vote for the first time",
+      "C": "The swearing-in ceremony for a newly elected official",
+      "D": "The citizenship a person automatically receives by being born in the country"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "naturalization",
+      "citizenship"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.0,
+    "irt_b": -0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Confuses becoming a citizen with the separate act of voter registration."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Confuses the citizenship oath with the oath of office taken by officials."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "Birthright citizenship is a real concept but is the opposite of naturalization, which applies to the foreign-born."
+      }
+    ],
+    "key_rationale": "Naturalization is the legal process by which a foreign-born person becomes a U.S. citizen and takes on the responsibilities of citizenship.",
+    "dok_rationale": "Student recalls the definition of a key vocabulary term.",
+    "blooms_rationale": "Student recognizes and retrieves a definition from memory.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.31-Q03",
+    "standard": "GC.31",
+    "unit": 2,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "A citizen volunteers at a food bank and follows civic news by choice, but must report for jury duty when summoned. What distinction does this situation best illustrate?",
+    "options": {
+      "A": "All civic responsibilities are enforced equally by law.",
+      "B": "Only naturalized citizens are required to perform jury duty.",
+      "C": "Voluntary responsibilities are always more important to the nation than legal ones.",
+      "D": "Some civic responsibilities are legal duties enforced by law, while others are expected of good citizens but remain voluntary."
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "legal duties",
+      "voluntary responsibilities"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "OG",
+        "rationale": "Overgeneralizes; only some responsibilities (taxes, jury service, obeying law) are legally enforced."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Jury duty applies to citizens generally, not only naturalized citizens."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "Reverses the point; the standard treats both categories as important without ranking one above the other."
+      }
+    ],
+    "key_rationale": "The example shows the core distinction of this standard: legally required duties such as jury service versus voluntary expectations such as volunteering and staying informed.",
+    "dok_rationale": "Student interprets a scenario to identify the underlying concept rather than recalling a fact.",
+    "blooms_rationale": "Student constructs meaning by categorizing responsibilities into legal versus voluntary.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.31-Q04",
+    "standard": "GC.31",
+    "unit": 2,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The 6th Amendment guarantees an accused person a trial 'by an impartial jury.' How does this guarantee create a corresponding responsibility for citizens?",
+    "options": {
+      "A": "Citizens must pass a legal examination before they are allowed to serve on a jury.",
+      "B": "Citizens must be willing to serve on juries so that the right to a jury trial can actually be provided.",
+      "C": "Citizens must give up their own right to a trial in order to serve on a jury.",
+      "D": "Only trained lawyers may serve on juries, so ordinary citizens have no role."
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "jury duty",
+      "6th Amendment"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "No legal exam is required to serve on a jury; this invents a barrier."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "Serving on a jury does not require waiving one's own trial rights."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Common misconception; juries are composed of ordinary citizens, not lawyers."
+      }
+    ],
+    "key_rationale": "A jury trial can only be provided if citizens fulfill the responsibility of serving, which is why the right in the 6th Amendment creates the duty of jury service.",
+    "dok_rationale": "Student explains the relationship between a constitutional right and the civic duty that makes it possible.",
+    "blooms_rationale": "Student explains a cause-and-relationship connection rather than recalling a term.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.31-Q05",
+    "standard": "GC.31",
+    "unit": 2,
+    "question_number": 5,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "When a person becomes a citizen through naturalization, they take the Oath of Allegiance promising to support the Constitution. What does this indicate about the responsibilities of naturalized citizens?",
+    "options": {
+      "A": "They take on the same civic responsibilities as citizens born in the United States.",
+      "B": "They are exempt from paying taxes during their first years as citizens.",
+      "C": "They carry fewer responsibilities than citizens born in the United States.",
+      "D": "They must complete military service before receiving any rights of citizenship."
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "naturalization",
+      "civic responsibility"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.2,
+    "irt_b": -0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Naturalized citizens have no tax exemption; they pay taxes like all citizens."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Naturalized citizens share the same responsibilities, not fewer."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "Military service is not a precondition for the rights of citizenship."
+      }
+    ],
+    "key_rationale": "The Oath of Allegiance shows that naturalized citizens promise to support the Constitution and take on the same responsibilities as citizens born in the country.",
+    "dok_rationale": "Student interprets the meaning of the oath rather than recalling its wording.",
+    "blooms_rationale": "Student explains what an action signifies about civic responsibilities.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.31-Q06",
+    "standard": "GC.31",
+    "unit": 2,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Jefferson argued that 'wherever the people are well informed they can be trusted with their own government.' Based on this reasoning, why might a large share of uninformed or non-voting citizens pose a risk to a republic?",
+    "options": {
+      "A": "It would legally force the government to cancel future elections.",
+      "B": "It would automatically transform the republic into a monarchy.",
+      "C": "If few citizens are informed and take part, government may fail to reflect the will of the people or be corrected by them.",
+      "D": "It would violate the 6th Amendment right to an impartial jury."
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "informed citizenry",
+      "self-government"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "CA",
+        "rationale": "Misattributes an automatic legal consequence that does not follow from low participation."
+      },
+      {
+        "label": "B",
+        "code": "OG",
+        "rationale": "Overgeneralizes; low participation does not convert a government into a monarchy."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Connects to an unrelated right; jury guarantees are not implicated by low turnout."
+      }
+    ],
+    "key_rationale": "Jefferson ties safe self-government to an informed public; if citizens are neither informed nor participating, government may not represent the people or be set right by them.",
+    "dok_rationale": "Student analyzes the logical consequence of Jefferson's premise for a republic.",
+    "blooms_rationale": "Student breaks down a claim to determine its implications for self-government.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.31-Q07",
+    "standard": "GC.31",
+    "unit": 2,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A republic rarely punishes citizens for failing to vote, volunteer, or stay informed. Why, then, does the well-being of the nation still depend on citizens performing these voluntary responsibilities?",
+    "options": {
+      "A": "Because the Constitution secretly requires each of these actions.",
+      "B": "Because volunteering is the only lawful way to pay federal taxes.",
+      "C": "Because courts routinely jail citizens who never volunteer.",
+      "D": "Because self-government works only when most citizens choose to participate, even without legal compulsion."
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "voluntary responsibilities",
+      "self-government"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.7,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The Constitution does not secretly mandate voluntary civic acts."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Confuses unrelated concepts; volunteering has no connection to paying taxes."
+      },
+      {
+        "label": "C",
+        "code": "CA",
+        "rationale": "Falsely attributes criminal punishment to failing to volunteer."
+      }
+    ],
+    "key_rationale": "The passage stresses that a republic 'depends on most citizens doing their part'; voluntary responsibilities matter precisely because self-government relies on chosen participation, not force.",
+    "dok_rationale": "Student evaluates why non-mandatory duties remain essential, judging a claim against the logic of self-government.",
+    "blooms_rationale": "Student makes a reasoned judgment about the importance of voluntary participation.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.31-Q08",
+    "standard": "GC.31",
+    "unit": 2,
+    "question_number": 8,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In two to three sentences, identify one legal responsibility and one voluntary responsibility of U.S. citizens, and explain why each matters to the well-being of the nation.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "legal duties",
+      "voluntary responsibilities"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.2,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student summarizes and explains the significance of two categories of responsibility, going beyond simple recall.",
+    "blooms_rationale": "Student constructs an explanation of why responsibilities matter.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-2pt",
+    "rubric_name": "Short Answer 2-Point Rubric"
+  },
+  {
+    "id": "GC.31-Q09",
+    "standard": "GC.31",
+    "unit": 2,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Which citizen responsibility matters most for the well-being of the nation — voting, staying informed, or serving on a jury? Make a claim, support it with evidence (including at least one source from this unit), and explain your reasoning.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "civic responsibility",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student must judge competing responsibilities and defend a position with evidence and reasoning.",
+    "blooms_rationale": "Student evaluates and justifies a claim using criteria and evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.31-Q10",
+    "standard": "GC.31",
+    "unit": 2,
+    "question_number": 10,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpt from Thomas Jefferson's 1789 letter to Richard Price (Founders Online, National Archives): 'wherever the people are well informed they can be trusted with their own government; that whenever things get so far wrong as to attract their notice, they may be relied on to set them to rights.' Using this source, explain what Jefferson believed was necessary for citizens to be trusted with self-government, and connect his argument to a specific civic responsibility described in this unit.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "primary source analysis",
+      "informed citizenry"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.9,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student analyzes a primary source and links its argument to a civic responsibility, requiring source interpretation and evidence use.",
+    "blooms_rationale": "Student deconstructs a source to determine its meaning and connects it to a concept.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  },
+  {
+    "id": "GC.32-Q01",
+    "standard": "GC.32",
+    "unit": 2,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is a caucus in the presidential nomination process?",
+    "options": {
+      "A": "A local meeting where party members discuss and select their preferred candidate",
+      "B": "A nationwide secret-ballot election run by the federal government",
+      "C": "The final election in which all voters choose the president",
+      "D": "A court hearing that certifies the results of an election"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "caucus",
+      "nomination process"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -1.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "A caucus is a local party meeting, not a federally run secret ballot."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "Describes the general election, the wrong stage of the process."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Confuses a nomination meeting with a judicial certification process."
+      }
+    ],
+    "key_rationale": "A caucus is a local meeting where party members debate and select a preferred candidate rather than voting by secret ballot.",
+    "dok_rationale": "Student recalls the definition of a caucus.",
+    "blooms_rationale": "Student retrieves a vocabulary definition from memory.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.32-Q02",
+    "standard": "GC.32",
+    "unit": 2,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "In the general election for president, who is allowed to cast a vote?",
+    "options": {
+      "A": "Only members of the two major political parties",
+      "B": "Any eligible registered voter, regardless of party",
+      "C": "Only the delegates chosen at each party's national convention",
+      "D": "Only voters who participated in an earlier primary"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "general election",
+      "voting"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.0,
+    "irt_b": -0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "General elections are open to all eligible voters, not only party members."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Confuses convention delegates with the general electorate."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Prior primary participation is not required to vote in the general election."
+      }
+    ],
+    "key_rationale": "The general election is open to any eligible registered voter, who then chooses among the parties' nominees.",
+    "dok_rationale": "Student recalls who may vote in a general election.",
+    "blooms_rationale": "Student retrieves a factual rule about elections.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.32-Q03",
+    "standard": "GC.32",
+    "unit": 2,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What is the difference between an open primary and a closed primary?",
+    "options": {
+      "A": "An open primary allows any registered voter to take part, while a closed primary is limited to registered members of that party.",
+      "B": "An open primary is conducted in public view, while a closed primary always uses secret ballots.",
+      "C": "An open primary selects a president, while a closed primary selects a governor.",
+      "D": "An open primary is run by the parties, while a closed primary is run by the federal government."
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "primary election",
+      "open and closed primaries"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The distinction is about who may vote, not whether the ballot is public or secret."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "Both types choose party nominees for the same office; office type is not the difference."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "Both are party nomination contests; the difference is voter eligibility, not who administers them."
+      }
+    ],
+    "key_rationale": "An open primary lets any registered voter participate, while a closed primary allows only registered party members to vote.",
+    "dok_rationale": "Student distinguishes two related concepts rather than recalling one definition.",
+    "blooms_rationale": "Student explains the difference between two types of primaries.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.32-Q04",
+    "standard": "GC.32",
+    "unit": 2,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why must a presidential candidate typically win primaries and caucuses before competing in the general election?",
+    "options": {
+      "A": "Because the Constitution requires every candidate to win primaries first.",
+      "B": "Because primaries and caucuses take the place of the general election.",
+      "C": "Because parties use primaries and caucuses to choose the single nominee who will represent the party in the general election.",
+      "D": "Because only the winner of a caucus is legally allowed to register to vote."
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "nomination process",
+      "political parties"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The Constitution never mentions parties or primaries; this is not a constitutional requirement."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Primaries and caucuses precede, but do not replace, the general election."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "Winning a caucus has nothing to do with a citizen's ability to register to vote."
+      }
+    ],
+    "key_rationale": "Primaries and caucuses are how a party narrows many hopefuls to one nominee who then runs in the general election.",
+    "dok_rationale": "Student explains the function of nomination contests within the process.",
+    "blooms_rationale": "Student explains why a step in the process is necessary.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.32-Q05",
+    "standard": "GC.32",
+    "unit": 2,
+    "question_number": 5,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "At which stage is a political party's presidential nominee officially named?",
+    "options": {
+      "A": "At the closed primary",
+      "B": "At the national party convention",
+      "C": "At the general election",
+      "D": "At the Electoral College certification"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "convention",
+      "nomination process"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.2,
+    "irt_b": 0.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "A primary is a step toward the nomination but does not officially name the nominee."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "The general election chooses among nominees; it does not name a party's nominee."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The Electoral College formalizes the presidential result, not a party's nomination."
+      }
+    ],
+    "key_rationale": "State primaries and caucuses build toward the national convention, where each party officially names its nominee.",
+    "dok_rationale": "Student places an event correctly within the sequence of the nomination process.",
+    "blooms_rationale": "Student explains where in a process an outcome occurs.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.32-Q06",
+    "standard": "GC.32",
+    "unit": 2,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "George Washington warned against 'the baneful effects of the spirit of party.' Given that parties formed almost immediately and now organize American elections, what does this development suggest about his warning?",
+    "options": {
+      "A": "His warning was followed exactly, and organized parties never formed.",
+      "B": "His warning proved meaningless because parties were quickly outlawed.",
+      "C": "His concern about division was real, yet parties still became a central and lasting way Americans organize participation.",
+      "D": "His warning applied only to state elections and never to national ones."
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "political parties",
+      "Washington's Farewell Address"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Factually false; parties formed within Washington's own administration."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Parties were never outlawed; they expanded."
+      },
+      {
+        "label": "D",
+        "code": "OG",
+        "rationale": "Overgeneralizes an unfounded limit; his warning was about party spirit generally."
+      }
+    ],
+    "key_rationale": "Washington's fear of division was genuine, but history shows parties became central to participation, so the warning captured a real tension without preventing party growth.",
+    "dok_rationale": "Student analyzes a historical warning against later developments to judge its meaning.",
+    "blooms_rationale": "Student breaks down the relationship between a prediction and later outcomes.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.32-Q07",
+    "standard": "GC.32",
+    "unit": 2,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Madison defined a faction as a group 'united and actuated by some common impulse of passion, or of interest' that may work against the rights of others or the common good. How is a modern political party both similar to and different from Madison's faction?",
+    "options": {
+      "A": "It is identical to a faction because both are banned by the Constitution.",
+      "B": "It differs because a party never seeks to win elections.",
+      "C": "It is the same because neither a party nor a faction ever nominates candidates.",
+      "D": "Like a faction it unites people around shared interests, but unlike a faction it competes openly in elections to represent the public."
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "political parties",
+      "Federalist No. 10",
+      "faction"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.7,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Neither factions nor parties are banned by the Constitution."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "Winning elections is a defining aim of parties, so this reverses a key trait."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Parties do nominate candidates; the claim contradicts the standard's content."
+      }
+    ],
+    "key_rationale": "A party resembles Madison's faction in uniting people around shared interests but differs by openly competing in elections to represent the public rather than only pursuing narrow interest.",
+    "dok_rationale": "Student analyzes similarities and differences between two related concepts.",
+    "blooms_rationale": "Student differentiates a modern institution from a historical definition.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.32-Q08",
+    "standard": "GC.32",
+    "unit": 2,
+    "question_number": 8,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In two to three sentences, explain the difference between a primary, a caucus, and a general election in the process of choosing a president.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "primary",
+      "caucus",
+      "general election"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.2,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student summarizes and distinguishes three related stages, requiring interpretation rather than single-fact recall.",
+    "blooms_rationale": "Student explains distinctions among related concepts.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-2pt",
+    "rubric_name": "Short Answer 2-Point Rubric"
+  },
+  {
+    "id": "GC.32-Q09",
+    "standard": "GC.32",
+    "unit": 2,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Was George Washington right to warn against political parties, or do parties help citizens participate in government? Make a claim, support it with evidence from Washington's and Madison's words, and explain your reasoning.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "political parties",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student must judge a debated claim and defend a position using two sources.",
+    "blooms_rationale": "Student evaluates and justifies a position with evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.32-Q10",
+    "standard": "GC.32",
+    "unit": 2,
+    "question_number": 10,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from George Washington's 1796 Farewell Address (The Avalon Project, Yale Law School): 'Let me now… warn you in the most solemn manner against the baneful effects of the spirit of party generally.' Using this source, explain what Washington feared about political parties and analyze whether the way parties organize elections today confirms or challenges his concern.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "primary source analysis",
+      "political parties"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.9,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student analyzes a primary source and evaluates it against modern practice, requiring source interpretation and reasoning.",
+    "blooms_rationale": "Student deconstructs a source and analyzes its relationship to present-day evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  },
+  {
+    "id": "GC.33-Q01",
+    "standard": "GC.33",
+    "unit": 2,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What does the term public opinion refer to?",
+    "options": {
+      "A": "The collected attitudes and beliefs of a population about issues, leaders, and government",
+      "B": "The official position the federal government takes on an issue",
+      "C": "A law passed to regulate what the news media may report",
+      "D": "The outcome of a single citizen's vote in an election"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "public opinion",
+      "media"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -1.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Public opinion is what the public thinks, not the government's official stance."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Confuses public opinion with media regulation."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "A single vote is an individual act, not the collected attitudes of a population."
+      }
+    ],
+    "key_rationale": "Public opinion is the collected attitudes and beliefs of a population about issues, leaders, and government, often measured through polls.",
+    "dok_rationale": "Student recalls the definition of a vocabulary term.",
+    "blooms_rationale": "Student retrieves a definition from memory.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.33-Q02",
+    "standard": "GC.33",
+    "unit": 2,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is meant by the term media bias?",
+    "options": {
+      "A": "A law that limits what newspapers are allowed to print",
+      "B": "A real or perceived slant in how the media selects, frames, or reports information",
+      "C": "A rule requiring that all news be reported with equal time",
+      "D": "The total number of people who read or watch the news"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "media bias",
+      "media"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.0,
+    "irt_b": -0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Confuses bias with a legal restriction on the press."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "No equal-time rule defines bias; this misstates the concept."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "Audience size is unrelated to slant in coverage."
+      }
+    ],
+    "key_rationale": "Media bias is a real or perceived slant in how the media selects, frames, or reports information, which can shape how audiences understand an issue.",
+    "dok_rationale": "Student recalls the definition of a key term.",
+    "blooms_rationale": "Student retrieves a definition from memory.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.33-Q03",
+    "standard": "GC.33",
+    "unit": 2,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The First Amendment states that Congress shall make 'no law… abridging the freedom of speech, or of the press.' How does a free press support citizen participation in government?",
+    "options": {
+      "A": "It informs citizens about what the government is doing so they can make decisions and hold leaders accountable.",
+      "B": "It guarantees that every news report will be completely free of bias.",
+      "C": "It legally requires all citizens to vote in each election.",
+      "D": "It allows the government to control which stories are published."
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "free press",
+      "1st Amendment",
+      "citizen participation"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "A free press does not guarantee unbiased reporting; it protects the press from government control."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Freedom of the press does not compel voting."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "This reverses the meaning; a free press limits government control over the press."
+      }
+    ],
+    "key_rationale": "A free press lets citizens learn what their government is doing, which is essential to making informed decisions and holding leaders accountable.",
+    "dok_rationale": "Student explains the function of a constitutional protection for citizens.",
+    "blooms_rationale": "Student explains how a right supports participation.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.33-Q04",
+    "standard": "GC.33",
+    "unit": 2,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why do pollsters pay close attention to the wording and order of the questions in a public opinion poll?",
+    "options": {
+      "A": "Because federal law fixes the exact wording that every poll must use.",
+      "B": "Because the wording determines how many people can be surveyed.",
+      "C": "Because the way a question is worded can influence how people respond and change the results.",
+      "D": "Because poll results are always accurate no matter how questions are worded."
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "public opinion poll",
+      "poll wording"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "No federal law dictates poll wording."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "Wording affects responses, not the size of the sample."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Contradicts the fact that wording can shape results."
+      }
+    ],
+    "key_rationale": "The wording and order of questions can nudge respondents toward an answer, so pollsters watch them closely to keep results meaningful.",
+    "dok_rationale": "Student explains why a methodological choice matters to poll results.",
+    "blooms_rationale": "Student explains a cause-and-effect relationship in polling.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.33-Q05",
+    "standard": "GC.33",
+    "unit": 2,
+    "question_number": 5,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "How can the news media influence which issues the public considers most important?",
+    "options": {
+      "A": "By legally requiring citizens to read every published article",
+      "B": "By choosing which stories to cover and how prominently to feature them",
+      "C": "By passing laws that ban certain topics from public discussion",
+      "D": "By guaranteeing that every issue receives exactly equal coverage"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "media influence",
+      "agenda setting"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Media cannot require reading; influence comes from coverage choices."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Media outlets do not pass laws banning topics."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Media do not guarantee equal coverage; selective emphasis is the point."
+      }
+    ],
+    "key_rationale": "By selecting which stories to cover and how prominently, the media shapes which issues the public treats as important, even without telling people what to think.",
+    "dok_rationale": "Student explains how media influences the perceived importance of issues.",
+    "blooms_rationale": "Student explains a mechanism of influence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.33-Q06",
+    "standard": "GC.33",
+    "unit": 2,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Jefferson wrote that if forced to choose between 'a government without newspapers, or newspapers without a government,' he 'should not hesitate a moment to prefer the latter.' What does this statement most strongly suggest about his view of the press in a republic?",
+    "options": {
+      "A": "He believed newspapers should replace all branches of government.",
+      "B": "He thought the press was unimportant to self-government.",
+      "C": "He considered an informed public, supported by a free press, more essential to liberty than government itself.",
+      "D": "He wanted the government to own and operate all newspapers."
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "free press",
+      "informed citizenry"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "OG",
+        "rationale": "Overstates the claim; preferring newspapers is not a call to abolish government."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Reverses his meaning; he prized the press highly."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Government ownership of the press contradicts his defense of a free press."
+      }
+    ],
+    "key_rationale": "By preferring newspapers over government, Jefferson signals that an informed public is more essential to liberty than the machinery of government itself.",
+    "dok_rationale": "Student analyzes a rhetorical statement to infer the author's underlying view.",
+    "blooms_rationale": "Student breaks down a quotation to determine its meaning.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.33-Q07",
+    "standard": "GC.33",
+    "unit": 2,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A poll asks, 'Do you support wasteful government spending?' and reports that 80% of respondents say no. Why should a careful citizen be cautious about accepting this result?",
+    "options": {
+      "A": "The result must be accurate because a large number of people responded.",
+      "B": "The result proves that most citizens oppose all government spending.",
+      "C": "Poll results can never be affected by the wording of a question.",
+      "D": "The loaded word 'wasteful' pushes respondents toward a negative answer, so the poll may not measure genuine opinion."
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "poll wording",
+      "media literacy"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PE",
+        "rationale": "Sample size does not fix a biased question; large samples can still be skewed by wording."
+      },
+      {
+        "label": "B",
+        "code": "OG",
+        "rationale": "Overgeneralizes; the poll asked only about 'wasteful' spending, not all spending."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Contradicts the well-established effect of question wording on responses."
+      }
+    ],
+    "key_rationale": "The loaded term 'wasteful' leads respondents toward disapproval, so the poll may reflect the wording rather than genuine opinion — the reason to be cautious.",
+    "dok_rationale": "Student evaluates the validity of a poll result by judging its wording.",
+    "blooms_rationale": "Student critiques a source using criteria for sound polling.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.33-Q08",
+    "standard": "GC.33",
+    "unit": 2,
+    "question_number": 8,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In two to three sentences, define media bias and give one example of how the framing or wording of a news story could shape public opinion about an issue.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "media bias",
+      "public opinion"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.2,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student summarizes a concept and applies it with an example, going beyond single-fact recall.",
+    "blooms_rationale": "Student explains a concept and illustrates it.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-2pt",
+    "rubric_name": "Short Answer 2-Point Rubric"
+  },
+  {
+    "id": "GC.33-Q09",
+    "standard": "GC.33",
+    "unit": 2,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Does the media mainly report public opinion, or does it shape public opinion? Make a claim, support it with evidence (including how poll wording or story framing works), and explain your reasoning.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "media influence",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student must judge a debated relationship and defend a position with evidence.",
+    "blooms_rationale": "Student evaluates and justifies a claim using criteria and evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.33-Q10",
+    "standard": "GC.33",
+    "unit": 2,
+    "question_number": 10,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from Thomas Jefferson's 1787 letter to Edward Carrington (Founders Online, National Archives): 'were it left to me to decide whether we should have a government without newspapers, or newspapers without a government, I should not hesitate a moment to prefer the latter.' Using this source, explain the role Jefferson believed the press should play in a republic, and analyze how his view connects to the responsibilities of an informed citizen today.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "primary source analysis",
+      "free press"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.9,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student analyzes a primary source and connects it to civic responsibility, requiring interpretation and reasoning.",
+    "blooms_rationale": "Student deconstructs a source and analyzes its present-day connection.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  },
+  {
+    "id": "GC.34-Q01",
+    "standard": "GC.34",
+    "unit": 2,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is lobbying?",
+    "options": {
+      "A": "The act of trying to influence the decisions of government officials",
+      "B": "The process of removing an elected official from office before the term ends",
+      "C": "The act of casting a ballot in an election",
+      "D": "A formal written request signed by many people asking the government to act"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "lobbying",
+      "political participation"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -1.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "NE",
+        "rationale": "Describes a recall, a different means of participation."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Describes voting, not lobbying."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "Describes a petition, a related but distinct means of participation."
+      }
+    ],
+    "key_rationale": "Lobbying is the act of trying to influence the decisions of government officials, often by individuals or organized interest groups.",
+    "dok_rationale": "Student recalls the definition of a vocabulary term.",
+    "blooms_rationale": "Student retrieves a definition from memory.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.34-Q02",
+    "standard": "GC.34",
+    "unit": 2,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is a petition?",
+    "options": {
+      "A": "A local party meeting held to choose a candidate",
+      "B": "A formal written request, often signed by many people, asking the government to take or stop an action",
+      "C": "A tax that citizens pay to help fund elections",
+      "D": "A survey used to measure public opinion"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "petition",
+      "political participation"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.0,
+    "irt_b": -0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Describes a caucus, not a petition."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Invents a tax; petitions involve no payment."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Describes a public opinion poll, not a petition."
+      }
+    ],
+    "key_rationale": "A petition is a formal written request, often signed by many people, asking the government to take or stop an action — a right protected by the First Amendment.",
+    "dok_rationale": "Student recalls the definition of a vocabulary term.",
+    "blooms_rationale": "Student retrieves a definition from memory.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.34-Q03",
+    "standard": "GC.34",
+    "unit": 2,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "A group of citizens gathers peacefully outside city hall and delivers a signed document asking the council to change a local law. Which First Amendment rights are these citizens exercising?",
+    "options": {
+      "A": "The rights to bear arms and to a jury trial",
+      "B": "The rights to free press and to a speedy trial",
+      "C": "The rights to peaceably assemble and to petition the government",
+      "D": "The rights against self-incrimination and against unreasonable searches"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "1st Amendment",
+      "assembly and petition"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Names unrelated rights from other amendments."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "Free press is a First Amendment right but does not fit gathering and petitioning; speedy trial is unrelated."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Names protections from other amendments not implicated here."
+      }
+    ],
+    "key_rationale": "Gathering peacefully and delivering a signed request exercises the First Amendment rights to peaceably assemble and to petition the government for redress of grievances.",
+    "dok_rationale": "Student applies the First Amendment to a described real-world action.",
+    "blooms_rationale": "Student uses a rule to classify a specific situation.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.34-Q04",
+    "standard": "GC.34",
+    "unit": 2,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In some states, voters can directly propose a new law themselves. Which tool of direct democracy does this describe?",
+    "options": {
+      "A": "The referendum",
+      "B": "The recall",
+      "C": "The initiative",
+      "D": "The petition"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "initiative",
+      "direct democracy"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "A referendum lets voters approve or reject a law, not propose one."
+      },
+      {
+        "label": "B",
+        "code": "NE",
+        "rationale": "A recall removes an official, not proposes a law."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "A petition is a request to government, not the direct-democracy power to enact a proposed law."
+      }
+    ],
+    "key_rationale": "An initiative is the direct-democracy tool that lets voters themselves propose a new law.",
+    "dok_rationale": "Student distinguishes among related direct-democracy tools to identify the correct one.",
+    "blooms_rationale": "Student explains which concept matches a described power.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.34-Q05",
+    "standard": "GC.34",
+    "unit": 2,
+    "question_number": 5,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "How does a recall election increase the power of ordinary citizens?",
+    "options": {
+      "A": "It lets voters propose a brand-new law on their own.",
+      "B": "It allows voters to remove an elected official from office before the term ends.",
+      "C": "It requires officials to hold weekly public town meetings.",
+      "D": "It replaces the general election with a local caucus."
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "recall",
+      "direct democracy"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Describes an initiative, not a recall."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Invents a requirement unrelated to recall."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Confuses recall with the nomination process."
+      }
+    ],
+    "key_rationale": "A recall lets voters remove an elected official before the term ends, giving citizens power between regular elections.",
+    "dok_rationale": "Student explains the effect of a direct-democracy tool on citizen power.",
+    "blooms_rationale": "Student explains how a mechanism increases participation.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.34-Q06",
+    "standard": "GC.34",
+    "unit": 2,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The Declaration of Independence states that when a government 'becomes destructive of these ends, it is the Right of the People to alter or to abolish it.' How does this idea help justify forms of participation such as protest and petition?",
+    "options": {
+      "A": "It requires citizens to overthrow any government they happen to dislike.",
+      "B": "It limits legitimate participation to voting in general elections only.",
+      "C": "It grants the government the power to silence protests it disagrees with.",
+      "D": "It grounds participation in the principle that government's authority comes from the people, who may act to change it."
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "Declaration of Independence",
+      "popular sovereignty"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "OG",
+        "rationale": "Overgeneralizes 'alter or abolish' into a duty to overthrow, which the passage does not require."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Contradicts the standard; participation extends well beyond voting."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Reverses the meaning; the principle empowers the people, not government suppression."
+      }
+    ],
+    "key_rationale": "Because the Declaration roots government's authority in the people, citizens' right to alter their government justifies participatory acts like protest and petition.",
+    "dok_rationale": "Student analyzes how a founding principle justifies specific participatory acts.",
+    "blooms_rationale": "Student breaks down a principle to determine its implications.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.34-Q07",
+    "standard": "GC.34",
+    "unit": 2,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A citizen wants to influence a specific bill that lawmakers are debating right now, rather than wait until the next election. Which means of participation would most directly serve that goal?",
+    "options": {
+      "A": "Lobbying and petitioning the officials who are considering the bill",
+      "B": "Waiting to cast a vote in the next general election",
+      "C": "Running for office in a future campaign",
+      "D": "Joining a political party's caucus"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "lobbying",
+      "petition",
+      "means of participation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.7,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "Voting later does not influence a bill being debated now."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "Running in a future campaign is indirect and delayed, not immediate influence on the current bill."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "A caucus relates to nominating candidates, not influencing a pending bill."
+      }
+    ],
+    "key_rationale": "Lobbying and petitioning target the officials deciding the bill right now, making them the most direct means for immediate influence.",
+    "dok_rationale": "Student evaluates which means best fits a specific goal and time frame.",
+    "blooms_rationale": "Student judges options against criteria to select the most effective action.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.34-Q08",
+    "standard": "GC.34",
+    "unit": 2,
+    "question_number": 8,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In two to three sentences, name three ways besides voting that citizens can participate in the political process, and explain how one of them can influence government.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "means of participation",
+      "civic engagement"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.2,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student summarizes several means of participation and explains the effect of one, beyond simple recall.",
+    "blooms_rationale": "Student explains how a form of participation works.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-2pt",
+    "rubric_name": "Short Answer 2-Point Rubric"
+  },
+  {
+    "id": "GC.34-Q09",
+    "standard": "GC.34",
+    "unit": 2,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Beyond voting, which means of participation gives ordinary citizens the most power to change government? Make a claim, support it with evidence from at least one source in this unit, and explain your reasoning.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "means of participation",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student must judge competing means of participation and defend a position with evidence.",
+    "blooms_rationale": "Student evaluates and justifies a claim using criteria and evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.34-Q10",
+    "standard": "GC.34",
+    "unit": 2,
+    "question_number": 10,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from the First Amendment (U.S. National Archives): 'Congress shall make no law… abridging… the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.' Using this source, explain which means of political participation it directly protects, and analyze why constitutional protection for these actions matters for a citizen who wants to change a government policy.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "primary source analysis",
+      "assembly and petition"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.9,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric_name for criteria.",
+    "dok_rationale": "Student analyzes a constitutional source and reasons about why its protections matter, requiring interpretation and evidence use.",
+    "blooms_rationale": "Student deconstructs a source and analyzes the significance of its protections.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV2: Citizen Participation",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  }
+]

@@ -1,0 +1,1867 @@
+{
+  "disclosure": "Assessment items are classroom-formative · pre-field-test.",
+  "formative": {
+    "GC.35": [
+      {
+        "stem": "The legal process by which a foreign-born person becomes a U.S. citizen is called:",
+        "std": "GC.35",
+        "dok": 1,
+        "choices": [
+          {
+            "id": "A",
+            "text": "naturalization"
+          },
+          {
+            "id": "B",
+            "text": "apportionment"
+          },
+          {
+            "id": "C",
+            "text": "ratification"
+          },
+          {
+            "id": "D",
+            "text": "cloture"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV3: The Legislative Branch",
+        "reteach": "Reteach the naturalization steps (residency, application, interview, test, oath); define the term with a Frayer model.",
+        "blooms": "Remember",
+        "hess_crm_cell": "Remember × DOK 1",
+        "irt_a": 1.0,
+        "irt_b": -1.2,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.01",
+        "distractor_tags": [
+          {
+            "label": "B",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — apportionment is dividing House seats, not gaining citizenship."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — ratification is approving a law or amendment."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — cloture ends a Senate filibuster."
+          }
+        ],
+        "key_rationale": "Naturalization is the legal process by which a foreign-born person becomes a citizen.",
+        "dok_rationale": "Recall of a single vocabulary term.",
+        "blooms_rationale": "Student retrieves the definition of naturalization.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Citizenship & Naturalization” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Prior-knowledge error — apportionment is dividing House seats, not gaining citizenship.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error — ratification is approving a law or amendment.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error — cloture ends a Senate filibuster.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.10": [
+      {
+        "stem": "What change did the 17th Amendment (1913) make to how U.S. senators reach office?",
+        "std": "GC.10",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "It shortened Senate terms from six years to two"
+          },
+          {
+            "id": "B",
+            "text": "It increased each state's senators from two to three"
+          },
+          {
+            "id": "C",
+            "text": "It shifted the election of senators from state legislatures to the voters"
+          },
+          {
+            "id": "D",
+            "text": "It removed the Senate's power to confirm appointments"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-GOV3: The Legislative Branch",
+        "reteach": "Reread Amendment XVII; contrast pre-1913 (legislatures chose senators) with the direct popular vote today.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.4,
+        "irt_b": 0.0,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.03",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "NE",
+            "rationale": "Nearby error — term length was unchanged at six years."
+          },
+          {
+            "label": "B",
+            "code": "MC",
+            "rationale": "Misconception about the number of senators per state."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — confirmation power was not affected."
+          }
+        ],
+        "key_rationale": "The 17th Amendment moved the choice of senators from state legislatures to a direct vote of the people.",
+        "dok_rationale": "Requires explaining the substance of a constitutional change, not naming it.",
+        "blooms_rationale": "Student explains what the 17th Amendment changed.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Article I & the 17th Amendment” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Nearby error — term length was unchanged at six years.",
+              "reteach": "contrast the near-miss with the precise answer"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Misconception about the number of senators per state.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error — confirmation power was not affected.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.11": [
+      {
+        "stem": "Why is the Supreme Court's decision in Baker v. Carr (1962) considered a turning point for representation?",
+        "std": "GC.11",
+        "dok": 3,
+        "choices": [
+          {
+            "id": "A",
+            "text": "It abolished the decennial census"
+          },
+          {
+            "id": "B",
+            "text": "It made all gerrymandering a federal crime"
+          },
+          {
+            "id": "C",
+            "text": "It ended six-year terms in the U.S. Senate"
+          },
+          {
+            "id": "D",
+            "text": "It let federal courts hear redistricting cases, opening the way to 'one person, one vote'"
+          }
+        ],
+        "key": "D",
+        "rc": "RC-GOV3: The Legislative Branch",
+        "reteach": "Reread the Baker v. Carr holding; connect the 14th Amendment to the 'one person, one vote' standard using the TN example.",
+        "blooms": "Analyze",
+        "hess_crm_cell": "Analyze × DOK 3",
+        "irt_a": 1.7,
+        "irt_b": 0.6,
+        "irt_c": 0.2,
+        "c3_dimension": "D3",
+        "ssp": "SSP.05",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — the census was untouched by the ruling."
+          },
+          {
+            "label": "B",
+            "code": "MC",
+            "rationale": "Misconception — the Court made districting justiciable, not gerrymandering a crime."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — Senate terms were not at issue."
+          }
+        ],
+        "key_rationale": "Baker v. Carr held that unequal districts could be challenged in federal court under the 14th Amendment, opening the way to 'one person, one vote.'",
+        "dok_rationale": "Requires analyzing the significance of a ruling for representation.",
+        "blooms_rationale": "Student analyzes why the decision reshaped representation.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Census, Redistricting & Baker v. Carr” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Prior-knowledge error — the census was untouched by the ruling.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Misconception — the Court made districting justiciable, not gerrymandering a crime.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error — Senate terms were not at issue.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.12": [
+      {
+        "stem": "Which leadership position is named in the Constitution and chosen by the majority party to lead the House of Representatives?",
+        "std": "GC.12",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "The President pro tempore"
+          },
+          {
+            "id": "B",
+            "text": "The Speaker of the House"
+          },
+          {
+            "id": "C",
+            "text": "The Senate Majority Leader"
+          },
+          {
+            "id": "D",
+            "text": "The Vice President"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV3: The Legislative Branch",
+        "reteach": "Build a chart of House vs. Senate leadership; note which posts the Constitution names and how each is chosen.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.3,
+        "irt_b": -0.3,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.01",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — the President pro tempore presides in the Senate."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — the Majority Leader is a Senate post, not the House's presiding officer."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — the Vice President presides over the Senate."
+          }
+        ],
+        "key_rationale": "The Constitution names the Speaker of the House, who is chosen by the majority party to lead the chamber.",
+        "dok_rationale": "Requires identifying the correct post and its chamber, not simple term recall.",
+        "blooms_rationale": "Student explains which post leads the House and how it is chosen.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Leadership of Congress” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Prior-knowledge error — the President pro tempore presides in the Senate.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error — the Majority Leader is a Senate post, not the House's presiding officer.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error — the Vice President presides over the Senate.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.13": [
+      {
+        "stem": "A Senate vote (usually 60 senators) used to end a filibuster and force a final vote is called:",
+        "std": "GC.13",
+        "dok": 1,
+        "choices": [
+          {
+            "id": "A",
+            "text": "a quorum"
+          },
+          {
+            "id": "B",
+            "text": "a veto"
+          },
+          {
+            "id": "C",
+            "text": "cloture"
+          },
+          {
+            "id": "D",
+            "text": "apportionment"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-GOV3: The Legislative Branch",
+        "reteach": "Reteach the filibuster/cloture pair; map where each occurs on a 'how a bill becomes a law' flow chart.",
+        "blooms": "Remember",
+        "hess_crm_cell": "Remember × DOK 1",
+        "irt_a": 1.1,
+        "irt_b": -0.9,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.05",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — a quorum is the minimum members needed to do business."
+          },
+          {
+            "label": "B",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — a veto is a presidential rejection of a bill."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — apportionment divides House seats among states."
+          }
+        ],
+        "key_rationale": "Cloture is the Senate vote, usually 60 senators, that ends a filibuster.",
+        "dok_rationale": "Recall of a single procedural term.",
+        "blooms_rationale": "Student retrieves the definition of cloture.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “How a Bill Becomes a Law” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Prior-knowledge error — a quorum is the minimum members needed to do business.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Prior-knowledge error — a veto is a presidential rejection of a bill.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error — apportionment divides House seats among states.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.14": [
+      {
+        "stem": "How many U.S. Senators does Tennessee send to Congress, and why that number?",
+        "std": "GC.14",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Two, because every state gets two senators"
+          },
+          {
+            "id": "B",
+            "text": "Nine, one for each House district"
+          },
+          {
+            "id": "C",
+            "text": "A number based on its population"
+          },
+          {
+            "id": "D",
+            "text": "One, picked by the legislature"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV3: The Legislative Branch",
+        "reteach": "Reteach equal Senate representation vs. population-based House seats; locate the student's own district.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.3,
+        "irt_b": -0.2,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.06",
+        "distractor_tags": [
+          {
+            "label": "B",
+            "code": "MC",
+            "rationale": "Misconception applying House-district logic to the Senate."
+          },
+          {
+            "label": "C",
+            "code": "MC",
+            "rationale": "Misconception applying population-based apportionment to the Senate."
+          },
+          {
+            "label": "D",
+            "code": "AN",
+            "rationale": "Anachronism — legislative selection ended with the 17th Amendment."
+          }
+        ],
+        "key_rationale": "Every state, including Tennessee, elects exactly two U.S. Senators regardless of population.",
+        "dok_rationale": "Requires explaining the constitutional reason for the number, not only stating it.",
+        "blooms_rationale": "Student explains equal state representation in the Senate.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Tennessee's Delegation to Congress” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Misconception applying House-district logic to the Senate.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception applying population-based apportionment to the Senate.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Anachronism — legislative selection ended with the 17th Amendment.",
+              "reteach": "place events on a timeline"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.15": [
+      {
+        "stem": "In McCulloch v. Maryland (1819), how did Chief Justice Marshall interpret the Necessary and Proper Clause?",
+        "std": "GC.15",
+        "dok": 3,
+        "choices": [
+          {
+            "id": "A",
+            "text": "He struck it down as unconstitutional"
+          },
+          {
+            "id": "B",
+            "text": "He read it broadly, upholding Congress's implied powers"
+          },
+          {
+            "id": "C",
+            "text": "He limited Congress to only its listed powers"
+          },
+          {
+            "id": "D",
+            "text": "He gave states the power to tax the federal government"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV3: The Legislative Branch",
+        "reteach": "Reread Marshall's opinion; connect the Necessary and Proper Clause to implied powers and national supremacy.",
+        "blooms": "Analyze",
+        "hess_crm_cell": "Analyze × DOK 3",
+        "irt_a": 1.6,
+        "irt_b": 0.5,
+        "irt_c": 0.2,
+        "c3_dimension": "D3",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Misconception — the clause was upheld, not struck down."
+          },
+          {
+            "label": "C",
+            "code": "MC",
+            "rationale": "Misconception — Marshall rejected the strict-construction reading."
+          },
+          {
+            "label": "D",
+            "code": "CA",
+            "rationale": "Causal attribution error — the Court denied states the power to tax the national bank."
+          }
+        ],
+        "key_rationale": "Marshall read the Necessary and Proper Clause broadly, affirming Congress's implied powers.",
+        "dok_rationale": "Requires analyzing how a ruling interpreted a clause and expanded power.",
+        "blooms_rationale": "Student analyzes Marshall's interpretation of the clause.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Powers of Congress” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception — the clause was upheld, not struck down.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception — Marshall rejected the strict-construction reading.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Causal attribution error — the Court denied states the power to tax the national bank.",
+              "reteach": "re-teach the cause-effect chain"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ]
+  },
+  "formA": [
+    {
+      "stem": "Which power over citizenship does Article I give to Congress?",
+      "std": "GC.35",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "The power to grant citizenship to individual applicants personally"
+        },
+        {
+          "id": "B",
+          "text": "The power to establish a uniform rule of naturalization"
+        },
+        {
+          "id": "C",
+          "text": "The power to deny citizenship to persons born in the U.S."
+        },
+        {
+          "id": "D",
+          "text": "The power to require every citizen to pass a civics test"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Reread Article I, Section 8; stress 'uniform' — one national rule set by Congress.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.4,
+      "irt_b": 0.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception — Congress sets the rule; it does not naturalize individuals one by one."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception conflicting with 14th Amendment birthright citizenship."
+        },
+        {
+          "label": "D",
+          "code": "OG",
+          "rationale": "Overgeneralization — the civics test applies to applicants, not all citizens."
+        }
+      ],
+      "key_rationale": "Article I gives Congress the power to establish a uniform rule of naturalization.",
+      "dok_rationale": "Requires identifying the specific power the clause grants, not recalling a term.",
+      "blooms_rationale": "Student explains the naturalization power of Congress.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Citizenship & Naturalization” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception — Congress sets the rule; it does not naturalize individuals one by one.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception conflicting with 14th Amendment birthright citizenship.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Overgeneralization — the civics test applies to applicants, not all citizens.",
+            "reteach": "test the overgeneralization against a counter-case"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "How do the House and Senate differ in term length and size?",
+      "std": "GC.10",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "House: two-year terms, larger chamber; Senate: six-year terms, smaller chamber"
+        },
+        {
+          "id": "B",
+          "text": "House: six-year terms; Senate: two-year terms"
+        },
+        {
+          "id": "C",
+          "text": "Both chambers: four-year terms, equal in size"
+        },
+        {
+          "id": "D",
+          "text": "House: life terms; Senate: two-year terms"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Build a House-vs-Senate comparison chart covering term length, size, and qualifications.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": -0.2,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.03",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "NE",
+          "rationale": "Nearby error — term lengths are reversed."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception — the chambers differ in both term length and size."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception — members do not serve life terms."
+        }
+      ],
+      "key_rationale": "The House has two-year terms and is the larger chamber; the Senate has six-year terms and is smaller.",
+      "dok_rationale": "Requires comparing two chambers on multiple features.",
+      "blooms_rationale": "Student contrasts the two chambers' terms and size.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Article I & the 17th Amendment” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Nearby error — term lengths are reversed.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception — the chambers differ in both term length and size.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception — members do not serve life terms.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "For decades Tennessee did not redraw its legislative districts even as people moved to cities. What effect did this have before Baker v. Carr?",
+      "std": "GC.11",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "It gave every voter exactly equal influence"
+        },
+        {
+          "id": "B",
+          "text": "It increased Tennessee's number of U.S. House seats"
+        },
+        {
+          "id": "C",
+          "text": "It ended the state's participation in the census"
+        },
+        {
+          "id": "D",
+          "text": "It made a rural vote worth far more than an urban vote"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Use the TN map: unchanged 1901 districts + urban growth = malapportionment; connect to Baker v. Carr.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.7,
+      "irt_b": 0.7,
+      "irt_c": 0.2,
+      "c3_dimension": "D3",
+      "ssp": "SSP.05",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception — outdated districts produced unequal, not equal, influence."
+        },
+        {
+          "label": "B",
+          "code": "CA",
+          "rationale": "Causal attribution error — refusing to redistrict does not add House seats."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — the census continued regardless."
+        }
+      ],
+      "key_rationale": "Refusing to redraw districts as cities grew made rural votes count far more than urban votes.",
+      "dok_rationale": "Requires reasoning from a cause (frozen districts) to its effect on vote weight.",
+      "blooms_rationale": "Student analyzes the effect of malapportionment.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Census, Redistricting & Baker v. Carr” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception — outdated districts produced unequal, not equal, influence.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Causal attribution error — refusing to redistrict does not add House seats.",
+            "reteach": "re-teach the cause-effect chain"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error — the census continued regardless.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "The Vice President presides over the Senate but may cast a vote only when:",
+      "std": "GC.12",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "the Speaker of the House is absent"
+        },
+        {
+          "id": "B",
+          "text": "a bill has already been vetoed"
+        },
+        {
+          "id": "C",
+          "text": "the senators are equally divided"
+        },
+        {
+          "id": "D",
+          "text": "two-thirds of senators request it"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Reread Article I, Section 3; note the VP votes only to break a tie.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": -0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Prior-knowledge error linking the VP's role to the House."
+        },
+        {
+          "label": "B",
+          "code": "CA",
+          "rationale": "Causal attribution error — a veto is unrelated to the VP's tie-breaking vote."
+        },
+        {
+          "label": "D",
+          "code": "NE",
+          "rationale": "Nearby error — two-thirds is the override/expulsion threshold, not the tie rule."
+        }
+      ],
+      "key_rationale": "The Vice President votes in the Senate only to break a tie when senators are equally divided.",
+      "dok_rationale": "Requires explaining the condition for the VP's vote, not recalling the office.",
+      "blooms_rationale": "Student explains when the VP may vote.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Leadership of Congress” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error linking the VP's role to the House.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Causal attribution error — a veto is unrelated to the VP's tie-breaking vote.",
+            "reteach": "re-teach the cause-effect chain"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Nearby error — two-thirds is the override/expulsion threshold, not the tie rule.",
+            "reteach": "contrast the near-miss with the precise answer"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Why does a bill face a harder path in the Senate than in the House once it reaches the floor?",
+      "std": "GC.13",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "It allows extended debate, so a filibuster can stall a bill unless 60 vote for cloture"
+        },
+        {
+          "id": "B",
+          "text": "It must get the Supreme Court's approval before voting"
+        },
+        {
+          "id": "C",
+          "text": "It must pass every bill by a unanimous vote"
+        },
+        {
+          "id": "D",
+          "text": "It is not allowed to amend a bill on the floor"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Compare House Rules Committee limits with Senate unlimited debate; map the filibuster and cloture.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.7,
+      "irt_b": 0.6,
+      "irt_c": 0.2,
+      "c3_dimension": "D3",
+      "ssp": "SSP.05",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception — courts do not pre-approve legislation."
+        },
+        {
+          "label": "C",
+          "code": "OG",
+          "rationale": "Overgeneralization — the Senate does not require unanimity to pass bills."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception — the Senate can and does amend bills."
+        }
+      ],
+      "key_rationale": "The Senate allows extended debate, so a filibuster can block a bill unless 60 senators invoke cloture.",
+      "dok_rationale": "Requires analyzing why chamber rules make Senate passage harder.",
+      "blooms_rationale": "Student analyzes the procedural difference between chambers.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “How a Bill Becomes a Law” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception — courts do not pre-approve legislation.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Overgeneralization — the Senate does not require unanimity to pass bills.",
+            "reteach": "test the overgeneralization against a counter-case"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception — the Senate can and does amend bills.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Why does a U.S. Senator from Tennessee represent more people than a single U.S. Representative from Tennessee?",
+      "std": "GC.14",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "A senator serves longer, so more people come to know the senator"
+        },
+        {
+          "id": "B",
+          "text": "A senator represents the whole state, not one district"
+        },
+        {
+          "id": "C",
+          "text": "A senator is chosen by the state legislature"
+        },
+        {
+          "id": "D",
+          "text": "A senator can cast two votes on each bill"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Contrast a senator's statewide constituency with a representative's single district; map TN's districts.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.4,
+      "irt_b": 0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.06",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "CA",
+          "rationale": "Causal attribution error — term length does not determine how many constituents a member has."
+        },
+        {
+          "label": "C",
+          "code": "AN",
+          "rationale": "Anachronism — direct election replaced legislative selection in 1913."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception — each senator casts one vote."
+        }
+      ],
+      "key_rationale": "A senator represents an entire state, while a representative serves only one district, so the senator has more constituents.",
+      "dok_rationale": "Requires reasoning from constituency scope, not recalling a fact.",
+      "blooms_rationale": "Student explains why senators have more constituents.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Tennessee's Delegation to Congress” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Causal attribution error — term length does not determine how many constituents a member has.",
+            "reteach": "re-teach the cause-effect chain"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Anachronism — direct election replaced legislative selection in 1913.",
+            "reteach": "place events on a timeline"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception — each senator casts one vote.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Congress created a national bank, an air force, and the interstate highway system, none of which is named in the Constitution. What constitutional basis allows this?",
+      "std": "GC.15",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Supremacy Clause, which overrides all state laws"
+        },
+        {
+          "id": "B",
+          "text": "The Commerce Clause alone, with no other authority"
+        },
+        {
+          "id": "C",
+          "text": "Implied powers drawn from the Necessary and Proper Clause"
+        },
+        {
+          "id": "D",
+          "text": "The 17th Amendment's direct-election provision"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Reteach enumerated vs. implied powers; connect the Necessary and Proper Clause to McCulloch v. Maryland.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.8,
+      "irt_b": 0.8,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — the Supremacy Clause resolves conflicts, not the source of implied powers."
+        },
+        {
+          "label": "B",
+          "code": "PE",
+          "rationale": "Partial evidence — commerce is one enumerated power, but implied powers come from the Elastic Clause."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — the 17th Amendment concerns Senate elections."
+        }
+      ],
+      "key_rationale": "Powers not listed but needed to carry out listed ones are implied powers grounded in the Necessary and Proper Clause.",
+      "dok_rationale": "Requires analyzing which clause justifies unlisted congressional actions.",
+      "blooms_rationale": "Student analyzes the source of implied powers.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Powers of Congress” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error — the Supremacy Clause resolves conflicts, not the source of implied powers.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Partial evidence — commerce is one enumerated power, but implied powers come from the Elastic Clause.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error — the 17th Amendment concerns Senate elections.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    }
+  ],
+  "formB": [
+    {
+      "stem": "A requirement to serve as President of the United States is being a:",
+      "std": "GC.35",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "registered member of a political party"
+        },
+        {
+          "id": "B",
+          "text": "resident of Washington, D.C."
+        },
+        {
+          "id": "C",
+          "text": "natural-born citizen"
+        },
+        {
+          "id": "D",
+          "text": "current member of Congress"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Reteach natural-born vs. naturalized citizen; note the presidency is limited to natural-born citizens.",
+      "blooms": "Remember",
+      "hess_crm_cell": "Remember × DOK 1",
+      "irt_a": 1.1,
+      "irt_b": -1.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception — party membership is not a constitutional qualification."
+        },
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception — residency in the capital is not required."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception — prior service in Congress is not required."
+        }
+      ],
+      "key_rationale": "Only a natural-born citizen is eligible to serve as President.",
+      "dok_rationale": "Recall of a constitutional qualification.",
+      "blooms_rationale": "Student retrieves the natural-born requirement.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Citizenship & Naturalization” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception — party membership is not a constitutional qualification.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception — residency in the capital is not required.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception — prior service in Congress is not required.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Before the 17th Amendment was ratified, who chose a state's U.S. senators?",
+      "std": "GC.10",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "the state legislature"
+        },
+        {
+          "id": "B",
+          "text": "the state's voters directly"
+        },
+        {
+          "id": "C",
+          "text": "the House of Representatives"
+        },
+        {
+          "id": "D",
+          "text": "the President"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Reread Amendment XVII; contrast the old legislative selection with today's direct vote.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": -0.2,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.03",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "AN",
+          "rationale": "Anachronism — direct popular election began only after 1913."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — the House does not select senators."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — the President does not select senators."
+        }
+      ],
+      "key_rationale": "Before the 17th Amendment, state legislatures chose each state's U.S. senators.",
+      "dok_rationale": "Requires recalling the pre-amendment arrangement and understanding the change.",
+      "blooms_rationale": "Student explains who chose senators before 1913.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Article I & the 17th Amendment” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Anachronism — direct popular election began only after 1913.",
+            "reteach": "place events on a timeline"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error — the House does not select senators.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error — the President does not select senators.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "The redrawing of legislative district boundaries, usually after each census, is called:",
+      "std": "GC.11",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "apportionment"
+        },
+        {
+          "id": "B",
+          "text": "naturalization"
+        },
+        {
+          "id": "C",
+          "text": "cloture"
+        },
+        {
+          "id": "D",
+          "text": "redistricting"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Reteach the census → apportionment → redistricting sequence; play the Redistrict It! grid game.",
+      "blooms": "Remember",
+      "hess_crm_cell": "Remember × DOK 1",
+      "irt_a": 1.0,
+      "irt_b": -0.8,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.05",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "NE",
+          "rationale": "Nearby error — apportionment divides seats among states; redistricting draws the lines within a state."
+        },
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — naturalization concerns citizenship."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — cloture ends a filibuster."
+        }
+      ],
+      "key_rationale": "Redistricting is the redrawing of district boundaries after the census.",
+      "dok_rationale": "Recall of a single vocabulary term.",
+      "blooms_rationale": "Student retrieves the definition of redistricting.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Census, Redistricting & Baker v. Carr” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Nearby error — apportionment divides seats among states; redistricting draws the lines within a state.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error — naturalization concerns citizenship.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error — cloture ends a filibuster.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Which senator traditionally presides over the Senate when the Vice President is absent?",
+      "std": "GC.12",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "the Speaker of the House"
+        },
+        {
+          "id": "B",
+          "text": "the Senate Minority Leader"
+        },
+        {
+          "id": "C",
+          "text": "the newest member of the Senate"
+        },
+        {
+          "id": "D",
+          "text": "the President pro tempore"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Chart Senate leadership; note the President pro tempore is usually the longest-serving majority senator.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": -0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — the Speaker leads the House, not the Senate."
+        },
+        {
+          "label": "B",
+          "code": "NE",
+          "rationale": "Nearby error — the Minority Leader guides a party, not the chamber's presiding role."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception — seniority favors the longest-serving, not the newest, senator."
+        }
+      ],
+      "key_rationale": "The President pro tempore presides over the Senate in the Vice President's absence.",
+      "dok_rationale": "Requires identifying the correct presiding officer and its basis.",
+      "blooms_rationale": "Student explains who presides when the VP is away.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Leadership of Congress” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error — the Speaker leads the House, not the Senate.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Nearby error — the Minority Leader guides a party, not the chamber's presiding role.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception — seniority favors the longest-serving, not the newest, senator.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "If the President vetoes a bill, how can Congress still make it become law?",
+      "std": "GC.13",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "by asking the Supreme Court to overrule the veto"
+        },
+        {
+          "id": "B",
+          "text": "by passing it again with a two-thirds vote in both houses"
+        },
+        {
+          "id": "C",
+          "text": "by getting three-fourths of the states to approve it"
+        },
+        {
+          "id": "D",
+          "text": "by a simple majority in the House alone"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Reread Article I, Section 7; walk through the two-thirds override in both chambers.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.4,
+      "irt_b": 0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.05",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — courts do not override vetoes."
+        },
+        {
+          "label": "C",
+          "code": "NE",
+          "rationale": "Nearby error — three-fourths of states is the amendment-ratification threshold."
+        },
+        {
+          "label": "D",
+          "code": "NE",
+          "rationale": "Nearby error — an override needs two-thirds of both houses, not a House majority."
+        }
+      ],
+      "key_rationale": "Congress can override a veto with a two-thirds vote in both the House and the Senate.",
+      "dok_rationale": "Requires explaining the override procedure, not naming a term.",
+      "blooms_rationale": "Student explains how Congress overrides a veto.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “How a Bill Becomes a Law” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error — courts do not override vetoes.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Nearby error — three-fourths of states is the amendment-ratification threshold.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Nearby error — an override needs two-thirds of both houses, not a House majority.",
+            "reteach": "contrast the near-miss with the precise answer"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "The full group of a state's U.S. representatives together with its two senators is called its:",
+      "std": "GC.14",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "delegation"
+        },
+        {
+          "id": "B",
+          "text": "cabinet"
+        },
+        {
+          "id": "C",
+          "text": "caucus"
+        },
+        {
+          "id": "D",
+          "text": "electorate"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Reteach delegation, constituent, and district; identify Tennessee's own delegation.",
+      "blooms": "Remember",
+      "hess_crm_cell": "Remember × DOK 1",
+      "irt_a": 1.0,
+      "irt_b": -0.7,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.06",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — the cabinet advises the President."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — a caucus is a party meeting or grouping."
+        },
+        {
+          "label": "D",
+          "code": "NE",
+          "rationale": "Nearby error — the electorate is the body of voters, not the members elected."
+        }
+      ],
+      "key_rationale": "A state's members of Congress together make up its delegation.",
+      "dok_rationale": "Recall of a single vocabulary term.",
+      "blooms_rationale": "Student retrieves the definition of delegation.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Tennessee's Delegation to Congress” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error — the cabinet advises the President.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error — a caucus is a party meeting or grouping.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Nearby error — the electorate is the body of voters, not the members elected.",
+            "reteach": "contrast the near-miss with the precise answer"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "The Necessary and Proper Clause is often called the 'Elastic Clause.' Why does that nickname fit?",
+      "std": "GC.15",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "It shrinks the powers of Congress over time"
+        },
+        {
+          "id": "B",
+          "text": "It applies only during declared wars"
+        },
+        {
+          "id": "C",
+          "text": "It lets Congress stretch its listed powers to meet new needs"
+        },
+        {
+          "id": "D",
+          "text": "It can be removed by a presidential veto"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV3: The Legislative Branch",
+      "reteach": "Reteach implied powers; explain how the clause 'stretches' enumerated powers, citing McCulloch v. Maryland.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.7,
+      "irt_b": 0.6,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception — the clause expands rather than shrinks power."
+        },
+        {
+          "label": "B",
+          "code": "OG",
+          "rationale": "Overgeneralization — the clause is not limited to wartime."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception — a constitutional clause is not removable by veto."
+        }
+      ],
+      "key_rationale": "The clause is 'elastic' because it lets Congress stretch its enumerated powers to carry them out.",
+      "dok_rationale": "Requires analyzing the metaphor against the clause's function.",
+      "blooms_rationale": "Student analyzes why the clause is called 'elastic.'",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Powers of Congress” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception — the clause expands rather than shrinks power.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Overgeneralization — the clause is not limited to wartime.",
+            "reteach": "test the overgeneralization against a counter-case"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception — a constitutional clause is not removable by veto.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    }
+  ],
+  "_psychometric_summary": {
+    "dok_distribution": {
+      "1": 5,
+      "2": 10,
+      "3": 6
+    },
+    "blooms_distribution": {
+      "Remember": 5,
+      "Understand": 10,
+      "Analyze": 6
+    },
+    "irt_a_mean": 1.371,
+    "irt_b_mean": -0.081,
+    "field_test_ready_count": 21,
+    "total_items": 21,
+    "note": "IRT 3PL parameters are pre-field-test design-time estimates, to be calibrated on field-test data."
+  }
+}

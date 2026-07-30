@@ -1,0 +1,42 @@
+{
+  "_schema": "Government Hack canonical question bank (mirrors public/data/us-history/questions/). Psychometric metadata: dok, bloom, level, reporting_category, difficulty, per-distractor rationale, answer_explanation, bilingual question_es, de-biased keys. Items are classroom-formative · pre-field-test.",
+  "subject": "government",
+  "unit": 1,
+  "dok": 4,
+  "count": 1,
+  "items": [
+    {
+      "type": "dbq",
+      "standard": "GC.01–GC.09",
+      "unit": 1,
+      "dok": 4,
+      "bloom": "Evaluate",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "Document-Based Question — Using at least THREE documents from the Unit 1 primary-source set (Locke's Second Treatise, the Declaration of Independence, Federalist No. 10, Federalist No. 51, Brutus No. 1, the Preamble, and the Bill of Rights), construct an argument: Did the Founders build a government that trusts the people, or one that guards against them? Support your claim with evidence from the documents and explain how the documents corroborate or complicate one another (synthesis).",
+      "question_es": "Pregunta basada en documentos — Usando al menos TRES documentos del conjunto de la Unidad 1, argumenta: ¿Los Fundadores construyeron un gobierno que confía en el pueblo o que se protege de él?",
+      "synthesis_required": true,
+      "source_bank": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+      "rubric": "Tennessee EOC-style DBQ rubric: thesis, use of ≥3 documents, sourcing, outside evidence, synthesis.",
+      "tennessee_specific": false,
+      "topics": [
+        "DBQ",
+        "synthesis",
+        "founding"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.01",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.01",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.01",
+        "vocabulary": "Frayer terms for GC.01",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "id": "GC.01–GC.09-U1Q01"
+    }
+  ]
+}
