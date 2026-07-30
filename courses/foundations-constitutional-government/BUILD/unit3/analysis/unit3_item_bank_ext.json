@@ -1754,11 +1754,11 @@
     "question": "How does the way the Speaker of the House is chosen differ from the way the President pro tempore of the Senate typically comes to hold that role?",
     "options": {
       "A": "Both are appointed directly by the President",
-      "B": "The Speaker is chosen by the majority party through a House vote, while the President pro tempore is traditionally the most senior member of the majority party",
+      "B": "Both are chosen by the Vice President at the start of each session",
       "C": "The Speaker is chosen by seniority, while the President pro tempore is elected by the whole Senate in a public election",
-      "D": "Both are chosen by the Vice President at the start of each session"
+      "D": "The Speaker is chosen by the majority party through a House vote, while the President pro tempore is traditionally the most senior member of the majority party"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "tennessee_specific": false,
     "topics": [
       "Speaker of the House",
@@ -1778,14 +1778,14 @@
         "rationale": "Neither leader is appointed by the President; Congress selects its own leaders."
       },
       {
+        "label": "B",
+        "code": "PK",
+        "rationale": "The Vice President does not select congressional leaders."
+      },
+      {
         "label": "C",
         "code": "MC",
         "rationale": "This reverses the two: the Speaker is chosen by party vote, and the pro tempore role rests on seniority."
-      },
-      {
-        "label": "D",
-        "code": "PK",
-        "rationale": "The Vice President does not select congressional leaders."
       }
     ],
     "key_rationale": "The Speaker is chosen by the majority party through a vote of the House, while the President pro tempore is traditionally the longest-serving majority senator.",
@@ -2262,11 +2262,11 @@
     "question": "What is the main function of a committee in the process of a bill becoming a law?",
     "options": {
       "A": "To sign bills into law on behalf of the President",
-      "B": "To review, amend, and decide whether a bill advances to a floor vote",
+      "B": "To conduct the national census used for apportionment",
       "C": "To override presidential vetoes without a full vote of Congress",
-      "D": "To conduct the national census used for apportionment"
+      "D": "To review, amend, and decide whether a bill advances to a floor vote"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "tennessee_specific": false,
     "topics": [
       "committees",
@@ -2286,14 +2286,14 @@
         "rationale": "Only the President signs bills into law; committees do not."
       },
       {
+        "label": "B",
+        "code": "PK",
+        "rationale": "The census is conducted by the government's census process, not a congressional committee in lawmaking."
+      },
+      {
         "label": "C",
         "code": "MC",
         "rationale": "Overriding a veto requires a two-thirds vote of both chambers, not a committee action."
-      },
-      {
-        "label": "D",
-        "code": "PK",
-        "rationale": "The census is conducted by the government's census process, not a congressional committee in lawmaking."
       }
     ],
     "key_rationale": "Committees review and amend bills and decide whether they advance to the floor, which is why many bills stop there.",
@@ -2317,11 +2317,11 @@
     "question": "A bill passes both chambers, but the President vetoes it. On the override attempt, the House votes 300 to 135 in favor while the Senate votes 65 to 35 in favor. What is the result?",
     "options": {
       "A": "The veto is overridden and the bill becomes law, because both chambers voted in favor",
-      "B": "The veto stands and the bill does not become law, because the Senate fell short of the required two-thirds",
+      "B": "The bill returns to committee for a new vote in both chambers",
       "C": "The bill becomes law without the Senate, because the House reached two-thirds",
-      "D": "The bill returns to committee for a new vote in both chambers"
+      "D": "The veto stands and the bill does not become law, because the Senate fell short of the required two-thirds"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "tennessee_specific": false,
     "topics": [
       "veto override",
@@ -2341,14 +2341,14 @@
         "rationale": "A simple majority in favor is not enough; both chambers must each reach two-thirds."
       },
       {
+        "label": "B",
+        "code": "PE",
+        "rationale": "A failed override does not send the bill back to committee; the veto simply stands."
+      },
+      {
         "label": "C",
         "code": "MC",
         "rationale": "A bill cannot become law over a veto on one chamber alone; both must override."
-      },
-      {
-        "label": "D",
-        "code": "PE",
-        "rationale": "A failed override does not send the bill back to committee; the veto simply stands."
       }
     ],
     "key_rationale": "An override needs two-thirds of each chamber; the Senate's 65 votes fall short of the 67 needed, so the veto stands and the bill fails.",
@@ -2604,12 +2604,12 @@
     "level": "Developing",
     "question": "For how many years is each U.S. Representative from Tennessee elected before facing reelection?",
     "options": {
-      "A": "Two years",
+      "A": "Ten years",
       "B": "Four years",
       "C": "Six years",
-      "D": "Ten years"
+      "D": "Two years"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "tennessee_specific": false,
     "topics": [
       "House terms",
@@ -2624,6 +2624,11 @@
     "ssp": "SSP.01",
     "distractor_tags": [
       {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Ten years is the interval between censuses, not a term of office."
+      },
+      {
         "label": "B",
         "code": "PK",
         "rationale": "Four years is the presidential term, not a House term."
@@ -2632,11 +2637,6 @@
         "label": "C",
         "code": "PK",
         "rationale": "Six years is a U.S. senator's term, not a representative's."
-      },
-      {
-        "label": "D",
-        "code": "NE",
-        "rationale": "Ten years is the interval between censuses, not a term of office."
       }
     ],
     "key_rationale": "Members of the U.S. House, including Tennessee's, serve two-year terms.",
@@ -2714,12 +2714,12 @@
     "level": "Proficient",
     "question": "If Tennessee's population grew faster than the national average, what could happen to its delegation in the U.S. House after the next census?",
     "options": {
-      "A": "It could gain a seat in the House of Representatives",
+      "A": "It would automatically lose a House seat",
       "B": "It could gain a third U.S. senator",
-      "C": "It would automatically lose a House seat",
+      "C": "It could gain a seat in the House of Representatives",
       "D": "Its representatives would each begin serving six-year terms"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "tennessee_specific": true,
     "topics": [
       "apportionment",
@@ -2734,14 +2734,14 @@
     "ssp": "SSP.03",
     "distractor_tags": [
       {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Faster-than-average growth tends to add, not remove, House seats."
+      },
+      {
         "label": "B",
         "code": "MC",
         "rationale": "The number of senators is fixed at two and does not grow with population."
-      },
-      {
-        "label": "C",
-        "code": "MC",
-        "rationale": "Faster-than-average growth tends to add, not remove, House seats."
       },
       {
         "label": "D",
@@ -2879,12 +2879,12 @@
     "level": "Advanced",
     "question": "After redistricting, a Tennessee voter discovers that her home is now located in a different congressional district than before. What is the most likely effect of this change?",
     "options": {
-      "A": "She may now be represented by a different U.S. House member, but her two U.S. senators stay the same",
+      "A": "Her U.S. representative's term will be shortened to one year",
       "B": "She will now have three U.S. senators instead of two",
       "C": "She will lose her right to vote until the next census",
-      "D": "Her U.S. representative's term will be shortened to one year"
+      "D": "She may now be represented by a different U.S. House member, but her two U.S. senators stay the same"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "tennessee_specific": true,
     "topics": [
       "redistricting",
@@ -2899,6 +2899,11 @@
     "ssp": "SSP.04",
     "distractor_tags": [
       {
+        "label": "A",
+        "code": "PK",
+        "rationale": "House terms remain two years; redistricting does not shorten them."
+      },
+      {
         "label": "B",
         "code": "MC",
         "rationale": "Redistricting changes House district lines, not the fixed number of two senators."
@@ -2907,11 +2912,6 @@
         "label": "C",
         "code": "MC",
         "rationale": "Redistricting does not remove a citizen's right to vote."
-      },
-      {
-        "label": "D",
-        "code": "PK",
-        "rationale": "House terms remain two years; redistricting does not shorten them."
       }
     ],
     "key_rationale": "Redistricting can place a voter in a new House district, changing her representative, while her statewide senators remain unchanged.",
@@ -3388,11 +3388,11 @@
     "question": "Congress uses its commerce power to regulate goods shipped across state lines and then claims authority over a related activity within a single state. Which reasoning best supports Congress's claim of authority?",
     "options": {
       "A": "Congress may regulate anything it wishes without limit",
-      "B": "The activity substantially affects interstate commerce, so regulating it helps carry out the commerce power",
+      "B": "Congress may regulate it only after formally declaring war",
       "C": "The activity is local, so only the President can regulate it",
-      "D": "Congress may regulate it only after formally declaring war"
+      "D": "The activity substantially affects interstate commerce, so regulating it helps carry out the commerce power"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "tennessee_specific": false,
     "topics": [
       "commerce power",
@@ -3412,14 +3412,14 @@
         "rationale": "This overgeneralizes; congressional power is broad but not unlimited."
       },
       {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Declaring war is unrelated to regulating commerce."
+      },
+      {
         "label": "C",
         "code": "PK",
         "rationale": "The President does not hold the commerce power; this misassigns the authority."
-      },
-      {
-        "label": "D",
-        "code": "MC",
-        "rationale": "Declaring war is unrelated to regulating commerce."
       }
     ],
     "key_rationale": "Congress can reach a local activity when it substantially affects interstate commerce, because regulating it is a means of carrying out the enumerated commerce power.",
