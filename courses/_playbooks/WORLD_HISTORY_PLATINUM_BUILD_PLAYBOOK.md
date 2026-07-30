@@ -32,26 +32,49 @@ Run phases in order. Each phase has a **prompt to paste**, a **verification gate
 13. **Bank QC / rigor report**, **Full Inventory + Standards Crosswalk** (`QUESTION_BANK_INVENTORY.md`, `standards_crosswalk.csv`, `item_inventory.csv`)
 14. **Primary-source image bank** (`ASSETS/primary_sources/`) with citations (`primary_source_sourcing.json`)
 15. **UDL 3.0 CAST audit** (9/9 evidenced) · **MTSS Support Map** · **Accessibility Statement**
-16. **Compliance pack** — standards matrix, scope & sequence, UDL/MTSS framework crosswalk, Schedule F alignment
-17. **Web edition** manifests (primary-sources + questions) · **Master Deliverables Index** · **district package ZIP**
+16. **Compliance pack** — standards matrix, scope & sequence, UDL/MTSS framework crosswalk, Schedule F alignment, **Rights-Clearance Log + NOTICES** (copyright/IP/OSS)
+17. **Web edition** manifests (primary-sources + questions) registered in the **Social Studies Suite** · **Master Deliverables Index** (with QC-gate attestation) · **district package ZIP**
 
 ---
 
-## SKILLS ROSTER — which skill runs which phase
+## SKILLS ROSTER — EVERY skill, and which phase it runs
+**Orchestration & content**
+| Skill | Use for | Phase |
+|---|---|---|
+| `history-hack-course-standard-builder` | Orchestrate the whole cradle-to-grave course build | 1 (all) |
+| `history-hack-curriculum-architect` | Unit structure, instructional flow, rigor, scope & sequence | 1, 3 |
+| `instructional-design-specialist` | Lesson/unit/assessment design, TN-standards alignment | 3 |
+| `learning-experience-designer` | Interactive/inclusive UX, UDL, engagement systems (student decks, web edition) | 4, suite |
+| `history-hack-platinum-unit-builder` | Consolidate a unit's workbook/guide/deck to platinum | 6 |
+| `history-hack-platinum-workbook` | Standalone **DBQ / primary-source investigation books** | 9 |
+| `history-hack-graphic-organizer-workbook` | The Graphic Organizer Toolkits | 5 |
+| `history-hack-comic-mission-builder` / `history-hack-comic-script-creator` | Optional comic-based lesson packets/scripts (suite content extension) | opt |
+
+**Assessment**
+| Skill | Use for | Phase |
+|---|---|---|
+| **`tn-assessment-specialist`** | Write + assemble + **QC** items and Assessment Books (built-in psychometric + bias review) | 7, 8 |
+| **`tcap-item-writer-v2`** | Full psychometrics — IRT 3PL, Hess CRM, DOK/Bloom's, coded distractors, TDOE stem conventions | 8 |
+| `history-hack-question-forge` | Fast standards-aligned item/quiz generation with built-in QC (supplementary pools) | 8 |
+
+**QC / compliance / accuracy (the gate)**
+| Skill | Use for | Phase |
+|---|---|---|
+| `historian-factcheck-agent` | Claim-by-claim primary-source factual verification of content + items | QC |
+| `udl-cast-expert` | CAST UDL 3.0 audit (9/9 evidenced) + evidence-mapped gap closure | 11 / QC |
+| `tn-textbook-adoption-agent` | Schedule F / TN adoption alignment (standards, balance, rubric self-score) | 12 / QC |
+| `copyright-integrity-accreditation` | **Copyright / IP / rights clearance**, FERPA/COPPA data privacy, OSS licensing, ToS | 2 / QC / suite |
+| `history-hack-print-qc-auditor` | Print-readiness QC of PDFs/docx (defects, layout, fix priorities) | QC |
+| `history-hack-teacher-ux-reviewer` | Teacher-facing UX review (guides, dashboards, web flows) | suite |
+| `tt-education-research-team` | ESSA evidence tiers, research-foundations doc, pilot-study design for district RFPs | opt / suite |
+
+**Format & platform**
 | Skill | Use for |
 |---|---|
-| `history-hack-course-standard-builder` | Orchestrate the whole cradle-to-grave course build (Phase 1) |
-| `history-hack-curriculum-architect` / `instructional-design-specialist` | Unit structure, instructional flow, content design (Phase 3) |
-| `history-hack-graphic-organizer-workbook` | The Graphic Organizer Toolkits (Phase 5) |
-| `history-hack-platinum-unit-builder` | Consolidate a unit's workbook/guide/deck to platinum (Phase 6) |
-| **`tn-assessment-specialist`** (the question/assessment skill) | Write + assemble + QC assessment items and books (Phases 7–8) |
-| **`tcap-item-writer-v2`** (the psychometrics/item-writer skill) | Full psychometrics — IRT 3PL, Hess CRM, distractor codes (Phase 8) |
-| `history-hack-platinum-workbook` | Standalone **DBQ / primary-source investigation books** (Phase 9) |
-| `udl-cast-expert` | CAST UDL 3.0 audit + evidence-mapped gap closure (Phase 11) |
-| `historian-factcheck-agent` | Claim-by-claim factual verification of content + items |
-| `tn-textbook-adoption-agent` | Schedule F / adoption alignment (Phase 12) |
-| `history-hack-print-qc-auditor` | Print-readiness QC of PDFs/docx |
-| `docx` / `pdf` / `pptx` | Format work (tagged PDF, large-print, packaging) |
+| `docx` / `pdf` / `pptx` / `xlsx` | Word/PDF/deck/spreadsheet format work (tagged PDF, large-print, packaging, sourcing sheets) |
+| `dataviz` | Any chart/analytics visual (bank inventory, psychometric spread, mastery dashboards) |
+| `history-hack-website-builder` | Web edition + **Social Studies Suite** integration (design tokens, brand, components) |
+| `troop-prompt-refiner` | Sharpen any sub-prompt before handing it to another tool/agent |
 
 ---
 
@@ -77,11 +100,26 @@ Citation on every UDL artifact: CAST (2024). Universal Design for Learning Guide
 ```
 
 ## Reusable assets to COPY from the Government build (don't rebuild)
-- **Question-bank toolkit** (subject-agnostic): `courses/foundations-constitutional-government/08_QUESTION_BANK/{consolidate_bank.py, bank_qc.py, add_udl_remediation.py, generate_parallel_tests.py, build_inventory.py}`.
-- **Golden docx builders** (parameterized): `BUILD/unit1/build_{workbook,teacher_guide,cover,assessment_book}.js` (carry UDL/MTSS callout, multi-modal CER, Choice & Voice, Reflect & Connect, LARGEPRINT flag) + `BUILD/engine/`.
-- **Deck builder** `BUILD/decks/Unit1_Teacher_Deck/build_deck.py` (per-standard UDL/MTSS strip, AUDIENCE=student, base64-stripped leak guard, tagged-PDF).
+All paths are under `courses/foundations-constitutional-government/`.
+- **Question-bank toolkit** (subject-agnostic): `08_QUESTION_BANK/{consolidate_bank.py, bank_qc.py, add_udl_remediation.py, generate_parallel_tests.py, build_inventory.py}`.
+- **Golden docx builders** — copy the **brand-locked** `BUILD/engine/build_{workbook,teacher_guide,cover,assessment_book,organizer_toolkit}.js` (or any `BUILD/unitN/` copy) into each new `BUILD/unitN` and repoint analysis paths. They carry UDL/MTSS callout, multi-modal CER, Choice & Voice, Reflect & Connect, LARGEPRINT flag. Run with `NODE_PATH="../unit1/node_modules" node build_X.js` (docx-js lives in unit1's node_modules).
+- **Deck builder** `BUILD/decks/Unit1_Teacher_Deck/build_deck.py` (per-standard UDL/MTSS strip, AUDIENCE=student, base64-stripped leak guard, tagged-PDF) + `BUILD/engine/render_pdf.py`.
 - **Image pipeline** `BUILD/sync_images.py`.
-- **Compliance templates** `06_COMPLIANCE_INTERNAL/{udl-mtss-framework.html, UDL_AUDIT_REPORT.md, MTSS_SUPPORT_MAP.md, ACCESSIBILITY_STATEMENT.md}` + `05_STANDARDS_ALIGNMENT/{standards-matrix.html, scope-sequence.html, udl_mtss_alignment.json}`.
+- **Compliance templates** `06_COMPLIANCE_INTERNAL/{udl-mtss-framework.html, UDL_AUDIT_REPORT.md, MTSS_SUPPORT_MAP.md, ACCESSIBILITY_STATEMENT.md, schedule-f-alignment.html, build_udl_framework.py}` + `05_STANDARDS_ALIGNMENT/{standards-matrix.html, scope-sequence.html, udl_mtss_alignment.json, build_alignment.py}`.
+
+## ⭐ WORKBOOK BRAND-LOCK — the layout every course must match (non-negotiable)
+The student workbook is the brand. It is locked to the owner's actual **U.S. History Hack Unit 8 Student Workbook**; the reference doc + full spec live at `courses/foundations-constitutional-government/REFERENCE/{USHistory_Unit8_Student_Workbook.docx, README.md}`. The brand-locked builders already bake these in — **do not change them**, and **verify them after copying**:
+
+| Setting | Locked value |
+|---|---|
+| Page | 12240 × 15840 twips (8.5"×11") |
+| Margins | top/bottom **1152**, left/right **1224**, header/footer **720** |
+| Printable / table width `CW` | **9792** (every table fills it edge-to-edge; column arrays sum to 9792) |
+| Column splits | even divisions of 9792 → 4896 (2-col), 3264 (3-col), 2448 (4-col) |
+| Cornell notes | grid 4896\|4896; cells **2448 (cue)** \| **7344 (notes)**; navy header `1B2A4A`; zebra `F7F5EF`/`FFFFFF`; cantSplit; row height atLeast 520; ruled lines fill the notes column |
+| Ruled writing line | empty paragraph, `spacing before 80 / after 140`, bottom border `single sz6 space1 color C9C2B4` (large-print scales height) |
+
+**Verify-after-copy (all three must be true in each `build_workbook.js`):** `grep -o "CW=[0-9]*"` → `CW=9792`; `grep -c "function cornell("` → `1`; `grep -o "left:1224,right:1224"` → present. Then build and confirm: `<w:pgMar ... w:left="1224" ...>`, every `<w:tblGrid>` sums to **9792**, Cornell tables show `2448`/`7344` cells, and `C9C2B4` writing-line borders are present. The **seven activities per standard** (Word Bank · Vocabulary Studio/Frayer · Cornell Notes · Close Read · Primary Source/Data · Practice Quiz · CER) must each appear once per standard.
 
 ---
 
@@ -178,6 +216,61 @@ Build 05_STANDARDS_ALIGNMENT/{standards-matrix.html, scope-sequence.html, udl_mt
 
 ---
 
+---
+
+## COPYRIGHT & RIGHTS CLEARANCE — do this at Phase 2 and re-verify at the QC gate
+Run `copyright-integrity-accreditation` over the course. Nothing ships without a clean rights trail.
+```
+Invoke copyright-integrity-accreditation. Audit {{COURSE_DIR}} for copyright/IP + data-privacy compliance:
+1. Every primary source is genuinely public-domain (PD-old ≥ pre-1929 / PD-US-gov / CC0) — verify the rights line at its repository; record repository + page_url + direct_file_url + rights + verified=true in primary_source_sourcing.json. NO fabricated URLs; NO "fair use" assumptions for images.
+2. Authored close-reads are labeled "World History Hack-authored instructional synthesis" (NOT presented as primary sources).
+3. Third-party marks, logos, textbook text, and paywalled/CC-BY-ND/NC assets are ABSENT.
+4. Open-source: docx-js / Chromium / pikepdf / fonts used are license-compatible for redistribution; record in a NOTICES file.
+5. Student-data privacy for the web edition: FERPA/COPPA posture (no PII in content; auth/entitlement handled by the platform).
+6. Produce 06_COMPLIANCE_INTERNAL/RIGHTS_CLEARANCE_LOG.md — a per-source clearance table (source, repo, rights, URL, verified) + an integrity attestation ("all sources public-domain & cited; no third-party IP; authored text labeled").
+[GUARDRAILS]. Commit + push.
+```
+**Citation standard (every source, everywhere it appears):** `{Title}. {Creator}, {Year}. {Repository}. Public domain ({PD basis}). {page_url}`.
+
+---
+
+## MASTER QC GATE — run before packaging (Phase 12). Nothing ships red.
+Every check names its skill/tool and its pass bar. Fail → fix → re-run.
+| # | Check | Skill / tool | Pass bar |
+|---|---|---|---|
+| 1 | **Leak scan** (cross-edition / source-district) | grep over `word/*.xml` + deck HTML **with base64 stripped first** | 0 hits on forbidden strings (see GUARDRAILS) |
+| 2 | **Historical accuracy** | `historian-factcheck-agent` | every date/name/dynasty/battle/treaty/number VERIFIED or made conceptual; 0 unresolved |
+| 3 | **Copyright & rights** | `copyright-integrity-accreditation` | RIGHTS_CLEARANCE_LOG clean; all sources PD + cited; NOTICES present |
+| 4 | **Item rigor / bank QC** | `bank_qc.py` + `tn-assessment-specialist` | PASS: coverage 20/std, DOK ≈20/35/45, keys debiased, no dup stems, required fields, leak-clean |
+| 5 | **Parallel-test equating** | `generate_parallel_tests.py` | mean-IRT spread ≤ ~0.35; UDL banner on student forms; keys+remediation teacher-side |
+| 6 | **UDL 3.0 CAST audit** | `udl-cast-expert` | **9/9 guidelines ✅ evidenced** (affordance in the artifact, not a label); external steps stated honestly |
+| 7 | **Accessibility** | `docx`/`pdf` + audit | large-print edition per workbook; deck PDFs PDF/UA-tagged (StructTreeRoot, Lang, Title); alt-text = image count |
+| 8 | **Print readiness** | `history-hack-print-qc-auditor` | no orphaned headers, no blank/half pages, tables within margins, images ≥150dpi |
+| 9 | **Workbook brand-lock** | grep + build check (see ⭐ section) | CW=9792 · margins 1224 · `function cornell(` · tables sum 9792 · 7 activities/std |
+| 10 | **Standards & adoption** | `tn-textbook-adoption-agent` | every standard covered once; Schedule F self-score attached; balance defensible |
+| 11 | **Teacher-side keys** | grep student artifacts | 0 answer keys / reteach in any student deck, workbook, or student test form |
+| 12 | **Teacher UX** (if web/guide surfaces built) | `history-hack-teacher-ux-reviewer` | guide + web flows clear across tech-skill levels |
+
+Record the gate result in `00_START_HERE/MASTER_DELIVERABLES_INDEX.md` (integrity attestation).
+
+---
+
+## SOCIAL STUDIES SUITE — this course is an EDITION inside the platform, not a new app
+World History Hack ships **in addition to** the main History Hack web app, which becomes a **multi-course Social Studies Suite**: one platform, multiple entitlement-gated course editions — **U.S. History (flagship) · Government & Civics (Government Hack) · World History (World History Hack)** · future (Economics, Geography, World Geography). Mirror the flagship's platform patterns; do **not** fork the app.
+```
+Invoke history-hack-website-builder (+ learning-experience-designer for UX, history-hack-teacher-ux-reviewer for review).
+Register World History Hack as a course edition in the Social Studies Suite:
+- Use the platform's existing design tokens, typography, dark History Hack brand — no new visual system.
+- Publish WEB_EDITION/public/data/world-history/{primary-sources.json, questions.json} manifests in the SAME shape as the U.S. History + Government manifests.
+- Entitlement/gating: the edition is unlocked by license like the others; content is data-driven off the manifests (no per-course code fork).
+- Suite navigation: add World History alongside U.S. History and Government in the course switcher; keep per-course standards codes namespaced ({{STD_PREFIX}}, RC-WH{N}).
+- Keep teacher keys / answer data server-side / entitlement-gated, never in the student bundle.
+[GUARDRAILS]. Verify manifests match the shared schema, suite switcher lists all editions, no cross-edition leakage. Commit + push.
+```
+> When the suite adds a course, the ONLY new inputs are: its standards doc, its sourced PD images, and its content JSON. Everything else (builders, toolkit, QC gate, UDL/MTSS blocks, brand-lock) is reused verbatim. That is the point of this playbook.
+
+---
+
 ## Lessons carried from the Government build
 - **Leak scans must strip base64** before scanning decks (3-letter guards false-trip on random image bytes).
 - **Drive connector: hard 10 MB per-file cap** — re-export bigger; **tiny inline files can truncate** — pull ≥~1200 px so they route through the on-disk tool-result path; decode with `jq -r '.content' | base64 -d`.
@@ -187,5 +280,11 @@ Build 05_STANDARDS_ALIGNMENT/{standards-matrix.html, scope-sequence.html, udl_mt
 
 ## One-shot kickoff prompt
 ```
-Build a new licensable "World History Hack" course edition ({{COURSE_NAME}}) to the platinum standard of courses/foundations-constitutional-government, following courses/_playbooks/WORLD_HISTORY_PLATINUM_BUILD_PLAYBOOK.md phase by phase — producing EVERYTHING in its Deliverables Inventory (content, teacher + student slide decks, student workbooks + large-print, teacher guides, organizer toolkits, assessment books, DBQ books, covers, the 20-item/standard question bank with psychometrics + UDL + remediation, parallel-test generator, inventory + standards crosswalk, primary-source bank, 9/9 CAST UDL 3.0 audit, MTSS map, accessibility statement, compliance pack, master index, web edition, district package). Invoke history-hack-course-standard-builder to orchestrate; tn-assessment-specialist + tcap-item-writer-v2 for questions/psychometrics; history-hack-platinum-workbook for DBQ books; history-hack-graphic-organizer-workbook for organizers; udl-cast-expert (CAST 2024 UDL 3.0) for the audit; historian-factcheck-agent for accuracy. Apply the GUARDRAILS block everywhere; verify + commit + push after each phase. I'll paste the official TN World History & Geography standards now, and drop the sourced primary-source images (with downloadable links + citations) in a Drive folder at Phase 2. STOP and show me the standards→unit map before authoring.
+Build a new licensable "World History Hack" course edition ({{COURSE_NAME}}) to the platinum standard of courses/foundations-constitutional-government, following courses/_playbooks/WORLD_HISTORY_PLATINUM_BUILD_PLAYBOOK.md phase by phase — producing EVERYTHING in its Deliverables Inventory (content, teacher + student slide decks, student workbooks + large-print, teacher guides, organizer toolkits, assessment books, DBQ books, covers, the 20-item/standard question bank with psychometrics + UDL + remediation, parallel-test generator, inventory + standards crosswalk, primary-source bank, 9/9 CAST UDL 3.0 audit, MTSS map, accessibility statement, rights-clearance log + NOTICES, compliance pack, master index, web edition, district package).
+
+Copy the reusable Government assets rather than rebuilding: the 08_QUESTION_BANK toolkit, the BRAND-LOCKED docx builders in BUILD/engine/ (student workbook MUST match the ⭐ WORKBOOK BRAND-LOCK exactly — margins 1224, width 9792, the Cornell table, C9C2B4 ruled lines, seven activities/standard; reference at courses/foundations-constitutional-government/REFERENCE/), the deck builder, sync_images.py, and the compliance templates.
+
+Invoke: history-hack-course-standard-builder to orchestrate; instructional-design-specialist / history-hack-curriculum-architect for content; tn-assessment-specialist + tcap-item-writer-v2 for questions/psychometrics; history-hack-platinum-workbook for DBQ books; history-hack-graphic-organizer-workbook for organizers; udl-cast-expert (CAST 2024 UDL 3.0) for the audit; historian-factcheck-agent for accuracy; copyright-integrity-accreditation for rights clearance; tn-textbook-adoption-agent for Schedule F; history-hack-print-qc-auditor for print QC; history-hack-website-builder for registering this edition in the Social Studies Suite (it ships IN ADDITION to the main History Hack web app, which is becoming a multi-course suite — one platform, entitlement-gated editions, no fork).
+
+Apply the GUARDRAILS block everywhere; run the MASTER QC GATE before packaging; verify + commit + push after each phase. I'll paste the official TN World History & Geography standards now, and drop the sourced primary-source images (with downloadable links + citations) in a Drive folder at Phase 2. STOP and show me the standards→unit map before authoring.
 ```
