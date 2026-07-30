@@ -1,0 +1,3070 @@
+{
+  "course_name": "World History & Geography",
+  "brand": "World History Hack",
+  "std_prefix": "W",
+  "course_dir": "courses/world-history-hack",
+  "standards_source_doc": "TN World History & Geography — Instructional Guide + TN State Standards (2025–2026)",
+  "grade": "High School",
+  "quarters": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "unit_count": 13,
+  "standard_count": 92,
+  "dimension_legend": {
+    "C": "culture",
+    "E": "economics",
+    "G": "geography",
+    "H": "history",
+    "P": "politics/government",
+    "T": "Tennessee"
+  },
+  "course_level_legal_mandates": [
+    {
+      "mandate": "Constitution Day / Federal Mandate",
+      "citation": "36 U.S.C. § 106",
+      "scope": "Quarter 1 instruction"
+    },
+    {
+      "mandate": "Freedom Week",
+      "citation": "TCA § 49-6-1014",
+      "scope": "Quarter 1 instruction"
+    }
+  ],
+  "social_studies_practices": [
+    {
+      "code": "SSP.01",
+      "text": "Collect data and information from a variety of primary and secondary sources."
+    },
+    {
+      "code": "SSP.02",
+      "text": "Critically examine primary or secondary sources."
+    },
+    {
+      "code": "SSP.03",
+      "text": "Synthesize data from a variety of sources."
+    },
+    {
+      "code": "SSP.04",
+      "text": "Construct and communicate arguments citing supporting evidence."
+    },
+    {
+      "code": "SSP.05",
+      "text": "Develop historical awareness."
+    },
+    {
+      "code": "SSP.06",
+      "text": "Develop geographic awareness."
+    }
+  ],
+  "units": [
+    {
+      "unit": 1,
+      "title": "Age of Revolutions",
+      "quarter": "Q1",
+      "era": "1750-1850",
+      "standards": [
+        "W.01",
+        "W.02",
+        "W.03",
+        "W.04",
+        "W.08a"
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "The French Revolution",
+      "quarter": "Q1",
+      "era": "1789-1815",
+      "standards": [
+        "W.05",
+        "W.06",
+        "W.07",
+        "W.08b",
+        "W.09"
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "era": "1750s-1900",
+      "standards": [
+        "W.10",
+        "W.11",
+        "W.12",
+        "W.13",
+        "W.14",
+        "W.15",
+        "W.16"
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Rising Nationalism",
+      "quarter": "Q1",
+      "era": "1850-1914",
+      "standards": [
+        "W.17",
+        "W.18"
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Imperialism in Africa",
+      "quarter": "Q2",
+      "era": "1850-1914",
+      "standards": [
+        "W.19",
+        "W.20",
+        "W.21",
+        "W.22"
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "era": "1850-1914",
+      "standards": [
+        "W.23",
+        "W.24",
+        "W.25",
+        "W.26",
+        "W.27",
+        "W.28"
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "World War I",
+      "quarter": "Q2",
+      "era": "1910s-1920s",
+      "standards": [
+        "W.29",
+        "W.30",
+        "W.31",
+        "W.32",
+        "W.33",
+        "W.34",
+        "W.35",
+        "W.36",
+        "W.37",
+        "W.38"
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "era": "1920s-1930s",
+      "standards": [
+        "W.39",
+        "W.40",
+        "W.41",
+        "W.42",
+        "W.43",
+        "W.44",
+        "W.49"
+      ]
+    },
+    {
+      "unit": 9,
+      "title": "World War II",
+      "quarter": "Q3",
+      "era": "1930s-1945",
+      "standards": [
+        "W.45",
+        "W.46",
+        "W.47",
+        "W.48",
+        "W.50",
+        "W.51",
+        "W.52",
+        "W.53"
+      ]
+    },
+    {
+      "unit": 10,
+      "title": "The Cold War Begins",
+      "quarter": "Q3",
+      "era": "1945-1950s",
+      "standards": [
+        "W.54",
+        "W.55",
+        "W.56a",
+        "W.56b",
+        "W.57",
+        "W.58",
+        "W.59"
+      ]
+    },
+    {
+      "unit": 11,
+      "title": "The Cold War Continues",
+      "quarter": "Q4",
+      "era": "1950s-1991",
+      "standards": [
+        "W.60",
+        "W.61",
+        "W.62",
+        "W.63a",
+        "W.63b",
+        "W.64",
+        "W.65"
+      ]
+    },
+    {
+      "unit": 12,
+      "title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s",
+      "standards": [
+        "W.66",
+        "W.67",
+        "W.68",
+        "W.69",
+        "W.70",
+        "W.71",
+        "W.72",
+        "W.73",
+        "W.74",
+        "W.75",
+        "W.76"
+      ]
+    },
+    {
+      "unit": 13,
+      "title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present",
+      "standards": [
+        "W.77",
+        "W.78",
+        "W.79",
+        "W.80",
+        "W.81",
+        "W.82",
+        "W.83",
+        "W.84",
+        "W.85",
+        "W.86",
+        "W.87",
+        "W.88",
+        "W.89"
+      ]
+    }
+  ],
+  "standards": [
+    {
+      "code": "W.01",
+      "title": "Describe the concept of the divine right of kings as well as the features",
+      "standard": "Describe the concept of the divine right of kings as well as the features, strengths, and weaknesses of European absolutism, including Louis XIV, Versailles, and Peter the Great. (C, H, P)",
+      "ican": [
+        "Describe the concept of the divine right and absolute monarchy using examples.",
+        "Describe the features, strengths, and weaknesses of absolute monarchy using evidence.",
+        "Compare the reigns of Louis XIV at Versailles and Peter the Great in Russia."
+      ],
+      "dimensions": [
+        "C",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 1,
+      "unit_title": "Age of Revolutions",
+      "quarter": "Q1",
+      "era": "1750-1850"
+    },
+    {
+      "code": "W.02",
+      "title": "Compare documents that establish limits on government in response to absolute monarchy (e",
+      "standard": "Compare documents that establish limits on government in response to absolute monarchy (e.g., the Magna Carta and the English Bill of Rights). (H, P)",
+      "ican": [
+        "Compare the Magna Carta and English Bill of Rights and discuss how these documents established limits to create a constitutional monarchy.",
+        "Compare the constitutional monarchy in England with other absolute monarchies across continental Europe."
+      ],
+      "dimensions": [
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 1,
+      "unit_title": "Age of Revolutions",
+      "quarter": "Q1",
+      "era": "1750-1850"
+    },
+    {
+      "code": "W.03",
+      "title": "Compare the major ideas of philosophers during the Age of Enlightenment",
+      "standard": "Compare the major ideas of philosophers during the Age of Enlightenment, such as Charles-Louis de Montesquieu, Thomas Hobbes, John Locke, and Jean-Jacques Rousseau. (C, E, H, P)",
+      "ican": [
+        "Identify the causes of the Enlightenment, including emphasis on human reasoning.",
+        "Compare the major ideas of philosophers described in the following works:",
+        "Charles-Louis de Montesquieu’s The Spirit of the Laws",
+        "Thomas Hobbes’ Leviathan",
+        "John Locke’s Second Treatise of Government",
+        "Jean-Jacques Rousseau’s The Social Contract",
+        "Honors: Mary Wollstonecraft’s A Vindication of the Rights of Woman."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 1,
+      "unit_title": "Age of Revolutions",
+      "quarter": "Q1",
+      "era": "1750-1850"
+    },
+    {
+      "code": "W.04",
+      "title": "Examine the causes and consequences of the English Civil War",
+      "standard": "Examine the causes and consequences of the English Civil War. (C, G, H, P)",
+      "ican": [
+        "Describe the causes and identify the key people and their role in the civil war including:",
+        "James I and Charles I",
+        "Oliver Cromwell",
+        "Charles II",
+        "Identify the consequences of the conflict and the role of key people in the creation of England’s constitutional monarchy, including:",
+        "William and Mary",
+        "James II"
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 1,
+      "unit_title": "Age of Revolutions",
+      "quarter": "Q1",
+      "era": "1750-1850"
+    },
+    {
+      "code": "W.08a",
+      "title": "Identify how the ideas of the Enlightenment inspired Thomas Jefferson and the Declaration ",
+      "standard": "Identify how the ideas of the Enlightenment inspired Thomas Jefferson and the Declaration of Independence. (C, G, H, P)",
+      "ican": [
+        "Identify how the ideas of the Enlightenment inspired Thomas Jefferson and the Declaration of Independence."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 1,
+      "unit_title": "Age of Revolutions",
+      "quarter": "Q1",
+      "era": "1750-1850"
+    },
+    {
+      "code": "W.05",
+      "title": "Identify the major causes of the French Revolution",
+      "standard": "Identify the major causes of the French Revolution, including the impact of: (C, E, G, H, P)\nThe American Revolution \nconflicting social classes\neconomic factors \nenlightenment political thought\ngovernment corruption and weakness",
+      "ican": [
+        "Describe the growing tensions between the Three Estates.",
+        "Define bourgeoisie and describe their growing political, social and financial resentments.",
+        "Identify economic causes of the French Revolution including:",
+        "lavish government spending",
+        "inflation",
+        "rapidly growing national debt",
+        "the tax burden of the Third Estate",
+        "Identify how the American Revolution contributed to rising debt and provided inspiration to the Third Estate.",
+        "Identify the impact of enlightenment political thought on the French Revolution, including:",
+        "Rousseau’s idea of social contract",
+        "Locke’s ideas equality and natural rights",
+        "Identify how government corruption, incompetence, and increasing weakness contributed to growing frustrations."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 2,
+      "unit_title": "The French Revolution",
+      "quarter": "Q1",
+      "era": "1789-1815"
+    },
+    {
+      "code": "W.06",
+      "title": "Summarize the major events of the French Revolution (e",
+      "standard": "Summarize the major events of the French Revolution (e.g., storming of the Bastille, execution of Louis XVI, reign of terror), and trace the evolution of France’s government from constitutional monarchy to democratic despotism to the Napoleonic Empire. (C, E, G, H, P)",
+      "ican": [
+        "Describe the role of each person in the Revolution:",
+        "Louis XVI",
+        "Marie Antoinette",
+        "Maximilien de Robespierre",
+        "Summarize and explain the connections between the major events of the French Revolution, including:",
+        "the Tennis Court Oath",
+        "the creation of the National Assembly",
+        "execution of Louis XIV",
+        "storming of the Bastille",
+        "Describe the Reign of Terror including:",
+        "Committee of Public Safety and Maximilien de Robespierre",
+        "National Convention",
+        "The Directory",
+        "Trace the evolution of France’s government from a constitutional monarchy to democratic despotism to the Napoleonic Empire and give reasons for this progression."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 2,
+      "unit_title": "The French Revolution",
+      "quarter": "Q1",
+      "era": "1789-1815"
+    },
+    {
+      "code": "W.07",
+      "title": "Analyze the geographic",
+      "standard": "Analyze the geographic, political, and social factors that contributed to the rise and fall of Napoleon Bonaparte’s empire. (C, G, H, P)",
+      "ican": [
+        "Analyze how geographic, political, and social factors created challenges within Napoleon’s empire and led to his fall, including the Continental System."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 2,
+      "unit_title": "The French Revolution",
+      "quarter": "Q1",
+      "era": "1789-1815"
+    },
+    {
+      "code": "W.08b",
+      "title": "Compare the American Revolution with the French Revolution",
+      "standard": "Compare the American Revolution with the French Revolution. (C, G, H, P)",
+      "ican": [
+        "Compare the outcomes of the American Revolution with the French Revolution.",
+        "Honors: Compare the influential documents from both the American and French Revolutions."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 2,
+      "unit_title": "The French Revolution",
+      "quarter": "Q1",
+      "era": "1789-1815"
+    },
+    {
+      "code": "W.09",
+      "title": "Explain the effects of the French Revolution on Europe and the world",
+      "standard": "Explain the effects of the French Revolution on Europe and the world, including the influence of: the Napoleonic Code, Concert of Europe, and Haitian Revolution. (C, G, H, P)",
+      "ican": [
+        "Explain the effects of the Napoleonic Code.",
+        "Identify the political, economic, and social effects of the French Revolution on Europe.",
+        "Identify the cause and purpose of the Concert of Europe.",
+        "Compare the map of Europe before and after the Congress of Vienna in 1815.",
+        "Explain the effects of the French Revolution on Latin American Revolutions, specifically other revolutions throughout the world, including the Haitian Revolution, and the Mexican Revolution."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 2,
+      "unit_title": "The French Revolution",
+      "quarter": "Q1",
+      "era": "1789-1815"
+    },
+    {
+      "code": "W.10",
+      "title": "Explain how the Agricultural Revolution",
+      "standard": "Explain how the Agricultural Revolution, mechanization, and the “enclosure movement” led to rapid population growth, rural to urban migration, and the growth of major cities in Europe and North America. \n(C, E, G, H, P)",
+      "ican": [
+        "Describe the Second Agricultural Revolution, including mechanization and the “enclosure movement.”",
+        "Explain how the Agricultural Revolution led to:",
+        "rapid population growth",
+        "rural to urban migration",
+        "the growth of major cities in Europe and North America."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "era": "1750s-1900"
+    },
+    {
+      "code": "W.11",
+      "title": "Explain the geographic and economic reasons why the Industrial Revolution began in England",
+      "standard": "Explain the geographic and economic reasons why the Industrial Revolution began in England, including: natural resources, entrepreneurship, labor, and access to capital. (E, G, H)",
+      "ican": [
+        "Explain the geographic and economic reasons why the Industrial Revolution began in England, including:",
+        "natural resources",
+        "entrepreneurship",
+        "labor",
+        "access to capital"
+      ],
+      "dimensions": [
+        "E",
+        "G",
+        "H"
+      ],
+      "dimension_labels": [
+        "economics",
+        "geography",
+        "history"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "era": "1750s-1900"
+    },
+    {
+      "code": "W.12",
+      "title": "Analyze how geographic and cultural features were an advantage or disadvantage to the diff",
+      "standard": "Analyze how geographic and cultural features were an advantage or disadvantage to the diffusion of the Industrial Revolution. (C, G, H)",
+      "ican": [
+        "Analyze how geography differences aided or inhibited the diffusion of the Industrial Revolution.",
+        "Proximity to origin points of the Industrial Revolution",
+        "Availability of fuels and other raw materials",
+        "Analyze how cultural differences aided or inhibited the diffusion of the Industrial Revolution.",
+        "Entrepreneurship",
+        "Adherence to traditional methods of production"
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "era": "1750s-1900"
+    },
+    {
+      "code": "W.13",
+      "title": "Describe the geographic scale",
+      "standard": "Describe the geographic scale, trade routes, and conditions of the forced migration of Africans to the Western Hemisphere, including connections between slave labor and the growth of industrial economies. (C, E, G, H, P)",
+      "ican": [
+        "Describe the geographic scale and trade routes of the forced migration of Africans to the Western Hemisphere.",
+        "Describe the connections between slave labor and the growth of industrial economies.especially through the textile industry.",
+        "Describe the cultural impact in both Africa and the Americas."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "era": "1750s-1900"
+    },
+    {
+      "code": "W.14",
+      "title": "Explain how scientific and technological innovations (e",
+      "standard": "Explain how scientific and technological innovations (e.g., the steam engine, new textile technology, steel processing, medical advances, electricity, and new methods of transportation) led to massive social, economic, cultural, and demographic changes. (C, E, G, H, P)",
+      "ican": [
+        "Name and describe the major science and technological innovations, including:",
+        "steam engine",
+        "steel processing",
+        "electricity",
+        "new textile machines",
+        "medical advances (e.g., vaccines, microorganisms)",
+        "new methods of transportation",
+        "Explain how the scientific and technological innovations led to massive social, economic, cultural, and demographic changes."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "era": "1750s-1900"
+    },
+    {
+      "code": "W.15",
+      "title": "Evaluate the industrialization of Europe in terms of",
+      "standard": "Evaluate the industrialization of Europe in terms of: \nSocial benefits (e.g., increases in productivity and life expectancy) \nSocial costs (e.g., harsh working and living conditions, pollution, child labor, and income inequality) \nAttempts to address these costs (e.g., political reform, urban planning, philanthropy, labor unionism, education reform, and public health and sanitation) \n(C, E, G, H, P)",
+      "ican": [
+        "Evaluate the social benefits of industrialization, including:",
+        "increased productivity",
+        "improved life expectancy",
+        "Evaluate the social costs of industrialization, including:",
+        "harsh working and living conditions",
+        "pollution",
+        "child labor",
+        "income inequality",
+        "Evaluate the attempts to address the costs of the Industrial Revolution, including:",
+        "political reforms",
+        "labor unions",
+        "education reforms",
+        "urban planning",
+        "philanthropy",
+        "Public health and sanitation"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "era": "1750s-1900"
+    },
+    {
+      "code": "W.16",
+      "title": "Compare and contrast the rise of the following economic theories as a result of industrial",
+      "standard": "Compare and contrast the rise of the following economic theories as a result of industrialization: capitalism, communism, and socialism. \n(C, E, H, P)",
+      "ican": [
+        "Compare and contrast the rise of the following economic theories because of industrialization: capitalism, communism, and socialism including:",
+        "basic definitions",
+        "proponents (Adam Smith and Karl Marx)",
+        "role of the individuals/community",
+        "distribution of Wealth",
+        "role of the Government"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "era": "1750s-1900"
+    },
+    {
+      "code": "W.17",
+      "title": "Define nationalism",
+      "standard": "Define nationalism, and explain how nationalism, cultural geography, and physical geography contributed to the unification of nations, such as Germany and Italy. (C, G, H, P)",
+      "ican": [
+        "Define nationalism.",
+        "Identify the role of each nationalist leader, including:",
+        "Otto von Bismarck",
+        "Giuseppe Mazzini",
+        "Camillo di Cavour",
+        "Giuseppe Garibaldi",
+        "Explain the growth of nationalism across Europe during the early 19th century.",
+        "Explain how nationalism, cultural geography, and physical geography contributed to the unification of Germany and Italy."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 4,
+      "unit_title": "Rising Nationalism",
+      "quarter": "Q1",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.18",
+      "title": "Describe the rise of anti-Semitism in Europe during this time period",
+      "standard": "Describe the rise of anti-Semitism in Europe during this time period. (C, G, H, P)",
+      "ican": [
+        "Describe the rise of anti-Semitism in Europe during this era including the Dreyfus Affair, Zionism, influence of heads of state.",
+        "Locate the Jewish Diaspora in this time period on a world map."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 4,
+      "unit_title": "Rising Nationalism",
+      "quarter": "Q1",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.19",
+      "title": "Define imperialism",
+      "standard": "Define imperialism, and analyze reasons for 19th century imperialism, including: (C, E, G, H, P)\ncompetition between empires \ncultural justifications\nthe search for natural resources and new markets in response to rapid industrialization",
+      "ican": [
+        "Define imperialism.",
+        "Analyze the main reasons for 19th century imperialism, including:",
+        "competition between empires for industrial resources",
+        "cultural justifications (e.g. Social Darwinism and The White Man’s Burden)",
+        "the search for natural resources and new markets in response to rapid industrialization"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 5,
+      "unit_title": "Imperialism in Africa",
+      "quarter": "Q2",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.20",
+      "title": "Describe the natural resources and geographic features of Africa",
+      "standard": "Describe the natural resources and geographic features of Africa, their role in attracting European economic interests, and their impact on global trade. (C, E, G, H, P)",
+      "ican": [
+        "Identify how natural resources and geographic features of Africa differ across the continent (e.g. oil, gold, iron, rubber, ivory, diamonds).",
+        "Explain the role of resources and geographic features in attracting European economic interests & the impact on global trade."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 5,
+      "unit_title": "Imperialism in Africa",
+      "quarter": "Q2",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.21",
+      "title": "Analyze the outcomes of the Berlin Conference and the impact of superimposed boundaries on",
+      "standard": "Analyze the outcomes of the Berlin Conference and the impact of superimposed boundaries on African Indigenous populations and compare the geographic progression of imperialistic claims on the African continent by European empires. (C, E, G, H, P)",
+      "ican": [
+        "Analyze the outcomes and impact of the Berlin Conference, including:",
+        "colonization of different regions",
+        "differences in how European leaders approached colonies",
+        "effects of power structures",
+        "Explain the social and political impact of superimposed boundaries on Africa’s indigenous populations.",
+        "Compare the geographic progression of imperialistic claims on the African continent by European empires."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 5,
+      "unit_title": "Imperialism in Africa",
+      "quarter": "Q2",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.22",
+      "title": "Describe successful (e",
+      "standard": "Describe successful (e.g., Ethiopia) and unsuccessful (e.g., Zulu Wars and Ashanti Wars) examples of African resistance to European imperialism. (C, G, H, P)",
+      "ican": [
+        "Describe successful examples of African resistance to European imperialism, including Ethiopian resistance.",
+        "Describe unsuccessful attempts to resist European imperialism, including the Zulu Wars and Ashanti Wars."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 5,
+      "unit_title": "Imperialism in Africa",
+      "quarter": "Q2",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.23",
+      "title": "Describe the importance of India to the British Empire",
+      "standard": "Describe the importance of India to the British Empire, the Suez Canal as a connection between Great Britain and India, and India’s reaction to British rule. (C, E, G, H, P)",
+      "ican": [
+        "Describe the political, cultural, and economic structures in India before European Imperialism.",
+        "Describe the importance of India to the British Empire.",
+        "Name and describe the Suez Canal as a connection between the United Kingdom and India.",
+        "Explain India’s reaction to British rule, including the Sepoy Mutiny."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.24",
+      "title": "Explain the growing influence of western powers on China from the Opium Wars through the B",
+      "standard": "Explain the growing influence of western powers on China from the Opium Wars through the Boxer Rebellion. (C, E, G, H, P)",
+      "ican": [
+        "Describe the political, cultural, and economic structures in China before European Imperialism.",
+        "Explain how the Opium Wars led to increased Western influence in China.",
+        "Explain the impact of Western influence on Chinese culture, economy, and politics.",
+        "Explain the events that led to the Boxer Rebellion and its consequences."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.25",
+      "title": "Explain cultural diffusion",
+      "standard": "Explain cultural diffusion, and describe the diffusion of cultures between Europe, Africa, and Asia as a result of European imperialism. \n(C, G, H, P)",
+      "ican": [
+        "Define cultural diffusion and give examples.",
+        "Explain the diffusion of cultures between Europe, Africa, and Asia because of European imperialism",
+        "spread of languages",
+        "missionaries",
+        "foods",
+        "social divisions"
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.26",
+      "title": "Analyze Japan’s abandonment of isolationism",
+      "standard": "Analyze Japan’s abandonment of isolationism, its embrace of technological and political changes, and its consequent rise as an imperial power in the late 19th century. (C, E, G, H, P)",
+      "ican": [
+        "Describe the political, cultural, and economic structures in Japan before European Imperialism.",
+        "Cite reasons for Japan’s abandonment of isolationism and its embrace of technological and political changes.",
+        "Analyze how those changes led to Japan’s resulting rise as an imperial power in the late 19th century."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.27",
+      "title": "Describe the natural resources and geographic features of Central and South America",
+      "standard": "Describe the natural resources and geographic features of Central and South America, their role in attracting American and European economic interests, and their impact on global trade. (C, E, G, H, P)",
+      "ican": [
+        "Describe the natural resources and geographic features of Central and South America, such as:",
+        "climates for plantation crops (i.e., bananas, coffee, sugar)",
+        "Isthmus of Panama as a location for a canal",
+        "Explain the role of natural resources in attracting American and European economic interests, and their impact on global trade."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.28",
+      "title": "Compare and contrast the impact of economic imperialism on Central and South America with ",
+      "standard": "Compare and contrast the impact of economic imperialism on Central and South America with the impact of imperialism on other parts of the world. (C, E, G, H, P)",
+      "ican": [
+        "Compare the impact of economic imperialism on Central and South America with the impact of imperialism on other parts of the world (e.g., Africa and Asia), such as:",
+        "exploitation of resources",
+        "political conflict",
+        "social unrest"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "era": "1850-1914"
+    },
+    {
+      "code": "W.29",
+      "title": "Explain how tensions between nations and states contributed to regional conflicts of the e",
+      "standard": "Explain how tensions between nations and states contributed to regional conflicts of the era. (C, E, G, H, P)",
+      "ican": [
+        "Explain the difference between a nation and a state.",
+        "Connect the rise of nationalism and Concert of Europe to the tensions between nations and states that contributed to regional conflicts of the era."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "era": "1910s-1920s"
+    },
+    {
+      "code": "W.30",
+      "title": "Explain how the rise of militarism",
+      "standard": "Explain how the rise of militarism, alliances, imperial rivalries, and growing nationalism led to the outbreak of World War I.  (C, E, G, H, P)",
+      "ican": [
+        "Identify the motivations for militarism, alliances, imperial rivalries, and growing nationalism (M.A.I.N).",
+        "Explain how each contributed to the outbreak of World War I."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "era": "1910s-1920s"
+    },
+    {
+      "code": "W.31",
+      "title": "Describe how trench warfare",
+      "standard": "Describe how trench warfare, the resulting stalemate, war of attrition, and advances in weaponry (e.g., chemical weapons, machine guns, submarines, tanks) affected the course and outcome of World War I. (C, E, G, H, P)",
+      "ican": [
+        "Describe trench warfare, the resulting stalemate, and the advances in weaponry, including the introduction of:",
+        "chemical weapons",
+        "submarines",
+        "machine guns",
+        "tank",
+        "Explain how trench warfare and advances in weaponry led to a stalemate and war of attrition, affecting the course and outcome of World War I."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "era": "1910s-1920s"
+    },
+    {
+      "code": "W.32",
+      "title": "Analyze the importance of geographic factors in military decision-making and determine the",
+      "standard": "Analyze the importance of geographic factors in military decision-making and determine the principal theaters and significance of major battles in World War I (e.g., Battles of the Marne, Verdun, the Somme, etc.). (G, H, P)",
+      "ican": [
+        "Analyze the importance of geographic factors in military decision-making on both the Eastern and Western fronts.",
+        "Determine the principal theaters of battle and describe the significance of major battles in World War I, such as:",
+        "First and Second Battles of the Marne and",
+        "Battle of the Somme",
+        "Battle of Verdun",
+        "Battle of Tannenberg"
+      ],
+      "dimensions": [
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "era": "1910s-1920s"
+    },
+    {
+      "code": "W.33",
+      "title": "Explain how the entrance of the United States and the exit of Russia affected the course a",
+      "standard": "Explain how the entrance of the United States and the exit of Russia affected the course and outcome of World War I. (C, G, H, P)",
+      "ican": [
+        "Explain the causes of the United States joining World War I, including:",
+        "unrestricted submarine warfare, Sussex Pledge, sinking of the Lusitania",
+        "propaganda",
+        "Zimmerman Telegram",
+        "Identify the Russian Revolution as the reason Russia exited World War I.",
+        "Explain how the course of the war shifted with the entrance of the United States and the exit of Russia."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "era": "1910s-1920s"
+    },
+    {
+      "code": "W.34",
+      "title": "Define total war",
+      "standard": "Define total war, and describe its effect on European civilian populations, including: (C, E, G, H, P)\nfood shortages  \nindustrial production of war materials  \nnaval/submarine blockades  \nwomen as war workers",
+      "ican": [
+        "Define total war and give examples.",
+        "Describe the effect of total war on European civilian populations, including:",
+        "food shortages",
+        "women as war workers",
+        "naval/submarine blockades",
+        "industrial production of war materials."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "era": "1910s-1920s"
+    },
+    {
+      "code": "W.35",
+      "title": "Describe the effects of World War I",
+      "standard": "Describe the effects of World War I, including the significance of:\nArmenian Genocide\neconomic losses\nloss of human life\nspread of disease\ncollapse of major empires\nenvironmental changes\nmovement of populations\n(C, E, G, H, P)",
+      "ican": [
+        "Describe the effects of World War I, including:",
+        "political (e.g., collapse of major empires)",
+        "social (e.g., spread of disease)",
+        "economic (e.g., debt, loss of resources)",
+        "demographic (e.g., loss of human life, movement of populations)",
+        "environmental changes (e.g., trenches, destruction of land)"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "era": "1910s-1920s"
+    },
+    {
+      "code": "W.36",
+      "title": "Compare the goals of leading nations (i",
+      "standard": "Compare the goals of leading nations (i.e., U.S. France, Great Britain, Italy, and Japan) at the Paris Peace Conference with the outcomes of the Treaty of Versailles and its impact on Germany. (C, E, G, H, P)",
+      "ican": [
+        "Compare the goals of leading nations at the Paris Peace Conference with the outcomes of the Treaty of Versailles, including the goals of:",
+        "the United States",
+        "France",
+        "Great Britain",
+        "Italy",
+        "Japan",
+        "Describe the impact of the Treaty of Versailles on Germany."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "era": "1910s-1920s"
+    },
+    {
+      "code": "W.37",
+      "title": "Analyze the shifts in geopolitical boundaries post-World War I resulting from the Treaty o",
+      "standard": "Analyze the shifts in geopolitical boundaries post-World War I resulting from the Treaty of Versailles and the League of Nations mandate system. (E, G, H, P)",
+      "ican": [
+        "Analyze the shifts in geopolitical boundaries after World War I because of the Treaty of Versailles and the League of Nations mandate system, such as:",
+        "collapse of empires (e.g., Austro-Hungarian, Ottoman)",
+        "loss of territory (e.g., Germany, Russia)",
+        "creation of new states (e.g., Poland)",
+        "creation of mandates (e.g., Palestine, Transjordan)"
+      ],
+      "dimensions": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "era": "1910s-1920s"
+    },
+    {
+      "code": "W.38",
+      "title": "Determine the causes and consequences of the Bolshevik Revolution and Russian Civil War",
+      "standard": "Determine the causes and consequences of the Bolshevik Revolution and Russian Civil War. (C, E, G, H, P)",
+      "ican": [
+        "Describe the economic, political and social causes of the Bolshevik Revolution and Russian Civil War, including how World War I exacerbated these.",
+        "Explain the consequences and lasting implications of the Bolshevik Revolution and Russian Civil War including:",
+        "the implementation of Leninist communism",
+        "massive loss of life over the decades"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "era": "1910s-1920s"
+    },
+    {
+      "code": "W.39",
+      "title": "Analyze the cultural",
+      "standard": "Analyze the cultural, economic, and intellectual trends of the 1920s. (C, E, H, T)",
+      "ican": [
+        "Describe and analyze the cultural, economic, and intellectual trends of the 1920s including:",
+        "Consumerism",
+        "The Lost Generation",
+        "Challenging traditional values",
+        "Flappers",
+        "Surrealist art"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "H",
+        "T"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "history",
+        "Tennessee"
+      ],
+      "tn_connection": true,
+      "legally_required": false,
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "era": "1920s-1930s"
+    },
+    {
+      "code": "W.40",
+      "title": "Describe the collapse of international economies in 1929 that led to the Great Depression",
+      "standard": "Describe the collapse of international economies in 1929 that led to the Great Depression, including the significance of: \nOverproduction\nUnemployment\nInflation\nRestrictive trade policies\nPost-war economic relationships between the U.S. and Europe\n(E, G, H, P, T)",
+      "ican": [
+        "Describe the causes of the Great Depression, including:",
+        "overproduction",
+        "unemployment",
+        "inflation",
+        "Describe the impact of restrictive trade policies.",
+        "Describe the post-war economic relationships between the U.S. and Europe, including:",
+        "collapse of global trade",
+        "shifts in amounts exported and imported"
+      ],
+      "dimensions": [
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "dimension_labels": [
+        "economics",
+        "geography",
+        "history",
+        "politics/government",
+        "Tennessee"
+      ],
+      "tn_connection": true,
+      "legally_required": false,
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "era": "1920s-1930s"
+    },
+    {
+      "code": "W.41",
+      "title": "Explain how economic instability",
+      "standard": "Explain how economic instability, nationalism, and political disillusionment in Germany and Japan led to the rise of totalitarian regimes. (C, E, G, H, P)",
+      "ican": [
+        "Explain how economic instability, nationalism, and political disillusionment in Germany led to the rise of a totalitarian regime, including:",
+        "Failure of the Weimar Republic",
+        "Hyperinflation",
+        "Resentment toward the Treaty of Versailles",
+        "Explain how economic instability, military nationalism, and political disillusionment in Japan led to the rise of a totalitarian regime."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "era": "1920s-1930s"
+    },
+    {
+      "code": "W.42",
+      "title": "Compare and contrast the rise to power",
+      "standard": "Compare and contrast the rise to power, goals, and characteristics of Adolf Hitler, Benito Mussolini, and Joseph Stalin’s totalitarian regimes. \n(C, E, G, H, P)",
+      "ican": [
+        "Define totalitarianism and how it applies to fascism and communism.",
+        "Compare the totalitarian regimes of Adolf Hitler, Benito Mussolini, Joseph Stalin, and Imperial Japan, including:",
+        "the events of their rise to power",
+        "the goals of their regime",
+        "the key characteristics"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "era": "1920s-1930s"
+    },
+    {
+      "code": "W.43",
+      "title": "Analyze the role of geographic features and natural resources in increasing tensions prior",
+      "standard": "Analyze the role of geographic features and natural resources in increasing tensions prior to and during World War II. (E, G, H, P)",
+      "ican": [
+        "Analyze the role of geographic features and natural resources in increasing tensions prior to and during World War II, including:",
+        "competition for resources",
+        "competition for markets",
+        "motivations for expansionism"
+      ],
+      "dimensions": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "era": "1920s-1930s"
+    },
+    {
+      "code": "W.44",
+      "title": "Compare the Italian",
+      "standard": "Compare the Italian, German, and Japanese efforts to expand their empires in the 1930s, including: the invasion of Ethiopia, German militarism, and atrocities in China. (C, E, G, H, P)",
+      "ican": [
+        "Compare the Italian, German, and Japanese efforts to expand their empires in the 1930s, including:",
+        "the invasion of Ethiopia",
+        "the atrocities in China (e.g., Nanjing Massacre)",
+        "German militarism (e.g.,"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "era": "1920s-1930s"
+    },
+    {
+      "code": "W.49",
+      "title": "Describe the persecution of Jews and other targeted groups in Europe leading up to World W",
+      "standard": "Describe the persecution of Jews and other targeted groups in Europe leading up to World War II and explain why many people were unable to leave and their efforts to resist persecution. (C, E, G, H, P)",
+      "ican": [
+        "Describe the persecution of Jews and other targeted groups in Europe leading up to World War II, including:",
+        "the Nuremberg Laws",
+        "Kristallnacht",
+        "the creation of Jewish ghettos and concentration camps",
+        "Explain why many people were unable to leave and describe their efforts to resist persecution, including:",
+        "Restrictions on migration out of Germany",
+        "Restrictions on migration into other countries"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "era": "1920s-1930s"
+    },
+    {
+      "code": "W.45",
+      "title": "Explain the role of military alliances",
+      "standard": "Explain the role of military alliances, appeasement, isolationism, and the domestic distractions in Europe and the U.S. prior to the outbreak of World War II. (C, E, G, H, P)",
+      "ican": [
+        "Explain the role of military alliances, appeasement, isolationism, alliances, and the domestic distractions (e.g. the Great Depression), in Europe and the U.S. prior to the outbreak of World War II.",
+        "Explain the sequence of events that triggered the outbreak of World War II:",
+        "Anschluss",
+        "Munich Conference",
+        "German expansion"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "era": "1930s-1945"
+    },
+    {
+      "code": "W.46",
+      "title": "Describe how geography and technology (e",
+      "standard": "Describe how geography and technology (e.g., airplanes, advanced medicine, propaganda, radar) influenced wartime strategies, including blitzkrieg, “island hopping,” kamikaze, and strategic bombing. (E, G, H, P)",
+      "ican": [
+        "Describe how geography and technology (e.g., airplanes, advanced medicine, propaganda, radar) influenced wartime strategies, including:",
+        "blitzkrieg",
+        "kamikaze",
+        "“island hopping”",
+        "strategic bombing"
+      ],
+      "dimensions": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "era": "1930s-1945"
+    },
+    {
+      "code": "W.47",
+      "title": "Describe the geography and outcomes of major battles and turning points of World War II in",
+      "standard": "Describe the geography and outcomes of major battles and turning points of World War II in both the European and Pacific theaters, including: \nBattle of Britain\nBattle of Stalingrad\nBattle of Normandy\nBattle of the Bulge\nBattle of Midway\n(G, H, P)",
+      "ican": [
+        "Describe the geography and outcomes of major battles and turning points of World War II in the European theater including:",
+        "Battle of Britain",
+        "Battle of Stalingrad",
+        "Battle of Normandy",
+        "Battle of the Bulge",
+        "Describe the geography and outcomes of major battles and turning points of World War II in the Pacific theater including the attack on Pearl Harbor and the Battle of Midway."
+      ],
+      "dimensions": [
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "era": "1930s-1945"
+    },
+    {
+      "code": "W.48",
+      "title": "Describe the roles of leaders during World War II",
+      "standard": "Describe the roles of leaders during World War II, including the significance of: (H, P)\nNeville Chamberlain\nWinston Churchill\nAdolf Hitler\nBenito Mussolini\nHideki Tojo\nJoseph Stalin\nFranklin D. Roosevelt\nHarry S. Truman",
+      "ican": [
+        "Identify and describe the roles of leaders during World War II.",
+        "Analyze the significant actions taken by these individuals during the war."
+      ],
+      "dimensions": [
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "era": "1930s-1945"
+    },
+    {
+      "code": "W.50",
+      "title": "Explain the state-sponsored mass murder of the Jews in Nazi-controlled lands and describe ",
+      "standard": "Explain the state-sponsored mass murder of the Jews in Nazi-controlled lands and describe the varied experiences of Holocaust survivors and victims. (C, G, H, P)",
+      "ican": [
+        "Explain the state-sponsored mass murder of the Jews and other minority groups in Nazi-controlled lands.",
+        "Describe the varied experiences of Holocaust survivors and victims."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "era": "1930s-1945"
+    },
+    {
+      "code": "W.51",
+      "title": "Explain the decisions made in the Atlantic Charter and at the Tehran",
+      "standard": "Explain the decisions made in the Atlantic Charter and at the Tehran, Yalta, and Potsdam Conferences. (G, H, P, T)",
+      "ican": [
+        "Explain the decisions made in the Atlantic Charter.",
+        "Compare the decisions made at the Tehran, Yalta, and Potsdam Conferences and assess their impact on the course and outcome of the war.",
+        "Identify the role and impact of Tennessean Cordell Hull, who served as the U.S. Secretary of State during this time."
+      ],
+      "dimensions": [
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "dimension_labels": [
+        "geography",
+        "history",
+        "politics/government",
+        "Tennessee"
+      ],
+      "tn_connection": true,
+      "legally_required": false,
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "era": "1930s-1945"
+    },
+    {
+      "code": "W.52",
+      "title": "Describe the development of atomic bombs and evaluate both the decisions to use them and t",
+      "standard": "Describe the development of atomic bombs and evaluate both the decisions to use them and the impact of their use. (C, G, H, P, T)",
+      "ican": [
+        "Describe the development of atomic bombs.",
+        "Evaluate both the decisions to use atomic bombs and the impact of their use.",
+        "Identify the role of Oak Ridge, Tennessee in the Manhattan Project."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government",
+        "Tennessee"
+      ],
+      "tn_connection": true,
+      "legally_required": false,
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "era": "1930s-1945"
+    },
+    {
+      "code": "W.53",
+      "title": "Describe the cultural",
+      "standard": "Describe the cultural, economic, geographic, and political effects of World War II, including: \ncasualties of the war (military and civilian)  \nchanges to geopolitical boundaries  \ncreation of the United Nations  \ndestruction of cultural heritage  \ndivision of Germany  \nimpact of the Nuremberg trials  \nrefugees and displaced population\n(C, E, G, H, P, T)",
+      "ican": [
+        "Describe the cultural, economic, geographic, and political effects of World War II, including:",
+        "casualties of the war (military and civilian)",
+        "changes to geopolitical boundaries",
+        "creation of the United Nations",
+        "destruction of cultural heritage",
+        "division of Germany",
+        "impact of the Nuremberg trials",
+        "refugees and displaced population"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government",
+        "Tennessee"
+      ],
+      "tn_connection": true,
+      "legally_required": false,
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "era": "1930s-1945"
+    },
+    {
+      "code": "W.54",
+      "title": "Summarize the nature of reconstruction in Europe after 1945",
+      "standard": "Summarize the nature of reconstruction in Europe after 1945, including both the economic and political purposes of the Marshall Plan. (C, E, G, H, P)",
+      "ican": [
+        "Summarize the nature of reconstruction in Europe after 1945, including both the economic and political purposes of the Marshall Plan.",
+        "Describe the effectiveness of reconstruction in Europe after 1945."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "era": "1945-1950s"
+    },
+    {
+      "code": "W.55",
+      "title": "Explain the origins and significance of the establishment of the State of Israel and descr",
+      "standard": "Explain the origins and significance of the establishment of the State of Israel and describe the reactions by surrounding Arab countries to the United Nations’ decision to establish Israel. (C, G, H, P)",
+      "ican": [
+        "Explain the origins and significance of the establishment of the State of Israel.",
+        "Describe the initial reactions by surrounding Arab countries to the United Nations’ partition resolution to set up an Arab state and the Jewish state of Israel."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "era": "1945-1950s"
+    },
+    {
+      "code": "W.56a",
+      "title": "Describe the economic and military power shift at the end of World War II",
+      "standard": "Describe the economic and military power shift at the end of World War II, such as Soviet control over Eastern Europe and the economic recovery of Germany. (C, E, G, H, P)",
+      "ican": [
+        "Describe the economic and military power shift at the end of World War II in Eastern Europe including the growing sphere of influence of the Soviet Union.",
+        "Describe the economic recoveries and military power shift in Germany following the conclusion of World War II including:",
+        "East/West Germany Divide",
+        "Democratic Transition",
+        "Globalization",
+        "Allied economic and military Aid"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "era": "1945-1950s"
+    },
+    {
+      "code": "W.56b",
+      "title": "Describe the economic and military power shift at the end of World War II",
+      "standard": "Describe the economic and military power shift at the end of World War II, such as the economic recovery of Japan. (C, E, G, H, P)",
+      "ican": [
+        "Describe the economic recoveries and military power shift in Japan following the conclusion of World War II including:",
+        "occupation of Japan",
+        "democratic Reforms in Japan",
+        "rebuilding of Industrial Economy"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "era": "1945-1950s"
+    },
+    {
+      "code": "W.57",
+      "title": "Analyze the rise of communism and Mao Zedong in China",
+      "standard": "Analyze the rise of communism and Mao Zedong in China, as well as the related political, social, and economic impacts on China. \n(C, E, G, H, P)",
+      "ican": [
+        "Analyze the rise of communism and Mao Zedong in China at the end of the Chinese Civil War.",
+        "Analyze the related political, social, and economic impacts of Mao Zedong’s rule on China including:",
+        "the Great Leap Forward plan and its subsequent failure, corruption, and massive loss of life.",
+        "The Cultural Revolution",
+        "Relationship with USSR",
+        "Participation in the Cold War"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "era": "1945-1950s"
+    },
+    {
+      "code": "W.58",
+      "title": "Describe the characteristics of the Cold War and explain reasons for the rising tensions b",
+      "standard": "Describe the characteristics of the Cold War and explain reasons for the rising tensions between the Soviet Union and former Allied powers. (C, E, G, H, P)",
+      "ican": [
+        "Describe the characteristics of the Cold War including:",
+        "tension between German occupation zones",
+        "idea of containment",
+        "differing ideologies (e.g., capitalism vs. communism)",
+        "spheres of influence",
+        "Explain reasons for the rising tensions between the Soviet Union and former Allied powers."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "era": "1945-1950s"
+    },
+    {
+      "code": "W.59",
+      "title": "Summarize the functions of the Warsaw Pact and NATO",
+      "standard": "Summarize the functions of the Warsaw Pact and NATO, including their roles in organizing postwar Europe. \n(G, H, P)",
+      "ican": [
+        "Define collective security.",
+        "Summarize the functions of the Warsaw Pact and NATO, including",
+        "serving as collective security organizations",
+        "the role in organizing postwar Europe"
+      ],
+      "dimensions": [
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "era": "1945-1950s"
+    },
+    {
+      "code": "W.60",
+      "title": "Describe methods of Soviet control in Eastern Europe and the role of Berlin as a focal poi",
+      "standard": "Describe methods of Soviet control in Eastern Europe and the role of Berlin as a focal point in escalating Cold War tensions. \n(C, E, G, H, P)",
+      "ican": [
+        "Describe methods of Soviet control in Eastern Europe.",
+        "Explain the role of Berlin as a focal point in escalating Cold War tensions (e.g. The Berlin Wall)."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "era": "1950s-1991"
+    },
+    {
+      "code": "W.61",
+      "title": "Explain the role of the nuclear arms race",
+      "standard": "Explain the role of the nuclear arms race, mutual assured destruction, and arms control agreements within the context of rising tensions between the Soviet Union and U.S. (E, G, H, P)",
+      "ican": [
+        "Define mutually assured destruction.",
+        "Explain the role of the nuclear arms race, mutually assured destruction, and arms control agreements within the context of rising tensions between the Soviet Union and U.S. (e.g. The Cuban Missile Crisis, Bay of Pigs)"
+      ],
+      "dimensions": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "era": "1950s-1991"
+    },
+    {
+      "code": "W.62",
+      "title": "Describe examples of national uprisings against the Soviet Union (e",
+      "standard": "Describe examples of national uprisings against the Soviet Union (e.g., Hungary and Czechoslovakia), and explain why they were unsuccessful. (C, G, H, P)",
+      "ican": [
+        "Describe examples of national uprisings against the Soviet Union (e.g., Hungary and Czechoslovakia).",
+        "Explain why the uprisings against the Soviet Union were unsuccessful."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "era": "1950s-1991"
+    },
+    {
+      "code": "W.63a",
+      "title": "Describe the competition in Asia between the Soviet Union and U",
+      "standard": "Describe the competition in Asia between the Soviet Union and U.S., including the war in Korea as an example of proxy war. (C, E, G, H, P)",
+      "ican": [
+        "Define proxy war.",
+        "Describe the competition in Asia between the Soviet Union and U.S., including the war in Korea and the outcome of the conflict."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "era": "1950s-1991"
+    },
+    {
+      "code": "W.63b",
+      "title": "Describe the competition in Asia between the Soviet Union and U",
+      "standard": "Describe the competition in Asia between the Soviet Union and U.S., including the war in Vietnam as an example of proxy war.  (C, E, G, H, P)",
+      "ican": [
+        "Describe the continuing competition in Asia between the Soviet Union and U.S., including the wars in Vietnam and Afghanistan as examples of proxy wars.",
+        "Explain the outcome and legacies of the proxy wars in Vietnam and Afghanistan."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "era": "1950s-1991"
+    },
+    {
+      "code": "W.64",
+      "title": "Explain reasons for the rapid decline of communist systems in the late 1980s",
+      "standard": "Explain reasons for the rapid decline of communist systems in the late 1980s, including: \neconomic inefficiency  \nunsustainable military spending  \nMikhail Gorbachev’s reforms  \nmass protests in Eastern Europe and China  \n1991 Soviet coup d’état\n(C, E, G, H, P)",
+      "ican": [
+        "Explain reasons for the rapid decline of communist systems in the late 1980s, including:",
+        "economic inefficiency",
+        "unsustainable military spending",
+        "Mikhail Gorbachev’s reforms",
+        "mass protests in Eastern Europe and China",
+        "1991 Soviet coup d’état"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "era": "1950s-1991"
+    },
+    {
+      "code": "W.65",
+      "title": "Analyze the political",
+      "standard": "Analyze the political, economic, social, and geographic consequences of the collapse of communist governments in the Soviet Union and Eastern Europe. (C, E, G, H, P)",
+      "ican": [
+        "Analyze the political, economic, social, and geographic consequences of the collapse of the communist government in the Soviet Union.",
+        "Analyze the political, economic, social, and geographic consequences of the collapse of communist governments in Eastern European countries."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "era": "1950s-1991"
+    },
+    {
+      "code": "W.66",
+      "title": "Explain the push and pull factors of migration",
+      "standard": "Explain the push and pull factors of migration. (C, E, G, H, P, T)",
+      "ican": [
+        "Define decolonization and give reasons for the wave of decolonization after World War II.",
+        "Define push factors and pull factors.",
+        "Explain the push and pull factors of migration using examples."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government",
+        "Tennessee"
+      ],
+      "tn_connection": true,
+      "legally_required": false,
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s"
+    },
+    {
+      "code": "W.67",
+      "title": "Explain the reasons for and the effects of the partition of the Indian subcontinent into I",
+      "standard": "Explain the reasons for and the effects of the partition of the Indian subcontinent into India and Pakistan in 1947. (C, E, G, H, P)",
+      "ican": [
+        "Explain the cultural and geographic reasons for dividing the Indian subcontinent into India and Pakistan in 1947.",
+        "Explain the resulting cultural and political impacts from partitioning the Indian subcontinent in 1947."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s"
+    },
+    {
+      "code": "W.68",
+      "title": "Explain the factors that led to the creation of a lasting democratic government in India a",
+      "standard": "Explain the factors that led to the creation of a lasting democratic government in India as well as the roles of political leaders (e.g., Mohandas Gandhi, Jawaharlal Nehru, Indira Gandhi). (C, G, H, P)",
+      "ican": [
+        "Explain the factors that led to the creation of a lasting democratic government in India.",
+        "Describe the roles and influence of the following political leaders on India’s democratic government:",
+        "Mohandas Gandhi",
+        "Jawaharlal Nehru",
+        "Indira Gandhi"
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s"
+    },
+    {
+      "code": "W.69",
+      "title": "Describe the development",
+      "standard": "Describe the development, goals, and outcomes of nationalist movements in Africa, including the ideas and roles of nationalist leaders (e.g., Jomo Kenyatta, Patrice Lumumba, and Gamal Abdel Nasser). (C, E, G, H, P)",
+      "ican": [
+        "Compare and contrast the development, goals, and outcomes of nationalist movements in Africa, including the ideas and roles of nationalist leaders such as:",
+        "Jomo Kenyatta in Kenya",
+        "Patrice Lumumba in the DRC",
+        "Gamal Abdel Nasser in Egypt"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s"
+    },
+    {
+      "code": "W.70",
+      "title": "Explain the fight against and dismantling of the apartheid system in South Africa",
+      "standard": "Explain the fight against and dismantling of the apartheid system in South Africa, including the roles of Nelson Mandela and the African National Congress. (C, G, H, P)",
+      "ican": [
+        "Explain the fight against and dismantling of the apartheid system in South Africa, including the roles of:",
+        "Nelson Mandela",
+        "Frederik Willem de Klerk",
+        "Afrikaners and the African National Congress."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s"
+    },
+    {
+      "code": "W.71",
+      "title": "Analyze the political",
+      "standard": "Analyze the political, economic, ethnic, and military challenges faced by newly created countries in post-imperial Africa (e.g., civil war, genocide, corruption). (C, E, G, H, P)",
+      "ican": [
+        "Analyze the political, economic, ethnic, and military challenges faced by newly created countries in post-imperial Africa, such as:",
+        "civil war",
+        "genocide",
+        "corruption"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s"
+    },
+    {
+      "code": "W.72",
+      "title": "Explain how ideological conflicts between capitalism and communism led to armed insurgenci",
+      "standard": "Explain how ideological conflicts between capitalism and communism led to armed insurgencies, revolutions, and military dictatorships in Latin American nations, including Argentina, Colombia, Cuba, and Nicaragua. (C, E, G, H, P)",
+      "ican": [
+        "Explain how ideological conflicts between capitalism and communism led to armed insurgencies, revolutions, and military dictatorships in the Latin American nations of Argentina, Colombia, Cuba, and Nicaragua.",
+        "Describe some of the atrocities committed by the Latin American military dictatorships."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s"
+    },
+    {
+      "code": "W.73",
+      "title": "Describe how competing national",
+      "standard": "Describe how competing national, ethnic, and religious interests led to conflict and the establishment of new countries in the Balkans. (C, G, H, P)",
+      "ican": [
+        "Define ethnic cleansing.",
+        "Describe how competing national, ethnic, and religious interests led to conflict in the Balkans.",
+        "Identify and describe the new countries established in the Balkans."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s"
+    },
+    {
+      "code": "W.74",
+      "title": "Compare and contrast the causes and effects of modern genocide",
+      "standard": "Compare and contrast the causes and effects of modern genocide, including in Cambodia, Rwanda, and the former Yugoslavia.  (C, G, H, P)",
+      "ican": [
+        "Define genocide.",
+        "Compare and contrast the causes and effects of modern genocides, including in:",
+        "Cambodia",
+        "the former Yugoslavia",
+        "Rwanda"
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s"
+    },
+    {
+      "code": "W.75",
+      "title": "Explain the causes and effects of German reunification on both West and East Germany",
+      "standard": "Explain the causes and effects of German reunification on both West and East Germany. (C, E, G, H, P)",
+      "ican": [
+        "Explain the cultural, economic, and political causes of German reunification.",
+        "Explain the effects of reunifications on both West and East German."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s"
+    },
+    {
+      "code": "W.76",
+      "title": "Analyze the response of Arab countries to the creation of the State of Israel and the peac",
+      "standard": "Analyze the response of Arab countries to the creation of the State of Israel and the peace processes in the Middle East, including the Camp David and Oslo Accords. (C, E, G, H, P)",
+      "ican": [
+        "Analyze the continued conflict between Arab countries and the State of Israel and give reasons for territorial disputes.",
+        "Describe the peace processes in the Middle East, including the Camp David Accords and Oslo Accords."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "era": "1940s-1980s"
+    },
+    {
+      "code": "W.77",
+      "title": "Analyze the demographic changes of countries in post-World War II regions",
+      "standard": "Analyze the demographic changes of countries in post-World War II regions, using population pyramids and census data. (C, G, H, P)",
+      "ican": [
+        "Using population pyramids and census data, analyze the demographic changes of countries in post-World War II regions, including:",
+        "changes in birth rates",
+        "changes in life expectancy",
+        "changes in the rate of population growth"
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.78",
+      "title": "Explain the challenges of rapid population growth on developing countries (e",
+      "standard": "Explain the challenges of rapid population growth on developing countries (e.g., China and India) and of population decline in developed countries (e.g., Germany, Japan, and Sweden), and give examples of policies implemented to both slow and increase population growth. (C, E, G, H, P)",
+      "ican": [
+        "Explain the challenges of rapid population growth in the developing countries of China and India.",
+        "Explain the challenges of population decline in the developed countries of Germany, Japan, and Sweden.",
+        "Give examples of policies implemented to both slow and increase population growth, using population pyramids and census data."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.79",
+      "title": "Describe the cultural",
+      "standard": "Describe the cultural, economic, geographic, and political effects of significant technological, ideological, medical, and scientific developments and breakthroughs of the era. (C, E, G, H, P)",
+      "ican": [
+        "Identify the developments and breakthroughs of the era in:",
+        "thought",
+        "science",
+        "technology",
+        "medicine",
+        "Describe the cultural, economic, geographic, and political effects of each of these developments."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.80",
+      "title": "Evaluate the impact of geospatial technologies (such as GPS and GIS) on retail",
+      "standard": "Evaluate the impact of geospatial technologies (such as GPS and GIS) on retail, military, transportation, city planning, and communication. (C, E, G, H, P)",
+      "ican": [
+        "Evaluate the impact of geospatial technologies (e.g., GPS and GIS) on:",
+        "retail",
+        "military",
+        "transportation",
+        "city planning",
+        "communication"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.81",
+      "title": "Analyze the economic",
+      "standard": "Analyze the economic, political, and social impacts of drug and human trafficking in the contemporary era. \n(C, E, G, H, P, T)",
+      "ican": [
+        "Analyze the economic, political, and social impacts of drug and human trafficking in the contemporary era.",
+        "Analyze the impacts of drug and human trafficking on Tennessee."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government",
+        "Tennessee"
+      ],
+      "tn_connection": true,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.82",
+      "title": "Analyze how technology has intensified patterns of globalization and led to the idea of sp",
+      "standard": "Analyze how technology has intensified patterns of globalization and led to the idea of space-time compression, containerization, and computer technology. (C, E, G, H)",
+      "ican": [
+        "Define space-time compression and containerization.",
+        "Explain how improvements in transportation (e.g., containerization) and computer technology led to the idea of space-time compression.",
+        "Analyze how advances in technology have intensified patterns of globalization."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.83",
+      "title": "Explain the goals and consequences of trade organizations and treaties and how they have p",
+      "standard": "Explain the goals and consequences of trade organizations and treaties and how they have played a role in the growing global economic system. (E, G, H, P)",
+      "ican": [
+        "Explain the goals and consequences of trade organizations and treaties including:",
+        "NAFTA",
+        "Creation of the EU",
+        "WTO",
+        "IMF",
+        "Free Trade Agreements",
+        "Explain how trade organizations and treaties have played a role in the growing global economic system."
+      ],
+      "dimensions": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.84",
+      "title": "Identify examples of supranational organizations and discuss the benefits and drawbacks of",
+      "standard": "Identify examples of supranational organizations and discuss the benefits and drawbacks of membership. (C, E, G, H, P)",
+      "ican": [
+        "Name examples of supranational organizations and describe their purpose, such as:",
+        "United Nations (UN)",
+        "North Atlantic Treaty Organization (NATO)",
+        "European Union (EU)",
+        "ASEAN",
+        "Discuss the benefits and drawbacks to member states of these supranational organizations."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.85",
+      "title": "Analyze the causes and effects of an increased role of South and East Asian countries in t",
+      "standard": "Analyze the causes and effects of an increased role of South and East Asian countries in the global economy. (E, G, H, P)",
+      "ican": [
+        "Analyze the reasons for the increasing role of South and East Asian countries in the global economy, including:",
+        "low cost of labor",
+        "outsourcing",
+        "Analyze the effects of the increasing role of South and East Asian countries in the global economy, including:",
+        "low-cost consumer goods",
+        "balance of trade"
+      ],
+      "dimensions": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.86",
+      "title": "Describe the international importance and rapid economic development of the oil-rich Persi",
+      "standard": "Describe the international importance and rapid economic development of the oil-rich Persian Gulf states. (C, E, G, H, P)",
+      "ican": [
+        "Describe the international importance of the oil-rich Persian Gulf states.",
+        "Describe the rapid economic development of these countries, including:",
+        "trade",
+        "growth of cities",
+        "infrastructure"
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.87",
+      "title": "Explain implications of the transition from the use of fossil fuels to alternative and ren",
+      "standard": "Explain implications of the transition from the use of fossil fuels to alternative and renewable energy sources. (E, G, H, P)",
+      "ican": [
+        "Explain the transition from fossil fuels to alternative and renewable energy sources.",
+        "Explain the short and long term implications of this transition, both positive and negative."
+      ],
+      "dimensions": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "economics",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.88",
+      "title": "Describe governing ideologies",
+      "standard": "Describe governing ideologies, conflicts among nations (e.g., Persian Gulf War), and popular religious or democratic movements in the Middle East/North Africa. (C, G, H, P)",
+      "ican": [
+        "Describe common governing ideologies in the Middle East/North Africa.",
+        "Describe causes of conflicts among nations in the region (e.g., Persian Gulf War).",
+        "Describe the rise of popular religious or democratic movements in the Middle East/North Africa."
+      ],
+      "dimensions": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "dimension_labels": [
+        "culture",
+        "geography",
+        "history",
+        "politics/government"
+      ],
+      "tn_connection": false,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    },
+    {
+      "code": "W.89",
+      "title": "Analyze the causes and consequences of terrorism and international efforts to counteract i",
+      "standard": "Analyze the causes and consequences of terrorism and international efforts to counteract it. (C, E, G, H, P, T)",
+      "ican": [
+        "Analyze the causes and consequences of terrorism.",
+        "Analyze the international efforts to counteract terrorism."
+      ],
+      "dimensions": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "dimension_labels": [
+        "culture",
+        "economics",
+        "geography",
+        "history",
+        "politics/government",
+        "Tennessee"
+      ],
+      "tn_connection": true,
+      "legally_required": false,
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "era": "1980s-Present"
+    }
+  ]
+}

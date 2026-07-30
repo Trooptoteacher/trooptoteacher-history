@@ -1,1 +1,6 @@
 .vercel
+
+# course build artifacts
+node_modules/
+*.log
+courses/**/BUILD/**/node_modules/
