@@ -20,9 +20,7 @@ and to generate as many **equated parallel tests of equal rigor** as needed.
 - `generated_tests/` — sample output (4 equated course-wide forms + equating report).
 
 ## Depth per standard
-20 items each (Q01–Q20): a base set + a DOK-3-weighted extension. Bank-wide DOK \u2248 20/35/45. Every standard has DOK-3 multiple-choice items so parallel forms carry deep objective rigor. MC answer keys debiased across A/B/C/D.
-(short-answer, CER, and a document-based or extended-response item citing a genuine public-domain
-source). Bank-wide DOK ≈ **20 / 40 / 40**. MC answer keys debiased across A/B/C/D.
+20 items each (Q01–Q20): a base set (Q01–Q10) plus a DOK-3-weighted extension (Q11–Q20). Per standard: **15 multiple-choice** (including DOK-3 MC so parallel forms carry deep objective rigor) and **5 open-response** (short-answer, CER, and document-based/extended-response items citing genuine public-domain sources). Bank-wide DOK ≈ **20 / 35 / 45**. MC answer keys debiased across A/B/C/D.
 
 ## Tools
 ```bash
