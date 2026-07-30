@@ -1,0 +1,466 @@
+{
+ "unit": {
+  "code": "Unit 7",
+  "title": "Tennessee State and Local Government",
+  "course_name": "Foundations of Constitutional Government",
+  "standards_range": "GC.28–GC.30",
+  "quarter": 2,
+  "suggested_days": "12–14",
+  "essential_question": "How does Tennessee govern itself at the state and local levels — and how do you take part?",
+  "publisher": "TroopToTeacher Technologies LLC",
+  "footer": "Foundations of Constitutional Government · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards (GC) · Supplemental under TCA § 49-6-2202(a)(3)",
+  "perspectives_title": "Whose Government? Perspectives on Power in Tennessee",
+  "perspectives_intro": "This section traces how power is arranged and shared across Tennessee government — divided among three branches, balanced across three regions, and layered from the state down to your own county and city. It is Government Hack–authored instructional synthesis grounded in this unit's sourced record — not a primary source.",
+  "perspectives": [
+   [
+    "Separation of Powers, State Level",
+    "Tennessee splits authority into three departments — legislative, executive, and judicial — the same design as the national government, applied to the state (GC.28)."
+   ],
+   [
+    "Balancing the Grand Divisions",
+    "East, Middle, and West Tennessee each carry distinct histories and interests; the state deliberately balances offices and representation across all three (GC.28)."
+   ],
+   [
+    "A Unitary State, Layered Locally",
+    "Authority flows from the state down to counties, cities, and consolidated metropolitan governments — each one created by, and answerable to, the state (GC.29)."
+   ],
+   [
+    "Representation and Civic Action",
+    "Government reaches all the way down to your own district and your own officials — and this unit asks you to identify them, contact them, and take part (GC.30)."
+   ]
+  ],
+  "tn_connection_label": "TENNESSEE CONNECTION",
+  "tn_connection": "This whole unit is the Tennessee Connection. Foundations traced government in the abstract; here it becomes concrete and local — the Capitol in Nashville, the three Grand Divisions marked by the three stars on the state flag, the ninety-five counties on the state map, and the specific legislators elected from your own district. Tennessee is not an example in this unit; Tennessee is the subject (GC.28–GC.30).",
+  "tn_connection_task": "Tennessee is the classroom for this entire unit. Choose one and record it with a source: (a) name the three Grand Divisions and explain what the flag's three stars stand for; (b) identify which local-government model runs your own county; or (c) look up and record your current governor and your two state legislators from an official Tennessee source.",
+  "course_short": "Government & Civics",
+  "cover_era": "Est. 1796 · 95 Counties · 3 Branches",
+  "cover_title_lines": [
+   "TENNESSEE",
+   "GOVERNMENT"
+  ],
+  "cover_image": "GC.30_tennessee-state-flag.png",
+  "brand": "Government Hack",
+  "frameworks": {
+   "udl_designed_in": {
+    "engagement": [
+     "7.1 choice",
+     "7.2 relevance (your county, your legislators, your courts)",
+     "7.3 play (Who Governs? / Which Court?)",
+     "7.4 neutral framing",
+     "8.1 I-can goals",
+     "8.2 scaffold+extend",
+     "8.4 belonging (government reaches your own district)",
+     "8.5 rationale feedback",
+     "9.1 belief-check",
+     "9.3 reflection",
+     "9.4 discussion norms"
+    ],
+    "representation": [
+     "1.1 print+digital",
+     "1.2 read-aloud+image",
+     "1.3 multiple perspectives",
+     "2.1 Frayer",
+     "2.2 pronunciation",
+     "2.3 EN/ES",
+     "2.4 neutral language",
+     "2.5 multimedia (map, flag, Capitol)",
+     "3.1 K-W-L/hooks",
+     "3.2 concept web/EQ",
+     "3.4 spiral to Units 1-5"
+    ],
+    "action_expression": [
+     "4.1 write/say/draw/build",
+     "4.2 alt text/AT",
+     "5.1 multiple media",
+     "5.2 organizer toolkit",
+     "5.3 graduated support",
+     "5.4 access-format items",
+     "6.1 goals",
+     "6.3 organizers (lookup organizer for GC.30)",
+     "6.4 CFU+analytics",
+     "6.5 access not tracking"
+    ]
+   },
+   "mtss": {
+    "tier1": "UDL core for all",
+    "tier2": "scaffold column + support-form items",
+    "tier3": "teacher reteach + most-supported modes",
+    "progress": "per-standard CFU + mastery analytics"
+   }
+  },
+  "belief_check": "Predict first: Which level of government — your city, your county, or the state — do you think has the biggest effect on your daily life? Write your gut answer now; you'll test it against how Tennessee actually divides and shares power.",
+  "play": {
+   "name": "Who Governs? / Which Court?",
+   "how": "4-minute game (GC.28–GC.29). Read a one-line scenario — a felony trial, a property-line dispute, a new city zoning rule, a statewide budget — and call which trial court (Circuit, Chancery, or Criminal) or which level of government (city, county, or state) handles it. Students feel how Tennessee's three branches and its layers of local government split the work."
+  },
+  "spiral": [
+   {
+    "from": "GC.28",
+    "to": "Unit 1 (Foundations — separation of powers)",
+    "link": "Tennessee's three departments mirror the federal separation of powers you met in Foundations — same design, applied at the state level."
+   },
+   {
+    "from": "GC.29",
+    "to": "Unit 1/2 (federalism)",
+    "link": "Federalism divides power between the nation and the states; this unit goes one layer deeper — how a state shares power with its counties and cities."
+   },
+   {
+    "from": "GC.30",
+    "to": "Unit 3 (GC.14, your members of Congress)",
+    "link": "In Unit 3 you identified your U.S. senators and representative; now identify who represents you in Nashville — your state senator and state representative."
+   }
+  ],
+  "discussion_norms": {
+   "name": "Local Government Forum",
+   "norms": [
+    "Name the level (city / county / state) and the branch before you argue.",
+    "Use your own county or district as a real, concrete example.",
+    "Separate 'how it works now' from 'what you would change.'",
+    "One voice at a time; make room for the quiet voice."
+   ]
+  }
+ },
+ "order": [
+  "GC.28",
+  "GC.29",
+  "GC.30"
+ ],
+ "standards": {
+  "GC.28": {
+   "title": "Tennessee's Three Branches",
+   "tn": "Identify the functions of departments and agencies of the executive, legislative, and judicial branches in the state of Tennessee.",
+   "ican": "I can identify the functions of the departments and agencies of Tennessee's executive, legislative, and judicial branches.",
+   "vocab": [
+    {
+     "term": "Grand Divisions",
+     "say": "grand dih-VIZH-unz",
+     "es": "Grandes Divisiones",
+     "def": "The three legal regions of Tennessee — East, Middle, and West — recognized in state law and marked by the three stars on the state flag; the state balances offices and representation across all three."
+    },
+    {
+     "term": "Citizen Legislature",
+     "say": "SIT-ih-zen LEJ-is-lay-cher",
+     "es": "legislatura ciudadana",
+     "def": "A part-time lawmaking body whose members keep regular jobs at home and meet for a limited number of 'legislative days'; Tennessee's General Assembly is designed this way, unlike the full-time U.S. Congress."
+    },
+    {
+     "term": "The Tennessee Plan",
+     "say": "TEN-eh-see plan",
+     "es": "el Plan de Tennessee",
+     "def": "Tennessee's method for selecting appellate judges: the governor appoints them, and they then face yes-or-no 'retention' elections rather than contested partisan races — a merit-based approach that shapes the state court system."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tennessee Constitution, Article II, Section 1",
+     "who": "Constitution of Tennessee",
+     "date": "1870",
+     "quote": "The powers of the Government shall be divided into three distinct departments: Legislative, Executive, and Judicial.",
+     "repo": "Constitution of the State of Tennessee",
+     "url": "https://law.justia.com/constitution/tennessee/article-ii/section-1/"
+    },
+    {
+     "title": "Tennessee Constitution, Article VI, Section 1",
+     "who": "Constitution of Tennessee",
+     "date": "1870",
+     "quote": "The judicial power of this State shall be vested in one Supreme Court and in such Circuit, Chancery and other inferior Courts as the Legislature shall from time to time, ordain and establish; in the Judges thereof, and in Justices of the Peace.",
+     "repo": "Constitution of the State of Tennessee",
+     "url": "https://law.justia.com/constitution/tennessee/article-vi/section-1/"
+    }
+   ],
+   "cfu": {
+    "dok": 2,
+    "stem": "In Tennessee's trial-court system, which court is a court of equity, presided over by a Chancellor?",
+    "options": {
+     "A": "Criminal Court",
+     "B": "Chancery Court",
+     "C": "Circuit Court",
+     "D": "The U.S. District Court"
+    },
+    "key": "B",
+    "why": "DOK 2: Chancery courts are Tennessee's courts of equity — handling matters such as contracts, property disputes, and injunctions — and are led by a Chancellor. Circuit courts hear general civil and criminal trials; Criminal courts handle felonies in the larger judicial districts."
+   },
+   "auth": {
+    "close": "Tennessee's government is built on the same three-branch design as the national government: the state constitution divides power into 'three distinct departments: Legislative, Executive, and Judicial.' The executive branch — led by the governor — runs the departments and agencies that carry out state law, from Education and Health to Safety and Transportation. The legislative branch is the General Assembly, a part-time 'citizen legislature' whose members hold regular jobs back home and meet for only a limited number of 'legislative days,' unlike the year-round Congress. To keep the state balanced, offices and representation are spread across Tennessee's three Grand Divisions — East, Middle, and West — the three stars on the state flag. The judicial branch is a layered court system: Circuit courts hear general civil and criminal trials, Chancery courts (led by Chancellors) decide matters of equity, and Criminal courts handle felonies in the larger districts, all beneath one Supreme Court. Tennessee's appellate judges reach the bench through the 'Tennessee Plan' — appointed, then facing yes-or-no retention elections. (Who is the current Chief Justice of the Tennessee Supreme Court? Look it up from an official source such as tncourts.gov — the five justices choose one of themselves, and it rotates.)",
+    "tdq": [
+     "What does it mean that Tennessee's General Assembly is a part-time 'citizen legislature' with limited legislative days?",
+     "How do Chancery, Circuit, and Criminal courts differ in what each one handles?",
+     "What is the 'Tennessee Plan,' and how do appellate judges reach the bench under it?"
+    ],
+    "frayer": [
+     "Grand Divisions",
+     "The Tennessee Plan"
+    ],
+    "quiz": [
+     {
+      "id": "u7-gc28-dok1-1",
+      "dok": 1,
+      "stem": "The three stars on the Tennessee state flag stand for the state's three —",
+      "opts": {
+       "A": "branches of government",
+       "B": "Grand Divisions",
+       "C": "Supreme Court justices",
+       "D": "largest cities"
+      },
+      "key": "B"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: Tennessee copied the federal three-branch design but added its own features — the Grand Divisions, a part-time citizen legislature, and the Tennessee Plan. Which of these three most shapes how the state is actually governed? Defend your claim with evidence."
+   },
+   "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+   "target": "I can identify the functions of the departments and agencies of Tennessee's executive, legislative, and judicial branches.",
+   "learning_targets": "Describe the duties of executive-branch departments and agencies; explain how the General Assembly works as a part-time citizen-legislature and how the Tennessee Constitution limits its 'legislative days'; explain the balance among the three Grand Divisions; explain the Tennessee Plan and how it shapes the state court system; distinguish among Chancery, Criminal, and Circuit courts; and identify the current Chief Justice of the Tennessee Supreme Court from an official source.",
+   "criteria": [
+    "state the key idea of the standard in your own words with an accurate Tennessee example;",
+    "use at least one primary source (a clause of the Tennessee Constitution or an official record) to support your explanation;",
+    "connect the idea to a real situation in your own county, district, or state today."
+   ],
+   "cues": [
+    "Key idea of this standard?",
+    "One Tennessee source that supports it?",
+    "One real situation it applies to where you live?",
+    "Key terms →"
+   ],
+   "lenses": "Tennessee (T)",
+   "dim_map": {
+    "T": "The entire standard is Tennessee: its Grand Divisions, citizen legislature, Tennessee Plan, and three-court trial system are features of Tennessee's own constitution and law."
+   },
+   "hook": "One building in Nashville houses lawmakers who meet only part of the year, a governor who runs dozens of agencies, and a court system with three different trial courts. How does one state divide all that power?",
+   "civic_label": "TENNESSEE'S THREE BRANCHES",
+   "ssp_focus": "SSP.01",
+   "ref": {
+    "vocab": 3,
+    "dt": "4–6",
+    "source": 7,
+    "persp": 7,
+    "progress": 8,
+    "range": "2–8"
+   },
+   "tn_connection": "This entire standard is Tennessee. The three stars on the state flag stand for the three Grand Divisions — East, Middle, and West — and Tennessee law spreads offices and representation across all three. The state's part-time citizen-legislature and its distinctive 'Tennessee Plan' for choosing appellate judges are features of Tennessee's own constitution and law (GC.28)."
+  },
+  "GC.29": {
+   "title": "Local Government in Tennessee",
+   "tn": "Explain the differences among the types of local governments in Tennessee, including county, city, and metro governments, as well as the legal, fiscal, and operational relationships between them and the state government.",
+   "ican": "I can explain the differences among county, city, and metropolitan governments in Tennessee and how they relate legally, fiscally, and operationally to the state.",
+   "vocab": [
+    {
+     "term": "Unitary Government",
+     "say": "YOO-nih-tair-ee",
+     "es": "gobierno unitario",
+     "def": "A system in which a central government — here, the state — holds the primary authority and creates the local governments beneath it, which exercise only the powers the state grants. Tennessee is a unitary state."
+    },
+    {
+     "term": "Dillon's Rule",
+     "say": "DIL-unz rool",
+     "es": "Regla de Dillon",
+     "def": "The legal principle that a local government has only the powers the state expressly gives it — the reason a Tennessee county or city cannot act beyond what state law allows."
+    },
+    {
+     "term": "Metropolitan Government",
+     "say": "met-ruh-POL-ih-tun",
+     "es": "gobierno metropolitano",
+     "def": "A consolidated government that merges a city and its county into a single unit, authorized by the Tennessee Constitution and approved by local voters — one of the state's structural models alongside county and city governments."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tennessee Constitution, Article VII, Section 1",
+     "who": "Constitution of Tennessee",
+     "date": "1978",
+     "quote": "The qualified voters of each county shall elect for terms of four years a legislative body, a county executive, a Sheriff, a Trustee, a Register, a County Clerk and an Assessor of Property.",
+     "repo": "Constitution of the State of Tennessee",
+     "url": "https://law.justia.com/constitution/tennessee/article-vii/section-1/"
+    },
+    {
+     "title": "Tennessee Constitution, Article XI, Section 9",
+     "who": "Constitution of Tennessee",
+     "date": "1953",
+     "quote": "The General Assembly may provide for the consolidation of any or all of the governmental and corporate functions now or hereafter vested in municipal corporations with the governmental and corporate functions now or hereafter vested in the counties in which such municipal corporations are located.",
+     "repo": "Constitution of the State of Tennessee",
+     "url": "https://law.justia.com/constitution/tennessee/article-xi/section-9/"
+    }
+   ],
+   "cfu": {
+    "dok": 2,
+    "stem": "Tennessee is a unitary state. What does that mean for your county and city governments?",
+    "options": {
+     "A": "They are completely independent of the state",
+     "B": "They report directly to the federal government",
+     "C": "They are created by the state and hold only the powers the state grants them",
+     "D": "They may set aside state law within their own borders"
+    },
+    "key": "C",
+    "why": "DOK 2: In a unitary system, local governments are 'creatures of the state.' Under Dillon's Rule, Tennessee's counties and cities derive their authority from the state and may exercise only the powers the state grants them."
+   },
+   "auth": {
+    "close": "Local government in Tennessee exists only because the state creates it. Tennessee is a unitary state: the state holds the primary authority and hands specific powers down to local governments, which — under 'Dillon's Rule' — may do only what state law allows. Within that system, Tennesseans are governed by several types of local government. Every part of the state lies inside one of its counties, and the voters of each county elect 'a legislative body, a county executive, a Sheriff, a Trustee, a Register, a County Clerk and an Assessor of Property.' Cities (municipalities) form to provide closer services — police, water, zoning — and use different structural models, such as a mayor-council form or a city-commission form. The state constitution also lets voters merge a city and its surrounding county into a single consolidated 'metropolitan' government. Legally, fiscally, and operationally these governments answer to the state: they are chartered under state law, may raise revenue only through taxes the state authorizes, and run programs the state funds and regulates. Look at your own county and city: which model does each use, and which services does each provide?",
+    "tdq": [
+     "What does it mean that Tennessee is a 'unitary' state, and how does Dillon's Rule limit local governments?",
+     "How do county, city, and metropolitan governments differ in structure and in the services they provide?",
+     "Name the legal, fiscal, and operational ways your local governments depend on the state."
+    ],
+    "frayer": [
+     "Unitary Government",
+     "Metropolitan Government"
+    ],
+    "quiz": [
+     {
+      "id": "u7-gc29-dok1-1",
+      "dok": 1,
+      "stem": "A government that merges a city and its county into one consolidated unit is called a —",
+      "opts": {
+       "A": "county commission",
+       "B": "unitary state",
+       "C": "metropolitan government",
+       "D": "Grand Division"
+      },
+      "key": "C"
+     }
+    ],
+    "cer": "Opinion piece (Claim + Evidence + Reasoning): How can individuals best serve their communities and take part in the political process at the local, state, and national levels? Make a claim and defend it with specific examples of civic action a person your age could actually take."
+   },
+   "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+   "target": "I can explain the differences among county, city, and metropolitan governments in Tennessee and how they relate legally, fiscally, and operationally to the state.",
+   "learning_targets": "Define unitary government and show that Tennessee is one; compare the mayoral, commission, and metropolitan structural models; apply those models to your own county and local government; and write an opinion piece on how individuals can best serve their communities and take part in the political process at the local, state, and national levels.",
+   "criteria": [
+    "state the key idea of the standard in your own words with an accurate Tennessee example;",
+    "use at least one primary source (a clause of the Tennessee Constitution or an official record) to support your explanation;",
+    "connect the idea to a real situation in your own county, district, or state today."
+   ],
+   "cues": [
+    "Key idea of this standard?",
+    "One Tennessee source that supports it?",
+    "One real situation it applies to where you live?",
+    "Key terms →"
+   ],
+   "lenses": "Tennessee (T)",
+   "dim_map": {
+    "T": "Apply the unitary model, Dillon's Rule, and the county/city/metropolitan structures to your own Tennessee county and local government — never to a single named district."
+   },
+   "hook": "You live in a county. You might also live in a city. Both collect taxes, run services, and pass rules you must follow — yet neither could exist without permission from the state. Who really governs where you live?",
+   "civic_label": "COUNTY · CITY · METRO",
+   "ssp_focus": "SSP.02",
+   "ref": {
+    "vocab": 3,
+    "dt": "4–6",
+    "source": 7,
+    "persp": 7,
+    "progress": 8,
+    "range": "2–8"
+   },
+   "tn_connection": "Tennessee's local map is its own: ninety-five counties, hundreds of cities, and a constitution that lets voters merge a city and its county into a single consolidated 'metropolitan' government — a structural model Tennessee helped pioneer. Study your own county and city to see which of these Tennessee structures governs your daily life (GC.29)."
+  },
+  "GC.30": {
+   "title": "Identify Your Current Officials",
+   "tn": "Identify the current governor of Tennessee and the representatives in the General Assembly.",
+   "ican": "I can identify the current governor of Tennessee and the state legislators who represent me, using official sources.",
+   "vocab": [
+    {
+     "term": "Governor",
+     "say": "GUV-ur-ner",
+     "es": "gobernador(a)",
+     "def": "Tennessee's chief executive, elected statewide to a four-year term, who carries out state law, proposes the state budget, and sets policy priorities. Identify the current officeholder from an official source — it changes with elections."
+    },
+    {
+     "term": "General Assembly",
+     "say": "JEN-ur-ul uh-SEM-blee",
+     "es": "Asamblea General",
+     "def": "Tennessee's state legislature, made up of a 33-member Senate and a 99-member House of Representatives, which writes and passes state law. These numbers stay the same regardless of who currently serves."
+    },
+    {
+     "term": "Constituent",
+     "say": "kun-STIH-choo-ent",
+     "es": "elector / representado",
+     "def": "A person a legislator represents. You are a constituent of exactly one state senator and one state representative, determined by the district where you live."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tennessee Constitution, Article III, Section 1",
+     "who": "Constitution of Tennessee",
+     "date": "1870",
+     "quote": "The Supreme Executive power of this State shall be vested in a Governor.",
+     "repo": "Constitution of the State of Tennessee",
+     "url": "https://law.justia.com/constitution/tennessee/article-iii/section-1/"
+    },
+    {
+     "title": "Tennessee Constitution, Article II, Section 3",
+     "who": "Constitution of Tennessee",
+     "date": "1870",
+     "quote": "The legislative authority of this state shall be vested in a General Assembly, which shall consist of a Senate and House of Representatives, both dependent on the people.",
+     "repo": "Constitution of the State of Tennessee",
+     "url": "https://law.justia.com/constitution/tennessee/article-ii/section-3/"
+    }
+   ],
+   "cfu": {
+    "dok": 1,
+    "stem": "To find out who currently represents you in the Tennessee General Assembly, the best source is —",
+    "options": {
+     "A": "the official 'Find My Legislator' tool on the Tennessee General Assembly site (capitol.tn.gov)",
+     "B": "a rumor you saw on social media",
+     "C": "a textbook printed several years ago",
+     "D": "a friend's best guess"
+    },
+    "key": "A",
+    "why": "DOK 1: Officeholders change with each election, so the accurate way to identify your current senator and representative is the official 'Find My Legislator' address-lookup tool at capitol.tn.gov — not memory, rumor, or an out-of-date book."
+   },
+   "auth": {
+    "close": "This standard is a civic-action task: identify the officials who represent you right now. Start with the executive — 'The Supreme Executive power of this State shall be vested in a Governor,' elected statewide to a four-year term. From an official source such as tn.gov, find the current governor's name and the priorities he or she has publicly stated (often in the annual State of the State address or the proposed budget). Next, the legislature: 'The legislative authority of this state shall be vested in a General Assembly, which shall consist of a Senate and House of Representatives.' Tennessee's Senate has 33 members and its House has 99. Every Tennessean lives in exactly one state Senate district and one state House district and is represented by one senator and one representative. Using your home address and the official Tennessee General Assembly 'Find My Legislator' tool at capitol.tn.gov, record your Senate district number, your House district number, and the names of the two people who currently hold those seats. Because officials change with every election, always confirm names, priorities, and districts from the official source — never from memory or from an old book.",
+    "tdq": [
+     "Which official source would you use to find the current governor and his or her stated priorities?",
+     "How many members serve in the Tennessee Senate and House, and how is each Tennessean represented in them?",
+     "What steps would you take to identify your own Senate and House districts and the legislators who hold those seats?"
+    ],
+    "frayer": [
+     "General Assembly",
+     "Constituent"
+    ],
+    "quiz": [
+     {
+      "id": "u7-gc30-dok1-1",
+      "dok": 1,
+      "stem": "The Tennessee General Assembly is made up of which two chambers?",
+      "opts": {
+       "A": "the Senate and the House of Representatives",
+       "B": "the Cabinet and the Supreme Court",
+       "C": "the House of Lords and the House of Commons",
+       "D": "the Grand Divisions and the counties"
+      },
+      "key": "A"
+     }
+    ],
+    "cer": "Claim + Evidence + Reasoning: After looking them up from an official source, explain how you could contact your state senator or representative about an issue you care about — and why identifying your specific district matters for being heard."
+   },
+   "std_source": "TN Academic Standards — United States Government & Civics (GC), verbatim",
+   "target": "I can identify the current governor of Tennessee and the state legislators who represent me, using official sources.",
+   "learning_targets": "Identify the current governor of Tennessee and the governor's stated priorities from an official source; and identify the state senator and representative who currently represent you, along with your Senate and House district numbers, using official Tennessee resources. Because officeholders change, this is a look-it-up-and-record task — confirm every name, priority, and district from an official source.",
+   "criteria": [
+    "state the key idea of the standard in your own words with an accurate Tennessee example;",
+    "use at least one primary source (a clause of the Tennessee Constitution or an official record) to support your explanation;",
+    "connect the idea to a real situation in your own county, district, or state today."
+   ],
+   "cues": [
+    "Key idea of this standard?",
+    "One Tennessee source that supports it?",
+    "One real situation it applies to where you live?",
+    "Key terms →"
+   ],
+   "lenses": "Tennessee (T)",
+   "dim_map": {
+    "T": "The most Tennessee-specific civic act there is: naming the governor and the two legislators elected from your own Tennessee district — looked up and recorded from official state sources."
+   },
+   "hook": "Right now, a governor in Nashville and two legislators — one senator, one representative — make decisions for the exact spot where you live. Do you know their names? By the end of this lesson, you will have looked them up yourself.",
+   "civic_label": "IDENTIFY YOUR OFFICIALS",
+   "ssp_focus": "SSP.06",
+   "ref": {
+    "vocab": 3,
+    "dt": "4–6",
+    "source": 7,
+    "persp": 7,
+    "progress": 8,
+    "range": "2–8"
+   },
+   "tn_connection": "There is no more Tennessee-specific civic act than naming the people who govern you: your governor in Nashville and the senator and representative elected from your own district. This standard asks you to find and record them from official Tennessee sources — a skill you will use in every election (GC.30)."
+  }
+ }
+}
