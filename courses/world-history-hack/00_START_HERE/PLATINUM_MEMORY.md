@@ -19,7 +19,7 @@ Reusable build kit (canonical source to copy from): `courses/_build_kit/{engine,
 ## Phase status
 - [x] **Phase 0** — parameters set; build kit installed (skills at `.claude/skills/`, playbooks, `_build_kit`); brand-lock verified.
 - [x] **Phase 1** — standards intake: `world_history_standards_source.json` (92 verbatim standards + I-can + dimensions + unit/quarter), `unit-map.md`, brand kit, this memory. Validated: every standard present once, codes contiguous 1–89, bidirectional unit-map match. **Standards→unit map shown to owner.**
-- [ ] **Phase 2** — primary-source sourcing (`primary_source_sourcing.json`, one PD source/standard) + pull images from Drive → `ASSETS/primary_sources/`; rights clearance (`copyright-integrity-accreditation`).
+- [x] **Phase 2** — primary-source sourcing complete: `primary_source_sourcing.json` (92/92 standards, one PD source each; 89 with search-verified repository pages, 3 flagged — W.44, W.82, W.84), `ASSETS/primary_sources/{README.md, EXPECTED_FILENAMES.txt}`, preliminary `RIGHTS_CLEARANCE_LOG.md` + `NOTICES.md`. **Pending owner action:** pull the 92 files (repository "Original file"/Download → save as the exact `EXPECTED_FILENAMES.txt` names) into the Drive "World History Hack" folder; then `sync_images.py`. Full `copyright-integrity-accreditation` audit re-runs at QC once images are on disk.
 - [ ] **Phase 3** — per-unit content JSON (`BUILD/unitN/analysis/unitN_content.json`) → historian fact-check.
 - [ ] **Phase 4** — teacher + student slide decks (tagged PDF/UA).
 - [ ] **Phase 5** — graphic organizer toolkits.
