@@ -27,10 +27,11 @@ Reusable build kit (canonical source to copy from): `courses/_build_kit/{engine,
     - [x] `BUILD/unit1/analysis/unit1_content.json` — 5 standards, full 7-activity schema, EN/ES vocab, cited sources, keys debiased (7A/6B/6C/6D), leak-clean, verbatim standards preserved.
     - [x] Engine de-leak: `build_workbook.js` parameterized (course banner/standards banner/TN investigation from `U.*`); brand-lock geometry untouched.
     - [x] **Student Workbook + Large-Print built & verified** — pgMar 1224/1152/720, every tblGrid=9792, Cornell 2448|7344, 1284 C9C2B4 ruled lines, 5 standard pages, 7-activity cycle, LP ×1.5, LEAK-CLEAN.
-    - [ ] Teacher Guide · 4 Covers · Organizer Toolkit · Assessment Book (+unit1_assessment.json) — need engine de-leak (cover/organizer/assessment/teacher_guide) then build.
-    - [ ] Teacher + Student decks (build from render_unit_html template → Chromium tagged PDF; deck builder not in kit).
-    - [ ] DBQ book (history-hack-platinum-workbook).
-    - [ ] Unit 1 question bank (20/std ×5 = 100 items) via tcap-item-writer-v2 (author-fresh; no WH TCAP seed below W.07).
+    - [x] Teacher Guide · 4 Covers · Organizer Toolkit · Assessment Book — all engines de-leaked + made data-driven (reusable for all 13 units); built + verified leak-clean.
+    - [x] Teacher + Student decks — new `BUILD/engine/build_deck.py`; rendered to tagged PDF (Chromium). Student deck 0 keys; both StructTreeRoot-tagged.
+    - [x] DBQ book — `build_dbq.py`; 3 PD documents (James I 1610 / Locke 1689 / Declaration 1776), SOAPS+HIPPO, EN/ES, teacher rubric + Schedule-F self-score.
+    - [x] Unit 1 question bank (100 items, 20/std) — 5 item-writers → normalized to flagship+superset schema → toolkit de-leaked (GC→W) → consolidate/UDL-remediation/**bank_qc PASS (0/0)**/inventory/parallel tests (4 forms). Parallel spread 0.50 (unit-level; tightens course-wide).
+    - **UNIT 1 COMPLETE** — 14 deliverable files, all brand-lock + leak-clean verified; committed + pushed. Reference build proven end-to-end; engines now reusable for Units 2–13.
 - [ ] **Engine de-leak (Phase 5–7 prerequisite)** — parameterize hardcoded Government text in build_cover/organizer_toolkit/workbook/assessment/teacher_guide from `U.*` (geometry untouched). Details in `BUILD/CONTENT_SCHEMA.md`. Verify 0 forbidden strings in rendered `word/*.xml`.
 - [ ] **Phase 4** — teacher + student slide decks (tagged PDF/UA).
 - [ ] **Phase 5** — graphic organizer toolkits.
