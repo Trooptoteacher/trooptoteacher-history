@@ -1,0 +1,3558 @@
+[
+  {
+    "id": "GC.35-Q11",
+    "standard": "GC.35",
+    "unit": 3,
+    "question_number": 11,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "In the naturalization process, what is the final step in which an applicant formally swears loyalty to the United States called?",
+    "options": {
+      "A": "The Naturalization Test",
+      "B": "The residency period",
+      "C": "The Oath of Allegiance",
+      "D": "The citizenship interview"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "naturalization",
+      "Oath of Allegiance"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.75,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "The Naturalization Test is a required step, but it comes before the oath and tests knowledge rather than a pledge of loyalty."
+      },
+      {
+        "label": "B",
+        "code": "NE",
+        "rationale": "The residency period is an early requirement, not the final loyalty pledge."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "The interview is part of the process but is an evaluation, not the formal swearing of loyalty."
+      }
+    ],
+    "key_rationale": "The Oath of Allegiance is the concluding step of naturalization, in which an applicant formally pledges loyalty to the United States.",
+    "dok_rationale": "The student recalls a single named step in the naturalization process.",
+    "blooms_rationale": "The task is direct retrieval of a term from the standard's content, with no interpretation required.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.35-Q12",
+    "standard": "GC.35",
+    "unit": 3,
+    "question_number": 12,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "The civics portion of the Naturalization Test is drawn from a study list of how many questions about American history and government?",
+    "options": {
+      "A": "10",
+      "B": "50",
+      "C": "435",
+      "D": "100"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "Naturalization Test",
+      "civics knowledge"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.0,
+    "irt_b": -1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Applicants are asked a small number of questions during the interview, but the study list itself contains far more."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Fifty is the number of U.S. states, not the number of study questions."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "435 is the number of U.S. House seats, unrelated to the test."
+      }
+    ],
+    "key_rationale": "The Naturalization Test's civics questions are drawn from a published list of 100 questions about American history and government.",
+    "dok_rationale": "The student recalls a specific fact stated in the standard's content.",
+    "blooms_rationale": "Direct retrieval of a numeric fact, requiring recognition only.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.35-Q13",
+    "standard": "GC.35",
+    "unit": 3,
+    "question_number": 13,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "A child is born in another country to two parents who are both U.S. citizens at the time of the birth. Based on the Constitution's citizenship categories, how is that child generally classified?",
+    "options": {
+      "A": "As a natural-born citizen",
+      "B": "As a naturalized citizen",
+      "C": "As a lawful permanent resident",
+      "D": "As a constituent"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "natural-born citizen",
+      "citizenship categories"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 2",
+    "irt_a": 1.32,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Naturalization applies to a foreign-born person who was NOT a citizen at birth and later completes the legal process; this child is a citizen from birth."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "A lawful permanent resident is a non-citizen with residency status, not a citizen at birth."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Constituent is a term about representation, not a citizenship category."
+      }
+    ],
+    "key_rationale": "A person who is a citizen at birth is a natural-born citizen, which in most cases includes a child born abroad to U.S.-citizen parents.",
+    "dok_rationale": "The student applies the definition of natural-born citizen to a specific new case rather than reciting it.",
+    "blooms_rationale": "Classifying an unfamiliar example under a concept is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.35-Q14",
+    "standard": "GC.35",
+    "unit": 3,
+    "question_number": 14,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Which requirement is part of becoming a naturalized citizen but is never required of a person who is a citizen at birth?",
+    "options": {
+      "A": "Being subject to U.S. law",
+      "B": "Passing the Naturalization Test",
+      "C": "Living somewhere in the United States",
+      "D": "Having at least one U.S.-citizen parent"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "naturalization",
+      "requirements"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.44,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "OG",
+        "rationale": "All people in the country are subject to U.S. law; this is not unique to naturalization."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "Living in the U.S. is common to many people and is not the distinguishing legal requirement of naturalization."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Parentage can be a path to natural-born status, not a naturalization requirement; this reverses the concepts."
+      }
+    ],
+    "key_rationale": "Passing the Naturalization Test is a step foreign-born applicants must complete, while citizens at birth are never required to take it.",
+    "dok_rationale": "The student distinguishes a requirement unique to one citizenship path, which requires understanding the two paths rather than recall.",
+    "blooms_rationale": "Explaining how naturalization differs from birthright citizenship is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.35-Q15",
+    "standard": "GC.35",
+    "unit": 3,
+    "question_number": 15,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The Fourteenth Amendment declares that all persons 'born or naturalized in the United States, and subject to the jurisdiction thereof,' are citizens. Which principle of citizenship does this establish?",
+    "options": {
+      "A": "That only the President must be a citizen",
+      "B": "That citizenship can be granted only by a state government",
+      "C": "That being born in the United States can itself confer citizenship",
+      "D": "That citizenship requires passing a civics test"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Fourteenth Amendment",
+      "birthright citizenship"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.56,
+    "irt_b": -0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "The natural-born requirement for the President is a separate rule, not what this clause establishes."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The amendment makes such persons citizens of the United States first, not a state-granted status."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The civics test applies to naturalization applicants, not to those made citizens by birth under this clause."
+      }
+    ],
+    "key_rationale": "The Fourteenth Amendment establishes birthright citizenship: being born in the United States and subject to its jurisdiction confers citizenship.",
+    "dok_rationale": "The student interprets the meaning of a constitutional clause to identify the principle it creates.",
+    "blooms_rationale": "Constructing the meaning of a source is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.35-Q16",
+    "standard": "GC.35",
+    "unit": 3,
+    "question_number": 16,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A woman was born abroad to two U.S.-citizen parents and wants to run for President. An opponent argues she is ineligible because she was not born on U.S. soil. Which analysis best applies the Constitution to her situation?",
+    "options": {
+      "A": "She is eligible, because natural-born status generally includes those who are citizens at birth, in most cases including a child born abroad to citizen parents",
+      "B": "She is ineligible, because only people physically born inside the United States can ever be natural-born citizens",
+      "C": "She is eligible, but only if she also completes the naturalization process and its test",
+      "D": "She is ineligible, because a President must have been born in the state she wishes to represent"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "natural-born citizen",
+      "presidential eligibility"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 3",
+    "irt_a": 1.52,
+    "irt_b": 1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "This reflects the common misconception that natural-born status requires U.S. soil, ignoring citizen-parent birth abroad."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "Someone who is already a citizen at birth does not naturalize; naturalization is for those who were not citizens at birth."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The President represents the nation, not a single state, so a state-birth rule does not apply."
+      }
+    ],
+    "key_rationale": "Because natural-born status covers those who are citizens at birth, including in most cases a child born abroad to U.S.-citizen parents, she can meet the constitutional requirement.",
+    "dok_rationale": "The student applies the natural-born citizen rule to resolve a novel eligibility dispute.",
+    "blooms_rationale": "Using a constitutional rule to reach a conclusion in an unfamiliar scenario is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.35-Q17",
+    "standard": "GC.35",
+    "unit": 3,
+    "question_number": 17,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A person has lived lawfully in the United States for twenty years as a permanent resident but has never naturalized. He now wishes to vote in a federal election and to run for the U.S. House of Representatives. Which conclusion is best supported by the Constitution?",
+    "options": {
+      "A": "He may vote but may not run for the House, because only officeholders must be citizens",
+      "B": "He may do both, because long residency automatically makes a person a citizen",
+      "C": "He may run for the House but not vote, because candidates face lower citizenship requirements than voters",
+      "D": "He may do neither, because both require U.S. citizenship, which he has not obtained through naturalization"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "citizenship requirements",
+      "naturalization"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.64,
+    "irt_b": 1.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PE",
+        "rationale": "Voting in federal elections also requires citizenship, so this splits the two actions incorrectly."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "This is the misconception that residency alone confers citizenship; naturalization is a required legal process."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "This reverses the requirements; candidates face higher, not lower, citizenship demands."
+      }
+    ],
+    "key_rationale": "Both voting in federal elections and serving in Congress require U.S. citizenship, which a long-term permanent resident has not gained without completing naturalization.",
+    "dok_rationale": "The student analyzes multiple rights against citizenship requirements to reach a supported conclusion.",
+    "blooms_rationale": "Determining how several requirements apply to one case is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.35-Q18",
+    "standard": "GC.35",
+    "unit": 3,
+    "question_number": 18,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "One student argues the Naturalization Test ensures new citizens share basic civic knowledge; another argues it is an unfair barrier for some applicants. Which statement best evaluates both claims?",
+    "options": {
+      "A": "Only the first claim has merit, because a shared body of knowledge is always fair to require",
+      "B": "The test can both promote shared civic understanding and create difficulty for some applicants, so its fairness depends on how it is designed and administered",
+      "C": "Only the second claim has merit, because any test of knowledge is by definition discriminatory",
+      "D": "Neither claim matters, because the Constitution forbids testing applicants for citizenship"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "Naturalization Test",
+      "civic knowledge"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.76,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "OG",
+        "rationale": "This overgeneralizes that a shared standard is automatically fair, ignoring the barrier concern."
+      },
+      {
+        "label": "C",
+        "code": "OG",
+        "rationale": "This overgeneralizes that any knowledge test is discriminatory, dismissing the shared-knowledge purpose."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The Constitution authorizes a uniform rule of naturalization; a knowledge test is not forbidden."
+      }
+    ],
+    "key_rationale": "A balanced evaluation recognizes both the civic-knowledge purpose and the potential burden, making fairness a function of the test's design and administration.",
+    "dok_rationale": "The student weighs two competing claims against criteria to reach a judgment.",
+    "blooms_rationale": "Judging competing claims using criteria is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.35-Q19",
+    "standard": "GC.35",
+    "unit": 3,
+    "question_number": 19,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A classmate says, 'Anyone who lives in the United States long enough automatically becomes a citizen.' Using what you know about natural-born and naturalized citizenship, explain why this statement is inaccurate. In your response, describe at least one way a person becomes a citizen at birth and at least two steps a foreign-born person must complete to naturalize.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "natural-born citizen",
+      "naturalization"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.88,
+    "irt_b": 0.6,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A complete response corrects the misconception by explaining that citizenship comes either from birth (natural-born) or from completing the legal naturalization process (e.g., residency, application, interview, the Naturalization Test, and the Oath of Allegiance), not automatically from time spent in the country.",
+    "dok_rationale": "The student must deconstruct a misconception and marshal evidence about two citizenship paths.",
+    "blooms_rationale": "Breaking apart a claim and supporting a correction with evidence is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning (6 points)"
+  },
+  {
+    "id": "GC.35-Q20",
+    "standard": "GC.35",
+    "unit": 3,
+    "question_number": 20,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpt below, then construct an argument about whether the power to set citizenship rules should belong to the national government or to the individual states, using the document as evidence.\n\nSource: U.S. Constitution, Article I, Section 8 (1787), U.S. National Archives.\n'The Congress shall have Power... To establish an uniform Rule of Naturalization.'",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Article I, Section 8",
+      "uniform naturalization"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.4,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "A strong response uses the word 'uniform' and the grant of power to Congress to argue that the Framers assigned naturalization to the national government to create one nationwide standard, and evaluates the consequences of a national versus state-by-state approach.",
+    "dok_rationale": "The student evaluates a policy question by drawing evidence from a primary source.",
+    "blooms_rationale": "Judging a claim using source evidence is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Argument (6 points)"
+  },
+  {
+    "id": "GC.10-Q11",
+    "standard": "GC.10",
+    "unit": 3,
+    "question_number": 11,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is the minimum age the Constitution sets for a person to serve in the U.S. House of Representatives?",
+    "options": {
+      "A": "21 years old",
+      "B": "25 years old",
+      "C": "30 years old",
+      "D": "35 years old"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "House qualifications",
+      "Article I"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.75,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Twenty-one is a common voting-age association but is not the House age requirement."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Thirty is the Senate age requirement, not the House."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Thirty-five is the age requirement to be President, not a representative."
+      }
+    ],
+    "key_rationale": "Article I sets the minimum age for a member of the House of Representatives at 25 years old.",
+    "dok_rationale": "The student recalls a specific constitutional qualification.",
+    "blooms_rationale": "Retrieval of a stated fact is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.10-Q12",
+    "standard": "GC.10",
+    "unit": 3,
+    "question_number": 12,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Before the Seventeenth Amendment took effect in 1913, who chose each state's U.S. senators?",
+    "options": {
+      "A": "The state legislatures",
+      "B": "The voters of each state",
+      "C": "The President",
+      "D": "The U.S. House of Representatives"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Seventeenth Amendment",
+      "Senate selection"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.0,
+    "irt_b": -1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Direct election by voters is what the Seventeenth Amendment created; it was not the earlier method."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The President has no role in selecting senators."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The House does not choose senators; this confuses the two chambers."
+      }
+    ],
+    "key_rationale": "Before 1913, the Constitution had state legislatures choose U.S. senators; the Seventeenth Amendment shifted this to a direct vote of the people.",
+    "dok_rationale": "The student recalls the pre-1913 method of selecting senators.",
+    "blooms_rationale": "Retrieval of a stated historical fact is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.10-Q13",
+    "standard": "GC.10",
+    "unit": 3,
+    "question_number": 13,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The 435 seats in the U.S. House of Representatives are divided among the states on the basis of what?",
+    "options": {
+      "A": "The land area of each state",
+      "B": "An equal number for every state",
+      "C": "The population of each state",
+      "D": "The wealth of each state"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "apportionment",
+      "House of Representatives"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.32,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "House seats are not based on geographic size; a large but sparsely populated state does not gain seats for area."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Equal representation regardless of size describes the Senate, not the House."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Apportionment is based on population counts, not on a state's wealth."
+      }
+    ],
+    "key_rationale": "House seats are apportioned among the states according to population, which is recounted by the census every ten years.",
+    "dok_rationale": "The student explains the basis of apportionment rather than merely naming it.",
+    "blooms_rationale": "Explaining the concept behind a rule is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.10-Q14",
+    "standard": "GC.10",
+    "unit": 3,
+    "question_number": 14,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why is the entire U.S. House of Representatives up for election every two years, while only about one-third of the Senate is up for election in the same period?",
+    "options": {
+      "A": "Because senators are appointed and representatives are elected",
+      "B": "Because the Constitution requires the Senate to skip elections in some years",
+      "C": "Because the House is larger, so it must vote more often",
+      "D": "Because House members serve two-year terms while senators serve staggered six-year terms"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "terms of office",
+      "elections"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.44,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Since 1913 senators are elected, not appointed, so this misstates the reason."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The Senate does not skip elections; its six-year terms are staggered so a portion is up each cycle."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "Chamber size is not why terms differ; the difference lies in term length and staggering."
+      }
+    ],
+    "key_rationale": "House members serve two-year terms, so all seats turn over every two years, while senators serve six-year terms staggered into thirds.",
+    "dok_rationale": "The student explains the cause of the different election cycles using term structure.",
+    "blooms_rationale": "Explaining a cause-and-effect relationship is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.10-Q15",
+    "standard": "GC.10",
+    "unit": 3,
+    "question_number": 15,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "After the Seventeenth Amendment took effect, to whom did U.S. senators become directly accountable?",
+    "options": {
+      "A": "The voters of their state",
+      "B": "Their state's governor",
+      "C": "The President of the United States",
+      "D": "The Speaker of the House"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Seventeenth Amendment",
+      "accountability"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.56,
+    "irt_b": -0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The governor does not select or hold senators accountable under the amendment."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The President has no role in selecting or removing senators."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The Speaker leads the House and does not hold senators accountable."
+      }
+    ],
+    "key_rationale": "By providing for direct election, the Seventeenth Amendment made senators directly accountable to the voters of their state rather than to state legislatures.",
+    "dok_rationale": "The student explains the accountability consequence of a constitutional change.",
+    "blooms_rationale": "Explaining the effect of a reform is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.10-Q16",
+    "standard": "GC.10",
+    "unit": 3,
+    "question_number": 16,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A state's population grows sharply, and this growth is confirmed in the latest census. Applying Article I, what is most likely to happen to that state's representation in Congress?",
+    "options": {
+      "A": "It will gain additional senators to match its larger population",
+      "B": "It will lose House seats because larger states are given fewer representatives",
+      "C": "Its number of House seats may increase, but it will still have exactly two senators",
+      "D": "Both its House seats and its Senate seats will increase in proportion to the growth"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "apportionment",
+      "representation"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 3",
+    "irt_a": 1.52,
+    "irt_b": 1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Every state has exactly two senators regardless of population, so senators do not increase."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Population growth tends to increase, not decrease, a state's House representation."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "Only House seats respond to population; Senate seats are fixed at two per state."
+      }
+    ],
+    "key_rationale": "House seats are apportioned by population, so a growing state may gain House seats, but Senate representation is fixed at two per state.",
+    "dok_rationale": "The student applies the apportionment and equal-representation rules to a new demographic scenario.",
+    "blooms_rationale": "Using constitutional rules to predict an outcome is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.10-Q17",
+    "standard": "GC.10",
+    "unit": 3,
+    "question_number": 17,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A senator and a representative each consider taking an unpopular position that may only pay off years later. Using the difference in their terms of office, which analysis best explains how term length shapes their choices?",
+    "options": {
+      "A": "The representative is more insulated, because a two-year term gives more freedom from voters",
+      "B": "Neither is insulated, because members of Congress cannot be voted out of office",
+      "C": "Both are equally insulated, because all members of Congress face the voters at the same time",
+      "D": "The senator is more insulated, because a six-year term delays facing voters compared with the representative's two-year term"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "terms of office",
+      "political accountability"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.64,
+    "irt_b": 1.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "A shorter term means facing voters sooner, so the representative is less, not more, insulated."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Members of Congress can be voted out at the next election; they are not immune."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "Members do not all face voters at the same time; terms differ in length and timing."
+      }
+    ],
+    "key_rationale": "The senator's six-year term delays the next election longer than the representative's two-year term, giving more insulation for an unpopular long-term stance.",
+    "dok_rationale": "The student analyzes how a structural difference produces different political incentives.",
+    "blooms_rationale": "Determining the relationship between term length and behavior is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.10-Q18",
+    "standard": "GC.10",
+    "unit": 3,
+    "question_number": 18,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A reformer argues the Seventeenth Amendment made the Senate more democratic, while a critic argues it weakened the states' voice in the federal government. Which statement best evaluates both views?",
+    "options": {
+      "A": "Only the reformer is correct, because direct election has no effect on state influence",
+      "B": "Both can be true: direct election increased voters' control over senators while reducing state legislatures' direct influence over the Senate",
+      "C": "Only the critic is correct, because letting voters choose senators cannot be called democratic",
+      "D": "Neither is correct, because the Seventeenth Amendment did not change how senators are chosen"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "Seventeenth Amendment",
+      "federalism"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.76,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PE",
+        "rationale": "This ignores the trade-off the amendment created for state legislatures' influence."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Direct election by voters is, by definition, a more democratic method, so this dismisses a valid point."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The amendment did change the selection method from legislatures to voters."
+      }
+    ],
+    "key_rationale": "The amendment increased direct voter control while removing state legislatures' role in choosing senators, so both the democratic gain and the loss of state influence are accurate.",
+    "dok_rationale": "The student weighs two competing interpretations of a reform against evidence.",
+    "blooms_rationale": "Judging competing claims using criteria is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.10-Q19",
+    "standard": "GC.10",
+    "unit": 3,
+    "question_number": 19,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Article I combines two ideas of representation: seats in the House are based on state population, while every state has an equal number of senators. Explain why the Framers built Congress on both principles at once, and describe one way each principle protects a different kind of interest.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "representation",
+      "bicameralism"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.88,
+    "irt_b": 0.6,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A complete response explains that population-based House seats give larger states influence proportional to their people, while equal Senate seats protect smaller states, and connects this dual design to the compromise that made the Constitution possible.",
+    "dok_rationale": "The student analyzes the reasoning behind a two-principle structure and its protective effects.",
+    "blooms_rationale": "Breaking a design into its principles and explaining their purposes is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning (6 points)"
+  },
+  {
+    "id": "GC.10-Q20",
+    "standard": "GC.10",
+    "unit": 3,
+    "question_number": 20,
+    "type": "extended_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Some argue the House of Representatives, elected every two years, best reflects the current will of the people; others argue the Senate's six-year terms allow wiser, longer-term decisions. Take a position on which chamber's design better serves the country, and defend it using specific features of each chamber established in Article I and the Seventeenth Amendment.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "bicameralism",
+      "terms of office"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.4,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A strong response takes a clear position and defends it with accurate features (House two-year terms and population-based seats; Senate six-year staggered terms and, since 1913, direct election), weighing responsiveness against stability.",
+    "dok_rationale": "The student constructs and defends a position by evaluating competing structural designs.",
+    "blooms_rationale": "Making and defending a judgment using criteria is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "ARG-8pt",
+    "rubric_name": "Argumentative Essay (8 points)"
+  },
+  {
+    "id": "GC.11-Q11",
+    "standard": "GC.11",
+    "unit": 3,
+    "question_number": 11,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is the term for the redrawing of the boundaries of legislative districts, usually done after each census?",
+    "options": {
+      "A": "Redistricting",
+      "B": "Naturalization",
+      "C": "Cloture",
+      "D": "Apportionment"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "redistricting",
+      "census"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.75,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Naturalization is a citizenship process, unrelated to district lines."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Cloture is a Senate vote to end debate, not a redrawing of districts."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "Apportionment divides seats among states; redistricting redraws lines within a state."
+      }
+    ],
+    "key_rationale": "Redistricting is the redrawing of legislative district boundaries, usually after each census, to reflect population changes.",
+    "dok_rationale": "The student recalls a defined term from the standard's content.",
+    "blooms_rationale": "Retrieval of a definition is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.11-Q12",
+    "standard": "GC.11",
+    "unit": 3,
+    "question_number": 12,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "In what year did the U.S. Supreme Court decide Baker v. Carr, the case that arose from a Tennessee voter's challenge to unequal districts?",
+    "options": {
+      "A": "1787",
+      "B": "1868",
+      "C": "1962",
+      "D": "2001"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": true,
+    "topics": [
+      "Baker v. Carr",
+      "Tennessee"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.0,
+    "irt_b": -1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "1787 is the year the Constitution was drafted, not the Baker decision."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "1868 is the year the Fourteenth Amendment was ratified, which the case relied on, but not the decision year."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "2001 is far too late; the decision came decades earlier."
+      }
+    ],
+    "key_rationale": "The Supreme Court decided Baker v. Carr in 1962, allowing federal courts to hear redistricting challenges.",
+    "dok_rationale": "The student recalls the date of a landmark case.",
+    "blooms_rationale": "Retrieval of a specific date is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.11-Q13",
+    "standard": "GC.11",
+    "unit": 3,
+    "question_number": 13,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The standard established after Baker v. Carr is often summarized as 'one person, one vote.' What does this principle require?",
+    "options": {
+      "A": "That every person must vote in every election",
+      "B": "That legislative districts should have roughly equal populations so each vote carries similar weight",
+      "C": "That each state must have only one representative in Congress",
+      "D": "That voters may cast only one ballot per lifetime"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": true,
+    "topics": [
+      "one person, one vote",
+      "equal representation"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.32,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The principle concerns equal weight of votes, not a requirement that everyone vote."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "This confuses the principle with apportionment of seats, and misstates it."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The phrase does not limit voters to a single lifetime ballot; it addresses equal district populations."
+      }
+    ],
+    "key_rationale": "'One person, one vote' requires that districts contain roughly equal populations so that no voter's ballot counts for more or less than another's.",
+    "dok_rationale": "The student explains the meaning of a legal principle rather than recalling its name.",
+    "blooms_rationale": "Constructing the meaning of a concept is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.11-Q14",
+    "standard": "GC.11",
+    "unit": 3,
+    "question_number": 14,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why might a state lose seats in the House of Representatives after a census even though its own population grew?",
+    "options": {
+      "A": "Because the total number of House seats is fixed and other states grew faster",
+      "B": "Because states are penalized for growing too slowly",
+      "C": "Because the census counts only new residents, not existing ones",
+      "D": "Because losing seats is decided by the President after each census"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "reapportionment",
+      "census"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.44,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "There is no penalty; reapportionment is relative to other states' growth, not a punishment."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "The census counts the whole population, not only new arrivals."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Reapportionment follows a fixed formula, not a presidential decision."
+      }
+    ],
+    "key_rationale": "Because the House has a fixed 435 seats, a state that grows more slowly than others can lose seats even if its own population rose.",
+    "dok_rationale": "The student explains a counterintuitive outcome of reapportionment.",
+    "blooms_rationale": "Explaining why an outcome occurs is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.11-Q15",
+    "standard": "GC.11",
+    "unit": 3,
+    "question_number": 15,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In Baker v. Carr (1962), what did the Supreme Court decide that federal courts were allowed to do?",
+    "options": {
+      "A": "Draw the district lines for every state directly",
+      "B": "Set the exact population of each congressional district",
+      "C": "Hear challenges to the way legislative districts are apportioned",
+      "D": "Order states to hold a new census every year"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": true,
+    "topics": [
+      "Baker v. Carr",
+      "justiciability"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.56,
+    "irt_b": -0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PE",
+        "rationale": "The Court did not take over line-drawing; it held that such disputes could be heard in court."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The Court did not fix district populations itself; it opened the door for courts to hear claims."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The decision did not change the ten-year census schedule."
+      }
+    ],
+    "key_rationale": "Baker v. Carr held that federal courts could hear challenges to legislative apportionment, making such claims justiciable under the Fourteenth Amendment.",
+    "dok_rationale": "The student interprets the holding of a case rather than recalling its date.",
+    "blooms_rationale": "Explaining what a ruling permits is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.11-Q16",
+    "standard": "GC.11",
+    "unit": 3,
+    "question_number": 16,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A party that controls redistricting concentrates most of the opposing party's voters into a single district while spreading its own supporters thinly across many districts. What is this strategy designed to accomplish?",
+    "options": {
+      "A": "To make every district's population exactly equal",
+      "B": "To maximize the controlling party's number of seats by limiting where opposing votes count",
+      "C": "To increase the total number of seats the state receives in Congress",
+      "D": "To guarantee that no party can win a majority of the seats"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "gerrymandering",
+      "redistricting"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 3",
+    "irt_a": 1.52,
+    "irt_b": 1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Equalizing populations is the opposite goal; gerrymandering manipulates who is grouped, not equal size for fairness."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The number of seats a state receives comes from apportionment, which redistricting cannot change."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "The strategy is designed to secure a majority for one party, not to prevent any majority."
+      }
+    ],
+    "key_rationale": "By packing opponents into one district and spreading its own voters across many, the controlling party maximizes its seats, which is gerrymandering.",
+    "dok_rationale": "The student applies the concept of gerrymandering to interpret a described strategy.",
+    "blooms_rationale": "Using a concept to explain a new scenario is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.11-Q17",
+    "standard": "GC.11",
+    "unit": 3,
+    "question_number": 17,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "In one state, a rural district of 90,000 residents and an urban district of 720,000 residents each elect exactly one representative. Using the 'one person, one vote' principle, what is the central problem with this arrangement?",
+    "options": {
+      "A": "The urban district should elect fewer representatives to stay fair",
+      "B": "There is no problem, because each district correctly elects one representative",
+      "C": "The rural district violates the Constitution by having too few people to exist",
+      "D": "Each urban resident has far less influence per representative than each rural resident, so votes are not weighted equally"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "one person, one vote",
+      "malapportionment"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.64,
+    "irt_b": 1.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The remedy is equalizing district populations, not cutting the larger district's representation below one."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "Equal numbers of representatives for very unequal populations is exactly what 'one person, one vote' forbids."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "A small district is not unconstitutional for its size; the issue is unequal populations across districts."
+      }
+    ],
+    "key_rationale": "When districts of very different populations each elect one representative, voters in the larger district have less influence per representative, violating equal vote weight.",
+    "dok_rationale": "The student analyzes a numeric scenario against a legal principle to locate the flaw.",
+    "blooms_rationale": "Determining the relationship between the data and the principle is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.11-Q18",
+    "standard": "GC.11",
+    "unit": 3,
+    "question_number": 18,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Before Baker v. Carr, some argued that redistricting was a 'political question' courts should avoid, while others argued courts must protect equal representation. Which statement best reflects how the Court resolved this tension in 1962?",
+    "options": {
+      "A": "The Court agreed that redistricting was purely political and refused to hear such cases",
+      "B": "The Court decided that states could ignore population changes indefinitely",
+      "C": "The Court ruled that only Congress, never the courts, could review district lines",
+      "D": "The Court held that apportionment claims were justiciable, so federal courts could hear them under the Fourteenth Amendment"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": true,
+    "topics": [
+      "Baker v. Carr",
+      "justiciability"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.76,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "This is the position the Court rejected; it did agree to allow such cases in court."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The ruling made it possible to challenge stale districts, not to ignore population changes."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "The Court opened the door for judicial review, not exclusive congressional control."
+      }
+    ],
+    "key_rationale": "Baker v. Carr held that apportionment challenges were justiciable, allowing federal courts to hear them under the Equal Protection Clause of the Fourteenth Amendment.",
+    "dok_rationale": "The student evaluates competing legal arguments against the actual holding.",
+    "blooms_rationale": "Judging which position prevailed using criteria is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.11-Q19",
+    "standard": "GC.11",
+    "unit": 3,
+    "question_number": 19,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Explain how gerrymandering can allow a political party to win a majority of the seats in a legislature without winning a majority of the total votes cast. In your response, describe how district lines, rather than the number of votes, can determine the outcome.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "gerrymandering",
+      "redistricting"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.88,
+    "irt_b": 0.6,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A complete response explains that by concentrating opposing voters into few districts and spreading its own across many, a party can win more districts with fewer total votes, showing that where lines are drawn can matter more than vote totals.",
+    "dok_rationale": "The student analyzes how a mechanism produces a counterintuitive electoral result.",
+    "blooms_rationale": "Breaking down how line-drawing drives outcomes is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning (6 points)"
+  },
+  {
+    "id": "GC.11-Q20",
+    "standard": "GC.11",
+    "unit": 3,
+    "question_number": 20,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpt below, then construct an argument about whether the Constitution's ten-year census duty is essential to maintaining equal representation, using the document as evidence.\n\nSource: U.S. Constitution, Article I, Section 2 (1787), U.S. National Archives.\n'The actual Enumeration shall be made... within every subsequent Term of ten Years, in such Manner as they shall by Law direct.'",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": true,
+    "topics": [
+      "census",
+      "equal representation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.4,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "A strong response uses the required ten-year enumeration to argue that a regular, updated count is what allows seats and districts to be adjusted to shifting populations, connecting the census to equal representation and to Tennessee's own experience before Baker v. Carr.",
+    "dok_rationale": "The student evaluates a claim about representation using primary-source evidence.",
+    "blooms_rationale": "Judging a claim with source evidence is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Argument (6 points)"
+  },
+  {
+    "id": "GC.12-Q11",
+    "standard": "GC.12",
+    "unit": 3,
+    "question_number": 11,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which Senate leadership position is traditionally held by the longest-serving member of the majority party?",
+    "options": {
+      "A": "Speaker of the House",
+      "B": "President pro tempore",
+      "C": "Majority whip",
+      "D": "Minority leader"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "President pro tempore",
+      "Senate leadership"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.75,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "The Speaker leads the House, not the Senate, and is not chosen by seniority."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "The whip assists leadership but is not the traditionally senior presiding officer described."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "The minority leader leads the minority party, not the senior majority presiding role."
+      }
+    ],
+    "key_rationale": "The President pro tempore is traditionally the longest-serving member of the majority party and presides over the Senate in the Vice President's absence.",
+    "dok_rationale": "The student recalls a named leadership position and its basis.",
+    "blooms_rationale": "Retrieval of a defined role is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.12-Q12",
+    "standard": "GC.12",
+    "unit": 3,
+    "question_number": 12,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "According to the line of succession, who is second in line to the presidency, after the Vice President?",
+    "options": {
+      "A": "The President pro tempore of the Senate",
+      "B": "The Secretary of State",
+      "C": "The Speaker of the House",
+      "D": "The Senate Majority Leader"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Speaker of the House",
+      "line of succession"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.0,
+    "irt_b": -1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "The President pro tempore follows the Speaker in the line of succession, not before."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "The Secretary of State comes later in the line of succession, after congressional leaders."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "The Senate Majority Leader is a powerful post but is not in the constitutional line ahead of the Speaker."
+      }
+    ],
+    "key_rationale": "The Speaker of the House is second in line to the presidency, immediately after the Vice President.",
+    "dok_rationale": "The student recalls a specific fact about succession.",
+    "blooms_rationale": "Retrieval of a stated fact is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.12-Q13",
+    "standard": "GC.12",
+    "unit": 3,
+    "question_number": 13,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "A senator is elected by the members of her party to guide the party's legislative strategy and floor schedule in the Senate. Which leadership position does she hold?",
+    "options": {
+      "A": "Majority or minority leader",
+      "B": "Speaker of the House",
+      "C": "President pro tempore",
+      "D": "Vice President"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "floor leaders",
+      "party leadership"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 2",
+    "irt_a": 1.32,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "The Speaker leads the House, not a party's floor strategy in the Senate."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "The President pro tempore presides in the VP's absence but does not primarily set party strategy."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The Vice President presides over the Senate but is not elected by a party to run its strategy."
+      }
+    ],
+    "key_rationale": "The floor leaders elected by each party to guide its strategy and schedule are the majority and minority leaders.",
+    "dok_rationale": "The student matches a described function to the correct leadership role.",
+    "blooms_rationale": "Classifying an example under a role is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.12-Q14",
+    "standard": "GC.12",
+    "unit": 3,
+    "question_number": 14,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The Constitution gives the Vice President a vote in the Senate in which situation?",
+    "options": {
+      "A": "Whenever the Vice President wishes to vote on a bill",
+      "B": "Only on votes to confirm judges",
+      "C": "Only when the Senate is otherwise not in session",
+      "D": "Only when the Senate is equally divided in a tie"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "Vice President",
+      "tie-breaking vote"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.44,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The Vice President cannot vote at will; the Constitution limits it to ties."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The tie-breaking vote applies to any equally divided vote, not only judicial confirmations."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "The tie-break happens during Senate votes, not when the Senate is out of session."
+      }
+    ],
+    "key_rationale": "Article I gives the Vice President, as President of the Senate, a vote only when the Senate is equally divided in a tie.",
+    "dok_rationale": "The student explains the specific condition governing a constitutional power.",
+    "blooms_rationale": "Explaining when a rule applies is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.12-Q15",
+    "standard": "GC.12",
+    "unit": 3,
+    "question_number": 15,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "How does the way the Speaker of the House is chosen differ from the way the President pro tempore of the Senate typically comes to hold that role?",
+    "options": {
+      "A": "Both are appointed directly by the President",
+      "B": "The Speaker is chosen by the majority party through a House vote, while the President pro tempore is traditionally the most senior member of the majority party",
+      "C": "The Speaker is chosen by seniority, while the President pro tempore is elected by the whole Senate in a public election",
+      "D": "Both are chosen by the Vice President at the start of each session"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "Speaker of the House",
+      "President pro tempore"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 2",
+    "irt_a": 1.56,
+    "irt_b": -0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Neither leader is appointed by the President; Congress selects its own leaders."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "This reverses the two: the Speaker is chosen by party vote, and the pro tempore role rests on seniority."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The Vice President does not select congressional leaders."
+      }
+    ],
+    "key_rationale": "The Speaker is chosen by the majority party through a vote of the House, while the President pro tempore is traditionally the longest-serving majority senator.",
+    "dok_rationale": "The student compares two selection methods to identify how they differ.",
+    "blooms_rationale": "Differentiating between two processes is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.12-Q16",
+    "standard": "GC.12",
+    "unit": 3,
+    "question_number": 16,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A chamber's majority leader decides the order of floor votes, and a bill with broad support is never scheduled for a vote. What does this situation best illustrate about legislative leadership?",
+    "options": {
+      "A": "That control over the agenda can determine whether a bill is ever voted on at all",
+      "B": "That a bill automatically becomes law if it has broad support",
+      "C": "That only the President can decide which bills receive a vote",
+      "D": "That leadership positions have no effect on which bills advance"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "agenda control",
+      "legislative leadership"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.52,
+    "irt_b": 1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Broad support does not make a bill law; it must still be scheduled and pass."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The President does not schedule congressional floor votes; chamber leaders do."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The scenario shows leadership strongly affecting which bills advance."
+      }
+    ],
+    "key_rationale": "By controlling scheduling, leadership can keep even a popular bill from reaching a vote, showing that agenda control is a powerful form of legislative influence.",
+    "dok_rationale": "The student analyzes a scenario to draw a conclusion about the source of leadership power.",
+    "blooms_rationale": "Determining what a situation reveals is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.12-Q17",
+    "standard": "GC.12",
+    "unit": 3,
+    "question_number": 17,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Suppose the Speaker of the House belongs to a different political party than the President. What is the most likely effect on the President's legislative agenda?",
+    "options": {
+      "A": "The Speaker must schedule all of the President's proposals for a vote",
+      "B": "The President gains the power to remove the Speaker",
+      "C": "The Speaker can slow or block the President's priorities by controlling which bills reach the House floor",
+      "D": "The President's agenda is unaffected, because the Speaker has no role in lawmaking"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Speaker of the House",
+      "divided government"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 3",
+    "irt_a": 1.64,
+    "irt_b": 1.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The Speaker is not required to schedule the President's proposals and may decline to."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "The President cannot remove the Speaker, who is chosen by the House."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The Speaker plays a central role in which bills advance, so the agenda is affected."
+      }
+    ],
+    "key_rationale": "Because the Speaker controls the House agenda, a Speaker from the opposing party can slow or block the President's priorities.",
+    "dok_rationale": "The student applies knowledge of the Speaker's powers to predict a political outcome.",
+    "blooms_rationale": "Using a role's powers to reach a conclusion in a new case is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.12-Q18",
+    "standard": "GC.12",
+    "unit": 3,
+    "question_number": 18,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Two students debate whether the Speaker of the House or the Senate Majority Leader has more power over national legislation. Which statement best evaluates the comparison?",
+    "options": {
+      "A": "The Speaker always has more power, because the House is larger than the Senate",
+      "B": "Both control their own chamber's agenda, but each one's power is limited to that chamber, so a bill still needs both chambers to advance",
+      "C": "The Senate Majority Leader always has more power, because senators serve longer terms",
+      "D": "Neither has real power, because only the President decides which laws pass"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "legislative leadership",
+      "bicameralism"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.76,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "OG",
+        "rationale": "Chamber size does not settle overall power, and it ignores the Senate's separate authority."
+      },
+      {
+        "label": "C",
+        "code": "OG",
+        "rationale": "Longer terms do not give the Majority Leader control over the House's agenda."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Congress, not the President alone, decides whether bills pass; leaders shape that process."
+      }
+    ],
+    "key_rationale": "Each leader controls only their own chamber's agenda, and because a bill must pass both chambers, neither can enact legislation alone.",
+    "dok_rationale": "The student weighs a comparison of two roles against how lawmaking actually works.",
+    "blooms_rationale": "Judging competing claims using criteria is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.12-Q19",
+    "standard": "GC.12",
+    "unit": 3,
+    "question_number": 19,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The Vice President serves as President of the Senate but casts a vote only to break a tie. Explain why this role is often described as one of the constitutionally weakest yet occasionally decisive positions in Congress. Use the Vice President's specific powers as evidence.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Vice President",
+      "President of the Senate"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.88,
+    "irt_b": 0.6,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A complete response explains that the Vice President normally presides without voting, giving little day-to-day power, but that the tie-breaking vote can determine the outcome of an evenly divided Senate, making the role occasionally decisive.",
+    "dok_rationale": "The student analyzes how one role is both limited and, in narrow circumstances, powerful.",
+    "blooms_rationale": "Breaking a role into its weak and decisive aspects is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning (6 points)"
+  },
+  {
+    "id": "GC.12-Q20",
+    "standard": "GC.12",
+    "unit": 3,
+    "question_number": 20,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpt below, then construct an argument about whether the Constitution intended congressional leaders to hold as much power over lawmaking as they do today, given how little the text says about them.\n\nSource: U.S. Constitution, Article I, Section 2 (1787), U.S. National Archives.\n'The House of Representatives shall chuse their Speaker and other Officers.'",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Speaker of the House",
+      "constitutional design"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.4,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "A strong response notes that the Constitution names the Speaker only briefly and leaves the office's powers undefined, then argues whether today's extensive agenda-setting power fits or exceeds that sparse text, using the excerpt as evidence.",
+    "dok_rationale": "The student evaluates a claim about original design using a primary source.",
+    "blooms_rationale": "Judging a claim with source evidence is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Argument (6 points)"
+  },
+  {
+    "id": "GC.13-Q11",
+    "standard": "GC.13",
+    "unit": 3,
+    "question_number": 11,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "About how many senators are usually required to invoke cloture and bring a filibuster to an end?",
+    "options": {
+      "A": "51 senators",
+      "B": "60 senators",
+      "C": "67 senators",
+      "D": "100 senators"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "cloture",
+      "filibuster"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.75,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "A simple majority of 51 is enough to pass many bills but not to end a filibuster."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Sixty-seven is roughly the two-thirds needed to override a veto, not to invoke cloture."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Cloture does not require every senator; it requires a three-fifths supermajority of about 60."
+      }
+    ],
+    "key_rationale": "Invoking cloture to end a filibuster usually requires 60 senators.",
+    "dok_rationale": "The student recalls a specific numeric threshold.",
+    "blooms_rationale": "Retrieval of a stated fact is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.13-Q12",
+    "standard": "GC.13",
+    "unit": 3,
+    "question_number": 12,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is the term for the President's power to reject a bill that has been passed by Congress?",
+    "options": {
+      "A": "Veto",
+      "B": "Cloture",
+      "C": "Filibuster",
+      "D": "Apportionment"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "veto",
+      "lawmaking"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.0,
+    "irt_b": -1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Cloture is a Senate vote to end debate, not a presidential rejection."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "A filibuster is a Senate delay tactic, not a presidential power."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Apportionment concerns dividing House seats, not rejecting bills."
+      }
+    ],
+    "key_rationale": "The veto is the President's power to reject a bill passed by Congress.",
+    "dok_rationale": "The student recalls a defined term.",
+    "blooms_rationale": "Retrieval of a definition is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.13-Q13",
+    "standard": "GC.13",
+    "unit": 3,
+    "question_number": 13,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why must a bill pass both the House and the Senate in identical form before it can be sent to the President?",
+    "options": {
+      "A": "Because the President may only read one version of a bill",
+      "B": "Because the Constitution allows only one chamber to write laws",
+      "C": "Because Congress is bicameral, and both chambers must agree on the same text",
+      "D": "Because the Senate must always vote before the House"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "bicameralism",
+      "lawmaking process"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.32,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The requirement stems from bicameral agreement, not from the President's reading."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Both chambers, not one, share the power to make laws."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "There is no fixed order requiring the Senate to act first; the point is identical passage by both."
+      }
+    ],
+    "key_rationale": "Because Congress is bicameral, both the House and Senate must pass the same text before a bill can go to the President.",
+    "dok_rationale": "The student explains the reason behind a procedural requirement.",
+    "blooms_rationale": "Explaining why a rule exists is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.13-Q14",
+    "standard": "GC.13",
+    "unit": 3,
+    "question_number": 14,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why can a determined minority of senators sometimes block a bill that a simple majority of the Senate supports?",
+    "options": {
+      "A": "Because the minority can use a filibuster, and it takes a 60-vote cloture to end the debate",
+      "B": "Because a simple majority is not allowed to vote on any bill",
+      "C": "Because the President must approve the Senate's schedule",
+      "D": "Because the House can veto Senate bills directly"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "filibuster",
+      "cloture"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.44,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "A simple majority can vote; the obstacle is ending debate, not the right to vote."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The President does not control the Senate's schedule."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The House cannot veto Senate bills; that confuses chambers and the veto power."
+      }
+    ],
+    "key_rationale": "The filibuster lets a minority extend debate, and because ending it requires a 60-vote cloture, a minority can block a bill a bare majority supports.",
+    "dok_rationale": "The student explains how a procedural tool creates minority leverage.",
+    "blooms_rationale": "Explaining a cause-and-effect relationship is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.13-Q15",
+    "standard": "GC.13",
+    "unit": 3,
+    "question_number": 15,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What is the main function of a committee in the process of a bill becoming a law?",
+    "options": {
+      "A": "To sign bills into law on behalf of the President",
+      "B": "To review, amend, and decide whether a bill advances to a floor vote",
+      "C": "To override presidential vetoes without a full vote of Congress",
+      "D": "To conduct the national census used for apportionment"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "committees",
+      "lawmaking process"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.56,
+    "irt_b": -0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Only the President signs bills into law; committees do not."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Overriding a veto requires a two-thirds vote of both chambers, not a committee action."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The census is conducted by the government's census process, not a congressional committee in lawmaking."
+      }
+    ],
+    "key_rationale": "Committees review and amend bills and decide whether they advance to the floor, which is why many bills stop there.",
+    "dok_rationale": "The student explains the role a committee plays in the process.",
+    "blooms_rationale": "Explaining a function is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.13-Q16",
+    "standard": "GC.13",
+    "unit": 3,
+    "question_number": 16,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A bill passes both chambers, but the President vetoes it. On the override attempt, the House votes 300 to 135 in favor while the Senate votes 65 to 35 in favor. What is the result?",
+    "options": {
+      "A": "The veto is overridden and the bill becomes law, because both chambers voted in favor",
+      "B": "The veto stands and the bill does not become law, because the Senate fell short of the required two-thirds",
+      "C": "The bill becomes law without the Senate, because the House reached two-thirds",
+      "D": "The bill returns to committee for a new vote in both chambers"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "veto override",
+      "two-thirds vote"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 3",
+    "irt_a": 1.52,
+    "irt_b": 1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "A simple majority in favor is not enough; both chambers must each reach two-thirds."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "A bill cannot become law over a veto on one chamber alone; both must override."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "A failed override does not send the bill back to committee; the veto simply stands."
+      }
+    ],
+    "key_rationale": "An override needs two-thirds of each chamber; the Senate's 65 votes fall short of the 67 needed, so the veto stands and the bill fails.",
+    "dok_rationale": "The student applies the two-thirds override rule to specific vote totals in both chambers.",
+    "blooms_rationale": "Using a rule with data to reach a conclusion is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.13-Q17",
+    "standard": "GC.13",
+    "unit": 3,
+    "question_number": 17,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A senator strongly opposes a bill that appears to have enough votes to pass, but she cannot defeat it outright. Which tactic could she use to try to prevent the Senate from taking a final vote?",
+    "options": {
+      "A": "Invoke cloture to force an immediate vote",
+      "B": "Cast the tie-breaking vote as Vice President",
+      "C": "Launch a filibuster by extending debate to delay or block the vote",
+      "D": "Send the bill directly to the President for a veto"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "filibuster",
+      "Senate procedure"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 3",
+    "irt_a": 1.64,
+    "irt_b": 1.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Cloture ends debate and speeds a vote; it would not prevent one."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Only the Vice President breaks ties; a senator cannot use this power."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "A single senator cannot send a bill to the President; that follows passage by both chambers."
+      }
+    ],
+    "key_rationale": "A filibuster uses extended debate to delay or block a final vote, which is the tool available to a senator who cannot defeat a bill outright.",
+    "dok_rationale": "The student applies knowledge of Senate procedure to select an appropriate tactic.",
+    "blooms_rationale": "Choosing a procedure to achieve a goal in a scenario is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.13-Q18",
+    "standard": "GC.13",
+    "unit": 3,
+    "question_number": 18,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The Framers required a bill to pass two separate chambers and then survive a possible presidential veto. Which statement best evaluates the effect of this multi-step design?",
+    "options": {
+      "A": "It guarantees that only good laws are ever passed",
+      "B": "It makes passing laws deliberately difficult, guarding against hasty action but also allowing gridlock",
+      "C": "It has no real effect, because nearly every bill introduced becomes law",
+      "D": "It gives the President the sole power to decide which bills become law"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "lawmaking process",
+      "checks and balances"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.76,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "OG",
+        "rationale": "The design slows lawmaking but cannot guarantee the quality of what passes."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "In fact very few introduced bills become law, so the multi-step design clearly matters."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Congress, not the President alone, decides most outcomes; the veto is one check, not sole control."
+      }
+    ],
+    "key_rationale": "The multi-step design intentionally makes lawmaking hard, protecting against rushed legislation while also making gridlock possible.",
+    "dok_rationale": "The student evaluates the consequences of a structural design against evidence.",
+    "blooms_rationale": "Judging the effect of a design using criteria is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.13-Q19",
+    "standard": "GC.13",
+    "unit": 3,
+    "question_number": 19,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Explain how the presidential veto and the congressional override reflect the principle of checks and balances. In your response, describe what each branch can do at this stage of lawmaking and how each limits the other.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "veto",
+      "checks and balances"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.88,
+    "irt_b": 0.6,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A complete response explains that the veto lets the President check Congress by rejecting a bill, while the two-thirds override lets Congress check the President, showing each branch limiting the other in the lawmaking process.",
+    "dok_rationale": "The student analyzes how two powers interact to embody a constitutional principle.",
+    "blooms_rationale": "Breaking down how the veto and override check each other is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning (6 points)"
+  },
+  {
+    "id": "GC.13-Q20",
+    "standard": "GC.13",
+    "unit": 3,
+    "question_number": 20,
+    "type": "extended_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Some argue that making laws hard to pass protects the country from poorly considered legislation; others argue it causes gridlock that blocks needed action. Take a position on whether the difficulty of the lawmaking process is more of a strength or a weakness, and defend it using specific steps a bill must survive.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "lawmaking process",
+      "gridlock"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.4,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A strong response takes a clear position and defends it with accurate steps (committee review, passage by both chambers, presentment, possible veto and two-thirds override), weighing protection against deliberation versus the risk of gridlock.",
+    "dok_rationale": "The student constructs and defends a judgment about a structural feature.",
+    "blooms_rationale": "Making and defending a position using criteria is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "ARG-8pt",
+    "rubric_name": "Argumentative Essay (8 points)"
+  },
+  {
+    "id": "GC.14-Q11",
+    "standard": "GC.14",
+    "unit": 3,
+    "question_number": 11,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is the term for a geographic area whose voters elect one member of the U.S. House of Representatives?",
+    "options": {
+      "A": "A congressional district",
+      "B": "A delegation",
+      "C": "A census tract",
+      "D": "A cloture zone"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "congressional district",
+      "House of Representatives"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.75,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "NE",
+        "rationale": "A delegation is the whole group of a state's members of Congress, not a single-member area."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "A census tract is a unit for counting population, not the electoral area for one representative."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "'Cloture zone' is not a real term; cloture is a Senate vote to end debate."
+      }
+    ],
+    "key_rationale": "A congressional district is the area whose voters elect a single member of the U.S. House.",
+    "dok_rationale": "The student recalls a defined term.",
+    "blooms_rationale": "Retrieval of a definition is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.14-Q12",
+    "standard": "GC.14",
+    "unit": 3,
+    "question_number": 12,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "For how many years is each U.S. Representative from Tennessee elected before facing reelection?",
+    "options": {
+      "A": "Two years",
+      "B": "Four years",
+      "C": "Six years",
+      "D": "Ten years"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "House terms",
+      "Tennessee delegation"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.0,
+    "irt_b": -1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Four years is the presidential term, not a House term."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Six years is a U.S. senator's term, not a representative's."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "Ten years is the interval between censuses, not a term of office."
+      }
+    ],
+    "key_rationale": "Members of the U.S. House, including Tennessee's, serve two-year terms.",
+    "dok_rationale": "The student recalls a specific term length.",
+    "blooms_rationale": "Retrieval of a stated fact is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.14-Q13",
+    "standard": "GC.14",
+    "unit": 3,
+    "question_number": 13,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why does Tennessee send exactly two U.S. senators to Congress but multiple U.S. representatives?",
+    "options": {
+      "A": "Because the Constitution lets each state choose how many senators to send",
+      "B": "Because the Constitution gives every state two senators but apportions House seats by population",
+      "C": "Because Tennessee once had more senators and gradually lost them",
+      "D": "Because senators represent counties while representatives represent the whole state"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": true,
+    "topics": [
+      "Tennessee delegation",
+      "representation"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.32,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "States cannot choose their number of senators; it is fixed at two by the Constitution."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "The number of senators has always been two per state and does not decline over time."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "This reverses the roles: senators represent the whole state and representatives serve districts."
+      }
+    ],
+    "key_rationale": "Every state, including Tennessee, has two senators by constitutional design, while its number of representatives is set by population through apportionment.",
+    "dok_rationale": "The student explains the constitutional reason behind Tennessee's delegation structure.",
+    "blooms_rationale": "Explaining why a structure exists is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.14-Q14",
+    "standard": "GC.14",
+    "unit": 3,
+    "question_number": 14,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "If Tennessee's population grew faster than the national average, what could happen to its delegation in the U.S. House after the next census?",
+    "options": {
+      "A": "It could gain a seat in the House of Representatives",
+      "B": "It could gain a third U.S. senator",
+      "C": "It would automatically lose a House seat",
+      "D": "Its representatives would each begin serving six-year terms"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": true,
+    "topics": [
+      "apportionment",
+      "Tennessee delegation"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.44,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The number of senators is fixed at two and does not grow with population."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Faster-than-average growth tends to add, not remove, House seats."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "House term length is fixed at two years and is unrelated to population growth."
+      }
+    ],
+    "key_rationale": "Because House seats are apportioned by population, faster-than-average growth could earn Tennessee an additional House seat after the census.",
+    "dok_rationale": "The student explains a likely effect of population growth on apportionment.",
+    "blooms_rationale": "Explaining a cause-and-effect outcome is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.14-Q15",
+    "standard": "GC.14",
+    "unit": 3,
+    "question_number": 15,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "A Tennessean who lives in Knoxville wants to know how many members of the U.S. House of Representatives count her as a constituent. What is the correct answer?",
+    "options": {
+      "A": "One, the representative for her congressional district",
+      "B": "Two, matching her two U.S. senators",
+      "C": "All of Tennessee's U.S. representatives",
+      "D": "None, because the House does not have constituents"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": true,
+    "topics": [
+      "constituent",
+      "congressional district"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 2",
+    "irt_a": 1.56,
+    "irt_b": -0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Two matches the number of senators, not House members; a person has one representative."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "A person is a House constituent of only the representative for her own district, not all of them."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "House members do have constituents: the voters of their districts."
+      }
+    ],
+    "key_rationale": "Each person lives in one congressional district, so she is a House constituent of exactly one representative.",
+    "dok_rationale": "The student applies the concept of district-based constituency to a specific person.",
+    "blooms_rationale": "Using a concept to answer a scenario is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.14-Q16",
+    "standard": "GC.14",
+    "unit": 3,
+    "question_number": 16,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A Tennessee resident wants federal support for a project in her hometown and asks which member of Congress represents her most locally. Which answer best applies what you know about the state's delegation?",
+    "options": {
+      "A": "Only her two U.S. senators, because senators handle all local matters",
+      "B": "Her one U.S. representative most locally, though both U.S. senators also represent her statewide",
+      "C": "The Speaker of the House, because he represents every district",
+      "D": "The governor of Tennessee, who serves in Congress for the state"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": true,
+    "topics": [
+      "Tennessee delegation",
+      "constituent services"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 3",
+    "irt_a": 1.52,
+    "irt_b": 1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Senators represent the whole state, not a single locality, so they are not her most local members."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The Speaker represents only his own district, not every district in the country."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The governor leads the state government and does not serve in Congress."
+      }
+    ],
+    "key_rationale": "Her single U.S. representative is her most local member of Congress, while both senators also represent her as part of the whole state.",
+    "dok_rationale": "The student applies the structure of a state's delegation to identify local versus statewide representation.",
+    "blooms_rationale": "Using knowledge of roles to resolve a scenario is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.14-Q17",
+    "standard": "GC.14",
+    "unit": 3,
+    "question_number": 17,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "After redistricting, a Tennessee voter discovers that her home is now located in a different congressional district than before. What is the most likely effect of this change?",
+    "options": {
+      "A": "She may now be represented by a different U.S. House member, but her two U.S. senators stay the same",
+      "B": "She will now have three U.S. senators instead of two",
+      "C": "She will lose her right to vote until the next census",
+      "D": "Her U.S. representative's term will be shortened to one year"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": true,
+    "topics": [
+      "redistricting",
+      "Tennessee delegation"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.64,
+    "irt_b": 1.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Redistricting changes House district lines, not the fixed number of two senators."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Redistricting does not remove a citizen's right to vote."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "House terms remain two years; redistricting does not shorten them."
+      }
+    ],
+    "key_rationale": "Redistricting can place a voter in a new House district, changing her representative, while her statewide senators remain unchanged.",
+    "dok_rationale": "The student analyzes how a change in district lines affects who represents a voter.",
+    "blooms_rationale": "Determining the effect of redistricting on representation is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.14-Q18",
+    "standard": "GC.14",
+    "unit": 3,
+    "question_number": 18,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A student claims, 'My U.S. senator ignores my small town because it is too small to matter.' Which statement best evaluates whether a senator represents small Tennessee towns?",
+    "options": {
+      "A": "The claim is fully correct, because senators represent only large cities",
+      "B": "The claim is fully correct, because small towns have no members of Congress",
+      "C": "The claim overlooks that a senator represents every constituent in the entire state, including small towns, though a local U.S. representative may focus more on that area",
+      "D": "The claim cannot be judged, because no one knows whom a senator represents"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": true,
+    "topics": [
+      "senators",
+      "statewide representation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.76,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Senators represent the whole state, not only large cities."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Small towns are represented both by a House member and by the state's two senators."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "It is well defined whom a senator represents: the entire state, so the claim can be judged."
+      }
+    ],
+    "key_rationale": "A senator represents all constituents statewide, including small towns, so the claim is inaccurate, though a local representative may give a small area more focused attention.",
+    "dok_rationale": "The student evaluates a claim against the actual scope of a senator's representation.",
+    "blooms_rationale": "Judging a claim using criteria is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.14-Q19",
+    "standard": "GC.14",
+    "unit": 3,
+    "question_number": 19,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Explain why a single Tennessee voter is represented by three members of the U.S. Congress, and describe how the roles of those three members differ. In your response, address both the number of senators and the number of representatives that serve that voter.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": true,
+    "topics": [
+      "Tennessee delegation",
+      "representation"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.88,
+    "irt_b": 0.6,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A complete response explains that every Tennessean is represented by two statewide senators plus one U.S. representative for her district, and distinguishes the statewide role of senators from the district-focused role of the representative.",
+    "dok_rationale": "The student analyzes the composition of a voter's representation and differentiates the roles.",
+    "blooms_rationale": "Breaking down and comparing the three roles is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning (6 points)"
+  },
+  {
+    "id": "GC.14-Q20",
+    "standard": "GC.14",
+    "unit": 3,
+    "question_number": 20,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpt below, then construct an argument about whether population-based House representation gives more heavily populated parts of Tennessee greater influence in Congress than less populated parts, using the document as evidence.\n\nSource: U.S. Constitution, Article I, Section 2 (1787), U.S. National Archives.\n'Representatives... shall be apportioned among the several States... according to their respective Numbers.'",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": true,
+    "topics": [
+      "apportionment",
+      "Tennessee delegation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.4,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "A strong response uses the apportionment-by-population rule to argue how the House ties representation to population, then evaluates what that means for densely versus sparsely populated regions of Tennessee, while noting that the two senators represent the whole state equally.",
+    "dok_rationale": "The student evaluates a claim about representation using primary-source evidence.",
+    "blooms_rationale": "Judging a claim with source evidence is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Argument (6 points)"
+  },
+  {
+    "id": "GC.15-Q11",
+    "standard": "GC.15",
+    "unit": 3,
+    "question_number": 11,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is the term for powers that are not specifically listed in the Constitution but are reasonably needed to carry out the powers that are listed?",
+    "options": {
+      "A": "Enumerated powers",
+      "B": "Reserved powers",
+      "C": "Implied powers",
+      "D": "Concurrent powers"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "implied powers",
+      "Necessary and Proper Clause"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.75,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Enumerated powers are the ones specifically listed, the opposite of implied powers."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Reserved powers belong to the states, not the implied powers of Congress."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Concurrent powers are shared by both levels of government, not the same as implied powers."
+      }
+    ],
+    "key_rationale": "Implied powers are those not listed but reasonably needed to carry out the enumerated powers, justified by the Necessary and Proper Clause.",
+    "dok_rationale": "The student recalls a defined term.",
+    "blooms_rationale": "Retrieval of a definition is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.15-Q12",
+    "standard": "GC.15",
+    "unit": 3,
+    "question_number": 12,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "In which part of the Constitution are most of the enumerated powers of Congress listed?",
+    "options": {
+      "A": "Article II, Section 2",
+      "B": "The Preamble",
+      "C": "Amendment XVII",
+      "D": "Article I, Section 8"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "enumerated powers",
+      "Article I, Section 8"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.0,
+    "irt_b": -1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Article II concerns the executive branch and the President's powers, not the enumerated powers of Congress."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The Preamble states the Constitution's purposes; it grants no specific congressional powers."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The Seventeenth Amendment addresses electing senators, not the list of congressional powers."
+      }
+    ],
+    "key_rationale": "Most of Congress's enumerated powers are listed in Article I, Section 8, which also contains the Necessary and Proper Clause.",
+    "dok_rationale": "The student recalls the location of a constitutional provision.",
+    "blooms_rationale": "Retrieval of a stated fact is a Remember task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.15-Q13",
+    "standard": "GC.15",
+    "unit": 3,
+    "question_number": 13,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Which enumerated power gives Congress the authority to regulate trade and business conducted between the states?",
+    "options": {
+      "A": "The commerce power",
+      "B": "The power of confirmation",
+      "C": "The power to declare war",
+      "D": "The power of impeachment"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "commerce power",
+      "enumerated powers"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 2",
+    "irt_a": 1.32,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Confirmation is the Senate's power to approve appointments, not to regulate trade."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Declaring war concerns armed conflict, not interstate trade."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Impeachment is a power to charge officials, unrelated to regulating commerce."
+      }
+    ],
+    "key_rationale": "The commerce power gives Congress authority to regulate trade among the states.",
+    "dok_rationale": "The student matches a described authority to the correct enumerated power.",
+    "blooms_rationale": "Classifying an example under a power is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.15-Q14",
+    "standard": "GC.15",
+    "unit": 3,
+    "question_number": 14,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The Senate's authority to approve or reject the President's nominees, such as federal judges and Cabinet officials, is an example of which congressional power?",
+    "options": {
+      "A": "The power of appropriations",
+      "B": "The power of confirmation",
+      "C": "The power to declare war",
+      "D": "The commerce power"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "confirmations",
+      "enumerated powers"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 2",
+    "irt_a": 1.44,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Appropriations is the power over federal spending, not over approving nominees."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Declaring war concerns armed conflict, not confirming appointments."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The commerce power concerns interstate trade, not nominations."
+      }
+    ],
+    "key_rationale": "The Senate's power to approve or reject presidential nominees is the confirmation power.",
+    "dok_rationale": "The student matches a described authority to the correct enumerated power.",
+    "blooms_rationale": "Classifying an example under a power is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.15-Q15",
+    "standard": "GC.15",
+    "unit": 3,
+    "question_number": 15,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Under the Constitution, which power over armed conflict belongs to Congress rather than to the President?",
+    "options": {
+      "A": "The power to serve as commander in chief of the armed forces",
+      "B": "The power to negotiate a peace treaty alone",
+      "C": "The power to formally declare war",
+      "D": "The power to pardon soldiers"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "declaration of war",
+      "separation of powers"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.56,
+    "irt_b": -0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Serving as commander in chief is an executive power held by the President."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Treaty-making involves the President with Senate approval, not Congress declaring war."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The pardon power belongs to the President, not to Congress."
+      }
+    ],
+    "key_rationale": "The Constitution gives Congress, not the President, the enumerated power to formally declare war.",
+    "dok_rationale": "The student distinguishes a congressional power from executive powers.",
+    "blooms_rationale": "Explaining which branch holds a power is an Understand task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.15-Q16",
+    "standard": "GC.15",
+    "unit": 3,
+    "question_number": 16,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Congress creates a national bank, even though a national bank is not named anywhere in the list of powers in Article I. Which clause best justifies Congress's authority to do this?",
+    "options": {
+      "A": "The Necessary and Proper Clause, which supports implied powers",
+      "B": "The declaration of war power",
+      "C": "The confirmation power of the Senate",
+      "D": "The Preamble's statement of purposes"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Necessary and Proper Clause",
+      "implied powers"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 3",
+    "irt_a": 1.52,
+    "irt_b": 1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Declaring war has nothing to do with creating a bank."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Confirmation concerns approving appointments, not chartering a bank."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The Preamble states goals but grants no specific power; the Necessary and Proper Clause supplies the authority."
+      }
+    ],
+    "key_rationale": "The Necessary and Proper Clause supports implied powers, allowing Congress to create a bank to carry out enumerated powers such as taxing and borrowing.",
+    "dok_rationale": "The student applies the Necessary and Proper Clause to justify an unlisted action.",
+    "blooms_rationale": "Using a clause to reach a conclusion in a new case is an Apply task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.15-Q17",
+    "standard": "GC.15",
+    "unit": 3,
+    "question_number": 17,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Congress uses its commerce power to regulate goods shipped across state lines and then claims authority over a related activity within a single state. Which reasoning best supports Congress's claim of authority?",
+    "options": {
+      "A": "Congress may regulate anything it wishes without limit",
+      "B": "The activity substantially affects interstate commerce, so regulating it helps carry out the commerce power",
+      "C": "The activity is local, so only the President can regulate it",
+      "D": "Congress may regulate it only after formally declaring war"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "commerce power",
+      "implied powers"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.64,
+    "irt_b": 1.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "OG",
+        "rationale": "This overgeneralizes; congressional power is broad but not unlimited."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The President does not hold the commerce power; this misassigns the authority."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Declaring war is unrelated to regulating commerce."
+      }
+    ],
+    "key_rationale": "Congress can reach a local activity when it substantially affects interstate commerce, because regulating it is a means of carrying out the enumerated commerce power.",
+    "dok_rationale": "The student analyzes how an enumerated power can extend to a related activity.",
+    "blooms_rationale": "Determining the reasoning that connects a power to a new use is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.15-Q18",
+    "standard": "GC.15",
+    "unit": 3,
+    "question_number": 18,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "One critic argues that implied powers let Congress do almost anything, while a defender argues that McCulloch v. Maryland (1819) placed limits on those powers. Which statement best evaluates the rule McCulloch established?",
+    "options": {
+      "A": "McCulloch removed all limits, so the critic is entirely correct",
+      "B": "McCulloch allowed implied powers but required that the end be legitimate and the means be plainly adapted to a constitutional purpose, so the power is broad but not unlimited",
+      "C": "McCulloch abolished implied powers, so Congress may use only listed powers",
+      "D": "McCulloch has no effect on the powers of Congress today"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "McCulloch v. Maryland",
+      "implied powers"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.76,
+    "irt_b": 0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "OG",
+        "rationale": "McCulloch did not remove all limits; it set conditions on implied powers."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "McCulloch upheld, rather than abolished, implied powers."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "McCulloch remains a foundational precedent for the scope of congressional power."
+      }
+    ],
+    "key_rationale": "McCulloch upheld implied powers while requiring a legitimate end and means plainly adapted to it, making congressional power broad but bounded.",
+    "dok_rationale": "The student evaluates competing claims against the actual holding of a case.",
+    "blooms_rationale": "Judging competing claims using criteria is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.15-Q19",
+    "standard": "GC.15",
+    "unit": 3,
+    "question_number": 19,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Explain how the commerce power and the appropriations power together allow Congress to influence policy far beyond a short list of duties. In your response, describe what each power lets Congress do and give one example of how they can be used to shape national policy.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "commerce power",
+      "appropriations"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.88,
+    "irt_b": 0.6,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A complete response explains that the commerce power lets Congress regulate interstate economic activity while the appropriations power lets it decide how federal money is spent, and shows how combining them lets Congress shape broad areas of national policy.",
+    "dok_rationale": "The student analyzes how two enumerated powers combine to expand congressional influence.",
+    "blooms_rationale": "Breaking down how powers combine to shape policy is an Analyze task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning (6 points)"
+  },
+  {
+    "id": "GC.15-Q20",
+    "standard": "GC.15",
+    "unit": 3,
+    "question_number": 20,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpt below, then construct an argument about whether the word 'necessary' in this clause should mean 'absolutely required' or 'helpful and appropriate,' and explain how your reading affects the power of Congress. Use the document as evidence.\n\nSource: U.S. Constitution, Article I, Section 8 (1787), U.S. National Archives.\n'The Congress shall have Power... To make all Laws which shall be necessary and proper for carrying into Execution the foregoing Powers.'",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Necessary and Proper Clause",
+      "implied powers"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.4,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "A strong response takes a position on how broadly to read 'necessary,' uses the clause's language about carrying enumerated powers 'into Execution' as evidence, and explains how a narrow versus broad reading expands or limits Congress's implied powers.",
+    "dok_rationale": "The student evaluates competing interpretations of a clause using the primary source.",
+    "blooms_rationale": "Judging interpretations with source evidence is an Evaluate task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV3: The Legislative Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Argument (6 points)"
+  }
+]
