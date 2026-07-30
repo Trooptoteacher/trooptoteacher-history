@@ -56,7 +56,38 @@
         "blooms_rationale": "Students construct meaning by distinguishing two forms of jurisdiction.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Article III & Judicial Power” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Original jurisdiction exists but is the exception, not how most cases arrive — right topic, wrong frequency.",
+              "reteach": "contrast the near-miss with the precise answer"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Confuses the judicial branch with the legislative role; Congress does not refer cases up as 'jurisdiction.'",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Confuses judicial jurisdiction with an executive assignment; the President does not route cases to the Court.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.20": [
@@ -114,7 +145,38 @@
         "blooms_rationale": "Students retrieve the confirming body from memory.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Selecting & Confirming Justices” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Confuses the Senate's confirmation role with the House; the House does not confirm justices.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception that states approve federal appointments; confirmation is a federal Senate power.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Misconception that the Court fills its own seats; sitting justices play no formal role.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.21": [
@@ -172,7 +234,38 @@
         "blooms_rationale": "Students construct meaning about what power the ruling created.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Judicial Review & Marbury v. Madison” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Taxing is a legislative power, not a judicial one established by Marbury.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Declaring war is a power of Congress, not a court power from Marbury.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Choosing a President in a tie is a House role under the 12th Amendment, unrelated to Marbury.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.22": [
@@ -230,7 +323,38 @@
         "blooms_rationale": "Students construct meaning by matching behavior to the correct philosophy.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Deciding What Is Constitutional” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Judicial review is the power itself, not the philosophy of how boldly to use it.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Activism is the opposite approach — greater willingness to strike down laws or set policy.",
+              "reteach": "contrast the near-miss with the precise answer"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Incorporation applies the Bill of Rights to the states; it is unrelated to activism vs. restraint.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ]
   },
@@ -289,7 +413,38 @@
       "blooms_rationale": "Students explain why the framers chose life tenure.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Article III & Judicial Power” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Overgeneralizes tenure; judges can be removed by impeachment, so 'never for any reason' is false.",
+            "reteach": "test the overgeneralization against a counter-case"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception that terms reset with each President; life tenure prevents this.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Confuses the branches; judges do not also sit in Congress.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "Which sequence correctly describes how a person becomes a U.S. Supreme Court justice?",
@@ -345,7 +500,38 @@
       "blooms_rationale": "Students summarize the multi-step appointment procedure.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Selecting & Confirming Justices” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Reverses the roles; the President nominates and the Senate confirms, not the reverse.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception that the Court is self-perpetuating; justices do not pick successors.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Confuses the confirming body; states do not nominate and the House does not confirm justices.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "A federal law directly conflicts with a clause of the U.S. Constitution. Based on the reasoning in Marbury v. Madison, how should a court resolve the conflict?",
@@ -401,7 +587,38 @@
       "blooms_rationale": "Students use the Marbury rule to reach a conclusion in an unfamiliar case.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Judicial Review & Marbury v. Madison” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Contradicts Marbury; a law repugnant to the Constitution cannot simply be enforced.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Confuses the branches; courts, not the President, decide constitutionality.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception that states resolve constitutional conflicts; that is the judiciary's role.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "A court strikes down a long-standing law, reading the Constitution as a 'living document' that must adapt to new circumstances. This approach is best described as —",
@@ -457,7 +674,38 @@
       "blooms_rationale": "Students break down the judge's approach to identify activism.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Deciding What Is Constitutional” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Restraint is the opposite; it defers to elected branches and original intent rather than striking laws down.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Original jurisdiction is about which court hears a case first, not a judicial philosophy.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "The rule of four is how the Court agrees to hear a case, not how boldly it rules.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     }
   ],
   "formB": [
@@ -515,7 +763,38 @@
       "blooms_rationale": "Students construct meaning by contrasting original and appellate jurisdiction.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Article III & Judicial Power” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Reverses the definitions; reviewing a lower court is appellate, not original, jurisdiction.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Original jurisdiction is not limited to state-court origins; it is about hearing a case first.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception that the two are identical; they describe different roles.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "A Supreme Court seat opens with two years left in a President's term. Given how long a justice can serve, why might both parties in the Senate treat this single confirmation as unusually important?",
@@ -571,7 +850,38 @@
       "blooms_rationale": "Students analyze cause and effect linking tenure length to confirmation intensity.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Selecting & Confirming Justices” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception that justices face annual re-confirmation; they serve during good behavior.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "The House has no role in confirming or overturning a justice.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception that a President is stripped of powers during a confirmation.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "Judicial review is best defined as the power of courts to —",
@@ -627,7 +937,38 @@
       "blooms_rationale": "Students retrieve the meaning of judicial review from memory.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Judicial Review & Marbury v. Madison” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Proposing laws is a legislative function, not judicial review.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Impeachment is a congressional power, not judicial review.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Setting the budget is a legislative power, not a court power.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "Reading the Constitution as a 'living document' and being more willing to strike down laws or set new policy reflects which judicial approach?",
@@ -683,7 +1024,38 @@
       "blooms_rationale": "Students construct meaning by identifying the activist philosophy.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Deciding What Is Constitutional” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Restraint is the opposite approach — deference and original intent.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Original jurisdiction concerns which court hears a case first, not a philosophy.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Appellate review is a process, not the activism-vs-restraint philosophy.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     }
   ],
   "_psychometric_summary": {

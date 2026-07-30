@@ -99,8 +99,38 @@ const psych=[H('Part 5 — Psychometric Blueprint (Teacher)',1,{brk:true}),
  ...psychTable('Form B — item psychometrics',A.formB),
  ...psychTable('Formative — item psychometrics',flatFormative)];
 
+
+// ---- Section 6: UDL Supports & Remediation (teacher) ----
+function udlRemedSection(title,items){const out=[H(title,2)];
+  items.forEach((q,i)=>{const rem=q.remediation||{};
+    out.push(H(`Item ${i+1} — ${q.std} · DOK ${q.dok}`,3));
+    out.push(P([R('If missed:  ',{s:22,b:true,c:NAVY}),R(rem.if_missed||'—',{s:22})]));
+    const bd=rem.by_distractor||[];
+    if(bd.length){const ws=[900,4400,4348];
+      const rows=[dhead(['Wrong choice','Signals misconception','Targeted reteach'],ws)];
+      bd.forEach(d=>rows.push(drow([d.choice,d.signals_misconception,d.reteach],ws)));
+      out.push(table(rows,ws));
+    } else { out.push(P(R('Open-response item — score against the rubric criteria; no distractor routing.',{s:21,i:true}))); }
+    const m=rem.mtss||{};
+    out.push(callout('MTSS ROUTING',['Tier 2 — '+(m.tier2||'—'),'Tier 3 — '+(m.tier3||'—')]));
+  });
+  return out;}
+const _u=((A.formA[0]||A.formB[0]||flatFormative[0]||{}).udl_supports)||{};
+const part6=[H('Part 6 — UDL Supports & Remediation (Teacher)',1,{brk:true}),
+ callout('UNIVERSAL DESIGN FOR LEARNING (UDL 3.0) SUPPORTS — APPLIES TO EVERY ITEM',[
+   R('These supports vary the MEANS of access, not the mastery target. They apply to every item on the formative checkpoints and both summative forms.',{s:22,i:true}),
+   'Representation — '+(_u.representation||'—'),
+   'Action & Expression — '+(_u.action_expression||'—'),
+   'Engagement — '+(_u.engagement||'—'),
+   (_u.firm_goal_note||''),
+   (_u.udl_citation||'')]),
+ callout('HOW TO USE THIS SECTION',['For each item: if a student misses it, start with the If-missed reteach, then route by the SPECIFIC wrong choice the student picked (each distractor signals a distinct misconception), and escalate through MTSS Tier 2 → Tier 3 if the misconception persists across parallel forms. '+A.disclosure]),
+ ...udlRemedSection('Form A — UDL & distractor-based remediation',A.formA),
+ ...udlRemedSection('Form B — UDL & distractor-based remediation',A.formB),
+ ...udlRemedSection('Formative Checkpoints — UDL & distractor-based remediation',flatFormative)];
+
 const doc=new Document({styles:{default:{document:{run:{font:FONT,size:22,color:INK}}}},
   sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1296,right:1296,header:720,footer:720}}},
   headers:{default:header},footers:{default:footer},
-  children:[...cover,...formative,...formA,...formB,...key,...psych]}]});
+  children:[...cover,...formative,...formA,...formB,...key,...psych,...part6]}]});
 Packer.toBuffer(doc).then(b=>{fs.writeFileSync('deliverables/Unit3_Assessment_Book_Teacher.docx',b);console.log('WROTE assessment book',b.length,'bytes');});

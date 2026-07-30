@@ -56,7 +56,38 @@
         "blooms_rationale": "Student retrieves which responsibility is a legal requirement.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Responsibilities of Citizens” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Plausible error — volunteering is expected of good citizens but is not legally required.",
+              "reteach": "model carrying partial evidence to the correct conclusion"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Plausible error — staying informed is encouraged, not legally compelled.",
+              "reteach": "model carrying partial evidence to the correct conclusion"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Misconception that civic activity such as campaigning is a legal obligation.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.32": [
@@ -114,7 +145,38 @@
         "blooms_rationale": "Student constructs the distinction between two nomination methods.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Political Parties & the Nomination Process” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception about when and for whom each method is used.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception that caucuses are illegal or that primaries are government-run rather than party contests.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error confusing the office chosen rather than the method used.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.33": [
@@ -172,7 +234,38 @@
         "blooms_rationale": "Student breaks apart how framing affects measured opinion.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Media & Public Opinion” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception that public opinion is fixed and unaffected by measurement.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Partial evidence — sample size matters, but wording is overlooked.",
+              "reteach": "model carrying partial evidence to the correct conclusion"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Misconception that polls are objective regardless of question design.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.34": [
@@ -230,7 +323,38 @@
         "blooms_rationale": "Student explains which rights enable specific participation.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Means of Political Participation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Prior-knowledge error citing Second and Sixth Amendment rights.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Prior-knowledge error citing Fourteenth Amendment protections.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error citing Fifth and Fourth Amendment rights.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ]
   },
@@ -289,7 +413,38 @@
       "blooms_rationale": "Student infers a responsibility from Jefferson's reasoning.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Responsibilities of Citizens” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Partial evidence — a real duty, but not the one Jefferson's statement addresses.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Partial evidence — a valid responsibility unrelated to being informed.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Partial evidence — a legal duty, but not what the quotation supports.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "In the presidential nomination process, what is the purpose of the primaries and caucuses held state by state?",
@@ -345,7 +500,38 @@
       "blooms_rationale": "Student explains the purpose of the nomination stage.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Political Parties & the Nomination Process” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error confusing nomination with the Electoral College count.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error confusing nomination with Senate confirmation.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error confusing elections with redistricting.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "A news outlet covers one issue heavily every night for a week while barely mentioning others. How does this most likely influence the public?",
@@ -401,7 +587,38 @@
       "blooms_rationale": "Student analyzes how coverage shapes perceived importance.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Media & Public Opinion” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Overgeneralization — coverage does not dictate a single public reaction.",
+            "reteach": "test the overgeneralization against a counter-case"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception that repeated coverage has no agenda-setting effect.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Causal attribution error — one outlet's focus does not control competitors.",
+            "reteach": "re-teach the cause-effect chain"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "Which action gives citizens a way to directly propose or overturn a law themselves, rather than only influencing officials?",
@@ -457,7 +674,38 @@
       "blooms_rationale": "Student differentiates direct action from influencing officials.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Means of Political Participation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Nearby error — a real form of participation, but it influences officials rather than making law directly.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Nearby error — lobbying pressures officials rather than letting voters act directly.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Nearby error — contacting a representative is indirect influence, not direct lawmaking.",
+            "reteach": "contrast the near-miss with the precise answer"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     }
   ],
   "formB": [
@@ -515,7 +763,38 @@
       "blooms_rationale": "Student retrieves that jury service is a legal duty.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Responsibilities of Citizens” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception that jury service is optional.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception that the duty applies only to officials.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception adding an age limit that does not define the duty.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "George Washington warned against 'the spirit of party,' yet political parties quickly became central to elections. What role do parties play in the political system?",
@@ -571,7 +850,38 @@
       "blooms_rationale": "Student explains the role parties play in elections.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Political Parties & the Nomination Process” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error confusing parties with the Article V amendment process.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error confusing parties with the judicial branch.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error confusing parties with the executive military role.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "Two newspapers report the same city council vote. One headline reads 'Council Protects Taxpayers'; the other reads 'Council Cuts Vital Services.' What does this best illustrate?",
@@ -627,7 +937,38 @@
       "blooms_rationale": "Student analyzes the effect of framing on opinion.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Media & Public Opinion” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Causal attribution error — different framing is not the same as false reporting.",
+            "reteach": "re-teach the cause-effect chain"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception that differing headlines mean the underlying event changed.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception that framing has no effect on opinion.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "A citizen meets with a state legislator to try to persuade the legislator to support a new bill. This form of participation is called:",
@@ -683,7 +1024,38 @@
       "blooms_rationale": "Student applies a participation category to a scenario.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Means of Political Participation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Nearby error — petitioning is a written request signed by many, not a one-on-one persuasion meeting.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Nearby error — demonstrating is public protest, not private persuasion of an official.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Nearby error — running for office is seeking a seat, not persuading a sitting legislator.",
+            "reteach": "contrast the near-miss with the precise answer"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     }
   ],
   "_psychometric_summary": {

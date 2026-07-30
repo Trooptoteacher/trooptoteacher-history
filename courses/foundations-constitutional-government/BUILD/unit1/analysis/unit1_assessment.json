@@ -56,7 +56,38 @@
         "blooms_rationale": "Student constructs meaning by relating Locke's idea to the colonists' justification, an Understand-level task.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Enlightenment Roots of American Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Documented misconception: divine right of kings is the opposite of Locke's consent-based theory.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error: confuses Enlightenment economic theory (laissez-faire) with Locke's political rights theory.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error: confuses classical/republican civic duty with Locke's natural-rights basis.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.02": [
@@ -114,7 +145,38 @@
         "blooms_rationale": "Student paraphrases the document's reasoning to identify its justification, an Understand-level process.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Declaration of Independence” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception: the Declaration blames the king, not the colonists.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception: the document seeks separation, not restoration of monarchy.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error: confuses an economic/reparations aim with the document's political purpose.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.03": [
@@ -172,7 +234,38 @@
         "blooms_rationale": "Student explains the consequence of a structural feature, an Understand-level task above rote recall.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Articles of Confederation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception: the Articles created no executive, so a president with military authority did not exist.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Misconception: the Articles preserved strong state governments rather than abolishing them.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error: confuses the unanimous-consent/legislative process with a single state legislating.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.04": [
@@ -230,7 +323,38 @@
         "blooms_rationale": "Student explains the mechanism that resolved the dispute, an Understand-level process.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Constitutional Convention & Ratification” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Partial evidence: describes only the Senate/Articles side of representation, not the full compromise.",
+              "reteach": "model carrying partial evidence to the correct conclusion"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Misconception: no states were removed from the Union by the compromise.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception: describes the Virginia Plan's aim, not the compromise that balanced both houses.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.05": [
@@ -288,7 +412,38 @@
         "blooms_rationale": "Student infers the principle a phrase expresses, an Understand-level task.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Preamble: Purposes of Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Prior-knowledge error: confuses judicial review with the source of governmental authority.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error: confuses the executive role with the source of authority.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Misconception: attributes all power to the states, confusing the Preamble with confederation ideas.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.06": [
@@ -346,7 +501,38 @@
         "blooms_rationale": "Student deconstructs the quotation's meaning and matches it to the correct design, an Analyze-level task.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Principles of Limited Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Partial evidence: popular sovereignty is a real principle but is not what the quotation about branches restraining branches describes.",
+              "reteach": "model carrying partial evidence to the correct conclusion"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error: confuses federalism (nation vs. states) with checks and balances among branches.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error: confuses the Article V amendment process with internal branch checks.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.07": [
@@ -404,7 +590,38 @@
         "blooms_rationale": "Student explains the reasoning behind the difficult process, an Understand-level task.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Structure of the Constitution & How to Amend It” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception: the president has no formal role in the Article V amendment process.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Overgeneralization: turns 'difficult' into 'impossible,' ignoring the 27 ratified amendments.",
+              "reteach": "test the overgeneralization against a counter-case"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Misconception: a single state cannot amend the Constitution; supermajorities are required.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.08": [
@@ -462,7 +679,38 @@
         "blooms_rationale": "Student analyzes the rationale embedded in the amendment's wording, an Analyze-level task.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Bill of Rights” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception: inverts the natural-rights premise by treating Congress as the source of rights.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Prior-knowledge error: confuses the courts' interpretive role with the source of freedoms.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error: confuses federalism/the Tenth Amendment with the source and protection of these rights.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.09": [
@@ -520,7 +768,38 @@
         "blooms_rationale": "Student differentiates two categories by their defining attribute, an Analyze-level task.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Republic and Democracy” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Prior-knowledge error: describes a monarchy, not either democratic form.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception: describes direct democracy, confusing it with the definition of a republic.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error: confuses a confederation of independent states with a form of democracy.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ]
   },
@@ -579,7 +858,38 @@
       "blooms_rationale": "Student constructs meaning by relating Locke's idea to the colonists' justification, an Understand-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Enlightenment Roots of American Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Documented misconception: divine right of kings is the opposite of Locke's consent-based theory.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses Enlightenment economic theory (laissez-faire) with Locke's political rights theory.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses classical/republican civic duty with Locke's natural-rights basis.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "How does the Declaration of Independence justify the colonies' break from Britain?",
@@ -635,7 +945,38 @@
       "blooms_rationale": "Student paraphrases the document's reasoning to identify its justification, an Understand-level process.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Declaration of Independence” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: the Declaration blames the king, not the colonists.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception: the document seeks separation, not restoration of monarchy.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses an economic/reparations aim with the document's political purpose.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "What was the main weakness of the national government under the Articles of Confederation?",
@@ -691,7 +1032,38 @@
       "blooms_rationale": "Student explains the consequence of a structural feature, an Understand-level task above rote recall.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Articles of Confederation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: the Articles created no executive, so a president with military authority did not exist.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception: the Articles preserved strong state governments rather than abolishing them.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses the unanimous-consent/legislative process with a single state legislating.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "How did the Great Compromise resolve the dispute between large and small states?",
@@ -747,7 +1119,38 @@
       "blooms_rationale": "Student explains the mechanism that resolved the dispute, an Understand-level process.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Constitutional Convention & Ratification” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Partial evidence: describes only the Senate/Articles side of representation, not the full compromise.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception: no states were removed from the Union by the compromise.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception: describes the Virginia Plan's aim, not the compromise that balanced both houses.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "What does the phrase 'We the People' in the Preamble establish about government?",
@@ -803,7 +1206,38 @@
       "blooms_rationale": "Student infers the principle a phrase expresses, an Understand-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Preamble: Purposes of Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error: confuses judicial review with the source of governmental authority.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses the executive role with the source of authority.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception: attributes all power to the states, confusing the Preamble with confederation ideas.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "Madison wrote that 'ambition must be made to counteract ambition.' Which design does this describe?",
@@ -859,7 +1293,38 @@
       "blooms_rationale": "Student deconstructs the quotation's meaning and matches it to the correct design, an Analyze-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Principles of Limited Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Partial evidence: popular sovereignty is a real principle but is not what the quotation about branches restraining branches describes.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses federalism (nation vs. states) with checks and balances among branches.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses the Article V amendment process with internal branch checks.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "Why did the Framers make the amendment process in Article V deliberately difficult?",
@@ -915,7 +1380,38 @@
       "blooms_rationale": "Student explains the reasoning behind the difficult process, an Understand-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Structure of the Constitution & How to Amend It” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: the president has no formal role in the Article V amendment process.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Overgeneralization: turns 'difficult' into 'impossible,' ignoring the 27 ratified amendments.",
+            "reteach": "test the overgeneralization against a counter-case"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception: a single state cannot amend the Constitution; supermajorities are required.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "Why does the First Amendment phrase its protections as limits on Congress ('shall make no law')?",
@@ -971,7 +1467,38 @@
       "blooms_rationale": "Student analyzes the rationale embedded in the amendment's wording, an Analyze-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Bill of Rights” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: inverts the natural-rights premise by treating Congress as the source of rights.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error: confuses the courts' interpretive role with the source of freedoms.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses federalism/the Tenth Amendment with the source and protection of these rights.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "What best distinguishes a republic from a direct democracy?",
@@ -1027,7 +1554,38 @@
       "blooms_rationale": "Student differentiates two categories by their defining attribute, an Analyze-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Republic and Democracy” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error: describes a monarchy, not either democratic form.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception: describes direct democracy, confusing it with the definition of a republic.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses a confederation of independent states with a form of democracy.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     }
   ],
   "formB": [
@@ -1085,7 +1643,38 @@
       "blooms_rationale": "Student retrieves a term's definition from memory, a Remember-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Enlightenment Roots of American Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception: divine right of kings is the opposite of Locke's natural-rights idea.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: popular sovereignty is a related founding concept but not the life/liberty/property term.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Anachronism: judicial review is a later constitutional concept (Marbury era), not Locke's rights term.",
+            "reteach": "place events on a timeline"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "The Declaration of Independence was written mainly to:",
@@ -1141,7 +1730,38 @@
       "blooms_rationale": "Student summarizes the document's central purpose, an Understand-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Declaration of Independence” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error: confuses the Declaration with the Constitution/Articles that created Congress.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception that the Declaration ended slavery in the colonies.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: wrong nation and purpose; the document did not declare war on France.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "A key weakness of the Articles of Confederation was that the national government could not:",
@@ -1197,7 +1817,38 @@
       "blooms_rationale": "Student explains which power was absent, an Understand-level task above rote recall.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Articles of Confederation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Partial evidence: the Articles government could make treaties, so this is a true power, not the weakness.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Partial evidence: the government could declare war, a power it did hold.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Partial evidence: the government did operate a post office, so this is not the weakness.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "The Virginia and New Jersey Plans disagreed most about:",
@@ -1253,7 +1904,38 @@
       "blooms_rationale": "Student distinguishes the central point of dispute among convention topics, an Understand-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Constitutional Convention & Ratification” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error: the president's term length was a different convention question.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Nearby error: a Bill of Rights was a real founding debate but arose at ratification, not in these plans.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception: confuses the representation dispute with the convention's slavery compromises.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "The Preamble's phrase 'promote the general Welfare' names a:",
@@ -1309,7 +1991,38 @@
       "blooms_rationale": "Student classifies the phrase by its function, an Understand-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Preamble: Purposes of Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error: confuses a Preamble purpose with a branch of government.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses a stated purpose with a constitutional amendment.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses a stated purpose with the power of the courts.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "Separation of powers divides the federal government into:",
@@ -1365,7 +2078,38 @@
       "blooms_rationale": "Student retrieves a memorized structural fact, a Remember-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Principles of Limited Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error: confuses the two houses of Congress with the branches of government.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses federalism (fifty states) with separation of powers.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses the number of Supreme Court justices/courts with the branches.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "A new amendment is formally added to the Constitution through:",
@@ -1421,7 +2165,38 @@
       "blooms_rationale": "Student identifies the process that governs amendments, an Understand-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Structure of the Constitution & How to Amend It” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: the Supreme Court interprets but does not amend the Constitution.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception: a presidential order cannot amend the Constitution.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception: a single state's vote cannot amend the Constitution; supermajorities are required.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "The Tenth Amendment reserves undelegated powers to the:",
@@ -1477,7 +2252,38 @@
       "blooms_rationale": "Student explains the amendment's reservation of powers, an Understand-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Bill of Rights” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: inverts the Tenth Amendment by reserving powers to Congress.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error: confuses the executive with the recipients of reserved powers.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses the federal courts with the recipients of reserved powers.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "In a representative democracy, laws are made by:",
@@ -1533,7 +2339,38 @@
       "blooms_rationale": "Student explains the lawmaking mechanism of representative democracy, an Understand-level task.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Republic and Democracy” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception: describes direct democracy, in which people vote on each law.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: describes a monarchy, not a representative democracy.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: describes military/autocratic rule, not representative democracy.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     }
   ],
   "_psychometric_summary": {

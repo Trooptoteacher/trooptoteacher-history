@@ -56,7 +56,38 @@
         "blooms_rationale": "Students explain what the Court decided and its limit.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The First Amendment in Court” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Overstates school authority; Tinker limits, not expands, the power to ban expression.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception that students have no First Amendment rights; Tinker holds the opposite.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Right topic but wrong holding; both students and teachers retain rights under Tinker.",
+              "reteach": "contrast the near-miss with the precise answer"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.24": [
@@ -114,7 +145,38 @@
         "blooms_rationale": "Students explain the ruling rather than merely name the case.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Second Amendment in Court” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception that only the military may bear arms; Heller recognized an individual right.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "The militia-only reading is the interpretation Heller rejected.",
+              "reteach": "contrast the near-miss with the precise answer"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Overgeneralizes state power; Heller struck down a strict handgun ban.",
+              "reteach": "test the overgeneralization against a counter-case"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.25": [
@@ -172,7 +234,38 @@
         "blooms_rationale": "Students explain the consequence the exclusionary rule creates.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Rights of the Accused (4th–8th Amendments)” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Contradicts the 4th Amendment, which the exclusionary rule enforces.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Confuses the 4th Amendment rule with the 5th Amendment right to remain silent.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Misconception unrelated to the exclusionary rule; trials are public under the 6th Amendment.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.26": [
@@ -230,7 +323,38 @@
         "blooms_rationale": "Students explain the significance of the Brown decision.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The 14th Amendment — Equal Protection & Due Process” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Reverses the ruling; Brown overturned, not upheld, 'separate but equal.'",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Misconception that a case can delete a constitutional clause.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Wrong scope; Brown concerned public schools, not private colleges.",
+              "reteach": "contrast the near-miss with the precise answer"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ],
     "GC.27": [
@@ -288,7 +412,38 @@
         "blooms_rationale": "Students retrieve the purpose of Title IX from memory.",
         "bias_flag": "none",
         "tcap_format": true,
-        "field_test_ready": true
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Rights for the Underserved” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Overgeneralizes; Title IX bars sex discrimination, not tuition.",
+              "reteach": "test the overgeneralization against a counter-case"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception unrelated to Title IX's actual purpose.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Confuses Title IX with the 26th Amendment's voting age.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
       }
     ]
   },
@@ -347,7 +502,38 @@
       "blooms_rationale": "Students carry out the Tinker rule in an unfamiliar scenario.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The First Amendment in Court” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Contradicts Tinker's core holding that students keep their rights.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Overgeneralizes; Tinker protects non-disruptive protest, not bans all protest.",
+            "reteach": "test the overgeneralization against a counter-case"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Uses a partly-true idea (speech is protected) but ignores the 'substantial disruption' limit.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "The principle that a protection in the Bill of Rights is applied to state and local governments through the 14th Amendment is called —",
@@ -403,7 +589,38 @@
       "blooms_rationale": "Students construct meaning of the incorporation concept.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Second Amendment in Court” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Judicial review is the power to void laws, not the process of applying rights to states.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Symbolic speech is a First Amendment concept, not the state-application doctrine.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Original jurisdiction concerns which court hears a case first.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "Police arrest a suspect and begin questioning her without telling her she has the right to remain silent and to a lawyer. Based on Miranda v. Arizona, what is the most likely consequence?",
@@ -459,7 +676,38 @@
       "blooms_rationale": "Students carry out the Miranda rule in an unfamiliar case.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Rights of the Accused (4th–8th Amendments)” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Contradicts Miranda; being under arrest does not validate unwarned statements.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Overgeneralizes a consequence; Miranda affects statements, not the right to trial.",
+            "reteach": "test the overgeneralization against a counter-case"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Confuses amendments; Miranda involves the 5th Amendment, not the 2nd.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "How can the same Equal Protection Clause have supported segregation in Plessy v. Ferguson (1896) yet ended it in Brown v. Board of Education (1954)?",
@@ -515,7 +763,38 @@
       "blooms_rationale": "Students break down the cause of two opposite outcomes from one clause.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The 14th Amendment — Equal Protection & Due Process” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception that a clause was rewritten; the text stayed the same.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Plessy did rest on equal protection, so this is factually wrong.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Both cases interpreted the 14th Amendment, not different amendments.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "How did the Americans with Disabilities Act of 1990 expand rights for underserved groups?",
@@ -571,7 +850,38 @@
       "blooms_rationale": "Students explain how the ADA widened protected rights.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Rights for the Underserved” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Describes Title IX, not the ADA.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Describes Gideon v. Wainwright, not the ADA.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Describes McDonald v. Chicago, not the ADA.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     }
   ],
   "formB": [
@@ -629,7 +939,38 @@
       "blooms_rationale": "Students construct meaning by grouping cases by the freedom involved.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The First Amendment in Court” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Press cases are New York Times v. United States and Miller, not Engel or Lemon.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Assembly is a different First Amendment freedom not at issue in these cases.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Petition is a separate freedom; these cases concern religion.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "The Supreme Court has said the Second Amendment right is 'not unlimited.' What does that mean?",
@@ -685,7 +1026,38 @@
       "blooms_rationale": "Students explain what a limited right permits governments to do.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Second Amendment in Court” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Contradicts Heller's individual-right holding.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Overgeneralizes; a total ban conflicts with the recognized right.",
+            "reteach": "test the overgeneralization against a counter-case"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Contradicts Heller, which found an individual right.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "The requirement that the state provide a lawyer to a defendant who cannot afford one comes from which Supreme Court case?",
@@ -741,7 +1113,38 @@
       "blooms_rationale": "Students retrieve the correct case from memory.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Rights of the Accused (4th–8th Amendments)” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Mapp established the exclusionary rule, not the right to counsel.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Miranda concerns warnings and silence, not appointed counsel.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Brown is an equal-protection case, unrelated to right to counsel.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "The 14th Amendment's guarantee that no state may 'deny to any person… the equal protection of the laws' was the constitutional basis for which ruling?",
@@ -797,7 +1200,38 @@
       "blooms_rationale": "Students construct meaning by matching clause to ruling.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The 14th Amendment — Equal Protection & Due Process” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Schenck rests on the First Amendment, not equal protection.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Heller rests on the Second Amendment, not equal protection.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Miranda rests on the Fifth Amendment, not equal protection.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     },
     {
       "stem": "Why do many scholars today point to Korematsu v. United States (1944) as a cautionary example rather than a model to follow?",
@@ -853,7 +1287,38 @@
       "blooms_rationale": "Students evaluate the case against a criterion of protected rights.",
       "bias_flag": "none",
       "tcap_format": true,
-      "field_test_ready": true
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Rights for the Underserved” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Korematsu had nothing to do with Title IX.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Korematsu narrowed rights; it did not expand voting rights.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Ending segregation was Brown, not Korematsu.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
     }
   ],
   "_psychometric_summary": {
