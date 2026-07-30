@@ -101,6 +101,10 @@ function cornell(cues,rightLabel,nLines=3){
     cornellCell(P(R(q,{s:21,c:NAVY}),{spacing:{after:40}}),{w:2448,fill:i%2?WHITE:CREAM}),
     cornellCell(ruled(nLines),{w:7344,fill:i%2?WHITE:CREAM})]}));
   return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[4896,4896],rows:[head,...rows]});}
+// Split panel: left = open DRAW/DIAGRAM box, right = WRITE on notebook lines (UDL: draw or write).
+function splitDrawWrite(drawLabel,writeLabel,h=3400,nLines=8){return table([new TableRow({height:{value:h,rule:HeightRule.ATLEAST},cantSplit:true,children:[
+  cell([P(R(drawLabel,{s:15,b:true,c:NAVY}),{spacing:{after:20}})],{w:4896}),
+  cell([P(R(writeLabel,{s:15,b:true,c:NAVY}),{spacing:{after:20}}),...ruled(nLines)],{w:4896})]})],[4896,4896]);}
 const PB=()=>new Paragraph({children:[new PageBreak()]});
 // ---- white-space FILL rule: right-sized activities so no page is left blank ----
 const FILL_LIB={
@@ -128,7 +132,7 @@ function retrievalBox(code){return [gap(120),
   writeTable(['Recall prompt','Your answer (from memory)'],[
     ['One key term or fact from THIS standard',''],
     ['One thing you learned EARLIER — how does it connect?',''],
-  ],[3857,5935],{rowH:470})];}
+  ],[3857,5935],{rowH:640,lines:2})];}
 function vocabSelfCheck(code){const s=C.standards[code]; const W=[3092,1675,1675,1675,1675];
   const head=new TableRow({tableHeader:true,children:['Term','1 · never seen it','2 · heard it','3 · can use it','4 · can teach it'].map((h,i)=>cell(P(R(h,{s:15,b:true,c:i===0?NAVY:WHITE}),{align:i?AlignmentType.CENTER:AlignmentType.LEFT,spacing:{after:0}}),{w:W[i],fill:i===0?CREAM:NAVY}))});
   const rows=s.vocab.map(v=>new TableRow({children:[cell(P(R(v.term,{s:18,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(ruled(1),{w:W[k]}))]}));
@@ -211,13 +215,23 @@ const front=[
     ['PROGRESS CHECK','A quick DOK-2/3 check that guides reteach or extend.'],
     ['EXTENSION','A deeper challenge once the goal is met.'],
   ],[2639,7153]),
-  H('Before You Begin — Set Your Goal',2),
-  P(R('This unit asks one big question: '+EQ+' Set a goal, then note what you already know.',{s:22})),
-  writeTable(['Prompt','Your response'],[
-    ['My goal for this unit is…',''],
-    ['One thing I already know about this era…',''],
-    ['One question I want answered…',''],
-  ],[3045,6747],{rowH:760}),
+  H('Before You Begin — Set a S.M.A.R.T. Goal',2),
+  P(R('Strong learners set goals — but a goal only helps if it is built well. First learn how, then write yours.',{s:22})),
+  callout('WHAT MAKES A GOAL STRONG? Build it S.M.A.R.T.',[
+    R('S — Specific: say exactly what you will be able to do (“explain how a bill becomes law,” not “do well”).',{s:20}),
+    R('M — Measurable: how will you PROVE it? — a score, a diagram, or teaching a partner.',{s:20}),
+    R('A — Achievable: a real stretch you can reach with effort — not too easy, not impossible.',{s:20}),
+    R('R — Relevant: it connects to this unit’s big question.',{s:20}),
+    R('T — Time-bound: name WHEN — “by the end of this unit.”',{s:20})]),
+  callout('SEE THE DIFFERENCE',[
+    R('Weak:  “I want to do good in government.”  (vague — nothing to measure)',{s:20}),
+    R('S.M.A.R.T.:  “By the end of this unit I can explain how the three branches check each other, and prove it by teaching a partner and scoring 80%+ on the check.”',{s:20,b:true})]),
+  P(R('This unit’s big question: '+EQ,{s:20,i:true,c:GREY})),
+  writeBox('Write YOUR S.M.A.R.T. goal for this unit — use all the lines:',5),
+  writeTable(['Before we start…','Write on the lines'],[
+    ['One thing I already know',''],
+    ['One question I want answered',''],
+  ],[3045,6747],{rowH:640,lines:2}),
   PB()];
 
 // ================= PER-STANDARD =================
@@ -275,10 +289,10 @@ function block(code){
   out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',1050));
   // Cornell Notes — BACK (keep going, then process & check)
   out.push(H(`Cornell Notes — keep going, then process & check — ${code}`,2,{brk:true}));
-  out.push(callout('MORE NOTES / DIAGRAMS',['Continue your notes here, add a quick sketch, or map how the ideas connect.']));
-  out.push(...ruled(8));
+  out.push(callout('UDL · CHOOSE HOW YOU CAPTURE IDEAS (same target for everyone)',['Keep going with your notes: WRITE on the lines, DRAW or diagram in the box, or do both — your choice. You may also record your notes aloud.']));
+  out.push(splitDrawWrite('DRAW / DIAGRAM — sketch the idea, a timeline, or how the pieces connect','WRITE — keep taking notes on the lines',3400,8));
   out.push(callout('Key terms to list',[s.vocab.map(v=>v.term).join(' · ')]));
-  out.push(writeBox('Summary — In your own words (2–3 sentences)',3));
+  out.push(writeBox('Summary — In your own words (2–3 sentences)',4));
   out.push(table([new TableRow({children:[cell([
     P(R('PROGRESS CHECK · one question',{s:21,b:true,c:NAVY}),{spacing:{after:60}}),
     P(R(s.cfu.stem,{s:22,b:true}),{spacing:{after:60}}),
@@ -322,7 +336,7 @@ function block(code){
   a.tdq.forEach((q,i)=>out.push(P(R(`${i+1}. ${q}`,{s:20}))));
   out.push(P(R('RESPONSE CHOICE: answer any question by writing in the Evidence Lab, saying/recording it, or diagramming it.',{s:20,i:true})));
   out.push(callout('CLOSE-READ EVIDENCE LAB',['Log evidence from the passage below.']));
-  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','','']],[3264,3264,3264],{rowH:520,lines:1}));
+  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','',''],['','','']],[3264,3264,3264],{rowH:760,lines:2}));
   const gmap=(IMG[code]||{}).map;
   if(s.geo && !gmap){out.push(gap(100));
     out.push(...doodle('GEOGRAPHER’S LENS (G · SSP.06) — sketch & label the geography',s.geo+' Then draw a quick map below and label at least two places.',1050));}
