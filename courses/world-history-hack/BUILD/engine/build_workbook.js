@@ -73,14 +73,17 @@ function dataTable(headers,rows,widths){
 // paragraphs collapse to one visible line. We break that merge with a tiny border-less
 // spacer between each line, so every baseline renders.
 function ruled(n=3,w=CW){const out=[];for(let i=0;i<n;i++){
-  // Brand-exact writing baseline (from the reference workbook): spacing before 80 / after 140,
-  // bottom border single sz6 space1 color C9C2B4. An invisible right-tab anchor at (w-120)
-  // holds the line to the FULL cell width so viewers that ignore tblLayout=fixed cannot
-  // collapse an "empty" writing cell. The tab never exceeds the cell, so it can never wrap.
-  out.push(new Paragraph({widowControl:false,spacing:{before:SZ(80),after:SZ(140)},
+  // Visible NOTEBOOK writing line. Each line is a bordered paragraph FOLLOWED by a
+  // border-less spacer, because Word/LibreOffice merge adjacent identically-bordered
+  // paragraphs into ONE visible rule (that bug made stacked lines show as a single line).
+  // Color 8C8C8C (medium gray) reads clearly on white AND the cream Cornell cells.
+  // The invisible right-tab anchor at (w-120) holds the line to the full cell width so no
+  // viewer can collapse an empty writing cell; it never exceeds the cell, so it can't wrap.
+  out.push(new Paragraph({widowControl:false,spacing:{before:SZ(70),after:SZ(20)},
     tabStops:[{type:TabStopType.RIGHT,position:Math.max(240,w-120)}],
-    border:{bottom:{style:BorderStyle.SINGLE,size:6,color:'C9C2B4',space:1}},
-    children:[new TextRun({text:'\t',size:SZ(20),color:'FFFFFF',font:FONT})]}));
+    border:{bottom:{style:BorderStyle.SINGLE,size:8,color:'8C8C8C',space:1}},
+    children:[new TextRun({text:'\t',size:SZ(24),color:'FFFFFF',font:FONT})]}));
+  out.push(new Paragraph({widowControl:false,spacing:{before:0,after:SZ(70)},children:[new TextRun({text:'',size:2})]}));
 }return out;}
 function linesFor(h){return Math.max(2,Math.round(h/380));}
 // writing table: label cells keep text; blank writing cells get ruled lines
@@ -144,13 +147,13 @@ function vocabSelfCheck(code){const s=C.standards[code]; const W=[3092,1675,1675
     callout('VOCABULARY SELF-CHECK · Knowledge Rating',['Rate each term NOW in pencil, then again at the END — growth is the goal; no penalty for “never seen it.”']),
     table([head,...rows],W),
     ...doodle('MAKE IT YOURS (RESPONSE CHOICE) — write a sentence or draw your example','Choose ONE term above and show you own it: write a sentence that uses it, sketch it, or give a real-world example.',760)];}
-function sourceExtension(code){return [gap(120),
+function sourceExtension(code){return [gap(40),
   callout('EXTEND & RE-ENGAGE (open to all)',['Push past the document — corroborate, contextualize, and judge its meaning.']),
   writeTable(['Historian move','Your response'],[
     ['Corroborate — what other source would confirm or complicate this one?',''],
     ['Contextualize — what was happening at the time that explains it?',''],
     ['So what? — why does this source still matter?',''],
-  ],[4669,5123],{rowH:600}),
+  ],[4669,5123],{rowH:500}),
   callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________'])];}
 
 // ================= COVER =================
@@ -245,8 +248,8 @@ function block(code){
   // Text HOOK — a provocative, standard-specific question (images live in the analysis activities, framed + cited).
   out.push(callout('HOOK — think before you dig in',[s.hook||'What is the big question behind this standard?']));
   out.push(...ruled(2));
-  out.push(callout('SET YOUR GOAL & ACTIVATE (self-direction)',['My goal for this standard — what will I be able to do, and how will I show it? Then jot what you already know or wonder, and which target may be hardest.']));
-  out.push(writeBox('Write your goal + what you already know / wonder',4));
+  out.push(callout('SET YOUR GOAL & ACTIVATE (self-direction)',['Set a goal, then activate what you already know. The target is the same for everyone; your goal is how YOU will get there.','Sentence starters:  “By the end, I will be able to ______.”   ·   “I already know ______.”   ·   “I wonder ______.”   ·   “The hardest target for me may be ______.”','Example:  “By the end, I will be able to explain the main idea of this standard and back it up with one specific piece of evidence.”']));
+  out.push(writeBox('Write your goal + what you already know / wonder',3));
   // Activity 1 — Word Bank
   out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
@@ -274,14 +277,14 @@ function block(code){
   out.push(P(R('Your learning targets are on this standard’s opening page — take notes that help you meet them.',{s:19,i:true,c:GREY}),{spacing:{after:60}}));
   // Cornell note-taking — brand layout: navy header, narrow cue col + wide notes col, ruled lines
   out.push(cornell(s.cues||['Main idea?','Key term →','Why does it matter?','Connect it →'],
-    'My notes — write your notes here',4));
+    'My notes — write your notes here',3));
   out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',900));
   // Cornell Notes — BACK (keep going, then process & check)
   out.push(H(`Cornell Notes — keep going, then process & check — ${code}`,2,{brk:true}));
-  out.push(writeBox('MORE NOTES — keep writing (lines to write on)',4));
+  out.push(writeBox('MORE NOTES — keep writing (lines to write on)',3));
   out.push(...doodle('DIAGRAM / SKETCH BOX — draw here','This space is for drawing: sketch a timeline, a concept map, or a quick diagram that shows how the ideas connect.',1500));
   out.push(callout('Key terms to list',[s.vocab.map(v=>v.term).join(' · ')]));
-  out.push(writeBox('Summary — In your own words (2–3 sentences)',3));
+  out.push(writeBox('Summary — In your own words (2–3 sentences)',2));
   out.push(table([new TableRow({children:[cell([
     P(R('PROGRESS CHECK · one question',{s:21,b:true,c:NAVY}),{spacing:{after:60}}),
     P(R(s.cfu.stem,{s:22,b:true}),{spacing:{after:60}}),
@@ -301,7 +304,7 @@ function block(code){
   out.push(P(R('1) Name one cause or effect.    2) Give one piece of evidence.    3) Write one sentence explaining the link.',{s:20})));
   out.push(callout('Sentence frame',['One key cause/effect of '+s.title.split(':')[0].toLowerCase()+' was ______, shown by ______, which mattered because ______.']));
   out.push(callout('GUIDED NOTE REHEARSAL LAB',['Rehearse the cause→effect chain below, then transfer it to your Cornell notes.']));
-  out.push(writeTable(['Step','Rehearse it here'],[['Name it',''],['Evidence',''],['Explain',''],['Headline','']],[2639,7153],{rowH:560}));
+  out.push(writeTable(['Step','Rehearse it here'],[['Name it',''],['Evidence',''],['Explain',''],['Headline','']],[2639,7153],{rowH:480}));
   out.push(writeBox('TRANSFER CHECK — move one rehearsed idea onto the front notes',2));
   // Light Support Back
   out.push(H(`Light Support for the Cornell Notes — ${code}`,3,{brk:true}));
@@ -310,11 +313,11 @@ function block(code){
     s.vocab.map(v=>[v.term,'']),[3248,6544],{lines:2}));
   out.push(P(R('Guiding questions — answer on the lines below (or in your front notes):',{s:21,b:true})));
   a.tdq.forEach(q=>out.push(P(R('• '+q,{s:20}))));
-  out.push(...ruled(4));
-  out.push(gap(60));
+  out.push(...ruled(3));
+  out.push(gap(40));
   out.push(callout('WHICH CUE STILL NEEDS WORK?',['Circle the Cornell cue from the front page you still need help with, and tell your teacher so we can go over it.']));
   out.push(callout('LIGHT PROCESSING LAB',['Answer one guiding question from above in a full sentence, in your own words.']));
-  out.push(...ruled(3));
+  out.push(...ruled(2));
   // Activity 4 — Close Read
   out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15}));
   out.push(P(R('Reading type: '+BRAND+'-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
@@ -409,9 +412,9 @@ function block(code){
   out.push(callout('UDL ACCESS & MTSS SUPPORT (this standard)',['UDL 3.0 (CAST, 2024): read-aloud on request · key terms glossed (EN/ES) · respond in writing, speech, or a labeled diagram · large-print & screen-reader friendly. Same learning target for everyone; supports vary the means, not the ceiling.','MTSS: Tier 1 — this core lesson for all · Tier 2 — small-group reteach of this standard using its Cornell cues + graphic organizer, then re-check · Tier 3 — intensive 1:1 with concrete→representational→abstract scaffolding, progress-monitored to the same standard.']));
   out.push(callout('SHOW WHAT YOU KNOW — YOUR WAY (same CER rubric, same standard)',['Build your Claim–Evidence–Reasoning in whichever mode lets you think best — the standard and the CER rubric are identical for every mode; the mode changes how you SHOW it, never what you are held to:','WRITE it  ·  SAY it aloud and record it (audio or video)  ·  DRAW and label a diagram that makes the argument  ·  BUILD a model or artifact and caption its claim, evidence, and reasoning.','You may ask for a word processor, speech-to-text, a scribe, or a sentence/argument frame — these change how you produce, not the standard you meet.']));
   out.push(callout('CHOICE & VOICE — you decide how to go deeper (pick ONE)',['You choose your path to show this standard — every option meets the same target:','DEFEND a term: pick the vocabulary word that matters most and argue why in 2–3 sentences.  ·  CONNECT it: pick a current event, your community, or your own life and explain how this standard shows up there.  ·  TAKE A SIDE: pick one debatable question and argue your position with evidence.','Your pick is yours — bring what matters to you into the work.']));
-  out.push(...ruled(3));
-  out.push(callout('REFLECT & CONNECT — how your thinking grew, and whose view you weighed',['Reflect (self-awareness): What did you believe about this topic BEFORE, and what changed AFTER? Name one thing to revisit.','Consider another view (empathy): Name one person or group who might see this standard differently than you; state their view fairly in one sentence — even if you disagree.','Norm (restorative): we critique ideas, not people; we assume good faith; we make room for every voice.']));
   out.push(...ruled(4));
+  out.push(callout('REFLECT & CONNECT — how your thinking grew, and whose view you weighed',['Reflect (self-awareness): What did you believe about this topic BEFORE, and what changed AFTER? Name one thing to revisit.','Consider another view (empathy): Name one person or group who might see this standard differently than you; state their view fairly in one sentence — even if you disagree.','Norm (restorative): we critique ideas, not people; we assume good faith; we make room for every voice.']));
+  out.push(...ruled(6));
   return out;
 }
 const standards=[]; ORDER.forEach(c=>block(c).forEach(x=>standards.push(x)));
