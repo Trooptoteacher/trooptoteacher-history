@@ -257,27 +257,27 @@ function block(code){
   out.push(callout('SET YOUR GOAL & ACTIVATE (self-direction)',['Set a goal, then activate what you already know. The target is the same for everyone; your goal is how YOU will get there.','Sentence starters:  “By the end, I will be able to ______.”   ·   “I already know ______.”   ·   “I wonder ______.”   ·   “The hardest target for me may be ______.”','Example:  “By the end, I will be able to explain the main idea of this standard and back it up with one specific piece of evidence.”']));
   out.push(writeBox('Write your goal + what you already know / wonder',3));
   // Activity 1 — Word Bank
-  out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{mins:10}));
+  out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
   out.push(dataTable(['Term','Student-friendly meaning','Spanish'],s.vocab.map(v=>[
     new TextRun({text:v.term,bold:true,size:SZ(20),font:FONT,color:INK}), v.def, v.es]),[2723,4347,2722]));
   out.push(callout('LANGUAGE SUPPORT',['Pronunciations: '+s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.']));
   out.push(...vocabSelfCheck(code));
   // Activity 2 — Frayer
-  out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{mins:7}));
+  out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7}));
   out.push(callout('RESPONSE CHOICE',['Complete each studio by writing, speaking, or diagramming.']));
   a.frayer.forEach((term,fi)=>{const v=s.vocab.find(x=>x.term===term)||s.vocab[0];
-    out.push(gap(fi===0?40:120));
+    out.push(gap(fi===0?20:60));
     out.push(priorityBar(fi+1,term,v.es));
-    out.push(P(R('Word-bank meaning to build on: '+v.def,{s:20})));
-    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:400}));
+    out.push(P(R('Word-bank meaning to build on: '+v.def,{s:20}),{spacing:{after:20}}));
+    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:340}));
     out.push(callout('Use it to explain',['Write one sentence that uses “'+term+'” to explain this standard.']));
     out.push(...ruled(1));});
-  out.push(gap(20));
+  out.push(gap(10));
   out.push(callout('CONNECT THE TERMS (UDL · build understanding)',['How do these priority terms fit together? Write or sketch how one leads to or affects another.']));
-  out.push(...ruled(1));
+  out.push(...ruled(3));
   // Activity 3 — Cornell Notes — FRONT (note-taking; the whole page is writing space)
-  out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{mins:20}));
+  out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true,mins:20}));
   out.push(P(R('Name: ______________________    Class / Period: __________    Date: __________',{s:21})));
   out.push(P(R(`${code} — ${s.title}  •  Teacher Deck slides ${r.range}`,{s:20,c:GREY})));
   out.push(P(R('Your learning targets are on this standard’s opening page — take notes that help you meet them.',{s:19,i:true,c:GREY}),{spacing:{after:60}}));
@@ -314,16 +314,16 @@ function block(code){
   out.push(H(`Light Support for the Cornell Notes — ${code}`,3,{}));
   out.push(P(R('A lighter scaffold for the SAME Cornell notes. Try the notes first; reach for this only if you need it.',{s:20,i:true})));
   out.push(writeTable(['Key vocabulary','Finish the idea — “This term means …”'],
-    s.vocab.map(v=>[v.term,'']),[3248,6544],{lines:2}));
+    s.vocab.map(v=>[v.term,'']),[3248,6544],{lines:1}));
   out.push(P(R('Guiding questions — answer on the lines below (or in your front notes):',{s:21,b:true})));
   a.tdq.forEach(q=>out.push(P(R('• '+q,{s:20}))));
   out.push(...ruled(3));
-  out.push(gap(40));
+  out.push(gap(10));
   out.push(callout('WHICH CUE STILL NEEDS WORK?',['Circle the Cornell cue from the front page you still need help with, and tell your teacher so we can go over it.']));
   out.push(callout('LIGHT PROCESSING LAB',['Answer one guiding question from above in a full sentence, in your own words.']));
   out.push(...ruled(2));
   // Activity 4 — Close Read
-  out.push(H(`Activity 4 — Close Read — ${code}`,2,{mins:15}));
+  out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15}));
   out.push(P(R('Reading type: '+BRAND+'-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
   out.push(callout('CORE PATH',[a.close]));
   out.push(callout('LANGUAGE SUPPORT',['Key terms to know first: '+s.vocab.slice(0,2).map(v=>v.term).join(', ')+'. Read once for the gist, then again for evidence.']));
@@ -333,12 +333,14 @@ function block(code){
   out.push(callout('CLOSE-READ EVIDENCE LAB',['Log evidence from the passage below.']));
   out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','',''],['','','']],[3264,3264,3264],{rowH:620}));
   const gmap=(IMG[code]||{}).map;
-  if(s.geo && !gmap){out.push(gap(100));
-    out.push(...doodle('GEOGRAPHER’S LENS (G · SSP.06) — sketch & label the geography',s.geo+' Then draw a quick map below and label at least two places.',1050));}
+  if(s.geo && !gmap){out.push(gap(60));
+    out.push(...doodle('GEOGRAPHER’S LENS (G · SSP.06) — sketch & label the geography',s.geo+' Draw a quick map in the box and label at least two places.',3000));
+    out.push(P(R('Label your map — name the places you drew and why each one matters to this standard:',{s:20,b:true,c:NAVY}),{spacing:{before:80,after:20}}));
+    out.push(...ruled(4));}
   else out.push(...retrievalBox(code));
   // Geographer's Lens map page — standards with a verified period map
   if(gmap){
-    out.push(H(`Geographer’s Lens — ${code}`,2,{mins:10}));
+    out.push(H(`Geographer’s Lens — ${code}`,2,{brk:true,mins:10}));
     out.push(P(R('Analyze this period map as a primary source. Geographer’s lens (G) · builds SSP.06.',{s:20,i:true,c:GREY})));
     out.push(...sourceImage(gmap,{max:540}));
     if(s.geo) out.push(callout('MAP TASK',[s.geo]));
@@ -351,7 +353,7 @@ function block(code){
     out.push(...doodle('MARK UP THE MAP (draw your thinking)','On the map above, circle or label what you notice — routes, regions, clusters — then sketch the pattern here in your own quick map.',1150));
   }
   // Activity 5 — Primary Source / Data (HIPPO)
-  out.push(H(`Activity 5 — Primary Source / Data Analysis — ${code}`,2,{mins:15}));
+  out.push(H(`Activity 5 — Primary Source / Data Analysis — ${code}`,2,{brk:true,mins:15}));
   const im=(IMG[code]||{});
   if(im.anchor){
     out.push(P(R(`Primary source (${im.anchor.medium}) — analyze it with HIPPO. Builds SSP.01–SSP.02.`,{s:20,i:true,c:GREY})));
@@ -373,7 +375,7 @@ function block(code){
   if(im.anchor) out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________']));
   else out.push(...sourceExtension(code));
   // Activity 6 — Practice Quiz
-  out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{mins:8}));
+  out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8}));
   out.push(callout('RESPONSE CHOICE',['Commit to an answer by marking it, saying it, or explaining it aloud before checking. Answer key is in the Teacher Guide (kept separate).']));
   const items=[...a.quiz, {id:`u1-${code.toLowerCase().replace('.','')}-dok${s.cfu.dok}-tc`,dok:s.cfu.dok,stem:s.cfu.stem,opts:s.cfu.options}];
   items.forEach(q=>{
@@ -392,14 +394,14 @@ function block(code){
   out.push(callout('REVIEW & REFLECT (this uses the second page meaningfully)',['Which quiz item was hardest, and which learning target does it check? What will you review before the assessment? Answer on the lines — or say/diagram it.']));
   out.push(...ruled(4));
   // Activity 7 — CER
-  out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{mins:15}));
+  out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:15}));
   out.push(callout('BIG-QUESTION ORGANIZER (before you write) — '+EQ,['Plan your argument here, then use it to write your claim, evidence, and reasoning below.']));
   out.push(writeTable(['Plan your argument','Your quick notes (from this standard)'],
     [['My claim (answer the prompt)',''],['Evidence 1 (a source or fact)',''],['Reasoning (why it proves the claim)','']],[3096,6696],{lines:1}));
   out.push(callout('CONSTRUCTED RESPONSE (CER) — builds SSP.04 Argumentation',[a.cer]));
   out.push(new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[2233,7559],layout:TableLayoutType.FIXED,rows:[
-    new TableRow({tableHeader:true,children:[cell(P(R('Part',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:2233,fill:NAVY}),cell(P(R('Write here',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:7559,fill:NAVY})]}),
-    ...[['Claim',3],['Evidence (two specifics)',5],['Reasoning',4]].map(([lab,n])=>new TableRow({children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2233}),cell(ruled(n,7559),{w:7559})]}))
+    new TableRow({tableHeader:true,cantSplit:true,children:[cell(P(R('Part',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:2233,fill:NAVY}),cell(P(R('Write here',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:7559,fill:NAVY})]}),
+    ...[['Claim',3],['Evidence (two specifics)',5],['Reasoning',4]].map(([lab,n])=>new TableRow({cantSplit:true,children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2233}),cell(ruled(n,7559),{w:7559})]}))
   ]}));
   out.push(callout('SELF-CHECK against the CER rubric (see Toolkit)',['Before submitting: Is my claim defensible? Do I have TWO specific pieces of evidence? Does my reasoning explain HOW the evidence proves the claim?']));
   // Exit Ticket — end-of-standard formative (vetted item from the question bank; key + next steps teacher-side)
@@ -412,7 +414,7 @@ function block(code){
     P(R('Answer key and next steps are in the Teacher Guide.',{s:18,i:true,c:GREY}),{spacing:{before:20,after:0}})
   ],{w:CW,fill:CREAM})]})],[CW]));
   // ---- Standard support page (kept OUT of the activity flow; Activities 1-7 stay byte-identical to the brand) ----
-  out.push(H(`UDL Access, Choice & Reflection — ${code}`,2,{}));
+  out.push(H(`UDL Access, Choice & Reflection — ${code}`,2,{brk:true}));
   out.push(callout('ACCESS FOR EVERY LEARNER — same target, your way in (UDL 3.0 · MTSS)',['UDL 3.0 (CAST, 2024): read-aloud on request · key terms glossed (EN/ES) · large-print & screen-reader friendly. Show your Claim–Evidence–Reasoning in the mode that lets you think best — WRITE it · SAY & record it · DRAW a labeled diagram · BUILD and caption a model. The standard and rubric are the same for every mode; supports vary the means, not the ceiling.','MTSS: Tier 1 core lesson for all · Tier 2 small-group reteach (Cornell cues + organizer), then re-check · Tier 3 intensive 1:1, progress-monitored to the same standard.']));
   out.push(callout('CHOICE & VOICE — you decide how to go deeper (pick ONE)',['Every option meets the same target. DEFEND a term: pick the vocabulary word that matters most and argue why. · CONNECT it: tie this standard to a current event, your community, or your own life. · TAKE A SIDE: pick one debatable question and argue your position with evidence.']));
   out.push(P(R('My choice + why — write in complete sentences:',{s:20,b:true,c:NAVY}),{spacing:{before:60,after:20}}));
@@ -454,7 +456,7 @@ const back=[
   H('Source Library — full citations & clickable links',2),
   ...C.order.flatMap(c=>[P(R(`${c} — ${C.standards[c].title}`,{s:21,b:true,c:NAVY})),
     ...C.standards[c].sources.map(x=>P([R(`${x.title}. `,{s:19,b:true}),R(`${x.who}, ${x.date}. ${x.repo}. Public domain. `,{s:19}),R(x.url,{s:17,c:'2A5DB0'})]))]),
-  H(U.perspectives_title||'Multiple Perspectives',1),
+  H(U.perspectives_title||'Multiple Perspectives',1,{brk:true}),
   P(R((U.perspectives_intro||'This section presents multiple perspectives grounded in this unit’s sourced record.'),{s:22})),
   ...(U.perspectives||[]).flatMap(([h,b])=>[H(h,2),P(R(b,{s:21}))]),
   H('Unit Reflection',2),
