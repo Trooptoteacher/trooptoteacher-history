@@ -18,7 +18,7 @@ const TNLABEL=U.tn_connection_label||'TENNESSEE CONNECTION';
 // ---- exact tokens ----
 const NAVY='1B2A4A', RED='B22234', GOLD='C89B3C', INK='1A1A1A', CREAM='F7F5EF', WHITE='FFFFFF', GREY='6B7280', BORD='D9D5C8';
 const FONT='Calibri';
-const CW=9648;                         // 6.7in content width (DXA)
+const CW=9792;                         // 6.8in printable width = 12240 − 1224 − 1224 (U.S. History Hack brand)
 const bd=(c=BORD,sz=4)=>({style:BorderStyle.SINGLE,size:sz,color:c});
 const CELLB=(c=BORD)=>({top:bd(c),bottom:bd(c),left:bd(c),right:bd(c)});
 const LP=process.env.LARGEPRINT?Number(process.env.LARGEPRINT):1;
@@ -70,9 +70,10 @@ function dataTable(headers,rows,widths){
 // paragraphs collapse to one visible line. We break that merge with a tiny border-less
 // spacer between each line, so every baseline renders.
 function ruled(n=3){const out=[];for(let i=0;i<n;i++){
-  out.push(new Paragraph({spacing:{before:0,after:0,line:255,lineRule:'auto'},
-    border:{bottom:{style:BorderStyle.SINGLE,size:4,color:'C9C4B5',space:3}},children:[R(' ',{s:16})]}));
-  if(i<n-1) out.push(new Paragraph({spacing:{before:0,after:0,line:70,lineRule:'exact'},children:[R(' ',{s:2})]}));
+  // Brand-exact writing baseline (from U.S. History Hack workbook): empty paragraph,
+  // spacing before 80 / after 140, bottom border single sz6 space1 color C9C2B4.
+  out.push(new Paragraph({widowControl:false,spacing:{before:SZ(80),after:SZ(140)},
+    border:{bottom:{style:BorderStyle.SINGLE,size:6,color:'C9C2B4',space:1}},children:[]}));
 }return out;}
 function linesFor(h){return Math.max(2,Math.round(h/380));}
 // writing table: label cells keep text; blank writing cells get ruled lines
@@ -86,6 +87,20 @@ function writeTable(headers,rows,widths,{rowH=560,lines}={}){
 function writeBox(label,nLines=3){return table([
   new TableRow({children:[cell(P(R(label,{s:21,b:true,c:NAVY}),{spacing:{after:0}}),{w:CW,fill:CREAM})]}),
   new TableRow({children:[cell(ruled(nLines),{w:CW})]})],[CW]);}
+// Cornell note-taking — EXACT brand layout (U.S. History Hack workbook): navy header row,
+// narrow cue column (2448) + wide notes column (7344), grid 4896|4896, zebra rows, cantSplit,
+// atLeast row height; ruled writing lines fill the wide notes column so notes run across the page.
+function cornellCell(children,{w,fill}={}){return new TableCell({width:{size:w,type:WidthType.DXA},
+  shading:fill?{type:ShadingType.CLEAR,fill,color:'auto'}:undefined,margins:{top:50,bottom:50,left:80,right:80},
+  borders:CELLB('C9C2B4'),children:Array.isArray(children)?children:[children]});}
+function cornell(cues,rightLabel,nLines=3){
+  const head=new TableRow({tableHeader:true,cantSplit:true,children:[
+    cornellCell(P(R('Guiding cues',{s:20,b:true,c:WHITE}),{spacing:{after:0}}),{w:2448,fill:NAVY}),
+    cornellCell(P(R(rightLabel,{s:20,b:true,c:WHITE}),{spacing:{after:0}}),{w:7344,fill:NAVY})]});
+  const rows=cues.map((q,i)=>new TableRow({cantSplit:true,height:{value:520,rule:HeightRule.ATLEAST},children:[
+    cornellCell(P(R(q,{s:21,c:NAVY}),{spacing:{after:40}}),{w:2448,fill:i%2?WHITE:CREAM}),
+    cornellCell(ruled(nLines),{w:7344,fill:i%2?WHITE:CREAM})]}));
+  return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[4896,4896],rows:[head,...rows]});}
 const PB=()=>new Paragraph({children:[new PageBreak()]});
 // ---- white-space FILL rule: right-sized activities so no page is left blank ----
 const FILL_LIB={
@@ -114,8 +129,8 @@ function retrievalBox(code){return [gap(120),
     ['One key term or fact from THIS standard',''],
     ['One thing you learned EARLIER in this unit or course',''],
     ['How the two connect',''],
-  ],[3800,5848],{rowH:600})];}
-function vocabSelfCheck(code){const s=C.standards[code]; const W=[3048,1650,1650,1650,1650];
+  ],[3857,5935],{rowH:600})];}
+function vocabSelfCheck(code){const s=C.standards[code]; const W=[3092,1675,1675,1675,1675];
   const head=new TableRow({tableHeader:true,children:['Term','1 · never seen it','2 · heard it','3 · can use it','4 · can teach it'].map((h,i)=>cell(P(R(h,{s:15,b:true,c:i===0?NAVY:WHITE}),{align:i?AlignmentType.CENTER:AlignmentType.LEFT,spacing:{after:0}}),{w:W[i],fill:i===0?CREAM:NAVY}))});
   const rows=s.vocab.map(v=>new TableRow({children:[cell(P(R(v.term,{s:18,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(ruled(1),{w:W[k]}))]}));
   return [gap(40),
@@ -129,7 +144,7 @@ function sourceExtension(code){return [gap(120),
     ['Corroborate — what other source would confirm or complicate this one?',''],
     ['Contextualize — what was happening at the time that explains it?',''],
     ['So what? — why does this source still matter?',''],
-  ],[4600,5048],{rowH:600}),
+  ],[4669,5123],{rowH:600}),
   callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________'])];}
 
 // ================= COVER =================
@@ -161,7 +176,7 @@ const front=[
   H('Tennessee Standards & SSP Crosswalk',1),
   P(R('Each standard below is taught to the full Course Standard expectation; the Social Studies Practices are embedded in every activity cycle.',{s:22})),
   dataTable(['Standard','Focus','Student Deck slides'],
-    C.order.map(c=>[c,C.standards[c].title,`${C.standards[c].ref.range}`]),[1500,6148,2000]),
+    C.order.map(c=>[c,C.standards[c].title,`${C.standards[c].ref.range}`]),[1522,6240,2030]),
   H('Social Studies Practices (SSP.01–SSP.06)',2),
   P(R('SSP.01 Gather/evaluate sources · SSP.02 Critically examine a primary source · SSP.03 Synthesize evidence · SSP.04 Construct/communicate argument · SSP.05 Develop historical awareness · SSP.06 Chronological/spatial reasoning. Each Close Read, Primary Source/Data, and CER activity names the practices it builds.',{s:21})),
   PB(),
@@ -174,7 +189,7 @@ const front=[
     ['SUPPORT OPTION','Optional scaffold that keeps the goal','Guided Support Back, Primary Source'],
     ['PROGRESS CHECK','Quick DOK-2/3 check to guide reteach/extend','Cornell Notes, Practice Quiz'],
     ['EXTENSION','Deeper challenge once the goal is met','Extension Bank, CER'],
-  ],[2400,4448,2800]),
+  ],[2436,4514,2842]),
   H('How CAST UDL 3.0 is visible in this workbook',2),
   P(R('Multiple means of Engagement (response choice, relevance via Tennessee Connection), Representation (Word Bank, pronunciation, Spanish, Close-Read supports), and Action & Expression (write/say/diagram, Frayer, CER). No fixed-track labels appear.',{s:21})),
   H('My Support Plan (optional — you choose)',2),
@@ -184,7 +199,7 @@ const front=[
     ['Guided or Light Support Back',''],
     ['Response choice (say/record or diagram)',''],
     ['Sentence frames / Rehearsal Lab',''],
-  ],[3400,6248],{rowH:640}),
+  ],[3451,6341],{rowH:640}),
   PB(),
   H('How to Use This Workbook',1),
   P(R('Each standard runs the same seven-activity cycle: (1) Vocabulary Word Bank, (2) Vocabulary Studio, (3) Direct-Teaching Cornell Notes with optional Guided and Light Support Backs, (4) Close Read, (5) Primary Source / Data Analysis, (6) Core Application Practice Quiz, (7) Constructed Response (CER). Work the CORE PATH; reach for SUPPORT OPTIONS as needed.',{s:22})),
@@ -196,14 +211,14 @@ const front=[
     ['RESPONSE CHOICE','Show learning by writing, saying/recording, or diagramming.'],
     ['PROGRESS CHECK','A quick DOK-2/3 check that guides reteach or extend.'],
     ['EXTENSION','A deeper challenge once the goal is met.'],
-  ],[2600,7048]),
+  ],[2639,7153]),
   H('Before You Begin — Set Your Goal',2),
   P(R('This unit asks one big question: '+EQ+' Set a goal, then note what you already know.',{s:22})),
   writeTable(['Prompt','Your response'],[
     ['My goal for this unit is…',''],
     ['One thing I already know about this era…',''],
     ['One question I want answered…',''],
-  ],[3000,6648],{rowH:760}),
+  ],[3045,6747],{rowH:760}),
   PB()];
 
 // ================= PER-STANDARD =================
@@ -231,7 +246,7 @@ function block(code){
   out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
   out.push(dataTable(['Term','Student-friendly meaning','Spanish'],s.vocab.map(v=>[
-    new TextRun({text:v.term,bold:true,size:SZ(20),font:FONT,color:INK}), v.def, v.es]),[2683,4282,2683]));
+    new TextRun({text:v.term,bold:true,size:SZ(20),font:FONT,color:INK}), v.def, v.es]),[2723,4347,2722]));
   out.push(callout('LANGUAGE SUPPORT',['Pronunciations: '+s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.']));
   out.push(...vocabSelfCheck(code));
   out.push(...FILL_LIB.quickwrite('Which of these terms do you think will matter MOST for this standard, and why? You’ll revisit this at the end.'));
@@ -242,7 +257,7 @@ function block(code){
     out.push(gap(fi===0?40:200));
     out.push(priorityBar(fi+1,term,v.es));
     out.push(P(R('Word-bank meaning to build on: '+v.def,{s:20})));
-    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4824,4824],{rowH:760}));
+    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:760}));
     out.push(callout('Use it to explain',['Write one sentence that uses “'+term+'” to explain this standard.']));
     out.push(...ruled(2));});
   out.push(gap(140));
@@ -253,9 +268,9 @@ function block(code){
   out.push(P(R('Name: ______________________    Class / Period: __________    Date: __________',{s:21})));
   out.push(P(R(`${code} — ${s.title}  •  Lean Student Deck slides ${r.range}  •  direct-teaching slides ${r.dt}`,{s:20,c:GREY})));
   out.push(P(R('Your learning targets are on this standard’s opening page — take notes that help you meet them.',{s:19,i:true,c:GREY}),{spacing:{after:60}}));
-  // Cornell note-taking: narrow cue column + WIDE note column, then full-page-width writing lines
-  out.push(writeTable(['Cue Column — questions & key terms','Note-Taking Column — write your notes here'],
-    (s.cues||['Main idea?','Key term →','Why does it matter?','Connect it →']).map(q=>[q,'']),[2600,7048],{lines:8}));
+  // Cornell note-taking — brand layout: navy header, narrow cue col + wide notes col, ruled lines
+  out.push(cornell(s.cues||['Main idea?','Key term →','Why does it matter?','Connect it →'],
+    'My notes — write your notes here',3));
   out.push(P(R('Keep taking notes — lines run the full width of the page:',{s:19,i:true,c:GREY}),{spacing:{before:100,after:30}}));
   out.push(...ruled(10));
   out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',1400));
@@ -279,19 +294,19 @@ function block(code){
   out.push(H(`Guided Support for the Cornell Notes — ${code}`,3,{brk:true}));
   out.push(P(R('These scaffolds support ONLY the Cornell notes — use them to take and process those notes. Optional and easy to set aside; not a separate assignment or a label.',{s:20,i:true})));
   out.push(dataTable(['Key vocabulary','What it means'],s.vocab.map(v=>[
-    new TextRun({text:v.term,bold:true,size:SZ(20),font:FONT,color:INK}),v.def]),[3200,6448]));
+    new TextRun({text:v.term,bold:true,size:SZ(20),font:FONT,color:INK}),v.def]),[3248,6544]));
   out.push(P(R('Break it into steps:',{s:21,b:true})));
   out.push(P(R('1) Name one cause or effect.    2) Give one piece of evidence.    3) Write one sentence explaining the link.',{s:20})));
   out.push(callout('Sentence frame',['One key cause/effect of '+s.title.split(':')[0].toLowerCase()+' was ______, shown by ______, which mattered because ______.']));
   out.push(callout('Modeled example (one worked note — yours will differ)',['A key idea of '+s.title.split(':')[0].toLowerCase()+' was '+s.vocab[0].term+': '+s.vocab[0].def]));
   out.push(callout('GUIDED NOTE REHEARSAL LAB',['Rehearse the cause→effect chain below, then transfer it to your Cornell notes.']));
-  out.push(writeTable(['Step','Rehearse it here'],[['Name it',''],['Evidence',''],['Explain',''],['Headline','']],[2600,7048],{rowH:760}));
+  out.push(writeTable(['Step','Rehearse it here'],[['Name it',''],['Evidence',''],['Explain',''],['Headline','']],[2639,7153],{rowH:760}));
   out.push(writeBox('TRANSFER CHECK — move one rehearsed idea onto the front notes',3));
   // Light Support Back
   out.push(H(`Light Support for the Cornell Notes — ${code}`,3,{brk:true}));
   out.push(P(R('A lighter scaffold for the SAME Cornell notes. Try the notes first; reach for this only if you need it.',{s:20,i:true})));
   out.push(writeTable(['Key vocabulary','Finish the idea — “This term means …”'],
-    s.vocab.map(v=>[v.term,'']),[3200,6448],{lines:2}));
+    s.vocab.map(v=>[v.term,'']),[3248,6544],{lines:2}));
   out.push(P(R('Guiding questions — answer on the lines below (or in your front notes):',{s:21,b:true})));
   a.tdq.forEach(q=>out.push(P(R('• '+q,{s:20}))));
   out.push(...ruled(6));
@@ -308,7 +323,7 @@ function block(code){
   a.tdq.forEach((q,i)=>out.push(P(R(`${i+1}. ${q}`,{s:20}))));
   out.push(P(R('RESPONSE CHOICE: answer any question by writing in the Evidence Lab, saying/recording it, or diagramming it.',{s:20,i:true})));
   out.push(callout('CLOSE-READ EVIDENCE LAB',['Log evidence from the passage below.']));
-  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','',''],['','','']],[3216,3216,3216],{rowH:760}));
+  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','',''],['','','']],[3264,3264,3264],{rowH:760}));
   const gmap=(IMG[code]||{}).map;
   if(s.geo && !gmap){out.push(gap(100));
     out.push(...doodle('GEOGRAPHER’S LENS (G · SSP.06) — sketch & label the geography',s.geo+' Then draw a quick map below and label at least two places.',1050));}
@@ -324,7 +339,7 @@ function block(code){
       ['What pattern or movement do you see?',''],
       ['How does the geography connect to this standard?',''],
       ['What does this map leave out or make hard to see?',''],
-    ],[3800,5848],{lines:2}));
+    ],[3857,5935],{lines:2}));
     out.push(...doodle('MARK UP THE MAP (draw your thinking)','On the map above, circle or label what you notice — routes, regions, clusters — then sketch the pattern here in your own quick map.',1150));
   }
   // Activity 5 — Primary Source / Data (HIPPO)
@@ -345,7 +360,7 @@ function block(code){
     ['P — Purpose: why was it created?',''],
     ['P — Point of view: whose perspective does it reflect?',''],
     ['O — Outside connection: how does it connect to this standard?',''],
-  ],[4200,5448],{lines:2}));
+  ],[4263,5529],{lines:2}));
   out.push(callout('SUPPORT OPTION',['Sentence frame: This source shows ______ because it ______, which reveals ______.']));
   if(im.anchor) out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________']));
   else out.push(...sourceExtension(code));
@@ -365,16 +380,16 @@ function block(code){
     'Sentence starters: “Why did ______ lead to ______?”  ·  “Which mattered more — ______ or ______ — and why?”  ·  “What is the BEST evidence that ______?”  ·  “Evaluate whether ______.”  ·  “Defend or challenge: ______.”',
     'Frame:  [Analyze / Evaluate / Justify]  +  [something from THIS standard]  +  “using evidence.”',
     'Quick check: does my question make the reader THINK and use evidence? If yes, it’s DOK-3.']));
-  out.push(writeTable(['Your DOK-3 question','Your answer key (one sentence)'],[['',''],['','']],[4824,4824],{rowH:1000}));
+  out.push(writeTable(['Your DOK-3 question','Your answer key (one sentence)'],[['',''],['','']],[4896,4896],{rowH:1000}));
   // Activity 7 — CER
   out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:15}));
   out.push(callout('BIG-QUESTION ORGANIZER (before you write) — '+EQ,['Plan your argument here, then use it to write your claim, evidence, and reasoning below.']));
   out.push(writeTable(['Plan your argument','Your quick notes (from this standard)'],
-    [['My claim (answer the prompt)',''],['Evidence 1 (a source or fact)',''],['Reasoning (why it proves the claim)','']],[3050,6598],{lines:1}));
+    [['My claim (answer the prompt)',''],['Evidence 1 (a source or fact)',''],['Reasoning (why it proves the claim)','']],[3096,6696],{lines:1}));
   out.push(callout('CONSTRUCTED RESPONSE (CER) — builds SSP.04 Argumentation',[a.cer]));
-  out.push(new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[2200,7448],rows:[
-    new TableRow({tableHeader:true,children:[cell(P(R('Part',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:2200,fill:NAVY}),cell(P(R('Write here',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:7448,fill:NAVY})]}),
-    ...[['Claim',3],['Evidence (two specifics)',5],['Reasoning',4]].map(([lab,n])=>new TableRow({children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2200}),cell(ruled(n),{w:7448})]}))
+  out.push(new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[2233,7559],rows:[
+    new TableRow({tableHeader:true,children:[cell(P(R('Part',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:2233,fill:NAVY}),cell(P(R('Write here',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:7559,fill:NAVY})]}),
+    ...[['Claim',3],['Evidence (two specifics)',5],['Reasoning',4]].map(([lab,n])=>new TableRow({children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2233}),cell(ruled(n),{w:7559})]}))
   ]}));
   out.push(callout('SELF-CHECK against the CER rubric (see Toolkit)',['Before submitting: Is my claim defensible? Do I have TWO specific pieces of evidence? Does my reasoning explain HOW the evidence proves the claim?']));
   // Exit Ticket — end-of-standard formative (vetted item from the question bank; key + next steps teacher-side)
@@ -408,11 +423,11 @@ const back=[
     ['One source I could check (library, TN Secretary of State, TSLA, a representative’s office)',''],
     ['How it connects to a standard in this unit',''],
     ['One question I still have',''],
-  ],[3400,6248],{rowH:760}),
+  ],[3451,6341],{rowH:760}),
   H('Progress Tracker & Cumulative Review',1),
   P(R('Track your Progress Check result for each standard and note one thing to revisit.',{s:22})),
   writeTable(['Standard','Progress Check (✓ / reteach)','One thing to revisit'],
-    C.order.map(c=>[c,'','']),[1600,4024,4024],{rowH:620}),
+    C.order.map(c=>[c,'','']),[1624,4084,4084],{rowH:620}),
   H('Optional Extension Bank (higher-DOK, open to all)',1),
   P(R('Any student may choose an extension. These are EXTENSION, not a track.',{s:22})),
   ...C.order.map(c=>P([R(`${c}: `,{s:21,b:true,c:NAVY}),R(C.standards[c].auth.cer.replace('Claim + Evidence + Reasoning: ',''),{s:21})])),
@@ -423,7 +438,7 @@ const back=[
     ['3 — Proficient','Clear','2 accurate','Explains the link'],
     ['2 — Developing','General','1 accurate','Partial link'],
     ['1 — Beginning','Unclear/missing','Missing/inaccurate','No reasoning'],
-  ],[1800,2616,2616,2616]),
+  ],[1827,2655,2655,2655]),
   H('Source Library — full citations & clickable links',2),
   ...C.order.flatMap(c=>[P(R(`${c} — ${C.standards[c].title}`,{s:21,b:true,c:NAVY})),
     ...C.standards[c].sources.map(x=>P([R(`${x.title}. `,{s:19,b:true}),R(`${x.who}, ${x.date}. ${x.repo}. Public domain. `,{s:19}),R(x.url,{s:17,c:'2A5DB0'})]))]),
@@ -432,7 +447,7 @@ const back=[
   ...(U.perspectives||[]).flatMap(([h,b])=>[H(h,2),P(R(b,{s:21}))]),
   H('Unit Reflection',2),
   P(R('Return to the unit’s big question: '+EQ+' Write a final claim with two pieces of evidence from different standards.',{s:22})),
-  writeTable(['Part','Write here'],[['My claim',''],['Evidence 1 (standard: ___)',''],['Evidence 2 (standard: ___)',''],['Why it matters today','']],[2600,7048],{rowH:820})];
+  writeTable(['Part','Write here'],[['My claim',''],['Evidence 1 (standard: ___)',''],['Evidence 2 (standard: ___)',''],['Why it matters today','']],[2639,7153],{rowH:820})];
 
 // ================= ASSEMBLE =================
 const header=new Header({children:[P(R(BRANDTM+' · '+(U.code||'Unit 1')+' · Course Standard Edition',{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
@@ -446,7 +461,7 @@ const doc=new Document({creator:'TroopToTeacher Technologies LLC',title:BRAND+' 
     {id:'Heading2',name:'Heading 2',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:28,bold:true,color:NAVY},paragraph:{spacing:{before:150,after:80},outlineLevel:1,keepNext:true}},
     {id:'Heading3',name:'Heading 3',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:24,bold:true,color:RED},paragraph:{spacing:{before:120,after:70},outlineLevel:2,keepNext:true}},
   ]},
-  sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1296,right:1296,header:720,footer:720}}},
+  sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1224,right:1224,header:720,footer:720}}},
     headers:{default:header},footers:{default:footer},children: SAMPLE ? [P(R(`SAMPLE — Unit 1 · first ${SAMPLE} standards (activities only, ruled-line writing) — for review`,{s:24,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:120}}), ...standards] : [...cover,...front,...standards,...back]}]});
 const OUTFILE=SAMPLE?`deliverables/Unit7_SAMPLE_${SAMPLE}standards.docx`:'deliverables/Unit7_Student_Workbook_CourseStandard'+(LP>1?'_LargePrint':'')+'.docx';
 Packer.toBuffer(doc).then(b=>{fs.writeFileSync(OUTFILE,b);console.log('WROTE',OUTFILE,b.length,'bytes');});
