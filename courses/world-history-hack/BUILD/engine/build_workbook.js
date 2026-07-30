@@ -9,9 +9,11 @@ const IMG=fs.existsSync('analysis/unit1_images.json')?JSON.parse(fs.readFileSync
 const EXIT=fs.existsSync('analysis/unit1_exit_tickets.json')?JSON.parse(fs.readFileSync('analysis/unit1_exit_tickets.json','utf8')):{};
 const SAMPLE=process.env.SAMPLE?Number(process.env.SAMPLE):0; const ORDER=SAMPLE?C.order.slice(0,SAMPLE):C.order;
 // ---- course/unit chrome (parameterized — no hardcoded US-History / district content) ----
-const U=C.unit; const BRAND=(U.brand||'Government Hack'); const BRANDTM=BRAND+'™';
+const U=C.unit; const BRAND=(U.brand||'Course'); const BRANDTM=BRAND+'™';
 const UNIT_NO=(U.code||'Unit 1').replace(/Unit\s*/i,'');
-const COURSE=U.course_name||'Foundations of Constitutional Government';
+const COURSE=U.course_name||'Course Standard';
+const COURSE_BANNER=U.course_banner||COURSE.toUpperCase();
+const STANDARDS_BANNER=U.standards_banner||('Tennessee '+COURSE+' Standards');
 const RANGE=U.standards_range||'';
 const EQ=U.essential_question||'';
 const TNLABEL=U.tn_connection_label||'TENNESSEE CONNECTION';
@@ -150,13 +152,13 @@ function sourceExtension(code){return [gap(120),
 
 // ================= COVER =================
 const cover=[
-  P(R((U.cover_era?U.cover_era+'   •   ':'')+'UNITED STATES GOVERNMENT & CIVICS (GC)   •   COURSE STANDARD EDITION',{s:20,b:true,c:GOLD}),{align:AlignmentType.CENTER,spacing:{before:200,after:220}}),
+  P(R((U.cover_era?U.cover_era+'   •   ':'')+COURSE_BANNER+'   •   COURSE STANDARD EDITION',{s:20,b:true,c:GOLD}),{align:AlignmentType.CENTER,spacing:{before:200,after:220}}),
   P(R(BRANDTM.toUpperCase(),{s:44,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:40}}),
   P(R('TROOPTOTEACHER TECHNOLOGIES',{s:20,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:320}}),
   P(R('UNIT '+UNIT_NO,{s:52,b:true,c:RED}),{align:AlignmentType.CENTER,spacing:{after:60}}),
   P(R((U.title||COURSE),{s:32,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:120}}),
   P(R('COURSE STANDARD EDITION',{s:26,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:60}}),
-  P(R(RANGE+'   •   Tennessee U.S. Government & Civics Standards   •   Grades 9–12',{s:22,c:INK}),{align:AlignmentType.CENTER,spacing:{after:300}}),
+  P(R(RANGE+'   •   '+STANDARDS_BANNER+'   •   Grades 9–12',{s:22,c:INK}),{align:AlignmentType.CENTER,spacing:{after:300}}),
   callout('★ '+TNLABEL,[U.tn_connection||'']),
   P(R('One common workbook designed for learner variability. Every student works toward the same Tennessee standards; supports vary the means, not the goal or the ceiling.',{s:22,i:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{before:280,after:180}}),
   P(R('Release-Ready · Pilot Edition',{s:22,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:40}}),
@@ -170,7 +172,7 @@ const front=[
   P(R('© 2026 TroopToTeacher Technologies LLC. All rights reserved. This workbook is proprietary; reproduction or redistribution outside a licensed classroom is prohibited.',{s:22})),
   P(R('Source integrity. Every primary source in this unit is public-domain and cited to its holding repository (National Archives, Library of Congress). See the Source Library.',{s:22})),
   P(R('Reading provenance (district-clear). Close-Read passages are labeled “'+BRAND+'-authored instructional synthesis” — they build on the standard record and are not presented as primary sources.',{s:22})),
-  P(R('Framework stack. This workbook anchors to Tennessee U.S. Government & Civics standards '+RANGE+' and the Social Studies Practices (SSP.01–SSP.06), and is designed on CAST UDL 3.0 and an MTSS support model.',{s:22})),
+  P(R('Framework stack. This workbook anchors to Tennessee '+COURSE+' standards '+RANGE+' and the Social Studies Practices (SSP.01–SSP.06), and is designed on CAST UDL 3.0 and an MTSS support model.',{s:22})),
   P([R('Pacing. ',{s:22,b:true}),R('Each standard is built for ',{s:22}),R('one 45-minute class period.',{s:22,b:true}),R(' Each activity shows a ',{s:22}),R('⏱ ~ minutes',{s:22,b:true,c:GOLD}),R(' estimate at its heading. There is more here than one period holds — your teacher chooses which activities you do in class; the rest may become warm-ups, stations, or homework.',{s:22})]),
   PB(),
   H('Table of Contents',1), new TableOfContents('Contents',{hyperlink:true,headingStyleRange:'1-2'}), PB(),
@@ -416,8 +418,8 @@ const standards=[]; ORDER.forEach(c=>block(c).forEach(x=>standards.push(x)));
 const back=[
   H('Your Tennessee Connection',1),
   callout('★ '+TNLABEL,[U.tn_connection||'']),
-  P(R('Reflect (RESPONSE CHOICE): How does a Tennessee connection change the way you understand a national idea? Answer by writing, recording, or diagramming.',{s:21})),
-  H('Tennessee Civics Investigation',2),
+  P(R('Reflect (RESPONSE CHOICE): How does a Tennessee connection change the way you understand this unit’s ideas? Answer by writing, recording, or diagramming.',{s:21})),
+  H(U.tn_investigation_title||'Tennessee Connection Investigation',2),
   P(R(U.tn_connection_task||'Investigate one way Tennessee government reflects an idea from this unit, and record what you find.',{s:22})),
   writeTable(['Prompt','Your findings'],[
     ['A Tennessee example connected to this unit',''],

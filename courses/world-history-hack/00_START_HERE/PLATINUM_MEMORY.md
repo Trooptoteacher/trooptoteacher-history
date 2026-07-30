@@ -23,6 +23,14 @@ Reusable build kit (canonical source to copy from): `courses/_build_kit/{engine,
 - [~] **Phase 3** — per-unit content JSON (`BUILD/unitN/analysis/unitN_content.json`) → historian fact-check. Schema contract extracted → `BUILD/CONTENT_SCHEMA.md`.
   - **REUSE-FIRST (owner directive):** before authoring, pull existing U.S. History resources where standards overlap. Crosswalk built → `05_STANDARDS_ALIGNMENT/{us_world_history_crosswalk.json, us-world-crosswalk.html, REUSE_PLAN.md}` (**INTERNAL — references US.xx by design; exclude from any student/teacher deliverable and the district ZIP**). Overlap: **28 strong · 22 partial · 7 thematic · 35 author-fresh**; ~422 existing US items harvestable. US corpus in repo root: `all_questions.json` (742) + `Questions_US84-95_Generated.json` (120), `03_TEXTBOOK_UNITS/`, `01_STUDENT_PACKETS/`. On reuse: reframe to the global WH I-can + de-leak (strip US.xx / "U.S. History" / US-EOC; retag W.xx / RC-WH{N}).
   - NEXT: prove one reference unit end-to-end, then fan out remaining units (reuse-first per crosswalk); run historian-factcheck after.
+  - **UNIT 1 (Age of Revolutions — reference build, author-fresh) IN PROGRESS:**
+    - [x] `BUILD/unit1/analysis/unit1_content.json` — 5 standards, full 7-activity schema, EN/ES vocab, cited sources, keys debiased (7A/6B/6C/6D), leak-clean, verbatim standards preserved.
+    - [x] Engine de-leak: `build_workbook.js` parameterized (course banner/standards banner/TN investigation from `U.*`); brand-lock geometry untouched.
+    - [x] **Student Workbook + Large-Print built & verified** — pgMar 1224/1152/720, every tblGrid=9792, Cornell 2448|7344, 1284 C9C2B4 ruled lines, 5 standard pages, 7-activity cycle, LP ×1.5, LEAK-CLEAN.
+    - [ ] Teacher Guide · 4 Covers · Organizer Toolkit · Assessment Book (+unit1_assessment.json) — need engine de-leak (cover/organizer/assessment/teacher_guide) then build.
+    - [ ] Teacher + Student decks (build from render_unit_html template → Chromium tagged PDF; deck builder not in kit).
+    - [ ] DBQ book (history-hack-platinum-workbook).
+    - [ ] Unit 1 question bank (20/std ×5 = 100 items) via tcap-item-writer-v2 (author-fresh; no WH TCAP seed below W.07).
 - [ ] **Engine de-leak (Phase 5–7 prerequisite)** — parameterize hardcoded Government text in build_cover/organizer_toolkit/workbook/assessment/teacher_guide from `U.*` (geometry untouched). Details in `BUILD/CONTENT_SCHEMA.md`. Verify 0 forbidden strings in rendered `word/*.xml`.
 - [ ] **Phase 4** — teacher + student slide decks (tagged PDF/UA).
 - [ ] **Phase 5** — graphic organizer toolkits.

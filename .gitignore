@@ -4,3 +4,5 @@
 node_modules/
 *.log
 courses/**/BUILD/**/node_modules/
+courses/**/BUILD/**/package-lock.json
+courses/**/BUILD/**/package.json
