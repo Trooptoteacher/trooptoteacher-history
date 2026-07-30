@@ -238,17 +238,11 @@ function block(code){
   if(s.lenses) out.push(P([R('Lenses for this standard: ',{s:19,b:true,c:NAVY}),R(s.lenses,{s:19,c:GREY})],{spacing:{after:80}}));
   out.push(coreCallout('CORE PATH — the same for every student',['Every student works this standard at the same rigor: analyze the sources and vocabulary, then demonstrate learning on the Practice Quiz and CER. UDL and MTSS give you flexible ways in — they never lower the bar. Check yourself against the learning targets on the Cornell Notes page.']));
   if(s.tn_connection) out.push(callout('★ Tennessee Connection',[s.tn_connection]));
-  out.push(callout('SET YOUR GOAL (self-direction)',['My goal for this standard — what will I be able to do, and how will I show it?']));
-  out.push(...ruled(2));
   // Text HOOK — a provocative, standard-specific question (images live in the analysis activities, framed + cited).
   out.push(callout('HOOK — think before you dig in',[s.hook||'What is the big question behind this standard?']));
   out.push(...ruled(2));
-  out.push(callout('ACTIVATE — what do you already know or wonder?',['Jot what you already know or want to find out about this standard. You’ll come back to it.']));
+  out.push(callout('SET YOUR GOAL & ACTIVATE (self-direction)',['My goal for this standard — what will I be able to do, and how will I show it? Then jot what you already know or wonder, and which target may be hardest.']));
   out.push(...ruled(3));
-  if(!s.tn_connection){ // standards with a TN-connection callout are already full; others get the extra fill
-    out.push(callout('PREVIEW & PREDICT',['Which learning target will be hardest, and why? Connect it to the unit’s big question: '+EQ]));
-    out.push(...ruled(3));
-  }
   // Activity 1 — Word Bank
   out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
@@ -256,7 +250,6 @@ function block(code){
     new TextRun({text:v.term,bold:true,size:SZ(20),font:FONT,color:INK}), v.def, v.es]),[2723,4347,2722]));
   out.push(callout('LANGUAGE SUPPORT',['Pronunciations: '+s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.']));
   out.push(...vocabSelfCheck(code));
-  out.push(...FILL_LIB.quickwrite('Which of these terms do you think will matter MOST for this standard, and why? You’ll revisit this at the end.'));
   // Activity 2 — Frayer
   out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7}));
   out.push(callout('RESPONSE CHOICE',['Complete each studio by writing, speaking, or diagramming.']));
@@ -264,12 +257,12 @@ function block(code){
     out.push(gap(fi===0?40:200));
     out.push(priorityBar(fi+1,term,v.es));
     out.push(P(R('Word-bank meaning to build on: '+v.def,{s:20})));
-    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:760}));
+    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:520}));
     out.push(callout('Use it to explain',['Write one sentence that uses “'+term+'” to explain this standard.']));
-    out.push(...ruled(2));});
-  out.push(gap(140));
+    out.push(...ruled(1));});
+  out.push(gap(20));
   out.push(callout('CONNECT THE TERMS (UDL · build understanding)',['How do these priority terms fit together? Write or sketch how one leads to or affects another.']));
-  out.push(...ruled(2));
+  out.push(...ruled(1));
   // Activity 3 — Cornell Notes — FRONT (note-taking; the whole page is writing space)
   out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true,mins:20}));
   out.push(P(R('Name: ______________________    Class / Period: __________    Date: __________',{s:21})));
@@ -277,10 +270,10 @@ function block(code){
   out.push(P(R('Your learning targets are on this standard’s opening page — take notes that help you meet them.',{s:19,i:true,c:GREY}),{spacing:{after:60}}));
   // Cornell note-taking — brand layout: navy header, narrow cue col + wide notes col, ruled lines
   out.push(cornell(s.cues||['Main idea?','Key term →','Why does it matter?','Connect it →'],
-    'My notes — write your notes here',3));
+    'My notes — write your notes here',4));
   out.push(P(R('Keep taking notes — lines run the full width of the page:',{s:19,i:true,c:GREY}),{spacing:{before:100,after:30}}));
   out.push(...ruled(10));
-  out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',1400));
+  out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',1000));
   // Cornell Notes — BACK (keep going, then process & check)
   out.push(H(`Cornell Notes — keep going, then process & check — ${code}`,2,{brk:true}));
   out.push(callout('MORE NOTES / DIAGRAMS',['Continue your notes here, add a quick sketch, or map how the ideas connect.']));
@@ -305,10 +298,9 @@ function block(code){
   out.push(P(R('Break it into steps:',{s:21,b:true})));
   out.push(P(R('1) Name one cause or effect.    2) Give one piece of evidence.    3) Write one sentence explaining the link.',{s:20})));
   out.push(callout('Sentence frame',['One key cause/effect of '+s.title.split(':')[0].toLowerCase()+' was ______, shown by ______, which mattered because ______.']));
-  out.push(callout('Modeled example (one worked note — yours will differ)',['A key idea of '+s.title.split(':')[0].toLowerCase()+' was '+s.vocab[0].term+': '+s.vocab[0].def]));
   out.push(callout('GUIDED NOTE REHEARSAL LAB',['Rehearse the cause→effect chain below, then transfer it to your Cornell notes.']));
-  out.push(writeTable(['Step','Rehearse it here'],[['Name it',''],['Evidence',''],['Explain',''],['Headline','']],[2639,7153],{rowH:760}));
-  out.push(writeBox('TRANSFER CHECK — move one rehearsed idea onto the front notes',3));
+  out.push(writeTable(['Step','Rehearse it here'],[['Name it',''],['Evidence',''],['Explain',''],['Headline','']],[2639,7153],{rowH:560}));
+  out.push(writeBox('TRANSFER CHECK — move one rehearsed idea onto the front notes',2));
   // Light Support Back
   out.push(H(`Light Support for the Cornell Notes — ${code}`,3,{brk:true}));
   out.push(P(R('A lighter scaffold for the SAME Cornell notes. Try the notes first; reach for this only if you need it.',{s:20,i:true})));
@@ -316,11 +308,11 @@ function block(code){
     s.vocab.map(v=>[v.term,'']),[3248,6544],{lines:2}));
   out.push(P(R('Guiding questions — answer on the lines below (or in your front notes):',{s:21,b:true})));
   a.tdq.forEach(q=>out.push(P(R('• '+q,{s:20}))));
-  out.push(...ruled(6));
-  out.push(gap(80));
+  out.push(...ruled(4));
+  out.push(gap(60));
   out.push(callout('WHICH CUE STILL NEEDS WORK?',['Circle the Cornell cue from the front page you still need help with, and tell your teacher so we can go over it.']));
   out.push(callout('LIGHT PROCESSING LAB',['Answer one guiding question from above in a full sentence, in your own words.']));
-  out.push(...ruled(8));
+  out.push(...ruled(3));
   // Activity 4 — Close Read
   out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15}));
   out.push(P(R('Reading type: '+BRAND+'-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
@@ -330,7 +322,7 @@ function block(code){
   a.tdq.forEach((q,i)=>out.push(P(R(`${i+1}. ${q}`,{s:20}))));
   out.push(P(R('RESPONSE CHOICE: answer any question by writing in the Evidence Lab, saying/recording it, or diagramming it.',{s:20,i:true})));
   out.push(callout('CLOSE-READ EVIDENCE LAB',['Log evidence from the passage below.']));
-  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','',''],['','','']],[3264,3264,3264],{rowH:760}));
+  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','',''],['','','']],[3264,3264,3264],{rowH:620}));
   const gmap=(IMG[code]||{}).map;
   if(s.geo && !gmap){out.push(gap(100));
     out.push(...doodle('GEOGRAPHER’S LENS (G · SSP.06) — sketch & label the geography',s.geo+' Then draw a quick map below and label at least two places.',1050));}
@@ -387,7 +379,9 @@ function block(code){
     'Sentence starters: “Why did ______ lead to ______?”  ·  “Which mattered more — ______ or ______ — and why?”  ·  “What is the BEST evidence that ______?”  ·  “Evaluate whether ______.”  ·  “Defend or challenge: ______.”',
     'Frame:  [Analyze / Evaluate / Justify]  +  [something from THIS standard]  +  “using evidence.”',
     'Quick check: does my question make the reader THINK and use evidence? If yes, it’s DOK-3.']));
-  out.push(writeTable(['Your DOK-3 question','Your answer key (one sentence)'],[['',''],['','']],[4896,4896],{rowH:1000}));
+  out.push(writeTable(['Your DOK-3 question','Your answer key (one sentence)'],[['',''],['','']],[4896,4896],{rowH:900}));
+  out.push(callout('REVIEW & REFLECT (this uses the second page meaningfully)',['Which quiz item was hardest, and which learning target does it check? What will you review before the assessment? Answer on the lines — or say/diagram it.']));
+  out.push(...ruled(4));
   // Activity 7 — CER
   out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:15}));
   out.push(callout('BIG-QUESTION ORGANIZER (before you write) — '+EQ,['Plan your argument here, then use it to write your claim, evidence, and reasoning below.']));
@@ -413,7 +407,9 @@ function block(code){
   out.push(callout('UDL ACCESS & MTSS SUPPORT (this standard)',['UDL 3.0 (CAST, 2024): read-aloud on request · key terms glossed (EN/ES) · respond in writing, speech, or a labeled diagram · large-print & screen-reader friendly. Same learning target for everyone; supports vary the means, not the ceiling.','MTSS: Tier 1 — this core lesson for all · Tier 2 — small-group reteach of this standard using its Cornell cues + graphic organizer, then re-check · Tier 3 — intensive 1:1 with concrete→representational→abstract scaffolding, progress-monitored to the same standard.']));
   out.push(callout('SHOW WHAT YOU KNOW — YOUR WAY (same CER rubric, same standard)',['Build your Claim–Evidence–Reasoning in whichever mode lets you think best — the standard and the CER rubric are identical for every mode; the mode changes how you SHOW it, never what you are held to:','WRITE it  ·  SAY it aloud and record it (audio or video)  ·  DRAW and label a diagram that makes the argument  ·  BUILD a model or artifact and caption its claim, evidence, and reasoning.','You may ask for a word processor, speech-to-text, a scribe, or a sentence/argument frame — these change how you produce, not the standard you meet.']));
   out.push(callout('CHOICE & VOICE — you decide how to go deeper (pick ONE)',['You choose your path to show this standard — every option meets the same target:','DEFEND a term: pick the vocabulary word that matters most and argue why in 2–3 sentences.  ·  CONNECT it: pick a current event, your community, or your own life and explain how this standard shows up there.  ·  TAKE A SIDE: pick one debatable question and argue your position with evidence.','Your pick is yours — bring what matters to you into the work.']));
+  out.push(...ruled(3));
   out.push(callout('REFLECT & CONNECT — how your thinking grew, and whose view you weighed',['Reflect (self-awareness): What did you believe about this topic BEFORE, and what changed AFTER? Name one thing to revisit.','Consider another view (empathy): Name one person or group who might see this standard differently than you; state their view fairly in one sentence — even if you disagree.','Norm (restorative): we critique ideas, not people; we assume good faith; we make room for every voice.']));
+  out.push(...ruled(4));
   return out;
 }
 const standards=[]; ORDER.forEach(c=>block(c).forEach(x=>standards.push(x)));
