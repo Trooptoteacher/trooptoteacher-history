@@ -26,6 +26,13 @@ const bd=(c=BORD,sz=4)=>({style:BorderStyle.SINGLE,size:sz,color:c});
 const CELLB=(c=BORD)=>({top:bd(c),bottom:bd(c),left:bd(c),right:bd(c)});
 const LP=process.env.LARGEPRINT?Number(process.env.LARGEPRINT):1;
 const SZ=(n)=>Math.round(n*LP);
+// 1x1 fully-transparent PNG. Used as an invisible width-forcing spacer inside writing-line
+// cells: iOS/Apple/Google previewers IGNORE <w:tblLayout type="fixed"> and AUTOFIT columns to
+// their widest *glyph* content — an empty ruled cell then collapses to its header width. A fixed-
+// width transparent image is measured by every renderer, so it holds the column open everywhere.
+const SPACER_PNG=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4//8/AwAI/AL+p5qgoAAAAABJRU5ErkJggg==','base64');
+// width-forcing invisible image, w in twips -> px @96dpi (w/15), held ~300 twips inside the cell margin.
+function widthAnchor(w){return new ImageRun({type:'png',data:SPACER_PNG,transformation:{width:Math.max(8,Math.round((w-300)/15)),height:1},altText:{title:'',description:'spacer',name:'spacer'}});}
 function R(text,{s=22,b=false,i=false,c=INK,caps=false}={}){return new TextRun({text,size:SZ(s),bold:b,italics:i,color:c,font:FONT,allCaps:caps});}
 function P(runs,{align,spacing,indent,border}={}){return new Paragraph({alignment:align,spacing:spacing||{after:100},indent,border,children:Array.isArray(runs)?runs:[runs]});}
 function H(text,lvl,{brk=false,mins=null}={}){const map={1:HeadingLevel.HEADING_1,2:HeadingLevel.HEADING_2,3:HeadingLevel.HEADING_3};
@@ -82,7 +89,10 @@ function ruled(n=3,w=CW){const out=[];for(let i=0;i<n;i++){
   out.push(new Paragraph({widowControl:false,spacing:{before:SZ(70),after:SZ(20)},
     tabStops:[{type:TabStopType.RIGHT,position:Math.max(240,w-120)}],
     border:{bottom:{style:BorderStyle.SINGLE,size:8,color:'8C8C8C',space:1}},
-    children:[new TextRun({text:'\t',size:SZ(24),color:'FFFFFF',font:FONT})]}));
+    // First baseline carries an invisible fixed-width image so autofit previewers (iOS/Google)
+    // keep the whole column at width w instead of collapsing an empty writing cell.
+    children:i===0?[widthAnchor(w),new TextRun({text:'\t',size:SZ(24),color:'FFFFFF',font:FONT})]
+                  :[new TextRun({text:'\t',size:SZ(24),color:'FFFFFF',font:FONT})]}));
   out.push(new Paragraph({widowControl:false,spacing:{before:0,after:SZ(70)},children:[new TextRun({text:'',size:2})]}));
 }return out;}
 function linesFor(h){return Math.max(2,Math.round(h/380));}
@@ -130,7 +140,7 @@ function fillGap(size,code,topic){
 function gap(h=140){return new Paragraph({spacing:{after:h},children:[R('',{s:12})]});}
 // DOODLE / SKETCH zone — labeled cream bar + a tall open box for drawing (UDL: draw your thinking)
 function doodle(label,note,h=1500){return [callout(label,[note]),
-  table([new TableRow({height:{value:h,rule:HeightRule.ATLEAST},children:[cell(P(R(' ',{s:12}),{spacing:{after:0}}),{w:CW})]})],[CW])];}
+  table([new TableRow({height:{value:h,rule:HeightRule.ATLEAST},children:[cell(P([widthAnchor(CW),R(' ',{s:12})],{spacing:{after:0}}),{w:CW})]})],[CW])];}
 function priorityBar(n,term,es){return table([new TableRow({children:[cell([
   P([R(`PRIORITY TERM ${n}`,{s:16,b:true,c:GOLD}),R(`     ${term}`,{s:24,b:true,c:WHITE}),R(`      ·   ES: ${es}`,{s:18,c:'D9D5C8'})],{spacing:{after:0}})],{w:CW,fill:NAVY})]})],[CW]);}
 function retrievalBox(code){return [gap(120),
