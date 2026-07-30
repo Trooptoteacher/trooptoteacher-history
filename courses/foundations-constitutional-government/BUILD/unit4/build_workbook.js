@@ -253,8 +253,11 @@ function block(code){
   out.push(P(R('Name: ______________________    Class / Period: __________    Date: __________',{s:21})));
   out.push(P(R(`${code} — ${s.title}  •  Lean Student Deck slides ${r.range}  •  direct-teaching slides ${r.dt}`,{s:20,c:GREY})));
   out.push(P(R('Your learning targets are on this standard’s opening page — take notes that help you meet them.',{s:19,i:true,c:GREY}),{spacing:{after:60}}));
-  out.push(writeTable(['Cues (tied to your learning targets)','My notes'],
-    (s.cues||['Who benefited?','Who bore the costs?','Who decided?','Key terms →']).map(q=>[q,'']),[3050,6598],{lines:5}));
+  // Cornell note-taking: narrow cue column + WIDE note column, then full-page-width writing lines
+  out.push(writeTable(['Cue Column — questions & key terms','Note-Taking Column — write your notes here'],
+    (s.cues||['Main idea?','Key term →','Why does it matter?','Connect it →']).map(q=>[q,'']),[2600,7048],{lines:8}));
+  out.push(P(R('Keep taking notes — lines run the full width of the page:',{s:19,i:true,c:GREY}),{spacing:{before:100,after:30}}));
+  out.push(...ruled(10));
   out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',1400));
   // Cornell Notes — BACK (keep going, then process & check)
   out.push(H(`Cornell Notes — keep going, then process & check — ${code}`,2,{brk:true}));
