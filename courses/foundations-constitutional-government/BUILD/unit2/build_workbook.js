@@ -378,6 +378,8 @@ function block(code){
     ...[['Claim',3],['Evidence (two specifics)',5],['Reasoning',4]].map(([lab,n])=>new TableRow({children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2200}),cell(ruled(n),{w:7448})]}))
   ]}));
   out.push(callout('SELF-CHECK against the CER rubric (see Toolkit)',['Before submitting: Is my claim defensible? Do I have TWO specific pieces of evidence? Does my reasoning explain HOW the evidence proves the claim?']));
+  out.push(callout('CHOICE & VOICE — you decide how to go deeper (pick ONE)',['You choose your path to show this standard — every option meets the same target:','DEFEND a term: pick the vocabulary word you think matters most and argue why in 2\u20133 sentences.  \u00b7  CONNECT it: pick a current event, your community, or your own life and explain how this standard shows up there.  \u00b7  TAKE A SIDE: pick one debatable question from this standard and argue your position with evidence.','Your pick is yours \u2014 bring what matters to you into the work.']));
+  out.push(callout('REFLECT & CONNECT — how your thinking grew, and whose view you weighed',['Reflect (self-awareness): What did you believe about this topic BEFORE, and what changed AFTER? Name one thing to revisit.','Consider another view (empathy): Name one person or group who might see this standard differently than you. State their view fairly in one sentence \u2014 even if you disagree.','Norm (restorative): we critique ideas, not people; we assume good faith; we make room for every voice.']));
   // Exit Ticket — end-of-standard formative (vetted item from the question bank; key + next steps teacher-side)
   const xt=EXIT[code];
   if(xt) out.push(table([new TableRow({children:[cell([

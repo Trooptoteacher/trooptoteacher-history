@@ -49,7 +49,8 @@ The framework is **substantially embedded** in Representation and Strategy Devel
 - **[HIGH] A&E 5.1/4.1 — CLOSED.** Every standard's constructed-response (CER) task in all 7 workbooks now carries a real **"Show what you know — your way"** element: write / say-and-record / draw-and-label / build, scored on the *same* CER rubric against the *same* standard, with word-processor, speech-to-text, scribe, and sentence-frame provisions. Verified: 35 blocks (one per standard), images intact, leak-clean. **Guideline 4 and 5 re-score ⚠️ → ✅** (multi-modal expression is now an artifact affordance in the workbook, not only in the organizers).
 - **[MED] MTSS Tier 2/3 named resources — CLOSED.** `MTSS_SUPPORT_MAP.md` names the actual Tier 1/2/3 resource for all 35 standards (workbook cycle / Guided Support + best-fit organizer + Part 6 routing / intensive CRA + parallel-form re-assessment), with the triggers between tiers. Tier 3 is now a named routine, not just a protocol.
 - **[MED] Perception 1.1 — CLOSED (with one honest external step).** Now shipped: a **large-print edition** of every workbook (16.5 pt, `*_LargePrint.docx`) and **PDF/UA tagged reading order on all 14 deck PDFs** (StructTreeRoot + MarkInfo + outline + Lang + Title + DisplayDocTitle, verified). Workbook docx are already heading-structured + fully alt-texted (screen-reader accessible); a **workbook tagged-PDF** is a one-command Word/LibreOffice export on the district side — not bundled only because this build environment's LibreOffice is non-functional. **Guideline 1 re-scores ⚠️ → ✅** for the decks and large-print; the workbook tagged-PDF is the single documented external step. See `ACCESSIBILITY_STATEMENT.md`.
-- **[LOW] remaining** (7.1 student choice menu; 9.2/9.4 empathy/reflection; 2.4/5.4 bias-in-language/modes): the CER mode element partially addresses 5.4 (honoring modes) and 6.5 (challenge exclusionary practices); the rest remain minor ⚠️ enhancements.
+- **[LOW] Engagement 7.1 + Guideline 9 — CLOSED.** Every standard's section now carries two real student-facing elements: a **"Choice & Voice"** menu (student picks how to go deeper — defend a term / connect to their life or community / take a side; 7.1 autonomy + 7.2 relevance) and a **"Reflect & Connect"** block (belief before→after self-awareness 9.3; fairly stating a differing view 9.2/9.4 empathy; a restorative discussion norm). 35 of each, verified; images intact; leak-clean. **Guideline 7 (7.1) and Guideline 9 re-score to ✅.**
+- Residual minor notes (2.4/5.4 bias-in-language/modes) are partly addressed by the CER mode element (5.4) and the "state their view fairly" empathy prompt; no ❌ remain.
 
 ### Post-fix summary
 | Principle | Guideline | Before | After |
@@ -60,8 +61,8 @@ The framework is **substantially embedded** in Representation and Strategy Devel
 | Action & Expression | 4 Interaction | ⚠️ | ✅ |
 | Action & Expression | 5 Expression & Communication | ⚠️ | ✅ |
 | Action & Expression | 6 Strategy Development | ✅ | ✅ |
-| Engagement | 7 Welcoming Interests | ✅ (7.1 ⚠️) | ✅ (7.1 ⚠️) |
+| Engagement | 7 Welcoming Interests | ✅ (7.1 ⚠️) | ✅ (7.1 closed — Choice & Voice) |
 | Engagement | 8 Sustaining Effort | ✅ | ✅ |
-| Engagement | 9 Emotional Capacity | ⚠️ | ⚠️ |
+| Engagement | 9 Emotional Capacity | ⚠️ | ✅ (Reflect & Connect) |
 
-**Net:** 7 of 9 guidelines ✅ present-and-strong with artifact evidence; 2 ⚠️ remaining are minor Engagement enhancements (9 emotional capacity; 7.1 student choice menu). Every UDL access strip now maps to a real design affordance; the only external step is exporting a workbook to tagged PDF (one Word/LibreOffice command — the docx is prepared for it).
+**Net:** **9 of 9 guidelines ✅ present-and-strong with artifact evidence.** Every UDL access strip maps to a real design affordance embedded in the artifacts, per standard. The single external step is exporting a workbook to tagged PDF (one Word/LibreOffice command — the docx is already heading-structured and fully alt-texted).
