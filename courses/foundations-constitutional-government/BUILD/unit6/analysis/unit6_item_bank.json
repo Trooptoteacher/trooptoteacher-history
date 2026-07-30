@@ -1,0 +1,2488 @@
+[
+  {
+    "id": "GC.23-Q01",
+    "standard": "GC.23",
+    "unit": 6,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "The Supreme Court's “clear and present danger” test for limiting speech was established in which case?",
+    "options": {
+      "A": "Tinker v. Des Moines",
+      "B": "Schenck v. United States",
+      "C": "Engel v. Vitale",
+      "D": "Texas v. Johnson"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "First Amendment",
+      "freedom of speech",
+      "Schenck v. United States"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -1.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Tinker addressed student symbolic speech, not the danger test; students confuse two speech cases."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Engel v. Vitale is an Establishment Clause (school prayer) case, not a speech-limit test."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Texas v. Johnson protected flag burning as symbolic speech; it did not create the danger test."
+      }
+    ],
+    "key_rationale": "Schenck v. United States (1919) produced the “clear and present danger” standard allowing limits on speech that creates a real, immediate danger.",
+    "dok_rationale": "Recall of the case that produced a named legal test.",
+    "blooms_rationale": "Student retrieves a fact linking a case to a test.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.23-Q02",
+    "standard": "GC.23",
+    "unit": 6,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "In which case did the Supreme Court protect students who wore black armbands to school to protest a war?",
+    "options": {
+      "A": "Lemon v. Kurtzman",
+      "B": "Miller v. California",
+      "C": "Tinker v. Des Moines",
+      "D": "New York Times v. United States"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "symbolic speech",
+      "Tinker v. Des Moines",
+      "student rights"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Lemon v. Kurtzman concerned church–state separation, not student armbands."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Miller v. California defined obscenity limits, not student protest."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "New York Times v. United States addressed press and prior restraint, not student symbolic speech."
+      }
+    ],
+    "key_rationale": "Tinker v. Des Moines (1969) protected the silent armband protest as symbolic speech, ruling students do not shed constitutional rights at the schoolhouse gate.",
+    "dok_rationale": "Recall of the case matching a described fact pattern.",
+    "blooms_rationale": "Student recognizes a case from a factual description.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.23-Q03",
+    "standard": "GC.23",
+    "unit": 6,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "How did the Supreme Court's decision in Engel v. Vitale (1962) apply the Establishment Clause?",
+    "options": {
+      "A": "It barred official prayer organized by public schools",
+      "B": "It required every public school to hold a daily prayer",
+      "C": "It banned students from praying privately at school",
+      "D": "It allowed states to select an official religion"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Establishment Clause",
+      "Engel v. Vitale",
+      "school prayer"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": -0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The opposite of the ruling; students may think the Court promoted school prayer."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Common misconception that Engel banned all prayer; it barred government-organized prayer, not private student prayer."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "The Establishment Clause forbids favoring a religion; this reverses its purpose."
+      }
+    ],
+    "key_rationale": "Engel v. Vitale held that a state-composed, school-sponsored prayer violated the Establishment Clause's ban on government establishing or favoring religion.",
+    "dok_rationale": "Student must interpret how a clause was applied, not merely name the case.",
+    "blooms_rationale": "Student explains the meaning and application of a ruling.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.23-Q04",
+    "standard": "GC.23",
+    "unit": 6,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In New York Times v. United States (1971), the Supreme Court blocked the government from stopping publication of the Pentagon Papers. Which First Amendment principle did this decision protect?",
+    "options": {
+      "A": "The clear and present danger test",
+      "B": "The right to symbolic speech",
+      "C": "The separation of church and state",
+      "D": "The freedom of the press from prior restraint"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "freedom of the press",
+      "prior restraint",
+      "New York Times v. United States"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "The danger test comes from Schenck and concerns speech, not press censorship before publication."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Symbolic speech (armbands, flag burning) is a different doctrine than press freedom."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Church–state separation is the Establishment Clause, unrelated to press censorship."
+      }
+    ],
+    "key_rationale": "The case established that the government generally may not impose “prior restraint”—censorship before publication—on the press.",
+    "dok_rationale": "Student connects a case outcome to the correct underlying principle.",
+    "blooms_rationale": "Student interprets which principle a ruling protected.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.23-Q05",
+    "standard": "GC.23",
+    "unit": 6,
+    "question_number": 5,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "One of the most famous civil-liberties trials in American history took place in Dayton, Tennessee, when teacher John Scopes was tried in 1925 under the Butler Act for teaching evolution. In 2–4 sentences, explain why the Scopes Trial is remembered as a fight over free speech and academic freedom.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": true,
+    "topics": [
+      "Scopes Trial",
+      "academic freedom",
+      "First Amendment",
+      "Tennessee"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.2,
+    "irt_b": 0.1,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses explain that the Butler Act banned teaching evolution, that Scopes was prosecuted (and convicted) for doing so, and that the trial became a national test of a teacher's freedom to teach ideas—linking it to First Amendment speech/academic-freedom concerns.",
+    "dok_rationale": "Student applies First Amendment ideas to a specific Tennessee case rather than recalling a definition.",
+    "blooms_rationale": "Student summarizes and explains the significance of an event in their own words.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-3pt",
+    "rubric_name": "Short Answer 3-point"
+  },
+  {
+    "id": "GC.23-Q06",
+    "standard": "GC.23",
+    "unit": 6,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "A protester at a political rally burns an American flag to express disagreement with government policy and is arrested. Based on Texas v. Johnson (1989), how would the Supreme Court most likely view this act?",
+    "options": {
+      "A": "As conduct with no connection to the First Amendment",
+      "B": "As symbolic speech protected by the First Amendment",
+      "C": "As speech creating a clear and present danger",
+      "D": "As an establishment of religion"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "symbolic speech",
+      "Texas v. Johnson",
+      "flag burning"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 2",
+    "irt_a": 1.5,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Misconception that expressive conduct is not “speech”; the Court held otherwise."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Borrows the Schenck standard, which does not apply to peaceful flag burning."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Confuses the Establishment Clause with a symbolic-speech question."
+      }
+    ],
+    "key_rationale": "Texas v. Johnson held that burning the flag as a form of political protest is symbolic speech protected by the First Amendment.",
+    "dok_rationale": "Student applies a precedent to a new fact pattern.",
+    "blooms_rationale": "Student uses a ruling to predict an outcome in a scenario.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.23-Q07",
+    "standard": "GC.23",
+    "unit": 6,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "What common constitutional principle links the Court's decisions in Tinker v. Des Moines and Texas v. Johnson?",
+    "options": {
+      "A": "Expressive conduct can qualify as speech the First Amendment protects",
+      "B": "The government may censor the press before publication",
+      "C": "Public schools may require a daily prayer",
+      "D": "Evidence from an illegal search cannot be used in court"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "symbolic speech",
+      "Tinker v. Des Moines",
+      "Texas v. Johnson"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Prior restraint belongs to New York Times v. United States, not these cases."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "School prayer is an Establishment Clause issue (Engel), not symbolic speech."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The exclusionary rule is a Fourth Amendment doctrine, outside the First Amendment."
+      }
+    ],
+    "key_rationale": "Both cases protected symbolic (expressive) conduct—armbands and flag burning—as a form of speech under the First Amendment.",
+    "dok_rationale": "Student analyzes two cases to identify a shared underlying principle.",
+    "blooms_rationale": "Student breaks down two rulings to find their common reasoning.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.23-Q08",
+    "standard": "GC.23",
+    "unit": 6,
+    "question_number": 8,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Engel v. Vitale and Lemon v. Kurtzman are often cited together. What best explains why both cases matter to the Establishment Clause?",
+    "options": {
+      "A": "Both expanded the government's power to promote religion in schools",
+      "B": "Both limited the freedom of the press during wartime",
+      "C": "Both restricted government support of religion, with Lemon providing a test to judge such laws",
+      "D": "Both protected symbolic speech by students"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Establishment Clause",
+      "Lemon v. Kurtzman",
+      "Engel v. Vitale"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Reverses the holdings; both cases limited, not expanded, government promotion of religion."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Press and wartime speech are unrelated to these Establishment Clause cases."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Symbolic speech is a separate doctrine from church–state separation."
+      }
+    ],
+    "key_rationale": "Engel barred school-sponsored prayer, and Lemon set a test courts use to decide whether a law improperly aids religion—both enforcing the Establishment Clause.",
+    "dok_rationale": "Student evaluates why two cases are grouped and judges the best characterization.",
+    "blooms_rationale": "Student assesses competing statements to select the most accurate synthesis.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.23-Q09",
+    "standard": "GC.23",
+    "unit": 6,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Claim, Evidence, Reasoning: Should student speech at school be more limited than the speech of an adult on a public street? Make a claim and defend it using Tinker v. Des Moines and at least one other First Amendment case from this standard.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "student speech",
+      "Tinker v. Des Moines",
+      "argument"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.8,
+    "irt_b": 1.0,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses state a clear claim, cite Tinker's “substantial disruption” standard accurately, bring in a second case (e.g., Texas v. Johnson, Schenck, or Engel), and reason about why school context does or does not justify greater limits.",
+    "dok_rationale": "Student builds an evidence-based argument evaluating a contested civil-liberties question.",
+    "blooms_rationale": "Student constructs and defends a judgment using multiple cases as evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-point"
+  },
+  {
+    "id": "GC.23-Q10",
+    "standard": "GC.23",
+    "unit": 6,
+    "question_number": 10,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpt, then respond.\n\n“It can hardly be argued that either students or teachers shed their constitutional rights to freedom of speech or expression at the schoolhouse gate.” — Justice Abe Fortas, Tinker v. Des Moines, 393 U.S. 503 (1969)\n\nUsing this source and your knowledge, explain what the phrase “at the schoolhouse gate” means and describe the limit the Court still placed on student speech.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Tinker v. Des Moines",
+      "schoolhouse gate",
+      "primary source"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.7,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses interpret the quotation to mean students keep free-speech rights inside school, and identify the Court's limit—speech that substantially disrupts school may still be restricted.",
+    "dok_rationale": "Student analyzes a primary-source quotation and connects it to the ruling's limits.",
+    "blooms_rationale": "Student breaks down a quoted holding and explains its meaning and boundary.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based 6-point"
+  },
+  {
+    "id": "GC.24-Q01",
+    "standard": "GC.24",
+    "unit": 6,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which Supreme Court case applied the Second Amendment to the states through the Fourteenth Amendment?",
+    "options": {
+      "A": "McDonald v. Chicago",
+      "B": "Miranda v. Arizona",
+      "C": "Engel v. Vitale",
+      "D": "Plessy v. Ferguson"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Second Amendment",
+      "incorporation",
+      "McDonald v. Chicago"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -1.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Miranda concerns the rights of the accused, not the Second Amendment."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Engel is an Establishment Clause case, unrelated to gun rights."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Plessy addressed segregation and equal protection, not the Second Amendment."
+      }
+    ],
+    "key_rationale": "McDonald v. Chicago (2010) incorporated the Second Amendment, applying it to the states through the Fourteenth Amendment.",
+    "dok_rationale": "Recall of the case tied to incorporation of the Second Amendment.",
+    "blooms_rationale": "Student retrieves a case name matched to a fact.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.24-Q02",
+    "standard": "GC.24",
+    "unit": 6,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "In District of Columbia v. Heller (2008), the Supreme Court interpreted the Second Amendment as protecting which kind of right?",
+    "options": {
+      "A": "A right belonging only to state militias",
+      "B": "A right belonging only to the military",
+      "C": "A right that applies only to Washington, D.C.",
+      "D": "An individual right to keep and bear arms"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "Second Amendment",
+      "individual right",
+      "District of Columbia v. Heller"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The militia-only reading is the interpretation the Court rejected in Heller."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Common misconception limiting the right to the armed forces."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "The case arose in D.C. but the Court's holding described a broad individual right, later extended to states."
+      }
+    ],
+    "key_rationale": "Heller held that the Second Amendment confers an individual right to keep and bear arms for lawful purposes such as self-defense.",
+    "dok_rationale": "Recall of the core holding of a case.",
+    "blooms_rationale": "Student identifies the stated interpretation from a ruling.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.24-Q03",
+    "standard": "GC.24",
+    "unit": 6,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "For much of American history, what were the two competing interpretations of the Second Amendment's text?",
+    "options": {
+      "A": "Whether the right applied to speech or to assembly",
+      "B": "Whether it protected an individual right or a militia-based right",
+      "C": "Whether it applied to the press or to religion",
+      "D": "Whether it protected voting or property"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "Second Amendment",
+      "interpretation",
+      "militia"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Speech and assembly are First Amendment issues, not the Second Amendment debate."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Press and religion belong to the First Amendment, not this debate."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Voting and property are governed by other constitutional provisions."
+      }
+    ],
+    "key_rationale": "The long-running debate was whether “the right of the people to keep and bear Arms” is an individual right or tied to service in a “well regulated Militia.”",
+    "dok_rationale": "Student must interpret the meaning of the debate, not merely recall a case.",
+    "blooms_rationale": "Student explains the substance of a constitutional controversy.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.24-Q04",
+    "standard": "GC.24",
+    "unit": 6,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What government action did the Supreme Court strike down in District of Columbia v. Heller (2008)?",
+    "options": {
+      "A": "A federal law requiring background checks",
+      "B": "A state law taxing firearm sales",
+      "C": "A strict ban on handguns in the federal district",
+      "D": "A rule requiring gun owners to join a militia"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "District of Columbia v. Heller",
+      "handgun ban",
+      "Second Amendment"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Plausible gun-regulation topic, but Heller did not concern background checks."
+      },
+      {
+        "label": "B",
+        "code": "NE",
+        "rationale": "A firearms tax is a related topic but not what Heller decided."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Reflects the militia-only misconception the Court rejected."
+      }
+    ],
+    "key_rationale": "Heller struck down the District of Columbia's strict handgun ban, holding it violated the individual right to keep and bear arms.",
+    "dok_rationale": "Student interprets the specific outcome of a case.",
+    "blooms_rationale": "Student explains what a ruling invalidated.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.24-Q05",
+    "standard": "GC.24",
+    "unit": 6,
+    "question_number": 5,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In 2–4 sentences, explain what “incorporation” means and how McDonald v. Chicago (2010) used it in relation to the Second Amendment.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "incorporation",
+      "McDonald v. Chicago",
+      "Fourteenth Amendment"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.2,
+    "irt_b": 0.1,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses define incorporation as applying a Bill of Rights protection to the states through the Fourteenth Amendment, and explain that McDonald incorporated the Second Amendment so it binds state and local governments, not just the federal government.",
+    "dok_rationale": "Student explains a concept and applies it to a specific case.",
+    "blooms_rationale": "Student summarizes and explains a legal concept in context.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-3pt",
+    "rubric_name": "Short Answer 3-point"
+  },
+  {
+    "id": "GC.24-Q06",
+    "standard": "GC.24",
+    "unit": 6,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In Heller, the Court said the Second Amendment right is “not unlimited.” What does this most nearly mean?",
+    "options": {
+      "A": "Only soldiers may own any firearm",
+      "B": "Governments may still regulate who may carry firearms, and where and how",
+      "C": "The Second Amendment no longer applies to the states",
+      "D": "All firearm laws are automatically unconstitutional"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "Second Amendment",
+      "regulation",
+      "Heller"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Restates the militia/military-only misconception the Court rejected."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "The opposite occurred; McDonald extended the right to the states."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Misreads “not unlimited”—the phrase means some regulation is allowed."
+      }
+    ],
+    "key_rationale": "By calling the right “not unlimited,” the Court signaled that reasonable regulations on carrying and possession remain permissible.",
+    "dok_rationale": "Student interprets the meaning and implication of a phrase from a ruling.",
+    "blooms_rationale": "Student explains the meaning of a qualification the Court used.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.24-Q07",
+    "standard": "GC.24",
+    "unit": 6,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "How did McDonald v. Chicago (2010) build directly on the Court's earlier decision in District of Columbia v. Heller (2008)?",
+    "options": {
+      "A": "It reversed Heller and returned to a militia-only reading",
+      "B": "It limited the Heller right to Washington, D.C. alone",
+      "C": "It replaced the Second Amendment with a new amendment",
+      "D": "It took the individual right recognized in Heller and applied it to the states"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "McDonald v. Chicago",
+      "Heller",
+      "incorporation"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.7,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "McDonald reinforced, not reversed, the individual-right reading."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The reverse—McDonald extended the right beyond the federal district to the states."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Courts interpret amendments; they do not replace them by ruling."
+      }
+    ],
+    "key_rationale": "Heller established the individual right in a federal enclave; McDonald incorporated that right so it also binds state and local governments.",
+    "dok_rationale": "Student analyzes the relationship and sequence between two connected rulings.",
+    "blooms_rationale": "Student examines how one decision extended another.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.24-Q08",
+    "standard": "GC.24",
+    "unit": 6,
+    "question_number": 8,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The Second Amendment reads: “A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.” In Heller, how did the Court treat the opening clause about the militia?",
+    "options": {
+      "A": "As a stated purpose that did not restrict the right to militia members only",
+      "B": "As proof that only militia members hold the right",
+      "C": "As language that cancels the rest of the amendment",
+      "D": "As a requirement that gun owners register with the army"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Second Amendment",
+      "textual interpretation",
+      "Heller"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 1.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "This is the militia-only reading the Court explicitly rejected."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "The Court read the clauses together; it did not treat one as nullifying the other."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Invents a registration requirement the text and ruling do not contain."
+      }
+    ],
+    "key_rationale": "The Court treated the militia clause as a prefatory statement of purpose that does not limit the operative clause guaranteeing an individual right.",
+    "dok_rationale": "Student analyzes how the Court parsed the amendment's text.",
+    "blooms_rationale": "Student breaks down the Court's reading of a constitutional clause.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.24-Q09",
+    "standard": "GC.24",
+    "unit": 6,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Claim, Evidence, Reasoning: Does the Second Amendment protect an individual right, a militia-based right, or both? Make a claim and defend it using the amendment's text and the ruling in District of Columbia v. Heller.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Second Amendment",
+      "interpretation",
+      "argument"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.8,
+    "irt_b": 1.1,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses state a clear claim, quote or paraphrase the amendment's text accurately, cite Heller's individual-right holding, and reason about how the militia clause relates to the operative clause.",
+    "dok_rationale": "Student constructs an evidence-based argument on a contested interpretation.",
+    "blooms_rationale": "Student defends a judgment using text and precedent.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-point"
+  },
+  {
+    "id": "GC.24-Q10",
+    "standard": "GC.24",
+    "unit": 6,
+    "question_number": 10,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpt, then respond.\n\n“There seems to us no doubt, on the basis of both text and history, that the Second Amendment conferred an individual right to keep and bear arms.” — Justice Antonin Scalia, District of Columbia v. Heller, 554 U.S. 570 (2008)\n\nUsing this source and your knowledge, explain what interpretation of the Second Amendment the Court adopted and how a later case extended it to the states.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Heller",
+      "individual right",
+      "primary source"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses interpret the quotation as adopting the individual-right reading (based on text and history) and explain that McDonald v. Chicago later incorporated that right to the states via the Fourteenth Amendment.",
+    "dok_rationale": "Student analyzes a primary-source quotation and connects it to a later development.",
+    "blooms_rationale": "Student breaks down a quoted holding and traces its extension.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based 6-point"
+  },
+  {
+    "id": "GC.25-Q01",
+    "standard": "GC.25",
+    "unit": 6,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "The requirement that police warn suspects of the right to remain silent and to an attorney comes from which case?",
+    "options": {
+      "A": "Mapp v. Ohio",
+      "B": "Gideon v. Wainwright",
+      "C": "Miranda v. Arizona",
+      "D": "Brown v. Board of Education"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Miranda v. Arizona",
+      "self-incrimination",
+      "rights of the accused"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -1.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Mapp created the exclusionary rule for illegal searches, not the warnings."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Gideon guaranteed the right to a lawyer, not the police warnings."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Brown addressed school segregation, unrelated to the rights of the accused."
+      }
+    ],
+    "key_rationale": "Miranda v. Arizona (1966) requires police to warn suspects of their rights—the “Miranda rights”—before questioning.",
+    "dok_rationale": "Recall of the case that produced a named warning.",
+    "blooms_rationale": "Student retrieves a case name matched to a fact.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.25-Q02",
+    "standard": "GC.25",
+    "unit": 6,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "The exclusionary rule—that evidence obtained by an illegal search cannot be used in court—comes from which case?",
+    "options": {
+      "A": "Mapp v. Ohio",
+      "B": "Miranda v. Arizona",
+      "C": "Gideon v. Wainwright",
+      "D": "Engel v. Vitale"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Mapp v. Ohio",
+      "exclusionary rule",
+      "Fourth Amendment"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Miranda produced the warnings, not the exclusionary rule."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Gideon concerned the right to counsel, not illegally seized evidence."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Engel is a First Amendment school-prayer case, unrelated to searches."
+      }
+    ],
+    "key_rationale": "Mapp v. Ohio (1961) established the exclusionary rule, enforcing the Fourth Amendment by barring illegally obtained evidence.",
+    "dok_rationale": "Recall of the case tied to a named rule.",
+    "blooms_rationale": "Student retrieves a case name matched to a rule.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.25-Q03",
+    "standard": "GC.25",
+    "unit": 6,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What right did the Supreme Court guarantee in Gideon v. Wainwright (1963)?",
+    "options": {
+      "A": "The right of police to search a home without a warrant",
+      "B": "The right to a state-provided lawyer for defendants who cannot afford one",
+      "C": "The right to refuse a trial entirely",
+      "D": "The right to a secret trial"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "Gideon v. Wainwright",
+      "right to counsel",
+      "Sixth Amendment"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Warrantless searches relate to the Fourth Amendment (Mapp), not the right to counsel."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Misunderstands the right; defendants cannot simply refuse trial."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The Sixth Amendment favors public, not secret, trials."
+      }
+    ],
+    "key_rationale": "Gideon held that a fair trial requires counsel, so states must provide a lawyer to defendants too poor to hire one.",
+    "dok_rationale": "Student interprets the specific guarantee of a case.",
+    "blooms_rationale": "Student explains what a ruling established.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.25-Q04",
+    "standard": "GC.25",
+    "unit": 6,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The exclusionary rule from Mapp v. Ohio enforces which constitutional protection?",
+    "options": {
+      "A": "The right to a speedy trial",
+      "B": "The freedom of speech",
+      "C": "The right to counsel",
+      "D": "The protection against unreasonable searches and seizures"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "exclusionary rule",
+      "Fourth Amendment",
+      "search and seizure"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "The speedy-trial right is a Sixth Amendment protection, close in topic but not what the exclusionary rule enforces."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Free speech is a First Amendment right, unrelated to searches."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "Right to counsel is a Sixth Amendment right (Gideon), not the search protection the exclusionary rule enforces."
+      }
+    ],
+    "key_rationale": "The exclusionary rule enforces the Fourth Amendment's ban on unreasonable searches and seizures by excluding illegally obtained evidence.",
+    "dok_rationale": "Student connects a rule to the amendment it enforces.",
+    "blooms_rationale": "Student explains which protection a rule upholds.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.25-Q05",
+    "standard": "GC.25",
+    "unit": 6,
+    "question_number": 5,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In 2–4 sentences, explain what the exclusionary rule is and which amendment it enforces.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "exclusionary rule",
+      "Fourth Amendment",
+      "Mapp v. Ohio"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.2,
+    "irt_b": 0.1,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses state that the exclusionary rule bars evidence obtained through an illegal (warrantless or unreasonable) search from being used in court, and identify the Fourth Amendment as the protection it enforces (from Mapp v. Ohio).",
+    "dok_rationale": "Student explains a rule and links it to its amendment rather than only naming it.",
+    "blooms_rationale": "Student summarizes and explains a legal rule in context.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-3pt",
+    "rubric_name": "Short Answer 3-point"
+  },
+  {
+    "id": "GC.25-Q06",
+    "standard": "GC.25",
+    "unit": 6,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The Miranda warnings protect a suspect's right against which of the following?",
+    "options": {
+      "A": "Cruel and unusual punishment",
+      "B": "Being forced to incriminate oneself",
+      "C": "Losing property without payment",
+      "D": "Being denied the right to vote"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "Miranda rights",
+      "Fifth Amendment",
+      "self-incrimination"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Cruel and unusual punishment is the Eighth Amendment, a nearby but different accused-rights protection."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Takings/property compensation is a different Fifth Amendment clause, not self-incrimination."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Voting rights are unrelated to police interrogation warnings."
+      }
+    ],
+    "key_rationale": "Miranda warnings protect the Fifth Amendment right against self-incrimination by informing suspects they may remain silent.",
+    "dok_rationale": "Student interprets which right the warnings safeguard.",
+    "blooms_rationale": "Student explains the purpose of a required warning.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.25-Q07",
+    "standard": "GC.25",
+    "unit": 6,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Mapp v. Ohio, Gideon v. Wainwright, and Miranda v. Arizona are grouped together for what shared reason?",
+    "options": {
+      "A": "All three expanded the government's power to convict suspects",
+      "B": "All three concerned freedom of religion",
+      "C": "All three used the Court's power to protect an individual accused of a crime against the power of the state",
+      "D": "All three dealt with the Second Amendment"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "rights of the accused",
+      "individual vs. state",
+      "Bill of Rights"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Reverses the pattern; these cases limited state power over the accused."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Religion is a First Amendment topic, not the rights of the accused."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "None of the three involve the Second Amendment."
+      }
+    ],
+    "key_rationale": "Each case applied a Bill of Rights protection (4th, 6th, and 5th Amendments) to shield an accused individual from the power of the state.",
+    "dok_rationale": "Student analyzes three cases to identify their unifying principle.",
+    "blooms_rationale": "Student breaks down multiple rulings to find shared reasoning.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.25-Q08",
+    "standard": "GC.25",
+    "unit": 6,
+    "question_number": 8,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Police enter a home without a warrant or valid exception and find evidence of a crime. Based on Mapp v. Ohio, how should a court most likely treat that evidence at trial?",
+    "options": {
+      "A": "Exclude it, because it was obtained through an illegal search",
+      "B": "Admit it, because the crime is serious",
+      "C": "Admit it, because the suspect was read Miranda rights",
+      "D": "Exclude it, because the suspect could not afford a lawyer"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "exclusionary rule",
+      "Mapp v. Ohio",
+      "search and seizure"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Seriousness of the crime does not cure an illegal search under the exclusionary rule."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Miranda warnings address interrogation, not the legality of a search."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Ability to afford counsel (Gideon) is unrelated to whether the search was legal."
+      }
+    ],
+    "key_rationale": "Under Mapp's exclusionary rule, evidence from an illegal search is inadmissible, regardless of the crime's severity.",
+    "dok_rationale": "Student applies a precedent to resolve a new scenario.",
+    "blooms_rationale": "Student uses a ruling to determine an outcome in a fact pattern.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.25-Q09",
+    "standard": "GC.25",
+    "unit": 6,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Claim, Evidence, Reasoning: Do the rights of the accused mainly protect the innocent or mainly shield the guilty? Make a claim and defend it using Gideon v. Wainwright and at least one other case from this standard.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "rights of the accused",
+      "argument",
+      "due process"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.8,
+    "irt_b": 1.0,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses state a clear claim, cite Gideon accurately (state-provided counsel), bring in a second case (Mapp or Miranda), and reason about how these protections function in the justice system.",
+    "dok_rationale": "Student constructs an evidence-based argument on a contested civil-liberties question.",
+    "blooms_rationale": "Student defends a judgment using multiple cases as evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-point"
+  },
+  {
+    "id": "GC.25-Q10",
+    "standard": "GC.25",
+    "unit": 6,
+    "question_number": 10,
+    "type": "extended_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "In an extended response, evaluate which of the three cases—Mapp v. Ohio, Gideon v. Wainwright, or Miranda v. Arizona—did the most to expand the rights of the accused in the 1960s. Support your evaluation with specific facts about each case.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "rights of the accused",
+      "evaluation",
+      "landmark cases"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.9,
+    "irt_b": 1.2,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.03",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses accurately describe all three cases (exclusionary rule, right to counsel, warnings), make a defensible judgment about which had the greatest impact, and support it with reasoning tied to the amendments involved.",
+    "dok_rationale": "Student synthesizes and evaluates multiple cases to reach a supported judgment.",
+    "blooms_rationale": "Student judges relative significance using criteria and evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "ER-8pt",
+    "rubric_name": "Extended Response 8-point"
+  },
+  {
+    "id": "GC.26-Q01",
+    "standard": "GC.26",
+    "unit": 6,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which Supreme Court case overturned the “separate but equal” doctrine in public schools?",
+    "options": {
+      "A": "Plessy v. Ferguson",
+      "B": "Brown v. Board of Education",
+      "C": "Gitlow v. New York",
+      "D": "Schenck v. United States"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "Brown v. Board of Education",
+      "Equal Protection Clause",
+      "segregation"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -1.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Plessy created “separate but equal”; students confuse it with the case that ended it."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Gitlow began incorporation of the Bill of Rights, not school desegregation."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Schenck is a First Amendment speech case, unrelated to segregation."
+      }
+    ],
+    "key_rationale": "Brown v. Board of Education (1954) held that separate educational facilities are inherently unequal, overturning Plessy's “separate but equal” doctrine.",
+    "dok_rationale": "Recall of the case that overturned a doctrine.",
+    "blooms_rationale": "Student retrieves a case name matched to an outcome.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.26-Q02",
+    "standard": "GC.26",
+    "unit": 6,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which Supreme Court case allowed “separate but equal” segregation to stand?",
+    "options": {
+      "A": "Plessy v. Ferguson",
+      "B": "Brown v. Board of Education",
+      "C": "Obergefell v. Hodges",
+      "D": "Mapp v. Ohio"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Plessy v. Ferguson",
+      "separate but equal",
+      "segregation"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Brown ended “separate but equal”; it did not allow it."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Obergefell concerned marriage rights, not racial segregation."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Mapp is a Fourth Amendment case about illegal searches."
+      }
+    ],
+    "key_rationale": "Plessy v. Ferguson (1896) upheld “separate but equal,” allowing racial segregation for decades until Brown reversed it.",
+    "dok_rationale": "Recall of the case associated with a doctrine.",
+    "blooms_rationale": "Student retrieves a case name matched to a doctrine.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.26-Q03",
+    "standard": "GC.26",
+    "unit": 6,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What did Gitlow v. New York (1925) begin in the interpretation of the Fourteenth Amendment?",
+    "options": {
+      "A": "The end of the Fourteenth Amendment",
+      "B": "The overturning of school segregation",
+      "C": "The process of incorporation, applying Bill of Rights protections to the states",
+      "D": "The creation of the exclusionary rule"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Gitlow v. New York",
+      "incorporation doctrine",
+      "Due Process Clause"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "A ruling interprets an amendment; it does not end one."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "School segregation was ended later by Brown, not begun by Gitlow."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The exclusionary rule came from Mapp v. Ohio, not Gitlow."
+      }
+    ],
+    "key_rationale": "Gitlow was an early step in incorporation, using the Fourteenth Amendment's Due Process Clause to apply Bill of Rights protections to the states.",
+    "dok_rationale": "Student interprets the significance of a case within a doctrine.",
+    "blooms_rationale": "Student explains what a case began.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.26-Q04",
+    "standard": "GC.26",
+    "unit": 6,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In Obergefell v. Hodges (2015), the Supreme Court held that same-sex couples have the right to marry. Which parts of the Fourteenth Amendment did the Court rely on?",
+    "options": {
+      "A": "The clear and present danger test",
+      "B": "The Establishment Clause",
+      "C": "The Second Amendment",
+      "D": "The Due Process and Equal Protection Clauses"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "Obergefell v. Hodges",
+      "Due Process",
+      "Equal Protection Clause"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "The danger test is a First Amendment speech doctrine, not part of the Fourteenth Amendment."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "The Establishment Clause is in the First Amendment and concerns religion."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The Second Amendment concerns arms, not marriage or the Fourteenth Amendment."
+      }
+    ],
+    "key_rationale": "Obergefell relied on the Fourteenth Amendment's Due Process and Equal Protection Clauses to protect the right to marry for same-sex couples.",
+    "dok_rationale": "Student connects a ruling to the constitutional clauses it used.",
+    "blooms_rationale": "Student explains which clauses supported a decision.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.26-Q05",
+    "standard": "GC.26",
+    "unit": 6,
+    "question_number": 5,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In 2–4 sentences, explain what the incorporation doctrine is and give one example of how the Fourteenth Amendment has been used to apply a right to the states.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "incorporation doctrine",
+      "Fourteenth Amendment",
+      "Bill of Rights"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.2,
+    "irt_b": 0.1,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses define incorporation as using the Fourteenth Amendment (Due Process Clause) to apply Bill of Rights protections to state governments, and give an accurate example (e.g., Gitlow applying free-speech protection, or McDonald applying the Second Amendment).",
+    "dok_rationale": "Student explains a doctrine and applies it with an example.",
+    "blooms_rationale": "Student summarizes and illustrates a legal concept.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-3pt",
+    "rubric_name": "Short Answer 3-point"
+  },
+  {
+    "id": "GC.26-Q06",
+    "standard": "GC.26",
+    "unit": 6,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The Equal Protection Clause of the Fourteenth Amendment guarantees that no state may do which of the following?",
+    "options": {
+      "A": "Quarter soldiers in private homes",
+      "B": "Establish an official national religion",
+      "C": "Deny any person the equal protection of the laws",
+      "D": "Impose a federal income tax"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Equal Protection Clause",
+      "Fourteenth Amendment",
+      "civil rights"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Quartering soldiers is the Third Amendment, unrelated to equal protection."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Establishing religion is a First Amendment issue, not the Equal Protection Clause."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Income tax authority comes from the Sixteenth Amendment, not equal protection."
+      }
+    ],
+    "key_rationale": "The Equal Protection Clause bars a state from denying any person within its jurisdiction the equal protection of the laws.",
+    "dok_rationale": "Student interprets the meaning of a clause.",
+    "blooms_rationale": "Student explains what a clause guarantees.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.26-Q07",
+    "standard": "GC.26",
+    "unit": 6,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "How can the same Equal Protection Clause have supported segregation in Plessy v. Ferguson (1896) yet ended it in Brown v. Board of Education (1954)?",
+    "options": {
+      "A": "The clause was rewritten between the two cases",
+      "B": "The Court's interpretation of the clause changed over time",
+      "C": "The clause applied only after 1954",
+      "D": "Congress passed a new amendment in 1954"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "constitutional interpretation",
+      "Plessy v. Ferguson",
+      "Brown v. Board of Education"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The text was not rewritten; only its interpretation changed."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "The clause existed and applied in both eras; only its reading shifted."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "No new amendment was passed; Brown reinterpreted the existing clause."
+      }
+    ],
+    "key_rationale": "The words stayed the same, but the Court's interpretation shifted—from allowing “separate but equal” to holding that segregated schools are inherently unequal.",
+    "dok_rationale": "Student analyzes how constitutional meaning can change over time using two cases.",
+    "blooms_rationale": "Student breaks down how interpretation, not text, produced opposite outcomes.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.26-Q08",
+    "standard": "GC.26",
+    "unit": 6,
+    "question_number": 8,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Brown v. Board of Education rested on the finding that “separate educational facilities are inherently unequal.” Why was this reasoning significant for the Equal Protection Clause?",
+    "options": {
+      "A": "It concluded that segregation itself violated equal protection, even if facilities were similar",
+      "B": "It held that only unequal funding, not segregation, mattered",
+      "C": "It required schools to remain segregated but improve buildings",
+      "D": "It applied only to private schools"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Brown v. Board of Education",
+      "Equal Protection Clause",
+      "segregation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 1.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The Court's point was that separation itself—not just funding—was unequal."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Brown ended segregation; it did not preserve it with better buildings."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Brown addressed public schools, not private ones."
+      }
+    ],
+    "key_rationale": "By declaring separation itself unequal, the Court rejected the idea that equal facilities could justify segregation, transforming the Equal Protection Clause.",
+    "dok_rationale": "Student evaluates the significance of a case's reasoning.",
+    "blooms_rationale": "Student judges why a line of reasoning mattered for a clause.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.26-Q09",
+    "standard": "GC.26",
+    "unit": 6,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Claim, Evidence, Reasoning: How can the identical words of the Equal Protection Clause justify opposite outcomes in Plessy (1896) and Brown (1954)? Make a claim about how constitutional meaning changes and defend it with evidence from both cases.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "constitutional interpretation",
+      "Equal Protection Clause",
+      "argument"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.8,
+    "irt_b": 1.1,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.05",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses claim that constitutional meaning is shaped by interpretation over time, accurately describe Plessy (upheld segregation) and Brown (struck it down), and reason about why the same text produced different results.",
+    "dok_rationale": "Student constructs an evidence-based argument about change in constitutional meaning.",
+    "blooms_rationale": "Student defends a judgment using two contrasting cases as evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-point"
+  },
+  {
+    "id": "GC.26-Q10",
+    "standard": "GC.26",
+    "unit": 6,
+    "question_number": 10,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpts, then respond.\n\nSource 1 — U.S. Constitution, Amendment XIV, Section 1 (1868): “…nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.”\n\nSource 2 — Chief Justice Earl Warren, Brown v. Board of Education, 347 U.S. 483 (1954): “separate educational facilities are inherently unequal.”\n\nUsing both sources, explain how the Court in Brown used the Fourteenth Amendment to strike down school segregation.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Fourteenth Amendment",
+      "Brown v. Board of Education",
+      "primary source"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.8,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses connect the Equal Protection Clause in Source 1 to Warren's finding in Source 2, explaining that segregated schools deny equal protection because separation itself is unequal.",
+    "dok_rationale": "Student analyzes two primary sources and links them to a ruling's reasoning.",
+    "blooms_rationale": "Student breaks down how a clause and a holding fit together.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based 6-point"
+  },
+  {
+    "id": "GC.27-Q01",
+    "standard": "GC.27",
+    "unit": 6,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which 1990 federal law prohibits discrimination against people with disabilities and requires reasonable accommodations?",
+    "options": {
+      "A": "Title IX",
+      "B": "Americans with Disabilities Act",
+      "C": "Voting Rights Act",
+      "D": "Equal Rights Amendment"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "Americans with Disabilities Act",
+      "disability rights",
+      "civil rights legislation"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -1.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Title IX bars sex discrimination in education, not disability discrimination."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The Voting Rights Act protects voting access, not disability accommodations."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The Equal Rights Amendment (proposed) concerned sex equality and was never ratified."
+      }
+    ],
+    "key_rationale": "The Americans with Disabilities Act (1990) bars disability discrimination and requires reasonable accommodations in employment, public services, and public places.",
+    "dok_rationale": "Recall of a law matched to its purpose and date.",
+    "blooms_rationale": "Student retrieves a law's name from a description.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.27-Q02",
+    "standard": "GC.27",
+    "unit": 6,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Title IX of the Education Amendments of 1972 prohibits discrimination on the basis of what?",
+    "options": {
+      "A": "Sex, in federally funded education programs",
+      "B": "Age, in private businesses",
+      "C": "Religion, in federal elections",
+      "D": "Disability, in public transportation"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Title IX",
+      "sex discrimination",
+      "education"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Age discrimination is covered by other laws, not Title IX."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Religion in elections is not the subject of Title IX."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Disability access is covered by the ADA, not Title IX."
+      }
+    ],
+    "key_rationale": "Title IX bars discrimination on the basis of sex in any education program or activity receiving federal financial assistance.",
+    "dok_rationale": "Recall of what a law prohibits.",
+    "blooms_rationale": "Student retrieves the content of a law.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.27-Q03",
+    "standard": "GC.27",
+    "unit": 6,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In which setting does Title IX apply?",
+    "options": {
+      "A": "Any private club that charges dues",
+      "B": "All religious worship services",
+      "C": "Any education program or activity that receives federal funds",
+      "D": "Only colleges, never K–12 schools"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Title IX",
+      "federal funding",
+      "education"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": 0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PE",
+        "rationale": "Private clubs are not the target; Title IX ties to federal education funding."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Worship services are not the subject of Title IX."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Title IX covers K–12 schools as well as colleges when they receive federal funds."
+      }
+    ],
+    "key_rationale": "Title IX applies to any education program or activity—including school athletics—that receives federal financial assistance.",
+    "dok_rationale": "Student interprets the scope of a law.",
+    "blooms_rationale": "Student explains where a law applies.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.27-Q04",
+    "standard": "GC.27",
+    "unit": 6,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What does the Americans with Disabilities Act require of employers and public places?",
+    "options": {
+      "A": "That they hire only workers with disabilities",
+      "B": "That they charge lower prices to people with disabilities",
+      "C": "That they ban people with disabilities from dangerous jobs",
+      "D": "That they provide reasonable accommodations and not discriminate based on disability"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "Americans with Disabilities Act",
+      "reasonable accommodations",
+      "disability rights"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The ADA bars discrimination; it does not require hiring only people with disabilities."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The ADA concerns access and nondiscrimination, not pricing."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "The ADA protects against exclusion; it does not authorize banning people from jobs."
+      }
+    ],
+    "key_rationale": "The ADA prohibits discrimination against people with disabilities and requires reasonable accommodations in jobs, public services, and public places.",
+    "dok_rationale": "Student interprets the obligations a law creates.",
+    "blooms_rationale": "Student explains what a law requires.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.27-Q05",
+    "standard": "GC.27",
+    "unit": 6,
+    "question_number": 5,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In 2–4 sentences, explain what Title IX (1972) requires and describe one way it changed opportunity in schools.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Title IX",
+      "equal opportunity",
+      "education"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.2,
+    "irt_b": 0.1,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.03",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses state that Title IX bars sex discrimination in federally funded education programs, and describe one concrete effect (for example, expanding girls' and women's access to school athletics or other programs).",
+    "dok_rationale": "Student explains a law and identifies one effect.",
+    "blooms_rationale": "Student summarizes a law and applies it to a real change.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-3pt",
+    "rubric_name": "Short Answer 3-point"
+  },
+  {
+    "id": "GC.27-Q06",
+    "standard": "GC.27",
+    "unit": 6,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why is Korematsu v. United States (1944) remembered today as a warning rather than a model?",
+    "options": {
+      "A": "Because it upheld the wartime incarceration of Japanese Americans, a decision now widely condemned",
+      "B": "Because it expanded voting rights for all citizens",
+      "C": "Because it created the exclusionary rule",
+      "D": "Because it guaranteed the right to counsel"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Korematsu v. United States",
+      "civil liberties",
+      "wartime"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.5,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Korematsu did not concern voting rights."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The exclusionary rule came from Mapp v. Ohio, not Korematsu."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The right to counsel came from Gideon, not Korematsu."
+      }
+    ],
+    "key_rationale": "Korematsu upheld the incarceration of Japanese Americans during World War II—a ruling later widely condemned as a failure to protect civil liberties.",
+    "dok_rationale": "Student interprets why a case is viewed negatively today.",
+    "blooms_rationale": "Student explains the significance of a controversial ruling.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.27-Q07",
+    "standard": "GC.27",
+    "unit": 6,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Historians describe an “expanding circle” of American rights. Which statement best captures how Title IX and the Americans with Disabilities Act fit that idea?",
+    "options": {
+      "A": "Each law narrowed rights that had been too broad",
+      "B": "Each law extended protections to groups the law had earlier left out",
+      "C": "Each law applied only to the federal government, not to schools or workplaces",
+      "D": "Each law replaced the Fourteenth Amendment"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "expanding rights",
+      "Title IX",
+      "Americans with Disabilities Act"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.7,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "These laws expanded, rather than narrowed, protections."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "Both laws reach schools and workplaces, not only federal government."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Statutes build on the Constitution; they do not replace an amendment."
+      }
+    ],
+    "key_rationale": "Title IX (sex) and the ADA (disability) each widened the circle of who is legally protected, extending rights to previously excluded groups.",
+    "dok_rationale": "Student analyzes how two laws illustrate a broader concept.",
+    "blooms_rationale": "Student breaks down examples to fit an interpretive pattern.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.27-Q08",
+    "standard": "GC.27",
+    "unit": 6,
+    "question_number": 8,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A student argues that legislation like Title IX and the ADA did more to expand rights than court rulings did. Which piece of evidence best supports that argument?",
+    "options": {
+      "A": "The Supreme Court decided Marbury v. Madison",
+      "B": "The Court upheld internment in Korematsu v. United States",
+      "C": "Congress passed broad statutes that directly reshaped schools and workplaces nationwide",
+      "D": "The Constitution was ratified in 1788"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "legislation vs. courts",
+      "civil rights",
+      "argument"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 1.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.03",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Marbury established judicial review, unrelated to the legislation-versus-courts claim about underserved groups."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "Korematsu is a court ruling that limited rights, which would argue against, not for, the claim."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The ratification date does not support a claim about legislation expanding rights for the underserved."
+      }
+    ],
+    "key_rationale": "The strongest support is that Congress's statutes (Title IX, ADA) directly and broadly changed schools and workplaces, illustrating legislation's expansive reach.",
+    "dok_rationale": "Student evaluates which evidence supports a specific claim.",
+    "blooms_rationale": "Student judges the fit between evidence and an argument.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.27-Q09",
+    "standard": "GC.27",
+    "unit": 6,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Claim, Evidence, Reasoning: Which did more to expand rights for underserved groups—legislation such as Title IX and the ADA, or Supreme Court rulings? Make a claim and defend it with specific evidence.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "legislation vs. courts",
+      "expanding rights",
+      "argument"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.8,
+    "irt_b": 1.1,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses state a clear claim, cite at least one statute (Title IX or ADA) and at least one relevant ruling accurately, and reason about the relative impact of legislation versus judicial decisions.",
+    "dok_rationale": "Student constructs an evidence-based argument comparing two engines of civil-rights change.",
+    "blooms_rationale": "Student defends a judgment using specific laws and cases.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-point"
+  },
+  {
+    "id": "GC.27-Q10",
+    "standard": "GC.27",
+    "unit": 6,
+    "question_number": 10,
+    "type": "extended_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "In an extended response, use the idea of the “expanding circle” of rights to explain how the United States extended protections to groups long left out. Support your explanation with at least two specific examples from this standard (for example, Title IX, the Americans with Disabilities Act, or a relevant court case), and note that this progress has often been contested.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "expanding rights",
+      "civil rights",
+      "synthesis"
+    ],
+    "blooms": "Create",
+    "hess_crm_cell": "Create × DOK 3",
+    "irt_a": 1.9,
+    "irt_b": 1.2,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.03",
+    "distractor_tags": [],
+    "key_rationale": "Full-credit responses develop the “expanding circle” thesis, use at least two accurate examples (Title IX, ADA, Korematsu as a cautionary example, or Adarand), and acknowledge that expanding rights has been hard-won and contested.",
+    "dok_rationale": "Student synthesizes multiple examples into an original explanation of a historical pattern.",
+    "blooms_rationale": "Student generates a coherent explanation organized around a thesis.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV6: Civil Liberties",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "ER-8pt",
+    "rubric_name": "Extended Response 8-point"
+  }
+]
