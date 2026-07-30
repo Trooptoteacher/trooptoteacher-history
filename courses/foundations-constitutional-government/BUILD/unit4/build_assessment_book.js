@@ -7,7 +7,7 @@ const A=JSON.parse(fs.readFileSync('analysis/unit4_assessment.json','utf8'));
 const C=JSON.parse(fs.readFileSync('analysis/unit4_content.json','utf8')).standards;
 const UNIT=JSON.parse(fs.readFileSync('analysis/unit4_content.json','utf8')).unit;
 const BRAND=(UNIT.brand||'Government Hack'); const BRANDTM=BRAND+'\u2122'; const UCODE=UNIT.code||'Unit 1'; const UTITLE=UNIT.title||'';
-const NAVY='1B2A4A',RED='B22234',GOLD='C89B3C',INK='1A1A1A',CREAM='F7F5EF',WHITE='FFFFFF',GREY='6B7280',BORD='D9D5C8',FONT='Calibri',CW=9648;
+const NAVY='1B2A4A',RED='B22234',GOLD='C89B3C',INK='1A1A1A',CREAM='F7F5EF',WHITE='FFFFFF',GREY='6B7280',BORD='D9D5C8',FONT='Calibri',CW=9792;
 const bd=(c=BORD)=>({style:BorderStyle.SINGLE,size:4,color:c,space:0});
 const CELLB=(c=BORD)=>({top:bd(c),bottom:bd(c),left:bd(c),right:bd(c)});
 function R(t,{s=22,b=false,i=false,c=INK}={}){return new TextRun({text:t,size:s,bold:b,italics:i,color:c,font:FONT});}
@@ -62,7 +62,7 @@ const formA=studentForm('Part 2 — Unit Summative · Form A',A.formA);
 const formB=studentForm('Part 3 — Unit Summative · Form B',A.formB);
 
 // ---- Section 4: Teacher Key + Item Analysis + Reteach ----
-function keyTable(title,items){const ws=[900,1100,900,900,1900,3948];
+function keyTable(title,items){const ws=[913,1116,913,913,1928,4009];
   const rows=[dhead(['Item','Standard','DOK','Key','Reporting cat.','What’s Next if missed (reteach)'],ws)];
   items.forEach((q,i)=>{const reteach=`Revisit ${C[q.std].title} — Cornell cues + Guided Support; re-check with the Exit Ticket.`;
     rows.push(drow([i+1,q.std,q.dok,q.key,q.rc||'—',reteach],ws));});
@@ -75,7 +75,7 @@ const key=[H('Part 4 — Teacher Answer Key + Item Analysis + Reteach',1,{brk:tr
  ...keyTable('Formative Checkpoints — key & reteach',flatFormative)];
 
 // ---- Section 5: Psychometric Blueprint (teacher-facing; design-time estimates) ----
-function psychTable(title,items){const ws=[600,980,700,1560,600,600,600,680,720,2568];
+function psychTable(title,items){const ws=[611,999,713,1590,611,611,611,693,734,2619];
   const rows=[dhead(['Item','Std','DOK','Bloom’s (Hess cell)','a','b','c','C3','FT?','Distractor codes'],ws)];
   items.forEach((q,i)=>{
     const dt=(q.distractor_tags||[]).map(t=>`${t.label}:${t.code}`).join(' ');
@@ -106,7 +106,7 @@ function udlRemedSection(title,items){const out=[H(title,2)];
     out.push(H(`Item ${i+1} — ${q.std} · DOK ${q.dok}`,3));
     out.push(P([R('If missed:  ',{s:22,b:true,c:NAVY}),R(rem.if_missed||'—',{s:22})]));
     const bd=rem.by_distractor||[];
-    if(bd.length){const ws=[900,4400,4348];
+    if(bd.length){const ws=[913,4466,4413];
       const rows=[dhead(['Wrong choice','Signals misconception','Targeted reteach'],ws)];
       bd.forEach(d=>rows.push(drow([d.choice,d.signals_misconception,d.reteach],ws)));
       out.push(table(rows,ws));
@@ -130,7 +130,7 @@ const part6=[H('Part 6 — UDL Supports & Remediation (Teacher)',1,{brk:true}),
  ...udlRemedSection('Formative Checkpoints — UDL & distractor-based remediation',flatFormative)];
 
 const doc=new Document({styles:{default:{document:{run:{font:FONT,size:22,color:INK}}}},
-  sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1296,right:1296,header:720,footer:720}}},
+  sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1224,right:1224,header:720,footer:720}}},
   headers:{default:header},footers:{default:footer},
   children:[...cover,...formative,...formA,...formB,...key,...psych,...part6]}]});
 Packer.toBuffer(doc).then(b=>{fs.writeFileSync('deliverables/Unit4_Assessment_Book_Teacher.docx',b);console.log('WROTE assessment book',b.length,'bytes');});

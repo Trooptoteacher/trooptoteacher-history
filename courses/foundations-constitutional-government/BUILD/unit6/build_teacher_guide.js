@@ -6,7 +6,7 @@ const C=JSON.parse(fs.readFileSync('analysis/unit6_content.json','utf8'));
 const EXIT=fs.existsSync('analysis/unit6_exit_tickets.json')?JSON.parse(fs.readFileSync('analysis/unit6_exit_tickets.json','utf8')):{};
 const DIMNAME={C:'Culture',E:'Economics',G:'Geography',H:'History',P:'Politics/Government',T:'Tennessee',TCA:'TN Code Annotated'};
 const NAVY='1B2A4A',RED='B22234',GOLD='C89B3C',INK='1A1A1A',CREAM='F7F5EF',WHITE='FFFFFF',GREY='6B7280',BORD='D9D5C8';
-const FONT='Calibri',CW=9648;
+const FONT='Calibri',CW=9792;
 const bd=(c=BORD,sz=4)=>({style:BorderStyle.SINGLE,size:sz,color:c});const CELLB=(c=BORD)=>({top:bd(c),bottom:bd(c),left:bd(c),right:bd(c)});
 function Rr(t,{s=22,b=false,i=false,c=INK}={}){return new TextRun({text:t,size:s,bold:b,italics:i,color:c,font:FONT});}
 function P(runs,{align,spacing}={}){return new Paragraph({alignment:align,spacing:spacing||{after:100},children:Array.isArray(runs)?runs:[runs]});}
@@ -31,7 +31,7 @@ function blankCornell(){return [
   H('Blank Cornell Notes — Universal Front (printable)',2),
   P(Rr('Name: ______________________    Class / Period: __________    Date: __________    Topic: ______________________',{s:21})),
   callout('LEARNING TARGET',['I can __________________________________________________________________________________']),
-  writeTable(['Guiding cues (about 25%)','My notes (about 75%)'],[['',''],['',''],['',''],['','']],[2600,7048],{rowH:900}),
+  writeTable(['Guiding cues (about 25%)','My notes (about 75%)'],[['',''],['',''],['',''],['','']],[2639,7153],{rowH:900}),
   P(Rr('The 25/75 split describes the approximate width of each writing column (label, not a fixed track).',{s:18,i:true,c:GREY})),
   writeBox('Key terms to list',1,420),
   writeBox('Summary — In your own words (2–3 sentences)',2,560),
@@ -43,7 +43,7 @@ function blankVocabStudio(){return [
   callout('RESPONSE CHOICE',['Complete the studio by writing, speaking, or diagramming.']),
   priorityBar('__________________________     ES: __________________'),
   P(Rr('Word-bank meaning to build on: ______________________________________________________________',{s:20})),
-  writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4824,4824],{rowH:900}),
+  writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:900}),
   writeBox('Use it to explain — write one sentence that uses the term',1,520),
   PB()];}
 const AKEY_CFU={}; C.order.forEach(c=>AKEY_CFU[c]=C.standards[c].cfu.key);
@@ -67,7 +67,7 @@ const body=[
     ['RESPONSE CHOICE','Write, say/record, or diagram.'],
     ['PROGRESS CHECK','Quick DOK-2/3 check to guide reteach or extend.'],
     ['EXTENSION','Deeper challenge once the goal is met.'],
-  ],[2600,7048]),
+  ],[2639,7153]),
 
   H('2. Label-to-Action Table',1),
   dataTable(['When you see…','Do this'],[
@@ -76,14 +76,14 @@ const body=[
     ['LANGUAGE SUPPORT','Pre-teach Word Bank terms; use Spanish column for access.'],
     ['PROGRESS CHECK','Collect a quick response; route with the Decision Cycle.'],
     ['EXTENSION','Offer the higher-DOK CER/Extension Bank to anyone ready.'],
-  ],[3000,6648]),
+  ],[3045,6747]),
 
   H('3. MTSS — Tiers of Support Intensity',1),
   dataTable(['Tier','Who / when','In this unit'],[
     ['Tier 1 (Core)','All students','Full deck + workbook CORE PATH, Word Bank, Cornell Notes.'],
     ['Tier 2 (Targeted)','Students missing a Progress Check','Guided Support Back, sentence frames, Rehearsal Lab.'],
     ['Tier 3 (Intensive)','Persistent barrier','Pair Guided Back with IEP/504 supports; reteach a step.'],
-  ],[1800,3200,4648]),
+  ],[1827,3248,4717]),
 
   H('4. The MTSS Decision Cycle',1),
   P(Rr('PROGRESS CHECK → identify barrier → select support → reteach → recheck → extend',{s:24,b:true,c:NAVY})),
@@ -96,13 +96,13 @@ const body=[
     ['UDL 3.0 visible','Accessibility matrix; callouts throughout.'],
     ['MTSS','This guide §3–4; wrap-up decision band in the Teacher Deck.'],
     ['Assessment integrity','Answer key here (separate); de-biased positions.'],
-  ],[3400,6248]),
+  ],[3451,6341]),
 
   H('6. Direct Teaching + Cornell Notes + Slide Deck Workflow',1),
   P(Rr('Project the Student (Lean) Deck; students take Cornell Notes on the Universal Front. The Teacher (Full) Deck carries Quick Reviews, Guided Practice, Checks for Understanding, and Answer Reveals.',{s:22})),
   H('Verified Lean Student Deck ranges (from the final 64-slide deck)',2),
   dataTable(['Standard','Lean Deck range','Direct-teaching','Vocab','Primary source','Progress Check'],
-    C.order.map(c=>{const r=C.standards[c].ref;return [c,r.range,r.dt,String(r.vocab),String(r.source),String(r.progress)];}),[1400,1900,1900,1449,1500,1499]),
+    C.order.map(c=>{const r=C.standards[c].ref;return [c,r.range,r.dt,String(r.vocab),String(r.source),String(r.progress)];}),[1421,1928,1928,1471,1522,1522]),
 
   H('7. What to Print and When',1),
   dataTable(['Print','When'],[
@@ -110,7 +110,7 @@ const body=[
     ['Guided / Light Support Backs','On request only; reverse of the front.'],
     ['Practice Quiz + CER','After direct teaching, before the standard assessment.'],
     ['Source Library','Once per unit for reference.'],
-  ],[3200,6448]),
+  ],[3248,6544]),
 
   H('8. Per-Standard Lesson Sequence & Pacing (one standard = one 45-minute period)',1),
   P(Rr('Each standard is taught in a single 45-minute period, but the workbook intentionally holds more activity than one period can fit — run them all and it is roughly 90–105 minutes. That is by design: you choose which activities fill your period, and the rest become bell-ringers, stations, homework, reteach, or extension. The estimates below are honest time-on-task for an average class; adjust for yours. Every workbook activity header shows the same ⏱ estimate so students can self-pace.',{s:22})),
@@ -125,7 +125,7 @@ const body=[
     ['Activity 5 — Primary Source / Data (HIPPO)','15 min','Source + five HIPPO prompts + response.'],
     ['Activity 6 — Practice Quiz','8 min','A few items + one short DOK-3 write.'],
     ['Activity 7 — CER + Exit Ticket','15 min','CER organizer + paragraph (~12) and Exit Ticket (~3).'],
-  ],[3300,900,5448]),
+  ],[3349,913,5530]),
   P(Rr('Run every activity and a standard totals ≈ 105 minutes (≈ 95 without a map) — about two periods of work compressed into a one-period design. So it is a menu, not a checklist.',{s:22})),
   callout('How to fill the period — your call',[
     'You decide which activities run in class. A common choice is Launch → Cornell Notes with the deck → one analysis activity (Close Read or Primary Source) → the Exit Ticket, but nothing forces that set — pick what your class needs that day.',
@@ -144,7 +144,7 @@ const body=[
     dataTable(['Item','DOK','Key','Rationale'],[
       [`${q1.id}`,String(q1.dok),q1.key,'Recall of the standard’s core term/fact.'],
       [`u1-${c.toLowerCase().replace('.','')}-dok${s.cfu.dok}-tc`,String(s.cfu.dok),s.cfu.key,s.cfu.why],
-    ],[2600,900,900,5248]),
+    ],[2639,913,913,5327]),
   ];}),
   PB(),
 
@@ -153,7 +153,7 @@ const body=[
     ['Engagement','Response choice; Tennessee Connection relevance; optional extensions.'],
     ['Representation','Word Bank + pronunciation + Spanish; Close-Read supports; HIPPO scaffold.'],
     ['Action & Expression','Write / say / diagram; Frayer studio; CER with rubric.'],
-  ],[2600,7048]),
+  ],[2639,7153]),
   P(Rr('No fixed-track labels appear anywhere in the student materials; supports are universal and optional.',{s:20,i:true,c:GREY})),
   new Paragraph({children:[new PageBreak()]}),
   H('12. Printable Blank Templates',1),
@@ -170,7 +170,7 @@ const body=[
     ['Geographer’s Lens (G-tagged standards)','SSP.06','Analyze relationships among geography, economics, and society across time and place.'],
     ['Practice Quiz (Activity 6)','SSP.01–06 (assessed)','Applied across items.'],
     ['CER (Activity 7)','SSP.04','Construct and communicate arguments citing supporting evidence.'],
-  ],[3200,1900,4548]),
+  ],[3248,1928,4616]),
   callout('Coverage',['All six practices (SSP.01–SSP.06) are built within every standard’s cycle.']),
   PB(),
 
@@ -179,7 +179,7 @@ const body=[
   ...C.order.flatMap(code=>{const s=C.standards[code];return [
     H(`${code} — ${s.title}`,3),
     dataTable(['Dimension','Where it is taught in this standard'],
-      Object.entries(s.dim_map||{}).map(([k,v])=>[`${DIMNAME[k]||k} (${k})`,v]),[2800,6848]),
+      Object.entries(s.dim_map||{}).map(([k,v])=>[`${DIMNAME[k]||k} (${k})`,v]),[2842,6950]),
   ];}),
   PB(),
 
@@ -192,7 +192,7 @@ const body=[
     ['3','Adequate','Basic claim; limited or partly accurate evidence; reasoning thin.'],
     ['2','Developing','Vague claim; little evidence; evidence largely unexplained.'],
     ['1','Beginning','No clear claim; little or no evidence; no reasoning.'],
-  ],[800,1700,7148]),
+  ],[812,1725,7255]),
   P(Rr('Swap in your bank’s exact CER rubric text if it differs; the 6-point scale (6 Exemplary → 1 Beginning) is the course convention.',{s:18,i:true,c:GREY})),
   PB(),
 
@@ -201,7 +201,7 @@ const body=[
   dataTable(['Std','Item','DOK','Key','What’s Next if a student misses it'],
     C.order.filter(c=>EXIT[c]).map(c=>{const x=EXIT[c];return [c,x.id,String(x.dok),x.correct,
       `Revisit ${C.standards[c].title} — reteach with the Cornell cues + Guided Support; re-check with the Progress Check.`];}),
-    [900,1900,700,700,5448]),
+    [913,1928,710,710,5531]),
 ];
 
 const header=new Header({children:[P(Rr(BRANDTM+' · '+(U.code||'Unit 1')+' Teacher Guide',{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
@@ -214,6 +214,6 @@ const doc=new Document({creator:'TroopToTeacher Technologies LLC',title:BRAND+' 
     {id:'Heading2',name:'Heading 2',basedOn:'Normal',next:'Normal',run:{font:FONT,size:28,bold:true,color:NAVY},paragraph:{spacing:{before:150,after:80},outlineLevel:1,keepNext:true}},
     {id:'Heading3',name:'Heading 3',basedOn:'Normal',next:'Normal',run:{font:FONT,size:24,bold:true,color:RED},paragraph:{spacing:{before:120,after:70},outlineLevel:2,keepNext:true}},
   ]},
-  sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1296,right:1296,header:720,footer:720}}},
+  sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1224,right:1224,header:720,footer:720}}},
     headers:{default:header},footers:{default:footer},children:body}]});
 Packer.toBuffer(doc).then(b=>{fs.writeFileSync('deliverables/Unit6_Teacher_HowToUse_and_MTSS_Guide.docx',b);console.log('WROTE teacher guide',b.length,'bytes');});
