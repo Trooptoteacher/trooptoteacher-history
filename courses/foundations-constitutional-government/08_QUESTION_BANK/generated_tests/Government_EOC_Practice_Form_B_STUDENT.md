@@ -2,6 +2,8 @@
 
 **Name:** ______________________  **Class/Period:** ______  **Date:** ______
 
+> **Universal supports — available to every student, no special request needed:** this test may be read aloud; key civics terms are glossed on request; large-print and screen-reader formats are available; extended time is available. For any written-response question you may answer **in writing, by recording your spoken response, or with a labeled diagram/organizer.** The learning target is the same for everyone. _(Designed on CAST UDL Guidelines 3.0 — firm goal, flexible means.)_
+
 _Choose the best answer for each question. Assessment items are classroom-formative · pre-field-test._
 
 **1.** Why did Thomas Hobbes argue that people would trade some of their freedom for a strong government?  _[GC.01 · DOK 2]_
@@ -10,206 +12,206 @@ _Choose the best answer for each question. Assessment items are classroom-format
    C. Because people are born without any natural rights
    D. Because power should be divided among three branches
 
-**2.** How does the Declaration of Independence use the idea of natural rights to justify separating from Britain?  _[GC.02 · DOK 3]_
-   A. The king owns the colonies, so his rule cannot be challenged by anyone
-   B. Because government exists to protect rights, one that repeatedly violates them may be abolished
-   C. Colonists must obey every law the king makes, even laws they consider unjust
-   D. Only wealthy, property-owning colonists hold rights the government must protect
+**2.** A ruler repeatedly dissolves the people's elected assemblies and taxes them without their agreement. Based on the reasoning of the Declaration of Independence, why would these acts justify resistance?  _[GC.02 · DOK 3]_
+   A. Because any change in government is always justified
+   B. Because the ruler comes from another country
+   C. Because a government that destroys the people's rights loses its just authority
+   D. Because the people simply dislike paying any taxes
 
-**3.** Shays's Rebellion (1786-1787) was an uprising of which group?  _[GC.03 · DOK 1]_
-   A. British soldiers still stationed in America
-   B. Enslaved people seeking freedom
-   C. Massachusetts farmers in economic distress
-   D. Members of the Continental Congress
+**3.** The Articles of Confederation created a national government that was best described as which of the following?  _[GC.03 · DOK 1]_
+   A. Too weak to tax or regulate trade
+   B. A monarchy led by a single ruler
+   C. Stronger than today's federal government
+   D. Controlled entirely by the president
 
-**4.** The Great Compromise settled which major disagreement at the Constitutional Convention?  _[GC.04 · DOK 2]_
-   A. Whether the new nation should have a president or a king
-   B. How states should be represented in Congress
-   C. Whether to keep the Articles of Confederation
-   D. Whether to allow political parties to form
+**4.** What did the Three-Fifths Compromise determine at the Constitutional Convention?  _[GC.04 · DOK 2]_
+   A. That the slave trade would end immediately in 1787
+   B. How enslaved people would be counted for representation and taxation
+   C. That each state would have exactly three representatives
+   D. That three-fifths of the states had to approve any law
 
-**5.** In Federalist No. 51, Madison wrote, 'Justice is the end of government.' How does this idea connect to the Preamble?  _[GC.05 · DOK 3]_
-   A. Both reject the idea that courts should exist
-   B. Both present justice as a central purpose the government exists to secure
-   C. Both state that government has no fixed purpose
-   D. Both limit justice to disputes over property
+**5.** How does the Preamble's opening, 'We the People,' change the source of government authority compared with a monarchy?  _[GC.05 · DOK 3]_
+   A. It locates authority in the people rather than in a king
+   B. It gives authority to the wealthiest citizens
+   C. It places authority in the hands of the courts
+   D. It keeps authority entirely with the individual states
 
-**6.** What does the principle of federalism describe?  _[GC.06 · DOK 2]_
-   A. The division of the national government into three branches
-   B. The power of courts to interpret laws
-   C. The people's power to elect officials
-   D. The division of power between the national government and the states
+**6.** Separation of powers divides the national government into which three branches?  _[GC.06 · DOK 1]_
+   A. State, local, and federal
+   B. Legislative, executive, and judicial
+   C. House, Senate, and president
+   D. Army, navy, and air force
 
-**7.** Ratifying a constitutional amendment requires approval by which of the following?  _[GC.07 · DOK 1]_
-   A. Three-fourths of the states
-   B. The president alone
-   C. A simple majority of national voters
-   D. The Supreme Court
+**7.** A state law directly conflicts with a valid national law. According to Article VI, the Supremacy Clause, which law prevails?  _[GC.07 · DOK 2]_
+   A. The state law
+   B. Neither law remains in effect
+   C. The national law
+   D. Whichever law was passed first
 
-**8.** According to the Tenth Amendment, who keeps the powers not given to the national government?  _[GC.08 · DOK 2]_
-   A. The states and the people
-   B. The president alone
-   C. The Supreme Court
-   D. Foreign governments
+**8.** Tennessee's state constitution contains a Declaration of Rights modeled on the federal Bill of Rights. What does this best illustrate about the American system of government?  _[GC.08 · DOK 3]_
+   A. Only the national government is allowed to protect individual rights
+   B. Tennessee formally rejected the federal Bill of Rights
+   C. Under federalism, state constitutions can also protect individual rights
+   D. State constitutions are not permitted to mention individual rights
 
-**9.** In Federalist No. 10, why does Madison prefer a large republic over a pure, direct democracy?  _[GC.09 · DOK 3]_
-   A. A large republic with many competing interests makes it harder for one faction to oppress others
-   B. A large republic lets every citizen vote directly on each law
-   C. A large republic operates without any elected officials
-   D. A large republic removes the need for a written constitution
+**9.** Which part of the Constitution guarantees every state 'a Republican Form of Government'?  _[GC.09 · DOK 1]_
+   A. The Preamble
+   B. Article IV
+   C. The First Amendment
+   D. Article V
 
-**10.** How long is one term for a member of the U.S. House of Representatives?  _[GC.10 · DOK 1]_
-   A. Two years
-   B. Four years
-   C. Six years
-   D. Eight years
+**10.** A candidate must be at least 30 years old and a U.S. citizen for at least nine years to serve in which chamber of Congress?  _[GC.10 · DOK 2]_
+   A. The Senate
+   B. The House of Representatives
+   C. Either chamber, since the rules are identical
+   D. Neither chamber, since there are no age rules
 
-**11.** What is the difference between apportionment and redistricting?  _[GC.11 · DOK 2]_
-   A. Apportionment draws district lines; redistricting counts the population
-   B. Apportionment happens yearly; redistricting happens only once
-   C. Apportionment and redistricting are two names for the same process
-   D. Apportionment divides House seats among the states; redistricting redraws district lines within a state
+**11.** A party that controls redistricting concentrates most of the opposing party's voters into a single district while spreading its own supporters thinly across many districts. What is this strategy designed to accomplish?  _[GC.11 · DOK 3]_
+   A. To make every district's population exactly equal
+   B. To maximize the controlling party's number of seats by limiting where opposing votes count
+   C. To increase the total number of seats the state receives in Congress
+   D. To guarantee that no party can win a majority of the seats
 
-**12.** The Speaker of the House controls the House agenda and stands second in line to the presidency. Which conclusion about the office do these facts best support?  _[GC.12 · DOK 3]_
-   A. The Speaker has little real power in government
-   B. The Speaker's role is purely ceremonial
-   C. The Speaker is one of the most powerful officials in the federal government
-   D. The Speaker outranks the President in the executive branch
+**12.** A senator is elected by the members of her party to guide the party's legislative strategy and floor schedule in the Senate. Which leadership position does she hold?  _[GC.12 · DOK 2]_
+   A. Majority or minority leader
+   B. Speaker of the House
+   C. President pro tempore
+   D. Vice President
 
-**13.** In the lawmaking process, where do most bills fail before they ever reach a floor vote?  _[GC.13 · DOK 2]_
-   A. In a presidential veto
-   B. In committee
-   C. In a conference between the two chambers
-   D. In a cloture vote
+**13.** A senator strongly opposes a bill that appears to have enough votes to pass, but she cannot defeat it outright. Which tactic could she use to try to prevent the Senate from taking a final vote?  _[GC.13 · DOK 3]_
+   A. Invoke cloture to force an immediate vote
+   B. Cast the tie-breaking vote as Vice President
+   C. Launch a filibuster by extending debate to delay or block the vote
+   D. Send the bill directly to the President for a veto
 
-**14.** A person who lives in the area a legislator represents and whom the legislator is elected to serve is called a what?  _[GC.14 · DOK 1]_
-   A. A constituent
-   B. A delegate
-   C. A lobbyist
-   D. A justice
+**14.** If Tennessee's population grew faster than the national average, what could happen to its delegation in the U.S. House after the next census?  _[GC.14 · DOK 2]_
+   A. It would automatically lose a House seat
+   B. It could gain a third U.S. senator
+   C. It could gain a seat in the House of Representatives
+   D. Its representatives would each begin serving six-year terms
 
-**15.** What is the difference between an enumerated power and an implied power of Congress?  _[GC.15 · DOK 2]_
-   A. Enumerated powers belong to the states; implied powers belong to Congress
-   B. Enumerated powers are specifically listed in the Constitution, while implied powers are not listed but are needed to carry out the listed powers
-   C. Enumerated powers are used only in wartime; implied powers are used only in peacetime
-   D. Enumerated and implied powers are two names for the same thing
+**15.** In which part of the Constitution are most of the enumerated powers of Congress listed?  _[GC.15 · DOK 1]_
+   A. Article II, Section 2
+   B. The Preamble
+   C. Amendment XVII
+   D. Article I, Section 8
 
-**16.** The Constitution makes the President the Commander-in-Chief but gives Congress the power to declare war. What does this division of authority best illustrate about the design of the government?  _[GC.16 · DOK 3]_
-   A. The President holds unlimited authority over every military decision the nation makes
-   B. The Framers divided war powers so that neither branch could commit the nation to war on its own
-   C. Congress controls the day-to-day battlefield commands given to the armed forces
-   D. Only the Supreme Court may authorize the United States to use military force
+**16.** A President travels abroad to negotiate agreements and formally represents the United States in meetings with the leaders of foreign nations. Which role of the President is being described?  _[GC.16 · DOK 2]_
+   A. Chief Legislator, who shapes the nation's laws
+   B. Commander-in-Chief, who directs the armed forces
+   C. Chief of State, who performs ceremonial duties at home
+   D. Chief Diplomat, who conducts relations with other nations
 
-**17.** Which executive department is chiefly responsible for running the nation's armed forces and military?  _[GC.17 · DOK 1]_
-   A. The Department of State
-   B. The Department of the Treasury
-   C. The Department of Defense
-   D. The Department of Education
+**17.** Millions of federal employees in departments and agencies carry out laws day to day, and most keep their jobs even when a new President takes office. What challenge for democratic accountability does this situation create?  _[GC.17 · DOK 3]_
+   A. Federal employees are elected directly by the voters every two years
+   B. The bureaucracy has no real role in how laws are actually carried out
+   C. Unelected officials make many day-to-day decisions, raising the question of who truly controls policy
+   D. The President personally approves every action taken by every federal agency
 
-**18.** If no presidential candidate receives a majority of the electoral votes, how does the Constitution provide for choosing the President?  _[GC.18 · DOK 2]_
-   A. A national runoff election is held between the top two candidates
-   B. The House of Representatives chooses the President from among the top candidates
-   C. The Supreme Court selects the President from among the top candidates
-   D. The candidate with the most electoral votes automatically becomes President
+**18.** A candidate must win a majority of the total electoral votes to become President. How many of the 538 electoral votes does that majority require?  _[GC.18 · DOK 1]_
+   A. 218
+   B. 435
+   C. 270
+   D. 538
 
-**19.** A dispute arises over whether a state law conflicts with a treaty the United States signed with another nation. Under Article III, Section 2, why may a federal court hear this case?  _[GC.19 · DOK 3]_
-   A. Because the judicial power extends to cases arising under treaties made under United States authority
-   B. Because federal courts may only hear disputes between two different states
-   C. Because treaties are enforced only by the President, never by the courts
-   D. Because state courts are forbidden from interpreting any federal law
+**19.** A lawsuit in which one state directly sues another state begins at the U.S. Supreme Court rather than in a lower court. Which type of jurisdiction allows the case to start there?  _[GC.19 · DOK 2]_
+   A. Original jurisdiction
+   B. Appellate jurisdiction
+   C. Concurrent jurisdiction
+   D. Appellate review
 
-**20.** How does the process of nominating and confirming a justice reflect the principle of checks and balances?  _[GC.20 · DOK 2]_
-   A. It gives the judiciary the power to appoint its own members
-   B. It allows the President to remove senators who oppose a nominee
-   C. It lets the states overrule a confirmation they dislike
-   D. It divides the power to seat a justice between the President and the Senate
+**20.** A Senate controlled by the opposing party refuses to hold hearings or a vote on the President's Supreme Court nominee, and the seat stays empty. What does this situation best illustrate about the appointment power?  _[GC.20 · DOK 3]_
+   A. The President alone controls whether a nominee is seated
+   B. The Senate's role in the shared appointment power can check the President
+   C. The Supreme Court can seat the nominee without the Senate
+   D. The states may fill the vacancy if the Senate refuses
 
-**21.** Which 1803 Supreme Court case established the principle of judicial review?  _[GC.21 · DOK 1]_
-   A. McCulloch v. Maryland
-   B. Marbury v. Madison
-   C. Baker v. Carr
-   D. Gibbons v. Ogden
+**21.** What is 'judicial review'?  _[GC.21 · DOK 1]_
+   A. The power of courts to declare a law or government action unconstitutional and void
+   B. The Senate's power to review the President's judicial nominees
+   C. The President's power to reject a bill passed by Congress
+   D. The process of appealing a case from a lower court to a higher court
 
-**22.** Which description best defines judicial activism?  _[GC.22 · DOK 2]_
-   A. Judges deferring to the elected branches and following precedent closely
-   B. Judges refusing to hear any constitutional questions
-   C. Judges being more willing to strike down laws or set new policy
-   D. Judges interpreting the Constitution strictly by its original intent
+**22.** It takes only four of the nine justices to agree to grant certiorari and hear a case. What does this 'rule of four' show about how the Court manages its docket?  _[GC.22 · DOK 2]_
+   A. The Court must hear every case that is appealed to it
+   B. A unanimous Court is required before any case can be heard
+   C. A minority of the justices can decide which cases the Court will take
+   D. The President selects which cases the Court will hear each term
 
-**23.** What common constitutional principle links the Court's decisions in Tinker v. Des Moines and Texas v. Johnson?  _[GC.23 · DOK 3]_
-   A. Expressive conduct can qualify as speech the First Amendment protects
-   B. The government may censor the press before publication
-   C. Public schools may require a daily prayer
-   D. Evidence from an illegal search cannot be used in court
+**23.** A high school student silently wears a t-shirt with a political message that causes no disruption to classes, and a school official orders the student to remove it. Based on the standard set in Tinker v. Des Moines, how should a court most likely rule?  _[GC.23 · DOK 3]_
+   A. For the school, because students have no First Amendment rights at school
+   B. For the school, because political messages are never allowed on campus
+   C. For the student, because the expression did not substantially disrupt school
+   D. For the school, because the shirt is unprotected obscenity under Miller v. California
 
-**24.** In District of Columbia v. Heller (2008), the Supreme Court interpreted the Second Amendment as protecting which kind of right?  _[GC.24 · DOK 1]_
-   A. A right belonging only to state militias
-   B. A right belonging only to the military
-   C. A right that applies only to Washington, D.C.
-   D. An individual right to keep and bear arms
+**24.** In District of Columbia v. Heller, the Court said the Second Amendment protects the right to keep and bear arms for what lawful purpose?  _[GC.24 · DOK 1]_
+   A. Self-defense
+   B. Hunting only on federal land
+   C. Service in the military alone
+   D. Collecting antique firearms only
 
-**25.** The exclusionary rule from Mapp v. Ohio enforces which constitutional protection?  _[GC.25 · DOK 2]_
-   A. The right to a speedy trial
-   B. The freedom of speech
-   C. The right to counsel
-   D. The protection against unreasonable searches and seizures
+**25.** Gideon v. Wainwright applied the Sixth Amendment right to counsel to the states. What does this mean for a defendant tried in a state court?  _[GC.25 · DOK 2]_
+   A. The defendant must hire a private lawyer or go to trial without one
+   B. The right to a lawyer exists only in federal court
+   C. The defendant may never be questioned by the police
+   D. The state must provide a lawyer to a defendant who cannot afford one
 
-**26.** Brown v. Board of Education rested on the finding that “separate educational facilities are inherently unequal.” Why was this reasoning significant for the Equal Protection Clause?  _[GC.26 · DOK 3]_
-   A. It concluded that segregation itself violated equal protection, even if facilities were similar
-   B. It held that only unequal funding, not segregation, mattered
-   C. It required schools to remain segregated but improve buildings
-   D. It applied only to private schools
+**26.** Looking at Plessy (1896), Brown (1954), and Obergefell (2015) together, which pattern best describes how the Supreme Court has interpreted the Fourteenth Amendment over time?  _[GC.26 · DOK 3]_
+   A. The Court has never once changed its interpretation of the amendment
+   B. The text of the amendment has been rewritten several times
+   C. The Court's interpretation of the same clauses has expanded protections to more people over time
+   D. The amendment has applied only to the federal government throughout its history
 
-**27.** Why is Korematsu v. United States (1944) remembered today as a warning rather than a model?  _[GC.27 · DOK 2]_
-   A. Because it upheld the wartime incarceration of Japanese Americans, a decision now widely condemned
-   B. Because it expanded voting rights for all citizens
-   C. Because it created the exclusionary rule
-   D. Because it guaranteed the right to counsel
+**27.** How did Title IX (1972) most directly change opportunity in schools that receive federal funds?  _[GC.27 · DOK 2]_
+   A. It required every school to teach a single national curriculum
+   B. It banned all single-sex schools in the United States
+   C. It lowered tuition at private colleges
+   D. It expanded girls' and women's participation in programs and athletics by barring sex discrimination
 
-**28.** The three stars on the Tennessee state flag stand for the state's three —  _[GC.28 · DOK 1]_
-   A. branches of government
-   B. Grand Divisions
-   C. Supreme Court justices
-   D. largest cities
+**28.** A reformer proposes replacing Tennessee's part-time citizen legislature with a full-time, year-round legislature. Which trade-off best reflects what the current design is intended to preserve?  _[GC.28 · DOK 3]_
+   A. keeping lawmakers connected to regular jobs and communities at home
+   B. ensuring that only career politicians are able to serve in office
+   C. shifting the writing of most state laws to the governor
+   D. removing voters from the choice of who serves as legislators
 
-**29.** Tennessee follows Dillon's Rule. What does this mean for a Tennessee county or city?  _[GC.29 · DOK 2]_
-   A. It may pass any law its voters approve, even one that conflicts with state law
-   B. It answers directly to the federal government rather than to the state
-   C. It has only the powers the state expressly grants to it
-   D. It may set aside state law within its own borders
+**29.** The voters of each Tennessee county elect a county legislative body to four-year terms. What is the main job of that legislative body?  _[GC.29 · DOK 2]_
+   A. to set county policy and adopt the county budget
+   B. to decide whether state laws are constitutional
+   C. to command the state's National Guard
+   D. to represent the county in the United States Senate
 
-**30.** A student says, 'I learned the governor's name two years ago, so I already know who currently holds the office.' Why is checking an official state source still the better practice?  _[GC.30 · DOK 3]_
-   A. Official sources also list every resident's home address
-   B. The governor is re-chosen by the legislature every single year
-   C. Printed textbooks can never contain any accurate information
-   D. Officeholders can change at each election, so only a current source is certain
+**30.** The Tennessee General Assembly is made up of which two chambers?  _[GC.30 · DOK 1]_
+   A. the Senate and the House of Representatives
+   B. the Cabinet and the Supreme Court
+   C. the House of Lords and the House of Commons
+   D. the Grand Divisions and the counties
 
-**31.** What does the term naturalization refer to?  _[GC.31 · DOK 1]_
-   A. The legal process by which a foreign-born person becomes a U.S. citizen
-   B. The process of registering to vote for the first time
-   C. The swearing-in ceremony for a newly elected official
-   D. The citizenship a person automatically receives by being born in the country
+**31.** When a person becomes a citizen through naturalization, they take the Oath of Allegiance promising to support the Constitution. What does this indicate about the responsibilities of naturalized citizens?  _[GC.31 · DOK 2]_
+   A. They take on the same civic responsibilities as citizens born in the United States.
+   B. They are exempt from paying taxes during their first years as citizens.
+   C. They carry fewer responsibilities than citizens born in the United States.
+   D. They must complete military service before receiving any rights of citizenship.
 
-**32.** At which stage is a political party's presidential nominee officially named?  _[GC.32 · DOK 2]_
-   A. At the closed primary
-   B. At the national party convention
-   C. At the general election
-   D. At the Electoral College certification
+**32.** George Washington warned against 'the baneful effects of the spirit of party.' Given that parties formed almost immediately and now organize American elections, what does this development suggest about his warning?  _[GC.32 · DOK 3]_
+   A. His warning was followed exactly, and organized parties never formed.
+   B. His warning proved meaningless because parties were quickly outlawed.
+   C. His concern about division was real, yet parties still became a central and lasting way Americans organize participation.
+   D. His warning applied only to state elections and never to national ones.
 
-**33.** A poll asks, 'Do you support wasteful government spending?' and reports that 80% of respondents say no. Why should a careful citizen be cautious about accepting this result?  _[GC.33 · DOK 3]_
-   A. The result must be accurate because a large number of people responded.
-   B. The result proves that most citizens oppose all government spending.
-   C. Poll results can never be affected by the wording of a question.
-   D. The loaded word 'wasteful' pushes respondents toward a negative answer, so the poll may not measure genuine opinion.
+**33.** What is a public opinion poll?  _[GC.33 · DOK 1]_
+   A. A law requiring citizens to share their political views with the government
+   B. A government office that decides which issues the nation will discuss
+   C. A survey of a sample of people used to estimate what the larger public thinks
+   D. A televised debate held between two candidates before an election
 
-**34.** How does a recall election increase the power of ordinary citizens?  _[GC.34 · DOK 2]_
-   A. It lets voters propose a brand-new law on their own.
-   B. It allows voters to remove an elected official from office before the term ends.
-   C. It requires officials to hold weekly public town meetings.
-   D. It replaces the general election with a local caucus.
+**34.** A group of citizens gathers peacefully outside city hall and delivers a signed document asking the council to change a local law. Which First Amendment rights are these citizens exercising?  _[GC.34 · DOK 2]_
+   A. The rights to bear arms and to a jury trial
+   B. The rights to free press and to a speedy trial
+   C. The rights to peaceably assemble and to petition the government
+   D. The rights against self-incrimination and against unreasonable searches
 
-**35.** The legal process through which a foreign-born person becomes a U.S. citizen is called what?  _[GC.35 · DOK 1]_
-   A. Naturalization
-   B. Apportionment
-   C. Cloture
-   D. Ratification
+**35.** Why does the Constitution require that the rule of naturalization be 'uniform' across the country?  _[GC.35 · DOK 3]_
+   A. To allow each state to set its own citizenship requirements
+   B. To ensure the requirements for becoming a citizen are the same in every state
+   C. To give the President personal control over who becomes a citizen
+   D. To limit citizenship to people born in the original thirteen states

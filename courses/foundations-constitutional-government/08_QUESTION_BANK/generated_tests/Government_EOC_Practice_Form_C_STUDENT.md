@@ -2,151 +2,153 @@
 
 **Name:** ______________________  **Class/Period:** ______  **Date:** ______
 
+> **Universal supports — available to every student, no special request needed:** this test may be read aloud; key civics terms are glossed on request; large-print and screen-reader formats are available; extended time is available. For any written-response question you may answer **in writing, by recording your spoken response, or with a labeled diagram/organizer.** The learning target is the same for everyone. _(Designed on CAST UDL Guidelines 3.0 — firm goal, flexible means.)_
+
 _Choose the best answer for each question. Assessment items are classroom-formative · pre-field-test._
 
-**1.** Magna Carta's Clause 39 states that no free man shall be imprisoned 'except by the lawful judgment of his equals or by the law of the land.' Which modern constitutional idea most directly grew from this clause?  _[GC.01 · DOK 3]_
-   A. Due process of law
-   B. Separation of powers
-   C. Popular sovereignty
-   D. Federalism between nation and states
+**1.** A government seizes citizens' property without their consent and ignores their formal protests. Using John Locke's social-contract reasoning, what conclusion could the people justly draw?  _[GC.01 · DOK 3]_
+   A. The people must obey because the government holds power
+   B. The government has broken its contract and may be resisted or replaced
+   C. Property was never one of the rights Locke thought government should protect
+   D. Only a king may decide when rights have been violated
 
-**2.** Who was the main drafter of the Declaration of Independence, adopted in 1776?  _[GC.02 · DOK 1]_
-   A. George Washington
-   B. Thomas Jefferson
-   C. Alexander Hamilton
-   D. James Madison
+**2.** According to the Declaration of Independence, governments derive their just powers from which source?  _[GC.02 · DOK 1]_
+   A. The consent of the governed
+   B. The king and Parliament
+   C. The wealthiest citizens
+   D. The strength of the army
 
-**3.** Under the Articles of Confederation, which power did the national government **lack**?  _[GC.03 · DOK 2]_
-   A. The power to declare war
-   B. The power to make treaties
-   C. The power to run a post office
-   D. The power to tax the states and citizens directly
+**3.** Because the national government could not regulate trade between the states, what problem developed under the Articles of Confederation?  _[GC.03 · DOK 2]_
+   A. States taxed one another's goods, disrupting commerce
+   B. The states adopted a single national currency
+   C. Foreign nations refused to trade with any state
+   D. Congress gained too much control over the economy
 
-**4.** The Three-Fifths Compromise counted enslaved people as three-fifths of a person for representation. Why is this compromise significant when studying the Constitution?  _[GC.04 · DOK 3]_
-   A. It granted enslaved people the right to vote
-   B. It ended slavery in the northern states
-   C. It exposed the contradiction between the ideals of liberty and the reality of slavery
-   D. It applied only to Native American nations, not to enslaved people
+**4.** In Federalist No. 10, why does James Madison argue that a large republic can better control the dangers of 'faction' than a small one?  _[GC.04 · DOK 3]_
+   A. A large republic contains so many competing interests that no single faction can easily dominate
+   B. A large republic prevents any political parties from forming
+   C. A large republic lets citizens vote directly on every law
+   D. A large republic gives all power to the national government
 
-**5.** The Preamble says the Constitution is established for 'ourselves and our Posterity.' What does this phrase reveal about the Framers' thinking?  _[GC.05 · DOK 2]_
-   A. They expected the document to last only a few years
-   B. They were writing only for wealthy property owners
-   C. They wanted to limit the vote to their own generation
-   D. They intended the Constitution to serve future generations, not just their own
+**5.** Which of the following is one of the six purposes of government listed in the Preamble?  _[GC.05 · DOK 1]_
+   A. Promote the general Welfare
+   B. Declare war on Great Britain
+   C. Elect a president every four years
+   D. Create national political parties
 
-**6.** The power of courts to declare a law unconstitutional is called which of the following?  _[GC.06 · DOK 1]_
-   A. Judicial review
-   B. The legislative veto
-   C. Impeachment
-   D. Popular sovereignty
+**6.** Congress can remove a president through impeachment and can override a presidential veto. Why do these powers exist?  _[GC.06 · DOK 2]_
+   A. So the president can control Congress
+   B. So that no single branch becomes too powerful
+   C. So that the courts can make new laws
+   D. So that the states lose their power
 
-**7.** What does Article VI, the Supremacy Clause, establish?  _[GC.07 · DOK 2]_
-   A. Federal law is the supreme law of the land
-   B. States may ignore federal law they dislike
-   C. The president is above the law
-   D. The Constitution can never be amended
+**7.** How does the high bar for amending the Constitution help protect federalism?  _[GC.07 · DOK 3]_
+   A. It lets Congress amend the Constitution without the states
+   B. It removes the states from the amendment process entirely
+   C. Because three-fourths of the states must ratify, no change can be forced on the states without broad state support
+   D. It gives the federal courts the final vote on every amendment
 
-**8.** The First Amendment begins, 'Congress shall make no law...' Why does the Bill of Rights phrase protections as limits on government rather than as gifts to the people?  _[GC.08 · DOK 3]_
-   A. To show the government created these rights and can remove them
-   B. Because the Framers viewed rights as belonging to people already, so the Constitution's job is to stop government from violating them
-   C. To give Congress more power over speech and religion
-   D. Because only members of Congress hold these rights
+**8.** How many amendments make up the Bill of Rights?  _[GC.08 · DOK 1]_
+   A. Ten
+   B. Five
+   C. Twenty-seven
+   D. Two
 
-**9.** In a direct democracy, laws are made by which of the following?  _[GC.09 · DOK 1]_
-   A. Officials elected to represent the people
-   B. The citizens voting on the laws themselves
-   C. A single hereditary monarch
-   D. Appointed judges on a high court
+**9.** What is the main difference between a direct democracy and a republic?  _[GC.09 · DOK 2]_
+   A. A republic holds no elections of any kind
+   B. A republic is ruled by a hereditary king
+   C. In a direct democracy citizens vote on laws themselves, while in a republic they elect representatives to make laws
+   D. There is no meaningful difference between the two
 
-**10.** What does it mean that the U.S. Congress is bicameral?  _[GC.10 · DOK 2]_
-   A. It meets only during certain seasons of the year
-   B. It shares its lawmaking power with the President
-   C. Its members must be elected by a two-thirds vote
-   D. It is made up of two separate houses
+**10.** A state's population grows sharply, and this growth is confirmed in the latest census. Applying Article I, what is most likely to happen to that state's representation in Congress?  _[GC.10 · DOK 3]_
+   A. It will gain additional senators to match its larger population
+   B. It will lose House seats because larger states are given fewer representatives
+   C. Its number of House seats may increase, but it will still have exactly two senators
+   D. Both its House seats and its Senate seats will increase in proportion to the growth
 
-**11.** How can gerrymandering change the outcome of an election without changing any votes?  _[GC.11 · DOK 3]_
-   A. By grouping voters into districts so that where the lines fall decides who wins
-   B. By adding new voters to the population count
-   C. By lengthening the terms of the winning candidates
-   D. By requiring a two-thirds vote to elect a representative
+**11.** The standard established after Baker v. Carr is often summarized as 'one person, one vote.' What does this principle require?  _[GC.11 · DOK 2]_
+   A. That every person must vote in every election
+   B. That legislative districts should have roughly equal populations so each vote carries similar weight
+   C. That each state must have only one representative in Congress
+   D. That voters may cast only one ballot per lifetime
 
-**12.** How is the Speaker of the House selected?  _[GC.12 · DOK 2]_
-   A. The President appoints the Speaker with Senate approval
-   B. The majority party in the House chooses the Speaker
-   C. The Speaker is the longest-serving House member automatically
-   D. Voters elect the Speaker directly on a national ballot
+**12.** Suppose the Speaker of the House belongs to a different political party than the President. What is the most likely effect on the President's legislative agenda?  _[GC.12 · DOK 3]_
+   A. The Speaker must schedule all of the President's proposals for a vote
+   B. The President gains the power to remove the Speaker
+   C. The Speaker can slow or block the President's priorities by controlling which bills reach the House floor
+   D. The President's agenda is unaffected, because the Speaker has no role in lawmaking
 
-**13.** Congress can override a presidential veto by a vote of what size?  _[GC.13 · DOK 1]_
-   A. A simple majority of the House only
-   B. Two-thirds of both houses
-   C. A ruling of the Supreme Court
-   D. Three-fourths of the state legislatures
+**13.** Why can a determined minority of senators sometimes block a bill that a simple majority of the Senate supports?  _[GC.13 · DOK 2]_
+   A. Because the minority can use a filibuster, and it takes a 60-vote cloture to end the debate
+   B. Because a simple majority is not allowed to vote on any bill
+   C. Because the President must approve the Senate's schedule
+   D. Because the House can veto Senate bills directly
 
-**14.** What determines how many U.S. Representatives Tennessee sends to the House of Representatives?  _[GC.14 · DOK 2]_
-   A. The number of counties in the state
-   B. A fixed number set for all states alike
-   C. The state's population, through apportionment
-   D. The choice of the state's governor
+**14.** For how many years is each U.S. Representative from Tennessee elected before facing reelection?  _[GC.14 · DOK 1]_
+   A. Ten years
+   B. Four years
+   C. Six years
+   D. Two years
 
-**15.** How did the Supreme Court's decision in McCulloch v. Maryland (1819) affect the powers of Congress?  _[GC.15 · DOK 3]_
-   A. It abolished the Necessary and Proper Clause
-   B. It limited Congress to only the powers explicitly listed in the Constitution
-   C. It gave the states the power to tax the federal government
-   D. It upheld broad implied powers under the Necessary and Proper Clause
+**15.** Under the Constitution, which power over armed conflict belongs to Congress rather than to the President?  _[GC.15 · DOK 2]_
+   A. The power to serve as commander in chief of the armed forces
+   B. The power to negotiate a peace treaty alone
+   C. The power to formally declare war
+   D. The power to pardon soldiers
 
-**16.** Which role does Article II assign to the President as the civilian head of the nation's armed forces?  _[GC.16 · DOK 1]_
-   A. Chief Diplomat, who negotiates with foreign nations
-   B. Commander-in-Chief, who leads the military as an elected civilian
-   C. Chief Justice, who presides over the federal courts
-   D. Chief of State, who serves as the ceremonial head of the nation
+**16.** The Constitution makes the President the Commander-in-Chief but gives Congress the power to declare war. What does this division of authority best illustrate about the design of the government?  _[GC.16 · DOK 3]_
+   A. The President holds unlimited authority over every military decision the nation makes
+   B. The Framers divided war powers so that neither branch could commit the nation to war on its own
+   C. Congress controls the day-to-day battlefield commands given to the armed forces
+   D. Only the Supreme Court may authorize the United States to use military force
 
-**17.** The Constitution directs the President to 'take Care that the Laws be faithfully executed.' How does this clause help explain why the executive branch is organized into many departments and agencies?  _[GC.17 · DOK 2]_
-   A. One person cannot personally carry out every federal law, so departments and their employees execute the laws on the President's behalf
-   B. The clause requires the President to personally enforce every federal law without any assistance
-   C. The clause shifts the power to make new laws from Congress to the President
-   D. The clause permits the President to set aside any laws that he personally disagrees with
+**17.** The group made up of the heads, or secretaries, of the executive departments who advise the President is known as the:  _[GC.17 · DOK 1]_
+   A. Senate
+   B. Cabinet
+   C. Electoral College
+   D. bureaucracy
 
-**18.** Critics of the Electoral College argue that it leads candidates to focus their attention on a small number of closely divided 'swing states.' Which result of the winner-take-all system best explains this criticism?  _[GC.18 · DOK 3]_
-   A. Candidates concentrate on states where the outcome is close, because winning those states delivers all of their electoral votes
-   B. Candidates campaign equally in every state regardless of how close the vote is expected to be
-   C. Candidates ignore the Electoral College and focus only on winning the national popular vote
-   D. Candidates must win two-thirds of all the states in order to be elected President
+**18.** A national census shows that one state's population has grown much faster than most other states. How is that state's number of electoral votes most likely to be affected?  _[GC.18 · DOK 2]_
+   A. It will likely increase, because the state will gain seats in the House of Representatives
+   B. It will stay exactly the same, because every state has a fixed number of electors
+   C. It will decrease, because faster population growth reduces a state's representation
+   D. It will fall to only the two electors based on the state's senators
 
-**19.** Article III vests the judicial power in 'one supreme Court.' Which branch has the authority to create the lower federal courts beneath it?  _[GC.19 · DOK 2]_
-   A. The President, acting through executive order
-   B. The Supreme Court, acting on its own authority
-   C. Congress, acting through legislation
-   D. The state legislatures, acting individually
+**19.** After a federal judge issues a ruling that angers many voters, a group demands that the judge be voted out at the next election. Under Article III, why can the group not achieve this?  _[GC.19 · DOK 3]_
+   A. Federal judges hold office during good Behaviour and can be removed only by impeachment, not by election
+   B. Federal judges must stand for re-election every six years, but not at the next election
+   C. The President may remove the judge, but only the voters cannot
+   D. The Supreme Court must first approve any removal by the voters
 
-**20.** After the President nominates a candidate for the Supreme Court, which body must vote to confirm the nominee before that person can take the seat?  _[GC.20 · DOK 1]_
-   A. The House of Representatives
-   B. The Senate
-   C. The sitting Supreme Court justices
-   D. The state governors
+**20.** Which article of the U.S. Constitution grants the power to appoint Supreme Court justices 'by and with the Advice and Consent of the Senate'?  _[GC.20 · DOK 1]_
+   A. Article II
+   B. Article I
+   C. Article III
+   D. Article V
 
-**21.** Which Chief Justice wrote the opinion in Marbury v. Madison that established judicial review?  _[GC.21 · DOK 2]_
-   A. John Jay
-   B. Roger Taney
-   C. John Marshall
-   D. Earl Warren
+**21.** Marbury v. Madison (1803) set the precedent of judicial review. How does a precedent like this shape later cases?  _[GC.21 · DOK 2]_
+   A. It forces Congress to rewrite the disputed law within a year
+   B. It applies only to the two parties in the original case
+   C. It guides courts to decide similar future cases the same way
+   D. It must be re-approved by the voters before it can be used again
 
-**22.** The Supremacy Clause states that the Constitution 'shall be the supreme Law of the Land.' How does this clause support the Supreme Court's power to strike down a conflicting law?  _[GC.22 · DOK 3]_
-   A. It requires the Court to enforce every law Congress passes without question
-   B. It gives ordinary state laws priority over the federal Constitution
-   C. It establishes that a law conflicting with the Constitution cannot stand
-   D. It transfers lawmaking power from Congress to the Court
+**22.** In another ruling, the Supreme Court upholds a law passed by Congress, explaining that it will defer to the elected branches and read the Constitution by its original intent unless a clear violation appears. Which approach does this ruling best illustrate?  _[GC.22 · DOK 3]_
+   A. Judicial activism
+   B. A writ of certiorari
+   C. Judicial restraint
+   D. Appellate jurisdiction
 
-**23.** In which case did the Supreme Court protect students who wore black armbands to school to protest a war?  _[GC.23 · DOK 1]_
+**23.** The test courts use to decide whether a law improperly aids religion under the Establishment Clause comes from which case?  _[GC.23 · DOK 1]_
    A. Lemon v. Kurtzman
-   B. Miller v. California
-   C. Tinker v. Des Moines
+   B. Schenck v. United States
+   C. Miller v. California
    D. New York Times v. United States
 
-**24.** What government action did the Supreme Court strike down in District of Columbia v. Heller (2008)?  _[GC.24 · DOK 2]_
-   A. A federal law requiring background checks
-   B. A state law taxing firearm sales
-   C. A strict ban on handguns in the federal district
-   D. A rule requiring gun owners to join a militia
+**24.** After McDonald v. Chicago (2010), which governments are bound by the Second Amendment?  _[GC.24 · DOK 2]_
+   A. Only the federal government
+   B. Only the government of Washington, D.C.
+   C. Only the armed forces and organized militias
+   D. Federal, state, and local governments
 
 **25.** Police enter a home without a warrant or valid exception and find evidence of a crime. Based on Mapp v. Ohio, how should a court most likely treat that evidence at trial?  _[GC.25 · DOK 3]_
    A. Exclude it, because it was obtained through an illegal search
@@ -160,56 +162,56 @@ _Choose the best answer for each question. Assessment items are classroom-format
    C. The Second Amendment
    D. The Due Process and Equal Protection Clauses
 
-**27.** Which 1990 federal law prohibits discrimination against people with disabilities and requires reasonable accommodations?  _[GC.27 · DOK 1]_
-   A. Title IX
-   B. Americans with Disabilities Act
-   C. Voting Rights Act
-   D. Equal Rights Amendment
+**27.** Historians place Korematsu v. United States alongside laws like Title IX and the Americans with Disabilities Act when discussing the “expanding circle” of rights. What does comparing them best show?  _[GC.27 · DOK 3]_
+   A. Rights in America have only ever expanded and never contracted
+   B. Korematsu, Title IX, and the ADA all protected the very same group
+   C. Court rulings have always protected rights better than laws do
+   D. The circle of rights can widen through laws like Title IX and the ADA, but Korematsu shows rights can also be denied
 
-**28.** Which Tennessee trial court is a court of equity, presided over by a Chancellor?  _[GC.28 · DOK 2]_
-   A. Criminal Court
-   B. Chancery Court
-   C. Circuit Court
-   D. the U.S. District Court
+**28.** In a judicial 'retention' election held under the Tennessee Plan, what do voters decide?  _[GC.28 · DOK 2]_
+   A. which of two rival candidates will win the judgeship
+   B. whether to keep a sitting appellate judge in office
+   C. which attorney the governor should appoint to the bench
+   D. how many justices the Supreme Court should have
 
-**29.** A Tennessee city wants to create a new local tax. Based on the legal relationship between the state and its local governments, what must be true for the city to do so?  _[GC.29 · DOK 3]_
-   A. The city may impose any tax its council votes for, without limit
-   B. The federal government must approve the new local tax
-   C. A neighboring county must agree before the tax can take effect
-   D. The tax must be one that the state has authorized the city to levy
+**29.** A government that merges a city and its surrounding county into one consolidated unit is called a —  _[GC.29 · DOK 1]_
+   A. county commission
+   B. unitary state
+   C. metropolitan government
+   D. Grand Division
 
-**30.** How many members serve in the Tennessee Senate and the Tennessee House of Representatives?  _[GC.30 · DOK 1]_
-   A. 50 senators and 435 representatives
-   B. 33 senators and 99 representatives
-   C. 100 senators and 100 representatives
-   D. 95 senators and 95 representatives
+**30.** Under the Tennessee Constitution, the state's supreme executive power is held by the governor, who is elected —  _[GC.30 · DOK 2]_
+   A. by the General Assembly to a two-year term
+   B. by the voters of a single county to represent that county
+   C. statewide by the voters to a four-year term
+   D. by the Tennessee Supreme Court to an unlimited term
 
-**31.** The 6th Amendment guarantees an accused person a trial 'by an impartial jury.' How does this guarantee create a corresponding responsibility for citizens?  _[GC.31 · DOK 2]_
-   A. Citizens must pass a legal examination before they are allowed to serve on a jury.
-   B. Citizens must be willing to serve on juries so that the right to a jury trial can actually be provided.
-   C. Citizens must give up their own right to a trial in order to serve on a jury.
-   D. Only trained lawyers may serve on juries, so ordinary citizens have no role.
+**31.** Jefferson argued that 'wherever the people are well informed they can be trusted with their own government.' Based on this reasoning, why might a large share of uninformed or non-voting citizens pose a risk to a republic?  _[GC.31 · DOK 3]_
+   A. It would legally force the government to cancel future elections.
+   B. It would automatically transform the republic into a monarchy.
+   C. If few citizens are informed and take part, government may fail to reflect the will of the people or be corrected by them.
+   D. It would violate the 6th Amendment right to an impartial jury.
 
-**32.** Madison defined a faction as a group 'united and actuated by some common impulse of passion, or of interest' that may work against the rights of others or the common good. How is a modern political party both similar to and different from Madison's faction?  _[GC.32 · DOK 3]_
-   A. It is identical to a faction because both are banned by the Constitution.
-   B. It differs because a party never seeks to win elections.
-   C. It is the same because neither a party nor a faction ever nominates candidates.
-   D. Like a faction it unites people around shared interests, but unlike a faction it competes openly in elections to represent the public.
+**32.** What is a political party?  _[GC.32 · DOK 1]_
+   A. A government agency responsible for counting votes in national elections
+   B. An organized group that nominates candidates and unites voters to win elections and influence government
+   C. A single meeting where delegates choose a nominee by open discussion
+   D. A constitutional rule requiring two candidates for every office
 
-**33.** Why do pollsters pay close attention to the wording and order of the questions in a public opinion poll?  _[GC.33 · DOK 2]_
-   A. Because federal law fixes the exact wording that every poll must use.
-   B. Because the wording determines how many people can be surveyed.
-   C. Because the way a question is worded can influence how people respond and change the results.
-   D. Because poll results are always accurate no matter how questions are worded.
+**33.** How can the news media influence which issues the public considers most important?  _[GC.33 · DOK 2]_
+   A. By legally requiring citizens to read every published article
+   B. By choosing which stories to cover and how prominently to feature them
+   C. By passing laws that ban certain topics from public discussion
+   D. By guaranteeing that every issue receives exactly equal coverage
 
-**34.** What is lobbying?  _[GC.34 · DOK 1]_
-   A. The act of trying to influence the decisions of government officials
-   B. The process of removing an elected official from office before the term ends
-   C. The act of casting a ballot in an election
-   D. A formal written request signed by many people asking the government to act
+**34.** A citizen wants to influence a specific bill that lawmakers are debating right now, rather than wait until the next election. Which means of participation would most directly serve that goal?  _[GC.34 · DOK 3]_
+   A. Lobbying and petitioning the officials who are considering the bill
+   B. Waiting to cast a vote in the next general election
+   C. Running for office in a future campaign
+   D. Joining a political party's caucus
 
-**35.** Which power over citizenship does Article I, Section 8 of the Constitution give to Congress?  _[GC.35 · DOK 2]_
-   A. The power to choose which states may grant citizenship
-   B. The power to deny citizenship to anyone born in the United States
-   C. The power to establish a uniform rule of naturalization
-   D. The power to require every citizen to pass the Naturalization Test
+**35.** According to the Constitution, which citizenship status must a person hold to be eligible to serve as President?  _[GC.35 · DOK 1]_
+   A. Naturalized citizen
+   B. Natural-born citizen
+   C. Registered voter in every state
+   D. Legal resident of Washington, D.C.

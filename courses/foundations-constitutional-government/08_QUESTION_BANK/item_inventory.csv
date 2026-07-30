@@ -1,0 +1,701 @@
+id,standard,unit,reporting_category,type,dok,level,blooms,hess_crm_cell,c3_dimension,ssp,correct_answer,irt_a,irt_b,irt_c,tennessee_specific,tcap_format,field_test_ready,topics
+GC.01-Q01,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.02,-1.14,0.2,False,True,True,John Locke; natural rights
+GC.01-Q02,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,C,1.14,-0.98,0.2,False,True,True,Magna Carta; limited government
+GC.01-Q03,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.49,0.3,0.2,False,True,True,Montesquieu; separation of powers
+GC.01-Q04,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.62,0.5,0.2,False,True,True,social contract; consent of the governed
+GC.01-Q05,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.1,-0.3,0.2,False,True,True,Thomas Hobbes; social contract
+GC.01-Q06,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,A,1.43,0.66,0.2,False,True,True,Magna Carta; due process
+GC.01-Q07,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,C,1.56,0.92,0.2,False,True,True,Roman Republic; representative government
+GC.01-Q08,GC.01,1,RC-GOV1: Foundations of Constitutional Government,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,See rubric,1.49,0.3,0.0,False,False,False,John Locke; natural rights
+GC.01-Q09,GC.01,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.82,1.44,0.0,False,False,False,Enlightenment influences; argumentation
+GC.01-Q10,GC.01,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.3,0.4,0.0,False,False,False,John Locke; consent of the governed
+GC.01-Q11,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.05,-1.25,0.2,False,True,True,Greek democracy; roots of government
+GC.01-Q12,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.2,-0.95,0.2,False,True,True,English Bill of Rights; limited government
+GC.01-Q13,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.3,-0.05,0.2,False,True,True,Montesquieu; separation of powers
+GC.01-Q14,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.55,0.4,0.2,False,True,True,Magna Carta; rule of law
+GC.01-Q15,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.25,0.15,0.2,False,True,True,John Locke; Thomas Hobbes; social contract
+GC.01-Q16,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,B,1.45,0.65,0.2,False,True,True,John Locke; social contract; consent of the governed
+GC.01-Q17,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,C,1.65,1.0,0.2,False,True,True,Montesquieu; separation of powers
+GC.01-Q18,GC.01,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,C,1.8,1.3,0.2,False,True,True,Enlightenment influences; roots of government
+GC.01-Q19,GC.01,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.85,1.45,0.0,False,False,False,John Locke; Thomas Hobbes; argumentation
+GC.01-Q20,GC.01,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.4,0.6,0.0,False,False,False,Magna Carta; limited government; due process
+GC.02-Q01,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.02,-1.14,0.2,False,True,True,Declaration of Independence; consent of the governed
+GC.02-Q02,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.14,-0.98,0.2,False,True,True,Thomas Jefferson; Declaration of Independence
+GC.02-Q03,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.49,0.3,0.2,False,True,True,unalienable rights; Declaration of Independence
+GC.02-Q04,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.62,0.5,0.2,False,True,True,grievances; King George III
+GC.02-Q05,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.1,-0.3,0.2,False,True,True,grievances; justification for independence
+GC.02-Q06,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,B,1.43,0.66,0.2,False,True,True,natural rights; right of revolution
+GC.02-Q07,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,C,1.56,0.92,0.2,False,True,True,Declaration of Independence; civic argumentation
+GC.02-Q08,GC.02,1,RC-GOV1: Foundations of Constitutional Government,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,See rubric,1.49,0.3,0.0,False,False,False,unalienable rights; consent of the governed
+GC.02-Q09,GC.02,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.82,1.44,0.0,False,False,False,Declaration of Independence; argumentation
+GC.02-Q10,GC.02,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.3,0.4,0.0,False,False,False,Declaration of Independence; natural rights
+GC.02-Q11,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.05,-1.25,0.2,False,True,True,Declaration of Independence; 1776
+GC.02-Q12,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,C,1.2,-0.95,0.2,False,True,True,grievances; King George III
+GC.02-Q13,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.3,-0.05,0.2,False,True,True,unalienable rights; Declaration of Independence
+GC.02-Q14,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.55,0.4,0.2,False,True,True,right of revolution; consent of the governed
+GC.02-Q15,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.02,B,1.25,0.15,0.2,False,True,True,consent of the governed; popular sovereignty
+GC.02-Q16,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,C,1.45,0.65,0.2,False,True,True,right of revolution; grievances
+GC.02-Q17,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,D,1.65,1.0,0.2,False,True,True,John Locke; consent of the governed
+GC.02-Q18,GC.02,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,A,1.8,1.3,0.2,False,True,True,equality; perspectives on the founding
+GC.02-Q19,GC.02,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.85,1.45,0.0,False,False,False,Declaration of Independence; argumentation
+GC.02-Q20,GC.02,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.4,0.6,0.0,False,False,False,grievances; consent of the governed
+GC.03-Q01,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.02,-1.14,0.2,False,True,True,Articles of Confederation; weak central government
+GC.03-Q02,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,C,1.14,-0.98,0.2,False,True,True,Shays's Rebellion; Articles of Confederation
+GC.03-Q03,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,D,1.49,0.3,0.2,False,True,True,Articles of Confederation; power to tax
+GC.03-Q04,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.62,0.5,0.2,False,True,True,Article II; state sovereignty
+GC.03-Q05,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.1,-0.3,0.2,False,True,True,Articles of Confederation; amendment difficulty
+GC.03-Q06,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,A,1.43,0.66,0.2,False,True,True,Shays's Rebellion; weak central government
+GC.03-Q07,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,B,1.56,0.92,0.2,False,True,True,Articles of Confederation; Constitutional Convention
+GC.03-Q08,GC.03,1,RC-GOV1: Foundations of Constitutional Government,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,See rubric,1.49,0.3,0.0,False,False,False,Articles of Confederation; government weaknesses
+GC.03-Q09,GC.03,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.82,1.44,0.0,False,False,False,Articles of Confederation; argumentation
+GC.03-Q10,GC.03,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,See rubric,1.3,0.4,0.0,False,False,False,Article II; state sovereignty
+GC.03-Q11,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,C,1.05,-1.25,0.2,False,True,True,Articles of Confederation; first national constitution
+GC.03-Q12,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,D,1.2,-0.95,0.2,False,True,True,Articles of Confederation; amendment
+GC.03-Q13,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,A,1.3,-0.05,0.2,False,True,True,Articles of Confederation; interstate trade
+GC.03-Q14,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.55,0.4,0.2,False,True,True,Articles of Confederation; powers of Congress
+GC.03-Q15,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.25,0.15,0.2,False,True,True,Articles of Confederation; fear of central power
+GC.03-Q16,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.04,D,1.45,0.65,0.2,False,True,True,Articles of Confederation; power to tax
+GC.03-Q17,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,A,1.65,1.0,0.2,False,True,True,Article II; state sovereignty
+GC.03-Q18,GC.03,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,B,1.8,1.3,0.2,False,True,True,Shays's Rebellion; weak central government
+GC.03-Q19,GC.03,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.85,1.45,0.0,False,False,False,Articles of Confederation; argumentation
+GC.03-Q20,GC.03,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.4,0.6,0.0,False,False,False,Shays's Rebellion; Constitutional Convention
+GC.04-Q01,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.02,-1.14,0.2,False,True,True,Federalist Papers; ratification
+GC.04-Q02,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,B,1.14,-0.98,0.2,False,True,True,Great Compromise; bicameral legislature
+GC.04-Q03,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.49,0.3,0.2,False,True,True,Great Compromise; representation
+GC.04-Q04,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.62,0.5,0.2,False,True,True,Virginia Plan; New Jersey Plan
+GC.04-Q05,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,D,1.1,-0.3,0.2,False,True,True,Anti-Federalists; Bill of Rights
+GC.04-Q06,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,A,1.43,0.66,0.2,False,True,True,Federalist No. 10; faction
+GC.04-Q07,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,C,1.56,0.92,0.2,False,True,True,Three-Fifths Compromise; slavery
+GC.04-Q08,GC.04,1,RC-GOV1: Foundations of Constitutional Government,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,See rubric,1.49,0.3,0.0,False,False,False,Great Compromise; representation
+GC.04-Q09,GC.04,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.82,1.44,0.0,False,False,False,Federalists; Anti-Federalists
+GC.04-Q10,GC.04,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.3,0.4,0.0,False,False,False,Brutus No. 1; Anti-Federalists
+GC.04-Q11,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,D,1.05,-1.25,0.2,False,True,True,Constitutional Convention; 1787
+GC.04-Q12,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.2,-0.95,0.2,False,True,True,Federalist Papers; Publius
+GC.04-Q13,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.3,-0.05,0.2,False,True,True,Three-Fifths Compromise; representation
+GC.04-Q14,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.55,0.4,0.2,False,True,True,Federalists; Anti-Federalists
+GC.04-Q15,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,D,1.25,0.15,0.2,False,True,True,New Jersey Plan; representation
+GC.04-Q16,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.04,A,1.45,0.65,0.2,False,True,True,Great Compromise; bicameral legislature
+GC.04-Q17,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,B,1.65,1.0,0.2,False,True,True,Bill of Rights; ratification
+GC.04-Q18,GC.04,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,C,1.8,1.3,0.2,False,True,True,Federalists; Anti-Federalists; representation
+GC.04-Q19,GC.04,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.85,1.45,0.0,False,False,False,Constitutional Convention; compromise; argumentation
+GC.04-Q20,GC.04,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.4,0.6,0.0,False,False,False,Federalist No. 10; faction
+GC.05-Q01,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,C,1.02,-1.14,0.2,False,True,True,Preamble; popular sovereignty
+GC.05-Q02,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.14,-0.98,0.2,False,True,True,Preamble; general welfare
+GC.05-Q03,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.49,0.3,0.2,False,True,True,general welfare; purposes of government
+GC.05-Q04,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,D,1.62,0.5,0.2,False,True,True,Preamble; posterity
+GC.05-Q05,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.1,-0.3,0.2,False,True,True,Preamble; purposes of government
+GC.05-Q06,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,A,1.43,0.66,0.2,False,True,True,popular sovereignty; monarchy
+GC.05-Q07,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,B,1.56,0.92,0.2,False,True,True,Federalist No. 51; establish Justice
+GC.05-Q08,GC.05,1,RC-GOV1: Foundations of Constitutional Government,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,See rubric,1.49,0.3,0.0,False,False,False,Preamble; purposes of government
+GC.05-Q09,GC.05,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.82,1.44,0.0,False,False,False,Preamble; argumentation
+GC.05-Q10,GC.05,1,RC-GOV1: Foundations of Constitutional Government,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.3,0.4,0.0,False,False,False,Preamble; social contract
+GC.05-Q11,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.05,-1.25,0.2,False,True,True,Preamble; We the People
+GC.05-Q12,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.2,-0.95,0.2,False,True,True,Preamble; purposes of government
+GC.05-Q13,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.3,-0.05,0.2,False,True,True,Preamble; common defence
+GC.05-Q14,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.02,D,1.55,0.4,0.2,False,True,True,Preamble; establish Justice
+GC.05-Q15,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.25,0.15,0.2,False,True,True,Preamble; purposes of government
+GC.05-Q16,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,B,1.45,0.65,0.2,False,True,True,Preamble; domestic Tranquility
+GC.05-Q17,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,C,1.65,1.0,0.2,False,True,True,general Welfare; purposes of government
+GC.05-Q18,GC.05,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,D,1.8,1.3,0.2,False,True,True,Preamble; structure of the Constitution
+GC.05-Q19,GC.05,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.85,1.45,0.0,False,False,False,Preamble; posterity; argumentation
+GC.05-Q20,GC.05,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.4,0.6,0.0,False,False,False,Preamble; popular sovereignty
+GC.06-Q01,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.02,-1.14,0.2,False,True,True,judicial review; courts
+GC.06-Q02,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,B,1.14,-0.98,0.2,False,True,True,separation of powers; three branches
+GC.06-Q03,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.49,0.3,0.2,False,True,True,checks and balances; veto
+GC.06-Q04,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,D,1.62,0.5,0.2,False,True,True,federalism; national and state power
+GC.06-Q05,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.1,-0.3,0.2,False,True,True,rule of law; limited government
+GC.06-Q06,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,A,1.43,0.66,0.2,False,True,True,Federalist No. 51; checks and balances
+GC.06-Q07,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,C,1.56,0.92,0.2,False,True,True,Marbury v. Madison; judicial review
+GC.06-Q08,GC.06,1,RC-GOV1: Foundations of Constitutional Government,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,See rubric,1.49,0.3,0.0,False,False,False,separation of powers; three branches
+GC.06-Q09,GC.06,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.82,1.44,0.0,False,False,False,limited government; argumentation
+GC.06-Q10,GC.06,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.3,0.4,0.0,False,False,False,Federalist No. 51; checks and balances
+GC.06-Q11,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,B,1.05,-1.25,0.2,False,True,True,separation of powers; legislative branch
+GC.06-Q12,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,C,1.2,-0.95,0.2,False,True,True,civilian control of the military; limited government
+GC.06-Q13,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,D,1.3,-0.05,0.2,False,True,True,veto; checks and balances
+GC.06-Q14,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.04,A,1.55,0.4,0.2,False,True,True,federalism; division of powers
+GC.06-Q15,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.25,0.15,0.2,False,True,True,checks and balances; separation of powers
+GC.06-Q16,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.04,C,1.45,0.65,0.2,False,True,True,judicial review; Marbury v. Madison
+GC.06-Q17,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.04,D,1.65,1.0,0.2,False,True,True,separation of powers; limited government
+GC.06-Q18,GC.06,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,A,1.8,1.3,0.2,False,True,True,Federalist No. 78; judicial review
+GC.06-Q19,GC.06,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.85,1.45,0.0,False,False,False,checks and balances; argumentation
+GC.06-Q20,GC.06,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.4,0.6,0.0,False,False,False,Federalist No. 78; judicial review; Marbury v. Madison
+GC.07-Q01,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.02,-1.14,0.2,False,True,True,Article V; ratification
+GC.07-Q02,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,B,1.14,-0.98,0.2,False,True,True,Article I; legislative branch
+GC.07-Q03,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.49,0.3,0.2,False,True,True,Article V; amendment process
+GC.07-Q04,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,D,1.62,0.5,0.2,False,True,True,amendment process; constitutional stability
+GC.07-Q05,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,A,1.1,-0.3,0.2,False,True,True,Supremacy Clause; Article VI
+GC.07-Q06,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,D,1.43,0.66,0.2,False,True,True,Article V; stability and flexibility
+GC.07-Q07,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,C,1.56,0.92,0.2,False,True,True,Article V; federalism
+GC.07-Q08,GC.07,1,RC-GOV1: Foundations of Constitutional Government,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,See rubric,1.49,0.3,0.0,False,False,False,structure of the Constitution; articles
+GC.07-Q09,GC.07,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.82,1.44,0.0,False,False,False,Article V; argumentation
+GC.07-Q10,GC.07,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,See rubric,1.3,0.4,0.0,False,False,False,Article V; amendment process
+GC.07-Q11,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,C,1.05,-1.25,0.2,False,True,True,amendments; Constitution
+GC.07-Q12,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,D,1.2,-0.95,0.2,False,True,True,Article III; structure of the Constitution
+GC.07-Q13,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,A,1.3,-0.05,0.2,False,True,True,Article V; amendment process
+GC.07-Q14,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.55,0.4,0.2,False,True,True,ratification; Article V
+GC.07-Q15,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.04,C,1.25,0.15,0.2,False,True,True,Supremacy Clause; Article VI
+GC.07-Q16,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,D,1.45,0.65,0.2,False,True,True,Article V; federalism
+GC.07-Q17,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,A,1.65,1.0,0.2,False,True,True,Article V; stability
+GC.07-Q18,GC.07,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.04,B,1.8,1.3,0.2,False,True,True,Supremacy Clause; structure of the Constitution
+GC.07-Q19,GC.07,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.85,1.45,0.0,False,False,False,Article V; argumentation
+GC.07-Q20,GC.07,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.4,0.6,0.0,False,False,False,Article V; amendment process; federalism
+GC.08-Q01,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.02,-1.14,0.2,False,True,True,Bill of Rights; amendments
+GC.08-Q02,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.14,-0.98,0.2,False,True,True,Tenth Amendment; reserved powers
+GC.08-Q03,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.49,0.3,0.2,False,True,True,First Amendment; individual freedoms
+GC.08-Q04,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.62,0.5,0.2,False,True,True,due process; Fifth Amendment
+GC.08-Q05,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.1,-0.3,0.2,False,True,True,Tenth Amendment; reserved powers
+GC.08-Q06,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,B,1.43,0.66,0.2,False,True,True,Bill of Rights; natural rights
+GC.08-Q07,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,C,1.56,0.92,0.2,True,True,True,Tennessee Declaration of Rights; federalism
+GC.08-Q08,GC.08,1,RC-GOV1: Foundations of Constitutional Government,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,See rubric,1.49,0.3,0.0,False,False,False,First Amendment; individual freedoms
+GC.08-Q09,GC.08,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.82,1.44,0.0,False,False,False,Bill of Rights; argumentation
+GC.08-Q10,GC.08,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.3,0.4,0.0,False,False,False,First Amendment; limits on government
+GC.08-Q11,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,D,1.05,-1.25,0.2,False,True,True,Bill of Rights; 1791
+GC.08-Q12,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.2,-0.95,0.2,False,True,True,Bill of Rights; amendments
+GC.08-Q13,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.3,-0.05,0.2,False,True,True,Fourth Amendment; individual rights
+GC.08-Q14,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.55,0.4,0.2,False,True,True,Eighth Amendment; rights of the accused
+GC.08-Q15,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.25,0.15,0.2,False,True,True,Ninth Amendment; individual rights
+GC.08-Q16,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,A,1.45,0.65,0.2,False,True,True,First Amendment; freedom of speech; assembly
+GC.08-Q17,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,B,1.65,1.0,0.2,False,True,True,Tenth Amendment; federalism; reserved powers
+GC.08-Q18,GC.08,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,C,1.8,1.3,0.2,False,True,True,Bill of Rights; individual rights
+GC.08-Q19,GC.08,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.85,1.45,0.0,False,False,False,Bill of Rights; limited government; argumentation
+GC.08-Q20,GC.08,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.4,0.6,0.0,False,False,False,Tenth Amendment; federalism; reserved powers
+GC.09-Q01,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.02,-1.14,0.2,False,True,True,republic; representative democracy
+GC.09-Q02,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,B,1.14,-0.98,0.2,False,True,True,direct democracy; lawmaking
+GC.09-Q03,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.49,0.3,0.2,False,True,True,direct democracy; republic
+GC.09-Q04,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,D,1.62,0.5,0.2,False,True,True,Article IV; republican form of government
+GC.09-Q05,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.1,-0.3,0.2,False,True,True,representative democracy; elections
+GC.09-Q06,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,A,1.43,0.66,0.2,False,True,True,Federalist No. 10; faction
+GC.09-Q07,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,C,1.56,0.92,0.2,False,True,True,constitutional republic; minority rights
+GC.09-Q08,GC.09,1,RC-GOV1: Foundations of Constitutional Government,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,See rubric,1.49,0.3,0.0,False,False,False,direct democracy; republic
+GC.09-Q09,GC.09,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.82,1.44,0.0,False,False,False,republic; argumentation
+GC.09-Q10,GC.09,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.3,0.4,0.0,False,False,False,Federalist No. 10; republic
+GC.09-Q11,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.05,-1.25,0.2,False,True,True,republic; representative government
+GC.09-Q12,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.2,-0.95,0.2,False,True,True,Article IV; republican form of government
+GC.09-Q13,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.3,-0.05,0.2,False,True,True,republic; representative democracy
+GC.09-Q14,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.55,0.4,0.2,False,True,True,constitutional republic; limited government
+GC.09-Q15,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.02,A,1.25,0.15,0.2,False,True,True,direct democracy; citizen participation
+GC.09-Q16,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,B,1.45,0.65,0.2,False,True,True,direct democracy; representative democracy
+GC.09-Q17,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,C,1.65,1.0,0.2,False,True,True,republic; representative democracy
+GC.09-Q18,GC.09,1,RC-GOV1: Foundations of Constitutional Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,D,1.8,1.3,0.2,False,True,True,constitutional republic; minority rights
+GC.09-Q19,GC.09,1,RC-GOV1: Foundations of Constitutional Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.85,1.45,0.0,False,False,False,direct democracy; republic; argumentation
+GC.09-Q20,GC.09,1,RC-GOV1: Foundations of Constitutional Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.4,0.6,0.0,False,False,False,Article IV; republican form of government
+GC.10-Q01,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.03,C,1.2,-1.3,0.2,False,True,True,Senate; term length
+GC.10-Q02,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.03,A,1.1,-1.1,0.2,False,True,True,House of Representatives; term length
+GC.10-Q03,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,B,1.4,-0.1,0.2,False,True,True,Seventeenth Amendment; direct election
+GC.10-Q04,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,D,1.3,0.0,0.2,False,True,True,bicameral; Congress structure
+GC.10-Q05,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.03,A,1.4,0.2,0.2,False,True,True,Senate qualifications; eligibility
+GC.10-Q06,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.03,C,1.6,0.6,0.2,False,True,True,accountability; term length
+GC.10-Q07,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,B,1.7,0.9,0.2,False,True,True,Seventeenth Amendment; accountability
+GC.10-Q08,GC.10,3,RC-GOV3: The Legislative Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,See rubric,1.3,0.3,0.0,False,False,False,House vs Senate; terms and elections
+GC.10-Q09,GC.10,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.03,See rubric,1.6,1.0,0.0,False,False,False,bicameralism; representation compromise
+GC.10-Q10,GC.10,3,RC-GOV3: The Legislative Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.7,1.1,0.0,False,False,False,Seventeenth Amendment; state role
+GC.10-Q11,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.2,-0.75,0.2,False,True,True,House qualifications; Article I
+GC.10-Q12,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.0,-1.2,0.2,False,True,True,Seventeenth Amendment; Senate selection
+GC.10-Q13,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,C,1.32,0.4,0.2,False,True,True,apportionment; House of Representatives
+GC.10-Q14,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,D,1.44,0.6,0.2,False,True,True,terms of office; elections
+GC.10-Q15,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,A,1.56,-0.2,0.2,False,True,True,Seventeenth Amendment; accountability
+GC.10-Q16,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.04,C,1.52,1.2,0.2,False,True,True,apportionment; representation
+GC.10-Q17,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.04,D,1.64,1.4,0.2,False,True,True,terms of office; political accountability
+GC.10-Q18,GC.10,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,B,1.76,0.4,0.2,False,True,True,Seventeenth Amendment; federalism
+GC.10-Q19,GC.10,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.04,See rubric,1.88,0.6,0.0,False,False,False,representation; bicameralism
+GC.10-Q20,GC.10,3,RC-GOV3: The Legislative Branch,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.4,0.8,0.0,False,False,False,bicameralism; terms of office
+GC.11-Q01,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,C,1.1,-1.3,0.2,False,True,True,census; enumeration
+GC.11-Q02,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,A,1.2,-1.0,0.2,False,True,True,gerrymandering; redistricting
+GC.11-Q03,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,B,1.4,0.0,0.2,False,True,True,census; apportionment
+GC.11-Q04,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,D,1.5,0.3,0.2,False,True,True,apportionment; redistricting
+GC.11-Q05,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D3,SSP.05,C,1.5,0.4,0.2,True,True,True,Baker v. Carr; malapportionment
+GC.11-Q06,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.05,D,1.8,0.8,0.2,True,True,True,Baker v. Carr; one person one vote
+GC.11-Q07,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.05,A,1.7,0.9,0.2,False,True,True,gerrymandering; election outcomes
+GC.11-Q08,GC.11,3,RC-GOV3: The Legislative Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,See rubric,1.3,0.3,0.0,False,False,False,census; reapportionment
+GC.11-Q09,GC.11,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.05,See rubric,1.7,1.0,0.0,True,False,False,Baker v. Carr; Fourteenth Amendment
+GC.11-Q10,GC.11,3,RC-GOV3: The Legislative Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.8,1.2,0.0,True,False,False,Baker v. Carr; judicial review
+GC.11-Q11,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.2,-0.75,0.2,False,True,True,redistricting; census
+GC.11-Q12,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,C,1.0,-1.2,0.2,True,True,True,Baker v. Carr; Tennessee
+GC.11-Q13,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,B,1.32,0.4,0.2,True,True,True,"one person, one vote; equal representation"
+GC.11-Q14,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,A,1.44,0.6,0.2,False,True,True,reapportionment; census
+GC.11-Q15,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.56,-0.2,0.2,True,True,True,Baker v. Carr; justiciability
+GC.11-Q16,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.04,B,1.52,1.2,0.2,False,True,True,gerrymandering; redistricting
+GC.11-Q17,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.04,D,1.64,1.4,0.2,False,True,True,"one person, one vote; malapportionment"
+GC.11-Q18,GC.11,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,D,1.76,0.4,0.2,True,True,True,Baker v. Carr; justiciability
+GC.11-Q19,GC.11,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.04,See rubric,1.88,0.6,0.0,False,False,False,gerrymandering; redistricting
+GC.11-Q20,GC.11,3,RC-GOV3: The Legislative Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.4,0.8,0.0,True,False,False,census; equal representation
+GC.12-Q01,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.1,-1.1,0.2,False,True,True,Vice President; tie-breaking vote
+GC.12-Q02,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.2,-0.9,0.2,False,True,True,Speaker of the House; constitutional offices
+GC.12-Q03,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,C,1.4,-0.1,0.2,False,True,True,Speaker of the House; House agenda
+GC.12-Q04,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,D,1.4,0.1,0.2,False,True,True,President pro tempore; Senate leadership
+GC.12-Q05,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.01,B,1.4,0.2,0.2,False,True,True,Speaker selection; majority party
+GC.12-Q06,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.03,A,1.6,0.6,0.2,False,True,True,floor leaders; legislative scheduling
+GC.12-Q07,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.03,C,1.7,0.9,0.2,False,True,True,Speaker of the House; political power
+GC.12-Q08,GC.12,3,RC-GOV3: The Legislative Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,See rubric,1.3,0.3,0.0,False,False,False,Vice President; Senate role
+GC.12-Q09,GC.12,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.03,See rubric,1.6,1.0,0.0,False,False,False,congressional leadership; lawmaking
+GC.12-Q10,GC.12,3,RC-GOV3: The Legislative Branch,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.03,See rubric,1.7,1.1,0.0,False,False,False,congressional leadership; comparative influence
+GC.12-Q11,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.2,-0.75,0.2,False,True,True,President pro tempore; Senate leadership
+GC.12-Q12,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,C,1.0,-1.2,0.2,False,True,True,Speaker of the House; line of succession
+GC.12-Q13,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.03,A,1.32,0.4,0.2,False,True,True,floor leaders; party leadership
+GC.12-Q14,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,D,1.44,0.6,0.2,False,True,True,Vice President; tie-breaking vote
+GC.12-Q15,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Analyze,Analyze × DOK 2,D2,SSP.03,D,1.56,-0.2,0.2,False,True,True,Speaker of the House; President pro tempore
+GC.12-Q16,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.04,A,1.52,1.2,0.2,False,True,True,agenda control; legislative leadership
+GC.12-Q17,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.04,C,1.64,1.4,0.2,False,True,True,Speaker of the House; divided government
+GC.12-Q18,GC.12,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,B,1.76,0.4,0.2,False,True,True,legislative leadership; bicameralism
+GC.12-Q19,GC.12,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.04,See rubric,1.88,0.6,0.0,False,False,False,Vice President; President of the Senate
+GC.12-Q20,GC.12,3,RC-GOV3: The Legislative Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.4,0.8,0.0,False,False,False,Speaker of the House; constitutional design
+GC.13-Q01,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.05,B,1.2,-1.2,0.2,False,True,True,veto override; two-thirds vote
+GC.13-Q02,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.05,C,1.1,-1.0,0.2,False,True,True,filibuster; Senate debate
+GC.13-Q03,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,A,1.4,0.0,0.2,False,True,True,cloture; filibuster
+GC.13-Q04,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D3,SSP.01,D,1.4,0.2,0.2,False,True,True,presentment; Article I Section 7
+GC.13-Q05,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.05,B,1.4,0.3,0.2,False,True,True,committee; bill process
+GC.13-Q06,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.05,C,1.7,0.7,0.2,False,True,True,House vs Senate; debate rules
+GC.13-Q07,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.05,A,1.7,0.9,0.2,False,True,True,checks and balances; legislative difficulty
+GC.13-Q08,GC.13,3,RC-GOV3: The Legislative Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,See rubric,1.3,0.3,0.0,False,False,False,bill process; lawmaking
+GC.13-Q09,GC.13,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.05,See rubric,1.6,1.0,0.0,False,False,False,House Rules Committee; filibuster and cloture
+GC.13-Q10,GC.13,3,RC-GOV3: The Legislative Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.7,1.1,0.0,False,False,False,veto override; checks and balances
+GC.13-Q11,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.2,-0.75,0.2,False,True,True,cloture; filibuster
+GC.13-Q12,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.0,-1.2,0.2,False,True,True,veto; lawmaking
+GC.13-Q13,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,C,1.32,0.4,0.2,False,True,True,bicameralism; lawmaking process
+GC.13-Q14,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,A,1.44,0.6,0.2,False,True,True,filibuster; cloture
+GC.13-Q15,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,D,1.56,-0.2,0.2,False,True,True,committees; lawmaking process
+GC.13-Q16,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.04,D,1.52,1.2,0.2,False,True,True,veto override; two-thirds vote
+GC.13-Q17,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.04,C,1.64,1.4,0.2,False,True,True,filibuster; Senate procedure
+GC.13-Q18,GC.13,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,B,1.76,0.4,0.2,False,True,True,lawmaking process; checks and balances
+GC.13-Q19,GC.13,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.04,See rubric,1.88,0.6,0.0,False,False,False,veto; checks and balances
+GC.13-Q20,GC.13,3,RC-GOV3: The Legislative Branch,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.4,0.8,0.0,False,False,False,lawmaking process; gridlock
+GC.14-Q01,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,A,1.1,-1.1,0.2,False,True,True,constituent; representation
+GC.14-Q02,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,B,1.2,-1.0,0.2,True,True,True,senators per state; equal representation
+GC.14-Q03,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,C,1.4,0.0,0.2,True,True,True,apportionment; House delegation
+GC.14-Q04,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,D,1.4,0.2,0.2,True,True,True,delegation; Congress membership
+GC.14-Q05,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.06,A,1.4,0.3,0.2,True,True,True,constituents; senator vs representative
+GC.14-Q06,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.06,C,1.6,0.6,0.2,True,True,True,congressional district; contacting representatives
+GC.14-Q07,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.06,B,1.7,0.9,0.2,True,True,True,representation design; state and local interests
+GC.14-Q08,GC.14,3,RC-GOV3: The Legislative Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,See rubric,1.3,0.3,0.0,True,False,False,constituents; representation
+GC.14-Q09,GC.14,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.06,See rubric,1.6,1.0,0.0,True,False,False,apportionment; equal representation
+GC.14-Q10,GC.14,3,RC-GOV3: The Legislative Branch,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.06,See rubric,1.7,1.1,0.0,True,False,False,representation; Tennessee delegation
+GC.14-Q11,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.2,-0.75,0.2,False,True,True,congressional district; House of Representatives
+GC.14-Q12,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,D,1.0,-1.2,0.2,False,True,True,House terms; Tennessee delegation
+GC.14-Q13,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,B,1.32,0.4,0.2,True,True,True,Tennessee delegation; representation
+GC.14-Q14,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,C,1.44,0.6,0.2,True,True,True,apportionment; Tennessee delegation
+GC.14-Q15,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.03,A,1.56,-0.2,0.2,True,True,True,constituent; congressional district
+GC.14-Q16,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.04,B,1.52,1.2,0.2,True,True,True,Tennessee delegation; constituent services
+GC.14-Q17,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.04,D,1.64,1.4,0.2,True,True,True,redistricting; Tennessee delegation
+GC.14-Q18,GC.14,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,C,1.76,0.4,0.2,True,True,True,senators; statewide representation
+GC.14-Q19,GC.14,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.04,See rubric,1.88,0.6,0.0,True,False,False,Tennessee delegation; representation
+GC.14-Q20,GC.14,3,RC-GOV3: The Legislative Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.4,0.8,0.0,True,False,False,apportionment; Tennessee delegation
+GC.15-Q01,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,C,1.2,-1.1,0.2,False,True,True,Necessary and Proper Clause; Elastic Clause
+GC.15-Q02,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.1,-1.0,0.2,False,True,True,enumerated powers; Article I Section 8
+GC.15-Q03,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.4,0.1,0.2,False,True,True,enumerated powers; implied powers
+GC.15-Q04,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.4,0.2,0.2,False,True,True,enumerated powers; declare war
+GC.15-Q05,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.02,A,1.5,0.3,0.2,False,True,True,Necessary and Proper Clause; implied powers
+GC.15-Q06,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,D,1.8,0.8,0.2,False,True,True,McCulloch v. Maryland; implied powers
+GC.15-Q07,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,C,1.8,1.0,0.2,False,True,True,McCulloch v. Maryland; national supremacy
+GC.15-Q08,GC.15,3,RC-GOV3: The Legislative Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,See rubric,1.3,0.3,0.0,False,False,False,enumerated powers; Article I Section 8
+GC.15-Q09,GC.15,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.02,See rubric,1.7,1.0,0.0,False,False,False,Necessary and Proper Clause; McCulloch v. Maryland
+GC.15-Q10,GC.15,3,RC-GOV3: The Legislative Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.8,1.2,0.0,False,False,False,McCulloch v. Maryland; implied powers
+GC.15-Q11,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,C,1.2,-0.75,0.2,False,True,True,implied powers; Necessary and Proper Clause
+GC.15-Q12,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,D,1.0,-1.2,0.2,False,True,True,"enumerated powers; Article I, Section 8"
+GC.15-Q13,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.03,A,1.32,0.4,0.2,False,True,True,commerce power; enumerated powers
+GC.15-Q14,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.03,B,1.44,0.6,0.2,False,True,True,confirmations; enumerated powers
+GC.15-Q15,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,C,1.56,-0.2,0.2,False,True,True,declaration of war; separation of powers
+GC.15-Q16,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.04,A,1.52,1.2,0.2,False,True,True,Necessary and Proper Clause; implied powers
+GC.15-Q17,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.04,D,1.64,1.4,0.2,False,True,True,commerce power; implied powers
+GC.15-Q18,GC.15,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,B,1.76,0.4,0.2,False,True,True,McCulloch v. Maryland; implied powers
+GC.15-Q19,GC.15,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.04,See rubric,1.88,0.6,0.0,False,False,False,commerce power; appropriations
+GC.15-Q20,GC.15,3,RC-GOV3: The Legislative Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.4,0.8,0.0,False,False,False,Necessary and Proper Clause; implied powers
+GC.16-Q01,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.1,-1.2,0.2,False,True,True,Article II; presidential qualifications; eligibility
+GC.16-Q02,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.2,-1.0,0.2,False,True,True,Commander-in-Chief; presidential roles; civilian control of military
+GC.16-Q03,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,C,1.4,0.1,0.2,False,True,True,treaty power; Advice and Consent; checks and balances
+GC.16-Q04,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,D,1.3,0.3,0.2,False,True,True,executive order; limits on executive power; rule of law
+GC.16-Q05,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Analyze,Analyze × DOK 2,D2,SSP.01,A,1.5,0.4,0.2,False,True,True,22nd Amendment; 25th Amendment; term limits; succession
+GC.16-Q06,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,B,1.6,0.7,0.2,False,True,True,war powers; separation of powers; checks and balances; Commander-in-Chief
+GC.16-Q07,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.05,C,1.7,0.9,0.2,True,True,True,impeachment; checks on the executive; Andrew Johnson; accountability
+GC.16-Q08,GC.16,4,RC-GOV4: The Executive Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,See rubric,1.3,0.2,0.0,False,False,False,Advice and Consent; appointments; treaties; checks and balances
+GC.16-Q09,GC.16,4,RC-GOV4: The Executive Branch,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,0.9,0.0,False,False,False,separation of powers; checks and balances; Article II powers
+GC.16-Q10,GC.16,4,RC-GOV4: The Executive Branch,document_based,3,Advanced,Create,Create × DOK 3,D4,SSP.02,See rubric,1.6,1.1,0.0,False,False,False,oath of office; rule of law; constitutional limits; Article II
+GC.16-Q11,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.1,-1.3,0.2,False,True,True,oath of office; Article II; rule of law
+GC.16-Q12,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.0,-1.1,0.2,False,True,True,25th Amendment; presidential succession; Vice President
+GC.16-Q13,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.01,C,1.4,0.0,0.2,False,True,True,appointments; Advice and Consent; checks and balances
+GC.16-Q14,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,D,1.3,-0.2,0.2,False,True,True,presidential roles; Chief Diplomat; foreign policy
+GC.16-Q15,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.4,0.3,0.2,False,True,True,22nd Amendment; term limits; checks on the executive
+GC.16-Q16,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,C,1.6,0.8,0.2,False,True,True,War Powers Act; war powers; checks and balances; Commander-in-Chief
+GC.16-Q17,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,B,1.7,0.9,0.2,False,True,True,executive order; limits on executive power; rule of law; judicial check
+GC.16-Q18,GC.16,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.02,D,1.8,1.1,0.2,False,True,True,Federalist 70; separation of powers; energy in the executive; checks and balances
+GC.16-Q19,GC.16,4,RC-GOV4: The Executive Branch,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,0.9,0.0,False,False,False,war powers; War Powers Act; Commander-in-Chief; checks and balances
+GC.16-Q20,GC.16,4,RC-GOV4: The Executive Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.02,See rubric,1.6,1.1,0.0,False,False,False,Article II; treaty power; Commander-in-Chief; checks and balances
+GC.17-Q01,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.1,-1.3,0.2,False,True,True,Cabinet; executive departments; presidential advisers
+GC.17-Q02,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,C,1.2,-1.1,0.2,False,True,True,Department of Defense; executive departments; military
+GC.17-Q03,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.01,D,1.4,0.0,0.2,False,True,True,Department of Justice; law enforcement; executive departments
+GC.17-Q04,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,A,1.4,0.3,0.2,False,True,True,Take Care Clause; bureaucracy; executive departments
+GC.17-Q05,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.01,B,1.5,0.5,0.2,False,True,True,iron triangle; bureaucracy; interest groups; policy making
+GC.17-Q06,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,C,1.6,0.8,0.2,False,True,True,bureaucracy; accountability; unelected officials; control of policy
+GC.17-Q07,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.02,D,1.7,1.0,0.2,False,True,True,executive departments; division of labor; scale of government
+GC.17-Q08,GC.17,4,RC-GOV4: The Executive Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,See rubric,1.2,0.1,0.0,False,False,False,executive departments; State; Treasury; Defense; Justice; Education
+GC.17-Q09,GC.17,4,RC-GOV4: The Executive Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.04,See rubric,1.5,0.9,0.0,False,False,False,iron triangle; bureaucracy; policy stability; interest groups
+GC.17-Q10,GC.17,4,RC-GOV4: The Executive Branch,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.7,1.2,0.0,False,False,False,bureaucracy; Take Care Clause; executive power; administration of law
+GC.17-Q11,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.1,-1.4,0.2,False,True,True,Department of State; executive departments; foreign policy
+GC.17-Q12,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,D,1.2,-1.2,0.2,False,True,True,Department of the Treasury; executive departments; taxes and debt
+GC.17-Q13,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.01,C,1.3,-0.1,0.2,False,True,True,Department of Education; executive departments; federal school policy
+GC.17-Q14,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,A,1.4,0.2,0.2,False,True,True,Cabinet; executive departments; presidential advisers
+GC.17-Q15,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.5,0.5,0.2,False,True,True,Cabinet; Article II; constitutional development
+GC.17-Q16,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.02,D,1.6,0.8,0.2,False,True,True,Department of Justice; law enforcement; executive departments
+GC.17-Q17,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,B,1.6,0.9,0.2,False,True,True,bureaucracy; continuity; civil service; administration of law
+GC.17-Q18,GC.17,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.02,C,1.7,1.0,0.2,False,True,True,iron triangle; bureaucracy; interest groups; policy stability
+GC.17-Q19,GC.17,4,RC-GOV4: The Executive Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.04,See rubric,1.5,0.9,0.0,False,False,False,executive departments; growth of government; bureaucracy
+GC.17-Q20,GC.17,4,RC-GOV4: The Executive Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.02,See rubric,1.6,1.1,0.0,False,False,False,Take Care Clause; bureaucracy; executive departments; Article II
+GC.18-Q01,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,C,1.0,-1.0,0.2,False,True,True,Electoral College; 270 electoral votes; majority
+GC.18-Q02,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,D,1.2,-0.6,0.2,False,True,True,electors; Article II; apportionment
+GC.18-Q03,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,A,1.4,0.1,0.2,False,True,True,winner-take-all; electoral votes; state popular vote
+GC.18-Q04,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,B,1.4,0.4,0.2,False,True,True,Electoral College; no majority; House of Representatives; contingent election
+GC.18-Q05,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Analyze,Analyze × DOK 2,D2,SSP.06,C,1.5,0.6,0.2,False,True,True,Electoral College; small states; federalism; electors formula
+GC.18-Q06,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.04,D,1.6,0.9,0.2,False,True,True,Electoral College; arguments in favor; national campaigns; federalism
+GC.18-Q07,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.06,A,1.6,1.0,0.2,False,True,True,Electoral College; arguments against; swing states; winner-take-all
+GC.18-Q08,GC.18,4,RC-GOV4: The Executive Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,See rubric,1.3,0.2,0.0,True,False,False,electors formula; winner-take-all; Tennessee electoral votes
+GC.18-Q09,GC.18,4,RC-GOV4: The Executive Branch,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,0.9,0.0,False,False,False,Electoral College; arguments for and against; reform debate
+GC.18-Q10,GC.18,4,RC-GOV4: The Executive Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.02,See rubric,1.7,1.2,0.0,False,False,False,Federalist No. 68; Electoral College; popular will; primary source analysis
+GC.18-Q11,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.0,-1.3,0.2,False,True,True,elector; Electoral College; presidential elections
+GC.18-Q12,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,D,1.1,-1.0,0.2,False,True,True,Electoral College; 538 electors; total electors
+GC.18-Q13,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.06,A,1.4,0.1,0.2,False,True,True,Electoral College; population shifts; apportionment; electoral votes
+GC.18-Q14,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,C,1.5,0.4,0.2,False,True,True,Electoral College; Great Compromise; federalism; representation
+GC.18-Q15,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.3,0.2,0.2,False,True,True,Electoral College; arguments in favor; federalism; framers' purpose
+GC.18-Q16,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.02,B,1.6,0.8,0.2,False,True,True,Electoral College; no majority; House of Representatives; contingent election
+GC.18-Q17,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.06,C,1.7,0.9,0.2,False,True,True,Electoral College; winner-take-all; popular vote; electoral vote
+GC.18-Q18,GC.18,4,RC-GOV4: The Executive Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.04,A,1.8,1.1,0.2,False,True,True,Electoral College; arguments for and against; winner-take-all; small states
+GC.18-Q19,GC.18,4,RC-GOV4: The Executive Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.04,See rubric,1.5,0.9,0.0,False,False,False,Electoral College; federalism; states and national government
+GC.18-Q20,GC.18,4,RC-GOV4: The Executive Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.02,See rubric,1.7,1.2,0.0,False,False,False,Electoral College; Article II; federalism; state legislatures
+GC.19-Q01,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.1,-1.2,0.2,False,True,True,Article III; judicial independence; impeachment
+GC.19-Q02,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Understand,Understand × DOK 1,D2,SSP.01,C,1.3,-0.9,0.2,False,True,True,Article III; life tenure; good Behaviour
+GC.19-Q03,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,A,1.4,-0.2,0.2,False,True,True,judicial independence; life tenure; protected salary
+GC.19-Q04,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,B,1.5,0.0,0.2,False,True,True,jurisdiction; appellate jurisdiction; Article III
+GC.19-Q05,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,C,1.4,0.2,0.2,False,True,True,Article III; lower federal courts; Congress
+GC.19-Q06,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.02,D,1.6,0.7,0.2,False,True,True,judicial independence; countermajoritarian; constitutional design
+GC.19-Q07,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,A,1.7,1.0,0.2,False,True,True,Article III Section 2; jurisdiction; treaties
+GC.19-Q08,GC.19,5,RC-GOV5: The Judicial Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,See rubric,1.2,0.4,0.0,False,False,False,jurisdiction; original jurisdiction; appellate jurisdiction
+GC.19-Q09,GC.19,5,RC-GOV5: The Judicial Branch,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,1.1,0.0,False,False,False,life tenure; judicial independence; countermajoritarian
+GC.19-Q10,GC.19,5,RC-GOV5: The Judicial Branch,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.6,1.3,0.0,False,False,False,Article III; judicial independence; constitutional design
+GC.19-Q11,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,D,1.2,-1.1,0.2,False,True,True,Article III; protected salary; judicial independence
+GC.19-Q12,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.1,-0.9,0.2,False,True,True,Article III; Supreme Court; judicial power
+GC.19-Q13,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,A,1.4,-0.1,0.2,False,True,True,jurisdiction; original jurisdiction; Article III
+GC.19-Q14,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,C,1.5,0.2,0.2,False,True,True,Article III; lower federal courts; Congress
+GC.19-Q15,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,B,1.5,0.3,0.2,False,True,True,Article III Section 2; federal question; jurisdiction
+GC.19-Q16,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,A,1.7,0.7,0.2,False,True,True,life tenure; impeachment; judicial independence
+GC.19-Q17,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,C,1.8,1.0,0.2,False,True,True,Article III; Congress; lower federal courts
+GC.19-Q18,GC.19,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,D,1.9,1.2,0.2,False,True,True,Article III Section 2; federal judicial power; federalism
+GC.19-Q19,GC.19,5,RC-GOV5: The Judicial Branch,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,1.1,0.0,False,False,False,Article III; constitutional design; Congress
+GC.19-Q20,GC.19,5,RC-GOV5: The Judicial Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.6,1.3,0.0,False,False,False,Article III Section 2; jurisdiction; national power
+GC.20-Q01,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.05,B,1.2,-1.3,0.2,False,True,True,confirmation; Senate; appointment process
+GC.20-Q02,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.05,A,1.3,-1.1,0.2,False,True,True,nomination; President; Article II
+GC.20-Q03,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,D,1.4,-0.1,0.2,False,True,True,Senate Judiciary Committee; confirmation hearings; process
+GC.20-Q04,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,C,1.5,0.1,0.2,False,True,True,Advice and Consent; shared power; Article II
+GC.20-Q05,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Analyze,Analyze × DOK 2,D2,SSP.02,D,1.5,0.3,0.2,False,True,True,checks and balances; shared appointment power; separation of powers
+GC.20-Q06,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,A,1.6,0.6,0.2,False,True,True,life tenure; high-stakes confirmations; long-term impact
+GC.20-Q07,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.05,B,1.7,0.9,0.2,True,True,True,John Catron; Tennessee; selection of justices
+GC.20-Q08,GC.20,5,RC-GOV5: The Judicial Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,See rubric,1.2,0.4,0.0,False,False,False,nomination; confirmation; shared appointment power
+GC.20-Q09,GC.20,5,RC-GOV5: The Judicial Branch,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,1.1,0.0,False,False,False,confirmation; Senate majority; checks and balances
+GC.20-Q10,GC.20,5,RC-GOV5: The Judicial Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.6,1.3,0.0,False,False,False,Article II Section 2; Advice and Consent; checks and balances
+GC.20-Q11,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.05,A,1.2,-1.0,0.2,False,True,True,Article II; appointment power; Advice and Consent
+GC.20-Q12,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.05,B,1.2,-0.9,0.2,False,True,True,nomination; appointment process; vocabulary
+GC.20-Q13,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.05,C,1.4,0.1,0.2,False,True,True,nomination; confirmation; appointment process
+GC.20-Q14,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,D,1.5,0.3,0.2,False,True,True,Senate Judiciary Committee; confirmation; full Senate vote
+GC.20-Q15,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,A,1.5,0.4,0.2,False,True,True,Advice and Consent; confirmation; shared power
+GC.20-Q16,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,B,1.7,0.8,0.2,False,True,True,checks and balances; shared appointment power; Senate
+GC.20-Q17,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.02,C,1.8,1.1,0.2,False,True,True,Advice and Consent; checks and balances; confirmation
+GC.20-Q18,GC.20,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.05,D,1.8,1.0,0.2,True,True,True,John Catron; Tennessee; life tenure
+GC.20-Q19,GC.20,5,RC-GOV5: The Judicial Branch,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,1.1,0.0,False,False,False,confirmation; Senate; appointment process
+GC.20-Q20,GC.20,5,RC-GOV5: The Judicial Branch,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.02,See rubric,1.6,1.3,0.0,False,False,False,confirmation; checks and balances; life tenure
+GC.21-Q01,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.2,-1.1,0.2,False,True,True,Marbury v. Madison; judicial review; landmark cases
+GC.21-Q02,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Understand,Understand × DOK 1,D2,SSP.02,A,1.3,-0.8,0.2,False,True,True,judicial review; unconstitutional; definition
+GC.21-Q03,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,C,1.3,-0.2,0.2,False,True,True,John Marshall; Marbury v. Madison; Chief Justice
+GC.21-Q04,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D3,SSP.02,D,1.5,0.1,0.2,False,True,True,Marbury v. Madison; judicial interpretation; John Marshall
+GC.21-Q05,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.4,0.2,0.2,False,True,True,Marbury v. Madison; unconstitutional; void
+GC.21-Q06,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,A,1.6,0.7,0.2,False,True,True,judicial review; checks and balances; balance of power
+GC.21-Q07,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,B,1.7,1.0,0.2,False,True,True,judicial review; supremacy; constitutional reasoning
+GC.21-Q08,GC.21,5,RC-GOV5: The Judicial Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,See rubric,1.2,0.4,0.0,False,False,False,Marbury v. Madison; judicial review; checks and balances
+GC.21-Q09,GC.21,5,RC-GOV5: The Judicial Branch,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,1.2,0.0,False,False,False,judicial review; Marbury v. Madison; constitutional interpretation
+GC.21-Q10,GC.21,5,RC-GOV5: The Judicial Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.7,1.4,0.0,False,False,False,Marbury v. Madison; judicial review; balance of power
+GC.21-Q11,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.2,-1.0,0.2,False,True,True,precedent; vocabulary; judicial process
+GC.21-Q12,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Understand,Understand × DOK 1,D2,SSP.02,B,1.2,-0.8,0.2,False,True,True,unconstitutional; vocabulary; judicial review
+GC.21-Q13,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.4,0.1,0.2,False,True,True,precedent; Marbury v. Madison; judicial review
+GC.21-Q14,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.5,0.3,0.2,False,True,True,Marbury v. Madison; constitutional conflict; interpretation
+GC.21-Q15,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.5,0.4,0.2,False,True,True,supremacy; judicial review; constitutional hierarchy
+GC.21-Q16,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.02,B,1.7,0.8,0.2,False,True,True,judicial review; Marbury v. Madison; application
+GC.21-Q17,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,C,1.8,1.1,0.2,False,True,True,judicial review; countermajoritarian; constitutional reasoning
+GC.21-Q18,GC.21,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,D,1.7,0.9,0.2,False,True,True,judicial review; checks and balances; separation of powers
+GC.21-Q19,GC.21,5,RC-GOV5: The Judicial Branch,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,1.2,0.0,False,False,False,judicial review; Marbury v. Madison; democracy
+GC.21-Q20,GC.21,5,RC-GOV5: The Judicial Branch,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.02,See rubric,1.7,1.4,0.0,False,False,False,judicial review; checks and balances; balance of power
+GC.22-Q01,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.1,-1.0,0.2,False,True,True,rule of four; writ of certiorari; Supreme Court process
+GC.22-Q02,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Understand,Understand × DOK 1,D2,SSP.04,B,1.3,-0.7,0.2,False,True,True,writ of certiorari; Supreme Court process; definition
+GC.22-Q03,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.5,0.0,0.2,False,True,True,judicial activism; judicial philosophy; living Constitution
+GC.22-Q04,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,A,1.4,0.2,0.2,False,True,True,judicial restraint; original intent; judicial philosophy
+GC.22-Q05,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Analyze,Analyze × DOK 2,D2,SSP.04,D,1.5,0.3,0.2,False,True,True,precedent; Supreme Court rulings; nationwide effect
+GC.22-Q06,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,C,1.6,0.8,0.2,False,True,True,Supremacy Clause; Article VI; constitutionality
+GC.22-Q07,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.05,B,1.7,1.0,0.2,True,True,True,Baker v. Carr; Tennessee; judicial activism
+GC.22-Q08,GC.22,5,RC-GOV5: The Judicial Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,See rubric,1.2,0.4,0.0,False,False,False,writ of certiorari; rule of four; Supreme Court process
+GC.22-Q09,GC.22,5,RC-GOV5: The Judicial Branch,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,1.2,0.0,False,False,False,judicial activism; judicial restraint; constitutional interpretation
+GC.22-Q10,GC.22,5,RC-GOV5: The Judicial Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.6,1.4,0.0,False,False,False,Supremacy Clause; Article VI; constitutionality
+GC.22-Q11,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.2,-0.9,0.2,False,True,True,judicial activism; living Constitution; vocabulary
+GC.22-Q12,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,B,1.2,-0.8,0.2,False,True,True,judicial restraint; original intent; vocabulary
+GC.22-Q13,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.5,0.2,0.2,False,True,True,rule of four; writ of certiorari; docket control
+GC.22-Q14,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,D,1.4,0.3,0.2,False,True,True,writ of certiorari; appeals process; Supreme Court process
+GC.22-Q15,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,A,1.5,0.4,0.2,False,True,True,judicial activism; judicial restraint; comparison
+GC.22-Q16,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,B,1.7,0.8,0.2,False,True,True,judicial activism; constitutionality; application
+GC.22-Q17,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,C,1.7,0.9,0.2,False,True,True,judicial restraint; original intent; application
+GC.22-Q18,GC.22,5,RC-GOV5: The Judicial Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.05,D,1.8,1.0,0.2,True,True,True,Baker v. Carr; Tennessee; constitutionality
+GC.22-Q19,GC.22,5,RC-GOV5: The Judicial Branch,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,1.1,0.0,False,False,False,rule of four; writ of certiorari; docket control
+GC.22-Q20,GC.22,5,RC-GOV5: The Judicial Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.6,1.3,0.0,False,False,False,Marbury v. Madison; constitutionality; limits on judicial power
+GC.23-Q01,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.1,-1.1,0.2,False,True,True,First Amendment; freedom of speech; Schenck v. United States
+GC.23-Q02,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,C,1.2,-0.9,0.2,False,True,True,symbolic speech; Tinker v. Des Moines; student rights
+GC.23-Q03,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.3,-0.1,0.2,False,True,True,Establishment Clause; Engel v. Vitale; school prayer
+GC.23-Q04,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D3,SSP.02,D,1.4,0.2,0.2,False,True,True,freedom of the press; prior restraint; New York Times v. United States
+GC.23-Q05,GC.23,6,RC-GOV6: Civil Liberties,short_answer,2,Proficient,Understand,Understand × DOK 2,D3,SSP.02,See rubric,1.2,0.1,0.0,True,False,False,Scopes Trial; academic freedom; First Amendment; Tennessee
+GC.23-Q06,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.02,B,1.5,0.3,0.2,False,True,True,symbolic speech; Texas v. Johnson; flag burning
+GC.23-Q07,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,A,1.6,0.6,0.2,False,True,True,symbolic speech; Tinker v. Des Moines; Texas v. Johnson
+GC.23-Q08,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,C,1.7,0.9,0.2,False,True,True,Establishment Clause; Lemon v. Kurtzman; Engel v. Vitale
+GC.23-Q09,GC.23,6,RC-GOV6: Civil Liberties,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.8,1.0,0.0,False,False,False,student speech; Tinker v. Des Moines; argument
+GC.23-Q10,GC.23,6,RC-GOV6: Civil Liberties,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.7,0.7,0.0,False,False,False,Tinker v. Des Moines; schoolhouse gate; primary source
+GC.23-Q11,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,C,1.1,-1.0,0.2,False,True,True,Miller v. California; obscenity; First Amendment
+GC.23-Q12,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.2,-0.8,0.2,False,True,True,Lemon v. Kurtzman; Establishment Clause; Lemon test
+GC.23-Q13,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.3,0.0,0.2,False,True,True,Miller v. California; obscenity; limits on speech
+GC.23-Q14,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.4,0.1,0.2,False,True,True,Schenck v. United States; clear and present danger; freedom of speech
+GC.23-Q15,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.4,0.3,0.2,False,True,True,Establishment Clause; Free Exercise Clause; freedom of religion
+GC.23-Q16,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,A,1.6,0.6,0.2,False,True,True,Schenck v. United States; clear and present danger; limits on speech
+GC.23-Q17,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,C,1.7,0.8,0.2,False,True,True,Tinker v. Des Moines; student speech; substantial disruption
+GC.23-Q18,GC.23,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,D,1.8,1.0,0.2,False,True,True,Texas v. Johnson; Miller v. California; scope of protected speech
+GC.23-Q19,GC.23,6,RC-GOV6: Civil Liberties,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.8,1.0,0.0,False,False,False,prior restraint; freedom of the press; argument
+GC.23-Q20,GC.23,6,RC-GOV6: Civil Liberties,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.7,0.8,0.0,False,False,False,First Amendment; primary source; Supreme Court interpretation
+GC.24-Q01,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.1,-1.0,0.2,False,True,True,Second Amendment; incorporation; McDonald v. Chicago
+GC.24-Q02,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,D,1.2,-0.8,0.2,False,True,True,Second Amendment; individual right; District of Columbia v. Heller
+GC.24-Q03,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.3,0.0,0.2,False,True,True,Second Amendment; interpretation; militia
+GC.24-Q04,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.4,0.2,0.2,False,True,True,District of Columbia v. Heller; handgun ban; Second Amendment
+GC.24-Q05,GC.24,6,RC-GOV6: Civil Liberties,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,See rubric,1.2,0.1,0.0,False,False,False,incorporation; McDonald v. Chicago; Fourteenth Amendment
+GC.24-Q06,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.4,0.3,0.2,False,True,True,Second Amendment; regulation; Heller
+GC.24-Q07,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,D,1.6,0.7,0.2,False,True,True,McDonald v. Chicago; Heller; incorporation
+GC.24-Q08,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,A,1.7,1.0,0.2,False,True,True,Second Amendment; textual interpretation; Heller
+GC.24-Q09,GC.24,6,RC-GOV6: Civil Liberties,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.8,1.1,0.0,False,False,False,Second Amendment; interpretation; argument
+GC.24-Q10,GC.24,6,RC-GOV6: Civil Liberties,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.7,0.8,0.0,False,False,False,Heller; individual right; primary source
+GC.24-Q11,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,B,1.0,-0.9,0.2,False,True,True,District of Columbia v. Heller; Second Amendment; individual right
+GC.24-Q12,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.2,-0.7,0.2,False,True,True,District of Columbia v. Heller; self-defense; Second Amendment
+GC.24-Q13,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.3,0.0,0.2,False,True,True,Second Amendment; interpretation; militia debate
+GC.24-Q14,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,D,1.4,0.2,0.2,False,True,True,McDonald v. Chicago; incorporation; Second Amendment
+GC.24-Q15,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.5,0.4,0.2,False,True,True,Second Amendment; regulation; Heller
+GC.24-Q16,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.04,A,1.6,0.7,0.2,False,True,True,Second Amendment; regulation; application
+GC.24-Q17,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.04,C,1.7,0.9,0.2,False,True,True,Second Amendment; evaluation; Heller
+GC.24-Q18,GC.24,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.04,D,1.8,1.1,0.2,False,True,True,Heller; McDonald v. Chicago; incorporation
+GC.24-Q19,GC.24,6,RC-GOV6: Civil Liberties,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.8,1.0,0.0,False,False,False,Second Amendment; regulation; argument
+GC.24-Q20,GC.24,6,RC-GOV6: Civil Liberties,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.05,See rubric,1.9,1.2,0.0,False,False,False,Second Amendment; change over time; evaluation
+GC.25-Q01,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,C,1.1,-1.1,0.2,False,True,True,Miranda v. Arizona; self-incrimination; rights of the accused
+GC.25-Q02,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.2,-0.9,0.2,False,True,True,Mapp v. Ohio; exclusionary rule; Fourth Amendment
+GC.25-Q03,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.3,0.0,0.2,False,True,True,Gideon v. Wainwright; right to counsel; Sixth Amendment
+GC.25-Q04,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.4,0.2,0.2,False,True,True,exclusionary rule; Fourth Amendment; search and seizure
+GC.25-Q05,GC.25,6,RC-GOV6: Civil Liberties,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,See rubric,1.2,0.1,0.0,False,False,False,exclusionary rule; Fourth Amendment; Mapp v. Ohio
+GC.25-Q06,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.4,0.3,0.2,False,True,True,Miranda rights; Fifth Amendment; self-incrimination
+GC.25-Q07,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,C,1.6,0.6,0.2,False,True,True,rights of the accused; individual vs. state; Bill of Rights
+GC.25-Q08,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,A,1.7,0.9,0.2,False,True,True,exclusionary rule; Mapp v. Ohio; search and seizure
+GC.25-Q09,GC.25,6,RC-GOV6: Civil Liberties,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.8,1.0,0.0,False,False,False,rights of the accused; argument; due process
+GC.25-Q10,GC.25,6,RC-GOV6: Civil Liberties,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.03,See rubric,1.9,1.2,0.0,False,False,False,rights of the accused; evaluation; landmark cases
+GC.25-Q11,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.1,-1.1,0.2,False,True,True,Fifth Amendment; self-incrimination; rights of the accused
+GC.25-Q12,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.2,-0.9,0.2,False,True,True,Fourth Amendment; search and seizure; rights of the accused
+GC.25-Q13,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.3,0.0,0.2,False,True,True,Miranda v. Arizona; Miranda rights; interrogation
+GC.25-Q14,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.4,0.2,0.2,False,True,True,Gideon v. Wainwright; right to counsel; Sixth Amendment
+GC.25-Q15,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.02,A,1.4,0.3,0.2,False,True,True,Eighth Amendment; cruel and unusual punishment; rights of the accused
+GC.25-Q16,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,B,1.6,0.6,0.2,False,True,True,Miranda v. Arizona; confession; application
+GC.25-Q17,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,C,1.7,0.8,0.2,False,True,True,Gideon v. Wainwright; right to counsel; application
+GC.25-Q18,GC.25,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,D,1.8,1.0,0.2,False,True,True,incorporation; Fourteenth Amendment; rights of the accused
+GC.25-Q19,GC.25,6,RC-GOV6: Civil Liberties,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.8,1.0,0.0,False,False,False,exclusionary rule; Mapp v. Ohio; argument
+GC.25-Q20,GC.25,6,RC-GOV6: Civil Liberties,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.7,0.8,0.0,False,False,False,Gideon v. Wainwright; right to counsel; primary source
+GC.26-Q01,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.05,B,1.1,-1.0,0.2,False,True,True,Brown v. Board of Education; Equal Protection Clause; segregation
+GC.26-Q02,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.05,A,1.2,-0.8,0.2,False,True,True,Plessy v. Ferguson; separate but equal; segregation
+GC.26-Q03,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,C,1.3,0.1,0.2,False,True,True,Gitlow v. New York; incorporation doctrine; Due Process Clause
+GC.26-Q04,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,D,1.4,0.3,0.2,False,True,True,Obergefell v. Hodges; Due Process; Equal Protection Clause
+GC.26-Q05,GC.26,6,RC-GOV6: Civil Liberties,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,See rubric,1.2,0.1,0.0,False,False,False,incorporation doctrine; Fourteenth Amendment; Bill of Rights
+GC.26-Q06,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,C,1.3,0.2,0.2,False,True,True,Equal Protection Clause; Fourteenth Amendment; civil rights
+GC.26-Q07,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.05,B,1.7,0.9,0.2,False,True,True,constitutional interpretation; Plessy v. Ferguson; Brown v. Board of Education
+GC.26-Q08,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.05,A,1.7,1.0,0.2,False,True,True,Brown v. Board of Education; Equal Protection Clause; segregation
+GC.26-Q09,GC.26,6,RC-GOV6: Civil Liberties,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.05,See rubric,1.8,1.1,0.0,False,False,False,constitutional interpretation; Equal Protection Clause; argument
+GC.26-Q10,GC.26,6,RC-GOV6: Civil Liberties,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.7,0.8,0.0,False,False,False,Fourteenth Amendment; Brown v. Board of Education; primary source
+GC.26-Q11,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.05,B,1.0,-0.8,0.2,False,True,True,Fourteenth Amendment; ratification; Constitution
+GC.26-Q12,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.05,C,1.2,-0.6,0.2,False,True,True,Due Process Clause; Fourteenth Amendment; fair procedures
+GC.26-Q13,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,A,1.3,0.1,0.2,False,True,True,Gitlow v. New York; incorporation doctrine; freedom of speech
+GC.26-Q14,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,D,1.4,0.2,0.2,False,True,True,Plessy v. Ferguson; separate but equal; segregation
+GC.26-Q15,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.05,A,1.5,0.4,0.2,False,True,True,Due Process Clause; Equal Protection Clause; Fourteenth Amendment
+GC.26-Q16,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.05,B,1.6,0.6,0.2,False,True,True,Brown v. Board of Education; Equal Protection Clause; application
+GC.26-Q17,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.05,C,1.8,1.0,0.2,False,True,True,constitutional interpretation; change over time; Fourteenth Amendment
+GC.26-Q18,GC.26,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.05,D,1.8,1.1,0.2,False,True,True,incorporation doctrine; Equal Protection Clause; Fourteenth Amendment
+GC.26-Q19,GC.26,6,RC-GOV6: Civil Liberties,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.8,1.0,0.0,False,False,False,Due Process Clause; Equal Protection Clause; argument
+GC.26-Q20,GC.26,6,RC-GOV6: Civil Liberties,extended_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.05,See rubric,1.9,1.2,0.0,False,False,False,constitutional interpretation; Fourteenth Amendment; synthesis
+GC.27-Q01,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.03,B,1.1,-1.0,0.2,False,True,True,Americans with Disabilities Act; disability rights; civil rights legislation
+GC.27-Q02,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.03,A,1.2,-0.8,0.2,False,True,True,Title IX; sex discrimination; education
+GC.27-Q03,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,C,1.3,0.1,0.2,False,True,True,Title IX; federal funding; education
+GC.27-Q04,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,D,1.4,0.3,0.2,False,True,True,Americans with Disabilities Act; reasonable accommodations; disability rights
+GC.27-Q05,GC.27,6,RC-GOV6: Civil Liberties,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,See rubric,1.2,0.1,0.0,False,False,False,Title IX; equal opportunity; education
+GC.27-Q06,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D3,SSP.03,A,1.5,0.5,0.2,False,True,True,Korematsu v. United States; civil liberties; wartime
+GC.27-Q07,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.03,B,1.6,0.7,0.2,False,True,True,expanding rights; Title IX; Americans with Disabilities Act
+GC.27-Q08,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.03,C,1.7,1.0,0.2,False,True,True,legislation vs. courts; civil rights; argument
+GC.27-Q09,GC.27,6,RC-GOV6: Civil Liberties,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.8,1.1,0.0,False,False,False,legislation vs. courts; expanding rights; argument
+GC.27-Q10,GC.27,6,RC-GOV6: Civil Liberties,extended_response,3,Advanced,Create,Create × DOK 3,D4,SSP.03,See rubric,1.9,1.2,0.0,False,False,False,expanding rights; civil rights; synthesis
+GC.27-Q11,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.03,A,1.1,-0.7,0.2,False,True,True,Equal Rights Amendment; ratification; women's rights
+GC.27-Q12,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.03,B,1.2,-0.5,0.2,False,True,True,Adarand Constructors v. Peña; race-conscious programs; civil rights
+GC.27-Q13,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,C,1.3,0.2,0.2,False,True,True,Adarand Constructors v. Peña; race-conscious programs; equal protection
+GC.27-Q14,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,D,1.4,0.3,0.2,False,True,True,Title IX; education; athletics
+GC.27-Q15,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,A,1.4,0.2,0.2,False,True,True,Americans with Disabilities Act; reasonable accommodations; disability rights
+GC.27-Q16,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.03,B,1.6,0.6,0.2,False,True,True,Title IX; athletics; application
+GC.27-Q17,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.03,C,1.7,0.8,0.2,False,True,True,Americans with Disabilities Act; reasonable accommodations; application
+GC.27-Q18,GC.27,6,RC-GOV6: Civil Liberties,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.03,D,1.8,1.0,0.2,False,True,True,expanding rights; Korematsu v. United States; civil liberties
+GC.27-Q19,GC.27,6,RC-GOV6: Civil Liberties,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.8,1.0,0.0,False,False,False,Title IX; equal protection; argument
+GC.27-Q20,GC.27,6,RC-GOV6: Civil Liberties,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.7,0.8,0.0,False,False,False,Title IX; sex discrimination; primary source
+GC.28-Q01,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,B,1.1,-1.2,0.2,True,True,True,Grand Divisions; state flag
+GC.28-Q02,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,A,1.2,-1.0,0.2,True,True,True,separation of powers; three branches
+GC.28-Q03,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,B,1.4,0.0,0.2,True,True,True,court system; Chancery; equity
+GC.28-Q04,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,C,1.5,0.1,0.2,True,True,True,citizen legislature; General Assembly
+GC.28-Q05,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,D,1.4,0.2,0.2,True,True,True,executive branch; departments and agencies
+GC.28-Q06,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,A,1.6,0.6,0.2,True,True,True,Tennessee Plan; judicial selection
+GC.28-Q07,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.06,C,1.5,0.8,0.2,True,True,True,Grand Divisions; balance of representation
+GC.28-Q08,GC.28,7,RC-GOV7: Tennessee State and Local Government,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,See rubric,1.3,0.2,0.0,True,False,False,court system; trial courts
+GC.28-Q09,GC.28,7,RC-GOV7: Tennessee State and Local Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.6,0.9,0.0,True,False,False,citizen legislature; Tennessee Plan; Grand Divisions
+GC.28-Q10,GC.28,7,RC-GOV7: Tennessee State and Local Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.5,0.7,0.0,True,False,False,judicial branch; state constitution; court structure
+GC.28-Q11,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,B,1.1,-0.9,0.2,True,True,True,Tennessee Supreme Court; judicial branch
+GC.28-Q12,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,A,1.2,-0.6,0.2,True,True,True,Tennessee Plan; judicial selection
+GC.28-Q13,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,C,1.4,0.0,0.2,True,True,True,court system; Circuit Court
+GC.28-Q14,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,D,1.5,0.2,0.2,True,True,True,citizen legislature; legislative days
+GC.28-Q15,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.5,0.3,0.2,True,True,True,Tennessee Plan; retention election
+GC.28-Q16,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.01,C,1.6,0.7,0.2,True,True,True,separation of powers; three branches
+GC.28-Q17,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.04,A,1.6,0.9,0.2,True,True,True,citizen legislature; legislative design
+GC.28-Q18,GC.28,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.06,D,1.5,0.8,0.2,True,True,True,Grand Divisions; regional balance
+GC.28-Q19,GC.28,7,RC-GOV7: Tennessee State and Local Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.6,0.9,0.0,True,False,False,Tennessee Plan; judicial selection
+GC.28-Q20,GC.28,7,RC-GOV7: Tennessee State and Local Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.5,0.7,0.0,True,False,False,separation of powers; state constitution
+GC.29-Q01,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,C,1.1,-1.0,0.2,True,True,True,metropolitan government; consolidation
+GC.29-Q02,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.0,-0.8,0.2,True,True,True,unitary government; creatures of the state
+GC.29-Q03,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.5,0.1,0.2,True,True,True,Dillon's Rule; local authority
+GC.29-Q04,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.4,0.2,0.2,True,True,True,county government; elected officials
+GC.29-Q05,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.4,0.3,0.2,True,True,True,municipal government; local services
+GC.29-Q06,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,D,1.6,0.7,0.2,True,True,True,fiscal relationship; taxing authority
+GC.29-Q07,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,B,1.6,0.8,0.2,True,True,True,metropolitan government; consolidation
+GC.29-Q08,GC.29,7,RC-GOV7: Tennessee State and Local Government,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,See rubric,1.3,0.2,0.0,True,False,False,unitary government; Dillon's Rule
+GC.29-Q09,GC.29,7,RC-GOV7: Tennessee State and Local Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,0.9,0.0,True,False,False,civic participation; local government
+GC.29-Q10,GC.29,7,RC-GOV7: Tennessee State and Local Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.5,0.7,0.0,True,False,False,county government; state constitution
+GC.29-Q11,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.1,-0.8,0.2,True,True,True,unitary government; state-local structure
+GC.29-Q12,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.2,-0.4,0.2,True,True,True,municipal government; city structure
+GC.29-Q13,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.4,0.2,0.2,True,True,True,municipal services; local government
+GC.29-Q14,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.4,0.3,0.2,True,True,True,metropolitan government; consolidation
+GC.29-Q15,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.4,0.3,0.2,True,True,True,county government; county legislative body
+GC.29-Q16,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.02,B,1.6,0.8,0.2,True,True,True,Dillon's Rule; local authority
+GC.29-Q17,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.04,C,1.6,0.9,0.2,True,True,True,metropolitan government; consolidation
+GC.29-Q18,GC.29,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.02,D,1.5,0.7,0.2,True,True,True,unitary government; state-local relationship
+GC.29-Q19,GC.29,7,RC-GOV7: Tennessee State and Local Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,0.9,0.0,True,False,False,unitary government; Dillon's Rule
+GC.29-Q20,GC.29,7,RC-GOV7: Tennessee State and Local Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.5,0.7,0.0,True,False,False,metropolitan government; state constitution
+GC.30-Q01,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,A,1.1,-1.1,0.2,True,True,True,General Assembly; legislature
+GC.30-Q02,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,B,1.2,-0.6,0.2,True,True,True,General Assembly; chamber size
+GC.30-Q03,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D3,SSP.06,A,1.5,0.2,0.2,True,True,True,find my legislator; official sources
+GC.30-Q04,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,C,1.4,0.1,0.2,True,True,True,governor; executive power; term of office
+GC.30-Q05,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,B,1.5,0.3,0.2,True,True,True,constituent; legislative districts; representation
+GC.30-Q06,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,D,1.6,0.7,0.2,True,True,True,current officials; official sources; elections
+GC.30-Q07,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D3,SSP.06,C,1.6,0.8,0.2,True,True,True,civic action; representation; official sources
+GC.30-Q08,GC.30,7,RC-GOV7: Tennessee State and Local Government,short_answer,2,Proficient,Apply,Apply × DOK 2,D2,SSP.06,See rubric,1.3,0.2,0.0,True,False,False,find my legislator; official sources
+GC.30-Q09,GC.30,7,RC-GOV7: Tennessee State and Local Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,0.9,0.0,True,False,False,civic action; representation; districts
+GC.30-Q10,GC.30,7,RC-GOV7: Tennessee State and Local Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.5,0.7,0.0,True,False,False,General Assembly; representation; state constitution
+GC.30-Q11,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,A,1.1,-0.9,0.2,True,True,True,governor; executive power
+GC.30-Q12,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.06,B,1.2,-0.5,0.2,True,True,True,constituent; representation
+GC.30-Q13,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,C,1.4,0.2,0.2,True,True,True,governor; executive duties
+GC.30-Q14,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.06,D,1.4,0.3,0.2,True,True,True,representation; General Assembly
+GC.30-Q15,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D3,SSP.06,A,1.4,0.2,0.2,True,True,True,official sources; governor
+GC.30-Q16,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.06,B,1.6,0.7,0.2,True,True,True,legislative districts; representation
+GC.30-Q17,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,C,1.6,0.8,0.2,True,True,True,official sources; find my legislator
+GC.30-Q18,GC.30,7,RC-GOV7: Tennessee State and Local Government,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.05,D,1.5,0.8,0.2,True,True,True,General Assembly; structure versus officeholders
+GC.30-Q19,GC.30,7,RC-GOV7: Tennessee State and Local Government,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.5,0.9,0.0,True,False,False,governor; official sources; civic action
+GC.30-Q20,GC.30,7,RC-GOV7: Tennessee State and Local Government,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.5,0.7,0.0,True,False,False,governor; executive power; state constitution
+GC.31-Q01,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,C,1.1,-1.2,0.2,False,True,True,civic responsibility; legal duties
+GC.31-Q02,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.0,-0.8,0.2,False,True,True,naturalization; citizenship
+GC.31-Q03,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,D,1.4,0.1,0.2,False,True,True,legal duties; voluntary responsibilities
+GC.31-Q04,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,B,1.3,0.0,0.2,False,True,True,jury duty; 6th Amendment
+GC.31-Q05,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,A,1.2,-0.1,0.2,False,True,True,naturalization; civic responsibility
+GC.31-Q06,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,C,1.6,0.5,0.2,False,True,True,informed citizenry; self-government
+GC.31-Q07,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,D,1.7,0.7,0.2,False,True,True,voluntary responsibilities; self-government
+GC.31-Q08,GC.31,2,RC-GOV2: Citizen Participation,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,See rubric,1.3,0.2,0.0,False,False,False,legal duties; voluntary responsibilities
+GC.31-Q09,GC.31,2,RC-GOV2: Citizen Participation,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.6,0.8,0.0,False,False,False,civic responsibility; argumentation
+GC.31-Q10,GC.31,2,RC-GOV2: Citizen Participation,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.7,0.9,0.0,False,False,False,primary source analysis; informed citizenry
+GC.31-Q11,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,D,1.2,-1.1,0.2,False,True,True,civic responsibility; voluntary duties
+GC.31-Q12,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.1,-0.8,0.2,False,True,True,military service; alternative service
+GC.31-Q13,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,C,1.4,0.0,0.2,False,True,True,jury duty; justice system
+GC.31-Q14,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.01,A,1.5,0.3,0.2,False,True,True,citizenship; residents; civic responsibility
+GC.31-Q15,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,B,1.3,0.1,0.2,False,True,True,informed citizenship; consent of the governed
+GC.31-Q16,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.02,D,1.7,0.7,0.2,False,True,True,voting; legal vs voluntary duties
+GC.31-Q17,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.05,A,1.6,0.6,0.2,False,True,True,participation; self-government
+GC.31-Q18,GC.31,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.04,C,1.6,0.8,0.2,False,True,True,voluntary service; civic responsibility
+GC.31-Q19,GC.31,2,RC-GOV2: Citizen Participation,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.7,0.7,0.0,False,False,False,civic responsibility; argumentation
+GC.31-Q20,GC.31,2,RC-GOV2: Citizen Participation,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.04,See rubric,1.8,0.9,0.0,False,False,False,jury duty; Sixth Amendment; primary source
+GC.32-Q01,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.03,A,1.1,-1.1,0.2,False,True,True,caucus; nomination process
+GC.32-Q02,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.03,B,1.0,-0.9,0.2,False,True,True,general election; voting
+GC.32-Q03,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,A,1.4,0.0,0.2,False,True,True,primary election; open and closed primaries
+GC.32-Q04,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,C,1.3,0.1,0.2,False,True,True,nomination process; political parties
+GC.32-Q05,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,B,1.2,0.0,0.2,False,True,True,convention; nomination process
+GC.32-Q06,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,C,1.6,0.5,0.2,False,True,True,political parties; Washington's Farewell Address
+GC.32-Q07,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,D,1.7,0.7,0.2,False,True,True,political parties; Federalist No. 10; faction
+GC.32-Q08,GC.32,2,RC-GOV2: Citizen Participation,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,See rubric,1.3,0.2,0.0,False,False,False,primary; caucus; general election
+GC.32-Q09,GC.32,2,RC-GOV2: Citizen Participation,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.6,0.8,0.0,False,False,False,political parties; argumentation
+GC.32-Q10,GC.32,2,RC-GOV2: Citizen Participation,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.7,0.9,0.0,False,False,False,primary source analysis; political parties
+GC.32-Q11,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.1,-1.0,0.2,False,True,True,political party; elections
+GC.32-Q12,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.0,-0.9,0.2,False,True,True,nomination; candidates
+GC.32-Q13,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Analyze,Analyze × DOK 2,D2,SSP.01,D,1.5,0.2,0.2,False,True,True,caucus; primary; nomination
+GC.32-Q14,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,C,1.4,0.1,0.2,False,True,True,primary; caucus; nomination process
+GC.32-Q15,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,B,1.3,0.0,0.2,False,True,True,political party; voter organization
+GC.32-Q16,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.03,A,1.7,0.8,0.2,False,True,True,convention; delegates; nomination
+GC.32-Q17,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.04,D,1.6,0.9,0.2,False,True,True,political party; voter coordination
+GC.32-Q18,GC.32,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.03,C,1.6,0.7,0.2,False,True,True,open primary; party membership
+GC.32-Q19,GC.32,2,RC-GOV2: Citizen Participation,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.7,0.7,0.0,False,False,False,primary; caucus; argumentation
+GC.32-Q20,GC.32,2,RC-GOV2: Citizen Participation,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.04,See rubric,1.8,1.0,0.0,False,False,False,Federalist No. 10; factions; political parties; primary source
+GC.33-Q01,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,A,1.1,-1.1,0.2,False,True,True,public opinion; media
+GC.33-Q02,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.02,B,1.0,-0.8,0.2,False,True,True,media bias; media
+GC.33-Q03,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,A,1.4,0.0,0.2,False,True,True,free press; 1st Amendment; citizen participation
+GC.33-Q04,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,C,1.4,0.2,0.2,False,True,True,public opinion poll; poll wording
+GC.33-Q05,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.3,0.1,0.2,False,True,True,media influence; agenda setting
+GC.33-Q06,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,C,1.6,0.6,0.2,False,True,True,free press; informed citizenry
+GC.33-Q07,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,D,1.7,0.8,0.2,False,True,True,poll wording; media literacy
+GC.33-Q08,GC.33,2,RC-GOV2: Citizen Participation,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,See rubric,1.3,0.2,0.0,False,False,False,media bias; public opinion
+GC.33-Q09,GC.33,2,RC-GOV2: Citizen Participation,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.6,0.8,0.0,False,False,False,media influence; argumentation
+GC.33-Q10,GC.33,2,RC-GOV2: Citizen Participation,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.7,0.9,0.0,False,False,False,primary source analysis; free press
+GC.33-Q11,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,C,1.1,-1.0,0.2,False,True,True,public opinion poll; surveys
+GC.33-Q12,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.0,-0.9,0.2,False,True,True,media; communication
+GC.33-Q13,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,B,1.4,0.2,0.2,False,True,True,public opinion poll; sampling
+GC.33-Q14,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.02,D,1.5,0.3,0.2,False,True,True,media bias; framing
+GC.33-Q15,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,C,1.3,0.1,0.2,False,True,True,free press; informed citizenship
+GC.33-Q16,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,A,1.7,0.8,0.2,False,True,True,framing; media bias; public opinion
+GC.33-Q17,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.02,B,1.6,0.9,0.2,False,True,True,agenda-setting; public opinion; media influence
+GC.33-Q18,GC.33,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.02,D,1.6,0.8,0.2,False,True,True,public opinion poll; sampling bias
+GC.33-Q19,GC.33,2,RC-GOV2: Citizen Participation,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.7,0.7,0.0,False,False,False,media literacy; informed citizenship; argumentation
+GC.33-Q20,GC.33,2,RC-GOV2: Citizen Participation,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.04,See rubric,1.8,0.9,0.0,False,False,False,First Amendment; freedom of the press; primary source
+GC.34-Q01,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,A,1.1,-1.1,0.2,False,True,True,lobbying; political participation
+GC.34-Q02,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.04,B,1.0,-0.9,0.2,False,True,True,petition; political participation
+GC.34-Q03,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.04,C,1.4,0.1,0.2,False,True,True,1st Amendment; assembly and petition
+GC.34-Q04,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,C,1.3,0.0,0.2,False,True,True,initiative; direct democracy
+GC.34-Q05,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,B,1.3,0.1,0.2,False,True,True,recall; direct democracy
+GC.34-Q06,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,D,1.6,0.6,0.2,False,True,True,Declaration of Independence; popular sovereignty
+GC.34-Q07,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.04,A,1.7,0.7,0.2,False,True,True,lobbying; petition; means of participation
+GC.34-Q08,GC.34,2,RC-GOV2: Citizen Participation,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.04,See rubric,1.3,0.2,0.0,False,False,False,means of participation; civic engagement
+GC.34-Q09,GC.34,2,RC-GOV2: Citizen Participation,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.6,0.8,0.0,False,False,False,means of participation; argumentation
+GC.34-Q10,GC.34,2,RC-GOV2: Citizen Participation,document_based,3,Advanced,Analyze,Analyze × DOK 3,D3,SSP.02,See rubric,1.7,0.9,0.0,False,False,False,primary source analysis; assembly and petition
+GC.34-Q11,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.1,-1.0,0.2,False,True,True,campaigning; participation
+GC.34-Q12,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,C,1.0,-0.8,0.2,False,True,True,running for office; participation
+GC.34-Q13,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Analyze,Analyze × DOK 2,D2,SSP.01,B,1.5,0.2,0.2,False,True,True,initiative; referendum; direct democracy
+GC.34-Q14,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Analyze,Analyze × DOK 2,D2,SSP.01,D,1.5,0.3,0.2,False,True,True,demonstrating; lobbying; participation
+GC.34-Q15,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,A,1.3,0.1,0.2,False,True,True,participation; voting; civic engagement
+GC.34-Q16,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.03,C,1.6,0.7,0.2,False,True,True,recall; direct democracy
+GC.34-Q17,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.04,B,1.7,0.8,0.2,False,True,True,lobbying; petition; First Amendment
+GC.34-Q18,GC.34,2,RC-GOV2: Citizen Participation,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.04,D,1.7,0.9,0.2,False,True,True,participation; minority viewpoints; civic engagement
+GC.34-Q19,GC.34,2,RC-GOV2: Citizen Participation,constructed_response,3,Advanced,Evaluate,Evaluate × DOK 3,D4,SSP.04,See rubric,1.7,0.8,0.0,False,False,False,direct democracy; elections; argumentation
+GC.34-Q20,GC.34,2,RC-GOV2: Citizen Participation,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.04,See rubric,1.8,1.0,0.0,False,False,False,Declaration of Independence; participation; primary source
+GC.35-Q01,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,A,1.1,-1.2,0.2,False,True,True,naturalization; citizenship
+GC.35-Q02,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,B,1.3,-0.9,0.2,False,True,True,natural-born citizen; presidency
+GC.35-Q03,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,C,1.4,0.0,0.2,False,True,True,Article I; naturalization power
+GC.35-Q04,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D3,SSP.02,D,1.5,0.3,0.2,False,True,True,Fourteenth Amendment; birthright citizenship
+GC.35-Q05,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,A,1.2,0.1,0.2,False,True,True,Naturalization Test; civics knowledge
+GC.35-Q06,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.03,B,1.6,0.7,0.2,False,True,True,uniform rule; federal power
+GC.35-Q07,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D2,SSP.03,C,1.7,1.0,0.2,False,True,True,natural-born requirement; foreign influence
+GC.35-Q08,GC.35,3,RC-GOV3: The Legislative Branch,short_answer,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,See rubric,1.3,0.4,0.0,False,False,False,naturalization process; citizenship
+GC.35-Q09,GC.35,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.03,See rubric,1.5,0.9,0.0,False,False,False,natural-born vs naturalized; presidency
+GC.35-Q10,GC.35,3,RC-GOV3: The Legislative Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.6,1.2,0.0,False,False,False,Fourteenth Amendment; birthright citizenship
+GC.35-Q11,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,C,1.2,-0.75,0.2,False,True,True,naturalization; Oath of Allegiance
+GC.35-Q12,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,1,Developing,Remember,Remember × DOK 1,D2,SSP.01,D,1.0,-1.2,0.2,False,True,True,Naturalization Test; civics knowledge
+GC.35-Q13,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Apply,Apply × DOK 2,D2,SSP.03,A,1.32,0.4,0.2,False,True,True,natural-born citizen; citizenship categories
+GC.35-Q14,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.03,B,1.44,0.6,0.2,False,True,True,naturalization; requirements
+GC.35-Q15,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,2,Proficient,Understand,Understand × DOK 2,D2,SSP.01,C,1.56,-0.2,0.2,False,True,True,Fourteenth Amendment; birthright citizenship
+GC.35-Q16,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Apply,Apply × DOK 3,D2,SSP.04,A,1.52,1.2,0.2,False,True,True,natural-born citizen; presidential eligibility
+GC.35-Q17,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Analyze,Analyze × DOK 3,D2,SSP.04,D,1.64,1.4,0.2,False,True,True,citizenship requirements; naturalization
+GC.35-Q18,GC.35,3,RC-GOV3: The Legislative Branch,multiple_choice,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,B,1.76,0.4,0.2,False,True,True,Naturalization Test; civic knowledge
+GC.35-Q19,GC.35,3,RC-GOV3: The Legislative Branch,constructed_response,3,Advanced,Analyze,Analyze × DOK 3,D4,SSP.04,See rubric,1.88,0.6,0.0,False,False,False,natural-born citizen; naturalization
+GC.35-Q20,GC.35,3,RC-GOV3: The Legislative Branch,document_based,3,Advanced,Evaluate,Evaluate × DOK 3,D3,SSP.02,See rubric,1.4,0.8,0.0,False,False,False,"Article I, Section 8; uniform naturalization"

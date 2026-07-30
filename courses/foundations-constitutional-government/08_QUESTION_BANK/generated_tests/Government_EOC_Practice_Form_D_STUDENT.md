@@ -2,133 +2,135 @@
 
 **Name:** ______________________  **Class/Period:** ______  **Date:** ______
 
+> **Universal supports — available to every student, no special request needed:** this test may be read aloud; key civics terms are glossed on request; large-print and screen-reader formats are available; extended time is available. For any written-response question you may answer **in writing, by recording your spoken response, or with a labeled diagram/organizer.** The learning target is the same for everyone. _(Designed on CAST UDL Guidelines 3.0 — firm goal, flexible means.)_
+
 _Choose the best answer for each question. Assessment items are classroom-formative · pre-field-test._
 
-**1.** The 1215 Magna Carta is best described as which of the following?  _[GC.01 · DOK 1]_
-   A. A Roman code that created the first republic
-   B. A Greek text that founded direct democracy
-   C. An English charter that limited the king's power
-   D. A French treatise that divided government into branches
+**1.** Which Enlightenment thinker is most closely associated with natural rights and the social contract?  _[GC.01 · DOK 1]_
+   A. Thomas Hobbes
+   B. John Locke
+   C. Charles-Louis Montesquieu
+   D. King John of England
 
-**2.** What does the Declaration of Independence mean by 'unalienable Rights'?  _[GC.02 · DOK 2]_
-   A. Rights the king grants to loyal subjects
-   B. Rights held only by property owners
-   C. Rights so fundamental they cannot be taken away or given up
-   D. Rights created by an act of the legislature
+**2.** Which right does the Declaration of Independence list alongside Life and Liberty as an unalienable right?  _[GC.02 · DOK 2]_
+   A. Property
+   B. The right to vote
+   C. Freedom of religion
+   D. The pursuit of Happiness
 
-**3.** Why did leaders such as George Washington and James Madison conclude that the Articles of Confederation had to be replaced rather than merely repaired?  _[GC.03 · DOK 3]_
-   A. The states wanted to return to British rule
-   B. The government was too weak to pay debts, regulate trade, or keep order
-   C. The Articles had given the president too much power
-   D. The Articles had created a national bank that collapsed
+**3.** How did Shays's Rebellion reveal the central weakness of the Articles of Confederation?  _[GC.03 · DOK 3]_
+   A. The national government could not raise money or an army to restore order
+   B. It proved the states held far too little power
+   C. It showed the president had grown too strong
+   D. It brought the Revolutionary War to an end
 
-**4.** What was the main difference between the Virginia Plan and the New Jersey Plan?  _[GC.04 · DOK 2]_
-   A. One called for a king while the other called for a president
-   B. One kept slavery legal while the other banned it
-   C. One based representation on population while the other gave each state equal representation
-   D. One supported a bill of rights while the other opposed one
+**4.** The Great Compromise created a Congress with which structure?  _[GC.04 · DOK 1]_
+   A. A single house with seats based on population
+   B. Two houses: one based on population and one with equal state representation
+   C. A single house giving each state one equal vote
+   D. No legislature, leaving lawmaking to the states
 
-**5.** The phrase 'We the People' at the start of the Preamble expresses which principle of government?  _[GC.05 · DOK 1]_
-   A. Judicial review
-   B. Separation of powers
-   C. Popular sovereignty
-   D. Federalism
+**5.** A citizen claims a law is valid 'because it is based only on the Preamble.' Why can the Preamble alone not be used to grant the government a power?  _[GC.05 · DOK 2]_
+   A. The Preamble states the Constitution's purposes but grants no powers by itself
+   B. The Preamble was never officially adopted
+   C. The Preamble applies only to the states, not the national government
+   D. The Preamble can be changed by any single citizen
 
-**6.** What does the principle of the 'rule of law' mean?  _[GC.06 · DOK 2]_
-   A. The president personally makes all of the laws
-   B. Everyone, including government leaders, must follow the law
-   C. Laws apply only to ordinary citizens, not officials
-   D. Courts may ignore the Constitution when convenient
+**6.** The Supreme Court's decision in Marbury v. Madison (1803) strengthened the system of checks and balances because it did which of the following?  _[GC.06 · DOK 3]_
+   A. Gave the president the power to veto laws
+   B. Allowed states to ignore federal law
+   C. Established the courts' power to strike down unconstitutional laws
+   D. Created the two houses of Congress
 
-**7.** Why did the Framers make the amendment process in Article V deliberately difficult?  _[GC.07 · DOK 3]_
-   A. To make sure the Constitution could never be changed
-   B. To allow a single state to change it on its own
-   C. To give the president control over amendments
-   D. So the Constitution could adapt over time, but only with broad national agreement
+**7.** Which article of the Constitution establishes the judicial branch?  _[GC.07 · DOK 1]_
+   A. Article I
+   B. Article II
+   C. Article V
+   D. Article III
 
-**8.** Which amendment reserves to the states and the people all powers not given to the national government?  _[GC.08 · DOK 1]_
-   A. The First Amendment
-   B. The Tenth Amendment
-   C. The Fifth Amendment
-   D. The Second Amendment
+**8.** Which set of freedoms is protected by the First Amendment?  _[GC.08 · DOK 2]_
+   A. The right to a jury trial and legal counsel
+   B. Protection from unreasonable searches and seizures
+   C. Religion, speech, press, assembly, and petition
+   D. The right to keep and bear arms
 
-**9.** What is the main difference between a direct democracy and a republic?  _[GC.09 · DOK 2]_
-   A. A republic holds no elections of any kind
-   B. A republic is ruled by a hereditary king
-   C. In a direct democracy citizens vote on laws themselves, while in a republic they elect representatives to make laws
-   D. There is no meaningful difference between the two
+**9.** Some people call the United States a 'democracy,' while others call it a 'republic.' Which statement best resolves this debate?  _[GC.09 · DOK 3]_
+   A. Only one of the two labels can ever be correct
+   B. The two words have no connection to each other
+   C. The United States is a republic, a form of representative democracy, so both labels capture part of the truth
+   D. The United States is actually a direct democracy
 
-**10.** Before 1913, state legislatures chose U.S. senators. Which reasoning best supports reformers' argument for the Seventeenth Amendment's shift to direct election?  _[GC.10 · DOK 3]_
-   A. State legislatures were too busy to fill Senate seats on time
-   B. Direct election makes senators answerable to voters rather than to state politicians
-   C. Direct election reduced the number of senators each state received
-   D. State legislatures had no constitutional authority to choose senators
+**10.** The 435 seats in the U.S. House of Representatives are divided among the states on the basis of what?  _[GC.10 · DOK 2]_
+   A. The land area of each state
+   B. An equal number for every state
+   C. The population of each state
+   D. The wealth of each state
 
-**11.** In Baker v. Carr (1962), a voter from Shelby County challenged Tennessee's failure to redraw its districts since 1901. Which problem was he challenging?  _[GC.11 · DOK 2]_
-   A. That the state census had counted his county twice
-   B. That the Senate refused to seat Tennessee's senators
-   C. That unequal district populations made an urban vote worth far less than a rural one
-   D. That Congress had passed a law banning new districts
+**11.** In one state, a rural district of 90,000 residents and an urban district of 720,000 residents each elect exactly one representative. Using the 'one person, one vote' principle, what is the central problem with this arrangement?  _[GC.11 · DOK 3]_
+   A. The urban district should elect fewer representatives to stay fair
+   B. There is no problem, because each district correctly elects one representative
+   C. The rural district violates the Constitution by having too few people to exist
+   D. Each urban resident has far less influence per representative than each rural resident, so votes are not weighted equally
 
-**12.** What is the Vice President's main constitutional power in the U.S. Senate?  _[GC.12 · DOK 1]_
-   A. To write all Senate bills
-   B. To break a tie vote
-   C. To appoint new senators
-   D. To veto laws passed by the Senate
+**12.** The Constitution gives the Vice President a vote in the Senate in which situation?  _[GC.12 · DOK 2]_
+   A. Whenever the Vice President wishes to vote on a bill
+   B. Only on votes to confirm judges
+   C. Only when the Senate is otherwise not in session
+   D. Only when the Senate is equally divided in a tie
 
-**13.** What is the purpose of a cloture vote in the U.S. Senate?  _[GC.13 · DOK 2]_
-   A. To end a filibuster and force a final vote on a bill
-   B. To send a bill back to committee for changes
-   C. To override a presidential veto
-   D. To count how many senators are present
+**13.** Congress can override a presidential veto by a vote of what size?  _[GC.13 · DOK 1]_
+   A. A simple majority of the House only
+   B. Two-thirds of both houses
+   C. A ruling of the Supreme Court
+   D. Three-fourths of the state legislatures
 
-**14.** Why is identifying your own congressional district the first step to contacting your representative in the U.S. House?  _[GC.14 · DOK 3]_
-   A. Because representatives are chosen by the governor of each district
-   B. Because districts elect the state's two senators
-   C. Because each representative serves only the voters of one specific district
-   D. Because a district can be represented by any member a voter chooses
+**14.** A Tennessean who lives in Knoxville wants to know how many members of the U.S. House of Representatives count her as a constituent. What is the correct answer?  _[GC.14 · DOK 2]_
+   A. One, the representative for her congressional district
+   B. Two, matching her two U.S. senators
+   C. All of Tennessee's U.S. representatives
+   D. None, because the House does not have constituents
 
-**15.** The powers specifically listed for Congress in Article I, Section 8 are called what?  _[GC.15 · DOK 1]_
-   A. Enumerated powers
-   B. Implied powers
-   C. Reserved powers
-   D. Concurrent powers
+**15.** One critic argues that implied powers let Congress do almost anything, while a defender argues that McCulloch v. Maryland (1819) placed limits on those powers. Which statement best evaluates the rule McCulloch established?  _[GC.15 · DOK 3]_
+   A. McCulloch removed all limits, so the critic is entirely correct
+   B. McCulloch allowed implied powers but required that the end be legitimate and the means be plainly adapted to a constitutional purpose, so the power is broad but not unlimited
+   C. McCulloch abolished implied powers, so Congress may use only listed powers
+   D. McCulloch has no effect on the powers of Congress today
 
-**16.** A President issues an executive order directing federal agencies to change how they operate. Which statement best describes a key limit on this power?  _[GC.16 · DOK 2]_
-   A. An executive order automatically expires exactly one year after it is issued
-   B. An executive order must first be passed by both houses of Congress before taking effect
-   C. An executive order may only be issued while the nation is in a declared war
-   D. An executive order cannot override the Constitution or an act of Congress
+**16.** According to Article II of the Constitution, which set of qualifications must a person meet to be eligible to serve as President of the United States?  _[GC.16 · DOK 1]_
+   A. Be a natural-born citizen, at least 35 years old, and a U.S. resident for at least 14 years
+   B. Be a naturalized citizen, at least 30 years old, and a U.S. resident for at least 9 years
+   C. Be a natural-born citizen, at least 25 years old, and a U.S. resident for at least 7 years
+   D. Be a citizen of any status, at least 40 years old, and a U.S. resident for at least 21 years
 
-**17.** Suppose a President tried to abolish all executive departments and personally manage every federal program. Based on how the executive branch is organized, what is the most likely result?  _[GC.17 · DOK 3]_
-   A. The federal government would run far more efficiently under a single decision-maker
-   B. Congress would immediately lose all of its power to make new laws
-   C. The federal courts would take over enforcement of every federal law
-   D. The work of governing over 330 million people would overwhelm one office, showing why specialized departments exist
+**17.** A federal official needs to investigate a violation of federal law and prosecute the case in a federal court. Which executive department is responsible for this work?  _[GC.17 · DOK 2]_
+   A. The Department of State
+   B. The Department of Education
+   C. The Department of the Treasury
+   D. The Department of Justice
 
-**18.** Each state's number of electors equals its number of representatives plus its two senators. Because every state has two senators no matter how small its population, how does this formula affect small-population states?  _[GC.18 · DOK 2]_
-   A. It gives large states complete control over every presidential election
-   B. It removes small-population states from the presidential election entirely
-   C. It gives small-population states slightly more weight per person than they would have under a pure national popular vote
-   D. It guarantees that small-population states always decide who wins the presidency
+**18.** Supporters of the Electoral College argue that it forces candidates to build support across many states rather than campaigning only in the largest cities. Which feature of the system most directly supports this argument?  _[GC.18 · DOK 3]_
+   A. The House of Representatives decides the election when no candidate wins a majority
+   B. Electors meet separately within their own states to cast their votes
+   C. The total number of electors in the country is fixed at 538
+   D. A candidate must win states across the country to assemble a majority of electoral votes
 
-**19.** Under Article III, a sitting federal judge can be removed from office through which of the following processes?  _[GC.19 · DOK 1]_
-   A. A nationwide recall election
-   B. Impeachment and conviction by Congress
-   C. An executive order issued by the President
-   D. A vote of the other federal judges
+**19.** The Constitution states that federal judges 'shall hold their Offices during good Behaviour.' In practice, how long does this allow federal judges to serve?  _[GC.19 · DOK 1]_
+   A. A single four-year term matching the President
+   B. A fixed, renewable term of ten years
+   C. Effectively for life, unless removed for misconduct
+   D. Only until the next presidential election
 
-**20.** What role does the Senate Judiciary Committee play in the process of seating a new Supreme Court justice?  _[GC.20 · DOK 2]_
-   A. It selects the candidate the President will formally nominate
-   B. It issues the final confirmation on its own authority
-   C. It administers the oath of office after confirmation
-   D. It holds hearings to question the nominee before the full Senate votes
+**20.** A President announces her choice to fill an open Supreme Court seat. According to the Constitution's appointment process, which step has occurred, and what must happen next?  _[GC.20 · DOK 2]_
+   A. Confirmation has occurred, and the President must now nominate the candidate
+   B. Ratification has occurred, and the states must now approve the candidate
+   C. Nomination has occurred, and the Senate must now confirm the candidate
+   D. Appointment is complete, and the candidate may take the seat immediately
 
-**21.** How did the decision in Marbury v. Madison change the role of the judicial branch within the federal government?  _[GC.21 · DOK 3]_
-   A. It gave the judiciary a check on the other branches by allowing it to strike down unconstitutional acts
-   B. It made the Supreme Court subordinate to the President in all disputes
-   C. It transferred the power to write laws from Congress to the courts
-   D. It required the Court to approve every law before the law could take effect
+**21.** By establishing judicial review, Marbury v. Madison gave the courts a way to respond when the President or Congress oversteps the Constitution. Which action best shows the courts using this power as a check?  _[GC.21 · DOK 3]_
+   A. Passing a new law to replace one the President vetoed
+   B. Refusing to hear any case that involves the other branches
+   C. Advising the President on which nominees to select
+   D. Striking down an executive action found to violate the Constitution
 
 **22.** What is a writ of certiorari?  _[GC.22 · DOK 1]_
    A. A final ruling that decides a case on its merits
@@ -154,62 +156,62 @@ _Choose the best answer for each question. Assessment items are classroom-format
    C. Losing property without payment
    D. Being denied the right to vote
 
-**26.** Which Supreme Court case overturned the “separate but equal” doctrine in public schools?  _[GC.26 · DOK 1]_
-   A. Plessy v. Ferguson
-   B. Brown v. Board of Education
-   C. Gitlow v. New York
-   D. Schenck v. United States
+**26.** The Fourteenth Amendment supported both incorporation of free speech in Gitlow and desegregation in Brown. Which statement best explains how one amendment could do both?  _[GC.26 · DOK 3]_
+   A. The amendment secretly contains two separate constitutions
+   B. Incorporation and equal protection are simply the same legal idea
+   C. Brown quietly repealed the incorporation doctrine begun in Gitlow
+   D. Its Due Process Clause applied Bill of Rights protections to the states, while its Equal Protection Clause barred unequal treatment
 
-**27.** In which setting does Title IX apply?  _[GC.27 · DOK 2]_
-   A. Any private club that charges dues
-   B. All religious worship services
-   C. Any education program or activity that receives federal funds
-   D. Only colleges, never K–12 schools
+**27.** Why is Korematsu v. United States (1944) remembered today as a warning rather than a model?  _[GC.27 · DOK 2]_
+   A. Because it upheld the wartime incarceration of Japanese Americans, a decision now widely condemned
+   B. Because it expanded voting rights for all citizens
+   C. Because it created the exclusionary rule
+   D. Because it guaranteed the right to counsel
 
-**28.** Under the 'Tennessee Plan,' appellate judges are first appointed by the governor and then face yes-or-no retention elections. Which conclusion about this method is best supported?  _[GC.28 · DOK 3]_
-   A. It combines appointment with a later check by voters instead of using contested partisan races
-   B. It removes voters from the process of keeping or replacing judges entirely
-   C. It requires each judge to win a contested race against an opponent every term
-   D. It gives the General Assembly the sole power to select all state judges
+**28.** The three stars on the Tennessee state flag stand for the state's three —  _[GC.28 · DOK 1]_
+   A. branches of government
+   B. Grand Divisions
+   C. Supreme Court justices
+   D. largest cities
 
-**29.** In Tennessee's system of government, local governments such as counties and cities are created by —  _[GC.29 · DOK 1]_
-   A. the state government
-   B. the federal government
-   C. neighboring cities
-   D. the local sheriff's office
+**29.** Tennessee follows Dillon's Rule. What does this mean for a Tennessee county or city?  _[GC.29 · DOK 2]_
+   A. It may pass any law its voters approve, even one that conflicts with state law
+   B. It answers directly to the federal government rather than to the state
+   C. It has only the powers the state expressly grants to it
+   D. It may set aside state law within its own borders
 
-**30.** What is the most reliable way to identify the state senator and state representative who currently represent you?  _[GC.30 · DOK 2]_
-   A. Enter your home address in the official 'Find My Legislator' tool at capitol.tn.gov
-   B. Read the member list in a civics textbook printed a few years ago
-   C. Ask a neighbor which legislators they remember voting for
-   D. Check an unofficial post shared on social media
+**30.** A student says, 'I learned the governor's name two years ago, so I already know who currently holds the office.' Why is checking an official state source still the better practice?  _[GC.30 · DOK 3]_
+   A. Official sources also list every resident's home address
+   B. The governor is re-chosen by the legislature every single year
+   C. Printed textbooks can never contain any accurate information
+   D. Officeholders can change at each election, so only a current source is certain
 
-**31.** A republic rarely punishes citizens for failing to vote, volunteer, or stay informed. Why, then, does the well-being of the nation still depend on citizens performing these voluntary responsibilities?  _[GC.31 · DOK 3]_
-   A. Because the Constitution secretly requires each of these actions.
-   B. Because volunteering is the only lawful way to pay federal taxes.
-   C. Because courts routinely jail citizens who never volunteer.
-   D. Because self-government works only when most citizens choose to participate, even without legal compulsion.
+**31.** Which of the following civic responsibilities is voluntary, meaning a citizen cannot be legally compelled to do it?  _[GC.31 · DOK 1]_
+   A. Paying the federal income taxes that a person owes
+   B. Serving on a jury after being summoned by a court
+   C. Obeying local, state, and federal laws
+   D. Volunteering time to perform community public service
 
-**32.** Why must a presidential candidate typically win primaries and caucuses before competing in the general election?  _[GC.32 · DOK 2]_
-   A. Because the Constitution requires every candidate to win primaries first.
-   B. Because primaries and caucuses take the place of the general election.
-   C. Because parties use primaries and caucuses to choose the single nominee who will represent the party in the general election.
-   D. Because only the winner of a caucus is legally allowed to register to vote.
+**32.** At which stage is a political party's presidential nominee officially named?  _[GC.32 · DOK 2]_
+   A. At the closed primary
+   B. At the national party convention
+   C. At the general election
+   D. At the Electoral College certification
 
-**33.** What does the term public opinion refer to?  _[GC.33 · DOK 1]_
-   A. The collected attitudes and beliefs of a population about issues, leaders, and government
-   B. The official position the federal government takes on an issue
-   C. A law passed to regulate what the news media may report
-   D. The outcome of a single citizen's vote in an election
+**33.** A poll asks, 'Do you support wasteful government spending?' and reports that 80% of respondents say no. Why should a careful citizen be cautious about accepting this result?  _[GC.33 · DOK 3]_
+   A. The result must be accurate because a large number of people responded.
+   B. The result proves that most citizens oppose all government spending.
+   C. Poll results can never be affected by the wording of a question.
+   D. The loaded word 'wasteful' pushes respondents toward a negative answer, so the poll may not measure genuine opinion.
 
-**34.** In some states, voters can directly propose a new law themselves. Which tool of direct democracy does this describe?  _[GC.34 · DOK 2]_
-   A. The referendum
-   B. The recall
-   C. The initiative
-   D. The petition
+**34.** What is a petition?  _[GC.34 · DOK 1]_
+   A. A local party meeting held to choose a candidate
+   B. A formal written request, often signed by many people, asking the government to take or stop an action
+   C. A tax that citizens pay to help fund elections
+   D. A survey used to measure public opinion
 
-**35.** Why does the Constitution require that the rule of naturalization be 'uniform' across the country?  _[GC.35 · DOK 3]_
-   A. To allow each state to set its own citizenship requirements
-   B. To ensure the requirements for becoming a citizen are the same in every state
-   C. To give the President personal control over who becomes a citizen
-   D. To limit citizenship to people born in the original thirteen states
+**35.** What must an applicant do on the Naturalization Test in order to qualify to become a U.S. citizen?  _[GC.35 · DOK 2]_
+   A. Answer civics and English questions drawn from a set of 100 study questions
+   B. Win a majority of votes in the applicant's home state
+   C. Complete a full term of service in the U.S. armed forces
+   D. Be formally nominated by a member of Congress

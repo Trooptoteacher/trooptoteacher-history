@@ -5,17 +5,22 @@ A deep, psychometrically-tagged item pool for **Foundations of Constitutional Go
 and to generate as many **equated parallel tests of equal rigor** as needed.
 
 ## Contents
-- `government_question_bank.json` — the consolidated pool: **350 items**, 35 standards × 10
+- `government_question_bank.json` — the consolidated pool: **700 items**, 35 standards × 20
   (GC.01–GC.35). Superset schema = flagship fields (`id, standard, unit, question_number, type,
   dok, level, question, options, correct_answer, tennessee_specific, topics`) **+** psychometrics
   (`blooms, hess_crm_cell, irt_a/irt_b/irt_c, c3_dimension, ssp, distractor_tags, key_rationale,
   dok_rationale, blooms_rationale, bias_flag, reporting_category, tcap_format, field_test_ready,
-  rubric_id/rubric_name`). Authored via the `tn-assessment-specialist` + `tcap-item-writer-v2` skills.
+  rubric_id/rubric_name`) **+** `udl_supports` (CAST 3.0) and `remediation` (distractor-based,
+  MTSS Tier 2/3). Authored via the `tn-assessment-specialist` + `tcap-item-writer-v2` skills;
+  UDL/remediation added by `add_udl_remediation.py`.
+- `QUESTION_BANK_INVENTORY.md`, `standards_crosswalk.csv`, `item_inventory.csv` — full inventory
+  and per-standard crosswalk (coverage, DOK/type mix, TN-specific, SSP/C3, verbatim standards),
+  from `build_inventory.py`.
 - Per-unit source pools live at `BUILD/unitN/analysis/unitN_item_bank.json`.
 - `generated_tests/` — sample output (4 equated course-wide forms + equating report).
 
 ## Depth per standard
-10 items each: **7 multiple-choice** (DOK 2/2/3 split → 2×DOK1, 3×DOK2, 2×DOK3) + **3 open-response**
+20 items each (Q01–Q20): a base set + a DOK-3-weighted extension. Bank-wide DOK \u2248 20/35/45. Every standard has DOK-3 multiple-choice items so parallel forms carry deep objective rigor. MC answer keys debiased across A/B/C/D.
 (short-answer, CER, and a document-based or extended-response item citing a genuine public-domain
 source). Bank-wide DOK ≈ **20 / 40 / 40**. MC answer keys debiased across A/B/C/D.
 
