@@ -28,7 +28,7 @@ function P(runs,{align,spacing,indent,border}={}){return new Paragraph({alignmen
 function H(text,lvl,{brk=false,mins=null}={}){const map={1:HeadingLevel.HEADING_1,2:HeadingLevel.HEADING_2,3:HeadingLevel.HEADING_3};
   const kids=[R(text,{s:lvl===1?36:lvl===2?28:24,b:true,c:lvl===3?RED:NAVY})];
   if(mins) kids.push(R(`    ⏱ ~${mins} min`,{s:18,b:true,c:GOLD}));
-  return new Paragraph({heading:map[lvl],pageBreakBefore:brk,spacing:{before:lvl===1?220:150,after:90},keepNext:true,children:kids});}
+  return new Paragraph({heading:map[lvl],pageBreakBefore:(brk&&lvl===1),spacing:{before:lvl===1?220:150,after:90},keepNext:true,children:kids});}
 function cell(children,{w,fill,borders}={}){return new TableCell({width:{size:w,type:WidthType.DXA},
   shading:fill?{type:ShadingType.CLEAR,fill,color:'auto'}:undefined,margins:{top:55,bottom:55,left:110,right:110},
   borders:borders||CELLB(),children:Array.isArray(children)?children:[children]});}
