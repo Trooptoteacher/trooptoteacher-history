@@ -143,8 +143,7 @@ function vocabSelfCheck(code){const s=C.standards[code]; const W=[3092,1675,1675
   return [gap(40),
     callout('VOCABULARY SELF-CHECK · Knowledge Rating',['Rate each term NOW in pencil, then again at the END — growth is the goal; no penalty for “never seen it.”']),
     table([head,...rows],W),
-    P([R('MAKE IT YOURS (RESPONSE CHOICE): ',{s:20,b:true,c:NAVY}),R('choose ONE term above and show you own it — write a sentence, sketch it, or give a real-world example.',{s:20})],{spacing:{before:60,after:40}}),
-    ...ruled(2)];}
+    ...doodle('MAKE IT YOURS (RESPONSE CHOICE) — write a sentence or draw your example','Choose ONE term above and show you own it: write a sentence that uses it, sketch it, or give a real-world example.',760)];}
 function sourceExtension(code){return [gap(120),
   callout('EXTEND & RE-ENGAGE (open to all)',['Push past the document — corroborate, contextualize, and judge its meaning.']),
   writeTable(['Historian move','Your response'],[
@@ -226,6 +225,11 @@ const front=[
     ['One thing I already know about this era…',''],
     ['One question I want answered…',''],
   ],[3045,6747],{rowH:760}),
+  callout('HOW TO GET THE MOST FROM THIS WORKBOOK',[
+    'Use the supports — they keep the goal, never lower it. The Word Bank, Spanish column, sentence frames, and Response Choice are for everyone.',
+    'Retrieve, don’t reread. On the Practice Quiz and Retrieval boxes, cover your notes and pull ideas from memory — a little struggle is what makes memory stick.',
+    'Space it out. Revisit earlier standards on the Progress Tracker; a few minutes across several days beats one long cram session.',
+    'Show what you know your way. Any written response may be written, spoken and recorded, or drawn as a labeled diagram — the learning target is the same for everyone.']),
   PB()];
 
 // ================= PER-STANDARD =================
@@ -242,7 +246,7 @@ function block(code){
   out.push(callout('HOOK — think before you dig in',[s.hook||'What is the big question behind this standard?']));
   out.push(...ruled(2));
   out.push(callout('SET YOUR GOAL & ACTIVATE (self-direction)',['My goal for this standard — what will I be able to do, and how will I show it? Then jot what you already know or wonder, and which target may be hardest.']));
-  out.push(...ruled(3));
+  out.push(writeBox('Write your goal + what you already know / wonder',4));
   // Activity 1 — Word Bank
   out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
@@ -271,13 +275,11 @@ function block(code){
   // Cornell note-taking — brand layout: navy header, narrow cue col + wide notes col, ruled lines
   out.push(cornell(s.cues||['Main idea?','Key term →','Why does it matter?','Connect it →'],
     'My notes — write your notes here',4));
-  out.push(P(R('Keep taking notes — lines run the full width of the page:',{s:19,i:true,c:GREY}),{spacing:{before:100,after:30}}));
-  out.push(...ruled(10));
-  out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',1000));
+  out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',900));
   // Cornell Notes — BACK (keep going, then process & check)
   out.push(H(`Cornell Notes — keep going, then process & check — ${code}`,2,{brk:true}));
-  out.push(callout('MORE NOTES / DIAGRAMS',['Continue your notes here, add a quick sketch, or map how the ideas connect.']));
-  out.push(...ruled(8));
+  out.push(writeBox('MORE NOTES — keep writing (lines to write on)',4));
+  out.push(...doodle('DIAGRAM / SKETCH BOX — draw here','This space is for drawing: sketch a timeline, a concept map, or a quick diagram that shows how the ideas connect.',1500));
   out.push(callout('Key terms to list',[s.vocab.map(v=>v.term).join(' · ')]));
   out.push(writeBox('Summary — In your own words (2–3 sentences)',3));
   out.push(table([new TableRow({children:[cell([
@@ -453,9 +455,9 @@ const back=[
   writeTable(['Part','Write here'],[['My claim',''],['Evidence 1 (standard: ___)',''],['Evidence 2 (standard: ___)',''],['Why it matters today','']],[2639,7153],{rowH:820})];
 
 // ================= ASSEMBLE =================
-const header=new Header({children:[P(R(BRANDTM+' · '+(U.code||'Unit 1')+' · Course Standard Edition',{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
+const header=new Header({children:[P(R(BRANDTM+' · '+(U.code||'Unit 1')+(U.title?' — '+U.title:''),{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
 const footer=new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:0},children:[
-  R(BRANDTM+' · '+(U.code||'Unit 1')+' (Course Standard)   © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:15,c:GREY}),
+  R(BRANDTM+' · '+(U.code||'Unit 1')+(U.title?': '+U.title:'')+' · Course Standard Edition   © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:15,c:GREY}),
   new TextRun({children:[PageNumber.CURRENT],size:15,color:GREY,bold:true,font:FONT})]})]});
 const doc=new Document({creator:'TroopToTeacher Technologies LLC',title:BRAND+' — '+(U.code||'Unit 1')+' Course Standard Student Workbook',
   features:{updateFields:true},
