@@ -1,0 +1,395 @@
+{
+  "disclosure": "All items are classroom-formative and pre-field-test — not a secure TCAP form; the first cycle of use is what calibrates them.",
+  "reporting_category": "RC-WH1: Age of Revolutions",
+  "formative": {
+    "W.01": [
+      {
+        "stem": "Which statement best explains the idea of the divine right of kings?",
+        "std": "W.01",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "A monarch's authority comes directly from God and cannot be questioned by subjects"
+          },
+          {
+            "id": "B",
+            "text": "A monarch's power is granted and limited by an elected assembly"
+          },
+          {
+            "id": "C",
+            "text": "A monarch must share power equally with the nobility"
+          },
+          {
+            "id": "D",
+            "text": "A monarch is chosen by a popular vote of the people"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-WH1: Age of Revolutions"
+      }
+    ],
+    "W.02": [
+      {
+        "stem": "What key idea do BOTH the Magna Carta and the English Bill of Rights establish?",
+        "std": "W.02",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "The monarch's power should be unlimited"
+          },
+          {
+            "id": "B",
+            "text": "The monarch is also bound by law and cannot rule without limits"
+          },
+          {
+            "id": "C",
+            "text": "The monarchy should be abolished entirely"
+          },
+          {
+            "id": "D",
+            "text": "Only the church may limit the king"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-WH1: Age of Revolutions"
+      }
+    ],
+    "W.03": [
+      {
+        "stem": "John Locke argued that the main purpose of government is to",
+        "std": "W.03",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "expand the ruler's divine authority"
+          },
+          {
+            "id": "B",
+            "text": "enforce a single official religion"
+          },
+          {
+            "id": "C",
+            "text": "protect people's natural rights to life, liberty, and property"
+          },
+          {
+            "id": "D",
+            "text": "keep power in the hands of the nobility"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-WH1: Age of Revolutions"
+      }
+    ],
+    "W.04": [
+      {
+        "stem": "One major consequence of the English Civil War and the Glorious Revolution was that",
+        "std": "W.04",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "England became an absolute monarchy like France"
+          },
+          {
+            "id": "B",
+            "text": "the divine right of kings was strengthened"
+          },
+          {
+            "id": "C",
+            "text": "England abolished Parliament permanently"
+          },
+          {
+            "id": "D",
+            "text": "the English monarch's power became limited by Parliament and law"
+          }
+        ],
+        "key": "D",
+        "rc": "RC-WH1: Age of Revolutions"
+      }
+    ],
+    "W.08a": [
+      {
+        "stem": "The Declaration of Independence's phrase 'unalienable Rights... Life, Liberty and the pursuit of Happiness' most directly reflects the ideas of",
+        "std": "W.08a",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "John Locke"
+          },
+          {
+            "id": "B",
+            "text": "Thomas Hobbes"
+          },
+          {
+            "id": "C",
+            "text": "Louis XIV"
+          },
+          {
+            "id": "D",
+            "text": "Oliver Cromwell"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-WH1: Age of Revolutions"
+      }
+    ]
+  },
+  "formA": [
+    {
+      "stem": "How did Louis XIV use the palace of Versailles to strengthen royal power?",
+      "std": "W.01",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "By opening it as a meeting place for an elected assembly"
+        },
+        {
+          "id": "B",
+          "text": "By keeping powerful nobles at court and dependent on his favor"
+        },
+        {
+          "id": "C",
+          "text": "By giving the nobility their own regional armies"
+        },
+        {
+          "id": "D",
+          "text": "By turning it into a public university"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-WH1: Age of Revolutions"
+    },
+    {
+      "stem": "The Magna Carta (1215) is most significant because it established that",
+      "std": "W.02",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Parliament should be abolished"
+        },
+        {
+          "id": "B",
+          "text": "the king's power comes from God alone"
+        },
+        {
+          "id": "C",
+          "text": "even the king is subject to the law"
+        },
+        {
+          "id": "D",
+          "text": "nobles had no legal rights"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-WH1: Age of Revolutions"
+    },
+    {
+      "stem": "Which philosopher is correctly matched with his idea?",
+      "std": "W.03",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hobbes — separation of powers"
+        },
+        {
+          "id": "B",
+          "text": "Rousseau — the need for an absolute ruler"
+        },
+        {
+          "id": "C",
+          "text": "Montesquieu — the general will"
+        },
+        {
+          "id": "D",
+          "text": "Locke — natural rights to life, liberty, and property"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-WH1: Age of Revolutions"
+    },
+    {
+      "stem": "The English Civil War of the 1640s was fought mainly between supporters of",
+      "std": "W.04",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "the king and Parliament"
+        },
+        {
+          "id": "B",
+          "text": "France and Spain"
+        },
+        {
+          "id": "C",
+          "text": "two rival churches only"
+        },
+        {
+          "id": "D",
+          "text": "nobles and foreign invaders"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-WH1: Age of Revolutions"
+    },
+    {
+      "stem": "Jefferson's phrase 'consent of the governed' is most directly based on the Enlightenment idea that",
+      "std": "W.08a",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "kings rule by divine right"
+        },
+        {
+          "id": "B",
+          "text": "government's authority comes from the people"
+        },
+        {
+          "id": "C",
+          "text": "only nobles may vote"
+        },
+        {
+          "id": "D",
+          "text": "reason cannot guide politics"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-WH1: Age of Revolutions"
+    }
+  ],
+  "formB": [
+    {
+      "stem": "Peter the Great's policy of westernization was mainly intended to",
+      "std": "W.01",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "return Russia to older traditions"
+        },
+        {
+          "id": "B",
+          "text": "give the boyars more independent power"
+        },
+        {
+          "id": "C",
+          "text": "modernize Russia using western European technology and institutions"
+        },
+        {
+          "id": "D",
+          "text": "end the monarchy in Russia"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-WH1: Age of Revolutions"
+    },
+    {
+      "stem": "Which power did the English Bill of Rights (1689) give to Parliament?",
+      "std": "W.02",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "the sole right to command the church"
+        },
+        {
+          "id": "B",
+          "text": "ownership of all land"
+        },
+        {
+          "id": "C",
+          "text": "the power to crown foreign kings"
+        },
+        {
+          "id": "D",
+          "text": "control over taxation and free elections"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-WH1: Age of Revolutions"
+    },
+    {
+      "stem": "Montesquieu's idea of the separation of powers was designed to",
+      "std": "W.03",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "divide government so no branch becomes tyrannical"
+        },
+        {
+          "id": "B",
+          "text": "give all power to a single monarch"
+        },
+        {
+          "id": "C",
+          "text": "abolish all government"
+        },
+        {
+          "id": "D",
+          "text": "return power to the church"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-WH1: Age of Revolutions"
+    },
+    {
+      "stem": "What made the 1649 execution of Charles I historically significant?",
+      "std": "W.04",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "It proved the divine right of kings"
+        },
+        {
+          "id": "B",
+          "text": "It showed subjects could hold even a king accountable"
+        },
+        {
+          "id": "C",
+          "text": "It ended all warfare in Europe"
+        },
+        {
+          "id": "D",
+          "text": "It made Cromwell a king"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-WH1: Age of Revolutions"
+    },
+    {
+      "stem": "Which Enlightenment thinker most directly influenced the Declaration's ideas about natural rights?",
+      "std": "W.08a",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Peter the Great"
+        },
+        {
+          "id": "B",
+          "text": "Thomas Hobbes"
+        },
+        {
+          "id": "C",
+          "text": "John Locke"
+        },
+        {
+          "id": "D",
+          "text": "Charles I"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-WH1: Age of Revolutions"
+    }
+  ]
+}
