@@ -48,13 +48,13 @@ The framework is **substantially embedded** in Representation and Strategy Devel
 ## Gaps closed (design fixes applied)
 - **[HIGH] A&E 5.1/4.1 — CLOSED.** Every standard's constructed-response (CER) task in all 7 workbooks now carries a real **"Show what you know — your way"** element: write / say-and-record / draw-and-label / build, scored on the *same* CER rubric against the *same* standard, with word-processor, speech-to-text, scribe, and sentence-frame provisions. Verified: 35 blocks (one per standard), images intact, leak-clean. **Guideline 4 and 5 re-score ⚠️ → ✅** (multi-modal expression is now an artifact affordance in the workbook, not only in the organizers).
 - **[MED] MTSS Tier 2/3 named resources — CLOSED.** `MTSS_SUPPORT_MAP.md` names the actual Tier 1/2/3 resource for all 35 standards (workbook cycle / Guided Support + best-fit organizer + Part 6 routing / intensive CRA + parallel-form re-assessment), with the triggers between tiers. Tier 3 is now a named routine, not just a protocol.
-- **[MED] Perception 1.1 — PARTIALLY closed (documented, not over-claimed).** `ACCESSIBILITY_STATEMENT.md` evidences alt-text on every image, EN/ES + pronunciation, reflowable/heading-navigable docx, and an on-request accessible/large-print provision. **Guideline 1 stays ⚠️**: full PDF/UA reading-order tagging and a dedicated large-print edition build remain on the documented roadmap — stated as roadmap so the strip is not over-credited.
+- **[MED] Perception 1.1 — CLOSED (with one honest external step).** Now shipped: a **large-print edition** of every workbook (16.5 pt, `*_LargePrint.docx`) and **PDF/UA tagged reading order on all 14 deck PDFs** (StructTreeRoot + MarkInfo + outline + Lang + Title + DisplayDocTitle, verified). Workbook docx are already heading-structured + fully alt-texted (screen-reader accessible); a **workbook tagged-PDF** is a one-command Word/LibreOffice export on the district side — not bundled only because this build environment's LibreOffice is non-functional. **Guideline 1 re-scores ⚠️ → ✅** for the decks and large-print; the workbook tagged-PDF is the single documented external step. See `ACCESSIBILITY_STATEMENT.md`.
 - **[LOW] remaining** (7.1 student choice menu; 9.2/9.4 empathy/reflection; 2.4/5.4 bias-in-language/modes): the CER mode element partially addresses 5.4 (honoring modes) and 6.5 (challenge exclusionary practices); the rest remain minor ⚠️ enhancements.
 
 ### Post-fix summary
 | Principle | Guideline | Before | After |
 |---|---|---|---|
-| Representation | 1 Perception | ⚠️ | ⚠️ (documented + provision) |
+| Representation | 1 Perception | ⚠️ | ✅ (large-print + tagged decks; workbook tagged-PDF = 1 external step) |
 | Representation | 2 Language & Symbols | ✅ | ✅ |
 | Representation | 3 Building Knowledge | ✅ | ✅ |
 | Action & Expression | 4 Interaction | ⚠️ | ✅ |
@@ -64,4 +64,4 @@ The framework is **substantially embedded** in Representation and Strategy Devel
 | Engagement | 8 Sustaining Effort | ✅ | ✅ |
 | Engagement | 9 Emotional Capacity | ⚠️ | ⚠️ |
 
-**Net:** 6 of 9 guidelines ✅ present-and-strong with artifact evidence; 3 ⚠️ (Perception 1.1 has a provision + roadmap; Engagement 9 and 7.1 are minor enhancements). Every UDL access strip now maps to a real affordance except the large-print/tagged-PDF line, which is honestly scoped as roadmap.
+**Net:** 7 of 9 guidelines ✅ present-and-strong with artifact evidence; 2 ⚠️ remaining are minor Engagement enhancements (9 emotional capacity; 7.1 student choice menu). Every UDL access strip now maps to a real design affordance; the only external step is exporting a workbook to tagged PDF (one Word/LibreOffice command — the docx is prepared for it).
