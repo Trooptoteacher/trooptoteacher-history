@@ -69,11 +69,13 @@ function dataTable(headers,rows,widths){
 // identical bottom border and suppress the INTERNAL borders — so N stacked bordered
 // paragraphs collapse to one visible line. We break that merge with a tiny border-less
 // spacer between each line, so every baseline renders.
-function ruled(n=3){const out=[];for(let i=0;i<n;i++){
-  // Brand-exact writing baseline (from U.S. History Hack workbook): empty paragraph,
-  // spacing before 80 / after 140, bottom border single sz6 space1 color C9C2B4.
-  out.push(new Paragraph({widowControl:false,spacing:{before:SZ(80),after:SZ(140)},
-    border:{bottom:{style:BorderStyle.SINGLE,size:6,color:'C9C2B4',space:1}},children:[]}));
+function ruled(n=4){const out=[];for(let i=0;i<n;i++){
+  // Notebook writing line. Adjacent identical bottom-borders MERGE (render as one line), so we
+  // break the merge with a tiny border-less spacer between each ruled line -> every line renders.
+  out.push(new Paragraph({widowControl:false,spacing:{before:0,after:0,line:SZ(300),lineRule:'exact'},
+    border:{bottom:{style:BorderStyle.SINGLE,size:6,color:'9AA0A6',space:2}},
+    children:[new TextRun({text:' ',size:SZ(12),font:FONT})]}));
+  if(i<n-1) out.push(new Paragraph({spacing:{before:0,after:0,line:SZ(90),lineRule:'exact'},children:[new TextRun({text:' ',size:SZ(2),font:FONT})]}));
 }return out;}
 function linesFor(h){return Math.max(2,Math.round(h/380));}
 // writing table: label cells keep text; blank writing cells get ruled lines
@@ -215,7 +217,7 @@ const front=[
     ['PROGRESS CHECK','A quick DOK-2/3 check that guides reteach or extend.'],
     ['EXTENSION','A deeper challenge once the goal is met.'],
   ],[2639,7153]),
-  H('Before You Begin — Set a S.M.A.R.T. Goal',2),
+  H('Before You Begin — Set a S.M.A.R.T. Goal',2,{brk:true}),
   P(R('Strong learners set goals — but a goal only helps if it is built well. First learn how, then write yours.',{s:22})),
   callout('WHAT MAKES A GOAL STRONG? Build it S.M.A.R.T.',[
     R('S — Specific: say exactly what you will be able to do (“explain how a bill becomes law,” not “do well”).',{s:20}),
