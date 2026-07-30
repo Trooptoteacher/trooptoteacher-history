@@ -16,7 +16,13 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(HERE, "..", "..", "unit7", "analysis", "unit7_content.json")
 IMAGES = os.path.join(HERE, "unit7_images.json")
 ASSETS = HERE  # image 'file' paths in the manifest are relative to this folder
-OUT = os.path.join(HERE, "pages", "unit7_teacher_deck.html")
+AUDIENCE = os.environ.get("AUDIENCE", "teacher")
+STUDENT = (AUDIENCE == "student")
+DECK_KIND = "Student Deck" if STUDENT else "Teacher Deck"
+if STUDENT:
+    OUT = os.path.join(HERE, "..", "Unit7_Student_Deck", "pages", "unit7_student_deck.html")
+else:
+    OUT = os.path.join(HERE, "pages", "unit7_teacher_deck.html")
 
 D = json.load(open(CONTENT))
 U = D["unit"]
@@ -139,6 +145,12 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
   font-size:10.5pt; line-height:1.3; color:#3a2f12; display:flex; gap:12px; align-items:baseline; }
 .tnotes b{ color:#7a5c15; text-transform:uppercase; letter-spacing:.05em; font-size:9pt; flex:0 0 auto; }
 
+/* per-standard UDL 3.0 + MTSS strip (visible to students AND teachers) */
+.udlmtss{ flex:0 0 auto; background:var(--navy-tint); border-top:2px solid var(--navy); padding:7px 34px;
+  font-size:9pt; line-height:1.32; color:#22303f; display:flex; flex-direction:column; gap:2px; }
+.udlmtss .ln b{ color:var(--navy); text-transform:uppercase; letter-spacing:.04em; font-size:8.5pt; }
+.access .r .t{ font-size:12pt; }
+
 /* footer */
 .sfoot{ position:absolute; bottom:8px; right:20px; font-size:8pt; color:#9aa2b2; }
 .sfoot .brand{ color:var(--navy); font-weight:700; }
@@ -183,6 +195,18 @@ html,body{ background:#8a8f99; font-family:"Helvetica Neue",Arial,sans-serif; co
 .close .stds{ margin-top:18px; font-size:12pt; color:var(--gold); letter-spacing:.05em; }
 """
 
+UDLMTSS = ('<div class="udlmtss">'
+  '<div class="ln"><b>UDL 3.0 (CAST):</b> read-aloud on request &middot; key terms glossed EN/ES &middot; respond in writing, speech, or a labeled diagram &middot; large-print &amp; screen-reader friendly.</div>'
+  '<div class="ln"><b>MTSS:</b> Tier 1 core lesson for all &middot; Tier 2 small-group reteach of this standard (Cornell cues + graphic organizer), then re-check &middot; Tier 3 intensive 1:1 with concrete&rarr;representational&rarr;abstract scaffolding, progress-monitored to the same standard.</div>'
+  '</div>')
+def tstrip(inner):
+    # teacher-only note strip; dropped entirely in the student deck
+    return "" if STUDENT else f'<div class="tnotes">{inner}</div>'
+STD_NOTE = "<b>Teacher move</b><span>Open with the hook, read the source aloud, then run the CFU as a quick cold-call or mini-whiteboard check before the organizer. Vocabulary is bilingual (EN/ES) &mdash; project the Spanish gloss for ELL access.</span>"
+PERSP_NOTE = f"<b>Why it matters</b><span>{esc(U['perspectives_intro'][:210])}</span>"
+TN_NOTE = f"<b>Task</b><span>{esc(U.get('tn_connection_task',''))}</span>"
+MIS_NOTE = "<b>Why it's here</b><span>These are the built-in UDL 3.0 moves — a belief-check (9.1), on-standard play (7.3), cross-unit spiral (3.4), and conversation norms (9.4). Use them; they make the unit stick.</span>"
+
 slides = []
 def slide(html_inner, cls="", pageno=None):
     foot = f'<div class="sfoot"><span class="brand">Government Hack&trade;</span> &middot; {UNIT}</div>'
@@ -191,7 +215,7 @@ def slide(html_inner, cls="", pageno=None):
 
 # ---- 1. Title ----
 slide(f"""
-  <div class="badge">Teacher Deck</div>
+  <div class="badge">{DECK_KIND}</div>
   <div class="eye">Government Hack &middot; TroopToTeacher Technologies</div>
   <h1>Foundations of<br>Constitutional Government</h1>
   <div class="course">United States Government &amp; Civics (GC) &middot; {UNIT} &middot; {RANGE}</div>
@@ -199,6 +223,22 @@ slide(f"""
   <div class="eq">&ldquo;{esc(U['essential_question'])}&rdquo;</div>
   <div class="meta">Grades 9&ndash;12 &middot; Suggested {esc(U.get('suggested_days','15-17'))} days &middot; Supplemental under TCA &sect; 49-6-2202(a)(3)</div>
 """, cls="title")
+
+# ---- Student access slide (student deck only) ----
+if STUDENT:
+    slide(f"""
+  <div class="shead"><div class="l"><div class="kick">Supports &middot; Universal Design for Learning</div><h2>Supports Available to Everyone</h2></div>
+    <div class="r"><span class="chip">UDL 3.0</span><span class="chip ssp">Same target for all</span></div></div>
+  <div class="big-eq access">
+    <div class="q">Same learning target for all &mdash; <span class="u">supports available to everyone.</span></div>
+    <div class="road">
+      <div class="r"><div class="c">Read &amp; understand</div><div class="t">Ask for any text to be read aloud. Key terms are glossed in English and Spanish.</div></div>
+      <div class="r"><div class="c">Show what you know</div><div class="t">Respond in writing, in speech, or with a labeled diagram &mdash; your choice.</div></div>
+      <div class="r"><div class="c">Access for all</div><div class="t">Large-print and screen-reader friendly. Need another pass? Small-group and 1:1 support are built in.</div></div>
+    </div>
+  </div>
+  {UDLMTSS}
+""")
 
 # ---- 2. Essential question + roadmap ----
 road = ""
@@ -222,9 +262,10 @@ for c in ORDER:
     cfu = s["cfu"]
     opts = ""
     for k in ["A", "B", "C", "D"]:
-        keycls = " key" if k == cfu["key"] else ""
-        mark = " &check;" if k == cfu["key"] else ""
+        keycls = "" if STUDENT else (" key" if k == cfu["key"] else "")
+        mark = "" if STUDENT else (" &check;" if k == cfu["key"] else "")
         opts += f'<div class="opt{keycls}"><span class="k">{k}{mark}</span><span>{esc(cfu["options"][k])}</span></div>'
+    ans_html = "" if STUDENT else f'<div class="ans"><b>Answer: {esc(cfu["key"])}.</b> {esc(cfu["why"])}</div>'
     repo = src.get("repo", "")
     tn = s.get("tn_connection")
     tn_chip = '<span class="chip" style="background:var(--gold);color:var(--navy)">&#9733; Tennessee</span>' if tn else ""
@@ -247,10 +288,11 @@ for c in ORDER:
       <div class="card cfu" style="flex:1 1 auto;"><div class="ch red">Check for Understanding &middot; DOK {esc(cfu['dok'])}</div>
         <div class="cb"><div style="font-weight:700;margin-bottom:6px">{esc(cfu['stem'])}</div>
           {opts}
-          <div class="ans"><b>Answer: {esc(cfu['key'])}.</b> {esc(cfu['why'])}</div></div></div>
+          {ans_html}</div></div>
     </div>
   </div>
-  <div class="tnotes">{tnotes}</div>
+  {tstrip(tnotes)}
+  {UDLMTSS}
 """, pageno=str(pg))
     pg += 1
 
@@ -262,7 +304,7 @@ slide(f"""
   <div class="shead"><div class="l"><div class="kick">{UNIT} &middot; Multiple Perspectives</div><h2>{esc(U['perspectives_title'])}</h2></div>
     <div class="r"><span class="chip ssp">SSP.03</span></div></div>
   <div class="persp">{pcards}</div>
-  <div class="tnotes"><b>Why it matters</b><span>{esc(U['perspectives_intro'][:210])}</span></div>
+  {tstrip(PERSP_NOTE)}
 """, pageno=str(pg)); pg += 1
 
 # ---- Tennessee Connection ----
@@ -270,7 +312,7 @@ slide(f"""
   <div class="shead"><div class="l"><div class="kick">{UNIT} &middot; {esc(U['tn_connection_label'])}</div><h2>Our Signature Move</h2></div>
     <div class="r"><span class="chip">&#9733; Tennessee</span></div></div>
   <div class="tnbig"><div class="star">&#9733;</div><div class="t">{esc(U['tn_connection'])}</div></div>
-  <div class="tnotes"><b>Task</b><span>{esc(U.get('tn_connection_task',''))}</span></div>
+  {tstrip(TN_NOTE)}
 """, pageno=str(pg)); pg += 1
 
 # ---- Make It Stick (UDL 3.0 elements embedded: 9.1 belief-check, 7.3 play, 3.4 spiral, 9.4 norms) ----
@@ -291,7 +333,7 @@ if U.get("belief_check") or U.get("spiral"):
     <div class="p" style="border-top-color:var(--navy)"><h3>Spiral &mdash; retrieve &amp; connect</h3><p style="font-size:10.5pt">{spiral_html}</p></div>
     <div class="p" style="border-top-color:var(--gold)"><h3>{esc(norms.get('name','Discussion Norms'))}</h3><p><ul style="margin-left:15px">{norms_html}</ul></p></div>
   </div>
-  <div class="tnotes"><b>Why it's here</b><span>These are the built-in UDL 3.0 moves — a belief-check (9.1), on-standard play (7.3), cross-unit spiral (3.4), and conversation norms (9.4). Use them; they make the unit stick.</span></div>
+  {tstrip(MIS_NOTE)}
 """, pageno=str(pg)); pg += 1
 
 # ---- Closing ----
@@ -306,7 +348,7 @@ slide(f"""
 """, cls="close", pageno=str(pg))
 
 doc = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
-<title>{UNIT} Teacher Deck &mdash; Foundations of Constitutional Government</title>
+<title>{UNIT} {DECK_KIND} &mdash; Foundations of Constitutional Government</title>
 <style>{CSS}</style></head><body>
 {''.join(slides)}
 </body></html>"""
