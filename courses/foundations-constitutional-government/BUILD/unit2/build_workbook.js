@@ -6,7 +6,7 @@ const {Document,Packer,Paragraph,TextRun,HeadingLevel,AlignmentType,Table,TableR
 const C=JSON.parse(fs.readFileSync('analysis/unit2_content.json','utf8'));
 const IMG=fs.existsSync('analysis/unit2_images.json')?JSON.parse(fs.readFileSync('analysis/unit2_images.json','utf8')):{};
 const EXIT=fs.existsSync('analysis/unit2_exit_tickets.json')?JSON.parse(fs.readFileSync('analysis/unit2_exit_tickets.json','utf8')):{};
-const SAMPLE=process.env.SAMPLE?Number(process.env.SAMPLE):0; const ORDER=SAMPLE?C.order.slice(0,SAMPLE):C.order;
+const SAMPLE=process.env.SAMPLE?Number(process.env.SAMPLE):0; const ONLYSTD=process.env.ONLYSTD||''; const PREVIEW=SAMPLE||ONLYSTD; const ORDER=ONLYSTD?[ONLYSTD]:(SAMPLE?C.order.slice(0,SAMPLE):C.order);
 // ---- course/unit chrome (parameterized — no hardcoded US-History / district content) ----
 const U=C.unit; const BRAND=(U.brand||'Government Hack'); const BRANDTM=BRAND+'™';
 const UNIT_NO=(U.code||'Unit 1').replace(/Unit\s*/i,'');
@@ -229,11 +229,19 @@ const front=[
     R('Weak:  “I want to do good in government.”  (vague — nothing to measure)',{s:20}),
     R('S.M.A.R.T.:  “By the end of this unit I can explain how the three branches check each other, and prove it by teaching a partner and scoring 80%+ on the check.”',{s:20,b:true})]),
   P(R('This unit’s big question: '+EQ,{s:20,i:true,c:GREY})),
-  writeBox('Write YOUR S.M.A.R.T. goal for this unit — use all the lines:',5),
-  writeTable(['Before we start…','Write on the lines'],[
-    ['One thing I already know',''],
-    ['One question I want answered',''],
-  ],[3045,6747],{rowH:640,lines:2}),
+  callout('BUILD YOURS — write each piece on the lines, then combine them at the bottom',['Fill in each part of your goal. Use the lines.']),
+  writeTable(['Part of my goal','Write your piece on the lines'],[
+    ['S — Specific: what exactly will I be able to do?',''],
+    ['M — Measurable: how will I prove it? (a score, a diagram, teaching a partner)',''],
+    ['A — Achievable: what effort will it take to reach it?',''],
+    ['R — Relevant: how does it connect to the big question above?',''],
+    ['T — Time-bound: by when?',''],
+  ],[3900,5892],{rowH:560,lines:2}),
+  writeBox('PUT IT TOGETHER — my S.M.A.R.T. goal in one or two sentences:',3),
+  callout('SEAL IT — a goal you can see is a goal you keep',[
+    R('One thing I already know about this topic: ______________________________________________',{s:20}),
+    R('One question I want answered by the end: ______________________________________________',{s:20}),
+    R('Signed: __________________     Date: __________     I will check my progress on: __________',{s:20,b:true})]),
   PB()];
 
 // ================= PER-STANDARD =================
@@ -242,7 +250,7 @@ function block(code){
   const L=code.replace('.','')+'-L0'+code.slice(-1);
   out.push(H(`Standard ${code} — ${s.title}`,1,{brk:true}));
   out.push(P([R(`TN Academic Standard ${code}: `,{s:22,b:true}),R(s.tn.replace(/^US\.\d+\s*[–-]\s*/,''),{s:22})],{spacing:{after:60}}));
-  out.push(callout('LEARNING TARGETS — I can…',(s.targets||[s.target||s.ican.replace(/^I can /,'')]).map(t=>R('•  I can '+t+'.',{s:21}))));
+  out.push(callout('LEARNING TARGETS — I can…',(s.targets||[s.target||s.ican.replace(/^I can /i,'')]).map(t=>R('•  I can '+t.replace(/^I can /i,'')+'.',{s:21}))));
   if(s.lenses) out.push(P([R('Lenses for this standard: ',{s:19,b:true,c:NAVY}),R(s.lenses,{s:19,c:GREY})],{spacing:{after:80}}));
   out.push(coreCallout('CORE PATH — the same for every student',['Every student works this standard at the same rigor: analyze the sources and vocabulary, then demonstrate learning on the Practice Quiz and CER. UDL and MTSS give you flexible ways in — they never lower the bar. Check yourself against the learning targets on the Cornell Notes page.']));
   if(s.tn_connection) out.push(callout('★ Tennessee Connection',[s.tn_connection]));
@@ -257,6 +265,8 @@ function block(code){
     out.push(callout('PREVIEW & PREDICT',['Which learning target will be hardest, and why? Connect it to the unit’s big question: '+EQ]));
     out.push(...ruled(3));
   }
+  out.push(callout('FIRST IMPRESSIONS — before you dig in (you’ll revisit this at the end)',['In your own words: what do you think this standard is about, and why might it matter to you or your community? Write 2–3 sentences.']));
+  out.push(...ruled(5));
   // Activity 1 — Word Bank
   out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
@@ -477,6 +487,6 @@ const doc=new Document({creator:'TroopToTeacher Technologies LLC',title:BRAND+' 
     {id:'Heading3',name:'Heading 3',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:24,bold:true,color:RED},paragraph:{spacing:{before:120,after:70},outlineLevel:2,keepNext:true}},
   ]},
   sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1224,right:1224,header:720,footer:720}}},
-    headers:{default:header},footers:{default:footer},children: SAMPLE ? [P(R(`SAMPLE — Unit 1 · first ${SAMPLE} standards (activities only, ruled-line writing) — for review`,{s:24,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:120}}), ...standards] : [...cover,...front,...standards,...back]}]});
-const OUTFILE=SAMPLE?`deliverables/Unit2_SAMPLE_${SAMPLE}standards.docx`:'deliverables/Unit2_Student_Workbook_CourseStandard'+(LP>1?'_LargePrint':'')+'.docx';
+    headers:{default:header},footers:{default:footer},children: PREVIEW ? [P(R(`PREVIEW — Unit 1 · first ${SAMPLE} standards (activities only, ruled-line writing) — for review`,{s:24,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:120}}), ...standards] : [...cover,...front,...standards,...back]}]});
+const OUTFILE=PREVIEW?`deliverables/Unit2_PREVIEW_${ONLYSTD||SAMPLE+'std'}.docx`:'deliverables/Unit2_Student_Workbook_CourseStandard'+(LP>1?'_LargePrint':'')+'.docx';
 Packer.toBuffer(doc).then(b=>{fs.writeFileSync(OUTFILE,b);console.log('WROTE',OUTFILE,b.length,'bytes');});
