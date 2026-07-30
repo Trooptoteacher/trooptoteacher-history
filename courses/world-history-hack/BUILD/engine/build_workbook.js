@@ -225,18 +225,20 @@ const front=[
     ['PROGRESS CHECK','A quick DOK-2/3 check that guides reteach or extend.'],
     ['EXTENSION','A deeper challenge once the goal is met.'],
   ],[2639,7153]),
-  H('Before You Begin — Set Your Goal',2),
-  P(R('This unit asks one big question: '+EQ+' Set a goal, then note what you already know.',{s:22})),
-  writeTable(['Prompt','Your response'],[
-    ['My goal for this unit is…',''],
-    ['One thing I already know about this era…',''],
-    ['One question I want answered…',''],
-  ],[3045,6747],{rowH:760}),
   callout('HOW TO GET THE MOST FROM THIS WORKBOOK',[
     'Use the supports — they keep the goal, never lower it. The Word Bank, Spanish column, sentence frames, and Response Choice are for everyone.',
     'Retrieve, don’t reread. On the Practice Quiz and Retrieval boxes, cover your notes and pull ideas from memory — a little struggle is what makes memory stick.',
     'Space it out. Revisit earlier standards on the Progress Tracker; a few minutes across several days beats one long cram session.',
     'Show what you know your way. Any written response may be written, spoken and recorded, or drawn as a labeled diagram — the learning target is the same for everyone.']),
+  PB(),
+  H('Before You Begin — Set Your Goal',2),
+  P(R('This unit asks one big question: '+EQ+' Set a goal for the unit, then note what you already know and what you wonder. Write in full sentences — you will look back at this on the final review.',{s:22})),
+  writeTable(['Prompt','Your response — write in complete sentences'],[
+    ['My goal for this unit is…',''],
+    ['One thing I already know about this era…',''],
+    ['One question I want answered…',''],
+    ['A word or idea I expect to be tricky…',''],
+  ],[3045,6747],{rowH:1200,lines:4}),
   PB()];
 
 // ================= PER-STANDARD =================
@@ -411,12 +413,12 @@ function block(code){
   ],{w:CW,fill:CREAM})]})],[CW]));
   // ---- Standard support page (kept OUT of the activity flow; Activities 1-7 stay byte-identical to the brand) ----
   out.push(H(`UDL Access, Choice & Reflection — ${code}`,2,{}));
-  out.push(callout('UDL ACCESS & MTSS SUPPORT (this standard)',['UDL 3.0 (CAST, 2024): read-aloud on request · key terms glossed (EN/ES) · respond in writing, speech, or a labeled diagram · large-print & screen-reader friendly. Same target for all; supports vary the means, not the ceiling.','MTSS: Tier 1 core lesson for all · Tier 2 small-group reteach (Cornell cues + organizer), then re-check · Tier 3 intensive 1:1 with concrete→representational→abstract scaffolding, progress-monitored to the same standard.']));
-  out.push(callout('SHOW WHAT YOU KNOW — YOUR WAY (same CER rubric, same standard)',['Build your Claim–Evidence–Reasoning in the mode that lets you think best — the standard and rubric are the same for every mode: WRITE it · SAY & record it · DRAW a labeled diagram · BUILD and caption a model. A word processor, speech-to-text, a scribe, or a sentence frame change how you produce, not the standard you meet.']));
-  out.push(callout('CHOICE & VOICE — you decide how to go deeper (pick ONE)',['You choose your path to show this standard — every option meets the same target:','DEFEND a term: pick the vocabulary word that matters most and argue why in 2–3 sentences.  ·  CONNECT it: pick a current event, your community, or your own life and explain how this standard shows up there.  ·  TAKE A SIDE: pick one debatable question and argue your position with evidence.','Your pick is yours — bring what matters to you into the work.']));
-  out.push(...ruled(2));
+  out.push(callout('ACCESS FOR EVERY LEARNER — same target, your way in (UDL 3.0 · MTSS)',['UDL 3.0 (CAST, 2024): read-aloud on request · key terms glossed (EN/ES) · large-print & screen-reader friendly. Show your Claim–Evidence–Reasoning in the mode that lets you think best — WRITE it · SAY & record it · DRAW a labeled diagram · BUILD and caption a model. The standard and rubric are the same for every mode; supports vary the means, not the ceiling.','MTSS: Tier 1 core lesson for all · Tier 2 small-group reteach (Cornell cues + organizer), then re-check · Tier 3 intensive 1:1, progress-monitored to the same standard.']));
+  out.push(callout('CHOICE & VOICE — you decide how to go deeper (pick ONE)',['Every option meets the same target. DEFEND a term: pick the vocabulary word that matters most and argue why. · CONNECT it: tie this standard to a current event, your community, or your own life. · TAKE A SIDE: pick one debatable question and argue your position with evidence.']));
+  out.push(P(R('My choice + why — write in complete sentences:',{s:20,b:true,c:NAVY}),{spacing:{before:60,after:20}}));
+  out.push(...ruled(4));
   out.push(callout('REFLECT & CONNECT — how your thinking grew, and whose view you weighed',['Reflect (self-awareness): What did you believe about this topic BEFORE, and what changed AFTER? Name one thing to revisit.','Consider another view (empathy): Name one person or group who might see this standard differently than you; state their view fairly in one sentence — even if you disagree.','Norm (restorative): we critique ideas, not people; we assume good faith; we make room for every voice.']));
-  out.push(...ruled(3));
+  out.push(...ruled(5));
   return out;
 }
 const standards=[]; ORDER.forEach(c=>block(c).forEach(x=>standards.push(x)));
