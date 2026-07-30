@@ -3,7 +3,7 @@
 // Design tokens extracted from Unit5_Student_Workbook_CourseStandard.docx.
 const fs=require('fs'); const D=require('docx');
 const {Document,Packer,Paragraph,TextRun,HeadingLevel,AlignmentType,Table,TableRow,TableCell,
-  WidthType,BorderStyle,ShadingType,PageBreak,TableOfContents,Header,Footer,PageNumber,HeightRule,ImageRun,TableLayoutType}=D;
+  WidthType,BorderStyle,ShadingType,PageBreak,TableOfContents,Header,Footer,PageNumber,HeightRule,ImageRun,TableLayoutType,TabStopType}=D;
 const C=JSON.parse(fs.readFileSync('analysis/unit1_content.json','utf8'));
 const IMG=fs.existsSync('analysis/unit1_images.json')?JSON.parse(fs.readFileSync('analysis/unit1_images.json','utf8')):{};
 const EXIT=fs.existsSync('analysis/unit1_exit_tickets.json')?JSON.parse(fs.readFileSync('analysis/unit1_exit_tickets.json','utf8')):{};
@@ -72,11 +72,15 @@ function dataTable(headers,rows,widths){
 // identical bottom border and suppress the INTERNAL borders — so N stacked bordered
 // paragraphs collapse to one visible line. We break that merge with a tiny border-less
 // spacer between each line, so every baseline renders.
-function ruled(n=3){const out=[];for(let i=0;i<n;i++){
-  // Brand-exact writing baseline (from U.S. History Hack workbook): empty paragraph,
-  // spacing before 80 / after 140, bottom border single sz6 space1 color C9C2B4.
+function ruled(n=3,w=CW){const out=[];for(let i=0;i<n;i++){
+  // Brand-exact writing baseline (from the reference workbook): spacing before 80 / after 140,
+  // bottom border single sz6 space1 color C9C2B4. An invisible right-tab anchor at (w-120)
+  // holds the line to the FULL cell width so viewers that ignore tblLayout=fixed cannot
+  // collapse an "empty" writing cell. The tab never exceeds the cell, so it can never wrap.
   out.push(new Paragraph({widowControl:false,spacing:{before:SZ(80),after:SZ(140)},
-    border:{bottom:{style:BorderStyle.SINGLE,size:6,color:'C9C2B4',space:1}},children:[]}));
+    tabStops:[{type:TabStopType.RIGHT,position:Math.max(240,w-120)}],
+    border:{bottom:{style:BorderStyle.SINGLE,size:6,color:'C9C2B4',space:1}},
+    children:[new TextRun({text:'\t',size:SZ(20),color:'FFFFFF',font:FONT})]}));
 }return out;}
 function linesFor(h){return Math.max(2,Math.round(h/380));}
 // writing table: label cells keep text; blank writing cells get ruled lines
@@ -84,12 +88,12 @@ function writeTable(headers,rows,widths,{rowH=560,lines}={}){
   const trs=[];
   if(headers)trs.push(new TableRow({tableHeader:true,children:headers.map((h,i)=>cell(P(R(h,{s:18,b:true,c:i===0?NAVY:WHITE}),{spacing:{after:0}}),{w:widths[i],fill:i===0?CREAM:NAVY}))}));
   const nl=lines||linesFor(rowH);
-  rows.forEach(r=>trs.push(new TableRow({children:r.map((cx,i)=>cell(cx?[P(R(cx,{s:20,b:i===0}),{spacing:{after:0}})]:ruled(nl),{w:widths[i]}))})));
+  rows.forEach(r=>trs.push(new TableRow({children:r.map((cx,i)=>cell(cx?[P(R(cx,{s:20,b:i===0}),{spacing:{after:0}})]:ruled(nl,widths[i]),{w:widths[i]}))})));
   return table(trs,widths);}
 // cream label bar + ruled writing lines
 function writeBox(label,nLines=3){return table([
   new TableRow({children:[cell(P(R(label,{s:21,b:true,c:NAVY}),{spacing:{after:0}}),{w:CW,fill:CREAM})]}),
-  new TableRow({children:[cell(ruled(nLines),{w:CW})]})],[CW]);}
+  new TableRow({children:[cell(ruled(nLines,CW),{w:CW})]})],[CW]);}
 // Cornell note-taking — EXACT brand layout (U.S. History Hack workbook): navy header row,
 // narrow cue column (2448) + wide notes column (7344), grid 4896|4896, zebra rows, cantSplit,
 // atLeast row height; ruled writing lines fill the wide notes column so notes run across the page.
@@ -102,7 +106,7 @@ function cornell(cues,rightLabel,nLines=3){
     cornellCell(P(R(rightLabel,{s:20,b:true,c:WHITE}),{spacing:{after:0}}),{w:7344,fill:NAVY})]});
   const rows=cues.map((q,i)=>new TableRow({cantSplit:true,height:{value:520,rule:HeightRule.ATLEAST},children:[
     cornellCell(P(R(q,{s:21,c:NAVY}),{spacing:{after:40}}),{w:2448,fill:i%2?WHITE:CREAM}),
-    cornellCell(ruled(nLines),{w:7344,fill:i%2?WHITE:CREAM})]}));
+    cornellCell(ruled(nLines,7344),{w:7344,fill:i%2?WHITE:CREAM})]}));
   return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[4896,4896],layout:TableLayoutType.FIXED,rows:[head,...rows]});}
 const PB=()=>new Paragraph({children:[new PageBreak()]});
 // ---- white-space FILL rule: right-sized activities so no page is left blank ----
@@ -135,7 +139,7 @@ function retrievalBox(code){return [gap(120),
   ],[3857,5935],{rowH:600})];}
 function vocabSelfCheck(code){const s=C.standards[code]; const W=[3092,1675,1675,1675,1675];
   const head=new TableRow({tableHeader:true,children:['Term','1 · never seen it','2 · heard it','3 · can use it','4 · can teach it'].map((h,i)=>cell(P(R(h,{s:15,b:true,c:i===0?NAVY:WHITE}),{align:i?AlignmentType.CENTER:AlignmentType.LEFT,spacing:{after:0}}),{w:W[i],fill:i===0?CREAM:NAVY}))});
-  const rows=s.vocab.map(v=>new TableRow({children:[cell(P(R(v.term,{s:18,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(ruled(1),{w:W[k]}))]}));
+  const rows=s.vocab.map(v=>new TableRow({children:[cell(P(R(v.term,{s:18,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(ruled(1,W[k]),{w:W[k]}))]}));
   return [gap(40),
     callout('VOCABULARY SELF-CHECK · Knowledge Rating',['Rate each term NOW in pencil, then again at the END — growth is the goal; no penalty for “never seen it.”']),
     table([head,...rows],W),
@@ -392,7 +396,7 @@ function block(code){
   out.push(callout('CONSTRUCTED RESPONSE (CER) — builds SSP.04 Argumentation',[a.cer]));
   out.push(new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[2233,7559],layout:TableLayoutType.FIXED,rows:[
     new TableRow({tableHeader:true,children:[cell(P(R('Part',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:2233,fill:NAVY}),cell(P(R('Write here',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:7559,fill:NAVY})]}),
-    ...[['Claim',3],['Evidence (two specifics)',5],['Reasoning',4]].map(([lab,n])=>new TableRow({children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2233}),cell(ruled(n),{w:7559})]}))
+    ...[['Claim',3],['Evidence (two specifics)',5],['Reasoning',4]].map(([lab,n])=>new TableRow({children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2233}),cell(ruled(n,7559),{w:7559})]}))
   ]}));
   out.push(callout('SELF-CHECK against the CER rubric (see Toolkit)',['Before submitting: Is my claim defensible? Do I have TWO specific pieces of evidence? Does my reasoning explain HOW the evidence proves the claim?']));
   // Exit Ticket — end-of-standard formative (vetted item from the question bank; key + next steps teacher-side)
