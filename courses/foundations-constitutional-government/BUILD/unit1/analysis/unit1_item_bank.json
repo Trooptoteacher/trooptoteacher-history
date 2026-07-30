@@ -1,0 +1,4385 @@
+[
+  {
+    "id": "GC.01-Q01",
+    "standard": "GC.01",
+    "unit": 1,
+    "question_number": 1,
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which Enlightenment thinker is most closely associated with natural rights and the social contract?",
+    "tennessee_specific": false,
+    "topics": [
+      "John Locke",
+      "natural rights"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.02,
+    "irt_b": -1.14,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student recalls which named thinker is tied to a specific idea, a single-step retrieval.",
+    "blooms_rationale": "The task is to recognize a factual pairing of thinker and idea from memory.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Thomas Hobbes",
+      "B": "John Locke",
+      "C": "Charles-Louis Montesquieu",
+      "D": "King John of England"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Hobbes also wrote about a social contract, but he emphasized surrendering freedom for order rather than protecting natural rights; students often confuse the two."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Montesquieu's contribution was the separation of powers, not natural rights."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "King John was the monarch limited by Magna Carta, not a natural-rights theorist."
+      }
+    ],
+    "key_rationale": "Locke argued that people are born with natural rights to life, liberty, and property and that government exists by a social contract to protect them.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.01-Q02",
+    "standard": "GC.01",
+    "unit": 1,
+    "question_number": 2,
+    "dok": 1,
+    "level": "Developing",
+    "question": "The 1215 Magna Carta is best described as which of the following?",
+    "tennessee_specific": false,
+    "topics": [
+      "Magna Carta",
+      "limited government"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.14,
+    "irt_b": -0.98,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student recalls the basic identification of a foundational document.",
+    "blooms_rationale": "The task is straightforward retrieval of what a document was.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "A Roman code that created the first republic",
+      "B": "A Greek text that founded direct democracy",
+      "C": "An English charter that limited the king's power",
+      "D": "A French treatise that divided government into branches"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "The Roman republic is a separate classical root; Magna Carta is English, not Roman."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Greek democracy is a different root; Magna Carta did not establish direct democracy."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Dividing government into branches describes Montesquieu, not Magna Carta."
+      }
+    ],
+    "key_rationale": "Magna Carta was a 1215 English charter that limited the king's power and protected certain rights, an early root of limited government.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.01-Q03",
+    "standard": "GC.01",
+    "unit": 1,
+    "question_number": 3,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What was Montesquieu's key contribution to the design of American government?",
+    "tennessee_specific": false,
+    "topics": [
+      "Montesquieu",
+      "separation of powers"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must connect a thinker to his distinct idea rather than merely name him.",
+    "blooms_rationale": "The student explains which concept a thinker supplied, constructing meaning from prior study.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The idea of dividing government power among separate branches",
+      "B": "The idea that people are born with natural rights",
+      "C": "The idea that authority comes from the consent of the people",
+      "D": "The idea of limiting a monarch through a written charter"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Natural rights is Locke's idea, not Montesquieu's."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Consent of the governed is Locke's idea, not Montesquieu's."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Limiting a monarch by charter describes Magna Carta, not Montesquieu."
+      }
+    ],
+    "key_rationale": "Montesquieu argued for dividing government power among separate branches so no single part could hold all power, the root of separation of powers.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.01-Q04",
+    "standard": "GC.01",
+    "unit": 1,
+    "question_number": 4,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Which statement best describes the idea of the social contract?",
+    "tennessee_specific": false,
+    "topics": [
+      "social contract",
+      "consent of the governed"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.62,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must interpret the meaning of a concept, distinguishing it from related but incorrect ideas.",
+    "blooms_rationale": "The student constructs meaning of a political concept rather than recalling a name.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "People are born with no rights until a ruler grants them",
+      "B": "A ruler's power comes from inheritance and divine right",
+      "C": "Government should hold unlimited power to keep order",
+      "D": "People consent to give up some freedom to a government in exchange for protection of their rights"
+    },
+    "correct_answer": "D",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The social contract assumes rights exist before government, not that rulers grant them."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Divine-right monarchy is the opposite of social-contract thinking."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "This overstates Hobbes; the social contract limits government to protecting rights, not granting it unlimited power."
+      }
+    ],
+    "key_rationale": "In social-contract theory people agree to give up some freedom to a government in exchange for protection of their rights, and the government's authority comes from their consent.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.01-Q05",
+    "standard": "GC.01",
+    "unit": 1,
+    "question_number": 5,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why did Thomas Hobbes argue that people would trade some of their freedom for a strong government?",
+    "tennessee_specific": false,
+    "topics": [
+      "Thomas Hobbes",
+      "social contract"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.1,
+    "irt_b": -0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must explain the reasoning behind a thinker's position rather than restate it.",
+    "blooms_rationale": "The student explains a cause-and-reason relationship, constructing meaning.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Because rulers are chosen directly by God",
+      "B": "Because without government, life would be disorderly and unsafe",
+      "C": "Because people are born without any natural rights",
+      "D": "Because power should be divided among three branches"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Hobbes based his argument on human insecurity, not divine selection of rulers."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "Hobbes did discuss a harsh state of nature, but his core reason was the danger of disorder, not the absence of rights."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Dividing power among branches is Montesquieu's idea, not Hobbes's reasoning."
+      }
+    ],
+    "key_rationale": "Hobbes reasoned that without a strong government life would be disorderly and dangerous, so people rationally trade some freedom for security and order.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.01-Q06",
+    "standard": "GC.01",
+    "unit": 1,
+    "question_number": 6,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Magna Carta's Clause 39 states that no free man shall be imprisoned 'except by the lawful judgment of his equals or by the law of the land.' Which modern constitutional idea most directly grew from this clause?",
+    "tennessee_specific": false,
+    "topics": [
+      "Magna Carta",
+      "due process"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.43,
+    "irt_b": 0.66,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must trace a line of influence from a primary-source clause to a modern principle, not recall a fact.",
+    "blooms_rationale": "The student analyzes the relationship between a historical text and a present-day concept.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Due process of law",
+      "B": "Separation of powers",
+      "C": "Popular sovereignty",
+      "D": "Federalism between nation and states"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Separation of powers traces to Montesquieu, not to Clause 39's limit on imprisonment."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Popular sovereignty concerns the source of authority, not fair legal procedure."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Federalism divides power between levels of government, unrelated to this clause."
+      }
+    ],
+    "key_rationale": "Clause 39's requirement of lawful judgment before imprisonment is the direct root of due process, the guarantee that government must follow fair legal procedures.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.01-Q07",
+    "standard": "GC.01",
+    "unit": 1,
+    "question_number": 7,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The Founders drew on both Greek democracy and the Roman republic. Which feature of American government most reflects the Roman republic specifically, rather than Greek democracy?",
+    "tennessee_specific": false,
+    "topics": [
+      "Roman Republic",
+      "representative government"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.56,
+    "irt_b": 0.92,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must distinguish two classical roots and match a specific feature to the correct one.",
+    "blooms_rationale": "The student analyzes and differentiates between two sources of influence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Citizens voting directly on every law",
+      "B": "Rule by a single hereditary monarch",
+      "C": "Citizens electing representatives to make laws for them",
+      "D": "A written charter limiting the power of a king"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Direct voting on laws describes Greek democracy, not the representative model of the Roman republic."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Hereditary monarchy is what a republic rejects, not a feature it modeled."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "A charter limiting a king describes Magna Carta, not the Roman republic."
+      }
+    ],
+    "key_rationale": "The Roman republic used elected representatives to govern on the people's behalf, the model American government adopted, in contrast to Greek direct democracy.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.01-Q08",
+    "standard": "GC.01",
+    "unit": 1,
+    "question_number": 8,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "According to John Locke, what are natural rights, and what is the main job of government regarding them? Support your answer with a specific detail from Locke's thinking.",
+    "tennessee_specific": false,
+    "topics": [
+      "John Locke",
+      "natural rights"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must explain a concept and the relationship between rights and government's purpose.",
+    "blooms_rationale": "The student summarizes and explains Locke's argument in their own words.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "short_answer",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SAQ-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.01-Q09",
+    "standard": "GC.01",
+    "unit": 1,
+    "question_number": 9,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Which European root of American government shaped it the most: Locke's natural rights, Montesquieu's separation of powers, or Magna Carta's limits on the king? State a claim, support it with evidence from at least two sources, and explain your reasoning.",
+    "tennessee_specific": false,
+    "topics": [
+      "Enlightenment influences",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.82,
+    "irt_b": 1.44,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must construct and defend an evidence-based judgment among competing options.",
+    "blooms_rationale": "The student makes and justifies a judgment using criteria and evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "constructed_response",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.01-Q10",
+    "standard": "GC.01",
+    "unit": 1,
+    "question_number": 10,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from John Locke, Second Treatise of Government (1689), from the Avalon Project, Yale Law School: 'Men being, as has been said, by nature all free, equal, and independent, no one can be put out of this estate and subjected to the political power of another without his own consent.' Based on the excerpt, explain what Locke identifies as the source of legitimate political power, and describe how this idea appears in later American founding documents.",
+    "tennessee_specific": false,
+    "topics": [
+      "John Locke",
+      "consent of the governed"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.3,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must analyze a primary source and connect its argument to later documents.",
+    "blooms_rationale": "The student analyzes a source's meaning and traces its influence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "document_based",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  },
+  {
+    "id": "GC.02-Q01",
+    "standard": "GC.02",
+    "unit": 1,
+    "question_number": 1,
+    "dok": 1,
+    "level": "Developing",
+    "question": "According to the Declaration of Independence, governments derive their just powers from which source?",
+    "tennessee_specific": false,
+    "topics": [
+      "Declaration of Independence",
+      "consent of the governed"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.02,
+    "irt_b": -1.14,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student recalls a directly stated fact from a foundational document.",
+    "blooms_rationale": "The task is retrieval of a specific phrase's meaning.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The consent of the governed",
+      "B": "The king and Parliament",
+      "C": "The wealthiest citizens",
+      "D": "The strength of the army"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The Declaration rejects royal authority as the source of just power."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Wealth is not named as the source of legitimate power in the Declaration."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Military strength is not the source of just power in the document."
+      }
+    ],
+    "key_rationale": "The Declaration states that governments 'deriv[e] their just powers from the consent of the governed,' echoing Locke's social contract.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.02-Q02",
+    "standard": "GC.02",
+    "unit": 1,
+    "question_number": 2,
+    "dok": 1,
+    "level": "Developing",
+    "question": "Who was the main drafter of the Declaration of Independence, adopted in 1776?",
+    "tennessee_specific": false,
+    "topics": [
+      "Thomas Jefferson",
+      "Declaration of Independence"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.14,
+    "irt_b": -0.98,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student recalls the identity of a historical author.",
+    "blooms_rationale": "The task is single-step retrieval of a factual attribution.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "George Washington",
+      "B": "Thomas Jefferson",
+      "C": "Alexander Hamilton",
+      "D": "James Madison"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Washington led the Continental Army; he did not draft the Declaration."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Hamilton was a later Federalist author, not the Declaration's drafter."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Madison is central to the Constitution, not the drafting of the Declaration."
+      }
+    ],
+    "key_rationale": "The Declaration of Independence was drafted mainly by Thomas Jefferson and adopted by the Continental Congress on July 4, 1776.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.02-Q03",
+    "standard": "GC.02",
+    "unit": 1,
+    "question_number": 3,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What does the Declaration of Independence mean by 'unalienable Rights'?",
+    "tennessee_specific": false,
+    "topics": [
+      "unalienable rights",
+      "Declaration of Independence"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must interpret the meaning of a key term rather than recall who used it.",
+    "blooms_rationale": "The student constructs the meaning of a foundational concept.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Rights the king grants to loyal subjects",
+      "B": "Rights held only by property owners",
+      "C": "Rights so fundamental they cannot be taken away or given up",
+      "D": "Rights created by an act of the legislature"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Unalienable rights are not granted by a ruler; they exist independent of government."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The Declaration ties these rights to all people, not only property owners."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Rights created by a legislature are statutory, the opposite of unalienable."
+      }
+    ],
+    "key_rationale": "'Unalienable Rights' are rights so fundamental that they cannot be taken away or surrendered, such as life, liberty, and the pursuit of happiness.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.02-Q04",
+    "standard": "GC.02",
+    "unit": 1,
+    "question_number": 4,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In the Declaration of Independence, what are the 'grievances'?",
+    "tennessee_specific": false,
+    "topics": [
+      "grievances",
+      "King George III"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.62,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must interpret the function of a section of the document.",
+    "blooms_rationale": "The student explains what a part of the document contains and does.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The three unalienable rights of the people",
+      "B": "The powers granted to the new government",
+      "C": "Formal thanks offered to Parliament",
+      "D": "A list of specific abuses by King George III used to justify independence"
+    },
+    "correct_answer": "D",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "The unalienable rights are a different part of the Declaration, not the grievances."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The Declaration does not lay out the new government's powers; that is the Constitution's role."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "The grievances are complaints against the king, not thanks to Parliament."
+      }
+    ],
+    "key_rationale": "The grievances are the Declaration's list of specific abuses by King George III, offered as evidence to justify separation.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.02-Q05",
+    "standard": "GC.02",
+    "unit": 1,
+    "question_number": 5,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why did the writers of the Declaration include a long list of grievances against King George III?",
+    "tennessee_specific": false,
+    "topics": [
+      "grievances",
+      "justification for independence"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.1,
+    "irt_b": -0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must explain the purpose behind a rhetorical choice.",
+    "blooms_rationale": "The student explains why an author structured the document as they did.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "To justify independence by showing the king had repeatedly violated the colonists' rights",
+      "B": "To describe how the new government would be organized",
+      "C": "To request representation in the British Parliament",
+      "D": "To list the taxes the colonists were willing to pay"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "Organizing the new government is the work of the Constitution, not the grievances."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "Seeking representation was an earlier colonial goal, but the grievances aim to justify separation, not request seats."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The grievances complain about abuses; they do not offer to pay taxes."
+      }
+    ],
+    "key_rationale": "The grievances turn the Declaration's principles into an argument: by showing the king repeatedly violated rights, they justify the colonies' break from Britain.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.02-Q06",
+    "standard": "GC.02",
+    "unit": 1,
+    "question_number": 6,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "How does the Declaration of Independence use the idea of natural rights to justify separating from Britain?",
+    "tennessee_specific": false,
+    "topics": [
+      "natural rights",
+      "right of revolution"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.43,
+    "irt_b": 0.66,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must analyze how a claim and evidence combine into a justification, not recall a fact.",
+    "blooms_rationale": "The student analyzes the argumentative structure of the source.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The king owns the colonies, so his rule cannot be challenged by anyone",
+      "B": "Because government exists to protect rights, one that repeatedly violates them may be abolished",
+      "C": "Colonists must obey every law the king makes, even laws they consider unjust",
+      "D": "Only wealthy, property-owning colonists hold rights the government must protect"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The Declaration denies that a king owns the colonies beyond challenge; it argues the reverse."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "The Declaration argues that unjust rule may be resisted, not that all laws must be obeyed."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The Declaration proclaims that all are created equal, not that only the wealthy hold rights."
+      }
+    ],
+    "key_rationale": "The Declaration's logic is that because government exists to protect natural rights, a government that repeatedly violates them may justly be altered or abolished.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.02-Q07",
+    "standard": "GC.02",
+    "unit": 1,
+    "question_number": 7,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The Declaration first states principles about rights and then lists the king's specific actions. This structure is best understood as which of the following?",
+    "tennessee_specific": false,
+    "topics": [
+      "Declaration of Independence",
+      "civic argumentation"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.56,
+    "irt_b": 0.92,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must analyze the document's overall design rather than one detail.",
+    "blooms_rationale": "The student analyzes how parts of the text form a reasoned whole.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "A neutral account of colonial daily life",
+      "B": "A set of laws organizing the new nation",
+      "C": "An argument that moves from principle to evidence to a justified conclusion",
+      "D": "A private letter of complaint addressed only to King George III"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PE",
+        "rationale": "The Declaration is persuasive, not a neutral account of daily life."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Organizing the nation's laws is the Constitution's job, not the Declaration's."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The Declaration is a public argument to the world, not a private letter to the king."
+      }
+    ],
+    "key_rationale": "The Declaration is structured as an argument: universal rights (principle) plus the king's violations (evidence) lead to the conclusion that separation is justified.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.02-Q08",
+    "standard": "GC.02",
+    "unit": 1,
+    "question_number": 8,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Name the three unalienable rights the Declaration of Independence lists, and state where the Declaration says government gets its 'just powers.'",
+    "tennessee_specific": false,
+    "topics": [
+      "unalienable rights",
+      "consent of the governed"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must recall and explain stated content and the source of just power.",
+    "blooms_rationale": "The student summarizes key claims of the document.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "short_answer",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SAQ-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.02-Q09",
+    "standard": "GC.02",
+    "unit": 1,
+    "question_number": 9,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Was the Declaration of Independence mainly a list of complaints against the king, or an argument about the purpose of government? State a claim, support it with two quotations from the text, and explain your reasoning.",
+    "tennessee_specific": false,
+    "topics": [
+      "Declaration of Independence",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.82,
+    "irt_b": 1.44,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must judge the document's primary purpose and defend it with evidence.",
+    "blooms_rationale": "The student evaluates and defends a position about the text.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "constructed_response",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.02-Q10",
+    "standard": "GC.02",
+    "unit": 1,
+    "question_number": 10,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from the Declaration of Independence (July 4, 1776), from the National Archives: 'We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.' Explain how this passage reflects the Enlightenment idea of natural rights, and describe how it sets up the Declaration's argument for independence.",
+    "tennessee_specific": false,
+    "topics": [
+      "Declaration of Independence",
+      "natural rights"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.3,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must analyze a primary source and connect it to a larger argument.",
+    "blooms_rationale": "The student analyzes the meaning and function of a source passage.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "document_based",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  },
+  {
+    "id": "GC.03-Q01",
+    "standard": "GC.03",
+    "unit": 1,
+    "question_number": 1,
+    "dok": 1,
+    "level": "Developing",
+    "question": "The Articles of Confederation created a national government that was best described as which of the following?",
+    "tennessee_specific": false,
+    "topics": [
+      "Articles of Confederation",
+      "weak central government"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.02,
+    "irt_b": -1.14,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls the basic character of the first national government.",
+    "blooms_rationale": "The task is retrieval of a defining feature of the Articles.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Too weak to tax or regulate trade",
+      "B": "A monarchy led by a single ruler",
+      "C": "Stronger than today's federal government",
+      "D": "Controlled entirely by the president"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The Articles created a confederation of states, not a monarchy."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "The Articles' government was far weaker, not stronger, than today's federal government."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "There was no president under the Articles; there was no separate executive branch."
+      }
+    ],
+    "key_rationale": "The Articles created a deliberately weak central government that could not tax or regulate trade between the states.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.03-Q02",
+    "standard": "GC.03",
+    "unit": 1,
+    "question_number": 2,
+    "dok": 1,
+    "level": "Developing",
+    "question": "Shays's Rebellion (1786-1787) was an uprising of which group?",
+    "tennessee_specific": false,
+    "topics": [
+      "Shays's Rebellion",
+      "Articles of Confederation"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.14,
+    "irt_b": -0.98,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls who was involved in a key event.",
+    "blooms_rationale": "The task is retrieval of a factual identification.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "British soldiers still stationed in America",
+      "B": "Enslaved people seeking freedom",
+      "C": "Massachusetts farmers in economic distress",
+      "D": "Members of the Continental Congress"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Shays's Rebellion involved American farmers, not British soldiers."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "It was a farmers' uprising over debt and taxes, not an enslaved people's revolt."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Members of Congress did not rebel; the rebellion was directed against state and economic conditions."
+      }
+    ],
+    "key_rationale": "Shays's Rebellion was a 1786-1787 uprising of Massachusetts farmers that the weak national government could not put down.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.03-Q03",
+    "standard": "GC.03",
+    "unit": 1,
+    "question_number": 3,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Under the Articles of Confederation, which power did the national government **lack**?",
+    "tennessee_specific": false,
+    "topics": [
+      "Articles of Confederation",
+      "power to tax"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must distinguish a missing power from powers the government held.",
+    "blooms_rationale": "The student explains which authority the government lacked, applying knowledge of its structure.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The power to declare war",
+      "B": "The power to make treaties",
+      "C": "The power to run a post office",
+      "D": "The power to tax the states and citizens directly"
+    },
+    "correct_answer": "D",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Congress could declare war under the Articles; this was a power it had."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Congress could make treaties under the Articles; this was a power it had."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Congress could run a post office under the Articles; this was a power it had."
+      }
+    ],
+    "key_rationale": "The Articles denied Congress the power to tax directly; it could only request money from the states, leaving the government without reliable revenue.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.03-Q04",
+    "standard": "GC.03",
+    "unit": 1,
+    "question_number": 4,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Article II of the Articles of Confederation said each state kept its 'sovereignty, freedom, and independence.' What does this show about that government?",
+    "tennessee_specific": false,
+    "topics": [
+      "Article II",
+      "state sovereignty"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.62,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must interpret the meaning of a primary-source clause.",
+    "blooms_rationale": "The student explains what a text reveals about the structure of government.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The central government controlled the states completely",
+      "B": "The states kept most power and the central government was weak",
+      "C": "There were no state governments at all",
+      "D": "The president held final authority over the states"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The clause shows the opposite: states retained power rather than being controlled."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "The clause affirms strong state governments, not their absence."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "There was no president under the Articles to hold such authority."
+      }
+    ],
+    "key_rationale": "Article II's reservation of 'sovereignty, freedom, and independence' to the states shows the central government was intentionally weak and the states kept most power.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.03-Q05",
+    "standard": "GC.03",
+    "unit": 1,
+    "question_number": 5,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why was it so difficult to pass major laws or amend the Articles of Confederation?",
+    "tennessee_specific": false,
+    "topics": [
+      "Articles of Confederation",
+      "amendment difficulty"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.1,
+    "irt_b": -0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must explain a procedural cause of the government's weakness.",
+    "blooms_rationale": "The student explains how a rule produced a governing difficulty.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The president could veto any proposed law",
+      "B": "The Supreme Court could block new laws",
+      "C": "Major laws needed a supermajority of states, and amendments required all thirteen",
+      "D": "Only individual citizens could propose new laws"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "AN",
+        "rationale": "There was no president with a veto under the Articles."
+      },
+      {
+        "label": "B",
+        "code": "AN",
+        "rationale": "There was no national Supreme Court under the Articles to block laws."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Laws were proposed and passed by Congress, not by individual citizens."
+      }
+    ],
+    "key_rationale": "The Articles required nine of thirteen states to pass major laws and unanimous agreement of all thirteen to amend, making change extremely difficult.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.03-Q06",
+    "standard": "GC.03",
+    "unit": 1,
+    "question_number": 6,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "How did Shays's Rebellion reveal the central weakness of the Articles of Confederation?",
+    "tennessee_specific": false,
+    "topics": [
+      "Shays's Rebellion",
+      "weak central government"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.43,
+    "irt_b": 0.66,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must connect an event to the structural flaw it revealed.",
+    "blooms_rationale": "The student analyzes a cause-and-effect relationship between an event and a weakness.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The national government could not raise money or an army to restore order",
+      "B": "It proved the states held far too little power",
+      "C": "It showed the president had grown too strong",
+      "D": "It brought the Revolutionary War to an end"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The rebellion showed the central government was too weak, not that states had too little power."
+      },
+      {
+        "label": "C",
+        "code": "AN",
+        "rationale": "There was no president under the Articles whose strength could be exposed."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "The rebellion came after the war and did not end it."
+      }
+    ],
+    "key_rationale": "The national government could not fund or field troops to stop Shays's Rebellion, exposing that a government unable to tax could not keep order.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.03-Q07",
+    "standard": "GC.03",
+    "unit": 1,
+    "question_number": 7,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Why did leaders such as George Washington and James Madison conclude that the Articles of Confederation had to be replaced rather than merely repaired?",
+    "tennessee_specific": false,
+    "topics": [
+      "Articles of Confederation",
+      "Constitutional Convention"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.56,
+    "irt_b": 0.92,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze why multiple weaknesses led to a decision to replace, not repair.",
+    "blooms_rationale": "The student analyzes the reasoning behind a historical decision.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The states wanted to return to British rule",
+      "B": "The government was too weak to pay debts, regulate trade, or keep order",
+      "C": "The Articles had given the president too much power",
+      "D": "The Articles had created a national bank that collapsed"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "There was no movement to return to British rule; the concern was governing effectively."
+      },
+      {
+        "label": "C",
+        "code": "AN",
+        "rationale": "There was no president under the Articles to hold too much power."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "The failure was the absence of key powers, not the collapse of a national bank."
+      }
+    ],
+    "key_rationale": "The Articles left the government unable to pay debts, regulate interstate trade, or keep order, leading leaders to conclude a stronger framework was needed.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.03-Q08",
+    "standard": "GC.03",
+    "unit": 1,
+    "question_number": 8,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Name two powers the national government lacked under the Articles of Confederation, and explain one problem that each missing power caused.",
+    "tennessee_specific": false,
+    "topics": [
+      "Articles of Confederation",
+      "government weaknesses"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must identify weaknesses and explain their consequences.",
+    "blooms_rationale": "The student explains cause-and-effect between missing powers and problems.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "short_answer",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SAQ-4pt",
+    "rubric_name": "Short Answer 4-Point Rubric"
+  },
+  {
+    "id": "GC.03-Q09",
+    "standard": "GC.03",
+    "unit": 1,
+    "question_number": 9,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "What was the greatest weakness of the Articles of Confederation: the lack of a power to tax, the lack of a strong executive, or the difficulty of amendment? State a claim, support it with evidence, and explain your reasoning.",
+    "tennessee_specific": false,
+    "topics": [
+      "Articles of Confederation",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.82,
+    "irt_b": 1.44,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must judge among competing weaknesses and defend the choice.",
+    "blooms_rationale": "The student evaluates and justifies a ranked judgment.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "constructed_response",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.03-Q10",
+    "standard": "GC.03",
+    "unit": 1,
+    "question_number": 10,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from Article II of the Articles of Confederation (ratified 1781), from the Avalon Project, Yale Law School: 'Each state retains its sovereignty, freedom, and independence, and every power, jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled.' Explain what this clause reveals about how power was divided under the Articles, and describe one problem this arrangement created for the national government.",
+    "tennessee_specific": false,
+    "topics": [
+      "Article II",
+      "state sovereignty"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.3,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze a primary source and connect its meaning to a governing problem.",
+    "blooms_rationale": "The student analyzes a source and its consequences.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "document_based",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  },
+  {
+    "id": "GC.04-Q01",
+    "standard": "GC.04",
+    "unit": 1,
+    "question_number": 1,
+    "dok": 1,
+    "level": "Developing",
+    "question": "The Federalist Papers were written mainly for which purpose?",
+    "tennessee_specific": false,
+    "topics": [
+      "Federalist Papers",
+      "ratification"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.02,
+    "irt_b": -1.14,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls the purpose of a set of documents.",
+    "blooms_rationale": "The task is retrieval of a factual purpose.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "To persuade people to ratify the Constitution",
+      "B": "To declare independence from Britain",
+      "C": "To repeal the Bill of Rights",
+      "D": "To end the Constitutional Convention early"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Declaring independence was the work of the Declaration, not the Federalist Papers."
+      },
+      {
+        "label": "C",
+        "code": "AN",
+        "rationale": "The Federalist Papers predate the Bill of Rights and did not seek to repeal it."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The papers were written after the Convention to support ratification, not to end it."
+      }
+    ],
+    "key_rationale": "The Federalist Papers, written by Madison, Hamilton, and Jay as 'Publius,' argued for ratifying the Constitution.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.04-Q02",
+    "standard": "GC.04",
+    "unit": 1,
+    "question_number": 2,
+    "dok": 1,
+    "level": "Developing",
+    "question": "The Great Compromise created a Congress with which structure?",
+    "tennessee_specific": false,
+    "topics": [
+      "Great Compromise",
+      "bicameral legislature"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.14,
+    "irt_b": -0.98,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls the structure produced by a key agreement.",
+    "blooms_rationale": "The task is retrieval of a factual outcome.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "A single house with seats based on population",
+      "B": "Two houses: one based on population and one with equal state representation",
+      "C": "A single house giving each state one equal vote",
+      "D": "No legislature, leaving lawmaking to the states"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "A single population-based house describes the Virginia Plan, not the Great Compromise."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "A single house with equal state votes describes the New Jersey Plan, not the compromise."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The Great Compromise created a legislature; it did not eliminate one."
+      }
+    ],
+    "key_rationale": "The Great Compromise created a two-house Congress: a House based on population and a Senate with equal representation for each state.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.04-Q03",
+    "standard": "GC.04",
+    "unit": 1,
+    "question_number": 3,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The Great Compromise settled which major disagreement at the Constitutional Convention?",
+    "tennessee_specific": false,
+    "topics": [
+      "Great Compromise",
+      "representation"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must interpret what conflict an agreement resolved.",
+    "blooms_rationale": "The student explains the issue a compromise addressed.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Whether the new nation should have a president or a king",
+      "B": "How states should be represented in Congress",
+      "C": "Whether to keep the Articles of Confederation",
+      "D": "Whether to allow political parties to form"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "The president-versus-king question was separate from the representation dispute."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The delegates had already moved beyond the Articles when the representation fight arose."
+      },
+      {
+        "label": "D",
+        "code": "AN",
+        "rationale": "Political parties were not the subject of the Great Compromise."
+      }
+    ],
+    "key_rationale": "The Great Compromise settled the fight over how states would be represented in Congress, combining population-based and equal representation.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.04-Q04",
+    "standard": "GC.04",
+    "unit": 1,
+    "question_number": 4,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What was the main difference between the Virginia Plan and the New Jersey Plan?",
+    "tennessee_specific": false,
+    "topics": [
+      "Virginia Plan",
+      "New Jersey Plan"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.62,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must compare two proposals and identify the key contrast.",
+    "blooms_rationale": "The student explains the distinction between two plans.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "One called for a king while the other called for a president",
+      "B": "One kept slavery legal while the other banned it",
+      "C": "One based representation on population while the other gave each state equal representation",
+      "D": "One supported a bill of rights while the other opposed one"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Neither plan proposed a king; the dispute was about representation, not monarchy."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Slavery was addressed in the Three-Fifths Compromise, not the core plan difference."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The bill of rights debate came later during ratification, not between these two plans."
+      }
+    ],
+    "key_rationale": "The Virginia Plan based representation on population, while the New Jersey Plan gave each state equal representation, the conflict the Great Compromise resolved.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.04-Q05",
+    "standard": "GC.04",
+    "unit": 1,
+    "question_number": 5,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What did the Anti-Federalists demand before they would support ratifying the Constitution?",
+    "tennessee_specific": false,
+    "topics": [
+      "Anti-Federalists",
+      "Bill of Rights"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.1,
+    "irt_b": -0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must explain a group's condition for support.",
+    "blooms_rationale": "The student explains the demand behind a political position.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "A stronger national military",
+      "B": "The removal of the office of president",
+      "C": "A return to the Articles of Confederation",
+      "D": "The addition of a bill of rights"
+    },
+    "correct_answer": "D",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Anti-Federalists feared strong central power; they did not demand a stronger military."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "They worried about executive power but did not condition ratification on removing the presidency."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "They wanted protections added, not a return to the failed Articles."
+      }
+    ],
+    "key_rationale": "Anti-Federalists agreed to the Constitution only if a bill of rights was added to protect individual liberties from the national government.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.04-Q06",
+    "standard": "GC.04",
+    "unit": 1,
+    "question_number": 6,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "In Federalist No. 10, why does James Madison argue that a large republic can better control the dangers of 'faction' than a small one?",
+    "tennessee_specific": false,
+    "topics": [
+      "Federalist No. 10",
+      "faction"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.43,
+    "irt_b": 0.66,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze the reasoning of a primary-source argument.",
+    "blooms_rationale": "The student analyzes the logic behind a political claim.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "A large republic contains so many competing interests that no single faction can easily dominate",
+      "B": "A large republic prevents any political parties from forming",
+      "C": "A large republic lets citizens vote directly on every law",
+      "D": "A large republic gives all power to the national government"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Madison expects factions to exist; his point is that many of them check one another, not that parties vanish."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Direct voting on laws describes a pure democracy, which Madison contrasts with a republic."
+      },
+      {
+        "label": "D",
+        "code": "OG",
+        "rationale": "Madison's argument is about diffusing faction, not concentrating all power nationally."
+      }
+    ],
+    "key_rationale": "Madison argues that a large republic includes so many diverse and competing interests that no single faction can easily gain enough power to oppress others.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.04-Q07",
+    "standard": "GC.04",
+    "unit": 1,
+    "question_number": 7,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The Three-Fifths Compromise counted enslaved people as three-fifths of a person for representation. Why is this compromise significant when studying the Constitution?",
+    "tennessee_specific": false,
+    "topics": [
+      "Three-Fifths Compromise",
+      "slavery"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.56,
+    "irt_b": 0.92,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze the significance of a compromise beyond its mechanics.",
+    "blooms_rationale": "The student analyzes the meaning and contradiction embedded in a policy.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "It granted enslaved people the right to vote",
+      "B": "It ended slavery in the northern states",
+      "C": "It exposed the contradiction between the ideals of liberty and the reality of slavery",
+      "D": "It applied only to Native American nations, not to enslaved people"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The compromise concerned counting for representation; it gave enslaved people no vote."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The compromise did not end slavery anywhere; it was a representation formula."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The Three-Fifths Compromise applied to enslaved people, not to Native nations."
+      }
+    ],
+    "key_rationale": "The Three-Fifths Compromise exposed the deep contradiction of a document promising liberty while accommodating and counting enslaved people as property.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.04-Q08",
+    "standard": "GC.04",
+    "unit": 1,
+    "question_number": 8,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Explain how the Great Compromise resolved the conflict between large states and small states at the Constitutional Convention.",
+    "tennessee_specific": false,
+    "topics": [
+      "Great Compromise",
+      "representation"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must explain how an agreement reconciled two opposing positions.",
+    "blooms_rationale": "The student summarizes how a compromise resolved a conflict.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "short_answer",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SAQ-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.04-Q09",
+    "standard": "GC.04",
+    "unit": 1,
+    "question_number": 9,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "In the ratification debate, whose position has aged better: the Federalists' case for a stronger national union, or the Anti-Federalists' fear of a too-powerful central government? State a claim, use one idea from each side as evidence, and explain your reasoning.",
+    "tennessee_specific": false,
+    "topics": [
+      "Federalists",
+      "Anti-Federalists"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.82,
+    "irt_b": 1.44,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must weigh two positions and defend an evaluative judgment.",
+    "blooms_rationale": "The student evaluates competing arguments and justifies a conclusion.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "constructed_response",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.04-Q10",
+    "standard": "GC.04",
+    "unit": 1,
+    "question_number": 10,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from the Anti-Federalist essay Brutus No. 1 (1787), from Teaching American History: 'In a large extended country, it is impossible to have a representation, possessing the sentiments, and of integrity, to declare the minds of the people.' Explain the concern Brutus raises about representation in a large republic, and describe how a Federalist such as Madison might respond.",
+    "tennessee_specific": false,
+    "topics": [
+      "Brutus No. 1",
+      "Anti-Federalists"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.3,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must analyze a primary source and anticipate a counterargument.",
+    "blooms_rationale": "The student analyzes an argument and its opposing view.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "document_based",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  },
+  {
+    "id": "GC.05-Q01",
+    "standard": "GC.05",
+    "unit": 1,
+    "question_number": 1,
+    "dok": 1,
+    "level": "Developing",
+    "question": "The phrase 'We the People' at the start of the Preamble expresses which principle of government?",
+    "tennessee_specific": false,
+    "topics": [
+      "Preamble",
+      "popular sovereignty"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.02,
+    "irt_b": -1.14,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls which principle a famous phrase expresses.",
+    "blooms_rationale": "The task is retrieval of a term-to-phrase pairing.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Judicial review",
+      "B": "Separation of powers",
+      "C": "Popular sovereignty",
+      "D": "Federalism"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Judicial review is the courts' power over laws, not the meaning of 'We the People.'"
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Separation of powers divides the branches; it is not what this phrase expresses."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Federalism divides power between nation and states; it is not this phrase's meaning."
+      }
+    ],
+    "key_rationale": "'We the People' declares that the Constitution's authority flows from the people themselves, the principle of popular sovereignty.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.05-Q02",
+    "standard": "GC.05",
+    "unit": 1,
+    "question_number": 2,
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which of the following is one of the six purposes of government listed in the Preamble?",
+    "tennessee_specific": false,
+    "topics": [
+      "Preamble",
+      "general welfare"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.14,
+    "irt_b": -0.98,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls a directly stated purpose.",
+    "blooms_rationale": "The task is retrieval of listed content.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Promote the general Welfare",
+      "B": "Declare war on Great Britain",
+      "C": "Elect a president every four years",
+      "D": "Create national political parties"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Declaring war is a power in the articles, not a Preamble purpose."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Presidential elections are set in Article II, not listed as a Preamble purpose."
+      },
+      {
+        "label": "D",
+        "code": "AN",
+        "rationale": "Political parties are not mentioned in the Preamble."
+      }
+    ],
+    "key_rationale": "'Promote the general Welfare' is one of the six purposes named in the Preamble.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.05-Q03",
+    "standard": "GC.05",
+    "unit": 1,
+    "question_number": 3,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What does the Preamble mean by promoting the 'general Welfare'?",
+    "tennessee_specific": false,
+    "topics": [
+      "general welfare",
+      "purposes of government"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must interpret the meaning of a constitutional phrase.",
+    "blooms_rationale": "The student explains the meaning of a purpose in the text.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Raising and supporting a national army",
+      "B": "Caring for the well-being of the whole community",
+      "C": "Protecting only the interests of the wealthy",
+      "D": "Collecting taxes from other nations"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Raising an army relates to 'common defence,' a different Preamble purpose."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "General welfare means the whole community's well-being, not only the wealthy."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "General welfare concerns the nation's people, not taxing other countries."
+      }
+    ],
+    "key_rationale": "'General Welfare' means the well-being of the whole community, one of the Preamble's stated purposes of government.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.05-Q04",
+    "standard": "GC.05",
+    "unit": 1,
+    "question_number": 4,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The Preamble says the Constitution is established for 'ourselves and our Posterity.' What does this phrase reveal about the Framers' thinking?",
+    "tennessee_specific": false,
+    "topics": [
+      "Preamble",
+      "posterity"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.62,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must interpret what a phrase reveals about the authors' intent.",
+    "blooms_rationale": "The student explains the meaning and implication of a phrase.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "They expected the document to last only a few years",
+      "B": "They were writing only for wealthy property owners",
+      "C": "They wanted to limit the vote to their own generation",
+      "D": "They intended the Constitution to serve future generations, not just their own"
+    },
+    "correct_answer": "D",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "'Posterity' signals a lasting design, the opposite of a short-lived document."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "'Ourselves and our Posterity' points to future generations broadly, not only the wealthy."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "The phrase looks forward to descendants rather than limiting participation to one generation."
+      }
+    ],
+    "key_rationale": "'Ourselves and our Posterity' shows the Framers intended the Constitution to serve future generations, not only the people alive in 1787.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.05-Q05",
+    "standard": "GC.05",
+    "unit": 1,
+    "question_number": 5,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Which statement best describes the role of the Preamble within the Constitution?",
+    "tennessee_specific": false,
+    "topics": [
+      "Preamble",
+      "purposes of government"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.1,
+    "irt_b": -0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must interpret the function of a constitutional part.",
+    "blooms_rationale": "The student explains what the Preamble does and does not do.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "It lists the specific powers granted to Congress",
+      "B": "It contains the Bill of Rights",
+      "C": "It states the purposes of government but grants no powers by itself",
+      "D": "It sets out the rules for amending the Constitution"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Congress's powers are enumerated in Article I, not the Preamble."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "The Bill of Rights is the first ten amendments, not the Preamble."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Amendment rules appear in Article V, not the Preamble."
+      }
+    ],
+    "key_rationale": "The Preamble states the purposes the Constitution serves but grants no powers on its own; it functions as a mission statement.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.05-Q06",
+    "standard": "GC.05",
+    "unit": 1,
+    "question_number": 6,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "How does the Preamble's opening, 'We the People,' change the source of government authority compared with a monarchy?",
+    "tennessee_specific": false,
+    "topics": [
+      "popular sovereignty",
+      "monarchy"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.43,
+    "irt_b": 0.66,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze a contrast between two sources of authority.",
+    "blooms_rationale": "The student analyzes how a phrase changes the basis of legitimacy.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "It locates authority in the people rather than in a king",
+      "B": "It gives authority to the wealthiest citizens",
+      "C": "It places authority in the hands of the courts",
+      "D": "It keeps authority entirely with the individual states"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "'We the People' points to the people broadly, not to the wealthy alone."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Authority resting in the courts confuses this with judicial review."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Locating authority in the states alone confuses this with the Articles of Confederation."
+      }
+    ],
+    "key_rationale": "By opening with 'We the People,' the Constitution locates the source of authority in the people rather than in a king, a shift to popular sovereignty.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.05-Q07",
+    "standard": "GC.05",
+    "unit": 1,
+    "question_number": 7,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "In Federalist No. 51, Madison wrote, 'Justice is the end of government.' How does this idea connect to the Preamble?",
+    "tennessee_specific": false,
+    "topics": [
+      "Federalist No. 51",
+      "establish Justice"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.56,
+    "irt_b": 0.92,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze how a primary source and the Preamble share a theme.",
+    "blooms_rationale": "The student analyzes a conceptual connection between two texts.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Both reject the idea that courts should exist",
+      "B": "Both present justice as a central purpose the government exists to secure",
+      "C": "Both state that government has no fixed purpose",
+      "D": "Both limit justice to disputes over property"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Neither text rejects courts; both value justice as a goal."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Both texts identify justice as a purpose, contradicting the idea of no fixed purpose."
+      },
+      {
+        "label": "D",
+        "code": "OG",
+        "rationale": "Neither text limits justice to property disputes; both treat it broadly."
+      }
+    ],
+    "key_rationale": "Madison's statement that 'Justice is the end of government' matches the Preamble's aim to 'establish Justice,' both treating justice as a central purpose of government.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.05-Q08",
+    "standard": "GC.05",
+    "unit": 1,
+    "question_number": 8,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "List three of the six purposes of government named in the Preamble, and briefly explain what one of them means.",
+    "tennessee_specific": false,
+    "topics": [
+      "Preamble",
+      "purposes of government"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must recall listed purposes and explain one.",
+    "blooms_rationale": "The student summarizes and explains content from the text.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "short_answer",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SAQ-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.05-Q09",
+    "standard": "GC.05",
+    "unit": 1,
+    "question_number": 9,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Of the six purposes listed in the Preamble, which is most important for a free society today? State a claim, support it with reasoning tied to the text, and explain why you ranked it first.",
+    "tennessee_specific": false,
+    "topics": [
+      "Preamble",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.82,
+    "irt_b": 1.44,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must judge among purposes and defend a ranking.",
+    "blooms_rationale": "The student evaluates and justifies a prioritized judgment.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "constructed_response",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.05-Q10",
+    "standard": "GC.05",
+    "unit": 1,
+    "question_number": 10,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The Preamble opens with 'We the People' and lists the purposes of government. Write an extended response explaining how the Preamble reflects the social-contract idea that government's authority comes from the consent of the people to protect their interests. Use at least two of the Preamble's stated purposes as support, and connect the Preamble to the Enlightenment roots studied earlier in the unit.",
+    "tennessee_specific": false,
+    "topics": [
+      "Preamble",
+      "social contract"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.3,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must synthesize and defend an interpretation across multiple ideas.",
+    "blooms_rationale": "The student evaluates and constructs an extended argument connecting concepts.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "extended_response",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "ER-8pt",
+    "rubric_name": "Extended Response 8-Point Rubric"
+  },
+  {
+    "id": "GC.06-Q01",
+    "standard": "GC.06",
+    "unit": 1,
+    "question_number": 1,
+    "dok": 1,
+    "level": "Developing",
+    "question": "The power of courts to declare a law unconstitutional is called which of the following?",
+    "tennessee_specific": false,
+    "topics": [
+      "judicial review",
+      "courts"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.02,
+    "irt_b": -1.14,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls the name of a constitutional power.",
+    "blooms_rationale": "The task is retrieval of a term.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Judicial review",
+      "B": "The legislative veto",
+      "C": "Impeachment",
+      "D": "Popular sovereignty"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "A veto is an executive rejection of a bill, not a court striking down a law."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Impeachment is the removal of officials, not a ruling on a law's constitutionality."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Popular sovereignty concerns the source of authority, not court power over laws."
+      }
+    ],
+    "key_rationale": "Judicial review is the power of courts to decide whether a law or action is constitutional, established in Marbury v. Madison (1803).",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.06-Q02",
+    "standard": "GC.06",
+    "unit": 1,
+    "question_number": 2,
+    "dok": 1,
+    "level": "Developing",
+    "question": "Separation of powers divides the national government into which three branches?",
+    "tennessee_specific": false,
+    "topics": [
+      "separation of powers",
+      "three branches"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.14,
+    "irt_b": -0.98,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls the three branches of government.",
+    "blooms_rationale": "The task is retrieval of a factual list.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "State, local, and federal",
+      "B": "Legislative, executive, and judicial",
+      "C": "House, Senate, and president",
+      "D": "Army, navy, and air force"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "State, local, and federal describes levels of government under federalism, not the three branches."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "The House and Senate are both parts of the legislative branch, so this list is inaccurate."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "These are military services, not branches of government."
+      }
+    ],
+    "key_rationale": "Separation of powers divides the national government into legislative, executive, and judicial branches so no one branch holds all power.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.06-Q03",
+    "standard": "GC.06",
+    "unit": 1,
+    "question_number": 3,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Which of the following is an example of checks and balances?",
+    "tennessee_specific": false,
+    "topics": [
+      "checks and balances",
+      "veto"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must classify an action as an example of a principle.",
+    "blooms_rationale": "The student applies the concept by identifying an accurate example.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Citizens electing the members of Congress",
+      "B": "The states keeping their reserved powers",
+      "C": "The president vetoing a bill and Congress overriding the veto",
+      "D": "The Constitution being amended over time"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Electing members of Congress reflects popular sovereignty, not one branch checking another."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Reserved powers reflect federalism, not checks among the branches."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Amending the Constitution is a separate process, not a branch checking another."
+      }
+    ],
+    "key_rationale": "The president's veto and Congress's power to override it is a classic example of one branch limiting another, the essence of checks and balances.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.06-Q04",
+    "standard": "GC.06",
+    "unit": 1,
+    "question_number": 4,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What does the principle of federalism describe?",
+    "tennessee_specific": false,
+    "topics": [
+      "federalism",
+      "national and state power"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.62,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must interpret the meaning of a principle.",
+    "blooms_rationale": "The student explains what a constitutional concept means.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The division of the national government into three branches",
+      "B": "The power of courts to interpret laws",
+      "C": "The people's power to elect officials",
+      "D": "The division of power between the national government and the states"
+    },
+    "correct_answer": "D",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Dividing the national government into branches is separation of powers, not federalism."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Courts interpreting laws is judicial review, not federalism."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Electing officials reflects popular sovereignty, not federalism."
+      }
+    ],
+    "key_rationale": "Federalism is the division of power between the national government and the states.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.06-Q05",
+    "standard": "GC.06",
+    "unit": 1,
+    "question_number": 5,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What does the principle of the 'rule of law' mean?",
+    "tennessee_specific": false,
+    "topics": [
+      "rule of law",
+      "limited government"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.1,
+    "irt_b": -0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must interpret the meaning of a principle.",
+    "blooms_rationale": "The student explains what a concept requires.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The president personally makes all of the laws",
+      "B": "Everyone, including government leaders, must follow the law",
+      "C": "Laws apply only to ordinary citizens, not officials",
+      "D": "Courts may ignore the Constitution when convenient"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The rule of law is not about who makes laws but that all are bound by them."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "The rule of law specifically includes leaders, not just ordinary citizens."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The rule of law requires following the Constitution, not ignoring it."
+      }
+    ],
+    "key_rationale": "The rule of law means that everyone, including government leaders, is bound by and must follow the law.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.06-Q06",
+    "standard": "GC.06",
+    "unit": 1,
+    "question_number": 6,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "In Federalist No. 51, Madison wrote that 'ambition must be made to counteract ambition.' Which constitutional design does this statement describe?",
+    "tennessee_specific": false,
+    "topics": [
+      "Federalist No. 51",
+      "checks and balances"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.43,
+    "irt_b": 0.66,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze a primary-source metaphor and match it to a design principle.",
+    "blooms_rationale": "The student analyzes the reasoning behind a constitutional structure.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Checks and balances that let each branch limit the others",
+      "B": "Popular sovereignty expressed through elections",
+      "C": "Federalism dividing power between nation and states",
+      "D": "The Article V process for amending the Constitution"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Popular sovereignty concerns the source of authority, not branches restraining one another."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Federalism divides power by level, not by pitting branches against each other."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The amendment process is not what Madison's 'ambition' argument describes."
+      }
+    ],
+    "key_rationale": "Madison's point is structural: because people seek power, the Constitution pits the branches against one another so each checks the others, the logic of checks and balances.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.06-Q07",
+    "standard": "GC.06",
+    "unit": 1,
+    "question_number": 7,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The Supreme Court's decision in Marbury v. Madison (1803) strengthened the system of checks and balances because it did which of the following?",
+    "tennessee_specific": false,
+    "topics": [
+      "Marbury v. Madison",
+      "judicial review"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.56,
+    "irt_b": 0.92,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze how a case affected the balance among branches.",
+    "blooms_rationale": "The student analyzes the cause-and-effect of a landmark decision.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Gave the president the power to veto laws",
+      "B": "Allowed states to ignore federal law",
+      "C": "Established the courts' power to strike down unconstitutional laws",
+      "D": "Created the two houses of Congress"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "The veto is an executive power set in the Constitution, not created by Marbury."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Marbury strengthened federal judicial power; it did not let states ignore federal law."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The two houses of Congress were created at the Convention, not by Marbury."
+      }
+    ],
+    "key_rationale": "Marbury v. Madison established judicial review, giving courts the power to strike down unconstitutional laws and thereby strengthening checks and balances.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.06-Q08",
+    "standard": "GC.06",
+    "unit": 1,
+    "question_number": 8,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Name the three branches of the national government and state one job of each branch.",
+    "tennessee_specific": false,
+    "topics": [
+      "separation of powers",
+      "three branches"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must recall the branches and explain a function of each.",
+    "blooms_rationale": "The student summarizes the structure and roles of the branches.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "short_answer",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SAQ-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.06-Q09",
+    "standard": "GC.06",
+    "unit": 1,
+    "question_number": 9,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Which principle of limited government does the most to prevent tyranny: separation of powers, checks and balances, or federalism? State a claim, support it with evidence from the unit's sources, and explain your reasoning.",
+    "tennessee_specific": false,
+    "topics": [
+      "limited government",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.82,
+    "irt_b": 1.44,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must judge among principles and defend a choice with evidence.",
+    "blooms_rationale": "The student evaluates and justifies a comparative judgment.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "constructed_response",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.06-Q10",
+    "standard": "GC.06",
+    "unit": 1,
+    "question_number": 10,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from Federalist No. 51 (1788), from the Library of Congress: 'If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary.' Explain what Madison is arguing about human nature, and describe how this argument supports building checks and balances into the Constitution.",
+    "tennessee_specific": false,
+    "topics": [
+      "Federalist No. 51",
+      "checks and balances"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.3,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must analyze a primary source and connect it to a design principle.",
+    "blooms_rationale": "The student analyzes an argument and its structural implication.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "document_based",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  },
+  {
+    "id": "GC.07-Q01",
+    "standard": "GC.07",
+    "unit": 1,
+    "question_number": 1,
+    "dok": 1,
+    "level": "Developing",
+    "question": "Ratifying a constitutional amendment requires approval by which of the following?",
+    "tennessee_specific": false,
+    "topics": [
+      "Article V",
+      "ratification"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.02,
+    "irt_b": -1.14,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls a specific requirement of the amendment process.",
+    "blooms_rationale": "The task is retrieval of a factual threshold.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Three-fourths of the states",
+      "B": "The president alone",
+      "C": "A simple majority of national voters",
+      "D": "The Supreme Court"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "The president has no formal role in ratifying amendments."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Amendments are ratified by states, not by a national popular vote."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The Supreme Court does not ratify amendments."
+      }
+    ],
+    "key_rationale": "Under Article V, an amendment must be ratified by three-fourths of the states to take effect.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.07-Q02",
+    "standard": "GC.07",
+    "unit": 1,
+    "question_number": 2,
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which article of the Constitution establishes the legislative branch, Congress?",
+    "tennessee_specific": false,
+    "topics": [
+      "Article I",
+      "legislative branch"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.14,
+    "irt_b": -0.98,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls which article creates a branch.",
+    "blooms_rationale": "The task is retrieval of a factual pairing.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Article III",
+      "B": "Article I",
+      "C": "Article V",
+      "D": "Article VII"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Article III establishes the judicial branch, not the legislative."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Article V sets out the amendment process, not the legislature."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Article VII covers ratification of the Constitution, not the legislature."
+      }
+    ],
+    "key_rationale": "Article I of the Constitution establishes the legislative branch, Congress.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.07-Q03",
+    "standard": "GC.07",
+    "unit": 1,
+    "question_number": 3,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What are the two steps required to amend the Constitution under Article V?",
+    "tennessee_specific": false,
+    "topics": [
+      "Article V",
+      "amendment process"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must explain the two-step process, not just name a threshold.",
+    "blooms_rationale": "The student explains how a process works.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "A majority vote in Congress and the president's signature",
+      "B": "Approval by the Supreme Court and then the president",
+      "C": "Proposal by two-thirds of Congress and ratification by three-fourths of the states",
+      "D": "A national election followed by a statewide referendum"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Amendments do not require the president's signature, and a simple majority is not enough."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "The Supreme Court and president do not approve amendments."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Amendments are not adopted through a national election and referendum."
+      }
+    ],
+    "key_rationale": "Article V requires proposal by two-thirds of both houses of Congress (or a convention) and ratification by three-fourths of the states.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.07-Q04",
+    "standard": "GC.07",
+    "unit": 1,
+    "question_number": 4,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The Constitution has been amended only 27 times in more than 230 years. What does this best show?",
+    "tennessee_specific": false,
+    "topics": [
+      "amendment process",
+      "constitutional stability"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.62,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must interpret what a pattern reveals about the process.",
+    "blooms_rationale": "The student explains the meaning behind a historical fact.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The Constitution cannot be changed at all",
+      "B": "Amendments can be made by a single state",
+      "C": "The president controls the amendment process",
+      "D": "The amendment process is deliberately difficult"
+    },
+    "correct_answer": "D",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The Constitution can be changed; 27 amendments prove it, so 'cannot change' is wrong."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "A single state cannot amend the Constitution; broad agreement is required."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The president does not control amendments."
+      }
+    ],
+    "key_rationale": "The small number of amendments over a long span shows that Article V's process was designed to be deliberately difficult, requiring broad agreement.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.07-Q05",
+    "standard": "GC.07",
+    "unit": 1,
+    "question_number": 5,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What does Article VI, the Supremacy Clause, establish?",
+    "tennessee_specific": false,
+    "topics": [
+      "Supremacy Clause",
+      "Article VI"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.1,
+    "irt_b": -0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must interpret the meaning of a constitutional clause.",
+    "blooms_rationale": "The student explains what a clause establishes.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Federal law is the supreme law of the land",
+      "B": "States may ignore federal law they dislike",
+      "C": "The president is above the law",
+      "D": "The Constitution can never be amended"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The Supremacy Clause requires the opposite: states may not override valid federal law."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "No one, including the president, is above the law under the Constitution."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Amending the Constitution is covered by Article V, not the Supremacy Clause."
+      }
+    ],
+    "key_rationale": "Article VI's Supremacy Clause establishes that the Constitution and federal law are the supreme law of the land.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.07-Q06",
+    "standard": "GC.07",
+    "unit": 1,
+    "question_number": 6,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Why did the Framers make the amendment process in Article V deliberately difficult?",
+    "tennessee_specific": false,
+    "topics": [
+      "Article V",
+      "stability and flexibility"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.43,
+    "irt_b": 0.66,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze the reasoning behind a design choice.",
+    "blooms_rationale": "The student analyzes why the Framers set a high bar for change.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "To make sure the Constitution could never be changed",
+      "B": "To allow a single state to change it on its own",
+      "C": "To give the president control over amendments",
+      "D": "So the Constitution could adapt over time, but only with broad national agreement"
+    },
+    "correct_answer": "D",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The Framers wanted change to be possible but hard, not impossible."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The process requires broad agreement, not action by one state."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The president has no formal role in amending the Constitution."
+      }
+    ],
+    "key_rationale": "Requiring supermajorities to propose and ratify means change is possible but requires broad national consensus, balancing stability with flexibility.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.07-Q07",
+    "standard": "GC.07",
+    "unit": 1,
+    "question_number": 7,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "How does the high bar for amending the Constitution help protect federalism?",
+    "tennessee_specific": false,
+    "topics": [
+      "Article V",
+      "federalism"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.56,
+    "irt_b": 0.92,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze how a procedural rule reinforces a principle.",
+    "blooms_rationale": "The student analyzes the relationship between the amendment rule and federalism.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "It lets Congress amend the Constitution without the states",
+      "B": "It removes the states from the amendment process entirely",
+      "C": "Because three-fourths of the states must ratify, no change can be forced on the states without broad state support",
+      "D": "It gives the federal courts the final vote on every amendment"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Congress alone cannot amend the Constitution; state ratification is required."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The states are central to ratification, not removed from it."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Courts do not vote on ratifying amendments."
+      }
+    ],
+    "key_rationale": "Because three-fourths of the states must ratify any amendment, no change can be imposed on the states without broad state support, protecting the federal balance.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.07-Q08",
+    "standard": "GC.07",
+    "unit": 1,
+    "question_number": 8,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "How many articles does the Constitution have, and what do the first three articles establish?",
+    "tennessee_specific": false,
+    "topics": [
+      "structure of the Constitution",
+      "articles"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must recall the structure and explain the role of the first three articles.",
+    "blooms_rationale": "The student summarizes the organization of the document.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "short_answer",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SAQ-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.07-Q09",
+    "standard": "GC.07",
+    "unit": 1,
+    "question_number": 9,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Is the difficulty of amending the Constitution a strength or a weakness for a modern democracy? State a claim, support it with reasoning tied to Article V, and explain your position.",
+    "tennessee_specific": false,
+    "topics": [
+      "Article V",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.82,
+    "irt_b": 1.44,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must judge the value of a design feature and defend the judgment.",
+    "blooms_rationale": "The student evaluates and justifies a position.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "constructed_response",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.07-Q10",
+    "standard": "GC.07",
+    "unit": 1,
+    "question_number": 10,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from Article V of the U.S. Constitution (1787), from the National Archives: 'The Congress, whenever two thirds of both Houses shall deem it necessary, shall propose Amendments to this Constitution... which... shall be valid... when ratified by the Legislatures of three fourths of the several States.' Explain the two-step amendment process this passage describes, and describe why the Framers required such large majorities.",
+    "tennessee_specific": false,
+    "topics": [
+      "Article V",
+      "amendment process"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.3,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze a primary source and explain the reasoning behind its rule.",
+    "blooms_rationale": "The student analyzes a source and its purpose.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "document_based",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  },
+  {
+    "id": "GC.08-Q01",
+    "standard": "GC.08",
+    "unit": 1,
+    "question_number": 1,
+    "dok": 1,
+    "level": "Developing",
+    "question": "The Bill of Rights is the name for which part of the Constitution?",
+    "tennessee_specific": false,
+    "topics": [
+      "Bill of Rights",
+      "amendments"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.02,
+    "irt_b": -1.14,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student recalls the definition of the Bill of Rights.",
+    "blooms_rationale": "The task is retrieval of a factual identification.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The first ten amendments to the Constitution",
+      "B": "The Preamble",
+      "C": "The Articles of Confederation",
+      "D": "The Declaration of Independence"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "The Preamble is the introduction, not the Bill of Rights."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The Articles of Confederation were the first national constitution, not the Bill of Rights."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The Declaration of Independence is a separate 1776 document, not the Bill of Rights."
+      }
+    ],
+    "key_rationale": "The Bill of Rights is the name for the first ten amendments to the Constitution, ratified in 1791.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.08-Q02",
+    "standard": "GC.08",
+    "unit": 1,
+    "question_number": 2,
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which amendment reserves to the states and the people all powers not given to the national government?",
+    "tennessee_specific": false,
+    "topics": [
+      "Tenth Amendment",
+      "reserved powers"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.14,
+    "irt_b": -0.98,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student recalls which amendment covers reserved powers.",
+    "blooms_rationale": "The task is retrieval of a factual pairing.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The First Amendment",
+      "B": "The Tenth Amendment",
+      "C": "The Fifth Amendment",
+      "D": "The Second Amendment"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "The First Amendment protects speech, religion, and other freedoms, not reserved powers."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The Fifth Amendment protects due process and the rights of the accused, not reserved powers."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The Second Amendment concerns the right to bear arms, not reserved powers."
+      }
+    ],
+    "key_rationale": "The Tenth Amendment reserves to the states and the people all powers not delegated to the national government.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.08-Q03",
+    "standard": "GC.08",
+    "unit": 1,
+    "question_number": 3,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Which set of freedoms is protected by the First Amendment?",
+    "tennessee_specific": false,
+    "topics": [
+      "First Amendment",
+      "individual freedoms"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must interpret which rights belong to a specific amendment.",
+    "blooms_rationale": "The student explains the content of a constitutional protection.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The right to a jury trial and legal counsel",
+      "B": "Protection from unreasonable searches and seizures",
+      "C": "Religion, speech, press, assembly, and petition",
+      "D": "The right to keep and bear arms"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Jury trial and counsel are protected by the Sixth Amendment, not the First."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Protection from unreasonable searches is the Fourth Amendment, not the First."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The right to bear arms is the Second Amendment, not the First."
+      }
+    ],
+    "key_rationale": "The First Amendment protects five freedoms: religion, speech, press, assembly, and petition.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.08-Q04",
+    "standard": "GC.08",
+    "unit": 1,
+    "question_number": 4,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What does 'due process' require the government to do?",
+    "tennessee_specific": false,
+    "topics": [
+      "due process",
+      "Fifth Amendment"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.62,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must interpret the meaning of a legal protection.",
+    "blooms_rationale": "The student explains what a constitutional guarantee requires.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Provide free housing to every citizen",
+      "B": "Allow the states to ignore federal law",
+      "C": "Hold national elections every two years",
+      "D": "Follow fair legal procedures before taking a person's life, liberty, or property"
+    },
+    "correct_answer": "D",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Due process concerns fair legal procedure, not providing housing."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Due process is unrelated to states ignoring federal law."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Election schedules are set elsewhere and are not what due process means."
+      }
+    ],
+    "key_rationale": "Due process, guaranteed by the Fifth Amendment, requires government to follow fair legal procedures before taking a person's life, liberty, or property.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.08-Q05",
+    "standard": "GC.08",
+    "unit": 1,
+    "question_number": 5,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "According to the Tenth Amendment, who keeps the powers not given to the national government?",
+    "tennessee_specific": false,
+    "topics": [
+      "Tenth Amendment",
+      "reserved powers"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.1,
+    "irt_b": -0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must interpret the meaning of an amendment.",
+    "blooms_rationale": "The student explains what a text establishes.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The states and the people",
+      "B": "The president alone",
+      "C": "The Supreme Court",
+      "D": "Foreign governments"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The Tenth Amendment reserves power to the states and people, not to the president."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The Court interprets law; it is not who reserved powers belong to."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Reserved powers stay within the nation, not with foreign governments."
+      }
+    ],
+    "key_rationale": "The Tenth Amendment reserves powers not delegated to the national government to the states respectively, or to the people.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.08-Q06",
+    "standard": "GC.08",
+    "unit": 1,
+    "question_number": 6,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The First Amendment begins, 'Congress shall make no law...' Why does the Bill of Rights phrase protections as limits on government rather than as gifts to the people?",
+    "tennessee_specific": false,
+    "topics": [
+      "Bill of Rights",
+      "natural rights"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.43,
+    "irt_b": 0.66,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must analyze the significance of how protections are worded.",
+    "blooms_rationale": "The student analyzes the reasoning behind the document's phrasing.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "To show the government created these rights and can remove them",
+      "B": "Because the Framers viewed rights as belonging to people already, so the Constitution's job is to stop government from violating them",
+      "C": "To give Congress more power over speech and religion",
+      "D": "Because only members of Congress hold these rights"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Phrasing rights as limits shows the government did not create them and cannot simply remove them."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "The phrasing restrains Congress rather than expanding its power over these areas."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The rights belong to the people broadly, not only to Congress."
+      }
+    ],
+    "key_rationale": "The Bill of Rights reflects natural-rights thinking: rights pre-exist government, so framing them as prohibitions limits government power rather than granting rights it could later revoke.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.08-Q07",
+    "standard": "GC.08",
+    "unit": 1,
+    "question_number": 7,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Tennessee's state constitution contains a Declaration of Rights modeled on the federal Bill of Rights. What does this best illustrate about the American system of government?",
+    "tennessee_specific": true,
+    "topics": [
+      "Tennessee Declaration of Rights",
+      "federalism"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.56,
+    "irt_b": 0.92,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must analyze what a state-level parallel reveals about federalism.",
+    "blooms_rationale": "The student analyzes the relationship between state and national rights protections.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Only the national government is allowed to protect individual rights",
+      "B": "Tennessee formally rejected the federal Bill of Rights",
+      "C": "Under federalism, state constitutions can also protect individual rights",
+      "D": "State constitutions are not permitted to mention individual rights"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Both national and state governments protect rights; protection is not limited to the nation."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Modeling a state declaration on the Bill of Rights shows adoption, not rejection."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "State constitutions commonly include rights protections, so this is false."
+      }
+    ],
+    "key_rationale": "Because Tennessee's constitution includes a Declaration of Rights modeled on the federal Bill of Rights, it illustrates that under federalism states can protect individual rights alongside the national government.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.08-Q08",
+    "standard": "GC.08",
+    "unit": 1,
+    "question_number": 8,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "List three freedoms protected by the First Amendment, and briefly explain what one of them allows a person to do.",
+    "tennessee_specific": false,
+    "topics": [
+      "First Amendment",
+      "individual freedoms"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must recall protected freedoms and explain one.",
+    "blooms_rationale": "The student summarizes and explains constitutional protections.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "short_answer",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SAQ-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.08-Q09",
+    "standard": "GC.08",
+    "unit": 1,
+    "question_number": 9,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Which amendment in the Bill of Rights does the most to protect individual liberty today? State a claim, support it with evidence from the text of the amendment, and explain your reasoning.",
+    "tennessee_specific": false,
+    "topics": [
+      "Bill of Rights",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.82,
+    "irt_b": 1.44,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must judge among amendments and defend a choice with textual evidence.",
+    "blooms_rationale": "The student evaluates and justifies a comparative judgment.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "constructed_response",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.08-Q10",
+    "standard": "GC.08",
+    "unit": 1,
+    "question_number": 10,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from the First Amendment (ratified 1791), from the National Archives: 'Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.' Explain how the wording 'Congress shall make no law' functions as a limit on government power, and identify two specific freedoms this amendment protects.",
+    "tennessee_specific": false,
+    "topics": [
+      "First Amendment",
+      "limits on government"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.3,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must analyze a primary source's wording and identify its protections.",
+    "blooms_rationale": "The student analyzes how a text limits government and what it protects.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "document_based",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  },
+  {
+    "id": "GC.09-Q01",
+    "standard": "GC.09",
+    "unit": 1,
+    "question_number": 1,
+    "dok": 1,
+    "level": "Developing",
+    "question": "The United States is best described as which type of government?",
+    "tennessee_specific": false,
+    "topics": [
+      "republic",
+      "representative democracy"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.02,
+    "irt_b": -1.14,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls the basic classification of U.S. government.",
+    "blooms_rationale": "The task is retrieval of a factual category.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "A constitutional republic, or representative democracy",
+      "B": "A direct democracy",
+      "C": "A hereditary monarchy",
+      "D": "A loose confederation of independent states"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "In a direct democracy citizens vote on laws themselves; the United States uses elected representatives."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "A monarchy is ruled by a hereditary king or queen, unlike the United States."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "A confederation describes the earlier Articles government, not the current United States."
+      }
+    ],
+    "key_rationale": "The United States is a constitutional republic, a representative democracy in which citizens elect officials to make laws.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.09-Q02",
+    "standard": "GC.09",
+    "unit": 1,
+    "question_number": 2,
+    "dok": 1,
+    "level": "Developing",
+    "question": "In a direct democracy, laws are made by which of the following?",
+    "tennessee_specific": false,
+    "topics": [
+      "direct democracy",
+      "lawmaking"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.14,
+    "irt_b": -0.98,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student recalls the defining feature of direct democracy.",
+    "blooms_rationale": "The task is retrieval of a factual definition.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Officials elected to represent the people",
+      "B": "The citizens voting on the laws themselves",
+      "C": "A single hereditary monarch",
+      "D": "Appointed judges on a high court"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Officials elected to represent the people describes a republic, not a direct democracy."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Rule by a monarch is not direct democracy."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Appointed judges do not make laws in a direct democracy."
+      }
+    ],
+    "key_rationale": "In a direct democracy, citizens vote directly on laws themselves rather than through elected representatives.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.09-Q03",
+    "standard": "GC.09",
+    "unit": 1,
+    "question_number": 3,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What is the main difference between a direct democracy and a republic?",
+    "tennessee_specific": false,
+    "topics": [
+      "direct democracy",
+      "republic"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must compare and distinguish two systems.",
+    "blooms_rationale": "The student explains the contrast between two forms of government.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "A republic holds no elections of any kind",
+      "B": "A republic is ruled by a hereditary king",
+      "C": "In a direct democracy citizens vote on laws themselves, while in a republic they elect representatives to make laws",
+      "D": "There is no meaningful difference between the two"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "A republic depends on elections; this statement is false."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "A republic is not ruled by a king; that describes a monarchy."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "There is a clear difference in how laws are made, so this is incorrect."
+      }
+    ],
+    "key_rationale": "In a direct democracy citizens vote on laws directly; in a republic they elect representatives to make laws on their behalf.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.09-Q04",
+    "standard": "GC.09",
+    "unit": 1,
+    "question_number": 4,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Article IV of the Constitution guarantees every state a 'Republican Form of Government.' What does this guarantee mean?",
+    "tennessee_specific": false,
+    "topics": [
+      "Article IV",
+      "republican form of government"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.62,
+    "irt_b": 0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must interpret the meaning of a constitutional guarantee.",
+    "blooms_rationale": "The student explains what a clause requires of the states.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "Each state must be ruled by a king",
+      "B": "Each state may vote directly on all national laws",
+      "C": "Every state must adopt exactly the same laws",
+      "D": "Each state must have a government in which the people elect representatives"
+    },
+    "correct_answer": "D",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "A republican form of government rejects monarchy, so a king is the opposite."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The guarantee concerns representative government, not direct voting on national laws."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "States may have different laws; the guarantee is about the form, not identical laws."
+      }
+    ],
+    "key_rationale": "The guarantee of a 'Republican Form of Government' means each state must have a representative government in which the people elect officials to govern.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.09-Q05",
+    "standard": "GC.09",
+    "unit": 1,
+    "question_number": 5,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What is a representative democracy?",
+    "tennessee_specific": false,
+    "topics": [
+      "representative democracy",
+      "elections"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.1,
+    "irt_b": -0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must interpret the meaning of a term.",
+    "blooms_rationale": "The student explains the definition of a form of government.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "A system with no elected officials",
+      "B": "A system in which people rule indirectly by electing officials to represent them",
+      "C": "A system ruled by inherited power",
+      "D": "A system in which every citizen votes on every law"
+    },
+    "correct_answer": "B",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "A representative democracy depends on elected officials, so this is false."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Inherited power describes a monarchy, not a representative democracy."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "Every citizen voting on every law describes a direct democracy, not a representative one."
+      }
+    ],
+    "key_rationale": "A representative democracy is a system in which the people rule indirectly by electing officials to represent them, the model of U.S. government.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.09-Q06",
+    "standard": "GC.09",
+    "unit": 1,
+    "question_number": 6,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "In Federalist No. 10, why does Madison prefer a large republic over a pure, direct democracy?",
+    "tennessee_specific": false,
+    "topics": [
+      "Federalist No. 10",
+      "faction"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.43,
+    "irt_b": 0.66,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze the reasoning of a primary-source argument.",
+    "blooms_rationale": "The student analyzes the logic behind a political preference.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "A large republic with many competing interests makes it harder for one faction to oppress others",
+      "B": "A large republic lets every citizen vote directly on each law",
+      "C": "A large republic operates without any elected officials",
+      "D": "A large republic removes the need for a written constitution"
+    },
+    "correct_answer": "A",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Direct voting on each law describes pure democracy, which Madison contrasts with a republic."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "A republic depends on elected officials, so this is false."
+      },
+      {
+        "label": "D",
+        "code": "OG",
+        "rationale": "Madison does not argue a large republic eliminates the need for a constitution."
+      }
+    ],
+    "key_rationale": "Madison argues a large republic includes so many competing interests that no single faction can easily dominate, making it safer than a small direct democracy.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.09-Q07",
+    "standard": "GC.09",
+    "unit": 1,
+    "question_number": 7,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "How does a constitutional republic balance majority rule with the protection of minority rights?",
+    "tennessee_specific": false,
+    "topics": [
+      "constitutional republic",
+      "minority rights"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.56,
+    "irt_b": 0.92,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must analyze how two principles are balanced within a system.",
+    "blooms_rationale": "The student analyzes the relationship between majority rule and minority rights.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "multiple_choice",
+    "options": {
+      "A": "The majority may change any right by a simple vote",
+      "B": "The minority always overrules the decisions of the majority",
+      "C": "The majority governs through elected representatives, but the Constitution protects basic rights the majority cannot simply vote away",
+      "D": "Basic rights are decided only by the president"
+    },
+    "correct_answer": "C",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "A constitutional republic specifically prevents the majority from voting away basic rights by simple vote."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The minority does not automatically overrule the majority; both are balanced."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Rights are protected by the Constitution, not decided solely by the president."
+      }
+    ],
+    "key_rationale": "A constitutional republic combines majority rule through elections with constitutional protection of basic rights, so the majority governs but cannot simply strip away minority rights.",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.09-Q08",
+    "standard": "GC.09",
+    "unit": 1,
+    "question_number": 8,
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Explain the difference between a direct democracy and a representative democracy (republic), and identify which model the United States uses.",
+    "tennessee_specific": false,
+    "topics": [
+      "direct democracy",
+      "republic"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.49,
+    "irt_b": 0.3,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must contrast two systems and apply the distinction to the United States.",
+    "blooms_rationale": "The student explains and compares two forms of government.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "short_answer",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SAQ-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.09-Q09",
+    "standard": "GC.09",
+    "unit": 1,
+    "question_number": 9,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Was the Framers' choice of a republic over a direct democracy the right one for a large nation? State a claim, support it with evidence from Federalist No. 10, and explain your reasoning.",
+    "tennessee_specific": false,
+    "topics": [
+      "republic",
+      "argumentation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.82,
+    "irt_b": 1.44,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "dok_rationale": "Student must judge a historical choice and defend it with evidence.",
+    "blooms_rationale": "The student evaluates and justifies a position.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "constructed_response",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.09-Q10",
+    "standard": "GC.09",
+    "unit": 1,
+    "question_number": 10,
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from Federalist No. 10 (1787), from the Library of Congress: 'A republic, by which I mean a government in which the scheme of representation takes place... promises the cure for which we are seeking. Let us examine the points in which it varies from pure democracy.' Explain how Madison defines a republic in this passage, and describe how he distinguishes it from a pure democracy.",
+    "tennessee_specific": false,
+    "topics": [
+      "Federalist No. 10",
+      "republic"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.3,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "dok_rationale": "Student must analyze a primary source's definition and distinction.",
+    "blooms_rationale": "The student analyzes how an author defines and contrasts concepts.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV1: Foundations of Constitutional Government",
+    "type": "document_based",
+    "options": null,
+    "correct_answer": "See rubric",
+    "distractor_tags": [],
+    "key_rationale": "Scored by rubric; see rubric criteria.",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Analysis 6-Point Rubric"
+  }
+]
