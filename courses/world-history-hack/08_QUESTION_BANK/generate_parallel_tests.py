@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Generate N PARALLEL tests of equal rigor from the consolidated Government question bank.
+"""Generate N PARALLEL tests of equal rigor from the consolidated World History question bank.
 
 Forms are EQUATED: each form draws the same number of items per standard and the same DOK
 composition, and a rotating (Latin-square) assignment balances item difficulty (IRT-b) across
@@ -7,7 +7,7 @@ forms so their mean difficulty converges. Distinct items are used per form until
 exhausted (then reuse is reported). Answer keys are written to a SEPARATE teacher file only.
 
 Usage:
-  python3 08_QUESTION_BANK/generate_parallel_tests.py [--forms 4] [--scope all|unitN|GC.01,GC.02]
+  python3 08_QUESTION_BANK/generate_parallel_tests.py [--forms 4] [--scope all|unitN|W.01,W.02]
       [--per-standard 1] [--mc-only] [--outdir 08_QUESTION_BANK/generated_tests] [--title "..."]
 
 Outputs, per form: <outdir>/<title>_Form_<L>_STUDENT.md and _TEACHER_KEY.md, plus
@@ -17,7 +17,7 @@ import os, json, sys, re, statistics
 from collections import Counter, defaultdict
 
 HERE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.dirname(HERE)
-BANK=os.path.join(HERE,"government_question_bank.json")
+BANK=os.path.join(HERE,"world_history_question_bank.json")
 
 def arg(flag,default=None,isflag=False):
     if isflag: return flag in sys.argv
@@ -31,17 +31,14 @@ SCOPE=arg("--scope","all")
 PER=int(arg("--per-standard","1"))
 MC_ONLY=arg("--mc-only",isflag=True) or True  # parallel objective tests default to MC
 OUTDIR=os.path.join(ROOT,arg("--outdir","08_QUESTION_BANK/generated_tests"))
-TITLE=arg("--title","Government_Parallel_Test")
+TITLE=arg("--title","World_History_Parallel_Test")
 os.makedirs(OUTDIR,exist_ok=True)
 
-UNIT_STDS={1:["GC.01","GC.02","GC.03","GC.04","GC.05","GC.06","GC.07","GC.08","GC.09"],
- 2:["GC.31","GC.32","GC.33","GC.34"],3:["GC.35","GC.10","GC.11","GC.12","GC.13","GC.14","GC.15"],
- 4:["GC.16","GC.17","GC.18"],5:["GC.19","GC.20","GC.21","GC.22"],
- 6:["GC.23","GC.24","GC.25","GC.26","GC.27"],7:["GC.28","GC.29","GC.30"]}
+UNIT_STDS={1:["W.01", "W.02", "W.03", "W.04", "W.08a"],2:["W.05", "W.06", "W.07", "W.08b", "W.09"],3:["W.10", "W.11", "W.12", "W.13", "W.14", "W.15", "W.16"],4:["W.17", "W.18"],5:["W.19", "W.20", "W.21", "W.22"],6:["W.23", "W.24", "W.25", "W.26", "W.27", "W.28"],7:["W.29", "W.30", "W.31", "W.32", "W.33", "W.34", "W.35", "W.36", "W.37", "W.38"],8:["W.39", "W.40", "W.41", "W.42", "W.43", "W.44", "W.49"],9:["W.45", "W.46", "W.47", "W.48", "W.50", "W.51", "W.52", "W.53"],10:["W.54", "W.55", "W.56a", "W.56b", "W.57", "W.58", "W.59"],11:["W.60", "W.61", "W.62", "W.63a", "W.63b", "W.64", "W.65"],12:["W.66", "W.67", "W.68", "W.69", "W.70", "W.71", "W.72", "W.73", "W.74", "W.75", "W.76"],13:["W.77", "W.78", "W.79", "W.80", "W.81", "W.82", "W.83", "W.84", "W.85", "W.86", "W.87", "W.88", "W.89"]}
 
 bank=json.load(open(BANK,encoding="utf-8"))
 def stdnum(s):
-    m=re.match(r"GC\.(\d+)",str(s)); return int(m.group(1)) if m else 999
+    m=re.match(r"W\.(\d+)",str(s)); return int(m.group(1)) if m else 999
 
 if SCOPE=="all":
     scope=sorted({i["standard"] for i in bank},key=stdnum)
@@ -92,7 +89,7 @@ def opt_lines(it):
 
 L=[chr(65+i) for i in range(FORMS)]  # form labels A,B,C,...
 UDL_BANNER=("> **Universal supports — available to every student, no special request needed:** this test may be "
- "read aloud; key civics terms are glossed on request; large-print and screen-reader formats are available; "
+ "read aloud; key history and geography terms are glossed on request; large-print and screen-reader formats are available; "
  "extended time is available. For any written-response question you may answer **in writing, by recording your "
  "spoken response, or with a labeled diagram/organizer.** The learning target is the same for everyone. "
  "_(Designed on CAST UDL Guidelines 3.0 — firm goal, flexible means.)_")
@@ -133,7 +130,7 @@ def write_form(fi):
     k+=["## UDL supports on this form (CAST 3.0)","",
         f"- **Representation:** {u.get('representation','key terms glossed; read-aloud; large-print/screen-reader.')}",
         f"- **Action & Expression:** {u.get('action_expression','multiple response modes for constructed items; AT-compatible.')}",
-        f"- **Engagement:** {u.get('engagement','action-oriented feedback; DOK-tiered challenge; authentic civic contexts.')}",
+        f"- **Engagement:** {u.get('engagement','action-oriented feedback; DOK-tiered challenge; authentic historical and geographic contexts.')}",
         f"- _{u.get('firm_goal_note','Supports vary the means, not the mastery target — UDL design, not modification.')}_"]
     open(os.path.join(OUTDIR,f"{TITLE}_Form_{label}_TEACHER_KEY.md"),"w",encoding="utf-8").write("\n".join(k))
     return dok,(statistics.mean(bs) if bs else 0)

@@ -14,7 +14,7 @@ consolidate_bank.py.  Usage: python3 08_QUESTION_BANK/add_udl_remediation.py
 """
 import os, json
 HERE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.dirname(HERE)
-BANK=os.path.join(HERE,"government_question_bank.json")
+BANK=os.path.join(HERE,"world_history_question_bank.json")
 # per-standard titles for the reteach reference
 STD_TITLE={}
 import glob
@@ -37,7 +37,7 @@ CODE_MOVE={
 
 def udl_for(it):
     t=it.get("type"); has_stim=bool(it.get("stimulus")) or t=="document_based"
-    rep=("2.1 key vocabulary and civic terms are glossed on request; 1.1 available in large-print and "
+    rep=("2.1 key vocabulary and history/geography terms are glossed on request; 1.1 available in large-print and "
          "screen-reader-compatible formats; 2.2 the stem may be read aloud")
     if has_stim: rep+="; 1.2/2.5 the source is provided as accessible text with a plain-language description and may be enlarged"
     rep+=" (CAST 3.0, Representation)."
@@ -49,7 +49,7 @@ def udl_for(it):
             "graphic organizer; 5.2 word processor, speech-to-text, and a planning organizer are available; "
             "5.3 graduated sentence/argument frames on request (CAST 3.0, Action & Expression).")
     eng=("8.5 action-oriented feedback via the remediation routing below; 8.2 challenge is DOK-tiered so every "
-         "learner has an entry point and a ceiling; 7.2 items use authentic civic contexts (CAST 3.0, Engagement).")
+         "learner has an entry point and a ceiling; 7.2 items use authentic historical and geographic contexts (CAST 3.0, Engagement).")
     return {"representation":rep,"action_expression":ae,"engagement":eng,
             "firm_goal_note":("Supports vary the means of access and expression only; the standard mastery target "
                               "is identical for every student. These are UDL design options, not modifications — "

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""QC / rigor report for the consolidated Government question bank.
+"""QC / rigor report for the consolidated World History question bank.
 Checks: per-standard coverage, DOK & type & Bloom's distributions, MC key-letter balance,
 IRT-b difficulty spread, duplicate/near-duplicate stems, required-field completeness,
 and a forbidden-string leak scan. Prints a report and exits non-zero if hard checks fail.
@@ -9,7 +9,7 @@ Usage: python3 08_QUESTION_BANK/bank_qc.py
 import os, json, re, sys, statistics
 from collections import Counter, defaultdict
 HERE=os.path.dirname(os.path.abspath(__file__))
-BANK=os.path.join(HERE,"government_question_bank.json")
+BANK=os.path.join(HERE,"world_history_question_bank.json")
 items=json.load(open(BANK,encoding="utf-8"))
 FORBIDDEN=["History Hack","Williamson","George Jordan","Homestead","Transcontinental","Gilded",
            "industrializ","U.S. history","flight log","WCS"]
@@ -22,13 +22,13 @@ hard_fail=0; soft=0
 by_std=defaultdict(list)
 for it in items: by_std[it.get("standard")].append(it)
 
-print(f"# Government Question Bank — QC Report")
+print(f"# World History Question Bank — QC Report")
 print(f"Total items: {len(items)}   ·   Standards covered: {len(by_std)}\n")
 
 # 1. coverage
 print("## Per-standard coverage")
 thin=[]
-for s in sorted(by_std,key=lambda x:(int(re.match(r'GC\.(\d+)',x).group(1)) if re.match(r'GC\.(\d+)',x) else 999)):
+for s in sorted(by_std,key=lambda x:(int(re.match(r'W\.(\d+)',x).group(1)) if re.match(r'W\.(\d+)',x) else 999)):
     g=by_std[s]; dok=Counter(i.get("dok") for i in g); typ=Counter(i.get("type") for i in g)
     mc=[i for i in g if i.get("type")=="multiple_choice"]
     keys=Counter(i.get("correct_answer") for i in mc)
