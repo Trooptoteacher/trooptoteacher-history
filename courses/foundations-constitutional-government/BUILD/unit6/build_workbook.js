@@ -215,9 +215,6 @@ function block(code){
   out.push(callout('LEARNING TARGETS — I can…',(s.targets||[s.target||s.ican.replace(/^I can /,'')]).map(t=>R('•  I can '+t+'.',{s:21}))));
   if(s.lenses) out.push(P([R('Lenses for this standard: ',{s:19,b:true,c:NAVY}),R(s.lenses,{s:19,c:GREY})],{spacing:{after:80}}));
   out.push(coreCallout('CORE PATH — the same for every student',['Every student works this standard at the same rigor: analyze the sources and vocabulary, then demonstrate learning on the Practice Quiz and CER. UDL and MTSS give you flexible ways in — they never lower the bar. Check yourself against the learning targets on the Cornell Notes page.']));
-  out.push(callout('UDL ACCESS & MTSS SUPPORT (this standard)',[
-    'UDL 3.0 (CAST): read-aloud on request · key terms glossed (EN/ES) · respond in writing, speech, or a labeled diagram · large-print & screen-reader friendly. Same learning target for everyone; supports vary the means, not the ceiling.',
-    'MTSS: Tier 1 — this core lesson for all · Tier 2 — small-group reteach of this standard using its Cornell cues + graphic organizer, then re-check · Tier 3 — intensive 1:1 with concrete→representational→abstract scaffolding, progress-monitored to the same standard.']));
   if(s.tn_connection) out.push(callout('★ Tennessee Connection',[s.tn_connection]));
   out.push(callout('SET YOUR GOAL (self-direction)',['My goal for this standard — what will I be able to do, and how will I show it?']));
   out.push(...ruled(2));
@@ -372,14 +369,11 @@ function block(code){
   out.push(writeTable(['Plan your argument','Your quick notes (from this standard)'],
     [['My claim (answer the prompt)',''],['Evidence 1 (a source or fact)',''],['Reasoning (why it proves the claim)','']],[3050,6598],{lines:1}));
   out.push(callout('CONSTRUCTED RESPONSE (CER) — builds SSP.04 Argumentation',[a.cer]));
-  out.push(callout('SHOW WHAT YOU KNOW — YOUR WAY (same CER rubric, same standard)',['Build your Claim–Evidence–Reasoning in whichever mode lets you think best. The standard and the CER rubric are identical for every mode — the mode changes how you SHOW it, never what you are held to:','WRITE it on the lines below  ·  SAY it aloud and record it (audio or video)  ·  DRAW and label a diagram that makes the argument  ·  BUILD a model or artifact and caption its claim, evidence, and reasoning.','You may ask for a word processor, speech-to-text, a scribe, or a sentence/argument frame — these change how you produce, not the standard you meet.']));
   out.push(new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[2200,7448],rows:[
     new TableRow({tableHeader:true,children:[cell(P(R('Part',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:2200,fill:NAVY}),cell(P(R('Write here',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:7448,fill:NAVY})]}),
     ...[['Claim',3],['Evidence (two specifics)',5],['Reasoning',4]].map(([lab,n])=>new TableRow({children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2200}),cell(ruled(n),{w:7448})]}))
   ]}));
   out.push(callout('SELF-CHECK against the CER rubric (see Toolkit)',['Before submitting: Is my claim defensible? Do I have TWO specific pieces of evidence? Does my reasoning explain HOW the evidence proves the claim?']));
-  out.push(callout('CHOICE & VOICE — you decide how to go deeper (pick ONE)',['You choose your path to show this standard — every option meets the same target:','DEFEND a term: pick the vocabulary word you think matters most and argue why in 2\u20133 sentences.  \u00b7  CONNECT it: pick a current event, your community, or your own life and explain how this standard shows up there.  \u00b7  TAKE A SIDE: pick one debatable question from this standard and argue your position with evidence.','Your pick is yours \u2014 bring what matters to you into the work.']));
-  out.push(callout('REFLECT & CONNECT — how your thinking grew, and whose view you weighed',['Reflect (self-awareness): What did you believe about this topic BEFORE, and what changed AFTER? Name one thing to revisit.','Consider another view (empathy): Name one person or group who might see this standard differently than you. State their view fairly in one sentence \u2014 even if you disagree.','Norm (restorative): we critique ideas, not people; we assume good faith; we make room for every voice.']));
   // Exit Ticket — end-of-standard formative (vetted item from the question bank; key + next steps teacher-side)
   const xt=EXIT[code];
   if(xt) out.push(table([new TableRow({children:[cell([
