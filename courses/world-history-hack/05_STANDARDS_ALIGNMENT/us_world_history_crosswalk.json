@@ -1,0 +1,1486 @@
+{
+  "title": "US History <-> World History Standards Crosswalk (INTERNAL build-planning; not a distributed deliverable)",
+  "purpose": "Identify where TN World History standards overlap existing TN U.S. History resources so we reuse-first (harvest facts/items/scaffolds), then reframe to the global World History I-can and de-leak (strip US.xx / 'U.S. History' / US-EOC framing; retag to W.xx / RC-WH{N}).",
+  "us_course_span": "US.01-US.95 (Reconstruction -> present); no coverage of WH early-modern units (absolutism, Enlightenment, French Revolution).",
+  "overlap_legend": {
+    "strong": "same event/content — reuse items+scaffolds, reframe lens",
+    "partial": "related, different scope/lens — reuse selectively + extend",
+    "thematic": "conceptual parallel — reuse framing/skills only",
+    "none": "World-specific — author fresh"
+  },
+  "summary": {
+    "counts": {
+      "none": 35,
+      "partial": 22,
+      "thematic": 7,
+      "strong": 28
+    },
+    "strong_overlap_standards": [
+      "W.14",
+      "W.15",
+      "W.19",
+      "W.30",
+      "W.31",
+      "W.33",
+      "W.34",
+      "W.36",
+      "W.39",
+      "W.40",
+      "W.41",
+      "W.42",
+      "W.49",
+      "W.47",
+      "W.48",
+      "W.50",
+      "W.51",
+      "W.52",
+      "W.54",
+      "W.58",
+      "W.59",
+      "W.61",
+      "W.63a",
+      "W.63b",
+      "W.64",
+      "W.83",
+      "W.88",
+      "W.89"
+    ],
+    "world_specific_author_fresh": [
+      "W.01",
+      "W.02",
+      "W.03",
+      "W.04",
+      "W.08a",
+      "W.05",
+      "W.06",
+      "W.07",
+      "W.08b",
+      "W.09",
+      "W.11",
+      "W.13",
+      "W.17",
+      "W.18",
+      "W.20",
+      "W.21",
+      "W.22",
+      "W.23",
+      "W.24",
+      "W.25",
+      "W.26",
+      "W.29",
+      "W.43",
+      "W.55",
+      "W.62",
+      "W.67",
+      "W.68",
+      "W.69",
+      "W.70",
+      "W.71",
+      "W.73",
+      "W.74",
+      "W.77",
+      "W.78",
+      "W.85"
+    ],
+    "reusable_us_questions_total": 422
+  },
+  "crosswalk": [
+    {
+      "wh_code": "W.01",
+      "wh_title": "Describe the concept of the divine right of kings as well as the features",
+      "unit": 1,
+      "unit_title": "Age of Revolutions",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.02",
+      "wh_title": "Compare documents that establish limits on government in response to absolute monarchy (e",
+      "unit": 1,
+      "unit_title": "Age of Revolutions",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.03",
+      "wh_title": "Compare the major ideas of philosophers during the Age of Enlightenment",
+      "unit": 1,
+      "unit_title": "Age of Revolutions",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.04",
+      "wh_title": "Examine the causes and consequences of the English Civil War",
+      "unit": 1,
+      "unit_title": "Age of Revolutions",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.08a",
+      "wh_title": "Identify how the ideas of the Enlightenment inspired Thomas Jefferson and the Declaration ",
+      "unit": 1,
+      "unit_title": "Age of Revolutions",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.05",
+      "wh_title": "Identify the major causes of the French Revolution",
+      "unit": 2,
+      "unit_title": "The French Revolution",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.06",
+      "wh_title": "Summarize the major events of the French Revolution (e",
+      "unit": 2,
+      "unit_title": "The French Revolution",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.07",
+      "wh_title": "Analyze the geographic",
+      "unit": 2,
+      "unit_title": "The French Revolution",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.08b",
+      "wh_title": "Compare the American Revolution with the French Revolution",
+      "unit": 2,
+      "unit_title": "The French Revolution",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.09",
+      "wh_title": "Explain the effects of the French Revolution on Europe and the world",
+      "unit": 2,
+      "unit_title": "The French Revolution",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.10",
+      "wh_title": "Explain how the Agricultural Revolution",
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.06",
+          "us_title": "Industrial centers & rural-to-urban migration",
+          "strength": "partial",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.11",
+      "wh_title": "Explain the geographic and economic reasons why the Industrial Revolution began in England",
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.12",
+      "wh_title": "Analyze how geographic and cultural features were an advantage or disadvantage to the diff",
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "overlap": "thematic",
+      "us_matches": [
+        {
+          "us_code": "US.06",
+          "us_title": "Industrial centers & rural-to-urban migration",
+          "strength": "thematic",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.13",
+      "wh_title": "Describe the geographic scale",
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.14",
+      "wh_title": "Explain how scientific and technological innovations (e",
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.05",
+          "us_title": "Inventors/entrepreneurs (Bessemer, Edison, Bell)",
+          "strength": "strong",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.15",
+      "wh_title": "Evaluate the industrialization of Europe in terms of",
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.13",
+          "us_title": "Working conditions: women & children",
+          "strength": "strong",
+          "us_questions_available": 10
+        },
+        {
+          "us_code": "US.11",
+          "us_title": "Labor movement, unions, strikes",
+          "strength": "strong",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 20
+    },
+    {
+      "wh_code": "W.16",
+      "wh_title": "Compare and contrast the rise of the following economic theories as a result of industrial",
+      "unit": 3,
+      "unit_title": "The Industrial Revolution",
+      "quarter": "Q1",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.08",
+          "us_title": "Social Darwinism & Social Gospel",
+          "strength": "partial",
+          "us_questions_available": 9
+        }
+      ],
+      "reusable_us_questions": 9
+    },
+    {
+      "wh_code": "W.17",
+      "wh_title": "Define nationalism",
+      "unit": 4,
+      "unit_title": "Rising Nationalism",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.18",
+      "wh_title": "Describe the rise of anti-Semitism in Europe during this time period",
+      "unit": 4,
+      "unit_title": "Rising Nationalism",
+      "quarter": "Q1",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.19",
+      "wh_title": "Define imperialism",
+      "unit": 5,
+      "unit_title": "Imperialism in Africa",
+      "quarter": "Q2",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.19",
+          "us_title": "Causes of American imperialism",
+          "strength": "strong",
+          "us_questions_available": 10
+        },
+        {
+          "us_code": "US.08",
+          "us_title": "Social Darwinism & Social Gospel",
+          "strength": "partial",
+          "us_questions_available": 9
+        }
+      ],
+      "reusable_us_questions": 19
+    },
+    {
+      "wh_code": "W.20",
+      "wh_title": "Describe the natural resources and geographic features of Africa",
+      "unit": 5,
+      "unit_title": "Imperialism in Africa",
+      "quarter": "Q2",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.21",
+      "wh_title": "Analyze the outcomes of the Berlin Conference and the impact of superimposed boundaries on",
+      "unit": 5,
+      "unit_title": "Imperialism in Africa",
+      "quarter": "Q2",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.22",
+      "wh_title": "Describe successful (e",
+      "unit": 5,
+      "unit_title": "Imperialism in Africa",
+      "quarter": "Q2",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.23",
+      "wh_title": "Describe the importance of India to the British Empire",
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.24",
+      "wh_title": "Explain the growing influence of western powers on China from the Opium Wars through the B",
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.25",
+      "wh_title": "Explain cultural diffusion",
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.26",
+      "wh_title": "Analyze Japan’s abandonment of isolationism",
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.27",
+      "wh_title": "Describe the natural resources and geographic features of Central and South America",
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.21",
+          "us_title": "Spanish-American War; Panama Canal; Cuba",
+          "strength": "partial",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.28",
+      "wh_title": "Compare and contrast the impact of economic imperialism on Central and South America with ",
+      "unit": 6,
+      "unit_title": "Imperialism in Asia and Latin America",
+      "quarter": "Q2",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.21",
+          "us_title": "Spanish-American War; Panama Canal; Cuba",
+          "strength": "partial",
+          "us_questions_available": 10
+        },
+        {
+          "us_code": "US.22",
+          "us_title": "Big Stick/Dollar/Moral diplomacy",
+          "strength": "partial",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 20
+    },
+    {
+      "wh_code": "W.29",
+      "wh_title": "Explain how tensions between nations and states contributed to regional conflicts of the e",
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.30",
+      "wh_title": "Explain how the rise of militarism",
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.23",
+          "us_title": "Causes of WWI & US neutrality",
+          "strength": "strong",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.31",
+      "wh_title": "Describe how trench warfare",
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.25",
+          "us_title": "WWI: trench warfare, new weapons",
+          "strength": "strong",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.32",
+      "wh_title": "Analyze the importance of geographic factors in military decision-making and determine the",
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.25",
+          "us_title": "WWI: trench warfare, new weapons",
+          "strength": "partial",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.33",
+      "wh_title": "Explain how the entrance of the United States and the exit of Russia affected the course a",
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.24",
+          "us_title": "US entry into WWI (subs, Zimmermann)",
+          "strength": "strong",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.34",
+      "wh_title": "Define total war",
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.26",
+          "us_title": "WWI home front",
+          "strength": "strong",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.35",
+      "wh_title": "Describe the effects of World War I",
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.27",
+          "us_title": "Fourteen Points; League of Nations",
+          "strength": "partial",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.36",
+      "wh_title": "Compare the goals of leading nations (i",
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.27",
+          "us_title": "Fourteen Points; League of Nations",
+          "strength": "strong",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.37",
+      "wh_title": "Analyze the shifts in geopolitical boundaries post-World War I resulting from the Treaty o",
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.27",
+          "us_title": "Fourteen Points; League of Nations",
+          "strength": "partial",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.38",
+      "wh_title": "Determine the causes and consequences of the Bolshevik Revolution and Russian Civil War",
+      "unit": 7,
+      "unit_title": "World War I",
+      "quarter": "Q2",
+      "overlap": "thematic",
+      "us_matches": [
+        {
+          "us_code": "US.61",
+          "us_title": "US.61",
+          "strength": "thematic",
+          "us_questions_available": 1
+        }
+      ],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.39",
+      "wh_title": "Analyze the cultural",
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.34",
+          "us_title": "Women in the 1920s; flappers",
+          "strength": "strong",
+          "us_questions_available": 10
+        },
+        {
+          "us_code": "US.38",
+          "us_title": "Credit, consumerism, speculation",
+          "strength": "strong",
+          "us_questions_available": 10
+        },
+        {
+          "us_code": "US.29",
+          "us_title": "Radio/movies popular culture",
+          "strength": "partial",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 30
+    },
+    {
+      "wh_code": "W.40",
+      "wh_title": "Describe the collapse of international economies in 1929 that led to the Great Depression",
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.39",
+          "us_title": "Causes of the Great Depression",
+          "strength": "strong",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.41",
+      "wh_title": "Explain how economic instability",
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.45",
+          "us_title": "Rise of fascism/communism/totalitarianism",
+          "strength": "strong",
+          "us_questions_available": 8
+        }
+      ],
+      "reusable_us_questions": 8
+    },
+    {
+      "wh_code": "W.42",
+      "wh_title": "Compare and contrast the rise to power",
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.45",
+          "us_title": "Rise of fascism/communism/totalitarianism",
+          "strength": "strong",
+          "us_questions_available": 8
+        },
+        {
+          "us_code": "US.49",
+          "us_title": "WWII leaders",
+          "strength": "strong",
+          "us_questions_available": 3
+        }
+      ],
+      "reusable_us_questions": 11
+    },
+    {
+      "wh_code": "W.43",
+      "wh_title": "Analyze the role of geographic features and natural resources in increasing tensions prior",
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.44",
+      "wh_title": "Compare the Italian",
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.45",
+          "us_title": "Rise of fascism/communism/totalitarianism",
+          "strength": "partial",
+          "us_questions_available": 8
+        }
+      ],
+      "reusable_us_questions": 8
+    },
+    {
+      "wh_code": "W.49",
+      "wh_title": "Describe the persecution of Jews and other targeted groups in Europe leading up to World W",
+      "unit": 8,
+      "unit_title": "Rise of Totalitarianism",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.47",
+          "us_title": "US response to European Jews; camp liberation",
+          "strength": "strong",
+          "us_questions_available": 7
+        }
+      ],
+      "reusable_us_questions": 7
+    },
+    {
+      "wh_code": "W.45",
+      "wh_title": "Explain the role of military alliances",
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.46",
+          "us_title": "FDR response; Atlantic Charter; Lend-Lease",
+          "strength": "partial",
+          "us_questions_available": 6
+        }
+      ],
+      "reusable_us_questions": 6
+    },
+    {
+      "wh_code": "W.46",
+      "wh_title": "Describe how geography and technology (e",
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.50",
+          "us_title": "WWII battles: Midway, D-Day",
+          "strength": "partial",
+          "us_questions_available": 3
+        }
+      ],
+      "reusable_us_questions": 3
+    },
+    {
+      "wh_code": "W.47",
+      "wh_title": "Describe the geography and outcomes of major battles and turning points of World War II in",
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.48",
+          "us_title": "US entry into WWII; Pearl Harbor",
+          "strength": "strong",
+          "us_questions_available": 6
+        },
+        {
+          "us_code": "US.50",
+          "us_title": "WWII battles: Midway, D-Day",
+          "strength": "strong",
+          "us_questions_available": 3
+        }
+      ],
+      "reusable_us_questions": 9
+    },
+    {
+      "wh_code": "W.48",
+      "wh_title": "Describe the roles of leaders during World War II",
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.49",
+          "us_title": "WWII leaders",
+          "strength": "strong",
+          "us_questions_available": 3
+        }
+      ],
+      "reusable_us_questions": 3
+    },
+    {
+      "wh_code": "W.50",
+      "wh_title": "Explain the state-sponsored mass murder of the Jews in Nazi-controlled lands and describe ",
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.47",
+          "us_title": "US response to European Jews; camp liberation",
+          "strength": "strong",
+          "us_questions_available": 7
+        }
+      ],
+      "reusable_us_questions": 7
+    },
+    {
+      "wh_code": "W.51",
+      "wh_title": "Explain the decisions made in the Atlantic Charter and at the Tehran",
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.57",
+          "us_title": "Yalta & Potsdam",
+          "strength": "strong",
+          "us_questions_available": 5
+        },
+        {
+          "us_code": "US.58",
+          "us_title": "Founding of the UN; Cordell Hull",
+          "strength": "strong",
+          "us_questions_available": 2
+        }
+      ],
+      "reusable_us_questions": 7
+    },
+    {
+      "wh_code": "W.52",
+      "wh_title": "Describe the development of atomic bombs and evaluate both the decisions to use them and t",
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.56",
+          "us_title": "Manhattan Project & atomic bomb",
+          "strength": "strong",
+          "us_questions_available": 4
+        }
+      ],
+      "reusable_us_questions": 4
+    },
+    {
+      "wh_code": "W.53",
+      "wh_title": "Describe the cultural",
+      "unit": 9,
+      "unit_title": "World War II",
+      "quarter": "Q3",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.58",
+          "us_title": "Founding of the UN; Cordell Hull",
+          "strength": "partial",
+          "us_questions_available": 2
+        }
+      ],
+      "reusable_us_questions": 2
+    },
+    {
+      "wh_code": "W.54",
+      "wh_title": "Summarize the nature of reconstruction in Europe after 1945",
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.60",
+          "us_title": "Containment; Truman Doctrine; Marshall Plan; Berlin Airlift",
+          "strength": "strong",
+          "us_questions_available": 4
+        }
+      ],
+      "reusable_us_questions": 4
+    },
+    {
+      "wh_code": "W.55",
+      "wh_title": "Explain the origins and significance of the establishment of the State of Israel and descr",
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.56a",
+      "wh_title": "Describe the economic and military power shift at the end of World War II",
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.57",
+          "us_title": "Yalta & Potsdam",
+          "strength": "partial",
+          "us_questions_available": 5
+        },
+        {
+          "us_code": "US.60",
+          "us_title": "Containment; Truman Doctrine; Marshall Plan; Berlin Airlift",
+          "strength": "partial",
+          "us_questions_available": 4
+        }
+      ],
+      "reusable_us_questions": 9
+    },
+    {
+      "wh_code": "W.56b",
+      "wh_title": "Describe the economic and military power shift at the end of World War II",
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.57",
+          "us_title": "Yalta & Potsdam",
+          "strength": "partial",
+          "us_questions_available": 5
+        }
+      ],
+      "reusable_us_questions": 5
+    },
+    {
+      "wh_code": "W.57",
+      "wh_title": "Analyze the rise of communism and Mao Zedong in China",
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.62",
+          "us_title": "Korean War",
+          "strength": "partial",
+          "us_questions_available": 1
+        }
+      ],
+      "reusable_us_questions": 1
+    },
+    {
+      "wh_code": "W.58",
+      "wh_title": "Describe the characteristics of the Cold War and explain reasons for the rising tensions b",
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.59",
+          "us_title": "US-Soviet competition; NATO/Warsaw Pact",
+          "strength": "strong",
+          "us_questions_available": 4
+        },
+        {
+          "us_code": "US.60",
+          "us_title": "Containment; Truman Doctrine; Marshall Plan; Berlin Airlift",
+          "strength": "strong",
+          "us_questions_available": 4
+        }
+      ],
+      "reusable_us_questions": 8
+    },
+    {
+      "wh_code": "W.59",
+      "wh_title": "Summarize the functions of the Warsaw Pact and NATO",
+      "unit": 10,
+      "unit_title": "The Cold War Begins",
+      "quarter": "Q3",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.59",
+          "us_title": "US-Soviet competition; NATO/Warsaw Pact",
+          "strength": "strong",
+          "us_questions_available": 4
+        }
+      ],
+      "reusable_us_questions": 4
+    },
+    {
+      "wh_code": "W.60",
+      "wh_title": "Describe methods of Soviet control in Eastern Europe and the role of Berlin as a focal poi",
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.70",
+          "us_title": "Détente; SALT; INF; fall of Berlin Wall",
+          "strength": "partial",
+          "us_questions_available": 2
+        }
+      ],
+      "reusable_us_questions": 2
+    },
+    {
+      "wh_code": "W.61",
+      "wh_title": "Explain the role of the nuclear arms race",
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.64",
+          "us_title": "Nuclear fears; MAD; Sputnik",
+          "strength": "strong",
+          "us_questions_available": 3
+        },
+        {
+          "us_code": "US.65",
+          "us_title": "Cuba; Bay of Pigs; Cuban Missile Crisis",
+          "strength": "strong",
+          "us_questions_available": 3
+        }
+      ],
+      "reusable_us_questions": 6
+    },
+    {
+      "wh_code": "W.62",
+      "wh_title": "Describe examples of national uprisings against the Soviet Union (e",
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.63a",
+      "wh_title": "Describe the competition in Asia between the Soviet Union and U",
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.62",
+          "us_title": "Korean War",
+          "strength": "strong",
+          "us_questions_available": 1
+        }
+      ],
+      "reusable_us_questions": 1
+    },
+    {
+      "wh_code": "W.63b",
+      "wh_title": "Describe the competition in Asia between the Soviet Union and U",
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.66",
+          "us_title": "Vietnam War",
+          "strength": "strong",
+          "us_questions_available": 1
+        }
+      ],
+      "reusable_us_questions": 1
+    },
+    {
+      "wh_code": "W.64",
+      "wh_title": "Explain reasons for the rapid decline of communist systems in the late 1980s",
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.70",
+          "us_title": "Détente; SALT; INF; fall of Berlin Wall",
+          "strength": "strong",
+          "us_questions_available": 2
+        }
+      ],
+      "reusable_us_questions": 2
+    },
+    {
+      "wh_code": "W.65",
+      "wh_title": "Analyze the political",
+      "unit": 11,
+      "unit_title": "The Cold War Continues",
+      "quarter": "Q4",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.70",
+          "us_title": "Détente; SALT; INF; fall of Berlin Wall",
+          "strength": "partial",
+          "us_questions_available": 2
+        }
+      ],
+      "reusable_us_questions": 2
+    },
+    {
+      "wh_code": "W.66",
+      "wh_title": "Explain the push and pull factors of migration",
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "overlap": "thematic",
+      "us_matches": [
+        {
+          "us_code": "US.07",
+          "us_title": "Old vs new immigrants; push/pull factors",
+          "strength": "thematic",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.67",
+      "wh_title": "Explain the reasons for and the effects of the partition of the Indian subcontinent into I",
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.68",
+      "wh_title": "Explain the factors that led to the creation of a lasting democratic government in India a",
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.69",
+      "wh_title": "Describe the development",
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.70",
+      "wh_title": "Explain the fight against and dismantling of the apartheid system in South Africa",
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.71",
+      "wh_title": "Analyze the political",
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.72",
+      "wh_title": "Explain how ideological conflicts between capitalism and communism led to armed insurgenci",
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.65",
+          "us_title": "Cuba; Bay of Pigs; Cuban Missile Crisis",
+          "strength": "partial",
+          "us_questions_available": 3
+        }
+      ],
+      "reusable_us_questions": 3
+    },
+    {
+      "wh_code": "W.73",
+      "wh_title": "Describe how competing national",
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.74",
+      "wh_title": "Compare and contrast the causes and effects of modern genocide",
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.75",
+      "wh_title": "Explain the causes and effects of German reunification on both West and East Germany",
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.70",
+          "us_title": "Détente; SALT; INF; fall of Berlin Wall",
+          "strength": "partial",
+          "us_questions_available": 2
+        }
+      ],
+      "reusable_us_questions": 2
+    },
+    {
+      "wh_code": "W.76",
+      "wh_title": "Analyze the response of Arab countries to the creation of the State of Israel and the peac",
+      "unit": 12,
+      "unit_title": "Creation of New States and Decolonization",
+      "quarter": "Q4",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.88",
+          "us_title": "Carter; energy crisis; Camp David; Iran hostages",
+          "strength": "partial",
+          "us_questions_available": 11
+        }
+      ],
+      "reusable_us_questions": 11
+    },
+    {
+      "wh_code": "W.77",
+      "wh_title": "Analyze the demographic changes of countries in post-World War II regions",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.78",
+      "wh_title": "Explain the challenges of rapid population growth on developing countries (e",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.79",
+      "wh_title": "Describe the cultural",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.94",
+          "us_title": "Communication methods 1970-today",
+          "strength": "partial",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.80",
+      "wh_title": "Evaluate the impact of geospatial technologies (such as GPS and GIS) on retail",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "thematic",
+      "us_matches": [
+        {
+          "us_code": "US.94",
+          "us_title": "Communication methods 1970-today",
+          "strength": "thematic",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.81",
+      "wh_title": "Analyze the economic",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.89",
+          "us_title": "Reagan; War on Drugs",
+          "strength": "partial",
+          "us_questions_available": 11
+        }
+      ],
+      "reusable_us_questions": 11
+    },
+    {
+      "wh_code": "W.82",
+      "wh_title": "Analyze how technology has intensified patterns of globalization and led to the idea of sp",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "thematic",
+      "us_matches": [
+        {
+          "us_code": "US.91",
+          "us_title": "Clinton; NAFTA",
+          "strength": "thematic",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.83",
+      "wh_title": "Explain the goals and consequences of trade organizations and treaties and how they have p",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.91",
+          "us_title": "Clinton; NAFTA",
+          "strength": "strong",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    },
+    {
+      "wh_code": "W.84",
+      "wh_title": "Identify examples of supranational organizations and discuss the benefits and drawbacks of",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "partial",
+      "us_matches": [
+        {
+          "us_code": "US.58",
+          "us_title": "Founding of the UN; Cordell Hull",
+          "strength": "partial",
+          "us_questions_available": 2
+        },
+        {
+          "us_code": "US.59",
+          "us_title": "US-Soviet competition; NATO/Warsaw Pact",
+          "strength": "partial",
+          "us_questions_available": 4
+        }
+      ],
+      "reusable_us_questions": 6
+    },
+    {
+      "wh_code": "W.85",
+      "wh_title": "Analyze the causes and effects of an increased role of South and East Asian countries in t",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "none",
+      "us_matches": [],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.86",
+      "wh_title": "Describe the international importance and rapid economic development of the oil-rich Persi",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "thematic",
+      "us_matches": [
+        {
+          "us_code": "US.88",
+          "us_title": "Carter; energy crisis; Camp David; Iran hostages",
+          "strength": "thematic",
+          "us_questions_available": 11
+        }
+      ],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.87",
+      "wh_title": "Explain implications of the transition from the use of fossil fuels to alternative and ren",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "thematic",
+      "us_matches": [
+        {
+          "us_code": "US.87",
+          "us_title": "Environmentalism; EPA",
+          "strength": "thematic",
+          "us_questions_available": 11
+        }
+      ],
+      "reusable_us_questions": 0
+    },
+    {
+      "wh_code": "W.88",
+      "wh_title": "Describe governing ideologies",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.90",
+          "us_title": "GHW Bush; Panama; Gulf War",
+          "strength": "strong",
+          "us_questions_available": 11
+        },
+        {
+          "us_code": "US.92",
+          "us_title": "9/11; wars in Afghanistan/Iraq; counterterrorism",
+          "strength": "strong",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 21
+    },
+    {
+      "wh_code": "W.89",
+      "wh_title": "Analyze the causes and consequences of terrorism and international efforts to counteract i",
+      "unit": 13,
+      "unit_title": "Understanding the Contemporary World",
+      "quarter": "Q4",
+      "overlap": "strong",
+      "us_matches": [
+        {
+          "us_code": "US.92",
+          "us_title": "9/11; wars in Afghanistan/Iraq; counterterrorism",
+          "strength": "strong",
+          "us_questions_available": 10
+        }
+      ],
+      "reusable_us_questions": 10
+    }
+  ]
+}
