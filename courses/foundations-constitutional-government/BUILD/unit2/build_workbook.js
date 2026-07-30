@@ -387,7 +387,7 @@ function block(code){
     ['O — Outside connection: how does it connect to this standard?',''],
   ],[4263,5529],{lines:2}));
   out.push(callout('SUPPORT OPTION',['Sentence frame: This source shows ______ because it ______, which reveals ______.']));
-  if(im.anchor) out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________']));
+  if(im.anchor){ out.push(callout('SOURCE SYNTHESIS — put it together (SSP.03)',['In 2–3 sentences: what does this source reveal about this standard, and how do you know? Cite one specific detail from it.'])); out.push(...ruled(5)); out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________'])); }
   else out.push(...sourceExtension(code));
   // Activity 6 — Practice Quiz
   out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8}));

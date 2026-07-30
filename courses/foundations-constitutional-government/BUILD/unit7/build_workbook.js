@@ -6,7 +6,7 @@ const {Document,Packer,Paragraph,TextRun,HeadingLevel,AlignmentType,Table,TableR
 const C=JSON.parse(fs.readFileSync('analysis/unit7_content.json','utf8'));
 const IMG=fs.existsSync('analysis/unit7_images.json')?JSON.parse(fs.readFileSync('analysis/unit7_images.json','utf8')):{};
 const EXIT=fs.existsSync('analysis/unit7_exit_tickets.json')?JSON.parse(fs.readFileSync('analysis/unit7_exit_tickets.json','utf8')):{};
-const SAMPLE=process.env.SAMPLE?Number(process.env.SAMPLE):0; const ORDER=SAMPLE?C.order.slice(0,SAMPLE):C.order;
+const SAMPLE=process.env.SAMPLE?Number(process.env.SAMPLE):0; const ONLYSTD=process.env.ONLYSTD||''; const PREVIEW=SAMPLE||ONLYSTD; const ORDER=ONLYSTD?[ONLYSTD]:(SAMPLE?C.order.slice(0,SAMPLE):C.order);
 // ---- course/unit chrome (parameterized — no hardcoded US-History / district content) ----
 const U=C.unit; const BRAND=(U.brand||'Government Hack'); const BRANDTM=BRAND+'™';
 const UNIT_NO=(U.code||'Unit 1').replace(/Unit\s*/i,'');
@@ -387,7 +387,7 @@ function block(code){
     ['O — Outside connection: how does it connect to this standard?',''],
   ],[4263,5529],{lines:2}));
   out.push(callout('SUPPORT OPTION',['Sentence frame: This source shows ______ because it ______, which reveals ______.']));
-  if(im.anchor) out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________']));
+  if(im.anchor){ out.push(callout('SOURCE SYNTHESIS — put it together (SSP.03)',['In 2–3 sentences: what does this source reveal about this standard, and how do you know? Cite one specific detail from it.'])); out.push(...ruled(5)); out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________'])); }
   else out.push(...sourceExtension(code));
   // Activity 6 — Practice Quiz
   out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8}));
@@ -487,6 +487,6 @@ const doc=new Document({creator:'TroopToTeacher Technologies LLC',title:BRAND+' 
     {id:'Heading3',name:'Heading 3',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:24,bold:true,color:RED},paragraph:{spacing:{before:120,after:70},outlineLevel:2,keepNext:true}},
   ]},
   sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1224,right:1224,header:720,footer:720}}},
-    headers:{default:header},footers:{default:footer},children: SAMPLE ? [P(R(`SAMPLE — Unit 1 · first ${SAMPLE} standards (activities only, ruled-line writing) — for review`,{s:24,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:120}}), ...standards] : [...cover,...front,...standards,...back]}]});
-const OUTFILE=SAMPLE?`deliverables/Unit7_SAMPLE_${SAMPLE}standards.docx`:'deliverables/Unit7_Student_Workbook_CourseStandard'+(LP>1?'_LargePrint':'')+'.docx';
+    headers:{default:header},footers:{default:footer},children: PREVIEW ? [P(R(`PREVIEW — Unit 1 · first ${SAMPLE} standards (activities only, ruled-line writing) — for review`,{s:24,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:120}}), ...standards] : [...cover,...front,...standards,...back]}]});
+const OUTFILE=PREVIEW?`deliverables/Unit7_PREVIEW_${ONLYSTD||SAMPLE+'std'}.docx`:'deliverables/Unit7_Student_Workbook_CourseStandard'+(LP>1?'_LargePrint':'')+'.docx';
 Packer.toBuffer(doc).then(b=>{fs.writeFileSync(OUTFILE,b);console.log('WROTE',OUTFILE,b.length,'bytes');});
