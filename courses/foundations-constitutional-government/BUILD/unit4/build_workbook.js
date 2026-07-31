@@ -273,7 +273,7 @@ function block(code){
   a.frayer.forEach((term,fi)=>{const v=s.vocab.find(x=>x.term===term)||s.vocab[0];
     out.push(gap(fi===0?30:100));
     out.push(priorityBar(fi+1,term,v.es));
-    out.push(P(R('Word-bank meaning to build on: '+v.def,{s:20})));
+    out.push(P([R('Word-bank meaning to build on: ',{s:20,b:true}),R(v.def,{s:20})]));
     out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:600}));
     out.push(callout('Use it to explain',['Write one sentence that uses “'+term+'” to explain this standard.']));
     out.push(...ruled(1));});
