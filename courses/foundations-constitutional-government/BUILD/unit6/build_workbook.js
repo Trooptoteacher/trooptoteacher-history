@@ -405,7 +405,9 @@ function block(code){
     'Sentence starters: “Why did ______ lead to ______?”  ·  “Which mattered more — ______ or ______ — and why?”  ·  “What is the BEST evidence that ______?”  ·  “Evaluate whether ______.”  ·  “Defend or challenge: ______.”',
     'Frame:  [Analyze / Evaluate / Justify]  +  [something from THIS standard]  +  “using evidence.”',
     'Quick check: does my question make the reader THINK and use evidence? If yes, it’s DOK-3.']));
-  out.push(writeTable(['Your DOK-3 question','Your answer key (one sentence)'],[['',''],['','']],[4896,4896],{rowH:1000}));
+  out.push(gap(120));
+  out.push(writeBox('NOW WRITE YOUR DOK-3 QUESTION HERE',5));
+  out.push(writeBox('YOUR ANSWER KEY — one clear, defensible sentence',4));
   // Activity 7 — CER
   out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:15}));
   out.push(callout('BIG-QUESTION ORGANIZER (before you write) — '+EQ,['Plan your argument here, then use it to write your claim, evidence, and reasoning below.']));
