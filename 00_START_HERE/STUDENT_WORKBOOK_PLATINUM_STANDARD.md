@@ -1,8 +1,8 @@
 # U.S. History Hack — Student Workbook Platinum Standard
 
-**Version:** 1.0 — DRAFT for Sean's review
+**Version:** 1.0 — **LOCKED** (approved by Sean)
 **Owner:** TroopToTeacher Technologies LLC
-**Status:** Working master. Edit this file, hand it back, and it becomes the source of truth I encode into the build engine (print PDFs) and the web edition.
+**Status:** Authoritative spec. This governs **every** U.S. History Hack Course Standard student workbook — every unit, every standard. Geometry, typography, palette, sections, and all guardrails below are locked to the **Unit 6 reference build** (`00_START_HERE/PLATINUM_REFERENCE_BUILD/`), which was rendered and QC'd page-by-page. Any change to a future workbook that deviates from this doc is a defect unless this doc is updated first.
 
 ---
 
@@ -26,36 +26,28 @@ Everything below reflects what the engine and skills **currently** do, so you're
 | Parameter | Current value | Notes |
 |---|---|---|
 | Trim size | **8.5 in × 11 in (US Letter), portrait** | Fixed. Do not change without re-checking every table width. |
-| Margins (all four sides) | **0.72 in, uniform** | Single constant `MARGIN`. Change once, everything reflows. |
-| Printable body width | **7.06 in** | = 8.5 − (2 × 0.72). All content boxes size to this. |
-| Running header rule | **0.55 in from top** | Thin rule; caps label above it at 0.50 in. |
-| Header content | Left: `U.S. HISTORY HACK · <SECTION>` · Right: `<UNIT> · <section>` | |
-| Running footer rule | **0.60 in from bottom** | |
-| Footer content | Left: copyright line at 0.44 in · Right: **dynamic page number** at 0.44 in | Page numbers are never hardcoded. |
-| Printable **body** (for white-space math) | Everything **between the header rule and the footer rule**, inside the side margins | This is the area §5 measures. Header, footer, and margins are excluded. |
-
-> `DECISION NEEDED — margins`: 0.72 in is generous and reads clean, but costs page count. If you want tighter (e.g. 0.6 in) or a wider inside gutter for binding, set it here.
+| Margins | **0.8 in top/bottom · 0.9 in left/right** | LOCKED (Unit 6 reference build). |
+| Printable body width | **6.7 in** | = 8.5 − (2 × 0.9). All content boxes size to this. |
+| Header / footer distance | **0.5 in each** | Running header (unit · edition) top-right; footer bottom. |
+| Header content | Right: `U.S. History Hack™ · Unit N · Course Standard Edition` | |
+| Footer content | Left: `U.S. History Hack™ · Unit N (Course Standard) · © 2026 TroopToTeacher Technologies LLC` · Right: **dynamic page number** | Page numbers never hardcoded. |
+| Printable **body** (for white-space math) | Everything **between the header and footer**, inside the side margins | The area §5 measures. |
 
 ---
 
 ## 2. Typography
 
-Two type families, used consistently:
+**One type family — Calibri — used throughout** (Course Standard reference; LOCKED).
 
-- **Headline / display:** Georgia (serif).
-- **Body / UI:** Helvetica / Arial (DM Sans in the engine when the font is embedded).
-- **Primary-source excerpts:** serif, justified, slightly larger for readability.
-
-| Element | Size / leading | Color role |
+| Element | Font / size | Color |
 |---|---|---|
-| H1 section head | 17 pt / 21 | Navy |
-| H2 sub-head | 12.5 pt / 16 | Red |
-| Small label (caps) | 9 pt / 12 | Navy |
-| **Body text** | **10.5 pt / 15** | Ink |
-| Primary-source excerpt | 11 pt / 16.5 serif, justified | Ink |
-| Citation | 8.5 pt italic | Muted |
-| Image caption | 8 pt | Muted |
-| Source credit | 7 pt | Muted grey |
+| Title (cover / section) | Calibri 28 pt bold | Navy |
+| H1 section head | Calibri 18 pt bold | Navy `#1B2A4A` |
+| H2 sub-head | Calibri 14 pt bold | Navy `#1B2A4A` |
+| H3 / activity label | Calibri 12 pt bold | Red `#B22234` |
+| **Body text** | **Calibri 10.5–11 pt** | Ink |
+| Table cell / compact furniture | Calibri 9.5–10.5 pt | Ink |
+| Fine print (caption, credit, footer) | Calibri 7–9 pt | Muted |
 
 **Font floors (hard rules):**
 
@@ -63,8 +55,7 @@ Two type families, used consistently:
 - Never below **9.5 pt** in compact activity furniture (table cells, response frames).
 - Fine print (captions, credits, footers): 7–9 pt is acceptable.
 - **Never shrink essential instructional text just to make an activity fit.** If it won't fit at size, use a smaller activity or reflow (see §5).
-
-> `DECISION NEEDED — body size`: 10.5 pt is the current floor for body copy. If your Unit 6 review says the reading feels dense, we can raise the floor to 11 pt (fewer words per page, more pages).
+- **Strip the leftover Word-default blue (`#2E74B5`) heading styles** — only the branded Calibri navy/red headings ship.
 
 ---
 
@@ -83,12 +74,7 @@ Light writable surfaces are intentionally pale so students can write on them and
 | Border | `#C9C2B4` | Box rules |
 | Writing-line | `#C4CCDA` | Faint response guide-lines |
 
-> `DECISION NEEDED — one canonical navy (IMPORTANT)`: three different navies are in play across the assets today, and they should be reconciled to one:
-> - Print workbook + graphic organizers: **`#1B2A4A`**
-> - Web edition / unit-builder brand system: **`#0A1F3C`** (with secondary `#143159`)
-> - Teacher slide deck: **`#1A2332`**
->
-> Pick one navy (and confirm gold — the deck uses `#C9A84C`, print uses `#C89B3C`) and I'll make print, web, and deck match it everywhere.
+**Canonical palette (LOCKED):** Navy **`#1B2A4A`** · Red **`#B22234`** · Gold **`#C89B3C`** · Card **`#F7F5EF`**. Every product aligns to these — the teacher deck's `#1A2332` and the web edition's `#0A1F3C` are **deprecated** and migrate to `#1B2A4A`; deck gold `#C9A84C` migrates to `#C89B3C`.
 
 **Grayscale rule (locked):** no color-only encoding. Anything communicated by color must *also* be communicated by shading, a rule/border, or a text label, so the book photocopies clean in black and white.
 
@@ -293,6 +279,19 @@ Every standard runs an identical structure. Front matter opens the unit; each st
 **Exit Ticket** — closes the standard, kept **whole on its own page** (`cantSplit`), never split across pages.
 
 Reference build: **Unit 6, US.45** (rendered and QC'd page-by-page). Units US.46–US.58 are built by propagating this exact anatomy.
+
+### 7.7 Spacing & separation (LOCKED)
+
+- **Space before every section title** so a title never butts against the block above it.
+- **Multi-section readings** (e.g. the CORE PATH passage): add space before each **sub-heading** so sections don't jumble together.
+- **Question sets** (Practice Quiz): a clear gap before each question; **questions are numbered**.
+- **Standalone boxes never split** across pages — set `cantSplit` on boxes meant to stay whole (Exit Ticket, CONNECT THE TERMS, etc.).
+- **No stray empty paragraphs before a forced page break** — they create blank pages. Remove them, and the QC pass (§7.5) must confirm **zero blank/near-empty pages**.
+- **Writing lines** are faint ruled lines (`#9AA0AB`), sized to fill their box; response boxes with no room redirect to notebook/whiteboard (§7.2).
+
+### 7.8 Deck ↔ workbook slide-keying (DEFERRED — build decks first)
+
+The workbook will key each writing/response activity to the exact Course Standard deck slide (`▶ Deck slide N`), per `SLIDE_DECK_PLATINUM_STANDARD.md` §1 (shared standard-code spine, workbook→deck keying, deck→workbook cue, same-item checks). **This requires the Course Standard teacher/student decks to be (re)built first.** Until the decks exist, slide-keying is intentionally omitted — never hardcode a slide number. Sequence: build Course Standard decks → then add `▶ Deck slide N` references to the workbook.
 
 ---
 
