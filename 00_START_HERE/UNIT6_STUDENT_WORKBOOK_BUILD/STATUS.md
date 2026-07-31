@@ -48,10 +48,20 @@ WRITING SUPPORTS page, which leaves ~30% white space on the supports page. Could
 so the exit ticket rides up onto the supports page (would need to change locked US.45 too).
 </details>
 
+## Phase 3 — COMPLETE — student version DONE (190 pp, zero blank pages)
+- **HOOKs** rewritten for US.46–US.58 into engaging, standard-specific openers.
+- **Practice quizzes (Activity 6) rebuilt** for US.46–US.58: the old auto-assembled quizzes
+  had off-topic / mis-standardized items (e.g., an MLK item inside US.46) and only 3 questions
+  each. Replaced with **4 verified, standard-aligned multiple-choice items per standard**,
+  curated by content from the authoritative psychometric bank in `history-hack-web-app`
+  (`public/data/us-history/questions/unit-6/`, 719 Unit 6 items with IRT params + verified
+  answers). Each standard now has a balanced DOK spread and an on-page **self-check answer key**
+  ("commit first, then check"). US.45 left as the locked reference.
+- Note: the bank uses an older code numbering, so items were mapped and verified by content,
+  not by code. US.49 (WWII leaders) had no clean bank family; pulled verified leader items
+  (Eisenhower/D-Day, Eisenhower vs. MacArthur, Marshall, MacArthur).
+
 ## Remaining work (not yet done)
-- **Phase 3 — per-standard content polish**: strong standard-specific HOOKs (some currently
-  restate the standard verbatim), worked-example models, and quiz self-check answer keys
-  (derive per item; flag for teacher-key cross-check).
 - **Teacher edition** of the workbook.
 - **Slide decks** (student + teacher) to Course Standard palette/format.
 - **Deck ↔ workbook slide-keying** (deferred until decks exist — see standard §7.8).
