@@ -253,6 +253,18 @@ Rules:
 - The front's goal and rigor are **identical whether or not the back is printed.**
 - Feasibility by activity: Vocabulary, Vocab Studio, Practice Quiz, and CER take the model directly (one-page fronts); Cornell Notes, Close Read, and Primary-Source/HIPPO must first be trued to a fixed page count. Reference implementation: **Unit 6, Activity 7 (CER)** — CER front + verso Writing Supports (stems + model + student-language rubric).
 
+### 7.2 Response space (guardrail)
+
+Every box or prompt that asks a student to write **must give them somewhere to write**:
+- If the box has room, include **notebook-style writing lines** (faint ruled lines) sized to fill the box.
+- If the box has no room, **redirect the response explicitly** — e.g., "Do this in your notebook or on a whiteboard — be ready to share" — rather than leaving a prompt with nowhere to respond.
+- A response prompt stranded with no writing space **and** no redirect is a defect.
+- For "connect / synthesize / sketch" prompts that need more room than a box allows, make it an active task with a named location (notebook, whiteboard, stand-and-share).
+
+### 7.3 Blank-space guardrail (must fit)
+
+Fill meaningful blank space with supports or a context-matched activity (§5) — **but the added content must fit the space it fills; it may never push content onto another page.** If it cannot fit, redirect the response (§7.2) or reflow. A near-empty page is a layout defect: fill it (often best as a **back-page support**, §7.1) or reflow it away. Always render and visually confirm after filling.
+
 ---
 
 ## 8. Web edition parity
