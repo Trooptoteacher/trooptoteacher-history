@@ -32,7 +32,7 @@ const SZ=(n)=>Math.round(n*LP);
 // width transparent image is measured by every renderer, so it holds the column open everywhere.
 const SPACER_PNG=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4//8/AwAI/AL+p5qgoAAAAABJRU5ErkJggg==','base64');
 // width-forcing invisible image, w in twips -> px @96dpi (w/15), held ~300 twips inside the cell margin.
-function widthAnchor(w){return new ImageRun({type:'png',data:SPACER_PNG,transformation:{width:Math.max(8,Math.round((w-300)/15)),height:1},altText:{title:'',description:'spacer',name:'spacer'}});}
+function widthAnchor(w){return new ImageRun({type:'png',data:SPACER_PNG,transformation:{width:Math.max(8,Math.round((w-240)/15)),height:1},altText:{title:'',description:'spacer',name:'spacer'}});}
 function R(text,{s=22,b=false,i=false,c=INK,caps=false}={}){return new TextRun({text,size:SZ(s),bold:b,italics:i,color:c,font:FONT,allCaps:caps});}
 function P(runs,{align,spacing,indent,border}={}){return new Paragraph({alignment:align,spacing:spacing||{after:100},indent,border,children:Array.isArray(runs)?runs:[runs]});}
 function H(text,lvl,{brk=false,mins=null}={}){const map={1:HeadingLevel.HEADING_1,2:HeadingLevel.HEADING_2,3:HeadingLevel.HEADING_3};
@@ -178,33 +178,31 @@ const cover=[
   callout('★ '+TNLABEL,[U.tn_connection||'']),
   P(R('One common workbook designed for learner variability. Every student works toward the same Tennessee standards; supports vary the means, not the goal or the ceiling.',{s:22,i:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{before:280,after:180}}),
   P(R('Release-Ready · Pilot Edition',{s:22,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:40}}),
-  P(R('© 2026 TroopToTeacher Technologies LLC. All rights reserved.   ISBN: [to be assigned]',{s:18,c:GREY}),{align:AlignmentType.CENTER}),
-  PB()];
+  P(R('© 2026 TroopToTeacher Technologies LLC. All rights reserved.   ISBN: [to be assigned]',{s:18,c:GREY}),{align:AlignmentType.CENTER})];
 
 // ================= FRONT MATTER =================
+// NB: page breaks ride on the following heading (pageBreakBefore), never a standalone empty
+// PB() paragraph — some mobile previewers (iOS Files) draw an empty page-break paragraph as a box.
 const front=[
-  H('Copyright, Ownership & Framework',1),
+  H('Copyright, Ownership & Framework',1,{brk:true}),
   P(R(BRANDTM+' — '+(U.code||'Unit 1')+': '+(U.title||COURSE)+', Course Standard Edition.',{s:22,b:true})),
   P(R('© 2026 TroopToTeacher Technologies LLC. All rights reserved. This workbook is proprietary; reproduction or redistribution outside a licensed classroom is prohibited.',{s:22})),
   P(R('Source integrity. Every primary source in this unit is public-domain and cited to its holding repository (National Archives, Library of Congress). See the Source Library.',{s:22})),
   P(R('Reading provenance (district-clear). Close-Read passages are labeled “'+BRAND+'-authored instructional synthesis” — they build on the standard record and are not presented as primary sources.',{s:22})),
   P(R('Framework stack. This workbook anchors to Tennessee '+COURSE+' standards '+RANGE+' and the Social Studies Practices (SSP.01–SSP.06), and is designed on CAST UDL 3.0 and an MTSS support model.',{s:22})),
   P([R('Pacing. ',{s:22,b:true}),R('Each standard is built for ',{s:22}),R('one 45-minute class period.',{s:22,b:true}),R(' Each activity shows a ',{s:22}),R('⏱ ~ minutes',{s:22,b:true,c:GOLD}),R(' estimate at its heading. There is more here than one period holds — your teacher chooses which activities you do in class; the rest may become warm-ups, stations, or homework.',{s:22})]),
-  PB(),
-  H('Table of Contents',1),
+  H('Table of Contents',1,{brk:true}),
   P(R('Front matter:  Framework & Ownership  ·  Accessibility, UDL & MTSS  ·  How to Use This Workbook',{s:22})),
   dataTable(['Standard','Title'], C.order.map(c=>[c, C.standards[c].title]), [2200,7592]),
   P(R('Every standard runs the same seven-activity cycle:  (1) Vocabulary Word Bank  ·  (2) Vocabulary Studio  ·  (3) Direct-Teaching Cornell Notes (+ Guided & Light Support)  ·  (4) Close Read  ·  (5) Primary Source / Data  ·  (6) Practice Quiz  ·  (7) Constructed Response (CER)  —  plus a UDL Access, Choice & Reflection page.',{s:21,i:true,c:GREY})),
   P(R('Back matter:  Your Tennessee Connection  ·  Progress Tracker & Cumulative Review  ·  Optional Extension Bank  ·  CER Rubric  ·  Source Library  ·  Multiple Perspectives  ·  Unit Reflection.',{s:21,i:true,c:GREY})),
-  PB(),
-  H('Tennessee Standards & SSP Crosswalk',1),
+  H('Tennessee Standards & SSP Crosswalk',1,{brk:true}),
   P(R('Each standard below is taught to the full Course Standard expectation; the Social Studies Practices are embedded in every activity cycle.',{s:22})),
   dataTable(['Standard','Focus','Student Deck slides'],
     C.order.map(c=>[c,C.standards[c].title,`${C.standards[c].ref.range}`]),[1522,6240,2030]),
   H('Social Studies Practices (SSP.01–SSP.06)',2),
   P(R('SSP.01 Gather/evaluate sources · SSP.02 Critically examine a primary source · SSP.03 Synthesize evidence · SSP.04 Construct/communicate argument · SSP.05 Develop historical awareness · SSP.06 Chronological/spatial reasoning. Each Close Read, Primary Source/Data, and CER activity names the practices it builds.',{s:21})),
-  PB(),
-  H('Accessibility, UDL & Accommodations Matrix',1),
+  H('Accessibility, UDL & Accommodations Matrix',1,{brk:true}),
   P(R('One firm learning goal per standard; flexible, universal means. Supports are available by design and never lower the goal. They work alongside — never in place of — required IEP or 504 accommodations.',{s:22})),
   dataTable(['Universal support','What it is','Where it appears'],[
     ['CORE PATH','Essential instruction every student completes','Every activity'],
@@ -223,8 +221,7 @@ const front=[
     ['Guided or Light Support Back',''],
     ['Response choice (say/record/diagram) · Sentence frames',''],
   ],[3451,6341],{rowH:300,lines:2}),
-  PB(),
-  H('How to Use This Workbook',1),
+  H('How to Use This Workbook',1,{brk:true}),
   P(R('Each standard runs the same seven-activity cycle: (1) Vocabulary Word Bank, (2) Vocabulary Studio, (3) Direct-Teaching Cornell Notes with optional Guided and Light Support Backs, (4) Close Read, (5) Primary Source / Data Analysis, (6) Core Application Practice Quiz, (7) Constructed Response (CER). Work the CORE PATH; reach for SUPPORT OPTIONS as needed.',{s:22})),
   H('Label legend — these appear throughout every standard cycle',2),
   dataTable(['Label','Meaning'],[
@@ -240,16 +237,14 @@ const front=[
     'Retrieve, don’t reread. On the Practice Quiz and Retrieval boxes, cover your notes and pull ideas from memory — a little struggle is what makes memory stick.',
     'Space it out. Revisit earlier standards on the Progress Tracker; a few minutes across several days beats one long cram session.',
     'Show what you know your way. Any written response may be written, spoken and recorded, or drawn as a labeled diagram — the learning target is the same for everyone.']),
-  PB(),
-  H('Before You Begin — Set Your Goal',2),
+  H('Before You Begin — Set Your Goal',2,{brk:true}),
   P(R('This unit asks one big question: '+EQ+' Set a goal for the unit, then note what you already know and what you wonder. Write in full sentences — you will look back at this on the final review.',{s:22})),
   writeTable(['Prompt','Your response — write in complete sentences'],[
     ['My goal for this unit is…',''],
     ['One thing I already know about this era…',''],
     ['One question I want answered…',''],
     ['A word or idea I expect to be tricky…',''],
-  ],[3045,6747],{rowH:1200,lines:4}),
-  PB()];
+  ],[3045,6747],{rowH:1200,lines:4})];
 
 // ================= PER-STANDARD =================
 function block(code){

@@ -44,10 +44,13 @@ for s in doc.sections:
     s.top_margin=s.bottom_margin=Inches(0.8); s.left_margin=s.right_margin=Inches(0.85)
 st=doc.styles['Normal']; st.font.name='Calibri'; st.font.size=Pt(11)
 
-def para(text='',size=11,bold=False,italic=False,color=None,align=None,after=6,before=0):
+def para(text='',size=11,bold=False,italic=False,color=None,align=None,after=6,before=0,pbreak=False):
     p=doc.add_paragraph(); r=p.add_run(text); r.font.size=Pt(size); r.bold=bold; r.italic=italic
     if color is not None: r.font.color.rgb=color
     if align is not None: p.alignment=align
+    # page_break_before rides on the section's first paragraph — never a standalone empty page-break
+    # paragraph, which some mobile previewers (iOS Files) draw as a stray box.
+    if pbreak: p.paragraph_format.page_break_before=True
     p.paragraph_format.space_after=Pt(after); p.paragraph_format.space_before=Pt(before); return p
 def rule(): para('—'*54,size=9,color=GREY,after=4)
 def box(rows, widths=(2.4,4.6)):
@@ -74,10 +77,8 @@ para('Universal Design for Learning 3.0 (CAST, 2024) + MTSS. Read-aloud on reque
      size=10,italic=True,color=GREY,align=WD_ALIGN_PARAGRAPH.CENTER,after=8)
 para('© 2026 TroopToTeacher Technologies LLC. Documents below are public domain. '
      'Assessment is classroom-formative · pre-field-test.',size=9,color=GREY,align=WD_ALIGN_PARAGRAPH.CENTER)
-doc.add_page_break()
-
 # ---- THE INVESTIGATION ----
-para('The Historical Question',size=16,bold=True,color=NAVY,after=4)
+para('The Historical Question',size=16,bold=True,color=NAVY,after=4,pbreak=True)
 rule()
 para('For centuries, European kings claimed they ruled by the divine right of kings — that God had chosen them, so no '
      'one on earth could question them. During the 1600s and 1700s, Enlightenment thinkers argued something '
@@ -107,8 +108,7 @@ DOCS=[
          "just powers from the consent of the governed.”"},
 ]
 for d in DOCS:
-    doc.add_page_break()
-    para(f'Document {d["id"]} — {d["title"]}',size=15,bold=True,color=NAVY,after=2)
+    para(f'Document {d["id"]} — {d["title"]}',size=15,bold=True,color=NAVY,after=2,pbreak=True)
     para(f'{d["who"]}, {d["date"]}. {d["repo"]}  ·  Theme: {d["tag"]}',size=10,italic=True,color=GREY,after=6)
     para(d['text'],size=12,after=8)
     para('SOAPS — source it first',size=12,bold=True,color=RED,after=2)
@@ -124,8 +124,7 @@ for d in DOCS:
          italic=True,color=GREY,size=10)
 
 # OPTIC (for the visual pairing) + comparison
-doc.add_page_break()
-para('Put the documents in conversation',size=15,bold=True,color=NAVY,after=4); rule()
+para('Put the documents in conversation',size=15,bold=True,color=NAVY,after=4,pbreak=True); rule()
 para('OPTIC (if your teacher pairs these texts with a portrait such as Rigaud’s Louis XIV): Overview · Parts · Title · '
      'Interrelationships · Conclusion — how does the image project the same idea of power that Document A defends?',size=10,italic=True,color=GREY,after=6)
 box([('Where A (divine right) and B/C (consent) most directly DISAGREE',''),
@@ -133,8 +132,7 @@ box([('Where A (divine right) and B/C (consent) most directly DISAGREE',''),
      ('One question you still have',''),], widths=(3.6,3.4))
 
 # ---- CER ARGUMENT ----
-doc.add_page_break()
-para('Build Your Argument (CER)',size=16,bold=True,color=NAVY,after=4); rule()
+para('Build Your Argument (CER)',size=16,bold=True,color=NAVY,after=4,pbreak=True); rule()
 para('Should the power to rule come from God (divine right) or from the people (consent of the governed)? '
      'Write a claim, support it with evidence from at least TWO documents, and explain your reasoning.',size=12,bold=True,after=6)
 para('Argument frames (use if helpful): “The power to rule should come from ______.”  ·  '
@@ -148,8 +146,7 @@ para('Self-check: Is my claim a clear answer? Do I cite TWO documents by letter?
      'evidence proves the claim? Did I address the other side?',italic=True,color=GREY,size=10)
 
 # ---- EN/ES LANGUAGE COMPANION ----
-doc.add_page_break()
-para('Language Access Companion (EN / ES)',size=15,bold=True,color=NAVY,after=4); rule()
+para('Language Access Companion (EN / ES)',size=15,bold=True,color=NAVY,after=4,pbreak=True); rule()
 para('Key terms for this investigation, in English and Spanish. Términos clave para esta investigación, en inglés y español.',
     italic=True,color=GREY,size=10,after=6)
 vt=doc.add_table(rows=1,cols=3); vt.style='Table Grid'; _fixed(vt)
@@ -174,8 +171,7 @@ para('Frame in both languages: “The power to rule should come from ______, bec
      '“El poder para gobernar debe venir de ______, porque ______.”',italic=True,color=GREY,size=10)
 
 # ---- TEACHER GUIDE (teacher-side) ----
-doc.add_page_break()
-para('TEACHER GUIDE — keep this section; do not distribute',size=15,bold=True,color=RED,after=4); rule()
+para('TEACHER GUIDE — keep this section; do not distribute',size=15,bold=True,color=RED,after=4,pbreak=True); rule()
 para('Purpose & standards. This investigation lets students weigh the divine right of kings (W.01) against the '
      'Enlightenment ideas of natural rights and consent of the governed (W.03) and their spread into the Declaration of '
      'Independence (W.08a). It builds SSP.01–SSP.04 (source, examine, synthesize, argue).',after=6)
