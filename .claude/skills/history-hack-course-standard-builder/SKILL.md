@@ -24,6 +24,9 @@ guardrail-for-guardrail.** Source of truth only — never invent standards, cita
    - `tn-textbook-adoption-agent` — Schedule F scoring + submission package
    - `historian-factcheck-agent` — claim-by-claim primary-source verification (dates, statutes, cases)
    - `history-hack-platinum-unit-builder` / `history-hack-platinum-workbook` — sale-ready packet builds
+   - `platinum-workbook-format-qc` — **DOCX brand-lock layout + render-QC** for the Course Standard
+     student workbook (margins/sizes/Cornell/ruled lines/activity architecture, anti-bleed, Spire render
+     pass). Load it in Phase 3 when building the `build_workbook.js` docx and in Phase 5 for print QC.
    - `history-hack-print-qc-auditor` · `history-hack-teacher-ux-reviewer` · `history-hack-website-builder`
 
 ## THE 6-PHASE PIPELINE (gates between phases)
