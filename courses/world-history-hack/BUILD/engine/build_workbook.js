@@ -93,7 +93,9 @@ function ruled(n=3,w=CW){const out=[];for(let i=0;i<n;i++){
     // keep the whole column at width w instead of collapsing an empty writing cell.
     children:i===0?[widthAnchor(w),new TextRun({text:'\t',size:SZ(24),color:'FFFFFF',font:FONT})]
                   :[new TextRun({text:'\t',size:SZ(24),color:'FFFFFF',font:FONT})]}));
-  out.push(new Paragraph({widowControl:false,spacing:{before:0,after:SZ(70)},children:[new TextRun({text:'',size:2})]}));
+  // Border-less spacer ONLY between lines (to break the border-merge). No spacer after the last
+  // line — a trailing empty paragraph can tip onto the next page and leave a blank sheet.
+  if(i<n-1) out.push(new Paragraph({widowControl:false,spacing:{before:0,after:SZ(70)},children:[new TextRun({text:'',size:2})]}));
 }return out;}
 function linesFor(h){return Math.max(2,Math.round(h/380));}
 // writing table: label cells keep text; blank writing cells get ruled lines
@@ -152,11 +154,12 @@ function retrievalBox(code){return [gap(120),
   ],[3857,5935],{rowH:600})];}
 function vocabSelfCheck(code){const s=C.standards[code]; const W=[3092,1675,1675,1675,1675];
   const head=new TableRow({tableHeader:true,children:['Term','1 · never seen it','2 · heard it','3 · can use it','4 · can teach it'].map((h,i)=>cell(P(R(h,{s:15,b:true,c:i===0?NAVY:WHITE}),{align:i?AlignmentType.CENTER:AlignmentType.LEFT,spacing:{after:0}}),{w:W[i],fill:i===0?CREAM:NAVY}))});
-  const rows=s.vocab.map(v=>new TableRow({height:{value:360,rule:HeightRule.ATLEAST},children:[cell(P(R(v.term,{s:18,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(P(R(' ',{s:16}),{spacing:{after:0}}),{w:W[k]}))]}));
-  return [gap(40),
-    callout('VOCABULARY SELF-CHECK · Knowledge Rating',['Rate each term NOW in pencil, then again at the END — growth is the goal; no penalty for “never seen it.”']),
+  const rows=s.vocab.map(v=>new TableRow({height:{value:320,rule:HeightRule.ATLEAST},children:[cell(P(R(v.term,{s:18,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(P(R(' ',{s:16}),{spacing:{after:0}}),{w:W[k]}))]}));
+  return [gap(0),
+    callout('VOCABULARY SELF-CHECK · Knowledge Rating',['Rate each term now in pencil, then again at the end — growth is the goal.']),
     table([head,...rows],W),
-    ...doodle('MAKE IT YOURS (RESPONSE CHOICE) — write a sentence or draw your example','Choose ONE term above and show you own it: write a sentence that uses it, sketch it, or give a real-world example.',360)];}
+    callout('MAKE IT YOURS (RESPONSE CHOICE)',['Choose ONE term above and show you own it on the lines below — write a sentence, sketch it, or give a real-world example.']),
+    ...ruled(2)];}
 function sourceExtension(code){return [gap(40),
   callout('EXTEND & RE-ENGAGE (open to all)',['Push past the document — corroborate, contextualize, and judge its meaning.']),
   writeTable(['Historian move','Your response'],[
@@ -342,13 +345,13 @@ function block(code){
   // Activity 4 — Close Read
   out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15}));
   out.push(P(R('Reading type: '+BRAND+'-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
-  out.push(callout('CORE PATH',[a.close]));
-  out.push(callout('LANGUAGE SUPPORT',['Key terms to know first: '+s.vocab.slice(0,2).map(v=>v.term).join(', ')+'. Read once for the gist, then again for evidence.']));
+  out.push(callout('LANGUAGE SUPPORT — know these before you read',['Key terms to watch for: '+s.vocab.slice(0,2).map(v=>v.term).join(', ')+'. Read once for the gist, then again for evidence.']));
+  out.push(callout('CORE PATH — read closely',[a.close]));
   out.push(P(R('Text-dependent questions (answer in the Evidence Lab below or aloud):',{s:21,b:true})));
   a.tdq.forEach((q,i)=>out.push(P(R(`${i+1}. ${q}`,{s:20}))));
   out.push(P(R('RESPONSE CHOICE: answer any question by writing in the Evidence Lab, saying/recording it, or diagramming it.',{s:20,i:true})));
   out.push(callout('CLOSE-READ EVIDENCE LAB',['Log evidence from the passage below.']));
-  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','',''],['','','']],[3264,3264,3264],{rowH:620}));
+  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','',''],['','','']],[3264,3264,3264],{rowH:740}));
   const gmap=(IMG[code]||{}).map;
   if(s.geo && !gmap){out.push(gap(60));
     out.push(...doodle('GEOGRAPHER’S LENS (G · SSP.06) — sketch & label the geography',s.geo+' Draw a quick map in the box and label at least two places.',3000));
