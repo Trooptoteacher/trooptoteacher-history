@@ -24,7 +24,16 @@ The earlier propagation (US.46–US.58) left 19 blank/near-empty pages. Root cau
    need only a small mark, not a full writing line) and word-bank line spacing across all 14
    standards so the vocab front page holds its full content.
 
-## Phase 2 — representative proof COMPLETE (US.46)
+## Phase 2 — COMPLETE for all 14 standards (US.45–US.58)
+Every standard now carries the three back-page support pages (VOCABULARY, HIPPO, WRITING),
+built to the US.45 platinum bar with **historically accurate, standard-specific** model content
+(each HIPPO model matches that standard's Activity 5 primary source; each CER model matches its
+Activity 7 prompt; each cognate is real). The exit ticket for every standard now rides up onto
+its WRITING SUPPORTS page (the redundant back-page "Plan it first" lines were removed — the front
+Activity 7 CER page already provides full planning space), eliminating the sparse exit-ticket
+pages and filling that white space. **189 pages, zero blank pages**, verified page-by-page.
+
+<details><summary>Original single-standard proof (US.46) — superseded by the full build above</summary>
 US.46 now carries all three back-page support pages, built to the US.45 platinum bar by
 cloning US.45's exact block structure and swapping in **historically accurate, US.46-specific**
 model content:
@@ -37,10 +46,9 @@ Book is now 167 pp, still zero blank pages. Awaiting approval to replicate acros
 Observation for review: as in US.45, the exit ticket falls on its own page after the
 WRITING SUPPORTS page, which leaves ~30% white space on the supports page. Could be tightened
 so the exit ticket rides up onto the supports page (would need to change locked US.45 too).
+</details>
 
 ## Remaining work (not yet done)
-- **Phase 2 (rest) — back-page supports for US.47–US.58** (13 standards), same pattern,
-  each with its own fact-checked HIPPO + CER models and cognate.
 - **Phase 3 — per-standard content polish**: strong standard-specific HOOKs (some currently
   restate the standard verbatim), worked-example models, and quiz self-check answer keys
   (derive per item; flag for teacher-key cross-check).
