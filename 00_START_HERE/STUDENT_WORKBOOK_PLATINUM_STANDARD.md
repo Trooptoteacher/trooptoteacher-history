@@ -273,6 +273,27 @@ Every Constructed Response (CER) includes a **student self-grading rubric**, not
 
 No workbook change ships until it is **rendered to PDF and visually inspected** page by page — writing lines present and legible, no prompt without response space, no bleed/orphan, and every filled space actually fits. (Environment note: LibreOffice `soffice --headless --convert-to pdf` + `pypdfium2` renders faithfully once `libreoffice-writer` is installed.)
 
+### 7.6 Course Standard per-standard anatomy (LOCKED — Unit 6 · US.45 reference)
+
+Every standard runs an identical structure. Front matter opens the unit; each standard then runs an opener + a seven-activity cycle + an exit ticket. Front pages are clean/independent; UDL·MTSS supports live on the **verso** (§7.1).
+
+**Front matter (once):** Cover · Copyright/Framework · **Unit at a Glance** (standards list + 7-activity cycle, *no page numbers* — replaces the Word TOC field) · TN Standards & SSP Crosswalk · Accessibility/UDL matrix · How to Use · Before You Begin (goal exemplar).
+
+**Per-standard opener (one page):** Learning Targets · Lenses · **CORE PATH** (identify the path only — no UDL/MTSS jargon shown to students) · SET YOUR GOAL (ruled) · **HOOK** (a strong *read*, not a writing task) · ACTIVATE (think / notebook) · PREVIEW & PREDICT (ruled). Every response box has writing lines or a redirect (§7.2).
+
+**The seven-activity cycle:**
+1. **Vocabulary** — word bank + language support + knowledge self-check. *Verso:* Vocabulary Supports (word-attack, quick practice *with space*, cognate practice, study tip). MAKE IT YOURS → notebook/whiteboard redirect.
+2. **Vocabulary Studio** (Frayer) — RESPONSE CHOICE. CONNECT THE TERMS → notebook/whiteboard redirect (no stranded box).
+3. **Cornell Notes** — Cues/My-notes, More Notes/Diagrams, Key terms, Summary, Progress Check, Check Yourself, headline. (No separate "Doodle Zone" — redundant with More Notes.)
+4. **Close Read** — key-terms-first *before* the reading; CORE PATH passage with **spaced sub-sections**; CLOSE-READ EVIDENCE LAB with ruled answer space.
+5. **Primary Source / HIPPO** — front: source + HIPPO table + confidence check-in. *Verso:* HIPPO Supports (guiding questions, sourcing frames, model, try-it).
+6. **Practice Quiz** — numbered MC items + **on-page self-check answer key** ("commit first, then check"; §7.4 sibling for MC).
+7. **Constructed Response (CER)** — front: big-question organizer, response table, **self-grade rubric** (§7.4), **peer review** (glow/grow/revision). *Verso:* CER Writing Supports (stems, model, student-language rubric, plan-it organizer, word bank).
+
+**Exit Ticket** — closes the standard, kept **whole on its own page** (`cantSplit`), never split across pages.
+
+Reference build: **Unit 6, US.45** (rendered and QC'd page-by-page). Units US.46–US.58 are built by propagating this exact anatomy.
+
 ---
 
 ## 8. Web edition parity
