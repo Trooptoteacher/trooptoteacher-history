@@ -129,12 +129,15 @@ function doodle(label,note,h=1500){return [callout(label,[note]),
   table([new TableRow({height:{value:h,rule:HeightRule.ATLEAST},children:[cell(P(R(' ',{s:12}),{spacing:{after:0}}),{w:CW})]})],[CW])];}
 function priorityBar(n,term,es){return table([new TableRow({children:[cell([
   P([R(`PRIORITY TERM ${n}`,{s:16,b:true,c:GOLD}),R(`     ${term}`,{s:24,b:true,c:WHITE}),R(`      ·   ES: ${es}`,{s:18,c:'D9D5C8'})],{spacing:{after:0}})],{w:CW,fill:NAVY})]})],[CW]);}
-function retrievalBox(code){return [gap(120),
+function retrievalBox(code){return [gap(70),
   callout('SPACED RETRIEVAL — quick recall (no notes)',['Pull it up cold to strengthen memory, then check your notes.']),
   writeTable(['Recall prompt','Your answer (from memory)'],[
     ['One key term or fact from THIS standard',''],
     ['One thing you learned EARLIER — how does it connect?',''],
-  ],[3857,5935],{rowH:500,lines:1})];}
+  ],[3857,5935],{rowH:400,lines:1}),
+  callout('CHECK YOURSELF — look back and score how it went',[
+    [R('Got it right?  ',{s:20,b:true}),R('☐ Yes  ☐ Partly  ☐ Not yet',{s:20}),R('     Answer it from memory?  ',{s:20,b:true}),R('☐ Yes  ☐ With a hint  ☐ No',{s:20})],
+    [R('How did it feel?  ',{s:20,b:true}),R('☐ Confident  ☐ Getting there  ☐ Shaky — I’ll revisit',{s:20})]])];}
 function vocabSelfCheck(code){const s=C.standards[code]; const W=[3092,1675,1675,1675,1675];
   const head=new TableRow({tableHeader:true,children:['Term','1 · never seen it','2 · heard it','3 · can use it','4 · can teach it'].map((h,i)=>cell(P(R(h,{s:15,b:true,c:i===0?NAVY:WHITE}),{align:i?AlignmentType.CENTER:AlignmentType.LEFT,spacing:{after:0}}),{w:W[i],fill:i===0?CREAM:NAVY}))});
   const rows=s.vocab.map(v=>new TableRow({children:[cell(P(R(v.term,{s:18,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(ruled(1),{w:W[k]}))]}));
@@ -248,28 +251,47 @@ function block(code){
   out.push(P([R(`TN Academic Standard ${code}: `,{s:22,b:true}),R(s.tn.replace(/^US\.\d+\s*[–-]\s*/,''),{s:22})],{spacing:{after:60}}));
   out.push(callout('LEARNING TARGETS — I can…',(s.targets||[s.target||s.ican.replace(/^I can /i,'')]).map(t=>R('•  I can '+t.replace(/^I can /i,'')+'.',{s:21}))));
   if(s.lenses) out.push(P([R('Lenses for this standard: ',{s:19,b:true,c:NAVY}),R(s.lenses,{s:19,c:GREY})],{spacing:{after:80}}));
-  out.push(coreCallout('CORE PATH — the same for every student',['Every student works this standard at the same rigor: analyze the sources and vocabulary, then demonstrate learning on the Practice Quiz and CER. UDL and MTSS give you flexible ways in — they never lower the bar. Check yourself against the learning targets on the Cornell Notes page.']));
+  out.push(coreCallout('CORE PATH — the same for every student',['Every student works this standard at the same rigor: analyze the sources and vocabulary, then show what you learned on the Practice Quiz and the CER. Check yourself against the learning targets on the Cornell Notes page. Supports for each step are on the back of this page.']));
   if(s.tn_connection) out.push(callout('★ Tennessee Connection',[s.tn_connection]));
-  out.push(callout('SET YOUR GOAL (self-direction)',['My goal for this standard — what will I be able to do, and how will I show it?']));
-  out.push(...ruled(2));
+  out.push(callout('SET YOUR GOAL (self-direction)',['My goal for this standard — what will I be able to do, and how will I show it?  (Need help? See the back of this page.)']));
+  out.push(...ruled(3));
   // Text HOOK — a provocative, standard-specific question (images live in the analysis activities, framed + cited).
   out.push(callout('HOOK — think before you dig in',[s.hook||'What is the big question behind this standard?']));
-  out.push(...ruled(2));
-  out.push(callout('ACTIVATE — what do you already know or wonder?',['Jot what you already know or want to find out about this standard. You’ll come back to it.']));
   out.push(...ruled(3));
+  out.push(callout('ACTIVATE — what do you already know or wonder?',['Jot what you already know or want to find out about this standard. You’ll come back to it.']));
+  out.push(...ruled(4));
   out.push(callout('FIRST IMPRESSIONS — before you dig in (you’ll revisit this at the end)',['In your own words: what do you think this standard is about, and why might it matter to you or your community? Write 2–3 sentences.']));
   out.push(...ruled(3));
+  // BACK of the opener — supports for every prompt on the front (student-usable, teacher-light)
+  out.push(H(`Getting Started — supports for this page — ${code}`,2,{brk:true}));
+  out.push(callout('WHAT “CORE PATH” MEANS',['Everyone learns the same standard at the same level. “Support options” are just extra ways in — sentence starters, an example, a partner, or recording your answer. They help you reach the bar; they never lower it.']));
+  out.push(callout('SET YOUR GOAL — how to write a strong one',[
+    [R('Example goal:  ',{s:21,b:true}),R('“By the end of this standard I can explain ___ and prove it by scoring 80%+ on the quiz.”',{s:21})],
+    [R('How to build it:  ',{s:21,b:true}),R('name what you’ll DO, then how you’ll PROVE it, then WHEN.',{s:21})],
+    [R('Sentence starters:  ',{s:21,b:true}),R('“I want to be able to…”   “I’ll show it by…”   “By the end of this standard…”',{s:21})]]));
+  out.push(callout('HOOK — sentence starters',['“I think the big question is…”   “This connects to…”   “I wonder why…”   “At first I believe…”']));
+  out.push(callout('ACTIVATE — what it means & how to answer',[
+    [R('What it means:  ',{s:21,b:true}),R('“Activate” = wake up what you ALREADY know before you learn more.',{s:21})],
+    [R('Sentence starters:  ',{s:21,b:true}),R('“I already know…”   “This reminds me of…”   “I want to find out…”',{s:21})]]));
+  out.push(callout('FIRST IMPRESSIONS — what to write',['Just your honest first take — there is no wrong answer. Say what you THINK the standard is about and why it might matter to you, your family, or your community. You’ll come back and improve it at the end.']));
+  out.push(callout('KEY WORDS TO WATCH FOR',[s.vocab.map(v=>v.term).join('   ·   ')]));
+  out.push(gap(50));
+  out.push(callout('NOW TRY IT — draft your goal using a starter above',['Write a first draft here, then copy your best version onto the front. Aim for: what you’ll DO + how you’ll PROVE it + WHEN.']));
+  out.push(...ruled(6));
   // Activity 1 — Word Bank
   out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
   out.push(dataTable(['Term','Student-friendly meaning','Spanish'],s.vocab.map(v=>[
     new TextRun({text:v.term,bold:true,size:SZ(20),font:FONT,color:INK}), v.def, v.es]),[2723,4347,2722]));
-  out.push(callout('LANGUAGE SUPPORT',['Pronunciations: '+s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.']));
+  out.push(callout('LANGUAGE SUPPORT',[[R('Pronunciations: ',{s:22,b:true}),R(s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.',{s:22})]]));
   out.push(...vocabSelfCheck(code));
   out.push(...FILL_LIB.quickwrite('Which of these terms do you think will matter MOST for this standard, and why? You’ll revisit this at the end.'));
   // Activity 2 — Frayer
   out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7}));
-  out.push(callout('RESPONSE CHOICE',['Complete each studio by writing, speaking, or diagramming.']));
+  out.push(callout('RESPONSE CHOICE — three ways to complete each studio',[
+    [R('WRITE:  ',{s:21,b:true}),R('fill in the four boxes below in your own words.',{s:21})],
+    [R('SAY IT:  ',{s:21,b:true}),R('explain the term aloud to a partner or your teacher, or record a short voice note — say the term, its meaning, and one example.',{s:21})],
+    [R('DIAGRAM:  ',{s:21,b:true}),R('sketch or map the term in the Sketch Studio on the back of this page.',{s:21})]]));
   a.frayer.forEach((term,fi)=>{const v=s.vocab.find(x=>x.term===term)||s.vocab[0];
     out.push(gap(fi===0?30:100));
     out.push(priorityBar(fi+1,term,v.es));
@@ -278,8 +300,22 @@ function block(code){
     out.push(callout('Use it to explain',['Write one sentence that uses “'+term+'” to explain this standard.']));
     out.push(...ruled(1));});
   out.push(gap(50));
-  out.push(callout('CONNECT THE TERMS (UDL · build understanding)',['How do these priority terms fit together? Write or sketch how one leads to or affects another.']));
+  out.push(callout('CONNECT THE TERMS (UDL · build understanding)',['How do these priority terms fit together? Write how one leads to or affects another on the lines — or map it in the Sketch Studio on the back.']));
   out.push(...ruled(2));
+  // Activity 2 BACK — Sketch Studio: concrete speak options + a draw/diagram box per priority term
+  out.push(H(`Activity 2 — Sketch Studio (draw it or say it) — ${code}`,2,{brk:true}));
+  out.push(callout('SAY IT — pick one way to explain your terms aloud',[
+    'Explain each priority term to a shoulder partner, then have them explain one back to you.',
+    'Or explain a term to your teacher during check-in.',
+    'Or record a 20–30 second voice note: say the term, what it means, and one real example.',
+    'Or stand and share one term with the class.']));
+  a.frayer.forEach((term,fi)=>{
+    out.push(gap(fi===0?40:90));
+    out.push(callout('DIAGRAM: '+term,['Draw, map, or symbolize this term — a picture, an icon, a quick web, or an example scene. Label your drawing.']));
+    out.push(table([new TableRow({height:{value:2100,rule:HeightRule.ATLEAST},children:[cell(P(R(' ',{s:12}),{spacing:{after:0}}),{w:CW})]})],[CW]));});
+  out.push(gap(70));
+  out.push(callout('CONNECT THE TERMS — concept map',['Put both terms in the box and draw arrows to show how one leads to, needs, or affects the other. Write a few words on each arrow.']));
+  out.push(table([new TableRow({height:{value:2500,rule:HeightRule.ATLEAST},children:[cell(P(R(' ',{s:12}),{spacing:{after:0}}),{w:CW})]})],[CW]));
   // Activity 3 — Cornell Notes — FRONT (note-taking; the whole page is writing space)
   out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true,mins:20}));
   out.push(P(R(`${code} — ${s.title}  •  Lean Student Deck slides ${r.range}  •  direct-teaching slides ${r.dt}`,{s:20,c:GREY})));
@@ -338,7 +374,7 @@ function block(code){
   a.tdq.forEach((q,i)=>out.push(P(R(`${i+1}. ${q}`,{s:20}))));
   out.push(P(R('RESPONSE CHOICE: answer any question by writing in the Evidence Lab, saying/recording it, or diagramming it.',{s:20,i:true})));
   out.push(callout('CLOSE-READ EVIDENCE LAB',['Log evidence from the passage below.']));
-  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','','']],[3264,3264,3264],{rowH:600,lines:2}));
+  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','','']],[3264,3264,3264],{rowH:480,lines:2}));
   const gmap=(IMG[code]||{}).map;
   if(s.geo && !gmap){out.push(gap(100));
     out.push(...doodle('GEOGRAPHER’S LENS (G · SSP.06) — sketch & label the geography',s.geo+' Then draw a quick map below and label at least two places.',1050));}
