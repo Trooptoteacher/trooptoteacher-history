@@ -44,12 +44,15 @@ claim of state/waiver approval where review is pending. **Tag TCA legally-requir
 
 ## THE COURSE — Foundations of Constitutional Government (TN GC, 9–12; supplemental, TCA §49-6-2202(a)(3))
 Standards source of truth already committed: **`lib/standards/government-standards.ts`**
-(SSP.01–06 practices spine + GC.01–27, strands, TCA flags, unit assignments, landmark-case
-index; `iCan` fields are `null` — fill VERBATIM from the TDOE instructional guide).
+(SSP.01–06 practices spine + GC.01–GC.35, strands, TCA flags, unit assignments, landmark-case
+index, and the VERBATIM WCS/TDOE "I can" targets — extracted from the WCS Instructional Guide
+DOCX + the Foundations Planning Chart PDF).
 
-Unit map (5 units): U1 Foundations GC.01–09 · U2 Legislative GC.10–15 · U3 Executive
-GC.16–18 · U4 Judicial GC.19–22 · U5 Civil Liberties GC.23–27. Practices SSP.01–06 apply all
-year (the SOAPS/HIPP analog — build a practices reference page + per-practice tasks).
+Unit map (7 units, WCS/TDOE teaching order — codes are NON-contiguous by unit):
+U1 Foundations GC.01–09 · U2 Citizen Participation GC.31–34 · U3 Legislative GC.35 + GC.10–15 ·
+U4 Executive GC.16–18 · U5 Judicial GC.19–22 · U6 Civil Liberties GC.23–27 · U7 Tennessee State
+& Local Government GC.28–30. Practices SSP.01–06 apply all year (the SOAPS/HIPP analog — build a
+practices reference page + per-practice tasks).
 
 ## PER-UNIT DELIVERABLES (match History Hack exactly)
 Student Workbook · Teacher Guide · Student Deck · Teacher Deck · Graphic Organizer Toolkit ·
@@ -89,9 +92,10 @@ web edition, mirror to Drive).
    heavy on founding docs + the named SCOTUS opinions), tiered-questions, standard-stories,
    standard-summaries, study-guides, biographies, and `questions/manifest.json` +
    `questions/unit-{N}/dok-{1..4}.json`.
-4. **5-unit fix** — Government is **5 units** (US History is 10). Add a Government units source
-   (or make the units source subject-aware) and update the `UNIT_IDS` arrays in
-   `app/[subject]/units/[id]/page.tsx` and `app/[subject]/textbook/[unit]/page.tsx` to unit-1..5.
+4. **Subject-aware units — DONE.** Government is **7 units** (US History is 10). The units source
+   is already subject-aware: `lib/subject-units.ts` derives each course's unit count, and the
+   `app/[subject]/units/[id]/page.tsx` + `app/[subject]/textbook/[unit]/page.tsx` routes call
+   `unitIdsForSubject()` — no hardcoded `UNIT_IDS` to touch.
 5. **In-TS content currently US-only** — make Government equivalents IF in scope, following the
    World History precedent (JSON, not TS): `lib/cornell-notes-data.ts`, `lib/spiral-review-data.ts`,
    `lib/this-day-in-history.ts`, `lib/content-translations-data.ts`. (WH moved Cornell to
@@ -112,6 +116,6 @@ web edition CI green + entitlement-gated; per-unit deliverable + QC checklist re
 
 ## METHOD
 Unit-by-unit; platinum `prompt-library.md` phase prompts (guardrail preamble); commit per
-artifact; PR per phase; main stays clean. Start: STEP 0 → branch → confirm the 5-unit map →
+artifact; PR per phase; main stays clean. Start: STEP 0 → branch → confirm the 7-unit map →
 run `scaffold-government.mjs` → Phase 1.
 ```
