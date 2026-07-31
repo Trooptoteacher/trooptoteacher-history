@@ -71,12 +71,12 @@ function dataTable(headers,rows,widths){
 // paragraphs collapse to one visible line. We break that merge with a tiny border-less
 // spacer between each line, so every baseline renders.
 function ruled(n=4){const out=[];for(let i=0;i<n;i++){
-  // Notebook writing line. Adjacent identical bottom-borders MERGE (render as one line), so we
-  // break the merge with a tiny border-less spacer between each ruled line -> every line renders.
-  out.push(new Paragraph({widowControl:false,spacing:{before:0,after:0,line:SZ(300),lineRule:'exact'},
-    border:{bottom:{style:BorderStyle.SINGLE,size:6,color:'9AA0A6',space:2}},
-    children:[new TextRun({text:' ',size:SZ(12),font:FONT})]}));
-  if(i<n-1) out.push(new Paragraph({spacing:{before:0,after:0,line:SZ(90),lineRule:'exact'},children:[new TextRun({text:' ',size:SZ(2),font:FONT})]}));
+  // Notebook writing line — clearly visible dark rule. Natural (auto) line height so Word renders
+  // the paragraph bottom-border reliably; a border-less spacer between lines prevents border-merge.
+  out.push(new Paragraph({widowControl:false,spacing:{before:SZ(70),after:SZ(70),line:SZ(240),lineRule:'auto'},
+    border:{bottom:{style:BorderStyle.SINGLE,size:10,color:'5B6472',space:2}},
+    children:[new TextRun({text:' ',size:SZ(18),font:FONT})]}));
+  if(i<n-1) out.push(new Paragraph({spacing:{before:0,after:0,line:SZ(50),lineRule:'exact'},children:[new TextRun({text:' ',size:SZ(2),font:FONT})]}));
 }return out;}
 function linesFor(h){return Math.max(2,Math.round(h/380));}
 // writing table: label cells keep text; blank writing cells get ruled lines
