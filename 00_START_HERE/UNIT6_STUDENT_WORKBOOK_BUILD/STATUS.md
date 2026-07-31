@@ -24,9 +24,23 @@ The earlier propagation (US.46–US.58) left 19 blank/near-empty pages. Root cau
    need only a small mark, not a full writing line) and word-bank line spacing across all 14
    standards so the vocab front page holds its full content.
 
+## Phase 2 — representative proof COMPLETE (US.46)
+US.46 now carries all three back-page support pages, built to the US.45 platinum bar by
+cloning US.45's exact block structure and swapping in **historically accurate, US.46-specific**
+model content:
+- **VOCABULARY SUPPORTS** — word-attack + a US.46 cognate (neutrality / neutralidad).
+- **HIPPO SUPPORTS** — model analysis of FDR's *Four Freedoms Speech* (Jan 6, 1941).
+- **WRITING SUPPORTS** — model CER on FDR's response to world crises (Four Freedoms +
+  Lend-Lease), tied to the front-page CER prompt.
+Book is now 167 pp, still zero blank pages. Awaiting approval to replicate across US.47–US.58.
+
+Observation for review: as in US.45, the exit ticket falls on its own page after the
+WRITING SUPPORTS page, which leaves ~30% white space on the supports page. Could be tightened
+so the exit ticket rides up onto the supports page (would need to change locked US.45 too).
+
 ## Remaining work (not yet done)
-- **Phase 2 — back-page supports for US.46–US.58** to match US.45: VOCABULARY SUPPORTS,
-  HIPPO SUPPORTS (source analysis), and WRITING SUPPORTS (CER). US.45 already has these.
+- **Phase 2 (rest) — back-page supports for US.47–US.58** (13 standards), same pattern,
+  each with its own fact-checked HIPPO + CER models and cognate.
 - **Phase 3 — per-standard content polish**: strong standard-specific HOOKs (some currently
   restate the standard verbatim), worked-example models, and quiz self-check answer keys
   (derive per item; flag for teacher-key cross-check).
