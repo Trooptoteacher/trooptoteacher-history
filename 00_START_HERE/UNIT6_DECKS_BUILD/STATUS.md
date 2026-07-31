@@ -31,3 +31,16 @@ explicitly deprecated token) — flag for review if full unification to `#C89B3C
   workbook's writing/response activities, keyed to the Student deck's slide numbers, per
   `SLIDE_DECK_PLATINUM_STANDARD.md` §1. Numbers must come from the shared reference map,
   never hardcoded by hand.
+
+## Slide-keying — DONE
+Added `▶ Deck slide N` references to every workbook activity header (US.45–US.58, 98 refs),
+computed from the Student deck's real slide positions (per-standard block = 2 + 8·k):
+- Activity 1 & 2 (Vocabulary) → KEY VOCABULARY slide (base+6)
+- Activity 3 (Cornell Notes) & Activity 4 (Close Read) → content/direct-instruction slides (base+1…+3)
+- Activity 5 (Primary Source / HIPPO) → SOURCE IT FIRST (base+4)
+- Activity 6 (Practice Quiz) → PROGRESS CHECK (base+7)
+- Activity 7 (CER) → content + representation slides (base+1…+5)
+
+Numbers derive from the deck's file positions, not hand-guessed. Workbook re-rendered at
+190 pp, zero blank pages. Optional follow-on: the reverse deck→workbook "✍ In your workbook"
+cue on matching deck slides (edits the decks, not the workbook).
