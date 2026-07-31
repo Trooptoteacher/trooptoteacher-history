@@ -289,7 +289,7 @@ function block(code){
   out.push(cornell(s.cues||['Main idea?','Key term →','Why does it matter?','Connect it →'],
     'My notes — write your notes here',3));
   out.push(...ruled(4));
-  out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',1450));
+  out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',2050));
   // Cornell Notes — BACK (keep going, then process & check)
   out.push(H(`Cornell Notes — keep going, then process & check — ${code}`,2,{brk:true}));
   out.push(callout('UDL · CHOOSE HOW YOU CAPTURE IDEAS (same target for everyone)',['Keep going with your notes: WRITE on the lines, DRAW or diagram in the box, or do both — your choice. You may also record your notes aloud.']));
@@ -370,16 +370,25 @@ function block(code){
     out.push(callout(src.title.toUpperCase(),['“'+src.quote+'”']));
     out.push(P(R(`Source: ${src.who}, ${src.date}. ${src.repo}. Public domain. ${src.url}`,{s:18,c:GREY})));
   }
+  out.push(callout('FIRST LOOK — before you analyze',['Jot 3–4 things you notice in the source (details, words, people, dates). No wrong answers.']));
+  out.push(...ruled(4));
   out.push(writeTable(['HIPPO — analyze the source (prompt)','Your analysis'],[
     ['H — Historical context: what was happening when this was created?',''],
     ['I — Intended audience: who was meant to see or obey it?',''],
     ['P — Purpose: why was it created?',''],
     ['P — Point of view: whose perspective does it reflect?',''],
     ['O — Outside connection: how does it connect to this standard?',''],
-  ],[4263,5529],{lines:2}));
-  out.push(callout('SUPPORT OPTION',['Sentence frame: This source shows ______ because it ______, which reveals ______.']));
-  if(im.anchor){ out.push(callout('SOURCE SYNTHESIS — put it together (SSP.03)',['In 2–3 sentences: what does this source reveal about this standard, and how do you know? Cite one specific detail from it.'])); out.push(...ruled(2)); out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________'])); }
-  else out.push(...sourceExtension(code));
+  ],[4263,5529],{lines:4}));
+  // Activity 5 BACK PAGE — support + synthesis + historian extension (fills the second page)
+  out.push(H(`Primary Source Analysis — go deeper — ${code}`,2,{brk:true}));
+  out.push(callout('SUPPORT OPTION (use if you need it)',['Sentence frame: This source shows ______ because it ______, which reveals ______.']));
+  out.push(callout('SOURCE SYNTHESIS — put it together (SSP.03)',['In 2–3 sentences: what does this source reveal about this standard, and how do you know? Cite one specific detail from it.']));
+  out.push(...ruled(5));
+  out.push(callout('THINK LIKE A HISTORIAN — corroborate or challenge (SSP.03)',['Name ONE other source that could CONFIRM this one, and ONE way it could COMPLICATE or CHALLENGE it — or, whose voice is missing here?']));
+  out.push(...ruled(5));
+  out.push(callout('SO WHAT? — why this source still matters today',['In 1–2 sentences: why does this source still matter for understanding government today?']));
+  out.push(...ruled(4));
+  out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________']));
   // Activity 6 — Practice Quiz
   out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8}));
   out.push(callout('RESPONSE CHOICE',['Commit to an answer by marking it, saying it, or explaining it aloud before checking. Answer key is in the Teacher Guide (kept separate).']));
