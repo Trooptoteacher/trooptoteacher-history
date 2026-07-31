@@ -417,9 +417,21 @@ function block(code){
   out.push(callout('CONSTRUCTED RESPONSE (CER) — builds SSP.04 Argumentation',[a.cer]));
   out.push(new Table({width:{size:CW,type:WidthType.DXA},columnWidths:[2233,7559],rows:[
     new TableRow({tableHeader:true,children:[cell(P(R('Part',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:2233,fill:NAVY}),cell(P(R('Write here',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:7559,fill:NAVY})]}),
-    ...[['Claim',3],['Evidence (two specifics)',5],['Reasoning',4]].map(([lab,n])=>new TableRow({children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2233}),cell(ruled(n),{w:7559})]}))
+    ...[['Claim',4],['Evidence (two specifics)',6],['Reasoning',5]].map(([lab,n])=>new TableRow({children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2233}),cell(ruled(n),{w:7559})]}))
   ]}));
-  out.push(callout('SELF-CHECK against the CER rubric (see Toolkit)',['Before submitting: Is my claim defensible? Do I have TWO specific pieces of evidence? Does my reasoning explain HOW the evidence proves the claim?']));
+  // Activity 7 BACK PAGE — self-grade against the rubric + supports (self-grading spread)
+  out.push(H(`Constructed Response — self-grade & supports — ${code}`,2,{brk:true}));
+  out.push(callout('SELF-GRADE — score your own CER against the rubric below',['Reread your response, then circle the level that best fits each part. Being honest here is how you level up.']));
+  out.push(dataTable(['Level','Claim','Evidence','Reasoning'],[
+    ['4 — Strong','Precise, defensible','2+ accurate, specific','Explains HOW evidence proves the claim'],
+    ['3 — Proficient','Clear','2 accurate','Explains the link'],
+    ['2 — Developing','General','1 accurate','Partial link'],
+    ['1 — Beginning','Unclear / missing','Missing / inaccurate','No reasoning'],
+  ],[1800,2664,2664,2664]));
+  out.push(callout('MY SCORE',['Claim: ____ / 4        Evidence: ____ / 4        Reasoning: ____ / 4        TOTAL: ____ / 12']));
+  out.push(callout('SUPPORTS — sentence frames (use if you need them)',['Claim: \u201c______ because ______.\u201d','Evidence: \u201cOne example is ______ (from ______).  Another is ______.\u201d','Reasoning: \u201cThis proves my claim because ______, which shows ______.\u201d']));
+  out.push(callout('REVISE — make your lowest-scoring part stronger',['Pick the part you scored lowest and rewrite it here — better:']));
+  out.push(...ruled(6));
   // Exit Ticket — end-of-standard formative (vetted item from the question bank; key + next steps teacher-side)
   const xt=EXIT[code];
   if(xt) out.push(table([new TableRow({children:[cell([
