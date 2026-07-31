@@ -70,13 +70,11 @@ function dataTable(headers,rows,widths){
 // identical bottom border and suppress the INTERNAL borders — so N stacked bordered
 // paragraphs collapse to one visible line. We break that merge with a tiny border-less
 // spacer between each line, so every baseline renders.
-function ruled(n=4){const out=[];for(let i=0;i<n;i++){
-  // Notebook writing line — clearly visible dark rule. Natural (auto) line height so Word renders
-  // the paragraph bottom-border reliably; a border-less spacer between lines prevents border-merge.
-  out.push(new Paragraph({widowControl:false,spacing:{before:SZ(12),after:SZ(12),line:SZ(210),lineRule:'auto'},
-    border:{bottom:{style:BorderStyle.SINGLE,size:10,color:'5B6472',space:2}},
-    children:[new TextRun({text:' ',size:SZ(18),font:FONT})]}));
-  if(i<n-1) out.push(new Paragraph({spacing:{before:0,after:0,line:SZ(50),lineRule:'exact'},children:[new TextRun({text:' ',size:SZ(2),font:FONT})]}));
+function ruled(n=2){const out=[];for(let i=0;i<n;i++){
+  // EXACT US History Hack reference line: light rule C9C2B4, before80/after140, one per line.
+  out.push(new Paragraph({widowControl:false,spacing:{before:SZ(80),after:SZ(140)},
+    border:{bottom:{style:BorderStyle.SINGLE,size:6,color:'C9C2B4',space:1}},
+    children:[new TextRun({text:' ',size:SZ(16),font:FONT})]}));
 }return out;}
 function linesFor(h){return Math.max(2,Math.round(h/380));}
 // writing table: label cells keep text; blank writing cells get ruled lines
@@ -275,7 +273,7 @@ function block(code){
     out.push(gap(fi===0?30:100));
     out.push(priorityBar(fi+1,term,v.es));
     out.push(P(R('Word-bank meaning to build on: '+v.def,{s:20})));
-    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:520,lines:1}));
+    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:600}));
     out.push(callout('Use it to explain',['Write one sentence that uses “'+term+'” to explain this standard.']));
     out.push(...ruled(1));});
   out.push(gap(50));
@@ -380,7 +378,7 @@ function block(code){
     ['O — Outside connection: how does it connect to this standard?',''],
   ],[4263,5529],{lines:2}));
   out.push(callout('SUPPORT OPTION',['Sentence frame: This source shows ______ because it ______, which reveals ______.']));
-  if(im.anchor){ out.push(callout('SOURCE SYNTHESIS — put it together (SSP.03)',['In 2–3 sentences: what does this source reveal about this standard, and how do you know? Cite one specific detail from it.'])); out.push(...ruled(3)); out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________'])); }
+  if(im.anchor){ out.push(callout('SOURCE SYNTHESIS — put it together (SSP.03)',['In 2–3 sentences: what does this source reveal about this standard, and how do you know? Cite one specific detail from it.'])); out.push(...ruled(2)); out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________'])); }
   else out.push(...sourceExtension(code));
   // Activity 6 — Practice Quiz
   out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8}));
