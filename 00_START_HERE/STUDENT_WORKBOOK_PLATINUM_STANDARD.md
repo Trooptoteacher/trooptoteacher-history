@@ -265,6 +265,14 @@ Every box or prompt that asks a student to write **must give them somewhere to w
 
 Fill meaningful blank space with supports or a context-matched activity (§5) — **but the added content must fit the space it fills; it may never push content onto another page.** If it cannot fit, redirect the response (§7.2) or reflow. A near-empty page is a layout defect: fill it (often best as a **back-page support**, §7.1) or reflow it away. Always render and visually confirm after filling.
 
+### 7.4 CER self-grading rubric (required)
+
+Every Constructed Response (CER) includes a **student self-grading rubric**, not just a yes/no checklist: a scored table rating **Claim, Evidence, Reasoning, and Conventions** on a **1–4** scale, with a **total (/16)** and a "one thing I'll improve next time" line. It replaces the checklist (which it subsumes) to save space and teach self-assessment against the same criteria the teacher scores. Reference: Unit 6, US.45 Activity 7.
+
+### 7.5 QC gate (render + look)
+
+No workbook change ships until it is **rendered to PDF and visually inspected** page by page — writing lines present and legible, no prompt without response space, no bleed/orphan, and every filled space actually fits. (Environment note: LibreOffice `soffice --headless --convert-to pdf` + `pypdfium2` renders faithfully once `libreoffice-writer` is installed.)
+
 ---
 
 ## 8. Web edition parity
