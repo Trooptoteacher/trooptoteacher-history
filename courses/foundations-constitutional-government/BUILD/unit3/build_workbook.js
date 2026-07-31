@@ -72,7 +72,7 @@ function dataTable(headers,rows,widths){
 function ruled(n=4){const out=[];for(let i=0;i<n;i++){
   // Notebook writing line — clearly visible dark rule. Natural (auto) line height so Word renders
   // the paragraph bottom-border reliably; a border-less spacer between lines prevents border-merge.
-  out.push(new Paragraph({widowControl:false,spacing:{before:SZ(70),after:SZ(70),line:SZ(240),lineRule:'auto'},
+  out.push(new Paragraph({widowControl:false,spacing:{before:SZ(12),after:SZ(12),line:SZ(210),lineRule:'auto'},
     border:{bottom:{style:BorderStyle.SINGLE,size:10,color:'5B6472',space:2}},
     children:[new TextRun({text:' ',size:SZ(18),font:FONT})]}));
   if(i<n-1) out.push(new Paragraph({spacing:{before:0,after:0,line:SZ(50),lineRule:'exact'},children:[new TextRun({text:' ',size:SZ(2),font:FONT})]}));
@@ -134,7 +134,7 @@ function retrievalBox(code){return [gap(120),
   writeTable(['Recall prompt','Your answer (from memory)'],[
     ['One key term or fact from THIS standard',''],
     ['One thing you learned EARLIER — how does it connect?',''],
-  ],[3857,5935],{rowH:640,lines:2})];}
+  ],[3857,5935],{rowH:500,lines:1})];}
 function vocabSelfCheck(code){const s=C.standards[code]; const W=[3092,1675,1675,1675,1675];
   const head=new TableRow({tableHeader:true,children:['Term','1 · never seen it','2 · heard it','3 · can use it','4 · can teach it'].map((h,i)=>cell(P(R(h,{s:15,b:true,c:i===0?NAVY:WHITE}),{align:i?AlignmentType.CENTER:AlignmentType.LEFT,spacing:{after:0}}),{w:W[i],fill:i===0?CREAM:NAVY}))});
   const rows=s.vocab.map(v=>new TableRow({children:[cell(P(R(v.term,{s:18,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(ruled(1),{w:W[k]}))]}));
@@ -238,10 +238,6 @@ const front=[
     ['T — Time-bound: by when?',''],
   ],[3900,5892],{rowH:560,lines:2}),
   writeBox('PUT IT TOGETHER — my S.M.A.R.T. goal in one or two sentences:',3),
-  callout('SEAL IT — a goal you can see is a goal you keep',[
-    R('One thing I already know about this topic: ______________________________________________',{s:20}),
-    R('One question I want answered by the end: ______________________________________________',{s:20}),
-    R('Signed: __________________     Date: __________     I will check my progress on: __________',{s:20,b:true})]),
   PB()];
 
 // ================= PER-STANDARD =================
@@ -261,12 +257,8 @@ function block(code){
   out.push(...ruled(2));
   out.push(callout('ACTIVATE — what do you already know or wonder?',['Jot what you already know or want to find out about this standard. You’ll come back to it.']));
   out.push(...ruled(3));
-  if(!s.tn_connection){ // standards with a TN-connection callout are already full; others get the extra fill
-    out.push(callout('PREVIEW & PREDICT',['Which learning target will be hardest, and why? Connect it to the unit’s big question: '+EQ]));
-    out.push(...ruled(3));
-  }
   out.push(callout('FIRST IMPRESSIONS — before you dig in (you’ll revisit this at the end)',['In your own words: what do you think this standard is about, and why might it matter to you or your community? Write 2–3 sentences.']));
-  out.push(...ruled(5));
+  out.push(...ruled(3));
   // Activity 1 — Word Bank
   out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
@@ -282,10 +274,10 @@ function block(code){
     out.push(gap(fi===0?30:100));
     out.push(priorityBar(fi+1,term,v.es));
     out.push(P(R('Word-bank meaning to build on: '+v.def,{s:20})));
-    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:760}));
+    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:520,lines:1}));
     out.push(callout('Use it to explain',['Write one sentence that uses “'+term+'” to explain this standard.']));
     out.push(...ruled(1));});
-  out.push(gap(140));
+  out.push(gap(50));
   out.push(callout('CONNECT THE TERMS (UDL · build understanding)',['How do these priority terms fit together? Write or sketch how one leads to or affects another.']));
   out.push(...ruled(2));
   // Activity 3 — Cornell Notes — FRONT (note-taking; the whole page is writing space)
@@ -297,12 +289,12 @@ function block(code){
   out.push(cornell(s.cues||['Main idea?','Key term →','Why does it matter?','Connect it →'],
     'My notes — write your notes here',3));
   out.push(P(R('Keep taking notes — lines run the full width of the page:',{s:19,i:true,c:GREY}),{spacing:{before:100,after:30}}));
-  out.push(...ruled(7));
-  out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',1050));
+  out.push(...ruled(4));
+  out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',750));
   // Cornell Notes — BACK (keep going, then process & check)
   out.push(H(`Cornell Notes — keep going, then process & check — ${code}`,2,{brk:true}));
   out.push(callout('UDL · CHOOSE HOW YOU CAPTURE IDEAS (same target for everyone)',['Keep going with your notes: WRITE on the lines, DRAW or diagram in the box, or do both — your choice. You may also record your notes aloud.']));
-  out.push(splitDrawWrite('DRAW / DIAGRAM — sketch the idea, a timeline, or how the pieces connect','WRITE — keep taking notes on the lines',3400,8));
+  out.push(splitDrawWrite('DRAW / DIAGRAM — sketch the idea, a timeline, or how the pieces connect','WRITE — keep taking notes on the lines',2700,6));
   out.push(callout('Key terms to list',[s.vocab.map(v=>v.term).join(' · ')]));
   out.push(writeBox('Summary — In your own words (2–3 sentences)',4));
   out.push(table([new TableRow({children:[cell([
@@ -348,7 +340,7 @@ function block(code){
   a.tdq.forEach((q,i)=>out.push(P(R(`${i+1}. ${q}`,{s:20}))));
   out.push(P(R('RESPONSE CHOICE: answer any question by writing in the Evidence Lab, saying/recording it, or diagramming it.',{s:20,i:true})));
   out.push(callout('CLOSE-READ EVIDENCE LAB',['Log evidence from the passage below.']));
-  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','',''],['','','']],[3264,3264,3264],{rowH:760,lines:2}));
+  out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','','']],[3264,3264,3264],{rowH:600,lines:2}));
   const gmap=(IMG[code]||{}).map;
   if(s.geo && !gmap){out.push(gap(100));
     out.push(...doodle('GEOGRAPHER’S LENS (G · SSP.06) — sketch & label the geography',s.geo+' Then draw a quick map below and label at least two places.',1050));}
@@ -387,7 +379,7 @@ function block(code){
     ['O — Outside connection: how does it connect to this standard?',''],
   ],[4263,5529],{lines:2}));
   out.push(callout('SUPPORT OPTION',['Sentence frame: This source shows ______ because it ______, which reveals ______.']));
-  if(im.anchor){ out.push(callout('SOURCE SYNTHESIS — put it together (SSP.03)',['In 2–3 sentences: what does this source reveal about this standard, and how do you know? Cite one specific detail from it.'])); out.push(...ruled(5)); out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________'])); }
+  if(im.anchor){ out.push(callout('SOURCE SYNTHESIS — put it together (SSP.03)',['In 2–3 sentences: what does this source reveal about this standard, and how do you know? Cite one specific detail from it.'])); out.push(...ruled(3)); out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________'])); }
   else out.push(...sourceExtension(code));
   // Activity 6 — Practice Quiz
   out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8}));
