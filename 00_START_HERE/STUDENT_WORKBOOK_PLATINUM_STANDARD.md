@@ -239,6 +239,20 @@ No workbook is Platinum-ready until every flagged page has a defensible disposit
 - WCAG 2.2 AA for the web edition: contrast, headings, alt text, keyboard access.
 - English/Spanish parity for student-facing materials.
 
+### 7.1 Front / back supports model (validated on the Unit 6 pilot)
+
+Every activity is a **clean front** (the task) with its **UDL/MTSS supports on the verso** (back page), so one worksheet serves three print modes:
+- **front only** — independent, no scaffold;
+- **front + back (duplex)** — scaffolded;
+- **back only** — supports as a standalone reference.
+
+Rules:
+- Each activity's front is a **fixed page count** (ideally one page) so its support lands on the immediately following page; the support section uses `page-break-before`.
+- Support content is **matched to the task** — sentence stems, a worked exemplar, a student-language rubric, cognates / word bank, an annotation guide, or HIPPO guiding questions — never busywork.
+- Supports **add access, never lower the goal**, and work **alongside — never in place of** — IEP/504 accommodations.
+- The front's goal and rigor are **identical whether or not the back is printed.**
+- Feasibility by activity: Vocabulary, Vocab Studio, Practice Quiz, and CER take the model directly (one-page fronts); Cornell Notes, Close Read, and Primary-Source/HIPPO must first be trued to a fixed page count. Reference implementation: **Unit 6, Activity 7 (CER)** — CER front + verso Writing Supports (stems + model + student-language rubric).
+
 ---
 
 ## 8. Web edition parity
