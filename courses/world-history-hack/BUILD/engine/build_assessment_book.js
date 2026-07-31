@@ -2,7 +2,7 @@
 // Items pulled from the canonical question bank (unit1_assessment.json). Platinum tokens.
 const fs=require('fs'); const D=require('docx');
 const {Document,Packer,Paragraph,TextRun,HeadingLevel,AlignmentType,Table,TableRow,TableCell,
-  WidthType,BorderStyle,ShadingType,PageBreak,Header,Footer,PageNumber,TableOfContents}=D;
+  WidthType,BorderStyle,ShadingType,PageBreak,Header,Footer,PageNumber,TableOfContents,TableLayoutType}=D;
 const A=JSON.parse(fs.readFileSync('analysis/unit1_assessment.json','utf8'));
 const U=JSON.parse(fs.readFileSync('analysis/unit1_content.json','utf8')).unit;
 const C=JSON.parse(fs.readFileSync('analysis/unit1_content.json','utf8')).standards;
@@ -14,7 +14,7 @@ function P(runs,{align,spacing,indent}={}){return new Paragraph({alignment:align
 function H(t,lvl,{brk=false}={}){const map={1:HeadingLevel.HEADING_1,2:HeadingLevel.HEADING_2,3:HeadingLevel.HEADING_3};
   return new Paragraph({heading:map[lvl],pageBreakBefore:brk,spacing:{before:lvl===1?200:150,after:90},keepNext:true,children:[R(t,{s:lvl===1?36:lvl===2?28:24,b:true,c:lvl===3?RED:NAVY})]});}
 function cell(children,{w,fill}={}){return new TableCell({width:{size:w,type:WidthType.DXA},shading:fill?{type:ShadingType.CLEAR,fill,color:'auto'}:undefined,margins:{top:55,bottom:55,left:110,right:110},borders:CELLB(),children:Array.isArray(children)?children:[children]});}
-function table(rows,widths){return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:widths,rows});}
+function table(rows,widths){return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:widths,layout:TableLayoutType.FIXED,rows});}
 function callout(label,lines=[]){const kids=[P(R(label,{s:21,b:true,c:NAVY}),{spacing:{after:lines.length?60:0}})];
   (Array.isArray(lines)?lines:[lines]).forEach(l=>kids.push(P(typeof l==='string'?R(l,{s:22}):l,{spacing:{after:40}})));
   return table([new TableRow({children:[cell(kids,{w:CW,fill:CREAM})]})],[CW]);}

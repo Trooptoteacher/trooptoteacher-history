@@ -2,11 +2,40 @@
 """DBQ / Primary-Source Investigation Book — World History Hack, Unit 1 (Age of Revolutions).
 Genuine public-domain document excerpts; HIPPO + SOAPS + OPTIC; scaffolded CER; EN/ES companion;
 teacher guide + point rubric + Schedule-F self-score (teacher-side). Leak-guarded."""
-import json, re, sys
+import json, re, sys, base64
 from docx import Document
-from docx.shared import Pt, RGBColor, Inches
+from docx.shared import Pt, RGBColor, Inches, Emu
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.oxml.ns import qn
+from docx.oxml import OxmlElement
+
+# iOS/Apple/Google previewers ignore fixed table layout and autofit columns to their widest glyph
+# content, collapsing blank answer cells. A fixed-width transparent PNG is measured by every renderer,
+# so it holds each column open. Written once to disk for python-docx's add_picture().
+_SPACER_PATH='_dbq_spacer.png'
+open(_SPACER_PATH,'wb').write(base64.b64decode(
+  'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4//8/AwAI/AL+p5qgoAAAAABJRU5ErkJggg=='))
+def _fixed(t):
+    """Force fixed table layout (autofit off) so column widths are honored on desktop viewers."""
+    t.autofit=False; t.allow_autofit=False
+    tblPr=t._tbl.tblPr
+    for el in tblPr.findall(qn('w:tblLayout')): tblPr.remove(el)
+    lay=OxmlElement('w:tblLayout'); lay.set(qn('w:type'),'fixed'); tblPr.append(lay)
+def _bborder(p,color='8C8C8C',sz='8'):
+    """Give a paragraph a visible bottom baseline (a writing line)."""
+    pPr=p._p.get_or_add_pPr(); pbdr=OxmlElement('w:pBdr'); b=OxmlElement('w:bottom')
+    for k,v in (('w:val','single'),('w:sz',sz),('w:space','2'),('w:color',color)): b.set(qn(k),v)
+    pbdr.append(b); pPr.append(pbdr)
+def _writecell(cell,width_in,lines=2):
+    """Blank answer cell: invisible width anchor + visible ruled baselines (non-merging via spacers)."""
+    p0=cell.paragraphs[0]
+    p0.add_run().add_picture(_SPACER_PATH,width=Emu(max(64000,int((width_in-0.2)*914400))),height=Emu(9525))
+    for i in range(lines):
+        p=p0 if i==0 else cell.add_paragraph()
+        _bborder(p)
+        if i<lines-1:
+            sp=cell.add_paragraph(); sp.paragraph_format.space_before=Pt(0); sp.paragraph_format.space_after=Pt(3)
 
 C=json.load(open('analysis/unit1_content.json')); U=C['unit']
 BRAND=U['brand']; NAVY=RGBColor(0x1B,0x2A,0x4A); GOLD=RGBColor(0xC8,0x9B,0x3C); RED=RGBColor(0xB2,0x22,0x34); GREY=RGBColor(0x60,0x60,0x60)
@@ -23,11 +52,15 @@ def para(text='',size=11,bold=False,italic=False,color=None,align=None,after=6,b
 def rule(): para('—'*54,size=9,color=GREY,after=4)
 def box(rows, widths=(2.4,4.6)):
     t=doc.add_table(rows=0,cols=2); t.style='Table Grid'; t.alignment=WD_TABLE_ALIGNMENT.CENTER
+    _fixed(t)
     for a,b in rows:
         c=t.add_row().cells
         c[0].width=Inches(widths[0]); c[1].width=Inches(widths[1])
         rp=c[0].paragraphs[0].add_run(a); rp.bold=True; rp.font.size=Pt(10)
-        c[1].paragraphs[0].add_run(b or '').font.size=Pt(10)
+        if b:
+            c[1].paragraphs[0].add_run(b).font.size=Pt(10)
+        else:
+            _writecell(c[1],widths[1])   # blank answer cell -> width anchor + ruled writing lines
     doc.add_paragraph().paragraph_format.space_after=Pt(4)
 
 # ---- COVER ----
@@ -119,9 +152,11 @@ doc.add_page_break()
 para('Language Access Companion (EN / ES)',size=15,bold=True,color=NAVY,after=4); rule()
 para('Key terms for this investigation, in English and Spanish. Términos clave para esta investigación, en inglés y español.',
     italic=True,color=GREY,size=10,after=6)
-vt=doc.add_table(rows=1,cols=3); vt.style='Table Grid'
+vt=doc.add_table(rows=1,cols=3); vt.style='Table Grid'; _fixed(vt)
+_VW=(2.0,2.0,2.8)
 hdr=vt.rows[0].cells
 for i,h in enumerate(['Term / Término','Spanish / Español','Meaning / Significado']):
+    hdr[i].width=Inches(_VW[i])
     r=hdr[i].paragraphs[0].add_run(h); r.bold=True; r.font.size=Pt(10); r.font.color.rgb=NAVY
 GLOSS=[('divine right','derecho divino','the belief a king’s power comes from God'),
        ('absolutism','absolutismo','total, centralized power in one monarch'),

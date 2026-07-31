@@ -1,0 +1,147 @@
+{
+ "W.01": {
+  "id": "WHG-W01-014",
+  "dok": 3,
+  "stem": "Based on the weaknesses of absolutism described in the passage, what would most likely happen to an absolute monarchy inherited by a weak or reckless ruler?",
+  "choices": [
+   {
+    "id": "A",
+    "text": "The whole state could be endangered because so much power depended on that one ruler"
+   },
+   {
+    "id": "B",
+    "text": "An elected assembly would immediately remove the ruler from power"
+   },
+   {
+    "id": "C",
+    "text": "The nobility would gain a legal right to overrule the monarch"
+   },
+   {
+    "id": "D",
+    "text": "Power would automatically divide itself among several branches of government"
+   }
+  ],
+  "correct": "A",
+  "remediation": {
+   "B": "Reteach that an absolute monarchy had no assembly able to vote out the ruler.",
+   "C": "Reteach that absolutism gave nobles no legal power to overrule the monarch.",
+   "D": "Reteach that separated branches of government describe a limited system, not an absolute monarchy."
+  }
+ },
+ "W.02": {
+  "id": "WHG-W02-011",
+  "dok": 3,
+  "stem": "A student argues that by 1700 England and France had taken 'opposite paths.' Which statement best supports this claim?",
+  "choices": [
+   {
+    "id": "A",
+    "text": "Both expanded royal power equally during the 1600s"
+   },
+   {
+    "id": "B",
+    "text": "England limited the monarch by law while France concentrated power in one ruler"
+   },
+   {
+    "id": "C",
+    "text": "Both abolished their monarchies before 1700"
+   },
+   {
+    "id": "D",
+    "text": "Neither country had a law-making body"
+   }
+  ],
+  "correct": "B",
+  "remediation": {
+   "A": "Reteach the contrast: England limited royal power by law while France under Louis XIV concentrated it, so their paths diverged.",
+   "C": "Reteach that both kept a monarch; England's became limited (constitutional) while France's stayed absolute.",
+   "D": "Reteach that England's Parliament was a law-making body whose power grew as the monarch's shrank."
+  }
+ },
+ "W.03": {
+  "id": "WHG-W03-011",
+  "dok": 3,
+  "stem": "Hobbes and Locke most clearly disagreed about which question?",
+  "choices": [
+   {
+    "id": "A",
+    "text": "Whether reason could be used to study government"
+   },
+   {
+    "id": "B",
+    "text": "Whether trade should be permitted"
+   },
+   {
+    "id": "C",
+    "text": "Whether people are best served by an all-powerful ruler or by a government that can be replaced"
+   },
+   {
+    "id": "D",
+    "text": "Whether kings ruled by the divine right of God"
+   }
+  ],
+  "correct": "C",
+  "remediation": {
+   "A": "Reteach that both thinkers applied reason; their split was over a strong ruler (Hobbes) versus a replaceable government (Locke).",
+   "B": "Reteach that the Hobbes/Locke disagreement was about the kind of government people need, not trade.",
+   "D": "Reteach that both reasoned about government; Hobbes favored a strong ruler while Locke said the people may replace a failing government."
+  }
+ },
+ "W.04": {
+  "id": "WHG-W04-011",
+  "dok": 3,
+  "stem": "Why was the 1649 execution of Charles I considered a turning point in ideas about kingship?",
+  "choices": [
+   {
+    "id": "A",
+    "text": "It proved that kings truly ruled by divine right"
+   },
+   {
+    "id": "B",
+    "text": "It brought an end to all warfare in Europe"
+   },
+   {
+    "id": "C",
+    "text": "It made Oliver Cromwell the new king of England"
+   },
+   {
+    "id": "D",
+    "text": "It showed that even a king could be held accountable by his own subjects"
+   }
+  ],
+  "correct": "D",
+  "remediation": {
+   "A": "Reteach that the trial and execution undercut the idea that a king was untouchable.",
+   "B": "Reteach that the execution did not end warfare across Europe.",
+   "C": "Reteach that Cromwell led a republic, the Commonwealth, and did not become king."
+  }
+ },
+ "W.08a": {
+  "id": "WHG-W08a-011",
+  "dok": 3,
+  "stem": "A historian claims the Declaration shows 'an idea moving from a philosopher's page to the founding of a nation.' Which evidence best supports this claim?",
+  "choices": [
+   {
+    "id": "A",
+    "text": "Jefferson wrote the Declaration without reading any Enlightenment works"
+   },
+   {
+    "id": "B",
+    "text": "The Declaration avoids any mention of rights"
+   },
+   {
+    "id": "C",
+    "text": "Locke's natural-rights argument reappears as Jefferson's 'unalienable Rights'"
+   },
+   {
+    "id": "D",
+    "text": "The Declaration defends the divine right of kings"
+   }
+  ],
+  "correct": "C",
+  "remediation": {
+   "A": "Reteach that Jefferson borrowed directly from Enlightenment thinkers.",
+   "B": "Reteach that rights are the core of the Declaration's argument.",
+   "D": "Reteach that the Declaration opposed divine right."
+  }
+ }
+}

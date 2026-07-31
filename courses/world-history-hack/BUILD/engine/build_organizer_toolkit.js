@@ -4,7 +4,12 @@
 // Plus a "Which organizer when" master guide and Tennessee-connection highlighting.
 const fs=require('fs'); const D=require('docx');
 const {Document,Packer,Paragraph,TextRun,HeadingLevel,AlignmentType,Table,TableRow,TableCell,
-  WidthType,BorderStyle,ShadingType,PageBreak,Header,Footer,PageNumber,ImageRun}=D;
+  WidthType,BorderStyle,ShadingType,PageBreak,Header,Footer,PageNumber,ImageRun,TableLayoutType}=D;
+// Invisible fixed-width spacer: iOS/Apple/Google previewers ignore <w:tblLayout type="fixed"> and
+// autofit columns to their widest glyph content, collapsing blank writing cells. A fixed-width
+// transparent PNG is measured by every renderer, so it holds each column at its intended width.
+const SPACER_PNG=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4//8/AwAI/AL+p5qgoAAAAABJRU5ErkJggg==','base64');
+function widthAnchor(w){return new ImageRun({type:'png',data:SPACER_PNG,transformation:{width:Math.max(8,Math.round((w-300)/15)),height:1},altText:{title:'',description:'spacer',name:'spacer'}});}
 const NAVY='1B2A4A',RED='B22234',GOLD='C89B3C',INK='1A1A1A',CREAM='F7F5EF',WHITE='FFFFFF',GREY='6B7280',BORD='D9D5C8';
 const FONT='Calibri', CW=9648;
 const C=JSON.parse(fs.readFileSync('analysis/unit1_content.json','utf8'));
@@ -20,19 +25,23 @@ function H(t,lvl,{brk=false}={}){const map={1:HeadingLevel.HEADING_1,2:HeadingLe
 function cell(children,{w,fill,borders,valign}={}){return new TableCell({width:{size:w,type:WidthType.DXA},
   shading:fill?{type:ShadingType.CLEAR,fill,color:'auto'}:undefined,margins:{top:70,bottom:70,left:110,right:110},
   verticalAlign:valign,borders:borders||CELLB(),children:Array.isArray(children)?children:[children]});}
-function table(rows,widths){return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:widths,rows});}
+function table(rows,widths){return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:widths,layout:TableLayoutType.FIXED,rows});}
 function callout(label,lines=[]){const kids=[P(R(label,{s:21,b:true,c:NAVY}),{spacing:{after:lines.length?60:0}})];
   (Array.isArray(lines)?lines:[lines]).forEach(l=>kids.push(P(typeof l==='string'?R(l,{s:22}):l,{spacing:{after:40}})));
   return table([new TableRow({children:[cell(kids,{w:CW,fill:CREAM})]})],[CW]);}
-function ruled(n=3){const out=[];for(let i=0;i<n;i++){
-  out.push(new Paragraph({spacing:{before:0,after:0,line:255,lineRule:'auto'},border:{bottom:{style:BorderStyle.SINGLE,size:4,color:'C9C4B5',space:3}},children:[R(' ',{s:16})]}));
+function ruled(n=3,w=CW){const out=[];for(let i=0;i<n;i++){
+  // Visible baseline (8C8C8C — matches the student workbook standard; the old C9C4B5 was too pale
+  // to see on cream). First line carries an invisible width anchor so autofit previewers keep the
+  // whole column open instead of collapsing an empty writing cell to its header width.
+  out.push(new Paragraph({spacing:{before:0,after:0,line:255,lineRule:'auto'},border:{bottom:{style:BorderStyle.SINGLE,size:8,color:'8C8C8C',space:3}},
+    children:i===0?[widthAnchor(w),R(' ',{s:16})]:[R(' ',{s:16})]}));
   if(i<n-1) out.push(new Paragraph({spacing:{before:0,after:0,line:70,lineRule:'exact'},children:[R(' ',{s:2})]}));}
   return out;}
 // grid of writing cells; headers optional; each blank cell gets ruled lines.
 // light:true -> header row is CREAM with navy text (writable — students fill in the labels; never dark).
 function grid(headers,rows,widths,lines=3,{light=false}={}){const trs=[];
   if(headers)trs.push(new TableRow({tableHeader:true,children:headers.map((h,i)=>cell(P(R(h,{s:19,b:true,c:light?NAVY:WHITE}),{spacing:{after:0}}),{w:widths[i],fill:light?CREAM:NAVY}))}));
-  rows.forEach(r=>trs.push(new TableRow({children:r.map((cx,i)=>cell(cx?[P(R(cx,{s:20,b:true}),{spacing:{after:0}})]:ruled(lines),{w:widths[i]}))})));
+  rows.forEach(r=>trs.push(new TableRow({children:r.map((cx,i)=>cell(cx?[P(R(cx,{s:20,b:true}),{spacing:{after:0}})]:ruled(lines,widths[i]),{w:widths[i]}))})));
   return table(trs,widths);}
 // embed a generated organizer graphic (PIL PNG), centered, sized to px width
 function img(file,wpx){const [W,H]=require('child_process').execSync(`python3 -c "from PIL import Image;s=Image.open('${file}').size;print(s[0],s[1])"`).toString().trim().split(' ').map(Number);

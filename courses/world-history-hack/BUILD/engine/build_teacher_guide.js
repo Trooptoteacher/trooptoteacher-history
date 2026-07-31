@@ -1,7 +1,12 @@
 // Unit 1 Teacher How-to-Use & MTSS Guide — docx-js, EXACT Unit 5 template tokens/structure.
 const fs=require('fs'); const D=require('docx');
 const {Document,Packer,Paragraph,TextRun,HeadingLevel,AlignmentType,Table,TableRow,TableCell,
-  WidthType,BorderStyle,ShadingType,PageBreak,Header,Footer,PageNumber,HeightRule}=D;
+  WidthType,BorderStyle,ShadingType,PageBreak,Header,Footer,PageNumber,HeightRule,ImageRun,TableLayoutType}=D;
+// Invisible fixed-width spacer: iOS/Apple/Google previewers ignore <w:tblLayout type="fixed"> and
+// autofit columns to their widest glyph content, collapsing blank cells. A fixed-width transparent
+// PNG is measured by every renderer, holding each column at its intended width on all viewers.
+const SPACER_PNG=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4//8/AwAI/AL+p5qgoAAAAABJRU5ErkJggg==','base64');
+function widthAnchor(w){return new ImageRun({type:'png',data:SPACER_PNG,transformation:{width:Math.max(8,Math.round((w-300)/15)),height:1},altText:{title:'',description:'spacer',name:'spacer'}});}
 const C=JSON.parse(fs.readFileSync('analysis/unit1_content.json','utf8'));
 const EXIT=fs.existsSync('analysis/unit1_exit_tickets.json')?JSON.parse(fs.readFileSync('analysis/unit1_exit_tickets.json','utf8')):{};
 const DIMNAME={C:'Culture',E:'Economics',G:'Geography',H:'History',P:'Politics/Government',T:'Tennessee',TCA:'TN Code Annotated'};
@@ -13,7 +18,7 @@ function P(runs,{align,spacing}={}){return new Paragraph({alignment:align,spacin
 function H(t,l){const m={1:HeadingLevel.HEADING_1,2:HeadingLevel.HEADING_2,3:HeadingLevel.HEADING_3};
   return new Paragraph({heading:m[l],spacing:{before:l===1?220:150,after:90},keepNext:true,children:[Rr(t,{s:l===1?36:l===2?28:24,b:true,c:l===3?RED:NAVY})]});}
 function cell(ch,{w,fill}={}){return new TableCell({width:{size:w,type:WidthType.DXA},shading:fill?{type:ShadingType.CLEAR,fill,color:'auto'}:undefined,margins:{top:60,bottom:60,left:110,right:110},borders:CELLB(),children:Array.isArray(ch)?ch:[ch]});}
-function table(rows,w){return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:w,rows});}
+function table(rows,w){return new Table({width:{size:CW,type:WidthType.DXA},columnWidths:w,layout:TableLayoutType.FIXED,rows});}
 function dataTable(hd,rows,w){const hr=new TableRow({tableHeader:true,children:hd.map((h,i)=>cell(P(Rr(h,{s:19,b:true,c:WHITE}),{spacing:{after:0}}),{w:w[i],fill:NAVY}))});
   const br=rows.map(r=>new TableRow({children:r.map((cx,i)=>cell(P(typeof cx==='string'?Rr(cx,{s:20}):cx,{spacing:{after:0}}),{w:w[i]}))}));return table([hr,...br],w);}
 function callout(label,lines){const k=[P(Rr(label,{s:21,b:true,c:NAVY}),{spacing:{after:60}})];(lines||[]).forEach(l=>k.push(P(Rr(l,{s:22}),{spacing:{after:40}})));
@@ -21,10 +26,10 @@ function callout(label,lines){const k=[P(Rr(label,{s:21,b:true,c:NAVY}),{spacing
 const PB=()=>new Paragraph({children:[new PageBreak()]});
 function writeTable(headers,rows,w,{rowH=560}={}){const trs=[];
   if(headers)trs.push(new TableRow({tableHeader:true,children:headers.map((h,i)=>cell(P(Rr(h,{s:18,b:true,c:i===0?NAVY:WHITE}),{spacing:{after:0}}),{w:w[i],fill:i===0?CREAM:NAVY}))}));
-  rows.forEach(r=>trs.push(new TableRow({height:{value:rowH,rule:HeightRule.ATLEAST},children:r.map((cx,i)=>cell(P(cx?Rr(cx,{s:20,b:i===0}):Rr('',{s:20}),{spacing:{after:0}}),{w:w[i]}))})));
+  rows.forEach(r=>trs.push(new TableRow({height:{value:rowH,rule:HeightRule.ATLEAST},children:r.map((cx,i)=>cell(P(cx?Rr(cx,{s:20,b:i===0}):[widthAnchor(w[i]),Rr('',{s:20})],{spacing:{after:0}}),{w:w[i]}))})));
   return table(trs,w);}
 function writeBox(label,lines=2,h=520){const rows=[new TableRow({children:[cell(P(Rr(label,{s:21,b:true,c:NAVY}),{spacing:{after:0}}),{w:CW,fill:CREAM})]})];
-  for(let i=0;i<lines;i++)rows.push(new TableRow({height:{value:h,rule:HeightRule.ATLEAST},children:[cell(P(Rr('',{s:20}),{spacing:{after:0}}),{w:CW})]}));
+  for(let i=0;i<lines;i++)rows.push(new TableRow({height:{value:h,rule:HeightRule.ATLEAST},children:[cell(P([widthAnchor(CW),Rr('',{s:20})],{spacing:{after:0}}),{w:CW})]}));
   return table(rows,[CW]);}
 function priorityBar(txt){return table([new TableRow({children:[cell(P([Rr('PRIORITY TERM',{s:16,b:true,c:GOLD}),Rr('     '+txt,{s:24,b:true,c:WHITE})],{spacing:{after:0}}),{w:CW,fill:NAVY})]})],[CW]);}
 function blankCornell(){return [
@@ -175,7 +180,10 @@ const body=[
   ...C.order.flatMap(code=>{const s=C.standards[code];return [
     H(`${code} — ${s.title}`,3),
     dataTable(['Dimension','Where it is taught in this standard'],
-      Object.entries(s.dim_map||{}).map(([k,v])=>[`${DIMNAME[k]||k} (${k})`,v]),[2842,6950]),
+      (s.dim_map?Object.entries(s.dim_map).map(([k,v])=>[`${DIMNAME[k]||k} (${k})`,v])
+        :(s.lenses||'').split('·').map(x=>x.trim()).filter(Boolean).map(seg=>{
+          const j=seg.indexOf(':'); return j>0?[seg.slice(0,j).trim(),seg.slice(j+1).trim()]:['Lens',seg];})),
+      [2842,6950]),
   ];}),
   PB(),
 
