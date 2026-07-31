@@ -69,11 +69,13 @@ function dataTable(headers,rows,widths){
 // identical bottom border and suppress the INTERNAL borders — so N stacked bordered
 // paragraphs collapse to one visible line. We break that merge with a tiny border-less
 // spacer between each line, so every baseline renders.
-function ruled(n=2){const out=[];for(let i=0;i<n;i++){
-  // EXACT US History Hack reference line: light rule C9C2B4, before80/after140, one per line.
-  out.push(new Paragraph({widowControl:false,spacing:{before:SZ(80),after:SZ(140)},
-    border:{bottom:{style:BorderStyle.SINGLE,size:6,color:'C9C2B4',space:1}},
+function ruled(n=3){const out=[];for(let i=0;i<n;i++){
+  // Visible notebook line (C9C2B4 was invisible on-screen). Medium-gray rule + anti-merge spacer
+  // between lines so EVERY line renders in the flow, not just in table cells.
+  out.push(new Paragraph({widowControl:false,spacing:{before:SZ(28),after:SZ(28)},
+    border:{bottom:{style:BorderStyle.SINGLE,size:8,color:'8892A0',space:1}},
     children:[new TextRun({text:' ',size:SZ(16),font:FONT})]}));
+  if(i<n-1) out.push(new Paragraph({spacing:{before:0,after:0,line:SZ(50),lineRule:'exact'},children:[new TextRun({text:' ',size:SZ(2),font:FONT})]}));
 }return out;}
 function linesFor(h){return Math.max(2,Math.round(h/380));}
 // writing table: label cells keep text; blank writing cells get ruled lines
@@ -286,9 +288,8 @@ function block(code){
   // Cornell note-taking — brand layout: navy header, narrow cue col + wide notes col, ruled lines
   out.push(cornell(s.cues||['Main idea?','Key term →','Why does it matter?','Connect it →'],
     'My notes — write your notes here',3));
-  out.push(P(R('Keep taking notes — lines run the full width of the page:',{s:19,i:true,c:GREY}),{spacing:{before:100,after:30}}));
   out.push(...ruled(4));
-  out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',750));
+  out.push(...doodle('DOODLE ZONE — draw your thinking (UDL · another way in)','Need another way in? Sketch the key idea, a quick timeline, or how the pieces connect. Words optional.',1450));
   // Cornell Notes — BACK (keep going, then process & check)
   out.push(H(`Cornell Notes — keep going, then process & check — ${code}`,2,{brk:true}));
   out.push(callout('UDL · CHOOSE HOW YOU CAPTURE IDEAS (same target for everyone)',['Keep going with your notes: WRITE on the lines, DRAW or diagram in the box, or do both — your choice. You may also record your notes aloud.']));
@@ -314,7 +315,7 @@ function block(code){
   out.push(P(R('1) Name one cause or effect.    2) Give one piece of evidence.    3) Write one sentence explaining the link.',{s:20})));
   out.push(callout('Sentence frame',['One key cause/effect of '+s.title.split(':')[0].toLowerCase()+' was ______, shown by ______, which mattered because ______.']));
   out.push(callout('Modeled example (one worked note — yours will differ)',['A key idea of '+s.title.split(':')[0].toLowerCase()+' was '+s.vocab[0].term+': '+s.vocab[0].def]));
-  out.push(callout('GUIDED NOTE REHEARSAL LAB',['Rehearse the cause→effect chain below, then transfer it to your Cornell notes.']));
+  out.push(callout('GUIDED NOTE REHEARSAL LAB — practice ONE note, step by step',['Build one good note here first, then copy it onto your Cornell page. Name the idea → give one piece of evidence → explain the link → write a short headline.']));
   out.push(writeTable(['Step','Rehearse it here'],[['Name it',''],['Evidence',''],['Explain',''],['Headline','']],[2639,7153],{rowH:760}));
   out.push(writeBox('TRANSFER CHECK — move one rehearsed idea onto the front notes',3));
   // Light Support Back
