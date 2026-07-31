@@ -129,15 +129,21 @@ function doodle(label,note,h=1500){return [callout(label,[note]),
   table([new TableRow({height:{value:h,rule:HeightRule.ATLEAST},children:[cell(P(R(' ',{s:12}),{spacing:{after:0}}),{w:CW})]})],[CW])];}
 function priorityBar(n,term,es){return table([new TableRow({children:[cell([
   P([R(`PRIORITY TERM ${n}`,{s:16,b:true,c:GOLD}),R(`     ${term}`,{s:24,b:true,c:WHITE}),R(`      ·   ES: ${es}`,{s:18,c:'D9D5C8'})],{spacing:{after:0}})],{w:CW,fill:NAVY})]})],[CW]);}
-function retrievalBox(code){return [gap(70),
-  callout('SPACED RETRIEVAL — quick recall (no notes)',['Pull it up cold to strengthen memory, then check your notes.']),
+function retrievalBox(code){return [
+  H(`Spaced Retrieval & Reflection — ${code}`,2,{brk:true}),
+  callout('SPACED RETRIEVAL — quick recall (no notes)',['Pull it up cold to strengthen memory, then check your notes — retrieval is what makes learning stick.']),
   writeTable(['Recall prompt','Your answer (from memory)'],[
     ['One key term or fact from THIS standard',''],
-    ['One thing you learned EARLIER — how does it connect?',''],
-  ],[3857,5935],{rowH:400,lines:1}),
+    ['One thing you learned in an EARLIER standard — how does it connect?',''],
+    ['One question you can answer now that you could not before',''],
+  ],[3857,5935],{rowH:460,lines:1}),
   callout('CHECK YOURSELF — look back and score how it went',[
     [R('Got it right?  ',{s:20,b:true}),R('☐ Yes  ☐ Partly  ☐ Not yet',{s:20}),R('     Answer it from memory?  ',{s:20,b:true}),R('☐ Yes  ☐ With a hint  ☐ No',{s:20})],
-    [R('How did it feel?  ',{s:20,b:true}),R('☐ Confident  ☐ Getting there  ☐ Shaky — I’ll revisit',{s:20})]])];}
+    [R('How did it feel?  ',{s:20,b:true}),R('☐ Confident  ☐ Getting there  ☐ Shaky — I’ll revisit',{s:20})]]),
+  callout('CONNECT IT — spiral back',['How does this standard connect to one you studied earlier, or to something in the world today? Write 2–3 sentences.']),
+  ...ruled(5),
+  callout('WHERE AM I? — plan your next step',[[R('Rate your understanding of this standard (1–4):   ',{s:20,b:true}),R('☐ 1    ☐ 2    ☐ 3    ☐ 4',{s:20})]]),
+  writeBox('One thing I will review or ask about before the quiz:',3)];}
 function vocabSelfCheck(code){const s=C.standards[code]; const W=[3092,1675,1675,1675,1675];
   const head=new TableRow({tableHeader:true,children:['Term','1 · never seen it','2 · heard it','3 · can use it','4 · can teach it'].map((h,i)=>cell(P(R(h,{s:15,b:true,c:i===0?NAVY:WHITE}),{align:i?AlignmentType.CENTER:AlignmentType.LEFT,spacing:{after:0}}),{w:W[i],fill:i===0?CREAM:NAVY}))});
   const rows=s.vocab.map(v=>new TableRow({children:[cell(P(R(v.term,{s:18,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(ruled(1),{w:W[k]}))]}));
@@ -375,6 +381,7 @@ function block(code){
   out.push(P(R('RESPONSE CHOICE: answer any question by writing in the Evidence Lab, saying/recording it, or diagramming it.',{s:20,i:true})));
   out.push(callout('CLOSE-READ EVIDENCE LAB',['Log evidence from the passage below.']));
   out.push(writeTable(['Question / claim','Exact passage evidence','What the evidence shows'],[['','',''],['','','']],[3264,3264,3264],{rowH:480,lines:2}));
+  out.push(writeBox('In one sentence — the main idea of this reading:',2));
   const gmap=(IMG[code]||{}).map;
   if(s.geo && !gmap){out.push(gap(100));
     out.push(...doodle('GEOGRAPHER’S LENS (G · SSP.06) — sketch & label the geography',s.geo+' Then draw a quick map below and label at least two places.',1050));}

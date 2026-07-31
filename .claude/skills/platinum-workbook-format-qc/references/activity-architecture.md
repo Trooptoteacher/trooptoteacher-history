@@ -66,19 +66,32 @@ callout + open draw box (~2000–2100) → **CONNECT THE TERMS — concept map**
 - **Name/Class/Date line was REMOVED** — it only appeared on Cornell, was inconsistent, and ate space.
 - Guided Support and Light Support backs are optional scaffolds (kept teacher-optional).
 
-## Activity 4 — Close Read (+ Spaced Retrieval & self-check)
+## Activity 4 — Close Read (ends at the Evidence Lab)
 `H2 {brk:true, mins:15}` → reading-type disclaimer (authored synthesis, *not* a primary source) →
 **CORE PATH** callout carrying the `a.close` passage → **LANGUAGE SUPPORT** → text-dependent questions
-→ RESPONSE CHOICE line → **CLOSE-READ EVIDENCE LAB** `writeTable [3264,3264,3264]` (2 rows, lines:2).
-Then, when the standard has no map/geo, `retrievalBox(code)`:
-- **SPACED RETRIEVAL** callout + 2-row recall `writeTable [3857,5935]` (rowH ~400, lines:1) →
-- **CHECK YOURSELF — look back and score how it went** compact self-eval: **2 physical lines** —
+→ RESPONSE CHOICE line → **CLOSE-READ EVIDENCE LAB** `writeTable [3264,3264,3264]` (2 rows, lines:2) →
+**`writeBox('In one sentence — the main idea of this reading:', 2)`**.
+- The "main idea" line is a small uniform filler so the Close Read page fills across the full passage
+  length range (short passages end ~72%, long ones ~90%) without a 3rd evidence row that would risk
+  bleeding the longest passages.
+- **The Close Read page must END here.** Do not append the retrieval box to it (see the lesson below).
+
+## Spaced Retrieval & Reflection — its OWN page (when no map/geo)
+When the standard has no map/geo, `retrievalBox(code)` emits a **dedicated page** (`H2 {brk:true}`
+"Spaced Retrieval & Reflection — CODE"):
+- **SPACED RETRIEVAL** callout + 3-row recall `writeTable [3857,5935]` (rowH ~460, lines:1).
+- **CHECK YOURSELF — look back and score how it went**: compact self-eval, **2 physical lines** —
   line 1 `Got it right? ☐…  Answer it from memory? ☐…`, line 2 `How did it feel? ☐…`.
-- **Rationale + the hard constraint:** the self-check must fit even the FULLEST close-read page
-  (longest passage). It was first built tall (header + 3 lines + a writeBox) and **bled onto a nearly
-  empty next page** on the longest standard. It was compressed to two inline checkbox lines (dropping
-  the extra write box, tightening retrieval/evidence rowH) and verified on the worst-case standard.
-  Keep it at two lines. If you add anything here, re-render the fullest standard.
+- **CONNECT IT — spiral back** callout + `ruled(5)`.
+- **WHERE AM I? — plan your next step** (1–4 rating) + `writeBox(...,3)`. Page fills ~72%.
+- **THE HARD LESSON (why this is a separate page):** the retrieval + self-check was originally
+  *inline* at the bottom of the Close Read page. That works only when the passage is short. Close-read
+  passages vary ~600→1300 chars across standards; the longest ones (e.g. a 1317-char passage) filled
+  the Close Read page by themselves, so the appended retrieval table + self-check **bled onto a
+  mostly-empty next page** — on ~1/3 of standards. No single inline layout fits that whole range. The
+  fix was structural: end Close Read at the Evidence Lab (+ main-idea line to fill), and give retrieval
+  its own filled page. **Never re-inline the retrieval box.** Always render the FULLEST close-read
+  standard (find `max(len(auth.close))` across the unit) after any Close Read / retrieval change.
 
 ## Activity 5 — Primary Source / Data Analysis (2-page spread)
 - FRONT: `H2 {brk:true}` source (image + caption + full public-domain citation) → **FIRST LOOK**
