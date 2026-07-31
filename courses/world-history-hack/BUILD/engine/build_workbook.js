@@ -271,18 +271,30 @@ function block(code){
   out.push(callout('LANGUAGE SUPPORT',['Pronunciations: '+s.vocab.filter(v=>v.say).map(v=>`${v.term} (${v.say})`).join('; ')+'.']));
   out.push(...vocabSelfCheck(code));
   // Activity 2 — Frayer
+  // FRONT (page 1): the studio — two priority-term Frayer boxes + a combined application sentence.
   out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7}));
-  out.push(callout('RESPONSE CHOICE',['Complete each studio by writing, speaking, or diagramming.']));
+  out.push(callout('RESPONSE CHOICE',['Complete each studio by writing, speaking, or diagramming. A worked example and supports are on the back of this page.']));
   a.frayer.forEach((term,fi)=>{const v=s.vocab.find(x=>x.term===term)||s.vocab[0];
-    out.push(gap(fi===0?20:60));
+    out.push(gap(fi===0?20:80));
     out.push(priorityBar(fi+1,term,v.es));
     out.push(P(R('Word-bank meaning to build on: '+v.def,{s:20}),{spacing:{after:20}}));
-    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:340}));
-    out.push(callout('Use it to explain',['Write one sentence that uses “'+term+'” to explain this standard.']));
-    out.push(...ruled(1));});
-  out.push(gap(10));
-  out.push(callout('CONNECT THE TERMS (UDL · build understanding)',['How do these priority terms fit together? Write or sketch how one leads to or affects another.']));
-  out.push(...ruled(3));
+    out.push(writeTable(['Definition (in your own words)','Characteristics'],[['',''],['Examples','Non-examples'],['','']],[4896,4896],{rowH:820}));});
+  // BACK (page 2, duplex): UDL supports for the studio — worked model, frames, synthesis, choice board.
+  out.push(H(`Vocabulary Studio Support — ${code}`,3,{brk:true}));
+  out.push(P(R('Optional supports for the studio on the front. Try the front first; reach for these only if a box feels tricky. Same target for everyone — these change the way in, not the goal.',{s:20,i:true})));
+  {const fex=s.vocab.find(x=>x.term===a.frayer[0])||s.vocab[0];
+  out.push(callout('WORKED EXAMPLE — what a strong Frayer looks like (using “'+fex.term+'”)',[
+    R('Definition in your own words: '+fex.def,{s:20}),
+    R('Characteristics — list 2–3 traits that are ALWAYS true of it.',{s:20,i:true,c:GREY}),
+    R('Examples — name real cases from this standard.   ·   Non-examples — name something it is NOT, and say why.',{s:20,i:true,c:GREY})]));}
+  out.push(callout('SENTENCE FRAMES — if you get stuck',[
+    '“______ means ______, which mattered because ______.”',
+    '“One example of ______ is ______; a non-example is ______ because it ______.”']));
+  out.push(...ruled(2));
+  out.push(callout('CONNECT THE TERMS — build understanding',['How do these priority terms fit together? Write or sketch how one leads to or affects another.']));
+  out.push(...ruled(2));
+  out.push(callout('SHOW YOU OWN IT — YOUR WAY (pick ONE)',['WRITE a sentence that uses a term  ·  DRAW and label the idea  ·  give a REAL-WORLD example from today  ·  TEACH it to a partner in 20 seconds.']));
+  out.push(...doodle('MY WAY — write or draw your choice here','',650));
   // Activity 3 — Cornell Notes — FRONT (note-taking; the whole page is writing space)
   out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true,mins:20}));
   out.push(P(R('Name: ______________________    Class / Period: __________    Date: __________',{s:21})));
