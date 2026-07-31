@@ -198,8 +198,11 @@ const front=[
   P(R('Back matter:  Your Tennessee Connection  ·  Progress Tracker & Cumulative Review  ·  Optional Extension Bank  ·  CER Rubric  ·  Source Library  ·  Multiple Perspectives  ·  Unit Reflection.',{s:21,i:true,c:GREY})),
   H('Tennessee Standards & SSP Crosswalk',1,{brk:true}),
   P(R('Each standard below is taught to the full Course Standard expectation; the Social Studies Practices are embedded in every activity cycle.',{s:22})),
-  dataTable(['Standard','Focus','Student Deck slides'],
-    C.order.map(c=>[c,C.standards[c].title,`${C.standards[c].ref.range}`]),[1522,6240,2030]),
+  dataTable(['Standard','Focus','Lenses'],
+    C.order.map(c=>{const s=C.standards[c];
+      const lens=(s.lenses_list&&s.lenses_list.length)?s.lenses_list.join(' · ')
+        :(s.lenses||'').split('·').map(x=>x.split(':')[0].trim()).filter(Boolean).join(' · ');
+      return [c,s.title,lens];}),[1350,5600,2842]),
   H('Social Studies Practices (SSP.01–SSP.06)',2),
   P(R('SSP.01 Gather/evaluate sources · SSP.02 Critically examine a primary source · SSP.03 Synthesize evidence · SSP.04 Construct/communicate argument · SSP.05 Develop historical awareness · SSP.06 Chronological/spatial reasoning. Each Close Read, Primary Source/Data, and CER activity names the practices it builds.',{s:21})),
   H('Accessibility, UDL & Accommodations Matrix',1,{brk:true}),
@@ -244,7 +247,7 @@ const front=[
     ['One thing I already know about this era…',''],
     ['One question I want answered…',''],
     ['A word or idea I expect to be tricky…',''],
-  ],[3045,6747],{rowH:1200,lines:4})];
+  ],[3045,6747],{rowH:820,lines:3})];
 
 // ================= PER-STANDARD =================
 function block(code){
@@ -258,7 +261,6 @@ function block(code){
   if(s.tn_connection) out.push(callout('★ Tennessee Connection',[s.tn_connection]));
   // Text HOOK — a provocative, standard-specific question (images live in the analysis activities, framed + cited).
   out.push(callout('HOOK — think before you dig in',[s.hook||'What is the big question behind this standard?']));
-  out.push(...ruled(2));
   out.push(callout('SET YOUR GOAL & ACTIVATE (self-direction)',['Set a goal, then activate what you already know. The target is the same for everyone; your goal is how YOU will get there.','Sentence starters:  “By the end, I will be able to ______.”   ·   “I already know ______.”   ·   “I wonder ______.”   ·   “The hardest target for me may be ______.”','Example:  “By the end, I will be able to explain the main idea of this standard and back it up with one specific piece of evidence.”']));
   out.push(writeBox('Write your goal + what you already know / wonder',3));
   // Activity 1 — Word Bank
@@ -322,11 +324,9 @@ function block(code){
     s.vocab.map(v=>[v.term,'']),[3248,6544],{lines:1}));
   out.push(P(R('Guiding questions — answer on the lines below (or in your front notes):',{s:21,b:true})));
   a.tdq.forEach(q=>out.push(P(R('• '+q,{s:20}))));
-  out.push(...ruled(3));
-  out.push(gap(10));
-  out.push(callout('WHICH CUE STILL NEEDS WORK?',['Circle the Cornell cue from the front page you still need help with, and tell your teacher so we can go over it.']));
-  out.push(callout('LIGHT PROCESSING LAB',['Answer one guiding question from above in a full sentence, in your own words.']));
   out.push(...ruled(2));
+  out.push(callout('WHICH CUE STILL NEEDS WORK?',['Circle the Cornell cue from the front page you still need help with, and tell your teacher so we can go over it.']));
+  out.push(callout('LIGHT PROCESSING LAB',['Answer one guiding question above in a full sentence, in your own words — use the lines above or your front notes.']));
   // Activity 4 — Close Read
   out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15}));
   out.push(P(R('Reading type: '+BRAND+'-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
@@ -423,9 +423,9 @@ function block(code){
   out.push(callout('ACCESS FOR EVERY LEARNER — same target, your way in (UDL 3.0 · MTSS)',['UDL 3.0 (CAST, 2024): read-aloud on request · key terms glossed (EN/ES) · large-print & screen-reader friendly. Show your Claim–Evidence–Reasoning in the mode that lets you think best — WRITE it · SAY & record it · DRAW a labeled diagram · BUILD and caption a model. The standard and rubric are the same for every mode; supports vary the means, not the ceiling.','MTSS: Tier 1 core lesson for all · Tier 2 small-group reteach (Cornell cues + organizer), then re-check · Tier 3 intensive 1:1, progress-monitored to the same standard.']));
   out.push(callout('CHOICE & VOICE — you decide how to go deeper (pick ONE)',['Every option meets the same target. DEFEND a term: pick the vocabulary word that matters most and argue why. · CONNECT it: tie this standard to a current event, your community, or your own life. · TAKE A SIDE: pick one debatable question and argue your position with evidence.']));
   out.push(P(R('My choice + why — write in complete sentences:',{s:20,b:true,c:NAVY}),{spacing:{before:60,after:20}}));
-  out.push(...ruled(4));
+  out.push(...ruled(3));
   out.push(callout('REFLECT & CONNECT — how your thinking grew, and whose view you weighed',['Reflect (self-awareness): What did you believe about this topic BEFORE, and what changed AFTER? Name one thing to revisit.','Consider another view (empathy): Name one person or group who might see this standard differently than you; state their view fairly in one sentence — even if you disagree.','Norm (restorative): we critique ideas, not people; we assume good faith; we make room for every voice.']));
-  out.push(...ruled(5));
+  out.push(...ruled(4));
   return out;
 }
 const standards=[]; ORDER.forEach(c=>block(c).forEach(x=>standards.push(x)));
@@ -469,16 +469,21 @@ const back=[
   writeTable(['Part','Write here'],[['My claim',''],['Evidence 1 (standard: ___)',''],['Evidence 2 (standard: ___)',''],['Why it matters today','']],[2639,7153],{rowH:460})];
 
 // ================= ASSEMBLE =================
-const header=new Header({children:[P(R(BRANDTM+' · '+(U.code||'Unit 1')+(U.title?' — '+U.title:''),{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
+// Header/footer copied from the reference: brand · unit · Course Standard Edition (header);
+// brand · unit (Course Standard) · © · Page N (footer). Kept short so the page number stays inline.
+const header=new Header({children:[P(R(BRANDTM+' · '+(U.code||'Unit 1')+' · Course Standard Edition',{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
 const footer=new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:0},children:[
-  R(BRANDTM+' · '+(U.code||'Unit 1')+(U.title?': '+U.title:'')+' · Course Standard Edition   © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:15,c:GREY}),
+  R(BRANDTM+' · '+(U.code||'Unit 1')+' (Course Standard)   © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:15,c:GREY}),
   new TextRun({children:[PageNumber.CURRENT],size:15,color:GREY,bold:true,font:FONT})]})]});
 const doc=new Document({creator:'TroopToTeacher Technologies LLC',title:BRAND+' — '+(U.code||'Unit 1')+' Course Standard Student Workbook',
   features:{updateFields:true},
-  styles:{default:{document:{run:{font:FONT,size:SZ(22),color:INK}}},paragraphStyles:[
-    {id:'Heading1',name:'Heading 1',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:36,bold:true,color:NAVY},paragraph:{spacing:{before:220,after:90},outlineLevel:0,keepNext:true}},
-    {id:'Heading2',name:'Heading 2',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:28,bold:true,color:NAVY},paragraph:{spacing:{before:150,after:80},outlineLevel:1,keepNext:true}},
-    {id:'Heading3',name:'Heading 3',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:24,bold:true,color:RED},paragraph:{spacing:{before:120,after:70},outlineLevel:2,keepNext:true}},
+  // Brand-lock typography copied EXACTLY from REFERENCE/USHistory_Unit8_Student_Workbook.docx:
+  // Calibri 11pt / ink 1A1A1A, 1.15 line spacing (line 276, auto) on every paragraph via docDefaults,
+  // 200 twip base space-after. Headings: navy 1B2A4A (H3 = 2C3E63), before 480/200/200, after 0.
+  styles:{default:{document:{run:{font:FONT,size:SZ(22),color:INK},paragraph:{spacing:{line:276,lineRule:'auto',after:200}}}},paragraphStyles:[
+    {id:'Heading1',name:'Heading 1',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:36,bold:true,color:NAVY},paragraph:{spacing:{before:480,after:0,line:276,lineRule:'auto'},outlineLevel:0,keepNext:true}},
+    {id:'Heading2',name:'Heading 2',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:28,bold:true,color:NAVY},paragraph:{spacing:{before:200,after:0,line:276,lineRule:'auto'},outlineLevel:1,keepNext:true}},
+    {id:'Heading3',name:'Heading 3',basedOn:'Normal',next:'Normal',quickFormat:true,run:{font:FONT,size:24,bold:true,color:'2C3E63'},paragraph:{spacing:{before:200,after:0,line:276,lineRule:'auto'},outlineLevel:2,keepNext:true}},
   ]},
   sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1152,bottom:1152,left:1224,right:1224,header:720,footer:720}}},
     headers:{default:header},footers:{default:footer},children: SAMPLE ? [P(R(`SAMPLE — Unit 1 · first ${SAMPLE} standards (activities only, ruled-line writing) — for review`,{s:24,b:true,c:NAVY}),{align:AlignmentType.CENTER,spacing:{after:120}}), ...standards] : [...cover,...front,...standards,...back]}]});
