@@ -11,7 +11,7 @@ visual layer touches. **Honesty doctrine applies: scored as-built, gaps stated p
 
 | Indicator | Score | As-built evidence / gap |
 |---|---|---|
-| **Content accuracy** (foundational — TDOE Policy 2.600) | **1 → 2 after remediation** | Data graphics all verified (see `FACTCHECK_REPORT.md`). **BUT three sourced maps carry documented factual defects** (see deficiencies). A map with known errors cannot be marked fully met until fixed. |
+| **Content accuracy** (foundational — TDOE Policy 2.600) | **2** | Data graphics all verified (see `FACTCHECK_REPORT.md`). The one map with **known errors (US.48) has been dropped** (clean PD replacement identified for sourcing — see `US.48/MAP_DROPPED_pearl_harbor.md`). No shipping asset carries a known factual error; US.57/US.58 require only a caption caveat (minor). |
 | **SSP.06 Geographic awareness** (Table 3) | **2** | Maps for US.47 (camps), US.50 (D-Day + Pacific), US.53 (migration), US.54 (WRA camps), US.56 (Manhattan sites), US.57 (occupation zones), US.58 (UN) give students real geographic reasoning material across the unit. |
 | **Disciplinary literacy** (Table 2) | **2** | Data graphics (unemployment, Lend-Lease, war production, casualties, incarceration) require reading charts/quantitative evidence; maps require spatial reasoning. |
 | **Multiple perspectives** (Table 2) | **2** | Visual set spans home front, women, Black war workers + Great Migration, Japanese American incarceration, the Holocaust — not a single-narrative set. |
@@ -22,7 +22,7 @@ visual layer touches. **Honesty doctrine applies: scored as-built, gaps stated p
 
 | # | Sev | Asset | Issue | Remediation |
 |---|---|---|---|---|
-| 1 | **MAJOR** | `US.48_pearl_harbor_attack_map.png` | Sourced map has **documented compass / ship-order errors** (per its `.citation.md`). Known factual errors fail Policy 2.600 accuracy. | **Do not ship as-is.** Replace with an accurate PD Pearl Harbor map (NHHC/NARA) that passes QA, **or drop the map** (US.48 is carried by the losses chart + Pearl Harbor photos). |
+| 1 | ~~MAJOR~~ **RESOLVED** | `US.48_pearl_harbor_attack_map.png` | Had documented compass/ship-order errors. | ✅ **DROPPED** (2026-08-01). Clean PD replacement identified for the agent to source: NHHC 80-G-947105 "Map of Pearl Harbor, Territory of Hawaii" (see `US.48/MAP_DROPPED_pearl_harbor.md`). US.48 carried by the losses chart + Pearl Harbor photos meanwhile. |
 | 2 | **MINOR** | `US.57_germany_occupation_zones_map.jpg` | Modified-map / anachronism caveat — could misdate/misattribute if used raw. | Mandatory caption caveat stating date + that it is a modified/derivative map; or replace with a clean PD occupation-zones map. |
 | 3 | **MINOR** | `US.58_un_51_member_states_map.jpg` | 1945/1946 caption-error risk (Newsmap dating). | Caption must state the correct date; verify against the source before print. |
 
@@ -37,6 +37,8 @@ visual layer touches. **Honesty doctrine applies: scored as-built, gaps stated p
 - **No map (resolved):** US.46 removed; US.45 & US.49 optional, never built.
 
 ## Section verdict
-**Not yet fully approvable** — one MAJOR accuracy deficiency (US.48 map) must be resolved. Everything
-else meets the bar. On remediation of deficiency #1 (and captions for #2/#3), the visual layer is
-Schedule-F-clean: accurate, sourced, SSP.06-supporting, accessible, commercial-safe.
+**Approvable.** The one MAJOR accuracy deficiency (US.48 map) is resolved — the erroneous map was
+dropped and a clean PD replacement is pinned for sourcing. No shipping asset carries a known factual
+error. Two MINOR items remain (US.57 / US.58 caption caveats) — surface the caveat in any caption
+that uses those maps. The visual layer is Schedule-F-clean: accurate, sourced, SSP.06-supporting,
+accessible, commercial-safe.
