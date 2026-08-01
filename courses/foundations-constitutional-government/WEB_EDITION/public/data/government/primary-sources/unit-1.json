@@ -1,0 +1,283 @@
+{
+  "_schema": "Government Hack canonical primary-source bank. Mirrors public/data/us-history/primary-sources/unit-<N>.json.",
+  "_rule": "Verbatim excerpts only, from a cited repository. Every record carries rights + Chicago citation. Images live in images/unit-<N>.json with EN/ES alt text; colorKey:true only when color encodes meaning (build prints a 'see full-color on the slide' note).",
+  "subject": "government",
+  "unit": 1,
+  "unit_title": "Foundations of Constitutional Government",
+  "sources": [
+    {
+      "id": "gov-u1-01",
+      "type": "text",
+      "title": "Second Treatise of Government",
+      "author": "John Locke",
+      "date": "1689",
+      "repository": "Avalon Project, Yale Law School",
+      "url": "https://avalon.law.yale.edu/17th_century/locke.asp",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "Men being, as has been said, by nature all free, equal, and independent, no one can be put out of this estate and subjected to the political power of another without his own consent.",
+      "citation_chicago": "John Locke, \"Second Treatise of Government,\" 1689. Avalon Project, Yale Law School. https://avalon.law.yale.edu/17th_century/locke.asp.",
+      "standards": [
+        "GC.01"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-02",
+      "type": "text",
+      "title": "Magna Carta, Clause 39",
+      "author": "King John of England",
+      "date": "1215",
+      "repository": "The National Archives (UK)",
+      "url": "https://www.bl.uk/magna-carta",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "No free man shall be seized or imprisoned, or stripped of his rights or possessions… except by the lawful judgment of his equals or by the law of the land.",
+      "citation_chicago": "King John of England, \"Magna Carta, Clause 39,\" 1215. The National Archives (UK). https://www.bl.uk/magna-carta.",
+      "standards": [
+        "GC.01"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-03",
+      "type": "text",
+      "title": "Declaration of Independence",
+      "author": "Continental Congress (drafted by Thomas Jefferson)",
+      "date": "July 4, 1776",
+      "repository": "National Archives",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.",
+      "citation_chicago": "Continental Congress (drafted by Thomas Jefferson), \"Declaration of Independence,\" July 4, 1776. National Archives. https://www.archives.gov/founding-docs/declaration-transcript.",
+      "standards": [
+        "GC.02"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-04",
+      "type": "text",
+      "title": "Declaration of Independence (grievance)",
+      "author": "Continental Congress",
+      "date": "July 4, 1776",
+      "repository": "National Archives",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "He has refused his Assent to Laws, the most wholesome and necessary for the public good… He has dissolved Representative Houses repeatedly.",
+      "citation_chicago": "Continental Congress, \"Declaration of Independence (grievance),\" July 4, 1776. National Archives. https://www.archives.gov/founding-docs/declaration-transcript.",
+      "standards": [
+        "GC.02"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-05",
+      "type": "text",
+      "title": "Articles of Confederation, Article II",
+      "author": "Second Continental Congress",
+      "date": "ratified 1781",
+      "repository": "Avalon Project, Yale Law School",
+      "url": "https://avalon.law.yale.edu/18th_century/artconf.asp",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "Each state retains its sovereignty, freedom, and independence, and every power, jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled.",
+      "citation_chicago": "Second Continental Congress, \"Articles of Confederation, Article II,\" ratified 1781. Avalon Project, Yale Law School. https://avalon.law.yale.edu/18th_century/artconf.asp.",
+      "standards": [
+        "GC.03"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-06",
+      "type": "text",
+      "title": "Letter on Shays's Rebellion",
+      "author": "George Washington",
+      "date": "1786",
+      "repository": "National Archives, Founders Online",
+      "url": "https://founders.archives.gov",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "There are combustibles in every State, which a spark might set fire to… I feel infinitely more than I can express for the disorders which have arisen.",
+      "citation_chicago": "George Washington, \"Letter on Shays's Rebellion,\" 1786. National Archives, Founders Online. https://founders.archives.gov.",
+      "standards": [
+        "GC.03"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-07",
+      "type": "text",
+      "title": "Federalist No. 10",
+      "author": "James Madison (Publius)",
+      "date": "1787",
+      "repository": "Congress.gov / Library of Congress",
+      "url": "https://guides.loc.gov/federalist-papers/text-1-10",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "The latent causes of faction are thus sown in the nature of man… The regulation of these various and interfering interests forms the principal task of modern legislation.",
+      "citation_chicago": "James Madison (Publius), \"Federalist No. 10,\" 1787. Congress.gov / Library of Congress. https://guides.loc.gov/federalist-papers/text-1-10.",
+      "standards": [
+        "GC.04",
+        "GC.09"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-08",
+      "type": "text",
+      "title": "Brutus No. 1 (Anti-Federalist)",
+      "author": "'Brutus' (likely Robert Yates)",
+      "date": "1787",
+      "repository": "Teaching American History / Avalon Project",
+      "url": "https://teachingamericanhistory.org/document/brutus-i/",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "In a republic, the manners, sentiments, and interests of the people should be similar… In a large extended country, it is impossible to have a representation, possessing the sentiments, and of integrity, to declare the minds of the people.",
+      "citation_chicago": "'Brutus' (likely Robert Yates), \"Brutus No. 1 (Anti-Federalist),\" 1787. Teaching American History / Avalon Project. https://teachingamericanhistory.org/document/brutus-i/.",
+      "standards": [
+        "GC.04"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-09",
+      "type": "text",
+      "title": "Preamble to the U.S. Constitution",
+      "author": "Constitutional Convention",
+      "date": "1787",
+      "repository": "National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.",
+      "citation_chicago": "Constitutional Convention, \"Preamble to the U.S. Constitution,\" 1787. National Archives. https://www.archives.gov/founding-docs/constitution-transcript.",
+      "standards": [
+        "GC.05"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-10",
+      "type": "text",
+      "title": "Federalist No. 51",
+      "author": "James Madison (Publius)",
+      "date": "1788",
+      "repository": "Congress.gov / Library of Congress",
+      "url": "https://guides.loc.gov/federalist-papers/text-51-60",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "Justice is the end of government. It is the end of civil society. It ever has been and ever will be pursued until it be obtained, or until liberty be lost in the pursuit.",
+      "citation_chicago": "James Madison (Publius), \"Federalist No. 51,\" 1788. Congress.gov / Library of Congress. https://guides.loc.gov/federalist-papers/text-51-60.",
+      "standards": [
+        "GC.05",
+        "GC.06"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-11",
+      "type": "text",
+      "title": "Federalist No. 78",
+      "author": "Alexander Hamilton (Publius)",
+      "date": "1788",
+      "repository": "Congress.gov / Library of Congress",
+      "url": "https://guides.loc.gov/federalist-papers/text-71-85",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "A constitution is, in fact, and must be regarded by the judges, as a fundamental law… No legislative act, therefore, contrary to the Constitution, can be valid.",
+      "citation_chicago": "Alexander Hamilton (Publius), \"Federalist No. 78,\" 1788. Congress.gov / Library of Congress. https://guides.loc.gov/federalist-papers/text-71-85.",
+      "standards": [
+        "GC.06"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-12",
+      "type": "text",
+      "title": "U.S. Constitution, Article V",
+      "author": "Constitutional Convention",
+      "date": "1787",
+      "repository": "National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "The Congress, whenever two thirds of both Houses shall deem it necessary, shall propose Amendments to this Constitution, or… shall call a Convention for proposing Amendments, which… shall be valid… when ratified by the Legislatures of three fourths of the several States.",
+      "citation_chicago": "Constitutional Convention, \"U.S. Constitution, Article V,\" 1787. National Archives. https://www.archives.gov/founding-docs/constitution-transcript.",
+      "standards": [
+        "GC.07"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-13",
+      "type": "text",
+      "title": "U.S. Constitution, structure",
+      "author": "Constitutional Convention",
+      "date": "1787",
+      "repository": "National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "The Constitution consists of a Preamble and seven Articles: Article I (Legislative), II (Executive), III (Judicial), IV (States), V (Amendment), VI (Supremacy), and VII (Ratification).",
+      "citation_chicago": "Constitutional Convention, \"U.S. Constitution, structure,\" 1787. National Archives. https://www.archives.gov/founding-docs/constitution-transcript.",
+      "standards": [
+        "GC.07"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-14",
+      "type": "text",
+      "title": "First Amendment",
+      "author": "U.S. Congress (Bill of Rights)",
+      "date": "ratified 1791",
+      "repository": "National Archives",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.",
+      "citation_chicago": "U.S. Congress (Bill of Rights), \"First Amendment,\" ratified 1791. National Archives. https://www.archives.gov/founding-docs/bill-of-rights-transcript.",
+      "standards": [
+        "GC.08"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-15",
+      "type": "text",
+      "title": "Tenth Amendment",
+      "author": "U.S. Congress (Bill of Rights)",
+      "date": "ratified 1791",
+      "repository": "National Archives",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States respectively, or to the people.",
+      "citation_chicago": "U.S. Congress (Bill of Rights), \"Tenth Amendment,\" ratified 1791. National Archives. https://www.archives.gov/founding-docs/bill-of-rights-transcript.",
+      "standards": [
+        "GC.08"
+      ],
+      "unit": 1,
+      "colorKey": false
+    },
+    {
+      "id": "gov-u1-16",
+      "type": "text",
+      "title": "U.S. Constitution, Article IV, Section 4",
+      "author": "Constitutional Convention",
+      "date": "1787",
+      "repository": "National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "rights": "Public domain (U.S. founding-era document / government work).",
+      "excerpt": "The United States shall guarantee to every State in this Union a Republican Form of Government.",
+      "citation_chicago": "Constitutional Convention, \"U.S. Constitution, Article IV, Section 4,\" 1787. National Archives. https://www.archives.gov/founding-docs/constitution-transcript.",
+      "standards": [
+        "GC.09"
+      ],
+      "unit": 1,
+      "colorKey": false
+    }
+  ]
+}
