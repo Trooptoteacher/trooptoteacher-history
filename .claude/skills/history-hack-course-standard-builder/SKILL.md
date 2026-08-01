@@ -23,7 +23,9 @@ guardrail-for-guardrail.** Source of truth only — never invent standards, cita
    - `tt-education-research-team` — evidence base / ESSA tiers for adoption
    - `tn-textbook-adoption-agent` — Schedule F scoring + submission package
    - `historian-factcheck-agent` — claim-by-claim primary-source verification (dates, statutes, cases)
-   - `history-hack-platinum-unit-builder` / `history-hack-platinum-workbook` — sale-ready packet builds
+   - `history-hack-unit-content-build` — the unit (Course Standard) four-piece set: student workbook, teacher guide, student + teacher decks
+   - `history-hack-dbq-workbook` — the standalone DBQ / primary-source investigation SKU (a different product from the unit workbook)
+   - `history-hack-platinum-unit-builder` — full-unit consolidation to the Unit 1 Platinum standard
    - `history-hack-print-qc-auditor` · `history-hack-teacher-ux-reviewer` · `history-hack-website-builder`
 
 ## THE 6-PHASE PIPELINE (gates between phases)

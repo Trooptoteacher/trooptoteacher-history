@@ -102,7 +102,7 @@ Light writable surfaces are intentionally pale so students can write on them and
 9. **Tennessee Connection** — the differentiator; must be prominent.
 10. **Reusable graphic organizer.**
 
-> `DECISION NEEDED — student workbook vs. DBQ`: the anatomy above is the shared spine. The standalone DBQ product adds HIPPO/OPTIC document analysis; the course student workbook adds Cornell notes, guided notes, and the lesson spine. Tell me if you want this document to govern **both** or if you want me to split it into two standards after your Unit 6 pass.
+> **RESOLVED (Sean) — unit workbook and DBQ are two separate products, two separate standards.** This document governs the **unit (Course Standard) student workbook ONLY** — the lesson-by-lesson book with Cornell/guided notes, the 7-activity spine, and the deck-aligned sequence, built by the `history-hack-unit-content-build` skill. The **standalone DBQ workbook** (a Document-Based-Question SKU: one investigation question, curated document set, HIPPO/OPTIC, essay + rubric) is a different product governed by the `history-hack-dbq-workbook` skill. Do not merge the two vernaculars or let this standard absorb the DBQ architecture (or vice-versa). A unit workbook may *link* to a standalone DBQ, but neither embeds the other.
 
 **Non-negotiables carried from the skills:**
 - Trademarks use **™**, never ®.
@@ -336,7 +336,7 @@ When you change something above, here's what I touch:
 | White-space bands / activity library | `white-space-activity-library.md` (the locked reference the skills read) + the render-time white-space gate |
 | Section order / anatomy | The build spec + the platinum skills' anatomy sections |
 
-The skills I'd sync to this file: `history-hack-platinum-workbook`, `history-hack-platinum-unit-builder`, `history-hack-graphic-organizer-workbook`, and `udl-cast-expert`.
+The skills I'd sync to this file: `history-hack-unit-content-build` (the unit-workbook builder this standard governs), `history-hack-platinum-unit-builder`, `history-hack-graphic-organizer-workbook`, and `udl-cast-expert`. The standalone DBQ product is governed separately by `history-hack-dbq-workbook`, not by this file.
 
 ---
 
@@ -345,7 +345,7 @@ The skills I'd sync to this file: `history-hack-platinum-workbook`, `history-hac
 1. **Canonical navy + gold** across print/web/deck — §3. ← most important
 2. **Margin width** (0.72 in vs. tighter / binding gutter) — §1.
 3. **Body font floor** (10.5 pt vs. 11 pt) — §2.
-4. **One standard for both products, or split** student-workbook vs. DBQ — §4.2.
+4. ~~One standard for both products, or split student-workbook vs. DBQ~~ — **RESOLVED:** split. This file governs the unit workbook only; the DBQ is a separate product/standard (§4.2).
 5. Anything from your **Unit 6** markup that isn't covered here.
 
 ---
