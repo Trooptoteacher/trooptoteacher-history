@@ -78,3 +78,31 @@ Re-tag each to the correct standard (rename the Drive file's `US.xx_` prefix). T
 
 *Prepared as an analyst pre-pass. Live primary-source confirmation (page-fetch) is deferred to an
 environment with web access or to the download step, per the roster's per-asset confirm column.*
+
+---
+
+## Addendum (2026-08-01) — QA'd asset package adopted
+
+A fully QA'd visual-asset package was dropped into the repo and adopted as authoritative
+(see `QA_REPORT.md`, `ASSET_INDEX.csv`, and each asset's `.citation.md`). This supersedes the
+earlier white-theme chart set. What changed for this report:
+
+- **Data graphics** were re-rendered on the **navy deck theme** at print resolution, each with a
+  `.data.csv` + `.citation.md` sidecar. They use the package's verified figures, which are
+  historically defensible and in some cases differ slightly from my earlier white-chart values —
+  those differences replace, and make moot, my earlier "applied tweaks":
+  - **US.50 Midway** now shows **307** (U.S. Navy KIA) rather than "≈362" — 307 is the standard
+    Navy figure; accepted.
+  - **US.47 Holocaust** uses USHMM ranges (e.g., Poland 2.77–3.0M, Soviet Union ~1.34M) with an
+    "estimates subject to change" caveat — within USHMM's published ranges; accepted.
+  - All other charts: figures consistent with my Section A verdicts.
+- **Maps** (9 of 12) are now present and carry documented caveats in their `.citation.md` —
+  notably **US.48** (compass/ship-order errors), **US.57** (modified-map/anachronism), and
+  **US.58** (1945/1946 caption-error risk). Any slide/caption using these must surface the caveat.
+- **Three maps remain HOLD** (open item): **US.45** Europe political (CC BY-SA 3.0),
+  **US.46** Axis expansion (West Point reprint permission), **US.49** Allies/Axis world
+  (CC BY-SA 4.0). Each `HOLD_*.md` documents the blocker and the safe path (PD substitute or
+  build-fresh). These are the only remaining visual gaps for Unit 6.
+
+**Net:** all data graphics accurate and sourced; 9 maps in with caveats; 3 maps to build-fresh or
+PD-source. The per-asset `.citation.md` sidecars + `QA_REPORT.md` are the authoritative provenance.
