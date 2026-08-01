@@ -57,6 +57,13 @@ and migrate to the canonical set (see `references/decks.md`).
   without saying so.
 - **One product:** canonical palette everywhere; the workbook and Student deck key to each other
   on every standard.
+- **Schedule F grounds everything (LOCKED — Sean):** the TDOE Social Studies Schedule F rubric is
+  the running standard for all work, not a final gate. **Every completed section ships its own
+  `SCHEDULE_F_SELF_SCORE.md`** (honesty doctrine: score as-built, hold indicators low on principle,
+  accuracy is foundational per Policy 2.600 — a known factual error blocks "fully met"). Sub-sections
+  score only the indicators they touch; unit deliverables get full Tables 2–4 (/36). Resolve
+  critical/major deficiencies before a section is "done." See `references/schedule-f-self-score.md`;
+  the `tn-textbook-adoption-agent` skill runs the formal panel review.
 - Keep work on the designated branch; gated approval before release.
 
 ## Required skill composition
