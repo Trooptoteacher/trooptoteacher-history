@@ -129,10 +129,18 @@ revision notes) and a SHA-256-manifest package.
   should carry `geo_sources` (authoritative citations backing the anchor facts) and a `geo_review`
   object: `{"status": "drafted|sme_approved|needs_fix|n/a", "by": "", "date": "", "note": ""}`. **A
   subject-matter expert signs off by setting `geo_review.status` to `sme_approved` (with `by`/`date`)
-  in the content JSON** — that is where sign-off is recorded. Run `guardrails/geo_review_audit.py` to
-  see the ledger across all units; `--require-approved` exits non-zero if any geo standard is not yet
-  approved, so it can gate a build or the quarterly Administrative Review. Keep the derive script's
-  `GEO_PLACES`/`GEO_SOURCES` dicts in sync with the content JSON so a re-derive never drops the data.
+  in the content JSON** — that is where sign-off is recorded.
+  - **Provenance ledger (source of truth):** `guardrails/geo_provenance.json` holds citations + review
+    status for every geo standard. `guardrails/apply_geo_provenance.py` stamps it into all unit content
+    JSONs — **run it after any re-derive** (places live in the derive `GEO_PLACES`; sources + review
+    status come from the stamp, so a re-derive never drops provenance). Idempotent; never overwrites a
+    standard already `sme_approved`.
+  - **Audit / gate:** `guardrails/geo_review_audit.py` prints the ledger across all units;
+    `--require-approved` exits non-zero if any geo standard is not yet approved, so it can gate a build
+    or the quarterly Administrative Review.
+  - As of this pass, all 20 geo standards are `drafted` with verified citations (Office of the
+    Historian, National Archives, Library of Congress, NPS, U.S. Army/Navy history, FHWA, JFK Library,
+    9/11 Memorial, Tennessee Encyclopedia, Britannica) — pending SME sign-off.
 - **Student Progress Check**: clean stem, options A–D indented on their own lines, no DOK tag, no
   "answer key is in the teacher guide" line.
 - **MTSS labels are teacher-side.** Student self-checks read plainly ("How am I doing?", "Ready check").
