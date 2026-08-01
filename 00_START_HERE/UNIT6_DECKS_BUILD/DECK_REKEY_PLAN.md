@@ -1,5 +1,29 @@
 # Unit 6 Deck Re-Key Plan — student review deck ↔ workbook ↔ teacher lecture
 
+**Status:** ✅ **EXECUTED (2026-08-01)** — student-deck re-key done and QC-verified to
+**0 blocker / 0 major / 0 minor**. Target 3 (dropping the 21 visual assets into slides) remains.
+Original plan (approved by Sean) retained below for the record.
+
+## Execution record — student deck re-key (Target 2)
+
+- **DI parity:** each standard's "combined" review slide was split so student DI count == teacher DI
+  count (4 per standard; US.51 = 5). Every DI slide is captioned **"US.xx · DI k of M · <segment>"**,
+  which resolves the workbook's guided-Cornell cue "▶ Deck · DI k of M" to an exact slide.
+- **Vocab-first:** KEY VOCABULARY moved to immediately after each standard's TITLE (before instruction).
+- **Image-safe:** every segment-matched photo stayed on its original slide; only text-only slides were
+  duplicated (zero picture surgery). Visual QA confirmed each kept image matches its assigned segment
+  (Quarantine=FDR broadcast, Pearl Harbor=attack photo, Tuskegee=airmen, atomic=mushroom cloud, UN=signing).
+- **Deck:** 113 → 128 slides; page numbers renumbered; `validate.py` PASSED; branding/template untouched.
+- **Builder:** `scratchpad/rekey_student_deck.py` (per-standard segment plan).
+- **Verification:** `build_alignment_maps.py` → 0/0/0; no blank slides; cover intact.
+
+**Still open — Target 3:** place the 21 QA'd visual assets (`UNIT6_VISUAL_ASSETS/`) onto Data-Analysis /
+geographic slides, with the two mandatory caption caveats (US.57, US.58). Placement table below.
+
+---
+
+## Original plan (as approved)
+
 **Status:** ACTIONABLE PLAN — flagged for Sean's sign-off before execution.
 **Why a plan and not a done rebuild:** the student deck is a *strong, branded, committed asset*. The
 fix requires **re-segmenting direct-instruction content and adding review slides** (design/authoring,
