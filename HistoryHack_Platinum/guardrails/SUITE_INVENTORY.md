@@ -49,18 +49,20 @@ Tennessee**, then **8th → 7th → 6th Grade**.
 
 ---
 
-## World History numbering reconciliation — `W.xx` (canonical) vs `WH.xx` (legacy)
+## World History numbering — RESOLVED (no reconciliation needed)
 
-- **Canonical = `W.xx`** — matches the official TDOE World History & Geography standards
-  (W.01–W.89) and the web-app Unit 1 content.
-- **Legacy = `WH.xx`** — the Drive assessment-item docs (`WH.01 … WH.35+`). These predate the
-  web-app content and stop around 35 (vs 89 standards).
-- **Working hypothesis:** `WH.NN` maps to `W.NN` (same number, older prefix) for the standards
-  that existed when the items were written. **This must be spot-verified** — open 2–3 item docs
-  (e.g. WH.05, WH.17) and confirm the item text matches the `W.05` / `W.17` standard before any
-  item is reused. Do not assume a clean 1:1 across all numbers.
-- **Action:** once verified, rename/alias the item bank to `W.xx`; treat `W.xx` as the single
-  source of truth everywhere (content, items, sourcing, web app).
+- **`W.xx` is canonical and the item docs already use it.** Verified by reading `WH.05`:
+  it opens *"Standard: W.05 — Identify the major causes of the French Revolution…"* (verbatim
+  match to the official TDOE standard) with item IDs `WH-MC-W05-001`. **"WH" is just the
+  World-History item-bank label; the standard key is `W.xx`.** So `WH.05 = W.05` — there is no
+  competing numbering scheme, and no renumbering is required.
+- **Item bank quality (reusable as-is):** each doc carries ~5 MC items per standard with IRT
+  parameters (a/b/c), DOK + Bloom's + Hess CRM distribution, tagged distractors with
+  misconception codes, a QA checklist, TCAP-format flags, and a **JSON export block** — so items
+  can be programmatically ingested into the World History question bank.
+- **Coverage:** item docs seen span at least W.01–W.35; confirm the full range (through W.89)
+  when building. The web-app Unit 1 content and these items share the same `W.xx` keys, so they
+  line up directly.
 
 ---
 
