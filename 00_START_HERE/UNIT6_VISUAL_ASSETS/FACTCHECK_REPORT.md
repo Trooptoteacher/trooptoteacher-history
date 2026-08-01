@@ -46,16 +46,18 @@ the items below are the only ones needing a decision.
 
 *The Unit 6 photo set is now 40 (was 42).*
 
-### B2. Rights — confirm before commercial print
-- **US.49_iwo-jima-flag-raising-1945.jpg** and **US.51_iwo_jima_flag_1945.jpg** (Rosenthal, Feb 23 1945) — **widely treated as public domain** (Library of Congress, Wikimedia, the Met host it; copyright not renewed), but **AP has historically asserted rights**. Use the **LOC public-domain copy** and keep that citation. Low risk, but worth the explicit note for a paid product.
+### B2. Rights — ✅ RESOLVED: cite the Library of Congress public-domain copy
+- **US.49_iwo-jima-flag-raising-1945.jpg** and **US.51_iwo_jima_flag_1945.jpg** (Rosenthal, Feb 23 1945). **Decision: cite the LOC copy.** Citation to use: *Joe Rosenthal (Associated Press), Feb 23 1945; Library of Congress, Prints & Photographs Division (loc.gov item 96515062 — confirm the LC call number at download); public domain (copyright not renewed).* The two are the same image — keep one; both roster rows carry this LOC citation.
 
-### B3. Placement — image topic differs from its standard tag (confirm intended use)
-These images are fine and cited; they're just filed under a standard whose topic differs. Confirm each is intentional (a photo may legitimately be reused in another lesson):
-- **US.48_women_welders_wwii.jpg** (home front) under US.48 *American Entry* → fits US.52/US.55.
-- **US.49_war_bonds_poster_wwii.jpg** (home front) under US.49 *Leaders* → fits US.55.
-- **US.50_japanese_internment_mochida_1942.jpg** (internment) under US.50 *Battles* → fits US.54.
-- **US.52_tuskegee_airmen_wwii.jpg** (Tuskegee) under US.52 *Women* → fits US.51.
-- **US.53_atomic_bomb_hiroshima_1945.jpg** (atomic bomb) under US.53 *African Americans* → fits US.56.
+### B3. Placement — ✅ RE-TAG decided (rename the Drive filename prefix)
+Re-tag each to the correct standard (rename the Drive file's `US.xx_` prefix). Two land in a standard that already has that subject — re-tag but keep the better copy:
+- **US.48_women_welders_wwii.jpg** → **US.52** (Women in WWII).
+- **US.49_war_bonds_poster_wwii.jpg** → **US.55** (Home Front).
+- **US.50_japanese_internment_mochida_1942.jpg** → **US.54** (Internment). *Possible duplicate of the US.54 Mochida-family photo — keep one.*
+- **US.52_tuskegee_airmen_wwii.jpg** → **US.51** (Special Forces). *Possible duplicate of the US.51 Tuskegee photo — keep one.*
+- **US.53_atomic_bomb_hiroshima_1945.jpg** → **US.56** (Manhattan Project). *Fills the Hiroshima gap in US.56.*
+
+> Note: I can't rename/delete Drive files from here (the connector exposes copy/create only, no rename or delete). These re-tag decisions are recorded in the roster; the actual prefix rename is a quick manual step in your Drive, and it's captured per-row in Tab 3's fact-check column.
 
 ### B4. Near-duplicates (informational, not errors)
 - US.46 has two FDR fireside-chat images; US.47 has two Buchenwald images; US.13/US.49 & US.57 each carry a Yalta "Big Three"; US.51/US.52 each carry a Tuskegee image; US.50/US.54 each carry the Lange "Mochida family." Keep the best copy per use; fine to hold duplicates.
@@ -70,8 +72,8 @@ These images are fine and cited; they're just filed under a standard whose topic
 ## Recommended actions
 1. ✅ **Done** — pulled the two out-of-era photos (interstate highway, NATO 1949) from Unit 6.
 2. ✅ **Done** — applied chart tweaks: US.50 Midway now "≈362"; US.47 Germany & Austria now 225,000.
-3. **Standardize** the two Iwo Jima images on the LOC public-domain copy + citation. *(open)*
-4. **Confirm placement** of the five topic/standard mismatches (or re-tag). *(open)*
+3. ✅ **Done** — the two Iwo Jima images now cite the LOC public-domain copy (see B2).
+4. ✅ **Done** — the five placement mismatches are re-tagged to their correct standard (see B3); Drive prefix rename is the only manual step left, recorded per-row in the roster.
 5. The two **sensitive** charts (US.47, US.56) are accurate; keep the sober styling and the "estimates" labels.
 
 *Prepared as an analyst pre-pass. Live primary-source confirmation (page-fetch) is deferred to an
