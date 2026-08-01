@@ -1,0 +1,21 @@
+# Citation — US.53_great_migration_map.jpg (built schematic map)
+
+- **Title:** The Great Migration, Schematic Flows (built map)
+- **Creator/institution:** Map built by History Hack / TroopToTeacher Technologies LLC.
+- **Basemap source:** U.S. state boundary polygons, PublicaMundi MappingAPI `us-states.json` (https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json) — geographic boundary data derived from U.S. Census TIGER files; factual boundary data, not protected expression.
+- **Underlying migration figures source:** National Archives, "The Great Migration (1910-1970)."
+- **Date:** Map built 2026-08-01.
+- **Source page URL:** https://www.archives.gov/research/african-americans/migrations/great-migration
+- **Direct download/data URL:** Basemap: https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json ; figures: NARA page above.
+- **License/rights:** Basemap is factual geographic boundary data (public/open geographic dataset, freely redistributed). NARA content is a U.S. Government work (public domain). Map composition created by History Hack.
+- **Commercial use:** Yes.
+- **Share-alike:** None.
+- **Exact attribution:** "National Archives, 'The Great Migration (1910-1970),' archives.gov. Basemap: U.S. state boundaries, PublicaMundi MappingAPI (derived from U.S. Census TIGER data)."
+- **Verification date:** 2026-08-01
+- **Factual caveats:**
+  - **Explicitly labeled "Schematic migration flows, not person-by-person routes"** on the map itself, per required framing.
+  - Uses only the NARA-verified framing: approximately 6,000,000 total migrants, 1910s-1970s; about 2,000,000 by WWII (through approximately 1940); a further approximately 3,000,000 within 20 years after WWII.
+  - Major destination cities shown (Chicago, Detroit, New York, Philadelphia) are named per the U.S. Census Bureau's own framing of cities "that experienced substantial changes in racial composition between 1910 and 1940."
+  - Arrows are schematic directional indicators ONLY — they do not represent actual travel routes, rail lines, or individual migrant paths, and are not drawn to represent any specific number of migrants per route.
+  - The original Census Bureau visualization ("The Great Migration, 1910 to 1970," census.gov/dataviz/visualizations/020) that this figure references returns HTTP 404 and could not be directly reproduced or downloaded — this map was built fresh instead, using only NARA's verified narrative statistics.
+- **Alt text:** Schematic U.S. map showing stylized arrows from the American South to four major destination cities (Chicago, Detroit, New York, Philadelphia), illustrating the Great Migration of approximately six million Black Americans from the 1910s to the 1970s; explicitly labeled as schematic, not literal migration routes.

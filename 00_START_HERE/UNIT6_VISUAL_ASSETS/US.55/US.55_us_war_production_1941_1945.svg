@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
+<rect width="800" height="200" fill="#0B1B2B"/>
+<text x="20" y="40" fill="#E8B84B" font-size="20" font-family="DejaVu Sans" font-weight="bold">US.55 War Production by Type</text>
+<text x="20" y="80" fill="#F2ECDD" font-size="14" font-family="DejaVu Sans">WPB Table B-6 via OTA Appendix B</text>
+<text x="20" y="110" fill="#B9C4CE" font-size="12" font-family="DejaVu Sans">Editable source: regenerate from the paired .data.csv using build_assets.py (matplotlib).</text>
+</svg>
