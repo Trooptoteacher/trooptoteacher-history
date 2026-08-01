@@ -152,8 +152,7 @@ Use one repeatable lesson spine: what this is, objective and success criteria, i
 At minimum, evaluate the need for:
 
 - Landscape teacher lesson plan
-- Guided notes
-- Cornell notes
+- **Guided Cornell notes (Direct Teaching) + NOTES SUPPORTS ladder** — the LOCKED Course Standard design: cue column pre-seeded with the standard's direct-instruction segments in lecture order (navy topic · gold `▶ Deck · DI N of M` keyed to the teacher deck · italic guiding question), with the four-rung support ladder (frames → cloze + word bank → how-to + model → try-it on lined notebook paper + self-check) on the verso. Do **not** ship the old blank-cue Cornell page. Build with `history-hack-unit-content-build`'s `build_guided_notes.py`; spec in `STUDENT_WORKBOOK_PLATINUM_STANDARD.md` §7.9.
 - Primary-source student handout
 - Primary-source teacher guide
 - HIPP organizer

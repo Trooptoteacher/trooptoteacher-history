@@ -31,7 +31,7 @@ guardrail-for-guardrail.** Source of truth only — never invent standards, cita
 ## THE 6-PHASE PIPELINE (gates between phases)
 1. **Standards intake** → verbatim standards JSON + unit map + verbatim "I can" targets.
 2. **Source + case procurement** → canonical primary-source bank, rights validated, full citations.
-3. **Content authoring** → narrative, Cornell notes, Frayer vocab, packets A/B/C, decks, organizer toolkit.
+3. **Content authoring** → narrative, **guided Cornell notes + NOTES SUPPORTS ladder** (the LOCKED design — cue column pre-seeded with direct-instruction segments keyed to the deck's `DI N of M`, four-rung support ladder on the verso; see `history-hack-unit-content-build` + `STUDENT_WORKBOOK_PLATINUM_STANDARD.md` §7.9 — never the old blank-cue Cornell), Frayer vocab, packets A/B/C, decks, organizer toolkit.
 4. **Assessment authoring** → question banks per DOK 1–4 (+ spiral, DBQ/CER) to the item-writer schema.
 5. **QC gate** → Schedule F self-assessment, print preflight, item-rigor linter, teacher-UX, fact-check.
 6. **Package + deploy** → cover wraps, PDFs, web-edition registration (entitlement-gated), mirror to Drive.

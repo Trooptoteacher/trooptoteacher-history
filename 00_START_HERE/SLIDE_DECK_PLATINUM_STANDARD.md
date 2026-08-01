@@ -31,6 +31,7 @@ Four rules make this real:
 - **Every workbook activity that asks for writing prints its source slide reference** in the activity header — e.g. `▶ Deck slide 8` or `▶ Deck slides 4–7`.
 - The reference is exact and slide-number-accurate (see §7 on numbering stability).
 - This includes: Cornell notes, Close Read, Transfer/Progress Check, primary-source analysis, and the CER/written response. If a student is writing, the workbook tells them which slide to look at.
+- **Guided Cornell notes (Direct Teaching) key to the deck's DIRECT INSTRUCTION slides segment-by-segment.** The Activity 3 cue column is pre-seeded with the standard's DI segments in lecture order, each marked `▶ Deck · DI N of M` — matching the teacher deck's own on-slide "N of M" DI labels (use the relative "N of M", not an absolute slide number, so it survives renumbering). This is what lets the workbook, student deck, and teacher deck follow one sequence. See `STUDENT_WORKBOOK_PLATINUM_STANDARD.md` §7.9.
 
 ### 1.3 Deck → workbook cue
 - **Every deck slide that has a matching workbook task shows a "✍ In your workbook" cue** naming the activity (e.g. "✍ Workbook — Cornell Notes, US.03").
