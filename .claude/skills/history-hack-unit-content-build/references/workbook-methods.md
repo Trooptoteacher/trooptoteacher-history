@@ -58,8 +58,33 @@ def rebuild_model(p, segments):        # segments = [("H: ", "body…"), ...]
 ```
 
 ## Inserting a cloned block at an anchor
-Capture the anchor **element** (not an index) before inserting, then `anchor.addnext(el)` in
-reverse order so the block lands in order. Indices shift after inserts; element refs don't.
+Capture the anchor **element** (not an index) before inserting. Two equivalent idioms:
+- `anchor.addnext(el)` in **reverse** order (each new el goes right after the anchor), or
+- `anchor.addprevious(el)` in **forward** order (each new el goes right before the anchor) — this
+  is what `clone_notes_supports` uses to drop a whole cloned page in reading order before the next
+  Activity header.
 
-See `scripts/build_backpage_supports.py` for the full, working supports builder (VOCAB/HIPPO/
-WRITING, exit-ticket consolidation, per-standard model content).
+Indices shift after inserts; element refs don't.
+
+## Notebook paper (multi-line ruled writing area) — use a TABLE, not stacked paragraphs
+Stacked empty paragraphs that each carry only a `w:bottom` border **collapse**: Word/LibreOffice
+merge adjacent identical paragraph borders and render **one** rule (a single line above the next
+block) instead of N ruled lines. Build ruled notebook paper as a **borderless table whose rows
+each carry a bottom border** — row/cell borders never collapse. Also give each paragraph **exactly
+one** `w:spacing` element: setting `space_before/after` via python-docx *and* appending your own
+`w:spacing` creates two siblings and the exact line height is silently dropped. See
+`notebook_table()` in `scripts/build_guided_notes.py` (5 rows, `trHeight` 460 exact, cell
+`w:bottom single sz 8 color 9AA0AB`). A single isolated ruled line at body level is fine as a
+bordered paragraph; two or more adjacent ones must be a table.
+
+## Guided Cornell cue seeding
+Activity 3's cue column ships empty (or with stale auto-questions). Seed it with the standard's
+direct-instruction segments in lecture order — navy topic / gold `▶ Deck · DI N of M` / italic
+guiding question — via `seed_guided_cornell()`. See `references/guided-notes-and-supports.md`.
+
+## Working scripts
+- `scripts/build_backpage_supports.py` — VOCAB/HIPPO/WRITING back-page supports, exit-ticket
+  consolidation, per-standard model content.
+- `scripts/build_guided_notes.py` — guided Cornell cue seeding + the NOTES SUPPORTS ladder
+  (frames → cloze → how-to → try-it notebook lines + self-check); clones the US.45 reference for
+  formatting parity.

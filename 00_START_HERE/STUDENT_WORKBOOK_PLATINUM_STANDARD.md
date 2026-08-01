@@ -246,6 +246,7 @@ Every box or prompt that asks a student to write **must give them somewhere to w
 - If the box has no room, **redirect the response explicitly** — e.g., "Do this in your notebook or on a whiteboard — be ready to share" — rather than leaving a prompt with nowhere to respond.
 - A response prompt stranded with no writing space **and** no redirect is a defect.
 - For "connect / synthesize / sketch" prompts that need more room than a box allows, make it an active task with a named location (notebook, whiteboard, stand-and-share).
+- **Lined notebook paper (multi-line writing areas):** when a prompt gives students several full lines to write on (e.g. the NOTES SUPPORTS "Try it"), the ruled lines must be built as a **borderless table whose rows each carry a bottom border** — **not** stacked bordered paragraphs, which collapse in Word/LibreOffice into a single rule. Each paragraph carries exactly one `w:spacing` element. (Engine: `notebook_table()` in `build_guided_notes.py`.)
 
 ### 7.3 Blank-space guardrail (must fit)
 
@@ -270,7 +271,7 @@ Every standard runs an identical structure. Front matter opens the unit; each st
 **The seven-activity cycle:**
 1. **Vocabulary** — word bank + language support + knowledge self-check. *Verso:* Vocabulary Supports (word-attack, quick practice *with space*, cognate practice, study tip). MAKE IT YOURS → notebook/whiteboard redirect.
 2. **Vocabulary Studio** (Frayer) — RESPONSE CHOICE. CONNECT THE TERMS → notebook/whiteboard redirect (no stranded box).
-3. **Cornell Notes** — Cues/My-notes, More Notes/Diagrams, Key terms, Summary, Progress Check, Check Yourself, headline. (No separate "Doodle Zone" — redundant with More Notes.)
+3. **Cornell Notes (GUIDED — Direct Teaching)** — the cue column is **pre-seeded** with the standard's direct-instruction (DI) segments **in lecture order**: navy topic · gold `▶ Deck · DI N of M` (maps 1:1 to the teacher deck's on-slide "N of M" DI labels) · italic guiding question. My-notes column (ruled, RESPONSE CHOICE), More Notes/Diagrams, Key terms, Summary, Progress Check, Check Yourself, headline. (No separate "Doodle Zone" — redundant with More Notes.) *Verso:* **NOTES SUPPORTS** ladder (§7.9).
 4. **Close Read** — key-terms-first *before* the reading; CORE PATH passage with **spaced sub-sections**; CLOSE-READ EVIDENCE LAB with ruled answer space.
 5. **Primary Source / HIPPO** — front: source + HIPPO table + confidence check-in. *Verso:* HIPPO Supports (guiding questions, sourcing frames, model, try-it).
 6. **Practice Quiz** — numbered MC items + **on-page self-check answer key** ("commit first, then check"; §7.4 sibling for MC).
@@ -292,6 +293,24 @@ Reference build: **Unit 6, US.45** (rendered and QC'd page-by-page). Units US.46
 ### 7.8 Deck ↔ workbook slide-keying (DEFERRED — build decks first)
 
 The workbook will key each writing/response activity to the exact Course Standard deck slide (`▶ Deck slide N`), per `SLIDE_DECK_PLATINUM_STANDARD.md` §1 (shared standard-code spine, workbook→deck keying, deck→workbook cue, same-item checks). **This requires the Course Standard teacher/student decks to be (re)built first.** Until the decks exist, slide-keying is intentionally omitted — never hardcode a slide number. Sequence: build Course Standard decks → then add `▶ Deck slide N` references to the workbook.
+
+### 7.9 Guided notes + NOTES SUPPORTS ladder (LOCKED — Unit 6 · US.45; grounded in CAST UDL 3.0 / 2024 + MTSS)
+
+The workbook, Student deck, and Teacher deck follow **one sequence** so students follow the lecture and take notes in a clear, sequential pattern. **Activity 3 (Direct Teaching Cornell Notes) is the spine.**
+
+**Front — guided Cornell.** The cue column is **pre-seeded** with the standard's direct-instruction (DI) segments in **lecture order**, one cue block per DI slide: **navy topic** · **gold `▶ Deck · DI N of M`** (the guided-notes bridge — it maps 1:1 to the teacher deck's own on-slide "N of M" DI labels; use the *relative* "N of M", never an absolute slide number, so it survives deck renumbering) · **italic guiding question** (what to listen for). The "My notes" column keeps ruled lines + the RESPONSE CHOICE line.
+
+**Back — NOTES SUPPORTS ("build your notes, your way").** A four-rung support ladder so a high-need student can produce full notes **from the back alone** — the ceiling never drops (UDL 3.0 guideline 5.3 graduated support; MTSS Tier 1 = front, Tier 2/3 = verso):
+1. **① Sentence frames — finish the thought** (4 frames).
+2. **② Fill-in notes — write just the missing word(s)** (4 cloze bullets + a **word bank**) — the student writes only 1–2 words per line.
+3. **③ How to build your answer** — `Name it → Define it in your own words → Give one example` + a **worked model** on a tinted card.
+4. **④ Try it — write one full note in your own words** — **lined notebook paper** (5 ruled lines, §7.2) + a **Quick self-check** rubric (`☐ I named the idea ☐ I defined it in my own words ☐ I gave an example ☐ A reader could follow it`).
+
+Intro line (the non-replacement guardrail), verbatim: *"Use one, some, or all — as much support as you need. Works alongside, never in place of, your IEP or 504 plan."*
+
+**Spacing (fixes the "too compact / cognitive overload" note):** generous gaps before each rung heading, loose line spacing inside rungs, word bank and model each on their own tinted line/card. This white space is **intentional labeled workspace** (exempt under §5.1) — do not re-tighten it to reclaim space.
+
+**Propagation & parity.** Every standard is built by `scripts/build_guided_notes.py`: it seeds the cue column from scratch and **clones the US.45 NOTES SUPPORTS block** (preserving every fill/border/font/spacing), swapping only the standard-specific text. This is what guarantees the formatting is identical across all standards.
 
 ---
 

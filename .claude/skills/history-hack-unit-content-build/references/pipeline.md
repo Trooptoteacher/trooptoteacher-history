@@ -27,8 +27,25 @@ Goal: a clean N-standard book, full 7-activity cycle, **zero blank/near-empty pa
     `pageBreakBefore`-delimited section).
 - See `references/workbook-methods.md` for the docx idioms.
 
-## Phase 2 — Back-page UDL/MTSS supports
-Per standard, add three verso pages matching the reference exemplar:
+## Phase 2 — Guided notes + back-page UDL/MTSS supports
+
+### 2a — Guided Cornell notes (Activity 3 front) + NOTES SUPPORTS ladder (its verso)
+The workbook, Student deck, and Teacher deck follow **one sequence**; Activity 3 is the spine.
+- **FRONT:** seed Activity 3's cue column with the standard's **direct-instruction segments in
+  lecture order** — navy topic · gold `▶ Deck · DI N of M` (maps 1:1 to the teacher deck's on-slide
+  "N of M" labels) · italic guiding question.
+- **VERSO (NOTES SUPPORTS — "build your notes, your way"):** a four-rung ladder so a high-need
+  student can produce full notes from the back alone — ① sentence frames → ② fill-in cloze + word
+  bank → ③ how to build your answer + worked model → ④ **try it on lined notebook paper + a Quick
+  self-check rubric**.
+- Method: `scripts/build_guided_notes.py` — seeds cues from scratch and **clones the US.45 NOTES
+  SUPPORTS block** for every other standard (formatting parity), swapping only standard-specific
+  text. Two locked lessons live in the script: notebook paper is a **table** (stacked bordered
+  paragraphs collapse to one line) and each paragraph gets **one** `w:spacing`. See
+  `references/guided-notes-and-supports.md`.
+
+### 2b — The other three verso supports
+Per standard, add three more verso pages matching the reference exemplar:
 - **VOCABULARY SUPPORTS** — word-attack + a real Spanish cognate for that standard + quick practice.
 - **HIPPO SUPPORTS** — guiding questions + sentence frame + a **model source analysis specific to
   that standard's Activity 5 source** + sourcing warm-up.

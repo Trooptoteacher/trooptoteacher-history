@@ -74,10 +74,15 @@ Read `references/pipeline.md` for the detailed, ordered playbook. Summary:
    (workbook docx, decks pptx, bank). Never recreate a strong existing asset — assess first.
 1. **Workbook — structure & blank-page fix.** Get to a clean N-standard book with the full
    7-activity cycle and **zero blank pages**. See `references/workbook-methods.md`.
-2. **Workbook — back-page supports.** Add the three verso supports (Vocabulary, HIPPO, Writing)
-   per standard by cloning the reference blocks and swapping in **standard-specific, accurate**
-   models; consolidate the exit ticket onto the Writing Supports page. Script:
-   `scripts/build_backpage_supports.py`.
+2. **Workbook — guided notes + back-page supports.** (a) Make Activity 3 a **guided Cornell**:
+   seed the cue column with the standard's direct-instruction segments in lecture order
+   (`▶ Deck · DI N of M`, keyed to the teacher deck), and build its verso **NOTES SUPPORTS
+   ladder** (frames → cloze + word bank → how-to + model → try-it on lined notebook paper +
+   self-check rubric). Script: `scripts/build_guided_notes.py`; design + the two locked
+   formatting lessons in `references/guided-notes-and-supports.md`. (b) Add the other three verso
+   supports (Vocabulary, HIPPO, Writing) by cloning the reference blocks and swapping in
+   **standard-specific, accurate** models; consolidate the exit ticket onto the Writing Supports
+   page. Script: `scripts/build_backpage_supports.py`.
 3. **Workbook — per-standard content.** Rewrite verbatim hooks into engaging openers; rebuild
    Activity 6 practice quizzes from the bank (4 verified items + on-page self-check key per
    standard). See `references/quiz-sourcing.md`.
