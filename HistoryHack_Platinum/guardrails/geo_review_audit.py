@@ -25,8 +25,13 @@ for a in sys.argv[1:]:
     else: root = a
 root = root or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Tertiary/general-reference sources not accepted as citations under the TDOE
+# rubric (C5). Used only as fact-check aids, never cited. Flagged here so one can't
+# slip back in.
+DISALLOWED = ("britannica.com", "wikipedia.org", "wikimedia.org")
+
 files = sorted(glob.glob(os.path.join(root, "build_unit*", "unit*_content.json")))
-rows, pending = [], 0
+rows, pending, tertiary = [], 0, []
 for f in files:
     try:
         d = json.load(open(f, encoding="utf8"))
@@ -46,6 +51,9 @@ for f in files:
         rows.append((unit, code, len(places), len(sources), status, review.get("by", "")))
         if status not in ("sme_approved", "n/a"):
             pending += 1
+        for src in sources:
+            if any(dom in src.lower() for dom in DISALLOWED):
+                tertiary.append((unit, code, src))
 
 print(f"{'Unit':10} {'Std':7} {'Places':>6} {'Src':>4}  {'Review':16} By")
 print("-" * 60)
@@ -56,6 +64,14 @@ print("-" * 60)
 print(f"{len(rows)} geo standards | {pending} pending SME sign-off "
       f"| {sum(1 for r in rows if r[4]=='sme_approved')} approved")
 
-if require_approved and pending:
-    print(f"\nFAIL: {pending} geography standard(s) not SME-approved.")
+if tertiary:
+    print(f"\nTERTIARY-SOURCE VIOLATIONS ({len(tertiary)}) — not accepted under the rubric:")
+    for unit, code, src in tertiary:
+        print(f"  {unit} {code}: {src}")
+
+if (require_approved and pending) or tertiary:
+    reasons = []
+    if require_approved and pending: reasons.append(f"{pending} not SME-approved")
+    if tertiary: reasons.append(f"{len(tertiary)} tertiary source(s)")
+    print(f"\nFAIL: {'; '.join(reasons)}.")
     sys.exit(1)

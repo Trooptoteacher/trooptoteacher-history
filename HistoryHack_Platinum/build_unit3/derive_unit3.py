@@ -378,11 +378,9 @@ for idx, code in enumerate(ORDER):
         "US.22": [
             "Building the Panama Canal, 1903–1914 — U.S. Dept. of State, Office of the Historian: https://history.state.gov/milestones/1899-1913/panama-canal",
             "Roosevelt Corollary to the Monroe Doctrine, 1904 — Office of the Historian: https://history.state.gov/milestones/1899-1913/roosevelt-and-monroe-doctrine",
-            "Dollar Diplomacy — Encyclopædia Britannica: https://www.britannica.com/event/Dollar-Diplomacy",
         ],
         "US.25": [
             "The Meuse-Argonne, 26 Sept–11 Nov 1918 — U.S. Army Center of Military History: https://history.army.mil/portals/143/Images/Publications/catalog/77-8.pdf",
-            "Alvin Cullum York — Encyclopædia Britannica: https://www.britannica.com/biography/Alvin-Cullum-York",
             "Harlem Hell Fighters (369th Infantry) — Library of Congress: https://blogs.loc.gov/headlinesandheroes/2019/02/harlem-hell-fighters-african-american-troops/",
             "Commission for Relief in Belgium (Hoover) — U.S. National Archives: https://www.archives.gov/publications/prologue/1989/spring/hoover-belgium.html",
         ],

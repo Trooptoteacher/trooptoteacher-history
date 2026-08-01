@@ -345,7 +345,6 @@ for idx, code in enumerate(ORDER):
         "US.30": [
             "Grand Ole Opry / WSM — Tennessee Encyclopedia: https://tennesseeencyclopedia.net/entries/grand-ole-opry/",
             "William Christopher “W.C.” Handy — Tennessee Encyclopedia: https://tennesseeencyclopedia.net/entries/william-christopher-handy/",
-            "Bessie Smith — Encyclopædia Britannica: https://www.britannica.com/biography/Bessie-Smith",
             "Bristol Sessions — Tennessee Encyclopedia: https://tennesseeencyclopedia.net/entries/bristol-sessions/",
         ],
     }
