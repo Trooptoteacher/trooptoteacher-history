@@ -2,6 +2,7 @@
 
 > **Don't just learn history. Hack it.**
 > _The curriculum that was built to make a difference, not to make money._
+> **Mission over margin.**
 
 _This is the standing doctrine for every build decision. Read it before asking a scope or
 design question: if the question has a right answer, this document is the answer._
