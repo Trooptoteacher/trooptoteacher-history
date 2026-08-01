@@ -1,0 +1,127 @@
+{
+ "US.78": {
+  "id": "us78-q1",
+  "stem": "What legal and social conditions led to the Brown v. Board case challenging \"separate but equal\" education?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "A sudden change in public opinion supporting integration, but this oversimplifies the complex factors at work"
+   },
+   {
+    "id": "B",
+    "text": "Congressional legislation requiring the Supreme Court to review segregation, but the historical record tells a more complex story"
+   },
+   {
+    "id": "C",
+    "text": "The NAACP's systematic legal strategy and social science research showing segregation's harm to Black children"
+   },
+   {
+    "id": "D",
+    "text": "Southern states voluntarily requesting federal review of their schools, although historical sources do not support this conclusion"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.79": {
+  "id": "us79-q1",
+  "stem": "How did civil rights leaders like King, Malcolm X, Marshall, and Parks use different strategies to advance equality?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "They all used identical nonviolent protest methods, despite the fact that multiple sources contradict this view, which does not align with the documented historical record"
+   },
+   {
+    "id": "B",
+    "text": "They worked exclusively through congressional lobbying, but this oversimplifies the complex factors at work, though this interpretation lacks supporting historical evidence"
+   },
+   {
+    "id": "C",
+    "text": "Each leader focused only on their local community, which does not align with the documented historical record and oversimplifies the complex factors at work during this period"
+   },
+   {
+    "id": "D",
+    "text": "King used nonviolent protest, Malcolm X promoted Black nationalism, Marshall used legal challenges, and Parks became a symbol through individual resistance"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.80": {
+  "id": "us80-q1",
+  "stem": "How did the Montgomery Bus Boycott establish nonviolent resistance as the primary civil rights strategy?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The 381-day boycott demonstrated Black economic power and organizational capability, proving sustained nonviolent action could achieve change"
+   },
+   {
+    "id": "B",
+    "text": "It was a spontaneous one-day protest, which ignores key developments that shaped the outcome, but the historical evidence paints a more nuanced picture"
+   },
+   {
+    "id": "C",
+    "text": "It relied primarily on legal challenges rather than direct action, which contradicts the primary source evidence from this era"
+   },
+   {
+    "id": "D",
+    "text": "The boycott failed to achieve its goals, although historical sources do not support this conclusion, which contradicts the primary source evidence from this era"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ },
+ "US.81": {
+  "id": "us81-q1",
+  "stem": "How did the Civil Rights Act of 1964 end legal segregation and what enforcement mechanisms did it create?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "It only addressed voting rights, which ignores key developments that shaped the outcome"
+   },
+   {
+    "id": "B",
+    "text": "It banned discrimination in public accommodations and employment while creating the EEOC to enforce these provisions"
+   },
+   {
+    "id": "C",
+    "text": "It relied entirely on state enforcement, which represents a common misconception about the period"
+   },
+   {
+    "id": "D",
+    "text": "It addressed housing but not public accommodations, but contemporary accounts suggest a different explanation"
+   }
+  ],
+  "correct": "B",
+  "reportingCategory": "History"
+ },
+ "US.82": {
+  "id": "us82-q1",
+  "stem": "How did the American Indian Movement, Chicano Movement, and Feminist Movement adopt civil rights strategies for their own causes?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "They rejected all civil rights tactics, but this oversimplifies the complex factors at work, which ignores significant political and cultural developments of the era"
+   },
+   {
+    "id": "B",
+    "text": "They only used violent resistance, although this view has been largely discredited by scholars, though this interpretation lacks supporting historical evidence"
+   },
+   {
+    "id": "C",
+    "text": "They adapted legal challenges, direct action protests, media strategies, and legislative campaigns used by the African American civil rights movement"
+   },
+   {
+    "id": "D",
+    "text": "They worked exclusively through electoral politics, although this view has been largely discredited by scholars, but the historical evidence paints a more nuanced picture"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ }
+}

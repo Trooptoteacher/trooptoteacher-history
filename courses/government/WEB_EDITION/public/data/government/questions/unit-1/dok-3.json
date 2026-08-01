@@ -1,0 +1,527 @@
+{
+  "_schema": "Government Hack canonical question bank (mirrors public/data/us-history/questions/). Psychometric metadata: dok, bloom, level, reporting_category, difficulty, per-distractor rationale, answer_explanation, bilingual question_es, de-biased keys. Items are classroom-formative · pre-field-test.",
+  "subject": "government",
+  "unit": 1,
+  "dok": 3,
+  "count": 14,
+  "items": [
+    {
+      "type": "multiple_choice",
+      "standard": "GC.01",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "A student argues that American independence used 'old ideas, not new ones.' Which piece of evidence BEST supports this claim?",
+      "question_es": "Un estudiante sostiene que la independencia usó 'ideas viejas, no nuevas'. ¿Qué evidencia apoya MEJOR esta afirmación?",
+      "options": {
+        "A": "The colonists invented the idea of natural rights in 1776.",
+        "B": "Magna Carta (1215) already limited the king's power and protected life, liberty, and property.",
+        "C": "The Constitution was written before the Declaration.",
+        "D": "Greek democracy had no influence on American government."
+      },
+      "correct_answer": "B",
+      "distractor_rationale": {
+        "A": "Opposite of the claim; natural rights were inherited from Locke and earlier traditions.",
+        "B": "Correct — Magna Carta predates 1776 by centuries and already limited royal power, showing the roots were old.",
+        "C": "False chronology — the Declaration (1776) came before the Constitution (1787).",
+        "D": "Incorrect — Greek democracy and the Roman republic were cited influences."
+      },
+      "answer_explanation": "The colonists drew on Magna Carta, Locke, and classical models — evidence the ideas were inherited and reshaped, not invented.",
+      "tennessee_specific": false,
+      "topics": [
+        "Magna Carta",
+        "roots",
+        "continuity"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.01",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.01",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.01",
+        "vocabulary": "Frayer terms for GC.01",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "Opposite of the claim; natural rights were inherited from Locke and earlier traditions.",
+        "B": "(correct)",
+        "C": "False chronology — the Declaration (1776) came before the Constitution (1787).",
+        "D": "Incorrect — Greek democracy and the Roman republic were cited influences."
+      },
+      "id": "GC.01-U1Q02"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.02",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "The Declaration lists natural rights and then a long list of grievances against King George III. Why place them together?",
+      "question_es": "La Declaración enumera derechos naturales y luego agravios contra el rey. ¿Por qué juntarlos?",
+      "options": {
+        "A": "To make the document longer",
+        "B": "To describe how to run state governments",
+        "C": "To request an apology from the king",
+        "D": "To build an argument: rights + the king's violations justify separation"
+      },
+      "correct_answer": "D",
+      "distractor_rationale": {
+        "A": "Length was not the purpose; the structure is an argument.",
+        "B": "It does not outline state-government procedures.",
+        "C": "The Declaration announces separation, not a request for apology.",
+        "D": "Correct — universal rights (premise) + specific violations (evidence) → justified separation (conclusion)."
+      },
+      "answer_explanation": "Grievances turn principle into justification — the logic of a government that may be altered when it violates rights.",
+      "tennessee_specific": false,
+      "topics": [
+        "Declaration",
+        "grievances",
+        "argument"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.02",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.02",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.02",
+        "vocabulary": "Frayer terms for GC.02",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "Length was not the purpose; the structure is an argument.",
+        "B": "It does not outline state-government procedures.",
+        "C": "The Declaration announces separation, not a request for apology.",
+        "D": "(correct)"
+      },
+      "id": "GC.02-U1Q02"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.04",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "The Great Compromise settled which major disagreement at the Constitutional Convention?",
+      "question_es": "El Gran Compromiso resolvió ¿cuál desacuerdo importante en la Convención Constitucional?",
+      "options": {
+        "A": "Whether to keep the Articles of Confederation",
+        "B": "Whether to have a president or a king",
+        "C": "How states would be represented in Congress — by population or equally",
+        "D": "Whether to allow political parties"
+      },
+      "correct_answer": "C",
+      "distractor_rationale": {
+        "A": "That debate was settled by writing a new constitution, not by the Great Compromise.",
+        "B": "The Convention rejected monarchy from the start.",
+        "C": "Correct — a population-based House plus an equal-representation Senate reconciled large and small states.",
+        "D": "Parties are not addressed by the compromise."
+      },
+      "answer_explanation": "The Virginia Plan (population) and New Jersey Plan (equal) were merged into a bicameral Congress.",
+      "tennessee_specific": false,
+      "topics": [
+        "Great Compromise",
+        "representation"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.04",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.04",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.04",
+        "vocabulary": "Frayer terms for GC.04",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "That debate was settled by writing a new constitution, not by the Great Compromise.",
+        "B": "The Convention rejected monarchy from the start.",
+        "C": "(correct)",
+        "D": "Parties are not addressed by the compromise."
+      },
+      "id": "GC.04-U1Q01"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.06",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "Madison wrote that 'ambition must be made to counteract ambition.' Which design does this describe?",
+      "question_es": "Madison escribió que 'la ambición debe contrarrestar la ambición'. ¿Qué diseño describe esto?",
+      "options": {
+        "A": "Popular sovereignty",
+        "B": "Checks and balances that let each branch limit the others",
+        "C": "Federalism between nation and states",
+        "D": "The amendment process"
+      },
+      "correct_answer": "B",
+      "distractor_rationale": {
+        "A": "Popular sovereignty concerns the source of power, not inter-branch checks.",
+        "B": "Correct — branches are set against each other so each checks the others' ambition.",
+        "C": "Federalism divides nation/state power, a different limit.",
+        "D": "Article V is unrelated to Madison's point here."
+      },
+      "answer_explanation": "Federalist No. 51's logic is structural: pit power against power through checks and balances.",
+      "tennessee_specific": false,
+      "topics": [
+        "checks and balances",
+        "Federalist 51"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.06",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.06",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.06",
+        "vocabulary": "Frayer terms for GC.06",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "Popular sovereignty concerns the source of power, not inter-branch checks.",
+        "B": "(correct)",
+        "C": "Federalism divides nation/state power, a different limit.",
+        "D": "Article V is unrelated to Madison's point here."
+      },
+      "id": "GC.06-U1Q01"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.08",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "The First Amendment begins 'Congress shall make no law…'. Why phrase protections as limits on government?",
+      "question_es": "La Primera Enmienda comienza 'El Congreso no hará ley…'. ¿Por qué expresar protecciones como límites al gobierno?",
+      "options": {
+        "A": "Because rights pre-exist government; the Constitution's job is to stop government from violating them",
+        "B": "To show the government created these rights and may remove them",
+        "C": "To give Congress more power over speech",
+        "D": "Because only Congress has rights"
+      },
+      "correct_answer": "A",
+      "distractor_rationale": {
+        "A": "Correct — natural-rights thinking: rights belong to people already; limits restrain government.",
+        "B": "The framing implies the opposite — rights are not government gifts.",
+        "C": "The clause restricts Congress, it does not expand its power.",
+        "D": "Rights belong to persons, not to Congress."
+      },
+      "answer_explanation": "Phrasing rights as prohibitions limits government power rather than granting rights it could revoke.",
+      "tennessee_specific": true,
+      "topics": [
+        "Bill of Rights",
+        "First Amendment",
+        "limits"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.08",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.08",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.08",
+        "vocabulary": "Frayer terms for GC.08",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "(correct)",
+        "B": "The framing implies the opposite — rights are not government gifts.",
+        "C": "The clause restricts Congress, it does not expand its power.",
+        "D": "Rights belong to persons, not to Congress."
+      },
+      "id": "GC.08-U1Q01"
+    },
+    {
+      "type": "constructed_response",
+      "standard": "GC.01",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "Explain how ONE European or classical root (Locke, Montesquieu, Greek democracy, Roman republic, or Magna Carta) shaped American government. Use one piece of evidence.",
+      "question_es": "Explica cómo UNA raíz europea o clásica moldeó el gobierno estadounidense. Usa una evidencia.",
+      "rubric": "6-pt CER: Claim (0–2) clear/defensible · Evidence (0–2) two accurate cited details · Reasoning (0–2) links evidence to claim + addresses a counterpoint.",
+      "tennessee_specific": false,
+      "topics": [
+        "CER",
+        "argumentation"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.01",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.01",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.01",
+        "vocabulary": "Frayer terms for GC.01",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "id": "GC.01-U1Q03"
+    },
+    {
+      "type": "constructed_response",
+      "standard": "GC.02",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "Choose one grievance in the Declaration of Independence and explain how it violated the colonists' rights and helped justify independence.",
+      "question_es": "Elige un agravio de la Declaración y explica cómo violó los derechos de los colonos.",
+      "rubric": "6-pt CER: Claim (0–2) clear/defensible · Evidence (0–2) two accurate cited details · Reasoning (0–2) links evidence to claim + addresses a counterpoint.",
+      "tennessee_specific": false,
+      "topics": [
+        "CER",
+        "argumentation"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.02",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.02",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.02",
+        "vocabulary": "Frayer terms for GC.02",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "id": "GC.02-U1Q03"
+    },
+    {
+      "type": "constructed_response",
+      "standard": "GC.03",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "Identify two weaknesses of the Articles of Confederation and explain one problem each caused.",
+      "question_es": "Identifica dos debilidades de los Artículos de la Confederación y explica un problema de cada una.",
+      "rubric": "6-pt CER: Claim (0–2) clear/defensible · Evidence (0–2) two accurate cited details · Reasoning (0–2) links evidence to claim + addresses a counterpoint.",
+      "tennessee_specific": false,
+      "topics": [
+        "CER",
+        "argumentation"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.03",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.03",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.03",
+        "vocabulary": "Frayer terms for GC.03",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "id": "GC.03-U1Q03"
+    },
+    {
+      "type": "constructed_response",
+      "standard": "GC.04",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "Explain how the Great Compromise resolved the conflict between large and small states.",
+      "question_es": "Explica cómo el Gran Compromiso resolvió el conflicto entre estados grandes y pequeños.",
+      "rubric": "6-pt CER: Claim (0–2) clear/defensible · Evidence (0–2) two accurate cited details · Reasoning (0–2) links evidence to claim + addresses a counterpoint.",
+      "tennessee_specific": false,
+      "topics": [
+        "CER",
+        "argumentation"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.04",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.04",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.04",
+        "vocabulary": "Frayer terms for GC.04",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "id": "GC.04-U1Q03"
+    },
+    {
+      "type": "constructed_response",
+      "standard": "GC.05",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "Choose two purposes of government from the Preamble and explain why each matters for a free society.",
+      "question_es": "Elige dos propósitos del gobierno del Preámbulo y explica por qué importa cada uno.",
+      "rubric": "6-pt CER: Claim (0–2) clear/defensible · Evidence (0–2) two accurate cited details · Reasoning (0–2) links evidence to claim + addresses a counterpoint.",
+      "tennessee_specific": false,
+      "topics": [
+        "CER",
+        "argumentation"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.05",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.05",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.05",
+        "vocabulary": "Frayer terms for GC.05",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "id": "GC.05-U1Q02"
+    },
+    {
+      "type": "constructed_response",
+      "standard": "GC.06",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "Explain how checks and balances prevent any one branch from becoming too powerful. Use one example.",
+      "question_es": "Explica cómo los controles y equilibrios evitan que una rama sea demasiado poderosa. Usa un ejemplo.",
+      "rubric": "6-pt CER: Claim (0–2) clear/defensible · Evidence (0–2) two accurate cited details · Reasoning (0–2) links evidence to claim + addresses a counterpoint.",
+      "tennessee_specific": false,
+      "topics": [
+        "CER",
+        "argumentation"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.06",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.06",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.06",
+        "vocabulary": "Frayer terms for GC.06",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "id": "GC.06-U1Q03"
+    },
+    {
+      "type": "constructed_response",
+      "standard": "GC.07",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "Explain the two-step process for amending the Constitution and why the Framers made it difficult.",
+      "question_es": "Explica el proceso de dos pasos para enmendar la Constitución y por qué los Redactores lo hicieron difícil.",
+      "rubric": "6-pt CER: Claim (0–2) clear/defensible · Evidence (0–2) two accurate cited details · Reasoning (0–2) links evidence to claim + addresses a counterpoint.",
+      "tennessee_specific": false,
+      "topics": [
+        "CER",
+        "argumentation"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.07",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.07",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.07",
+        "vocabulary": "Frayer terms for GC.07",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "id": "GC.07-U1Q02"
+    },
+    {
+      "type": "constructed_response",
+      "standard": "GC.08",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "Explain how the Bill of Rights limits government power. Use one amendment as evidence.",
+      "question_es": "Explica cómo la Carta de Derechos limita el poder del gobierno. Usa una enmienda como evidencia.",
+      "rubric": "6-pt CER: Claim (0–2) clear/defensible · Evidence (0–2) two accurate cited details · Reasoning (0–2) links evidence to claim + addresses a counterpoint.",
+      "tennessee_specific": false,
+      "topics": [
+        "CER",
+        "argumentation"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.08",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.08",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.08",
+        "vocabulary": "Frayer terms for GC.08",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "id": "GC.08-U1Q03"
+    },
+    {
+      "type": "constructed_response",
+      "standard": "GC.09",
+      "unit": 1,
+      "dok": 3,
+      "bloom": "Analyze",
+      "level": "Advanced",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "hard",
+      "question": "Explain the difference between a republic and a direct democracy, and why the Framers chose a republic.",
+      "question_es": "Explica la diferencia entre una república y una democracia directa, y por qué los Redactores eligieron una república.",
+      "rubric": "6-pt CER: Claim (0–2) clear/defensible · Evidence (0–2) two accurate cited details · Reasoning (0–2) links evidence to claim + addresses a counterpoint.",
+      "tennessee_specific": false,
+      "topics": [
+        "CER",
+        "argumentation"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.09",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.09",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.09",
+        "vocabulary": "Frayer terms for GC.09",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "id": "GC.09-U1Q03"
+    }
+  ]
+}

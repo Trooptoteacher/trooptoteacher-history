@@ -1,0 +1,1816 @@
+{
+ "unit": "Unit 8",
+ "formative": {
+  "US.71": [
+   {
+    "id": "US.71-71Q1",
+    "std": "US.71",
+    "dok": 2,
+    "stem": "How did the G.I. Bill contribute to the growth of the American middle class and suburban development?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It provided college tuition and low-interest home loans to nearly 8 million veterans, doubling the college-educated population and fueling suburban homeownership that created a massive new middle class"
+     },
+     {
+      "id": "B",
+      "text": "The G.I. Bill had minimal economic impact, but contemporary accounts suggest a different explanation, which represents a common misconception about this historical period, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "C",
+      "text": "The G.I. Bill only provided unemployment benefits, although this view has been largely discredited by scholars, although this overlooks critical economic and social factors involved"
+     },
+     {
+      "id": "D",
+      "text": "Only wealthy veterans could access G.I. Bill benefits, although this view has been largely discredited by scholars and fails to account for key developments in the broader context"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The G.I. Bill was transformative: education benefits created a college-educated workforce while home loan programs enabled millions of veterans to purchase suburban homes, fundamentally expanding the American middle class.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.71-71Q2",
+    "std": "US.71",
+    "dok": 2,
+    "stem": "What factors drove the shift from manufacturing to white-collar employment during the 1950s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Manufacturing jobs disappeared entirely, though this interpretation lacks supporting historical evidence, which represents a common misconception about this historical period, which does not align with the documented historical record"
+     },
+     {
+      "id": "B",
+      "text": "Corporate growth, expanding service industries, and technological innovation created demand for managers, professionals, and office workers, with white-collar workers outnumbering blue-collar workers by 1956"
+     },
+     {
+      "id": "C",
+      "text": "Workers preferred lower-paying office jobs, which ignores key developments that shaped the outcome and oversimplifies the complex factors at work during this period, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "D",
+      "text": "The government mandated the shift to white-collar work, yet the available evidence points to a different conclusion, which contradicts the primary source evidence from this era"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The shift reflected economic transformation: large corporations needed managers and professionals, service industries expanded, and technological innovation created new categories of work that required education rather than manual labor.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.72": [
+   {
+    "id": "US.72-72Q1",
+    "std": "US.72",
+    "dok": 2,
+    "stem": "What factors caused the dramatic increase in U.S. birth rates from 1946-1964 known as the Baby Boom?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Returning WWII veterans starting families, economic prosperity, G.I. Bill benefits, cultural emphasis on domesticity, and improved medical care"
+     },
+     {
+      "id": "B",
+      "text": "Government mandates requiring larger families, although this view has been largely discredited by scholars"
+     },
+     {
+      "id": "C",
+      "text": "Immigration from European countries after the war, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "Declining living standards forcing families to have more children, although historical sources do not support this conclusion"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The Baby Boom resulted from multiple factors: veterans returning home to start families, postwar economic prosperity enabling larger families, government support through the G.I. Bill, cultural values emphasizing family life, and better medical care reducing infant mortality.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.72-72Q3",
+    "std": "US.72",
+    "dok": 2,
+    "stem": "What new markets and industries emerged to serve the growing youth population?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Only the housing industry expanded, despite the fact that multiple sources contradict this view, though this interpretation lacks supporting historical evidence"
+     },
+     {
+      "id": "B",
+      "text": "Pediatric healthcare, toy manufacturing, children's clothing, education, and youth entertainment industries all experienced explosive growth"
+     },
+     {
+      "id": "C",
+      "text": "No new industries developed during this period, but contemporary accounts suggest a different explanation"
+     },
+     {
+      "id": "D",
+      "text": "Only military-related industries expanded, but this fails to account for the broader historical context"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The baby boom created demand across multiple sectors: healthcare for children expanded, toy and clothing manufacturers thrived, education spending increased dramatically, and entertainment industries targeting youth emerged.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.73": [
+   {
+    "id": "US.73-73Q1",
+    "std": "US.73",
+    "dok": 2,
+    "stem": "How did the Salk polio vaccine demonstrate government's role in public health and medical advancement?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Government funding and coordination of vaccine trials led to a breakthrough that eliminated a terrifying disease, showing public investment in medical research benefits all Americans"
+     },
+     {
+      "id": "B",
+      "text": "The government opposed vaccine development, though this interpretation lacks supporting historical evidence, but closer analysis reveals a more complicated historical reality"
+     },
+     {
+      "id": "C",
+      "text": "Private companies developed the vaccine without government involvement, but contemporary accounts suggest a different explanation, which represents a common misconception about this historical period"
+     },
+     {
+      "id": "D",
+      "text": "The vaccine was developed in another country, which does not reflect the consensus among historians, which contradicts the primary source evidence from this era"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The polio vaccine's development demonstrated how government investment in public health research could eliminate devastating diseases, restoring confidence in medical science and protecting children nationwide.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.73-73Q2",
+    "std": "US.73",
+    "dok": 2,
+    "stem": "What were the economic benefits of the Interstate Highway System for American commerce and industry?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The highway system had no significant economic impact, although this view has been largely discredited by scholars, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "B",
+      "text": "It created construction jobs, enabled efficient goods movement, and fueled growth in auto manufacturing, gas stations, motels, and fast food industries"
+     },
+     {
+      "id": "C",
+      "text": "It only benefited rural agricultural communities, but the historical record tells a more complex story despite the fact that multiple contemporary sources contradict this"
+     },
+     {
+      "id": "D",
+      "text": "It decreased trade between states, but this fails to account for the broader historical context when examined alongside the available primary and secondary sources"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The Interstate Highway System became the largest public works project in American history, creating jobs, enabling commerce, and spurring growth across multiple industries from car manufacturing to hospitality.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.74": [
+   {
+    "id": "US.74-74Q1",
+    "std": "US.74",
+    "dok": 2,
+    "stem": "How did widespread automobile ownership transform American daily life and family routines?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Cars provided unprecedented mobility, allowing Americans to live farther from work, expanding shopping and leisure options, and giving teenagers new independence"
+     },
+     {
+      "id": "B",
+      "text": "Cars had minimal impact on daily routines, which does not align with the documented historical record when examined alongside the available primary and secondary sources"
+     },
+     {
+      "id": "C",
+      "text": "Only wealthy Americans owned cars in the 1950s, but this fails to account for the broader historical context, though this interpretation lacks supporting historical evidence"
+     },
+     {
+      "id": "D",
+      "text": "Car ownership decreased family mobility, which represents a common misconception about the period, although this overlooks critical economic and social factors involved"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Widespread car ownership transformed American life by enabling longer commutes, expanding shopping and entertainment options, increasing teenage independence, and making family activities more mobile.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.74-74Q2",
+    "std": "US.74",
+    "dok": 2,
+    "stem": "What connection existed between car culture and the growth of suburbs like Levittown?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Suburbs developed independently of automobile ownership, but this fails to account for the broader historical context, although this overlooks critical economic and social factors involved"
+     },
+     {
+      "id": "B",
+      "text": "Cars made suburban living practical by enabling commutes to city jobs, leading developers like Levitt to build communities designed around automobile access with wide streets and garages"
+     },
+     {
+      "id": "C",
+      "text": "Suburbs were built before cars became common, despite limited evidence supporting this interpretation and oversimplifies the complex factors at work during this period"
+     },
+     {
+      "id": "D",
+      "text": "Car ownership declined as suburbs grew, which ignores key developments that shaped the outcome, but contemporary accounts and primary sources suggest otherwise"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Automobiles made suburban living possible by allowing workers to commute to city jobs while living in residential communities, prompting developers to build car-dependent neighborhoods with driveways and garages.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.75": [
+   {
+    "id": "US.75-75Q1",
+    "std": "US.75",
+    "dok": 2,
+    "stem": "How did television replace radio as the center of American family entertainment and home life?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "TV became the center of family entertainment, with families scheduling activities around programs, sharing cultural experiences through popular shows, and redesigning living rooms around television sets"
+     },
+     {
+      "id": "B",
+      "text": "Radio remained more popular than television, but this oversimplifies the complex factors at work, although this overlooks critical economic and social factors involved, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "C",
+      "text": "Television was only popular in wealthy households, which does not reflect the consensus among historians, which does not align with the documented historical record, but closer analysis reveals a more complicated historical reality"
+     },
+     {
+      "id": "D",
+      "text": "Families spent less time at home after television's introduction, although this view has been largely discredited by scholars, which does not align with the documented historical record"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Television quickly became the dominant form of home entertainment, replacing radio and movies as families gathered around TV sets, scheduled their evenings around programming, and shared common cultural experiences.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.75-OK21",
+    "std": "US.75",
+    "dok": 2,
+    "stem": "How did television impact American politics during the 1950s and early 1960s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It combined audio and visuals to influence consumer preferences at scale"
+     },
+     {
+      "id": "B",
+      "text": "Televised debates and news coverage transformed how voters chose leaders"
+     },
+     {
+      "id": "C",
+      "text": "TV advertising created national demand for products and shaped consumer desires"
+     },
+     {
+      "id": "D",
+      "text": "TV became the center of family entertainment and a source of news"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Televised debates and news changed politics by making image, speaking style, and camera presence matter more to voters. D is wrong because it describes television's role in home entertainment, not politics, and C is wrong because it focuses on consumer culture. The Kennedy-Nixon debates proved that television could shape election outcomes.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.76": [
+   {
+    "id": "US.76-76Q1",
+    "std": "US.76",
+    "dok": 2,
+    "stem": "How did the Beat Generation challenge 1950s conformity and traditional American values?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Beatniks rejected materialism and conventional careers, embraced artistic expression, questioned authority, and criticized conformity, laying groundwork for 1960s counterculture"
+     },
+     {
+      "id": "B",
+      "text": "The Beat Generation embraced suburban conformity, although this overlooks critical economic and social factors despite the fact that multiple contemporary sources contradict this"
+     },
+     {
+      "id": "C",
+      "text": "The Beat Generation had no influence on American culture, but this oversimplifies the complex factors at work, and this view has been largely revised by modern historical research"
+     },
+     {
+      "id": "D",
+      "text": "Beatniks supported traditional family values, though this interpretation lacks supporting historical evidence when examined alongside the available primary and secondary sources"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The Beat Generation challenged 1950s conformity by rejecting materialism, embracing artistic experimentation, questioning authority, and criticizing the suburban lifestyle that defined mainstream American culture.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.76-0045",
+    "std": "US.76",
+    "dok": 2,
+    "stem": "How did the transition from swing music to rhythm and blues and then to rock and roll reflect broader social changes in American society during the 1950s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The shift reflected purely musical preferences with no connection to race, class, or generational identity"
+     },
+     {
+      "id": "B",
+      "text": "Rock and roll merged African American rhythm and blues with country influences, crossing racial barriers and challenging segregation among youth"
+     },
+     {
+      "id": "C",
+      "text": "The shift from swing to rock and roll was directed by the federal government as part of a cultural unity campaign"
+     },
+     {
+      "id": "D",
+      "text": "Rock and roll emerged exclusively in Northern cities and was unknown in the South until the 1970s"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Rock and roll fused African American blues, gospel, and R&B with country, creating music that blurred racial lines; White teenagers buying records by Black artists like Chuck Berry and Little Richard represented a cultural integration that preceded legal desegregation.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.77": [
+   {
+    "id": "US.77-77Q1",
+    "std": "US.77",
+    "dok": 2,
+    "stem": "What were President Kennedy's main domestic and international goals through the New Frontier programs?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Kennedy's New Frontier aimed to improve education, enforce civil rights, compete in space exploration, create the Peace Corps, and stimulate economic growth"
+     },
+     {
+      "id": "B",
+      "text": "Kennedy focused only on military expansion, although historical sources do not support this conclusion, which ignores significant political and cultural developments of the era"
+     },
+     {
+      "id": "C",
+      "text": "The New Frontier only addressed foreign policy, although historical sources do not support this conclusion when examined alongside the available primary and secondary sources"
+     },
+     {
+      "id": "D",
+      "text": "Kennedy had no significant domestic agenda, despite limited evidence supporting this interpretation and does not reflect the scholarly consensus on this topic"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Kennedy's New Frontier was a comprehensive agenda addressing education, civil rights, space exploration, international service through the Peace Corps, and economic growth through tax cuts and public investment.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.77-77Q2",
+    "std": "US.77",
+    "dok": 2,
+    "stem": "How did the Peace Corps reflect Kennedy's vision for America's role in the world?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The Peace Corps was a military program, despite the fact that multiple sources contradict this view and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "B",
+      "text": "The Peace Corps sent volunteers to developing countries to provide assistance, reflecting Kennedy's vision of promoting American values through service and idealism rather than military force"
+     },
+     {
+      "id": "C",
+      "text": "The Peace Corps only operated within the United States, yet the available evidence points to a different conclusion, but closer analysis reveals a more complicated historical reality"
+     },
+     {
+      "id": "D",
+      "text": "Kennedy opposed the Peace Corps concept, yet the available evidence points to a different conclusion, though this interpretation lacks supporting historical evidence"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The Peace Corps embodied Kennedy's idealistic approach to foreign policy, using American volunteers to provide practical help and build goodwill abroad while demonstrating democratic values through service.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ]
+ },
+ "formA": [
+  {
+   "id": "US.71-ADD4",
+   "std": "US.71",
+   "dok": 2,
+   "stem": "How did postwar infrastructure spending affect suburban growth?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Expanded highways made daily commuting practical for more middle-class families"
+    },
+    {
+     "id": "B",
+     "text": "Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease"
+    },
+    {
+     "id": "C",
+     "text": "Improving civilian transportation while supporting national defense logistics"
+    },
+    {
+     "id": "D",
+     "text": "They paired infrastructure and health advances that increased productivity and mobility"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Postwar infrastructure spending expanded highways, which made daily suburban commuting possible for far more middle-class families. C is wrong because it states a broader purpose of the highways, not the direct effect on suburban growth. Federal spending on roads helped spread metropolitan areas outward.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.71-X034",
+   "std": "US.71",
+   "dok": 2,
+   "stem": "Levittown, New York, built in the late 1940s, represented which major postwar social trend?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Racially integrated planned communities that became models for civil rights advocates"
+    },
+    {
+     "id": "B",
+     "text": "Mass-produced suburban housing that enabled affordable homeownership for middle-class white families"
+    },
+    {
+     "id": "C",
+     "text": "Government-built public housing for returning veterans who could not afford private homes"
+    },
+    {
+     "id": "D",
+     "text": "Urban renewal that replaced slums with modern high-rise apartment buildings"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Levittown represented mass-produced suburban housing that made homeownership affordable for many middle-class white families after World War II. A is wrong because Levittown was not racially integrated, and B is wrong because it was private suburban housing, not federal public housing. It became a model for postwar suburbia and its exclusions.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.71-X038",
+   "std": "US.71",
+   "dok": 2,
+   "stem": "The conformity of 1950s suburban culture was criticized by thinkers like William Whyte and David Riesman, who argued that —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Suburban prosperity was built on the systematic underpayment and exploitation of industrial and service workers"
+    },
+    {
+     "id": "B",
+     "text": "Suburban growth was eroding American religious traditions and the extended family structures of urban ethnic communities"
+    },
+    {
+     "id": "C",
+     "text": "Mass consumer society produced social conformity and 'other-directed' personalities that lacked authentic individuality"
+    },
+    {
+     "id": "D",
+     "text": "Television was exposing American children to violent and morally degrading content that undermined community values"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Critics such as William Whyte and David Riesman argued that suburban consumer society encouraged conformity and 'other-directed' people who followed group expectations. B is wrong because their main critique was not about religion, and C is wrong because they were not focused only on TV content. Their ideas captured anxieties beneath the surface of 1950s prosperity.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.72-OK21",
+   "std": "US.72",
+   "dok": 2,
+   "stem": "How did the baby boom generation impact the American economy and culture?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It caused severe economic depression due to overcrowded job markets"
+    },
+    {
+     "id": "B",
+     "text": "It drove demand for schools, housing, consumer goods, and new services"
+    },
+    {
+     "id": "C",
+     "text": "It had minimal impact because most baby boomers emigrated to Europe"
+    },
+    {
+     "id": "D",
+     "text": "It primarily strengthened rural agricultural communities across America"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The baby-boom generation drove huge demand for schools, houses, toys, cars, and later colleges and jobs as it moved through each life stage. B is wrong because the baby boom did not cause a depression, and D is wrong because its effects were not mainly rural. That giant cohort helped power consumer growth and cultural change for decades.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.72-ADD1",
+   "std": "US.72",
+   "dok": 2,
+   "stem": "Why was the baby boom generation so significant for the American economy?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It demonstrated technological and ideological superiority over the rival superpower"
+    },
+    {
+     "id": "B",
+     "text": "Rapid enrollment growth required construction of new schools and hiring of more teachers"
+    },
+    {
+     "id": "C",
+     "text": "The massive population increase drove demand for schools, housing, and consumer goods"
+    },
+    {
+     "id": "D",
+     "text": "Dramatic surge in birth rates from 1946 to 1964 as veterans returned home"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The baby boom mattered economically because millions of new children created huge demand for schools, housing, and consumer goods. D is wrong because it only defines the baby boom, while the question asks why it was important. That demand fueled long-term growth across many parts of the U.S. economy.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.72-ADD2",
+   "std": "US.72",
+   "dok": 2,
+   "stem": "How did the baby boom influence public education in the postwar United States?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The massive population increase drove demand for schools, housing, and consumer goods"
+    },
+    {
+     "id": "B",
+     "text": "It demonstrated technological and ideological superiority over the rival superpower"
+    },
+    {
+     "id": "C",
+     "text": "A large age cohort moved through life stages together, shifting demand and voting priorities over time"
+    },
+    {
+     "id": "D",
+     "text": "Rapid enrollment growth required construction of new schools and hiring of more teachers"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The baby boom pushed school enrollment up so quickly that communities had to build new schools and hire many more teachers. B is wrong because it is a broader economic effect, not the specific impact on public education. The pressure of this generation reshaped local budgets and school systems after World War II."
+   }
+  },
+  {
+   "id": "US.73-ADD1",
+   "std": "US.73",
+   "dok": 2,
+   "stem": "Why was the Interstate Highway System significant for American life?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They paired infrastructure and health advances that increased productivity and mobility"
+    },
+    {
+     "id": "B",
+     "text": "Yes, subsequent decades showed military spending influenced policy and contractors gained power"
+    },
+    {
+     "id": "C",
+     "text": "It connected the nation, boosted commerce, enabled suburban growth, and provided defense routes"
+    },
+    {
+     "id": "D",
+     "text": "National security requires strong military, but that same partnership could threaten democracy"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Interstate Highway System was significant because it connected the country, sped up trade, supported defense, and made suburban commuting easier. B is wrong because it gives a vague combined effect, not the actual significance of the highways. The system changed where Americans lived, worked, and traveled.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.73-ADD3",
+   "std": "US.73",
+   "dok": 2,
+   "stem": "Which domestic objective helped Eisenhower justify the Interstate Highway System?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease"
+    },
+    {
+     "id": "B",
+     "text": "Expanded highways made daily commuting practical for more middle-class families"
+    },
+    {
+     "id": "C",
+     "text": "They paired infrastructure and health advances that increased productivity and mobility"
+    },
+    {
+     "id": "D",
+     "text": "Improving civilian transportation while supporting national defense logistics"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Eisenhower justified the Interstate Highway System partly as a way to improve civilian travel while also moving troops and supplies quickly in an emergency. B is wrong because the polio vaccine had nothing to do with highway policy. Cold War defense concerns helped win support for a major domestic building project."
+   }
+  },
+  {
+   "id": "US.73-X038",
+   "std": "US.73",
+   "dok": 2,
+   "stem": "How did the Eisenhower administration's policy of 'massive retaliation' reflect the influence of nuclear weapons on Cold War strategy?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It threatened overwhelming nuclear response to Soviet aggression, hoping to deter any Soviet military action"
+    },
+    {
+     "id": "B",
+     "text": "It rejected nuclear weapons as immoral and committed the U.S. to conventional military superiority"
+    },
+    {
+     "id": "C",
+     "text": "It proposed sharing nuclear technology with NATO allies to spread deterrence costs"
+    },
+    {
+     "id": "D",
+     "text": "It committed the U.S. to fighting limited conventional wars against Soviet proxies anywhere in the world"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Massive retaliation meant the United States threatened overwhelming nuclear response to major Soviet aggression in order to deter conflict. D is wrong because the policy did not commit the U.S. to fighting every limited conventional war. Nuclear weapons changed Cold War strategy by making deterrence central.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.74-OK21",
+   "std": "US.74",
+   "dok": 2,
+   "stem": "How did the automobile transform American business and culture in the 1950s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It reduced consumer spending because families saved money on transit"
+    },
+    {
+     "id": "B",
+     "text": "It eliminated the need for any new road construction across the nation"
+    },
+    {
+     "id": "C",
+     "text": "It primarily benefited the railroad industry by increasing train travel"
+    },
+    {
+     "id": "D",
+     "text": "It created fast food chains, motels, shopping centers, and drive-ins"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Automobiles transformed business and culture by encouraging fast-food chains, motels, shopping centers, and drive-in theaters. A is wrong because cars increased consumer spending instead of reducing it, and D is wrong because they did not mainly revive railroad travel. A car-centered economy became a defining feature of 1950s America."
+   }
+  },
+  {
+   "id": "US.74-ADD1",
+   "std": "US.74",
+   "dok": 2,
+   "stem": "How did the automobile reshape American culture in the 1950s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It created drive-in restaurants, motels, shopping centers, and suburban sprawl"
+    },
+    {
+     "id": "B",
+     "text": "Growth of roadside services such as motels, service stations, and fast-food chains"
+    },
+    {
+     "id": "C",
+     "text": "Air pollution increased as vehicle ownership and highway travel expanded"
+    },
+    {
+     "id": "D",
+     "text": "It supported suburban commuting and encouraged development farther from city centers"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The automobile reshaped 1950s culture by creating drive-ins, roadside businesses, motels, shopping centers, and sprawling suburbs. D is wrong because commuting is only one effect, and B names a business trend without capturing the full cultural change. Car ownership became a symbol of freedom and middle-class life in postwar America.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.74-ADD3",
+   "std": "US.74",
+   "dok": 2,
+   "stem": "How did highway expansion shape postwar residential patterns?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Growth of roadside services such as motels, service stations, and fast-food chains"
+    },
+    {
+     "id": "B",
+     "text": "It supported suburban commuting and encouraged development farther from city centers"
+    },
+    {
+     "id": "C",
+     "text": "It created drive-in restaurants, motels, shopping centers, and suburban sprawl"
+    },
+    {
+     "id": "D",
+     "text": "White families moved to suburbs while minorities were often excluded, leading to urban decline"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Highway expansion encouraged people to live farther from city centers because commuting by car became easier. B is wrong because roadside businesses were a commercial effect, not the main residential pattern, and D is wrong because it describes a social consequence rather than the transportation pattern itself. This shift helped suburban sprawl become a normal feature of postwar America.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.75-ADD1",
+   "std": "US.75",
+   "dok": 2,
+   "stem": "How did television change American politics in the 1960s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The 1960 Kennedy-Nixon debate showed that television image mattered as much as policy"
+    },
+    {
+     "id": "B",
+     "text": "Candidates invested more in image, televised appearances, and short message framing"
+    },
+    {
+     "id": "C",
+     "text": "Families across regions watched the same news, sports, and entertainment programs"
+    },
+    {
+     "id": "D",
+     "text": "Broadcast images of protests and violence drew national attention to segregation"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Television changed politics when the 1960 Kennedy-Nixon debate showed that appearance on screen could matter as much as policy arguments. B is wrong because it describes a broader campaign trend rather than the clearest example, and D is wrong because it relates more to civil rights coverage. The rise of TV helped create the modern image-driven campaign.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.75-ADD2",
+   "std": "US.75",
+   "dok": 2,
+   "stem": "How did television affect American consumer culture in the 1950s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Television reduced consumer spending because families stayed home instead of shopping"
+    },
+    {
+     "id": "B",
+     "text": "TV advertising created national demand for products and shaped consumer desires"
+    },
+    {
+     "id": "C",
+     "text": "Advertising was banned on television during the 1950s"
+    },
+    {
+     "id": "D",
+     "text": "Television had no effect on what Americans bought or consumed"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Television advertising created nationwide demand for the same brands and products by showing the same commercials to millions of families. B is wrong because TV encouraged consumer desire rather than reducing spending, and C is wrong because advertising was common on television. TV helped build a powerful national consumer culture in the 1950s.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.75-ADD3",
+   "std": "US.75",
+   "dok": 2,
+   "stem": "How did television contribute to a more national popular culture in the 1950s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "TV advertising created national demand for products and shaped consumer desires"
+    },
+    {
+     "id": "B",
+     "text": "Broadcast images of protests and violence drew national attention to segregation"
+    },
+    {
+     "id": "C",
+     "text": "Families across regions watched the same news, sports, and entertainment programs"
+    },
+    {
+     "id": "D",
+     "text": "Candidates invested more in image, televised appearances, and short message framing"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Television helped create a national popular culture because families in different regions watched the same news, sports, and entertainment shows. D is wrong because advertising shaped buying habits more than shared culture, and C is wrong because it focuses on campaigns. TV made Americans more likely to share common celebrities, programs, and public moments.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.76-0046",
+   "std": "US.76",
+   "dok": 2,
+   "stem": "How did Sun Studio in Memphis and Stax Records contribute to the development of American popular music?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Sun Studio and Stax Records each specialized in classical and orchestral music and had no connection to rock and roll, soul, or any other form of American popular music"
+    },
+    {
+     "id": "B",
+     "text": "Sun Studio launched rock and roll by recording Elvis Presley and Johnny Cash, while Stax produced soul music that crossed racial lines, establishing Memphis as a center of American musical innovation"
+    },
+    {
+     "id": "C",
+     "text": "Sun Studio and Stax were both government-funded public radio broadcasting stations rather than commercial recording studios serving the popular music industry"
+    },
+    {
+     "id": "D",
+     "text": "Both Sun Studio and Stax were located in Nashville and were primarily known for recording traditional country music, with no significant ties to rock and roll or soul"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Sam Phillips' Sun Studio (1950) recorded Elvis Presley, Johnny Cash, and Jerry Lee Lewis, defining early rock and roll; Stax Records (1957) produced Otis Redding, Sam & Dave, and Booker T. & the MGs, creating the Memphis soul sound and pioneering interracial musical collaboration.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.76-0047",
+   "std": "US.76",
+   "dok": 2,
+   "stem": "How did Elvis Presley's rise to fame reflect and contribute to the cultural changes of the 1950s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Elvis's popularity reflected a rejection of youth culture; his fans were predominantly middle-aged adults seeking nostalgic entertainment"
+    },
+    {
+     "id": "B",
+     "text": "Elvis represented a continuation of the swing era with no meaningful departure from the music of previous decades"
+    },
+    {
+     "id": "C",
+     "text": "Elvis synthesized African American musical styles for white audiences, embodying generational rebellion and mainstreaming Black musical influences in American pop culture"
+    },
+    {
+     "id": "D",
+     "text": "Elvis became famous solely through radio and had no meaningful connection to television or visual performance"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Elvis fused Black R&B and gospel with country influences into a provocative style that excited White teenagers and alarmed parents; his television appearances and physical performance style embodied the generation gap and the racial crossovers reshaping American culture.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.76-OK11",
+   "std": "US.76",
+   "dok": 1,
+   "stem": "What was the significance of Elvis Presley and Sun Studio in Memphis, Tennessee?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It blended Black and white musical traditions, challenging racial boundaries"
+    },
+    {
+     "id": "B",
+     "text": "Memphis and Nashville became major centers for blues, rock, and country"
+    },
+    {
+     "id": "C",
+     "text": "Rock 'n' roll, beatniks, and teen rebellion challenged 1950s conformity"
+    },
+    {
+     "id": "D",
+     "text": "They helped launch rock 'n' roll by blending Black and white musical styles"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Elvis Presley and Sun Studio mattered because they helped launch rock 'n' roll by mixing Black rhythm and blues with white country influences. B is wrong because it describes a broader cultural effect rather than the specific historical significance of Elvis and Sun Studio. Memphis became one of the key birthplaces of modern popular music."
+   }
+  },
+  {
+   "id": "US.77-OK22",
+   "std": "US.77",
+   "dok": 2,
+   "stem": "How did President Kennedy's space program goal reflect Cold War competition?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Domestic agenda to improve education, end discrimination, and reach the moon"
+    },
+    {
+     "id": "B",
+     "text": "Send American volunteers to developing nations to provide assistance"
+    },
+    {
+     "id": "C",
+     "text": "Landing on the moon would demonstrate American technological superiority"
+    },
+    {
+     "id": "D",
+     "text": "Commitment to landing Americans on the moon before the decade ended"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Kennedy's moon goal reflected Cold War rivalry because landing Americans on the moon would prove U.S. scientific and technological strength against the Soviet Union. C is wrong because it states the goal but not its broader meaning, and B is wrong because the Peace Corps addressed a different part of the Cold War. The space race turned science into a contest for global prestige.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.77-ADD2",
+   "std": "US.77",
+   "dok": 2,
+   "stem": "How did Kennedy's assassination in 1963 affect American society?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A domestic agenda to improve education, end discrimination, and advance science"
+    },
+    {
+     "id": "B",
+     "text": "Sending American volunteers abroad to support education, health, and development projects"
+    },
+    {
+     "id": "C",
+     "text": "They provided legislative foundations that Johnson advanced through Great Society programs"
+    },
+    {
+     "id": "D",
+     "text": "It traumatized the nation and created sympathy that helped pass his legislative agenda"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Kennedy's assassination shocked the nation and created a wave of sympathy that helped Lyndon Johnson push parts of Kennedy's agenda through Congress. D is wrong because it describes the New Frontier itself, not the effect of Kennedy's death. The tragedy became a turning point in American politics and public memory."
+   }
+  },
+  {
+   "id": "US.77-X031",
+   "std": "US.77",
+   "dok": 2,
+   "stem": "Kennedy's establishment of the Peace Corps in 1961 reflected which Cold War strategy?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Winning hearts and minds in developing countries through volunteerism and development assistance to counter Soviet influence"
+    },
+    {
+     "id": "B",
+     "text": "Military deterrence through the deployment of American troops in developing nations"
+    },
+    {
+     "id": "C",
+     "text": "Economic competition with the Soviet Union through trade agreements with newly independent African and Asian nations"
+    },
+    {
+     "id": "D",
+     "text": "Intelligence gathering in foreign countries through the presence of civilian volunteers"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The Peace Corps reflected a Cold War 'hearts and minds' strategy by sending volunteers to help developing countries and build goodwill toward the United States. D is wrong because it was not mainly an intelligence operation. Kennedy used volunteer service as a peaceful way to compete with Soviet influence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "formB": [
+  {
+   "id": "US.71-0012",
+   "std": "US.71",
+   "dok": 2,
+   "stem": "How did the GI Bill contribute to the economic prosperity and suburban growth of the United States after World War II?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It provided government-funded factory jobs in urban areas that attracted veterans back to city centers"
+    },
+    {
+     "id": "B",
+     "text": "It required all veterans to relocate to rural areas to work in government-sponsored agricultural programs"
+    },
+    {
+     "id": "C",
+     "text": "It offered veterans low-interest home loans, college tuition benefits, and job training that expanded the middle class and fueled suburban development"
+    },
+    {
+     "id": "D",
+     "text": "It gave veterans tax exemptions for purchasing imported goods, boosting foreign trade but limiting domestic manufacturing"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Servicemen's Readjustment Act (1944) enabled millions of veterans to attend college and purchase homes in developing suburbs, dramatically expanding the American middle class through the 1950s.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.71-0014",
+   "std": "US.71",
+   "dok": 2,
+   "stem": "How did U.S. dependence on foreign oil affect the American economy and suburban lifestyle of the 1950s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Foreign oil dependence had no impact on American daily life because the U.S. was entirely self-sufficient in oil production during the 1950s"
+    },
+    {
+     "id": "B",
+     "text": "High oil import costs caused widespread fuel shortages throughout the 1950s, limiting automobile ownership to wealthy Americans"
+    },
+    {
+     "id": "C",
+     "text": "The United States banned all oil imports during the 1950s to protect the domestic petroleum industry"
+    },
+    {
+     "id": "D",
+     "text": "Cheap imported oil kept gasoline prices low, enabling the widespread automobile use and suburban sprawl that defined 1950s American life"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Growing global oil production, including from Middle Eastern fields, kept gasoline inexpensive throughout the 1950s, making the automobile-centered suburban lifestyle economically feasible for the middle class."
+   }
+  },
+  {
+   "id": "US.71-0016",
+   "std": "US.71",
+   "dok": 2,
+   "stem": "Which factor best explains why suburban communities expanded rapidly in the United States during the 1950s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The combination of GI Bill home loans, mass-produced housing developments, and automobile ownership made suburban living affordable for the middle class"
+    },
+    {
+     "id": "B",
+     "text": "The federal government condemned all urban areas and required families to relocate to newly built suburbs"
+    },
+    {
+     "id": "C",
+     "text": "Suburbs grew because city governments raised taxes so high that all residents were forced to leave"
+    },
+    {
+     "id": "D",
+     "text": "The decline of American manufacturing caused workers to relocate to suburban areas where agricultural jobs were available"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Developers like William Levitt used mass-production techniques to build affordable homes; GI Bill loans, low interest rates, and the automobile made suburban homeownership accessible to millions of working families.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.72-X035",
+   "std": "US.72",
+   "dok": 2,
+   "stem": "The growth of American suburbs in the 1950s was facilitated by which three factors?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Mandatory school integration, urban crime reduction, and the baby boom"
+    },
+    {
+     "id": "B",
+     "text": "Government housing subsidies, expanding public transit, and urban industrial growth"
+    },
+    {
+     "id": "C",
+     "text": "Television advertising, racial integration policies, and declining farm employment"
+    },
+    {
+     "id": "D",
+     "text": "The GI Bill, the interstate highway system, and mass production techniques that lowered housing costs"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Suburbs grew because the G.I. Bill helped veterans buy homes, highways made commuting easier, and mass production lowered housing costs. B is wrong because public transit was not the main driver of suburban expansion. Together, these forces transformed where millions of Americans lived after the war."
+   }
+  },
+  {
+   "id": "US.72-0018",
+   "std": "US.72",
+   "dok": 2,
+   "stem": "How did the baby boom generation reshape American society and the economy as its members grew up?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The large baby boom generation drove demand for schools, consumer goods, and housing, and reshaped the labor market when boomers entered it"
+    },
+    {
+     "id": "B",
+     "text": "The baby boom had little economic impact because the generation was too small to influence consumer markets"
+    },
+    {
+     "id": "C",
+     "text": "Baby boomers primarily emigrated to other countries, reducing the size of the American workforce"
+    },
+    {
+     "id": "D",
+     "text": "The baby boom was confined to rural areas and had no influence on urban or suburban development"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The baby boom's 76 million births (1946–1964) created a demographic wave that drove demand for schools in the 1950s, youth consumer markets in the 1960s, and career opportunities in the 1970s-80s.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.72-0019",
+   "std": "US.72",
+   "dok": 2,
+   "stem": "Which pattern best explains the connection between the baby boom generation and the rise of youth culture in the 1950s and 1960s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Baby boomers were raised to follow their parents' cultural preferences exactly, producing no distinct youth identity"
+    },
+    {
+     "id": "B",
+     "text": "The sheer size of the baby boom generation created a mass youth market, and businesses targeted teenagers with music, fashion, and entertainment that became a distinct youth culture"
+    },
+    {
+     "id": "C",
+     "text": "Baby boomers rejected all forms of consumerism, creating a youth culture based entirely on self-sufficiency"
+    },
+    {
+     "id": "D",
+     "text": "Youth culture emerged because the government required young people to spend free time in civic organizations rather than consuming entertainment"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The concentration of millions of teenagers with disposable income created a youth market; industry responded with rock and roll, teen magazines, drive-in movies, and fashion specifically targeting this new demographic.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.73-0024",
+   "std": "US.73",
+   "dok": 2,
+   "stem": "How did the Interstate Highway System, authorized under Eisenhower in 1956, transform American society and the economy?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It accelerated suburban growth, shifted freight dominance from railroads to trucking, and fostered automobile-dependent communities"
+    },
+    {
+     "id": "B",
+     "text": "It connected major cities but had little effect on commerce because most goods continued to be shipped by railroad"
+    },
+    {
+     "id": "C",
+     "text": "It was built exclusively for military use and remained closed to civilian traffic for the first decade"
+    },
+    {
+     "id": "D",
+     "text": "It reduced automobile use by providing efficient mass transit corridors connecting urban centers"
+    }
+   ],
+   "key": "A",
+   "rc": "Geography",
+   "distract": {
+    "A": "The Federal Aid Highway Act (1956) funded 41,000 miles of interstate highways, dramatically reducing shipping costs via trucking, enabling suburbanites to commute farther, and transforming retail through highway-adjacent shopping patterns.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.73-0025",
+   "std": "US.73",
+   "dok": 2,
+   "stem": "How did advances in medicine and public health during the Eisenhower era affect American society?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Medical advances had little impact because most Americans still relied on traditional home remedies rather than professional medical care"
+    },
+    {
+     "id": "B",
+     "text": "Developments such as the Salk polio vaccine reduced childhood disease mortality, improved average life expectancy, and increased public confidence in scientific medicine"
+    },
+    {
+     "id": "C",
+     "text": "Medical advances during the 1950s were limited to military hospitals and were not available to the general public until the 1970s"
+    },
+    {
+     "id": "D",
+     "text": "The Eisenhower administration nationalized all hospitals, making medical care universally free for American citizens"
+    }
+   ],
+   "key": "B",
+   "rc": "Geography",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Jonas Salk's polio vaccine (1955) virtually eliminated a disease that had paralyzed thousands annually; antibiotics, improved surgical techniques, and hospital expansion also raised life expectancy and transformed public health.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.73-0026",
+   "std": "US.73",
+   "dok": 2,
+   "stem": "Why did Eisenhower justify building the Interstate Highway System primarily on national defense grounds rather than economic ones?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Congress only funded infrastructure projects that had direct military applications, so economic arguments were legally prohibited"
+    },
+    {
+     "id": "B",
+     "text": "The economic benefits of highways were unknown in 1956, so Eisenhower had no economic argument to make"
+    },
+    {
+     "id": "C",
+     "text": "Framing the highway system as necessary for military troop and equipment movement made it easier to secure congressional funding during the Cold War"
+    },
+    {
+     "id": "D",
+     "text": "Eisenhower opposed the economic development aspects of the highway system and only approved it for defense reasons"
+    }
+   ],
+   "key": "C",
+   "rc": "Geography",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Eisenhower invoked Cold War defense needs — evacuating cities and moving military forces — because the political climate made defense spending easier to pass than domestic economic investment, even though economic gains were widely anticipated.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.74-ADD4",
+   "std": "US.74",
+   "dok": 2,
+   "stem": "Which business trend reflects automobile-centered consumer culture?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It supported suburban commuting and encouraged development farther from city centers"
+    },
+    {
+     "id": "B",
+     "text": "Growth of roadside services such as motels, service stations, and fast-food chains"
+    },
+    {
+     "id": "C",
+     "text": "It created drive-in restaurants, motels, shopping centers, and suburban sprawl"
+    },
+    {
+     "id": "D",
+     "text": "Air pollution increased as vehicle ownership and highway travel expanded"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Roadside services such as motels, gas stations, and fast-food chains grew because Americans traveled and commuted by car more than ever before. D is wrong because air pollution was an environmental effect, not a business trend. Automobile culture created whole industries aimed at drivers.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.74-ADD6",
+   "std": "US.74",
+   "dok": 2,
+   "stem": "What was one environmental consequence of mass automobile use after World War II?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Cars allowed workers to live far from cities and commute to their jobs"
+    },
+    {
+     "id": "B",
+     "text": "It created fast food chains, motels, shopping centers, and drive-ins"
+    },
+    {
+     "id": "C",
+     "text": "Air pollution increased as vehicle ownership and highway travel expanded"
+    },
+    {
+     "id": "D",
+     "text": "It created drive-in restaurants, motels, shopping centers, and suburban sprawl"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Mass automobile use increased air pollution as more Americans drove longer distances on expanding highway networks. C and D are wrong because they describe cultural and business changes, not environmental consequences. Car-centered growth improved mobility but also created new environmental costs.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.74-ADD2",
+   "std": "US.74",
+   "dok": 2,
+   "stem": "How did the growth of suburbs affect American cities?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Highway construction often displaced city neighborhoods while resources favored suburban expansion"
+    },
+    {
+     "id": "B",
+     "text": "It supported suburban commuting and encouraged development farther from city centers"
+    },
+    {
+     "id": "C",
+     "text": "Growth of roadside services such as motels, service stations, and fast-food chains"
+    },
+    {
+     "id": "D",
+     "text": "White families moved to suburbs while minorities were often excluded, leading to urban decline"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Suburban growth often hurt cities because many white middle-class families left, while minority families were frequently blocked from following them into the suburbs. C is wrong because it explains why suburbs expanded, not how cities were affected. This pattern contributed to urban poverty, segregation, and declining city tax bases."
+   }
+  },
+  {
+   "id": "US.75-ADD4",
+   "std": "US.75",
+   "dok": 2,
+   "stem": "Which change in campaigning is most associated with television's rise?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Families across regions watched the same news, sports, and entertainment programs"
+    },
+    {
+     "id": "B",
+     "text": "The 1960 Kennedy-Nixon debate showed that television image mattered as much as policy"
+    },
+    {
+     "id": "C",
+     "text": "Candidates invested more in image, televised appearances, and short message framing"
+    },
+    {
+     "id": "D",
+     "text": "Broadcast images of protests and violence drew national attention to segregation"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "As television rose, candidates began investing more in image, short televised messages, and appearances that worked well on camera. C is wrong because the Kennedy-Nixon debate is an example of that change, not the broader change itself. Modern political campaigning grew more visual and performance-based because of TV.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.75-ADD5",
+   "std": "US.75",
+   "dok": 2,
+   "stem": "How did mass media affect civil rights awareness in the 1950s and 1960s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Families across regions watched the same news, sports, and entertainment programs"
+    },
+    {
+     "id": "B",
+     "text": "TV advertising created national demand for products and shaped consumer desires"
+    },
+    {
+     "id": "C",
+     "text": "Candidates invested more in image, televised appearances, and short message framing"
+    },
+    {
+     "id": "D",
+     "text": "Broadcast images of protests and violence drew national attention to segregation"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Mass media increased civil rights awareness by showing protestors, police violence, and segregation to viewers across the country. B is wrong because shared entertainment did not expose injustice in the same direct way. Television helped turn local civil rights struggles into national moral issues."
+   }
+  },
+  {
+   "id": "US.75-6Q08",
+   "std": "US.75",
+   "dok": 2,
+   "stem": "The decline of local newspapers and local television news since 2000 has contributed to political polarization by —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Leaving a void filled by national partisan media"
+    },
+    {
+     "id": "B",
+     "text": "Making national politics less important to most Americans"
+    },
+    {
+     "id": "C",
+     "text": "Having no measurable effect on political attitudes"
+    },
+    {
+     "id": "D",
+     "text": "Strengthening the power of local politicians who no longer face media scrutiny"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "As local news declined, many Americans turned to national partisan outlets that focused more on ideological conflict than local problem-solving. A is wrong because national politics became more central, not less, and C is wrong because the decline clearly did affect political attitudes. The loss of local journalism weakened a common civic information base.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.76-ADD2",
+   "std": "US.76",
+   "dok": 1,
+   "stem": "What was the significance of Sun Studio and Stax Records in Memphis, Tennessee?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Writers and artists who rejected conformity, foreshadowing the 1960s counterculture"
+    },
+    {
+     "id": "B",
+     "text": "It blended Black and white musical traditions, challenging racial boundaries"
+    },
+    {
+     "id": "C",
+     "text": "They helped launch rock 'n' roll by blending Black and white musical styles"
+    },
+    {
+     "id": "D",
+     "text": "They were pioneering recording studios that launched rock 'n' roll and soul music"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Sun Studio and Stax Records were pioneering Memphis labels that helped introduce rock 'n' roll and soul music to national audiences. B is wrong because beatnik writers were a different cultural movement, and C is wrong because it names one effect without identifying the studios themselves. Their success made Memphis one of the most important music cities in the country."
+   }
+  },
+  {
+   "id": "US.76-OK12",
+   "std": "US.76",
+   "dok": 1,
+   "stem": "According to the passage, where did Elvis Presley say rock 'n' roll music originally came from?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Black musicians who had been playing it for many years before him"
+    },
+    {
+     "id": "B",
+     "text": "Country musicians in Nashville who developed it from folk traditions"
+    },
+    {
+     "id": "C",
+     "text": "Classical composers who adapted European musical styles for audiences"
+    },
+    {
+     "id": "D",
+     "text": "British musicians who brought the sound to America during the 1950s"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Black musicians who had been playing it for many years before him. Choice A is wrong because it describes country musicians in Nashville who developed it from folk traditions, not black musicians who had been playing it for many years before him. Youth culture exposed growing tensions over race, conformity, and generational change in the 1950s.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.76-OK13",
+   "std": "US.76",
+   "dok": 1,
+   "stem": "Who were some famous rock 'n' roll artists besides Elvis Presley?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Frank Sinatra, Dean Martin, Perry Como, and Nat King Cole"
+    },
+    {
+     "id": "B",
+     "text": "Chuck Berry, Little Richard, Buddy Holly, and Jerry Lee Lewis"
+    },
+    {
+     "id": "C",
+     "text": "Duke Ellington, Louis Armstrong, Dizzy Gillespie, and Count Basie"
+    },
+    {
+     "id": "D",
+     "text": "Hank Williams, Patsy Cline, Johnny Cash, and Kitty Wells"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "some famous rock 'n' roll artists besides Elvis Presley were chuck Berry, Little Richard, Buddy Holly, and Jerry Lee Lewis. Choice B is wrong because it misidentifies who these people were and what role they played. Youth culture exposed growing tensions over race, conformity, and generational change in the 1950s.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.77-ADD5",
+   "std": "US.77",
+   "dok": 2,
+   "stem": "How did New Frontier proposals influence later domestic policy even when not fully enacted under Kennedy?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They provided legislative foundations that Johnson advanced through Great Society programs"
+    },
+    {
+     "id": "B",
+     "text": "Sending American volunteers abroad to support education, health, and development projects"
+    },
+    {
+     "id": "C",
+     "text": "It traumatized the nation and created sympathy that helped pass his legislative agenda"
+    },
+    {
+     "id": "D",
+     "text": "A domestic agenda to improve education, end discrimination, and advance science"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Even when Kennedy did not get all of his proposals passed, the New Frontier shaped later laws by giving Johnson ideas and political groundwork to build on. B is wrong because the Peace Corps was only one program, not the broader legacy. This continuity shows how presidential agendas can matter even beyond one administration.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.77-0051",
+   "std": "US.77",
+   "dok": 2,
+   "stem": "How did Kennedy's New Frontier agenda reflect a departure from Eisenhower's domestic priorities?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The New Frontier reduced federal spending dramatically to balance the budget, reversing Eisenhower's expansion of programs like the Interstate Highway System"
+    },
+    {
+     "id": "B",
+     "text": "The New Frontier called for increased federal investment in education, space exploration, foreign aid through the Peace Corps, and civil rights — a more activist approach than Eisenhower's"
+    },
+    {
+     "id": "C",
+     "text": "Kennedy's New Frontier focused exclusively on military preparedness and eliminated all social welfare programs from the federal budget"
+    },
+    {
+     "id": "D",
+     "text": "The New Frontier represented a return to isolationism by ending foreign aid and withdrawing from international organizations"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Kennedy's New Frontier was an activist domestic and foreign agenda: it proposed federal aid to education, created the Peace Corps (1961), pledged to land a man on the moon, and challenged the complacency of the Eisenhower era with calls for national sacrifice and service.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.77-0052",
+   "std": "US.77",
+   "dok": 2,
+   "stem": "How did the Peace Corps, established by Kennedy in 1961, reflect the goals of the New Frontier?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The Peace Corps was a military organization designed to train soldiers for counterinsurgency operations in developing nations"
+    },
+    {
+     "id": "B",
+     "text": "The Peace Corps was established to provide employment for American workers during a recession rather than to assist foreign countries"
+    },
+    {
+     "id": "C",
+     "text": "The Peace Corps embodied the New Frontier's call to service, sending volunteers to developing nations to advance economic development and goodwill as peaceful Cold War competition"
+    },
+    {
+     "id": "D",
+     "text": "The Peace Corps focused exclusively on rebuilding European nations still recovering from the devastation of World War II"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Kennedy's Peace Corps sent American volunteers — educators, engineers, health workers — to developing nations, combining genuine humanitarian goals with strategic Cold War aims: demonstrating that democracy could improve lives more effectively than communism.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "disclosure": "Classroom-formative · pre-field-test (pre-calibration) — not a secure TCAP form. First administration is what calibrates these items."
+}

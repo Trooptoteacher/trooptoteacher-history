@@ -1,0 +1,67 @@
+{
+  "unit": 1,
+  "title": "Age of Revolutions",
+  "era": "1750-1850",
+  "quarter": 1,
+  "template_reference": "US History Unit 6 (HistoryHack_Platinum/build_unit6) — canonical platinum operating standard",
+  "standards_basis": "CURRENT verbatim TDOE World History & Geography (courses/world-history/standards/world-history-standards.json) — supersedes the drifted world_history_standards_source.json on claude/world-history-platinum-build-mv5z17",
+  "standards": [
+    {
+      "code": "W.01",
+      "text": "Describe the concept of the divine right of kings as well as the features, strengths, and weaknesses of European absolutism, including: Louis XIV, Versailles, and Peter the Great.",
+      "strand": [
+        "C",
+        "H",
+        "P"
+      ],
+      "geo": false,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.02",
+      "text": "Compare documents that establish limits on government in response to absolute monarchy (e.g., the Magna Carta and the English Bill of Rights).",
+      "strand": [
+        "H",
+        "P"
+      ],
+      "geo": false,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.03",
+      "text": "Compare the major ideas of philosophers during the Age of Enlightenment, such as Charles-Louis de Montesquieu, Thomas Hobbes, John Locke, and Jean-Jacques Rousseau.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "geo": false,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.04",
+      "text": "Examine the causes and consequences of the English Civil War.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.08a",
+      "text": "Identify how the ideas of the Enlightenment inspired Thomas Jefferson and the Declaration of Independence, and compare the American Revolution with the French Revolution.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
+      "cluster": "Age of Revolution (1750-1850)"
+    }
+  ]
+}

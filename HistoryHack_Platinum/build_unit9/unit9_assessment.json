@@ -1,0 +1,1300 @@
+{
+ "unit": "Unit 9",
+ "formative": {
+  "US.78": [
+   {
+    "id": "US.78-78Q1",
+    "std": "US.78",
+    "dok": 2,
+    "stem": "What legal and social conditions led to the Brown v. Board case challenging \"separate but equal\" education?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The NAACP's systematic legal strategy and social science research showing segregation's harm to Black children"
+     },
+     {
+      "id": "B",
+      "text": "A sudden change in public opinion supporting integration, but this oversimplifies the complex factors at work"
+     },
+     {
+      "id": "C",
+      "text": "Congressional legislation requiring the Supreme Court to review segregation, but the historical record tells a more complex story"
+     },
+     {
+      "id": "D",
+      "text": "Southern states voluntarily requesting federal review of their schools, although historical sources do not support this conclusion"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The NAACP, led by Thurgood Marshall, built a strategic legal campaign over decades, while research like Kenneth Clark's doll tests provided evidence of segregation's psychological damage to children.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.78-78Q2",
+    "std": "US.78",
+    "dok": 2,
+    "stem": "How did the Supreme Court's decision in Brown v. Board overturn Plessy v. Ferguson?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It declared all forms of segregation unconstitutional immediately, yet the available evidence points to a different conclusion"
+     },
+     {
+      "id": "B",
+      "text": "It ruled that \"separate educational facilities are inherently unequal,\" rejecting the separate but equal doctrine for public education"
+     },
+     {
+      "id": "C",
+      "text": "It upheld Plessy but made exceptions for public schools, despite the fact that multiple sources contradict this view"
+     },
+     {
+      "id": "D",
+      "text": "It delegated the decision to individual states, which ignores key developments that shaped the outcome"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Chief Justice Warren's unanimous opinion directly contradicted Plessy by declaring that separation itself created inequality, violating the 14th Amendment's Equal Protection Clause.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.79": [
+   {
+    "id": "US.79-79Q1",
+    "std": "US.79",
+    "dok": 2,
+    "stem": "How did civil rights leaders like King, Malcolm X, Marshall, and Parks use different strategies to advance equality?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "King used nonviolent protest, Malcolm X promoted Black nationalism, Marshall used legal challenges, and Parks became a symbol through individual resistance"
+     },
+     {
+      "id": "B",
+      "text": "They all used identical nonviolent protest methods, despite the fact that multiple sources contradict this view, which does not align with the documented historical record"
+     },
+     {
+      "id": "C",
+      "text": "They worked exclusively through congressional lobbying, but this oversimplifies the complex factors at work, though this interpretation lacks supporting historical evidence"
+     },
+     {
+      "id": "D",
+      "text": "Each leader focused only on their local community, which does not align with the documented historical record and oversimplifies the complex factors at work during this period"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The civil rights movement succeeded partly because different leaders employed complementary strategies—legal challenges, mass protests, philosophical appeals, and individual acts of courage.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.79-79Q2",
+    "std": "US.79",
+    "dok": 2,
+    "stem": "What tactics did opponents like Bull Connor, Orval Faubus, and Strom Thurmond use to resist civil rights progress?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "They primarily used peaceful political lobbying, but contemporary accounts suggest a different explanation"
+     },
+     {
+      "id": "B",
+      "text": "Connor used police violence, Faubus defied federal courts with the National Guard, and Thurmond used Senate filibusters"
+     },
+     {
+      "id": "C",
+      "text": "They focused exclusively on legal challenges in court, although historical sources do not support this conclusion"
+     },
+     {
+      "id": "D",
+      "text": "They avoided public confrontation entirely, but the historical record tells a more complex story"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Civil rights opponents used multiple tactics including violent suppression, state defiance of federal authority, and legislative obstruction to maintain segregation.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.80": [
+   {
+    "id": "US.80-80Q1",
+    "std": "US.80",
+    "dok": 2,
+    "stem": "How did the Montgomery Bus Boycott establish nonviolent resistance as the primary civil rights strategy?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The 381-day boycott demonstrated Black economic power and organizational capability, proving sustained nonviolent action could achieve change"
+     },
+     {
+      "id": "B",
+      "text": "It was a spontaneous one-day protest, which ignores key developments that shaped the outcome, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "C",
+      "text": "It relied primarily on legal challenges rather than direct action, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "D",
+      "text": "The boycott failed to achieve its goals, although historical sources do not support this conclusion, which contradicts the primary source evidence from this era"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The boycott's success after over a year showed that disciplined, sustained nonviolent economic pressure could force change, establishing the template for future civil rights campaigns.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.80-80Q2",
+    "std": "US.80",
+    "dok": 2,
+    "stem": "What role did Tennessee play in the Civil Rights Movement through events like the Nashville sit-ins and Clinton High School integration?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Tennessee was not involved in the Civil Rights Movement, but this oversimplifies the complex factors at work and oversimplifies the complex factors at work during this period"
+     },
+     {
+      "id": "B",
+      "text": "Tennessee provided key sites including the first integrated Southern high school, student-led sit-ins, Highlander training center, and Tent City voter resistance"
+     },
+     {
+      "id": "C",
+      "text": "Tennessee only participated after the movement ended, but the historical record tells a more complex story, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "Tennessee's role was limited to opposing civil rights, although this overlooks critical economic and social factors, and this view has been largely revised by modern historical research"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Tennessee was crucial to the movement—Clinton High pioneered integration, Nashville sit-ins demonstrated student leadership, Highlander trained leaders, and Tent City showed grassroots resistance to voter suppression.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.81": [
+   {
+    "id": "US.81-81Q1",
+    "std": "US.81",
+    "dok": 2,
+    "stem": "How did the Civil Rights Act of 1964 end legal segregation and what enforcement mechanisms did it create?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It banned discrimination in public accommodations and employment while creating the EEOC to enforce these provisions"
+     },
+     {
+      "id": "B",
+      "text": "It only addressed voting rights, which ignores key developments that shaped the outcome"
+     },
+     {
+      "id": "C",
+      "text": "It relied entirely on state enforcement, which represents a common misconception about the period"
+     },
+     {
+      "id": "D",
+      "text": "It addressed housing but not public accommodations, but contemporary accounts suggest a different explanation"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The 1964 Act comprehensively banned segregation in public facilities and employment discrimination, creating federal enforcement through the EEOC.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.81-81Q2",
+    "std": "US.81",
+    "dok": 2,
+    "stem": "What impact did the Voting Rights Act of 1965 have on Black political participation in the South?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It had minimal effect on voter registration, although this view has been largely discredited by scholars"
+     },
+     {
+      "id": "B",
+      "text": "Black voter registration increased dramatically from 23% to 61% by 1969, transforming Southern politics"
+     },
+     {
+      "id": "C",
+      "text": "It only affected Northern states, but this fails to account for the broader historical context"
+     },
+     {
+      "id": "D",
+      "text": "Registration rates decreased after the Act passed, yet the available evidence points to a different conclusion"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "By banning discriminatory practices like literacy tests and authorizing federal oversight, the Act enabled massive increases in Black voter registration and political participation.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.82": [
+   {
+    "id": "US.82-82Q1",
+    "std": "US.82",
+    "dok": 2,
+    "stem": "How did the American Indian Movement, Chicano Movement, and Feminist Movement adopt civil rights strategies for their own causes?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "They adapted legal challenges, direct action protests, media strategies, and legislative campaigns used by the African American civil rights movement"
+     },
+     {
+      "id": "B",
+      "text": "They rejected all civil rights tactics, but this oversimplifies the complex factors at work, which ignores significant political and cultural developments of the era"
+     },
+     {
+      "id": "C",
+      "text": "They only used violent resistance, although this view has been largely discredited by scholars, though this interpretation lacks supporting historical evidence"
+     },
+     {
+      "id": "D",
+      "text": "They worked exclusively through electoral politics, although this view has been largely discredited by scholars, but the historical evidence paints a more nuanced picture"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "All three movements borrowed and adapted successful civil rights tactics—legal challenges, nonviolent protests, boycotts, and media campaigns—while pursuing their specific goals.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.82-82Q2",
+    "std": "US.82",
+    "dok": 2,
+    "stem": "What specific goals did leaders like Russell Means, Cesar Chavez, and Betty Friedan pursue for their communities?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "They all pursued identical goals, but this oversimplifies the complex factors at work, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "B",
+      "text": "Means sought tribal sovereignty and treaty rights, Chavez fought for farm worker labor rights, and Friedan demanded gender equality and an end to discrimination"
+     },
+     {
+      "id": "C",
+      "text": "They focused exclusively on voting rights, but the historical record tells a more complex story when examined alongside the available primary and secondary sources"
+     },
+     {
+      "id": "D",
+      "text": "They avoided political activism entirely, but the historical record tells a more complex story and fails to account for key developments in the broader context"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Each leader pursued community-specific goals: Means focused on Native American sovereignty, Chavez on labor rights for farm workers, and Friedan on women's equality in employment and society.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ]
+ },
+ "formA": [
+  {
+   "id": "US.78-X046",
+   "std": "US.78",
+   "dok": 2,
+   "stem": "Which statement best describes the long-term significance of Brown v. Board of Education for the civil rights movement?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It established a legal and moral foundation that activists used to challenge broader racial discrimination"
+    },
+    {
+     "id": "B",
+     "text": "It immediately ended segregation in all public facilities across the South"
+    },
+    {
+     "id": "C",
+     "text": "It persuaded most Southern whites to voluntarily accept school integration by 1960"
+    },
+    {
+     "id": "D",
+     "text": "It gave the president unlimited power to enforce civil rights laws without congressional approval"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Brown mattered beyond education because it proved the federal courts could strike down segregation and gave activists a powerful moral and legal precedent. Choices that describe it as solving segregation immediately are wrong because resistance remained fierce after 1954. The ruling helped launch the modern civil rights movement by weakening Jim Crow's constitutional legitimacy.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.78-X047",
+   "std": "US.78",
+   "dok": 2,
+   "stem": "A historian examining the NAACP's case-building strategy from the 1930s to 1954 would most likely conclude that the organization's lawyers —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Relied largely on executive orders from sympathetic presidents"
+    },
+    {
+     "id": "B",
+     "text": "Systematically challenged segregation at the graduate school level before targeting K-12 schools"
+    },
+    {
+     "id": "C",
+     "text": "Focused exclusively on economic arguments rather than constitutional ones"
+    },
+    {
+     "id": "D",
+     "text": "Sought a constitutional amendment rather than judicial rulings"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Brown became possible after decades of NAACP legal work that first challenged inequality in graduate and professional schools before taking on K-12 segregation. Choices that treat Brown as a sudden change are wrong because the ruling grew out of a long courtroom strategy. That gradual buildup shows how social movements often combine activism with patient legal planning.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.78-X051",
+   "std": "US.78",
+   "dok": 2,
+   "stem": "Which factor most limited the immediate impact of the Brown v. Board of Education decision?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The ruling applied only to schools in border states, not the Deep South"
+    },
+    {
+     "id": "B",
+     "text": "The federal government refused to recognize the Supreme Court's jurisdiction"
+    },
+    {
+     "id": "C",
+     "text": "The vague 'all deliberate speed' enforcement language allowed Southern states to delay"
+    },
+    {
+     "id": "D",
+     "text": "Congress passed legislation overriding the ruling within two years"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Brown did not transform Southern schools overnight because resistance campaigns, weak enforcement, and the phrase \"all deliberate speed\" slowed integration. Choices about immediate compliance are wrong because many districts delayed for years or even closed schools. The gap between the ruling and its enforcement became a central problem of the civil rights era.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.79-ADD1",
+   "std": "US.79",
+   "dok": 2,
+   "stem": "How did Malcolm X's approach to civil rights differ from Martin Luther King Jr.'s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Both leaders agreed on every major strategy; their differences were only stylistic"
+    },
+    {
+     "id": "B",
+     "text": "Malcolm X advocated self-defense and Black nationalism while King promoted nonviolence"
+    },
+    {
+     "id": "C",
+     "text": "Malcolm X focused on rural sharecroppers while King focused on urban workers"
+    },
+    {
+     "id": "D",
+     "text": "Malcolm X supported the Civil Rights Act of 1964 while King opposed it"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Malcolm X argued for Black nationalism, self-defense, and self-determination, which contrasted sharply with King's strategy of nonviolent integration. Choices that make him the founder of nonviolent protest are wrong because he criticized that approach for much of his public life. His ideas shaped the rise of Black Power and broadened debate within the freedom struggle.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.79-X035",
+   "std": "US.79",
+   "dok": 2,
+   "stem": "The Southern Christian Leadership Conference (SCLC), founded in 1957, differed from the NAACP in that the SCLC —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Limited its membership exclusively to college students and young professionals"
+    },
+    {
+     "id": "B",
+     "text": "Sought integration through economic pressure on Northern corporations"
+    },
+    {
+     "id": "C",
+     "text": "Organized grassroots mass protest campaigns using churches as its base"
+    },
+    {
+     "id": "D",
+     "text": "Focused primarily on legal challenges in federal courts"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Organized grassroots mass protest campaigns using churches as its base best fits the question because it matches the historical facts and time period being tested. A is wrong because it describes limited its membership exclusively to college students and young professionals, not organized grassroots mass protest campaigns using churches as its base. The item connects to larger changes in civil rights, social movements, or constitutional development in modern U.S. history.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.79-X043",
+   "std": "US.79",
+   "dok": 2,
+   "stem": "Which of the following best explains why the SCLC selected Birmingham, Alabama, as a major protest target in 1963?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Birmingham had the highest Black voter registration rate in the South"
+    },
+    {
+     "id": "B",
+     "text": "The city had already agreed to integrate and SCLC wanted to affirm the agreement"
+    },
+    {
+     "id": "C",
+     "text": "Birmingham was chosen because its mayor was a moderate Republican who opposed segregation"
+    },
+    {
+     "id": "D",
+     "text": "It was known as one of the most violently segregated cities in America"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "It was known as one of the most violently segregated cities in America, and its public safety commissioner Bull Connor was known for brutality best fits the question because it matches the historical facts and time period being tested. A is wrong because it describes birmingham had the highest Black voter registration rate in the South, not it was known as one of the most violently segregated cities in America, and its public safety commissioner Bull Connor was known for brutality. The item connects to larger changes in civil rights, social movements, or constitutional development in modern U.S. history."
+   }
+  },
+  {
+   "id": "US.80-X036",
+   "std": "US.80",
+   "dok": 2,
+   "stem": "When Freedom Riders were violently attacked in Anniston and Birmingham, Alabama in 1961, the Kennedy administration's initial response was to —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Immediately send federal marshals to protect the riders"
+    },
+    {
+     "id": "B",
+     "text": "Deploy the National Guard to Alabama to ensure safe passage"
+    },
+    {
+     "id": "C",
+     "text": "Pressure CORE to suspend the rides to avoid an international embarrassment"
+    },
+    {
+     "id": "D",
+     "text": "Arrest the local officials who allowed the violence"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "When the Freedom Riders reached Anniston, Alabama, a mob firebombed their bus and attacked riders who escaped. Choices about peaceful arrest are wrong because Anniston became one of the most violent moments of the campaign. The attack shocked the nation and revealed how dangerous basic desegregation efforts remained.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.80-X039",
+   "std": "US.80",
+   "dok": 2,
+   "stem": "John Lewis, then-chairman of SNCC, gave a speech at the March on Washington that civil rights leaders pressured him to moderate. What did the original version of his speech indicate about SNCC's position?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "SNCC had formally abandoned nonviolent civil disobedience in favor of armed community self-defense by 1963"
+    },
+    {
+     "id": "B",
+     "text": "SNCC fully endorsed the Kennedy civil rights bill as written and called on Congress to pass it immediately"
+    },
+    {
+     "id": "C",
+     "text": "SNCC had negotiated a merger with King's SCLC to present a unified organizational front to the Kennedy administration"
+    },
+    {
+     "id": "D",
+     "text": "SNCC was growing impatient with the pace of change and was considering more confrontational tactics"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The March on Washington for Jobs and Freedom was the massive 1963 rally where Martin Luther King Jr. delivered his \"I Have a Dream\" speech. A is wrong because anti-draft protests were about Vietnam, not this civil rights demonstration in Washington. The march showed the movement could unite moral protest with demands for jobs and federal legislation."
+   }
+  },
+  {
+   "id": "US.80-X040",
+   "std": "US.80",
+   "dok": 2,
+   "stem": "Which statement best describes the role of television in the sit-in and Freedom Ride campaigns of 1960–1961?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Televised images of peaceful protesters being attacked shocked Northern viewers and built sympathy for the civil rights movement"
+    },
+    {
+     "id": "B",
+     "text": "Television coverage of the sit-ins persuaded most white Southerners to accept integration voluntarily"
+    },
+    {
+     "id": "C",
+     "text": "Civil rights leaders deliberately avoided press cameras to prevent opponents from anticipating and countering their tactics"
+    },
+    {
+     "id": "D",
+     "text": "Major television networks refused to air civil rights footage in order to protect revenue from Southern affiliate advertisers"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Television spread images of disciplined protesters being beaten or arrested, which helped Northern viewers see segregation as a national moral crisis. Choices suggesting media hid the conflict are wrong because coverage expanded sympathy for the activists. Media exposure became one of the movement's most powerful indirect tools.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.81-ADD3",
+   "std": "US.81",
+   "dok": 2,
+   "stem": "How did the events in Selma, Alabama lead to the Voting Rights Act of 1965?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The success of the Albany Movement in Georgia pressured Congress to pass voting protections"
+    },
+    {
+     "id": "B",
+     "text": "Federal courts in Selma issued injunctions that forced Congress to act on voting rights"
+    },
+    {
+     "id": "C",
+     "text": "President Johnson personally led the Selma-to-Montgomery march, drawing national attention"
+    },
+    {
+     "id": "D",
+     "text": "Bloody Sunday's televised violence shocked the nation and built overwhelming support for voting rights legislation"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The Voting Rights Act of 1965 attacked disenfranchisement by banning literacy tests and authorizing federal oversight in places with long records of discrimination. Choices about public accommodations are wrong because the act focused specifically on access to the ballot. It turned political participation into one of the movement's greatest federal victories."
+   }
+  },
+  {
+   "id": "US.81-X033",
+   "std": "US.81",
+   "dok": 2,
+   "stem": "The Voting Rights Act of 1965 addressed voting discrimination primarily by —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Eliminating literacy tests and authorizing federal oversight of elections in covered Southern states"
+    },
+    {
+     "id": "B",
+     "text": "Establishing a national identification card system to prevent fraudulent voting"
+    },
+    {
+     "id": "C",
+     "text": "Lowering the voting age to 18 in all states with large Black populations"
+    },
+    {
+     "id": "D",
+     "text": "Granting citizenship to all African Americans not previously covered by the Fourteenth Amendment"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "The Voting Rights Act of 1965 attacked disenfranchisement by banning literacy tests and authorizing federal oversight in places with long records of discrimination. Choices about public accommodations are wrong because the act focused specifically on access to the ballot. It turned political participation into one of the movement's greatest federal victories.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.81-X035",
+   "std": "US.81",
+   "dok": 2,
+   "stem": "The 'Bloody Sunday' attack on marchers at the Edmund Pettus Bridge in Selma, Alabama (March 1965) directly led to —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The Supreme Court ruling that police brutality during protests was unconstitutional"
+    },
+    {
+     "id": "B",
+     "text": "President Johnson going before Congress to demand passage of the Voting Rights Act"
+    },
+    {
+     "id": "C",
+     "text": "SNCC permanently abandoning nonviolent tactics in favor of armed self-defense"
+    },
+    {
+     "id": "D",
+     "text": "President Johnson abandoning his support for voting rights legislation"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The Edmund Pettus Bridge is remembered as the site of Bloody Sunday, where voting-rights marchers were beaten in Selma in March 1965. Choices that place the bridge in the Montgomery bus boycott are wrong because its significance comes from Selma. Images from that attack helped move Congress toward voting-rights legislation.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.82-S824",
+   "std": "US.82",
+   "dok": 2,
+   "stem": "How were the American Indian, Chicano, and Feminist movements related to the Civil Rights Movement?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They drew inspiration from civil rights tactics and strategies"
+    },
+    {
+     "id": "B",
+     "text": "They competed with the movement for federal resources"
+    },
+    {
+     "id": "C",
+     "text": "They focused exclusively on regional rather than national issues"
+    },
+    {
+     "id": "D",
+     "text": "They operated independently with no shared methods"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "These movements drew inspiration from the civil rights movement by using protest, organizing, court action, and demands for equal treatment. Choices saying they had no connection are wrong because activists often borrowed tactics and language from one another. The overlap reveals how the 1960s encouraged many groups to press claims for dignity and power.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.82-0057",
+   "std": "US.82",
+   "dok": 2,
+   "stem": "How did the American Indian Movement (AIM) draw on the civil rights movement's tactics to advocate for Native American rights in the late 1960s and 1970s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "AIM focused exclusively on litigation and legal challenges, following the NAACP's legal strategy without adopting direct action methods"
+    },
+    {
+     "id": "B",
+     "text": "AIM adopted direct action tactics such as occupations and protests, most notably occupying Alcatraz Island and the town of Wounded Knee, to draw national attention to Native American grievances and treaty violations"
+    },
+    {
+     "id": "C",
+     "text": "AIM partnered with the SCLC to coordinate joint demonstrations that combined African American and Native American civil rights demands"
+    },
+    {
+     "id": "D",
+     "text": "AIM focused primarily on cultural preservation efforts, avoiding political confrontation to maintain good relations with the federal government"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "the 1969 Alcatraz occupation led by Indians of All Tribes and AIM's 1973 Wounded Knee occupation employed civil rights-era direct action tactics to publicize broken treaties, poverty on reservations, and police brutality against Native Americans, generating national media attention.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.82-0058",
+   "std": "US.82",
+   "dok": 2,
+   "stem": "How did the Chicano Movement of the 1960s and 1970s combine labor rights and civil rights concerns in ways that reflected the experiences of Mexican American farmworkers?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The Chicano Movement focused primarily on gaining citizenship rights for undocumented workers, rather than addressing the labor conditions of those already living in the United States"
+    },
+    {
+     "id": "B",
+     "text": "The Chicano Movement succeeded in passing a federal agricultural labor law by 1965 that guaranteed collective bargaining rights for all farmworkers"
+    },
+    {
+     "id": "C",
+     "text": "César Chávez and the United Farm Workers combined labor organizing with civil rights activism, using boycotts, strikes, and nonviolent tactics to demand fair wages, safe conditions, and dignity for Mexican American agricultural workers"
+    },
+    {
+     "id": "D",
+     "text": "The Chicano Movement was primarily an urban phenomenon centered in Los Angeles, with little connection to the rural agricultural labor issues faced by Mexican Americans in the Southwest"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "César Chávez and Dolores Huerta's United Farm Workers organized the Delano Grape Strike (1965) and a national grape boycott. They combined labor tactics with civil rights frameworks, linking worker dignity to ethnic pride under the banner of 'La Causa.'",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "formB": [
+  {
+   "id": "US.78-7814",
+   "std": "US.78",
+   "dok": 2,
+   "stem": "How did Brown v. Board affect the concept of \"states' rights\"?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It was the first state-supported high school in the South to integrate"
+    },
+    {
+     "id": "B",
+     "text": "Southern states' organized efforts to defy school desegregation orders"
+    },
+    {
+     "id": "C",
+     "text": "It established federal authority to enforce constitutional protections"
+    },
+    {
+     "id": "D",
+     "text": "He unified the Court to deliver a unanimous decision against segregation"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Brown limited the old states' rights argument by making clear that states could not ignore the Fourteenth Amendment's guarantee of equal protection. Choices suggesting states could decide school segregation on their own are wrong because the Supreme Court said the Constitution overrode those laws. That principle strengthened federal enforcement of civil rights in later conflicts.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.78-8Q08",
+   "std": "US.78",
+   "dok": 2,
+   "stem": "The immediate impact of Brown v. Board of Education in the South was best characterized by —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Supreme Court enforcement through direct federal oversight of individual school districts"
+    },
+    {
+     "id": "B",
+     "text": "Congressional action that forced immediate compliance through new federal legislation"
+    },
+    {
+     "id": "C",
+     "text": "Rapid compliance as Southern states quickly desegregated their schools within two years"
+    },
+    {
+     "id": "D",
+     "text": "Massive resistance — Southern states used legal obstruction, school closures, and intimidation to delay integration"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Brown did not transform Southern schools overnight because resistance campaigns, weak enforcement, and the phrase \"all deliberate speed\" slowed integration. Choices about immediate compliance are wrong because many districts delayed for years or even closed schools. The gap between the ruling and its enforcement became a central problem of the civil rights era."
+   }
+  },
+  {
+   "id": "US.78-X043",
+   "std": "US.78",
+   "dok": 2,
+   "stem": "Governor Orval Faubus's use of the Arkansas National Guard to block integration at Little Rock Central High School in 1957 represented which constitutional conflict?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "State nullification of a federal court order in violation of the supremacy clause"
+    },
+    {
+     "id": "B",
+     "text": "A dispute between the federal judiciary and Congress over school funding"
+    },
+    {
+     "id": "C",
+     "text": "An application of the reserved powers doctrine under the Tenth Amendment"
+    },
+    {
+     "id": "D",
+     "text": "A clash between the executive and legislative branches over education policy"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Governor Orval Faubus used the Arkansas National Guard in 1957 to block the Little Rock Nine from entering Central High School. Choices about protecting students are wrong because Faubus first resisted integration rather than enforcing it. His actions set up a major clash between state resistance and federal authority.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.79-S793",
+   "std": "US.79",
+   "dok": 2,
+   "stem": "How did Malcolm X's approach differ from Martin Luther King Jr.'s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Malcolm X supported gradual integration through the legal reform process"
+    },
+    {
+     "id": "B",
+     "text": "Malcolm X organized nonviolent protests and marches in Northern cities"
+    },
+    {
+     "id": "C",
+     "text": "Malcolm X partnered primarily with white liberal political organizations"
+    },
+    {
+     "id": "D",
+     "text": "Malcolm X advocated for Black nationalism and armed self-defense rights"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Malcolm X argued for Black nationalism, self-defense, and self-determination, which contrasted sharply with King's strategy of nonviolent integration. Choices that make him the founder of nonviolent protest are wrong because he criticized that approach for much of his public life. His ideas shaped the rise of Black Power and broadened debate within the freedom struggle."
+   }
+  },
+  {
+   "id": "US.79-7910",
+   "std": "US.79",
+   "dok": 2,
+   "stem": "How did Thurgood Marshall's legal strategy differ from Malcolm X's activism?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Marshall used courts while Malcolm X advocated nationalism"
+    },
+    {
+     "id": "B",
+     "text": "Both relied primarily on grassroots community organizing"
+    },
+    {
+     "id": "C",
+     "text": "Marshall supported separation while Malcolm X sought integration"
+    },
+    {
+     "id": "D",
+     "text": "Both advocated armed resistance as a last resort strategy"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "NAACP lawyers argued that segregation violated the Fourteenth Amendment because separate schools were inherently unequal and damaged Black children. Choices centered only on transportation or teacher salaries are wrong because the Brown case directly attacked segregated education itself. That constitutional argument became a model for later civil rights litigation.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.79-3MC1",
+   "std": "US.79",
+   "dok": 2,
+   "stem": "Martin Luther King Jr.'s \"Letter from Birmingham Jail\" (1963) responded to white clergymen who called his protests \"unwise and untimely.\" What was King's central argument about the relationship between law and justice?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Bloody Sunday's televised violence shocked the nation and built overwhelming support for voting rights legislation"
+    },
+    {
+     "id": "B",
+     "text": "One has a moral responsibility to disobey unjust laws, but must accept the legal consequences to demonstrate the injustice"
+    },
+    {
+     "id": "C",
+     "text": "It banned discrimination based on race, color, religion, sex, or national origin in public places and employment"
+    },
+    {
+     "id": "D",
+     "text": "Images of police using dogs and fire hoses on protesters shocked the nation and built support for civil rights"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "In \"Letter from Birmingham Jail,\" King argued that unjust laws violate moral law and therefore should be disobeyed through nonviolent civil disobedience. Choices saying he rejected law completely are wrong because he insisted protesters accept legal penalties to expose injustice. The letter became one of the movement's clearest statements about law, conscience, and democracy.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.80-ADD3",
+   "std": "US.80",
+   "dok": 2,
+   "stem": "What were sit-ins and how did they advance the civil rights movement?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Protesters sat at segregated lunch counters until served, forcing businesses to desegregate"
+    },
+    {
+     "id": "B",
+     "text": "Workers refusing to leave factories until employers granted desegregated workspaces"
+    },
+    {
+     "id": "C",
+     "text": "Silent vigils held outside southern courthouses during civil rights trials"
+    },
+    {
+     "id": "D",
+     "text": "Boycotts of department stores in the North to pressure southern affiliates"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Sit-ins were nonviolent protests in which students sat at segregated lunch counters and asked to be served, forcing businesses to confront segregation publicly. A choice about bus boycotts is wrong because sit-ins targeted lunch counters and stores, not transportation. They helped launch a new phase of youth-led direct action in 1960.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.80-ADD4",
+   "std": "US.80",
+   "dok": 2,
+   "stem": "What was the March on Washington (1963) and why was it significant?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "About 25,000 people gathered to demand immediate withdrawal from the Vietnam War"
+    },
+    {
+     "id": "B",
+     "text": "Over 250,000 people gathered and King delivered his \"I Have a Dream\" speech"
+    },
+    {
+     "id": "C",
+     "text": "A march of veterans demanding earlier payment of the World War II GI Bill bonus"
+    },
+    {
+     "id": "D",
+     "text": "A women's suffrage parade that influenced the 19th Amendment's passage"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The March on Washington for Jobs and Freedom was the massive 1963 rally where Martin Luther King Jr. delivered his \"I Have a Dream\" speech. A is wrong because anti-draft protests were about Vietnam, not this civil rights demonstration in Washington. The march showed the movement could unite moral protest with demands for jobs and federal legislation.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.80-0Q02",
+   "std": "US.80",
+   "dok": 2,
+   "stem": "The Montgomery Bus Boycott (1955–1956) was historically significant because it —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Was the first civil rights protest to receive national television coverage in American history"
+    },
+    {
+     "id": "B",
+     "text": "Led directly to the Supreme Court striking down all segregation laws in Southern states"
+    },
+    {
+     "id": "C",
+     "text": "Demonstrated African American economic and organizational power — 40,000 riders sustained a 381-day boycott that ended bus segregation"
+    },
+    {
+     "id": "D",
+     "text": "Resulted in Congress passing the first federal civil rights legislation since Reconstruction"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Montgomery Bus Boycott began after Rosa Parks's arrest and kept pressure on the city until bus segregation was struck down in court. Choices about voting drives or lunch counters are wrong because the boycott focused specifically on segregated public transportation in 1955–1956. It showed the strength of organized nonviolent protest and launched Martin Luther King Jr. to national prominence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.81-X037",
+   "std": "US.81",
+   "dok": 2,
+   "stem": "Which provision of the Civil Rights Act of 1964 had the most significant long-term impact on employment discrimination?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Title I, which banned voter registration discrimination"
+    },
+    {
+     "id": "B",
+     "text": "Title VII, which prohibited employment discrimination and created the EEOC"
+    },
+    {
+     "id": "C",
+     "text": "Title VI, which prohibited discrimination in federally assisted programs"
+    },
+    {
+     "id": "D",
+     "text": "Title II, which desegregated public accommodations"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The Civil Rights Act of 1964 outlawed segregation in public accommodations and banned discrimination in employment and federally funded programs. Choices that focus only on voting are wrong because that protection was strengthened more directly by the Voting Rights Act the next year. The law became one of the clearest federal blows against the legal structure of Jim Crow.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.81-X038",
+   "std": "US.81",
+   "dok": 2,
+   "stem": "The Civil Rights Act of 1964 was passed largely because of which political factor?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Broad white Southern support for integration following the Birmingham Campaign's demonstration of Black determination"
+    },
+    {
+     "id": "B",
+     "text": "A strong bipartisan Senate coalition in which a majority of Southern Democrats crossed the aisle to support the bill"
+    },
+    {
+     "id": "C",
+     "text": "Johnson's mastery of Senate procedure and his use of Kennedy's memory to build the coalition that passed the bill"
+    },
+    {
+     "id": "D",
+     "text": "A Supreme Court ruling in late 1963 that ordered Congress to pass comprehensive civil rights legislation within six months"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The act passed in 1964 partly because Johnson used his legislative skill and Kennedy's assassination created momentum behind unfinished civil rights goals. Choices that ignore presidential leadership are wrong because movement pressure still had to be translated into congressional votes. The law illustrates how protest and political timing can combine to produce major reform.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.81-X039",
+   "std": "US.81",
+   "dok": 2,
+   "stem": "After the Voting Rights Act of 1965, Black voter registration in the South increased dramatically. Which of the following best explains this change?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "African Americans moved en masse from the North to Southern states to vote"
+    },
+    {
+     "id": "B",
+     "text": "White Southerners voluntarily welcomed Black voters to polling places"
+    },
+    {
+     "id": "C",
+     "text": "The Supreme Court ruled that all previous elections in the South were invalid"
+    },
+    {
+     "id": "D",
+     "text": "Federal examiners registered voters directly in counties where local officials refused"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "After 1965, Black voter registration and the election of Black officials rose sharply because federal law removed literacy tests and blocked local obstruction. Choices saying little changed are wrong because the data from the South showed major gains within a few years. Voting rights reshaped Southern politics and expanded African American political power."
+   }
+  },
+  {
+   "id": "US.82-0059",
+   "std": "US.82",
+   "dok": 2,
+   "stem": "How did the feminist movement of the 1960s and 1970s draw on the civil rights movement to advance gender equality?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Feminist activists borrowed the civil rights movement's legal strategy and used it exclusively to challenge discrimination through the courts, avoiding direct action protests"
+    },
+    {
+     "id": "B",
+     "text": "The feminist movement developed entirely independently of the civil rights movement, with different organizations, tactics, and ideological foundations"
+    },
+    {
+     "id": "C",
+     "text": "Feminist activists applied civil rights frameworks of equality and dignity to gender discrimination, used Title VII to challenge workplace bias, and organized mass demonstrations modeled on civil rights protests"
+    },
+    {
+     "id": "D",
+     "text": "Feminist activists focused their energy on supporting African American civil rights goals before turning to gender equality in the 1980s"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Many feminist leaders (Betty Friedan, Gloria Steinem, etc.) drew explicitly on civil rights rhetoric. The accidental inclusion of 'sex' in Title VII became a tool women used through EEOC complaints. NOW (1966) was modeled partly on NAACP organizational structures.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.82-0061",
+   "std": "US.82",
+   "dok": 2,
+   "stem": "How did women's experiences within the civil rights movement itself contribute to the rise of second-wave feminism in the 1960s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Women in the civil rights movement were treated as equal partners in leadership, and their positive experiences inspired them to extend similar equality to other social movements"
+    },
+    {
+     "id": "B",
+     "text": "Women left the civil rights movement after concluding that racial discrimination was less serious than gender discrimination and needed to be addressed first"
+    },
+    {
+     "id": "C",
+     "text": "Female civil rights leaders formed the National Organization for Women directly from their work in SNCC, making the two organizations formally connected"
+    },
+    {
+     "id": "D",
+     "text": "Women activists in SNCC and other organizations found that despite their contributions they were often excluded from leadership roles, which highlighted gender discrimination and inspired feminist organizing"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Casey Hayden and Mary King's 1964 SNCC memo on women's status noted that women did essential work but were excluded from leadership decisions. This parallel to racial subordination catalyzed feminist consciousness among civil rights veterans."
+   }
+  },
+  {
+   "id": "US.82-0062",
+   "std": "US.82",
+   "dok": 2,
+   "stem": "How did the Chicano Movement's use of cultural identity — including the term 'Chicano,' the image of Aztlán, and muralism — serve a political as well as cultural purpose?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Cultural affirmation built collective identity and pride, countering assimilationist pressures, and provided unifying symbols that sustained political mobilization and gave the movement a distinct voice"
+    },
+    {
+     "id": "B",
+     "text": "Cultural expressions in the Chicano Movement were largely separate from its political goals, serving mainly as entertainment and community celebration"
+    },
+    {
+     "id": "C",
+     "text": "Cultural identity claims in the Chicano Movement replaced political action after the failure of the farmworker strikes to achieve significant gains"
+    },
+    {
+     "id": "D",
+     "text": "The Chicano Movement used cultural imagery primarily to appeal to white liberal allies who could not connect with labor and legal rights arguments"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "El Plan Espiritual de Aztlán (1969) fused cultural identity with political demands (LOC, Chicano Movement collections). Teatro Campesino performed on UFW picket lines (LOC; NEA institutional records). Self-identifying as 'Chicano' (reclaiming a formerly pejorative term) was an act of political defiance and identity affirmation simultaneously.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "disclosure": "Classroom-formative · pre-field-test (pre-calibration) — not a secure TCAP form. First administration is what calibrates these items."
+}

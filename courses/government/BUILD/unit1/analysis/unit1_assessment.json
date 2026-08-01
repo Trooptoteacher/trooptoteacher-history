@@ -1,0 +1,2393 @@
+{
+  "disclosure": "Assessment items are classroom-formative · pre-field-test.",
+  "formative": {
+    "GC.01": [
+      {
+        "stem": "Which idea from John Locke did the American colonists rely on most directly to justify self-government?",
+        "std": "GC.01",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Natural rights that government exists to protect"
+          },
+          {
+            "id": "B",
+            "text": "The divine right of kings to rule alone"
+          },
+          {
+            "id": "C",
+            "text": "The economic theory of laissez-faire markets"
+          },
+          {
+            "id": "D",
+            "text": "The military duty of every free citizen"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Re-anchor on Locke's Second Treatise; re-teach natural rights + social contract.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.25,
+        "irt_b": -0.3,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "B",
+            "code": "MC",
+            "rationale": "Documented misconception: divine right of kings is the opposite of Locke's consent-based theory."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: confuses Enlightenment economic theory (laissez-faire) with Locke's political rights theory."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: confuses classical/republican civic duty with Locke's natural-rights basis."
+          }
+        ],
+        "key_rationale": "Locke's natural-rights theory holds that government exists to protect pre-existing rights, which colonists used to justify governing themselves.",
+        "dok_rationale": "Requires connecting a philosopher's concept to its political purpose (explain how), which is basic reasoning rather than simple recall.",
+        "blooms_rationale": "Student constructs meaning by relating Locke's idea to the colonists' justification, an Understand-level task.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Enlightenment Roots of American Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Documented misconception: divine right of kings is the opposite of Locke's consent-based theory.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error: confuses Enlightenment economic theory (laissez-faire) with Locke's political rights theory.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error: confuses classical/republican civic duty with Locke's natural-rights basis.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.02": [
+      {
+        "stem": "How does the Declaration of Independence justify the colonies' break from Britain?",
+        "std": "GC.02",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "By blaming the colonists for the whole conflict"
+          },
+          {
+            "id": "B",
+            "text": "By listing the king's abuses of colonists' rights"
+          },
+          {
+            "id": "C",
+            "text": "By promising to restore the monarchy's power"
+          },
+          {
+            "id": "D",
+            "text": "By offering to pay Britain for its losses"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Re-read the Declaration's preamble; connect grievances to the argument for separation.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.3,
+        "irt_b": -0.2,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Misconception: the Declaration blames the king, not the colonists."
+          },
+          {
+            "label": "C",
+            "code": "MC",
+            "rationale": "Misconception: the document seeks separation, not restoration of monarchy."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: confuses an economic/reparations aim with the document's political purpose."
+          }
+        ],
+        "key_rationale": "The Declaration justifies separation by cataloging the king's abuses of colonists' rights to show government had broken the social contract.",
+        "dok_rationale": "Requires explaining how a document builds its argument, a cause-and-reason task at DOK 2, not verbatim recall.",
+        "blooms_rationale": "Student paraphrases the document's reasoning to identify its justification, an Understand-level process.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Declaration of Independence” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception: the Declaration blames the king, not the colonists.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception: the document seeks separation, not restoration of monarchy.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error: confuses an economic/reparations aim with the document's political purpose.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.03": [
+      {
+        "stem": "What was the main weakness of the national government under the Articles of Confederation?",
+        "std": "GC.03",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "It gave the president too much military authority"
+          },
+          {
+            "id": "B",
+            "text": "It abolished the separate state governments completely"
+          },
+          {
+            "id": "C",
+            "text": "It could not tax the states or citizens"
+          },
+          {
+            "id": "D",
+            "text": "It let one state pass laws by itself"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Review the Articles' lack of taxing power and Shays's Rebellion.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.4,
+        "irt_b": 0.1,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.04",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Misconception: the Articles created no executive, so a president with military authority did not exist."
+          },
+          {
+            "label": "B",
+            "code": "MC",
+            "rationale": "Misconception: the Articles preserved strong state governments rather than abolishing them."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: confuses the unanimous-consent/legislative process with a single state legislating."
+          }
+        ],
+        "key_rationale": "Under the Articles the national government lacked the power to tax states or citizens, leaving it unable to fund itself.",
+        "dok_rationale": "Requires distinguishing the central structural weakness among plausible governmental features; borderline DOK 1/2 but retained at DOK 2 for the comparative reasoning demanded.",
+        "blooms_rationale": "Student explains the consequence of a structural feature, an Understand-level task above rote recall.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Articles of Confederation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception: the Articles created no executive, so a president with military authority did not exist.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Misconception: the Articles preserved strong state governments rather than abolishing them.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error: confuses the unanimous-consent/legislative process with a single state legislating.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.04": [
+      {
+        "stem": "How did the Great Compromise resolve the dispute between large and small states?",
+        "std": "GC.04",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "It gave each state a single equal vote in the Congress"
+          },
+          {
+            "id": "B",
+            "text": "It removed the smallest states from the newly formed Union"
+          },
+          {
+            "id": "C",
+            "text": "It let the very largest states control both of the houses"
+          },
+          {
+            "id": "D",
+            "text": "It based the House on population and the Senate on equality"
+          }
+        ],
+        "key": "D",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Compare the Virginia and New Jersey Plans; re-teach the Great Compromise.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.35,
+        "irt_b": 0.35,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.04",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "PE",
+            "rationale": "Partial evidence: describes only the Senate/Articles side of representation, not the full compromise."
+          },
+          {
+            "label": "B",
+            "code": "MC",
+            "rationale": "Misconception: no states were removed from the Union by the compromise."
+          },
+          {
+            "label": "C",
+            "code": "MC",
+            "rationale": "Misconception: describes the Virginia Plan's aim, not the compromise that balanced both houses."
+          }
+        ],
+        "key_rationale": "The Great Compromise based the House on population and the Senate on equal state representation, satisfying both large and small states.",
+        "dok_rationale": "Recoded from DOK 3 to DOK 2: the stem asks students to explain how a taught compromise worked, which is a cause/relationship task, not evidence-based justification or evaluation.",
+        "blooms_rationale": "Student explains the mechanism that resolved the dispute, an Understand-level process.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Constitutional Convention & Ratification” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Partial evidence: describes only the Senate/Articles side of representation, not the full compromise.",
+              "reteach": "model carrying partial evidence to the correct conclusion"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Misconception: no states were removed from the Union by the compromise.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception: describes the Virginia Plan's aim, not the compromise that balanced both houses.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.05": [
+      {
+        "stem": "What does the phrase 'We the People' in the Preamble establish about government?",
+        "std": "GC.05",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "That authority comes from the people themselves"
+          },
+          {
+            "id": "B",
+            "text": "That the courts decide every national question"
+          },
+          {
+            "id": "C",
+            "text": "That the president leads the federal government"
+          },
+          {
+            "id": "D",
+            "text": "That the states hold all the governing power"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Re-read the Preamble; list its six purposes and 'We the People'.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.2,
+        "irt_b": -0.4,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "B",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: confuses judicial review with the source of governmental authority."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: confuses the executive role with the source of authority."
+          },
+          {
+            "label": "D",
+            "code": "MC",
+            "rationale": "Misconception: attributes all power to the states, confusing the Preamble with confederation ideas."
+          }
+        ],
+        "key_rationale": "The phrase 'We the People' establishes popular sovereignty, that governmental authority originates from the people.",
+        "dok_rationale": "Requires interpreting the meaning of a constitutional phrase, a basic-reasoning task rather than recall.",
+        "blooms_rationale": "Student infers the principle a phrase expresses, an Understand-level task.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Preamble: Purposes of Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Prior-knowledge error: confuses judicial review with the source of governmental authority.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error: confuses the executive role with the source of authority.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Misconception: attributes all power to the states, confusing the Preamble with confederation ideas.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.06": [
+      {
+        "stem": "Madison wrote that 'ambition must be made to counteract ambition.' Which design does this describe?",
+        "std": "GC.06",
+        "dok": 3,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Popular sovereignty exercised through regular elections"
+          },
+          {
+            "id": "B",
+            "text": "Checks and balances among the three branches"
+          },
+          {
+            "id": "C",
+            "text": "Federal power divided between nation and states"
+          },
+          {
+            "id": "D",
+            "text": "The difficult process for amending the document"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Re-teach separation of powers + checks and balances with Federalist 51.",
+        "blooms": "Analyze",
+        "hess_crm_cell": "Analyze × DOK 3",
+        "irt_a": 1.55,
+        "irt_b": 0.7,
+        "irt_c": 0.2,
+        "c3_dimension": "D3",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "PE",
+            "rationale": "Partial evidence: popular sovereignty is a real principle but is not what the quotation about branches restraining branches describes."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: confuses federalism (nation vs. states) with checks and balances among branches."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: confuses the Article V amendment process with internal branch checks."
+          }
+        ],
+        "key_rationale": "Madison's 'ambition must be made to counteract ambition' describes checks and balances, in which each branch can restrain the others.",
+        "dok_rationale": "Requires analyzing a primary-source quotation and differentiating it from three closely related constitutional principles, a complex-reasoning DOK 3 task.",
+        "blooms_rationale": "Student deconstructs the quotation's meaning and matches it to the correct design, an Analyze-level task.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Principles of Limited Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Partial evidence: popular sovereignty is a real principle but is not what the quotation about branches restraining branches describes.",
+              "reteach": "model carrying partial evidence to the correct conclusion"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error: confuses federalism (nation vs. states) with checks and balances among branches.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error: confuses the Article V amendment process with internal branch checks.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.07": [
+      {
+        "stem": "Why did the Framers make the amendment process in Article V deliberately difficult?",
+        "std": "GC.07",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "To give the president control over amendments"
+          },
+          {
+            "id": "B",
+            "text": "To keep the Constitution from ever being changed"
+          },
+          {
+            "id": "C",
+            "text": "To allow change only with broad national agreement"
+          },
+          {
+            "id": "D",
+            "text": "To let a single state change it on its own"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Walk through Article V's two-step amendment process.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.45,
+        "irt_b": 0.25,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.04",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Misconception: the president has no formal role in the Article V amendment process."
+          },
+          {
+            "label": "B",
+            "code": "OG",
+            "rationale": "Overgeneralization: turns 'difficult' into 'impossible,' ignoring the 27 ratified amendments."
+          },
+          {
+            "label": "D",
+            "code": "MC",
+            "rationale": "Misconception: a single state cannot amend the Constitution; supermajorities are required."
+          }
+        ],
+        "key_rationale": "The Framers made Article V difficult so the Constitution could be changed only with broad national agreement, ensuring stability.",
+        "dok_rationale": "Requires inferring the purpose behind a design feature (explain why), a basic-reasoning DOK 2 task.",
+        "blooms_rationale": "Student explains the reasoning behind the difficult process, an Understand-level task.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Structure of the Constitution & How to Amend It” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception: the president has no formal role in the Article V amendment process.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Overgeneralization: turns 'difficult' into 'impossible,' ignoring the 27 ratified amendments.",
+              "reteach": "test the overgeneralization against a counter-case"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Misconception: a single state cannot amend the Constitution; supermajorities are required.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.08": [
+      {
+        "stem": "Why does the First Amendment phrase its protections as limits on Congress ('shall make no law')?",
+        "std": "GC.08",
+        "dok": 3,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Because Congress creates the rights it can remove"
+          },
+          {
+            "id": "B",
+            "text": "Because courts alone define the people's freedoms"
+          },
+          {
+            "id": "C",
+            "text": "Because only the states may protect these rights"
+          },
+          {
+            "id": "D",
+            "text": "Because rights precede government, which cannot violate them"
+          }
+        ],
+        "key": "D",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Re-teach the Bill of Rights as limits on government; 1st and 10th Amendments.",
+        "blooms": "Analyze",
+        "hess_crm_cell": "Analyze × DOK 3",
+        "irt_a": 1.65,
+        "irt_b": 0.9,
+        "irt_c": 0.2,
+        "c3_dimension": "D3",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Misconception: inverts the natural-rights premise by treating Congress as the source of rights."
+          },
+          {
+            "label": "B",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: confuses the courts' interpretive role with the source of freedoms."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: confuses federalism/the Tenth Amendment with the source and protection of these rights."
+          }
+        ],
+        "key_rationale": "The First Amendment phrases protections as limits on Congress because rights precede government, so government may not violate them.",
+        "dok_rationale": "Requires reasoning about the underlying rights philosophy behind constitutional text, a complex-reasoning DOK 3 task.",
+        "blooms_rationale": "Student analyzes the rationale embedded in the amendment's wording, an Analyze-level task.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Bill of Rights” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception: inverts the natural-rights premise by treating Congress as the source of rights.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Prior-knowledge error: confuses the courts' interpretive role with the source of freedoms.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error: confuses federalism/the Tenth Amendment with the source and protection of these rights.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.09": [
+      {
+        "stem": "What best distinguishes a republic from a direct democracy?",
+        "std": "GC.09",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Citizens elect representatives to make the laws"
+          },
+          {
+            "id": "B",
+            "text": "A single monarch inherits and holds the power"
+          },
+          {
+            "id": "C",
+            "text": "Citizens vote directly on every proposed law"
+          },
+          {
+            "id": "D",
+            "text": "The states act as fully independent nations"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV1: Foundations of Constitutional Government",
+        "reteach": "Contrast a republic and a direct democracy using Federalist 10.",
+        "blooms": "Analyze",
+        "hess_crm_cell": "Analyze × DOK 2",
+        "irt_a": 1.5,
+        "irt_b": 0.15,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.04",
+        "distractor_tags": [
+          {
+            "label": "B",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: describes a monarchy, not either democratic form."
+          },
+          {
+            "label": "C",
+            "code": "MC",
+            "rationale": "Misconception: describes direct democracy, confusing it with the definition of a republic."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error: confuses a confederation of independent states with a form of democracy."
+          }
+        ],
+        "key_rationale": "A republic is defined by citizens electing representatives to make laws, unlike a direct democracy where citizens vote on laws themselves.",
+        "dok_rationale": "Requires comparing and contrasting two forms of government to find the distinguishing feature, an Analyze at the DOK 2 (compare/contrast) level.",
+        "blooms_rationale": "Student differentiates two categories by their defining attribute, an Analyze-level task.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Republic and Democracy” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Prior-knowledge error: describes a monarchy, not either democratic form.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception: describes direct democracy, confusing it with the definition of a republic.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error: confuses a confederation of independent states with a form of democracy.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ]
+  },
+  "formA": [
+    {
+      "stem": "Which idea from John Locke did the American colonists rely on most directly to justify self-government?",
+      "std": "GC.01",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Natural rights that government exists to protect"
+        },
+        {
+          "id": "B",
+          "text": "The divine right of kings to rule alone"
+        },
+        {
+          "id": "C",
+          "text": "The economic theory of laissez-faire markets"
+        },
+        {
+          "id": "D",
+          "text": "The military duty of every free citizen"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-anchor on Locke's Second Treatise; re-teach natural rights + social contract.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.22,
+      "irt_b": -0.25,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Documented misconception: divine right of kings is the opposite of Locke's consent-based theory."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses Enlightenment economic theory (laissez-faire) with Locke's political rights theory."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses classical/republican civic duty with Locke's natural-rights basis."
+        }
+      ],
+      "key_rationale": "Locke's natural-rights theory holds that government exists to protect pre-existing rights, which colonists used to justify governing themselves.",
+      "dok_rationale": "Requires connecting a philosopher's concept to its political purpose (explain how), which is basic reasoning rather than simple recall.",
+      "blooms_rationale": "Student constructs meaning by relating Locke's idea to the colonists' justification, an Understand-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Enlightenment Roots of American Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Documented misconception: divine right of kings is the opposite of Locke's consent-based theory.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses Enlightenment economic theory (laissez-faire) with Locke's political rights theory.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses classical/republican civic duty with Locke's natural-rights basis.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "How does the Declaration of Independence justify the colonies' break from Britain?",
+      "std": "GC.02",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "By blaming the colonists for the whole conflict"
+        },
+        {
+          "id": "B",
+          "text": "By listing the king's abuses of colonists' rights"
+        },
+        {
+          "id": "C",
+          "text": "By promising to restore the monarchy's power"
+        },
+        {
+          "id": "D",
+          "text": "By offering to pay Britain for its losses"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-read the Declaration's preamble; connect grievances to the argument for separation.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.28,
+      "irt_b": -0.15,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception: the Declaration blames the king, not the colonists."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception: the document seeks separation, not restoration of monarchy."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses an economic/reparations aim with the document's political purpose."
+        }
+      ],
+      "key_rationale": "The Declaration justifies separation by cataloging the king's abuses of colonists' rights to show government had broken the social contract.",
+      "dok_rationale": "Requires explaining how a document builds its argument, a cause-and-reason task at DOK 2, not verbatim recall.",
+      "blooms_rationale": "Student paraphrases the document's reasoning to identify its justification, an Understand-level process.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Declaration of Independence” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: the Declaration blames the king, not the colonists.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception: the document seeks separation, not restoration of monarchy.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses an economic/reparations aim with the document's political purpose.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "What was the main weakness of the national government under the Articles of Confederation?",
+      "std": "GC.03",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "It gave the president too much military authority"
+        },
+        {
+          "id": "B",
+          "text": "It abolished the separate state governments completely"
+        },
+        {
+          "id": "C",
+          "text": "It could not tax the states or citizens"
+        },
+        {
+          "id": "D",
+          "text": "It let one state pass laws by itself"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Review the Articles' lack of taxing power and Shays's Rebellion.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.38,
+      "irt_b": 0.05,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception: the Articles created no executive, so a president with military authority did not exist."
+        },
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception: the Articles preserved strong state governments rather than abolishing them."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses the unanimous-consent/legislative process with a single state legislating."
+        }
+      ],
+      "key_rationale": "Under the Articles the national government lacked the power to tax states or citizens, leaving it unable to fund itself.",
+      "dok_rationale": "Requires distinguishing the central structural weakness among plausible governmental features; borderline DOK 1/2 but retained at DOK 2 for the comparative reasoning demanded.",
+      "blooms_rationale": "Student explains the consequence of a structural feature, an Understand-level task above rote recall.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Articles of Confederation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: the Articles created no executive, so a president with military authority did not exist.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception: the Articles preserved strong state governments rather than abolishing them.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses the unanimous-consent/legislative process with a single state legislating.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "How did the Great Compromise resolve the dispute between large and small states?",
+      "std": "GC.04",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "It gave each state a single equal vote in the Congress"
+        },
+        {
+          "id": "B",
+          "text": "It removed the smallest states from the newly formed Union"
+        },
+        {
+          "id": "C",
+          "text": "It let the very largest states control both of the houses"
+        },
+        {
+          "id": "D",
+          "text": "It based the House on population and the Senate on equality"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Compare the Virginia and New Jersey Plans; re-teach the Great Compromise.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.32,
+      "irt_b": 0.4,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PE",
+          "rationale": "Partial evidence: describes only the Senate/Articles side of representation, not the full compromise."
+        },
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception: no states were removed from the Union by the compromise."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception: describes the Virginia Plan's aim, not the compromise that balanced both houses."
+        }
+      ],
+      "key_rationale": "The Great Compromise based the House on population and the Senate on equal state representation, satisfying both large and small states.",
+      "dok_rationale": "Recoded from DOK 3 to DOK 2: the stem asks students to explain how a taught compromise worked, which is a cause/relationship task, not evidence-based justification or evaluation.",
+      "blooms_rationale": "Student explains the mechanism that resolved the dispute, an Understand-level process.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Constitutional Convention & Ratification” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Partial evidence: describes only the Senate/Articles side of representation, not the full compromise.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception: no states were removed from the Union by the compromise.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception: describes the Virginia Plan's aim, not the compromise that balanced both houses.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "What does the phrase 'We the People' in the Preamble establish about government?",
+      "std": "GC.05",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "That authority comes from the people themselves"
+        },
+        {
+          "id": "B",
+          "text": "That the courts decide every national question"
+        },
+        {
+          "id": "C",
+          "text": "That the president leads the federal government"
+        },
+        {
+          "id": "D",
+          "text": "That the states hold all the governing power"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-read the Preamble; list its six purposes and 'We the People'.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.18,
+      "irt_b": -0.35,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses judicial review with the source of governmental authority."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses the executive role with the source of authority."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception: attributes all power to the states, confusing the Preamble with confederation ideas."
+        }
+      ],
+      "key_rationale": "The phrase 'We the People' establishes popular sovereignty, that governmental authority originates from the people.",
+      "dok_rationale": "Requires interpreting the meaning of a constitutional phrase, a basic-reasoning task rather than recall.",
+      "blooms_rationale": "Student infers the principle a phrase expresses, an Understand-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Preamble: Purposes of Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error: confuses judicial review with the source of governmental authority.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses the executive role with the source of authority.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception: attributes all power to the states, confusing the Preamble with confederation ideas.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Madison wrote that 'ambition must be made to counteract ambition.' Which design does this describe?",
+      "std": "GC.06",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Popular sovereignty exercised through regular elections"
+        },
+        {
+          "id": "B",
+          "text": "Checks and balances among the three branches"
+        },
+        {
+          "id": "C",
+          "text": "Federal power divided between nation and states"
+        },
+        {
+          "id": "D",
+          "text": "The difficult process for amending the document"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-teach separation of powers + checks and balances with Federalist 51.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.6,
+      "irt_b": 0.75,
+      "irt_c": 0.2,
+      "c3_dimension": "D3",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PE",
+          "rationale": "Partial evidence: popular sovereignty is a real principle but is not what the quotation about branches restraining branches describes."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses federalism (nation vs. states) with checks and balances among branches."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses the Article V amendment process with internal branch checks."
+        }
+      ],
+      "key_rationale": "Madison's 'ambition must be made to counteract ambition' describes checks and balances, in which each branch can restrain the others.",
+      "dok_rationale": "Requires analyzing a primary-source quotation and differentiating it from three closely related constitutional principles, a complex-reasoning DOK 3 task.",
+      "blooms_rationale": "Student deconstructs the quotation's meaning and matches it to the correct design, an Analyze-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Principles of Limited Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Partial evidence: popular sovereignty is a real principle but is not what the quotation about branches restraining branches describes.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses federalism (nation vs. states) with checks and balances among branches.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses the Article V amendment process with internal branch checks.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Why did the Framers make the amendment process in Article V deliberately difficult?",
+      "std": "GC.07",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "To give the president control over amendments"
+        },
+        {
+          "id": "B",
+          "text": "To keep the Constitution from ever being changed"
+        },
+        {
+          "id": "C",
+          "text": "To allow change only with broad national agreement"
+        },
+        {
+          "id": "D",
+          "text": "To let a single state change it on its own"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Walk through Article V's two-step amendment process.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.48,
+      "irt_b": 0.3,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception: the president has no formal role in the Article V amendment process."
+        },
+        {
+          "label": "B",
+          "code": "OG",
+          "rationale": "Overgeneralization: turns 'difficult' into 'impossible,' ignoring the 27 ratified amendments."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception: a single state cannot amend the Constitution; supermajorities are required."
+        }
+      ],
+      "key_rationale": "The Framers made Article V difficult so the Constitution could be changed only with broad national agreement, ensuring stability.",
+      "dok_rationale": "Requires inferring the purpose behind a design feature (explain why), a basic-reasoning DOK 2 task.",
+      "blooms_rationale": "Student explains the reasoning behind the difficult process, an Understand-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Structure of the Constitution & How to Amend It” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: the president has no formal role in the Article V amendment process.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Overgeneralization: turns 'difficult' into 'impossible,' ignoring the 27 ratified amendments.",
+            "reteach": "test the overgeneralization against a counter-case"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception: a single state cannot amend the Constitution; supermajorities are required.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Why does the First Amendment phrase its protections as limits on Congress ('shall make no law')?",
+      "std": "GC.08",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Because Congress creates the rights it can remove"
+        },
+        {
+          "id": "B",
+          "text": "Because courts alone define the people's freedoms"
+        },
+        {
+          "id": "C",
+          "text": "Because only the states may protect these rights"
+        },
+        {
+          "id": "D",
+          "text": "Because rights precede government, which cannot violate them"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-teach the Bill of Rights as limits on government; 1st and 10th Amendments.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.7,
+      "irt_b": 0.95,
+      "irt_c": 0.2,
+      "c3_dimension": "D3",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception: inverts the natural-rights premise by treating Congress as the source of rights."
+        },
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses the courts' interpretive role with the source of freedoms."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses federalism/the Tenth Amendment with the source and protection of these rights."
+        }
+      ],
+      "key_rationale": "The First Amendment phrases protections as limits on Congress because rights precede government, so government may not violate them.",
+      "dok_rationale": "Requires reasoning about the underlying rights philosophy behind constitutional text, a complex-reasoning DOK 3 task.",
+      "blooms_rationale": "Student analyzes the rationale embedded in the amendment's wording, an Analyze-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Bill of Rights” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: inverts the natural-rights premise by treating Congress as the source of rights.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error: confuses the courts' interpretive role with the source of freedoms.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses federalism/the Tenth Amendment with the source and protection of these rights.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "What best distinguishes a republic from a direct democracy?",
+      "std": "GC.09",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Citizens elect representatives to make the laws"
+        },
+        {
+          "id": "B",
+          "text": "A single monarch inherits and holds the power"
+        },
+        {
+          "id": "C",
+          "text": "Citizens vote directly on every proposed law"
+        },
+        {
+          "id": "D",
+          "text": "The states act as fully independent nations"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Contrast a republic and a direct democracy using Federalist 10.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 2",
+      "irt_a": 1.52,
+      "irt_b": 0.2,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: describes a monarchy, not either democratic form."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception: describes direct democracy, confusing it with the definition of a republic."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses a confederation of independent states with a form of democracy."
+        }
+      ],
+      "key_rationale": "A republic is defined by citizens electing representatives to make laws, unlike a direct democracy where citizens vote on laws themselves.",
+      "dok_rationale": "Requires comparing and contrasting two forms of government to find the distinguishing feature, an Analyze at the DOK 2 (compare/contrast) level.",
+      "blooms_rationale": "Student differentiates two categories by their defining attribute, an Analyze-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Republic and Democracy” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error: describes a monarchy, not either democratic form.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception: describes direct democracy, confusing it with the definition of a republic.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses a confederation of independent states with a form of democracy.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    }
+  ],
+  "formB": [
+    {
+      "stem": "Locke's idea that people are born with rights to life, liberty, and property is called:",
+      "std": "GC.01",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "natural rights"
+        },
+        {
+          "id": "B",
+          "text": "the divine right of kings"
+        },
+        {
+          "id": "C",
+          "text": "popular sovereignty"
+        },
+        {
+          "id": "D",
+          "text": "judicial review"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-anchor on Locke's Second Treatise; re-teach natural rights + social contract.",
+      "blooms": "Remember",
+      "hess_crm_cell": "Remember × DOK 1",
+      "irt_a": 1.1,
+      "irt_b": -1.2,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": null,
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception: divine right of kings is the opposite of Locke's natural-rights idea."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: popular sovereignty is a related founding concept but not the life/liberty/property term."
+        },
+        {
+          "label": "D",
+          "code": "AN",
+          "rationale": "Anachronism: judicial review is a later constitutional concept (Marbury era), not Locke's rights term."
+        }
+      ],
+      "key_rationale": "The idea that people are born with rights to life, liberty, and property is the definition of natural rights.",
+      "dok_rationale": "Requires recognizing a defined term, a straightforward recall task at DOK 1.",
+      "blooms_rationale": "Student retrieves a term's definition from memory, a Remember-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Enlightenment Roots of American Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception: divine right of kings is the opposite of Locke's natural-rights idea.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: popular sovereignty is a related founding concept but not the life/liberty/property term.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Anachronism: judicial review is a later constitutional concept (Marbury era), not Locke's rights term.",
+            "reteach": "place events on a timeline"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "The Declaration of Independence was written mainly to:",
+      "std": "GC.02",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "create the U.S. Congress"
+        },
+        {
+          "id": "B",
+          "text": "justify the colonies' separation from Britain"
+        },
+        {
+          "id": "C",
+          "text": "end slavery in the colonies"
+        },
+        {
+          "id": "D",
+          "text": "declare war on France"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-read the Declaration's preamble; connect grievances to the argument for separation.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.15,
+      "irt_b": -0.45,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses the Declaration with the Constitution/Articles that created Congress."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception that the Declaration ended slavery in the colonies."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: wrong nation and purpose; the document did not declare war on France."
+        }
+      ],
+      "key_rationale": "The Declaration was written mainly to justify the colonies' separation from Britain.",
+      "dok_rationale": "Requires identifying the document's overall purpose from among plausible functions, a basic-reasoning DOK 2 task.",
+      "blooms_rationale": "Student summarizes the document's central purpose, an Understand-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Declaration of Independence” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error: confuses the Declaration with the Constitution/Articles that created Congress.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception that the Declaration ended slavery in the colonies.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: wrong nation and purpose; the document did not declare war on France.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "A key weakness of the Articles of Confederation was that the national government could not:",
+      "std": "GC.03",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "sign treaties abroad"
+        },
+        {
+          "id": "B",
+          "text": "declare war on enemies"
+        },
+        {
+          "id": "C",
+          "text": "tax the states or citizens"
+        },
+        {
+          "id": "D",
+          "text": "operate a post office"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Review the Articles' lack of taxing power and Shays's Rebellion.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.25,
+      "irt_b": -0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PE",
+          "rationale": "Partial evidence: the Articles government could make treaties, so this is a true power, not the weakness."
+        },
+        {
+          "label": "B",
+          "code": "PE",
+          "rationale": "Partial evidence: the government could declare war, a power it did hold."
+        },
+        {
+          "label": "D",
+          "code": "PE",
+          "rationale": "Partial evidence: the government did operate a post office, so this is not the weakness."
+        }
+      ],
+      "key_rationale": "A key weakness of the Articles was that the national government could not tax the states or citizens.",
+      "dok_rationale": "Requires distinguishing a power the government lacked from powers it actually held, a basic-reasoning DOK 2 task.",
+      "blooms_rationale": "Student explains which power was absent, an Understand-level task above rote recall.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Articles of Confederation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Partial evidence: the Articles government could make treaties, so this is a true power, not the weakness.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Partial evidence: the government could declare war, a power it did hold.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Partial evidence: the government did operate a post office, so this is not the weakness.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "The Virginia and New Jersey Plans disagreed most about:",
+      "std": "GC.04",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "the president's term length"
+        },
+        {
+          "id": "B",
+          "text": "whether to add a Bill of Rights"
+        },
+        {
+          "id": "C",
+          "text": "the date slavery would end"
+        },
+        {
+          "id": "D",
+          "text": "how states would be represented in Congress"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Compare the Virginia and New Jersey Plans; re-teach the Great Compromise.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": 0.2,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: the president's term length was a different convention question."
+        },
+        {
+          "label": "B",
+          "code": "NE",
+          "rationale": "Nearby error: a Bill of Rights was a real founding debate but arose at ratification, not in these plans."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception: confuses the representation dispute with the convention's slavery compromises."
+        }
+      ],
+      "key_rationale": "The Virginia and New Jersey Plans disagreed most about how states would be represented in Congress.",
+      "dok_rationale": "Recoded from DOK 3 to DOK 2: the stem asks students to identify and distinguish the point of disagreement, a comparison task rather than evidence-based justification.",
+      "blooms_rationale": "Student distinguishes the central point of dispute among convention topics, an Understand-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Constitutional Convention & Ratification” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error: the president's term length was a different convention question.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Nearby error: a Bill of Rights was a real founding debate but arose at ratification, not in these plans.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception: confuses the representation dispute with the convention's slavery compromises.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "The Preamble's phrase 'promote the general Welfare' names a:",
+      "std": "GC.05",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "purpose of the government"
+        },
+        {
+          "id": "B",
+          "text": "branch of the government"
+        },
+        {
+          "id": "C",
+          "text": "constitutional amendment"
+        },
+        {
+          "id": "D",
+          "text": "power of the courts"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-read the Preamble; list its six purposes and 'We the People'.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.35,
+      "irt_b": 0.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses a Preamble purpose with a branch of government."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses a stated purpose with a constitutional amendment."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses a stated purpose with the power of the courts."
+        }
+      ],
+      "key_rationale": "'Promote the general Welfare' names one of the Preamble's stated purposes of government.",
+      "dok_rationale": "Requires categorizing a phrase as a purpose versus a structure or power, a basic-reasoning DOK 2 task.",
+      "blooms_rationale": "Student classifies the phrase by its function, an Understand-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Preamble: Purposes of Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error: confuses a Preamble purpose with a branch of government.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses a stated purpose with a constitutional amendment.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses a stated purpose with the power of the courts.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Separation of powers divides the federal government into:",
+      "std": "GC.06",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "two houses"
+        },
+        {
+          "id": "B",
+          "text": "three branches"
+        },
+        {
+          "id": "C",
+          "text": "fifty states"
+        },
+        {
+          "id": "D",
+          "text": "nine courts"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-teach separation of powers + checks and balances with Federalist 51.",
+      "blooms": "Remember",
+      "hess_crm_cell": "Remember × DOK 1",
+      "irt_a": 1.05,
+      "irt_b": -1.4,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": null,
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses the two houses of Congress with the branches of government."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses federalism (fifty states) with separation of powers."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses the number of Supreme Court justices/courts with the branches."
+        }
+      ],
+      "key_rationale": "Separation of powers divides the federal government into three branches.",
+      "dok_rationale": "Requires recalling a basic structural fact, a DOK 1 recall task.",
+      "blooms_rationale": "Student retrieves a memorized structural fact, a Remember-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Principles of Limited Government” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error: confuses the two houses of Congress with the branches of government.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses federalism (fifty states) with separation of powers.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: confuses the number of Supreme Court justices/courts with the branches.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "A new amendment is formally added to the Constitution through:",
+      "std": "GC.07",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "one Supreme Court ruling"
+        },
+        {
+          "id": "B",
+          "text": "a single presidential order"
+        },
+        {
+          "id": "C",
+          "text": "the Article V process"
+        },
+        {
+          "id": "D",
+          "text": "a single state's vote"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Walk through Article V's two-step amendment process.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.2,
+      "irt_b": -0.3,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception: the Supreme Court interprets but does not amend the Constitution."
+        },
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception: a presidential order cannot amend the Constitution."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception: a single state's vote cannot amend the Constitution; supermajorities are required."
+        }
+      ],
+      "key_rationale": "A new amendment is formally added to the Constitution through the Article V process.",
+      "dok_rationale": "Requires recognizing the correct amendment procedure among plausible but invalid routes, a basic-reasoning DOK 2 task.",
+      "blooms_rationale": "Student identifies the process that governs amendments, an Understand-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Structure of the Constitution & How to Amend It” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: the Supreme Court interprets but does not amend the Constitution.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception: a presidential order cannot amend the Constitution.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception: a single state's vote cannot amend the Constitution; supermajorities are required.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "The Tenth Amendment reserves undelegated powers to the:",
+      "std": "GC.08",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Congress only"
+        },
+        {
+          "id": "B",
+          "text": "president alone"
+        },
+        {
+          "id": "C",
+          "text": "federal courts"
+        },
+        {
+          "id": "D",
+          "text": "states and the people"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Re-teach the Bill of Rights as limits on government; 1st and 10th Amendments.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.28,
+      "irt_b": -0.05,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception: inverts the Tenth Amendment by reserving powers to Congress."
+        },
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses the executive with the recipients of reserved powers."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: confuses the federal courts with the recipients of reserved powers."
+        }
+      ],
+      "key_rationale": "The Tenth Amendment reserves undelegated powers to the states and the people.",
+      "dok_rationale": "Requires understanding to whom the amendment assigns reserved powers, a basic-reasoning DOK 2 task.",
+      "blooms_rationale": "Student explains the amendment's reservation of powers, an Understand-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Bill of Rights” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception: inverts the Tenth Amendment by reserving powers to Congress.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error: confuses the executive with the recipients of reserved powers.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: confuses the federal courts with the recipients of reserved powers.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "In a representative democracy, laws are made by:",
+      "std": "GC.09",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "elected representatives"
+        },
+        {
+          "id": "B",
+          "text": "the people voting on each law"
+        },
+        {
+          "id": "C",
+          "text": "a single monarch"
+        },
+        {
+          "id": "D",
+          "text": "the military"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV1: Foundations of Constitutional Government",
+      "reteach": "Contrast a republic and a direct democracy using Federalist 10.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.12,
+      "irt_b": -0.5,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception: describes direct democracy, in which people vote on each law."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: describes a monarchy, not a representative democracy."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error: describes military/autocratic rule, not representative democracy."
+        }
+      ],
+      "key_rationale": "In a representative democracy, laws are made by elected representatives chosen by the people.",
+      "dok_rationale": "Requires understanding who makes law in a representative system versus other forms, a basic-reasoning DOK 2 task.",
+      "blooms_rationale": "Student explains the lawmaking mechanism of representative democracy, an Understand-level task.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Republic and Democracy” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception: describes direct democracy, in which people vote on each law.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error: describes a monarchy, not a representative democracy.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error: describes military/autocratic rule, not representative democracy.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    }
+  ],
+  "_psychometric_summary": {
+    "dok_distribution": {
+      "1": 2,
+      "2": 21,
+      "3": 4
+    },
+    "blooms_distribution": {
+      "Understand": 19,
+      "Analyze": 6,
+      "Remember": 2
+    },
+    "irt_a_mean": 1.34,
+    "irt_b_mean": -0.01,
+    "field_test_ready_count": 27,
+    "total_items": 27,
+    "note": "IRT 3PL parameters are pre-field-test design-time estimates, to be calibrated on field-test data."
+  }
+}

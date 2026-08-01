@@ -1,0 +1,152 @@
+{
+ "US.39": {
+  "id": "us39-q2",
+  "stem": "What role did \"buying on margin\" and overextension of credit play in creating economic instability?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Margin buying had no connection to the crash, despite limited evidence supporting this interpretation and oversimplifies the complex factors at work during this period"
+   },
+   {
+    "id": "B",
+    "text": "Credit was carefully regulated in the 1920s, which represents a common misconception about the period, but contemporary accounts and primary sources suggest otherwise"
+   },
+   {
+    "id": "C",
+    "text": "Margin buying inflated stock prices artificially, and when prices fell, margin calls forced panic selling that accelerated the collapse while widespread consumer debt created defaults"
+   },
+   {
+    "id": "D",
+    "text": "Only wealthy investors bought on margin, which contradicts the primary source evidence from this era, which does not align with the documented historical record"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.40": {
+  "id": "us40-q1",
+  "stem": "What combination of human farming practices and natural weather patterns created the Dust Bowl?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The Dust Bowl was entirely caused by natural drought, although historical sources do not support this conclusion, which does not align with the documented historical record"
+   },
+   {
+    "id": "B",
+    "text": "Modern farming techniques prevented soil erosion, but this oversimplifies the complex factors at work, which does not align with the documented historical record"
+   },
+   {
+    "id": "C",
+    "text": "The Dust Bowl only affected a small local area, which does not reflect the consensus among historians, which does not align with the documented historical record"
+   },
+   {
+    "id": "D",
+    "text": "Farmers plowed up native grasses, practiced monoculture without conservation, and severe drought combined with strong winds eroded the exposed topsoil"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.41": {
+  "id": "us41-q1",
+  "stem": "How did mass unemployment during the Great Depression affect individuals, families, and communities?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "With 25% unemployment, families faced psychological trauma, role reversals, increased divorce, child labor, and relied on mutual aid while communities experienced population loss and service decline"
+   },
+   {
+    "id": "B",
+    "text": "Unemployment had limited social effects, but this fails to account for the broader historical context, and this view has been largely revised by modern historical research"
+   },
+   {
+    "id": "C",
+    "text": "Government programs immediately solved unemployment, but the historical record tells a more complex story, though this interpretation lacks supporting historical evidence"
+   },
+   {
+    "id": "D",
+    "text": "Only industrial workers experienced unemployment, despite the fact that multiple sources contradict this view, and this view has been largely revised by modern historical research"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ },
+ "US.42": {
+  "id": "us42-q1",
+  "stem": "How did President Hoover's philosophy of \"Rugged Individualism\" shape his response to the Great Depression?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "It led to aggressive government intervention, but the historical record tells a more complex story and fails to account for key developments in the broader context"
+   },
+   {
+    "id": "B",
+    "text": "His belief that individuals should solve problems without government help led to limited federal response, reliance on voluntary cooperation, and opposition to direct relief programs"
+   },
+   {
+    "id": "C",
+    "text": "He immediately provided direct payments to unemployed workers, but this oversimplifies the complex factors at work and does not reflect the scholarly consensus on this topic"
+   },
+   {
+    "id": "D",
+    "text": "Rugged individualism had no impact on his policies, although historical sources do not support this conclusion, which contradicts the primary source evidence from this era"
+   }
+  ],
+  "correct": "B",
+  "reportingCategory": "History"
+ },
+ "US.43": {
+  "id": "us43-q1",
+  "stem": "How did the \"Three R's\" (Relief, Recovery, Reform) organize Roosevelt's approach to ending the Great Depression?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "FDR used only one approach throughout the New Deal, although this view has been largely discredited by scholars, although historical sources do not support this conclusion"
+   },
+   {
+    "id": "B",
+    "text": "The Three R's were unrelated programs, but contemporary accounts suggest a different explanation, which ignores significant political and cultural developments of the era"
+   },
+   {
+    "id": "C",
+    "text": "Relief provided immediate help to unemployed (CCC, WPA), Recovery programs restored economic activity (AAA, NRA), and Reform programs fixed underlying problems (FDIC, SEC, Social Security)"
+   },
+   {
+    "id": "D",
+    "text": "Roosevelt opposed the Three R's approach, which does not reflect the consensus among historians when examined alongside the available primary and secondary sources"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.44": {
+  "id": "us44-q1",
+  "stem": "What were the main economic effects of New Deal policies on employment, banking, and government spending?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "New Deal policies had no measurable economic impact, though this interpretation lacks supporting historical evidence"
+   },
+   {
+    "id": "B",
+    "text": "The economy worsened under New Deal policies, although this view has been largely discredited by scholars"
+   },
+   {
+    "id": "C",
+    "text": "Only banking was affected by New Deal programs, though this interpretation lacks supporting historical evidence"
+   },
+   {
+    "id": "D",
+    "text": "Unemployment fell from 25% to 14%, bank runs ended with FDIC, manufacturing increased 60%, and government spending grew from 3% to 10% of GDP"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ }
+}

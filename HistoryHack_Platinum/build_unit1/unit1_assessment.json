@@ -1,0 +1,1816 @@
+{
+ "unit": "Unit 4",
+ "formative": {
+  "US.01": [
+   {
+    "id": "US.01-01Q2",
+    "std": "US.01",
+    "dok": 2,
+    "stem": "How did the Transcontinental Railroad connect to the concept of Manifest Destiny?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It physically connected the nation and enabled rapid westward expansion"
+     },
+     {
+      "id": "B",
+      "text": "It proved that railroads were more efficient than ships"
+     },
+     {
+      "id": "C",
+      "text": "It was built primarily to transport military troops"
+     },
+     {
+      "id": "D",
+      "text": "It was designed solely for transporting gold from California"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The railroad fulfilled the vision of Manifest Destiny by physically linking the Atlantic and Pacific coasts, making westward expansion practical and inevitable.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.01-1Q02",
+    "std": "US.01",
+    "dok": 2,
+    "stem": "Which statement best explains how the Transcontinental Railroad facilitated western expansion?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It was built exclusively by American workers, providing jobs for tens of thousands of unemployed citizens"
+     },
+     {
+      "id": "B",
+      "text": "It reduced travel time from months to days and enabled efficient movement of settlers, goods, and resources across the continent"
+     },
+     {
+      "id": "C",
+      "text": "It eliminated the need for wagon trains and stagecoaches almost overnight, ending earlier overland travel"
+     },
+     {
+      "id": "D",
+      "text": "It provided direct access to gold mines in California"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Requires understanding of cause, effect, or concept — beyond simple recall.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.02": [
+   {
+    "id": "US.02-02Q2",
+    "std": "US.02",
+    "dok": 2,
+    "stem": "How did the Dawes Act affect tribal land ownership?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It reduced tribal lands from 138 million to 48 million acres"
+     },
+     {
+      "id": "B",
+      "text": "It increased tribal lands by 90 million acres"
+     },
+     {
+      "id": "C",
+      "text": "It had no significant effect on land ownership"
+     },
+     {
+      "id": "D",
+      "text": "It consolidated tribal lands into larger reservations"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The Dawes Act resulted in the loss of approximately 90 million acres of tribal land through allotment, sale of \"surplus\" lands, and various forms of dispossession.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.02-2Q02",
+    "std": "US.02",
+    "dok": 2,
+    "stem": "Which statement best describes the federal government\\'s assimilation policy toward American Indians in the late 19th century?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The government focused exclusively on military conquest without"
+     },
+     {
+      "id": "B",
+      "text": "The government aimed to eliminate American Indian cultural practices"
+     },
+     {
+      "id": "C",
+      "text": "The government promoted cultural exchange between American Indians"
+     },
+     {
+      "id": "D",
+      "text": "The government sought to preserve traditional American Indian languages and cultural practices on reservations"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Requires understanding of cause, effect, or concept — beyond simple recall.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.03": [
+   {
+    "id": "US.03-03Q2",
+    "std": "US.03",
+    "dok": 2,
+    "stem": "How did Southern states use disenfranchisement methods to circumvent the 15th Amendment?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "They used poll taxes, literacy tests, and grandfather clauses that appeared race-neutral but targeted Black voters"
+     },
+     {
+      "id": "B",
+      "text": "They openly violated the Constitution without consequences, which ignores key developments that shaped the outcome"
+     },
+     {
+      "id": "C",
+      "text": "They amended the 15th Amendment at the state level, although historical sources do not support this conclusion"
+     },
+     {
+      "id": "D",
+      "text": "They only targeted immigrant voters, not African Americans, although historical sources do not support this conclusion"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Southern states crafted laws that did not explicitly mention race but were designed and applied to prevent African Americans from voting, effectively nullifying the 15th Amendment.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.03-03Q3",
+    "std": "US.03",
+    "dok": 2,
+    "stem": "Why did Pap Singleton organize the Exoduster migration to Kansas?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Kansas offered free land through the Homestead Act exclusively to African Americans"
+     },
+     {
+      "id": "B",
+      "text": "To escape Jim Crow violence and oppression in the South"
+     },
+     {
+      "id": "C",
+      "text": "The federal government mandated relocation"
+     },
+     {
+      "id": "D",
+      "text": "Kansas had already abolished all forms of discrimination"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Singleton organized the migration as a form of resistance and survival, helping African Americans escape the terrorism and oppression of the post-Reconstruction South.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.04": [
+   {
+    "id": "US.04-04Q2",
+    "std": "US.04",
+    "dok": 2,
+    "stem": "What event directly led to the passage of the Pendleton Civil Service Act?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "President Garfield's assassination by a disappointed office-seeker"
+     },
+     {
+      "id": "B",
+      "text": "The Crédit Mobilier scandal"
+     },
+     {
+      "id": "C",
+      "text": "Boss Tweed's conviction, which ignores key developments that shaped the outcome"
+     },
+     {
+      "id": "D",
+      "text": "A Supreme Court ruling on patronage"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Garfield's assassination by Charles Guiteau, who was angry at not receiving a political appointment, shocked the nation and created momentum for civil service reform.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.04-4Q02",
+    "std": "US.04",
+    "dok": 2,
+    "stem": "Boss William M. Tweed\\'s political machine in New York City was primarily able to maintain power through:",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Building coalitions with rural farmers and industrial workers"
+     },
+     {
+      "id": "B",
+      "text": "Providing services to immigrants and the poor in exchange for their political loyalty and votes"
+     },
+     {
+      "id": "C",
+      "text": "Winning elections through superior campaign strategies and debates"
+     },
+     {
+      "id": "D",
+      "text": "Implementing progressive reforms that benefited most social classes"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Requires understanding of cause, effect, or concept — beyond simple recall.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.05": [
+   {
+    "id": "US.05-05Q2",
+    "std": "US.05",
+    "dok": 2,
+    "stem": "How did John D. Rockefeller achieve dominance in the oil industry?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Through horizontal integration, buying out competitors"
+     },
+     {
+      "id": "B",
+      "text": "Through vertical integration of production stages"
+     },
+     {
+      "id": "C",
+      "text": "Through government monopoly grants"
+     },
+     {
+      "id": "D",
+      "text": "Through technological innovation in drilling"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Rockefeller used horizontal integration—acquiring competing refineries—to control over 90% of U.S. oil refining by 1879, creating Standard Oil's near-monopoly.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.05-5Q04",
+    "std": "US.05",
+    "dok": 2,
+    "stem": "Which of the following best describes the impact of Thomas Edison's electric light bulb on daily life in the United States during the late 1800s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It eliminated the need for factories to run night shifts, reducing industrial output in urban areas"
+     },
+     {
+      "id": "B",
+      "text": "It extended productive hours into the evening for businesses, factories, and homes, transforming work and leisure patterns"
+     },
+     {
+      "id": "C",
+      "text": "It replaced steam power as the primary energy source for industrial machinery almost immediately after its invention"
+     },
+     {
+      "id": "D",
+      "text": "It was adopted first in rural farming communities before electricity spread to urban centers"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The electric light bulb extended useful daylight hours into the night, allowing factories to operate longer shifts, businesses to stay open later, and ordinary Americans to pursue evening activities previously impossible by candlelight or gaslight. Option D is incorrect because electrification spread first through urban centers with centralized power stations, not rural areas.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.06": [
+   {
+    "id": "US.06-06Q2",
+    "std": "US.06",
+    "dok": 2,
+    "stem": "How did industrialization change population distribution in America?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Massive rural-to-urban migration occurred as people sought factory jobs"
+     },
+     {
+      "id": "B",
+      "text": "Population remained stable in both rural and urban areas"
+     },
+     {
+      "id": "C",
+      "text": "People migrated from cities to farms"
+     },
+     {
+      "id": "D",
+      "text": "Only immigrants moved to cities"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Industrialization created a fundamental population shift as millions left farms for urban factory jobs, transforming America from a rural to an increasingly urban nation.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.06-X013",
+    "std": "US.06",
+    "dok": 2,
+    "stem": "Tenement housing in American cities in the late 19th century was characterized by:",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Spacious apartments designed to house immigrant families comfortably while they established themselves"
+     },
+     {
+      "id": "B",
+      "text": "Dangerously overcrowded, poorly ventilated multi-family dwellings that lacked basic sanitation"
+     },
+     {
+      "id": "C",
+      "text": "Single-family homes that immigrants could purchase through factory payroll deduction plans"
+     },
+     {
+      "id": "D",
+      "text": "Government-funded housing projects designed to ease the immigrant transition to American life"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Requires understanding of cause, effect, or concept.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.07": [
+   {
+    "id": "US.07-07Q2",
+    "std": "US.07",
+    "dok": 2,
+    "stem": "How did the experience at Angel Island differ from Ellis Island?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Angel Island had far more restrictive procedures, particularly targeting Asian immigrants"
+     },
+     {
+      "id": "B",
+      "text": "Angel Island processed immigrants more quickly, which does not reflect the consensus among historians"
+     },
+     {
+      "id": "C",
+      "text": "Ellis Island was only for wealthy immigrants, but the historical record tells a more complex story"
+     },
+     {
+      "id": "D",
+      "text": "There was no significant difference between the two, which does not reflect the consensus among historians"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Angel Island subjected Asian immigrants to much more rigorous inspection, longer detention, and harsher treatment than Europeans faced at Ellis Island, reflecting anti-Asian discrimination.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.07-7Q02",
+    "std": "US.07",
+    "dok": 2,
+    "stem": "Angel Island served as an immigration station primarily for immigrants from:",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Italy and Poland"
+     },
+     {
+      "id": "B",
+      "text": "China and other Asian countries"
+     },
+     {
+      "id": "C",
+      "text": "Mexico and Central America"
+     },
+     {
+      "id": "D",
+      "text": "Ireland and Germany"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Requires understanding of cause, effect, or concept — beyond simple recall.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ]
+ },
+ "formA": [
+  {
+   "id": "US.01-1Q04",
+   "std": "US.01",
+   "dok": 2,
+   "stem": "Which of the following best describes a direct impact of the Homestead Act of 1862 on settlement patterns in the American West?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It encouraged settlement by offering 160 acres of public land to citizens who agreed to farm it for five years"
+    },
+    {
+     "id": "B",
+     "text": "It restricted western migration by requiring settlers to purchase land at market prices from the federal government"
+    },
+    {
+     "id": "C",
+     "text": "It redirected migration to the Pacific Coast by offering free land only in Oregon and Washington territories"
+    },
+    {
+     "id": "D",
+     "text": "It promoted settlement exclusively among formerly enslaved people as part of Reconstruction land redistribution"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The Homestead Act offered 160 acres of federal land to any citizen willing to live on and farm it for five years, directly spurring migration of hundreds of thousands of settlers — including European immigrants — into the Great Plains. Option D is wrong because the Act applied to all qualifying citizens, not exclusively to formerly enslaved people.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.01-1Q05",
+   "std": "US.01",
+   "dok": 2,
+   "stem": "Which of the following best describes the relationship between Manifest Destiny ideology and the construction of the Transcontinental Railroad?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The railroad construction disproved the concept of Manifest Destiny"
+    },
+    {
+     "id": "B",
+     "text": "Manifest Destiny provided the philosophical justification while the Transcontinental Railroad provided the practical means for westward expansion"
+    },
+    {
+     "id": "C",
+     "text": "The railroad was built to prevent further westward expansion"
+    },
+    {
+     "id": "D",
+     "text": "Manifest Destiny and railroad construction were unrelated historical"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Requires understanding of cause, effect, or concept — beyond simple recall.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.01-MS11",
+   "std": "US.01",
+   "dok": 2,
+   "stem": "Which of the following was a direct consequence of the Homestead Act of 1862?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The immediate elimination of sharecropping in the post-Civil War South"
+    },
+    {
+     "id": "B",
+     "text": "Guaranteed land rights for American Indian nations living in the western territories"
+    },
+    {
+     "id": "C",
+     "text": "Rapid settlement of the Great Plains by small farmers who claimed 160-acre plots of free federal land"
+    },
+    {
+     "id": "D",
+     "text": "The federal purchase of plantations in the South to redistribute to freed people"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Homestead Act of 1862 offered 160 acres of federal land to settlers who lived on and improved it for five years, driving rapid settlement of the Great Plains. It did not affect Southern sharecropping, did not protect Native land claims (it intensified conflict over them), and did not fund land redistribution to freed people.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.02-2Q03",
+   "std": "US.02",
+   "dok": 2,
+   "stem": "The primary purpose of American Indian boarding schools like Carlisle Industrial School was to:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Provide advanced academic education while preserving tribal languages and customs"
+    },
+    {
+     "id": "B",
+     "text": "Remove children from tribal influences and teach them Euro-American language, dress, religion, and labor habits to force assimilation"
+    },
+    {
+     "id": "C",
+     "text": "Train American Indian students for leadership roles within their"
+    },
+    {
+     "id": "D",
+     "text": "Offer vocational training that complemented traditional American Indian skills and economies"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Requires understanding of cause, effect, or concept — beyond simple recall.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.02-2Q04",
+   "std": "US.02",
+   "dok": 2,
+   "stem": "Which of the following best describes how the reservation system changed traditional American Indian ways of life?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It preserved tribal governance structures by giving tribes full control over reservation boundaries and resources"
+    },
+    {
+     "id": "B",
+     "text": "It provided tribes with guaranteed federal income that allowed them to maintain their nomadic lifestyle"
+    },
+    {
+     "id": "C",
+     "text": "It forced tribes onto restricted land, undermining their traditional economies and self-governing institutions"
+    },
+    {
+     "id": "D",
+     "text": "It strengthened tribal unity by consolidating multiple tribes onto shared lands with common resources"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The reservation system confined tribes to limited tracts of land, destroying the hunting economies — especially those dependent on buffalo — and replacing traditional governing structures with federal oversight. Option A is incorrect because the federal government consistently overrode tribal authority in managing reservation lands and resources.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.02-2Q07",
+   "std": "US.02",
+   "dok": 2,
+   "stem": "What was the primary difference between the reservation system and the Dawes Act of 1887 in their approach to American Indian land ownership?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The Dawes Act created new reservations while the reservation system dissolved existing ones"
+    },
+    {
+     "id": "B",
+     "text": "The reservation system required individual land ownership, while the Dawes Act returned land to tribal collective control"
+    },
+    {
+     "id": "C",
+     "text": "Both policies had the same effect on tribal land ownership but differed only in geographic scope"
+    },
+    {
+     "id": "D",
+     "text": "The reservation system preserved tribal land ownership collectively, while the Dawes Act broke up tribal lands into individual allotments"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The reservation system confined tribes to collectively held land, while the Dawes Act divided that land into individual 160-acre allotments with the intent of assimilating Native Americans into mainstream agrarian society — a policy that resulted in the loss of roughly 90 million acres of tribal land. Options B and C reverse the actual features of each policy."
+   }
+  },
+  {
+   "id": "US.03-3Q02",
+   "std": "US.03",
+   "dok": 2,
+   "stem": "Which disenfranchisement method was specifically designed to prevent African Americans from voting while allowing most poor whites to maintain voting rights?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Property ownership requirements for most voters"
+    },
+    {
+     "id": "B",
+     "text": "Age restrictions that raised the voting age to 25"
+    },
+    {
+     "id": "C",
+     "text": "Literacy tests combined with grandfather clauses"
+    },
+    {
+     "id": "D",
+     "text": "Poll taxes that affected citizens across income levels"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Requires understanding of cause, effect, or concept — beyond simple recall.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.03-3Q04",
+   "std": "US.03",
+   "dok": 2,
+   "stem": "Which of the following best explains how the Compromise of 1877 contributed to the end of Reconstruction?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It gave Southern states greater congressional representation in exchange for ratifying the 14th Amendment"
+    },
+    {
+     "id": "B",
+     "text": "It established the Freedmen's Bureau as a permanent federal agency to protect formerly enslaved people"
+    },
+    {
+     "id": "C",
+     "text": "It required Southern states to hold new elections supervised by Northern military commanders before rejoining the Union"
+    },
+    {
+     "id": "D",
+     "text": "It resolved the disputed 1876 presidential election by awarding the presidency to Hayes in exchange for withdrawing federal troops from the South"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The Compromise of 1877 resolved the disputed Hayes-Tilden election by giving Rutherford B. Hayes the presidency in exchange for removing the last federal troops from Southern states, effectively ending federal enforcement of Reconstruction-era civil rights protections. Option C is incorrect because the Freedmen's Bureau was shut down well before 1877, not expanded."
+   }
+  },
+  {
+   "id": "US.03-MS11",
+   "std": "US.03",
+   "dok": 2,
+   "stem": "Which method was most widely used by Southern state governments to disenfranchise African American voters after Reconstruction?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Poll taxes that required payment to vote, which most poor freedmen could not afford"
+    },
+    {
+     "id": "B",
+     "text": "Federal laws that restricted Black citizens to voting only in local elections"
+    },
+    {
+     "id": "C",
+     "text": "State constitutional amendments that directly repealed the 15th Amendment in the South"
+    },
+    {
+     "id": "D",
+     "text": "A federal executive order that removed Black voters from registration rolls"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Poll taxes — along with literacy tests and grandfather clauses — were a primary tool Southern states used to disenfranchise Black voters after Reconstruction because many freedmen lived in poverty and could not afford to pay. States could not legally repeal the 15th Amendment, no federal law restricted Black voting to local elections, and no executive order purged Black voters.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.04-4Q03",
+   "std": "US.04",
+   "dok": 2,
+   "stem": "Thomas Nast\\'s political cartoons were significant during the Gilded Age because they:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Supported the policies of political machines like Tammany Hall"
+    },
+    {
+     "id": "B",
+     "text": "Promoted the expansion of the spoils system in government hiring"
+    },
+    {
+     "id": "C",
+     "text": "Encouraged immigrants to participate more actively in politics"
+    },
+    {
+     "id": "D",
+     "text": "Exposed political corruption and influenced public opinion against"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Requires understanding of cause, effect, or concept — beyond simple recall."
+   }
+  },
+  {
+   "id": "US.04-4Q04",
+   "std": "US.04",
+   "dok": 2,
+   "stem": "How did President James Garfield's assassination in 1881 contribute to the passage of the Pendleton Civil Service Act of 1883?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Garfield's assassin was a disappointed office-seeker, and public outrage over the spoils system created political pressure for merit-based hiring reform"
+    },
+    {
+     "id": "B",
+     "text": "Garfield had personally drafted the Pendleton Act before his death, and Congress passed it as a memorial tribute"
+    },
+    {
+     "id": "C",
+     "text": "The assassination revealed corruption within the Treasury Department, prompting Congress to overhaul federal contracting practices"
+    },
+    {
+     "id": "D",
+     "text": "President Arthur used the assassination as justification to reorganize the entire executive branch under military command"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Charles Guiteau, who shot Garfield after being denied a consular appointment he believed he was owed for campaign work, became a symbol of the spoils system's dangers. Public anger over the assassination galvanized support for merit-based civil service reform, leading to the Pendleton Act in 1883. Option A is incorrect because Garfield did not write the legislation — Senator George Pendleton sponsored the bill.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.04-4Q08",
+   "std": "US.04",
+   "dok": 2,
+   "stem": "What problem was the Interstate Commerce Act of 1887 primarily designed to address that the Pendleton Civil Service Act of 1883 did not?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Political corruption among federal government employees who accepted bribes from private businesses"
+    },
+    {
+     "id": "B",
+     "text": "Unfair railroad pricing practices, including rate discrimination and secret rebates that harmed farmers and small businesses"
+    },
+    {
+     "id": "C",
+     "text": "The concentration of industrial wealth among a small number of Gilded Age monopolists in manufacturing"
+    },
+    {
+     "id": "D",
+     "text": "The exploitation of immigrant workers in railroad construction through low-wage labor practices"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The Interstate Commerce Act targeted railroad industry abuses — particularly discriminatory freight rates and secret rebates that benefited large shippers at the expense of farmers and small businesses — a regulatory problem entirely separate from the federal employment reform addressed by the Pendleton Act. Option B is incorrect because manufacturing monopolies were addressed later by the Sherman Antitrust Act.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.05-5Q05",
+   "std": "US.05",
+   "dok": 2,
+   "stem": "How did John D. Rockefeller's business strategy for building Standard Oil differ from Andrew Carnegie's approach to building his steel empire?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Rockefeller used horizontal integration to buy out competing oil refineries while Carnegie used vertical integration to control every stage of steel production"
+    },
+    {
+     "id": "B",
+     "text": "Rockefeller used vertical integration to control steel production while Carnegie used horizontal integration to control oil refining"
+    },
+    {
+     "id": "C",
+     "text": "Both industrialists relied on the same strategy of vertical integration in their respective industries"
+    },
+    {
+     "id": "D",
+     "text": "Carnegie eliminated competition through secret price agreements while Rockefeller built monopoly power through government-granted charters"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Rockefeller achieved dominance in oil refining through horizontal integration — buying out or crushing rival refineries — while Carnegie controlled steel through vertical integration, owning everything from iron ore mines and coal fields to railroads and steel mills. Option A reverses the industrialists and their strategies.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.05-5Q08",
+   "std": "US.05",
+   "dok": 2,
+   "stem": "Which of the following best describes the significance of Alexander Graham Bell's telephone for American business in the late 19th century?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It replaced the telegraph system entirely within five years of its invention in 1876"
+    },
+    {
+     "id": "B",
+     "text": "It enabled real-time voice communication over long distances, transforming business coordination and commercial transactions"
+    },
+    {
+     "id": "C",
+     "text": "It was adopted primarily by rural farmers to coordinate grain prices before spreading to urban commercial centers"
+    },
+    {
+     "id": "D",
+     "text": "It was used mainly for entertainment and had little commercial impact until well into the 20th century"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The telephone enabled immediate voice communication across distances, allowing businesses to coordinate operations, negotiate transactions, and respond to market changes far more quickly than was possible by mail or even telegraph. Option A is incorrect because the telegraph remained widely used for decades alongside the telephone.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.05-X014",
+   "std": "US.05",
+   "dok": 2,
+   "stem": "George Westinghouse and Nikola Tesla's victory in the 'War of Currents' over Thomas Edison was significant because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It gave Westinghouse a monopoly over the electrical industry that lasted until World War I"
+    },
+    {
+     "id": "B",
+     "text": "It proved that Edison's inventions were commercially inferior to European technology"
+    },
+    {
+     "id": "C",
+     "text": "Alternating current (AC) could transmit electricity over long distances efficiently, making nationwide electrical infrastructure possible"
+    },
+    {
+     "id": "D",
+     "text": "The victory was primarily due to Westinghouse's superior marketing rather than technological superiority"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Requires understanding of cause, effect, or concept.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.06-X016",
+   "std": "US.06",
+   "dok": 2,
+   "stem": "Jacob Riis's photojournalism in 'How the Other Half Lives' (1890) was significant because it:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Provided the first statistical evidence of poverty in American cities for government policymakers"
+    },
+    {
+     "id": "B",
+     "text": "Used photography to make middle-class Americans viscerally aware of tenement conditions"
+    },
+    {
+     "id": "C",
+     "text": "Successfully lobbied Congress to pass federal public housing legislation in 1892"
+    },
+    {
+     "id": "D",
+     "text": "Exposed corporate corruption in the tenement housing industry"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Requires understanding of cause, effect, or concept.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.06-06Q1",
+   "std": "US.06",
+   "dok": 1,
+   "stem": "Why did Pittsburgh become the center of the American steel industry?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It had the largest population of skilled workers"
+    },
+    {
+     "id": "B",
+     "text": "The federal government located steel plants there"
+    },
+    {
+     "id": "C",
+     "text": "It had access to coal, iron ore, and river transportation"
+    },
+    {
+     "id": "D",
+     "text": "It was closest to European markets"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Pittsburgh's location near coal deposits, iron ore sources, and river systems for transportation made it ideal for steel production.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.06-X014",
+   "std": "US.06",
+   "dok": 1,
+   "stem": "Settlement houses like Jane Addams's Hull House in Chicago provided immigrants with:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Financial loans to help immigrants start small businesses"
+    },
+    {
+     "id": "B",
+     "text": "Housing and meals as an alternative to overcrowded tenement living conditions"
+    },
+    {
+     "id": "C",
+     "text": "Legal assistance to challenge discriminatory immigration restrictions"
+    },
+    {
+     "id": "D",
+     "text": "Education, job training, childcare, English language classes, and community space"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Requires recall of a specific fact — no analysis needed."
+   }
+  },
+  {
+   "id": "US.07-7Q04",
+   "std": "US.07",
+   "dok": 2,
+   "stem": "Which of the following was a major challenge faced by 'new' immigrants — those arriving from Southern and Eastern Europe — in assimilating into American society during the late 1800s and early 1900s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Federal law required new arrivals to return to their home countries after working in the United States for five years"
+    },
+    {
+     "id": "B",
+     "text": "Established immigrant communities welcomed newcomers and immediately provided them with employment and comfortable housing"
+    },
+    {
+     "id": "C",
+     "text": "Language barriers, cultural differences, and nativist discrimination made social and economic integration difficult"
+    },
+    {
+     "id": "D",
+     "text": "The federal Bureau of Immigration assigned new immigrants to specific professions based on their nationality"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "New immigrants from Southern and Eastern Europe faced language barriers, unfamiliar cultural practices, and widespread nativist hostility that limited their access to better-paying jobs, housing, and civic participation. Option A is incorrect because no such federal repatriation requirement existed.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.07-7Q08",
+   "std": "US.07",
+   "dok": 2,
+   "stem": "How did the immigration experience at Angel Island differ from the experience at Ellis Island?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Angel Island processed European immigrants while Ellis Island processed Asian immigrants, but both had equally welcoming procedures"
+    },
+    {
+     "id": "B",
+     "text": "Angel Island was known for rapid processing of immigrants who were immediately granted citizenship upon arrival"
+    },
+    {
+     "id": "C",
+     "text": "Both stations imposed equally rigorous detention and interrogation on all arriving immigrants regardless of national origin"
+    },
+    {
+     "id": "D",
+     "text": "Ellis Island processed primarily European immigrants with relatively brief inspections, while Angel Island subjected Asian immigrants — especially Chinese — to prolonged detention and intensive interrogation"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Ellis Island processed millions of European immigrants, most of whom passed through in hours or days; Angel Island detained Asian immigrants, particularly Chinese arrivals subject to the Chinese Exclusion Act, for weeks or months under harsh conditions while interrogators sought grounds for deportation. Option D is incorrect because the disparate treatment was a deliberate product of discriminatory federal policy."
+   }
+  },
+  {
+   "id": "US.07-07Q1",
+   "std": "US.07",
+   "dok": 1,
+   "stem": "What was the primary difference between \"old\" and \"new\" immigrants?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "New immigrants came from Southern and Eastern Europe with different languages and religions"
+    },
+    {
+     "id": "B",
+     "text": "Old immigrants were wealthier, but the historical record tells a more complex story"
+    },
+    {
+     "id": "C",
+     "text": "Old immigrants faced more discrimination, though this interpretation lacks supporting historical evidence"
+    },
+    {
+     "id": "D",
+     "text": "New immigrants were all skilled workers, which does not align with the documented historical record"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "New immigrants came primarily from Southern and Eastern Europe with Catholic, Orthodox, and Jewish faiths and non-English languages, unlike earlier Protestant, Northern European immigrants.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "formB": [
+  {
+   "id": "US.01-X018",
+   "std": "US.01",
+   "dok": 2,
+   "stem": "The completion of the Transcontinental Railroad transformed the American West primarily by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Eliminating all Native American opposition to westward settlement"
+    },
+    {
+     "id": "B",
+     "text": "Making the Homestead Act unnecessary since railroad land grants gave settlers free land"
+    },
+    {
+     "id": "C",
+     "text": "Reducing the time to cross the continent from months to days, enabling mass migration, commercial agriculture, and extraction industries that transformed the West's economy"
+    },
+    {
+     "id": "D",
+     "text": "Providing employment for all formerly enslaved people who had migrated to the West"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Requires understanding of cause, effect, or concept.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.01-X021",
+   "std": "US.01",
+   "dok": 2,
+   "stem": "Which of the following best explains why farming on the Great Plains was especially difficult for homesteaders in the late 19th century?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The Great Plains received excessive rainfall that caused frequent flooding destroying crops before harvest"
+    },
+    {
+     "id": "B",
+     "text": "Federal regulations prohibited homesteaders from using modern farming equipment, forcing reliance on pre-industrial tools"
+    },
+    {
+     "id": "C",
+     "text": "The Great Plains were already fully occupied by established farming communities that blocked new settlement"
+    },
+    {
+     "id": "D",
+     "text": "Insufficient timber for construction, scarce water, periodic droughts, and hard prairie sod made traditional Eastern farming methods inadequate"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Great Plains homesteaders faced a harsh semi-arid environment — treeless, with hard sod and unreliable rainfall — that rendered Eastern farming methods useless and required technological adaptations like steel-tipped plows, windmills, and dry-farming techniques. Option A is incorrect because the Great Plains suffer from insufficient rainfall and drought, not flooding."
+   }
+  },
+  {
+   "id": "US.01-X029",
+   "std": "US.01",
+   "dok": 2,
+   "stem": "Tennessee contributed to westward expansion through the Davy Crockett legend, which celebrated:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The frontiersman ideal — individual self-reliance, wilderness skill, and democratic spirit — that mythologized westward expansion as a heroic American adventure"
+    },
+    {
+     "id": "B",
+     "text": "The settlement of the Cumberland Gap that opened Kentucky to white settlement"
+    },
+    {
+     "id": "C",
+     "text": "Military service in the Mexican-American War that acquired Texas for the United States"
+    },
+    {
+     "id": "D",
+     "text": "Congressional service that produced the Indian Removal Act"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Requires understanding of cause, effect, or concept.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.02-02Q1",
+   "std": "US.02",
+   "dok": 1,
+   "stem": "What was the stated purpose of American Indian boarding schools?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "To preserve American Indian languages and traditions"
+    },
+    {
+     "id": "B",
+     "text": "To train American Indians for military service"
+    },
+    {
+     "id": "C",
+     "text": "To educate children while respecting tribal customs"
+    },
+    {
+     "id": "D",
+     "text": "To assimilate American Indian children into Euro-American culture"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Boarding schools were designed to force assimilation by removing children from their families and eliminating their cultural identities, languages, and traditions."
+   }
+  },
+  {
+   "id": "US.02-2Q01",
+   "std": "US.02",
+   "dok": 1,
+   "stem": "The Dawes Act of 1887 was primarily designed to:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Divide tribal lands into individual allotments to promote private"
+    },
+    {
+     "id": "B",
+     "text": "Create boarding schools for American Indian children"
+    },
+    {
+     "id": "C",
+     "text": "Establish permanent reservation boundaries for American Indian tribes to prevent further land disputes"
+    },
+    {
+     "id": "D",
+     "text": "Provide military protection for American Indian communities"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Requires recall of a specific fact, term, or event — no analysis required.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.02-2E01",
+   "std": "US.02",
+   "dok": 1,
+   "stem": "Look at the word assimilation. It means to make people fit into a new culture. The Dawes Act tried to make Native Americans do what?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Return to their original lands"
+    },
+    {
+     "id": "B",
+     "text": "Give up their traditions and live like white settlers"
+    },
+    {
+     "id": "C",
+     "text": "Form their own separate country"
+    },
+    {
+     "id": "D",
+     "text": "Leave the United States"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The Dawes Act (1887) was designed to force Native Americans to assimilate into white American culture by breaking up tribal land and assigning individual plots. Focus: the GOAL of assimilation.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.03-03Q1",
+   "std": "US.03",
+   "dok": 1,
+   "stem": "What was the primary consequence of the Compromise of 1877 for African Americans in the South?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The withdrawal of federal troops, ending Reconstruction protections"
+    },
+    {
+     "id": "B",
+     "text": "Increased federal protection for civil rights"
+    },
+    {
+     "id": "C",
+     "text": "Guaranteed voting rights through constitutional amendments"
+    },
+    {
+     "id": "D",
+     "text": "Economic prosperity and land ownership"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The Compromise of 1877 ended federal military presence in the South, removing the protection that had enforced Reconstruction-era civil rights for African Americans.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.03-3Q01",
+   "std": "US.03",
+   "dok": 1,
+   "stem": "The Compromise of 1877 resulted in the end of Reconstruction by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Creating new constitutional amendments to protect voting rights"
+    },
+    {
+     "id": "B",
+     "text": "Removing federal troops from the South in exchange for Rutherford B."
+    },
+    {
+     "id": "C",
+     "text": "Establishing federal troops as permanent peacekeepers in Southern"
+    },
+    {
+     "id": "D",
+     "text": "Guaranteeing civil rights protections for African Americans in the South through federal enforcement"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Requires recall of a specific fact, term, or event — no analysis required.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.03-X015",
+   "std": "US.03",
+   "dok": 1,
+   "stem": "Sharecropping emerged in the post-Civil War South as a labor system that:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Gave freedmen and poor white farmers genuine economic independence"
+    },
+    {
+     "id": "B",
+     "text": "Was created by the Freedmen's Bureau to ensure fair compensation for agricultural labor"
+    },
+    {
+     "id": "C",
+     "text": "Trapped tenant farmers in a cycle of debt peonage"
+    },
+    {
+     "id": "D",
+     "text": "Replaced slavery with wage labor that gave freedmen mobility and economic opportunity"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Requires recall of a specific fact — no analysis needed.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.04-X014",
+   "std": "US.04",
+   "dok": 2,
+   "stem": "The Gilded Age political machines like Tammany Hall in New York provided immigrants with services because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Progressive reformers had forced machines to adopt welfare functions"
+    },
+    {
+     "id": "B",
+     "text": "Providing jobs, housing assistance, and legal help to immigrants built loyalty that machine bosses converted into reliable votes"
+    },
+    {
+     "id": "C",
+     "text": "Machine bosses were genuinely committed to immigrant welfare and civic integration"
+    },
+    {
+     "id": "D",
+     "text": "Federal law required machine politicians to assist new arrivals"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Requires understanding of cause, effect, or concept.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.04-X016",
+   "std": "US.04",
+   "dok": 2,
+   "stem": "What was the primary mechanism by which the Pendleton Civil Service Act of 1883 reformed the federal hiring process?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It required all federal employees to be members of the Republican Party to ensure loyalty to the administration"
+    },
+    {
+     "id": "B",
+     "text": "It transferred appointment power for all federal officials from the president to Congress, removing executive patronage"
+    },
+    {
+     "id": "C",
+     "text": "It established competitive examinations for classified federal positions, replacing the spoils system with merit-based hiring"
+    },
+    {
+     "id": "D",
+     "text": "It abolished all federal government employment and required private contractors to perform government services"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Pendleton Act created the Civil Service Commission and required applicants for classified federal jobs to pass competitive written examinations, replacing the spoils system — in which party loyalty determined employment — with a merit-based process. Option A is incorrect because the Act was designed to eliminate partisan criteria in hiring, not enforce them.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.04-X028",
+   "std": "US.04",
+   "dok": 2,
+   "stem": "Which of the following correctly identifies a specific grievance that Gilded Age farmers organized around as part of the Populist movement?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Farmers demanded the abolition of all private banking and the nationalization of all commercial real estate in the country"
+    },
+    {
+     "id": "B",
+     "text": "Farmers objected to protective tariffs because imported agricultural equipment was cheaper than what American factories produced"
+    },
+    {
+     "id": "C",
+     "text": "Farmers supported the gold standard as a means of stabilizing crop prices and protecting their savings from inflation"
+    },
+    {
+     "id": "D",
+     "text": "Farmers protested that the gold standard caused deflation, making it harder to repay debts as crop prices fell"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Falling crop prices during the deflationary post-Civil War era meant that farmers owed more in real terms than they had borrowed, making debt repayment crushing — a problem they blamed on the gold standard. Populists demanded free coinage of silver to inflate the currency and ease the debt burden. Option D reverses the Populist position; farmers opposed the gold standard, they did not support it."
+   }
+  },
+  {
+   "id": "US.05-05Q1",
+   "std": "US.05",
+   "dok": 1,
+   "stem": "Which innovation made the construction of skyscrapers possible?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The telephone"
+    },
+    {
+     "id": "B",
+     "text": "The light bulb"
+    },
+    {
+     "id": "C",
+     "text": "The Bessemer steel process"
+    },
+    {
+     "id": "D",
+     "text": "The automobile"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Bessemer process made steel production faster and cheaper, providing the structural material necessary for tall buildings and modern infrastructure.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.05-5Q01",
+   "std": "US.05",
+   "dok": 1,
+   "stem": "Henry Bessemer\\'s most significant contribution to American industrialization was:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Establishing the first transcontinental railroad system"
+    },
+    {
+     "id": "B",
+     "text": "Inventing the electric light bulb"
+    },
+    {
+     "id": "C",
+     "text": "Developing the first practical telephone system"
+    },
+    {
+     "id": "D",
+     "text": "Creating a process for mass-producing high-quality steel"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Requires recall of a specific fact, term, or event — no analysis required."
+   }
+  },
+  {
+   "id": "US.05-X011",
+   "std": "US.05",
+   "dok": 1,
+   "stem": "Thomas Edison's Menlo Park laboratory was historically significant because it:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Was the first industrial research laboratory"
+    },
+    {
+     "id": "B",
+     "text": "Produced the first successful automobile for mass manufacture in America"
+    },
+    {
+     "id": "C",
+     "text": "Developed the telephone that Alexander Graham Bell patented in 1876"
+    },
+    {
+     "id": "D",
+     "text": "Created the first wireless radio communications system in the United States"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Requires recall of a specific fact — no analysis needed.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.06-F106",
+   "std": "US.06",
+   "dok": 1,
+   "stem": "Ellis Island served as the primary immigration processing center for:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Asian immigrants arriving on the West Coast who were processed before either admission or deportation"
+    },
+    {
+     "id": "B",
+     "text": "South American immigrants seeking to enter the United States through New York Harbor"
+    },
+    {
+     "id": "C",
+     "text": "All immigrants to the United States regardless of origin or port of entry"
+    },
+    {
+     "id": "D",
+     "text": "European immigrants arriving on the East Coast between 1892 and 1954"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "DOK 1: identify Ellis Island's function"
+   }
+  },
+  {
+   "id": "US.06-06Q3",
+   "std": "US.06",
+   "dok": 3,
+   "stem": "Analyze the relationship between Chicago's geographic location and its industrial development.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Its position as a railroad hub connecting eastern factories with western resources made it ideal for meatpacking and trade"
+    },
+    {
+     "id": "B",
+     "text": "Geography had little impact on Chicago's growth, which ignores key developments that shaped the outcome"
+    },
+    {
+     "id": "C",
+     "text": "Chicago grew primarily due to government subsidies, but this fails to account for the broader historical context"
+    },
+    {
+     "id": "D",
+     "text": "Lake Michigan was the only factor in Chicago's development, but the historical record tells a more complex story"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Chicago's central location at the junction of multiple railroad lines made it the ideal hub for shipping cattle from western ranges, processing them, and distributing meat to eastern markets.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.06-06Q4",
+   "std": "US.06",
+   "dok": 3,
+   "stem": "Evaluate the social consequences of rapid urbanization during this period.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Cities easily accommodated population growth, despite limited evidence supporting this interpretation"
+    },
+    {
+     "id": "B",
+     "text": "Rapid growth created overcrowding, poor sanitation, and social problems that reforms struggled to address"
+    },
+    {
+     "id": "C",
+     "text": "Urbanization primarily benefited working-class families, although this view has been largely discredited by scholars"
+    },
+    {
+     "id": "D",
+     "text": "Social conditions in cities were better than rural areas, but contemporary accounts suggest a different explanation"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The explosive growth of cities outpaced infrastructure and services, creating dangerous living conditions in overcrowded tenements with inadequate sanitation, leading to disease, poverty, and social reform movements.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.07-07Q3",
+   "std": "US.07",
+   "dok": 3,
+   "stem": "Analyze the role of Jane Addams and settlement houses in the immigrant experience.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They provided services and community while helping immigrants navigate American society without erasing cultural identity"
+    },
+    {
+     "id": "B",
+     "text": "Settlement houses forced immigrants to abandon their cultures, although this view has been largely discredited by scholars"
+    },
+    {
+     "id": "C",
+     "text": "Settlement houses were primarily religious conversion centers, which ignores key developments that shaped the outcome"
+    },
+    {
+     "id": "D",
+     "text": "They had minimal impact on immigrant communities, which represents a common misconception about the period"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Settlement houses like Hull House balanced assimilation assistance (English classes, job help) with respect for immigrant cultures, creating community support systems that aided adjustment.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.07-07Q4",
+   "std": "US.07",
+   "dok": 3,
+   "stem": "Evaluate the relationship between nativism and immigration restriction laws like the Chinese Exclusion Act.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Restriction laws were based solely on economic concerns, which represents a common misconception about the period"
+    },
+    {
+     "id": "B",
+     "text": "Nativist fears of racial and cultural difference drove discriminatory legislation targeting specific ethnic groups"
+    },
+    {
+     "id": "C",
+     "text": "These laws affected all immigrants equally, which ignores key developments that shaped the outcome"
+    },
+    {
+     "id": "D",
+     "text": "Restriction laws were temporary responses to specific incidents, though this interpretation lacks supporting historical evidence"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The Chinese Exclusion Act exemplified how nativist prejudices became codified into law, specifically targeting an ethnic group based on racist fears about competition and cultural difference rather than legitimate concerns.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.07-7Q05",
+   "std": "US.07",
+   "dok": 3,
+   "stem": "Which argument BEST explains why push factors in Europe were more decisive than American pull factors in driving the 'new immigration' wave of 1880–1920 from Southern and Eastern Europe?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Pull factors dominated because American wages were consistently 3–5 times higher than European wages, making immigration an economically rational choice regardless of conditions in the country of origin."
+    },
+    {
+     "id": "B",
+     "text": "Neither push nor pull factors explain new immigration; steamship companies manufactured immigration demand by actively recruiting in European villages for their own commercial benefit."
+    },
+    {
+     "id": "C",
+     "text": "Push factors were more decisive because population pressure, agricultural displacement, religious persecution, and political instability in Southern and Eastern Europe made emigration a necessity for survival rather than an opportunity for advancement."
+    },
+    {
+     "id": "D",
+     "text": "Pull factors dominated because the U.S. government actively advertised economic opportunities in Southern and Eastern Europe through a network of immigration agencies."
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Historians of immigration, including Oscar Handlin and John Bodnar, emphasize the severity of conditions in sending regions: the collapse of sharecropping in southern Italy following agricultural mechanization, Jewish pogroms in the Russian Empire, Austro-Hungarian military conscription, and Greek agricultural depression created conditions where emigration was survival-driven rather than opportunity-driven. The timing of immigration surges correlating with European crises — not American economic peaks — supports the push-factor argument. Option A correctly identifies the wage differential as real but overstates pull factors; immigrants also came during American depressions. Option C contains a partial truth about steamship company recruitment but overstates corporate agency as the primary driver. Option D is factually incorrect; the U.S. did not operate European recruitment agencies in this period.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "disclosure": "Classroom-formative · pre-field-test (pre-calibration) — not a secure TCAP form. First administration is what calibrates these items."
+}

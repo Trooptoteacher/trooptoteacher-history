@@ -1,0 +1,177 @@
+{
+ "US.71": {
+  "id": "us71-q1",
+  "stem": "How did the G.I. Bill contribute to the growth of the American middle class and suburban development?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The G.I. Bill had minimal economic impact, but contemporary accounts suggest a different explanation, which represents a common misconception about this historical period, but the historical evidence paints a more nuanced picture"
+   },
+   {
+    "id": "B",
+    "text": "The G.I. Bill only provided unemployment benefits, although this view has been largely discredited by scholars, although this overlooks critical economic and social factors involved"
+   },
+   {
+    "id": "C",
+    "text": "It provided college tuition and low-interest home loans to nearly 8 million veterans, doubling the college-educated population and fueling suburban homeownership that created a massive new middle class"
+   },
+   {
+    "id": "D",
+    "text": "Only wealthy veterans could access G.I. Bill benefits, although this view has been largely discredited by scholars and fails to account for key developments in the broader context"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.72": {
+  "id": "us72-q1",
+  "stem": "What factors caused the dramatic increase in U.S. birth rates from 1946-1964 known as the Baby Boom?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Government mandates requiring larger families, although this view has been largely discredited by scholars"
+   },
+   {
+    "id": "B",
+    "text": "Immigration from European countries after the war, which does not align with the documented historical record"
+   },
+   {
+    "id": "C",
+    "text": "Declining living standards forcing families to have more children, although historical sources do not support this conclusion"
+   },
+   {
+    "id": "D",
+    "text": "Returning WWII veterans starting families, economic prosperity, G.I. Bill benefits, cultural emphasis on domesticity, and improved medical care"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.73": {
+  "id": "us73-q1",
+  "stem": "How did the Salk polio vaccine demonstrate government's role in public health and medical advancement?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Government funding and coordination of vaccine trials led to a breakthrough that eliminated a terrifying disease, showing public investment in medical research benefits all Americans"
+   },
+   {
+    "id": "B",
+    "text": "The government opposed vaccine development, though this interpretation lacks supporting historical evidence, but closer analysis reveals a more complicated historical reality"
+   },
+   {
+    "id": "C",
+    "text": "Private companies developed the vaccine without government involvement, but contemporary accounts suggest a different explanation, which represents a common misconception about this historical period"
+   },
+   {
+    "id": "D",
+    "text": "The vaccine was developed in another country, which does not reflect the consensus among historians, which contradicts the primary source evidence from this era"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ },
+ "US.74": {
+  "id": "us74-q1",
+  "stem": "How did widespread automobile ownership transform American daily life and family routines?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Cars had minimal impact on daily routines, which does not align with the documented historical record when examined alongside the available primary and secondary sources"
+   },
+   {
+    "id": "B",
+    "text": "Cars provided unprecedented mobility, allowing Americans to live farther from work, expanding shopping and leisure options, and giving teenagers new independence"
+   },
+   {
+    "id": "C",
+    "text": "Only wealthy Americans owned cars in the 1950s, but this fails to account for the broader historical context, though this interpretation lacks supporting historical evidence"
+   },
+   {
+    "id": "D",
+    "text": "Car ownership decreased family mobility, which represents a common misconception about the period, although this overlooks critical economic and social factors involved"
+   }
+  ],
+  "correct": "B",
+  "reportingCategory": "History"
+ },
+ "US.75": {
+  "id": "us75-q1",
+  "stem": "How did television replace radio as the center of American family entertainment and home life?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Radio remained more popular than television, but this oversimplifies the complex factors at work, although this overlooks critical economic and social factors involved, which contradicts the primary source evidence from this era"
+   },
+   {
+    "id": "B",
+    "text": "Television was only popular in wealthy households, which does not reflect the consensus among historians, which does not align with the documented historical record, but closer analysis reveals a more complicated historical reality"
+   },
+   {
+    "id": "C",
+    "text": "TV became the center of family entertainment, with families scheduling activities around programs, sharing cultural experiences through popular shows, and redesigning living rooms around television sets"
+   },
+   {
+    "id": "D",
+    "text": "Families spent less time at home after television's introduction, although this view has been largely discredited by scholars, which does not align with the documented historical record"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.76": {
+  "id": "us76-q1",
+  "stem": "How did the Beat Generation challenge 1950s conformity and traditional American values?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The Beat Generation embraced suburban conformity, although this overlooks critical economic and social factors despite the fact that multiple contemporary sources contradict this"
+   },
+   {
+    "id": "B",
+    "text": "The Beat Generation had no influence on American culture, but this oversimplifies the complex factors at work, and this view has been largely revised by modern historical research"
+   },
+   {
+    "id": "C",
+    "text": "Beatniks supported traditional family values, though this interpretation lacks supporting historical evidence when examined alongside the available primary and secondary sources"
+   },
+   {
+    "id": "D",
+    "text": "Beatniks rejected materialism and conventional careers, embraced artistic expression, questioned authority, and criticized conformity, laying groundwork for 1960s counterculture"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.77": {
+  "id": "us77-q1",
+  "stem": "What were President Kennedy's main domestic and international goals through the New Frontier programs?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Kennedy's New Frontier aimed to improve education, enforce civil rights, compete in space exploration, create the Peace Corps, and stimulate economic growth"
+   },
+   {
+    "id": "B",
+    "text": "Kennedy focused only on military expansion, although historical sources do not support this conclusion, which ignores significant political and cultural developments of the era"
+   },
+   {
+    "id": "C",
+    "text": "The New Frontier only addressed foreign policy, although historical sources do not support this conclusion when examined alongside the available primary and secondary sources"
+   },
+   {
+    "id": "D",
+    "text": "Kennedy had no significant domestic agenda, despite limited evidence supporting this interpretation and does not reflect the scholarly consensus on this topic"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ }
+}

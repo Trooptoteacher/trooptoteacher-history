@@ -1,0 +1,1079 @@
+{
+  "disclosure": "Assessment items are classroom-formative · pre-field-test.",
+  "formative": {
+    "GC.31": [
+      {
+        "stem": "Which of the following is a legal duty required of U.S. citizens, not merely encouraged?",
+        "std": "GC.31",
+        "dok": 1,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Serving on a jury when summoned"
+          },
+          {
+            "id": "B",
+            "text": "Volunteering for a local charity"
+          },
+          {
+            "id": "C",
+            "text": "Following the news on civic issues"
+          },
+          {
+            "id": "D",
+            "text": "Campaigning for a candidate you support"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV2: Citizen Participation",
+        "reteach": "Re-teach the difference between legal duties (obey the law, pay taxes, jury service) and expected-but-optional duties; sort examples into two columns.",
+        "blooms": "Remember",
+        "hess_crm_cell": "Remember × DOK 1",
+        "irt_a": 1.1,
+        "irt_b": -1.1,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.01",
+        "distractor_tags": [
+          {
+            "label": "B",
+            "code": "PE",
+            "rationale": "Plausible error — volunteering is expected of good citizens but is not legally required."
+          },
+          {
+            "label": "C",
+            "code": "PE",
+            "rationale": "Plausible error — staying informed is encouraged, not legally compelled."
+          },
+          {
+            "label": "D",
+            "code": "MC",
+            "rationale": "Misconception that civic activity such as campaigning is a legal obligation."
+          }
+        ],
+        "key_rationale": "Jury service is a legal duty citizens must fulfill when summoned, enforced by the courts.",
+        "dok_rationale": "Recall of a listed fact — sorting a single example as a legal duty.",
+        "blooms_rationale": "Student retrieves which responsibility is a legal requirement.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Responsibilities of Citizens” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Plausible error — volunteering is expected of good citizens but is not legally required.",
+              "reteach": "model carrying partial evidence to the correct conclusion"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Plausible error — staying informed is encouraged, not legally compelled.",
+              "reteach": "model carrying partial evidence to the correct conclusion"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Misconception that civic activity such as campaigning is a legal obligation.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.32": [
+      {
+        "stem": "What is the main difference between a primary and a caucus in choosing a party's nominee?",
+        "std": "GC.32",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "A primary is held only in general elections; a caucus only for judges"
+          },
+          {
+            "id": "B",
+            "text": "A primary uses a secret ballot; a caucus uses local meetings and debate"
+          },
+          {
+            "id": "C",
+            "text": "A primary is run by the government; a caucus is illegal in most states"
+          },
+          {
+            "id": "D",
+            "text": "A primary picks a president; a caucus picks a governor"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV2: Citizen Participation",
+        "reteach": "Revisit the nomination funnel: compare primary (ballot vote) and caucus (in-person meeting); re-run the Nominate! simulation.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.3,
+        "irt_b": -0.2,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.03",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Misconception about when and for whom each method is used."
+          },
+          {
+            "label": "C",
+            "code": "MC",
+            "rationale": "Misconception that caucuses are illegal or that primaries are government-run rather than party contests."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error confusing the office chosen rather than the method used."
+          }
+        ],
+        "key_rationale": "A primary selects a nominee by ballot vote, while a caucus selects one through local party meetings and discussion.",
+        "dok_rationale": "Requires comparing two processes on a defining feature, not recalling a single term.",
+        "blooms_rationale": "Student constructs the distinction between two nomination methods.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Political Parties & the Nomination Process” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception about when and for whom each method is used.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception that caucuses are illegal or that primaries are government-run rather than party contests.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error confusing the office chosen rather than the method used.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.33": [
+      {
+        "stem": "How can the wording of a public-opinion poll question affect the results it produces?",
+        "std": "GC.33",
+        "dok": 3,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Wording cannot change results because opinions are fixed before the poll"
+          },
+          {
+            "id": "B",
+            "text": "Only the number of people surveyed affects results, never the wording"
+          },
+          {
+            "id": "C",
+            "text": "Leading or loaded wording can push respondents toward a particular answer"
+          },
+          {
+            "id": "D",
+            "text": "Poll results are always accurate no matter how questions are worded"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-GOV2: Citizen Participation",
+        "reteach": "Reread the poll-wording example; have students rewrite a neutral question as a leading one and predict the shift.",
+        "blooms": "Analyze",
+        "hess_crm_cell": "Analyze × DOK 3",
+        "irt_a": 1.5,
+        "irt_b": 0.5,
+        "irt_c": 0.2,
+        "c3_dimension": "D3",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Misconception that public opinion is fixed and unaffected by measurement."
+          },
+          {
+            "label": "B",
+            "code": "PE",
+            "rationale": "Partial evidence — sample size matters, but wording is overlooked."
+          },
+          {
+            "label": "D",
+            "code": "MC",
+            "rationale": "Misconception that polls are objective regardless of question design."
+          }
+        ],
+        "key_rationale": "Leading or loaded wording can nudge respondents toward a particular answer, so question design shapes the result.",
+        "dok_rationale": "Requires analyzing how question design influences data, not recalling a definition.",
+        "blooms_rationale": "Student breaks apart how framing affects measured opinion.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Media & Public Opinion” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception that public opinion is fixed and unaffected by measurement.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Partial evidence — sample size matters, but wording is overlooked.",
+              "reteach": "model carrying partial evidence to the correct conclusion"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Misconception that polls are objective regardless of question design.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.34": [
+      {
+        "stem": "Which First Amendment protections most directly allow citizens to march in a protest and sign a petition?",
+        "std": "GC.34",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "The rights to bear arms and to a jury trial"
+          },
+          {
+            "id": "B",
+            "text": "The rights to due process and equal protection"
+          },
+          {
+            "id": "C",
+            "text": "The rights against self-incrimination and unreasonable search"
+          },
+          {
+            "id": "D",
+            "text": "The rights to peaceably assemble and to petition the government"
+          }
+        ],
+        "key": "D",
+        "rc": "RC-GOV2: Citizen Participation",
+        "reteach": "Reread Amendment I; underline 'assemble' and 'petition' and connect each to a real form of participation.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.4,
+        "irt_b": 0.0,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.04",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "PK",
+            "rationale": "Prior-knowledge error citing Second and Sixth Amendment rights."
+          },
+          {
+            "label": "B",
+            "code": "PK",
+            "rationale": "Prior-knowledge error citing Fourteenth Amendment protections."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Prior-knowledge error citing Fifth and Fourth Amendment rights."
+          }
+        ],
+        "key_rationale": "The First Amendment protects the rights to peaceably assemble and to petition the government, the direct basis for protest and petition.",
+        "dok_rationale": "Requires matching a constitutional protection to civic actions, beyond simple recall.",
+        "blooms_rationale": "Student explains which rights enable specific participation.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Means of Political Participation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Prior-knowledge error citing Second and Sixth Amendment rights.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Prior-knowledge error citing Fourteenth Amendment protections.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error citing Fifth and Fourth Amendment rights.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ]
+  },
+  "formA": [
+    {
+      "stem": "Thomas Jefferson wrote that 'wherever the people are well informed they can be trusted with their own government.' Which civic responsibility does this statement most directly support?",
+      "std": "GC.31",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Paying federal income taxes on time"
+        },
+        {
+          "id": "B",
+          "text": "Serving in the armed forces when called"
+        },
+        {
+          "id": "C",
+          "text": "Staying informed on civic issues"
+        },
+        {
+          "id": "D",
+          "text": "Obeying local traffic laws"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV2: Citizen Participation",
+      "reteach": "Reread Jefferson's letter to Richard Price; tie 'well informed' to the responsibility of staying informed.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.5,
+      "irt_b": 0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D3",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PE",
+          "rationale": "Partial evidence — a real duty, but not the one Jefferson's statement addresses."
+        },
+        {
+          "label": "B",
+          "code": "PE",
+          "rationale": "Partial evidence — a valid responsibility unrelated to being informed."
+        },
+        {
+          "label": "D",
+          "code": "PE",
+          "rationale": "Partial evidence — a legal duty, but not what the quotation supports."
+        }
+      ],
+      "key_rationale": "Jefferson ties safe self-government to an informed public, directly supporting the responsibility to stay informed.",
+      "dok_rationale": "Requires interpreting a primary source to identify the responsibility it supports.",
+      "blooms_rationale": "Student infers a responsibility from Jefferson's reasoning.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Responsibilities of Citizens” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Partial evidence — a real duty, but not the one Jefferson's statement addresses.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Partial evidence — a valid responsibility unrelated to being informed.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Partial evidence — a legal duty, but not what the quotation supports.",
+            "reteach": "model carrying partial evidence to the correct conclusion"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "In the presidential nomination process, what is the purpose of the primaries and caucuses held state by state?",
+      "std": "GC.32",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "To choose each party's nominee before the general election"
+        },
+        {
+          "id": "B",
+          "text": "To count the electoral votes after the general election"
+        },
+        {
+          "id": "C",
+          "text": "To confirm the President's cabinet appointments"
+        },
+        {
+          "id": "D",
+          "text": "To redraw congressional district boundaries"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV2: Citizen Participation",
+      "reteach": "Trace the path primary/caucus → convention → general election; label what each step decides.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.4,
+      "irt_b": -0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.03",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Prior-knowledge error confusing nomination with the Electoral College count."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error confusing nomination with Senate confirmation."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error confusing elections with redistricting."
+        }
+      ],
+      "key_rationale": "State primaries and caucuses select each party's nominee before the general election.",
+      "dok_rationale": "Requires explaining the function of a stage in the process, not naming a term.",
+      "blooms_rationale": "Student explains the purpose of the nomination stage.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Political Parties & the Nomination Process” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error confusing nomination with the Electoral College count.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error confusing nomination with Senate confirmation.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error confusing elections with redistricting.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "A news outlet covers one issue heavily every night for a week while barely mentioning others. How does this most likely influence the public?",
+      "std": "GC.33",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "It guarantees the public will oppose the government entirely"
+        },
+        {
+          "id": "B",
+          "text": "It has no effect, since the public ignores repeated stories"
+        },
+        {
+          "id": "C",
+          "text": "It forces rival outlets to drop the issue completely"
+        },
+        {
+          "id": "D",
+          "text": "It makes the issue seem more important than others"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV2: Citizen Participation",
+      "reteach": "Reteach agenda-setting: the media shapes which issues seem to matter; find a current example of heavy vs. light coverage.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.6,
+      "irt_b": 0.6,
+      "irt_c": 0.2,
+      "c3_dimension": "D3",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "OG",
+          "rationale": "Overgeneralization — coverage does not dictate a single public reaction."
+        },
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception that repeated coverage has no agenda-setting effect."
+        },
+        {
+          "label": "C",
+          "code": "CA",
+          "rationale": "Causal attribution error — one outlet's focus does not control competitors."
+        }
+      ],
+      "key_rationale": "Heavy, repeated coverage raises an issue's perceived importance, the agenda-setting effect.",
+      "dok_rationale": "Requires analyzing the effect of coverage patterns on public priorities.",
+      "blooms_rationale": "Student analyzes how coverage shapes perceived importance.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Media & Public Opinion” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Overgeneralization — coverage does not dictate a single public reaction.",
+            "reteach": "test the overgeneralization against a counter-case"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception that repeated coverage has no agenda-setting effect.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Causal attribution error — one outlet's focus does not control competitors.",
+            "reteach": "re-teach the cause-effect chain"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Which action gives citizens a way to directly propose or overturn a law themselves, rather than only influencing officials?",
+      "std": "GC.34",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Campaigning for a candidate who supports the law"
+        },
+        {
+          "id": "B",
+          "text": "Using an initiative or referendum"
+        },
+        {
+          "id": "C",
+          "text": "Lobbying a legislator to sponsor a bill"
+        },
+        {
+          "id": "D",
+          "text": "Writing a letter to a representative"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV2: Citizen Participation",
+      "reteach": "Contrast direct democracy (initiative, referendum, recall) with indirect influence (lobbying, campaigning); sort each example.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.7,
+      "irt_b": 0.7,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "NE",
+          "rationale": "Nearby error — a real form of participation, but it influences officials rather than making law directly."
+        },
+        {
+          "label": "C",
+          "code": "NE",
+          "rationale": "Nearby error — lobbying pressures officials rather than letting voters act directly."
+        },
+        {
+          "label": "D",
+          "code": "NE",
+          "rationale": "Nearby error — contacting a representative is indirect influence, not direct lawmaking."
+        }
+      ],
+      "key_rationale": "Initiative and referendum are direct-democracy tools that let voters propose or reject a law themselves.",
+      "dok_rationale": "Requires distinguishing direct-democracy tools from indirect influence.",
+      "blooms_rationale": "Student differentiates direct action from influencing officials.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Means of Political Participation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Nearby error — a real form of participation, but it influences officials rather than making law directly.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Nearby error — lobbying pressures officials rather than letting voters act directly.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Nearby error — contacting a representative is indirect influence, not direct lawmaking.",
+            "reteach": "contrast the near-miss with the precise answer"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    }
+  ],
+  "formB": [
+    {
+      "stem": "A citizen who is called for jury service is fulfilling a responsibility that is best described as:",
+      "std": "GC.31",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "entirely optional for everyone"
+        },
+        {
+          "id": "B",
+          "text": "required only of public officials"
+        },
+        {
+          "id": "C",
+          "text": "limited to voters over age 35"
+        },
+        {
+          "id": "D",
+          "text": "a legal duty the courts enforce"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV2: Citizen Participation",
+      "reteach": "Reteach jury service as a legal duty tied to the 6th and 7th Amendments; list who can be summoned.",
+      "blooms": "Remember",
+      "hess_crm_cell": "Remember × DOK 1",
+      "irt_a": 1.2,
+      "irt_b": -0.9,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception that jury service is optional."
+        },
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception that the duty applies only to officials."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception adding an age limit that does not define the duty."
+        }
+      ],
+      "key_rationale": "Jury service is a legal responsibility that citizens must meet when summoned, enforced by the courts.",
+      "dok_rationale": "Recall of the nature of a listed responsibility.",
+      "blooms_rationale": "Student retrieves that jury service is a legal duty.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Responsibilities of Citizens” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception that jury service is optional.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception that the duty applies only to officials.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception adding an age limit that does not define the duty.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "George Washington warned against 'the spirit of party,' yet political parties quickly became central to elections. What role do parties play in the political system?",
+      "std": "GC.32",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "They write the amendments to the U.S. Constitution"
+        },
+        {
+          "id": "B",
+          "text": "They serve as the nation's court system"
+        },
+        {
+          "id": "C",
+          "text": "They organize voters and nominate candidates for office"
+        },
+        {
+          "id": "D",
+          "text": "They command the national armed forces"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV2: Citizen Participation",
+      "reteach": "Revisit Washington's Farewell Address and the rise of parties; list what parties actually do in elections.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.4,
+      "irt_b": -0.2,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.03",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Prior-knowledge error confusing parties with the Article V amendment process."
+        },
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Prior-knowledge error confusing parties with the judicial branch."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error confusing parties with the executive military role."
+        }
+      ],
+      "key_rationale": "Political parties organize voters and nominate candidates, structuring how elections work.",
+      "dok_rationale": "Requires explaining the function of parties, not recalling a single fact.",
+      "blooms_rationale": "Student explains the role parties play in elections.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Political Parties & the Nomination Process” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error confusing parties with the Article V amendment process.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error confusing parties with the judicial branch.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error confusing parties with the executive military role.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Two newspapers report the same city council vote. One headline reads 'Council Protects Taxpayers'; the other reads 'Council Cuts Vital Services.' What does this best illustrate?",
+      "std": "GC.33",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Media framing can shape how the public feels about the same event"
+        },
+        {
+          "id": "B",
+          "text": "One newspaper reported false information about the vote"
+        },
+        {
+          "id": "C",
+          "text": "The city council changed its decision between the reports"
+        },
+        {
+          "id": "D",
+          "text": "Headlines have no measurable effect on public opinion"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV2: Citizen Participation",
+      "reteach": "Reteach framing vs. bias vs. falsehood; have students reframe one neutral headline two opposite ways.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.6,
+      "irt_b": 0.5,
+      "irt_c": 0.2,
+      "c3_dimension": "D3",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "CA",
+          "rationale": "Causal attribution error — different framing is not the same as false reporting."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception that differing headlines mean the underlying event changed."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception that framing has no effect on opinion."
+        }
+      ],
+      "key_rationale": "Two opposite headlines for one event show that framing shapes public perception without changing the facts.",
+      "dok_rationale": "Requires analyzing how framing produces different impressions of one event.",
+      "blooms_rationale": "Student analyzes the effect of framing on opinion.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Media & Public Opinion” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Causal attribution error — different framing is not the same as false reporting.",
+            "reteach": "re-teach the cause-effect chain"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception that differing headlines mean the underlying event changed.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception that framing has no effect on opinion.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "A citizen meets with a state legislator to try to persuade the legislator to support a new bill. This form of participation is called:",
+      "std": "GC.34",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "petitioning"
+        },
+        {
+          "id": "B",
+          "text": "lobbying"
+        },
+        {
+          "id": "C",
+          "text": "demonstrating"
+        },
+        {
+          "id": "D",
+          "text": "running for office"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV2: Citizen Participation",
+      "reteach": "Reteach the vocabulary of participation; match each scenario to campaigning, demonstrating, lobbying, petitioning, or running for office.",
+      "blooms": "Apply",
+      "hess_crm_cell": "Apply × DOK 2",
+      "irt_a": 1.3,
+      "irt_b": -0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "NE",
+          "rationale": "Nearby error — petitioning is a written request signed by many, not a one-on-one persuasion meeting."
+        },
+        {
+          "label": "C",
+          "code": "NE",
+          "rationale": "Nearby error — demonstrating is public protest, not private persuasion of an official."
+        },
+        {
+          "label": "D",
+          "code": "NE",
+          "rationale": "Nearby error — running for office is seeking a seat, not persuading a sitting legislator."
+        }
+      ],
+      "key_rationale": "Trying to influence an official's decision is lobbying.",
+      "dok_rationale": "Requires classifying a scenario under the correct participation term.",
+      "blooms_rationale": "Student applies a participation category to a scenario.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Means of Political Participation” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Nearby error — petitioning is a written request signed by many, not a one-on-one persuasion meeting.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Nearby error — demonstrating is public protest, not private persuasion of an official.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Nearby error — running for office is seeking a seat, not persuading a sitting legislator.",
+            "reteach": "contrast the near-miss with the precise answer"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    }
+  ],
+  "_psychometric_summary": {
+    "dok_distribution": {
+      "1": 2,
+      "2": 6,
+      "3": 4
+    },
+    "blooms_distribution": {
+      "Remember": 2,
+      "Understand": 5,
+      "Analyze": 4,
+      "Apply": 1
+    },
+    "irt_a_mean": 1.417,
+    "irt_b_mean": -0.017,
+    "field_test_ready_count": 12,
+    "total_items": 12,
+    "note": "IRT 3PL parameters are pre-field-test design-time estimates, to be calibrated on field-test data."
+  }
+}

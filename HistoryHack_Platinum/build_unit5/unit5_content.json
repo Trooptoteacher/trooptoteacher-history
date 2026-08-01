@@ -1,0 +1,1068 @@
+{
+  "unit": {
+    "code": "Unit 4",
+    "title": "The 1920s (1920–1929)",
+    "standards_range": "US.28–US.38",
+    "publisher": "TroopToTeacher Technologies LLC",
+    "footer": "U.S. History Hack · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards & TCAP EOC"
+  },
+  "standards": {
+    "US.39": {
+      "title": "Causes of the Great Depression",
+      "tn": "Analyze the causes of the Great Depression, including: bank failures, buying on margin, crash of the stock market, excess consumerism, high tariffs, laissez-faire politics, overextension of credit, overproduction in agriculture & manufacturing, rising unemployment.",
+      "ican": "I can analyze the causes of the Great Depression, including bank failures, buying on margin, the stock market crash, overproduction, high tariffs, laissez-faire politics, and rising unemployment.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Great Depression",
+          "say": "grayt dee-PRESH-un",
+          "es": "Gran Depresión",
+          "def": "The worst economic downturn in American history, lasting from 1929 to the early 1940s, characterized by massive unemployment, bank failures, business closures, and widespread poverty."
+        },
+        {
+          "term": "Stock Market Crash of 1929",
+          "say": "stok MAR-ket krash",
+          "es": "Crash del Mercado de Valores de 1929",
+          "def": "The sudden collapse of stock prices in October 1929 (\"Black Tuesday\"), triggered by speculation, overproduction, and panic selling, which signaled the start of the Great Depression."
+        },
+        {
+          "term": "Buying on Margin",
+          "say": "BY-ing on MAR-jin",
+          "es": "Comprar con Margen",
+          "def": "The practice of purchasing stocks by borrowing money (paying only 10% down), which created a speculative bubble that burst when stock prices fell and investors couldn't repay loans."
+        },
+        {
+          "term": "Bank Failures",
+          "say": "bank FAYL-yerz",
+          "es": "Quiebras Bancarias",
+          "def": "The collapse of thousands of banks during the Great Depression when depositors rushed to withdraw their money (bank runs), causing banks to fail because deposits weren't insured."
+        },
+        {
+          "term": "Mass Unemployment",
+          "say": "mass un-em-PLOY-ment",
+          "es": "Desempleo Masivo",
+          "def": "During the Great Depression, unemployment reached 25% at its peak in 1933, with 15 million Americans out of work, creating widespread poverty and desperation."
+        },
+        {
+          "term": "Herbert Hoover",
+          "say": "HUR-bert HOO-ver",
+          "es": "Herbert Hoover",
+          "def": "The 31st U.S. President (1929-1933) who believed in limited government intervention and \"rugged individualism,\" initially opposing direct federal relief for Depression victims."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stock Market Crash Newspaper Report",
+          "who": "New York Times",
+          "date": "October 30, 1929",
+          "quote": "STOCKS COLLAPSE IN 16,410,030-SHARE DAY. The most disastrous decline in the biggest and broadest stock market of history rocked the financial district yesterday. Billions of dollars in open market values were wiped out as prices crumbled un",
+          "repo": "Times, New York. \"Stock Market Crash Newspaper Report.\" October 30, 1929. Library of Congress, www.loc.gov/collections/chronicling-america/.",
+          "url": "https://www.loc.gov/collections/chronicling-america/"
+        },
+        {
+          "title": "Bank Failure Notice",
+          "who": "Bank of United States",
+          "date": "1930",
+          "quote": "NOTICE: This bank has been closed by order of the State Banking Department. All deposits are frozen pending examination of the bank's assets. Depositors will be notified when and if any portion of their deposits may be recovered. We regret ",
+          "repo": "Bank of United States. \"Bank Failure Notice.\" 1930. Federal Deposit Insurance Corporation, www.fdic.gov/analysis/historical/.",
+          "url": "https://www.fdic.gov/analysis/historical/"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "How did bank failures create a cascade effect that deepened the Great Depression?",
+        "options": {
+          "A": "Failed banks couldn't make loans, destroyed confidence, triggered more bank runs, and reduced money supply by one-third, contracting economic activity",
+          "B": "Bank failures had minimal impact on the economy, but contemporary accounts suggest a different explanation, which does not align with the documented historical record",
+          "C": "The government quickly replaced failed banks, but the historical record tells a more complex story, but closer analysis reveals a more complicated historical reality",
+          "D": "Only rural banks experienced failures, though this interpretation lacks supporting historical evidence despite the fact that multiple contemporary sources contradict this"
+        },
+        "key": "A",
+        "why": "Bank failures created a destructive cycle: each failure destroyed depositor savings, eliminated lending capacity, reduced consumer confidence, and triggered more bank runs, ultimately contracting the money supply and freezing credit throughout the economy."
+      },
+      "auth": {
+        "close": "Bank runs occurred when panicked depositors withdrew money simultaneously, causing banks to collapse. With no FDIC insurance, depositors lost life savings when banks failed. Over 9,000 banks failed between 1929-1933, and the cascading effect destroyed confidence, leading to more bank runs. Failed banks couldn't make loans, reducing economic activity and contracting the money supply by one-third. Buying on margin meant purchasing stocks with borrowed money, paying only 10% upfront. This created artificial demand that inflated stock prices beyond real value. When the market crashed on Black Thursday (October 24, 1929) and Black Tuesday (October 29, 1929), $30 billion in stock value was lost in the first week. Margin calls forced investors to sell, driving prices down further in a devastating spiral. Factories could produce more than consumers could buy, while income inequality meant most Americans couldn't afford mass-produced goods. Agricultural overproduction drove farm prices down 60% between 1920-1932. Meanwhile, Americans borrowed heavily for cars, appliances, and homes. When incomes fell, loan defaults triggered bank failures and more defaults in a cascading crisis. Republican administrations believed government shouldn't interfere in the economy, delaying decisive action. The Smoot-Hawley Tariff (1930) raised tariffs on thousands of imports, triggering international retaliation. Global trade declined 25% between 1929-1932. This economic nationalism prevented coordinated international response and worsened the worldwide crisis. Unemployment rose from 3.2% in 1929 to 23.6% in 1932, leaving 12-15 million Americans jobless. Many remained unemployed for years, not just months. The unemployed couldn't purchase goods, reduced tax revenue, and created social problems including family breakdown, homelessness, and malnutrition. Each factor reinforced others in a devastating downward spiral.",
+        "close_sections": [
+          [
+            "Bank Failures and the Banking Crisis",
+            "Bank runs occurred when panicked depositors withdrew money simultaneously, causing banks to collapse. With no FDIC insurance, depositors lost life savings when banks failed. Over 9,000 banks failed between 1929-1933, and the cascading effect destroyed confidence, leading to more bank runs. Failed banks couldn't make loans, reducing economic activity and contracting the money supply by one-third."
+          ],
+          [
+            "Buying on Margin and Stock Market Crash",
+            "Buying on margin meant purchasing stocks with borrowed money, paying only 10% upfront. This created artificial demand that inflated stock prices beyond real value. When the market crashed on Black Thursday (October 24, 1929) and Black Tuesday (October 29, 1929), $30 billion in stock value was lost in the first week. Margin calls forced investors to sell, driving prices down further in a devastating spiral."
+          ],
+          [
+            "Overproduction and Credit Overextension",
+            "Factories could produce more than consumers could buy, while income inequality meant most Americans couldn't afford mass-produced goods. Agricultural overproduction drove farm prices down 60% between 1920-1932. Meanwhile, Americans borrowed heavily for cars, appliances, and homes. When incomes fell, loan defaults triggered bank failures and more defaults in a cascading crisis."
+          ],
+          [
+            "Laissez-Faire Politics and High Tariffs",
+            "Republican administrations believed government shouldn't interfere in the economy, delaying decisive action. The Smoot-Hawley Tariff (1930) raised tariffs on thousands of imports, triggering international retaliation. Global trade declined 25% between 1929-1932. This economic nationalism prevented coordinated international response and worsened the worldwide crisis."
+          ],
+          [
+            "Rising Unemployment",
+            "Unemployment rose from 3.2% in 1929 to 23.6% in 1932, leaving 12-15 million Americans jobless. Many remained unemployed for years, not just months. The unemployed couldn't purchase goods, reduced tax revenue, and created social problems including family breakdown, homelessness, and malnutrition. Each factor reinforced others in a devastating downward spiral."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Bank Failures and the Banking Crisis” section, and what evidence supports it?",
+          "What is the main idea of the “Buying on Margin and Stock Market Crash” section, and what evidence supports it?",
+          "What is the main idea of the “Overproduction and Credit Overextension” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Great Depression",
+          "Stock Market Crash of 1929"
+        ],
+        "quiz": [
+          {
+            "id": "us39-q3",
+            "dok": 2,
+            "stem": "How did overproduction in agriculture and manufacturing contribute to the economic collapse?",
+            "opts": {
+              "A": "Factories produced more than consumers could afford to buy, leading to inventory buildup, price collapse, production cuts, and layoffs while farm prices fell 60%",
+              "B": "Overproduction actually helped the economy by lowering prices, but contemporary accounts suggest a different explanation and fails to account for key developments in the broader context",
+              "C": "There was no overproduction during this period, which contradicts the primary source evidence from this era and does not reflect the scholarly consensus on this topic",
+              "D": "Manufacturing overproduction was offset by agricultural shortages, which does not reflect the consensus among historians, although historical sources do not support this conclusion"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us41-dok1-7",
+            "dok": 2,
+            "stem": "What role did consumer confidence play in the Great Depression?",
+            "opts": {
+              "A": "WWI war debts, U.S. loan recalls, protective tariffs created worldwide economic collapse",
+              "B": "Fear caused people to stop spending, which reduced demand and deepened economic collapse",
+              "C": "Excessive debt left consumers unable to maintain spending when their incomes suddenly fell",
+              "D": "Factories produced more goods than consumers could buy, causing prices and profits to fall"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — analyze the causes of the Great Depression, including bank failures, buying on margin, the stock market crash, overproduction, high tariffs, laissez-faire politics, and rising unemployment? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "analyze the causes of the Great Depression, including bank failures, buying on margin, the stock market crash, overproduction, high tariffs, laissez-faire politics, and rising unemployment",
+      "targets": [
+        "analyze the causes of the Great Depression, including bank failures, buying on margin, the stock market crash, overproduction, high tariffs, laissez-faire politics, and rising unemployment"
+      ],
+      "criteria": [
+        "Bank Failures and the Banking Crisis",
+        "Buying on Margin and Stock Market Crash",
+        "Overproduction and Credit Overextension"
+      ],
+      "cues": [
+        "What does the passage say about bank Failures and the Banking Crisis?",
+        "What does the passage say about buying on Margin and Stock Market Crash?",
+        "What does the passage say about overproduction and Credit Overextension?",
+        "Key terms →"
+      ],
+      "lenses": "Economics · History",
+      "dim_map": {
+        "E": "Economics lens on Causes of the Great Depression: Bank runs occurred when panicked depositors withdrew money simultaneously, causing banks to collapse. With no …",
+        "H": "History lens on Causes of the Great Depression: Bank runs occurred when panicked depositors withdrew money simultaneously, causing banks to collapse. With no …"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "Tennessee was hit hard by the Great Depression. The Caldwell and Company financial empire, based in Nashville and once the largest investment banking house in the South, collapsed spectacularly in November 1930, wiping out the savings of thousands of Tennesseans and triggering a cascade of bank failures across the region.",
+      "hook": "Causes of the Great Depression: Analyze the causes of the Great Depression, including: bank failures, buying on margin, crash of the stock market, excess consumerism, high tariffs, laissez-faire politics, overextension of credit, overproduction in agriculture & manufacturing, rising unemployment. Who gained, who was left out — and why does it still matter?"
+    },
+    "US.40": {
+      "title": "The Dust Bowl",
+      "tn": "Analyze the causes of the Dust Bowl, and explain the social, geographic, and economic impacts.",
+      "ican": "I can analyze the causes of the Dust Bowl, and explain the social, geographic, and economic impacts.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Dust Bowl",
+          "say": "dust bohl",
+          "es": "Cuenca de Polvo",
+          "def": "A severe drought and ecological disaster in the Great Plains during the 1930s, caused by drought and poor farming practices, creating massive dust storms that destroyed farms and forced migration."
+        },
+        {
+          "term": "Okies",
+          "say": "OH-keez",
+          "es": "Okies",
+          "def": "Derogatory term for migrant farmers from Oklahoma, Texas, Arkansas, and Missouri who fled the Dust Bowl to seek work in California, often facing discrimination and poverty."
+        },
+        {
+          "term": "Bank Failures",
+          "say": "bank FAYL-yerz",
+          "es": "Quiebras Bancarias",
+          "def": "The collapse of thousands of banks during the Great Depression when depositors rushed to withdraw their money (bank runs), causing banks to fail because deposits weren't insured."
+        },
+        {
+          "term": "Great Depression",
+          "say": "grayt dee-PRESH-un",
+          "es": "Gran Depresión",
+          "def": "The worst economic downturn in American history, lasting from 1929 to the early 1940s, characterized by massive unemployment, bank failures, business closures, and widespread poverty."
+        },
+        {
+          "term": "Mass Unemployment",
+          "say": "mass un-em-PLOY-ment",
+          "es": "Desempleo Masivo",
+          "def": "During the Great Depression, unemployment reached 25% at its peak in 1933, with 15 million Americans out of work, creating widespread poverty and desperation."
+        },
+        {
+          "term": "Hoovervilles",
+          "say": "HOO-ver-vilz",
+          "es": "Hoovervilles",
+          "def": "Shantytown settlements of homeless people during the Depression, named mockingly after President Herbert Hoover, who was blamed for the economic crisis."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dust Bowl Migrant Account",
+          "who": "Oklahoma Farmer",
+          "date": "1936",
+          "quote": "Three years of drought and dust storms have just about finished us. The topsoil that took nature thousands of years to build has blown away in just a few seasons. We've lost our farm, our savings, everything. Now we're heading to California",
+          "repo": "Farmer, Oklahoma. \"Dust Bowl Migrant Account.\" 1936. Library of Congress, www.loc.gov/collections/federal-writers-project/.",
+          "url": "https://www.loc.gov/collections/federal-writers-project/"
+        },
+        {
+          "title": "Letter from Kansas Farm Woman",
+          "who": "Caroline Henderson",
+          "date": "June 1935",
+          "quote": "Wearing our shade hats, with handkerchiefs tied over our faces and vaseline in our nostrils, we have been trying to rescue our home from the accumulations of wind-blown dust which penetrates wherever air can go. It is almost a hopeless task",
+          "repo": "Henderson, Caroline. \"Letter from Kansas Farm Woman.\" June 1935. Library of Congress, www.loc.gov/item/2018687273/.",
+          "url": "https://www.loc.gov/item/2018687273/"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "What were the long-term environmental and economic consequences of the Dust Bowl for the Great Plains?",
+        "options": {
+          "A": "The region recovered quickly within a few years, despite the fact that multiple sources contradict this view, but the historical evidence paints a more nuanced picture",
+          "B": "75% of topsoil was lost, farm income fell 60%, thousands of farms foreclosed, native ecosystems were damaged, and some areas took decades to recover",
+          "C": "There were no long-term consequences, but this fails to account for the broader historical context, which represents a common misconception about this historical period",
+          "D": "The Dust Bowl improved soil quality, despite limited evidence supporting this interpretation when examined alongside the available primary and secondary sources"
+        },
+        "key": "B",
+        "why": "The Dust Bowl caused devastating long-term damage: massive topsoil loss, agricultural collapse, ecosystem destruction, population loss, and economic devastation that required decades and major government conservation programs to address."
+      },
+      "auth": {
+        "close": "Farmers plowed up native prairie grasses that held soil in place. High wheat prices during WWI encouraged extensive farming, and tractors allowed farmers to plow larger areas more quickly. Monoculture planting depleted soil nutrients and structure. Farmers didn't practice crop rotation or soil conservation, leaving the land vulnerable to erosion. Severe drought began in 1931 and lasted through 1939. Precipitation dropped 40% below normal levels, and record high temperatures increased evaporation. Strong winds picked up loose topsoil from the damaged prairie. The drought was part of a natural climate cycle, but human activity made its effects catastrophic. 3.5 million people left Great Plains states as \"Dust Bowl refugees.\" Called \"Okies\" regardless of origin, over 200,000 migrants moved to California seeking agricultural work via Route 66. Migration split families, depopulated rural communities, closed schools and churches, and created social tensions as migrants faced discrimination and hostility in destination areas. 75% of topsoil was blown away from affected areas. \"Black blizzards\" carried soil as far as Washington D.C., with dust storms reducing visibility to near zero. 100 million acres across Texas, Oklahoma, Kansas, Colorado, and New Mexico were affected. Some areas required decades to restore productivity, and the native prairie ecosystem was severely damaged. Wheat production fell 40% in affected areas. Cattle died from dust and lack of feed. Banks foreclosed on thousands of farms as agricultural income fell 60%. Rural businesses dependent on agriculture collapsed. Local governments lost tax base as property values plummeted, and economic rebuilding took decades.",
+        "close_sections": [
+          [
+            "Causes: Over-farming and Agricultural Practices",
+            "Farmers plowed up native prairie grasses that held soil in place. High wheat prices during WWI encouraged extensive farming, and tractors allowed farmers to plow larger areas more quickly. Monoculture planting depleted soil nutrients and structure. Farmers didn't practice crop rotation or soil conservation, leaving the land vulnerable to erosion."
+          ],
+          [
+            "Causes: Severe Drought",
+            "Severe drought began in 1931 and lasted through 1939. Precipitation dropped 40% below normal levels, and record high temperatures increased evaporation. Strong winds picked up loose topsoil from the damaged prairie. The drought was part of a natural climate cycle, but human activity made its effects catastrophic."
+          ],
+          [
+            "Social Impacts: Migration and Displacement",
+            "3.5 million people left Great Plains states as \"Dust Bowl refugees.\" Called \"Okies\" regardless of origin, over 200,000 migrants moved to California seeking agricultural work via Route 66. Migration split families, depopulated rural communities, closed schools and churches, and created social tensions as migrants faced discrimination and hostility in destination areas."
+          ],
+          [
+            "Geographic and Environmental Impacts",
+            "75% of topsoil was blown away from affected areas. \"Black blizzards\" carried soil as far as Washington D.C., with dust storms reducing visibility to near zero. 100 million acres across Texas, Oklahoma, Kansas, Colorado, and New Mexico were affected. Some areas required decades to restore productivity, and the native prairie ecosystem was severely damaged."
+          ],
+          [
+            "Economic Impacts",
+            "Wheat production fell 40% in affected areas. Cattle died from dust and lack of feed. Banks foreclosed on thousands of farms as agricultural income fell 60%. Rural businesses dependent on agriculture collapsed. Local governments lost tax base as property values plummeted, and economic rebuilding took decades."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Causes: Over-farming and Agricultural Practices” section, and what evidence supports it?",
+          "What is the main idea of the “Causes: Severe Drought” section, and what evidence supports it?",
+          "What is the main idea of the “Social Impacts: Migration and Displacement” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Dust Bowl",
+          "Okies"
+        ],
+        "quiz": [
+          {
+            "id": "us40-q2",
+            "dok": 2,
+            "stem": "How did the Dust Bowl force massive migration and reshape American demographics?",
+            "opts": {
+              "A": "3.5 million people fled the Great Plains, with over 200,000 \"Okies\" migrating to California via Route 66, depopulating rural communities and creating tensions in destination areas",
+              "B": "Most people stayed on their farms despite conditions, which contradicts the primary source evidence from this era, which ignores significant political and cultural developments of the era",
+              "C": "Migration was limited to a few hundred families, which represents a common misconception about the period and fails to account for key developments in the broader context",
+              "D": "People only moved to nearby towns, which contradicts the primary source evidence from this era, but contemporary accounts and primary sources suggest otherwise"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us42-dok1-1",
+            "dok": 2,
+            "stem": "What caused the Dust Bowl?",
+            "opts": {
+              "A": "Soil conservation programs promoting contour plowing and shelterbelts",
+              "B": "Severe drought combined with overplowing that destroyed the topsoil",
+              "C": "Hundreds of thousands of \"Okies\" migrated westward to California",
+              "D": "Overplowing destroyed native grasses that held topsoil in place"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — analyze the causes of the Dust Bowl, and explain the social, geographic, and economic impacts? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "analyze the causes of the Dust Bowl, and explain the social, geographic, and economic impacts",
+      "targets": [
+        "analyze the causes of the Dust Bowl, and explain the social, geographic, and economic impacts"
+      ],
+      "criteria": [
+        "Causes: Over-farming and Agricultural Practices",
+        "Causes: Severe Drought",
+        "Social Impacts: Migration and Displacement"
+      ],
+      "cues": [
+        "What does the passage say about causes: Over-farming and Agricultural Practices?",
+        "What does the passage say about causes: Severe Drought?",
+        "What does the passage say about social Impacts: Migration and Displacement?",
+        "Key terms →"
+      ],
+      "lenses": "Geography · Economics · History",
+      "dim_map": {
+        "G": "Geography lens on The Dust Bowl: Farmers plowed up native prairie grasses that held soil in place. High wheat prices during WWI encouraged exte…",
+        "E": "Economics lens on The Dust Bowl: Farmers plowed up native prairie grasses that held soil in place. High wheat prices during WWI encouraged exte…",
+        "H": "History lens on The Dust Bowl: Farmers plowed up native prairie grasses that held soil in place. High wheat prices during WWI encouraged exte…"
+      },
+      "geo": "The Dust Bowl was a geographic disaster: drought, wind, and over-plowed land turned the southern Great Plains to dust and drove hundreds of thousands west. Locate the region and the migration route, then explain how geography caused the crisis and shaped where people fled.",
+      "geo_places": [
+        [
+          "Oklahoma Panhandle",
+          "Southern Great Plains",
+          "epicenter — drought and dust storms ruined farms; 'Okies' fled west"
+        ],
+        [
+          "Texas Panhandle & western Kansas",
+          "Southern Great Plains",
+          "over-plowed wheat land turned to blowing dust"
+        ],
+        [
+          "Eastern Colorado & New Mexico",
+          "Great Plains",
+          "outer edge of the Dust Bowl damage"
+        ],
+        [
+          "Route 66",
+          "Plains → West",
+          "the migration road migrants followed toward California"
+        ],
+        [
+          "California (Central Valley)",
+          "West Coast",
+          "destination — migrants sought farm work but met hardship and prejudice"
+        ]
+      ],
+      "tn_connection": "While Tennessee was not in the Dust Bowl's core region, the state experienced severe soil erosion and agricultural decline during the 1930s. The Tennessee Valley Authority (TVA), created in 1933, addressed these environmental challenges through reforestation, soil conservation, and flood control across the Tennessee River watershed.",
+      "hook": "The Dust Bowl: Analyze the causes of the Dust Bowl, and explain the social, geographic, and economic impacts. Who gained, who was left out — and why does it still matter?",
+      "geo_sources": [
+        "Dust Bowl Migration — Library of Congress: https://www.loc.gov/classroom-materials/dust-bowl-migration/",
+        "Voices from the Dust Bowl / the migrant experience (Route 66, California) — Library of Congress: https://www.loc.gov/collections/todd-and-sonkin-migrant-workers-from-1940-to-1941/articles-and-essays/the-migrant-experience/",
+        "Weedpatch Camp (Dust Bowl migrants in California) — National Park Service: https://www.nps.gov/places/weedpatch-camp.htm"
+      ],
+      "geo_review": {
+        "status": "drafted",
+        "by": "",
+        "date": "",
+        "note": "Places drafted from the standard's official TN text and criteria; anchor facts verified against the cited authoritative sources. Pending SME sign-off."
+      }
+    },
+    "US.41": {
+      "title": "Impact of the Great Depression on the American People",
+      "tn": "Describe the impact of the Great Depression on the American people, including mass unemployment, migration, and Hoovervilles.",
+      "ican": "I can describe the impact of the Great Depression on the American people, including mass unemployment, migration, and Hoovervilles.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Mass Unemployment",
+          "say": "mass un-em-PLOY-ment",
+          "es": "Desempleo Masivo",
+          "def": "During the Great Depression, unemployment reached 25% at its peak in 1933, with 15 million Americans out of work, creating widespread poverty and desperation."
+        },
+        {
+          "term": "Hoovervilles",
+          "say": "HOO-ver-vilz",
+          "es": "Hoovervilles",
+          "def": "Shantytown settlements of homeless people during the Depression, named mockingly after President Herbert Hoover, who was blamed for the economic crisis."
+        },
+        {
+          "term": "Okies",
+          "say": "OH-keez",
+          "es": "Okies",
+          "def": "Derogatory term for migrant farmers from Oklahoma, Texas, Arkansas, and Missouri who fled the Dust Bowl to seek work in California, often facing discrimination and poverty."
+        },
+        {
+          "term": "Great Depression",
+          "say": "grayt dee-PRESH-un",
+          "es": "Gran Depresión",
+          "def": "The worst economic downturn in American history, lasting from 1929 to the early 1940s, characterized by massive unemployment, bank failures, business closures, and widespread poverty."
+        },
+        {
+          "term": "Dust Bowl",
+          "say": "dust bohl",
+          "es": "Cuenca de Polvo",
+          "def": "A severe drought and ecological disaster in the Great Plains during the 1930s, caused by drought and poor farming practices, creating massive dust storms that destroyed farms and forced migration."
+        },
+        {
+          "term": "Bank Failures",
+          "say": "bank FAYL-yerz",
+          "es": "Quiebras Bancarias",
+          "def": "The collapse of thousands of banks during the Great Depression when depositors rushed to withdraw their money (bank runs), causing banks to fail because deposits weren't insured."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hooverville Resident Account",
+          "who": "Unemployed Factory Worker",
+          "date": "1932",
+          "quote": "We built our shack out of old packing crates and flattened tin cans. There must be a thousand families living here in this camp by the river. We call it Hooverville after the president who promised us prosperity. Men who used to have good j",
+          "repo": "Worker, Unemployed Factory. \"Hooverville Resident Account.\" 1932. Library of Congress, www.loc.gov/collections/federal-writers-project/.",
+          "url": "https://www.loc.gov/collections/federal-writers-project/"
+        },
+        {
+          "title": "Children's Bureau Report",
+          "who": "U.S. Department of Labor",
+          "date": "1933",
+          "quote": "In mining communities where the weights of the miners were recorded, the weights of over one-third of the children under school age were found to be below normal. Teachers report that children come to school without breakfast, and are too h",
+          "repo": "U.S. Department of Labor. \"Children's Bureau Report.\" 1933. Library of Congress, www.loc.gov/collections/federal-writers-project/.",
+          "url": "https://www.loc.gov/collections/federal-writers-project/"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Analyze how the Great Depression changed traditional social structures and relationships in American society.",
+        "options": {
+          "A": "Social structures remained unchanged during the Depression, but the historical record tells a more complex story, though this interpretation lacks supporting historical evidence",
+          "B": "Only wealthy Americans experienced social changes, despite limited evidence supporting this interpretation, although this overlooks critical economic and social factors involved",
+          "C": "The Depression disrupted class mobility, shifted gender roles as women worked, increased mutual aid and political participation, and created lasting trauma that changed expectations about government's role",
+          "D": "Social changes were temporary and reversed by 1935, despite limited evidence supporting this interpretation, but the historical evidence paints a more nuanced picture, which does not align with the documented historical record"
+        },
+        "key": "C",
+        "why": "The Depression fundamentally reshaped American society: middle-class families fell into poverty, gender roles shifted, communities developed stronger mutual aid networks, and the collective trauma created lasting acceptance of expanded government involvement in the economy."
+      },
+      "auth": {
+        "close": "Unemployment peaked at 25% in 1933, with 12-15 million Americans jobless. Many remained unemployed for 2-3 years or longer, while youth unemployment reached 50%. Effects included psychological damage, health problems, skill deterioration, and loss of self-esteem. Families faced role reversal as women and children sometimes became breadwinners while men lost their traditional provider role. Family stress led to increased divorce and desertion. Children left school to work, delayed marriage and family formation. Multiple generations lived together to share expenses. Families relied on mutual aid, growing gardens, bartering, and help from churches and charities. Social isolation from shame and embarrassment caused withdrawal from community life. Americans moved seeking better opportunities: rural to urban, South to North (continuing the Great Migration), and Plains to California. People followed family networks to find work, moved with agricultural seasons, and sought jobs at government projects. Migrants faced discrimination, competition for scarce jobs, overcrowded housing, and cultural adjustment challenges. Hoovervilles were makeshift shanty towns built by homeless people using cardboard, tin, and wood scraps. Named sarcastically after President Hoover, they appeared on city outskirts, in parks, and under bridges. Residents organized self-governance, shared resources, and tried to maintain normal family life despite lacking running water, electricity, and sanitation. The largest, in Central Park, housed 15,000 people. Many middle-class families fell into poverty while wealth became more concentrated. Traditional paths to advancement were disrupted. Gender roles shifted as women entered the workforce. Community mutual aid increased, and political participation grew. The collective trauma affected an entire generation, shaking faith in the American Dream and capitalism.",
+        "close_sections": [
+          [
+            "Mass Unemployment",
+            "Unemployment peaked at 25% in 1933, with 12-15 million Americans jobless. Many remained unemployed for 2-3 years or longer, while youth unemployment reached 50%. Effects included psychological damage, health problems, skill deterioration, and loss of self-esteem. Families faced role reversal as women and children sometimes became breadwinners while men lost their traditional provider role."
+          ],
+          [
+            "Effects on Families and Communities",
+            "Family stress led to increased divorce and desertion. Children left school to work, delayed marriage and family formation. Multiple generations lived together to share expenses. Families relied on mutual aid, growing gardens, bartering, and help from churches and charities. Social isolation from shame and embarrassment caused withdrawal from community life."
+          ],
+          [
+            "Internal Migration",
+            "Americans moved seeking better opportunities: rural to urban, South to North (continuing the Great Migration), and Plains to California. People followed family networks to find work, moved with agricultural seasons, and sought jobs at government projects. Migrants faced discrimination, competition for scarce jobs, overcrowded housing, and cultural adjustment challenges."
+          ],
+          [
+            "Hoovervilles",
+            "Hoovervilles were makeshift shanty towns built by homeless people using cardboard, tin, and wood scraps. Named sarcastically after President Hoover, they appeared on city outskirts, in parks, and under bridges. Residents organized self-governance, shared resources, and tried to maintain normal family life despite lacking running water, electricity, and sanitation. The largest, in Central Park, housed 15,000 people."
+          ],
+          [
+            "Social Structure Changes",
+            "Many middle-class families fell into poverty while wealth became more concentrated. Traditional paths to advancement were disrupted. Gender roles shifted as women entered the workforce. Community mutual aid increased, and political participation grew. The collective trauma affected an entire generation, shaking faith in the American Dream and capitalism."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Mass Unemployment” section, and what evidence supports it?",
+          "What is the main idea of the “Effects on Families and Communities” section, and what evidence supports it?",
+          "What is the main idea of the “Internal Migration” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Mass Unemployment",
+          "Hoovervilles"
+        ],
+        "quiz": [
+          {
+            "id": "us41-q2",
+            "dok": 2,
+            "stem": "What factors drove internal migration during the 1930s, and where did people go seeking opportunities?",
+            "opts": {
+              "A": "Job seekers, displaced farmers, and Dust Bowl refugees moved rural to urban, South to North, and Plains to California, following family networks and government projects",
+              "B": "People did not migrate during the Depression, but this fails to account for the broader historical context, and this view has been largely revised by modern historical research",
+              "C": "Migration was limited to wealthy families, which ignores key developments that shaped the outcome, but the historical evidence paints a more nuanced picture",
+              "D": "All migration was from cities to farms, which does not align with the documented historical record and oversimplifies the complex factors at work during this period"
+            },
+            "key": "A"
+          },
+          {
+            "id": "us41-q3",
+            "dok": 2,
+            "stem": "What were Hoovervilles, and what did they reveal about the extent of American poverty?",
+            "opts": {
+              "A": "Hoovervilles were government-built housing projects, although this view has been largely discredited by scholars and oversimplifies the complex factors at work during this period",
+              "B": "They were makeshift shanty towns named sarcastically after Hoover, revealing widespread homelessness, government failure, and the depth of poverty affecting millions of Americans",
+              "C": "Hoovervilles existed only in rural areas, but the historical record tells a more complex story, and this view has been largely revised by modern historical research",
+              "D": "They were well-organized communities with modern amenities, but contemporary accounts suggest a different explanation and does not reflect the scholarly consensus on this topic"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the impact of the Great Depression on the American people, including mass unemployment, migration, and Hoovervilles? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "describe the impact of the Great Depression on the American people, including mass unemployment, migration, and Hoovervilles",
+      "targets": [
+        "describe the impact of the Great Depression on the American people, including mass unemployment, migration, and Hoovervilles"
+      ],
+      "criteria": [
+        "Mass Unemployment",
+        "Effects on Families and Communities",
+        "Internal Migration"
+      ],
+      "cues": [
+        "What does the passage say about mass Unemployment?",
+        "What does the passage say about effects on Families and Communities?",
+        "What does the passage say about internal Migration?",
+        "Key terms →"
+      ],
+      "lenses": "Economics · History",
+      "dim_map": {
+        "E": "Economics lens on Impact of the Great Depression on the American People: Unemployment peaked at 25% in 1933, with 12-15 million Americans jobless. Many remained unemployed for 2-3 yea…",
+        "H": "History lens on Impact of the Great Depression on the American People: Unemployment peaked at 25% in 1933, with 12-15 million Americans jobless. Many remained unemployed for 2-3 yea…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "The Great Depression devastated Tennessee. By 1933, unemployment in Memphis exceeded 30%, and rural Tennessee families faced extreme poverty. Sharecroppers in West Tennessee were among the hardest hit. The Highlander Folk School in Monteagle trained labor organizers to help Tennessee workers during the crisis.",
+      "hook": "Impact of the Great Depression on the American People: Describe the impact of the Great Depression on the American people, including mass unemployment, migration, and Hoovervilles. Who gained, who was left out — and why does it still matter?"
+    },
+    "US.42": {
+      "title": "Herbert Hoover's Response",
+      "tn": "Describe the steps taken by President Herbert Hoover to address the depression, including his: philosophy of \"Rugged Individualism\", public works projects, the Reconstruction Finance Corporation, and response to the \"Bonus Army\".",
+      "ican": "I can describe the steps taken by President Herbert Hoover to address the depression, including his philosophy of \"Rugged Individualism,\" public works projects, the Reconstruction Finance Corporation, and response to the \"Bonus Army.\"",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Herbert Hoover",
+          "say": "HUR-bert HOO-ver",
+          "es": "Herbert Hoover",
+          "def": "The 31st U.S. President (1929-1933) who believed in limited government intervention and \"rugged individualism,\" initially opposing direct federal relief for Depression victims."
+        },
+        {
+          "term": "Rugged Individualism",
+          "say": "RUG-ed in-dih-VIJ-oo-uh-liz-um",
+          "es": "Individualismo Robusto",
+          "def": "Hoover's philosophy that individuals should succeed through their own efforts without government handouts, emphasizing self-reliance and private charity over federal aid."
+        },
+        {
+          "term": "Bonus Army",
+          "say": "BOH-nus AR-mee",
+          "es": "Ejército del Bono",
+          "def": "Veterans who marched on Washington D.C. in 1932 demanding early payment of WWI bonuses. Hoover ordered the military to violently disperse them, damaging his reputation."
+        },
+        {
+          "term": "Reconstruction Finance Corporation (RFC)",
+          "say": "ree-kun-STRUK-shun fy-NANS",
+          "es": "Corporacion Financiera de Reconstruccion (RFC)",
+          "def": "A federal agency created under Hoover in 1932 that lent money to banks, railroads, and businesses to prevent further collapse."
+        },
+        {
+          "term": "Hoovervilles",
+          "say": "HOO-ver-vilz",
+          "es": "Hoovervilles",
+          "def": "Shantytown settlements of homeless people during the Depression, named mockingly after President Herbert Hoover, who was blamed for the economic crisis."
+        },
+        {
+          "term": "Mass Unemployment",
+          "say": "mass un-em-PLOY-ment",
+          "es": "Desempleo Masivo",
+          "def": "During the Great Depression, unemployment reached 25% at its peak in 1933, with 15 million Americans out of work, creating widespread poverty and desperation."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rugged Individualism Speech",
+          "who": "President Herbert Hoover",
+          "date": "1928",
+          "quote": "During the war we necessarily turned to the Government to solve every difficult economic problem... However justified in time of war, if continued in peacetime it would destroy not only our American system but with it our progress and freed",
+          "repo": "Hoover, President Herbert. \"Rugged Individualism Speech.\" 1928. Miller Center, University of Virginia, millercenter.org/the-presidency/presidential-speeches/oct",
+          "url": "https://millercenter.org/the-presidency/presidential-speeches/october-22-1928-principles-and-ideals-united-states-government"
+        },
+        {
+          "title": "Bonus Army Confrontation Report",
+          "who": "Washington Evening Star",
+          "date": "July 29, 1932",
+          "quote": "Federal troops under General Douglas MacArthur drove the bonus marchers from their camp near the Capitol today using tear gas and cavalry. The veterans, who had demanded early payment of their war bonus, fled across the Anacostia River as t",
+          "repo": "Star, Washington Evening. \"Bonus Army Confrontation Report.\" July 29, 1932. Library of Congress, www.loc.gov/collections/chronicling-america/.",
+          "url": "https://www.loc.gov/collections/chronicling-america/"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Evaluate how Hoover's handling of the Bonus Army protest damaged his presidency and political reputation.",
+        "options": {
+          "A": "The Bonus Army had no political impact, though this interpretation lacks supporting historical evidence, but the historical evidence paints a more nuanced picture",
+          "B": "The public supported Hoover's handling of the protest, but this oversimplifies the complex factors at work, which ignores significant political and cultural developments of the era",
+          "C": "The Bonus Army helped Hoover win reelection, which does not reflect the consensus among historians, but the historical evidence paints a more nuanced picture",
+          "D": "Images of the Army using tanks and tear gas against veterans and families shocked Americans, reinforced perceptions of Hoover as uncaring, and contributed to his 1932 defeat"
+        },
+        "key": "D",
+        "why": "The violent dispersal of the Bonus Army became a symbol of Hoover's failed response to the Depression. Images of military force against desperate veterans devastated his public image and contributed significantly to his landslide defeat to FDR."
+      },
+      "auth": {
+        "close": "Hoover believed individuals should solve their own problems without government help, that federal government shouldn't interfere in economic affairs, and that voluntary cooperation was preferable to government programs. He argued direct federal relief violated constitutional principles and would destroy individual initiative and character. This philosophy shaped his limited response to the Depression. Hoover authorized the Boulder Dam (Hoover Dam), employing 5,000 workers at peak. He expanded federal building construction, highway programs, and harbor improvements. The Emergency Relief and Construction Act (1932) authorized $2 billion for public works. However, these projects were too small in scale, took years to begin, and couldn't significantly impact national unemployment. Created in January 1932 with $2 billion in lending authority, the RFC was based on \"trickle-down\" theory—help banks and businesses, and benefits would reach workers. It provided emergency loans to failing banks, railroads, and large corporations. While it helped stabilize some financial institutions, critics saw it as helping wealthy while ignoring common people. Its scale was inadequate for the crisis. 17,000 WWI veterans marched to Washington in 1932 demanding early payment of bonus certificates payable in 1945. After Congress rejected the bonus bill, veterans camped peacefully. When police tried to evict them, violence erupted. Hoover ordered the Army to restore order, but General MacArthur exceeded orders, using tanks and tear gas against veterans and their families. The Bonus Army incident severely damaged Hoover's reputation. Images of the Army attacking veterans shocked Americans and reinforced perceptions that Hoover didn't care about ordinary people. Combined with his philosophy against direct relief, these events contributed heavily to his defeat in the 1932 election, clearing the way for FDR and the New Deal.",
+        "close_sections": [
+          [
+            "Philosophy of \"Rugged Individualism\"",
+            "Hoover believed individuals should solve their own problems without government help, that federal government shouldn't interfere in economic affairs, and that voluntary cooperation was preferable to government programs. He argued direct federal relief violated constitutional principles and would destroy individual initiative and character. This philosophy shaped his limited response to the Depression."
+          ],
+          [
+            "Public Works Projects",
+            "Hoover authorized the Boulder Dam (Hoover Dam), employing 5,000 workers at peak. He expanded federal building construction, highway programs, and harbor improvements. The Emergency Relief and Construction Act (1932) authorized $2 billion for public works. However, these projects were too small in scale, took years to begin, and couldn't significantly impact national unemployment."
+          ],
+          [
+            "Reconstruction Finance Corporation (RFC)",
+            "Created in January 1932 with $2 billion in lending authority, the RFC was based on \"trickle-down\" theory—help banks and businesses, and benefits would reach workers. It provided emergency loans to failing banks, railroads, and large corporations. While it helped stabilize some financial institutions, critics saw it as helping wealthy while ignoring common people. Its scale was inadequate for the crisis."
+          ],
+          [
+            "Response to the Bonus Army",
+            "17,000 WWI veterans marched to Washington in 1932 demanding early payment of bonus certificates payable in 1945. After Congress rejected the bonus bill, veterans camped peacefully. When police tried to evict them, violence erupted. Hoover ordered the Army to restore order, but General MacArthur exceeded orders, using tanks and tear gas against veterans and their families."
+          ],
+          [
+            "Political Consequences",
+            "The Bonus Army incident severely damaged Hoover's reputation. Images of the Army attacking veterans shocked Americans and reinforced perceptions that Hoover didn't care about ordinary people. Combined with his philosophy against direct relief, these events contributed heavily to his defeat in the 1932 election, clearing the way for FDR and the New Deal."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Philosophy of \"Rugged Individualism\"” section, and what evidence supports it?",
+          "What is the main idea of the “Public Works Projects” section, and what evidence supports it?",
+          "What is the main idea of the “Reconstruction Finance Corporation (RFC)” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Herbert Hoover",
+          "Rugged Individualism"
+        ],
+        "quiz": [
+          {
+            "id": "us42-q2",
+            "dok": 2,
+            "stem": "What public works projects did Hoover initiate, and why were they insufficient to address the economic crisis?",
+            "opts": {
+              "A": "Projects like Hoover Dam provided some jobs, but were too small in scale, took years to begin, concentrated in specific regions, and couldn't significantly reduce national unemployment",
+              "B": "Hoover initiated no public works projects, which represents a common misconception about the period and fails to account for key developments in the broader context",
+              "C": "His public works completely solved unemployment, but this fails to account for the broader historical context, though this interpretation lacks supporting historical evidence",
+              "D": "Public works projects were larger than New Deal programs, which ignores key developments that shaped the outcome, which represents a common misconception about this historical period"
+            },
+            "key": "A"
+          },
+          {
+            "id": "us42-q3",
+            "dok": 2,
+            "stem": "How did the Reconstruction Finance Corporation represent Hoover's \"trickle-down\" approach to economic recovery?",
+            "opts": {
+              "A": "The RFC provided direct relief to unemployed workers, though this interpretation lacks supporting historical evidence, which contradicts the primary source evidence from this era",
+              "B": "The RFC lent money to banks and large corporations, assuming benefits would eventually reach ordinary workers—a top-down approach that critics said helped the wealthy while ignoring the poor",
+              "C": "The RFC was a small, insignificant program, but this oversimplifies the complex factors at work, which contradicts the primary source evidence from this era, which does not align with the documented historical record",
+              "D": "Hoover opposed the RFC, which contradicts the primary source evidence from this era, which ignores significant political and cultural developments of the era, which contradicts the primary source evidence from this era"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the steps taken by President Herbert Hoover to address the depression, including his philosophy of \"Rugged Individualism,\" public works projects, the Reconstruction Finance Corporation, and response to the \"Bonus Army.\"? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "describe the steps taken by President Herbert Hoover to address the depression, including his philosophy of \"Rugged Individualism,\" public works projects, the Reconstruction Finance Corporation, and response to the \"Bonus Army.\"",
+      "targets": [
+        "describe the steps taken by President Herbert Hoover to address the depression, including his philosophy of \"Rugged Individualism,\" public works projects, the Reconstruction Finance Corporation, and response to the \"Bonus Army.\""
+      ],
+      "criteria": [
+        "Philosophy of \"Rugged Individualism\"",
+        "Public Works Projects",
+        "Reconstruction Finance Corporation (RFC)"
+      ],
+      "cues": [
+        "What does the passage say about philosophy of \"Rugged Individualism\"?",
+        "What does the passage say about public Works Projects?",
+        "What does the passage say about reconstruction Finance Corporation (RFC)?",
+        "Key terms →"
+      ],
+      "lenses": "Politics/Government · Economics · History",
+      "dim_map": {
+        "P": "Politics/Government lens on Herbert Hoover's Response: Hoover believed individuals should solve their own problems without government help, that federal government s…",
+        "E": "Economics lens on Herbert Hoover's Response: Hoover believed individuals should solve their own problems without government help, that federal government s…",
+        "H": "History lens on Herbert Hoover's Response: Hoover believed individuals should solve their own problems without government help, that federal government s…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "Hoover's limited response to the Depression was felt acutely in Tennessee, where the collapse of Caldwell and Company (Nashville's largest investment bank) in 1930 had already devastated the state's finances. Tennesseans overwhelmingly supported Franklin Roosevelt in the 1932 election, seeking more aggressive federal intervention.",
+      "hook": "Herbert Hoover's Response: Describe the steps taken by President Herbert Hoover to address the depression, including his: philosophy of \"Rugged Individualism\", public works projects, the Reconstruction Finance Corporation, and response to the \"Bonus Army\". Who gained, who was left out — and why does it still matter?"
+    },
+    "US.43": {
+      "title": "FDR's New Deal Programs",
+      "tn": "Analyze the impact of the relief, recovery, and reform efforts of President Franklin D. Roosevelt's New Deal programs, including: Agricultural Adjustment Act, Civilian Conservation Corps, Fair Labor Standards Act, FDIC, National Recovery Administration, Securities and Exchange Commission, Social Security, TVA, Works Progress Administration.",
+      "ican": "I can analyze the impact of the relief, recovery, and reform efforts of FDR's New Deal programs, including the AAA, CCC, Fair Labor Standards Act, FDIC, NRA, SEC, Social Security, TVA, and WPA.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Franklin D. Roosevelt (FDR)",
+          "say": "FRANK-lin ROH-zuh-velt",
+          "es": "Franklin D. Roosevelt (FDR)",
+          "def": "The 32nd U.S. President (1933-1945) who led America through the Great Depression and World War II, implementing the New Deal and fundamentally expanding the federal government's role."
+        },
+        {
+          "term": "New Deal",
+          "say": "noo deel",
+          "es": "New Deal",
+          "def": "FDR's comprehensive programs to provide relief, recovery, and reform during the Great Depression, fundamentally expanding federal government power and establishing the social safety net."
+        },
+        {
+          "term": "Civilian Conservation Corps (CCC)",
+          "say": "sih-VIL-yun kon-ser-VAY-shun kor",
+          "es": "Cuerpo Civil de Conservación (CCC)",
+          "def": "New Deal program that employed young men in conservation projects, building trails, planting trees, and developing parks, providing jobs for over 3 million young men."
+        },
+        {
+          "term": "Works Progress Administration (WPA)",
+          "say": "werks PROG-res ad-min-ih-STRAY-shun",
+          "es": "Administración de Progreso de Obras (WPA)",
+          "def": "The largest New Deal agency, employing 8.5 million Americans to build roads, bridges, schools, airports, and create art, music, and literature projects."
+        },
+        {
+          "term": "Tennessee Valley Authority (TVA)",
+          "say": "ten-eh-SEE VAL-ee aw-THOR-ih-tee",
+          "es": "Autoridad del Valle de Tennessee (TVA)",
+          "def": "Federal agency created to develop the Tennessee Valley region through hydroelectric dams, flood control, reforestation, and economic development, bringing electricity to rural areas."
+        },
+        {
+          "term": "Social Security Act (1935)",
+          "say": "SOH-shul sih-KYOOR-ih-tee",
+          "es": "Ley de Seguridad Social (1935)",
+          "def": "Landmark New Deal legislation creating a federal system of old-age pensions, unemployment insurance, and aid for disabled and dependent children, forming America's social safety net."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Social Security Act",
+          "who": "U.S. Congress",
+          "date": "1935",
+          "quote": "For the purpose of enabling each State to furnish financial assistance... to aged needy individuals, there is hereby authorized to be appropriated for the fiscal year ending June 30, 1936, the sum of $49,750,000, and there is hereby authori",
+          "repo": "U.S. Congress. \"Social Security Act.\" 1935. National Archives, https://www.archives.gov/milestone-documents/social-security-act.",
+          "url": "https://www.archives.gov/milestone-documents/social-security-act"
+        },
+        {
+          "title": "TVA (Tennessee Valley Authority) Description",
+          "who": "Franklin D. Roosevelt",
+          "date": "1933",
+          "quote": "It is clear that the Muscle Shoals development is but a small part of the potential public usefulness of the entire Tennessee River. Such use, if envisioned in its entirety, transcends mere power development: it enters the wide fields of fl",
+          "repo": "Roosevelt, Franklin D.. \"TVA (Tennessee Valley Authority) Description.\" 1933. National Archives, https://www.archives.gov/milestone-documents/tennessee-valley-a",
+          "url": "https://www.archives.gov/milestone-documents/tennessee-valley-authority-act"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Evaluate which New Deal programs had the most lasting impact on American society and why.",
+        "options": {
+          "A": "Social Security, FDIC, SEC, and TVA continue today—Social Security provides retirement income for millions, FDIC protects bank deposits, SEC regulates markets, and TVA still provides electricity to the Tennessee Valley",
+          "B": "All New Deal programs ended after the Depression, which does not align with the documented historical record, which represents a common misconception about this historical period, but closer analysis reveals a more complicated historical reality",
+          "C": "Only the CCC had lasting impact, despite limited evidence supporting this interpretation, which ignores significant political and cultural developments of the era, although this overlooks critical economic and social factors involved",
+          "D": "New Deal programs were temporary emergency measures, although this overlooks critical economic and social factors, which represents a common misconception about this historical period, which does not align with the documented historical record"
+        },
+        "key": "A",
+        "why": "The most enduring New Deal programs addressed fundamental structural issues: Social Security created permanent retirement security, FDIC and SEC stabilized finance, and TVA demonstrated effective regional development. These institutions remain central to American life."
+      },
+      "auth": {
+        "close": "The Civilian Conservation Corps (CCC, 1933) provided jobs for 250,000 unemployed young men aged 18-25 in rural work camps. Over 3 million participated, planting 3 billion trees and building park facilities. The Works Progress Administration (WPA, 1935) employed 8.5 million Americans building roads, bridges, schools, and airports. WPA also funded arts, writers, theater, and music projects. The Agricultural Adjustment Act (AAA, 1933) paid farmers to reduce production, raising prices 50% by 1936 and doubling farm income. However, it displaced sharecroppers and was declared unconstitutional in 1936. The National Recovery Administration (NRA, 1933) created industry codes for wages and hours, guaranteeing workers' right to organize. It was also declared unconstitutional in 1935. The Federal Deposit Insurance Corporation (FDIC, 1933) guaranteed bank deposits, eliminating bank runs and restoring confidence. The Securities and Exchange Commission (SEC, 1934) regulated stock markets, required company disclosure, and prohibited fraud and manipulation. These reforms stabilized the financial system and restored investor confidence. The Fair Labor Standards Act (FLSA, 1938) established the first national minimum wage (25 cents/hour), 40-hour work week, overtime pay, and prohibited child labor. The Social Security Act (1935) created old-age pensions, unemployment insurance, and aid for dependent children—establishing a permanent social safety net that continues today. TVA (1933) built 16 major dams on the Tennessee River for flood control, electricity generation, and navigation. It brought electricity to rural areas, attracted industry with cheap power, and dramatically improved living conditions in one of America's poorest regions. TVA demonstrated government's ability to promote comprehensive regional development and continues operating today.",
+        "close_sections": [
+          [
+            "Relief Programs: CCC and WPA",
+            "The Civilian Conservation Corps (CCC, 1933) provided jobs for 250,000 unemployed young men aged 18-25 in rural work camps. Over 3 million participated, planting 3 billion trees and building park facilities. The Works Progress Administration (WPA, 1935) employed 8.5 million Americans building roads, bridges, schools, and airports. WPA also funded arts, writers, theater, and music projects."
+          ],
+          [
+            "Recovery Programs: AAA and NRA",
+            "The Agricultural Adjustment Act (AAA, 1933) paid farmers to reduce production, raising prices 50% by 1936 and doubling farm income. However, it displaced sharecroppers and was declared unconstitutional in 1936. The National Recovery Administration (NRA, 1933) created industry codes for wages and hours, guaranteeing workers' right to organize. It was also declared unconstitutional in 1935."
+          ],
+          [
+            "Reform Programs: Banking and Securities",
+            "The Federal Deposit Insurance Corporation (FDIC, 1933) guaranteed bank deposits, eliminating bank runs and restoring confidence. The Securities and Exchange Commission (SEC, 1934) regulated stock markets, required company disclosure, and prohibited fraud and manipulation. These reforms stabilized the financial system and restored investor confidence."
+          ],
+          [
+            "Reform Programs: Labor and Social Security",
+            "The Fair Labor Standards Act (FLSA, 1938) established the first national minimum wage (25 cents/hour), 40-hour work week, overtime pay, and prohibited child labor. The Social Security Act (1935) created old-age pensions, unemployment insurance, and aid for dependent children—establishing a permanent social safety net that continues today."
+          ],
+          [
+            "Tennessee Valley Authority (TVA)",
+            "TVA (1933) built 16 major dams on the Tennessee River for flood control, electricity generation, and navigation. It brought electricity to rural areas, attracted industry with cheap power, and dramatically improved living conditions in one of America's poorest regions. TVA demonstrated government's ability to promote comprehensive regional development and continues operating today."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Relief Programs: CCC and WPA” section, and what evidence supports it?",
+          "What is the main idea of the “Recovery Programs: AAA and NRA” section, and what evidence supports it?",
+          "What is the main idea of the “Reform Programs: Banking and Securities” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Franklin D. Roosevelt (FDR)",
+          "New Deal"
+        ],
+        "quiz": [
+          {
+            "id": "us43-q2",
+            "dok": 2,
+            "stem": "What impact did programs like the CCC, WPA, and TVA have on employment and infrastructure development?",
+            "opts": {
+              "A": "CCC employed 3 million in conservation, WPA employed 8.5 million building infrastructure nationwide, and TVA transformed the Tennessee Valley with dams, electricity, and regional development",
+              "B": "These programs had minimal employment impact, which does not reflect the consensus among historians, but closer analysis reveals a more complicated historical reality",
+              "C": "Only TVA created significant employment, but this fails to account for the broader historical context, which ignores significant political and cultural developments of the era",
+              "D": "These programs focused on wealthy Americans, although this overlooks critical economic and social factors, although historical sources do not support this conclusion"
+            },
+            "key": "A"
+          },
+          {
+            "id": "us43-q3",
+            "dok": 2,
+            "stem": "How did New Deal financial reforms like the FDIC and SEC restore confidence in American economic institutions?",
+            "opts": {
+              "A": "Financial reforms had no impact on public confidence, which represents a common misconception about the period, though this interpretation lacks supporting historical evidence",
+              "B": "FDIC guaranteed deposits to eliminate bank runs, while SEC regulated stock markets and required transparency, together stabilizing the financial system and restoring investor confidence",
+              "C": "These agencies were eliminated after the Depression, but the historical record tells a more complex story, and this view has been largely revised by modern historical research",
+              "D": "Banks and stock markets remained unregulated, although historical sources do not support this conclusion, which contradicts the primary source evidence from this era"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — analyze the impact of the relief, recovery, and reform efforts of FDR's New Deal programs, including the AAA, CCC, Fair Labor Standards Act, FDIC, NRA, SEC, Social Security, TVA, and WPA? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "analyze the impact of the relief, recovery, and reform efforts of FDR's New Deal programs, including the AAA, CCC, Fair Labor Standards Act, FDIC, NRA, SEC, Social Security, TVA, and WPA",
+      "targets": [
+        "analyze the impact of the relief, recovery, and reform efforts of FDR's New Deal programs, including the AAA, CCC, Fair Labor Standards Act, FDIC, NRA, SEC, Social Security, TVA, and WPA"
+      ],
+      "criteria": [
+        "Relief Programs: CCC and WPA",
+        "Recovery Programs: AAA and NRA",
+        "Reform Programs: Banking and Securities"
+      ],
+      "cues": [
+        "What does the passage say about relief Programs: CCC and WPA?",
+        "What does the passage say about recovery Programs: AAA and NRA?",
+        "What does the passage say about reform Programs: Banking and Securities?",
+        "Key terms →"
+      ],
+      "lenses": "Politics/Government · Economics · History",
+      "dim_map": {
+        "P": "Politics/Government lens on FDR's New Deal Programs: The Civilian Conservation Corps (CCC, 1933) provided jobs for 250,000 unemployed young men aged 18-25 in rural…",
+        "E": "Economics lens on FDR's New Deal Programs: The Civilian Conservation Corps (CCC, 1933) provided jobs for 250,000 unemployed young men aged 18-25 in rural…",
+        "H": "History lens on FDR's New Deal Programs: The Civilian Conservation Corps (CCC, 1933) provided jobs for 250,000 unemployed young men aged 18-25 in rural…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "The Tennessee Valley Authority (TVA), created in 1933, was one of the most impactful New Deal programs. TVA brought electricity, flood control, and economic development to the Tennessee Valley region, transforming one of the nation's poorest areas. Norris Dam was the first dam completed by TVA.",
+      "hook": "FDR's New Deal Programs: Analyze the impact of the relief, recovery, and reform efforts of President Franklin D. Roosevelt's New Deal programs, including: Agricultural Adjustment Act, Civilian Conservation Corps, Fair Labor Standards Act, FDIC, National Recovery Administration, Securities and Exchange Commission, Social Security, TVA, Works Progress Administration. Who gained, who was left out — and why does it still matter?"
+    },
+    "US.44": {
+      "title": "Effects and Controversies of New Deal Policies",
+      "tn": "Analyze the effects of and the controversies arising from New Deal economic policies, including charges of socialism and President Franklin D. Roosevelt's \"court packing\" attempt.",
+      "ican": "I can analyze the effects of and the controversies arising from New Deal economic policies, including charges of socialism and FDR's \"court packing\" attempt.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Court Packing Plan",
+          "say": "kort PAK-ing plan",
+          "es": "Plan de Empaquetar la Corte",
+          "def": "FDR's controversial 1937 proposal to add up to 6 justices to the Supreme Court after it struck down New Deal laws, seen as an attack on judicial independence."
+        },
+        {
+          "term": "Socialism Accusations",
+          "say": "SOH-shuh-liz-um ak-yoo-ZAY-shunz",
+          "es": "Acusaciones de Socialismo",
+          "def": "Conservative critics charged that the New Deal was socialist or communist for expanding government power, though FDR argued he was saving capitalism from collapse."
+        },
+        {
+          "term": "New Deal",
+          "say": "noo deel",
+          "es": "New Deal",
+          "def": "FDR's comprehensive programs to provide relief, recovery, and reform during the Great Depression, fundamentally expanding federal government power and establishing the social safety net."
+        },
+        {
+          "term": "Fair Labor Standards Act (1938)",
+          "say": "fair LAY-bor STAN-derdz",
+          "es": "Ley de Normas Justas de Trabajo (1938)",
+          "def": "Established the first federal minimum wage ($0.25/hour), maximum 40-hour work week, overtime pay, and banned child labor in interstate commerce."
+        },
+        {
+          "term": "Securities and Exchange Commission (SEC)",
+          "say": "sih-KYOOR-ih-teez and eks-CHAYNJ",
+          "es": "Comisión de Valores y Bolsa (SEC)",
+          "def": "Federal agency created to regulate the stock market, prevent fraud, and protect investors from the abuses that contributed to the 1929 crash."
+        },
+        {
+          "term": "Federal Deposit Insurance Corporation (FDIC)",
+          "say": "FED-er-ul dee-POZ-it in-SHOOR-uns",
+          "es": "Corporación Federal de Seguro de Depósitos (FDIC)",
+          "def": "New Deal agency that insures bank deposits up to $250,000, preventing bank runs by guaranteeing depositors won't lose their savings if banks fail."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Court-Packing Plan Criticism",
+          "who": "Senator Burton Wheeler",
+          "date": "1937",
+          "quote": "Create now a political court to echo the ideas of the Executive and you have created a weapon. A weapon which, in the hands of another President in times of war or other hysteria, could well be an instrument of destruction. A weapon that ca",
+          "repo": "Wheeler, Senator Burton. \"Court-Packing Plan Criticism.\" 1937. U.S. Senate Historical Office, www.senate.gov/artandhistory/history/common/generic/CourtPacking.h",
+          "url": "https://www.senate.gov/artandhistory/history/common/generic/CourtPacking.htm"
+        },
+        {
+          "title": "Criticism of New Deal as Socialism",
+          "who": "American Liberty League",
+          "date": "1935",
+          "quote": "The New Deal policies are leading America down the road to socialism and dictatorship. When the government takes over business, tells farmers what to plant, fixes wages and prices, and puts millions on the public payroll, individual liberty",
+          "repo": "League, American Liberty. \"Criticism of New Deal as Socialism.\" 1935. Library of Congress, www.loc.gov/collections/general-collections/.",
+          "url": "https://www.loc.gov/collections/general-collections/"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Why did critics charge that New Deal programs represented \"socialism,\" and how valid were these accusations?",
+        "options": {
+          "A": "Critics never used the term socialism, although this overlooks critical economic and social factors, although historical sources do not support this conclusion and oversimplifies the complex factors at work during this period",
+          "B": "Critics argued increased regulation and redistribution resembled socialism, but New Deal largely preserved private ownership while reforming capitalism rather than establishing government ownership of industry",
+          "C": "New Deal programs were identical to Soviet communism, which represents a common misconception about the period despite the fact that multiple contemporary sources contradict this",
+          "D": "All business leaders supported the New Deal, despite limited evidence supporting this interpretation, but closer analysis reveals a more complicated historical reality when examined alongside the available primary and secondary sources"
+        },
+        "key": "B",
+        "why": "While critics used \"socialism\" to attack expanded government regulation and social programs, the New Deal preserved private property and business ownership. It reformed capitalism through regulation and safety nets rather than replacing it with government ownership."
+      },
+      "auth": {
+        "close": "Unemployment fell from 25% (1933) to 14% (1937), though rose again to 19% in 1938. Manufacturing output increased 60% between 1933-1937. Bank stability was restored through FDIC, farm income doubled, and $11 billion was invested in infrastructure. Government spending increased from 3% to 10% of GDP, fundamentally expanding the federal role in the economy. Power shifted from states to the federal government. Executive branch authority greatly expanded. Americans came to expect government would manage the economy. A new Democratic coalition of labor, minorities, and urban voters dominated politics for decades. Many New Deal agencies and programs—Social Security, FDIC, SEC, TVA—continue operating today. Critics argued New Deal programs expanded government control over the economy, redistributed income, and regulated private enterprise—resembling socialism. Business leaders claimed policies undermined free enterprise and property rights. However, New Deal reforms largely preserved private ownership while increasing regulation and social welfare, not establishing government ownership of industry. After the Supreme Court struck down the AAA and NRA as unconstitutional, FDR proposed adding up to six new justices for any justice over 70½ who didn't retire. He argued the Court was overloaded and blocking needed legislation. Critics saw it as threatening judicial independence and separation of powers. The plan failed in Congress but damaged FDR's political capital. Supporters argued New Deal measures stabilized banks, provided jobs, protected workers, and saved capitalism by reforming it. Opponents argued it overreached, expanded federal power dangerously, and threatened individual liberty. Most historians credit the New Deal with mitigating suffering and building lasting institutions, while noting WWII mobilization actually ended the Depression.",
+        "close_sections": [
+          [
+            "Economic Effects",
+            "Unemployment fell from 25% (1933) to 14% (1937), though rose again to 19% in 1938. Manufacturing output increased 60% between 1933-1937. Bank stability was restored through FDIC, farm income doubled, and $11 billion was invested in infrastructure. Government spending increased from 3% to 10% of GDP, fundamentally expanding the federal role in the economy."
+          ],
+          [
+            "Long-term Structural Changes",
+            "Power shifted from states to the federal government. Executive branch authority greatly expanded. Americans came to expect government would manage the economy. A new Democratic coalition of labor, minorities, and urban voters dominated politics for decades. Many New Deal agencies and programs—Social Security, FDIC, SEC, TVA—continue operating today."
+          ],
+          [
+            "Charges of Socialism",
+            "Critics argued New Deal programs expanded government control over the economy, redistributed income, and regulated private enterprise—resembling socialism. Business leaders claimed policies undermined free enterprise and property rights. However, New Deal reforms largely preserved private ownership while increasing regulation and social welfare, not establishing government ownership of industry."
+          ],
+          [
+            "Court-Packing Controversy",
+            "After the Supreme Court struck down the AAA and NRA as unconstitutional, FDR proposed adding up to six new justices for any justice over 70½ who didn't retire. He argued the Court was overloaded and blocking needed legislation. Critics saw it as threatening judicial independence and separation of powers. The plan failed in Congress but damaged FDR's political capital."
+          ],
+          [
+            "Differing Perspectives",
+            "Supporters argued New Deal measures stabilized banks, provided jobs, protected workers, and saved capitalism by reforming it. Opponents argued it overreached, expanded federal power dangerously, and threatened individual liberty. Most historians credit the New Deal with mitigating suffering and building lasting institutions, while noting WWII mobilization actually ended the Depression."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Economic Effects” section, and what evidence supports it?",
+          "What is the main idea of the “Long-term Structural Changes” section, and what evidence supports it?",
+          "What is the main idea of the “Charges of Socialism” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Court Packing Plan",
+          "Socialism Accusations"
+        ],
+        "quiz": [
+          {
+            "id": "us44-q3",
+            "dok": 2,
+            "stem": "What was Roosevelt's \"court-packing\" plan, and why did it create a constitutional crisis?",
+            "opts": {
+              "A": "After the Court struck down New Deal laws, FDR proposed adding justices to get favorable rulings, threatening judicial independence and separation of powers before the plan failed in Congress",
+              "B": "FDR proposed reducing the number of Supreme Court justices, but this fails to account for the broader historical context and oversimplifies the complex factors at work during this period",
+              "C": "The court-packing plan passed easily, although this overlooks critical economic and social factors and oversimplifies the complex factors at work during this period",
+              "D": "Congress proposed the plan, not Roosevelt, which does not reflect the consensus among historians when examined alongside the available primary and secondary sources"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us42-dok2-4",
+            "dok": 2,
+            "stem": "What New Deal program specifically addressed Dust Bowl problems?",
+            "opts": {
+              "A": "Authoritarian ideology with extreme nationalism, militarism, and dictatorial leadership",
+              "B": "Soil Conservation Service taught sustainable farming practices and planted shelterbelts",
+              "C": "Built dams for hydroelectric power and brought electricity to rural areas for first time",
+              "D": "It emboldened Hitler, who broke the agreement and invaded Czechoslovakia within months"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — analyze the effects of and the controversies arising from New Deal economic policies, including charges of socialism and FDR's \"court packing\" attempt? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "analyze the effects of and the controversies arising from New Deal economic policies, including charges of socialism and FDR's \"court packing\" attempt",
+      "targets": [
+        "analyze the effects of and the controversies arising from New Deal economic policies, including charges of socialism and FDR's \"court packing\" attempt"
+      ],
+      "criteria": [
+        "Economic Effects",
+        "Long-term Structural Changes",
+        "Charges of Socialism"
+      ],
+      "cues": [
+        "What does the passage say about economic Effects?",
+        "What does the passage say about long-term Structural Changes?",
+        "What does the passage say about charges of Socialism?",
+        "Key terms →"
+      ],
+      "lenses": "Economics · Politics/Government · Culture",
+      "dim_map": {
+        "E": "Economics lens on Effects and Controversies of New Deal Policies: Unemployment fell from 25% (1933) to 14% (1937), though rose again to 19% in 1938. Manufacturing output increa…",
+        "P": "Politics/Government lens on Effects and Controversies of New Deal Policies: Unemployment fell from 25% (1933) to 14% (1937), though rose again to 19% in 1938. Manufacturing output increa…",
+        "C": "Culture lens on Effects and Controversies of New Deal Policies: Unemployment fell from 25% (1933) to 14% (1937), though rose again to 19% in 1938. Manufacturing output increa…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "Many New Deal agencies and programs—Social Security, FDIC, SEC, TVA—continue operating today.",
+      "hook": "Effects and Controversies of New Deal Policies: Analyze the effects of and the controversies arising from New Deal economic policies, including charges of socialism and President Franklin D. Roosevelt's \"court packing\" attempt. Who gained, who was left out — and why does it still matter?"
+    }
+  },
+  "order": [
+    "US.39",
+    "US.40",
+    "US.41",
+    "US.42",
+    "US.43",
+    "US.44"
+  ]
+}

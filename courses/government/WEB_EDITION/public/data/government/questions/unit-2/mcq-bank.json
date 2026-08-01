@@ -1,0 +1,1133 @@
+{
+  "_schema": "tn-assessment-specialist / tcap-item-writer-v2 schema (Government adaptation). Scaled Unit 2 MCQ bank across DOK 1–3. Classroom-formative · pre-field-test.",
+  "subject": "government",
+  "unit": 2,
+  "count": 20,
+  "items": [
+    {
+      "id": "GC.31-U2Q01",
+      "standard": "GC.31",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 1,
+      "blooms": "Remember",
+      "dokRationale": "Recalls which listed act is a legal duty.",
+      "bloomsRationale": "Student recognizes a fact from the standard.",
+      "question": "Which action is a legal duty of U.S. citizens rather than a voluntary act?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "Serving on a jury if summoned",
+        "B": "Volunteering weekly at a food bank",
+        "C": "Joining a political party campaign",
+        "D": "Attending a city council meeting"
+      },
+      "correctAnswer": "A",
+      "distractorTags": {
+        "A": null,
+        "B": "PE",
+        "C": "NE",
+        "D": "PE"
+      },
+      "distractorRationales": {
+        "A": "Correct — jury duty is a legal obligation when summoned.",
+        "B": "Voluntary service, not a legal duty.",
+        "C": "Voluntary participation, not required.",
+        "D": "Voluntary civic engagement, not a duty."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "C",
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.31",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.31",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.31"
+      }
+    },
+    {
+      "id": "GC.31-U2Q02",
+      "standard": "GC.31",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Explains why a duty matters, not just recall.",
+      "bloomsRationale": "Student explains a civic relationship.",
+      "question": "Why is paying taxes considered essential to the well-being of the nation?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "It replaces the need for any voting",
+        "B": "It funds public services and national defense",
+        "C": "It guarantees a citizen a public office",
+        "D": "It removes the duty to obey the laws"
+      },
+      "correctAnswer": "B",
+      "distractorTags": {
+        "A": "MC",
+        "B": null,
+        "C": "PE",
+        "D": "MC"
+      },
+      "distractorRationales": {
+        "A": "Misconception — taxes do not replace voting.",
+        "B": "Correct — taxes fund shared services and defense.",
+        "C": "Plausible error — taxes do not buy office.",
+        "D": "Misconception — taxes do not remove legal duties."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "C",
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.31",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.31",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.31"
+      }
+    },
+    {
+      "id": "GC.31-U2Q03",
+      "standard": "GC.31",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 1,
+      "blooms": "Remember",
+      "dokRationale": "Recalls a voting requirement.",
+      "bloomsRationale": "Student identifies a factual requirement.",
+      "question": "Which requirement must a person meet to register to vote in Tennessee?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "Belong to a political party",
+        "B": "Own property in the county",
+        "C": "Be eighteen years of age",
+        "D": "Pass a national civics exam"
+      },
+      "correctAnswer": "C",
+      "distractorTags": {
+        "A": "MC",
+        "B": "MC",
+        "C": null,
+        "D": "MC"
+      },
+      "distractorRationales": {
+        "A": "Misconception — party membership is not required.",
+        "B": "Misconception — no property requirement exists.",
+        "C": "Correct — 18, U.S. citizenship, and residency are required.",
+        "D": "Misconception — civics/literacy tests are prohibited."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "C",
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.31",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.31",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.31"
+      }
+    },
+    {
+      "id": "GC.31-U2Q04",
+      "standard": "GC.31",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Explains a consequence of non-voting.",
+      "bloomsRationale": "Student explains cause and effect.",
+      "question": "What is one likely impact when many eligible citizens choose not to vote?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "Jury duty is no longer legally required",
+        "B": "The winning candidate must resign at once",
+        "C": "Taxes are automatically canceled that year",
+        "D": "Results represent fewer people's real views"
+      },
+      "correctAnswer": "D",
+      "distractorTags": {
+        "A": "NE",
+        "B": "MC",
+        "C": "MC",
+        "D": null
+      },
+      "distractorRationales": {
+        "A": "Near miss — an unrelated duty.",
+        "B": "Misconception — no resignation results.",
+        "C": "Misconception — taxes are unaffected.",
+        "D": "Correct — low turnout narrows whose views count."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.05",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "C",
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.31",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.31",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.31"
+      }
+    },
+    {
+      "id": "GC.31-U2Q05",
+      "standard": "GC.31",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Explains the civic meaning of service.",
+      "bloomsRationale": "Student classifies a responsibility.",
+      "question": "Serving in the military or performing alternative service is best described as:",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "a way to serve the nation",
+        "B": "a punishment for breaking the law",
+        "C": "a requirement to hold any job",
+        "D": "a substitute for paying all taxes"
+      },
+      "correctAnswer": "A",
+      "distractorTags": {
+        "A": null,
+        "B": "MC",
+        "C": "PE",
+        "D": "PE"
+      },
+      "distractorRationales": {
+        "A": "Correct — service is a civic contribution.",
+        "B": "Misconception — it is not a punishment.",
+        "C": "Plausible error — not a job requirement.",
+        "D": "Plausible error — it does not replace taxes."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "C",
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.31",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.31",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.31"
+      }
+    },
+    {
+      "id": "GC.32-U2Q01",
+      "standard": "GC.32",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 1,
+      "blooms": "Remember",
+      "dokRationale": "Recalls the U.S. party structure.",
+      "bloomsRationale": "Student recognizes a fact.",
+      "question": "The United States is best described as having what kind of party system?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "A one-party system",
+        "B": "A two-party system",
+        "C": "A no-party system",
+        "D": "A four-party system"
+      },
+      "correctAnswer": "B",
+      "distractorTags": {
+        "A": "NE",
+        "B": null,
+        "C": "MC",
+        "D": "PE"
+      },
+      "distractorRationales": {
+        "A": "Near miss — describes authoritarian states.",
+        "B": "Correct — two major parties dominate U.S. politics.",
+        "C": "Misconception — parties do exist.",
+        "D": "Plausible error — not four dominant parties."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.32",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.32",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.32"
+      }
+    },
+    {
+      "id": "GC.32-U2Q02",
+      "standard": "GC.32",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Explains a distinction between two processes.",
+      "bloomsRationale": "Student contrasts two concepts.",
+      "question": "What is the main difference between an open and a closed primary?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "How many candidates may enter it",
+        "B": "When the votes are finally counted up",
+        "C": "Who may vote in the primary election",
+        "D": "Where the polling places are set up"
+      },
+      "correctAnswer": "C",
+      "distractorTags": {
+        "A": "NE",
+        "B": "PE",
+        "C": null,
+        "D": "PE"
+      },
+      "distractorRationales": {
+        "A": "Near miss — candidate count is unrelated.",
+        "B": "Plausible error — timing is not the difference.",
+        "C": "Correct — open lets any voter; closed limits to party members.",
+        "D": "Plausible error — location is not the difference."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.32",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.32",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.32"
+      }
+    },
+    {
+      "id": "GC.32-U2Q03",
+      "standard": "GC.32",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 1,
+      "blooms": "Remember",
+      "dokRationale": "Recalls the definition of a caucus.",
+      "bloomsRationale": "Student defines a term.",
+      "question": "In the presidential nomination process, a caucus is a:",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "tax paid by each new candidate here",
+        "B": "national holiday set for all voters",
+        "C": "court that settles election disputes",
+        "D": "meeting where members pick a candidate"
+      },
+      "correctAnswer": "D",
+      "distractorTags": {
+        "A": "MC",
+        "B": "MC",
+        "C": "NE",
+        "D": null
+      },
+      "distractorRationales": {
+        "A": "Misconception — not a tax.",
+        "B": "Misconception — not a holiday.",
+        "C": "Near miss — courts are unrelated.",
+        "D": "Correct — a local meeting to select a candidate."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.32",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.32",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.32"
+      }
+    },
+    {
+      "id": "GC.32-U2Q04",
+      "standard": "GC.32",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 3,
+      "blooms": "Analyze",
+      "dokRationale": "Analyzes a cause of the two-party structure.",
+      "bloomsRationale": "Student examines a causal relationship.",
+      "question": "Why do winner-take-all elections help keep the two-party system in place?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "Small parties rarely win any seats outright",
+        "B": "A law bans the forming of new parties",
+        "C": "A firm rule requires two parties",
+        "D": "A tax is charged to every third party"
+      },
+      "correctAnswer": "A",
+      "distractorTags": {
+        "A": null,
+        "B": "MC",
+        "C": "MC",
+        "D": "MC"
+      },
+      "distractorRationales": {
+        "A": "Correct — winner-take-all shuts out small parties, favoring two.",
+        "B": "Misconception — no ban on parties.",
+        "C": "Misconception — no two-party rule exists.",
+        "D": "Misconception — no such tax."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.32",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.32",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.32"
+      }
+    },
+    {
+      "id": "GC.32-U2Q05",
+      "standard": "GC.32",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Explains a distinction between election types.",
+      "bloomsRationale": "Student contrasts two processes.",
+      "question": "How does a general election differ from a primary election?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "It selects each party's own single nominee",
+        "B": "It chooses officials between parties' nominees",
+        "C": "It counts only the early caucus results",
+        "D": "It is open only to elected officials now"
+      },
+      "correctAnswer": "B",
+      "distractorTags": {
+        "A": "NE",
+        "B": null,
+        "C": "PE",
+        "D": "MC"
+      },
+      "distractorRationales": {
+        "A": "Near miss — that describes a primary.",
+        "B": "Correct — the general election decides among nominees.",
+        "C": "Plausible error — caucuses are separate.",
+        "D": "Misconception — general elections are open to voters."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.32",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.32",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.32"
+      }
+    },
+    {
+      "id": "GC.33-U2Q01",
+      "standard": "GC.33",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 1,
+      "blooms": "Remember",
+      "dokRationale": "Recalls the purpose of a poll.",
+      "bloomsRationale": "Student identifies a function.",
+      "question": "A public opinion poll is used mainly to:",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "write the new laws for the states",
+        "B": "elect the president of the country now",
+        "C": "measure what people think about issues",
+        "D": "count the votes on election day here"
+      },
+      "correctAnswer": "C",
+      "distractorTags": {
+        "A": "MC",
+        "B": "MC",
+        "C": null,
+        "D": "NE"
+      },
+      "distractorRationales": {
+        "A": "Misconception — polls do not make law.",
+        "B": "Misconception — polls do not elect anyone.",
+        "C": "Correct — polls sample public opinion.",
+        "D": "Near miss — vote counting is separate."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D3",
+      "sspAlignment": "SSP.02",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.33",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.33",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.33"
+      }
+    },
+    {
+      "id": "GC.33-U2Q02",
+      "standard": "GC.33",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Explains how a design choice affects data.",
+      "bloomsRationale": "Student explains cause and effect.",
+      "question": "How can the wording of a poll question affect its results?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "Only the poll's date changes the results",
+        "B": "Wording has no effect on the responses",
+        "C": "Longer questions get more correct answers",
+        "D": "Biased wording can push certain answers"
+      },
+      "correctAnswer": "D",
+      "distractorTags": {
+        "A": "PE",
+        "B": "MC",
+        "C": "PE",
+        "D": null
+      },
+      "distractorRationales": {
+        "A": "Plausible error — date is not the driver.",
+        "B": "Misconception — wording clearly matters.",
+        "C": "Plausible error — length is not the issue.",
+        "D": "Correct — loaded wording skews responses."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D3",
+      "sspAlignment": "SSP.02",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.33",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.33",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.33"
+      }
+    },
+    {
+      "id": "GC.33-U2Q03",
+      "standard": "GC.33",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Explains the meaning of a key term.",
+      "bloomsRationale": "Student defines a concept.",
+      "question": "What does the term 'media bias' describe?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "Slanted coverage that favors one side",
+        "B": "The total number of news channels now",
+        "C": "A tax placed on all of the newspapers",
+        "D": "The rule that reporters must go vote"
+      },
+      "correctAnswer": "A",
+      "distractorTags": {
+        "A": null,
+        "B": "NE",
+        "C": "MC",
+        "D": "MC"
+      },
+      "distractorRationales": {
+        "A": "Correct — bias is one-sided coverage.",
+        "B": "Near miss — channel count is unrelated.",
+        "C": "Misconception — not a tax.",
+        "D": "Misconception — no such rule."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.02",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.33",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.33",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.33"
+      }
+    },
+    {
+      "id": "GC.33-U2Q04",
+      "standard": "GC.33",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Explains a civic function of the media.",
+      "bloomsRationale": "Student identifies a role.",
+      "question": "One important role of the media in a democracy is to:",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "choose the winners of every election",
+        "B": "inform the public about government actions",
+        "C": "collect the taxes from all news readers",
+        "D": "write the laws that are passed by Congress"
+      },
+      "correctAnswer": "B",
+      "distractorTags": {
+        "A": "MC",
+        "B": null,
+        "C": "MC",
+        "D": "MC"
+      },
+      "distractorRationales": {
+        "A": "Misconception — media does not elect officials.",
+        "B": "Correct — the media informs citizens (a watchdog role).",
+        "C": "Misconception — media does not tax.",
+        "D": "Misconception — media does not legislate."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.33",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.33",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.33"
+      }
+    },
+    {
+      "id": "GC.33-U2Q05",
+      "standard": "GC.33",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 3,
+      "blooms": "Analyze",
+      "dokRationale": "Analyzes how wording biases a result.",
+      "bloomsRationale": "Student evaluates a source flaw.",
+      "question": "A poll asks, 'Do you support wasteful government spending?' Why might its results mislead?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "The sample was clearly far too large",
+        "B": "Polls cannot measure any real opinion",
+        "C": "The loaded word 'wasteful' invites a No",
+        "D": "People answer every poll the same way"
+      },
+      "correctAnswer": "C",
+      "distractorTags": {
+        "A": "PE",
+        "B": "MC",
+        "C": null,
+        "D": "MC"
+      },
+      "distractorRationales": {
+        "A": "Plausible error — sample size is not the flaw.",
+        "B": "Misconception — polls can measure opinion.",
+        "C": "Correct — the loaded word biases the answer.",
+        "D": "Misconception — responses vary."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D3",
+      "sspAlignment": "SSP.02",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.33",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.33",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.33"
+      }
+    },
+    {
+      "id": "GC.34-U2Q01",
+      "standard": "GC.34",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 1,
+      "blooms": "Remember",
+      "dokRationale": "Recalls a form of participation.",
+      "bloomsRationale": "Student recognizes an example.",
+      "question": "Which of these is a way citizens participate in the political process?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "Buying groceries at the local store",
+        "B": "Watching television purely for fun",
+        "C": "Paying a monthly cell phone bill",
+        "D": "Signing a petition for a cause"
+      },
+      "correctAnswer": "D",
+      "distractorTags": {
+        "A": "MC",
+        "B": "NE",
+        "C": "MC",
+        "D": null
+      },
+      "distractorRationales": {
+        "A": "Misconception — a private activity.",
+        "B": "Near miss — entertainment is not participation.",
+        "C": "Misconception — a private expense.",
+        "D": "Correct — petitioning is political participation."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D4",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.34",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.34",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.34"
+      }
+    },
+    {
+      "id": "GC.34-U2Q02",
+      "standard": "GC.34",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 1,
+      "blooms": "Remember",
+      "dokRationale": "Recalls the definition of lobbying.",
+      "bloomsRationale": "Student defines a term.",
+      "question": "Lobbying is best defined as:",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "trying to influence officials' decisions",
+        "B": "voting once in a national election",
+        "C": "serving a full sentence in a prison",
+        "D": "paying yearly taxes to the government"
+      },
+      "correctAnswer": "A",
+      "distractorTags": {
+        "A": null,
+        "B": "NE",
+        "C": "MC",
+        "D": "PE"
+      },
+      "distractorRationales": {
+        "A": "Correct — lobbying seeks to influence officials.",
+        "B": "Near miss — voting is separate.",
+        "C": "Misconception — unrelated to lobbying.",
+        "D": "Plausible error — a duty, not lobbying."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.34",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.34",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.34"
+      }
+    },
+    {
+      "id": "GC.34-U2Q03",
+      "standard": "GC.34",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Explains the purpose of direct-democracy tools.",
+      "bloomsRationale": "Student explains a shared function.",
+      "question": "What is the shared purpose of an initiative, a referendum, and a recall?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "To choose the U.S. Supreme Court justices",
+        "B": "To let citizens shape laws more directly",
+        "C": "To collect extra taxes from the states",
+        "D": "To declare a war on other foreign nations"
+      },
+      "correctAnswer": "B",
+      "distractorTags": {
+        "A": "MC",
+        "B": null,
+        "C": "NE",
+        "D": "MC"
+      },
+      "distractorRationales": {
+        "A": "Misconception — courts are unrelated.",
+        "B": "Correct — these tools give voters direct influence.",
+        "C": "Near miss — taxation is separate.",
+        "D": "Misconception — unrelated to war powers."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D4",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.34",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.34",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.34"
+      }
+    },
+    {
+      "id": "GC.34-U2Q04",
+      "standard": "GC.34",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Explains how a tool broadens participation.",
+      "bloomsRationale": "Student explains a civic mechanism.",
+      "question": "How does a recall election increase citizen participation?",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "It bans all of the future elections",
+        "B": "It doubles the yearly salary of officials",
+        "C": "It lets voters remove an official early",
+        "D": "It appoints new judges without a vote"
+      },
+      "correctAnswer": "C",
+      "distractorTags": {
+        "A": "MC",
+        "B": "MC",
+        "C": null,
+        "D": "NE"
+      },
+      "distractorRationales": {
+        "A": "Misconception — it does not ban elections.",
+        "B": "Misconception — unrelated to pay.",
+        "C": "Correct — voters can remove an official before term's end.",
+        "D": "Near miss — appointments are separate."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D2",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.34",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.34",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.34"
+      }
+    },
+    {
+      "id": "GC.34-U2Q05",
+      "standard": "GC.34",
+      "secondaryStandard": null,
+      "unit": 2,
+      "reportingCategory": "RC-GOV2: Citizen Participation",
+      "dok": 2,
+      "blooms": "Understand",
+      "dokRationale": "Explains the category of two participation forms.",
+      "bloomsRationale": "Student classifies civic actions.",
+      "question": "Demonstrating and petitioning are protected as forms of:",
+      "stimulus": null,
+      "stimulusAttribution": null,
+      "options": {
+        "A": "running a small private family business",
+        "B": "paying the required yearly federal taxes",
+        "C": "serving on a local county trial jury",
+        "D": "citizens expressing their political views"
+      },
+      "correctAnswer": "D",
+      "distractorTags": {
+        "A": "MC",
+        "B": "NE",
+        "C": "NE",
+        "D": null
+      },
+      "distractorRationales": {
+        "A": "Misconception — unrelated economic activity.",
+        "B": "Near miss — a duty, not expression.",
+        "C": "Near miss — a duty, not expression.",
+        "D": "Correct — protest and petition are political expression."
+      },
+      "tcapFormat": false,
+      "itemWritingCompliant": true,
+      "instructionalPurpose": "formative",
+      "itemCategory": "classroom-instructional",
+      "c3Dimension": "D4",
+      "sspAlignment": "SSP.04",
+      "tennesseeSpecific": false,
+      "tcaRequired": false,
+      "contentTags": [
+        "T"
+      ],
+      "rubricId": null,
+      "rubricName": null,
+      "sensitivityFlag": null,
+      "type": "multiple-choice",
+      "pointValue": 1,
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.34",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-2/unit-2.html#GC.34",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-2/unit-2-teacher-guide.html#GC.34"
+      }
+    }
+  ]
+}

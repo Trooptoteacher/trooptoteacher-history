@@ -1,0 +1,327 @@
+{
+ "US.83": {
+  "id": "us83-q1",
+  "stem": "What were the main goals and programs of Johnson's Great Society, and how did they aim to address poverty and inequality?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The Great Society focused exclusively on military spending and foreign policy, yet the available evidence points to a different conclusion"
+   },
+   {
+    "id": "B",
+    "text": "The Great Society reduced all federal spending on social programs, although this overlooks critical economic and social factors"
+   },
+   {
+    "id": "C",
+    "text": "It created programs like Medicare, Medicaid, Head Start, and the War on Poverty to eliminate poverty and racial injustice through government intervention"
+   },
+   {
+    "id": "D",
+    "text": "It was primarily a tax cut program for wealthy Americans, although this view has been largely discredited by scholars"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.84": {
+  "id": "us84-q1",
+  "stem": "How did supporters and critics differ in their views of 1960s social activism?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Everyone supported social activism equally, although this view has been largely discredited by scholars, which does not align with the documented historical record"
+   },
+   {
+    "id": "B",
+    "text": "Critics were exclusively older Americans, yet the available evidence points to a different conclusion, which represents a common misconception about this historical period"
+   },
+   {
+    "id": "C",
+    "text": "There was no significant disagreement about activism, yet the available evidence points to a different conclusion and oversimplifies the complex factors at work during this period"
+   },
+   {
+    "id": "D",
+    "text": "Supporters saw activism as democratic participation addressing injustice while critics viewed protesters as unpatriotic radicals undermining American values"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.85": {
+  "id": "us85-q1",
+  "stem": "What were Nixon's most significant domestic and foreign policy achievements during his presidency?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "He created the EPA, opened relations with China, pursued détente with the USSR, and signed SALT I, while domestically supporting Title IX and the 26th Amendment"
+   },
+   {
+    "id": "B",
+    "text": "Nixon had no significant achievements due to Watergate, although this overlooks critical economic and social factors despite the fact that multiple contemporary sources contradict this"
+   },
+   {
+    "id": "C",
+    "text": "Nixon focused exclusively on the Vietnam War, although historical sources do not support this conclusion, and this view has been largely revised by modern historical research"
+   },
+   {
+    "id": "D",
+    "text": "His only achievement was ending the gold standard, which contradicts the primary source evidence from this era when examined alongside the available primary and secondary sources"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ },
+ "US.86": {
+  "id": "us86-q1",
+  "stem": "What evidence connected the Watergate break-in to President Nixon's administration?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "No evidence ever connected Nixon to Watergate, although this view has been largely discredited by scholars"
+   },
+   {
+    "id": "B",
+    "text": "Investigations revealed connections between the burglars, CREEP, and White House officials, with Nixon caught on tape discussing the cover-up"
+   },
+   {
+    "id": "C",
+    "text": "Only one low-level staffer was involved, despite the fact that multiple sources contradict this view, but the historical evidence paints a more nuanced picture"
+   },
+   {
+    "id": "D",
+    "text": "The break-in was conducted by Democratic operatives, but this fails to account for the broader historical context"
+   }
+  ],
+  "correct": "B",
+  "reportingCategory": "History"
+ },
+ "US.87": {
+  "id": "us87-q1",
+  "stem": "What factors led to the rise of the environmental movement in the 1960s and 1970s?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The environmental movement had no clear causes, yet the available evidence points to a different conclusion, which contradicts the primary source evidence from this era"
+   },
+   {
+    "id": "B",
+    "text": "Only government officials supported environmentalism, which does not align with the documented historical record"
+   },
+   {
+    "id": "C",
+    "text": "Carson's \"Silent Spring,\" visible pollution, scientific research, and Earth Day demonstrations combined to create widespread environmental awareness"
+   },
+   {
+    "id": "D",
+    "text": "Economic growth eliminated environmental concerns, yet the available evidence points to a different conclusion and does not reflect the scholarly consensus on this topic"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.88": {
+  "id": "us88-q2",
+  "stem": "How did the energy crises of the 1970s change American attitudes toward foreign oil dependence?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The energy crises had no effect on American attitudes, but this oversimplifies the complex factors at work"
+   },
+   {
+    "id": "B",
+    "text": "Americans became more dependent on foreign oil, despite the fact that multiple sources contradict this view"
+   },
+   {
+    "id": "C",
+    "text": "The crises only affected industrial users, although historical sources do not support this conclusion, but the historical evidence paints a more nuanced picture"
+   },
+   {
+    "id": "D",
+    "text": "Gas shortages and price spikes revealed American vulnerability to foreign suppliers, sparking calls for energy independence and conservation"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.89": {
+  "id": "us89-q1",
+  "stem": "How did Reagan restore American confidence after the challenges of the 1970s?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "His optimistic rhetoric, military buildup, and personal charisma helped Americans feel proud again after Vietnam, Watergate, and the Iran hostage crisis"
+   },
+   {
+    "id": "B",
+    "text": "Reagan had no effect on American morale, but contemporary accounts suggest a different explanation, although historical sources do not support this conclusion"
+   },
+   {
+    "id": "C",
+    "text": "Reagan focused only on economic issues, which represents a common misconception about the period, which represents a common misconception about this historical period"
+   },
+   {
+    "id": "D",
+    "text": "American confidence declined during his presidency, which represents a common misconception about the period and oversimplifies the complex factors at work during this period"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ },
+ "US.90": {
+  "id": "us90-q1",
+  "stem": "Why did President Bush order the invasion of Panama, and what did it accomplish?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The Panama invasion had no clear purpose, yet the available evidence points to a different conclusion, but contemporary accounts and primary sources suggest otherwise"
+   },
+   {
+    "id": "B",
+    "text": "It removed drug-trafficking dictator Noriega and protected American citizens, demonstrating post-Cold War willingness to use force for law enforcement"
+   },
+   {
+    "id": "C",
+    "text": "Panama invaded the United States first, although historical sources do not support this conclusion, and this view has been largely revised by modern historical research"
+   },
+   {
+    "id": "D",
+    "text": "The invasion was ordered by Congress alone, yet the available evidence points to a different conclusion, although historical sources do not support this conclusion"
+   }
+  ],
+  "correct": "B",
+  "reportingCategory": "History"
+ },
+ "US.91": {
+  "id": "us91-q2",
+  "stem": "How did welfare reform change the relationship between government assistance and work requirements?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Welfare reform eliminated all government assistance, which ignores key developments that shaped the outcome"
+   },
+   {
+    "id": "B",
+    "text": "Welfare reform removed all work requirements, despite limited evidence supporting this interpretation, which contradicts the primary source evidence from this era"
+   },
+   {
+    "id": "C",
+    "text": "TANF replaced AFDC with work requirements and time limits, dramatically reducing welfare rolls while raising questions about poverty reduction"
+   },
+   {
+    "id": "D",
+    "text": "The changes only affected elderly recipients, but this oversimplifies the complex factors at work and does not reflect the scholarly consensus on this topic"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ },
+ "US.92": {
+  "id": "us92-q1",
+  "stem": "How did President Bush respond to the September 11th attacks both domestically and internationally?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Bush took no significant action after 9/11, despite limited evidence supporting this interpretation, which does not align with the documented historical record"
+   },
+   {
+    "id": "B",
+    "text": "Only domestic security measures were implemented, despite the fact that multiple sources contradict this view, though this interpretation lacks supporting historical evidence"
+   },
+   {
+    "id": "C",
+    "text": "The response focused exclusively on diplomacy, although this view has been largely discredited by scholars, which represents a common misconception about this historical period"
+   },
+   {
+    "id": "D",
+    "text": "Domestically he created Homeland Security and expanded surveillance; internationally he declared the War on Terror and invaded Afghanistan to destroy al-Qaeda"
+   }
+  ],
+  "correct": "D",
+  "reportingCategory": "History"
+ },
+ "US.93": {
+  "id": "us93-q1",
+  "stem": "How did Hillary Clinton break barriers for women in American politics throughout her career?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "She served as Senator, Secretary of State, and became the first woman nominated for president by a major party, breaking barriers at multiple levels"
+   },
+   {
+    "id": "B",
+    "text": "Clinton held no significant political positions, although this view has been largely discredited by scholars and does not reflect the scholarly consensus on this topic"
+   },
+   {
+    "id": "C",
+    "text": "She focused only on state-level politics, although this view has been largely discredited by scholars, but closer analysis reveals a more complicated historical reality"
+   },
+   {
+    "id": "D",
+    "text": "Clinton avoided controversial positions, despite limited evidence supporting this interpretation, and this view has been largely revised by modern historical research"
+   }
+  ],
+  "correct": "A",
+  "reportingCategory": "History"
+ },
+ "US.94": {
+  "id": "us94-q1",
+  "stem": "What were the primary methods of communication in the 1970s, and how did they shape daily life?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "The 1970s had the same communication technology as today, despite the fact that multiple sources contradict this view"
+   },
+   {
+    "id": "B",
+    "text": "Landlines, three TV networks, radio, newspapers, and mail dominated; communication was slower, more deliberate, and geographically limited"
+   },
+   {
+    "id": "C",
+    "text": "Smartphones were common in the 1970s, which does not align with the documented historical record, although historical sources do not support this conclusion"
+   },
+   {
+    "id": "D",
+    "text": "Communication technology had no effect on daily life, which ignores key developments that shaped the outcome"
+   }
+  ],
+  "correct": "B",
+  "reportingCategory": "History"
+ },
+ "US.95": {
+  "id": "us95-q1",
+  "stem": "What were President Obama's major domestic achievements, particularly in healthcare and economic recovery?",
+  "dok": 2,
+  "choices": [
+   {
+    "id": "A",
+    "text": "Obama had no significant domestic achievements, which does not align with the documented historical record and oversimplifies the complex factors at work during this period"
+   },
+   {
+    "id": "B",
+    "text": "Obama's policies worsened the economic crisis, despite the fact that multiple sources contradict this view when examined alongside the available primary and secondary sources"
+   },
+   {
+    "id": "C",
+    "text": "The Affordable Care Act expanded health coverage to millions while the Recovery Act helped end the Great Recession, reducing unemployment from 10% to 4.7%"
+   },
+   {
+    "id": "D",
+    "text": "Healthcare reform was never attempted, though this interpretation lacks supporting historical evidence, but contemporary accounts and primary sources suggest otherwise"
+   }
+  ],
+  "correct": "C",
+  "reportingCategory": "History"
+ }
+}

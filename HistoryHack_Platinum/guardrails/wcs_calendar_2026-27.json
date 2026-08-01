@@ -1,0 +1,55 @@
+{
+  "district": "WCS",
+  "school_year": "2026-2027",
+  "source": {
+    "title": "WCS-Student-Calendar-2026-27.pdf",
+    "drive_file_id": "1JSUQtcuDGsZCdIzLcwxxmIVGRNfHl464",
+    "approval_date": "2025-11-17",
+    "note": "Official WCS student calendar. This is the pacing anchor for EVERY Social Studies Hack course pacing guide — do not pace to a generic 180-day calendar."
+  },
+  "instructional_days": { "semester_1": 83, "semester_2": 94, "total": 177 },
+  "semesters": [
+    { "id": "S1", "start": "2026-08-10", "end": "2026-12-18", "instructional_days": 83 },
+    { "id": "S2", "start": "2027-01-05", "end": "2027-05-27", "instructional_days": 94 }
+  ],
+  "grading_periods": [
+    { "id": "Q1", "semester": "S1", "start": "2026-08-10", "end": "2026-10-09", "grading_days": 44 },
+    { "id": "Q2", "semester": "S1", "start": "2026-10-19", "end": "2026-12-18", "grading_days": 39 },
+    { "id": "Q3", "semester": "S2", "start": "2027-01-05", "end": "2027-03-12", "grading_days": 46 },
+    { "id": "Q4", "semester": "S2", "start": "2027-03-22", "end": "2027-05-27", "grading_days": 48 }
+  ],
+  "key_dates": [
+    { "date": "2026-08-10", "label": "Start of School (half day, grades 1-12)", "students": "half" },
+    { "date": "2026-08-11", "label": "First full day of school", "students": "full" },
+    { "date": "2026-09-07", "label": "Labor Day", "students": "closed" },
+    { "date": "2026-09-17", "label": "Constitution Day observed (students in school)", "students": "full", "instructional_hook": "Legally observed; natural anchor for Government GC.01-GC.09 and any Constitution content across courses." },
+    { "date": "2026-10-09", "label": "End of First Quarter (44 grading days)", "students": "full" },
+    { "date": "2026-10-12", "label": "Columbus Day / Fall Break begins", "students": "closed" },
+    { "range": ["2026-10-12", "2026-10-16"], "label": "Fall Break (system closed Oct 14-16)", "students": "closed" },
+    { "date": "2026-11-03", "label": "Election Day", "students": "closed" },
+    { "date": "2026-11-11", "label": "Veterans' Day (students in school)", "students": "full" },
+    { "range": ["2026-11-23", "2026-11-27"], "label": "Thanksgiving Holiday", "students": "closed" },
+    { "date": "2026-12-18", "label": "End of First Semester (half day, 39 grading days)", "students": "half" },
+    { "range": ["2026-12-21", "2027-01-04"], "label": "Winter Break", "students": "closed" },
+    { "date": "2027-01-05", "label": "Second Semester begins (full day)", "students": "full" },
+    { "date": "2027-01-18", "label": "Martin Luther King, Jr. Day", "students": "closed" },
+    { "range": ["2027-02-12", "2027-02-15"], "label": "Mid-Winter Break; Presidents' Day", "students": "closed" },
+    { "date": "2027-03-12", "label": "End of Third Quarter (46 grading days)", "students": "full" },
+    { "range": ["2027-03-15", "2027-03-19"], "label": "Spring Break", "students": "closed" },
+    { "date": "2027-03-26", "label": "Spring Holiday", "students": "closed" },
+    { "date": "2027-05-27", "label": "Last Day for Students (half day) / End of Second Semester (48 grading days)", "students": "half" },
+    { "range": ["2027-05-27", "2027-05-30"], "label": "Graduation Window", "students": "n/a" }
+  ],
+  "schedule_notes": {
+    "late_start_6_12": { "count": 27, "minutes": 45, "note": "6-12 Late Start days shorten instruction by 45 min — pacing must not assume a full period on these days." },
+    "early_release_k_5": { "count": 11, "minutes": 113 },
+    "inclement_weather": { "stockpile_days": 10, "note": "Up to 10 weather days are stockpiled and not made up; beyond 10, makeup days come from Mid-Winter Break, PD day, Spring Holiday, then Spring Break. Pacing should carry a small buffer rather than assume all 177 days are protected." }
+  },
+  "pacing_rules": [
+    "Anchor every course's unit pacing to the semester + quarter boundaries above (Q1 end Oct 9, S1 end Dec 18, Q3 end Mar 12, S2 end May 27).",
+    "A full-year course (US History, World History, Government) must fit its units + assessments + review into 177 instructional days, leaving buffer for the ~10 stockpiled weather days and the 27 late-start days.",
+    "Do NOT schedule a summative unit assessment on a half day (Aug 10, Dec 18, May 27) or the day before a multi-day break.",
+    "Place EOC/TCAP review in the window feeding the state testing calendar (see WCS Assessment Page); leave the last 2-3 weeks of S2 for review + testing.",
+    "Constitution Day (Sep 17) and Election Day proximity (Nov 3) are civic hooks — Government pacing should land the relevant standards near these dates where feasible."
+  ]
+}

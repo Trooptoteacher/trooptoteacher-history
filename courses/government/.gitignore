@@ -1,0 +1,13 @@
+# Rendered output + print binaries — regenerable, never committed
+# (source-lean; source content/engine under BUILD/ IS committed).
+**/deliverables/
+**/exports/
+**/pages/
+**/print-ready/
+*.docx
+*.pdf
+*.pptx
+*.jpg
+*.jpeg
+*.png
+*.zip

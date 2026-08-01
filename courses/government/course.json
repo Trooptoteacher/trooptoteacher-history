@@ -1,0 +1,35 @@
+{
+  "id": "government",
+  "displayName": "U.S. Government & Civics",
+  "standardsPrefix": "GC",
+  "rcPrefix": "GCRC",
+  "status": "migrated-source-lean; verified (NEEDS-WORK gaps fixed in source); pending re-render + PR to main",
+  "contentReady": false,
+  "inherits": [
+    "../HistoryHack_Platinum/guardrails/SOCIAL_STUDIES_CORE_GUARDRAILS.md",
+    "../HistoryHack_Platinum/guardrails/COURSE_PRODUCTION_WORKFLOW.md"
+  ],
+  "reference": "../HistoryHack_Platinum",
+  "standards": {
+    "source": "standards/",
+    "ingested": false
+  },
+  "units": [],
+  "pacing_anchor": {
+    "district": "WCS",
+    "calendar": "../HistoryHack_Platinum/guardrails/wcs_calendar_2026-27.json",
+    "note": "Pace all units to the WCS 2026-27 semester/quarter boundaries (177 instructional days). Not a generic 180-day calendar."
+  },
+  "canonical_standards": "standards/government-standards.json (verbatim TDOE; supersedes 05_STANDARDS_ALIGNMENT/government_standards_source.json for text)",
+  "migrated_from": "claude/history-hack-course-rebuild-jko587:courses/foundations-constitutional-government",
+  "audit": {
+    "verdict": "needs-work\u2192fixed",
+    "blocker": "\u00a72 geography (GC.01/GC.18) \u2014 fixed",
+    "material": "\u00a74 GC.30 clause \u2014 fixed",
+    "advisory": [
+      "26 Wikimedia sources prefer_original (upgrade to LoC/NARA)",
+      "~17 minor verbatim typographic normalizations pending",
+      "Unit7 student graphic-organizers PDF + deliverables-index Toolkit row pending"
+    ]
+  }
+}

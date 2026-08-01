@@ -1,0 +1,2100 @@
+{
+  "unit": {
+    "code": "Unit 7",
+    "title": "The Cold War (1945–1991)",
+    "standards_range": "US.59–US.70",
+    "publisher": "TroopToTeacher Technologies LLC",
+    "footer": "U.S. History Hack · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards & TCAP EOC"
+  },
+  "standards": {
+    "US.59": {
+      "title": "U.S.-Soviet Competition",
+      "tn": "Describe the competition between the U.S. and the Soviet Union in arms development, economic dominance, and ideology, including the roles of NATO, SEATO, and the Warsaw Pact.",
+      "ican": "I can describe the competition between the U.S. and the Soviet Union in arms development, economic dominance, and ideology, including the roles of NATO, SEATO, and the Warsaw Pact.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Cold War",
+          "say": "kohld wor",
+          "es": "Guerra Fría",
+          "def": "The prolonged geopolitical, ideological, and military rivalry between the United States and the Soviet Union from 1945 to 1991, waged through alliances, proxy wars, and an arms race rather than direct combat."
+        },
+        {
+          "term": "Superpower",
+          "say": "",
+          "es": "Superpotencia",
+          "def": "A nation with overwhelming military, economic, and political power capable of projecting force globally; during the Cold War, only the United States and Soviet Union qualified as superpowers."
+        },
+        {
+          "term": "Capitalism",
+          "say": "KAP-ih-tul-iz-um",
+          "es": "Capitalismo",
+          "def": "An economic system based on private ownership, free markets, and competition, where individuals and businesses operate for profit, championed by the United States as superior to Soviet communism."
+        },
+        {
+          "term": "Communism",
+          "say": "KOM-yoo-niz-um",
+          "es": "Comunismo",
+          "def": "A political and economic system where the government owns all property and means of production, theoretically distributing resources equally, practiced in the Soviet Union and opposed by the United States during…"
+        },
+        {
+          "term": "Proxy War",
+          "say": "",
+          "es": "Guerra por Poder",
+          "def": "Conflicts where the United States and Soviet Union supported opposing sides without directly fighting each other, allowing superpower competition while avoiding nuclear war."
+        },
+        {
+          "term": "Iron Curtain",
+          "say": "EYE-ern KUR-tun",
+          "es": "Cortina de Hierro",
+          "def": "Winston Churchill's metaphor for the political, military, and ideological barrier dividing Soviet-controlled Eastern Europe from Western Europe after World War II, symbolizing the split between communist and…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NATO Treaty (Article 5)",
+          "who": "North Atlantic Treaty Organization",
+          "date": "April 4, 1949",
+          "quote": "The Parties agree that an armed attack against one or more of them in Europe or North America shall be considered an attack against them all and consequently they agree that... each of them... will assist the Party or Parties so attacked by",
+          "repo": "North Atlantic Treaty Organization. \"NATO Treaty (Article 5).\" April 4, 1949. Avalon Project, Yale Law School, avalon.law.yale.edu/20th_century/nato.asp.",
+          "url": "https://avalon.law.yale.edu/20th_century/nato.asp"
+        },
+        {
+          "title": "Warsaw Pact Treaty",
+          "who": "Soviet Union and Eastern European Nations",
+          "date": "May 14, 1955",
+          "quote": "The Contracting Parties... have resolved to conclude the present Treaty of Friendship, Cooperation, and Mutual Assistance... In the event of an armed attack in Europe on one or several states... each state... shall afford the state or state",
+          "repo": "Soviet Union and Eastern European Nations. \"Warsaw Pact Treaty.\" May 14, 1955. Avalon Project, Yale Law School, avalon.law.yale.edu/20th_century/warsaw.asp.",
+          "url": "https://avalon.law.yale.edu/20th_century/warsaw.asp"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Compare how the U.S. and USSR used economic aid and trade to compete for global influence during the Cold War.",
+        "options": {
+          "A": "Both nations used economic assistance—like the U.S. Marshall Plan—to win allies, demonstrate their system's superiority, and expand their spheres of influence",
+          "B": "Only the U.S. provided economic aid to other nations, though this interpretation lacks supporting historical evidence, which does not align with the documented historical record",
+          "C": "Economic competition was not part of the Cold War, but this oversimplifies the complex factors at work, but contemporary accounts and primary sources suggest otherwise",
+          "D": "The USSR provided more economic aid than the U.S, which does not reflect the consensus among historians when examined alongside the available primary and secondary sources"
+        },
+        "key": "A",
+        "why": "Both superpowers used economic aid as a weapon in the Cold War, with the U.S. rebuilding Western Europe through the Marshall Plan while the USSR supported communist regimes and developing nations aligned with Soviet interests."
+      },
+      "auth": {
+        "close": "The arms race began with nuclear weapons development—the U.S. had atomic bombs by 1945, the USSR by 1949. Both nations rapidly developed hydrogen bombs, intercontinental ballistic missiles (ICBMs), and submarine-launched missiles. Each side sought nuclear superiority, leading to massive stockpiles that could destroy the world multiple times over, creating a \"balance of terror.\" The U.S. promoted capitalism and free markets globally, while the USSR pushed communist planned economies. Both competed to demonstrate their economic system's superiority through foreign aid, trade relationships, and development projects in developing nations. The Marshall Plan exemplified American economic diplomacy, rebuilding Western Europe while creating markets for American goods. The United States championed democracy, individual freedoms, free market capitalism, and religious liberty. The Soviet Union promoted communist authoritarianism, collective ownership, state-controlled economy, and atheism. These fundamentally incompatible worldviews drove competition in every arena from sports to space exploration. NATO (1949) was a Western alliance led by the U.S. for mutual defense against Soviet expansion. SEATO (1954) provided Southeast Asian collective defense against communist expansion. The Warsaw Pact (1955) was the Soviet-led Eastern European military alliance responding to NATO. These alliances divided the world into competing blocs.",
+        "close_sections": [
+          [
+            "Arms Race Rivalry",
+            "The arms race began with nuclear weapons development—the U.S. had atomic bombs by 1945, the USSR by 1949. Both nations rapidly developed hydrogen bombs, intercontinental ballistic missiles (ICBMs), and submarine-launched missiles. Each side sought nuclear superiority, leading to massive stockpiles that could destroy the world multiple times over, creating a \"balance of terror.\""
+          ],
+          [
+            "Economic Competition",
+            "The U.S. promoted capitalism and free markets globally, while the USSR pushed communist planned economies. Both competed to demonstrate their economic system's superiority through foreign aid, trade relationships, and development projects in developing nations. The Marshall Plan exemplified American economic diplomacy, rebuilding Western Europe while creating markets for American goods."
+          ],
+          [
+            "Ideological Differences",
+            "The United States championed democracy, individual freedoms, free market capitalism, and religious liberty. The Soviet Union promoted communist authoritarianism, collective ownership, state-controlled economy, and atheism. These fundamentally incompatible worldviews drove competition in every arena from sports to space exploration."
+          ],
+          [
+            "Military Alliances",
+            "NATO (1949) was a Western alliance led by the U.S. for mutual defense against Soviet expansion. SEATO (1954) provided Southeast Asian collective defense against communist expansion. The Warsaw Pact (1955) was the Soviet-led Eastern European military alliance responding to NATO. These alliances divided the world into competing blocs."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Arms Race Rivalry” section, and what evidence supports it?",
+          "What is the main idea of the “Economic Competition” section, and what evidence supports it?",
+          "What is the main idea of the “Ideological Differences” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Cold War",
+          "Superpower"
+        ],
+        "quiz": [
+          {
+            "id": "us59-q3",
+            "dok": 2,
+            "stem": "What fundamental ideological differences separated American democracy from Soviet communism?",
+            "opts": {
+              "A": "The U.S. championed democracy, individual freedoms, and free markets while the USSR promoted authoritarian communism, collective ownership, and state control",
+              "B": "Both systems valued individual freedom equally, which does not reflect the consensus among historians, but contemporary accounts and primary sources suggest otherwise",
+              "C": "The only difference was geographic location, which contradicts the primary source evidence from this era despite the fact that multiple contemporary sources contradict this",
+              "D": "Both systems rejected religious freedom, which does not align with the documented historical record, which contradicts the primary source evidence from this era"
+            },
+            "key": "A"
+          },
+          {
+            "id": "us-66-x019",
+            "dok": 2,
+            "stem": "Bush's management of the end of the Cold War — including German reunification and the Soviet collapse — is generally praised because —",
+            "opts": {
+              "A": "He aggressively expanded NATO to include former Soviet satellite states immediately",
+              "B": "He managed the transitions skillfully without provoking Soviet hardliners or destabilizing Europe",
+              "C": "He negotiated a formal peace treaty that officially ended the Cold War",
+              "D": "He used U.S. military power to accelerate Soviet withdrawal from Eastern Europe"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the competition between the U.S. and the Soviet Union in arms development, economic dominance, and ideology, including the roles of NATO, SEATO, and the Warsaw Pact? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "describe the competition between the U.S. and the Soviet Union in arms development, economic dominance, and ideology, including the roles of NATO, SEATO, and the Warsaw Pact",
+      "targets": [
+        "describe the competition between the U.S. and the Soviet Union in arms development, economic dominance, and ideology, including the roles of NATO, SEATO, and the Warsaw Pact"
+      ],
+      "criteria": [
+        "Arms Race Rivalry",
+        "Economic Competition",
+        "Ideological Differences"
+      ],
+      "cues": [
+        "What does the passage say about arms Race Rivalry?",
+        "What does the passage say about economic Competition?",
+        "What does the passage say about ideological Differences?",
+        "Key terms →"
+      ],
+      "lenses": "History · Politics/Government",
+      "dim_map": {
+        "H": "History lens on U.S.-Soviet Competition: The arms race began with nuclear weapons development—the U.S. had atomic bombs by 1945, the USSR by 1949. Both…",
+        "P": "Politics/Government lens on U.S.-Soviet Competition: The arms race began with nuclear weapons development—the U.S. had atomic bombs by 1945, the USSR by 1949. Both…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "Tennessee was central to U.S.-Soviet competition through Oak Ridge's nuclear facilities. The Y-12 plant continued producing nuclear materials throughout the Cold War, and the Oak Ridge National Laboratory conducted critical research in nuclear science, making Tennessee a key state in the arms race.",
+      "hook": "U.S.-Soviet Competition: Describe the competition between the U.S. and the Soviet Union in arms development, economic dominance, and ideology, including the roles of NATO, SEATO, and the Warsaw Pact. Who gained, who was left out — and why does it still matter?"
+    },
+    "US.60": {
+      "title": "Containment and Early Cold War Policies",
+      "tn": "Explain the Cold War policies of containment and the Truman Doctrine, Marshall Plan, and Berlin Airlift.",
+      "ican": "I can explain the Cold War policies of containment and the Truman Doctrine, Marshall Plan, and Berlin Airlift.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Containment Policy",
+          "say": "",
+          "es": "Política de Contención",
+          "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
+        },
+        {
+          "term": "Truman Doctrine",
+          "say": "TROO-mun DOK-trin",
+          "es": "Doctrina Truman",
+          "def": "President Truman's 1947 policy pledging U.S. support for nations threatened by Soviet communism, beginning with military and economic aid to Greece and Turkey, marking America's commitment to containing communist…"
+        },
+        {
+          "term": "Marshall Plan",
+          "say": "MAR-shul plan",
+          "es": "Plan Marshall",
+          "def": "The massive U.S. program providing over $13 billion in economic aid to rebuild Western European economies after World War II (1948-1952), designed to prevent communist expansion by fostering prosperity and…"
+        },
+        {
+          "term": "NATO (North Atlantic Treaty Organization)",
+          "say": "",
+          "es": "OTAN (Organización del Tratado del Atlántico Norte)",
+          "def": "The military alliance formed in 1949 by the United States, Canada, and Western European nations pledging mutual defense against Soviet aggression, embodying the principle that \"an attack on one is an attack on all.\""
+        },
+        {
+          "term": "Iron Curtain",
+          "say": "EYE-ern KUR-tun",
+          "es": "Cortina de Hierro",
+          "def": "Winston Churchill's metaphor for the political, military, and ideological barrier dividing Soviet-controlled Eastern Europe from Western Europe after World War II, symbolizing the split between communist and…"
+        },
+        {
+          "term": "Warsaw Pact",
+          "say": "WOR-saw pakt",
+          "es": "Pacto de Varsovia",
+          "def": "The Soviet Union's military alliance formed in 1955 with communist Eastern European nations in response to NATO, creating two opposing military blocs that defined Cold War Europe."
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Truman Doctrine Speech",
+          "who": "President Harry S. Truman",
+          "date": "March 12, 1947",
+          "quote": "I believe that it must be the policy of the United States to support free peoples who are resisting attempted subjugation by armed minorities or by outside pressures. I believe that we must assist free peoples to work out their own destinie",
+          "repo": "Truman, President Harry S.. \"The Truman Doctrine Speech.\" March 12, 1947. National Archives, https://www.archives.gov/milestone-documents/truman-doctrine.",
+          "url": "https://www.archives.gov/milestone-documents/truman-doctrine"
+        },
+        {
+          "title": "Marshall Plan Speech at Harvard",
+          "who": "Secretary of State George C. Marshall",
+          "date": "June 5, 1947",
+          "quote": "It is logical that the United States should do whatever it is able to do to assist in the return of normal economic health in the world, without which there can be no political stability and no assured peace. Our policy is directed not agai",
+          "repo": "Marshall, Secretary of State George C.. \"Marshall Plan Speech at Harvard.\" June 5, 1947. George C. Marshall Foundation, www.marshallfoundation.org/the-marshall-",
+          "url": "https://www.marshallfoundation.org/the-marshall-plan/speech/"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Why was the Marshall Plan successful in rebuilding Europe and preventing communist expansion?",
+        "options": {
+          "A": "It provided only military assistance, but this oversimplifies the complex factors at work, which contradicts the primary source evidence from this era",
+          "B": "It invested over $13 billion in European recovery, strengthening economies, creating American trade partners, and reducing the appeal of communism in struggling nations",
+          "C": "It was a failure that weakened European economies, but the historical record tells a more complex story and oversimplifies the complex factors at work during this period",
+          "D": "It focused only on Eastern European nations, which contradicts the primary source evidence from this era, and this view has been largely revised by modern historical research"
+        },
+        "key": "B",
+        "why": "The Marshall Plan succeeded by rebuilding Western European economies, which reduced poverty and instability that communists could exploit, while creating prosperous trading partners for America."
+      },
+      "auth": {
+        "close": "George Kennan's 1946 \"Long Telegram\" argued that the USSR was inherently expansionist and must be contained through firm resistance. This became the foundation for containment policy—preventing Soviet expansion without direct military confrontation. Kennan believed that if confined, the Soviet system would eventually collapse from internal weaknesses. Announced in 1947, the Truman Doctrine committed the U.S. to supporting free peoples resisting communist subjugation. Initially applied to Greece and Turkey facing communist pressures, it became the framework for global anti-communist intervention. This represented a major shift from American isolationism to global engagement. Objectives: Rebuild Western European economies, create markets for American goods, and prevent communist takeover of war-torn nations. Outcomes: The Marshall Plan successfully rebuilt Europe, strengthened NATO allies, and demonstrated American commitment to European recovery. It provided over $13 billion in aid and is considered one of the most successful foreign policy initiatives in American history. When Soviets blocked land access to West Berlin (1948-49), the U.S. and Britain airlifted supplies for 11 months. At its peak, planes landed every few minutes, delivering food, fuel, and medicine to over 2 million West Berliners. This demonstrated Western resolve without military confrontation and established Berlin as a Cold War symbol of freedom versus oppression.",
+        "close_sections": [
+          [
+            "The Long Telegram and Containment",
+            "George Kennan's 1946 \"Long Telegram\" argued that the USSR was inherently expansionist and must be contained through firm resistance. This became the foundation for containment policy—preventing Soviet expansion without direct military confrontation. Kennan believed that if confined, the Soviet system would eventually collapse from internal weaknesses."
+          ],
+          [
+            "The Truman Doctrine",
+            "Announced in 1947, the Truman Doctrine committed the U.S. to supporting free peoples resisting communist subjugation. Initially applied to Greece and Turkey facing communist pressures, it became the framework for global anti-communist intervention. This represented a major shift from American isolationism to global engagement."
+          ],
+          [
+            "The Marshall Plan",
+            "Objectives: Rebuild Western European economies, create markets for American goods, and prevent communist takeover of war-torn nations. Outcomes: The Marshall Plan successfully rebuilt Europe, strengthened NATO allies, and demonstrated American commitment to European recovery. It provided over $13 billion in aid and is considered one of the most successful foreign policy initiatives in American history."
+          ],
+          [
+            "The Berlin Airlift",
+            "When Soviets blocked land access to West Berlin (1948-49), the U.S. and Britain airlifted supplies for 11 months. At its peak, planes landed every few minutes, delivering food, fuel, and medicine to over 2 million West Berliners. This demonstrated Western resolve without military confrontation and established Berlin as a Cold War symbol of freedom versus oppression."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “The Long Telegram and Containment” section, and what evidence supports it?",
+          "What is the main idea of the “The Truman Doctrine” section, and what evidence supports it?",
+          "What is the main idea of the “The Marshall Plan” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Containment Policy",
+          "Truman Doctrine"
+        ],
+        "quiz": [
+          {
+            "id": "us60-q2",
+            "dok": 2,
+            "stem": "What were the goals of the Truman Doctrine, and how did it change American foreign policy?",
+            "opts": {
+              "A": "It committed the U.S. to supporting free peoples resisting communism, transforming America from isolationism to global engagement",
+              "B": "It continued American isolationism, which does not align with the documented historical record",
+              "C": "It sought peaceful coexistence with the Soviet Union, which contradicts the primary source evidence from this era",
+              "D": "It focused only on European affairs, although this view has been largely discredited by scholars"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us69-dok2-2",
+            "dok": 2,
+            "stem": "How did civil defense programs reflect Cold War anxieties?",
+            "opts": {
+              "A": "It expanded the war without congressional knowledge and violated Cambodian neutrality",
+              "B": "\"Duck and cover\" drills and fallout shelters showed pervasive fear of nuclear attack",
+              "C": "Soviet satellite launch in 1957 that shocked Americans and intensified the space race",
+              "D": "Teach children to protect themselves from nuclear blast, though with limited effect"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — explain the Cold War policies of containment and the Truman Doctrine, Marshall Plan, and Berlin Airlift? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "explain the Cold War policies of containment and the Truman Doctrine, Marshall Plan, and Berlin Airlift",
+      "targets": [
+        "explain the Cold War policies of containment and the Truman Doctrine, Marshall Plan, and Berlin Airlift"
+      ],
+      "criteria": [
+        "The Long Telegram and Containment",
+        "The Truman Doctrine",
+        "The Marshall Plan"
+      ],
+      "cues": [
+        "What does the passage say about the Long Telegram and Containment?",
+        "What does the passage say about the Truman Doctrine?",
+        "What does the passage say about the Marshall Plan?",
+        "Key terms →"
+      ],
+      "lenses": "Politics/Government · History · Economics",
+      "dim_map": {
+        "P": "Politics/Government lens on Containment and Early Cold War Policies: George Kennan's 1946 \"Long Telegram\" argued that the USSR was inherently expansionist and must be contained th…",
+        "H": "History lens on Containment and Early Cold War Policies: George Kennan's 1946 \"Long Telegram\" argued that the USSR was inherently expansionist and must be contained th…",
+        "E": "Economics lens on Containment and Early Cold War Policies: George Kennan's 1946 \"Long Telegram\" argued that the USSR was inherently expansionist and must be contained th…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "Senator Estes Kefauver of Tennessee was a prominent Cold War-era figure who chaired televised hearings on organized crime (1950-1951) and ran for president in 1952 and 1956. Kefauver's hearings demonstrated the power of television in politics and made him a household name.",
+      "hook": "Containment and Early Cold War Policies: Explain the Cold War policies of containment and the Truman Doctrine, Marshall Plan, and Berlin Airlift. Who gained, who was left out — and why does it still matter?"
+    },
+    "US.61": {
+      "title": "Second Red Scare & McCarthyism",
+      "tn": "Analyze the causes and effects of the Second Red Scare, including: Americans' attitudes toward McCarthyism, blacklisting, and Julius and Ethel Rosenberg.",
+      "ican": "I can analyze the causes and effects of the Second Red Scare, including Americans' attitudes toward McCarthyism, blacklisting, and the Rosenberg case.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "McCarthyism",
+          "say": "muh-KAR-thee-iz-um",
+          "es": "Macartismo",
+          "def": "The practice of making accusations of subversion or treason without proper evidence, named after Senator Joseph McCarthy who led aggressive investigations of suspected communists in the 1950s."
+        },
+        {
+          "term": "Second Red Scare",
+          "say": "",
+          "es": "Segundo Miedo Rojo",
+          "def": "The period of intense fear and persecution of suspected communists in America during the late 1940s and 1950s, driven by Cold War tensions and events like the Soviet atomic bomb and Korean War."
+        },
+        {
+          "term": "Blacklisting",
+          "say": "BLAK-list-ing",
+          "es": "Listas Negras",
+          "def": "The practice of denying employment to people suspected of communist sympathies or refusing to cooperate with anti-communist investigations, particularly prevalent in the entertainment industry."
+        },
+        {
+          "term": "Julius and Ethel Rosenberg",
+          "say": "JOOL-yus and ETH-ul ROH-zen-berg",
+          "es": "Julius y Ethel Rosenberg",
+          "def": "An American couple convicted of espionage in 1951 for allegedly passing atomic secrets to the Soviet Union and executed in 1953, the only civilians executed for espionage during the Cold War."
+        },
+        {
+          "term": "Containment Policy",
+          "say": "",
+          "es": "Política de Contención",
+          "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wheeling Speech",
+          "who": "Senator Joseph McCarthy",
+          "date": "February 9, 1950",
+          "quote": "I have here in my hand a list of 205—a list of names that were made known to the Secretary of State as being members of the Communist Party and who nevertheless are still working and shaping policy in the State Department... The reason why ",
+          "repo": "McCarthy, Senator Joseph. \"Wheeling Speech.\" February 9, 1950. U.S. Senate Historical Office, www.senate.gov/about/powers-procedures/investigations/mccarthy-hea",
+          "url": "https://www.senate.gov/about/powers-procedures/investigations/mccarthy-hearings.htm"
+        },
+        {
+          "title": "Testimony of Julius Rosenberg",
+          "who": "Julius Rosenberg",
+          "date": "March 1951",
+          "quote": "I am not now and never have been a member of any Communist organization... I have been framed by the government in this case. I am innocent of the charges against me. I am an American citizen.",
+          "repo": "Rosenberg, Julius. \"Testimony of Julius Rosenberg.\" March 1951. National Archives, www.archives.gov/research/court-records/rosenberg.",
+          "url": "https://www.archives.gov/research/court-records/rosenberg"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "How did Senator Joseph McCarthy's tactics initially gain support but eventually backfire?",
+        "options": {
+          "A": "McCarthy never gained significant public support, which represents a common misconception about the period and fails to account for key developments in the broader context",
+          "B": "McCarthy maintained support throughout his career, though this interpretation lacks supporting historical evidence, but the historical evidence paints a more nuanced picture",
+          "C": "His accusations resonated with genuine fears, but his bullying tactics and baseless attacks on the Army exposed his methods as reckless and destructive",
+          "D": "His tactics were always viewed as inappropriate, but this fails to account for the broader historical context, which contradicts the primary source evidence from this era"
+        },
+        "key": "C",
+        "why": "McCarthy exploited real fears effectively, but his overreach in attacking the Army and his visible cruelty during televised hearings turned public opinion against him."
+      },
+      "auth": {
+        "close": "Several events fueled American fears of communist infiltration: Soviet nuclear weapons development (1949), communist victory in China (1949), the Korean War (1950-53), and discovery of Soviet spy rings including the Rosenbergs and Alger Hiss. Senator Joseph McCarthy's accusations of communist infiltration in government intensified these fears into widespread paranoia. Initially, many Americans supported McCarthy's anti-communist crusade due to genuine security fears. However, his reckless accusations, bullying tactics, and attack on the Army eventually turned public opinion against him. The 1954 Army-McCarthy hearings exposed his methods as destructive when attorney Joseph Welch famously asked, \"Have you no sense of decency?\" Hollywood studios blacklisted suspected communists, destroying careers of writers, directors, and actors. The \"Hollywood Ten\" were imprisoned for refusing to testify before HUAC (House Un-American Activities Committee). This created a climate of fear that stifled creative expression and political dissent across American society. Julius and Ethel Rosenberg were executed in 1953 for allegedly passing atomic secrets to the USSR. Their case became highly controversial—supporters claimed they were scapegoats, while others saw them as traitors. The case symbolized Cold War paranoia about internal communist threats and raised questions about justice during times of fear.",
+        "close_sections": [
+          [
+            "Factors Contributing to the Second Red Scare",
+            "Several events fueled American fears of communist infiltration: Soviet nuclear weapons development (1949), communist victory in China (1949), the Korean War (1950-53), and discovery of Soviet spy rings including the Rosenbergs and Alger Hiss. Senator Joseph McCarthy's accusations of communist infiltration in government intensified these fears into widespread paranoia."
+          ],
+          [
+            "McCarthyism",
+            "Initially, many Americans supported McCarthy's anti-communist crusade due to genuine security fears. However, his reckless accusations, bullying tactics, and attack on the Army eventually turned public opinion against him. The 1954 Army-McCarthy hearings exposed his methods as destructive when attorney Joseph Welch famously asked, \"Have you no sense of decency?\""
+          ],
+          [
+            "Blacklisting and Its Effects",
+            "Hollywood studios blacklisted suspected communists, destroying careers of writers, directors, and actors. The \"Hollywood Ten\" were imprisoned for refusing to testify before HUAC (House Un-American Activities Committee). This created a climate of fear that stifled creative expression and political dissent across American society."
+          ],
+          [
+            "The Rosenberg Case",
+            "Julius and Ethel Rosenberg were executed in 1953 for allegedly passing atomic secrets to the USSR. Their case became highly controversial—supporters claimed they were scapegoats, while others saw them as traitors. The case symbolized Cold War paranoia about internal communist threats and raised questions about justice during times of fear."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Factors Contributing to the Second Red Scare” section, and what evidence supports it?",
+          "What is the main idea of the “McCarthyism” section, and what evidence supports it?",
+          "What is the main idea of the “Blacklisting and Its Effects” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "McCarthyism",
+          "Second Red Scare"
+        ],
+        "quiz": [
+          {
+            "id": "us61-q3",
+            "dok": 2,
+            "stem": "What impact did blacklisting have on Hollywood and American creative expression?",
+            "opts": {
+              "A": "It destroyed careers, imprisoned the Hollywood Ten for refusing to testify, and created a climate of fear that stifled artistic and political expression",
+              "B": "Blacklisting had no effect on creative industries, but this fails to account for the broader historical context and does not reflect the scholarly consensus on this topic",
+              "C": "Blacklisting only affected government employees, although this overlooks critical economic and social factors, although historical sources do not support this conclusion",
+              "D": "Hollywood voluntarily adopted blacklisting without pressure, despite limited evidence supporting this interpretation"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us63-dok2-3-b",
+            "dok": 2,
+            "stem": "How did McCarthyism affect the entertainment industry?",
+            "opts": {
+              "A": "Hollywood studios hired more actors and writers than ever before",
+              "B": "Artists suspected of communist ties were blacklisted and unable to work",
+              "C": "The government funded new film studios to promote American culture",
+              "D": "Television networks refused to air any political content during this era"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — analyze the causes and effects of the Second Red Scare, including Americans' attitudes toward McCarthyism, blacklisting, and the Rosenberg case? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "analyze the causes and effects of the Second Red Scare, including Americans' attitudes toward McCarthyism, blacklisting, and the Rosenberg case",
+      "targets": [
+        "analyze the causes and effects of the Second Red Scare, including Americans' attitudes toward McCarthyism, blacklisting, and the Rosenberg case"
+      ],
+      "criteria": [
+        "Factors Contributing to the Second Red Scare",
+        "McCarthyism",
+        "Blacklisting and Its Effects"
+      ],
+      "cues": [
+        "What does the passage say about factors Contributing to the Second Red Scare?",
+        "What does the passage say about mcCarthyism?",
+        "What does the passage say about blacklisting and Its Effects?",
+        "Key terms →"
+      ],
+      "lenses": "Culture · Politics/Government · History",
+      "dim_map": {
+        "C": "Culture lens on Second Red Scare & McCarthyism: Several events fueled American fears of communist infiltration: Soviet nuclear weapons development (1949), com…",
+        "P": "Politics/Government lens on Second Red Scare & McCarthyism: Several events fueled American fears of communist infiltration: Soviet nuclear weapons development (1949), com…",
+        "H": "History lens on Second Red Scare & McCarthyism: Several events fueled American fears of communist infiltration: Soviet nuclear weapons development (1949), com…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "Senator Estes Kefauver of Tennessee gained national prominence through televised hearings investigating organized crime (1950-1951), demonstrating the power of television in politics.",
+      "hook": "Second Red Scare & McCarthyism: Analyze the causes and effects of the Second Red Scare, including: Americans' attitudes toward McCarthyism, blacklisting, and Julius and Ethel Rosenberg. Who gained, who was left out — and why does it still matter?"
+    },
+    "US.62": {
+      "title": "Korean War",
+      "tn": "Describe the causes, course, and consequences of the Korean War, including: Domino Theory, 38th parallel, Battle of Inchon, Entry of the communist Chinese, Final divisions of the Koreas.",
+      "ican": "I can describe the causes, course, and consequences of the Korean War, including the Domino Theory, 38th parallel, Battle of Inchon, entry of communist China, and final divisions of the Koreas.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Korean War",
+          "say": "",
+          "es": "Guerra de Corea",
+          "def": "The 1950-1953 conflict in which communist North Korea (backed by China and the Soviet Union) invaded South Korea, prompting U.S.-led UN intervention in the first major \"hot war\" of the Cold War era."
+        },
+        {
+          "term": "Containment Policy",
+          "say": "",
+          "es": "Política de Contención",
+          "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
+        },
+        {
+          "term": "Domino Theory",
+          "say": "DOM-ih-noh THEER-ee",
+          "es": "Teoría del Dominó",
+          "def": "The Cold War belief that if one country fell to communism, neighboring countries would also fall like a row of dominoes, justifying U.S. intervention to prevent communist expansion anywhere in the world."
+        },
+        {
+          "term": "Superpower",
+          "say": "",
+          "es": "Superpotencia",
+          "def": "A nation with overwhelming military, economic, and political power capable of projecting force globally; during the Cold War, only the United States and Soviet Union qualified as superpowers."
+        },
+        {
+          "term": "Proxy War",
+          "say": "",
+          "es": "Guerra por Poder",
+          "def": "Conflicts where the United States and Soviet Union supported opposing sides without directly fighting each other, allowing superpower competition while avoiding nuclear war."
+        },
+        {
+          "term": "NATO (North Atlantic Treaty Organization)",
+          "say": "",
+          "es": "OTAN (Organización del Tratado del Atlántico Norte)",
+          "def": "The military alliance formed in 1949 by the United States, Canada, and Western European nations pledging mutual defense against Soviet aggression, embodying the principle that \"an attack on one is an attack on all.\""
+        }
+      ],
+      "sources": [
+        {
+          "title": "Address on the Korean War",
+          "who": "President Harry S. Truman",
+          "date": "April 11, 1951",
+          "quote": "The Communists in the Kremlin are engaged in a monstrous conspiracy to stamp out freedom all over the world. If they were to succeed, the United States would be numbered among their principal victims. It must be clear to everyone that the U",
+          "repo": "Truman, President Harry S.. \"Address on the Korean War.\" April 11, 1951. Harry S. Truman Presidential Library, www.trumanlibrary.gov/library/public-papers/77/ra",
+          "url": "https://www.trumanlibrary.gov/library/public-papers/77/radio-report-american-people-korea-and-us-policy-far-east"
+        },
+        {
+          "title": "MacArthur's Address to Congress",
+          "who": "General Douglas MacArthur",
+          "date": "April 19, 1951",
+          "quote": "Once war is forced upon us, there is no other alternative than to apply every available means to bring it to a swift end. War's very object is victory, not prolonged indecision. In war there is no substitute for victory.",
+          "repo": "MacArthur, Douglas. \"MacArthur's Address to Congress.\" April 19, 1951. Library of Congress, www.loc.gov/item/2003666614/.",
+          "url": "https://www.loc.gov/item/2003666614/"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Why did Chinese entry into the Korean War change the conflict's course and duration?",
+        "options": {
+          "A": "Chinese involvement had no significant impact, but the historical record tells a more complex story",
+          "B": "China supported UN forces against North Korea, but the historical record tells a more complex story",
+          "C": "Chinese entry quickly ended the war, but this oversimplifies the complex factors at work",
+          "D": "China's 300,000 troops forced UN retreat, transformed a near-victory into stalemate, and extended the war by two years"
+        },
+        "key": "D",
+        "why": "Chinese intervention dramatically reversed American gains, pushing UN forces back south and creating a prolonged stalemate that demonstrated the limits of American military power in Asia."
+      },
+      "auth": {
+        "close": "The domino theory held that if one country fell to communism, neighboring countries would follow like falling dominoes. Applied to Korea, it justified American intervention to prevent communist control of the entire peninsula and potential spread to Japan and Southeast Asia. This theory would later drive American involvement in Vietnam. When UN forces under General MacArthur approached the Chinese border after the successful Inchon landing, China sent 300,000 \"volunteers\" into Korea. This dramatically changed the war's course, forcing UN retreat and extending the conflict. It demonstrated the limits of American power in Asia and the risks of overreach. This line divided Korea after WWII, with the Soviet Union occupying the north and the U.S. the south. It became the invasion route when North Korea attacked South Korea in June 1950. After three years of fighting with over 36,000 American deaths, the armistice line roughly followed the original 38th parallel, showing the war's ultimate stalemate. MacArthur's surprise amphibious landing at Inchon (September 1950) cut off North Korean forces and nearly ended the war quickly. However, this success led to overconfidence, with MacArthur pushing toward China and triggering Chinese intervention that prolonged the conflict for two more years.",
+        "close_sections": [
+          [
+            "The Domino Theory and Its Application",
+            "The domino theory held that if one country fell to communism, neighboring countries would follow like falling dominoes. Applied to Korea, it justified American intervention to prevent communist control of the entire peninsula and potential spread to Japan and Southeast Asia. This theory would later drive American involvement in Vietnam."
+          ],
+          [
+            "Chinese Entry and Its Impact",
+            "When UN forces under General MacArthur approached the Chinese border after the successful Inchon landing, China sent 300,000 \"volunteers\" into Korea. This dramatically changed the war's course, forcing UN retreat and extending the conflict. It demonstrated the limits of American power in Asia and the risks of overreach."
+          ],
+          [
+            "The 38th Parallel",
+            "This line divided Korea after WWII, with the Soviet Union occupying the north and the U.S. the south. It became the invasion route when North Korea attacked South Korea in June 1950. After three years of fighting with over 36,000 American deaths, the armistice line roughly followed the original 38th parallel, showing the war's ultimate stalemate."
+          ],
+          [
+            "The Battle of Inchon",
+            "MacArthur's surprise amphibious landing at Inchon (September 1950) cut off North Korean forces and nearly ended the war quickly. However, this success led to overconfidence, with MacArthur pushing toward China and triggering Chinese intervention that prolonged the conflict for two more years."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “The Domino Theory and Its Application” section, and what evidence supports it?",
+          "What is the main idea of the “Chinese Entry and Its Impact” section, and what evidence supports it?",
+          "What is the main idea of the “The 38th Parallel” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Korean War",
+          "Containment Policy"
+        ],
+        "quiz": [
+          {
+            "id": "us62-q3",
+            "dok": 2,
+            "stem": "What was the significance of the 38th parallel before, during, and after the Korean War?",
+            "opts": {
+              "A": "It divided Korea post-WWII, was crossed by North Korean invasion, and remained roughly the dividing line after three years of fighting and 36,000 American deaths",
+              "B": "The 38th parallel had no significance in the Korean War, though this interpretation lacks supporting historical evidence, though this interpretation lacks supporting historical evidence",
+              "C": "It was established after the Korean War ended, which does not align with the documented historical record, which ignores significant political and cultural developments of the era",
+              "D": "It marked the border between China and Korea, although historical sources do not support this conclusion and oversimplifies the complex factors at work during this period"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us64-dok1-4-b",
+            "dok": 2,
+            "stem": "What was the significance of the 38th parallel in the Korean War?",
+            "opts": {
+              "A": "Enabled families to purchase cars, appliances, and homes beyond immediate means",
+              "B": "It was the dividing line between communist North Korea and democratic South Korea",
+              "C": "An armistice divided Korea near the 38th parallel, with no formal peace treaty",
+              "D": "Government agency that insured mortgages, making homeownership more accessible"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the causes, course, and consequences of the Korean War, including the Domino Theory, 38th parallel, Battle of Inchon, entry of communist China, and final divisions of the Koreas? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "describe the causes, course, and consequences of the Korean War, including the Domino Theory, 38th parallel, Battle of Inchon, entry of communist China, and final divisions of the Koreas",
+      "targets": [
+        "describe the causes, course, and consequences of the Korean War, including the Domino Theory, 38th parallel, Battle of Inchon, entry of communist China, and final divisions of the Koreas"
+      ],
+      "criteria": [
+        "The Domino Theory and Its Application",
+        "Chinese Entry and Its Impact",
+        "The 38th Parallel"
+      ],
+      "cues": [
+        "What does the passage say about the Domino Theory and Its Application?",
+        "What does the passage say about chinese Entry and Its Impact?",
+        "What does the passage say about the 38th Parallel?",
+        "Key terms →"
+      ],
+      "lenses": "History · Geography · Politics/Government",
+      "dim_map": {
+        "H": "History lens on Korean War: The domino theory held that if one country fell to communism, neighboring countries would follow like falling …",
+        "G": "Geography lens on Korean War: The domino theory held that if one country fell to communism, neighboring countries would follow like falling …",
+        "P": "Politics/Government lens on Korean War: The domino theory held that if one country fell to communism, neighboring countries would follow like falling …"
+      },
+      "geo": "The Korean War was a Cold War fight over a divided country. Use the list below to map the key places, then explain how the 38th parallel shaped the war.",
+      "geo_places": [
+        [
+          "The 38th parallel",
+          "Middle of Korea",
+          "the Cold War dividing line between North and South"
+        ],
+        [
+          "North Korea",
+          "Northern Korea",
+          "communist, backed by the USSR and China"
+        ],
+        [
+          "South Korea",
+          "Southern Korea",
+          "backed by the U.S. and the United Nations"
+        ],
+        [
+          "Pusan",
+          "Southeast corner",
+          "the perimeter UN forces held early in the war"
+        ],
+        [
+          "Inchon",
+          "West coast, near Seoul",
+          "MacArthur's 1950 amphibious landing"
+        ]
+      ],
+      "tn_connection": "Thousands of Tennesseans served in the Korean War. Fort Campbell's 187th Airborne Regimental Combat Team made combat jumps at Sukchon and Munsan-ni. Tennessee Korean War veterans are memorialized at the War Memorial Building in Nashville.",
+      "hook": "Korean War: Describe the causes, course, and consequences of the Korean War, including: Domino Theory, 38th parallel, Battle of Inchon, Entry of the communist Chinese, Final divisions of the Koreas. Who gained, who was left out — and why does it still matter?",
+      "geo_sources": [
+        "The Korean War, 1950–1953 — U.S. Dept. of State, Office of the Historian: https://history.state.gov/milestones/1945-1952/korean-war",
+        "The Landing at Inch'on (Sept 1950) — U.S. Army Center of Military History: https://www.history.army.mil/books/korea/20-2-1/sn25.htm",
+        "Crossing the 38th Parallel — U.S. Army Center of Military History: https://history.army.mil/books/PD-C-10.HTM"
+      ],
+      "geo_review": {
+        "status": "drafted",
+        "by": "",
+        "date": "",
+        "note": "Places drafted from the standard's official TN text and criteria; anchor facts verified against the cited authoritative sources. Pending SME sign-off."
+      }
+    },
+    "US.63": {
+      "title": "Eisenhower's Cold War Policies",
+      "tn": "Explain Cold War policies during President Dwight D. Eisenhower's administration, including brinkmanship and \"peaceful coexistence\".",
+      "ican": "I can explain Cold War policies during President Eisenhower's administration, including brinkmanship and \"peaceful coexistence.\"",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Brinkmanship",
+          "say": "BRINGK-mun-ship",
+          "es": "Política al Borde del Abismo",
+          "def": "The Cold War diplomatic strategy of pushing dangerous situations to the edge of war to force the other side to back down, associated with Secretary of State John Foster Dulles in the 1950s."
+        },
+        {
+          "term": "Domino Theory",
+          "say": "DOM-ih-noh THEER-ee",
+          "es": "Teoría del Dominó",
+          "def": "The Cold War belief that if one country fell to communism, neighboring countries would also fall like a row of dominoes, justifying U.S. intervention to prevent communist expansion anywhere in the world."
+        },
+        {
+          "term": "Eisenhower Doctrine",
+          "say": "",
+          "es": "Doctrina Eisenhower",
+          "def": "President Eisenhower's 1957 policy pledging U.S. military and economic aid to Middle Eastern countries resisting communist aggression, extending containment policy to protect oil supplies and strategic interests."
+        },
+        {
+          "term": "Warsaw Pact",
+          "say": "WOR-saw pakt",
+          "es": "Pacto de Varsovia",
+          "def": "The Soviet Union's military alliance formed in 1955 with communist Eastern European nations in response to NATO, creating two opposing military blocs that defined Cold War Europe."
+        },
+        {
+          "term": "Military-Industrial Complex",
+          "say": "MIL-ih-tair-ee in-DUS-tree-ul KOM-pleks",
+          "es": "Complejo Militar-Industrial",
+          "def": "The close relationship between the military, defense contractors, and government that President Eisenhower warned about in 1961, concerned that this alliance could drive unnecessary military spending and influence…"
+        },
+        {
+          "term": "Interstate Highway System",
+          "say": "",
+          "es": "Sistema de Autopistas Interestatales",
+          "def": "The massive network of limited-access highways authorized by President Eisenhower in 1956, connecting American cities and transforming transportation, commerce, and development patterns."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Eisenhower's \"New Look\" Policy Speech",
+          "who": "President Dwight D. Eisenhower",
+          "date": "January 12, 1954",
+          "quote": "The basic decision was to depend primarily upon a great capacity to retaliate, instantly, by means and at places of our choosing... The way to deter aggression is for the free community to be willing and able to respond vigorously at places",
+          "repo": "Eisenhower, Dwight D. \"Eisenhower's New Look Policy Speech.\" January 12, 1954. Dwight D. Eisenhower Presidential Library, www.eisenhowerlibrary.gov/research/onl",
+          "url": "https://www.eisenhowerlibrary.gov/research/online-documents"
+        },
+        {
+          "title": "Spirit of Geneva Statement",
+          "who": "President Dwight D. Eisenhower",
+          "date": "July 1955",
+          "quote": "The prospects of lasting peace with justice, well-being and broader freedom, are brighter. The dangers of the overwhelming tragedy of modern war are less... We have found it possible to create a new spirit that permits us to face the future",
+          "repo": "Eisenhower, President Dwight D.. \"Spirit of Geneva Statement.\" July 1955. Dwight D. Eisenhower Presidential Library, www.eisenhowerlibrary.gov/research/online-d",
+          "url": "https://www.eisenhowerlibrary.gov/research/online-documents"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Compare brinkmanship and peaceful coexistence as Cold War strategies.",
+        "options": {
+          "A": "Brinkmanship used nuclear threats aggressively while peaceful coexistence emphasized diplomatic competition—both aimed to avoid actual war while continuing ideological struggle",
+          "B": "Both strategies were identical in approach, but contemporary accounts suggest a different explanation and does not reflect the scholarly consensus on this topic",
+          "C": "Neither strategy addressed nuclear weapons, but contemporary accounts suggest a different explanation, but closer analysis reveals a more complicated historical reality",
+          "D": "Peaceful coexistence was more aggressive than brinkmanship, which ignores key developments that shaped the outcome, though this interpretation lacks supporting historical evidence"
+        },
+        "key": "A",
+        "why": "Both strategies recognized nuclear war's catastrophic potential but approached the problem differently—brinkmanship through intimidation, peaceful coexistence through diplomatic channels."
+      },
+      "auth": {
+        "close": "Secretary of State John Foster Dulles advocated pushing dangerous situations to the brink of war to force opponents to back down. This strategy relied on nuclear deterrence and superior American resolve. Applied during the Suez Crisis (1956) and Berlin Crisis (1958), brinkmanship assumed that the threat of nuclear war would make enemies capitulate. This concept, promoted by Soviet leader Nikita Khrushchev after Stalin's death, suggested that capitalist and communist nations could coexist without war while competing economically and ideologically. It represented a shift from Stalin's more aggressive approach and opened possibilities for diplomacy while maintaining fundamental competition. Brinkmanship was an aggressive, risk-taking approach using the threat of nuclear war to achieve goals. Peaceful coexistence was a more diplomatic approach emphasizing competition over confrontation. Both sought to avoid actual nuclear war while maintaining ideological competition—brinkmanship through deterrence, peaceful coexistence through negotiation.",
+        "close_sections": [
+          [
+            "Brinkmanship",
+            "Secretary of State John Foster Dulles advocated pushing dangerous situations to the brink of war to force opponents to back down. This strategy relied on nuclear deterrence and superior American resolve. Applied during the Suez Crisis (1956) and Berlin Crisis (1958), brinkmanship assumed that the threat of nuclear war would make enemies capitulate."
+          ],
+          [
+            "Peaceful Coexistence",
+            "This concept, promoted by Soviet leader Nikita Khrushchev after Stalin's death, suggested that capitalist and communist nations could coexist without war while competing economically and ideologically. It represented a shift from Stalin's more aggressive approach and opened possibilities for diplomacy while maintaining fundamental competition."
+          ],
+          [
+            "Comparing Approaches",
+            "Brinkmanship was an aggressive, risk-taking approach using the threat of nuclear war to achieve goals. Peaceful coexistence was a more diplomatic approach emphasizing competition over confrontation. Both sought to avoid actual nuclear war while maintaining ideological competition—brinkmanship through deterrence, peaceful coexistence through negotiation."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Brinkmanship” section, and what evidence supports it?",
+          "What is the main idea of the “Peaceful Coexistence” section, and what evidence supports it?",
+          "What is the main idea of the “Comparing Approaches” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Brinkmanship",
+          "Domino Theory"
+        ],
+        "quiz": [
+          {
+            "id": "us63-q2",
+            "dok": 2,
+            "stem": "What was Khrushchev's concept of \"peaceful coexistence\" and how did it differ from Stalin's approach?",
+            "opts": {
+              "A": "It suggested capitalist and communist nations could compete without war, representing a shift from Stalin's more aggressive confrontational approach",
+              "B": "Peaceful coexistence meant abandoning communist ideology, which represents a common misconception about the period",
+              "C": "It was identical to Stalin's policies, but this fails to account for the broader historical context and oversimplifies the complex factors at work during this period",
+              "D": "It called for immediate world revolution, which contradicts the primary source evidence from this era, which does not align with the documented historical record"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us69-dok2-2",
+            "dok": 2,
+            "stem": "How did civil defense programs reflect Cold War anxieties?",
+            "opts": {
+              "A": "It expanded the war without congressional knowledge and violated Cambodian neutrality",
+              "B": "\"Duck and cover\" drills and fallout shelters showed pervasive fear of nuclear attack",
+              "C": "Soviet satellite launch in 1957 that shocked Americans and intensified the space race",
+              "D": "Teach children to protect themselves from nuclear blast, though with limited effect"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — explain Cold War policies during President Eisenhower's administration, including brinkmanship and \"peaceful coexistence.\"? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "explain Cold War policies during President Eisenhower's administration, including brinkmanship and \"peaceful coexistence.\"",
+      "targets": [
+        "explain Cold War policies during President Eisenhower's administration, including brinkmanship and \"peaceful coexistence.\""
+      ],
+      "criteria": [
+        "Brinkmanship",
+        "Peaceful Coexistence",
+        "Comparing Approaches"
+      ],
+      "cues": [
+        "What does the passage say about brinkmanship?",
+        "What does the passage say about peaceful Coexistence?",
+        "What does the passage say about comparing Approaches?",
+        "Key terms →"
+      ],
+      "lenses": "Politics/Government · History",
+      "dim_map": {
+        "P": "Politics/Government lens on Eisenhower's Cold War Policies: Secretary of State John Foster Dulles advocated pushing dangerous situations to the brink of war to force oppo…",
+        "H": "History lens on Eisenhower's Cold War Policies: Secretary of State John Foster Dulles advocated pushing dangerous situations to the brink of war to force oppo…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "",
+      "hook": "Eisenhower's Cold War Policies: Explain Cold War policies during President Dwight D. Eisenhower's administration, including brinkmanship and \"peaceful coexistence\". Who gained, who was left out — and why does it still matter?"
+    },
+    "US.64": {
+      "title": "Nuclear Fears and Civil Defense",
+      "tn": "Explain the fears of Americans surrounding nuclear holocaust and debates over stockpiling and the use of nuclear weapons, including: Atomic testing, Civil defense, Fallout shelters, Impact of Sputnik, Mutual assured destruction.",
+      "ican": "I can explain the fears of Americans surrounding nuclear holocaust and debates over stockpiling and the use of nuclear weapons, including atomic testing, civil defense, fallout shelters, Sputnik, and mutual assured destruction.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Nuclear Fears",
+          "say": "",
+          "es": "Miedos Nucleares",
+          "def": "The widespread anxiety in 1950s America about nuclear war with the Soviet Union, driven by atomic bomb tests, the arms race, and fear of sudden nuclear annihilation."
+        },
+        {
+          "term": "Fallout Shelters",
+          "say": "",
+          "es": "Refugios Antibombas",
+          "def": "Underground or reinforced structures designed to protect people from radioactive fallout after a nuclear explosion, widely promoted and built during the 1950s as Cold War tensions escalated."
+        },
+        {
+          "term": "Mutual Assured Destruction (MAD)",
+          "say": "",
+          "es": "Destrucción Mutua Asegurada",
+          "def": "The Cold War doctrine that nuclear war between the U.S. and Soviet Union would result in complete annihilation of both sides, theoretically preventing either from starting a war."
+        },
+        {
+          "term": "Baby Boom",
+          "say": "",
+          "es": "Baby Boom",
+          "def": "The dramatic increase in birth rates from 1946-1964, with 76 million babies born in the U.S., as returning World War II veterans started families in prosperous post-war America."
+        },
+        {
+          "term": "G.I. Bill",
+          "say": "",
+          "es": "Ley G.I.",
+          "def": "The Servicemen's Readjustment Act of 1944 that provided World War II veterans with benefits including college tuition, low-interest home loans, and unemployment benefits, transforming American society."
+        },
+        {
+          "term": "Growth of Suburbia",
+          "say": "",
+          "es": "Crecimiento de los Suburbios",
+          "def": "The explosive expansion of residential communities outside city centers during the 1950s, enabled by highways, affordable housing, and the desire for space and safety."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Civil Defense Pamphlet",
+          "who": "Federal Civil Defense Administration",
+          "date": "1951",
+          "quote": "You can survive an atomic bomb attack! But you must know what to do. Duck and cover at the flash of light. Stay away from windows. If outdoors, lie flat on the ground. Have an emergency kit ready. Build a fallout shelter in your basement or",
+          "repo": "Federal Civil Defense Administration. \"Civil Defense Pamphlet.\" 1951. Library of Congress, www.loc.gov/collections/civil-defense/.",
+          "url": "https://www.loc.gov/collections/civil-defense/"
+        },
+        {
+          "title": "President Eisenhower on Mutual Assured Destruction",
+          "who": "President Dwight D. Eisenhower",
+          "date": "1956",
+          "quote": "The only thing worse than losing a global war is winning one. In a nuclear war, all we could do is dig out the dead. Modern war has grown monstrous, and all wars would be futile.",
+          "repo": "Eisenhower, President Dwight D.. \"President Eisenhower on Mutual Assured Destruction.\" 1956. Dwight D. Eisenhower Presidential Library, www.eisenhowerlibrary.go",
+          "url": "https://www.eisenhowerlibrary.gov/research/online-documents"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Why did Sputnik shock Americans and change U.S. education and defense policies?",
+        "options": {
+          "A": "Sputnik had no significant impact on American policy, despite limited evidence supporting this interpretation, which does not align with the documented historical record",
+          "B": "It demonstrated Soviet technological capability and potential ICBM threat, spurring the space race, increased science education funding, and heightened fears of nuclear vulnerability",
+          "C": "Americans celebrated Soviet space achievements, but contemporary accounts suggest a different explanation, though this interpretation lacks supporting historical evidence",
+          "D": "Sputnik only affected the space program, not other policies, although historical sources do not support this conclusion and oversimplifies the complex factors at work during this period"
+        },
+        "key": "B",
+        "why": "Sputnik shattered American assumptions of technological superiority and demonstrated that Soviets could deliver nuclear weapons via missiles, prompting massive investments in science education and space technology."
+      },
+      "auth": {
+        "close": "Americans lived with constant anxiety about nuclear attack. \"Duck and cover\" drills in schools, fallout shelter construction, and civil defense programs reflected deep fears about nuclear annihilation. Mutual Assured Destruction (MAD) paradoxically provided security through the promise of mutual annihilation—neither side would attack knowing both would be destroyed. Hawks argued for nuclear superiority to deter Soviet aggression, while doves worried about accidental war and escalating arms race costs. The debate intensified with hydrogen bomb development and ICBM deployment. Some questioned whether building more weapons enhanced security or simply increased the risk of catastrophic accident. Above-ground nuclear tests created public health concerns about radioactive fallout. The 1954 Bravo test contaminated Japanese fishermen and Pacific islanders, increasing international pressure for test bans and raising awareness of nuclear weapons' environmental dangers. These concerns eventually led to the Limited Test Ban Treaty of 1963. The 1957 Soviet satellite launch shocked Americans, suggesting Soviet technological superiority and ICBM capability. If the Soviets could launch a satellite, they could deliver nuclear warheads to American cities. This intensified the space race, led to increased science education funding through the National Defense Education Act, and created fears about American vulnerability.",
+        "close_sections": [
+          [
+            "American Fears of Nuclear Holocaust",
+            "Americans lived with constant anxiety about nuclear attack. \"Duck and cover\" drills in schools, fallout shelter construction, and civil defense programs reflected deep fears about nuclear annihilation. Mutual Assured Destruction (MAD) paradoxically provided security through the promise of mutual annihilation—neither side would attack knowing both would be destroyed."
+          ],
+          [
+            "Debates Over Nuclear Stockpiling",
+            "Hawks argued for nuclear superiority to deter Soviet aggression, while doves worried about accidental war and escalating arms race costs. The debate intensified with hydrogen bomb development and ICBM deployment. Some questioned whether building more weapons enhanced security or simply increased the risk of catastrophic accident."
+          ],
+          [
+            "Atomic Testing Impact",
+            "Above-ground nuclear tests created public health concerns about radioactive fallout. The 1954 Bravo test contaminated Japanese fishermen and Pacific islanders, increasing international pressure for test bans and raising awareness of nuclear weapons' environmental dangers. These concerns eventually led to the Limited Test Ban Treaty of 1963."
+          ],
+          [
+            "Sputnik's Significance",
+            "The 1957 Soviet satellite launch shocked Americans, suggesting Soviet technological superiority and ICBM capability. If the Soviets could launch a satellite, they could deliver nuclear warheads to American cities. This intensified the space race, led to increased science education funding through the National Defense Education Act, and created fears about American vulnerability."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “American Fears of Nuclear Holocaust” section, and what evidence supports it?",
+          "What is the main idea of the “Debates Over Nuclear Stockpiling” section, and what evidence supports it?",
+          "What is the main idea of the “Atomic Testing Impact” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Nuclear Fears",
+          "Fallout Shelters"
+        ],
+        "quiz": [
+          {
+            "id": "us64-q2",
+            "dok": 2,
+            "stem": "What concerns did atomic testing raise about nuclear weapons' broader impacts?",
+            "opts": {
+              "A": "Above-ground tests spread radioactive fallout, harming civilians and the environment, leading to international pressure for test bans",
+              "B": "Testing had no negative effects, but the historical record tells a more complex story, which does not align with the documented historical record",
+              "C": "Only military personnel were affected by testing, but this oversimplifies the complex factors at work",
+              "D": "Testing concerns were limited to the Soviet Union, but this fails to account for the broader historical context"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us69-dok2-2",
+            "dok": 2,
+            "stem": "How did civil defense programs reflect Cold War anxieties?",
+            "opts": {
+              "A": "It expanded the war without congressional knowledge and violated Cambodian neutrality",
+              "B": "\"Duck and cover\" drills and fallout shelters showed pervasive fear of nuclear attack",
+              "C": "Soviet satellite launch in 1957 that shocked Americans and intensified the space race",
+              "D": "Teach children to protect themselves from nuclear blast, though with limited effect"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — explain the fears of Americans surrounding nuclear holocaust and debates over stockpiling and the use of nuclear weapons, including atomic testing, civil defense, fallout shelters, Sputnik, and mutual assured destruction? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "explain the fears of Americans surrounding nuclear holocaust and debates over stockpiling and the use of nuclear weapons, including atomic testing, civil defense, fallout shelters, Sputnik, and mutual assured destruction",
+      "targets": [
+        "explain the fears of Americans surrounding nuclear holocaust and debates over stockpiling and the use of nuclear weapons, including atomic testing, civil defense, fallout shelters, Sputnik, and mutual assured destruction"
+      ],
+      "criteria": [
+        "American Fears of Nuclear Holocaust",
+        "Debates Over Nuclear Stockpiling",
+        "Atomic Testing Impact"
+      ],
+      "cues": [
+        "What does the passage say about american Fears of Nuclear Holocaust?",
+        "What does the passage say about debates Over Nuclear Stockpiling?",
+        "What does the passage say about atomic Testing Impact?",
+        "Key terms →"
+      ],
+      "lenses": "History · Politics/Government · Culture",
+      "dim_map": {
+        "H": "History lens on Nuclear Fears and Civil Defense: Americans lived with constant anxiety about nuclear attack. \"Duck and cover\" drills in schools, fallout shelte…",
+        "P": "Politics/Government lens on Nuclear Fears and Civil Defense: Americans lived with constant anxiety about nuclear attack. \"Duck and cover\" drills in schools, fallout shelte…",
+        "C": "Culture lens on Nuclear Fears and Civil Defense: Americans lived with constant anxiety about nuclear attack. \"Duck and cover\" drills in schools, fallout shelte…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "Oak Ridge, Tennessee — home of the uranium enrichment facilities that produced the atomic bomb — remained central to the nuclear arms race during the Cold War. The city's Y-12 National Security Complex continued producing nuclear materials, making Tennessee a frontline state in nuclear policy debates.",
+      "hook": "Nuclear Fears and Civil Defense: Explain the fears of Americans surrounding nuclear holocaust and debates over stockpiling and the use of nuclear weapons, including: Atomic testing, Civil defense, Fallout shelters, Impact of Sputnik, Mutual assured destruction. Who gained, who was left out — and why does it still matter?"
+    },
+    "US.65": {
+      "title": "U.S.-Cuba Relations",
+      "tn": "Describe the relationship between Cuba and the U.S., including the Bay of Pigs Invasion and Cuban Missile Crisis.",
+      "ican": "I can describe the relationship between Cuba and the U.S., including the Bay of Pigs Invasion and Cuban Missile Crisis.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Cuban Missile Crisis",
+          "say": "KYOO-bun MIS-ul KRY-sis",
+          "es": "Cuban Missile Crisis",
+          "def": "The thirteen-day 1962 confrontation between the United States and the Soviet Union over Soviet nuclear missiles installed in Cuba, widely regarded as the closest the Cold War came to full-scale nuclear war."
+        },
+        {
+          "term": "Brinkmanship",
+          "say": "BRINGK-mun-ship",
+          "es": "Política al Borde del Abismo",
+          "def": "The Cold War diplomatic strategy of pushing dangerous situations to the edge of war to force the other side to back down, associated with Secretary of State John Foster Dulles in the 1950s."
+        },
+        {
+          "term": "Mutual Assured Destruction (MAD)",
+          "say": "",
+          "es": "Destrucción Mutua Asegurada",
+          "def": "The Cold War doctrine that nuclear war between the U.S. and Soviet Union would result in complete annihilation of both sides, theoretically preventing either from starting a war."
+        },
+        {
+          "term": "Containment Policy",
+          "say": "",
+          "es": "Política de Contención",
+          "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
+        },
+        {
+          "term": "Nuclear Fears",
+          "say": "",
+          "es": "Miedos Nucleares",
+          "def": "The widespread anxiety in 1950s America about nuclear war with the Soviet Union, driven by atomic bomb tests, the arms race, and fear of sudden nuclear annihilation."
+        },
+        {
+          "term": "Superpower",
+          "say": "",
+          "es": "Superpotencia",
+          "def": "A nation with overwhelming military, economic, and political power capable of projecting force globally; during the Cold War, only the United States and Soviet Union qualified as superpowers."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cuban Missile Crisis Address",
+          "who": "President John F. Kennedy",
+          "date": "October 22, 1962",
+          "quote": "Within the past week, unmistakable evidence has established the fact that a series of offensive missile sites is now in preparation on that imprisoned island. The purpose of these bases can be none other than to provide a nuclear strike cap",
+          "repo": "Kennedy, President John F.. \"Cuban Missile Crisis Address.\" October 22, 1962. John F. Kennedy Presidential Library, www.jfklibrary.org/learn/about-jfk/historic-",
+          "url": "https://www.jfklibrary.org/learn/about-jfk/historic-speeches/address-during-the-cuban-missile-crisis"
+        },
+        {
+          "title": "Khrushchev's Letter to Kennedy",
+          "who": "Premier Nikita Khrushchev",
+          "date": "October 26, 1962",
+          "quote": "If you have not lost your self-control and sensibly conceive what this might lead to, then, Mr. President, we and you ought not now to pull on the ends of the rope in which you have tied the knot of war, because the more the two of us pull,",
+          "repo": "Khrushchev, Nikita. \"Khrushchev's Letter to Kennedy.\" October 26, 1962. John F. Kennedy Presidential Library, www.jfklibrary.org/asset-viewer/archives/JFKNSF/19",
+          "url": "https://www.jfklibrary.org/asset-viewer/archives/JFKNSF/198/JFKNSF-198-010"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Why did the Bay of Pigs invasion fail and what were its consequences?",
+        "options": {
+          "A": "The invasion succeeded in overthrowing Castro, but this fails to account for the broader historical context",
+          "B": "The invasion was never actually attempted, though this interpretation lacks supporting historical evidence",
+          "C": "Kennedy's withdrawal of air support doomed the invasion, humiliating the U.S. and pushing Castro closer to Soviet protection",
+          "D": "The failure had no long-term consequences, which does not align with the documented historical record"
+        },
+        "key": "C",
+        "why": "The botched invasion embarrassed Kennedy internationally and convinced Castro he needed Soviet military protection, directly contributing to the later missile crisis."
+      },
+      "auth": {
+        "close": "The U.S. had dominated Cuba economically since the Spanish-American War of 1898, supporting dictator Fulgencio Batista. Fidel Castro's 1959 revolution initially received mixed American reaction, but his communist alignment, property nationalization, and alliance with the Soviet Union quickly soured relations and created a Cold War flashpoint 90 miles from Florida. The CIA-planned 1961 invasion used Cuban exiles to overthrow Castro. The operation failed disastrously when President Kennedy withdrew air support at the last moment, leaving the invasion force stranded on the beach. This humiliating failure embarrassed the U.S. internationally and pushed Castro closer to the Soviet Union for protection. In October 1962, Soviet missiles discovered in Cuba brought the world to the brink of nuclear war. For thirteen days, Kennedy and Khrushchev engaged in the most dangerous confrontation of the Cold War. Kennedy's naval quarantine and secret negotiations led to Soviet withdrawal in exchange for U.S. promises not to invade Cuba and quietly remove missiles from Turkey. The Cuban Missile Crisis demonstrated brinkmanship's dangers and led to improved U.S.-Soviet communication, including a direct \"hotline\" between Washington and Moscow. Both sides, having stared into nuclear abyss, became more cautious about direct confrontation while continuing competition through other means.",
+        "close_sections": [
+          [
+            "Historical Background",
+            "The U.S. had dominated Cuba economically since the Spanish-American War of 1898, supporting dictator Fulgencio Batista. Fidel Castro's 1959 revolution initially received mixed American reaction, but his communist alignment, property nationalization, and alliance with the Soviet Union quickly soured relations and created a Cold War flashpoint 90 miles from Florida."
+          ],
+          [
+            "The Bay of Pigs Invasion",
+            "The CIA-planned 1961 invasion used Cuban exiles to overthrow Castro. The operation failed disastrously when President Kennedy withdrew air support at the last moment, leaving the invasion force stranded on the beach. This humiliating failure embarrassed the U.S. internationally and pushed Castro closer to the Soviet Union for protection."
+          ],
+          [
+            "The Cuban Missile Crisis",
+            "In October 1962, Soviet missiles discovered in Cuba brought the world to the brink of nuclear war. For thirteen days, Kennedy and Khrushchev engaged in the most dangerous confrontation of the Cold War. Kennedy's naval quarantine and secret negotiations led to Soviet withdrawal in exchange for U.S. promises not to invade Cuba and quietly remove missiles from Turkey."
+          ],
+          [
+            "Crisis Resolution and Aftermath",
+            "The Cuban Missile Crisis demonstrated brinkmanship's dangers and led to improved U.S.-Soviet communication, including a direct \"hotline\" between Washington and Moscow. Both sides, having stared into nuclear abyss, became more cautious about direct confrontation while continuing competition through other means."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Historical Background” section, and what evidence supports it?",
+          "What is the main idea of the “The Bay of Pigs Invasion” section, and what evidence supports it?",
+          "What is the main idea of the “The Cuban Missile Crisis” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Cuban Missile Crisis",
+          "Brinkmanship"
+        ],
+        "quiz": [
+          {
+            "id": "us-63-q09",
+            "dok": 2,
+            "stem": "The hostage crisis's impact on U.S.-Iran relations was long-lasting because —",
+            "opts": {
+              "A": "The crisis established a pattern of deep mutual hostility",
+              "B": "Iran paid reparations to the hostages that settled all legal claims",
+              "C": "The CIA successfully overthrew the Iranian government in 1983",
+              "D": "The two countries immediately reconciled after the hostages were released"
+            },
+            "key": "A"
+          },
+          {
+            "id": "us-68-q09",
+            "dok": 2,
+            "stem": "Gingrich's relationship with Clinton after the 1994 elections was characterized by —",
+            "opts": {
+              "A": "A personal friendship that transcended their political differences",
+              "B": "Intense partisan warfare punctuated by necessary compromises",
+              "C": "Complete gridlock with no significant legislation passed",
+              "D": "Bipartisan cooperation that produced landmark legislation"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the relationship between Cuba and the U.S., including the Bay of Pigs Invasion and Cuban Missile Crisis? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "describe the relationship between Cuba and the U.S., including the Bay of Pigs Invasion and Cuban Missile Crisis",
+      "targets": [
+        "describe the relationship between Cuba and the U.S., including the Bay of Pigs Invasion and Cuban Missile Crisis"
+      ],
+      "criteria": [
+        "Historical Background",
+        "The Bay of Pigs Invasion",
+        "The Cuban Missile Crisis"
+      ],
+      "cues": [
+        "What does the passage say about historical Background?",
+        "What does the passage say about the Bay of Pigs Invasion?",
+        "What does the passage say about the Cuban Missile Crisis?",
+        "Key terms →"
+      ],
+      "lenses": "History · Politics/Government · Geography",
+      "dim_map": {
+        "H": "History lens on U.S.-Cuba Relations: The U.S. had dominated Cuba economically since the Spanish-American War of 1898, supporting dictator Fulgencio…",
+        "P": "Politics/Government lens on U.S.-Cuba Relations: The U.S. had dominated Cuba economically since the Spanish-American War of 1898, supporting dictator Fulgencio…",
+        "G": "Geography lens on U.S.-Cuba Relations: The U.S. had dominated Cuba economically since the Spanish-American War of 1898, supporting dictator Fulgencio…"
+      },
+      "geo": "The 1962 Cuban Missile Crisis was about GEOGRAPHY — how close is too close? Use the list below to map it, then explain why Soviet missiles in Cuba felt so dangerous.",
+      "geo_places": [
+        [
+          "Cuba",
+          "~90 miles south of Florida",
+          "Castro's communist revolution put a Soviet ally on America's doorstep"
+        ],
+        [
+          "Bay of Pigs",
+          "Southern coast of Cuba",
+          "failed 1961 U.S.-backed invasion by Cuban exiles"
+        ],
+        [
+          "Florida",
+          "Southeastern U.S.",
+          "within range of the missiles placed in Cuba"
+        ],
+        [
+          "The Soviet Union",
+          "Eastern Europe / Asia",
+          "secretly shipped nuclear missiles to Cuba in 1962"
+        ],
+        [
+          "Turkey",
+          "Near the USSR's border",
+          "site of U.S. missiles quietly removed to end the crisis"
+        ]
+      ],
+      "tn_connection": "",
+      "hook": "U.S.-Cuba Relations: Describe the relationship between Cuba and the U.S., including the Bay of Pigs Invasion and Cuban Missile Crisis. Who gained, who was left out — and why does it still matter?",
+      "geo_sources": [
+        "The Cuban Missile Crisis, October 1962 — U.S. Dept. of State, Office of the Historian: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis",
+        "Cuban Missile Crisis (Bay of Pigs, Jupiter missiles in Turkey) — John F. Kennedy Presidential Library: https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis"
+      ],
+      "geo_review": {
+        "status": "drafted",
+        "by": "",
+        "date": "",
+        "note": "Places drafted from the standard's official TN text and criteria; anchor facts verified against the cited authoritative sources. Pending SME sign-off."
+      }
+    },
+    "US.66": {
+      "title": "Vietnam War Causes, Course, and Consequences",
+      "tn": "Describe the causes, course, and consequences of the Vietnam War, including: Geneva Accords, Gulf of Tonkin Resolution, Tet Offensive, Ho Chi Minh, Bombing of Cambodia, Napalm and Agent Orange, Vietnamization.",
+      "ican": "I can describe the causes, course, and consequences of the Vietnam War, including the Geneva Accords, Gulf of Tonkin Resolution, Tet Offensive, Ho Chi Minh, bombing of Cambodia, napalm and Agent Orange, and Vietnamization.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Korean War",
+          "say": "",
+          "es": "Guerra de Corea",
+          "def": "The 1950-1953 conflict in which communist North Korea (backed by China and the Soviet Union) invaded South Korea, prompting U.S.-led UN intervention in the first major \"hot war\" of the Cold War era."
+        },
+        {
+          "term": "Domino Theory",
+          "say": "DOM-ih-noh THEER-ee",
+          "es": "Teoría del Dominó",
+          "def": "The Cold War belief that if one country fell to communism, neighboring countries would also fall like a row of dominoes, justifying U.S. intervention to prevent communist expansion anywhere in the world."
+        },
+        {
+          "term": "Containment Policy",
+          "say": "",
+          "es": "Política de Contención",
+          "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
+        },
+        {
+          "term": "Proxy War",
+          "say": "",
+          "es": "Guerra por Poder",
+          "def": "Conflicts where the United States and Soviet Union supported opposing sides without directly fighting each other, allowing superpower competition while avoiding nuclear war."
+        },
+        {
+          "term": "Communism",
+          "say": "KOM-yoo-niz-um",
+          "es": "Comunismo",
+          "def": "A political and economic system where the government owns all property and means of production, theoretically distributing resources equally, practiced in the Soviet Union and opposed by the United States during…"
+        },
+        {
+          "term": "Cold War",
+          "say": "kohld wor",
+          "es": "Guerra Fría",
+          "def": "The prolonged geopolitical, ideological, and military rivalry between the United States and the Soviet Union from 1945 to 1991, waged through alliances, proxy wars, and an arms race rather than direct combat."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gulf of Tonkin Resolution",
+          "who": "U.S. Congress",
+          "date": "August 7, 1964",
+          "quote": "The Congress approves and supports the determination of the President, as Commander in Chief, to take all necessary measures to repel any armed attack against the forces of the United States and to prevent further aggression... The United S",
+          "repo": "U.S. Congress. \"Gulf of Tonkin Resolution.\" August 7, 1964. National Archives, https://www.archives.gov/milestone-documents/tonkin-gulf-resolution.",
+          "url": "https://www.archives.gov/milestone-documents/tonkin-gulf-resolution"
+        },
+        {
+          "title": "Report on the Tet Offensive",
+          "who": "Walter Cronkite, CBS News",
+          "date": "February 27, 1968",
+          "quote": "To say that we are closer to victory today is to believe, in the face of the evidence, the optimists who have been wrong in the past... It seems now more certain than ever that the bloody experience of Vietnam is to end in a stalemate.",
+          "repo": "Walter Cronkite, CBS News. \"Report on the Tet Offensive.\" February 27, 1968. Library of Congress, www.loc.gov/item/2003666014/.",
+          "url": "https://www.loc.gov/item/2003666014/"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Why did the Gulf of Tonkin Resolution give President Johnson broad war powers without a formal declaration?",
+        "options": {
+          "A": "Congress formally declared war on North Vietnam, although this overlooks critical economic and social factors, although this overlooks critical economic and social factors involved",
+          "B": "Johnson never received congressional authorization, although historical sources do not support this conclusion, but contemporary accounts and primary sources suggest otherwise",
+          "C": "The resolution only authorized economic sanctions, which represents a common misconception about the period, but the historical evidence paints a more nuanced picture",
+          "D": "The resolution authorized the president to use military force to assist Southeast Asian nations, effectively bypassing the constitutional requirement for a war declaration"
+        },
+        "key": "D",
+        "why": "The resolution's broad language allowed Johnson to escalate military involvement dramatically without the political risks of asking Congress for a formal war declaration."
+      },
+      "auth": {
+        "close": "The 1954 Geneva Accords temporarily divided Vietnam at the 17th parallel after French defeat at Dien Bien Phu. Elections were planned for 1956 to reunify the country. When South Vietnam, with American support, refused elections (fearing Ho Chi Minh would win), the division became permanent, setting the stage for decades of conflict. Ho Chi Minh led Vietnamese independence movements against French colonial rule and later American intervention. His nationalist-communist ideology appealed to many Vietnamese seeking independence and unification. To North Vietnamese, he was a liberator; to Americans, he represented communist expansion that must be contained. Following alleged attacks on U.S. destroyers in August 1964, Congress authorized President Johnson to use military force in Vietnam. This resolution effectively gave Johnson a blank check for escalation without a formal war declaration. Later evidence suggested the attacks were exaggerated or misrepresented. The 1968 coordinated North Vietnamese attack on South Vietnamese cities during the Tet holiday militarily failed but psychologically succeeded. Television coverage showed the war's brutality and contradicted official claims of progress, turning American public opinion against the war and contributing to Johnson's decision not to seek reelection. Napalm and Agent Orange caused immediate casualties and long-term environmental damage. Agent Orange's health effects on veterans and Vietnamese civilians created lasting controversy. Nixon's Vietnamization policy gradually transferred fighting responsibility to South Vietnamese forces while withdrawing American troops, aiming to end American involvement while maintaining South Vietnam.",
+        "close_sections": [
+          [
+            "The Geneva Accords",
+            "The 1954 Geneva Accords temporarily divided Vietnam at the 17th parallel after French defeat at Dien Bien Phu. Elections were planned for 1956 to reunify the country. When South Vietnam, with American support, refused elections (fearing Ho Chi Minh would win), the division became permanent, setting the stage for decades of conflict."
+          ],
+          [
+            "Ho Chi Minh's Role",
+            "Ho Chi Minh led Vietnamese independence movements against French colonial rule and later American intervention. His nationalist-communist ideology appealed to many Vietnamese seeking independence and unification. To North Vietnamese, he was a liberator; to Americans, he represented communist expansion that must be contained."
+          ],
+          [
+            "The Gulf of Tonkin Resolution",
+            "Following alleged attacks on U.S. destroyers in August 1964, Congress authorized President Johnson to use military force in Vietnam. This resolution effectively gave Johnson a blank check for escalation without a formal war declaration. Later evidence suggested the attacks were exaggerated or misrepresented."
+          ],
+          [
+            "The Tet Offensive",
+            "The 1968 coordinated North Vietnamese attack on South Vietnamese cities during the Tet holiday militarily failed but psychologically succeeded. Television coverage showed the war's brutality and contradicted official claims of progress, turning American public opinion against the war and contributing to Johnson's decision not to seek reelection."
+          ],
+          [
+            "Chemical Weapons and Vietnamization",
+            "Napalm and Agent Orange caused immediate casualties and long-term environmental damage. Agent Orange's health effects on veterans and Vietnamese civilians created lasting controversy. Nixon's Vietnamization policy gradually transferred fighting responsibility to South Vietnamese forces while withdrawing American troops, aiming to end American involvement while maintaining South Vietnam."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “The Geneva Accords” section, and what evidence supports it?",
+          "What is the main idea of the “Ho Chi Minh's Role” section, and what evidence supports it?",
+          "What is the main idea of the “The Gulf of Tonkin Resolution” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Korean War",
+          "Domino Theory"
+        ],
+        "quiz": [
+          {
+            "id": "q-us69-dok2-3-b",
+            "dok": 2,
+            "stem": "How did Kennedy's approach to Vietnam differ from Johnson's?",
+            "opts": {
+              "A": "Kennedy sent military advisors while Johnson escalated to full combat troops",
+              "B": "Doctrine that nuclear war would destroy both sides completely, preventing war",
+              "C": "Nuclear war with the Soviet Union causing sudden mass destruction of cities",
+              "D": "Underground structures designed to protect families from nuclear radiation"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us70-dok2-3",
+            "dok": 2,
+            "stem": "How did television change Americans' perception of the Vietnam War?",
+            "opts": {
+              "A": "A period of easing tensions between the U.S. and Soviet Union in the 1970s",
+              "B": "Graphic footage of combat in living rooms turned public opinion against the war",
+              "C": "Arms limitation agreements that capped nuclear weapons between superpowers",
+              "D": "Nationwide campus protests erupted and hundreds of universities shut down"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the causes, course, and consequences of the Vietnam War, including the Geneva Accords, Gulf of Tonkin Resolution, Tet Offensive, Ho Chi Minh, bombing of Cambodia, napalm and Agent Orange, and Vietnamization? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "describe the causes, course, and consequences of the Vietnam War, including the Geneva Accords, Gulf of Tonkin Resolution, Tet Offensive, Ho Chi Minh, bombing of Cambodia, napalm and Agent Orange, and Vietnamization",
+      "targets": [
+        "describe the causes, course, and consequences of the Vietnam War, including the Geneva Accords, Gulf of Tonkin Resolution, Tet Offensive, Ho Chi Minh, bombing of Cambodia, napalm and Agent Orange, and Vietnamization"
+      ],
+      "criteria": [
+        "The Geneva Accords",
+        "Ho Chi Minh's Role",
+        "The Gulf of Tonkin Resolution"
+      ],
+      "cues": [
+        "What does the passage say about the Geneva Accords?",
+        "What does the passage say about ho Chi Minh's Role?",
+        "What does the passage say about the Gulf of Tonkin Resolution?",
+        "Key terms →"
+      ],
+      "lenses": "History · Politics/Government · Geography",
+      "dim_map": {
+        "H": "History lens on Vietnam War Causes, Course, and Consequences: The 1954 Geneva Accords temporarily divided Vietnam at the 17th parallel after French defeat at Dien Bien Phu.…",
+        "P": "Politics/Government lens on Vietnam War Causes, Course, and Consequences: The 1954 Geneva Accords temporarily divided Vietnam at the 17th parallel after French defeat at Dien Bien Phu.…",
+        "G": "Geography lens on Vietnam War Causes, Course, and Consequences: The 1954 Geneva Accords temporarily divided Vietnam at the 17th parallel after French defeat at Dien Bien Phu.…"
+      },
+      "geo": "Vietnam was another divided-country Cold War war. Use the list below to map the key places, then explain the North-South split and the role of the Ho Chi Minh Trail.",
+      "geo_places": [
+        [
+          "The 17th parallel",
+          "Middle of Vietnam",
+          "divided communist North from U.S.-backed South"
+        ],
+        [
+          "North Vietnam",
+          "Northern Vietnam",
+          "communist, led by Ho Chi Minh"
+        ],
+        [
+          "South Vietnam",
+          "Southern Vietnam",
+          "U.S.-backed government the U.S. fought to defend"
+        ],
+        [
+          "Ho Chi Minh Trail",
+          "Laos & Cambodia border",
+          "North's supply route into the South"
+        ],
+        [
+          "Gulf of Tonkin",
+          "Off North Vietnam's coast",
+          "site of the 1964 incident that widened the war"
+        ]
+      ],
+      "tn_connection": "Tennessee was deeply affected by the Vietnam War. Fort Campbell's 101st Airborne Division served multiple tours in Vietnam and suffered heavy casualties. The 101st's assault on Hamburger Hill (1969) became one of the war's most controversial battles.",
+      "hook": "Vietnam War Causes, Course, and Consequences: Describe the causes, course, and consequences of the Vietnam War, including: Geneva Accords, Gulf of Tonkin Resolution, Tet Offensive, Ho Chi Minh, Bombing of Cambodia, Napalm and Agent Orange, Vietnamization. Who gained, who was left out — and why does it still matter?",
+      "geo_sources": [
+        "U.S. Involvement in Vietnam: the Gulf of Tonkin (1964) — U.S. Dept. of State, Office of the Historian: https://history.state.gov/milestones/1961-1968/gulf-of-tonkin",
+        "Dien Bien Phu & the Fall of French Indochina, 1954 (Geneva Accords; 17th parallel) — Office of the Historian: https://history.state.gov/milestones/1953-1960/dien-bien-phu",
+        "Remembering Vietnam (North/South division, the war) — U.S. National Archives: https://www.archives.gov/exhibits/remembering-vietnam-online-exhibit-episodes-1-4"
+      ],
+      "geo_review": {
+        "status": "drafted",
+        "by": "",
+        "date": "",
+        "note": "Places drafted from the standard's official TN text and criteria; anchor facts verified against the cited authoritative sources. Pending SME sign-off."
+      }
+    },
+    "US.67": {
+      "title": "Presidential Vietnam Policies",
+      "tn": "Compare the policies and practices of Presidents John F. Kennedy, Lyndon Johnson, and Richard Nixon and their impacts on the continuation of the Vietnam War.",
+      "ican": "I can compare the policies and practices of Presidents Kennedy, Johnson, and Nixon and their impacts on the continuation of the Vietnam War.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Domino Theory",
+          "say": "DOM-ih-noh THEER-ee",
+          "es": "Teoría del Dominó",
+          "def": "The Cold War belief that if one country fell to communism, neighboring countries would also fall like a row of dominoes, justifying U.S. intervention to prevent communist expansion anywhere in the world."
+        },
+        {
+          "term": "Containment Policy",
+          "say": "",
+          "es": "Política de Contención",
+          "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
+        },
+        {
+          "term": "Cold War",
+          "say": "kohld wor",
+          "es": "Guerra Fría",
+          "def": "The prolonged geopolitical, ideological, and military rivalry between the United States and the Soviet Union from 1945 to 1991, waged through alliances, proxy wars, and an arms race rather than direct combat."
+        },
+        {
+          "term": "Communism",
+          "say": "KOM-yoo-niz-um",
+          "es": "Comunismo",
+          "def": "A political and economic system where the government owns all property and means of production, theoretically distributing resources equally, practiced in the Soviet Union and opposed by the United States during…"
+        },
+        {
+          "term": "Proxy War",
+          "say": "",
+          "es": "Guerra por Poder",
+          "def": "Conflicts where the United States and Soviet Union supported opposing sides without directly fighting each other, allowing superpower competition while avoiding nuclear war."
+        },
+        {
+          "term": "Superpower",
+          "say": "",
+          "es": "Superpotencia",
+          "def": "A nation with overwhelming military, economic, and political power capable of projecting force globally; during the Cold War, only the United States and Soviet Union qualified as superpowers."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kennedy News Conference on Vietnam",
+          "who": "President John F. Kennedy",
+          "date": "September 2, 1963",
+          "quote": "In the final analysis, it is their war. They are the ones who have to win it or lose it. We can help them, we can give them equipment, we can send our men out there as advisers, but they have to win it—the people of Viet-Nam—against the Com",
+          "repo": "Kennedy, President John F.. \"Kennedy News Conference on Vietnam.\" September 2, 1963. John F. Kennedy Presidential Library, www.jfklibrary.org/asset-viewer/archi",
+          "url": "https://www.jfklibrary.org/asset-viewer/archives/JFKPOF/060/JFKPOF-060-002"
+        },
+        {
+          "title": "Johns Hopkins University Address",
+          "who": "President Lyndon B. Johnson",
+          "date": "April 7, 1965",
+          "quote": "We will not be defeated. We will not grow tired. We will not withdraw, either openly or under the cloak of a meaningless agreement... We must stay in Southeast Asia—as we did in Europe—in the words of the Bible: \"Hitherto shalt thou come, b",
+          "repo": "Johnson, President Lyndon B.. \"Johns Hopkins University Address.\" April 7, 1965. Miller Center, University of Virginia, millercenter.org/the-presidency/presiden",
+          "url": "https://millercenter.org/the-presidency/presidential-speeches/april-7-1965-address-johns-hopkins-university"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Why did Johnson's massive escalation fail to achieve victory in Vietnam?",
+        "options": {
+          "A": "Despite 543,000 troops and extensive bombing, conventional military power proved ineffective against guerrilla warfare and a determined enemy fighting on their homeland",
+          "B": "Johnson never significantly escalated American involvement, despite limited evidence supporting this interpretation, but contemporary accounts and primary sources suggest otherwise",
+          "C": "American forces won every major engagement, despite the fact that multiple sources contradict this view, which does not align with the documented historical record",
+          "D": "Congress prevented Johnson from adequate escalation, but contemporary accounts suggest a different explanation, which represents a common misconception about this historical period"
+        },
+        "key": "A",
+        "why": "Johnson's escalation assumed American firepower would overwhelm the enemy, but guerrilla tactics, difficult terrain, and Vietnamese determination made conventional military superiority insufficient."
+      },
+      "auth": {
+        "close": "President Kennedy increased military advisors from 700 to 16,000 and supported the South Vietnamese government through counterinsurgency efforts. His \"flexible response\" doctrine emphasized varied military options rather than relying solely on nuclear deterrence. Kennedy avoided large-scale combat deployment, though his increases set the stage for later escalation. President Johnson used the Gulf of Tonkin Resolution to deploy combat troops, eventually reaching 543,000 by 1969. He pursued military victory through overwhelming force, including extensive bombing campaigns against North Vietnam. Despite massive commitment, military victory proved elusive, and Johnson chose not to seek reelection amid growing opposition. President Nixon gradually withdrew American forces while increasing bombing of Cambodia and Laos and transferring combat responsibility to South Vietnamese forces. He negotiated the Paris Peace Accords (1973), allowing American withdrawal with \"peace with honor.\" However, South Vietnam fell to communist forces in 1975, two years after American withdrawal. All three presidents failed to achieve lasting South Vietnamese independence. Each escalated American involvement despite growing domestic opposition and limited military success. The war demonstrated the limits of American military power against determined guerrilla opposition and the political costs of prolonged, inconclusive warfare.",
+        "close_sections": [
+          [
+            "Kennedy's \"Flexible Response\"",
+            "President Kennedy increased military advisors from 700 to 16,000 and supported the South Vietnamese government through counterinsurgency efforts. His \"flexible response\" doctrine emphasized varied military options rather than relying solely on nuclear deterrence. Kennedy avoided large-scale combat deployment, though his increases set the stage for later escalation."
+          ],
+          [
+            "Johnson's Escalation",
+            "President Johnson used the Gulf of Tonkin Resolution to deploy combat troops, eventually reaching 543,000 by 1969. He pursued military victory through overwhelming force, including extensive bombing campaigns against North Vietnam. Despite massive commitment, military victory proved elusive, and Johnson chose not to seek reelection amid growing opposition."
+          ],
+          [
+            "Nixon's Vietnamization",
+            "President Nixon gradually withdrew American forces while increasing bombing of Cambodia and Laos and transferring combat responsibility to South Vietnamese forces. He negotiated the Paris Peace Accords (1973), allowing American withdrawal with \"peace with honor.\" However, South Vietnam fell to communist forces in 1975, two years after American withdrawal."
+          ],
+          [
+            "Effectiveness Analysis",
+            "All three presidents failed to achieve lasting South Vietnamese independence. Each escalated American involvement despite growing domestic opposition and limited military success. The war demonstrated the limits of American military power against determined guerrilla opposition and the political costs of prolonged, inconclusive warfare."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Kennedy's \"Flexible Response\"” section, and what evidence supports it?",
+          "What is the main idea of the “Johnson's Escalation” section, and what evidence supports it?",
+          "What is the main idea of the “Nixon's Vietnamization” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Domino Theory",
+          "Containment Policy"
+        ],
+        "quiz": [
+          {
+            "id": "q-us69-dok2-3-b",
+            "dok": 2,
+            "stem": "How did Kennedy's approach to Vietnam differ from Johnson's?",
+            "opts": {
+              "A": "Kennedy sent military advisors while Johnson escalated to full combat troops",
+              "B": "Doctrine that nuclear war would destroy both sides completely, preventing war",
+              "C": "Nuclear war with the Soviet Union causing sudden mass destruction of cities",
+              "D": "Underground structures designed to protect families from nuclear radiation"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us70-dok2-3",
+            "dok": 2,
+            "stem": "How did television change Americans' perception of the Vietnam War?",
+            "opts": {
+              "A": "A period of easing tensions between the U.S. and Soviet Union in the 1970s",
+              "B": "Graphic footage of combat in living rooms turned public opinion against the war",
+              "C": "Arms limitation agreements that capped nuclear weapons between superpowers",
+              "D": "Nationwide campus protests erupted and hundreds of universities shut down"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — compare the policies and practices of Presidents Kennedy, Johnson, and Nixon and their impacts on the continuation of the Vietnam War? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "compare the policies and practices of Presidents Kennedy, Johnson, and Nixon and their impacts on the continuation of the Vietnam War",
+      "targets": [
+        "compare the policies and practices of Presidents Kennedy, Johnson, and Nixon and their impacts on the continuation of the Vietnam War"
+      ],
+      "criteria": [
+        "Kennedy's \"Flexible Response\"",
+        "Johnson's Escalation",
+        "Nixon's Vietnamization"
+      ],
+      "cues": [
+        "What does the passage say about kennedy's \"Flexible Response\"?",
+        "What does the passage say about johnson's Escalation?",
+        "What does the passage say about nixon's Vietnamization?",
+        "Key terms →"
+      ],
+      "lenses": "Politics/Government · History",
+      "dim_map": {
+        "P": "Politics/Government lens on Presidential Vietnam Policies: President Kennedy increased military advisors from 700 to 16,000 and supported the South Vietnamese government…",
+        "H": "History lens on Presidential Vietnam Policies: President Kennedy increased military advisors from 700 to 16,000 and supported the South Vietnamese government…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "Tennessee politicians played roles in the Vietnam policy debates. Senator Albert Gore Sr. was an early and vocal critic of the war, breaking with President Johnson's escalation policy. His anti-war stance cost him his Senate seat in 1970, replaced by Republican Bill Brock in a campaign that foreshadowed the South's political realignment.",
+      "hook": "Presidential Vietnam Policies: Compare the policies and practices of Presidents John F. Kennedy, Lyndon Johnson, and Richard Nixon and their impacts on the continuation of the Vietnam War. Who gained, who was left out — and why does it still matter?"
+    },
+    "US.68": {
+      "title": "Vietnam War Home Front Impact",
+      "tn": "Evaluate the impact of the Vietnam War on the home front, including: the anti-war movement, draft by lottery, and the role of television and the media.",
+      "ican": "I can evaluate the impact of the Vietnam War on the home front, including the anti-war movement, draft by lottery, and the role of television and the media.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Youth Culture",
+          "say": "",
+          "es": "Cultura Juvenil",
+          "def": "The distinct set of tastes, music, fashion, and attitudes that emerged among American teenagers in the 1950s and 1960s, marking youth as a powerful new social and economic force."
+        },
+        {
+          "term": "Rock 'n' Roll",
+          "say": "",
+          "es": "Rock 'n' Roll",
+          "def": "A revolutionary music genre that emerged in the 1950s, blending rhythm and blues with country music, challenging racial barriers and traditional values while becoming the soundtrack of youth rebellion."
+        },
+        {
+          "term": "Elvis Presley",
+          "say": "",
+          "es": "Elvis Presley",
+          "def": "Tennessee-born musician who became the \"King of Rock 'n' Roll\" in the 1950s, bringing Black rhythm and blues to white mainstream audiences and revolutionizing popular music and youth culture."
+        },
+        {
+          "term": "Sun Studio",
+          "say": "",
+          "es": "Sun Studio",
+          "def": "The legendary Memphis recording studio where Sam Phillips produced groundbreaking recordings by Elvis Presley, Johnny Cash, B.B. King, and others, helping create rock 'n' roll and shaping American music."
+        },
+        {
+          "term": "Stax Records",
+          "say": "",
+          "es": "Stax Records",
+          "def": "The influential Memphis record label founded in 1957 that became a leading producer of soul and R\\&B music, featuring integrated musicians and promoting racial harmony through music."
+        },
+        {
+          "term": "Television and Mass Media",
+          "say": "",
+          "es": "Televisión y Medios Masivos",
+          "def": "The rapid spread of television in the 1950s that transformed American culture, politics, and consumer habits, creating shared national experiences and powerful advertising platforms."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anti-War Protest Statement",
+          "who": "Students for a Democratic Society",
+          "date": "1965",
+          "quote": "We are here today to protest a war that is immoral, illegal, and unjust. Our government sends young men to die in a country they cannot find on a map, for reasons that have never been honestly explained. We demand an end to the draft. We de",
+          "repo": "Students for a Democratic Society. \"Anti-War Protest Statement.\" 1965. Library of Congress, www.loc.gov/collections/veterans-history-project/.",
+          "url": "https://www.loc.gov/collections/veterans-history-project/"
+        },
+        {
+          "title": "Vietnam Veterans Against the War Testimony",
+          "who": "John Kerry",
+          "date": "April 22, 1971",
+          "quote": "How do you ask a man to be the last man to die in Vietnam? How do you ask a man to be the last man to die for a mistake?... We are here to ask... where are the leaders of our country? Where is the leadership?",
+          "repo": "Kerry, John. \"Vietnam Veterans Against the War Testimony.\" April 22, 1971. U.S. Senate Historical Office, www.senate.gov/artandhistory/history/resources/pdf/Ker",
+          "url": "https://www.senate.gov/artandhistory/history/resources/pdf/KerryTestimony.pdf"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "What changes did the draft lottery system make and how did it contribute to the 26th Amendment?",
+        "options": {
+          "A": "The lottery eliminated all draft inequities, despite the fact that multiple sources contradict this view, which contradicts the primary source evidence from this era",
+          "B": "While the lottery added some fairness, class bias remained through deferments, and opposition to drafting 18-year-olds who couldn't vote led to the 26th Amendment",
+          "C": "The draft had no connection to voting rights, but the historical record tells a more complex story and fails to account for key developments in the broader context",
+          "D": "The lottery was never actually implemented, which does not align with the documented historical record when examined alongside the available primary and secondary sources"
+        },
+        "key": "B",
+        "why": "The argument that young men old enough to be drafted and die should be old enough to vote gained force during Vietnam, leading to the 26th Amendment lowering the voting age to 18."
+      },
+      "auth": {
+        "close": "The movement grew from small protests to massive demonstrations involving millions. It included diverse groups: students (SDS), religious leaders, Vietnam veterans, and civil rights activists. The movement helped end the war but also created deep social divisions that affected American politics for decades. The 1969 lottery system replaced local draft boards' discretionary decisions with random selection based on birthdates. This reduced some inequities but maintained class bias since college deferments protected middle-class youth. Opposition to the draft contributed to the 26th Amendment lowering the voting age to 18—if old enough to fight, old enough to vote. Vietnam became the first \"living room war\" with nightly television coverage showing combat footage. Graphic images of casualties and destruction contradicted official optimism about the war's progress. Walter Cronkite's 1968 editorial calling the war a stalemate significantly influenced public opinion, reportedly prompting Johnson to say, \"If I've lost Cronkite, I've lost Middle America.\"",
+        "close_sections": [
+          [
+            "The Anti-War Movement",
+            "The movement grew from small protests to massive demonstrations involving millions. It included diverse groups: students (SDS), religious leaders, Vietnam veterans, and civil rights activists. The movement helped end the war but also created deep social divisions that affected American politics for decades."
+          ],
+          [
+            "Draft by Lottery",
+            "The 1969 lottery system replaced local draft boards' discretionary decisions with random selection based on birthdates. This reduced some inequities but maintained class bias since college deferments protected middle-class youth. Opposition to the draft contributed to the 26th Amendment lowering the voting age to 18—if old enough to fight, old enough to vote."
+          ],
+          [
+            "Role of Television and Media",
+            "Vietnam became the first \"living room war\" with nightly television coverage showing combat footage. Graphic images of casualties and destruction contradicted official optimism about the war's progress. Walter Cronkite's 1968 editorial calling the war a stalemate significantly influenced public opinion, reportedly prompting Johnson to say, \"If I've lost Cronkite, I've lost Middle America.\""
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “The Anti-War Movement” section, and what evidence supports it?",
+          "What is the main idea of the “Draft by Lottery” section, and what evidence supports it?",
+          "What is the main idea of the “Role of Television and Media” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Youth Culture",
+          "Rock 'n' Roll"
+        ],
+        "quiz": [
+          {
+            "id": "q-us69-dok2-3-b",
+            "dok": 2,
+            "stem": "How did Kennedy's approach to Vietnam differ from Johnson's?",
+            "opts": {
+              "A": "Kennedy sent military advisors while Johnson escalated to full combat troops",
+              "B": "Doctrine that nuclear war would destroy both sides completely, preventing war",
+              "C": "Nuclear war with the Soviet Union causing sudden mass destruction of cities",
+              "D": "Underground structures designed to protect families from nuclear radiation"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us70-dok2-3",
+            "dok": 2,
+            "stem": "How did television change Americans' perception of the Vietnam War?",
+            "opts": {
+              "A": "A period of easing tensions between the U.S. and Soviet Union in the 1970s",
+              "B": "Graphic footage of combat in living rooms turned public opinion against the war",
+              "C": "Arms limitation agreements that capped nuclear weapons between superpowers",
+              "D": "Nationwide campus protests erupted and hundreds of universities shut down"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — evaluate the impact of the Vietnam War on the home front, including the anti-war movement, draft by lottery, and the role of television and the media? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "evaluate the impact of the Vietnam War on the home front, including the anti-war movement, draft by lottery, and the role of television and the media",
+      "targets": [
+        "evaluate the impact of the Vietnam War on the home front, including the anti-war movement, draft by lottery, and the role of television and the media"
+      ],
+      "criteria": [
+        "The Anti-War Movement",
+        "Draft by Lottery",
+        "Role of Television and Media"
+      ],
+      "cues": [
+        "What does the passage say about the Anti-War Movement?",
+        "What does the passage say about draft by Lottery?",
+        "What does the passage say about role of Television and Media?",
+        "Key terms →"
+      ],
+      "lenses": "Culture · History · Politics/Government",
+      "dim_map": {
+        "C": "Culture lens on Vietnam War Home Front Impact: The movement grew from small protests to massive demonstrations involving millions. It included diverse groups…",
+        "H": "History lens on Vietnam War Home Front Impact: The movement grew from small protests to massive demonstrations involving millions. It included diverse groups…",
+        "P": "Politics/Government lens on Vietnam War Home Front Impact: The movement grew from small protests to massive demonstrations involving millions. It included diverse groups…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "Tennessee campuses saw significant anti-war activism. Vanderbilt University in Nashville and the University of Tennessee in Knoxville experienced student protests. Senator Albert Gore Sr. of Tennessee was one of the earliest Senate critics of the Vietnam War, and his anti-war stance contributed to his 1970 election defeat.",
+      "hook": "Vietnam War Home Front Impact: Evaluate the impact of the Vietnam War on the home front, including: the anti-war movement, draft by lottery, and the role of television and the media. Who gained, who was left out — and why does it still matter?"
+    },
+    "US.69": {
+      "title": "Space Race Competition",
+      "tn": "Describe the competition between the U.S. and Soviet Union for superiority in space.",
+      "ican": "I can describe the competition between the U.S. and Soviet Union for superiority in space.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Space Race",
+          "say": "spays rays",
+          "es": "Carrera Espacial",
+          "def": "The Cold War competition between the United States and Soviet Union for supremacy in space exploration, driven by national pride, technological advancement, and military implications of rocket technology."
+        },
+        {
+          "term": "Sputnik",
+          "say": "SPUUT-nik",
+          "es": "Sputnik",
+          "def": "The world's first artificial satellite, launched by the Soviet Union on October 4, 1957, shocking Americans and triggering fears about Soviet technological superiority and the \"missile gap.\""
+        },
+        {
+          "term": "Arms Race",
+          "say": "",
+          "es": "Carrera Armamentista",
+          "def": "The Cold War competition between the United States and Soviet Union to develop increasingly powerful nuclear weapons and delivery systems, with each side trying to achieve military superiority."
+        },
+        {
+          "term": "Mutual Assured Destruction (MAD)",
+          "say": "",
+          "es": "Destrucción Mutua Asegurada",
+          "def": "The Cold War doctrine that nuclear war between the U.S. and Soviet Union would result in complete annihilation of both sides, theoretically preventing either from starting a war."
+        },
+        {
+          "term": "Military-Industrial Complex",
+          "say": "MIL-ih-tair-ee in-DUS-tree-ul KOM-pleks",
+          "es": "Complejo Militar-Industrial",
+          "def": "The close ties among the military, defense contractors, and government that President Eisenhower warned about in 1961 as a driver of unnecessary military spending."
+        },
+        {
+          "term": "Superpower",
+          "say": "",
+          "es": "Superpotencia",
+          "def": "A nation with overwhelming military, economic, and political power able to project force globally; during the Cold War, only the U.S. and Soviet Union qualified."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Moon Landing Speech",
+          "who": "President John F. Kennedy",
+          "date": "May 25, 1961",
+          "quote": "I believe that this nation should commit itself to achieving the goal, before this decade is out, of landing a man on the Moon and returning him safely to the Earth. No single space project in this period will be more impressive to mankind,",
+          "repo": "Kennedy, President John F.. \"Moon Landing Speech.\" May 25, 1961. John F. Kennedy Presidential Library, www.jfklibrary.org/learn/about-jfk/historic-speeches/spec",
+          "url": "https://www.jfklibrary.org/learn/about-jfk/historic-speeches/special-message-to-the-congress-on-urgent-national-needs"
+        },
+        {
+          "title": "Soviet Announcement of Sputnik",
+          "who": "TASS (Soviet News Agency)",
+          "date": "October 4, 1957",
+          "quote": "The successful launching of the first man-made earth satellite makes a tremendous contribution to the treasure-house of world science and culture... Artificial earth satellites will pave the way for space travel and it seems that the presen",
+          "repo": "TASS (Soviet News Agency). \"Soviet Announcement of Sputnik.\" October 4, 1957. NASA History Office, history.nasa.gov/sputnik/oct4.html.",
+          "url": "https://history.nasa.gov/sputnik/oct4.html"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "How did early Soviet successes like Sputnik and Gagarin shock Americans and change education policy?",
+        "options": {
+          "A": "Soviet achievements had no impact on American policy, which does not align with the documented historical record, although historical sources do not support this conclusion",
+          "B": "Americans were not concerned about Soviet space achievements, which does not reflect the consensus among historians and does not reflect the scholarly consensus on this topic",
+          "C": "They suggested Soviet technological superiority, prompting NASA's creation, the National Defense Education Act, and massive investment in science education",
+          "D": "Education policy remained unchanged after Sputnik, yet the available evidence points to a different conclusion and fails to account for key developments in the broader context"
+        },
+        "key": "C",
+        "why": "Sputnik shattered American confidence in technological superiority, leading to unprecedented government investment in science education and space technology to catch up with the Soviets."
+      },
+      "auth": {
+        "close": "Both superpowers sought to demonstrate technological superiority, military capability (ICBMs used space technology), and ideological system effectiveness. Space achievements provided international prestige and propaganda value, showing the world which system—capitalism or communism—could better harness technology for great achievements. Soviet achievements: Sputnik satellite (1957) and Yuri Gagarin becoming first human in space (1961). American achievements: John Glenn orbiting Earth (1962) and Apollo 11 moon landing (1969). Key figures included Wernher von Braun (American program) and Sergei Korolev (Soviet program). The moon landing represented America's decisive victory in the space race. Early Soviet successes suggested communist system superiority, shocking Americans and prompting increased science education funding. Kennedy's commitment to land a man on the moon mobilized national resources. The successful moon landing restored American prestige and demonstrated democratic capitalism's capability to achieve great goals. Sputnik prompted creation of NASA (1958), increased science education funding through the National Defense Education Act, and implementation of \"duck and cover\" drills reflecting fears about Soviet ICBM capability. The \"Sputnik crisis\" transformed American education and accelerated technological development.",
+        "close_sections": [
+          [
+            "Motivations for Space Competition",
+            "Both superpowers sought to demonstrate technological superiority, military capability (ICBMs used space technology), and ideological system effectiveness. Space achievements provided international prestige and propaganda value, showing the world which system—capitalism or communism—could better harness technology for great achievements."
+          ],
+          [
+            "Key Events and Milestones",
+            "Soviet achievements: Sputnik satellite (1957) and Yuri Gagarin becoming first human in space (1961). American achievements: John Glenn orbiting Earth (1962) and Apollo 11 moon landing (1969). Key figures included Wernher von Braun (American program) and Sergei Korolev (Soviet program). The moon landing represented America's decisive victory in the space race."
+          ],
+          [
+            "Political Implications",
+            "Early Soviet successes suggested communist system superiority, shocking Americans and prompting increased science education funding. Kennedy's commitment to land a man on the moon mobilized national resources. The successful moon landing restored American prestige and demonstrated democratic capitalism's capability to achieve great goals."
+          ],
+          [
+            "American Response to Sputnik",
+            "Sputnik prompted creation of NASA (1958), increased science education funding through the National Defense Education Act, and implementation of \"duck and cover\" drills reflecting fears about Soviet ICBM capability. The \"Sputnik crisis\" transformed American education and accelerated technological development."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Motivations for Space Competition” section, and what evidence supports it?",
+          "What is the main idea of the “Key Events and Milestones” section, and what evidence supports it?",
+          "What is the main idea of the “Political Implications” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Space Race",
+          "Sputnik"
+        ],
+        "quiz": [
+          {
+            "id": "U7-DOK2-0005",
+            "dok": 2,
+            "stem": "How did the formation of NATO and the Warsaw Pact reflect the ideological competition between the United States and the Soviet Union during the Cold War?",
+            "opts": {
+              "A": "They divided Europe into opposing military blocs aligned with either American capitalism or Soviet communism",
+              "B": "Both alliances were formed primarily for economic cooperation rather than military defense",
+              "C": "NATO and the Warsaw Pact were created jointly to prevent a third world war between smaller nations",
+              "D": "The alliances reflected agreement between superpowers on the need for collective disarmament"
+            },
+            "key": "A"
+          },
+          {
+            "id": "U7-DOK2-0015",
+            "dok": 2,
+            "stem": "Why did the United States government make winning the space race against the Soviet Union a national priority during the late 1950s and 1960s?",
+            "opts": {
+              "A": "Space exploration was primarily motivated by scientific curiosity, with no connection to Cold War competition",
+              "B": "Demonstrating technological superiority in space was seen as evidence of the strength of the American democratic and capitalist system over Soviet communism",
+              "C": "The United States pursued the space race solely to develop satellite technology for commercial television broadcasting",
+              "D": "NASA was created to provide jobs for former military personnel after the Korean War ended"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — describe the competition between the U.S. and Soviet Union for superiority in space? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "describe the competition between the U.S. and Soviet Union for superiority in space",
+      "targets": [
+        "describe the competition between the U.S. and Soviet Union for superiority in space"
+      ],
+      "criteria": [
+        "Motivations for Space Competition",
+        "Key Events and Milestones",
+        "Political Implications"
+      ],
+      "cues": [
+        "What does the passage say about motivations for Space Competition?",
+        "What does the passage say about key Events and Milestones?",
+        "What does the passage say about political Implications?",
+        "Key terms →"
+      ],
+      "lenses": "History · Economics",
+      "dim_map": {
+        "H": "History lens on Space Race Competition: Both superpowers sought to demonstrate technological superiority, military capability (ICBMs used space techno…",
+        "E": "Economics lens on Space Race Competition: Both superpowers sought to demonstrate technological superiority, military capability (ICBMs used space techno…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "Tennessee contributed to the space race through the Arnold Engineering Development Complex (AEDC) at Tullahoma, one of the world's most advanced aerospace testing facilities. AEDC tested rocket engines and spacecraft components critical to NASA's Mercury, Gemini, and Apollo programs.",
+      "hook": "Space Race Competition: Describe the competition between the U.S. and Soviet Union for superiority in space. Who gained, who was left out — and why does it still matter?"
+    },
+    "US.70": {
+      "title": "Cold War Détente & the Fall of the Berlin Wall",
+      "tn": "Explain developments that eased tensions during the Cold War, including: President Richard Nixon's détente, SALT Treaties, President Ronald Reagan and Mikhail Gorbachev's INF Treaty, The fall of the Berlin Wall.",
+      "ican": "I can explain developments that eased tensions during the Cold War, including Nixon's détente, SALT Treaties, Reagan and Gorbachev's INF Treaty, and the fall of the Berlin Wall.",
+      "ref": {
+        "range": "—",
+        "dt": "—",
+        "vocab": "—",
+        "source": "—",
+        "persp": "—",
+        "progress": "—"
+      },
+      "vocab": [
+        {
+          "term": "Iron Curtain",
+          "say": "EYE-ern KUR-tun",
+          "es": "Cortina de Hierro",
+          "def": "Winston Churchill's metaphor for the political and military barrier dividing Soviet-controlled Eastern Europe from Western Europe after World War II."
+        },
+        {
+          "term": "Containment Policy",
+          "say": "",
+          "es": "Política de Contención",
+          "def": "The U.S. foreign policy strategy developed by George Kennan in 1947 to prevent the spread of communism by supporting nations threatened by Soviet expansion, forming the basis of Cold War strategy."
+        },
+        {
+          "term": "Cold War",
+          "say": "kohld wor",
+          "es": "Guerra Fría",
+          "def": "The prolonged geopolitical, ideological, and military rivalry between the United States and the Soviet Union from 1945 to 1991, waged through alliances, proxy wars, and an arms race rather than direct combat."
+        },
+        {
+          "term": "Arms Race",
+          "say": "",
+          "es": "Carrera Armamentista",
+          "def": "The Cold War competition between the United States and Soviet Union to develop increasingly powerful nuclear weapons and delivery systems, with each side trying to achieve military superiority."
+        },
+        {
+          "term": "Communism",
+          "say": "KOM-yoo-niz-um",
+          "es": "Comunismo",
+          "def": "A political and economic system in which the government owns all property and means of production; practiced in the Soviet Union and opposed by the U.S."
+        },
+        {
+          "term": "NATO (North Atlantic Treaty Organization)",
+          "say": "",
+          "es": "OTAN (Organización del Tratado del Atlántico Norte)",
+          "def": "The military alliance formed in 1949 by the United States, Canada, and Western European nations pledging mutual defense against Soviet aggression, embodying the principle that \"an attack on one is an attack on all.\""
+        }
+      ],
+      "sources": [
+        {
+          "title": "Remarks at the Brandenburg Gate",
+          "who": "President Ronald Reagan",
+          "date": "June 12, 1987",
+          "quote": "General Secretary Gorbachev, if you seek peace, if you seek prosperity for the Soviet Union and Eastern Europe, if you seek liberalization: Come here to this gate! Mr. Gorbachev, open this gate! Mr. Gorbachev, tear down this wall!",
+          "repo": "Reagan, President Ronald. \"Remarks at the Brandenburg Gate.\" June 12, 1987. Ronald Reagan Presidential Library, www.reaganlibrary.gov/archives/speech/remarks-ea",
+          "url": "https://www.reaganlibrary.gov/archives/speech/remarks-east-west-relations-brandenburg-gate-west-berlin-germany"
+        },
+        {
+          "title": "SALT I Treaty Statement",
+          "who": "President Richard Nixon",
+          "date": "May 26, 1972",
+          "quote": "Last Friday, in Moscow, we witnessed the beginning of the end of that era which began in 1945. We took the first step toward a new era of mutually agreed restraint and arms limitation between the two principal nuclear powers... This is the ",
+          "repo": "Nixon, President Richard. \"SALT I Treaty Statement.\" May 26, 1972. Richard Nixon Presidential Library, www.nixonlibrary.gov/salt-i.",
+          "url": "https://www.nixonlibrary.gov/salt-i"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "What significance did the SALT Treaties have for nuclear arms control?",
+        "options": {
+          "A": "SALT treaties had no practical effect, though this interpretation lacks supporting historical evidence, although this overlooks critical economic and social factors involved",
+          "B": "SALT treaties eliminated all nuclear weapons, but this oversimplifies the complex factors at work, and this view has been largely revised by modern historical research",
+          "C": "Only the Soviet Union agreed to limitations, but this oversimplifies the complex factors at work, but contemporary accounts and primary sources suggest otherwise",
+          "D": "They were the first successful nuclear arms agreements, limiting missiles and establishing verification procedures that demonstrated both nations wanted to avoid nuclear war"
+        },
+        "key": "D",
+        "why": "SALT treaties proved that nuclear adversaries could negotiate arms control, creating frameworks and building trust that enabled future, more ambitious reduction agreements."
+      },
+      "auth": {
+        "close": "President Nixon pursued relaxed tensions through diplomatic engagement, cultural exchanges, and arms control negotiations with the Soviet Union. This policy, known as détente, resulted in the SALT I Treaty (1972) and improved U.S.-Soviet relations. Nixon also opened relations with China, using triangular diplomacy to gain leverage over the Soviets. The Strategic Arms Limitation Treaties (SALT I & II) represented the first successful nuclear arms control agreements. They limited missile deployments and established verification procedures, demonstrating both nations' interest in avoiding nuclear war. While not reducing arsenals, they capped the arms race and created frameworks for future negotiations. Despite initial tensions—Reagan called the USSR an \"evil empire\"—Reagan and Soviet leader Mikhail Gorbachev developed a personal relationship that led to the Intermediate-Range Nuclear Forces (INF) Treaty (1987). This treaty eliminated an entire class of nuclear weapons and established precedent for nuclear reductions, not just limitations. The 1989 wall's destruction symbolized communism's collapse and the Cold War's end. East German government's inability to maintain control demonstrated the Soviet system's fundamental weakness. The wall's fall marked the beginning of German reunification and the Soviet empire's dissolution, ending four decades of Cold War division.",
+        "close_sections": [
+          [
+            "Nixon's Détente Policy",
+            "President Nixon pursued relaxed tensions through diplomatic engagement, cultural exchanges, and arms control negotiations with the Soviet Union. This policy, known as détente, resulted in the SALT I Treaty (1972) and improved U.S.-Soviet relations. Nixon also opened relations with China, using triangular diplomacy to gain leverage over the Soviets."
+          ],
+          [
+            "SALT Treaties Significance",
+            "The Strategic Arms Limitation Treaties (SALT I & II) represented the first successful nuclear arms control agreements. They limited missile deployments and established verification procedures, demonstrating both nations' interest in avoiding nuclear war. While not reducing arsenals, they capped the arms race and created frameworks for future negotiations."
+          ],
+          [
+            "Reagan-Gorbachev Contributions",
+            "Despite initial tensions—Reagan called the USSR an \"evil empire\"—Reagan and Soviet leader Mikhail Gorbachev developed a personal relationship that led to the Intermediate-Range Nuclear Forces (INF) Treaty (1987). This treaty eliminated an entire class of nuclear weapons and established precedent for nuclear reductions, not just limitations."
+          ],
+          [
+            "Fall of the Berlin Wall",
+            "The 1989 wall's destruction symbolized communism's collapse and the Cold War's end. East German government's inability to maintain control demonstrated the Soviet system's fundamental weakness. The wall's fall marked the beginning of German reunification and the Soviet empire's dissolution, ending four decades of Cold War division."
+          ]
+        ],
+        "tdq": [
+          "What is the main idea of the “Nixon's Détente Policy” section, and what evidence supports it?",
+          "What is the main idea of the “SALT Treaties Significance” section, and what evidence supports it?",
+          "What is the main idea of the “Reagan-Gorbachev Contributions” section, and what evidence supports it?",
+          "Whose perspective benefits in this passage, and whose is harmed or left out?"
+        ],
+        "frayer": [
+          "Iron Curtain",
+          "Containment Policy"
+        ],
+        "quiz": [
+          {
+            "id": "q-us60-dok2-4",
+            "dok": 2,
+            "stem": "What was the significance of the Berlin Wall built in 1961?",
+            "opts": {
+              "A": "A physical and symbolic barrier between communist East and democratic West Berlin",
+              "B": "A temporary construction built during the course of diplomatic negotiations only",
+              "C": "A military fortification designed specifically for defense against a Western invasion",
+              "D": "An economic checkpoint for managing and regulating trade between the two Berlins"
+            },
+            "key": "A"
+          },
+          {
+            "id": "q-us69-dok2-2",
+            "dok": 2,
+            "stem": "How did civil defense programs reflect Cold War anxieties?",
+            "opts": {
+              "A": "It expanded the war without congressional knowledge and violated Cambodian neutrality",
+              "B": "\"Duck and cover\" drills and fallout shelters showed pervasive fear of nuclear attack",
+              "C": "Soviet satellite launch in 1957 that shocked Americans and intensified the space race",
+              "D": "Teach children to protect themselves from nuclear blast, though with limited effect"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Using this standard, take a position on the central question — explain developments that eased tensions during the Cold War, including Nixon's détente, SALT Treaties, Reagan and Gorbachev's INF Treaty, and the fall of the Berlin Wall? Support your claim with two pieces of evidence from the passage and explain your reasoning."
+      },
+      "std_source": "Tennessee U.S. History Academic Standards (aligned)",
+      "target": "explain developments that eased tensions during the Cold War, including Nixon's détente, SALT Treaties, Reagan and Gorbachev's INF Treaty, and the fall of the Berlin Wall",
+      "targets": [
+        "explain developments that eased tensions during the Cold War, including Nixon's détente, SALT Treaties, Reagan and Gorbachev's INF Treaty, and the fall of the Berlin Wall"
+      ],
+      "criteria": [
+        "Nixon's Détente Policy",
+        "SALT Treaties Significance",
+        "Reagan-Gorbachev Contributions"
+      ],
+      "cues": [
+        "What does the passage say about nixon's Détente Policy?",
+        "What does the passage say about sALT Treaties Significance?",
+        "What does the passage say about reagan-Gorbachev Contributions?",
+        "Key terms →"
+      ],
+      "lenses": "Politics/Government · History",
+      "dim_map": {
+        "P": "Politics/Government lens on Cold War Détente & the Fall of the Berlin Wall: President Nixon pursued relaxed tensions through diplomatic engagement, cultural exchanges, and arms control n…",
+        "H": "History lens on Cold War Détente & the Fall of the Berlin Wall: President Nixon pursued relaxed tensions through diplomatic engagement, cultural exchanges, and arms control n…"
+      },
+      "geo": "",
+      "geo_places": [],
+      "tn_connection": "Tennessee Senator Howard Baker played a significant role in Cold War diplomacy. As Senate Majority Leader during the Reagan era, Baker supported arms reduction treaties and helped navigate the political dynamics of détente. Baker later served as U.S. Ambassador to Japan (2001-2005).",
+      "hook": "Cold War Détente & the Fall of the Berlin Wall: Explain developments that eased tensions during the Cold War, including: President Richard Nixon's détente, SALT Treaties, President Ronald Reagan and Mikhail Gorbachev's INF Treaty, The fall of the Berlin Wall. Who gained, who was left out — and why does it still matter?"
+    }
+  },
+  "order": [
+    "US.59",
+    "US.60",
+    "US.61",
+    "US.62",
+    "US.63",
+    "US.64",
+    "US.65",
+    "US.66",
+    "US.67",
+    "US.68",
+    "US.69",
+    "US.70"
+  ]
+}

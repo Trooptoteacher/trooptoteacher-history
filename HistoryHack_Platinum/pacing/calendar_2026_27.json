@@ -1,0 +1,177 @@
+{
+  "district": "Williamson County Schools (WCS)",
+  "schoolYear": "2026-2027",
+  "course": "US History (11th grade)",
+  "firstDay": "2026-08-10",
+  "lastDay": "2027-05-27",
+  "instructionalDays": 177,
+  "semesters": [
+    {
+      "n": 1,
+      "days": 83
+    },
+    {
+      "n": 2,
+      "days": 94
+    }
+  ],
+  "gradingPeriods": [
+    {
+      "quarter": 1,
+      "ends": "2026-10-09",
+      "gradingDays": 44
+    },
+    {
+      "quarter": 2,
+      "endsSemester": true,
+      "ends": "2026-12-18",
+      "gradingDays": 39
+    },
+    {
+      "quarter": 3,
+      "ends": "2027-03-12",
+      "gradingDays": 46
+    },
+    {
+      "quarter": 4,
+      "endsSemester": true,
+      "ends": "2027-05-27",
+      "gradingDays": 48
+    }
+  ],
+  "halfDays": [
+    "2026-08-10",
+    "2026-12-18",
+    "2027-05-27"
+  ],
+  "noSchool": [
+    {
+      "date": "2026-09-07",
+      "name": "Labor Day"
+    },
+    {
+      "start": "2026-10-12",
+      "end": "2026-10-16",
+      "name": "Fall Break"
+    },
+    {
+      "date": "2026-11-03",
+      "name": "Election Day (No Students)"
+    },
+    {
+      "start": "2026-11-23",
+      "end": "2026-11-27",
+      "name": "Thanksgiving"
+    },
+    {
+      "start": "2026-12-21",
+      "end": "2027-01-04",
+      "name": "Winter Break"
+    },
+    {
+      "date": "2027-01-18",
+      "name": "Martin Luther King, Jr. Day"
+    },
+    {
+      "start": "2027-02-12",
+      "end": "2027-02-15",
+      "name": "Mid-Winter Break / Presidents' Day"
+    },
+    {
+      "start": "2027-03-15",
+      "end": "2027-03-19",
+      "name": "Spring Break"
+    },
+    {
+      "date": "2027-03-26",
+      "name": "Spring Holiday"
+    }
+  ],
+  "lateStart6to12": [
+    "2026-08-18",
+    "2026-08-24",
+    "2026-08-31",
+    "2026-09-08",
+    "2026-09-14",
+    "2026-09-21",
+    "2026-09-28",
+    "2026-10-05",
+    "2026-10-19",
+    "2026-10-26",
+    "2026-11-02",
+    "2026-11-09",
+    "2026-11-16",
+    "2026-11-30",
+    "2026-12-07",
+    "2027-01-05",
+    "2027-01-11",
+    "2027-01-19",
+    "2027-01-25",
+    "2027-02-01",
+    "2027-02-08",
+    "2027-02-22",
+    "2027-03-01",
+    "2027-03-08",
+    "2027-03-22",
+    "2027-03-29",
+    "2027-04-05"
+  ],
+  "assessmentWindows": [
+    {
+      "name": "1st Quarter Beginning-Year Assessment (Performance Matters)",
+      "grades": "6-12 ELA",
+      "start": "2026-08-11",
+      "end": "2026-09-11"
+    },
+    {
+      "name": "Civics Test (US History classes)",
+      "grades": "11-12",
+      "start": "2026-08-10",
+      "end": "2027-05-27",
+      "note": "Graduation requirement; given in US History"
+    },
+    {
+      "name": "1st Quarter Benchmark (Performance Matters)",
+      "grades": "2-12",
+      "start": "2026-10-02",
+      "end": "2026-10-26"
+    },
+    {
+      "name": "Fall Semester Exams (Midterms)",
+      "grades": "7-12",
+      "start": "2026-12-15",
+      "end": "2026-12-18"
+    },
+    {
+      "name": "2nd Quarter Benchmark (Performance Matters)",
+      "grades": "2-12",
+      "start": "2026-12-04",
+      "end": "2027-01-12"
+    },
+    {
+      "name": "3rd Quarter Benchmark (Performance Matters)",
+      "grades": "2-12",
+      "start": "2027-03-05",
+      "end": "2027-03-29"
+    },
+    {
+      "name": "NAEP (incl. U.S. History)",
+      "grades": "4,8,12 select",
+      "start": "2027-01-25",
+      "end": "2027-03-19"
+    },
+    {
+      "name": "TCAP US History EOC (End-of-Course)",
+      "grades": "HS",
+      "start": "2027-04-19",
+      "end": "2027-05-06",
+      "hardStop": true,
+      "note": "All 95 standards must be taught before this window."
+    }
+  ],
+  "sourceDocuments": [
+    "source_calendars/WCS_Student_School_Calendar_2026-27.pdf",
+    "source_calendars/WCS_District_Assessment_Calendar_2026-27.pdf",
+    "source_calendars/WCS_LateStart_EarlyRelease_2026-27.pdf"
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "_schema": "Government Hack image manifest for the Unit 1 Teacher Deck. Per standard: an 'anchor' primary-source VISUAL (document scan, period political cartoon, or portrait). Mirrors HistoryHack_Platinum/build/unit1_images.json. file = expected asset path under assets/primary_sources/; if the binary is not yet present the deck renders a cited source frame in its place.",
+  "_rule": "Curated genuine public-domain works only. Citations are accurate at the work + repository level. Nothing fabricated. Actual image files must be procured from the cited repository (public domain) and dropped at the given file path; naming convention GC.NN_slug.jpg follows the course primary-source naming convention.",
+  "_rights_note": "All works listed are in the public domain in the United States: U.S. government documents, or works published before 1929, or works whose creators died more than 95 years ago. Verify the specific digital reproduction's terms at the repository before publishing.",
+  "GC.01": {
+    "anchor": {
+      "file": "assets/primary_sources/GC.01_locke-portrait.jpg",
+      "w": 300,
+      "h": 360,
+      "type": "portrait",
+      "title": "Portrait of John Locke",
+      "creator": "Sir Godfrey Kneller",
+      "year": "1697",
+      "repository": "public domain (artist d. 1723)",
+      "medium": "oil portrait",
+      "caption": "John Locke (1632–1704), whose Second Treatise of Government argued that legitimate government rests on the consent of the governed — a direct root of American political thought.",
+      "alt_en": "Painted portrait of John Locke, an English philosopher in dark robes, seated and facing slightly right.",
+      "alt_es": "Retrato pintado de John Locke, filósofo inglés con toga oscura, sentado y mirando ligeramente a la derecha."
+    }
+  },
+  "GC.02": {
+    "anchor": {
+      "file": "assets/primary_sources/GC.02_declaration-of-independence.jpg",
+      "w": 320,
+      "h": 380,
+      "type": "document",
+      "title": "Declaration of Independence (engrossed copy)",
+      "creator": "Second Continental Congress; engrossed by Timothy Matlack",
+      "year": "1776",
+      "repository": "U.S. National Archives",
+      "medium": "manuscript on parchment",
+      "caption": "The engrossed Declaration of Independence, 1776 — the document that turned the colonists' grievances into a claim of natural rights and self-government.",
+      "alt_en": "Aged parchment of the Declaration of Independence with the bold heading and columns of signatures below the text.",
+      "alt_es": "Pergamino envejecido de la Declaración de Independencia con el encabezado en negrita y columnas de firmas debajo del texto."
+    }
+  },
+  "GC.03": {
+    "anchor": {
+      "file": "assets/primary_sources/GC.03_join-or-die.jpg",
+      "w": 340,
+      "h": 240,
+      "type": "cartoon",
+      "title": "Join, or Die",
+      "creator": "Benjamin Franklin",
+      "year": "1754",
+      "repository": "Library of Congress, Prints & Photographs Division",
+      "medium": "woodcut political cartoon",
+      "caption": "Franklin's 'Join, or Die' (1754): a severed snake labeled with the colonies. Under the loose Articles of Confederation, the states struggled to act as one — the cartoon's warning about disunity still fit.",
+      "alt_en": "Woodcut of a snake cut into segments, each labeled with the initials of a colony, above the words JOIN, or DIE.",
+      "alt_es": "Grabado de una serpiente cortada en segmentos, cada uno con las iniciales de una colonia, sobre las palabras JOIN, or DIE."
+    }
+  },
+  "GC.04": {
+    "anchor": {
+      "file": "assets/primary_sources/GC.04_looking-glass-1787.jpg",
+      "w": 340,
+      "h": 260,
+      "type": "cartoon",
+      "title": "The Looking Glass for 1787",
+      "creator": "Amos Doolittle",
+      "year": "1787",
+      "repository": "Library of Congress, Prints & Photographs Division",
+      "medium": "engraved political cartoon",
+      "caption": "A 1787 cartoon of Connecticut's ratification debate — a wagon of state pulled in opposite directions. It captures the Federalist vs. Anti-Federalist struggle over the new Constitution.",
+      "alt_en": "Engraved cartoon showing figures pulling a loaded wagon in opposite directions, with speech captions, representing a political dispute.",
+      "alt_es": "Caricatura grabada que muestra figuras tirando de un carro cargado en direcciones opuestas, con leyendas, que representa una disputa política."
+    }
+  },
+  "GC.05": {
+    "anchor": {
+      "file": "assets/primary_sources/GC.05_constitution-page1.jpg",
+      "w": 300,
+      "h": 380,
+      "type": "document",
+      "title": "U.S. Constitution, Page 1 (“We the People”)",
+      "creator": "Constitutional Convention; engrossed by Jacob Shallus",
+      "year": "1787",
+      "repository": "U.S. National Archives",
+      "medium": "manuscript on parchment",
+      "caption": "The first page of the Constitution opens with the Preamble — 'We the People' — stating the purposes government exists to serve.",
+      "alt_en": "First parchment page of the U.S. Constitution with the large opening words 'We the People' in ornate script.",
+      "alt_es": "Primera página en pergamino de la Constitución de EE. UU. con las grandes palabras iniciales 'We the People' en letra adornada."
+    }
+  },
+  "GC.06": {
+    "anchor": {
+      "file": "assets/primary_sources/GC.06_federalist-title-page.jpg",
+      "w": 300,
+      "h": 380,
+      "type": "document",
+      "title": "The Federalist, Volume 1 (title page)",
+      "creator": "Alexander Hamilton, James Madison, John Jay ('Publius')",
+      "year": "1788",
+      "repository": "Library of Congress, Rare Book & Special Collections",
+      "medium": "printed title page",
+      "caption": "The Federalist (1788). In No. 51, Madison argued that a government of separated, checking powers is necessary 'because men are not angels' — the logic of limited government.",
+      "alt_en": "Printed 1788 title page reading 'THE FEDERALIST: A Collection of Essays' with publisher details below.",
+      "alt_es": "Página de título impresa de 1788 que dice 'THE FEDERALIST: A Collection of Essays' con datos del editor debajo."
+    }
+  },
+  "GC.07": {
+    "anchor": {
+      "file": "assets/primary_sources/GC.07_federal-pillars.jpg",
+      "w": 340,
+      "h": 260,
+      "type": "cartoon",
+      "title": "The Federal Edifice (“The Federal Pillars”)",
+      "creator": "Massachusetts Centinel",
+      "year": "1788",
+      "repository": "Library of Congress, Prints & Photographs Division",
+      "medium": "newspaper political cartoon",
+      "caption": "The 'Federal Pillars' cartoon (1788) shows states rising as columns of the new structure — a fitting image for the Constitution's architecture and its deliberately hard amendment process.",
+      "alt_en": "Cartoon of classical columns, each labeled with a state, being raised to form the roof of a building labeled for the federal government.",
+      "alt_es": "Caricatura de columnas clásicas, cada una con el nombre de un estado, que se levantan para formar el techo de un edificio del gobierno federal."
+    }
+  },
+  "GC.08": {
+    "anchor": {
+      "file": "assets/primary_sources/GC.08_bill-of-rights.jpg",
+      "w": 300,
+      "h": 380,
+      "type": "document",
+      "title": "The Bill of Rights (engrossed copy)",
+      "creator": "1st U.S. Congress",
+      "year": "1789",
+      "repository": "U.S. National Archives",
+      "medium": "manuscript on parchment",
+      "caption": "The engrossed Bill of Rights, 1789. The first eight Amendments each draw a boundary government may not cross; the 9th and 10th reserve rights and powers to the people and the states.",
+      "alt_en": "Parchment page listing the proposed Articles of amendment that became the Bill of Rights, in columns of handwritten text.",
+      "alt_es": "Página de pergamino que enumera los artículos de enmienda propuestos que se convirtieron en la Declaración de Derechos, en columnas de texto manuscrito."
+    }
+  },
+  "GC.09": {
+    "anchor": {
+      "file": "assets/primary_sources/GC.09_great-seal.svg",
+      "w": 320,
+      "h": 320,
+      "type": "emblem",
+      "title": "Great Seal of the United States (obverse)",
+      "creator": "Charles Thomson & William Barton (design)",
+      "year": "1782",
+      "repository": "U.S. National Archives / public domain (U.S. government emblem)",
+      "medium": "engraved national emblem",
+      "caption": "The Great Seal's motto, E Pluribus Unum — 'out of many, one' — captures the constitutional republic: many states and citizens under one representative government limited by law.",
+      "alt_en": "The obverse of the Great Seal of the United States: an eagle holding an olive branch and arrows, with a shield and a banner reading E Pluribus Unum.",
+      "alt_es": "El anverso del Gran Sello de los Estados Unidos: un águila que sostiene una rama de olivo y flechas, con un escudo y una cinta que dice E Pluribus Unum."
+    }
+  }
+}

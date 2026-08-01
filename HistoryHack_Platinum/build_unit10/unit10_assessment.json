@@ -1,0 +1,3364 @@
+{
+ "unit": "Unit 9",
+ "formative": {
+  "US.83": [
+   {
+    "id": "US.83-83Q1",
+    "std": "US.83",
+    "dok": 2,
+    "stem": "What were the main goals and programs of Johnson's Great Society, and how did they aim to address poverty and inequality?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It created programs like Medicare, Medicaid, Head Start, and the War on Poverty to eliminate poverty and racial injustice through government intervention"
+     },
+     {
+      "id": "B",
+      "text": "The Great Society focused exclusively on military spending and foreign policy, yet the available evidence points to a different conclusion"
+     },
+     {
+      "id": "C",
+      "text": "The Great Society reduced all federal spending on social programs, although this overlooks critical economic and social factors"
+     },
+     {
+      "id": "D",
+      "text": "It was primarily a tax cut program for wealthy Americans, although this view has been largely discredited by scholars"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Johnson's Great Society represented the most ambitious expansion of federal social programs since the New Deal, targeting poverty, healthcare, education, and urban development.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.83-S835",
+    "std": "US.83",
+    "dok": 2,
+    "stem": "Which statement BEST explains how Head Start addressed the cycle of poverty?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It built affordable housing to reduce living costs for struggling families"
+     },
+     {
+      "id": "B",
+      "text": "It provided early education to help low-income children succeed in school"
+     },
+     {
+      "id": "C",
+      "text": "It offered job training to help unemployed parents find more stable work"
+     },
+     {
+      "id": "D",
+      "text": "It provided direct cash payments to families living below the poverty line"
+     }
+    ],
+    "key": "B",
+    "rc": "Government and Civics",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Head Start gave low-income children preschool education and support services so they would enter school better prepared to succeed. Choice A is about built affordable housing to reduce living costs for struggling families and Choice D is about provided direct cash payments to families living below the poverty line; those options do not match provided early education to help low-income children succeed in school. This fits the broader Great Society era, when many Americans expected federal policy to reduce poverty and discrimination.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.85": [
+   {
+    "id": "US.85-85Q1",
+    "std": "US.85",
+    "dok": 2,
+    "stem": "What were Nixon's most significant domestic and foreign policy achievements during his presidency?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "He created the EPA, opened relations with China, pursued détente with the USSR, and signed SALT I, while domestically supporting Title IX and the 26th Amendment"
+     },
+     {
+      "id": "B",
+      "text": "Nixon had no significant achievements due to Watergate, although this overlooks critical economic and social factors despite the fact that multiple contemporary sources contradict this"
+     },
+     {
+      "id": "C",
+      "text": "Nixon focused exclusively on the Vietnam War, although historical sources do not support this conclusion, and this view has been largely revised by modern historical research"
+     },
+     {
+      "id": "D",
+      "text": "His only achievement was ending the gold standard, which contradicts the primary source evidence from this era when examined alongside the available primary and secondary sources"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Despite Watergate's shadow, Nixon achieved significant foreign policy breakthroughs with China and the USSR while also advancing environmental and civil rights policies domestically.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.85-ADD1",
+    "std": "US.85",
+    "dok": 2,
+    "stem": "What was Nixon's \"silent majority\" and why did he appeal to them?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It eased tensions through diplomacy and arms control negotiations"
+     },
+     {
+      "id": "B",
+      "text": "Americans who quietly supported the Vietnam War and traditional values"
+     },
+     {
+      "id": "C",
+      "text": "It appealed to white Southern voters unhappy with civil rights laws"
+     },
+     {
+      "id": "D",
+      "text": "Middle-class Americans who supported traditional values and the war"
+     }
+    ],
+    "key": "B",
+    "rc": "Government and Civics",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Nixon’s “silent majority” meant middle-class and conservative Americans he said supported the war and wanted law and order, even if they were less visible than protesters. Choice D is about eased tensions through diplomacy and arms control negotiations; those options do not match americans who quietly supported the Vietnam War and traditional values. The episode shows how Nixon-era politics mixed major policy change with intense conflict over power and government.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.86": [
+   {
+    "id": "US.86-86Q1",
+    "std": "US.86",
+    "dok": 2,
+    "stem": "What evidence connected the Watergate break-in to President Nixon's administration?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Investigations revealed connections between the burglars, CREEP, and White House officials, with Nixon caught on tape discussing the cover-up"
+     },
+     {
+      "id": "B",
+      "text": "No evidence ever connected Nixon to Watergate, although this view has been largely discredited by scholars"
+     },
+     {
+      "id": "C",
+      "text": "Only one low-level staffer was involved, despite the fact that multiple sources contradict this view, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "D",
+      "text": "The break-in was conducted by Democratic operatives, but this fails to account for the broader historical context"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The trail of evidence from the burglars through campaign officials to the White House, documented on Nixon's own tapes, proved presidential involvement in the cover-up.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.86-S861",
+    "std": "US.86",
+    "dok": 2,
+    "stem": "According to Nixon's speech, why did he decide to resign despite opposing quitting?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Many citizens believed Nixon should face criminal prosecution for crimes"
+     },
+     {
+      "id": "B",
+      "text": "He believed putting the interests of America first required his departure"
+     },
+     {
+      "id": "C",
+      "text": "It increased public distrust of government and led to political reforms"
+     },
+     {
+      "id": "D",
+      "text": "The president is not above the law and must comply with court orders"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "In his resignation speech, Nixon said he was stepping down because he believed the country’s interests had to come before his own political survival. Choice B is about many citizens believed Nixon should face criminal prosecution for crimes and Choice D is about the president is not above the law and must comply with court orders; those options do not match believed putting the interests of America first required his departure. The Watergate era became a turning point in how Americans thought about accountability and trust in government.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.87": [
+   {
+    "id": "US.87-87Q1",
+    "std": "US.87",
+    "dok": 2,
+    "stem": "What factors led to the rise of the environmental movement in the 1960s and 1970s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Carson's \"Silent Spring,\" visible pollution, scientific research, and Earth Day demonstrations combined to create widespread environmental awareness"
+     },
+     {
+      "id": "B",
+      "text": "The environmental movement had no clear causes, yet the available evidence points to a different conclusion, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "C",
+      "text": "Only government officials supported environmentalism, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "Economic growth eliminated environmental concerns, yet the available evidence points to a different conclusion and does not reflect the scholarly consensus on this topic"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The environmental movement emerged from converging factors: scientific warnings, visible ecological damage, and public mobilization around Earth Day.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.87-87Q2",
+    "std": "US.87",
+    "dok": 2,
+    "stem": "How did the creation of the EPA change the federal government's role in environmental protection?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The EPA had no significant impact on environmental policy, which does not align with the documented historical record"
+     },
+     {
+      "id": "B",
+      "text": "It consolidated federal environmental responsibilities, established pollution standards, and made environmental protection a national priority"
+     },
+     {
+      "id": "C",
+      "text": "The EPA only advised state governments, although this overlooks critical economic and social factors, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "D",
+      "text": "Environmental protection remained entirely a state responsibility, but this oversimplifies the complex factors at work"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The EPA's creation represented federal commitment to environmental protection, giving the government power to set standards and enforce regulations nationwide.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.88": [
+   {
+    "id": "US.88-88Q2",
+    "std": "US.88",
+    "dok": 2,
+    "stem": "How did the energy crises of the 1970s change American attitudes toward foreign oil dependence?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Gas shortages and price spikes revealed American vulnerability to foreign suppliers, sparking calls for energy independence and conservation"
+     },
+     {
+      "id": "B",
+      "text": "The energy crises had no effect on American attitudes, but this oversimplifies the complex factors at work"
+     },
+     {
+      "id": "C",
+      "text": "Americans became more dependent on foreign oil, despite the fact that multiple sources contradict this view"
+     },
+     {
+      "id": "D",
+      "text": "The crises only affected industrial users, although historical sources do not support this conclusion, but the historical evidence paints a more nuanced picture"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The energy crises exposed how reliance on foreign oil made America vulnerable to supply disruptions and price manipulation by foreign governments.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.88-S883",
+    "std": "US.88",
+    "dok": 2,
+    "stem": "What caused the energy crisis that affected Americans during the late 1970s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "A nationwide coal miners' strike halted domestic energy production"
+     },
+     {
+      "id": "B",
+      "text": "Oil embargoes and supply disruptions created gasoline shortages"
+     },
+     {
+      "id": "C",
+      "text": "Nuclear power plant shutdowns eliminated a major electricity source"
+     },
+     {
+      "id": "D",
+      "text": "The United States completely exhausted all domestic oil reserves"
+     }
+    ],
+    "key": "B",
+    "rc": "Economics",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The late-1970s energy crisis was driven by oil embargoes and supply shocks that caused shortages, long gas lines, and higher prices. Choice A is about a nationwide coal miners' strike halted domestic energy production and Choice D is about the United States completely exhausted all domestic oil reserves; those options do not match oil embargoes and supply disruptions created gasoline shortages. It also connects to broader questions about liberty, security, and American power at home and abroad.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.89": [
+   {
+    "id": "US.89-89Q1",
+    "std": "US.89",
+    "dok": 2,
+    "stem": "How did Reagan restore American confidence after the challenges of the 1970s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "His optimistic rhetoric, military buildup, and personal charisma helped Americans feel proud again after Vietnam, Watergate, and the Iran hostage crisis"
+     },
+     {
+      "id": "B",
+      "text": "Reagan had no effect on American morale, but contemporary accounts suggest a different explanation, although historical sources do not support this conclusion"
+     },
+     {
+      "id": "C",
+      "text": "Reagan focused only on economic issues, which represents a common misconception about the period, which represents a common misconception about this historical period"
+     },
+     {
+      "id": "D",
+      "text": "American confidence declined during his presidency, which represents a common misconception about the period and oversimplifies the complex factors at work during this period"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Reagan's \"Morning in America\" optimism and projection of strength restored national pride that had been damaged by the crises of the 1970s.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.89-89Q3",
+    "std": "US.89",
+    "dok": 2,
+    "stem": "What was the Strategic Defense Initiative, and why did it generate controversy?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "SDI was a diplomatic initiative with no critics, but this oversimplifies the complex factors at work, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "B",
+      "text": "\"Star Wars\" proposed space-based missile defense; critics questioned its feasibility and worried it would destabilize arms control, while supporters saw it as leverage against the Soviets"
+     },
+     {
+      "id": "C",
+      "text": "SDI was fully deployed during Reagan's presidency, though this interpretation lacks supporting historical evidence and fails to account for key developments in the broader context"
+     },
+     {
+      "id": "D",
+      "text": "The initiative focused on conventional weapons only, although historical sources do not support this conclusion despite the fact that multiple contemporary sources contradict this"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "SDI generated debate between those who saw it as technologically dubious and destabilizing versus those who believed it pressured the Soviet Union.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.90": [
+   {
+    "id": "US.90-90Q1",
+    "std": "US.90",
+    "dok": 2,
+    "stem": "Why did President Bush order the invasion of Panama, and what did it accomplish?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It removed drug-trafficking dictator Noriega and protected American citizens, demonstrating post-Cold War willingness to use force for law enforcement"
+     },
+     {
+      "id": "B",
+      "text": "The Panama invasion had no clear purpose, yet the available evidence points to a different conclusion, but contemporary accounts and primary sources suggest otherwise"
+     },
+     {
+      "id": "C",
+      "text": "Panama invaded the United States first, although historical sources do not support this conclusion, and this view has been largely revised by modern historical research"
+     },
+     {
+      "id": "D",
+      "text": "The invasion was ordered by Congress alone, yet the available evidence points to a different conclusion, although historical sources do not support this conclusion"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The Panama invasion showed how American military power could be used for purposes beyond Cold War containment, setting precedents for future interventions.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.90-ADD1",
+    "std": "US.90",
+    "dok": 2,
+    "stem": "Why did the United States launch Operation Desert Storm in 1991?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "To stop Iran from developing nuclear weapons technology"
+     },
+     {
+      "id": "B",
+      "text": "To liberate Kuwait after Iraq's invasion and protect oil supplies"
+     },
+     {
+      "id": "C",
+      "text": "To overthrow Saddam Hussein and install a democratic government in Iraq"
+     },
+     {
+      "id": "D",
+      "text": "To defend Israel from an imminent attack by neighboring Arab nations"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Operation Desert Storm was launched to drive Iraqi forces out of Kuwait after Saddam Hussein’s 1990 invasion. Choice B is about overthrow Saddam Hussein and install a democratic government in Iraq and Choice C is about defend Israel from an imminent attack by neighboring Arab nations; those options do not match liberate Kuwait after Iraq's invasion and protect oil supplies. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.91": [
+   {
+    "id": "US.91-91Q2",
+    "std": "US.91",
+    "dok": 2,
+    "stem": "How did welfare reform change the relationship between government assistance and work requirements?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "TANF replaced AFDC with work requirements and time limits, dramatically reducing welfare rolls while raising questions about poverty reduction"
+     },
+     {
+      "id": "B",
+      "text": "Welfare reform eliminated all government assistance, which ignores key developments that shaped the outcome"
+     },
+     {
+      "id": "C",
+      "text": "Welfare reform removed all work requirements, despite limited evidence supporting this interpretation, which contradicts the primary source evidence from this era"
+     },
+     {
+      "id": "D",
+      "text": "The changes only affected elderly recipients, but this oversimplifies the complex factors at work and does not reflect the scholarly consensus on this topic"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Welfare reform fundamentally changed the social contract by requiring work in exchange for assistance and limiting how long families could receive benefits.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.91-91Q3",
+    "std": "US.91",
+    "dok": 2,
+    "stem": "What scandals led to Clinton's impeachment, and why did the Senate acquit him?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Clinton was never impeached, yet the available evidence points to a different conclusion, but the historical evidence paints a more nuanced picture"
+     },
+     {
+      "id": "B",
+      "text": "The House impeached him for perjury and obstruction in the Lewinsky affair, but the Senate acquitted him along partisan lines, lacking the two-thirds majority for removal"
+     },
+     {
+      "id": "C",
+      "text": "Clinton was removed from office, despite limited evidence supporting this interpretation, although historical sources do not support this conclusion"
+     },
+     {
+      "id": "D",
+      "text": "The impeachment was related to foreign policy, although this overlooks critical economic and social factors and oversimplifies the complex factors at work during this period"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Clinton's impeachment and acquittal demonstrated how partisan divisions and public opinion about personal conduct versus job performance influence political outcomes.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.92": [
+   {
+    "id": "US.92-92Q1",
+    "std": "US.92",
+    "dok": 2,
+    "stem": "How did President Bush respond to the September 11th attacks both domestically and internationally?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Domestically he created Homeland Security and expanded surveillance; internationally he declared the War on Terror and invaded Afghanistan to destroy al-Qaeda"
+     },
+     {
+      "id": "B",
+      "text": "Bush took no significant action after 9/11, despite limited evidence supporting this interpretation, which does not align with the documented historical record"
+     },
+     {
+      "id": "C",
+      "text": "Only domestic security measures were implemented, despite the fact that multiple sources contradict this view, though this interpretation lacks supporting historical evidence"
+     },
+     {
+      "id": "D",
+      "text": "The response focused exclusively on diplomacy, although this view has been largely discredited by scholars, which represents a common misconception about this historical period"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Bush's response transformed both domestic security apparatus and foreign policy, committing America to long-term military engagement against terrorism.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.92-S922",
+    "std": "US.92",
+    "dok": 2,
+    "stem": "How did President George W. Bush respond to the September 11 terrorist attacks?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Claims that Iraq possessed weapons of mass destruction and terrorism ties"
+     },
+     {
+      "id": "B",
+      "text": "He launched the War on Terror, including military action against Taliban"
+     },
+     {
+      "id": "C",
+      "text": "Expanded government surveillance powers to investigate potential terrorism"
+     },
+     {
+      "id": "D",
+      "text": "It would continue until every terrorist group of global reach was defeated"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "After 9/11, Bush launched the War on Terror and sent U.S. forces into Afghanistan to remove the Taliban regime that sheltered al-Qaeda. Choice B is about claims that Iraq possessed weapons of mass destruction and terrorism ties and Choice C is about expanded government surveillance powers to investigate potential terrorism; those options do not match launched the War on Terror, including military action against Taliban. This mattered because national security decisions after 2001 had lasting effects on civil liberties and foreign policy.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.93": [
+   {
+    "id": "US.93-93Q1",
+    "std": "US.93",
+    "dok": 2,
+    "stem": "How did Hillary Clinton break barriers for women in American politics throughout her career?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "She served as Senator, Secretary of State, and became the first woman nominated for president by a major party, breaking barriers at multiple levels"
+     },
+     {
+      "id": "B",
+      "text": "Clinton held no significant political positions, although this view has been largely discredited by scholars and does not reflect the scholarly consensus on this topic"
+     },
+     {
+      "id": "C",
+      "text": "She focused only on state-level politics, although this view has been largely discredited by scholars, but closer analysis reveals a more complicated historical reality"
+     },
+     {
+      "id": "D",
+      "text": "Clinton avoided controversial positions, despite limited evidence supporting this interpretation, and this view has been largely revised by modern historical research"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Clinton's career progression demonstrated that women could compete at the highest levels of American politics, even as she faced persistent gender-based criticism.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.93-93Q2",
+    "std": "US.93",
+    "dok": 2,
+    "stem": "What significance did Colin Powell's military and diplomatic leadership have for minority advancement?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Powell's positions had no broader significance, which contradicts the primary source evidence from this era, although this overlooks critical economic and social factors involved"
+     },
+     {
+      "id": "B",
+      "text": "As the first Black Chairman of Joint Chiefs and Secretary of State, he demonstrated minority advancement in national security while earning bipartisan respect"
+     },
+     {
+      "id": "C",
+      "text": "Powell served only in advisory roles, which contradicts the primary source evidence from this era and oversimplifies the complex factors at work during this period"
+     },
+     {
+      "id": "D",
+      "text": "His appointments were opposed by most Americans, but contemporary accounts suggest a different explanation, though this interpretation lacks supporting historical evidence"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Powell's service in the highest military and diplomatic positions showed that merit could overcome racial barriers in traditionally exclusive institutions.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.94": [
+   {
+    "id": "US.94-94Q1",
+    "std": "US.94",
+    "dok": 2,
+    "stem": "What were the primary methods of communication in the 1970s, and how did they shape daily life?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Landlines, three TV networks, radio, newspapers, and mail dominated; communication was slower, more deliberate, and geographically limited"
+     },
+     {
+      "id": "B",
+      "text": "The 1970s had the same communication technology as today, despite the fact that multiple sources contradict this view"
+     },
+     {
+      "id": "C",
+      "text": "Smartphones were common in the 1970s, which does not align with the documented historical record, although historical sources do not support this conclusion"
+     },
+     {
+      "id": "D",
+      "text": "Communication technology had no effect on daily life, which ignores key developments that shaped the outcome"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "1970s communication required more time and effort, creating different patterns of interaction and information consumption than today.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.94-S941",
+    "std": "US.94",
+    "dok": 2,
+    "stem": "How has the internet transformed American society since the 1990s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "From landline phones and letters to smartphones, email, and social media"
+     },
+     {
+      "id": "B",
+      "text": "It revolutionized commerce, communication, information, and social life"
+     },
+     {
+      "id": "C",
+      "text": "It changed how people connect, share information, and engage in politics"
+     },
+     {
+      "id": "D",
+      "text": "It put computing, communication, and internet access in everyone's pocket"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Since the 1990s, the internet has transformed shopping, communication, news, entertainment, and everyday social life. Choice A is about from landline phones and letters to smartphones, email, and social media and Choice D is about put computing, communication, and internet access in everyone's pocket; those options do not match revolutionized commerce, communication, information, and social life. The topic fits the communications revolution, which created new opportunities while also creating new social and political risks.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.95": [
+   {
+    "id": "US.95-95Q1",
+    "std": "US.95",
+    "dok": 2,
+    "stem": "What were President Obama's major domestic achievements, particularly in healthcare and economic recovery?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The Affordable Care Act expanded health coverage to millions while the Recovery Act helped end the Great Recession, reducing unemployment from 10% to 4.7%"
+     },
+     {
+      "id": "B",
+      "text": "Obama had no significant domestic achievements, which does not align with the documented historical record and oversimplifies the complex factors at work during this period"
+     },
+     {
+      "id": "C",
+      "text": "Obama's policies worsened the economic crisis, despite the fact that multiple sources contradict this view when examined alongside the available primary and secondary sources"
+     },
+     {
+      "id": "D",
+      "text": "Healthcare reform was never attempted, though this interpretation lacks supporting historical evidence, but contemporary accounts and primary sources suggest otherwise"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "Obama's signature domestic achievements—healthcare reform and economic recovery—had lasting impacts on American society, though both remained politically controversial.",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.95-5Q07",
+    "std": "US.95",
+    "dok": 2,
+    "stem": "Obama's landmark nuclear agreement with Iran (Joint Comprehensive Plan of Action, 2015) was designed to:",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Permanently eliminate all Iranian nuclear facilities, including civilian power reactors"
+     },
+     {
+      "id": "B",
+      "text": "Limit Iran's uranium enrichment in exchange for sanctions relief, delaying nuclear weapons development"
+     },
+     {
+      "id": "C",
+      "text": "Provide Iran with civilian nuclear reactor technology under international supervision"
+     },
+     {
+      "id": "D",
+      "text": "Establish a formal security and defense partnership between the United States and Iran"
+     }
+    ],
+    "key": "B",
+    "rc": "Government and Civics",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "The Iran nuclear deal traded sanctions relief for limits on Iran’s enrichment and inspections designed to slow any path to a bomb. Choice B is about eliminate Iran's nuclear program largely, which was not the primary driver of this historical change and Choice D is about create a military alliance between the U.S. and Iran; those options do not match limit Iran's nuclear enrichment capacity in exchange for sanctions relief, delaying potential nuclear weapons development. It also connects to broader questions about who is included in American democracy and how government responds to crisis.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ],
+  "US.84": [
+   {
+    "id": "US.84-84Q1",
+    "std": "US.84",
+    "dok": 2,
+    "stem": "How did supporters and critics differ in their views of 1960s social activism?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Supporters saw activism as democratic participation addressing injustice while critics viewed protesters as unpatriotic radicals undermining American values"
+     },
+     {
+      "id": "B",
+      "text": "Everyone supported social activism equally, although this view has been largely discredited by scholars, which does not align with the documented historical record"
+     },
+     {
+      "id": "C",
+      "text": "Critics were exclusively older Americans, yet the available evidence points to a different conclusion, which represents a common misconception about this historical period"
+     },
+     {
+      "id": "D",
+      "text": "There was no significant disagreement about activism, yet the available evidence points to a different conclusion and oversimplifies the complex factors at work during this period"
+     }
+    ],
+    "key": "A",
+    "rc": "History",
+    "distract": {
+     "A": "The divide over activism reflected deeper disagreements about what it meant to be patriotic—was it supporting government policy or challenging injustice through protest?",
+     "B": "Common misconception — recheck the evidence.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   },
+   {
+    "id": "US.84-84Q2",
+    "std": "US.84",
+    "dok": 2,
+    "stem": "What caused the \"generation gap\" between older and younger Americans in the 1960s?",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The generation gap was solely about music preferences, although this view has been largely discredited by scholars despite the fact that multiple contemporary sources contradict this"
+     },
+     {
+      "id": "B",
+      "text": "Older Americans shaped by Depression and WWII valued authority and conformity while younger Americans raised in prosperity questioned traditional values and institutions"
+     },
+     {
+      "id": "C",
+      "text": "There was no significant generational divide, despite the fact that multiple sources contradict this view, which does not align with the documented historical record"
+     },
+     {
+      "id": "D",
+      "text": "Younger Americans were more conservative than their parents, which represents a common misconception about the period, which contradicts the primary source evidence from this era"
+     }
+    ],
+    "key": "B",
+    "rc": "History",
+    "distract": {
+     "A": "Common misconception — recheck the evidence.",
+     "B": "Different formative experiences created fundamentally different worldviews—parents who survived hard times valued stability while children raised in abundance felt free to challenge the status quo.",
+     "C": "Common misconception — recheck the evidence.",
+     "D": "Common misconception — recheck the evidence."
+    }
+   }
+  ]
+ },
+ "formA": [
+  {
+   "id": "US.83-S831",
+   "std": "US.83",
+   "dok": 2,
+   "stem": "Based on the passage, what did President Johnson identify as the foundation of the Great Society?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Using America's abundance and liberty to end poverty and injustice"
+    },
+    {
+     "id": "B",
+     "text": "Building military strength and expanding international alliance systems"
+    },
+    {
+     "id": "C",
+     "text": "Reducing federal government spending and returning power to states"
+    },
+    {
+     "id": "D",
+     "text": "Protecting states' rights and limiting federal involvement in society"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Johnson described America's abundance and liberty as the foundation for ending poverty and injustice through the Great Society. Choice A is about building military strength and expanding international alliance systems and Choice D is about protecting states' rights and limiting federal involvement in society; those options do not match using America's abundance and liberty to end poverty and injustice. This fits the broader Great Society era, when many Americans expected federal policy to reduce poverty and discrimination.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.83-ADD2",
+   "std": "US.83",
+   "dok": 2,
+   "stem": "How did the War on Poverty aim to address economic inequality in America?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A preschool program designed to help disadvantaged children prepare for school"
+    },
+    {
+     "id": "B",
+     "text": "By creating job training, education, and community action programs for the poor"
+    },
+    {
+     "id": "C",
+     "text": "Programs like Medicare and Head Start became permanent, while others faced criticism"
+    },
+    {
+     "id": "D",
+     "text": "It provided early education to help low-income children succeed in school"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Johnson’s War on Poverty used job training, early education, and community action agencies to attack poverty through opportunity rather than simple cash relief. A is incorrect because that refers to environmental policy, not the issue asked about here; C is incorrect because Head Start is an early-childhood education program, not a health-insurance plan. It connects to a larger argument over how far government should go in creating economic and social opportunity.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.83-X022",
+   "std": "US.83",
+   "dok": 2,
+   "stem": "The Progressive Era, New Deal, and Great Society each expanded federal power in response to perceived market failures. Opponents of each argued that these expansions:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Partisan polarization affecting legislative processes in Congress"
+    },
+    {
+     "id": "B",
+     "text": "Would create dependency rather than solving the underlying social problems"
+    },
+    {
+     "id": "C",
+     "text": "Were driven by elite reformers who did not understand the needs of ordinary Americans"
+    },
+    {
+     "id": "D",
+     "text": "Were unconstitutional infringements on states' rights and individual liberty"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Opponents in all three eras argued that bigger federal programs threatened liberty and might create dependency instead of solving root problems. Choice A is about were driven by elite reformers who did not understand the needs of ordinary Americans and Choice D is about were unconstitutional infringements on states' rights and individual liberty; those options do not match both A and B represent common conservative arguments against progressive government expansion. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.85-ADD2",
+   "std": "US.85",
+   "dok": 2,
+   "stem": "What was the significance of Nixon's 1972 visit to China?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The Strategic Arms Limitation Talks (SALT I) agreement with the Soviet Union"
+    },
+    {
+     "id": "B",
+     "text": "It opened diplomatic relations with communist China after decades of isolation"
+    },
+    {
+     "id": "C",
+     "text": "Americans who quietly supported the Vietnam War and traditional values"
+    },
+    {
+     "id": "D",
+     "text": "It appealed to white Southern voters unhappy with civil rights laws"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Nixon’s 1972 trip was the first visit by a sitting U.S. president to communist China, breaking decades of isolation and reshaping Cold War diplomacy. Choice C is about americans who quietly supported the Vietnam War and traditional values and Choice D is about appealed to white Southern voters unhappy with civil rights laws; those options do not match opened diplomatic relations with communist China after decades of isolation. It also reflects how Cold War diplomacy and domestic political realignment transformed the United States in the 1970s.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.85-X031",
+   "std": "US.85",
+   "dok": 2,
+   "stem": "The Congressional Budget and Impoundment Control Act (1974) was passed because Nixon:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Globalization connecting American markets to international trade networks"
+    },
+    {
+     "id": "B",
+     "text": "Had used the budget process to reward political allies and punish political opponents"
+    },
+    {
+     "id": "C",
+     "text": "Had refused to spend money that Congress had appropriated, asserting an executive power to impound funds"
+    },
+    {
+     "id": "D",
+     "text": "Had shared confidential budget projections with political allies before congressional notification"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Congress passed the 1974 law after Nixon tried to impound, or refuse to spend, money that Congress had appropriated. Choice B is about had used the budget process to reward political allies and punish political opponents and Choice D is about had shared confidential budget projections with political allies before congressional notification; those options do not match had refused to spend money that Congress had appropriated, asserting an executive power to impound funds. The episode shows how Nixon-era politics mixed major policy change with intense conflict over power and government.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.85-S854",
+   "std": "US.85",
+   "dok": 2,
+   "stem": "How did Nixon's \"Southern Strategy\" change American political alignments?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Middle-class Americans who supported traditional values and the war"
+    },
+    {
+     "id": "B",
+     "text": "It eased tensions through diplomacy and arms control negotiations"
+    },
+    {
+     "id": "C",
+     "text": "Americans who quietly supported the Vietnam War and traditional values"
+    },
+    {
+     "id": "D",
+     "text": "It appealed to white Southern voters unhappy with civil rights laws"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Nixon’s Southern Strategy helped move many white Southern voters toward the Republican Party by appealing to backlash against federal civil rights change. Choice A is about middle-class Americans who supported traditional values and the war and Choice B is about eased tensions through diplomacy and arms control negotiations; those options do not match appealed to white Southern voters unhappy with civil rights laws. The episode shows how Nixon-era politics mixed major policy change with intense conflict over power and government."
+   }
+  },
+  {
+   "id": "US.86-6Q08",
+   "std": "US.86",
+   "dok": 2,
+   "stem": "Nixon resigned from the presidency in August 1974 primarily because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "He lost a Senate no-confidence vote that stripped him of legislative support"
+    },
+    {
+     "id": "B",
+     "text": "Congress passed emergency legislation requiring his immediate removal from office"
+    },
+    {
+     "id": "C",
+     "text": "The release of the 'smoking gun' tape proved his involvement in the cover-up"
+    },
+    {
+     "id": "D",
+     "text": "He was convicted of obstruction of justice in a federal criminal trial"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The “smoking gun” tape showed Nixon had joined the cover-up almost immediately, destroying his remaining support in Congress and forcing his resignation. Choice B is about lost a confidence vote in the Senate and Choice D is about was convicted in a criminal trial; those options do not match the release of the 'smoking gun' tape proved his involvement in the cover-up, and he lost congressional support. This fits the larger theme that democracy in the United States advances unevenly and often through crisis.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.86-S864",
+   "std": "US.86",
+   "dok": 2,
+   "stem": "How did the Watergate scandal influence the role of investigative journalism?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It led Congress to pass laws restricting media coverage of politics"
+    },
+    {
+     "id": "B",
+     "text": "It caused newspapers to avoid investigating political scandals entirely"
+    },
+    {
+     "id": "C",
+     "text": "It reduced public trust in journalism and decreased newspaper sales"
+    },
+    {
+     "id": "D",
+     "text": "It demonstrated how the press could serve as a check on government"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Watergate showed that investigative reporters could uncover abuses of power and act as a check on government misconduct. Choice A is about led Congress to pass laws restricting media coverage of politics and Choice C is about caused newspapers to avoid investigating political scandals entirely; those options do not match demonstrated how the press could serve as a check on government. This fits the larger theme that democracy in the United States advances unevenly and often through crisis."
+   }
+  },
+  {
+   "id": "US.86-ADD4",
+   "std": "US.86",
+   "dok": 2,
+   "stem": "How did Watergate change Americans' relationship with their government?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It created a lasting legacy of distrust in government and political institutions"
+    },
+    {
+     "id": "B",
+     "text": "It ruled that the president must comply with subpoenas and is not above the law"
+    },
+    {
+     "id": "C",
+     "text": "A break-in at Democratic headquarters and Nixon's cover-up that led to his resignation"
+    },
+    {
+     "id": "D",
+     "text": "He believed putting the interests of America first required his departure"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Watergate deepened public distrust in government and led to reforms aimed at limiting secret abuses of executive power. B is incorrect because it names a different institution or power than the one the item asks about; C is incorrect because that refers to Watergate rather than the concept asked about here. It also shows why constitutional checks matter when presidents try to expand their power.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.87-ADD1",
+   "std": "US.87",
+   "dok": 2,
+   "stem": "What was the significance of Rachel Carson's book \"Silent Spring\"?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Toxic waste buried under a neighborhood caused illness, leading to Superfund legislation"
+    },
+    {
+     "id": "B",
+     "text": "It allowed politicians to communicate directly with voters and enabled grassroots organizing"
+    },
+    {
+     "id": "C",
+     "text": "Many believed Nixon should face trial, and the pardon may have cost Ford the 1976 election"
+    },
+    {
+     "id": "D",
+     "text": "It documented the harmful effects of pesticides and helped launch the environmental movement"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Rachel Carson’s Silent Spring exposed the danger of pesticides such as DDT and helped launch the modern environmental movement. Choice B is about toxic waste buried under a neighborhood caused illness, leading to Superfund legislation and Choice C is about allowed politicians to communicate directly with voters and enabled grassroots organizing; those options do not match documented the harmful effects of pesticides and helped launch the environmental movement. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth."
+   }
+  },
+  {
+   "id": "US.87-S872",
+   "std": "US.87",
+   "dok": 2,
+   "stem": "How did the Love Canal disaster influence environmental policy in the United States?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It led to the Superfund law requiring cleanup of toxic waste sites"
+    },
+    {
+     "id": "B",
+     "text": "It caused Congress to reduce regulations on all chemical companies"
+    },
+    {
+     "id": "C",
+     "text": "It resulted in the construction of new nuclear power plant facilities"
+    },
+    {
+     "id": "D",
+     "text": "It prompted the creation of the Environmental Protection Agency"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Love Canal involved homes and a school built near buried chemical waste, and the illnesses there helped push Congress toward the Superfund cleanup law. Choice D is about prompted the creation of the Environmental Protection Agency; those options do not match led to the Superfund law requiring cleanup of toxic waste sites. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.87-S874",
+   "std": "US.87",
+   "dok": 2,
+   "stem": "Which factors contributed to the emergence of the modern environmental movement?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Discovery of new oil reserves and expansion of industrial manufacturing"
+    },
+    {
+     "id": "B",
+     "text": "Growing pollution awareness, Rachel Carson's writings, and disasters"
+    },
+    {
+     "id": "C",
+     "text": "Government campaigns promoting unlimited economic growth nationwide"
+    },
+    {
+     "id": "D",
+     "text": "Declining interest in conservation and reduced national park funding"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The modern environmental movement grew from rising awareness of pollution, Rachel Carson’s writing, and visible disasters that made environmental harm impossible to ignore. Choice A is about discovery of new oil reserves and expansion of industrial manufacturing and Choice D is about declining interest in conservation and reduced national park funding; those options do not match growing pollution awareness, Rachel Carson's writings, and disasters. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.88-S884",
+   "std": "US.88",
+   "dok": 2,
+   "stem": "What was significant about the Panama Canal Treaty signed during Carter's presidency?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It agreed to gradually transfer control of the canal to Panama"
+    },
+    {
+     "id": "B",
+     "text": "It closed the canal to international shipping for security reasons"
+    },
+    {
+     "id": "C",
+     "text": "It expanded permanent United States control over the Canal Zone"
+    },
+    {
+     "id": "D",
+     "text": "It transferred canal ownership to an international governing body"
+    }
+   ],
+   "key": "A",
+   "rc": "Economics",
+   "distract": {
+    "A": "Carter’s Panama Canal treaty set a timetable for gradually returning control of the canal to Panama instead of keeping permanent U.S. control. Choice A is about closed the canal to international shipping for security reasons and Choice B is about expanded permanent United States control over the Canal Zone; those options do not match agreed to gradually transfer control of the canal to Panama. The topic shows how the late 1970s combined foreign-policy strain, economic anxiety, and debate over constitutional rights.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.88-ADD2",
+   "std": "US.88",
+   "dok": 2,
+   "stem": "What was the Iran Hostage Crisis and how did it affect Carter's presidency?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Long gas lines, high energy prices, and a national debate about energy independence"
+    },
+    {
+     "id": "B",
+     "text": "Iranian militants held 52 Americans for 444 days, undermining Carter's presidency"
+    },
+    {
+     "id": "C",
+     "text": "A peace agreement between Egypt and Israel brokered by President Carter"
+    },
+    {
+     "id": "D",
+     "text": "He brokered the first peace agreement between Israel and an Arab nation"
+    }
+   ],
+   "key": "B",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The Iran Hostage Crisis began when Iranian militants seized the U.S. Embassy in Tehran and held 52 Americans for 444 days. Choice D is about brokered the first peace agreement between Israel and an Arab nation; those options do not match iranian militants held 52 Americans for 444 days, undermining Carter's presidency. This helps explain why the Carter years and First Amendment disputes still influence politics today.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.88-ADD3",
+   "std": "US.88",
+   "dok": 2,
+   "stem": "How did the energy crisis of the 1970s affect American daily life?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Iranian militants held 52 Americans for 444 days, undermining Carter's presidency"
+    },
+    {
+     "id": "B",
+     "text": "A peace agreement between Egypt and Israel brokered by President Carter"
+    },
+    {
+     "id": "C",
+     "text": "Long gas lines, high energy prices, and a national debate about energy independence"
+    },
+    {
+     "id": "D",
+     "text": "He brokered the first peace agreement between Israel and an Arab nation"
+    }
+   ],
+   "key": "C",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The late-1970s energy crisis was driven by oil embargoes and supply shocks that caused shortages, long gas lines, and higher prices. Choice D is about brokered the first peace agreement between Israel and an Arab nation; those options do not match long gas lines, high energy prices, and a national debate about energy independence. The topic shows how the late 1970s combined foreign-policy strain, economic anxiety, and debate over constitutional rights.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.89-S894",
+   "std": "US.89",
+   "dok": 2,
+   "stem": "How did Reagan's optimistic rhetoric affect American society during the 1980s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A space-based missile defense system nicknamed \"Star Wars\" by critics"
+    },
+    {
+     "id": "B",
+     "text": "It helped revitalize national confidence after struggles of the 1970s"
+    },
+    {
+     "id": "C",
+     "text": "A scandal involving secret arms sales to Iran to fund Nicaraguan rebels"
+    },
+    {
+     "id": "D",
+     "text": "Increased law enforcement, mandatory sentences, and awareness campaigns"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Reagan’s upbeat speeches helped restore confidence for many Americans after the stagflation, hostage crisis, and pessimism of the 1970s. Choice A is about a space-based missile defense system nicknamed \"Star Wars\" by critics and Choice C is about a scandal involving secret arms sales to Iran to fund Nicaraguan rebels; those options do not match helped revitalize national confidence after struggles of the 1970s. It also helps explain how Reagan-era choices continued to shape debates about government power and American strength.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.89-S896",
+   "std": "US.89",
+   "dok": 2,
+   "stem": "How did the AIDS epidemic emerge as a public health crisis during the Reagan era?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "An economic policy of tax cuts, deregulation, and reduced government spending"
+    },
+    {
+     "id": "B",
+     "text": "Reagan believed reducing government would stimulate growth; LBJ expanded it"
+    },
+    {
+     "id": "C",
+     "text": "The disease spread rapidly while the government's initial response was delayed"
+    },
+    {
+     "id": "D",
+     "text": "Secret arms sales to Iran with profits illegally funding Nicaraguan rebels"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "AIDS became a crisis in the 1980s because the disease spread quickly while the federal response was slow and shaped by fear, stigma, and political hesitation. Choice B is about an economic policy of tax cuts, deregulation, and reduced government spending and Choice D is about secret arms sales to Iran with profits illegally funding Nicaraguan rebels; those options do not match the disease spread rapidly while the government's initial response was delayed. It also helps explain how Reagan-era choices continued to shape debates about government power and American strength.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.89-S891",
+   "std": "US.89",
+   "dok": 2,
+   "stem": "Based on Reagan's inaugural address, what did he identify as the primary problem?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Secret arms sales to Iran with profits illegally funding Nicaraguan rebels"
+    },
+    {
+     "id": "B",
+     "text": "A scandal involving secret arms sales to Iran to fund Nicaraguan rebels"
+    },
+    {
+     "id": "C",
+     "text": "Increased law enforcement, mandatory sentences, and awareness campaigns"
+    },
+    {
+     "id": "D",
+     "text": "He argued that government itself had become the problem, not the solution"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "In his inaugural address, Reagan argued that government had become the problem rather than the solution to the nation’s economic troubles. A is incorrect because Iran-Contra had not happened yet in 1981. D is incorrect because the War on Drugs was not the main point of this speech. The issue fits a broader shift toward conservatism, stronger national security policies, and renewed Cold War pressure."
+   }
+  },
+  {
+   "id": "US.90-0Q08",
+   "std": "US.90",
+   "dok": 2,
+   "stem": "The 101st Airborne Division based at Fort Campbell, Kentucky/Tennessee, was deployed during the Gulf War as part of the ground offensive. The 101st's 'air assault' tactics during Operation Desert Storm demonstrated:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The need for a larger ground invasion force"
+    },
+    {
+     "id": "B",
+     "text": "The importance of naval power in desert warfare"
+    },
+    {
+     "id": "C",
+     "text": "The decisive role of highly mobile air assault forces"
+    },
+    {
+     "id": "D",
+     "text": "The ineffectiveness of airpower in desert warfare"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The 101st Airborne showed how helicopter-based air assault could move troops quickly across desert battlefields and strike deep behind enemy positions. Choice A is about the need for a larger ground invasion force and Choice D is about the ineffectiveness of airpower in desert warfare; those options do not match the decisive role of highly mobile air assault forces. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.90-S901",
+   "std": "US.90",
+   "dok": 1,
+   "stem": "What was the purpose of the Gulf War (Operation Desert Storm) in 1991?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A conflict between Iran and Iraq over control of regional oil resources"
+    },
+    {
+     "id": "B",
+     "text": "A U.S. military operation to remove Saddam Hussein from power"
+    },
+    {
+     "id": "C",
+     "text": "A peacekeeping mission to resolve disputes over Persian Gulf islands"
+    },
+    {
+     "id": "D",
+     "text": "A U.S.-led coalition liberated Kuwait after Iraq's military invasion"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Operation Desert Storm was launched to drive Iraqi forces out of Kuwait after Saddam Hussein’s 1990 invasion. Choice B is about a conflict between Iran and Iraq over control of regional oil resources and Choice C is about a U.S. military operation to remove Saddam Hussein from power; those options do not match a U.S.-led coalition liberated Kuwait after Iraq's military invasion. The event also fits the bigger story of how the United States adjusted to the end of the Cold War."
+   }
+  },
+  {
+   "id": "US.90-0Q02",
+   "std": "US.90",
+   "dok": 1,
+   "stem": "Operation Desert Storm (1991) was the U.S.-led military response to:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Iraq's invasion and occupation of Kuwait in August 1990"
+    },
+    {
+     "id": "B",
+     "text": "A coordinated terrorist attack on U.S. military personnel in Saudi Arabia"
+    },
+    {
+     "id": "C",
+     "text": "Iraq's confirmed use of chemical weapons against Kurdish civilians in northern Iraq"
+    },
+    {
+     "id": "D",
+     "text": "Iran's active pursuit of nuclear weapons technology in defiance of UN inspections"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Operation Desert Storm was launched to drive Iraqi forces out of Kuwait after Saddam Hussein’s 1990 invasion. Choice C is about iraq's development of chemical weapons; those options do not match iraq's invasion and occupation of Kuwait in August 1990. The event also fits the bigger story of how the United States adjusted to the end of the Cold War.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.91-S913",
+   "std": "US.91",
+   "dok": 2,
+   "stem": "How did welfare reform under Clinton change government assistance programs?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Sustained economic expansion, low unemployment, and a technology boom"
+    },
+    {
+     "id": "B",
+     "text": "It eliminated most tariffs between the United States, Canada, and Mexico"
+    },
+    {
+     "id": "C",
+     "text": "Perjury and obstruction of justice related to testimony about his conduct"
+    },
+    {
+     "id": "D",
+     "text": "It replaced welfare with time-limited assistance and work requirements"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Clinton’s 1996 welfare reform replaced the old federal guarantee with time-limited aid tied to work requirements and state administration. Choice B is about sustained economic expansion, low unemployment, and a technology boom and Choice D is about perjury and obstruction of justice related to testimony about his conduct; those options do not match replaced welfare with time-limited assistance and work requirements. The topic shows how globalization and partisan conflict reshaped politics in the 1990s and after."
+   }
+  },
+  {
+   "id": "US.91-ADD1",
+   "std": "US.91",
+   "dok": 2,
+   "stem": "What was NAFTA and why was it controversial?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A free trade agreement between the U.S., Canada, and Mexico that critics said cost American jobs"
+    },
+    {
+     "id": "B",
+     "text": "It expanded health insurance coverage but faced opposition over government's role in healthcare"
+    },
+    {
+     "id": "C",
+     "text": "It allowed politicians to communicate directly with voters and enabled grassroots organizing"
+    },
+    {
+     "id": "D",
+     "text": "It documented the harmful effects of pesticides and helped launch the environmental movement"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "NAFTA created a free-trade zone among the United States, Canada, and Mexico, but critics argued it would speed up job losses in U.S. manufacturing. Choice B is about expanded health insurance coverage but faced opposition over government's role in healthcare and Choice D is about documented the harmful effects of pesticides and helped launch the environmental movement; those options do not match a free trade agreement between the U.S., Canada, and Mexico that critics said cost American jobs. The topic shows how globalization and partisan conflict reshaped politics in the 1990s and after.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.91-1Q07",
+   "std": "US.91",
+   "dok": 2,
+   "stem": "Clinton was acquitted by the Senate after his House impeachment because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The Supreme Court ruled 5–4 that the House impeachment process was constitutionally defective, preventing the Senate trial from proceeding"
+    },
+    {
+     "id": "B",
+     "text": "The Senate vote fell short of the two-thirds majority needed for removal, as most Democrats and several Republicans voted to acquit"
+    },
+    {
+     "id": "C",
+     "text": "Clinton tendered his resignation before the Senate could hold its final vote, ending the impeachment proceedings without a conviction verdict"
+    },
+    {
+     "id": "D",
+     "text": "The Senate dismissed all charges after concluding that the House Judiciary Committee had fabricated the underlying evidentiary record against Clinton"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Clinton stayed in office because the Senate did not reach the two-thirds vote required to remove a president after impeachment. Choice A is about the Supreme Court ruled the impeachment unconstitutional, which historians consider a secondary factor in this development and Choice C is about clinton resigned before the Senate could vote, which historians consider a secondary factor in this development; those options do not match the Senate vote fell short of the two-thirds majority required to remove a president from office — most Democratic senators voted not guilty, and even some Republicans voted to acquit. This issue remained important because it influenced later arguments about inequality, manufacturing, and political division.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.92-S921",
+   "std": "US.92",
+   "dok": 2,
+   "stem": "According to President Bush's address, what was the scope of the War on Terror?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It would continue until every terrorist group of global reach was defeated"
+    },
+    {
+     "id": "B",
+     "text": "It would focus exclusively on destroying al-Qaeda and then would conclude"
+    },
+    {
+     "id": "C",
+     "text": "It would be limited to military operations within Afghanistan territory only"
+    },
+    {
+     "id": "D",
+     "text": "It would end with the capture of those directly responsible for attacks"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Bush said the War on Terror would continue until terrorist groups with global reach were defeated, showing that he saw it as a long worldwide conflict. Choice A is about would focus exclusively on destroying al-Qaeda and then would conclude and Choice D is about would end with the capture of those directly responsible for attacks; those options do not match would continue until every terrorist group of global reach was defeated. It also shows how terrorism, war, and emergency powers changed American life in the twenty-first century.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.92-X014",
+   "std": "US.92",
+   "dok": 2,
+   "stem": "Guantanamo Bay detention camp was established after 9/11 primarily because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It was the most secure U.S. facility capable of holding high-value terrorism suspects"
+    },
+    {
+     "id": "B",
+     "text": "The administration believed that holding detainees at a base outside the U.S. might limit the application of U.S. constitutional rights"
+    },
+    {
+     "id": "C",
+     "text": "Cuba had requested that the U.S. transfer terrorism suspects from the United States to Guantanamo"
+    },
+    {
+     "id": "D",
+     "text": "Military commissions could only be convened outside U.S. territory under the Uniform Code of Military Justice"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Guantanamo Bay was chosen partly because officials believed holding prisoners outside the U.S. mainland might reduce their access to U.S. constitutional protections. Choice A is about the most secure U.S. facility capable of holding high-value terrorism suspects and Choice D is about military commissions could only be convened outside U.S. territory under the Uniform Code of Military Justice; those options do not match the administration believed that holding detainees at a base outside the U.S. might limit the application of U.S. constitutional rights. The issue fits a broader shift toward conservatism, stronger national security policies, and renewed Cold War pressure.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.92-X015",
+   "std": "US.92",
+   "dok": 2,
+   "stem": "The intelligence failures that led to the Iraq War have been compared to the intelligence failures before 9/11 because both involved:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Inadequate human intelligence that left the U.S. dependent on technical collection in both cases"
+    },
+    {
+     "id": "B",
+     "text": "Deliberate political manipulation of intelligence reports to support predetermined policy goals"
+    },
+    {
+     "id": "C",
+     "text": "Analytical failures — misreading limited evidence — and organizational failures — communication breakdowns between agencies"
+    },
+    {
+     "id": "D",
+     "text": "Foreign interference in the intelligence process by adversaries seeking to manipulate U.S. decisions"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Like the failures before 9/11, the Iraq intelligence failure involved poor analysis and weak information-sharing, not just one missing report. Choice A is about inadequate human intelligence that left the U.S. dependent on technical collection in both cases and Choice D is about foreign interference in the intelligence process by adversaries seeking to manipulate U.S. decisions; those options do not match analytical failures — misreading limited evidence — and organizational failures — communication breakdowns between agencies. The topic fits the post-9/11 era, when the United States expanded security policy while debating costs and limits.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.93-93Q3",
+   "std": "US.93",
+   "dok": 2,
+   "stem": "How did Sandra Day O'Connor's Supreme Court service change opportunities for women in law?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "O'Connor's appointment had no broader impact, but this fails to account for the broader historical context"
+    },
+    {
+     "id": "B",
+     "text": "As the first woman Justice, she proved women could serve at the highest judicial level and often cast decisive swing votes on major cases"
+    },
+    {
+     "id": "C",
+     "text": "She served for only one term, which contradicts the primary source evidence from this era, but contemporary accounts and primary sources suggest otherwise"
+    },
+    {
+     "id": "D",
+     "text": "O'Connor was a liberal activist judge, but this oversimplifies the complex factors at work, but closer analysis reveals a more complicated historical reality"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "O'Connor's 25-year tenure proved women could succeed at the Supreme Court's highest level while demonstrating that gender doesn't predetermine judicial philosophy.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.93-X015",
+   "std": "US.93",
+   "dok": 2,
+   "stem": "The increasing diversity of the Supreme Court over the past 50 years reflects:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Congressional requirements that presidential nominees represent the diversity of the American population"
+    },
+    {
+     "id": "B",
+     "text": "A deliberate effort to ensure the Court demographically mirrors American society"
+    },
+    {
+     "id": "C",
+     "text": "Changing political priorities of presidents who recognized the symbolic and practical importance of diversifying the judiciary"
+    },
+    {
+     "id": "D",
+     "text": "The expansion of the Court from 9 to 12 justices to accommodate representation from diverse communities"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "A more diverse Supreme Court reflects changing priorities in presidential appointments and the belief that the judiciary should not be limited to one social group. B is incorrect because it names a different institution or power than the one the item asks about; D is incorrect because it names a different institution or power than the one the item asks about. It also helps explain how symbolic breakthroughs can change who Americans imagine in positions of power.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.93-X023",
+   "std": "US.93",
+   "dok": 2,
+   "stem": "The increasing diversity of the U.S. Supreme Court — including women and minorities — is significant because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Research suggests diverse panels consider a wider range of arguments and bring more perspectives to deliberation"
+    },
+    {
+     "id": "B",
+     "text": "Technological innovation reshaping economic and social patterns"
+    },
+    {
+     "id": "C",
+     "text": "Studies show that diverse courts reach different outcomes than homogeneous courts on civil rights cases"
+    },
+    {
+     "id": "D",
+     "text": "It reflects the broader democratic aspiration that the judiciary represent all Americans, not just wealthy white men"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Supreme Court diversity matters because it broadens the range of experiences represented on the bench and strengthens the idea that the judiciary should serve all Americans. Choice D is about studies show that diverse courts reach different outcomes than homogeneous courts on civil rights cases and Choice B is about reflects the broader democratic aspiration that the judiciary represent all Americans, not just wealthy white men; those options do not match both B and C represent the significance of Supreme Court diversity. It also reflects a broader expansion of representation in American public life, even as barriers did not disappear overnight."
+   }
+  },
+  {
+   "id": "US.94-S943",
+   "std": "US.94",
+   "dok": 2,
+   "stem": "What impact has social media had on American political and social life?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "From landline phones and letters to smartphones, email, and social media"
+    },
+    {
+     "id": "B",
+     "text": "It put computing, communication, and internet access in everyone's pocket"
+    },
+    {
+     "id": "C",
+     "text": "It changed how people connect, share information, and engage in politics"
+    },
+    {
+     "id": "D",
+     "text": "It revolutionized commerce, communication, information, and social life"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Social media let politicians, activists, and ordinary users communicate directly and organize quickly, changing both campaigns and public debate. Choice A is about from landline phones and letters to smartphones, email, and social media and Choice C is about revolutionized commerce, communication, information, and social life; those options do not match changed how people connect, share information, and engage in politics. The topic fits the communications revolution, which created new opportunities while also creating new social and political risks.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.94-S944",
+   "std": "US.94",
+   "dok": 2,
+   "stem": "How did the smartphone revolution beginning in 2007 change American daily life?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "From landline phones and letters to smartphones, email, and social media"
+    },
+    {
+     "id": "B",
+     "text": "It changed how people connect, share information, and engage in politics"
+    },
+    {
+     "id": "C",
+     "text": "It revolutionized commerce, communication, information, and social life"
+    },
+    {
+     "id": "D",
+     "text": "It put computing, communication, and internet access in everyone's pocket"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Smartphones changed daily life by putting communication, cameras, apps, and internet access into one device people carry everywhere. Choice A is about from landline phones and letters to smartphones, email, and social media and Choice D is about revolutionized commerce, communication, information, and social life; those options do not match put computing, communication, and internet access in everyone's pocket. The topic fits the communications revolution, which created new opportunities while also creating new social and political risks."
+   }
+  },
+  {
+   "id": "US.94-ADD1",
+   "std": "US.94",
+   "dok": 2,
+   "stem": "How did the internet transform American society and communication?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It created instant global communication, e-commerce, and access to information"
+    },
+    {
+     "id": "B",
+     "text": "From landlines and letters to cell phones, email, social media, and video calls"
+    },
+    {
+     "id": "C",
+     "text": "Technology improved connectivity but enabled misinformation and privacy loss"
+    },
+    {
+     "id": "D",
+     "text": "It put computing, communication, and internet access in everyone's pocket"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The internet transformed American society by making communication faster, opening online commerce, and giving millions of people instant access to information. Choice B is about from landlines and letters to cell phones, email, social media, and video calls and Choice D is about put computing, communication, and internet access in everyone's pocket; those options do not match created instant global communication, e-commerce, and access to information. This mattered because the internet era transformed both economic opportunity and democratic debate.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.95-X018",
+   "std": "US.95",
+   "dok": 2,
+   "stem": "The Obama administration's extensive use of drone strikes in Pakistan, Yemen, and Somalia was controversial because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The strikes were conducted in secret, preventing Congress from exercising its constitutional oversight authority"
+    },
+    {
+     "id": "B",
+     "text": "Congress had not passed a specific authorization to use force in Pakistan, Yemen, or Somalia"
+    },
+    {
+     "id": "C",
+     "text": "The strikes were conducted without host-country consent, violating established norms of state sovereignty"
+    },
+    {
+     "id": "D",
+     "text": "Drones caused frequent civilian casualties and raised due process concerns when targeting American citizens abroad"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Obama’s drone campaign was controversial because it risked civilian deaths and raised due-process questions, especially when U.S. citizens were targeted. Choice C is about congress had not authorized the use of force in those countries specifically and Choice D is about the strikes violated international law by being conducted without the consent of the host countries; those options do not match both A and B represent the core controversies around drone warfare. This topic mattered far beyond the 1980s because it influenced later policy on taxes, security, and foreign affairs."
+   }
+  },
+  {
+   "id": "US.95-X021",
+   "std": "US.95",
+   "dok": 2,
+   "stem": "The Affordable Care Act's individual mandate — requiring Americans to purchase health insurance — was justified as:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A necessary regulation of the insurance industry to prevent adverse selection exclusively"
+    },
+    {
+     "id": "B",
+     "text": "An exercise of Congress's commerce power because uninsured people affect healthcare markets"
+    },
+    {
+     "id": "C",
+     "text": "A necessary regulation of the insurance industry to prevent adverse selection"
+    },
+    {
+     "id": "D",
+     "text": "A tax incentive to encourage responsible behavior"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Supporters defended the ACA mandate as part of regulating the insurance market and, in court, as a tax power used to encourage coverage. Choice A is about an exercise of Congress's commerce power because uninsured people affect healthcare markets and Choice D is about a tax incentive to encourage responsible behavior; those options do not match both B and C — supporters argued multiple constitutional bases for the mandate. It also connects to broader questions about who is included in American democracy and how government responds to crisis.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.95-ADD2",
+   "std": "US.95",
+   "dok": 2,
+   "stem": "What was the Affordable Care Act (ACA) and why was it controversial?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A free trade agreement between the U.S., Canada, and Mexico that critics said cost American jobs"
+    },
+    {
+     "id": "B",
+     "text": "It expanded health insurance coverage but faced opposition over government's role in healthcare"
+    },
+    {
+     "id": "C",
+     "text": "It expanded insurance coverage and prohibited denial for pre-existing conditions"
+    },
+    {
+     "id": "D",
+     "text": "It allowed politicians to communicate directly with voters and enabled grassroots organizing"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The ACA expanded coverage through insurance exchanges, Medicaid expansion, and protections for pre-existing conditions, but opponents said it gave the federal government too much control over healthcare. Choice C is about a free trade agreement between the U.S., Canada, and Mexico that critics said cost American jobs and Choice D is about allowed politicians to communicate directly with voters and enabled grassroots organizing; those options do not match expanded health insurance coverage but faced opposition over government's role in healthcare. It also connects to broader questions about who is included in American democracy and how government responds to crisis.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.84-ADD2",
+   "std": "US.84",
+   "dok": 2,
+   "stem": "Which issue most strongly mobilized student protest movements in the late 1960s?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Opposition to escalation of the Vietnam War and military conscription"
+    },
+    {
+     "id": "B",
+     "text": "Through hard work, family solidarity, and strong emphasis on education"
+    },
+    {
+     "id": "C",
+     "text": "Over 2 million Vietnamese fled communist rule, many risking death at sea"
+    },
+    {
+     "id": "D",
+     "text": "It eliminated the quota system that favored European immigrants"
+    }
+   ],
+   "key": "A",
+   "rc": "Economics",
+   "distract": {
+    "A": "Student activism in the late 1960s was driven most strongly by opposition to the Vietnam War and the draft that could send young men into combat. Choice B is about through hard work, family solidarity, and strong emphasis on education and Choice D is about eliminated the quota system that favored European immigrants; those options do not match opposition to escalation of the Vietnam War and military conscription. The topic shows how protest, migration, and cultural change reshaped American society after the 1960s.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.84-4Q08",
+   "std": "US.84",
+   "dok": 2,
+   "stem": "Which of the following best describes the relationship between the hippie movement and the antiwar movement?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They were largely separate with no connection"
+    },
+    {
+     "id": "B",
+     "text": "They overlapped significantly — both rejected authority, militarism"
+    },
+    {
+     "id": "C",
+     "text": "The hippie movement actively supported the Vietnam War"
+    },
+    {
+     "id": "D",
+     "text": "The antiwar movement rejected the hippie lifestyle"
+    }
+   ],
+   "key": "B",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The hippie and antiwar movements overlapped because both challenged authority, criticized militarism, and questioned mainstream values during the Vietnam era. B is incorrect because that refers to environmental policy, not the issue asked about here; C is incorrect because it describes the Vietnam era, not the specific topic in this item. The topic shows how protest, migration, and cultural change reshaped American society after the 1960s.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.84-4Q02",
+   "std": "US.84",
+   "dok": 1,
+   "stem": "The counterculture movement of the 1960s was primarily characterized by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Promotion of traditional family values and Cold War patriotism"
+    },
+    {
+     "id": "B",
+     "text": "Support for U.S. military involvement in Vietnam and the draft"
+    },
+    {
+     "id": "C",
+     "text": "A rejection of mainstream American values in favor of peace and personal freedom"
+    },
+    {
+     "id": "D",
+     "text": "Opposition to civil rights legislation and racial integration"
+    }
+   ],
+   "key": "C",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The counterculture rejected mainstream values about war, authority, and consumer life and promoted peace, personal freedom, and social change. Choice A is about promotion of traditional family values and Choice B is about support for U.S. involvement in Vietnam; those options do not match a rejection of mainstream American values and advocacy for peace, love, and social change. The topic shows how protest, migration, and cultural change reshaped American society after the 1960s.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "formB": [
+  {
+   "id": "US.83-X028",
+   "std": "US.83",
+   "dok": 2,
+   "stem": "The Progressive Movement, New Deal, and Great Society all expanded government in response to:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Constitutional amendments specifically authorizing expanded government programs"
+    },
+    {
+     "id": "B",
+     "text": "External threats — WWI, WWII, Cold War — that required temporary emergency powers"
+    },
+    {
+     "id": "C",
+     "text": "Perceived market failures and social inequalities that unregulated capitalism could not address"
+    },
+    {
+     "id": "D",
+     "text": "Socialist ideology imported from European labor movements"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Those reform eras all expanded government because many people believed unregulated capitalism left major social needs and inequalities unaddressed. Choice A is about constitutional amendments specifically authorizing expanded government programs and Choice C is about socialist ideology imported from European labor movements; those options do not match perceived market failures and social inequalities that unregulated capitalism could not address. The event also fits the bigger story of how the United States adjusted to the end of the Cold War.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.83-ADD3",
+   "std": "US.83",
+   "dok": 2,
+   "stem": "What was the difference between Medicare and Medicaid?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Medicare was for children while Medicaid was for veterans"
+    },
+    {
+     "id": "B",
+     "text": "Medicare was a private insurance plan while Medicaid was government-run"
+    },
+    {
+     "id": "C",
+     "text": "There was no difference; they were the same program with two names"
+    },
+    {
+     "id": "D",
+     "text": "Medicare served the elderly while Medicaid served low-income Americans"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Medicare mainly serves older Americans, while Medicaid helps many low-income children, adults, and families pay for medical care. Choice B is about medicare was for children while Medicaid was for veterans and Choice D is about there was no difference; they were the same program with two names; those options do not match medicare served the elderly while Medicaid served low-income Americans. It connects to a larger argument over how far government should go in creating economic and social opportunity."
+   }
+  },
+  {
+   "id": "US.83-S832",
+   "std": "US.83",
+   "dok": 1,
+   "stem": "Which Great Society program provides health insurance for Americans aged 65 and older?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Medicare, which covers elderly Americans' medical expenses"
+    },
+    {
+     "id": "B",
+     "text": "Medicaid, which covers elderly Americans' medical expenses"
+    },
+    {
+     "id": "C",
+     "text": "Social Security, which provides elderly retirement benefits"
+    },
+    {
+     "id": "D",
+     "text": "Head Start, which provides early childhood education aid"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Medicare is the federal health insurance program created in 1965 for Americans age 65 and older, so it matches the question exactly. A is incorrect because Medicaid is mainly for low-income Americans, not a universal program for everyone over 65; C is incorrect because Social Security mainly provides retirement income, not health insurance. It connects to a larger argument over how far government should go in creating economic and social opportunity.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.85-S853",
+   "std": "US.85",
+   "dok": 1,
+   "stem": "Why was President Nixon's 1972 visit to China considered historically significant?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "He created the Environmental Protection Agency (EPA) in 1970"
+    },
+    {
+     "id": "B",
+     "text": "It eased tensions through diplomacy and arms control negotiations"
+    },
+    {
+     "id": "C",
+     "text": "It appealed to white Southern voters unhappy with civil rights laws"
+    },
+    {
+     "id": "D",
+     "text": "It was the first diplomatic trip by a U.S. the chief executive to Communist Beijing"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Nixon’s 1972 trip was the first visit by a sitting U.S. president to communist China, breaking decades of isolation and reshaping Cold War diplomacy. Choice C is about eased tensions through diplomacy and arms control negotiations and Choice D is about appealed to white Southern voters unhappy with civil rights laws; those options do not match the first visit by a U.S. president to Communist China. It also reflects how Cold War diplomacy and domestic political realignment transformed the United States in the 1970s."
+   }
+  },
+  {
+   "id": "US.85-ADD3",
+   "std": "US.85",
+   "dok": 1,
+   "stem": "What major domestic policy achievement occurred during Nixon's presidency related to the environment?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "He created the Environmental Protection Agency (EPA) in 1970"
+    },
+    {
+     "id": "B",
+     "text": "He eliminated all pollution regulations to boost economic growth"
+    },
+    {
+     "id": "C",
+     "text": "He closed all national parks to prevent environmental damage"
+    },
+    {
+     "id": "D",
+     "text": "He banned all automobile manufacturing to reduce emissions"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Nixon created the Environmental Protection Agency in 1970, marking a major domestic environmental reform during his presidency. Choice B is about eliminated all pollution regulations to boost economic growth and Choice D is about banned all automobile manufacturing to reduce emissions; those options do not match created the Environmental Protection Agency (EPA) in 1970. The issue also reflects how Cold War-era presidents could pursue major domestic reforms while facing intense political conflict.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.85-5Q03",
+   "std": "US.85",
+   "dok": 1,
+   "stem": "Nixon's 1972 visit to China was historically significant because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It resulted in a military alliance between the U.S. and China"
+    },
+    {
+     "id": "B",
+     "text": "It was the first U.S. presidential visit to communist China"
+    },
+    {
+     "id": "C",
+     "text": "It ended the Korean War"
+    },
+    {
+     "id": "D",
+     "text": "It had no lasting diplomatic impact"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Nixon’s 1972 trip was the first visit by a sitting U.S. president to communist China, breaking decades of isolation and reshaping Cold War diplomacy. Choice C is about resulted in a military alliance between the U.S. and China and Choice D is about had no lasting diplomatic impact; those options do not match the first U.S. presidential visit to communist China, opening diplomatic relations. It also reflects how Cold War diplomacy and domestic political realignment transformed the United States in the 1970s.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.86-0025",
+   "std": "US.86",
+   "dok": 2,
+   "stem": "The Watergate scandal fundamentally affected American political culture because —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It destroyed public trust in government institutions and demonstrated that executive power could be abused without oversight"
+    },
+    {
+     "id": "B",
+     "text": "It produced such outrage that Americans demanded greater executive power to prevent future presidents from being manipulated by their advisors"
+    },
+    {
+     "id": "C",
+     "text": "It temporarily embarrassed the Republican Party but had minimal long-term political consequences since Nixon's policies continued under Ford and were largely vindicated by history"
+    },
+    {
+     "id": "D",
+     "text": "It was primarily a media event that revealed journalism's power to destroy a presidency rather than a genuine governance failure"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "It destroyed public trust in government institutions and demonstrated that executive power could be abused without oversight, leading to significant reforms (War Powers Act, FISA, campaign finance laws) and producing a lasting 'credibility gap' that shaped political cynicism for decades. Choice B is wrong because it describes it temporarily embarrassed the Republican Party but had minimal long-term political consequences since Nixon's policies continued under Ford and were largely vindicated by history, not it destroyed public trust in government institutions and demonstrated that executive power could be abused without oversight, leading to significant reforms (War Powers Act, FISA, campaign finance laws) and producing a lasting 'credibility gap' that shaped political cynicism for decades. The scandal left a lasting drop in public trust and showed that Congress and the courts could limit presidential power.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.86-0031",
+   "std": "US.86",
+   "dok": 2,
+   "stem": "Read the excerpt below.\n\n\"I am not a crook.\" — President Richard Nixon, Press Conference, November 17, 1973\n\nIn the context of the Watergate scandal, this statement by Nixon was most likely made in response to which of the following?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Accusations that Nixon had ordered the publication of the Pentagon Papers to embarrass political opponents."
+    },
+    {
+     "id": "B",
+     "text": "Growing public and congressional accusations that he had personally engaged in illegal activity related to the Watergate break-in and cover-up."
+    },
+    {
+     "id": "C",
+     "text": "Congressional testimony that Nixon had personally erased 18½ minutes of White House tape recordings."
+    },
+    {
+     "id": "D",
+     "text": "His announcement that he would resign from the presidency rather than face impeachment."
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Nixon's famous denial was made at a press conference with newspaper editors as public pressure and congressional investigations mounted over the Watergate break-in and cover-up. He was responding to growing public accusations and media reports that he had personally participated in illegal activity, including the cover-up of the Watergate burglary and the misuse of campaign funds. Option A is incorrect because the Pentagon Papers were Daniel Ellsberg's issue, not directly Nixon's criminal exposure. Option B is incorrect because the 18½-minute tape gap was discovered after this statement. Option C is incorrect because this statement preceded his resignation.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.86-0032",
+   "std": "US.86",
+   "dok": 2,
+   "stem": "Read the excerpt below.\n\n\"The Senate Watergate Committee has found evidence of a broad pattern of political espionage and sabotage, illegal wiretapping, and misuse of government agencies for political purposes.\" — Senate Watergate Committee Final Report, 1974\n\nWhich of the following best describes the significance of the Watergate scandal's findings as described in this excerpt?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Nixon was personally uninvolved in the Watergate break-in and had not participated in any cover-up."
+    },
+    {
+     "id": "B",
+     "text": "The Watergate scandal was limited to a single unauthorized break-in with no broader political significance."
+    },
+    {
+     "id": "C",
+     "text": "The Nixon administration had engaged in a systematic pattern of illegal political espionage and misuse of government power."
+    },
+    {
+     "id": "D",
+     "text": "Foreign governments had paid for and organized the Watergate break-in to interfere in U.S. elections."
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The Senate Watergate Committee's report described a systematic abuse of government power by the Nixon administration — using government agencies for political purposes, conducting illegal wiretapping, and engaging in political sabotage. This demonstrated an unprecedented abuse of executive power that threatened constitutional government. Option B is incorrect because the Committee found that Nixon personally participated in the cover-up. Option C is incorrect because the findings went far beyond a single burglary to describe a pattern of illegal conduct. Option D is incorrect because foreign governments were not implicated in the findings described.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.87-S875",
+   "std": "US.87",
+   "dok": 2,
+   "stem": "Why was the first Earth Day in 1970 significant for the environmental movement?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It focused exclusively on protecting endangered species from extinction"
+    },
+    {
+     "id": "B",
+     "text": "It mobilized 20 million Americans and launched modern environmentalism"
+    },
+    {
+     "id": "C",
+     "text": "It resulted in the immediate passage of all major environmental laws"
+    },
+    {
+     "id": "D",
+     "text": "It was organized by the federal government to promote industrial growth"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The first Earth Day in 1970 brought millions of Americans into environmental activism and showed that environmental protection had become a mass political issue. Choice B is about resulted in the immediate passage of all major environmental laws and Choice D is about focused exclusively on protecting endangered species from extinction; those options do not match mobilized 20 million Americans and launched modern environmentalism. The issue also connects to broader debates over how much power the federal government should have to protect the public.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.87-0019",
+   "std": "US.87",
+   "dok": 2,
+   "stem": "The Environmental Protection Agency (EPA), created in 1970, represented what shift in U.S. policy?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A reaction to the Arab oil embargo that threatened U.S. energy independence"
+    },
+    {
+     "id": "B",
+     "text": "A recognition that pollution was primarily a local problem requiring state-level solutions"
+    },
+    {
+     "id": "C",
+     "text": "An acknowledgment that environmental protection required coordinated federal regulation"
+    },
+    {
+     "id": "D",
+     "text": "Congress's response to the Supreme Court's ruling that the federal government bore responsibility for clean air"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "An acknowledgment that environmental protection required coordinated federal regulation. Choice B is wrong because it describes reaction to the Arab oil embargo that threatened U.S. energy independence, not acknowledgment that environmental protection required coordinated federal regulation. The 1970s brought new arguments about rights, energy, gender, and diplomacy that reshaped politics after the early Cold War.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.87-S871",
+   "std": "US.87",
+   "dok": 1,
+   "stem": "What was the primary purpose of creating the Environmental Protection Agency (EPA) in 1970?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "To coordinate energy production and reduce dependence on foreign oil imports"
+    },
+    {
+     "id": "B",
+     "text": "To promote industrial development by streamlining business permit processes"
+    },
+    {
+     "id": "C",
+     "text": "To manage the national park system and protect designated wilderness areas"
+    },
+    {
+     "id": "D",
+     "text": "To protect human health and the environment through federal regulations"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The EPA was created to protect human health and the environment by setting and enforcing federal pollution rules. Choice A is about coordinate energy production and reduce dependence on foreign oil imports and Choice C is about manage the national park system and protect designated wilderness areas; those options do not match protect human health and the environment through federal regulations. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth."
+   }
+  },
+  {
+   "id": "US.88-8Q08",
+   "std": "US.88",
+   "dok": 2,
+   "stem": "Carter's decision to return control of the Panama Canal to Panama (1977) was controversial in the U.S. because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The treaty violated international law"
+    },
+    {
+     "id": "B",
+     "text": "Panama was a hostile nation, which was not the primary driver of this historical change"
+    },
+    {
+     "id": "C",
+     "text": "Many Americans viewed the canal as a symbol of U.S"
+    },
+    {
+     "id": "D",
+     "text": "Congress unanimously opposed the decision"
+    }
+   ],
+   "key": "C",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Many Americans opposed giving up the canal because they saw it as a symbol of U.S. power and strategic prestige. Choice A is about the treaty violated international law and Choice C is about congress unanimously opposed the decision; those options do not match many Americans viewed the canal as a symbol of U.S. power and were reluctant to cede control to a smaller nation. This helps explain why the Carter years and First Amendment disputes still influence politics today.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.88-0015",
+   "std": "US.88",
+   "dok": 2,
+   "stem": "'Stagflation' — a combination of stagnant economic growth, high unemployment, and high inflation — plagued the American economy in the 1970s. Which of the following contributed to the stagflation crisis?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "President Nixon's wage and price controls created artificial shortages that persisted after the controls were lifted"
+    },
+    {
+     "id": "B",
+     "text": "The stock market crash of 1973 wiped out consumer savings, reducing spending and increasing unemployment"
+    },
+    {
+     "id": "C",
+     "text": "Automation in American manufacturing eliminated millions of jobs while simultaneously reducing the cost of goods"
+    },
+    {
+     "id": "D",
+     "text": "OPEC's 1973 oil embargo raised energy costs sharply, increasing prices while reducing economic output, and the Vietnam War's debt financing had fueled inflation"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "OPEC's 1973 oil embargo raised energy costs sharply, increasing prices while reducing economic output, and the Vietnam War's debt financing had fueled inflation. Choice C is wrong because it describes stock market crash of 1973 wiped out consumer savings, reducing spending and increasing unemployment, not oPEC's 1973 oil embargo raised energy costs sharply, increasing prices while reducing economic output, and the Vietnam War's debt financing had fueled inflation. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making."
+   }
+  },
+  {
+   "id": "US.88-0020",
+   "std": "US.88",
+   "dok": 2,
+   "stem": "The Iranian hostage crisis (1979-1981) damaged Carter's presidency primarily because —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The prolonged failure to free the hostages reinforced perceptions of American weakness and Carter's ineffective leadership"
+    },
+    {
+     "id": "B",
+     "text": "Congress blamed Carter for the Shah's overthrow, which had led to the revolutionary government"
+    },
+    {
+     "id": "C",
+     "text": "Carter's decision to attempt a military rescue mission violated international law and triggered a broader crisis"
+    },
+    {
+     "id": "D",
+     "text": "The crisis exposed serious divisions within Carter's Cabinet over how to respond to Iran"
+    }
+   ],
+   "key": "A",
+   "rc": "Economics",
+   "distract": {
+    "A": "The prolonged failure to free the hostages reinforced perceptions of American weakness and Carter's ineffective leadership. Choice B is wrong because it describes carter's decision to attempt a military rescue mission violated international law and triggered a broader crisis, not prolonged failure to free the hostages reinforced perceptions of American weakness and Carter's ineffective leadership. The hostage crisis fed the image of American weakness abroad and helped set the stage for Reagan's victory in 1980.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.89-ADD3",
+   "std": "US.89",
+   "dok": 2,
+   "stem": "How did Reagan's Strategic Defense Initiative (SDI) affect the Cold War?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The disease spread rapidly while the government's initial response was delayed"
+    },
+    {
+     "id": "B",
+     "text": "An economic policy of tax cuts, deregulation, and reduced government spending"
+    },
+    {
+     "id": "C",
+     "text": "Reagan believed reducing government would stimulate growth; LBJ expanded it"
+    },
+    {
+     "id": "D",
+     "text": "It put pressure on the USSR by proposing a missile defense system they couldn't match"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The Strategic Defense Initiative proposed a missile shield that would intercept Soviet nuclear weapons before they reached the United States. Choice B is about the disease spread rapidly while the government's initial response was delayed; those options do not match put pressure on the USSR by proposing a missile defense system they couldn't match. The issue fits a broader shift toward conservatism, stronger national security policies, and renewed Cold War pressure."
+   }
+  },
+  {
+   "id": "US.89-9Q08",
+   "std": "US.89",
+   "dok": 2,
+   "stem": "Reagan's response to the AIDS epidemic in the 1980s is historically controversial because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "His administration was slow to acknowledge the epidemic"
+    },
+    {
+     "id": "B",
+     "text": "Congress, not Reagan, was responsible for AIDS policy"
+    },
+    {
+     "id": "C",
+     "text": "He successfully contained the epidemic through swift action"
+    },
+    {
+     "id": "D",
+     "text": "He invested billions in AIDS research from the beginning"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "AIDS became a crisis in the 1980s because the disease spread quickly while the federal response was slow and shaped by fear, stigma, and political hesitation. Choice B is about successfully contained the epidemic through swift action and Choice D is about invested billions in AIDS research from the beginning; those options do not match his administration was slow to acknowledge the epidemic. It also helps explain how Reagan-era choices continued to shape debates about government power and American strength.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.89-0016",
+   "std": "US.89",
+   "dok": 2,
+   "stem": "Reagan's economic program — nicknamed 'Reaganomics' — was based on supply-side economics. Which of the following best describes the core argument of supply-side economics?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Deregulating industry removes obstacles to innovation and competition that keep prices artificially high"
+    },
+    {
+     "id": "B",
+     "text": "Cutting taxes on businesses and wealthy individuals generates investment, economic growth, and benefits that eventually 'trickle down' to all Americans"
+    },
+    {
+     "id": "C",
+     "text": "Government spending on infrastructure and social programs stimulates economic demand and creates jobs"
+    },
+    {
+     "id": "D",
+     "text": "Reducing the money supply and raising interest rates will eliminate inflation without causing a recession"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Cutting taxes on businesses and wealthy individuals generates investment, economic growth, and benefits that eventually 'trickle down' to all Americans. Choice C is wrong because it describes government spending on infrastructure and social programs stimulates economic demand and creates jobs, not cutting taxes on businesses and wealthy individuals generates investment, economic growth, and benefits that eventually 'trickle down' to all Americans. These debates helped define the conservative turn in American politics during the 1980s.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.90-0Q03",
+   "std": "US.90",
+   "dok": 1,
+   "stem": "The Berlin Wall fell in November 1989, symbolizing:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The collapse of communist control in East"
+    },
+    {
+     "id": "B",
+     "text": "The start of a new Cold War"
+    },
+    {
+     "id": "C",
+     "text": "A military victory for NATO"
+    },
+    {
+     "id": "D",
+     "text": "The end of U.S. involvement in Europe"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "The fall of the Berlin Wall symbolized the collapse of communist control in Eastern Europe and opened the way to German reunification. Choice A is about the start of a new Cold War and Choice D is about the end of U.S. involvement in Europe; those options do not match the collapse of communist control in East Germany and the beginning of German reunification. This mattered because the post-Cold War years forced Americans to rethink foreign policy and federal power.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.90-90Q2",
+   "std": "US.90",
+   "dok": 3,
+   "stem": "How did Bush build international support for the Gulf War, and why was the military campaign successful?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The U.S. acted alone without international support, although this overlooks critical economic and social factors, which represents a common misconception about this historical period"
+    },
+    {
+     "id": "B",
+     "text": "Bush assembled a UN-authorized coalition that quickly liberated Kuwait, demonstrating effective diplomacy, military superiority, and successful multilateral action"
+    },
+    {
+     "id": "C",
+     "text": "The Gulf War lasted several years, despite limited evidence supporting this interpretation despite the fact that multiple contemporary sources contradict this"
+    },
+    {
+     "id": "D",
+     "text": "Coalition forces suffered heavy casualties, but this fails to account for the broader historical context, which represents a common misconception about this historical period"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The Gulf War's success demonstrated that American-led coalitions with international legitimacy could achieve military objectives quickly and decisively.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.90-90Q3",
+   "std": "US.90",
+   "dok": 3,
+   "stem": "What role did Bush play in managing the end of the Cold War and German reunification? (Honors)",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Bush had no role in Cold War's end, yet the available evidence points to a different conclusion, although historical sources do not support this conclusion"
+    },
+    {
+     "id": "B",
+     "text": "Bush opposed German reunification, which represents a common misconception about the period despite the fact that multiple contemporary sources contradict this"
+    },
+    {
+     "id": "C",
+     "text": "He carefully managed the transition, avoiding triumphalism and supporting German reunification while preventing instability during Soviet collapse"
+    },
+    {
+     "id": "D",
+     "text": "The Soviet Union survived throughout Bush's presidency, although historical sources do not support this conclusion"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Bush's careful diplomacy helped ensure the Cold War ended peacefully, without the chaos that could have resulted from mismanaging the Soviet collapse.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.91-X012",
+   "std": "US.91",
+   "dok": 2,
+   "stem": "Critics of NAFTA argued that it contributed to the decline of American manufacturing because:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "NAFTA reduced tariff protections that had sustained American manufacturing since the New Deal"
+    },
+    {
+     "id": "B",
+     "text": "Lower Mexican wages gave manufacturers an incentive to relocate production south of the border"
+    },
+    {
+     "id": "C",
+     "text": "The agreement allowed foreign companies to undercut American manufacturers through currency manipulation"
+    },
+    {
+     "id": "D",
+     "text": "The agreement prevented American companies from competing in the growing Mexican consumer market"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "NAFTA critics feared factories would move to Mexico to use lower wages, taking manufacturing jobs with them. Choice A is about nAFTA reduced tariff protections that had sustained American manufacturing since the New Deal and Choice C is about the agreement prevented American companies from competing in the growing Mexican consumer market; those options do not match lower Mexican wages gave manufacturers an incentive to relocate production south of the border. It also reflects the larger debate over trade, jobs, and the proper size of the federal government.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.91-X019",
+   "std": "US.91",
+   "dok": 2,
+   "stem": "Clinton's welfare reform legislation (1996) was significant because it —",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Extended welfare coverage to working families previously excluded by income limits"
+    },
+    {
+     "id": "B",
+     "text": "Consolidated disparate federal social programs into a single comprehensive antipoverty effort"
+    },
+    {
+     "id": "C",
+     "text": "Ended the federal entitlement to welfare, imposed work requirements, and shifted program administration to states"
+    },
+    {
+     "id": "D",
+     "text": "Increased federal welfare spending by converting block grants to entitlements"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Ended the federal entitlement to welfare, imposed work requirements, and shifted program administration to states. Choice D is wrong because it describes increased federal welfare spending by converting block grants to entitlements, not ended the federal entitlement to welfare, imposed work requirements, and shifted program administration to states. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.91-S911",
+   "std": "US.91",
+   "dok": 1,
+   "stem": "What did NAFTA accomplish when it went into effect in 1994?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It established a federal program to significantly reduce all unemployment"
+    },
+    {
+     "id": "B",
+     "text": "It created a military alliance among North Atlantic Treaty member nations"
+    },
+    {
+     "id": "C",
+     "text": "It implemented new international environmental protection standards"
+    },
+    {
+     "id": "D",
+     "text": "It eliminated most tariffs between the United States, Canada, and Mexico"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "NAFTA reduced most tariffs among the United States, Canada, and Mexico, making North American trade easier and cheaper. Choice A is about established a federal program to significantly reduce all unemployment and Choice B is about created a military alliance among North Atlantic Treaty member nations; those options do not match eliminated most tariffs between the United States, Canada, and Mexico. This issue remained important because it influenced later arguments about inequality, manufacturing, and political division."
+   }
+  },
+  {
+   "id": "US.92-ADD1",
+   "std": "US.92",
+   "dok": 2,
+   "stem": "What was the USA PATRIOT Act and why was it controversial?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Expanded surveillance raised concerns about protecting constitutional rights"
+    },
+    {
+     "id": "B",
+     "text": "Terrorists hijacked planes and attacked the World Trade Center and Pentagon"
+    },
+    {
+     "id": "C",
+     "text": "It expanded government surveillance powers, raising civil liberties concerns"
+    },
+    {
+     "id": "D",
+     "text": "The 2003 war aimed to overthrow Saddam Hussein based on disputed WMD claims"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The USA PATRIOT Act expanded the government’s ability to monitor communications and records in terrorism investigations, which is why it sparked civil-liberties criticism. Choice D is about the 2003 war aimed to overthrow Saddam Hussein based on disputed WMD claims; those options do not match expanded government surveillance powers, raising civil liberties concerns. The topic fits the post-9/11 era, when the United States expanded security policy while debating costs and limits.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.92-X019",
+   "std": "US.92",
+   "dok": 2,
+   "stem": "The growth of global terrorism in the 1990s — including the 1993 World Trade Center bombing and the 1998 embassy bombings — reflected which emerging security challenge?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The proliferation of nuclear materials from the collapsed Soviet Union to terrorist groups"
+    },
+    {
+     "id": "B",
+     "text": "Growing Iranian sponsorship of global terrorism as a response to U.S. presence in the Middle East"
+    },
+    {
+     "id": "C",
+     "text": "The failure of Clinton's foreign policy to maintain the alliances needed to counter terrorist networks"
+    },
+    {
+     "id": "D",
+     "text": "The rise of transnational non-state actors capable of conducting attacks outside the traditional state-vs.-state framework"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "The rise of transnational non-state actors capable of conducting attacks outside the traditional state-vs.-state framework. Choice B is wrong because it describes growing Iranian sponsorship of global terrorism as a response to U.S. presence in the Middle East, not rise of transnational non-state actors capable of conducting attacks outside the traditional state-vs.-state framework. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other."
+   }
+  },
+  {
+   "id": "US.92-1Q03",
+   "std": "US.92",
+   "dok": 2,
+   "stem": "The USA PATRIOT Act, signed into law on October 26, 2001, expanded government surveillance powers significantly. Civil libertarians raised constitutional concerns about the law. Which constitutional amendment was most directly implicated in those concerns?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The Fourth Amendment (protection against unreasonable searches)"
+    },
+    {
+     "id": "B",
+     "text": "The Second Amendment (right to bear arms)"
+    },
+    {
+     "id": "C",
+     "text": "The First Amendment (freedom of speech and association)"
+    },
+    {
+     "id": "D",
+     "text": "The Sixth Amendment (right to a speedy trial and counsel)"
+    }
+   ],
+   "key": "A",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Civil libertarians focused on the Fourth Amendment because the PATRIOT Act expanded searches, wiretaps, and surveillance powers. B is tempting because speech and association can also be affected, but the clearest issue here was protection against unreasonable searches and seizures. The debate showed the tension between liberty and security after 9/11.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.93-X026",
+   "std": "US.93",
+   "dok": 2,
+   "stem": "The increasing racial and ethnic diversity of the United States is driven primarily by:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Expansion of executive authority in foreign policy decisions"
+    },
+    {
+     "id": "B",
+     "text": "Immigration from Latin America, Asia, and Africa combined with the multiracial population's growth"
+    },
+    {
+     "id": "C",
+     "text": "Internal migration from less diverse rural areas to more diverse urban centers"
+    },
+    {
+     "id": "D",
+     "text": "Higher fertility rates among immigrant communities combined with lower fertility among native-born white Americans"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Recent U.S. demographic change has been driven mainly by immigration from Latin America, Asia, and Africa together with growth in the multiracial population. Choice A is about higher fertility rates among immigrant communities combined with lower fertility among native-born white Americans and Choice D is about internal migration from less diverse rural areas to more diverse urban centers; those options do not match both A and B represent the primary drivers of demographic change. The topic reflects a broader expansion of representation in American public life, even as barriers did not disappear overnight."
+   }
+  },
+  {
+   "id": "US.93-S931",
+   "std": "US.93",
+   "dok": 1,
+   "stem": "What historic achievement did Sandra Day O'Connor accomplish in 1981?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "She became the first woman appointed to the United States Supreme Court"
+    },
+    {
+     "id": "B",
+     "text": "First African American Chairman of Joint Chiefs and Secretary of State"
+    },
+    {
+     "id": "C",
+     "text": "Professional credentials from Korea were often not recognized in the U.S"
+    },
+    {
+     "id": "D",
+     "text": "She became the first African American woman to serve as Secretary of State"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Sandra Day O’Connor became the first woman on the Supreme Court in 1981, breaking a barrier in one of the nation’s most powerful institutions. A is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement. It also helps explain how symbolic breakthroughs can change who Americans imagine in positions of power.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.93-ADD1",
+   "std": "US.93",
+   "dok": 1,
+   "stem": "Who was Sandra Day O'Connor and why was her appointment significant?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "She became the first woman to serve as Speaker of the House in 2007"
+    },
+    {
+     "id": "B",
+     "text": "She was the first woman appointed to the U.S. Supreme Court in 1981"
+    },
+    {
+     "id": "C",
+     "text": "First African American Chairman of Joint Chiefs and Secretary of State"
+    },
+    {
+     "id": "D",
+     "text": "She became the first woman appointed to the United States Supreme Court"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Sandra Day O’Connor became the first woman on the Supreme Court in 1981, breaking a barrier in one of the nation’s most powerful institutions. A is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement. It also helps explain how symbolic breakthroughs can change who Americans imagine in positions of power.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.94-ADD2",
+   "std": "US.94",
+   "dok": 2,
+   "stem": "How did social media change political communication in the 21st century?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It allowed politicians to communicate directly with voters and enabled grassroots organizing"
+    },
+    {
+     "id": "B",
+     "text": "It documented the harmful effects of pesticides and helped launch the environmental movement"
+    },
+    {
+     "id": "C",
+     "text": "From landlines and letters to cell phones, email, social media, and video calls"
+    },
+    {
+     "id": "D",
+     "text": "It created instant global communication, e-commerce, and access to information"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Social media let politicians, activists, and ordinary users communicate directly and organize quickly, changing both campaigns and public debate. Choice C is about created instant global communication, e-commerce, and access to information; those options do not match allowed politicians to communicate directly with voters and enabled grassroots organizing. The topic fits the communications revolution, which created new opportunities while also creating new social and political risks.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.94-X020",
+   "std": "US.94",
+   "dok": 2,
+   "stem": "The 'digital divide' refers to inequalities in:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Technical sophistication between older and younger Americans that affects workforce participation"
+    },
+    {
+     "id": "B",
+     "text": "Internet speeds between urban and rural areas that limits economic development in rural regions"
+    },
+    {
+     "id": "C",
+     "text": "Partisan polarization affecting legislative processes in Congress"
+    },
+    {
+     "id": "D",
+     "text": "Access to technology between wealthy and low-income Americans that creates educational and economic disadvantages"
+    }
+   ],
+   "key": "B",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "The digital divide is the unequal access to reliable technology and internet service that can limit school, work, and civic participation. Choice A is about internet speeds between urban and rural areas that limits economic development in rural regions and Choice B is about technical sophistication between older and younger Americans that affects workforce participation; those options do not match both A and C represent aspects of the digital divide with significant policy implications. The topic fits the communications revolution, which created new opportunities while also creating new social and political risks.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.94-X024",
+   "std": "US.94",
+   "dok": 2,
+   "stem": "The digital divide refers to inequalities in technology access that create:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Entertainment access disparities between streaming-connected and unconnected households"
+    },
+    {
+     "id": "B",
+     "text": "Debates over immigration policy and national security priorities"
+    },
+    {
+     "id": "C",
+     "text": "Educational and economic disadvantages for low-income communities with limited internet access"
+    },
+    {
+     "id": "D",
+     "text": "Technical skills gaps between older and younger workers affecting workforce participation"
+    }
+   ],
+   "key": "C",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "The digital divide is the unequal access to reliable technology and internet service that can limit school, work, and civic participation. Choice A is about educational and economic disadvantages for low-income communities with limited internet access and Choice B is about entertainment access disparities between streaming-connected and unconnected households; those options do not match both A and B with rural-urban disparities representing another key dimension of the divide. This mattered because the internet era transformed both economic opportunity and democratic debate.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.95-S951",
+   "std": "US.95",
+   "dok": 1,
+   "stem": "What was historically significant about Barack Obama's election in 2008?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "He was the youngest person ever elected to serve as president of the nation"
+    },
+    {
+     "id": "B",
+     "text": "He became the first African American elected President of the United States"
+    },
+    {
+     "id": "C",
+     "text": "He won the election with the largest electoral vote margin in all of history"
+    },
+    {
+     "id": "D",
+     "text": "He was the first Democrat elected president since Jimmy Carter in 1976"
+    }
+   ],
+   "key": "B",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Barack Obama’s 2008 election broke one of the biggest racial barriers in U.S. politics by making him the first African American president. A is incorrect because it names a different institution or power than the one the item asks about; D is incorrect because it names a different institution or power than the one the item asks about. This mattered because decisions made after 2008 continued to shape politics well into the 2020s.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.95-S954",
+   "std": "US.95",
+   "dok": 1,
+   "stem": "What significant military operation was conducted during Obama's presidency in 2011?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The Great Recession, the worst economic crisis since the Great Depression"
+    },
+    {
+     "id": "B",
+     "text": "He became the first African American elected President of the United States"
+    },
+    {
+     "id": "C",
+     "text": "A Navy SEAL raid in Pakistan that killed al-Qaeda leader Osama bin Laden"
+    },
+    {
+     "id": "D",
+     "text": "The worst economic recession since the Great Depression of the 1930s"
+    }
+   ],
+   "key": "C",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "In 2011, U.S. Navy SEALs killed Osama bin Laden in Pakistan, giving the Obama administration a major symbolic victory in the War on Terror. Choice B is about the Great Recession, the worst economic crisis since the Great Depression and Choice C is about became the first African American elected President of the United States; those options do not match a Navy SEAL raid in Pakistan that killed al-Qaeda leader Osama bin Laden. It also connects to broader questions about who is included in American democracy and how government responds to crisis.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.95-ADD3",
+   "std": "US.95",
+   "dok": 1,
+   "stem": "What was a major challenge Obama faced when he took office in 2009?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A Navy SEAL raid in Pakistan that killed al-Qaeda leader Osama bin Laden"
+    },
+    {
+     "id": "B",
+     "text": "He became the first African American elected President of the United States"
+    },
+    {
+     "id": "C",
+     "text": "Critics argued that healthcare reform represented federal government overreach"
+    },
+    {
+     "id": "D",
+     "text": "The Great Recession, the worst economic crisis since the Great Depression"
+    }
+   ],
+   "key": "D",
+   "rc": "Government and Civics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Obama entered office during the Great Recession, the worst economic downturn since the Great Depression, with collapsing jobs and financial markets. Choice B is about a Navy SEAL raid in Pakistan that killed al-Qaeda leader Osama bin Laden and Choice C is about became the first African American elected President of the United States; those options do not match the Great Recession, the worst economic crisis since the Great Depression. It also connects to broader questions about who is included in American democracy and how government responds to crisis."
+   }
+  },
+  {
+   "id": "US.84-4Q04",
+   "std": "US.84",
+   "dok": 1,
+   "stem": "The 1969 Woodstock music festival was significant because it:",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Resulted in widespread violence, dozens of arrests, and deaths among attendees"
+    },
+    {
+     "id": "B",
+     "text": "Was attended primarily by Vietnam veterans and antiwar political organizers"
+    },
+    {
+     "id": "C",
+     "text": "Drew 400,000 people and symbolized the peak of the counterculture movement"
+    },
+    {
+     "id": "D",
+     "text": "Promoted American military intervention in Vietnam through patriotic performances"
+    }
+   ],
+   "key": "C",
+   "rc": "Economics",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Woodstock drew hundreds of thousands of young people in 1969 and became a symbol of the size and visibility of the counterculture. Choice A is about resulted in widespread violence and arrests and Choice D is about promoted American military involvement in Vietnam; those options do not match drew 400,000 people and symbolized the peak of the counterculture movement. It also fits the broader story of citizens using activism and civic participation to change national life.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  },
+  {
+   "id": "US.84-84Q3",
+   "std": "US.84",
+   "dok": 3,
+   "stem": "How did the hippie movement challenge mainstream American values?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Hippies supported traditional American values, which contradicts the primary source evidence from this era, but the historical evidence paints a more nuanced picture"
+    },
+    {
+     "id": "B",
+     "text": "The hippie movement had no significant cultural impact, which does not align with the documented historical record"
+    },
+    {
+     "id": "C",
+     "text": "Hippies focused exclusively on political reform, although this view has been largely discredited by scholars"
+    },
+    {
+     "id": "D",
+     "text": "They rejected materialism, conformity, and militarism while embracing alternative lifestyles, peace, environmental awareness, and communal living"
+    }
+   ],
+   "key": "D",
+   "rc": "History",
+   "distract": {
+    "A": "Common misconception — recheck the evidence.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Hippies represented a comprehensive rejection of middle-class values—their lifestyle, appearance, and beliefs challenged American assumptions about success, conformity, and national purpose."
+   }
+  },
+  {
+   "id": "US.84-84Q4",
+   "std": "US.84",
+   "dok": 3,
+   "stem": "Assess Woodstock's significance as a symbol of 1960s counterculture.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Despite problems, Woodstock demonstrated counterculture ideals of peace, community, and alternative social arrangements, becoming an iconic symbol of 1960s youth culture"
+    },
+    {
+     "id": "B",
+     "text": "Woodstock was just another music concert with no broader meaning, which represents a common misconception about the period, which contradicts the primary source evidence from this era"
+    },
+    {
+     "id": "C",
+     "text": "Woodstock represented mainstream American values, which contradicts the primary source evidence from this era, but contemporary accounts and primary sources suggest otherwise"
+    },
+    {
+     "id": "D",
+     "text": "The festival was a complete failure, but the historical record tells a more complex story and does not reflect the scholarly consensus on this topic"
+    }
+   ],
+   "key": "A",
+   "rc": "History",
+   "distract": {
+    "A": "Woodstock transcended being merely a concert—it became a symbol of what the counterculture hoped society could be: peaceful, communal, and united by shared values rather than material success.",
+    "B": "Common misconception — recheck the evidence.",
+    "C": "Common misconception — recheck the evidence.",
+    "D": "Common misconception — recheck the evidence."
+   }
+  }
+ ],
+ "disclosure": "Classroom-formative · pre-field-test (pre-calibration) — not a secure TCAP form. First administration is what calibrates these items."
+}

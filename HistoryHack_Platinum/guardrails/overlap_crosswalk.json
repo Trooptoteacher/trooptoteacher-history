@@ -1,0 +1,102 @@
+{
+  "_comment": "Cross-course standards overlap map for the Social Studies Hack suite. Each cluster lists the standards that cover the same topic across courses and the ALREADY-SOURCED primary sources to reuse (do not re-source). US.xx sources come from the geo provenance ledger + US content; GC.xx from the completed Government sourcing list. Verify W<->WH numbering before reusing World History items.",
+  "clusters": [
+    {
+      "topic": "Imperialism & the Spanish-American War (1890s-1900s)",
+      "us_history": ["US.19", "US.20", "US.21"],
+      "world_history": ["W.19", "W.24", "W.26", "W.28"],
+      "government": [],
+      "reusable_sources": [
+        "Treaty of Paris of 1898 (Cuba/PR/Guam/Philippines) — Library of Congress",
+        "Open Door Notes, 1899 — Office of the Historian",
+        "USS Maine / yellow journalism, 1898 — Office of the Historian / LoC"
+      ]
+    },
+    {
+      "topic": "World War I (1910s)",
+      "us_history": ["US.23", "US.25"],
+      "world_history": ["W.29", "W.30", "W.31", "W.32", "W.33", "W.34", "W.35", "W.36", "W.37", "W.38"],
+      "government": [],
+      "reusable_sources": [
+        "Meuse-Argonne Offensive, 1918 — U.S. Army Center of Military History",
+        "Harlem Hellfighters (369th Infantry) — Library of Congress",
+        "Western Front / U.S. participation in WWI — Library of Congress"
+      ]
+    },
+    {
+      "topic": "1920s culture & the Great Depression",
+      "us_history": ["US.28", "US.30", "US.39", "US.40"],
+      "world_history": ["W.39", "W.40"],
+      "government": [],
+      "reusable_sources": [
+        "The Great Migration — U.S. National Archives / LoC",
+        "Dust Bowl migration (Route 66, California) — Library of Congress / NPS"
+      ]
+    },
+    {
+      "topic": "World War II (1930s-1945)",
+      "us_history": ["US.44", "US.50", "US.56"],
+      "world_history": ["W.41", "W.42", "W.43", "W.44", "W.45", "W.46", "W.47", "W.48", "W.49", "W.50", "W.51", "W.52", "W.53"],
+      "government": ["GC.27"],
+      "reusable_sources": [
+        "Battle of Midway, 1942 — U.S. Navy History & Heritage Command",
+        "Operation Overlord / D-Day, 1944 — U.S. Navy HHC / National Archives",
+        "Manhattan Project (Oak Ridge, Hiroshima/Nagasaki) — NPS / DOE",
+        "Japanese-American incarceration (Dorothea Lange, WRA) — already sourced for GC.27"
+      ]
+    },
+    {
+      "topic": "Cold War (1945-1991)",
+      "us_history": ["US.62", "US.65", "US.66", "US.90"],
+      "world_history": ["W.57", "W.58", "W.59", "W.60", "W.61", "W.62", "W.63", "W.64", "W.65"],
+      "government": [],
+      "reusable_sources": [
+        "38th parallel / Inchon Landing, 1950 — U.S. Army Center of Military History",
+        "Cuban Missile Crisis, 1962 — Office of the Historian / JFK Library",
+        "Gulf of Tonkin / 17th parallel — Office of the Historian",
+        "Fall of the Berlin Wall / collapse of the USSR — Office of the Historian"
+      ]
+    },
+    {
+      "topic": "Founding documents & the Constitution",
+      "us_history": [],
+      "world_history": ["W.03", "W.08"],
+      "government": ["GC.01", "GC.02", "GC.03", "GC.04", "GC.05", "GC.06", "GC.07", "GC.08", "GC.09"],
+      "reusable_sources": [
+        "Portrait of John Locke — (Enlightenment; GC.01, reuse for W.03/W.08)",
+        "Declaration of Independence (engrossed) — already sourced GC.02",
+        "U.S. Constitution p.1 / The Federalist / Bill of Rights — already sourced GC.05/06/08"
+      ]
+    },
+    {
+      "topic": "Suffrage & political participation",
+      "us_history": ["US.18"],
+      "world_history": [],
+      "government": ["GC.10", "GC.34"],
+      "reusable_sources": [
+        "Woman Suffrage Parade, Washington D.C., 1913 — already sourced GC.34 (LoC)",
+        "19th Amendment (1920), TN the 36th state — U.S. National Archives (US.18 + GC)"
+      ]
+    },
+    {
+      "topic": "Civil rights & equal protection",
+      "us_history": ["US.03", "US.80"],
+      "world_history": [],
+      "government": ["GC.25", "GC.26", "GC.27"],
+      "reusable_sources": [
+        "14th Amendment (equal protection) — already sourced GC.26 (NARA)",
+        "Gideon's cert. petition — already sourced GC.25 (NARA)",
+        "Civil Rights Movement (Montgomery/Little Rock/Nashville/Birmingham/Selma) — NPS / LoC (US.80)"
+      ]
+    },
+    {
+      "topic": "9/11, terrorism & the contemporary world",
+      "us_history": ["US.92"],
+      "world_history": ["W.88", "W.89"],
+      "government": [],
+      "reusable_sources": [
+        "September 11 attacks (WTC / Pentagon / Shanksville) — National Archives / 9/11 Memorial (US.92)"
+      ]
+    }
+  ]
+}
