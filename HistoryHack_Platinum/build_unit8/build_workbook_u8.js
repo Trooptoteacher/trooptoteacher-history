@@ -119,6 +119,10 @@ function doodle(label,note,h=1500){return [callout(label,[note]),
   table([new TableRow({height:{value:h,rule:HeightRule.ATLEAST},children:[cell(P(R(' ',{s:12}),{spacing:{after:0}}),{w:CW})]})],[CW])];}
 function priorityBar(n,term,es){return table([new TableRow({children:[cell([
   P([R(`PRIORITY TERM ${n}`,{s:16,b:true,c:GOLD}),R(`     ${term}`,{s:24,b:true,c:WHITE}),R(`      ·   ES: ${es}`,{s:18,c:'D9D5C8'})],{spacing:{after:0}})],{w:CW,fill:NAVY})]})],[CW]);}
+// GEOGRAPHY PRIORITY banner — geography is one of the most-missed EOC skills, so
+// the Geographer's Lens is flagged like a priority term so it isn't skipped.
+function geoPriorityBar(){return table([new TableRow({children:[cell([
+  P([R('PRIORITY SKILL',{s:16,b:true,c:GOLD}),R('     Geography',{s:24,b:true,c:WHITE}),R('      ·   one of the most-missed skills on the EOC — do not skip it',{s:16,c:'D9D5C8'})],{spacing:{after:0}})],{w:CW,fill:NAVY})]})],[CW]);}
 function retrievalBox(code){return [gap(120),
   callout('SPACED RETRIEVAL — quick recall (no notes)',['Pull it up cold to strengthen memory, then check your notes.']),
   writeTable(['Recall prompt','Your answer (from memory)'],[
@@ -366,6 +370,7 @@ function block(code){
   // grounded map-sketch task). Fills a full page AND adds the geographic lens.
   if(s.geo && !gmap){
     out.push(H(`Geographer’s Lens — ${code}`,2,{brk:true,mins:12}));
+    out.push(geoPriorityBar());
     out.push(P(R('Geographers don’t just find places — they explain how WHERE shapes WHAT happens. Work these like a geographer. Built on the Five Themes of Geography · C3 Dimension 2 · SSP.06 (spatial reasoning).',{s:20,i:true,c:GREY})));
     const places=s.geo_places||[];
     if(places.length){
@@ -386,6 +391,7 @@ function block(code){
   // Geographer's Lens map page — standards with a verified period map
   if(gmap){
     out.push(H(`Geographer’s Lens — ${code}`,2,{brk:true,mins:10}));
+    out.push(geoPriorityBar());
     out.push(P(R('Analyze this period map as a primary source. Geographer’s lens (G) · builds SSP.06.',{s:20,i:true,c:GREY})));
     out.push(...sourceImage(gmap,{max:540}));
     if(s.geo) out.push(callout('MAP TASK',[s.geo]));

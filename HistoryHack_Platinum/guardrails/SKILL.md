@@ -119,7 +119,12 @@ revision notes) and a SHA-256-manifest package.
 - **Cornell cues are standard-specific**, tied to the learning targets (not the generic who-questions).
   The who-benefited/bore-costs/decided throughline becomes the **CER Big-Question Organizer**.
 - **Geographer's Lens (G · SSP.06):** a text task on the Close Read for G-tagged standards; a **dedicated
-  map page** (from the bank) where a period map exists.
+  map page** (from the bank) where a period map exists. **Every standard that carries geography data
+  (`geo` set) MUST render a Geographer's Lens page — never silently skip it** (this was a real bug in
+  Units 6/7/8). Geography is one of the most-missed EOC skills, so the page opens with the gold
+  **`geoPriorityBar()`** ("PRIORITY SKILL · Geography — do not skip it") — the same prominence the
+  Vocabulary priority terms get. `geo` with an empty `geo_places` still renders the page (the places
+  table is simply omitted); it does not degrade to nothing.
 - **Student Progress Check**: clean stem, options A–D indented on their own lines, no DOK tag, no
   "answer key is in the teacher guide" line.
 - **MTSS labels are teacher-side.** Student self-checks read plainly ("How am I doing?", "Ready check").
