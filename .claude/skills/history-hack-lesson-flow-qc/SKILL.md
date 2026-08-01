@@ -1,10 +1,10 @@
 ---
 name: history-hack-lesson-flow-qc
-description: "Student-journey quality-control agent that reviews a History Hack unit's LECTURE deck, student review deck, and student workbook TOGETHER and verifies they line up as one coherent lesson. Walks the unit as a student would — the teacher advances the deck; the student takes notes and works the workbook — and flags every place the flow breaks: a write cue with no workbook home, a workbook ▶ Deck reference that points to the wrong or missing slide, guided Cornell segments that don't match the deck's DIRECT INSTRUCTION slides, a task asked before it's taught, vocabulary/quiz/source content that differs between screen and page, a sequence that forces the student to jump backward, or a student review deck that doesn't cover 100% of what the teacher taught. Use when asked to QC, audit, or check the alignment / user flow / 'do the deck and workbook match' for a unit; before shipping decks + workbook together; or after a propagation/re-key. Produces a per-standard student-journey table and a severity-ranked findings list. Does not fix — it reports; hand fixes to history-hack-unit-content-build."
+description: "Student-journey quality-control agent (the 'student QC expert') that follows the decks ALONGSIDE the student workbook and verifies the student can follow the lesson with everything DIRECTLY MAPPED from the workbook to the EXACT slides. Anchored on the student workbook, it walks the unit as a student would — the teacher advances the deck; the student takes notes and works the workbook — and confirms every workbook activity resolves to a specific slide number, in order, unambiguous, easy to follow. Flags every break: a workbook activity with no exact slide (or a ▶ Deck reference to the wrong/missing slide), a write cue with no workbook home, guided Cornell segments that don't match the deck's DIRECT INSTRUCTION slides, a task asked before it's taught, vocabulary/quiz/source content that differs between screen and page, a sequence that forces the student to jump backward, or a student review deck that doesn't cover 100% of what the teacher taught. Use when asked to QC, audit, or check the alignment / user flow / 'do the deck and workbook match' / 'can a student follow along' for a unit; before shipping decks + workbook together; or after a propagation/re-key. Produces a per-standard WORKBOOK→EXACT-SLIDE mapping table + a student-journey table + a severity-ranked findings list. Does not fix — it reports; hand fixes to history-hack-unit-content-build."
 license: Proprietary
 metadata:
   author: "TroopToTeacher Technologies LLC"
-  version: "1.0"
+  version: "1.1"
   reference_implementation: "Unit 6 — WWII (US.45–US.58)"
 ---
 
@@ -23,11 +23,27 @@ the three pieces that must move together —
 — and reports every place the journey breaks. It **reports, it does not fix**; fixes go back to
 `history-hack-unit-content-build` (the unit-workbook creator) or the deck build.
 
+## The core job (LOCKED — Sean): the student follows the workbook, directly mapped to exact slides
+
+**Anchor on the STUDENT WORKBOOK.** The student QC expert follows the deck **alongside the student
+workbook**, activity by activity, and confirms the student can follow along with **zero guesswork**:
+**every workbook activity maps to an EXACT slide (a specific number), in order, unambiguous, easy to
+follow.** "Easy to follow" is a pass/fail bar, not a nicety — if a student has to hunt for the slide,
+guess which slide an activity means, jump backward, or land on a slide whose content doesn't match the
+activity, that is a finding.
+
+The deliverable that proves it is the **Workbook → Exact-Slide mapping table** (see Output): one row
+per workbook activity, per standard, resolving to the precise slide number(s) — in the student deck
+(for at-home review) and consistent with the teacher deck's lecture order (for in-class).
+
 ## The method — walk it as a student, per standard
 
-For each standard, step through the **teacher deck in presentation order** and, at each slide, ask:
-*"What is the student doing right now, and does the workbook support it here — on the page they're on,
-with the content that's on screen?"* Then check the **student review deck** covers the same ground.
+Anchored on the workbook, step through it **in workbook order** (Activity 1 → 7 + opener + exit
+ticket) and, for each activity, resolve the **exact slide** it maps to and confirm the student lands
+there cleanly. Cross-walk against the **teacher deck in presentation order** to confirm the same
+sequence holds in class, and confirm the **student review deck** carries every mapped slide (100% of
+what was taught). At each step ask: *"On the page the student is on, does the named slide exist, is it
+the right one, is its content the same, and did the student reach it without flipping backward?"*
 
 Do this in two passes:
 
@@ -48,7 +64,7 @@ all 258 slides when the maps already told you which ~5 to look at.
 | # | Check | A student would… |
 |---|---|---|
 | 1 | **DI coverage / parity** | …be told (guided Cornell) to find "DI 3 of 4" that isn't in their own deck. Teacher DI count == student DI count == workbook DI segments. |
-| 2 | **Every write cue has a home** | …see "✍ In your workbook · X" on a slide but find no activity X — or reach an activity whose `▶ Deck slide N` points nowhere / to the wrong slide. Both directions must resolve. |
+| 2 | **Direct workbook→exact-slide mapping** | …reach a workbook activity and not know which slide it means, or its `▶ Deck slide N` points nowhere / to the wrong slide, or a slide's "✍ In your workbook · X" finds no activity X. **Every activity must resolve to a specific slide number, both directions, no ambiguity.** |
 | 3 | **Sequence match** | …have to flip *backward* — e.g. do Vocabulary (Activity 1) but the vocab slide comes last. Deck role order must track workbook activity order. |
 | 4 | **Nothing asked before it's taught** | …hit a warm-up/quiz asking to recall content the lecture hasn't presented yet. |
 | 5 | **Content parity** | …see different vocabulary terms, a different source, or a different quiz/Progress-Check item on screen vs. on the page. Same items, same answers. |
@@ -65,14 +81,19 @@ all 258 slides when the maps already told you which ~5 to look at.
 
 ## Output
 
-1. **Per-standard student-journey table** — one row per teacher-deck step: `slide → role → what the
-   student does → workbook home (activity + page) → OK / finding`.
-2. **Severity-ranked findings list** — each: severity · standard · slide/page · what the student
+1. **Workbook → Exact-Slide mapping table (primary deliverable)** — per standard, one row per
+   workbook activity (opener · Vocab 1–2 · Cornell/Close Read 3–4 · Source 5 · Quiz 6 · CER 7 ·
+   exit ticket): `activity · workbook page · exact student-deck slide # · exact teacher-deck slide # ·
+   content-match? · reached-in-order? · OK / finding`. Every cell must resolve to a specific slide —
+   a blank, a range where a single slide is meant, or a "which one?" is itself a finding.
+2. **Per-standard student-journey table** — one row per deck step: `slide → role → what the student
+   does → workbook home (activity + page) → OK / finding`.
+3. **Severity-ranked findings list** — each: severity · standard · slide/page · what the student
    experiences · the fix owner. When invoked inside a review harness, emit via `ReportFindings`
    (most-severe first); otherwise write a markdown report to the unit's build folder.
 
-Report the honest count (e.g. "0 blocker, 28 major"). A clean unit returns an empty findings list
-and a journey table that reads top-to-bottom with every step matched.
+Report the honest count (e.g. "0 blocker, 28 major"). **A clean unit = the mapping table is 100%
+resolved (every activity → an exact slide, content matches, in order) with an empty findings list.**
 
 ## Scale
 

@@ -8,6 +8,21 @@ follow without ever being confused, stuck, or sent backward.
 - [ ] Run `scripts/build_alignment_maps.py TEACHER STUDENT WORKBOOK` → get the maps + mechanical flags.
 - [ ] Note the student deck's total slide count (for resolving ▶ Deck refs).
 
+## Step 0 — build the Workbook → Exact-Slide mapping table FIRST (the primary artifact)
+Anchor on the **student workbook**. Before the narrative walk, produce the per-standard mapping table —
+one row per workbook activity, each resolved to an **exact slide number**:
+
+`activity · workbook page · exact student-deck slide # · exact teacher-deck slide # · content-match? · reached-in-order? · OK/finding`
+
+The test is "can a student follow along with zero guesswork?" **Any of these is a finding:**
+- an activity that resolves to no slide, or to a *range* where one specific slide is meant, or where it's unclear "which one";
+- a `▶ Deck slide N` that points to the wrong slide or a nonexistent one;
+- a slide's `✍ In your workbook · X` with no matching activity X;
+- the mapped slide's content differing from the activity (different vocab/source/item);
+- an activity whose slide sits earlier than the previous activity's (backward jump).
+
+A clean standard = every activity row resolves to an exact slide, content matches, in order.
+
 ## The walk (each teacher-deck slide is one step)
 For every slide, in order:
 - [ ] **Role clear?** Title names its role (HOOK, DIRECT INSTRUCTION, PRIMARY SOURCE, PROGRESS CHECK…).
