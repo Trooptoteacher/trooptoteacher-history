@@ -50,8 +50,8 @@ function pacing(total) {
     { w: 0.106, seg: (ctx) => `Warm-Up / Bell-Ringer — ${ctx.warm}; frame today's question`, mat: "Word Bank / Do-Now" },
     { w: 0.085, seg: (ctx) => `Hook — ${ctx.hook}`, mat: "Teacher Deck" },
     { w: 0.255, seg: () => "Direct Instruction — teacher models close reading of the core content; students capture Cornell Notes", mat: "Teacher Deck + Cornell Notes" },
-    { w: 0.213, seg: () => "Guided Practice — Cornell Notes + a comparison/analysis organizer", mat: "Cornell Notes · organizer" },
-    { w: 0.234, seg: () => "Primary Source / HIPP — analyze the source; begin CER", mat: "Primary-Source Packet · HIPP · CER organizer" },
+    { w: 0.213, seg: (ctx) => "Guided Practice — Cornell Notes + " + (ctx.geo ? "the Geographer's Lens map task (priority — geography is frequently missed on the EOC)" : "a comparison/analysis organizer"), mat: (ctx) => ctx.geo ? "Cornell Notes · Geographer's Lens map" : "Cornell Notes · organizer" },
+    { w: 0.234, seg: () => "Primary Source / HIPPO — analyze the source; begin CER", mat: "Primary-Source Packet · HIPPO · CER organizer" },
     { w: 0.107, seg: (ctx) => `Exit Ticket & Closure — 2-question check; ${ctx.preview}`, mat: "Exit Ticket (EN/ES)" },
   ];
   let mins = segs.map(s => Math.max(3, Math.round(s.w * total)));
@@ -93,6 +93,34 @@ const stripTrailingPeriod = (s) => String(s || "").replace(/\.\s*$/, "");
 const endPunct = (s) => { s = String(s || "").trim(); return /[.?!]$/.test(s) ? s : s + "."; };
 const withThe = (t) => /^(the|a|an)\b/i.test(t) ? t : "the " + t;
 
+// Data-driven print set: what each standard's page set actually contains,
+// derived from the same content JSON that drives the student workbook. A
+// standard with no `sources` drops the primary-source items; `geo` adds the
+// Geographer's Lens; `vocab`/`cfu` gate the vocabulary and quiz pages.
+function materials(s) {
+  const hasVocab = !!(s.vocab && s.vocab.length);
+  const hasSources = !!(s.sources && s.sources.length);
+  const hasCfu = !!s.cfu;
+  const hasGeo = !!(s.geo && String(s.geo).trim());
+  const student = [];
+  if (hasVocab) { student.push("Vocabulary — Word Bank"); student.push("Vocabulary Studio"); }
+  student.push("Cornell Notes (Universal Front)");
+  student.push("Close Read");
+  if (hasGeo) student.push("Geographer's Lens — map task");
+  if (hasSources) student.push("Primary Source / Data Analysis + HIPPO");
+  if (hasCfu) student.push("Core Application — Practice Quiz");
+  student.push("Constructed Response (CER)");
+  student.push("Exit Ticket — English & Spanish");
+  const teacher = [];
+  teacher.push("Teacher Lesson Plan (this doc)");
+  teacher.push("Cornell Support Backs — toolkit (copy as needed, MTSS)");
+  if (hasCfu) teacher.push("Formative Assessment — Answer Key");
+  if (hasSources) teacher.push("Primary-Source Teacher Guide");
+  teacher.push("UDL / WIDA overlay");
+  teacher.push("File Map & Print Guide");
+  return { student, teacher };
+}
+
 // ---------- build one standard's plan (returns children[]) ----------
 function buildPlan(code, s, idx) {
   const c = [];
@@ -132,23 +160,25 @@ function buildPlan(code, s, idx) {
   c.push(body([R("Measured in multiple ways (TEAM: 3+ measures with clear criteria):", { bold: true, size: 17 })], { spacing: { after: 60 } }));
   c.push(bullet([R("Selected-response + short constructed: ", { bold: true, size: 17 }), R(`${code} Formative Assessment (with teacher answer key).`, { size: 17 })]));
   c.push(bullet([R("Extended writing: ", { bold: true, size: 17 }), R(`CER organizer — claim, evidence, reasoning on ${withThe(s.title)}.`, { size: 17 })]));
-  c.push(bullet([R("Primary-source analysis: ", { bold: true, size: 17 }), R(`HIPP organizer on ${src0 ? `“${src0.title}” (${src0.who}${src0.date ? ", " + src0.date : ""})` : "a primary source"}.`, { size: 17 })]));
+  if (src0) c.push(bullet([R("Primary-source analysis: ", { bold: true, size: 17 }), R(`HIPPO organizer on “${src0.title}” (${src0.who}${src0.date ? ", " + src0.date : ""}).`, { size: 17 })]));
   c.push(bullet([R("Exit ticket (EN + ES): ", { bold: true, size: 17 }), R("2-question check for understanding, bilingual.", { size: 17 })]));
   c.push(body([R("Success criteria: ", { bold: true, size: 17, color: NAVY }), R(`Student cites at least two specific pieces of evidence and can ${s.target ? stripTrailingPeriod(s.target) : "explain the impact of the standard's content"}.`, { size: 17 })]));
 
   // ---- 3 Structure & Pacing ----
   c.push(head(`3 · Lesson Structure & Pacing (${MINUTES}-minute Regular block)`));
+  const hasGeo = !!(s.geo && String(s.geo).trim());
   const ctx = {
     warm: prev ? `recall ${prev.title} (${ORDER[idx - 1]})` : "activate prior knowledge",
     hook: tnShort ? `${stripTrailingPeriod(tnShort)}: ${essentialQ}` : essentialQ,
     preview: next ? `preview ${next}` : "preview the next unit",
+    geo: hasGeo,
   };
   const CW = [1300, 4700, 3360];
   const segRows = [new TableRow({ tableHeader: true, children: [tcell("Min", { w: CW[0], header: true }), tcell("Segment & what happens", { w: CW[1], header: true }), tcell("Material", { w: CW[2], header: true })] })];
   pacing(MINUTES).forEach((seg, i) => segRows.push(new TableRow({ children: [
     tcell(String(seg.min), { w: CW[0], fill: i % 2 ? LIGHT : "FFFFFF" }),
     tcell([cellP([R(seg.seg(ctx), { size: 16 })])], { w: CW[1], fill: i % 2 ? LIGHT : "FFFFFF" }),
-    tcell([cellP([R(seg.mat, { size: 16 })])], { w: CW[2], fill: i % 2 ? LIGHT : "FFFFFF" }),
+    tcell([cellP([R(typeof seg.mat === "function" ? seg.mat(ctx) : seg.mat, { size: 16 })])], { w: CW[2], fill: i % 2 ? LIGHT : "FFFFFF" }),
   ] })));
   c.push(table(CW, segRows));
   c.push(new Paragraph({ spacing: { before: 40 }, children: [R(`Total: ${MINUTES} minutes (segments sum-verified to the block length; auto-adjusts to 43-min Activities or 41-min Late-Start).`, { size: 15, italics: true, color: GREY })] }));
@@ -159,12 +189,12 @@ function buildPlan(code, s, idx) {
     "Cornell Notes (Universal Front) — direct-teaching capture (cue / notes / summary)",
     "Cornell Support Backs — optional MTSS scaffold; lives in the Teacher Organizer Toolkit, prints duplex behind the Cornell front, copy only as needed",
     "Comparison / analysis organizer — structure student thinking on the core content",
-    `Primary-Source Packet + HIPP organizer — sourcing & analysis${src0 ? ` of “${src0.title}”` : ""}`,
+    `Primary-Source Packet + HIPPO organizer — sourcing & analysis${src0 ? ` of “${src0.title}”` : ""}`,
     "CER organizer — evidence-based extended writing",
     "Formative Assessment + Exit Ticket (EN/ES) — checks for understanding",
   ];
-  if (s.geo && String(s.geo).trim()) acts.splice(3, 0, "Geographer's Lens map task — locate and explain the places that shaped this standard");
   acts.forEach(t => c.push(bullet([R(t, { size: 17 })])));
+  if (hasGeo) c.push(bullet([R("Geographer's Lens — map task (priority): ", { bold: true, size: 17, color: ACCENT }), R("locate and explain the places that shaped this standard. Geography is one of the most-missed EOC skills — do not skip it when the standard carries a geographic dimension.", { size: 17 })]));
   if (vocab0) c.push(body([R("Word Bank (key vocabulary): ", { bold: true, size: 16, color: NAVY }), R(s.vocab.map(v => v.term).join(" · "), { size: 16 })]));
   c.push(body([R("Complex text, student choice (organizer format), primary sources, and student-to-student discussion are built in — satisfying the TEAM Activities & Materials indicators.", { size: 16, italics: true, color: GREY })]));
 
@@ -214,16 +244,15 @@ function buildPlan(code, s, idx) {
   c.push(body([R("Included in today's print ZIP ", { bold: true, size: 17 }), R(`(${code} — print-ready PDF + editable DOCX):`, { size: 17 })], { spacing: { after: 60 } }));
   const MW = [4530, 4530];
   const mRows = [new TableRow({ tableHeader: true, children: [tcell("Student (print & copy)", { w: MW[0], header: true }), tcell("Teacher (your copy)", { w: MW[1], header: true })] })];
-  [["Cornell Notes (Universal Front)", "Teacher Lesson Plan (this doc)"],
-   ["Comparison / analysis organizer", "Cornell Support Backs — toolkit (copy as needed, MTSS)"],
-   ["CER organizer", "Formative Assessment — Answer Key"],
-   ["HIPP organizer", "Primary-Source Teacher Guide"],
-   ["Primary-Source Packet", "UDL / WIDA overlay"],
-   ["Formative Assessment", "File Map & Print Guide"],
-   ["Exit Ticket — English & Spanish", ""]].forEach((r, i) => mRows.push(new TableRow({ children: [
-    tcell([cellP([R(r[0], { size: 16 })])], { w: MW[0], fill: i % 2 ? "FFFFFF" : LIGHT }),
-    tcell([cellP([R(r[1], { size: 16, color: r[1] ? "222222" : "FFFFFF" })])], { w: MW[1], fill: i % 2 ? "FFFFFF" : LIGHT }),
-  ] })));
+  const mat = materials(s);
+  const rowCount = Math.max(mat.student.length, mat.teacher.length);
+  for (let r = 0; r < rowCount; r++) {
+    const st = mat.student[r] || "", te = mat.teacher[r] || "";
+    mRows.push(new TableRow({ children: [
+      tcell([cellP([R(st, { size: 16, color: st ? "222222" : "FFFFFF" })])], { w: MW[0], fill: r % 2 ? "FFFFFF" : LIGHT }),
+      tcell([cellP([R(te, { size: 16, color: te ? "222222" : "FFFFFF" })])], { w: MW[1], fill: r % 2 ? "FFFFFF" : LIGHT }),
+    ] }));
+  }
   c.push(table(MW, mRows));
   c.push(new Paragraph({ spacing: { before: 40 }, children: [R("Note: students print the Cornell Notes Universal Front. The Cornell Support Backs (Guided/Light scaffolds) live in the Teacher Organizer Toolkit and print duplex on the reverse — copy them only for students who need them (MTSS), and fade as evidence grows.", { size: 15, italics: true, color: GREY })] }));
   c.push(new Paragraph({ spacing: { before: 100, after: 40 }, children: [R("Slides (download once for the unit):", { bold: true, size: 17, color: NAVY })] }));
@@ -236,7 +265,7 @@ function buildPlan(code, s, idx) {
    "What worked, and what would I change next time?",
    "Which sub-objective still needs another touch tomorrow?"].forEach(t => c.push(bullet([R(t, { size: 17 })])));
   c.push(body([R("Extension / enrichment ", { bold: true, size: 17, color: NAVY }), R("(for students who mastered it):", { size: 17 })], { spacing: { before: 40, after: 60 } }));
-  c.push(bullet([R(`Deeper source work: analyze a second primary source with the HIPP organizer.`, { size: 17 })]));
+  c.push(bullet([R(`Deeper source work: analyze a second primary source with the HIPPO organizer.`, { size: 17 })]));
   if (next) c.push(bullet([R(`Connect forward: how does ${withThe(s.title)} set up ${next} (${data.standards[next].title})?`, { size: 17 })]));
   else c.push(bullet([R(`Connect forward: how does this standard set up the next unit?`, { size: 17 })]));
   c.push(body([R("If it's not working ", { bold: true, size: 17, color: ACCENT }), R("(reteach / intervention path):", { size: 17 })], { spacing: { before: 40, after: 60 } }));
@@ -260,7 +289,7 @@ function buildPlan(code, s, idx) {
    ["Knowledge of Students", "§8 — UDL/WIDA + IEP/504"],
    ["Thinking / Problem-Solving", "§6 — analytical, research-based, justify a claim"],
    ["PLANNING: Instructional Plans", "Whole plan — sequenced, accommodations, closure"],
-   ["PLANNING: Student Work", "§2 — CER + HIPP extended writing"],
+   ["PLANNING: Student Work", "§2 — CER + HIPPO extended writing"],
    ["PLANNING: Assessment", "§2 — multiple measures + clear criteria"],
    ["Environment (3 indicators)", "§9 — reminders (teacher-implemented; not auto-generated)"],
   ].forEach((r, i) => aRows.push(new TableRow({ children: [
