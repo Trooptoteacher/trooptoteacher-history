@@ -20,9 +20,9 @@ primary-source look at download/print. No number below required a chart rebuild.
 |---|---|---|
 | US.45 unemployment 1929–40 | **VERIFIED** | 1933 peak **24.9%** (Lebergott series, Historical Statistics of the U.S.). Note: the Darby series, which counts WPA workers as employed, gives ~20.6% for 1933 — our chart uses the standard Lebergott series. |
 | US.46 Lend-Lease by country | **VERIFIED (approx)** | ~$50.1B total; British Empire ~$31.4B, USSR ~$11.3B, France ~$3.2B, China ~$1.6B (U.S. War Dept.). |
-| US.47 Jewish deaths by country | **VERIFIED (approx)** | Consistent with USHMM estimates (Poland ~3M; total ~6M). Figures are approximate/debated; chart is labeled "estimates." One nit: "Germany & Austria" shown at 210,000 — USHMM combined is closer to ~225,000; within range, optional to nudge. **Sensitive topic — sober styling retained.** |
+| US.47 Jewish deaths by country | **VERIFIED (approx)** | Consistent with USHMM estimates (Poland ~3M; total ~6M). Figures are approximate/debated; chart is labeled "estimates." ✅ *Applied:* "Germany & Austria" updated 210,000 → **225,000** (USHMM combined). **Sensitive topic — sober styling retained.** |
 | US.48 Pearl Harbor losses | **VERIFIED** | 2,403 killed; 1,178 wounded; 19 ships sunk or damaged; 188 aircraft destroyed (U.S. Naval History & Heritage Command). |
-| US.50 major-battle U.S. killed | **VERIFIED** | D-Day ~2,501; Iwo Jima ~6,821; Okinawa ~12,520. Midway shown as ~362 — sources range 307–362; add "≈". |
+| US.50 major-battle U.S. killed | **VERIFIED** | D-Day ~2,501; Iwo Jima ~6,821; Okinawa ~12,520. ✅ *Applied:* Midway label now **"≈362"** (sources range 307–362). |
 | US.52 women in labor force | **VERIFIED (approx)** | 12.0M (1940) → 18.6M (1945); ~28% → ~36% of workers (BLS/Census). |
 | US.53 Black war-job share | **VERIFIED (approx)** | ~3% (1942) → ~8% (1945) of war-production jobs; ~5M in the Second Great Migration, 1940–70 (Census/FEPC). |
 | US.54 incarceration by WRA camp | **VERIFIED** | Peak populations correct (Tule Lake 18,789 … Amache 7,318); total ~120,313 (WRA, *The Evacuated People*, 1946). |
@@ -40,9 +40,11 @@ The citation and licensing are already done (your work). This pass checks **hist
 caption/date** and **whether the image sits under the right standard**. Dates and events all check out;
 the items below are the only ones needing a decision.
 
-### B1. Out-of-era — do not belong in Unit 6 (WWII)
-- **US.57_interstate_highway_1950s.jpg** — the Interstate Highway system (1956) is a **Cold War** topic, not Yalta/Potsdam (1945). **Remove from Unit 6** or re-tag to the postwar/Cold War unit.
-- **US.58_truman_nato_signing_1949.jpg** — **NATO (1949)** is Cold War, not the founding of the UN (US.58). Re-tag to the Cold War unit. (Also: Drive lists this as `image/gif` despite the `.jpg` name — verify the file format.)
+### B1. Out-of-era — ✅ PULLED from Unit 6 (kept in Drive; re-tag to the Cold War unit)
+- **US.57_interstate_highway_1950s.jpg** — Interstate Highway system (1956), a **Cold War** topic, not Yalta/Potsdam (1945). **Removed from the Unit 6 roster.** File remains in your Drive — re-tag to the postwar/Cold War unit.
+- **US.58_truman_nato_signing_1949.jpg** — **NATO (1949)** is Cold War, not the founding of the UN (US.58). **Removed from the Unit 6 roster.** (Also: Drive lists this as `image/gif` despite the `.jpg` name — verify the file format when you re-file it.)
+
+*The Unit 6 photo set is now 40 (was 42).*
 
 ### B2. Rights — confirm before commercial print
 - **US.49_iwo-jima-flag-raising-1945.jpg** and **US.51_iwo_jima_flag_1945.jpg** (Rosenthal, Feb 23 1945) — **widely treated as public domain** (Library of Congress, Wikimedia, the Met host it; copyright not renewed), but **AP has historically asserted rights**. Use the **LOC public-domain copy** and keep that citation. Low risk, but worth the explicit note for a paid product.
@@ -66,10 +68,10 @@ These images are fine and cited; they're just filed under a standard whose topic
 ---
 
 ## Recommended actions
-1. **Pull** the two out-of-era photos (interstate highway, NATO 1949) from Unit 6.
-2. **Standardize** the two Iwo Jima images on the LOC public-domain copy + citation.
-3. **Confirm placement** of the five topic/standard mismatches (or re-tag).
-4. Optional chart tweaks: US.50 "≈362" for Midway; US.47 Germany & Austria ~225,000.
+1. ✅ **Done** — pulled the two out-of-era photos (interstate highway, NATO 1949) from Unit 6.
+2. ✅ **Done** — applied chart tweaks: US.50 Midway now "≈362"; US.47 Germany & Austria now 225,000.
+3. **Standardize** the two Iwo Jima images on the LOC public-domain copy + citation. *(open)*
+4. **Confirm placement** of the five topic/standard mismatches (or re-tag). *(open)*
 5. The two **sensitive** charts (US.47, US.56) are accurate; keep the sober styling and the "estimates" labels.
 
 *Prepared as an analyst pre-pass. Live primary-source confirmation (page-fetch) is deferred to an
