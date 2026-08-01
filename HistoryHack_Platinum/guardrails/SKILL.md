@@ -125,6 +125,14 @@ revision notes) and a SHA-256-manifest package.
   **`geoPriorityBar()`** ("PRIORITY SKILL · Geography — do not skip it") — the same prominence the
   Vocabulary priority terms get. `geo` with an empty `geo_places` still renders the page (the places
   table is simply omitted); it does not degrade to nothing.
+- **Geography provenance & SME sign-off.** `geo_places` are authored (not retrieved). Each authored set
+  should carry `geo_sources` (authoritative citations backing the anchor facts) and a `geo_review`
+  object: `{"status": "drafted|sme_approved|needs_fix|n/a", "by": "", "date": "", "note": ""}`. **A
+  subject-matter expert signs off by setting `geo_review.status` to `sme_approved` (with `by`/`date`)
+  in the content JSON** — that is where sign-off is recorded. Run `guardrails/geo_review_audit.py` to
+  see the ledger across all units; `--require-approved` exits non-zero if any geo standard is not yet
+  approved, so it can gate a build or the quarterly Administrative Review. Keep the derive script's
+  `GEO_PLACES`/`GEO_SOURCES` dicts in sync with the content JSON so a re-derive never drops the data.
 - **Student Progress Check**: clean stem, options A–D indented on their own lines, no DOK tag, no
   "answer key is in the teacher guide" line.
 - **MTSS labels are teacher-side.** Student self-checks read plainly ("How am I doing?", "Ready check").

@@ -341,9 +341,58 @@ for idx, code in enumerate(ORDER):
             ["Germany, Austria-Hungary, Ottoman Empire", "Central Europe", "the Central Powers"],
             ["The Western Front", "France & Belgium", "trench warfare; where most fighting happened"],
         ],
+        "US.19": [
+            ["Havana Harbor, Cuba", "Caribbean", "USS Maine exploded here (Feb 15, 1898); yellow-press headlines — “Remember the Maine” — pushed the U.S. toward war"],
+            ["Cuba", "Caribbean", "Spanish colony whose independence struggle was sensationalized by yellow journalism; sugar markets drew U.S. interest"],
+            ["Hawaii", "Central Pacific", "Annexed 1898 — sugar plantations (raw materials/markets) and a strategic mid-Pacific coaling station"],
+            ["Philippines", "Western Pacific / SE Asia", "Taken from Spain in 1898 — a gateway to Asian markets and a test of “spreading American ideals” vs. empire"],
+            ["China", "East Asia", "Target of the Open Door Notes (1899–1900) — the U.S. pressed for equal access to new markets"],
+            ["New York City", "U.S. Northeast", "Home of Hearst’s Journal and Pulitzer’s World — the engine of the yellow journalism that shaped public opinion"],
+        ],
+        "US.22": [
+            ["Panama", "Central America (Isthmus)", "Big Stick — T. Roosevelt backed Panama’s 1903 break from Colombia to secure the Canal Zone (canal opened 1914)"],
+            ["Dominican Republic", "Caribbean", "Roosevelt Corollary (1904) in action — the U.S. took over customs/debt collection to keep European powers out"],
+            ["Nicaragua", "Central America", "Dollar Diplomacy — Taft backed U.S. bankers and sent Marines to protect American financial interests"],
+            ["Cuba", "Caribbean", "Platt Amendment gave the U.S. a right to intervene — a recurring target across all three diplomacies"],
+            ["Veracruz, Mexico", "Gulf coast of Mexico", "Moral Diplomacy — Wilson refused to recognize Huerta and ordered the 1914 occupation of the port"],
+            ["Around the world (Great White Fleet)", "Global ocean route", "1907–1909 — Roosevelt sent the U.S. battle fleet around the globe to display “Big Stick” naval power"],
+        ],
+        "US.25": [
+            ["Western Front (France & Belgium)", "Northwestern Europe", "Trench-warfare stalemate — machine guns, poison gas, tanks, and artillery defined the fighting"],
+            ["Meuse–Argonne / Argonne Forest, France", "Northeastern France", "Largest U.S. battle of the war (Sept 26–Nov 11, 1918); here Cpl. Alvin York captured 132 German soldiers"],
+            ["Château-Thierry & Belleau Wood, France", "Marne River, France", "Early proving grounds for Pershing’s American Expeditionary Force in 1918"],
+            ["Séchault (Champagne), France", "Northeastern France", "The Harlem Hellfighters (369th) fought here under French command (captured Sept 29, 1918) — among the longest-serving U.S. regiments at the front"],
+            ["Belgium", "Western Europe", "Herbert Hoover ran the Commission for Relief in Belgium (from 1914), feeding millions before the U.S. entered the war"],
+            ["Fentress County, Tennessee", "Upper Cumberland, TN", "Home of Sgt. Alvin C. York — ties this global war back to Tennessee"],
+        ],
+    }
+    # Sources backing the authored geo_places (provenance for SME review). Standards
+    # not listed here inherit no citation; geo_review defaults to "drafted" until an
+    # SME sets status to "sme_approved" (see guardrails/SKILL.md — Geographer's Lens).
+    GEO_SOURCES = {
+        "US.19": [
+            "U.S. diplomacy & yellow journalism, 1895–1898 — U.S. Dept. of State, Office of the Historian: https://history.state.gov/milestones/1866-1898/yellow-journalism",
+            "Secretary Hay and the Open Door in China (1899) — Office of the Historian: https://history.state.gov/milestones/1899-1913/hay-and-china",
+            "The Spanish-American War — Library of Congress: https://www.loc.gov/classroom-materials/spanish-american-war-the-united-states-becomes-a-world-power/",
+        ],
+        "US.22": [
+            "Building the Panama Canal, 1903–1914 — U.S. Dept. of State, Office of the Historian: https://history.state.gov/milestones/1899-1913/panama-canal",
+            "Roosevelt Corollary to the Monroe Doctrine, 1904 — Office of the Historian: https://history.state.gov/milestones/1899-1913/roosevelt-and-monroe-doctrine",
+            "Dollar Diplomacy — Encyclopædia Britannica: https://www.britannica.com/event/Dollar-Diplomacy",
+        ],
+        "US.25": [
+            "The Meuse-Argonne, 26 Sept–11 Nov 1918 — U.S. Army Center of Military History: https://history.army.mil/portals/143/Images/Publications/catalog/77-8.pdf",
+            "Alvin Cullum York — Encyclopædia Britannica: https://www.britannica.com/biography/Alvin-Cullum-York",
+            "Harlem Hell Fighters (369th Infantry) — Library of Congress: https://blogs.loc.gov/headlinesandheroes/2019/02/harlem-hell-fighters-african-american-troops/",
+            "Commission for Relief in Belgium (Hoover) — U.S. National Archives: https://www.archives.gov/publications/prologue/1989/spring/hoover-belgium.html",
+        ],
     }
     geo = GEO_TASKS.get(code, "")
     geo_places = GEO_PLACES.get(code, [])
+    geo_sources = GEO_SOURCES.get(code, [])
+    geo_review = ({"status": "drafted", "by": "", "date": "",
+                   "note": "Places drafted from the standard's official TN text and criteria; anchor facts verified against the cited sources. Pending SME sign-off."}
+                  if geo_sources else {"status": "n/a", "by": "", "date": "", "note": ""})
     if not geo and "G" in tags:
         geo = f"On a map, locate the places named in this standard ({s.get('title','')}) and mark where the key events happened."
 
@@ -381,6 +430,8 @@ for idx, code in enumerate(ORDER):
         "dim_map": dim_map,
         "geo": geo,
         "geo_places": geo_places,
+        "geo_sources": geo_sources,
+        "geo_review": geo_review,
         "tn_connection": tn_conn,
         "hook": f"{s.get('title','This standard')}: {tn_text.rstrip('.')}. Who gained, who was left out — and why does it still matter?",
     }

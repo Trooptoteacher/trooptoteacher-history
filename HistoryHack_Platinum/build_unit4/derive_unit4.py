@@ -333,9 +333,28 @@ for idx, code in enumerate(ORDER):
             ["Harlem / New York City", "New York", "destination — center of the Harlem Renaissance"],
             ["Cleveland", "Ohio", "destination — industrial jobs"],
         ],
+        "US.30": [
+            ["Nashville, Tennessee", "Middle Tennessee", "WSM Radio’s barn-dance program began here in Dec 1925 and was named the Grand Ole Opry in 1927 — radio made it a national institution"],
+            ["Memphis, Tennessee", "West TN (Mississippi River)", "Beale Street blues district; W.C. Handy, “Father of the Blues,” published “The Memphis Blues” (1912) here"],
+            ["Chattanooga, Tennessee", "Southeast Tennessee", "Birthplace (1894) of Bessie Smith, the “Empress of the Blues”"],
+            ["Bristol, Tennessee/Virginia", "Northeast TN (Appalachia)", "The July 1927 Bristol Sessions — the “big bang” of country music (Carter Family, Jimmie Rodgers)"],
+            ["Mississippi Delta", "Lower Mississippi River", "Rural roots of the blues that traveled up the river to Memphis, onto records and radio"],
+        ],
+    }
+    GEO_SOURCES = {
+        "US.30": [
+            "Grand Ole Opry / WSM — Tennessee Encyclopedia: https://tennesseeencyclopedia.net/entries/grand-ole-opry/",
+            "William Christopher “W.C.” Handy — Tennessee Encyclopedia: https://tennesseeencyclopedia.net/entries/william-christopher-handy/",
+            "Bessie Smith — Encyclopædia Britannica: https://www.britannica.com/biography/Bessie-Smith",
+            "Bristol Sessions — Tennessee Encyclopedia: https://tennesseeencyclopedia.net/entries/bristol-sessions/",
+        ],
     }
     geo = GEO_TASKS.get(code, "")
     geo_places = GEO_PLACES.get(code, [])
+    geo_sources = GEO_SOURCES.get(code, [])
+    geo_review = ({"status": "drafted", "by": "", "date": "",
+                   "note": "Places drafted from the standard's official TN text and criteria; anchor facts verified against the cited sources. Pending SME sign-off."}
+                  if geo_sources else {"status": "n/a", "by": "", "date": "", "note": ""})
     if not geo and "G" in tags:
         geo = f"On a map, locate the places named in this standard ({s.get('title','')}) and mark where the key events happened."
 
@@ -373,6 +392,8 @@ for idx, code in enumerate(ORDER):
         "dim_map": dim_map,
         "geo": geo,
         "geo_places": geo_places,
+        "geo_sources": geo_sources,
+        "geo_review": geo_review,
         "tn_connection": tn_conn,
         "hook": f"{s.get('title','This standard')}: {tn_text.rstrip('.')}. Who gained, who was left out — and why does it still matter?",
     }
