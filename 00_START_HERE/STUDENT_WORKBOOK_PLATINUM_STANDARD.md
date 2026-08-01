@@ -310,7 +310,16 @@ Intro line (the non-replacement guardrail), verbatim: *"Use one, some, or all �
 
 **Spacing (fixes the "too compact / cognitive overload" note):** generous gaps before each rung heading, loose line spacing inside rungs, word bank and model each on their own tinted line/card. This white space is **intentional labeled workspace** (exempt under §5.1) — do not re-tighten it to reclaim space.
 
-**Propagation & parity.** Every standard is built by `scripts/build_guided_notes.py`: it seeds the cue column from scratch and **clones the US.45 NOTES SUPPORTS block** (preserving every fill/border/font/spacing), swapping only the standard-specific text. This is what guarantees the formatting is identical across all standards.
+**Propagation & parity.** Every standard is built by `scripts/build_guided_notes.py`: it seeds the cue column from scratch and **clones the US.45 NOTES SUPPORTS block** (preserving every fill/border/font/spacing), swapping only the standard-specific text. This is what guarantees the formatting is identical across all standards. The cue column carries **one row per direct-instruction segment** (4 for most standards, 5 for US.51) — the table auto-expands to fit (`ensure_cue_rows`), keyed to the teacher deck's real `DI N of M` slides.
+
+### 7.9a Activity 3 pagination & white-space guardrail (LOCKED)
+
+The print model only holds if **notes sit on recto (odd) pages and supports on verso (even) pages** — then *print single-sided* = notes only, and *print duplex* = every notes page backed by its own support.
+
+1. **Fits one page** (every Unit 6 standard today, incl. US.51's 5 segments): Cornell notes (front) + NOTES SUPPORTS ladder (back). Clean 2-page duplex.
+2. **Needs two note pages** (a long/dense standard): **interleave, never batch** — `Notes-A / Supports-A / Notes-B / Supports-B`. Supports are **page-matched** to the notes page they back (cue-table page → content-note ladder; process/check page → summary + self-check supports). The **Try-it + self-check always lives on the activity's final support page** (never orphaned).
+3. **White-space value-question rule:** if a Cornell notes page has real blank space at the bottom (per §5 bands), fill it with one small, valuable thinking move — a **prediction**, a **synthesis** ("connect two cues in one sentence"), a **metacognition** check ("which cue was hardest?"), or a **"3 from before"** spaced-retrieval prompt. Never a filler line, never a note-line duplicate of the My-notes column, and never anything that pushes content to a new page.
+4. Respect the ≤120-page cap and the zero-blank-page gate; re-run the QC gate after any Cornell expansion.
 
 ---
 
