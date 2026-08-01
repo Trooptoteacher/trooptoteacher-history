@@ -1,0 +1,660 @@
+{
+  "course": "world-history",
+  "standardsPrefix": "W",
+  "source": {
+    "drive_file_id": "1OkgzoXC4Nq2J0AxNUfaketM-3Sfu7ZJI",
+    "title": "World History.pdf",
+    "ingested_verbatim": true
+  },
+  "practices": [
+    {
+      "code": "SSP.01",
+      "text": "Collect data and information from a variety of primary and secondary sources, including: Printed materials (e.g., literary texts, newspapers, autobiographies, speeches, interviews, letters, personal journals); Graphic representations (e.g., maps, timelines, charts, political cartoons, photographs, artwork); Field observations/landscape analysis; Artifacts; Media and technology sources"
+    },
+    {
+      "code": "SSP.02",
+      "text": "Critically examine a primary or secondary source in order to: Extract and paraphrase significant ideas; Discern differences between evidence and assertion; Draw inferences and conclusions; Recognize author's purpose, point of view, and potential bias; Assess the strengths and limitations of arguments"
+    },
+    {
+      "code": "SSP.03",
+      "text": "Synthesize data from a variety of sources in order to: Establish accuracy and validity by comparing sources to each other; Recognize disparities among multiple accounts; Frame appropriate questions for further investigation"
+    },
+    {
+      "code": "SSP.04",
+      "text": "Construct and communicate arguments citing supporting evidence to: Demonstrate and defend an understanding of ideas; Compare and contrast viewpoints; Illustrate cause and effect; Predict likely outcomes; Devise new outcomes or solutions"
+    },
+    {
+      "code": "SSP.05",
+      "text": "Develop historical awareness by: Recognizing how and why historical accounts change over time; Perceiving and presenting past events and issues as they might have been experienced by the people of the time, with historical empathy rather than present-mindedness; Evaluating how unique circumstances of time and place create context and contribute to action and reaction; Identifying patterns of continuity and change over time, making connections to the present"
+    },
+    {
+      "code": "SSP.06",
+      "text": "Develop geographic awareness by: Using the geographic perspective to analyze relationships, patterns, and diffusion across space at multiple scales (e.g., local, national, global); Analyzing and determining the use of diverse types of maps based on the origin, authority, structure, context, and validity; Analyzing locations, conditions, and connections of places and using maps to investigate spatial associations among phenomena; Examining how geographers use regions and how perceptions of regions are fluid across time and space; Analyzing interaction between humans and the physical environment"
+    }
+  ],
+  "standards": [
+    {
+      "code": "W.01",
+      "text": "Describe the concept of the divine right of kings as well as the features, strengths, and weaknesses of European absolutism, including: Louis XIV, Versailles, and Peter the Great.",
+      "strand": ["C", "H", "P"],
+      "geo": false,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.02",
+      "text": "Compare documents that establish limits on government in response to absolute monarchy (e.g., the Magna Carta and the English Bill of Rights).",
+      "strand": ["H", "P"],
+      "geo": false,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.03",
+      "text": "Compare the major ideas of philosophers during the Age of Enlightenment, such as Charles-Louis de Montesquieu, Thomas Hobbes, John Locke, and Jean-Jacques Rousseau.",
+      "strand": ["C", "E", "H", "P"],
+      "geo": false,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.04",
+      "text": "Examine the causes and consequences of the English Civil War.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.05",
+      "text": "Identify the major causes of the French Revolution, including the impact of: The American Revolution; Conflicting social classes; Economic factors; Enlightenment political thought; Government corruption and weakness",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.06",
+      "text": "Summarize the major events of the French Revolution (e.g., storming of the Bastille, execution of Louis XVI, reign of terror), and trace the evolution of France's government from constitutional monarchy to democratic despotism to the Napoleonic Empire.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.07",
+      "text": "Analyze the geographic, political, and social factors that contributed to the rise and fall of Napoleon Bonaparte's empire.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.08",
+      "text": "Identify how the ideas of the Enlightenment inspired Thomas Jefferson and the Declaration of Independence, and compare the American Revolution with the French Revolution.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.09",
+      "text": "Explain the effects of the French Revolution on Europe and the world, including the influence of: the Napoleonic Code, Concert of Europe, and Haitian Revolution.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Age of Revolution (1750-1850)"
+    },
+    {
+      "code": "W.10",
+      "text": "Explain how the Agricultural Revolution, mechanization, and the \"enclosure movement\" led to rapid population growth, rural to urban migration, and the growth of major cities in Europe and North America.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "The Industrial Revolution (1750s-1900s)"
+    },
+    {
+      "code": "W.11",
+      "text": "Explain the geographic and economic reasons why the Industrial Revolution began in England, including: natural resources, entrepreneurship, labor, and access to capital.",
+      "strand": ["E", "G", "H"],
+      "geo": true,
+      "cluster": "The Industrial Revolution (1750s-1900s)"
+    },
+    {
+      "code": "W.12",
+      "text": "Analyze how geographic and cultural features were an advantage or disadvantage to the diffusion of the Industrial Revolution.",
+      "strand": ["C", "G", "H"],
+      "geo": true,
+      "cluster": "The Industrial Revolution (1750s-1900s)"
+    },
+    {
+      "code": "W.13",
+      "text": "Describe the geographic scale, trade routes, and conditions of the forced migration of Africans to the Western Hemisphere, including connections between slave labor and the growth of industrial economies.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "The Industrial Revolution (1750s-1900s)"
+    },
+    {
+      "code": "W.14",
+      "text": "Explain how scientific and technological innovations (e.g., the steam engine, new textile technology, steel processing, medical advances, electricity, and new methods of transportation) led to massive social, economic, cultural, and demographic changes.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "The Industrial Revolution (1750s-1900s)"
+    },
+    {
+      "code": "W.15",
+      "text": "Evaluate the industrialization of Europe in terms of: Social benefits (e.g., increases in productivity and life expectancy); Social costs (e.g., harsh working and living conditions, pollution, child labor, and income inequality); Attempts to address these costs (e.g., political reform, urban planning, philanthropy, labor unionism, education reform, and public health and sanitation)",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "The Industrial Revolution (1750s-1900s)"
+    },
+    {
+      "code": "W.16",
+      "text": "Compare and contrast the rise of the following economic theories as a result of industrialization: capitalism, communism, and socialism.",
+      "strand": ["C", "E", "H", "P"],
+      "geo": false,
+      "cluster": "The Industrial Revolution (1750s-1900s)"
+    },
+    {
+      "code": "W.17",
+      "text": "Define nationalism, and explain how nationalism, cultural geography, and physical geography contributed to the unification of nations, such as Germany and Italy.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.18",
+      "text": "Describe the rise of anti-Semitism in Europe during this time period.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.19",
+      "text": "Define imperialism, and analyze reasons for 19th century imperialism, including: competition between empires, cultural justifications, and the search for natural resources and new markets in response to rapid industrialization.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.20",
+      "text": "Describe the natural resources and geographic features of Africa, their role in attracting European economic interests, and their impact on global trade.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.21",
+      "text": "Analyze the outcomes of the Berlin Conference and the impact of superimposed boundaries on African indigenous populations, and compare the geographic progression of imperialistic claims on the African continent by European empires.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.22",
+      "text": "Describe successful (e.g., Ethiopia) and unsuccessful (e.g., Zulu Wars and Ashanti Wars) examples of African resistance to European imperialism.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.23",
+      "text": "Describe the importance of India to the British Empire, the Suez Canal as a connection between Great Britain and India, and India's reaction to British rule.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.24",
+      "text": "Explain the growing influence of western powers on China from the Opium Wars through the Boxer Rebellion.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.25",
+      "text": "Explain cultural diffusion, and describe the diffusion of cultures between Europe, Africa, and Asia as a result of European imperialism.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.26",
+      "text": "Analyze Japan's abandonment of isolationism, its embrace of technological and political changes, and its consequent rise as an imperial power in the late 19th century.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.27",
+      "text": "Describe the natural resources and geographic features of Central and South America, their role in attracting American and European economic interests, and their impact on global trade.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.28",
+      "text": "Compare and contrast the impact of economic imperialism on Central and South America with the impact of imperialism on other parts of the world.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Nationalism and Imperialism (1850-1914)"
+    },
+    {
+      "code": "W.29",
+      "text": "Explain how tensions between nations and states contributed to regional conflicts of the era.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.30",
+      "text": "Explain how the rise of militarism, alliances, imperialistic rivalries, and growing nationalism led to the outbreak of World War I.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.31",
+      "text": "Describe how trench warfare, the resulting stalemate, war of attrition, and advances in weaponry (e.g., chemical weapons, machine guns, submarines, tanks) affected the course and outcome of World War I.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.32",
+      "text": "Analyze the importance of geographic factors in military decision-making, and determine the principal theaters and significance of major battles in World War I (e.g., Battles of the Marne, Verdun, the Somme).",
+      "strand": ["G", "H", "P"],
+      "geo": true,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.33",
+      "text": "Explain how the entrance of the United States and the exit of Russia affected the course and outcome of World War I.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.34",
+      "text": "Define total war, and describe its effect on European civilian populations, including: Food shortages; Industrial production of war materials; Naval/submarine blockades; Women as war workers",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.35",
+      "text": "Describe the effects of World War I, including the significance of: Armenian Genocide; Collapse of major empires; Economic losses; Environmental changes; Loss of human life; Movement of populations; Spread of disease",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.36",
+      "text": "Compare the goals of leading nations (i.e., U.S., France, Great Britain, Italy, and Japan) at the Paris Peace Conference with the outcomes of the Treaty of Versailles and its impact on Germany.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.37",
+      "text": "Analyze the shifts in geopolitical boundaries post-World War I resulting from the Treaty of Versailles and the League of Nations mandate system.",
+      "strand": ["E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.38",
+      "text": "Determine the causes and consequences of the Bolshevik Revolution and Russian Civil War.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.39",
+      "text": "Analyze the cultural, economic, and intellectual trends of the 1920s.",
+      "strand": ["C", "E", "H", "T"],
+      "geo": false,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.40",
+      "text": "Describe the collapse of international economies in 1929 that led to the Great Depression, including the significance of: Overproduction; Unemployment; Inflation; Restrictive trade policies; Post-war economic relationships between the U.S. and Europe",
+      "strand": ["E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "World War I through the Depression (1910s-1930s)"
+    },
+    {
+      "code": "W.41",
+      "text": "Explain how economic instability, nationalism, and political disillusionment in Germany and Japan led to the rise of totalitarian regimes.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.42",
+      "text": "Compare and contrast the rise to power, goals, and characteristics of Adolf Hitler, Benito Mussolini, and Joseph Stalin's totalitarian regimes.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.43",
+      "text": "Analyze the role of geographic features and natural resources in increasing tensions prior to and during World War II.",
+      "strand": ["E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.44",
+      "text": "Compare the Italian, German, and Japanese efforts to expand their empires in the 1930s, including: the invasion of Ethiopia, German militarism, and atrocities in China.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.45",
+      "text": "Explain the role of military alliances, appeasement, isolationism, and the domestic distractions in Europe and the U.S. prior to the outbreak of World War II.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.46",
+      "text": "Describe how geography and technology (e.g., airplanes, advanced medicine, propaganda, radar) influenced wartime strategies, including: blitzkrieg, \"island hopping,\" kamikaze, and strategic bombing.",
+      "strand": ["E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.47",
+      "text": "Describe the geography and outcomes of major battles and turning points of World War II in both the European and Pacific theaters, including: Battle of Britain; Battle of Midway; Battle of Stalingrad; Battle of Normandy; Battle of the Bulge",
+      "strand": ["G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.48",
+      "text": "Describe the roles of leaders during World War II, including the significance of: Winston Churchill; Adolf Hitler; Benito Mussolini; President Franklin D. Roosevelt; Joseph Stalin; Hideki Tojo; President Harry S. Truman",
+      "strand": ["H", "P"],
+      "geo": false,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.49",
+      "text": "Describe the persecution of Jews and other targeted groups in Europe leading up to World War II, and explain why many people were unable to leave and their efforts to resist persecution.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.50",
+      "text": "Explain the state-sponsored mass murder of the Jews in Nazi-controlled lands, and describe the varied experiences of Holocaust survivors and victims.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.51",
+      "text": "Explain the decisions made in the Atlantic Charter and at the Tehran, Yalta, and Potsdam Conferences.",
+      "strand": ["G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.52",
+      "text": "Describe the development of atomic bombs, and evaluate both the decisions to use them and the impact of their use.",
+      "strand": ["C", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.53",
+      "text": "Describe the cultural, economic, geographic, and political effects of World War II, including: Casualties of the war (military and civilian); Changes to geopolitical boundaries; Creation of the United Nations; Destruction of cultural heritage; Division of Germany; Impact of the Nuremberg trials; Refugees and displaced populations",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.54",
+      "text": "Summarize the nature of reconstruction in Europe after 1945, including both the economic and political purposes of the Marshall Plan.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.55",
+      "text": "Explain the origins and significance of the establishment of the State of Israel, and describe the reactions by surrounding Arab countries to the United Nations' decision to establish Israel.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.56",
+      "text": "Describe the economic and military power shift at the end of World War II, such as Soviet control over Eastern Europe and the economic recoveries of Germany and Japan.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Rise of Totalitarianism and World War II (1930s-1945)"
+    },
+    {
+      "code": "W.57",
+      "text": "Analyze the rise of communism and Mao Zedong in China, as well as the related political, social, and economic impacts on China.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Cold War (1945-1991)"
+    },
+    {
+      "code": "W.58",
+      "text": "Describe the characteristics of the Cold War, and explain reasons for the rising tensions between the Soviet Union and former Allied powers.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Cold War (1945-1991)"
+    },
+    {
+      "code": "W.59",
+      "text": "Summarize the functions of the Warsaw Pact and NATO, including their roles in organizing post-war Europe.",
+      "strand": ["G", "H", "P"],
+      "geo": true,
+      "cluster": "Cold War (1945-1991)"
+    },
+    {
+      "code": "W.60",
+      "text": "Describe methods of Soviet control in Eastern Europe and the role of Berlin as a focal point in escalating Cold War tensions.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Cold War (1945-1991)"
+    },
+    {
+      "code": "W.61",
+      "text": "Explain the role of the nuclear arms race, mutual assured destruction, and arms control agreements within the context of rising tensions between the Soviet Union and U.S.",
+      "strand": ["E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Cold War (1945-1991)"
+    },
+    {
+      "code": "W.62",
+      "text": "Describe examples of national uprisings against the Soviet Union (e.g., Hungary and Czechoslovakia), and explain why they were unsuccessful.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Cold War (1945-1991)"
+    },
+    {
+      "code": "W.63",
+      "text": "Describe the competition in Asia between the Soviet Union and U.S., including the wars in Korea and Vietnam as examples of proxy wars.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Cold War (1945-1991)"
+    },
+    {
+      "code": "W.64",
+      "text": "Explain reasons for the rapid decline of communist systems in the late 1980s, including: Economic inefficiency; Unsustainable military spending; Mikhail Gorbachev's reforms; Mass protests in Eastern Europe and China; 1991 Soviet coup d'état",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Cold War (1945-1991)"
+    },
+    {
+      "code": "W.65",
+      "text": "Analyze the political, economic, social, and geographic consequences of the collapse of communist governments in the Soviet Union and Eastern Europe.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Cold War (1945-1991)"
+    },
+    {
+      "code": "W.66",
+      "text": "Explain the push and pull factors of migration.",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Creation of New States and Decolonization (1940s-1980s)"
+    },
+    {
+      "code": "W.67",
+      "text": "Explain the reasons for and the effects of the partition of the Indian subcontinent into India and Pakistan in 1947.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Creation of New States and Decolonization (1940s-1980s)"
+    },
+    {
+      "code": "W.68",
+      "text": "Explain the factors that led to the creation of a lasting democratic government in India as well as the roles of political leaders (e.g., Mohandas Gandhi, Jawaharlal Nehru, Indira Gandhi).",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Creation of New States and Decolonization (1940s-1980s)"
+    },
+    {
+      "code": "W.69",
+      "text": "Describe the development, goals, and outcomes of nationalist movements in Africa, including the ideas and roles of nationalist leaders (e.g., Jomo Kenyatta, Patrice Lumumba, and Gamal Abdel Nasser).",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Creation of New States and Decolonization (1940s-1980s)"
+    },
+    {
+      "code": "W.70",
+      "text": "Explain the fight against and dismantling of the apartheid system in South Africa, including the roles of Nelson Mandela and the African National Congress.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Creation of New States and Decolonization (1940s-1980s)"
+    },
+    {
+      "code": "W.71",
+      "text": "Analyze the political, economic, ethnic, and military challenges faced by newly-created countries in post-imperial Africa (e.g., civil war, genocide, corruption).",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Creation of New States and Decolonization (1940s-1980s)"
+    },
+    {
+      "code": "W.72",
+      "text": "Explain how ideological conflicts between capitalism and communism led to armed insurgencies, revolutions, and military dictatorships in Latin American nations, including: Argentina, Colombia, Cuba, and Nicaragua.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Creation of New States and Decolonization (1940s-1980s)"
+    },
+    {
+      "code": "W.73",
+      "text": "Describe how competing national, ethnic, and religious interests led to conflict and the establishment of new countries in the Balkans.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Creation of New States and Decolonization (1940s-1980s)"
+    },
+    {
+      "code": "W.74",
+      "text": "Compare and contrast the causes and effects of modern genocide, including in: Cambodia, Rwanda, and the former Yugoslavia.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Creation of New States and Decolonization (1940s-1980s)"
+    },
+    {
+      "code": "W.75",
+      "text": "Explain the causes and effects of German reunification on both West and East Germany.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Creation of New States and Decolonization (1940s-1980s)"
+    },
+    {
+      "code": "W.76",
+      "text": "Analyze the response of Arab countries to the creation of the State of Israel and the peace processes in the Middle East, including the Camp David and Oslo Accords.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Creation of New States and Decolonization (1940s-1980s)"
+    },
+    {
+      "code": "W.77",
+      "text": "Analyze the demographic changes of countries in post-World War II regions, using population pyramids and census data.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.78",
+      "text": "Explain the challenges of rapid population growth on developing countries (e.g., China and India) and of population decline in developed countries (e.g., Germany, Japan, and Sweden), and give examples of policies implemented to both slow and increase population growth.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.79",
+      "text": "Describe the cultural, economic, geographic, and political effects of significant technological, ideological, medical, and scientific developments and breakthroughs of the era.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.80",
+      "text": "Evaluate the impact of geospatial technologies (such as GPS and GIS) on retail, military, transportation, city planning, and communication.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.81",
+      "text": "Analyze the economic, political, and social impacts of drug and human trafficking in the contemporary era.",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.82",
+      "text": "Analyze how technology has intensified patterns of globalization and led to the idea of space-time compression, containerization, and computer technology.",
+      "strand": ["C", "E", "G", "H"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.83",
+      "text": "Explain the goals and consequences of trade organizations and treaties and how they have played a role in the growing global economic system.",
+      "strand": ["E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.84",
+      "text": "Identify examples of supranational organizations, and discuss the benefits and drawbacks of membership.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.85",
+      "text": "Analyze the causes and effects of an increased role of South and East Asian countries in the global economy.",
+      "strand": ["E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.86",
+      "text": "Describe the international importance and rapid economic development of the oil-rich Persian Gulf states.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.87",
+      "text": "Explain implications of the transition from the use of fossil fuels to alternative and renewable energy sources.",
+      "strand": ["E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.88",
+      "text": "Describe governing ideologies, conflicts among nations (e.g., Persian Gulf War), and popular religious or democratic movements in the Middle East/North Africa.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    },
+    {
+      "code": "W.89",
+      "text": "Analyze the causes and consequences of terrorism and international efforts to counteract it.",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Understanding the Contemporary World (1980s- present)"
+    }
+  ]
+}

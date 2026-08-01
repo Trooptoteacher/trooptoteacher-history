@@ -82,6 +82,19 @@ fail-closed OFF for all subjects (on-screen Cornell/vocab worksheets included �
 print activities). Canonical statement + enforcement:
 `history-hack-web-app/lib/feature-flags/SUBJECT_FEATURE_POLICY.md` and `optional-features.ts`.
 
+## 4b. Pacing anchor — WCS district calendar
+
+- **Every course's pacing guide is built against the adopting district's calendar,
+  not a generic 180-day year.** For the current pilot that is **WCS** —
+  `guardrails/wcs_calendar_2026-27.json` (177 instructional days: 83 in S1, 94 in
+  S2; quarter ends Oct 9 / Dec 18 / Mar 12 / May 27).
+- Unit pacing respects semester/quarter boundaries; no summative on a half day
+  (Aug 10, Dec 18, May 27) or the day before a multi-day break; carry a buffer for
+  the ~10 stockpiled weather days and the 27 6–12 late-start (45-min) days; reserve
+  the last 2–3 weeks of S2 for EOC/TCAP review + testing.
+- A new adopting district swaps in its own calendar JSON of the same shape; the
+  pacing rules are shared, only the dates change.
+
 ## 5. Accessibility, bias, and print-safety (carried from the format layer)
 
 - **UDL/MTSS** supports built in; **bilingual** (EN/ES) where the course serves

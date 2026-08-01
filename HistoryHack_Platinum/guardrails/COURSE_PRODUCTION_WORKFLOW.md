@@ -44,6 +44,7 @@ Per **course** (once):
 | 13 | **Schedule F self-assessment + adoption package** (manifests, SHA-256) | tn-textbook-adoption-agent |
 | 14 | **Web app integration** — narrative reader, library, assignments, gradebook, PLC, tools — **feature parity with U.S. History Hack** | history-hack-website-builder · learning-experience-designer |
 | 15 | **Testing** — test suite (vitest/axe) + **seeded testing database** — parity | website-builder |
+| 16 | **Pacing Guide** — units mapped to the **adopting district calendar** (WCS: `guardrails/wcs_calendar_2026-27.json`), semester/quarter boundaries, EOC/TCAP review window; **never a generic 180-day calendar** (see CORE §4b) | pacing anchor + course-standard-builder |
 
 ---
 

@@ -1,0 +1,485 @@
+{
+  "course": "tennessee-history",
+  "standardsPrefix": "TN",
+  "source": {
+    "drive_file_id": "1CJZALNvT7L8p3OxmA32EkMHO_tg3hQxO",
+    "title": "Tennessee.pdf",
+    "ingested_verbatim": true
+  },
+  "practices": [
+    {
+      "code": "SSP.01",
+      "text": "Collect data and information from a variety of primary and secondary sources, including: Printed materials (e.g., literary texts, newspapers, autobiographies, speeches, interviews, letters, personal journals); Graphic representations (e.g., maps, timelines, charts, political cartoons, photographs, artwork); Field observations/landscape analysis; Artifacts; Media and technology sources"
+    },
+    {
+      "code": "SSP.02",
+      "text": "Critically examine a primary or secondary source in order to: Extract and paraphrase significant ideas; Discern differences between evidence and assertion; Draw inferences and conclusions; Recognize author’s purpose, point of view, and potential bias; Assess the strengths and limitations of arguments"
+    },
+    {
+      "code": "SSP.03",
+      "text": "Synthesize data from a variety of sources in order to: Establish accuracy and validity by comparing sources to each other; Recognize disparities among multiple accounts; Frame appropriate questions for further investigation"
+    },
+    {
+      "code": "SSP.04",
+      "text": "Construct and communicate arguments citing supporting evidence to: Demonstrate and defend an understanding of ideas; Compare and contrast viewpoints; Illustrate cause and effect; Predict likely outcomes; Devise new outcomes or solutions"
+    },
+    {
+      "code": "SSP.05",
+      "text": "Develop historical awareness by: Recognizing how and why historical accounts change over time; Perceiving and presenting past events and issues as they might have been experienced by the people of the time, with historical empathy rather than present-mindedness; Evaluating how unique circumstances of time and place create context and contribute to action and reaction; Identifying patterns of continuity and change over time, making connections to the present"
+    },
+    {
+      "code": "SSP.06",
+      "text": "Develop geographic awareness by: Using the geographic perspective to analyze relationships, patterns, and diffusion across space at multiple scales (e.g., local, national, global); Analyzing and determining the use of diverse types of maps based on the origin, authority, structure, context, and validity; Analyzing locations, conditions, and connections of places and using maps to investigate spatial associations among phenomena; Examining how geographers use regions and how perceptions of regions are fluid across time and space; Analyzing interaction between humans and the physical environment"
+    }
+  ],
+  "standards": [
+    {
+      "code": "TN.01",
+      "text": "Describe changes in life in the Tennessee region from the late ice age through the Archaic period.",
+      "strand": ["C", "G", "H", "T"],
+      "geo": true,
+      "cluster": "Indigenous Peoples of Tennessee (c. 10,000-1,000 BCE)"
+    },
+    {
+      "code": "TN.02",
+      "text": "Compare and contrast features of life in the Tennessee region during the Woodland and Mississippian periods.",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Indigenous Peoples of Tennessee (c. 10,000-1,000 BCE)"
+    },
+    {
+      "code": "TN.03",
+      "text": "Analyze the customs and traditions of American Indians located in the Tennessee region prior to European contact, including: Cherokee; Chickasaw; Creek; Iroquois; Shawnee",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Indigenous Peoples of Tennessee (c. 10,000-1,000 BCE)"
+    },
+    {
+      "code": "TN.04",
+      "text": "Describe the impact of European exploration in the Tennessee region, including the significance of Christopher Columbus, Hernando de Soto, and Juan Pardo.",
+      "strand": ["C", "G", "H", "T"],
+      "geo": true,
+      "cluster": "Indigenous Peoples of Tennessee (c. 10,000-1,000 BCE)"
+    },
+    {
+      "code": "TN.05",
+      "text": "Describe the influx of British and French settlers and fur traders in the Tennessee region and their impact on American Indian tribes.",
+      "strand": ["C", "E", "G", "H", "T"],
+      "geo": true,
+      "cluster": "The Struggle for Tennessee’s Frontier (1600s-1700s)"
+    },
+    {
+      "code": "TN.06",
+      "text": "Explain the contest between the British, the French, and American Indians for land in the Tennessee region prior to the French and Indian War.",
+      "strand": ["C", "E", "G", "H", "T"],
+      "geo": true,
+      "cluster": "The Struggle for Tennessee’s Frontier (1600s-1700s)"
+    },
+    {
+      "code": "TN.07",
+      "text": "Describe the effects of migration into the Tennessee region, including the development of the Watauga and Cumberland Settlements.",
+      "strand": ["C", "G", "H", "T"],
+      "geo": true,
+      "cluster": "The Struggle for Tennessee’s Frontier (1600s-1700s)"
+    },
+    {
+      "code": "TN.08",
+      "text": "Identify episodes of fighting that occurred in the Tennessee region during the American Revolution (e.g., Battle of Kings Mountain) and the effects of American victory on the area.",
+      "strand": ["G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "The Struggle for Tennessee’s Frontier (1600s-1700s)"
+    },
+    {
+      "code": "TN.09",
+      "text": "Identify reasons for the foundation and failure of the independent state of Franklin in 1784.",
+      "strand": ["E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "From Territory to Statehood (1784-1796)"
+    },
+    {
+      "code": "TN.10",
+      "text": "Analyze the effects of land speculation on settlement in the Territory South of the River Ohio (i.e., the Southwest Territory).",
+      "strand": ["E", "G", "H", "T"],
+      "geo": true,
+      "cluster": "From Territory to Statehood (1784-1796)"
+    },
+    {
+      "code": "TN.11",
+      "text": "Analyze the conflicts between early Tennessee settlers and American Indians.",
+      "strand": ["E", "G", "H", "T"],
+      "geo": true,
+      "cluster": "From Territory to Statehood (1784-1796)"
+    },
+    {
+      "code": "TN.12",
+      "text": "Describe the events and trace the process of Tennessee achieving statehood in 1796.",
+      "strand": ["H", "P", "T"],
+      "geo": false,
+      "cluster": "From Territory to Statehood (1784-1796)"
+    },
+    {
+      "code": "TN.13",
+      "text": "Describe major features of the Tennessee Constitution of 1796. (T.C.A. §49-6-1028)",
+      "strand": ["P", "T", "TCA"],
+      "geo": false,
+      "cluster": "From Territory to Statehood (1784-1796)"
+    },
+    {
+      "code": "TN.14",
+      "text": "Analyze the growth of Middle Tennessee in the early 1800s in power and influence, including the relocation of the capital.",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Tennessee’s Coming of Age (1796-1812)"
+    },
+    {
+      "code": "TN.15",
+      "text": "Describe the distribution of slaves between the three grand divisions of Tennessee, the lives of free blacks and slaves, and the role of Tennesseans in the early abolition movement (e.g., Elihu Embree).",
+      "strand": ["C", "G", "H", "T"],
+      "geo": true,
+      "cluster": "Tennessee’s Coming of Age (1796-1812)"
+    },
+    {
+      "code": "TN.16",
+      "text": "Describe aspects of farm life, work, religion, and community for families in early Tennessee.",
+      "strand": ["C", "E", "H", "T"],
+      "geo": false,
+      "cluster": "Tennessee’s Coming of Age (1796-1812)"
+    },
+    {
+      "code": "TN.17",
+      "text": "Describe the economy of Tennessee in the early 19th century.",
+      "strand": ["E", "T"],
+      "geo": false,
+      "cluster": "Tennessee’s Coming of Age (1796-1812)"
+    },
+    {
+      "code": "TN.18",
+      "text": "Describe the New Madrid Earthquakes of 1811-12 and the resulting effects on the land and culture of Tennessee.",
+      "strand": ["C", "G", "H", "T"],
+      "geo": true,
+      "cluster": "Tennessee’s Coming of Age (1796-1812)"
+    },
+    {
+      "code": "TN.19",
+      "text": "Describe Tennessee’s involvement in the War of 1812 (e.g., Tennessee volunteers, Felix Grundy, Andrew Jackson), and analyze the role of American Indians during the war.",
+      "strand": ["C", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Tennessee’s Coming of Age (1796-1812)"
+    },
+    {
+      "code": "TN.20",
+      "text": "Describe the significance of the Mississippi River, the Jackson Purchase, and the introduction of cotton in the rapid growth of Memphis and West Tennessee.",
+      "strand": ["E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Tennessee’s Coming of Age (1796-1812)"
+    },
+    {
+      "code": "TN.21",
+      "text": "Explain the importance of transportation, technology, and geography in Tennessee’s growing involvement in the national economy after the War of 1812, including the significance of: Cash crops (e.g., cotton, tobacco); Natchez Trace; Road improvements; Steamboats",
+      "strand": ["E", "G", "H", "T"],
+      "geo": true,
+      "cluster": "Tennessee’s Golden Age (1800-1860)"
+    },
+    {
+      "code": "TN.22",
+      "text": "Describe the contributions of Presidents Andrew Jackson and James K. Polk to Tennessee and American history.",
+      "strand": ["C", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee’s Golden Age (1800-1860)"
+    },
+    {
+      "code": "TN.23",
+      "text": "Describe the impact of the Indian Removal Act and the Trail of Tears on Tennessee.",
+      "strand": ["C", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Tennessee’s Golden Age (1800-1860)"
+    },
+    {
+      "code": "TN.24",
+      "text": "Discuss the contributions of important figures during Tennessee’s “golden age,” including: John Bell; David Crockett; James C. Jones; Newton Cannon; Ephraim Foster; Sequoyah; William Carroll; Sam Houston; Hugh Lawson White",
+      "strand": ["C", "E", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee’s Golden Age (1800-1860)"
+    },
+    {
+      "code": "TN.25",
+      "text": "Identify the significance of the Tennessee Constitution of 1834. (T.C.A. §49-6-1028)",
+      "strand": ["P", "T", "TCA"],
+      "geo": false,
+      "cluster": "Tennessee’s Golden Age (1800-1860)"
+    },
+    {
+      "code": "TN.26",
+      "text": "Describe the development of slavery in Tennessee from 1800 to 1860, including the distribution of slaves and conflicting attitudes among the three grand divisions.",
+      "strand": ["C", "E", "G", "H", "T"],
+      "geo": true,
+      "cluster": "Tennessee’s Golden Age (1800-1860)"
+    },
+    {
+      "code": "TN.27",
+      "text": "Discuss the importance of the Nashoba Community and Free Hill as settlements for freed slaves.",
+      "strand": ["C", "G", "H", "T"],
+      "geo": true,
+      "cluster": "Tennessee’s Golden Age (1800-1860)"
+    },
+    {
+      "code": "TN.28",
+      "text": "Explain the causes of the Civil War and how geographic and political divisions impacted Tennessee’s secession.",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Tennessee: A Time of Troubles (1860-1865)"
+    },
+    {
+      "code": "TN.29",
+      "text": "Describe Tennessee’s role in the Civil War, including: Sieges of Fort Henry and Fort Donelson; Battle of Shiloh; Battle of Stones River; Chattanooga Campaign; Johnsonville Campaign; Battle of Franklin; Battle of Nashville",
+      "strand": ["G", "H", "T"],
+      "geo": true,
+      "cluster": "Tennessee: A Time of Troubles (1860-1865)"
+    },
+    {
+      "code": "TN.30",
+      "text": "Identify the contributions of Tennesseans during the Civil War, including: Sam Davis; William Driver; David Farragut; Nathan Bedford Forrest; Isham Harris; Andrew Johnson; Sam Watkins",
+      "strand": ["H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee: A Time of Troubles (1860-1865)"
+    },
+    {
+      "code": "TN.31",
+      "text": "Describe how the Civil War impacted various populations in Tennessee (e.g., African Americans, American Indians, and women).",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Tennessee during Reconstruction (1865-1880)"
+    },
+    {
+      "code": "TN.32",
+      "text": "Explain William Brownlow’s role in the development of Reconstruction.",
+      "strand": ["H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee during Reconstruction (1865-1880)"
+    },
+    {
+      "code": "TN.33",
+      "text": "Discuss the impeachment of President Andrew Johnson and its impact both nationally and in Tennessee.",
+      "strand": ["H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee during Reconstruction (1865-1880)"
+    },
+    {
+      "code": "TN.34",
+      "text": "Describe the rise, influence, and opposition of the Ku Klux Klan in Tennessee.",
+      "strand": ["C", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee during Reconstruction (1865-1880)"
+    },
+    {
+      "code": "TN.35",
+      "text": "Explain the development and efforts of the Freedmen’s Bureau schools, including Fisk University.",
+      "strand": ["C", "H", "T"],
+      "geo": false,
+      "cluster": "Tennessee during Reconstruction (1865-1880)"
+    },
+    {
+      "code": "TN.36",
+      "text": "Identify early elected black lawmakers and leaders in Tennessee (e.g., Sampson Keeble and William Yardley), and determine their significance.",
+      "strand": ["H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee during Reconstruction (1865-1880)"
+    },
+    {
+      "code": "TN.37",
+      "text": "Explain the development of the 1870 Tennessee Constitution. (T.C.A. § 49-6-1028)",
+      "strand": ["H", "P", "T", "TCA"],
+      "geo": false,
+      "cluster": "Tennessee during Reconstruction (1865-1880)"
+    },
+    {
+      "code": "TN.38",
+      "text": "Identify exodusters (e.g., Benjamin “Pap” Singleton), and describe their experiences.",
+      "strand": ["C", "E", "G", "H", "T"],
+      "geo": true,
+      "cluster": "Tennessee during Reconstruction (1865-1880)"
+    },
+    {
+      "code": "TN.39",
+      "text": "Explain developments in Tennessee’s farming during the late 19th century as a result of industrialization.",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Tennessee in the New South (1880-1890s)"
+    },
+    {
+      "code": "TN.40",
+      "text": "Describe the social, economic, and political changes to Tennessee in the post-Reconstruction era, and identify the laws put in place to exclude black lawmakers by 1890.",
+      "strand": ["C", "E", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee in the New South (1880-1890s)"
+    },
+    {
+      "code": "TN.41",
+      "text": "Discuss the impact of the yellow fever epidemic on Memphis.",
+      "strand": ["C", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Tennessee in the New South (1880-1890s)"
+    },
+    {
+      "code": "TN.42",
+      "text": "Describe the events that led to the Coal Creek Wars in Anderson and the surrounding counties over the state of Tennessee’s decision to replace coal miners with prisoners.",
+      "strand": ["C", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Tennessee in the New South (1880-1890s)"
+    },
+    {
+      "code": "TN.43",
+      "text": "Describe Tennessee’s Centennial Exposition, and explain its significance.",
+      "strand": ["C", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee in the New South (1880-1890s)"
+    },
+    {
+      "code": "TN.44",
+      "text": "Analyze the effect of Jim Crow laws on Tennessee, and identify the efforts of advocates for African Americans, including the significance of: W.E.B. Du Bois, James Napier, and Mary Church Terrell.",
+      "strand": ["C", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee in the New South (1880-1890s)"
+    },
+    {
+      "code": "TN.45",
+      "text": "Summarize the influence of and reactions to the temperance movement in Tennessee, including the murder of Senator Edward Carmack.",
+      "strand": ["C", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee: Reform and War (1900-1945)"
+    },
+    {
+      "code": "TN.46",
+      "text": "Describe Tennessee’s impact on the suffrage movement, including the following: “Perfect 36,” Harry Burn, Anne Dallas Dudley, and A.H. Roberts.",
+      "strand": ["C", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee: Reform and War (1900-1945)"
+    },
+    {
+      "code": "TN.47",
+      "text": "Explain Tennessee’s connection to World War I, including the impact of Alvin C. York and the Alcoa plant.",
+      "strand": ["C", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee: Reform and War (1900-1945)"
+    },
+    {
+      "code": "TN.48",
+      "text": "Identify Governor Austin Peay and his influence on Tennessee’s infrastructure and education.",
+      "strand": ["C", "E", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee: Reform and War (1900-1945)"
+    },
+    {
+      "code": "TN.49",
+      "text": "Analyze how the Scopes Trial reflected societal tension between tradition and modernity.",
+      "strand": ["C", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee: Reform and War (1900-1945)"
+    },
+    {
+      "code": "TN.50",
+      "text": "Describe major developments in country music (e.g., Grand Ole Opry, WSM, and the Carter family) and blues music (e.g., W.C. Handy and Bessie Smith) in Tennessee during this era.",
+      "strand": ["C", "G", "H", "T"],
+      "geo": true,
+      "cluster": "Tennessee: Reform and War (1900-1945)"
+    },
+    {
+      "code": "TN.51",
+      "text": "Describe how the Great Depression and New Deal programs impacted Tennesseans, including the significance of: the Agricultural Adjustment Act, Civilian Conservation Corps, Tennessee Valley Authority, and Great Smoky Mountains National Park.",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Tennessee: Reform and War (1900-1945)"
+    },
+    {
+      "code": "TN.52",
+      "text": "Analyze the impact Tennessee innovators (e.g., David Crosthwait and Clarence Saunders) had on the nation.",
+      "strand": ["E", "H", "T"],
+      "geo": false,
+      "cluster": "Tennessee: Reform and War (1900-1945)"
+    },
+    {
+      "code": "TN.53",
+      "text": "Evaluate Tennessee’s contributions during World War II, including the impact of Camp Forrest, Camp Tyson, and Oak Ridge as well as the influence of Tennesseans during the war (e.g., Cornelia Fort and Cordell Hull).",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Tennessee: Reform and War (1900-1945)"
+    },
+    {
+      "code": "TN.54",
+      "text": "Describe major agricultural shifts in Tennessee post-World War II and their impact economically and socially.",
+      "strand": ["C", "E", "G", "H", "T"],
+      "geo": true,
+      "cluster": "Tennessee in Modern Times (1945-present)"
+    },
+    {
+      "code": "TN.55",
+      "text": "Analyze the significance of key Tennesseans on both the state and national level during the 1950s and 1960s, including: Frank Clement, Ed Crump, Al Gore, Sr., Estes Kefauver, and John Seigenthaler.",
+      "strand": ["C", "E", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee in Modern Times (1945-present)"
+    },
+    {
+      "code": "TN.56",
+      "text": "Describe Tennessee’s role in the Civil Rights Movement (e.g., sit-ins and Diane Nash, Highlander Folk School, Tent City Movement of Fayette County, Columbia Race Riots, and the Clinton Twelve). (T.C.A. § 49-6-1006)",
+      "strand": ["C", "H", "P", "T", "TCA"],
+      "geo": false,
+      "cluster": "Tennessee in Modern Times (1945-present)"
+    },
+    {
+      "code": "TN.57",
+      "text": "Identify major Tennessee figures involved in the Civil Rights Movement (e.g., Rev. James Lawson, Kelly Miller Smith). (T.C.A. § 49-6-1006)",
+      "strand": ["C", "H", "P", "T", "TCA"],
+      "geo": false,
+      "cluster": "Tennessee in Modern Times (1945-present)"
+    },
+    {
+      "code": "TN.58",
+      "text": "Describe the purpose of Martin Luther King, Jr.’s presence in Memphis, the circumstances leading to his assassination, and the significance of the placement of the National Civil Rights Museum at the Lorraine Motel. (T.C.A. § 49-6-1006)",
+      "strand": ["C", "G", "H", "P", "T", "TCA"],
+      "geo": true,
+      "cluster": "Tennessee in Modern Times (1945-present)"
+    },
+    {
+      "code": "TN.59",
+      "text": "Discuss the development of rock ‘n’ roll music in Tennessee and its impact on the changing American culture, including the significance of: Elvis Presley, Stax Records, and Sun Studio.",
+      "strand": ["C", "H", "T"],
+      "geo": false,
+      "cluster": "Tennessee in Modern Times (1945-present)"
+    },
+    {
+      "code": "TN.60",
+      "text": "Describe cultural developments in Tennessee during the 1970s and 1980s, including: Country Music Hall of Fame, Music Row, Opryland, and the 1982 World’s Fair.",
+      "strand": ["C", "E", "H", "T"],
+      "geo": false,
+      "cluster": "Tennessee in Modern Times (1945-present)"
+    },
+    {
+      "code": "TN.61",
+      "text": "Identify the contributions of influential Tennesseans of the era, including: Lamar Alexander; Alex Haley; Pat Summitt; Howard Baker; Dolly Parton; Fred Thompson; Al Gore, Jr.; Wilma Rudolph; Oprah Winfrey",
+      "strand": ["C", "E", "H", "P", "T"],
+      "geo": false,
+      "cluster": "Tennessee in Modern Times (1945-present)"
+    },
+    {
+      "code": "TN.62",
+      "text": "Identify major attractions and events that fuel the tourism industry in Tennessee, including the impact of: Bristol Motor Speedway; Pigeon Forge (Gatlinburg); Civil War sites; State and national parks; CMA Music Festival; Tennessee Aquarium; Graceland",
+      "strand": ["C", "E", "G", "H", "T"],
+      "geo": true,
+      "cluster": "Tennessee in Modern Times (1945-present)"
+    },
+    {
+      "code": "TN.63",
+      "text": "Discuss the impact of major businesses in Tennessee, such as: AutoZone; Nissan; Eastman; Toyota; FedEx; Volkswagen; HCA",
+      "strand": ["C", "E", "T"],
+      "geo": false,
+      "cluster": "Tennessee in Modern Times (1945-present)"
+    },
+    {
+      "code": "TN.64",
+      "text": "Describe significant and/or unique products from Tennessee (e.g., Cracker Barrel, Goo Goo Cluster, Moon Pie, Mountain Dew).",
+      "strand": ["C", "E", "H", "P"],
+      "geo": false,
+      "cluster": "Tennessee in Modern Times (1945-present)"
+    }
+  ]
+}

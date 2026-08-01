@@ -1,0 +1,23 @@
+{
+  "id": "tennessee-history",
+  "displayName": "Tennessee History",
+  "standardsPrefix": "TN",
+  "rcPrefix": "TNRC",
+  "status": "phase-0-standards-ingest",
+  "contentReady": false,
+  "inherits": [
+    "../HistoryHack_Platinum/guardrails/SOCIAL_STUDIES_CORE_GUARDRAILS.md",
+    "../HistoryHack_Platinum/guardrails/COURSE_PRODUCTION_WORKFLOW.md"
+  ],
+  "reference": "../HistoryHack_Platinum",
+  "standards": {
+    "source": "standards/",
+    "ingested": false
+  },
+  "units": [],
+  "pacing_anchor": {
+    "district": "WCS",
+    "calendar": "../HistoryHack_Platinum/guardrails/wcs_calendar_2026-27.json",
+    "note": "Pace all units to the WCS 2026-27 semester/quarter boundaries (177 instructional days). Not a generic 180-day calendar."
+  }
+}
