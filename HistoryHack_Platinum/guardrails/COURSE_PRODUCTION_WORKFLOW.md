@@ -63,9 +63,13 @@ Each phase has a **hard gate** that must pass before the next begins.
 - *Gate:* de-bias parity test passes; every geography standard has `geo_places`.
 
 **Phase 2 · Sourcing & asset crosswalk**  ← *the sourcing backbone*
-- Build the **primary-source + image/map/chart list** per standard; populate the
-  `*_images.json` asset records (file, medium, title, creator, year, **citation**,
-  **rights/license**, alt). Author **maps** for every geography standard and
+- **Ingest the course's completed sourcing spreadsheet first** (these already exist
+  in Drive per course — e.g. `Government_Hack_Primary_Source_Sourcing_List_Completed.xlsx`
+  with a verified Download Manifest: title, creator, date, repository, citation,
+  rights, MIME, dimensions, SHA-256). Run `ingest_sourcing_list.py <xlsx> <course>_images.json`
+  to load them into the asset catalog — **do not re-source what is already cited.**
+- Then fill any remaining gaps: populate `*_images.json` asset records (file,
+  medium, title, creator, year, **citation**, **rights/license**, alt). Author **maps** for every geography standard and
   **charts/graphs** where data is used. Capture **geographic positions** in
   `geo_places`. Fill `geo_provenance.json` with **authoritative citations only —
   no tertiary encyclopedias**.
