@@ -11,7 +11,7 @@ visual layer touches. **Honesty doctrine applies: scored as-built, gaps stated p
 
 | Indicator | Score | As-built evidence / gap |
 |---|---|---|
-| **Content accuracy** (foundational — TDOE Policy 2.600) | **2** | Data graphics all verified (see `FACTCHECK_REPORT.md`). The one map with **known errors (US.48) has been dropped** (clean PD replacement identified for sourcing — see `US.48/MAP_DROPPED_pearl_harbor.md`). No shipping asset carries a known factual error; US.57/US.58 require only a caption caveat (minor). |
+| **Content accuracy** (foundational — TDOE Policy 2.600) | **2** | Data graphics all verified (see `FACTCHECK_REPORT.md`). The erroneous US.48 map was replaced with the **clean, authoritative PD map — U.S. Navy NHHC 80-G-947105** (verified visually; official "approximate positions" chart). No shipping asset carries a known factual error; US.57/US.58 require only a caption caveat (minor). |
 | **SSP.06 Geographic awareness** (Table 3) | **2** | Maps for US.47 (camps), US.50 (D-Day + Pacific), US.53 (migration), US.54 (WRA camps), US.56 (Manhattan sites), US.57 (occupation zones), US.58 (UN) give students real geographic reasoning material across the unit. |
 | **Disciplinary literacy** (Table 2) | **2** | Data graphics (unemployment, Lend-Lease, war production, casualties, incarceration) require reading charts/quantitative evidence; maps require spatial reasoning. |
 | **Multiple perspectives** (Table 2) | **2** | Visual set spans home front, women, Black war workers + Great Migration, Japanese American incarceration, the Holocaust — not a single-narrative set. |
@@ -22,18 +22,18 @@ visual layer touches. **Honesty doctrine applies: scored as-built, gaps stated p
 
 | # | Sev | Asset | Issue | Remediation |
 |---|---|---|---|---|
-| 1 | ~~MAJOR~~ **RESOLVED** | `US.48_pearl_harbor_attack_map.png` | Had documented compass/ship-order errors. | ✅ **DROPPED** (2026-08-01). Clean PD replacement identified for the agent to source: NHHC 80-G-947105 "Map of Pearl Harbor, Territory of Hawaii" (see `US.48/MAP_DROPPED_pearl_harbor.md`). US.48 carried by the losses chart + Pearl Harbor photos meanwhile. |
+| 1 | ~~MAJOR~~ **RESOLVED** | `US.48_pearl_harbor_attack_map.png` | Had documented compass/ship-order errors. | ✅ **REPLACED** (2026-08-01) with the clean, authoritative PD map — U.S. Navy **NHHC 80-G-947105** ("approximate positions" chart, verified). Erroneous schematic removed. |
 | 2 | **MINOR** | `US.57_germany_occupation_zones_map.jpg` | Modified-map / anachronism caveat — could misdate/misattribute if used raw. | Mandatory caption caveat stating date + that it is a modified/derivative map; or replace with a clean PD occupation-zones map. |
 | 3 | **MINOR** | `US.58_un_51_member_states_map.jpg` | 1945/1946 caption-error risk (Newsmap dating). | Caption must state the correct date; verify against the source before print. |
 
 ## Maps recommendation (Schedule-F-grounded)
 
-- **Approve for use:** US.47 Holocaust camps, US.50 D-Day, US.50 Pacific — clean, sourced, accurate.
+- **Approve for use:** US.47 Holocaust camps, US.48 Pearl Harbor (NHHC 80-G-947105), US.50 D-Day, US.50 Pacific — clean, sourced, accurate.
 - **Approve (built schematics):** US.53 Great Migration, US.54 WRA camps, US.56 Manhattan sites —
   academically defensible **because** they are clearly labeled "schematic," plot documented
   locations on a PD U.S. Census basemap, and cite authoritative data (NPS/WRA/Census). They support
   SSP.06 and carry no license risk. A TDOE reviewer accepts a labeled schematic with sourced data.
-- **Fix or drop before approval:** US.48 (MAJOR — known errors), US.57 & US.58 (MINOR — caption).
+- **Caption caveat before use:** US.57 & US.58 (MINOR — anachronism / date).
 - **No map (resolved):** US.46 removed; US.45 & US.49 optional, never built.
 
 ## Section verdict
