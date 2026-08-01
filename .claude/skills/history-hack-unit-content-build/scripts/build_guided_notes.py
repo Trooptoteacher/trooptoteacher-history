@@ -165,8 +165,30 @@ def find_cornell_table(doc, code):
     raise ValueError(f"Cornell table for {code} not found")
 
 
+def ensure_cue_rows(cornell_tbl, n):
+    """Expand the Cornell table so there are exactly `n` cue-content rows before the
+    'Key terms →' row. The committed workbook ships 3 cue rows, but a standard's guided cues
+    need one row per DI segment (4 for most, 5 for US.51). Deep-copies the last content row
+    (preserving the ruled 'My notes' cell) and inserts it before the Key-terms row, clearing
+    the copied cue cell. Returns the final cue-row count. Call this BEFORE seed_guided_cornell."""
+    rows = cornell_tbl.findall(qn("w:tr"))
+    kt = next((r for r in rows if "Key terms" in _ptext(r)), None)
+    header = rows[0] if rows else None
+    content = [r for r in rows if r is not header and r is not kt]
+    while len(content) < n and content and kt is not None:
+        newrow = copy.deepcopy(content[-1])
+        cell0 = newrow.findall(qn("w:tc"))[0]
+        for p in cell0.findall(qn("w:p")):
+            for r in p.findall(qn("w:r")):
+                p.remove(r)
+        kt.addprevious(newrow)
+        content.append(newrow)
+    return len(content)
+
+
 def seed_guided_cornell(cornell_tbl, cues):
-    """Fill the cue column (col 0) of rows 1..len(cues). `cues` is a list of
+    """Fill the cue column (col 0) of rows 1..len(cues). Call `ensure_cue_rows(tbl, len(cues))`
+    first so the table has enough rows. `cues` is a list of
     (topic, deck_marker, guiding_question) triples in LECTURE ORDER. Row 0 is the
     header; the final 'Key terms →' row is left untouched."""
     rows = cornell_tbl.findall(qn("w:tr"))
@@ -285,8 +307,10 @@ SELF_CHECK = "☐  I named the idea      ☐  I defined it in my own words      
 
 def apply_standard(doc, code, ref_supports_block):
     cfg = STANDARDS[code]
-    # FRONT — seed cues
-    seed_guided_cornell(find_cornell_table(doc, code), cfg["cues"])
+    # FRONT — expand rows to match the DI-segment count, then seed cues
+    tbl = find_cornell_table(doc, code)
+    ensure_cue_rows(tbl, len(cfg["cues"]))
+    seed_guided_cornell(tbl, cfg["cues"])
     # BACK — clone reference NOTES SUPPORTS unless this standard already has one
     if code != "US.45":
         anchor = None
