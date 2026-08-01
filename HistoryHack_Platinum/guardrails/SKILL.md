@@ -16,6 +16,13 @@ description: >-
 
 # History Hack — Course Standard (Platinum) Builder
 
+> ⚑ **Inherits the suite CORE guardrails — [`SOCIAL_STUDIES_CORE_GUARDRAILS.md`](./SOCIAL_STUDIES_CORE_GUARDRAILS.md).**
+> Those rules (authoritative sourcing / **no tertiary encyclopedias**, geography-as-priority,
+> SME review tracking, verbatim standards alignment, accessibility/de-bias, compliance & currency)
+> are **course-agnostic** and apply to **every** Social Studies Hack course — Government Hack,
+> World History Hack, and beyond. This file is the U.S. History **format** layer *on top of* that
+> core; it may add rules, never weaken them. When building a new course, load the CORE first.
+
 **Unit 5 is the canonical template. Every Course Standard deliverable must match it exactly —
 no deviation.** This skill encodes the exact design tokens, document structure, build scripts,
 and the hard rules so any unit's workbook, teacher guide, and decks come out identical in

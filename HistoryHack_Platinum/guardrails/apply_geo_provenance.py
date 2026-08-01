@@ -143,7 +143,7 @@ def main():
     json.dump(ledger, open(LEDGER, "w", encoding="utf8"), ensure_ascii=False, indent=2)
 
     stamped = 0
-    for f in sorted(glob.glob(os.path.join(ROOT, "build_unit*", "unit*_content.json"))):
+    for f in sorted(glob.glob(os.path.join(ROOT, "build_*", "*_content.json"))):
         d = json.load(open(f, encoding="utf8"))
         std = d.get("standards", {})
         changed = False

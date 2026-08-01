@@ -30,7 +30,7 @@ root = root or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # slip back in.
 DISALLOWED = ("britannica.com", "wikipedia.org", "wikimedia.org")
 
-files = sorted(glob.glob(os.path.join(root, "build_unit*", "unit*_content.json")))
+files = sorted(glob.glob(os.path.join(root, "build_*", "*_content.json")))
 rows, pending, tertiary = [], 0, []
 for f in files:
     try:
