@@ -61,15 +61,25 @@ for line in git("ls-tree", "-r", "-l", REF, SRC_SUBTREE).splitlines():
     _mode, _type, sha1, size = meta.split()
     rows.append((sha1, int(size) if size != "-" else 0, path))
 
+# Rendered-OUTPUT path fragments to skip (source may live under BUILD/, so we
+# do NOT blanket-skip BUILD/ — we skip only the rendered-output subpaths and let
+# the binary-ext + size-cap rules catch the rest). Content JSON, the engine
+# (.js/.py), deck builders, and image manifests under BUILD/ are SOURCE and kept.
+OUTPUT_FRAGMENTS = ("/deliverables/", "/exports/", "/pages/", "/print-ready/")
+
 extracted, manifested, skipped = [], [], []
 for sha1, size, path in rows:
     rel = path[len(SRC_SUBTREE):].lstrip("/")          # strip source root
     ext = os.path.splitext(path)[1].lower()
     base = os.path.basename(path)
     ext_key = base if base in (".gitignore", ".gitkeep") else ext
-    # Skip regenerable intermediates entirely.
-    if rel.split("/", 1)[0] == "BUILD" or "/BUILD/" in ("/" + rel):
-        skipped.append((rel, size, "BUILD intermediate"))
+    # Skip rendered-output subpaths (regenerable) — but keep source under BUILD/.
+    if any(frag in ("/" + rel) for frag in OUTPUT_FRAGMENTS):
+        if ext_key in BIN_EXT:
+            manifested.append({"path": rel, "bytes": size, "git_blob_sha1": sha1,
+                               "source_ref": REF, "release_url": None, "drive_url": None})
+        else:
+            skipped.append((rel, size, "rendered output"))
         continue
     if ext_key in BIN_EXT:
         manifested.append({"path": rel, "bytes": size, "git_blob_sha1": sha1,
@@ -111,8 +121,12 @@ if APPLY:
     open(mpath, "a").write("\n")
     gi = os.path.join(REPO, TARGET_ROOT, ".gitignore")
     with open(gi, "w") as fh:
-        fh.write("# Regenerable build intermediates — never committed (source-lean).\n"
-                 "BUILD/\n")
+        # Source may live under BUILD/, so ignore only rendered-OUTPUT dirs +
+        # binary artifacts (never the source content/engine/builders under BUILD/).
+        fh.write("# Rendered output + print binaries — regenerable, never committed\n"
+                 "# (source-lean; source content/engine under BUILD/ IS committed).\n"
+                 "**/deliverables/\n**/exports/\n**/pages/\n**/print-ready/\n"
+                 "*.docx\n*.pdf\n*.pptx\n*.jpg\n*.jpeg\n*.png\n*.zip\n")
     print(f"  wrote {len(extracted)} source files, "
           f"{TARGET_ROOT}/07_DEPLOY/DELIVERABLES_MANIFEST.json, {TARGET_ROOT}/.gitignore")
 else:
