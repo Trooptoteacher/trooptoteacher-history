@@ -72,6 +72,16 @@ The mechanisms and tools below are shared; only the data changes.
 - Every deliverable maps to its standard; the standards *range* is a course
   parameter, not a hard-coded US.xx list.
 
+## 5a. Print-first feature policy (web app)
+
+The product is **print-first / read-first**: the workbook and readable textbook are the
+deliverable; the web app is used **only when it does something print can't** (audio,
+translation, auto-scoring/data, resource access). **Every subject gets the same lean core
+US History shows — a new course adds content, never new web surface.** Everything else stays
+fail-closed OFF for all subjects (on-screen Cornell/vocab worksheets included — those are
+print activities). Canonical statement + enforcement:
+`history-hack-web-app/lib/feature-flags/SUBJECT_FEATURE_POLICY.md` and `optional-features.ts`.
+
 ## 5. Accessibility, bias, and print-safety (carried from the format layer)
 
 - **UDL/MTSS** supports built in; **bilingual** (EN/ES) where the course serves
