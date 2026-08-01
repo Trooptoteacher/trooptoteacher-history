@@ -100,6 +100,21 @@ they work for any course that follows the layout:
   places/sources/review status across all units and **fails on tertiary sources**
   or (with `--require-approved`) on any standard not yet SME-approved. Wire it into
   each course's build and the quarterly Administrative Review.
+- **`guardrails/asset_standards_crosswalk.py`** — the **source & asset crosswalk**:
+  rolls every primary source, image, map, and chart up against the standard it
+  serves (with citation, license, and geographic positions), and with `--strict`
+  fails on any standard missing a primary source, any asset missing a
+  citation/license, or any geography standard missing positions. This is the
+  sourcing backbone of Phase 2.
+
+## Building a whole course
+
+See **[`COURSE_PRODUCTION_WORKFLOW.md`](./COURSE_PRODUCTION_WORKFLOW.md)** — the
+cradle-to-grave pipeline (Phase 0 standards ingest → 9 adoption package), the full
+per-course deliverable inventory (workbooks, teacher guides, decks, organizer
+toolkit, assessment book, covers, lesson plans, narrative textbook with the flight
+crew + Flight Logs, and the DBQ book last), the web-app + testing-DB parity
+requirement, the quality gates, and the skill that owns each phase.
 
 ## Starting a new Social Studies Hack course (Government, World History, …)
 
