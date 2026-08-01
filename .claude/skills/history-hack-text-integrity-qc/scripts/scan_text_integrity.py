@@ -47,8 +47,9 @@ def cls_truncation(t):
         if DANGLE_RE.search(s):
             return ("BLOCKER", "truncation", "long text cut off mid-clause (ends on a dangling word + ellipsis)")
         return ("MAJOR", "truncation", "long text ends with an ellipsis — confirm it is not an intended source elision")
-    if len(s) > 40 and DANGLE_RE.search(s):
-        return ("MAJOR", "truncation", "ends on a dangling word — likely cut off (verify)")
+    # NOTE: a dangling-word ending WITHOUT an ellipsis is not checked — real in-source truncations
+    # always leave a "…", and the no-ellipsis variant only produced false positives (answer keys
+    # ending "4. A", instructions ending "…on"). Silent mid-box clipping is the overflow check's job.
     return None
 
 def cls_noterminal(t):
@@ -152,7 +153,10 @@ def main():
         counts[sev] = counts.get(sev, 0) + 1
         print(f"[{sev}] {cat} · {loc}\n    {why}\n    “{snip}”")
     print(f"\nTOTAL: {counts['BLOCKER']} blocker, {counts['MAJOR']} major, {counts['MINOR']} minor")
-    sys.exit(1 if counts["BLOCKER"] or counts["MAJOR"] else 0)
+    if counts["MAJOR"]:
+        print("(MAJOR = advisory: overflow leads to render-confirm, long-ellipsis to check vs. elision)")
+    # gate on BLOCKER only — MAJOR/overflow need a human render-confirm, not an auto-fail
+    sys.exit(1 if counts["BLOCKER"] else 0)
 
 if __name__ == "__main__":
     main()

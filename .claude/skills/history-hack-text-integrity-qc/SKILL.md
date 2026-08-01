@@ -1,6 +1,6 @@
 ---
 name: history-hack-text-integrity-qc
-description: "End-of-unit quality-control check that catches INCOMPLETE, CLIPPED, or PLACEHOLDER text before a unit ships — decks (.pptx) and workbooks (.docx). Born from a real Unit 6 defect: vocabulary definitions and answer-key rationales authored with a trailing '…' that ran off the card ('…annex the Sudetenland from…'). Run it in the final QC pass on every unit's Student Workbook, Teacher Deck, and Student Deck (alongside the lesson-flow QC and Schedule F self-score). Flags: text cut off mid-clause (ends on a dangling word + ellipsis), long text ending in an ellipsis (verify vs. an intended source elision), text that likely overflows its box (a render-confirm lead), and leftover placeholders (lorem/xxx/TODO/[insert). Deliberately does NOT flag short sentence stems ('My goal is…', 'I can…') or fill-in prompts — those ellipses are intentional. Produces a severity-ranked list (BLOCKER/MAJOR/MINOR) and exits non-zero if any BLOCKER/MAJOR, so it can gate a build. It reports; fixes go to the content owner (history-hack-unit-content-build) or the deck build."
+description: "End-of-unit quality-control check that catches INCOMPLETE, CLIPPED, or PLACEHOLDER text before a unit ships — decks (.pptx) and workbooks (.docx). Born from a real Unit 6 defect: vocabulary definitions and answer-key rationales authored with a trailing '…' that ran off the card ('…annex the Sudetenland from…'). Run it in the final QC pass on every unit's Student Workbook, Teacher Deck, and Student Deck (alongside the lesson-flow QC and Schedule F self-score). Flags: text cut off mid-clause (ends on a dangling word + ellipsis), long text ending in an ellipsis (verify vs. an intended source elision), text that likely overflows its box (a render-confirm lead), and leftover placeholders (lorem/xxx/TODO/[insert). Deliberately does NOT flag short sentence stems ('My goal is…', 'I can…') or fill-in prompts — those ellipses are intentional. Produces a severity-ranked list (BLOCKER/MAJOR/MINOR) and exits non-zero on any BLOCKER so it can gate a build (MAJOR is advisory — overflow and elision leads a human render-confirms). It reports; fixes go to the content owner (history-hack-unit-content-build) or the deck build."
 license: Proprietary
 metadata:
   author: "TroopToTeacher Technologies LLC"
@@ -27,7 +27,6 @@ content error, full stop.
 |---|---|---|
 | Long text cut off mid-clause (dangling word **+** ellipsis) | **BLOCKER** | "…one-party dictatorship under leaders like…" |
 | Long text ending in an ellipsis (confirm it isn't an intended quote elision) | **MAJOR** | "…the deaths of 6 million Jews and…" |
-| Long text ending on a dangling word (no ellipsis) | **MAJOR** | "Directed U.S. grand strategy across two theaters and" |
 | Text likely overflowing its box (font-size-aware estimate) | **MAJOR** (render to confirm) | a 210-char definition in a 0.46-in box |
 | Leftover placeholder / TODO | **BLOCKER** | "lorem ipsum", "xxx", "TODO", "[insert date]" |
 | **Intentional** — short sentence stems / fill-in prompts | *ignored* | "My goal for this unit is…", "LEARNING TARGETS — I can…" |
@@ -46,7 +45,11 @@ python scripts/scan_text_integrity.py <TEACHER.pptx> <STUDENT.pptx> <WORKBOOK.do
 - Text is authoritative for **truncation/placeholder** — those verdicts are reliable from the scan.
 - The **overflow** finding is a *lead*: render the flagged slide (`soffice --headless --convert-to
   pdf` + `pypdfium2`/`pdftoppm`) and read it. Pixels decide whether it actually clips.
-- Exit code is 1 if any BLOCKER/MAJOR remains, 0 when clean — wire it into the build gate.
+- Exit code gates on **BLOCKER only** (0 = pass). MAJOR is advisory — overflow leads to render-confirm
+  and long-ellipsis endings to check against intended source elisions — a human clears those, not the gate.
+- A dangling-word ending **without** an ellipsis is intentionally NOT flagged: real in-source truncations
+  always leave a "…", and the no-ellipsis variant only produced false positives (answer keys ending
+  "4. A", instructions ending "…on"). Silent mid-box clipping is caught by the overflow check instead.
 
 ## Method (two passes, like the other QC agents)
 
