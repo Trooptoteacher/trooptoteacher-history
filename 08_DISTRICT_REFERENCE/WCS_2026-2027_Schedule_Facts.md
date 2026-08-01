@@ -10,17 +10,27 @@ District: **Williamson County Schools (WCS)**. Product context: **grades 9–12 
 
 ## 1. Class-time / late-start facts (drives the lesson-plan schedule picker)
 
-- **Regular days:** WCS bell schedule. The app already models three WCS period lengths — **46 / 43 / 41 min** (`ScheduleId = "min-46" | "min-43" | "min-41"`). Which one is "most days" vs. special-schedule days still needs confirming against the school's actual bell schedule.
-- **Late-start days (grades 6–12):** school starts **45 minutes late → shortened periods**. **27 late-start dates**, mostly **Mondays**. The per-period minutes on a late-start day are NOT in the calendar; they come from the school bell schedule (⚠️ still needed to set exact defaults).
+> ⚠️ **Bell schedules are per-school.** The exact numbers below are **Franklin High School (FHS) 2026–27** (`FHS_Bell_Schedule_2026-27.pdf`, saved alongside). WCS has several high schools; other schools may differ, so treat the schedule set as school-scoped and default to the teacher's school (FHS for the pilot).
+
+**FHS 2026–27 bell schedules (period length):**
+
+| Schedule | Period length | First bell | Notes |
+|---|---|---|---|
+| **Regular** (default) | **47 min** | 7:40 (1st) | 7 periods + SAIL/FN5 advisory 10:14–10:42 + A/B/C lunch waves |
+| **Activities** | **43 min** | 7:40 (1st) | includes a 45-min "Activity" block 9:20–10:05 |
+| **Late Start** | **41 min** | 8:25 (1st) | PLC meetings 7:25–8:10 first; used on the 27 late-start dates |
+
+- **App correction needed:** the app currently models `min-46 / min-43 / min-41`. The **43** (Activities) and **41** (Late Start) match FHS exactly, but **`min-46` should be `min-47`** for FHS Regular. Rename/add `min-47` as the FHS Regular default.
+- **Late-start days (grades 6–12):** school starts 45 minutes late; **FHS late-start period = 41 min**. **27 late-start dates**, almost all **Mondays** (list below). Auto-detect these dates → default to the 41-min Late Start schedule.
 - **6–12 Late Start dates (27):**
   - **Sem 1:** Aug 18, Aug 24, Aug 31, Sep 8, Sep 14, Sep 21, Sep 28, Oct 5, Oct 19, Oct 26, Nov 2, Nov 9, Nov 16, Nov 30, Dec 7
   - **Sem 2:** Jan 5, Jan 11, Jan 19, Jan 25, Feb 1, Feb 8, Feb 22, Mar 1, Mar 8, Mar 22, Mar 29, Apr 5
 - **K–5 Early Release:** 11 dates, 113 min — *not relevant to the HS product.*
 
 ### Lesson-plan schedule picker (design)
-- **Default = WCS schedule.** Options: **Regular (WCS)** · **Late-Start / Monday (short)** · **Custom minutes** (e.g., teacher enters 50) · **Block schedule** (e.g., 90 min).
-- **Auto-detect:** if the teacher picks a date that is one of the 27 late-start dates above, default the picker to the Late-Start schedule (teacher can override).
-- ⚠️ **Still needed from the school:** the actual bell-schedule minute values — regular period length AND late-start period length — to set the true numeric defaults. (46/43/41 are in code but not yet mapped to "regular vs. late-start.")
+- **Default = FHS Regular (47 min).** Options: **Regular (47)** · **Activities (43)** · **Late-Start / Monday (41)** · **Custom minutes** (e.g., teacher enters 50) · **Block schedule** (e.g., 90 min).
+- **Auto-detect:** if the teacher picks a date that is one of the 27 late-start dates below, default the picker to the **41-min Late Start** schedule (teacher can override).
+- **Bell-schedule minutes are now known (FHS):** 47 / 43 / 41 — no open gap for FHS. Other WCS high schools would need their own bell-schedule PDFs to populate school-specific numbers.
 
 ---
 
