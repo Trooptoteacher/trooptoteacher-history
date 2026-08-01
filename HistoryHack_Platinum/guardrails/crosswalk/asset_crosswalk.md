@@ -8,7 +8,9 @@
 - ✅ **Standards with NO primary source (text or image):** none
 - ✅ **Image assets missing a citation:** none
 - ✅ **Image assets missing rights/license:** none
+- ⛔ **Image assets from a NON-approved source (blocked/unrecognized):** US.28/anchor [unknown]
 - ✅ **Geography standards with NO geo_places (positions not captured):** none
+- ⚠️ **Image assets hosted on Wikimedia Commons/DPLA (prefer original repository) (WARN):** US.02/anchor, US.32/anchor, US.39/anchor, US.41/anchor, US.43/anchor, US.45/anchor, US.47/anchor, US.48/anchor, US.50/anchor, US.51/anchor, US.53/anchor, US.54/anchor, US.56/anchor, US.57/anchor, US.58/anchor, US.59/anchor, US.60/anchor, US.61/anchor, US.62/anchor, US.63/anchor, US.64/anchor, US.65/anchor, US.66/anchor, US.68/anchor, US.69/anchor, US.70/anchor, US.71/anchor, US.72/anchor, US.73/anchor, US.74/anchor, US.75/anchor, US.76/anchor, US.77/anchor, US.78/anchor, US.79/anchor, US.80/anchor, US.81/anchor, US.82/anchor
 - ⚠️ **Geography standards with no map asset (WARN):** US.01, US.11, US.18, US.19, US.21, US.22, US.23, US.25, US.28, US.30, US.40, US.50, US.56, US.62, US.65, US.66, US.74, US.80, US.90, US.92
 
 ## Full crosswalk

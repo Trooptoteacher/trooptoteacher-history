@@ -25,10 +25,10 @@ for a in sys.argv[1:]:
     else: root = a
 root = root or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Tertiary/general-reference sources not accepted as citations under the TDOE
-# rubric (C5). Used only as fact-check aids, never cited. Flagged here so one can't
-# slip back in.
-DISALLOWED = ("britannica.com", "wikipedia.org", "wikimedia.org")
+# Source acceptability is governed by the shared approved-source policy
+# (guardrails/approved_sources.py) so geo citations and image assets use one rule.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from approved_sources import classify  # noqa: E402
 
 files = sorted(glob.glob(os.path.join(root, "build_*", "*_content.json")))
 rows, pending, tertiary = [], 0, []
@@ -52,7 +52,8 @@ for f in files:
         if status not in ("sme_approved", "n/a"):
             pending += 1
         for src in sources:
-            if any(dom in src.lower() for dom in DISALLOWED):
+            verdict = classify(src)
+            if verdict in ("blocked", "unknown"):
                 tertiary.append((unit, code, src))
 
 print(f"{'Unit':10} {'Std':7} {'Places':>6} {'Src':>4}  {'Review':16} By")
@@ -65,13 +66,13 @@ print(f"{len(rows)} geo standards | {pending} pending SME sign-off "
       f"| {sum(1 for r in rows if r[4]=='sme_approved')} approved")
 
 if tertiary:
-    print(f"\nTERTIARY-SOURCE VIOLATIONS ({len(tertiary)}) — not accepted under the rubric:")
+    print(f"\nOFF-ALLOWLIST SOURCES ({len(tertiary)}) — blocked/tertiary or unrecognized, not accepted under the rubric:")
     for unit, code, src in tertiary:
-        print(f"  {unit} {code}: {src}")
+        print(f"  {unit} {code}: [{classify(src)}] {src}")
 
 if (require_approved and pending) or tertiary:
     reasons = []
     if require_approved and pending: reasons.append(f"{pending} not SME-approved")
-    if tertiary: reasons.append(f"{len(tertiary)} tertiary source(s)")
+    if tertiary: reasons.append(f"{len(tertiary)} off-allowlist source(s)")
     print(f"\nFAIL: {'; '.join(reasons)}.")
     sys.exit(1)

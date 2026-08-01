@@ -27,10 +27,17 @@ The mechanisms and tools below are shared; only the data changes.
   Archives, Library of Congress, National Park Service, U.S. Army/Navy history
   commands, the relevant state historical encyclopedia (e.g. Tennessee
   Encyclopedia), presidential libraries, peer-reviewed scholarship.
-- **No tertiary/general encyclopedias as citations.** Britannica, Wikipedia, and
-  similar are **fact-check aids only — never cited sources.** This is enforced by
-  `geo_review_audit.py` (flags any `britannica`/`wikipedia` URL and exits
-  non-zero). Applies to every course.
+- **Approved-source allowlist (enforced).** `guardrails/approved_sources.py` is the
+  single policy: `classify(url_or_repo)` returns **approved** (authoritative
+  government/archival/scholarly — LoC, NARA, Office of the Historian, NPS, Army/Navy
+  history, Smithsonian, Tennessee Encyclopedia, `*.gov`/`*.edu`, …), **prefer_original**
+  (Wikimedia Commons / DPLA — acceptable *host* for a genuinely public-domain work,
+  but a reviewer prefers the original repository, so swap to LoC/NARA where the same
+  item exists), or **blocked** (tertiary encyclopedias — Britannica, Wikipedia — never
+  a cited source). Both `geo_review_audit.py` (citations) and
+  `asset_standards_crosswalk.py` (image assets) enforce it: **blocked/unrecognized
+  sources fail the build; prefer_original is a warning to upgrade.** Applies to every
+  course.
 - **Primary sources** in student materials must be public-domain (or licensed)
   with **full citations**; secondary claims trace to identified scholarly sources
   via a per-unit bibliography (Chicago/Turabian).

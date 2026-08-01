@@ -47,9 +47,12 @@ for f in glob.glob(os.path.join(ROOT, "build_*", "*_content.json")):
 for f in glob.glob(os.path.join(ROOT, "build_*", "*_images.json")):
     units.setdefault(os.path.dirname(f), {})["images"] = f
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from approved_sources import classify  # noqa: E402
+
 rows = []            # (unit, std, kind, slot, medium, title, creator, year, cited, rights, geo_positions)
 gaps = {"no_anchor": [], "asset_no_citation": [], "asset_no_rights": [],
-        "geo_no_positions": [], "geo_no_map": []}
+        "geo_no_positions": [], "geo_no_map": [], "off_allowlist": [], "prefer_original": []}
 
 def asset_medium(rec, slot):
     m = (rec.get("medium") or "").lower()
@@ -90,6 +93,10 @@ for udir in sorted(units):
                          rights or "MISSING", geo_positions))
             if not rec.get("citation"): gaps["asset_no_citation"].append(f"{code}/{slot}")
             if not rights: gaps["asset_no_rights"].append(f"{code}/{slot}")
+            # source acceptability (TDOE approved-source policy)
+            verdict = classify(rec.get("rightsUrl") or rec.get("source_repository") or rec.get("citation") or "")
+            if verdict in ("blocked", "unknown"): gaps["off_allowlist"].append(f"{code}/{slot} [{verdict}]")
+            elif verdict == "prefer_original": gaps["prefer_original"].append(f"{code}/{slot}")
 
         if not anchor_present and not (s.get("sources")):
             gaps["no_anchor"].append(code)
@@ -118,13 +125,17 @@ md = [f"# Source & Asset Standards Crosswalk — {os.path.basename(ROOT)}", "",
 labels = {"no_anchor": "Standards with NO primary source (text or image)",
           "asset_no_citation": "Image assets missing a citation",
           "asset_no_rights": "Image assets missing rights/license",
+          "off_allowlist": "Image assets from a NON-approved source (blocked/unrecognized)",
           "geo_no_positions": "Geography standards with NO geo_places (positions not captured)",
+          "prefer_original": "Image assets hosted on Wikimedia Commons/DPLA (prefer original repository) (WARN)",
           "geo_no_map": "Geography standards with no map asset (WARN)"}
+WARN_KEYS = {"geo_no_map", "prefer_original"}
 any_hard = False
-for k in ["no_anchor", "asset_no_citation", "asset_no_rights", "geo_no_positions", "geo_no_map"]:
+for k in ["no_anchor", "asset_no_citation", "asset_no_rights", "off_allowlist",
+          "geo_no_positions", "prefer_original", "geo_no_map"]:
     v = sorted(set(gaps[k]))
-    mark = "✅" if not v else ("⚠️" if k == "geo_no_map" else "⛔")
-    if v and k != "geo_no_map": any_hard = True
+    mark = "✅" if not v else ("⚠️" if k in WARN_KEYS else "⛔")
+    if v and k not in WARN_KEYS: any_hard = True
     md.append(f"- {mark} **{labels[k]}:** {', '.join(v) if v else 'none'}")
 md += ["", "## Full crosswalk", "",
        "| Unit | Std | Kind | Slot | Medium | Title | Creator/Who | Year | Cited | Rights | Geo pos |",
