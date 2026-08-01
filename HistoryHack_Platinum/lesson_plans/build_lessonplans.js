@@ -47,9 +47,9 @@ const UNIT_LABEL = flags.unit || "Unit 1";
 // weights sum to 1.0; minutes are rounded and the largest segment absorbs rounding
 function pacing(total) {
   const segs = [
-    { w: 0.106, seg: (ctx) => `Warm-Up / Bell-Ringer — ${ctx.warm}; frame today's question`, mat: "Guided Notes (Do-Now box)" },
+    { w: 0.106, seg: (ctx) => `Warm-Up / Bell-Ringer — ${ctx.warm}; frame today's question`, mat: "Word Bank / Do-Now" },
     { w: 0.085, seg: (ctx) => `Hook — ${ctx.hook}`, mat: "Teacher Deck" },
-    { w: 0.255, seg: () => "Direct Instruction — teacher models close reading of the core content; students capture guided notes", mat: "Teacher Deck + Guided Notes" },
+    { w: 0.255, seg: () => "Direct Instruction — teacher models close reading of the core content; students capture Cornell Notes", mat: "Teacher Deck + Cornell Notes" },
     { w: 0.213, seg: () => "Guided Practice — Cornell Notes + a comparison/analysis organizer", mat: "Cornell Notes · organizer" },
     { w: 0.234, seg: () => "Primary Source / HIPP — analyze the source; begin CER", mat: "Primary-Source Packet · HIPP · CER organizer" },
     { w: 0.107, seg: (ctx) => `Exit Ticket & Closure — 2-question check; ${ctx.preview}`, mat: "Exit Ticket (EN/ES)" },
@@ -156,8 +156,8 @@ function buildPlan(code, s, idx) {
   // ---- 4 Activities & Materials ----
   c.push(head("4 · Activities & Materials (teacher-selected)"));
   const acts = [
-    "Guided Notes — scaffolded direct-instruction capture",
-    "Cornell Notes — cue/notes/summary for retention",
+    "Cornell Notes (Universal Front) — direct-teaching capture (cue / notes / summary)",
+    "Cornell Support Backs — optional MTSS scaffold; lives in the Teacher Organizer Toolkit, prints duplex behind the Cornell front, copy only as needed",
     "Comparison / analysis organizer — structure student thinking on the core content",
     `Primary-Source Packet + HIPP organizer — sourcing & analysis${src0 ? ` of “${src0.title}”` : ""}`,
     "CER organizer — evidence-based extended writing",
@@ -200,7 +200,7 @@ function buildPlan(code, s, idx) {
   // ---- 8 Differentiation ----
   c.push(head("8 · Differentiation (Knowledge of Students)"));
   c.push(bullet([R("ELL / WIDA: ", { bold: true, size: 17 }), R("UDL/WIDA overlay + sentence frames; Spanish exit ticket for entering/emerging levels.", { size: 17 })]));
-  c.push(bullet([R("IEP / 504: ", { bold: true, size: 17 }), R("chunked guided notes, extended time, read-aloud (browser TTS), reduced-item formative option.", { size: 17 })]));
+  c.push(bullet([R("IEP / 504: ", { bold: true, size: 17 }), R("chunked Cornell Notes (with the support back), extended time, read-aloud (browser TTS), reduced-item formative option.", { size: 17 })]));
 
   // ---- 9 Environment ----
   c.push(head("9 · Environment Reminders (teacher-implemented)"));
@@ -214,18 +214,18 @@ function buildPlan(code, s, idx) {
   c.push(body([R("Included in today's print ZIP ", { bold: true, size: 17 }), R(`(${code} — print-ready PDF + editable DOCX):`, { size: 17 })], { spacing: { after: 60 } }));
   const MW = [4530, 4530];
   const mRows = [new TableRow({ tableHeader: true, children: [tcell("Student (print & copy)", { w: MW[0], header: true }), tcell("Teacher (your copy)", { w: MW[1], header: true })] })];
-  [["Guided Notes", "Teacher Lesson Plan (this doc)"],
-   ["Cornell Notes", "Formative Assessment — Answer Key"],
-   ["Comparison / analysis organizer", "Primary-Source Teacher Guide"],
-   ["CER organizer", "UDL / WIDA overlay"],
-   ["HIPP organizer", "File Map & Print Guide"],
-   ["Primary-Source Packet", ""],
-   ["Formative Assessment", ""],
+  [["Cornell Notes (Universal Front)", "Teacher Lesson Plan (this doc)"],
+   ["Comparison / analysis organizer", "Cornell Support Backs — toolkit (copy as needed, MTSS)"],
+   ["CER organizer", "Formative Assessment — Answer Key"],
+   ["HIPP organizer", "Primary-Source Teacher Guide"],
+   ["Primary-Source Packet", "UDL / WIDA overlay"],
+   ["Formative Assessment", "File Map & Print Guide"],
    ["Exit Ticket — English & Spanish", ""]].forEach((r, i) => mRows.push(new TableRow({ children: [
     tcell([cellP([R(r[0], { size: 16 })])], { w: MW[0], fill: i % 2 ? "FFFFFF" : LIGHT }),
     tcell([cellP([R(r[1], { size: 16, color: r[1] ? "222222" : "FFFFFF" })])], { w: MW[1], fill: i % 2 ? "FFFFFF" : LIGHT }),
   ] })));
   c.push(table(MW, mRows));
+  c.push(new Paragraph({ spacing: { before: 40 }, children: [R("Note: students print the Cornell Notes Universal Front. The Cornell Support Backs (Guided/Light scaffolds) live in the Teacher Organizer Toolkit and print duplex on the reverse — copy them only for students who need them (MTSS), and fade as evidence grows.", { size: 15, italics: true, color: GREY })] }));
   c.push(new Paragraph({ spacing: { before: 100, after: 40 }, children: [R("Slides (download once for the unit):", { bold: true, size: 17, color: NAVY })] }));
   c.push(body([R(`${UNIT_LABEL} Teacher Deck — ${code} slides. Download from Teacher Tools → Lecture Decks → ${UNIT_LABEL}. (Decks are reused all unit, so they are not bundled in the daily ZIP.)`, { size: 16 })]));
 
@@ -240,7 +240,7 @@ function buildPlan(code, s, idx) {
   if (next) c.push(bullet([R(`Connect forward: how does ${withThe(s.title)} set up ${next} (${data.standards[next].title})?`, { size: 17 })]));
   else c.push(bullet([R(`Connect forward: how does this standard set up the next unit?`, { size: 17 })]));
   c.push(body([R("If it's not working ", { bold: true, size: 17, color: ACCENT }), R("(reteach / intervention path):", { size: 17 })], { spacing: { before: 40, after: 60 } }));
-  c.push(bullet([R("Below ~70% mastery on the exit ticket / formative → reteach with entry-tier materials (guided notes + a shorter source) in a small group — MTSS Tier 2.", { size: 17 })]));
+  c.push(bullet([R("Below ~70% mastery on the exit ticket / formative → reteach with entry-tier materials (Cornell Notes + the Cornell Support Back + a shorter source) in a small group — MTSS Tier 2.", { size: 17 })]));
   c.push(bullet([R(`One click — “Remediate ${code}”: `, { bold: true, size: 17 }), R("assembles a reteach pack (entry-tier worksheet, targeted DOK 1–2 questions, ELL/IEP supports) as a fresh print ZIP.", { size: 17 })]));
   c.push(bullet([R("Mid-lesson trouble: ", { bold: true, size: 17 }), R("if pacing slips, protect the 5-min Exit Ticket — it's tomorrow's data — and move the CER to homework or the next day.", { size: 17 })]));
 
@@ -250,7 +250,7 @@ function buildPlan(code, s, idx) {
   const aRows = [new TableRow({ tableHeader: true, children: [tcell("TEAM indicator", { w: AW[0], header: true }), tcell("Where addressed", { w: AW[1], header: true })] })];
   [["Standards & Objectives", "§1 — I-CAN + sequenced sub-objectives + prior learning"],
    ["Motivating Students", "§3 Hook — Tennessee relevance"],
-   ["Presenting Content", "§3 DI — deck visuals + guided notes + modeling"],
+   ["Presenting Content", "§3 DI — deck visuals + Cornell Notes + modeling"],
    ["Lesson Structure & Pacing", `§3 — ${MINUTES}-min segmented, warm-up → closure`],
    ["Activities & Materials", "§4 — varied, choice, primary sources, complex text"],
    ["Questioning", "§5 — DOK 1–4 ladder, text-based, cite evidence"],
