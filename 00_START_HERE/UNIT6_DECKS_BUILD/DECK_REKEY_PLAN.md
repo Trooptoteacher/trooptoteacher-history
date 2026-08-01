@@ -17,6 +17,28 @@ Original plan (approved by Sean) retained below for the record.
 - **Builder:** `scratchpad/rekey_student_deck.py` (per-standard segment plan).
 - **Verification:** `build_alignment_maps.py` → 0/0/0; no blank slides; cover intact.
 
+## Execution record — teacher deck alignment (2026-08-01)
+
+The teacher deck's DI segmentation already matched the workbook (4/standard, US.51=5 — it is the
+reference the workbook was keyed to), so **no re-segmentation**. Three workbook-alignment fixes:
+
+- **Vocab-first:** each standard's teaching KEY VOCABULARY moved before its first DIRECT INSTRUCTION,
+  mirroring the workbook (Vocabulary = Act 1–2, before Cornell notes). Verified vocab-before-DI in all 14.
+- **Workbook write-cues:** added a gold "✍ In your workbook · <activity>" caption (113 slides) to every
+  slide where students write — Vocabulary (Act 1–2), each DI (Cornell & Close Read, Act 3–4), Primary
+  Source (Act 5), Practice Quiz (Act 6, on CHECK FOR UNDERSTANDING), CER (Act 7, on STUDENT ACTIVITY).
+- **Ordering defect fixed:** each standard's VOCAB_REVIEW + PROGRESS CHECK had been stranded *after*
+  the next boundary slide; every block is now contiguous
+  [DIVIDER → QUICK REVIEW → CONFIDENCE → HOOK → VOCAB → DI×M → PEOPLE → PRIMARY SOURCE → GUIDED
+  PRACTICE → STUDENT ACTIVITY → CHECK → ANSWER REVEAL → WRAP-UP → VOCAB REVIEW → PROGRESS CHECK].
+  Front matter first; "Unit 6 Complete" last. Footer page numbers renumbered sequentially.
+- **Verification:** pure reorder (258 slides, none added/dropped) + additive cues; `validate.py` PASSED;
+  lesson-flow QC agent **0/0/0**; visual QA clean (cues collision-free, boundary fixed, pages sequential).
+  Builder: `scratchpad/rekey_teacher_deck.py`.
+- **Pre-existing item (not caused by this pass):** the CHECK-FOR-UNDERSTANDING title renders with an
+  overlapping element in LibreOffice on all 14 CHECK slides — present in the original deck; flagged for
+  a separate print-QC pass.
+
 **Still open — Target 3:** place the 21 QA'd visual assets (`UNIT6_VISUAL_ASSETS/`) onto Data-Analysis /
 geographic slides, with the two mandatory caption caveats (US.57, US.58). Placement table below.
 
