@@ -1,0 +1,65 @@
+{
+  "_schema": "Government Hack canonical image primary-source bank. file=asset path (drop the downloaded public-domain image here); url=source catalog page; rights per item; colorKey:true when color carries meaning.",
+  "subject": "government",
+  "unit": 4,
+  "unit_title": "Executive Branch",
+  "images": [
+    {
+      "id": "gov-u4-gc16",
+      "standard": "GC.16",
+      "file": "assets/primary_sources/GC.16_washington-portrait.jpg",
+      "type": "portrait",
+      "title": "George Washington (Athenaeum Portrait)",
+      "author": "Gilbert Stuart",
+      "date": "1796",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_-_George_Washington_(The_Athenaeum_Portrait)_-_Google_Art_Project.jpg",
+      "rights": "Public domain — artist d.1828; painting 1796",
+      "verified": false,
+      "alt_en": "Portrait: George Washington (Athenaeum Portrait) (Gilbert Stuart, 1796).",
+      "alt_es": "Retrato: George Washington (Athenaeum Portrait) (Gilbert Stuart, 1796).",
+      "colorKey": true,
+      "standards": [
+        "GC.16"
+      ]
+    },
+    {
+      "id": "gov-u4-gc17",
+      "standard": "GC.17",
+      "file": "assets/primary_sources/GC.17_executive-department-seal.png",
+      "type": "emblem",
+      "title": "Seal of the U.S. Department of State (1900)",
+      "author": "U.S. Dept. of State",
+      "date": "1900",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_State_(1900).png",
+      "rights": "Public domain — U.S. federal government work; pre-1929",
+      "verified": false,
+      "alt_en": "Emblem: Seal of the U.S. Department of State (1900) (U.S. Dept. of State, 1900).",
+      "alt_es": "Emblema: Seal of the U.S. Department of State (1900) (U.S. Dept. of State, 1900).",
+      "colorKey": false,
+      "standards": [
+        "GC.17"
+      ]
+    },
+    {
+      "id": "gov-u4-gc18",
+      "standard": "GC.18",
+      "file": "assets/primary_sources/GC.18_electoral-college-cartoon.jpg",
+      "type": "cartoon",
+      "title": "The Political Farce of 1876 (Hayes–Tilden)",
+      "author": "(unattributed)",
+      "date": "1876",
+      "repository": "Library of Congress",
+      "url": "https://www.loc.gov/item/2006677483/",
+      "rights": "Public domain — 1876 lithograph (pre-1929)",
+      "verified": false,
+      "alt_en": "Cartoon: The Political Farce of 1876 (Hayes–Tilden) ((unattributed), 1876).",
+      "alt_es": "Caricatura política: The Political Farce of 1876 (Hayes–Tilden) ((unattributed), 1876).",
+      "colorKey": true,
+      "standards": [
+        "GC.18"
+      ]
+    }
+  ]
+}

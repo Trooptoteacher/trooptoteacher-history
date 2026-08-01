@@ -1,0 +1,261 @@
+# -*- coding: utf-8 -*-
+"""Author Unit 2 — Citizen Participation (GC.31–GC.34) content source.
+Mirrors unit1_content.json exactly so the same deck / organizer / workbook
+builders consume it. Every primary-source quotation is verbatim from a cited
+repository (verified via search); nothing is invented. CFU answer keys are
+distributed (B, C, A, D). Brand: Government Hack. No source-district references.
+"""
+import json, os
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(HERE, "unit2_content.json")
+
+unit = {
+  "code": "Unit 2",
+  "title": "Citizen Participation",
+  "course_name": "Foundations of Constitutional Government",
+  "standards_range": "GC.31–GC.34",
+  "quarter": 1,
+  "suggested_days": "10–12",
+  "essential_question": "How do citizens shape their government — and what does it ask of them in return?",
+  "publisher": "TroopToTeacher Technologies LLC",
+  "footer": "Foundations of Constitutional Government · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards (GC) · Supplemental under TCA § 49-6-2202(a)(3)",
+  "perspectives_title": "Whose Participation Counts? Perspectives on Civic Voice",
+  "perspectives_intro": "This section complicates the story of participation: who could take part, who was kept out, and who organized to widen the circle. It is Government Hack–authored instructional synthesis grounded in this unit's sourced record — not a primary source.",
+  "perspectives": [
+    ["The Expanding Franchise",
+     "Voting was first limited mostly to white male property owners; the 15th, 19th, 24th, and 26th Amendments and the Voting Rights Act widened it over time (connects to GC.34, GC.31)."],
+    ["Political Parties",
+     "Parties organize voters and run the nomination process through caucuses and primaries — a system Washington warned against yet one that structures modern participation (GC.32)."],
+    ["The Media & Public Opinion",
+     "A free press informs citizens and shapes which issues seem to matter; poll wording and media framing can move opinion as much as report it (GC.33)."],
+    ["The Non-Voter",
+     "Millions eligible to vote do not; low turnout raises the question of whose interests get represented when participation is unequal (GC.31, GC.33)."]
+  ],
+  "tn_connection_label": "TENNESSEE CONNECTION",
+  "tn_connection": "Tennessee cast the deciding vote for women's suffrage. In August 1920 it became the 36th and final state needed to ratify the 19th Amendment — the 'Perfect 36' — when 24-year-old legislator Harry Burn changed his vote after a note from his mother, extending the vote to women nationwide (GC.34, GC.31).",
+  "tn_connection_task": "Participation in Tennessee has expanded over time. Investigate one way a Tennessean can take part in government today — registering to vote, serving on a jury, attending a council meeting, or contacting a representative — and record the exact requirement or step.",
+  "course_short": "Government & Civics",
+  "cover_era": "1787 · 1796 · 1920",
+  "cover_title_lines": ["CITIZEN", "PARTICIPATION"],
+  "cover_image": "GC.34_1913-suffrage-procession.jpg",
+  "brand": "Government Hack",
+}
+
+def std(title, tn, ican, vocab, sources, cfu, auth, target, learning_targets,
+        criteria, cues, lenses, dim_map, hook, civic_label, ssp_focus, ref):
+    return dict(title=title, tn=tn, ican=ican, vocab=vocab, sources=sources, cfu=cfu,
+                auth=auth, std_source="TN Academic Standards — United States Government & Civics (GC), verbatim",
+                target=target, learning_targets=learning_targets, criteria=criteria, cues=cues,
+                lenses=lenses, dim_map=dim_map, hook=hook, civic_label=civic_label,
+                ssp_focus=ssp_focus, ref=ref)
+
+CRIT = [
+  "state the key idea of the standard in your own words with an accurate example;",
+  "use at least one primary or secondary source to support your explanation;",
+  "connect the idea to how citizens participate in or influence government today.",
+]
+CUES = ["Key idea of this standard?", "One source that supports it?",
+        "One effect on participation or government?", "Key terms →"]
+REF = {"vocab": 3, "dt": "4–6", "source": 7, "persp": 7, "progress": 8, "range": "2–8"}
+
+standards = {}
+
+standards["GC.31"] = std(
+  title="The Responsibilities of Citizens",
+  tn="Describe what should be reasonably expected from any citizen or resident of the U.S., and explain why it is important for the well-being of the nation, including: being informed on civic issues; obeying the law; paying taxes; respecting the rights of others; serving as a juror; serving in the military or alternative service; volunteering and performing public service; voting. (C, T)",
+  ican="I can describe what should reasonably be expected from any citizen or resident of the U.S. and explain why those responsibilities matter for the well-being of the nation.",
+  vocab=[
+    {"term": "Civic Responsibility", "say": "SIV-ik ree-spon-suh-BIL-ih-tee", "es": "responsabilidad cívica",
+     "def": "A duty a citizen is expected to fulfill for the good of the community and nation — such as voting, obeying the law, paying taxes, and serving on a jury."},
+    {"term": "Jury Duty", "say": "JOOR-ee DOO-tee", "es": "deber de jurado",
+     "def": "The responsibility to serve on a jury when called, deciding facts in a trial — a citizen's direct role in the justice system guaranteed by the 6th and 7th Amendments."},
+    {"term": "Naturalization", "say": "natch-er-uh-lih-ZAY-shun", "es": "naturalización",
+     "def": "The legal process by which a foreign-born person becomes a U.S. citizen, gaining the rights and taking on the responsibilities of citizenship."},
+  ],
+  sources=[
+    {"title": "Letter to Richard Price", "who": "Thomas Jefferson", "date": "1789",
+     "quote": "wherever the people are well informed they can be trusted with their own government; that whenever things get so far wrong as to attract their notice, they may be relied on to set them to rights.",
+     "repo": "Founders Online, National Archives", "url": "https://founders.archives.gov/documents/Jefferson/01-14-02-0196"},
+    {"title": "U.S. Constitution, Amendment VI", "who": "1st U.S. Congress", "date": "1791",
+     "quote": "In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the State and district wherein the crime shall have been committed.",
+     "repo": "U.S. National Archives", "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript"},
+  ],
+  cfu={"dok": 2, "stem": "Why does Jefferson argue that citizens must be 'well informed'?",
+       "options": {"A": "So that only experts are allowed to vote",
+                   "B": "Because informed citizens can be trusted to govern themselves and correct problems",
+                   "C": "So the government can raise taxes more easily",
+                   "D": "Because the Constitution requires a literacy test to vote"},
+       "key": "B",
+       "why": "DOK 2: Jefferson ties self-government to an informed public — informed citizens 'can be trusted with their own government,' which is why being informed is a core civic responsibility."},
+  auth={
+    "close": "Citizenship comes with rights — and with responsibilities that keep a republic working. Some are legal duties everyone must meet: obeying the law, paying taxes, and serving on a jury when called. Others are expected of good citizens even though no one is arrested for skipping them: staying informed on civic issues, respecting the rights of others, volunteering, and voting. Thomas Jefferson argued that self-government only works when the people are 'well informed.' Naturalized citizens take on the same responsibilities as those born here, promising in the Oath of Allegiance to support the Constitution and serve the nation. A republic asks little of any one citizen — but it depends on most citizens doing their part.",
+    "tdq": [
+      "According to Jefferson, what makes it safe to trust the people with their own government?",
+      "Which responsibilities in this standard are legal duties, and which are expected of good citizens but not legally required?",
+      "The 6th Amendment guarantees a jury — how does that make jury duty a responsibility, not just a right?"],
+    "frayer": ["Civic Responsibility", "Jury Duty"],
+    "quiz": [{"id": "u2-gc31-dok1-1", "dok": 1,
+              "stem": "Which of the following is a LEGAL responsibility of U.S. citizens?",
+              "opts": {"A": "Volunteering at a food bank", "B": "Serving on a jury when summoned",
+                       "C": "Following political news", "D": "Attending a campaign rally"}, "key": "B"}],
+    "cer": "Claim + Evidence + Reasoning: Which citizen responsibility matters most for the well-being of the nation — voting, staying informed, or jury service? Defend your claim with evidence from a source."},
+  target="I can describe what should reasonably be expected from any citizen or resident of the U.S. and explain why those responsibilities matter.",
+  learning_targets="Name the responsibilities of citizens including obeying the law, serving jury duty, and paying taxes. List various methods of communication used by public officials to connect to the public. List local requirements to serve on a jury and voting requirements, including establishing state citizenship. Describe the impact of voting and not voting.",
+  criteria=CRIT, cues=CUES,
+  lenses="Culture (C) · Tennessee (T)",
+  dim_map={"C": "How shared expectations of citizens sustain a civic culture.",
+           "T": "State-specific jury and voter requirements, including establishing Tennessee residency."},
+  hook="Some duties can land you in court if you skip them; others no one can force you to do — yet the republic needs both. Which is which?",
+  civic_label="CIVIC RESPONSIBILITY", ssp_focus="SSP.01", ref=REF)
+
+standards["GC.32"] = std(
+  title="Political Parties & the Nomination Process",
+  tn="Explain the role of political parties in the nomination process for presidential candidates and the importance of and difference between primaries, caucuses, and general elections. (T)",
+  ican="I can explain the role of political parties in nominating presidential candidates and the difference between primaries, caucuses, and general elections.",
+  vocab=[
+    {"term": "Political Party", "say": "puh-LIT-ih-kul PAR-tee", "es": "partido político",
+     "def": "An organized group that seeks to win elections and control government by nominating candidates and uniting voters around shared ideas."},
+    {"term": "Primary Election", "say": "PRY-mair-ee ee-LEK-shun", "es": "elección primaria",
+     "def": "An election in which party members vote to choose their party's candidate for the general election; an 'open' primary lets any voter participate, a 'closed' one only registered party members."},
+    {"term": "Caucus", "say": "KAW-kus", "es": "caucus / asamblea partidaria",
+     "def": "A local meeting where party members discuss and select their preferred candidate through debate and voting, rather than a secret ballot."},
+  ],
+  sources=[
+    {"title": "Farewell Address", "who": "George Washington", "date": "1796",
+     "quote": "Let me now… warn you in the most solemn manner against the baneful effects of the spirit of party generally.",
+     "repo": "The Avalon Project, Yale Law School", "url": "https://avalon.law.yale.edu/18th_century/washing.asp"},
+    {"title": "Federalist No. 10", "who": "James Madison (Publius)", "date": "1787",
+     "quote": "By a faction, I understand a number of citizens, whether amounting to a majority or a minority of the whole, who are united and actuated by some common impulse of passion, or of interest, adversed to the rights of other citizens, or to the permanent and aggregate interests of the community.",
+     "repo": "The Avalon Project, Yale Law School", "url": "https://avalon.law.yale.edu/18th_century/fed10.asp"},
+  ],
+  cfu={"dok": 2, "stem": "What is the main difference between a primary and a caucus?",
+       "options": {"A": "A primary chooses a president; a caucus chooses a governor",
+                   "B": "A primary is only held in general elections; a caucus is only for judges",
+                   "C": "A primary uses a ballot vote; a caucus selects candidates through local meetings and discussion",
+                   "D": "A primary is run by the government; a caucus is illegal in most states"},
+       "key": "C",
+       "why": "DOK 2: Both are ways parties pick nominees, but a primary is a ballot election while a caucus selects candidates through in-person party meetings and discussion."},
+  auth={
+    "close": "The Constitution never mentions political parties — and George Washington warned against 'the spirit of party.' Yet parties formed almost immediately and now organize how Americans participate. To reach the general election, a candidate must first win the party's nomination. Parties choose nominees two main ways: primaries, where members cast ballots (open primaries allow any voter; closed primaries only party members), and caucuses, where members gather in local meetings to debate and select a candidate. These contests, held state by state, build toward each party's national convention, where the nominee is made official. In the general election, voters then choose among the parties' nominees. The two-party system that resulted shapes nearly every election in the United States.",
+    "tdq": [
+      "What did Washington fear about the 'spirit of party,' and did his warning come true?",
+      "How does Madison define a 'faction,' and how is a modern political party similar to and different from it?",
+      "Trace a candidate's path: primary/caucus → convention → general election. What happens at each step?"],
+    "frayer": ["Primary Election", "Caucus"],
+    "quiz": [{"id": "u2-gc32-dok1-1", "dok": 1,
+              "stem": "In a closed primary, who is allowed to vote?",
+              "opts": {"A": "Any registered voter", "B": "Only registered members of that party",
+                       "C": "Only elected officials", "D": "Only voters over age 35"}, "key": "B"}],
+    "cer": "Claim + Evidence + Reasoning: Was Washington right to warn against political parties, or do parties help citizens participate? Defend your claim using Washington's and Madison's words."},
+  target="I can explain the role of political parties in nominating presidential candidates and the difference between primaries, caucuses, and general elections.",
+  learning_targets="Explain how the United States developed into a two-party system and what factors continue to promote it. Define caucus (both Republican and Democratic), the two types of direct primaries (open and closed), and general elections and explain the difference.",
+  criteria=CRIT, cues=CUES,
+  lenses="Tennessee (T)",
+  dim_map={"T": "How Tennessee conducts its primaries and participates in the presidential nomination process."},
+  hook="The Constitution never mentions political parties — and the first president warned against them. So why does every election run through them?",
+  civic_label="ELECTIONS & PARTIES", ssp_focus="SSP.03", ref=REF)
+
+standards["GC.33"] = std(
+  title="The Media & Public Opinion",
+  tn="Describe the role of the media as a means of communicating information and how it influences the importance of issues and public opinion. (T)",
+  ican="I can describe the role of the media in communicating information and how it shapes which issues seem important and how public opinion forms.",
+  vocab=[
+    {"term": "Public Opinion", "say": "PUB-lik uh-PIN-yun", "es": "opinión pública",
+     "def": "The collected attitudes and beliefs of a population about issues, leaders, and government, often measured through polls."},
+    {"term": "Media Bias", "say": "MEE-dee-uh BY-us", "es": "sesgo mediático",
+     "def": "A real or perceived slant in how the media selects, frames, or reports information, which can influence how audiences understand an issue."},
+    {"term": "Public Opinion Poll", "say": "poll", "es": "encuesta de opinión pública",
+     "def": "A survey of a sample of people used to estimate what the larger public thinks; the wording and order of questions can affect the results."},
+  ],
+  sources=[
+    {"title": "Letter to Edward Carrington", "who": "Thomas Jefferson", "date": "1787",
+     "quote": "were it left to me to decide whether we should have a government without newspapers, or newspapers without a government, I should not hesitate a moment to prefer the latter.",
+     "repo": "Founders Online, National Archives", "url": "https://founders.archives.gov/documents/Jefferson/01-11-02-0047"},
+    {"title": "U.S. Constitution, Amendment I", "who": "1st U.S. Congress", "date": "1791",
+     "quote": "Congress shall make no law… abridging the freedom of speech, or of the press.",
+     "repo": "U.S. National Archives", "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript"},
+  ],
+  cfu={"dok": 3, "stem": "How can the wording of a public-opinion poll change its results?",
+       "options": {"A": "Differently worded questions can lead people toward different answers, so wording shapes the result",
+                   "B": "Wording never affects results because people already have fixed opinions",
+                   "C": "Polls are always completely accurate regardless of wording",
+                   "D": "Only the number of people polled matters, never the wording"},
+       "key": "A",
+       "why": "DOK 3: Poll results depend on how questions are framed; loaded or leading wording can push respondents toward an answer, so wording — not just sample size — shapes what a poll appears to show."},
+  auth={
+    "close": "A free press is how citizens learn what their government is doing — which is why Thomas Jefferson said that if forced to choose, he would take 'newspapers without a government' over a government without newspapers, and why the First Amendment protects freedom of the press. The media does more than report: by choosing which stories to cover and how to frame them, it influences which issues the public treats as important. Public opinion is measured through polls, but polls are only as reliable as their methods — the wording and order of questions can nudge people toward an answer. 'Media bias' describes a slant in how information is selected or framed. A skilled citizen reads across sources, checks how a poll was worded, and separates evidence from spin.",
+    "tdq": [
+      "Why would Jefferson prefer 'newspapers without a government' — what does a free press do for citizens?",
+      "How can the media influence which issues the public thinks are important, even without telling people what to think?",
+      "Give an example of how changing a poll question's wording could change the result."],
+    "frayer": ["Media Bias", "Public Opinion"],
+    "quiz": [{"id": "u2-gc33-dok1-1", "dok": 1,
+              "stem": "Which amendment protects freedom of the press?",
+              "opts": {"A": "The First Amendment", "B": "The Second Amendment",
+                       "C": "The Tenth Amendment", "D": "The Seventeenth Amendment"}, "key": "A"}],
+    "cer": "Claim + Evidence + Reasoning: Does the media mainly report public opinion, or shape it? Defend your claim with evidence, including how poll wording or story framing works."},
+  target="I can describe the role of the media in communicating information and how it shapes which issues seem important and how public opinion forms.",
+  learning_targets="Describe how public opinion polls affect an individual's voting behavior. Describe methods used in constructing public opinion polls and how the wording can affect poll results and voter behavior/response. Define media bias and cite textual examples to explain how the media influences public opinion about government and politics. List the means of political participation, emphasizing voting and recent voter behavior and turnout.",
+  criteria=CRIT, cues=CUES,
+  lenses="Tennessee (T)",
+  dim_map={"T": "How Tennessee voters get civic information and how local media shape state and local issues."},
+  hook="Two headlines, same event, opposite feeling. Before you form an opinion — who decided what you'd read, and how they'd word it?",
+  civic_label="MEDIA LITERACY", ssp_focus="SSP.02", ref=REF)
+
+standards["GC.34"] = std(
+  title="Means of Political Participation",
+  tn="Describe the means that citizens use to participate in the political process, including: campaigning; demonstrating; lobbying; petitioning; running for office; voting. (T)",
+  ican="I can describe the many ways citizens participate in the political process, from voting and petitioning to campaigning, lobbying, and running for office.",
+  vocab=[
+    {"term": "Lobbying", "say": "LOB-ee-ing", "es": "cabildeo",
+     "def": "The act of trying to influence the decisions of government officials, usually by individuals or organized interest groups."},
+    {"term": "Petition", "say": "puh-TISH-un", "es": "petición",
+     "def": "A formal written request signed by many people asking the government to take (or stop) an action — a right protected by the First Amendment."},
+    {"term": "Initiative, Referendum & Recall", "say": "ih-NISH-uh-tiv", "es": "iniciativa, referéndum y revocatoria",
+     "def": "Forms of direct democracy: an initiative lets voters propose a law, a referendum lets them approve or reject one, and a recall lets them remove an official before the term ends."},
+  ],
+  sources=[
+    {"title": "U.S. Constitution, Amendment I", "who": "1st U.S. Congress", "date": "1791",
+     "quote": "Congress shall make no law… abridging… the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.",
+     "repo": "U.S. National Archives", "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript"},
+    {"title": "Declaration of Independence", "who": "Second Continental Congress", "date": "1776",
+     "quote": "That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it.",
+     "repo": "U.S. National Archives", "url": "https://www.archives.gov/founding-docs/declaration-transcript"},
+  ],
+  cfu={"dok": 2, "stem": "Which First Amendment right most directly protects a citizen's ability to sign a petition and march in a protest?",
+       "options": {"A": "The right to bear arms",
+                   "B": "The right to a speedy trial",
+                   "C": "The right against unreasonable searches",
+                   "D": "The right to assemble and to petition the government"},
+       "key": "D",
+       "why": "DOK 2: The First Amendment protects 'the right of the people peaceably to assemble, and to petition the Government for a redress of grievances' — the direct basis for protests and petitions."},
+  auth={
+    "close": "Voting is the most familiar way citizens take part in government — but it is far from the only one. Citizens campaign for candidates, demonstrate to draw attention to issues, lobby officials to influence decisions, sign petitions, and run for office themselves. The First Amendment protects the right to 'peaceably assemble' and to 'petition the Government,' and the Declaration of Independence grounds participation in the idea that government derives its authority from the people. Some states add tools of direct democracy: the initiative (voters propose a law), the referendum (voters approve or reject one), and the recall (voters remove an official early). Each is a channel through which ordinary people shape what government does — proof that in a republic, participation does not end at the ballot box.",
+    "tdq": [
+      "Which forms of participation does the First Amendment directly protect, and how?",
+      "How do initiative, referendum, and recall give voters power between elections?",
+      "The Declaration says government rests on the people — how does that idea justify protest and petition?"],
+    "frayer": ["Lobbying", "Petition"],
+    "quiz": [{"id": "u2-gc34-dok1-1", "dok": 1,
+              "stem": "A process that lets voters remove an elected official before the end of their term is called a:",
+              "opts": {"A": "Referendum", "B": "Initiative", "C": "Recall", "D": "Primary"}, "key": "C"}],
+    "cer": "Claim + Evidence + Reasoning: Beyond voting, which means of participation gives ordinary citizens the most power to change government? Defend your claim with evidence from a source."},
+  target="I can describe the many ways citizens participate in the political process, from voting and petitioning to campaigning, lobbying, and running for office.",
+  learning_targets="List ways citizens take part in government through petitions, protesting, and speaking at council meetings. Define initiative, referendum, and recall elections and explain how and why they help to increase political participation and voter turnout.",
+  criteria=CRIT, cues=CUES,
+  lenses="Tennessee (T)",
+  dim_map={"T": "How Tennesseans participate locally — from council meetings to petitions — and which direct-democracy tools the state uses."},
+  hook="You don't have to wait for an election to change a law. Name three ways a citizen can act tomorrow — the Constitution protects them.",
+  civic_label="CIVIC PARTICIPATION", ssp_focus="SSP.04", ref=REF)
+
+order = ["GC.31", "GC.32", "GC.33", "GC.34"]
+doc = {"unit": unit, "order": order, "standards": standards}
+
+blob = json.dumps(doc, ensure_ascii=False)
+assert "W" + "CS" not in blob and "History Hack" not in blob, "leak"
+json.dump(doc, open(OUT, "w"), ensure_ascii=False, indent=1)
+# balance report
+keys = [standards[c]["cfu"]["key"] for c in order]
+print("wrote", OUT)
+print("CFU keys:", dict(zip(order, keys)))

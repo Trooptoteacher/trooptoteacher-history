@@ -1,0 +1,1528 @@
+[
+  {
+    "id": "GC.28-Q11",
+    "standard": "GC.28",
+    "unit": 7,
+    "question_number": 11,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "How many justices serve on the Tennessee Supreme Court?",
+    "options": {
+      "A": "three",
+      "B": "five",
+      "C": "seven",
+      "D": "nine"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": true,
+    "topics": [
+      "Tennessee Supreme Court",
+      "judicial branch"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.06",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Confuses the court's size with the state's three branches or three Grand Divisions; the Supreme Court has five members."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "A plausible size for a high court, but Tennessee's Supreme Court seats five, not seven."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Nine is the number of justices on the United States Supreme Court, not Tennessee's."
+      }
+    ],
+    "key_rationale": "The Tennessee Supreme Court is made up of five justices, who select one of themselves to serve as Chief Justice.",
+    "dok_rationale": "DOK 1: direct recall of a fixed structural fact about the state's highest court.",
+    "blooms_rationale": "The student retrieves a single memorized numeric fact.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.28-Q12",
+    "standard": "GC.28",
+    "unit": 7,
+    "question_number": 12,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "The 'Tennessee Plan' is the state's method for selecting which officials?",
+    "options": {
+      "A": "appellate judges",
+      "B": "county sheriffs",
+      "C": "members of the General Assembly",
+      "D": "United States senators"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": true,
+    "topics": [
+      "Tennessee Plan",
+      "judicial selection"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.06",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Sheriffs are county officials elected by county voters, not chosen under the Tennessee Plan."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "General Assembly members are elected by voters; the Tennessee Plan applies to appellate judges."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "U.S. senators are federal officeholders, outside the state's judicial-selection method."
+      }
+    ],
+    "key_rationale": "Under the Tennessee Plan, appellate judges are appointed by the governor and then face yes-or-no retention elections.",
+    "dok_rationale": "DOK 1: recall of which officials the Tennessee Plan applies to.",
+    "blooms_rationale": "The student retrieves a term-to-referent association.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.28-Q13",
+    "standard": "GC.28",
+    "unit": 7,
+    "question_number": 13,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Which Tennessee trial court hears general civil lawsuits and criminal cases and is presided over by a judge?",
+    "options": {
+      "A": "Chancery Court",
+      "B": "Criminal Court",
+      "C": "Circuit Court",
+      "D": "the U.S. District Court"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": true,
+    "topics": [
+      "court system",
+      "Circuit Court"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.06",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Chancery courts are courts of equity led by a Chancellor, not the general civil and criminal trial court."
+      },
+      {
+        "label": "B",
+        "code": "NE",
+        "rationale": "Criminal courts handle felony cases in the larger judicial districts, not general civil trials."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The U.S. District Court is a federal court, not part of Tennessee's state trial-court system."
+      }
+    ],
+    "key_rationale": "Circuit courts are Tennessee's courts of general jurisdiction, hearing a broad range of civil and criminal trials, presided over by judges.",
+    "dok_rationale": "DOK 2: the student must match a described function to the correct court among similar state courts.",
+    "blooms_rationale": "The student classifies a court by its defining role.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.28-Q14",
+    "standard": "GC.28",
+    "unit": 7,
+    "question_number": 14,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What is one practical result of the Tennessee General Assembly meeting as a part-time body for only a limited number of 'legislative days'?",
+    "options": {
+      "A": "Its members give up their regular jobs to serve full time all year.",
+      "B": "Its members are appointed by the governor rather than elected.",
+      "C": "Its sessions must be approved each year by the U.S. Congress.",
+      "D": "Its members keep regular jobs at home and pass laws in a compressed session."
+    },
+    "correct_answer": "D",
+    "tennessee_specific": true,
+    "topics": [
+      "citizen legislature",
+      "legislative days"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.5,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "CA",
+        "rationale": "Full-time year-round service describes the U.S. Congress, the opposite of a part-time citizen legislature."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Members are elected by voters, not appointed; appointment is not a result of limited legislative days."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "State legislative sessions are set by the state constitution, not approved by Congress."
+      }
+    ],
+    "key_rationale": "As a part-time citizen legislature, the General Assembly's members hold regular jobs at home and complete the state's lawmaking within a limited number of legislative days.",
+    "dok_rationale": "DOK 2: the student must infer a practical consequence of a structural feature rather than recall its definition.",
+    "blooms_rationale": "The student explains the effect of a described design.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.28-Q15",
+    "standard": "GC.28",
+    "unit": 7,
+    "question_number": 15,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In a judicial 'retention' election held under the Tennessee Plan, what do voters decide?",
+    "options": {
+      "A": "which of two rival candidates will win the judgeship",
+      "B": "whether to keep a sitting appellate judge in office",
+      "C": "which attorney the governor should appoint to the bench",
+      "D": "how many justices the Supreme Court should have"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": true,
+    "topics": [
+      "Tennessee Plan",
+      "retention election"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.5,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "A retention election is a yes-or-no vote on one sitting judge, not a contest between rival candidates."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "The governor makes the appointment; voters do not choose the appointee in a retention election."
+      },
+      {
+        "label": "D",
+        "code": "OG",
+        "rationale": "Voters do not set the size of the court in a retention election; that is fixed structurally."
+      }
+    ],
+    "key_rationale": "In a retention election, voters cast a yes-or-no vote on whether a sitting appellate judge should remain in office.",
+    "dok_rationale": "DOK 2: the student must interpret how the retention mechanism works, not simply name it.",
+    "blooms_rationale": "The student explains the function of a described process.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.28-Q16",
+    "standard": "GC.28",
+    "unit": 7,
+    "question_number": 16,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The General Assembly passes a new state law, the governor's Department of Safety enforces it, and a state court later resolves a dispute over how the law applies. Which principle of Tennessee government does this sequence best illustrate?",
+    "options": {
+      "A": "federalism between the nation and the state",
+      "B": "the balance among the three Grand Divisions",
+      "C": "separation of powers among three branches",
+      "D": "the design of a part-time citizen legislature"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": true,
+    "topics": [
+      "separation of powers",
+      "three branches"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.7,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Federalism concerns the division of power between the nation and the state, not among a state's three branches."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The Grand Divisions provide regional balance, not the branch-by-branch division shown in the sequence."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "The citizen-legislature feature describes only the legislature, not the interaction of all three branches."
+      }
+    ],
+    "key_rationale": "One branch making law, another enforcing it, and a third interpreting it is the textbook illustration of separation of powers among the legislative, executive, and judicial branches.",
+    "dok_rationale": "DOK 3: the student must analyze a multi-step scenario and identify the governing principle it demonstrates.",
+    "blooms_rationale": "The student deconstructs a sequence of actions to determine the underlying principle.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.28-Q17",
+    "standard": "GC.28",
+    "unit": 7,
+    "question_number": 17,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A reformer proposes replacing Tennessee's part-time citizen legislature with a full-time, year-round legislature. Which trade-off best reflects what the current design is intended to preserve?",
+    "options": {
+      "A": "keeping lawmakers connected to regular jobs and communities at home",
+      "B": "ensuring that only career politicians are able to serve in office",
+      "C": "shifting the writing of most state laws to the governor",
+      "D": "removing voters from the choice of who serves as legislators"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": true,
+    "topics": [
+      "citizen legislature",
+      "legislative design"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "A citizen legislature is meant to allow ordinary working people to serve, the opposite of favoring career politicians."
+      },
+      {
+        "label": "C",
+        "code": "CA",
+        "rationale": "The governor does not write statutes; changing the legislature's schedule would not transfer lawmaking to the executive."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Voters continue to elect legislators regardless of whether the body is part-time or full-time."
+      }
+    ],
+    "key_rationale": "The part-time citizen-legislature design is intended to keep members rooted in their home jobs and communities, accepting less legislating time as the trade-off.",
+    "dok_rationale": "DOK 3: the student must evaluate a proposed change against the purpose of the existing design.",
+    "blooms_rationale": "The student judges which trade-off is consistent with the intent of a structure.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.28-Q18",
+    "standard": "GC.28",
+    "unit": 7,
+    "question_number": 18,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A Tennessee law requires that the members appointed to a certain statewide board may not all come from the same Grand Division. What goal does this requirement most directly serve?",
+    "options": {
+      "A": "creating three fully independent governments within the state",
+      "B": "matching the number of branches of state government",
+      "C": "giving each division its own separate court system",
+      "D": "ensuring East, Middle, and West Tennessee are all represented"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": true,
+    "topics": [
+      "Grand Divisions",
+      "regional balance"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.06",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The Grand Divisions are regions within one state government, not independent governments."
+      },
+      {
+        "label": "B",
+        "code": "CA",
+        "rationale": "The rule balances regions, not branches; the three divisions are not designed to mirror the three branches."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "A reasonable link to 'three,' but the divisions do not each operate a separate court system."
+      }
+    ],
+    "key_rationale": "Spreading a board's membership across the Grand Divisions applies Tennessee's practice of balancing representation so East, Middle, and West are all included.",
+    "dok_rationale": "DOK 3: the student must infer the purpose behind a structural rule applied to a new situation.",
+    "blooms_rationale": "The student analyzes the reasoning behind a regional-balance requirement.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.28-Q19",
+    "standard": "GC.28",
+    "unit": 7,
+    "question_number": 19,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Some states choose their appellate judges through contested partisan elections, while Tennessee uses the 'Tennessee Plan' — gubernatorial appointment followed by yes-or-no retention elections. Make a claim about one advantage OR one disadvantage of the Tennessee Plan compared with contested partisan elections, and defend your claim with evidence and reasoning.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": true,
+    "topics": [
+      "Tennessee Plan",
+      "judicial selection"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.9,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "See rubric: full credit for a clear claim naming one advantage or disadvantage (e.g., insulating judges from campaign fundraising versus reducing direct voter choice), at least one accurate piece of evidence about how the Tennessee Plan works, and reasoning that links the evidence to the claim.",
+    "dok_rationale": "DOK 3: the student constructs and defends an evidence-based evaluation of a selection method.",
+    "blooms_rationale": "The student judges a policy against an alternative and justifies the judgment.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.28-Q20",
+    "standard": "GC.28",
+    "unit": 7,
+    "question_number": 20,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from the Constitution of the State of Tennessee, Article II, Section 1 (1870): \"The powers of the Government shall be divided into three distinct departments: Legislative, Executive, and Judicial.\" Using this document, explain the principle of government it establishes and give one example of the kind of work each of Tennessee's three departments does.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": true,
+    "topics": [
+      "separation of powers",
+      "state constitution"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 0.7,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "See rubric: response should identify the principle of separation of powers and give a correct example for each department — the legislative (General Assembly) making law, the executive (governor and departments such as Safety or Transportation) carrying out law, and the judicial (the courts) interpreting law.",
+    "dok_rationale": "DOK 3: the student analyzes a primary source and applies it to concrete branch functions.",
+    "blooms_rationale": "The student deconstructs a constitutional clause to explain a governing principle.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Question 6-Point Rubric"
+  },
+  {
+    "id": "GC.29-Q11",
+    "standard": "GC.29",
+    "unit": 7,
+    "question_number": 11,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is the name for a system in which a central state government holds the primary authority and creates the local governments beneath it?",
+    "options": {
+      "A": "a unitary government",
+      "B": "a federal government",
+      "C": "a confederation",
+      "D": "a metropolitan government"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": true,
+    "topics": [
+      "unitary government",
+      "state-local structure"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "A federal system divides power between a national government and the states, not between a state and its localities."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "A confederation is a loose league in which the central authority is weak, the opposite of a unitary state."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "A metropolitan government is a merged city-county unit, not the term for the state-local authority relationship."
+      }
+    ],
+    "key_rationale": "Tennessee is a unitary state: the state holds primary authority and creates the local governments beneath it, granting them their powers.",
+    "dok_rationale": "DOK 1: recall of a term-to-definition match.",
+    "blooms_rationale": "The student recognizes the label for a described system.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.29-Q12",
+    "standard": "GC.29",
+    "unit": 7,
+    "question_number": 12,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which structural model of Tennessee local government pairs an elected mayor with an elected city council?",
+    "options": {
+      "A": "a city-commission form",
+      "B": "a mayor-council form",
+      "C": "a metropolitan consolidation",
+      "D": "a Grand Division"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": true,
+    "topics": [
+      "municipal government",
+      "city structure"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.4,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "The city-commission form is a different municipal model in which commissioners share executive and legislative duties."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "Metropolitan consolidation merges a city and county; it is not simply a mayor-and-council structure."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "A Grand Division is one of Tennessee's three regions, not a form of city government."
+      }
+    ],
+    "key_rationale": "The mayor-council form pairs an elected mayor (executive) with an elected council (legislative), one of the structural models Tennessee cities use.",
+    "dok_rationale": "DOK 1: recall of a named municipal structural model.",
+    "blooms_rationale": "The student retrieves the label matching a described structure.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.29-Q13",
+    "standard": "GC.29",
+    "unit": 7,
+    "question_number": 13,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Which service is most typically provided by a city (municipal) government rather than by the county alone?",
+    "options": {
+      "A": "collecting property taxes for the entire county",
+      "B": "running the county sheriff's department",
+      "C": "providing city water service and local zoning",
+      "D": "setting tax rates for the whole state"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": true,
+    "topics": [
+      "municipal services",
+      "local government"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PE",
+        "rationale": "Countywide property-tax collection is a county-level function, not a distinctly city service."
+      },
+      {
+        "label": "B",
+        "code": "NE",
+        "rationale": "The sheriff's department is a county office; city policing is separate from the county sheriff."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Setting statewide tax rates is a state function, not a local government service."
+      }
+    ],
+    "key_rationale": "Cities form to provide closer local services such as water and zoning, which counties do not typically deliver by themselves.",
+    "dok_rationale": "DOK 2: the student must distinguish a city-level service from county and state functions.",
+    "blooms_rationale": "The student classifies a service at the correct level of local government.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.29-Q14",
+    "standard": "GC.29",
+    "unit": 7,
+    "question_number": 14,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Before a Tennessee city and its surrounding county can merge into a single metropolitan government, what must happen?",
+    "options": {
+      "A": "The U.S. Congress must pass an enabling act.",
+      "B": "A neighboring county must give its consent.",
+      "C": "The state Supreme Court must order the merger.",
+      "D": "The voters involved must approve the consolidation."
+    },
+    "correct_answer": "D",
+    "tennessee_specific": true,
+    "topics": [
+      "metropolitan government",
+      "consolidation"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Consolidation is authorized by the state constitution, not by an act of the U.S. Congress."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The consent of a neighboring county is not required to merge a city with its own county."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Courts do not order consolidation; it is created through voter approval under the state constitution."
+      }
+    ],
+    "key_rationale": "The Tennessee Constitution authorizes consolidation, but a metropolitan government is created only when the local voters approve it.",
+    "dok_rationale": "DOK 2: the student must explain the required step in a described process.",
+    "blooms_rationale": "The student explains how a consolidated government comes into being.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.29-Q15",
+    "standard": "GC.29",
+    "unit": 7,
+    "question_number": 15,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The voters of each Tennessee county elect a county legislative body to four-year terms. What is the main job of that legislative body?",
+    "options": {
+      "A": "to set county policy and adopt the county budget",
+      "B": "to decide whether state laws are constitutional",
+      "C": "to command the state's National Guard",
+      "D": "to represent the county in the United States Senate"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": true,
+    "topics": [
+      "county government",
+      "county legislative body"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "CA",
+        "rationale": "Judging the constitutionality of laws is a judicial function, not the role of a county legislative body."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Commanding the National Guard is an executive power at the state level, not a county-council duty."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The U.S. Senate is a federal body; counties are not represented in it by their legislative body."
+      }
+    ],
+    "key_rationale": "A county's elected legislative body sets local policy and adopts the county budget, the core lawmaking role at the county level.",
+    "dok_rationale": "DOK 2: the student must identify the correct function of a county office among plausible governmental roles.",
+    "blooms_rationale": "The student explains the role of a county governing body.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.29-Q16",
+    "standard": "GC.29",
+    "unit": 7,
+    "question_number": 16,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A Tennessee city council wants to create a completely new kind of local regulation that no state law currently mentions or authorizes. Based on Dillon's Rule, what is the city's legal situation?",
+    "options": {
+      "A": "It may adopt the regulation freely because cities hold unlimited local power.",
+      "B": "It generally may not act unless the state has granted it that authority.",
+      "C": "It must first obtain approval from the federal government.",
+      "D": "It automatically gains the power once most residents sign a petition."
+    },
+    "correct_answer": "B",
+    "tennessee_specific": true,
+    "topics": [
+      "Dillon's Rule",
+      "local authority"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Dillon's Rule limits local power; cities do not hold unlimited authority."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Local authority flows from the state, not from federal approval."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "A resident petition does not by itself grant a city a power the state has not authorized."
+      }
+    ],
+    "key_rationale": "Under Dillon's Rule a Tennessee city may exercise only the powers the state grants it, so it generally cannot act on a matter the state has not authorized.",
+    "dok_rationale": "DOK 3: the student must apply a legal principle to an unfamiliar regulatory scenario.",
+    "blooms_rationale": "The student uses Dillon's Rule to reach a correct conclusion about a new case.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.29-Q17",
+    "standard": "GC.29",
+    "unit": 7,
+    "question_number": 17,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Voters in a Tennessee city-and-county area are deciding whether to merge into one consolidated metropolitan government. Which of the following is a reasonable argument in favor of consolidating?",
+    "options": {
+      "A": "It would free the new government from having to follow state law.",
+      "B": "It would move local authority to the federal government.",
+      "C": "It could combine overlapping city and county services into one system.",
+      "D": "It would let the area create its own court system independent of the state."
+    },
+    "correct_answer": "C",
+    "tennessee_specific": true,
+    "topics": [
+      "metropolitan government",
+      "consolidation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "A metropolitan government remains subject to state law; consolidation does not exempt it."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Consolidation merges local units; it does not transfer authority to the federal government."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "A consolidated government cannot create a court system independent of the state's authority."
+      }
+    ],
+    "key_rationale": "A genuine advantage of consolidation is combining duplicated city and county services into a single, more efficient system.",
+    "dok_rationale": "DOK 3: the student must evaluate which statement is a valid argument for a policy choice.",
+    "blooms_rationale": "The student judges the soundness of competing claims about consolidation.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.29-Q18",
+    "standard": "GC.29",
+    "unit": 7,
+    "question_number": 18,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The state legislature changes a law setting how every county in Tennessee must carry out a particular duty, and all counties must comply. Which feature of Tennessee government does this situation best demonstrate?",
+    "options": {
+      "A": "that counties are fully independent of the state",
+      "B": "that counties report directly to the federal government",
+      "C": "that each county may choose whether to comply",
+      "D": "that Tennessee is a unitary state whose local governments must obey state law"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": true,
+    "topics": [
+      "unitary government",
+      "state-local relationship"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 0.7,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The counties' obligation to comply shows they are not independent of the state."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Counties answer to the state, not directly to the federal government."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Under Dillon's Rule and the unitary structure, counties must comply; they may not opt out."
+      }
+    ],
+    "key_rationale": "A state law binding every county illustrates that Tennessee is a unitary state in which local governments must follow state law.",
+    "dok_rationale": "DOK 3: the student must analyze a scenario and identify the structural feature it reveals.",
+    "blooms_rationale": "The student deconstructs a situation to determine the principle it demonstrates.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.29-Q19",
+    "standard": "GC.29",
+    "unit": 7,
+    "question_number": 19,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A student claims, \"My local government could simply ignore a state law it disagrees with.\" Using what you know about Tennessee as a unitary state and about Dillon's Rule, make a claim about whether the student is correct, and defend it with evidence and reasoning.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": true,
+    "topics": [
+      "unitary government",
+      "Dillon's Rule"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 0.9,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "See rubric: full credit for a claim that the student is incorrect, evidence that Tennessee is a unitary state and that Dillon's Rule limits local governments to the powers the state grants, and reasoning explaining that local governments therefore cannot override or ignore state law.",
+    "dok_rationale": "DOK 3: the student constructs and defends an evidence-based argument evaluating a claim.",
+    "blooms_rationale": "The student critiques a claim and justifies a position with reasoning.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.29-Q20",
+    "standard": "GC.29",
+    "unit": 7,
+    "question_number": 20,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from the Constitution of the State of Tennessee, Article XI, Section 9 (1953): \"The General Assembly may provide for the consolidation of any or all of the governmental and corporate functions now or hereafter vested in municipal corporations with the governmental and corporate functions now or hereafter vested in the counties in which such municipal corporations are located.\" Using this document, explain what power it gives and what it shows about how a metropolitan government is created in Tennessee.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": true,
+    "topics": [
+      "metropolitan government",
+      "state constitution"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 0.7,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "See rubric: response should use the document to explain that the clause authorizes the General Assembly to allow the consolidation (merger) of city and county functions, and should connect this to how a metropolitan government is created — under state constitutional authority and, as in Tennessee's process, with approval by local voters.",
+    "dok_rationale": "DOK 3: the student analyzes a primary source to explain a constitutional power and process.",
+    "blooms_rationale": "The student deconstructs a constitutional clause to explain consolidation.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Question 6-Point Rubric"
+  },
+  {
+    "id": "GC.30-Q11",
+    "standard": "GC.30",
+    "unit": 7,
+    "question_number": 11,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "According to the Tennessee Constitution, the supreme executive power of the state is vested in which office?",
+    "options": {
+      "A": "the Governor",
+      "B": "the Speaker of the Senate",
+      "C": "the Chief Justice",
+      "D": "the Secretary of State"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": true,
+    "topics": [
+      "governor",
+      "executive power"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.06",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The Speaker of the Senate is a legislative leader, not the holder of the state's supreme executive power."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "The Chief Justice leads the judicial branch, not the executive."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "The Secretary of State is an executive-branch officer but not the holder of the supreme executive power."
+      }
+    ],
+    "key_rationale": "Article III, Section 1 of the Tennessee Constitution vests the supreme executive power of the state in a Governor.",
+    "dok_rationale": "DOK 1: recall of a directly stated constitutional fact about the office of governor.",
+    "blooms_rationale": "The student retrieves a single memorized structural fact.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.30-Q12",
+    "standard": "GC.30",
+    "unit": 7,
+    "question_number": 12,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "In government, a person whom an elected legislator represents is called a —",
+    "options": {
+      "A": "delegate",
+      "B": "constituent",
+      "C": "trustee",
+      "D": "justice"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": true,
+    "topics": [
+      "constituent",
+      "representation"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -0.5,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.06",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "A delegate is a kind of representative, not the person being represented."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "In Tennessee, 'Trustee' is an elected county office, not the word for a represented person."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "A justice is a judge on a court, unrelated to legislative representation."
+      }
+    ],
+    "key_rationale": "A constituent is a person a legislator represents; each Tennessean is a constituent of one state senator and one state representative.",
+    "dok_rationale": "DOK 1: recall of a vocabulary term's definition.",
+    "blooms_rationale": "The student recognizes the term that matches a definition.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.30-Q13",
+    "standard": "GC.30",
+    "unit": 7,
+    "question_number": 13,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In addition to carrying out state law, which of the following is a duty of the Tennessee governor?",
+    "options": {
+      "A": "writing and passing the state's statutes",
+      "B": "deciding whether a law violates the constitution",
+      "C": "proposing the state budget",
+      "D": "setting the number of seats in the state House"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": true,
+    "topics": [
+      "governor",
+      "executive duties"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.06",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "CA",
+        "rationale": "Writing and passing statutes is the legislature's function, not the governor's."
+      },
+      {
+        "label": "B",
+        "code": "CA",
+        "rationale": "Deciding constitutionality is a judicial function, not an executive duty."
+      },
+      {
+        "label": "D",
+        "code": "OG",
+        "rationale": "The size of the House is fixed by the constitution at 99 members; the governor does not set it."
+      }
+    ],
+    "key_rationale": "Among the governor's duties is proposing the state budget, a core executive-branch responsibility.",
+    "dok_rationale": "DOK 2: the student must distinguish an executive duty from legislative and judicial functions.",
+    "blooms_rationale": "The student classifies a governmental duty under the correct office.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.30-Q14",
+    "standard": "GC.30",
+    "unit": 7,
+    "question_number": 14,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Every Tennessean is represented in the General Assembly by how many state senators and how many state representatives?",
+    "options": {
+      "A": "by two senators and one representative",
+      "B": "by one senator and two representatives",
+      "C": "by 33 senators and 99 representatives",
+      "D": "by one senator and one representative"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": true,
+    "topics": [
+      "representation",
+      "General Assembly"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.06",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Two senators reflects the U.S. Senate's two-per-state rule, not state legislative representation."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "A reversed and incorrect count; each person has one senator and one representative, not two representatives."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "33 and 99 are the total memberships of the two chambers, not the number who represent one person."
+      }
+    ],
+    "key_rationale": "Each Tennessean lives in one Senate district and one House district and is therefore represented by exactly one state senator and one state representative.",
+    "dok_rationale": "DOK 2: the student must apply the concept of single-member districts, not merely recall chamber totals.",
+    "blooms_rationale": "The student explains how individual representation works in the General Assembly.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.30-Q15",
+    "standard": "GC.30",
+    "unit": 7,
+    "question_number": 15,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "A citizen wants to learn the Tennessee governor's current, officially stated policy priorities. Which source is most appropriate?",
+    "options": {
+      "A": "an official state source, such as the governor's proposed budget at tn.gov",
+      "B": "a viral claim circulating on a social-media feed",
+      "C": "a slogan printed on a campaign bumper sticker",
+      "D": "a rumor a classmate repeats from memory"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": true,
+    "topics": [
+      "official sources",
+      "governor"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.06",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "A viral social-media claim is unofficial and unreliable for confirming official priorities."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "A bumper-sticker slogan is campaign messaging, not an official statement of priorities."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "A classmate's remembered rumor is not an authoritative or current source."
+      }
+    ],
+    "key_rationale": "Because officials and their stated priorities change, the appropriate source is an official state source such as the governor's proposed budget or address at tn.gov.",
+    "dok_rationale": "DOK 2: the student applies source-reliability criteria to select the appropriate source.",
+    "blooms_rationale": "The student applies a standard for reliable sources to a real task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.30-Q16",
+    "standard": "GC.30",
+    "unit": 7,
+    "question_number": 16,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A Tennessee voter moves to a new home located in a different state legislative district. What is the most likely effect on who represents that voter in the General Assembly?",
+    "options": {
+      "A": "The voter keeps the same legislators, since representation follows the person.",
+      "B": "The voter's legislators may change, since representation follows the district.",
+      "C": "The voter has no representation until the next statewide election.",
+      "D": "The voter may pick any legislator statewide to represent him or her."
+    },
+    "correct_answer": "B",
+    "tennessee_specific": true,
+    "topics": [
+      "legislative districts",
+      "representation"
+    ],
+    "blooms": "Apply",
+    "hess_crm_cell": "Apply × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.7,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.06",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Representation follows the district of residence, not the individual, so moving districts can change legislators."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "A voter does not lose representation by moving; the new district's legislators represent them."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Voters cannot choose any legislator statewide; their legislators are set by their district."
+      }
+    ],
+    "key_rationale": "Because representation is district-based, moving into a different district means the voter's state senator and representative may change to those of the new district.",
+    "dok_rationale": "DOK 3: the student must apply the principle of district-based representation to predict the outcome of a scenario.",
+    "blooms_rationale": "The student applies knowledge of districts to reason through a new situation.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.30-Q17",
+    "standard": "GC.30",
+    "unit": 7,
+    "question_number": 17,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Two different websites list different names for the current representative of a Tennessee state House district. What is the best way to determine the accurate, current officeholder?",
+    "options": {
+      "A": "choose whichever website appears first in a search",
+      "B": "trust the site that has the more professional design",
+      "C": "use the official Find My Legislator tool at capitol.tn.gov",
+      "D": "ask several friends which name they recognize"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": true,
+    "topics": [
+      "official sources",
+      "find my legislator"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PE",
+        "rationale": "Search ranking reflects popularity or optimization, not authority or accuracy."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "A professional-looking design does not make a source's information accurate or current."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Friends' recognition relies on memory, which is unreliable for current officeholders."
+      }
+    ],
+    "key_rationale": "When sources conflict, the authoritative resolution is the official Tennessee General Assembly 'Find My Legislator' tool at capitol.tn.gov.",
+    "dok_rationale": "DOK 3: the student must evaluate competing sources and justify the most authoritative choice.",
+    "blooms_rationale": "The student critiques sources and selects the one with genuine authority.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.30-Q18",
+    "standard": "GC.30",
+    "unit": 7,
+    "question_number": 18,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Why does the Tennessee Constitution fix the General Assembly at 33 senators and 99 representatives rather than defining it by the individuals who currently hold those seats?",
+    "options": {
+      "A": "because the same individuals serve permanently once they are elected",
+      "B": "because the federal government sets those totals for every state",
+      "C": "because the numbers must match Tennessee's 95 counties",
+      "D": "because the structure of the legislature stays constant while officeholders change with elections"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": true,
+    "topics": [
+      "General Assembly",
+      "structure versus officeholders"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Officeholders do not serve permanently; they change through elections, which is why the structure is defined separately."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Tennessee sets the size of its own legislature; the federal government does not fix state chamber totals."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "95 is Tennessee's number of counties, which does not determine the fixed sizes of the two chambers."
+      }
+    ],
+    "key_rationale": "The constitution fixes chamber sizes because the legislature's structure is meant to be stable and permanent, while the specific people who serve change with each election.",
+    "dok_rationale": "DOK 3: the student must analyze the reason for defining structure independently of current officeholders.",
+    "blooms_rationale": "The student analyzes why a permanent structure is distinguished from changeable membership.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.30-Q19",
+    "standard": "GC.30",
+    "unit": 7,
+    "question_number": 19,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Tennessee's governor is elected statewide to a four-year term. Explain, using only official sources, how a citizen could (a) identify who currently holds the office of governor and (b) find that governor's officially stated priorities. Then make a claim about why relying on official sources — rather than memory or social media — matters, and support it with reasoning.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": true,
+    "topics": [
+      "governor",
+      "official sources",
+      "civic action"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 0.9,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "See rubric: full credit for describing a way to identify the current governor from an official source (e.g., tn.gov), a way to find that governor's stated priorities from an official source (e.g., the proposed budget or State of the State address), a claim about why official sources matter, and reasoning that officeholders and priorities change with elections so only current official sources are certain.",
+    "dok_rationale": "DOK 3: the student constructs an evidence-based argument about verifying current officeholders and priorities.",
+    "blooms_rationale": "The student justifies a claim about source reliability with reasoning.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.30-Q20",
+    "standard": "GC.30",
+    "unit": 7,
+    "question_number": 20,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read this excerpt from the Constitution of the State of Tennessee, Article III, Section 1 (1870): \"The Supreme Executive power of this State shall be vested in a Governor.\" Using this document, explain what kind of power the Tennessee Constitution gives the governor, and describe the steps a citizen could take to identify who currently holds that office from an official source.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": true,
+    "topics": [
+      "governor",
+      "executive power",
+      "state constitution"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 0.7,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "See rubric: response should use the document to explain that the constitution vests the state's supreme executive power in the governor (the chief executive who carries out state law), and should describe steps to identify the current officeholder from an official source such as tn.gov, noting that the name must be confirmed from a current official source because it changes with elections.",
+    "dok_rationale": "DOK 3: the student analyzes a primary source and applies it to a real verification process.",
+    "blooms_rationale": "The student deconstructs a constitutional clause to explain executive power and a lookup process.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV7: Tennessee State and Local Government",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-6pt",
+    "rubric_name": "Document-Based Question 6-Point Rubric"
+  }
+]

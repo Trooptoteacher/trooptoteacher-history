@@ -1,0 +1,1990 @@
+[
+  {
+    "id": "GC.19-Q01",
+    "standard": "GC.19",
+    "unit": 5,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Under Article III, a sitting federal judge can be removed from office through which of the following processes?",
+    "options": {
+      "A": "A nationwide recall election",
+      "B": "Impeachment and conviction by Congress",
+      "C": "An executive order issued by the President",
+      "D": "A vote of the other federal judges"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "Article III",
+      "judicial independence",
+      "impeachment"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -1.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Assumes federal judges answer to voters and can be recalled like elected officials."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Assumes the President controls the judiciary and can dismiss judges directly."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "Reasonable guess that judges police their own, but the Constitution reserves removal to Congress."
+      }
+    ],
+    "key_rationale": "Article III judges hold office during good Behaviour and are removed only through impeachment by the House and conviction by the Senate.",
+    "dok_rationale": "Student recalls a single constitutional fact about how federal judges are removed.",
+    "blooms_rationale": "Requires retrieving a memorized removal process, not interpretation.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.19-Q02",
+    "standard": "GC.19",
+    "unit": 5,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "The Constitution states that federal judges 'shall hold their Offices during good Behaviour.' In practice, how long does this allow federal judges to serve?",
+    "options": {
+      "A": "A single four-year term matching the President",
+      "B": "A fixed, renewable term of ten years",
+      "C": "Effectively for life, unless removed for misconduct",
+      "D": "Only until the next presidential election"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Article III",
+      "life tenure",
+      "good Behaviour"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 1",
+    "irt_a": 1.3,
+    "irt_b": -0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Confuses judicial tenure with the President's fixed four-year term."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "Plausible fixed-term guess, but Article III sets no term limit."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Assumes judicial service is tied to the election cycle."
+      }
+    ],
+    "key_rationale": "'Good Behaviour' tenure means federal judges serve for life unless they resign, retire, or are removed by impeachment.",
+    "dok_rationale": "Student recalls the meaning of a constitutional phrase about tenure.",
+    "blooms_rationale": "Requires paraphrasing the 'good Behaviour' clause into its practical meaning.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.19-Q03",
+    "standard": "GC.19",
+    "unit": 5,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Why does Article III protect federal judges with life tenure and a salary that cannot be reduced?",
+    "options": {
+      "A": "So that judges can decide cases without fear of political pressure",
+      "B": "So that judges can never be removed from office for any reason",
+      "C": "So that the President can replace judges after each election",
+      "D": "So that judges are required to also serve in Congress"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "judicial independence",
+      "life tenure",
+      "protected salary"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": -0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Overstates tenure — judges can still be impeached; the goal is independence, not immunity."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Contradicts life tenure and the purpose of insulating judges from elections."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Confuses separated branches; judges do not hold legislative seats."
+      }
+    ],
+    "key_rationale": "Protected tenure and salary insulate judges from elections and political retaliation so they can rule on the law itself.",
+    "dok_rationale": "Student explains the purpose behind a constitutional design feature rather than recalling it.",
+    "blooms_rationale": "Requires explaining the reasoning that connects a protection to judicial independence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.19-Q04",
+    "standard": "GC.19",
+    "unit": 5,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Most cases reach the U.S. Supreme Court only after a lower court has already issued a ruling. Which type of jurisdiction does this describe?",
+    "options": {
+      "A": "Original jurisdiction",
+      "B": "Appellate jurisdiction",
+      "C": "Concurrent jurisdiction",
+      "D": "Exclusive jurisdiction"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "jurisdiction",
+      "appellate jurisdiction",
+      "Article III"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.5,
+    "irt_b": 0.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Original jurisdiction is the opposite — the case starts, not arrives, at the Court."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Concurrent jurisdiction is a real term but describes courts sharing authority, not appeals."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Exclusive jurisdiction describes which court alone may hear a case, not the appeal path."
+      }
+    ],
+    "key_rationale": "Cases that arrive by appeal from a lower court fall under the Supreme Court's appellate jurisdiction, the route for most of its docket.",
+    "dok_rationale": "Student classifies a described situation under the correct jurisdictional concept.",
+    "blooms_rationale": "Requires interpreting a scenario and matching it to the concept of appellate jurisdiction.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.19-Q05",
+    "standard": "GC.19",
+    "unit": 5,
+    "question_number": 5,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Article III vests the judicial power in 'one supreme Court.' Which branch has the authority to create the lower federal courts beneath it?",
+    "options": {
+      "A": "The President, acting through executive order",
+      "B": "The Supreme Court, acting on its own authority",
+      "C": "Congress, acting through legislation",
+      "D": "The state legislatures, acting individually"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Article III",
+      "lower federal courts",
+      "Congress"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Assumes the executive can create courts; court creation is a legislative power."
+      },
+      {
+        "label": "B",
+        "code": "PE",
+        "rationale": "The Court hears cases but does not create the court system beneath it."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Confuses the federal court system with state court systems."
+      }
+    ],
+    "key_rationale": "Article III names only the Supreme Court; the Constitution leaves creation of lower federal courts to Congress.",
+    "dok_rationale": "Student explains how constitutional authority for court creation is divided among branches.",
+    "blooms_rationale": "Requires understanding the allocation of a power rather than recalling a single fact.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.19-Q06",
+    "standard": "GC.19",
+    "unit": 5,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A critic argues that life tenure makes federal judges 'undemocratic.' Which statement best explains the Framers' reasoning for building this feature into Article III?",
+    "options": {
+      "A": "Judges were meant to answer directly to voters through regular elections",
+      "B": "Life tenure was intended to make judges depend on the President for their salaries",
+      "C": "The Framers wanted the judiciary to dominate the other two branches",
+      "D": "Insulating judges from elections lets them uphold the Constitution even against public pressure"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "judicial independence",
+      "countermajoritarian",
+      "constitutional design"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.7,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Contradicts the design; judges are deliberately shielded from elections."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Salaries are protected precisely so judges do not depend on other branches."
+      },
+      {
+        "label": "C",
+        "code": "OG",
+        "rationale": "Overstates the aim; independence is not the same as dominance over other branches."
+      }
+    ],
+    "key_rationale": "The Framers traded democratic accountability for independence so judges could apply the Constitution without fear of losing their jobs to public opinion.",
+    "dok_rationale": "Student evaluates competing explanations for a design choice and judges which reflects the Framers' reasoning.",
+    "blooms_rationale": "Requires judging explanations against the purpose of judicial independence, an evaluative task.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.19-Q07",
+    "standard": "GC.19",
+    "unit": 5,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "A dispute arises over whether a state law conflicts with a treaty the United States signed with another nation. Under Article III, Section 2, why may a federal court hear this case?",
+    "options": {
+      "A": "Because the judicial power extends to cases arising under treaties made under United States authority",
+      "B": "Because federal courts may only hear disputes between two different states",
+      "C": "Because treaties are enforced only by the President, never by the courts",
+      "D": "Because state courts are forbidden from interpreting any federal law"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "Article III Section 2",
+      "jurisdiction",
+      "treaties"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 1.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "NE",
+        "rationale": "Names a real jurisdiction category but not the one that applies to treaty questions."
+      },
+      {
+        "label": "C",
+        "code": "CA",
+        "rationale": "Misattributes treaty enforcement solely to the executive, excluding the courts."
+      },
+      {
+        "label": "D",
+        "code": "OG",
+        "rationale": "Overgeneralizes; state courts do interpret federal law, subject to review."
+      }
+    ],
+    "key_rationale": "Article III, Section 2 extends the judicial power to all cases arising under the Constitution, federal laws, and treaties, so a treaty conflict is properly heard in federal court.",
+    "dok_rationale": "Student applies the text of Article III, Section 2 to an unfamiliar scenario to determine jurisdiction.",
+    "blooms_rationale": "Requires analyzing a fact situation against the scope of the judicial power.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.19-Q08",
+    "standard": "GC.19",
+    "unit": 5,
+    "question_number": 8,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In two to three sentences, explain the difference between the Supreme Court's original jurisdiction and its appellate jurisdiction, and identify which type accounts for most of the cases the Court hears.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "jurisdiction",
+      "original jurisdiction",
+      "appellate jurisdiction"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.2,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.01",
+    "distractor_tags": [],
+    "key_rationale": "A complete response distinguishes original jurisdiction (a case begins at the Supreme Court) from appellate jurisdiction (the Court reviews a lower court's decision) and notes that most cases arrive through appellate jurisdiction.",
+    "dok_rationale": "Student explains and contrasts two related concepts in their own words.",
+    "blooms_rationale": "Requires summarizing and distinguishing two jurisdictional concepts.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.19-Q09",
+    "standard": "GC.19",
+    "unit": 5,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Claim, Evidence, Reasoning: Is life tenure for federal judges a strength or a danger for a democracy? State a clear claim, support it with evidence from Article III, and explain your reasoning.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "life tenure",
+      "judicial independence",
+      "countermajoritarian"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 1.1,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A proficient response takes a defensible position and supports it with accurate Article III evidence (life tenure, protected salary, impeachment-only removal) and sound reasoning about independence versus accountability.",
+    "dok_rationale": "Student constructs an evidence-based argument evaluating a constitutional design choice.",
+    "blooms_rationale": "Requires judging the merits of life tenure and defending a position with evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.19-Q10",
+    "standard": "GC.19",
+    "unit": 5,
+    "question_number": 10,
+    "type": "extended_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "In a short essay, evaluate the claim that Article III 'trades democratic control for judicial independence.' Use specific features of Article III, such as life tenure, protected salaries, and the impeachment-only removal process, to support your evaluation.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Article III",
+      "judicial independence",
+      "constitutional design"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 1.3,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A strong essay evaluates the tradeoff using multiple Article III features and reaches a reasoned judgment about independence versus democratic accountability.",
+    "dok_rationale": "Student synthesizes several constitutional features into an extended evaluative argument.",
+    "blooms_rationale": "Requires an extended judgment supported by multiple pieces of constitutional evidence.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "ER-8pt",
+    "rubric_name": "Extended Response 8-Point Rubric"
+  },
+  {
+    "id": "GC.20-Q01",
+    "standard": "GC.20",
+    "unit": 5,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "After the President nominates a candidate for the Supreme Court, which body must vote to confirm the nominee before that person can take the seat?",
+    "options": {
+      "A": "The House of Representatives",
+      "B": "The Senate",
+      "C": "The sitting Supreme Court justices",
+      "D": "The state governors"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "confirmation",
+      "Senate",
+      "appointment process"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -1.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "PK",
+        "rationale": "Confuses the two chambers; the House has no confirmation role for justices."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Assumes justices confirm their own colleagues."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Confuses federal appointment with state officials."
+      }
+    ],
+    "key_rationale": "Article II gives the Senate the power of Advice and Consent, so the Senate confirms Supreme Court nominees.",
+    "dok_rationale": "Student recalls which body confirms Supreme Court nominees.",
+    "blooms_rationale": "Requires retrieving a single fact about the confirmation process.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.20-Q02",
+    "standard": "GC.20",
+    "unit": 5,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Under Article II of the Constitution, who holds the power to nominate a person to fill a vacancy on the Supreme Court?",
+    "options": {
+      "A": "The President",
+      "B": "The Chief Justice",
+      "C": "The Speaker of the House",
+      "D": "The Senate Majority Leader"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "nomination",
+      "President",
+      "Article II"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.3,
+    "irt_b": -1.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Assumes the sitting Court selects new members."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Confuses a legislative leader with the nominating power."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The Senate confirms but does not nominate."
+      }
+    ],
+    "key_rationale": "Article II gives the President the power to nominate justices; the Senate then confirms.",
+    "dok_rationale": "Student recalls who nominates Supreme Court justices.",
+    "blooms_rationale": "Requires retrieving a single fact about the nominating power.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.20-Q03",
+    "standard": "GC.20",
+    "unit": 5,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "What role does the Senate Judiciary Committee play in the process of seating a new Supreme Court justice?",
+    "options": {
+      "A": "It selects the candidate the President will formally nominate",
+      "B": "It issues the final confirmation on its own authority",
+      "C": "It administers the oath of office after confirmation",
+      "D": "It holds hearings to question the nominee before the full Senate votes"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "Senate Judiciary Committee",
+      "confirmation hearings",
+      "process"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": -0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "CA",
+        "rationale": "Misattributes the nominating step, which belongs to the President."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The committee recommends, but the full Senate confirms."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "Correct part of the timeline but the wrong body performs it."
+      }
+    ],
+    "key_rationale": "The Senate Judiciary Committee holds hearings and questions the nominee, then makes a recommendation before the full Senate votes.",
+    "dok_rationale": "Student explains the specific function of one step in the confirmation process.",
+    "blooms_rationale": "Requires describing what the committee does rather than recalling a single name.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.20-Q04",
+    "standard": "GC.20",
+    "unit": 5,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "The Constitution requires the President to appoint justices 'by and with the Advice and Consent of the Senate.' What does this phrase establish?",
+    "options": {
+      "A": "The President may appoint justices without any Senate involvement",
+      "B": "The Senate alone selects and appoints all justices",
+      "C": "The Senate must approve the nominee before the appointment is complete",
+      "D": "Advice and Consent applies only to lower-court judges, not the Supreme Court"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Advice and Consent",
+      "shared power",
+      "Article II"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.5,
+    "irt_b": 0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Ignores the Senate's required consent role."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Overstates the Senate's role; it confirms but does not select."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "Plausible but wrong; Advice and Consent covers Supreme Court justices."
+      }
+    ],
+    "key_rationale": "Advice and Consent means the President's appointment is not complete until the Senate approves the nominee, a shared appointment power.",
+    "dok_rationale": "Student interprets the meaning of a constitutional phrase governing shared power.",
+    "blooms_rationale": "Requires explaining what the clause establishes about divided authority.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.20-Q05",
+    "standard": "GC.20",
+    "unit": 5,
+    "question_number": 5,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "How does the process of nominating and confirming a justice reflect the principle of checks and balances?",
+    "options": {
+      "A": "It gives the judiciary the power to appoint its own members",
+      "B": "It allows the President to remove senators who oppose a nominee",
+      "C": "It lets the states overrule a confirmation they dislike",
+      "D": "It divides the power to seat a justice between the President and the Senate"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "checks and balances",
+      "shared appointment power",
+      "separation of powers"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 2",
+    "irt_a": 1.5,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "The judiciary does not appoint its own members."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The President cannot remove senators; that misreads the check."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "States have no role in confirming federal justices."
+      }
+    ],
+    "key_rationale": "The shared appointment power checks both branches: the President chooses, but only the Senate can seat the nominee.",
+    "dok_rationale": "Student connects the appointment process to the broader principle of checks and balances.",
+    "blooms_rationale": "Requires analyzing how a shared power embodies a constitutional principle.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.20-Q06",
+    "standard": "GC.20",
+    "unit": 5,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Why has the confirmation of a single Supreme Court justice become one of the most closely watched political battles in Washington?",
+    "options": {
+      "A": "Because a justice can serve for decades, shaping the law long after the President leaves office",
+      "B": "Because justices must be re-confirmed by the Senate every four years",
+      "C": "Because the President may appoint only one justice per term of office",
+      "D": "Because a justice's rulings can be reversed by the next President"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "life tenure",
+      "high-stakes confirmations",
+      "long-term impact"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.6,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "There is no periodic re-confirmation; tenure is for life."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "No such one-per-term rule exists."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "Presidents cannot reverse the Court's rulings."
+      }
+    ],
+    "key_rationale": "Because a justice serves during good Behaviour, often for decades, one appointment can shape constitutional law long after the nominating President is gone, raising the stakes.",
+    "dok_rationale": "Student analyzes why long tenure makes a single appointment consequential.",
+    "blooms_rationale": "Requires reasoning about cause and effect between tenure length and political stakes.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.20-Q07",
+    "standard": "GC.20",
+    "unit": 5,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "John Catron, who had served as Chief Justice of Tennessee's own Supreme Court, was appointed to the U.S. Supreme Court in 1837. What does his appointment best illustrate about the selection of justices?",
+    "options": {
+      "A": "Only sitting members of Congress may be appointed to the Supreme Court",
+      "B": "State judicial experience can be a path to a presidential nomination to the Court",
+      "C": "Supreme Court justices are elected by the voters of their home state",
+      "D": "A nominee must be confirmed by his or her home-state legislature"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": true,
+    "topics": [
+      "John Catron",
+      "Tennessee",
+      "selection of justices"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 0.9,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "OG",
+        "rationale": "Overgeneralizes; justices need not come from Congress."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Justices are appointed, not elected by home-state voters."
+      },
+      {
+        "label": "D",
+        "code": "MC",
+        "rationale": "The U.S. Senate confirms, not a state legislature."
+      }
+    ],
+    "key_rationale": "Catron rose from Tennessee's high court to the U.S. Supreme Court, showing that state judicial service can lead to a presidential nomination and Senate confirmation.",
+    "dok_rationale": "Student analyzes a real appointment to draw a generalization about how justices are selected.",
+    "blooms_rationale": "Requires interpreting a historical example to infer a principle about selection.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.20-Q08",
+    "standard": "GC.20",
+    "unit": 5,
+    "question_number": 8,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In two to three sentences, describe the two main steps required to seat a new Supreme Court justice and identify which part of the government controls each step.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "nomination",
+      "confirmation",
+      "shared appointment power"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.2,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [],
+    "key_rationale": "A complete response identifies nomination (controlled by the President) and confirmation (controlled by the Senate) as the two steps to seat a justice.",
+    "dok_rationale": "Student explains a two-step process and assigns control of each step.",
+    "blooms_rationale": "Requires summarizing the appointment process in the student's own words.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.20-Q09",
+    "standard": "GC.20",
+    "unit": 5,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Claim, Evidence, Reasoning: Should confirming a Supreme Court justice require only a simple majority of the Senate, or a larger supermajority? State a clear claim, support it with evidence, and explain your reasoning.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "confirmation",
+      "Senate majority",
+      "checks and balances"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 1.1,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A proficient response takes a defensible position on the confirmation threshold and supports it with accurate evidence about the Senate's role and sound reasoning about consequences.",
+    "dok_rationale": "Student constructs an evidence-based argument about how confirmation should work.",
+    "blooms_rationale": "Requires judging a procedural rule and defending a position with reasoning.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.20-Q10",
+    "standard": "GC.20",
+    "unit": 5,
+    "question_number": 10,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpt, then respond. Source: U.S. Constitution, Article II, Section 2 (1787), U.S. National Archives -- '...he shall nominate, and by and with the Advice and Consent of the Senate, shall appoint... Judges of the supreme Court.' In a short essay, use this text to explain how the Constitution divides the appointment power, and evaluate how that division checks both the President and the Senate.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Article II Section 2",
+      "Advice and Consent",
+      "checks and balances"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 1.3,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "A strong essay uses the Article II text to show that the President nominates and the Senate consents, then evaluates how that split limits each branch.",
+    "dok_rationale": "Student analyzes a primary-source text and builds an extended evaluative argument from it.",
+    "blooms_rationale": "Requires evaluating how a divided power checks both branches, grounded in the source.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-8pt",
+    "rubric_name": "Document-Based Response 8-Point Rubric"
+  },
+  {
+    "id": "GC.21-Q01",
+    "standard": "GC.21",
+    "unit": 5,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "Which 1803 Supreme Court case established the principle of judicial review?",
+    "options": {
+      "A": "McCulloch v. Maryland",
+      "B": "Marbury v. Madison",
+      "C": "Baker v. Carr",
+      "D": "Gibbons v. Ogden"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "Marbury v. Madison",
+      "judicial review",
+      "landmark cases"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.2,
+    "irt_b": -1.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "A real Marshall Court case, but about federal power, not judicial review's origin."
+      },
+      {
+        "label": "C",
+        "code": "NE",
+        "rationale": "A real landmark case from 1962, not the origin of judicial review."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "A real Marshall Court commerce case, not the source of judicial review."
+      }
+    ],
+    "key_rationale": "Marbury v. Madison (1803) is the case in which the Court established judicial review.",
+    "dok_rationale": "Student recalls which case established judicial review.",
+    "blooms_rationale": "Requires retrieving a single fact identifying a landmark case.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.21-Q02",
+    "standard": "GC.21",
+    "unit": 5,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is 'judicial review'?",
+    "options": {
+      "A": "The power of courts to declare a law or government action unconstitutional and void",
+      "B": "The Senate's power to review the President's judicial nominees",
+      "C": "The President's power to reject a bill passed by Congress",
+      "D": "The process of appealing a case from a lower court to a higher court"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "judicial review",
+      "unconstitutional",
+      "definition"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 1",
+    "irt_a": 1.3,
+    "irt_b": -0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Confuses judicial review with the Senate's confirmation power."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Describes the veto, an executive power, not judicial review."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "Describes the appeals process, related to courts but not judicial review."
+      }
+    ],
+    "key_rationale": "Judicial review is the power of courts to declare a law or government action unconstitutional and therefore void.",
+    "dok_rationale": "Student recalls the definition of judicial review.",
+    "blooms_rationale": "Requires paraphrasing the meaning of a key term.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.21-Q03",
+    "standard": "GC.21",
+    "unit": 5,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Which Chief Justice wrote the opinion in Marbury v. Madison that established judicial review?",
+    "options": {
+      "A": "John Jay",
+      "B": "Roger Taney",
+      "C": "John Marshall",
+      "D": "Earl Warren"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "John Marshall",
+      "Marbury v. Madison",
+      "Chief Justice"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.3,
+    "irt_b": -0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "A real early Chief Justice, but he did not write Marbury."
+      },
+      {
+        "label": "B",
+        "code": "NE",
+        "rationale": "Marshall's successor, from the wrong era for this case."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "A twentieth-century Chief Justice, wrong era for Marbury."
+      }
+    ],
+    "key_rationale": "Chief Justice John Marshall authored the 1803 Marbury opinion that established judicial review.",
+    "dok_rationale": "Student identifies the author of a landmark opinion, distinguishing among real Chief Justices.",
+    "blooms_rationale": "Requires recognizing the correct figure and situating him in the right era.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.21-Q04",
+    "standard": "GC.21",
+    "unit": 5,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Chief Justice Marshall wrote that it is 'emphatically the province and duty of the judicial department to say what the law is.' What did he mean by this statement?",
+    "options": {
+      "A": "Congress alone decides what the laws mean",
+      "B": "The President has the final word on the meaning of the Constitution",
+      "C": "Each state may interpret federal law as it chooses",
+      "D": "Interpreting the meaning of the law is the proper role of the courts"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "Marbury v. Madison",
+      "judicial interpretation",
+      "John Marshall"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.5,
+    "irt_b": 0.1,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Contradicts Marshall; he assigned interpretation to the judiciary."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The President does not have the final word on constitutional meaning."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "Marshall's point was national, not that each state interprets independently."
+      }
+    ],
+    "key_rationale": "Marshall asserted that interpreting the law, and saying what it means, is the province of the courts.",
+    "dok_rationale": "Student interprets the meaning of a primary-source sentence from the opinion.",
+    "blooms_rationale": "Requires explaining what a quoted statement means, not just recalling it.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.21-Q05",
+    "standard": "GC.21",
+    "unit": 5,
+    "question_number": 5,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "According to the holding in Marbury v. Madison, what happens to a law that conflicts with the Constitution?",
+    "options": {
+      "A": "It remains in force until Congress votes to repeal it",
+      "B": "It must be approved by the states before it can take effect",
+      "C": "It is void and cannot be enforced",
+      "D": "It is returned to the President for a new signature"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Marbury v. Madison",
+      "unconstitutional",
+      "void"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Marbury holds such a law is void immediately, not merely repealable."
+      },
+      {
+        "label": "B",
+        "code": "PK",
+        "rationale": "Confuses state ratification with the effect of an unconstitutional law."
+      },
+      {
+        "label": "D",
+        "code": "PE",
+        "rationale": "Plausible procedure but not the holding; the law is simply void."
+      }
+    ],
+    "key_rationale": "Marshall held that 'a law repugnant to the constitution is void' and cannot be enforced.",
+    "dok_rationale": "Student explains the consequence the case assigns to an unconstitutional law.",
+    "blooms_rationale": "Requires understanding the holding's effect rather than naming the case.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.21-Q06",
+    "standard": "GC.21",
+    "unit": 5,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "How did the decision in Marbury v. Madison change the role of the judicial branch within the federal government?",
+    "options": {
+      "A": "It gave the judiciary a check on the other branches by allowing it to strike down unconstitutional acts",
+      "B": "It made the Supreme Court subordinate to the President in all disputes",
+      "C": "It transferred the power to write laws from Congress to the courts",
+      "D": "It required the Court to approve every law before the law could take effect"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "judicial review",
+      "checks and balances",
+      "balance of power"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.7,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "The opposite occurred; the Court gained a check, not subordination."
+      },
+      {
+        "label": "C",
+        "code": "OG",
+        "rationale": "Overstates the change; courts interpret, they do not write laws."
+      },
+      {
+        "label": "D",
+        "code": "OG",
+        "rationale": "No prior-approval role was created; review happens through cases."
+      }
+    ],
+    "key_rationale": "Marbury made the judiciary a genuine check on the other branches by giving it power to declare their acts unconstitutional.",
+    "dok_rationale": "Student analyzes how the ruling shifted the balance of power among branches.",
+    "blooms_rationale": "Requires reasoning about the case's structural effect on the branches.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.21-Q07",
+    "standard": "GC.21",
+    "unit": 5,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The Constitution does not explicitly give courts the power to strike down laws. On what reasoning did Marshall base the claim that courts hold this power anyway?",
+    "options": {
+      "A": "The Constitution lists judicial review among the enumerated powers of Congress",
+      "B": "Because the Constitution is the supreme law, an ordinary law that conflicts with it must give way",
+      "C": "The President had personally granted the Court this authority",
+      "D": "A majority of the states had voted to give the Court this power"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "judicial review",
+      "supremacy",
+      "constitutional reasoning"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 1.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Judicial review is not listed anywhere in the text; that is the puzzle Marshall solved."
+      },
+      {
+        "label": "C",
+        "code": "CA",
+        "rationale": "Misattributes the power's source to an executive grant."
+      },
+      {
+        "label": "D",
+        "code": "CA",
+        "rationale": "Misattributes the power's source to a vote of the states."
+      }
+    ],
+    "key_rationale": "Marshall reasoned that because the Constitution is the supreme law, any ordinary law conflicting with it is void, and courts must follow the higher law.",
+    "dok_rationale": "Student analyzes the logical reasoning behind an implied constitutional power.",
+    "blooms_rationale": "Requires reconstructing Marshall's argument rather than recalling a fact.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.21-Q08",
+    "standard": "GC.21",
+    "unit": 5,
+    "question_number": 8,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In two to three sentences, explain what power Marbury v. Madison (1803) established for the courts and why that power made the judiciary a check on the other branches.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Marbury v. Madison",
+      "judicial review",
+      "checks and balances"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.2,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "A complete response states that Marbury established judicial review and explains that the power to void unconstitutional acts lets the courts check the other branches.",
+    "dok_rationale": "Student explains a concept and its structural significance in their own words.",
+    "blooms_rationale": "Requires summarizing the case's holding and its effect.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.21-Q09",
+    "standard": "GC.21",
+    "unit": 5,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Claim, Evidence, Reasoning: Was Chief Justice Marshall right to claim the power of judicial review even though the Constitution does not list it? State a clear claim, support it with evidence from the case, and explain your reasoning.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "judicial review",
+      "Marbury v. Madison",
+      "constitutional interpretation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 1.2,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A proficient response takes a defensible position on Marshall's claim and supports it with accurate evidence from the opinion and sound reasoning.",
+    "dok_rationale": "Student constructs an evidence-based argument evaluating a constitutional claim.",
+    "blooms_rationale": "Requires judging the legitimacy of judicial review and defending the position.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.21-Q10",
+    "standard": "GC.21",
+    "unit": 5,
+    "question_number": 10,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpts, then respond. Source: Marbury v. Madison, 5 U.S. 137 (1803), Chief Justice John Marshall, U.S. Reports -- 'It is emphatically the province and duty of the judicial department to say what the law is.' ... 'a law repugnant to the constitution is void.' In a short essay, use these excerpts to explain how Marshall justified judicial review and evaluate its impact on the balance of power among the three branches.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Marbury v. Madison",
+      "judicial review",
+      "balance of power"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 1.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "A strong essay uses both quoted passages to reconstruct Marshall's reasoning and evaluates how judicial review reshaped the relationship among the branches.",
+    "dok_rationale": "Student analyzes primary-source excerpts and builds an extended evaluative argument.",
+    "blooms_rationale": "Requires evaluating the ruling's impact, grounded in the quoted text.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-8pt",
+    "rubric_name": "Document-Based Response 8-Point Rubric"
+  },
+  {
+    "id": "GC.22-Q01",
+    "standard": "GC.22",
+    "unit": 5,
+    "question_number": 1,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "How many of the nine Supreme Court justices must agree in order to grant a writ of certiorari and hear a case?",
+    "options": {
+      "A": "Four",
+      "B": "Five",
+      "C": "Six",
+      "D": "Nine"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "rule of four",
+      "writ of certiorari",
+      "Supreme Court process"
+    ],
+    "blooms": "Remember",
+    "hess_crm_cell": "Remember × DOK 1",
+    "irt_a": 1.1,
+    "irt_b": -1.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Confuses the cert threshold with a majority needed to decide a case."
+      },
+      {
+        "label": "C",
+        "code": "PE",
+        "rationale": "A plausible but incorrect number for the rule of four."
+      },
+      {
+        "label": "D",
+        "code": "OG",
+        "rationale": "Assumes unanimity is required to hear a case."
+      }
+    ],
+    "key_rationale": "The 'rule of four' means four of the nine justices must agree to grant certiorari and hear a case.",
+    "dok_rationale": "Student recalls the numerical rule for granting certiorari.",
+    "blooms_rationale": "Requires retrieving a single procedural fact.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.22-Q02",
+    "standard": "GC.22",
+    "unit": 5,
+    "question_number": 2,
+    "type": "multiple_choice",
+    "dok": 1,
+    "level": "Developing",
+    "question": "What is a writ of certiorari?",
+    "options": {
+      "A": "A final ruling that decides a case on its merits",
+      "B": "An order by which the Supreme Court agrees to hear a case",
+      "C": "A written dissent filed by a justice in the minority",
+      "D": "A law passed by Congress to overturn a court ruling"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": false,
+    "topics": [
+      "writ of certiorari",
+      "Supreme Court process",
+      "definition"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 1",
+    "irt_a": 1.3,
+    "irt_b": -0.7,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Confuses the decision to hear a case with the final decision itself."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Confuses certiorari with a dissenting opinion."
+      },
+      {
+        "label": "D",
+        "code": "CA",
+        "rationale": "Misattributes the term to a legislative act rather than a court order."
+      }
+    ],
+    "key_rationale": "A writ of certiorari is the order by which the Supreme Court agrees to review a case from a lower court.",
+    "dok_rationale": "Student recalls the definition of a procedural term.",
+    "blooms_rationale": "Requires paraphrasing the meaning of a key term.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.22-Q03",
+    "standard": "GC.22",
+    "unit": 5,
+    "question_number": 3,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "Which description best defines judicial activism?",
+    "options": {
+      "A": "Judges deferring to the elected branches and following precedent closely",
+      "B": "Judges refusing to hear any constitutional questions",
+      "C": "Judges being more willing to strike down laws or set new policy",
+      "D": "Judges interpreting the Constitution strictly by its original intent"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "judicial activism",
+      "judicial philosophy",
+      "living Constitution"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.5,
+    "irt_b": 0.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "Describes judicial restraint, the opposite approach."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "No approach requires refusing all constitutional questions."
+      },
+      {
+        "label": "D",
+        "code": "NE",
+        "rationale": "Describes restraint's original-intent reading, not activism."
+      }
+    ],
+    "key_rationale": "Judicial activism describes judges who are more willing to strike down laws or set new policy, often reading the Constitution as a living document.",
+    "dok_rationale": "Student distinguishes a philosophy from its opposite rather than recalling a term.",
+    "blooms_rationale": "Requires understanding and contrasting judicial philosophies.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.22-Q04",
+    "standard": "GC.22",
+    "unit": 5,
+    "question_number": 4,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "A judge who believes the Court should defer to the elected branches and interpret the Constitution by its 'original intent' is practicing which approach?",
+    "options": {
+      "A": "Judicial restraint",
+      "B": "Judicial activism",
+      "C": "Judicial review",
+      "D": "Original jurisdiction"
+    },
+    "correct_answer": "A",
+    "tennessee_specific": false,
+    "topics": [
+      "judicial restraint",
+      "original intent",
+      "judicial philosophy"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.4,
+    "irt_b": 0.2,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "B",
+        "code": "NE",
+        "rationale": "The opposite approach; activism is more willing to set new policy."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "Judicial review is the power to void laws, not a philosophy of deference."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "Original jurisdiction is a jurisdiction type, not a judicial philosophy."
+      }
+    ],
+    "key_rationale": "Judicial restraint describes judges who defer to the elected branches and precedent and read the Constitution by its original intent.",
+    "dok_rationale": "Student classifies a described stance under the correct judicial philosophy.",
+    "blooms_rationale": "Requires matching a description to the concept of judicial restraint.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.22-Q05",
+    "standard": "GC.22",
+    "unit": 5,
+    "question_number": 5,
+    "type": "multiple_choice",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "When the Supreme Court rules on a constitutional question, why does its decision matter beyond the two parties in the case?",
+    "options": {
+      "A": "The ruling automatically becomes a new constitutional amendment",
+      "B": "The ruling applies only to the district where the case began",
+      "C": "The ruling must be ratified by every state before it applies",
+      "D": "The ruling sets a precedent that guides courts across the country"
+    },
+    "correct_answer": "D",
+    "tennessee_specific": false,
+    "topics": [
+      "precedent",
+      "Supreme Court rulings",
+      "nationwide effect"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 2",
+    "irt_a": 1.5,
+    "irt_b": 0.3,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "A ruling is not an amendment; amendments require a separate process."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Supreme Court rulings bind nationally, not just one district."
+      },
+      {
+        "label": "C",
+        "code": "MC",
+        "rationale": "No state ratification is needed for a ruling to take effect."
+      }
+    ],
+    "key_rationale": "A Supreme Court ruling sets precedent that guides courts nationwide, so it reaches far beyond the two parties.",
+    "dok_rationale": "Student analyzes why a single ruling has nationwide effect.",
+    "blooms_rationale": "Requires explaining the broader consequence of precedent.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.22-Q06",
+    "standard": "GC.22",
+    "unit": 5,
+    "question_number": 6,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "The Supremacy Clause states that the Constitution 'shall be the supreme Law of the Land.' How does this clause support the Supreme Court's power to strike down a conflicting law?",
+    "options": {
+      "A": "It requires the Court to enforce every law Congress passes without question",
+      "B": "It gives ordinary state laws priority over the federal Constitution",
+      "C": "It establishes that a law conflicting with the Constitution cannot stand",
+      "D": "It transfers lawmaking power from Congress to the Court"
+    },
+    "correct_answer": "C",
+    "tennessee_specific": false,
+    "topics": [
+      "Supremacy Clause",
+      "Article VI",
+      "constitutionality"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 0.8,
+    "irt_c": 0.2,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "MC",
+        "rationale": "Contradicts the clause; a conflicting law cannot stand."
+      },
+      {
+        "label": "B",
+        "code": "MC",
+        "rationale": "Reverses the clause; the Constitution outranks conflicting laws."
+      },
+      {
+        "label": "D",
+        "code": "OG",
+        "rationale": "Overstates the effect; the Court voids conflicts, it does not make law."
+      }
+    ],
+    "key_rationale": "Because the Constitution is the supreme law, the Supremacy Clause means any law that conflicts with it cannot stand, supporting the Court's power to strike it down.",
+    "dok_rationale": "Student analyzes how a constitutional clause justifies a judicial power.",
+    "blooms_rationale": "Requires reasoning from the clause to its consequence for conflicting laws.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.22-Q07",
+    "standard": "GC.22",
+    "unit": 5,
+    "question_number": 7,
+    "type": "multiple_choice",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "In Tennessee's Baker v. Carr (1962), the Supreme Court agreed to decide a legislative-districting question once considered 'political.' A judge who criticized the ruling as the Court 'making new policy' would most likely label the decision an example of what?",
+    "options": {
+      "A": "Judicial restraint",
+      "B": "Judicial activism",
+      "C": "Original jurisdiction",
+      "D": "A writ of certiorari"
+    },
+    "correct_answer": "B",
+    "tennessee_specific": true,
+    "topics": [
+      "Baker v. Carr",
+      "Tennessee",
+      "judicial activism"
+    ],
+    "blooms": "Analyze",
+    "hess_crm_cell": "Analyze × DOK 3",
+    "irt_a": 1.7,
+    "irt_b": 1.0,
+    "irt_c": 0.2,
+    "c3_dimension": "D2",
+    "ssp": "SSP.05",
+    "distractor_tags": [
+      {
+        "label": "A",
+        "code": "NE",
+        "rationale": "The opposite label; restraint would defer rather than make new policy."
+      },
+      {
+        "label": "C",
+        "code": "PK",
+        "rationale": "A jurisdiction type, not a description of an approach to ruling."
+      },
+      {
+        "label": "D",
+        "code": "PK",
+        "rationale": "The order to hear a case, not a description of how boldly the Court ruled."
+      }
+    ],
+    "key_rationale": "A critic calling the Court's entry into districting 'making new policy' is describing judicial activism, the willingness to set new policy.",
+    "dok_rationale": "Student applies the activism-restraint framework to interpret a real Tennessee case.",
+    "blooms_rationale": "Requires analyzing a critic's viewpoint and matching it to a judicial philosophy.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": true,
+    "field_test_ready": true,
+    "rubric_id": null,
+    "rubric_name": null
+  },
+  {
+    "id": "GC.22-Q08",
+    "standard": "GC.22",
+    "unit": 5,
+    "question_number": 8,
+    "type": "short_answer",
+    "dok": 2,
+    "level": "Proficient",
+    "question": "In two to three sentences, explain how a case reaches the U.S. Supreme Court, using the terms 'writ of certiorari' and the 'rule of four.'",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "writ of certiorari",
+      "rule of four",
+      "Supreme Court process"
+    ],
+    "blooms": "Understand",
+    "hess_crm_cell": "Understand × DOK 2",
+    "irt_a": 1.2,
+    "irt_b": 0.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D2",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A complete response explains that a party petitions for a writ of certiorari and that four of the nine justices (the rule of four) must agree for the Court to hear the case.",
+    "dok_rationale": "Student explains a multi-step process using required vocabulary.",
+    "blooms_rationale": "Requires summarizing the certiorari process in the student's own words.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "SA-3pt",
+    "rubric_name": "Short Answer 3-Point Rubric"
+  },
+  {
+    "id": "GC.22-Q09",
+    "standard": "GC.22",
+    "unit": 5,
+    "question_number": 9,
+    "type": "constructed_response",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Claim, Evidence, Reasoning: Should the Supreme Court favor judicial activism (treating the Constitution as a 'living document') or judicial restraint ('original intent')? State a clear claim, support it with an example of a court's decision, and explain your reasoning.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "judicial activism",
+      "judicial restraint",
+      "constitutional interpretation"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.5,
+    "irt_b": 1.2,
+    "irt_c": 0.0,
+    "c3_dimension": "D4",
+    "ssp": "SSP.04",
+    "distractor_tags": [],
+    "key_rationale": "A proficient response takes a defensible position on activism versus restraint, supports it with an accurate case example, and reasons soundly about the consequences.",
+    "dok_rationale": "Student constructs an evidence-based argument evaluating two judicial philosophies.",
+    "blooms_rationale": "Requires judging competing philosophies and defending a position with an example.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "CER-6pt",
+    "rubric_name": "Claim-Evidence-Reasoning 6-Point Rubric"
+  },
+  {
+    "id": "GC.22-Q10",
+    "standard": "GC.22",
+    "unit": 5,
+    "question_number": 10,
+    "type": "document_based",
+    "dok": 3,
+    "level": "Advanced",
+    "question": "Read the excerpt, then respond. Source: U.S. Constitution, Article VI, the Supremacy Clause (1787), U.S. National Archives -- 'This Constitution... shall be the supreme Law of the Land; and the Judges in every State shall be bound thereby.' In a short essay, use this text to explain how the Supremacy Clause supports the Supreme Court's role in deciding the constitutionality of laws, and evaluate the limits on that power.",
+    "options": null,
+    "correct_answer": "See rubric",
+    "tennessee_specific": false,
+    "topics": [
+      "Supremacy Clause",
+      "Article VI",
+      "constitutionality"
+    ],
+    "blooms": "Evaluate",
+    "hess_crm_cell": "Evaluate × DOK 3",
+    "irt_a": 1.6,
+    "irt_b": 1.4,
+    "irt_c": 0.0,
+    "c3_dimension": "D3",
+    "ssp": "SSP.02",
+    "distractor_tags": [],
+    "key_rationale": "A strong essay uses the Article VI text to explain the Court's role in judging constitutionality and evaluates real limits on that power, such as needing a case and the possibility of amendment.",
+    "dok_rationale": "Student analyzes a primary-source clause and builds an extended evaluative argument.",
+    "blooms_rationale": "Requires evaluating both the basis for and the limits on the Court's power, grounded in the source.",
+    "bias_flag": "none",
+    "reporting_category": "RC-GOV5: The Judicial Branch",
+    "tcap_format": false,
+    "field_test_ready": false,
+    "rubric_id": "DBQ-8pt",
+    "rubric_name": "Document-Based Response 8-Point Rubric"
+  }
+]

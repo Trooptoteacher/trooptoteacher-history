@@ -1,0 +1,817 @@
+{
+  "disclosure": "Assessment items are classroom-formative · pre-field-test.",
+  "formative": {
+    "GC.16": [
+      {
+        "stem": "The President can make treaties and appoint officials only 'by and with the Advice and Consent of the Senate.' What does this requirement create?",
+        "std": "GC.16",
+        "dok": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "a power the President may use only in wartime"
+          },
+          {
+            "id": "B",
+            "text": "a rule that the Supreme Court must approve treaties"
+          },
+          {
+            "id": "C",
+            "text": "a legislative check on executive power"
+          },
+          {
+            "id": "D",
+            "text": "a duty for the House to sign each appointment"
+          }
+        ],
+        "key": "C",
+        "rc": "RC-GOV4: The Executive Branch",
+        "reteach": "Reread Article II, Section 2; connect Senate 'Advice and Consent' to checks and balances.",
+        "blooms": "Understand",
+        "hess_crm_cell": "Understand × DOK 2",
+        "irt_a": 1.4,
+        "irt_b": 0.0,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.02",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "MC",
+            "rationale": "Misconception — the power is not limited to wartime."
+          },
+          {
+            "label": "B",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — the Senate, not the Court, provides advice and consent."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — the House has no confirmation role over appointments."
+          }
+        ],
+        "key_rationale": "Requiring Senate advice and consent is a legislative check on the President's treaty and appointment powers.",
+        "dok_rationale": "Requires explaining the effect of the clause, not naming a power.",
+        "blooms_rationale": "Student explains the check created by advice and consent.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Article II & the Presidency” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Misconception — the power is not limited to wartime.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "B",
+              "signals_misconception": "Prior-knowledge error — the Senate, not the Court, provides advice and consent.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error — the House has no confirmation role over appointments.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.17": [
+      {
+        "stem": "Which executive department is chiefly responsible for foreign policy and diplomacy?",
+        "std": "GC.17",
+        "dok": 1,
+        "choices": [
+          {
+            "id": "A",
+            "text": "the Department of the Treasury"
+          },
+          {
+            "id": "B",
+            "text": "the Department of State"
+          },
+          {
+            "id": "C",
+            "text": "the Department of Defense"
+          },
+          {
+            "id": "D",
+            "text": "the Department of Justice"
+          }
+        ],
+        "key": "B",
+        "rc": "RC-GOV4: The Executive Branch",
+        "reteach": "Play Cabinet Match; pair each department (State, Treasury, Defense, Justice, Education) with its core job.",
+        "blooms": "Remember",
+        "hess_crm_cell": "Remember × DOK 1",
+        "irt_a": 1.1,
+        "irt_b": -1.0,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.01",
+        "distractor_tags": [
+          {
+            "label": "A",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — Treasury handles money and taxes."
+          },
+          {
+            "label": "C",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — Defense runs the armed forces."
+          },
+          {
+            "label": "D",
+            "code": "PK",
+            "rationale": "Prior-knowledge error — Justice enforces federal law."
+          }
+        ],
+        "key_rationale": "The Department of State manages foreign policy and diplomacy.",
+        "dok_rationale": "Recall of a department's core responsibility.",
+        "blooms_rationale": "Student retrieves which department handles diplomacy.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “Departments of the Executive Branch” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "A",
+              "signals_misconception": "Prior-knowledge error — Treasury handles money and taxes.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Prior-knowledge error — Defense runs the armed forces.",
+              "reteach": "clarify the boundary with the confused concept"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Prior-knowledge error — Justice enforces federal law.",
+              "reteach": "clarify the boundary with the confused concept"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ],
+    "GC.18": [
+      {
+        "stem": "How can a candidate win the most votes nationwide yet still lose the presidency?",
+        "std": "GC.18",
+        "dok": 3,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Most states give all their electoral votes winner-take-all, so the totals can differ"
+          },
+          {
+            "id": "B",
+            "text": "The Supreme Court picks the President in each election"
+          },
+          {
+            "id": "C",
+            "text": "Congress disregards the popular vote entirely"
+          },
+          {
+            "id": "D",
+            "text": "The Cabinet casts the deciding presidential votes"
+          }
+        ],
+        "key": "A",
+        "rc": "RC-GOV4: The Executive Branch",
+        "reteach": "Reteach the Electoral College math (270 of 538) and winner-take-all; work through a popular/electoral split.",
+        "blooms": "Analyze",
+        "hess_crm_cell": "Analyze × DOK 3",
+        "irt_a": 1.7,
+        "irt_b": 0.6,
+        "irt_c": 0.2,
+        "c3_dimension": "D2",
+        "ssp": "SSP.04",
+        "distractor_tags": [
+          {
+            "label": "B",
+            "code": "MC",
+            "rationale": "Misconception — the Court does not choose the President."
+          },
+          {
+            "label": "C",
+            "code": "MC",
+            "rationale": "Misconception — the popular vote decides each state's electors."
+          },
+          {
+            "label": "D",
+            "code": "MC",
+            "rationale": "Misconception — the Cabinet plays no role in electing the President."
+          }
+        ],
+        "key_rationale": "Because most states award electors winner-take-all, an electoral-vote majority can differ from the national popular vote.",
+        "dok_rationale": "Requires analyzing how the electoral system can diverge from the popular vote.",
+        "blooms_rationale": "Student analyzes the cause of a popular/electoral split.",
+        "bias_flag": "none",
+        "tcap_format": true,
+        "field_test_ready": true,
+        "udl_supports": {
+          "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+          "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+          "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+          "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+          "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+        },
+        "remediation": {
+          "if_missed": "Revisit “The Electoral College” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+          "by_distractor": [
+            {
+              "choice": "B",
+              "signals_misconception": "Misconception — the Court does not choose the President.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "C",
+              "signals_misconception": "Misconception — the popular vote decides each state's electors.",
+              "reteach": "confront the misconception with a worked counter-example"
+            },
+            {
+              "choice": "D",
+              "signals_misconception": "Misconception — the Cabinet plays no role in electing the President.",
+              "reteach": "confront the misconception with a worked counter-example"
+            }
+          ],
+          "mtss": {
+            "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+            "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+          }
+        }
+      }
+    ]
+  },
+  "formA": [
+    {
+      "stem": "Which of the following is a power the Constitution grants to the President in Article II?",
+      "std": "GC.16",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "declaring war on another nation"
+        },
+        {
+          "id": "B",
+          "text": "confirming the President's own appointments"
+        },
+        {
+          "id": "C",
+          "text": "writing and passing federal statutes"
+        },
+        {
+          "id": "D",
+          "text": "serving as Commander-in-Chief of the armed forces"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV4: The Executive Branch",
+      "reteach": "Reread Article II; sort presidential powers from powers that belong to Congress.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.4,
+      "irt_b": 0.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — Congress declares war."
+        },
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception — the Senate confirms appointments, not the President."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — Congress writes and passes statutes."
+        }
+      ],
+      "key_rationale": "Article II makes the President Commander-in-Chief of the armed forces.",
+      "dok_rationale": "Requires distinguishing an executive power from legislative powers.",
+      "blooms_rationale": "Student identifies a power assigned to the President.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Article II & the Presidency” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error — Congress declares war.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception — the Senate confirms appointments, not the President.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error — Congress writes and passes statutes.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "A counterfeit-money case, a foreign treaty, and a civil-rights complaint each fall to a different department. Which department is chiefly responsible for enforcing federal law?",
+      "std": "GC.17",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "the Department of Justice"
+        },
+        {
+          "id": "B",
+          "text": "the Department of State"
+        },
+        {
+          "id": "C",
+          "text": "the Department of the Treasury"
+        },
+        {
+          "id": "D",
+          "text": "the Department of Education"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV4: The Executive Branch",
+      "reteach": "Play Cabinet Match; match each scenario to the department that handles it.",
+      "blooms": "Apply",
+      "hess_crm_cell": "Apply × DOK 2",
+      "irt_a": 1.4,
+      "irt_b": 0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "NE",
+          "rationale": "Nearby error — State handles the treaty, not law enforcement."
+        },
+        {
+          "label": "C",
+          "code": "NE",
+          "rationale": "Nearby error — Treasury handles the counterfeit money, not general law enforcement."
+        },
+        {
+          "label": "D",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — Education sets school policy, not law enforcement."
+        }
+      ],
+      "key_rationale": "The Department of Justice enforces federal law and runs the FBI and federal prosecutions.",
+      "dok_rationale": "Requires applying department roles to sort scenarios.",
+      "blooms_rationale": "Student applies knowledge of departments to a case.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Departments of the Executive Branch” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Nearby error — State handles the treaty, not law enforcement.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Nearby error — Treasury handles the counterfeit money, not general law enforcement.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Prior-knowledge error — Education sets school policy, not law enforcement.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Which statement best represents an argument in favor of keeping the Electoral College?",
+      "std": "GC.18",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "It guarantees the national popular-vote winner always takes office"
+        },
+        {
+          "id": "B",
+          "text": "It removes the states from the presidential election entirely"
+        },
+        {
+          "id": "C",
+          "text": "It protects smaller states and pushes candidates to campaign nationally"
+        },
+        {
+          "id": "D",
+          "text": "It lets Congress choose the President in every election"
+        }
+      ],
+      "key": "C",
+      "rc": "RC-GOV4: The Executive Branch",
+      "reteach": "Reteach the pro/con debate; list supporters' arguments (small-state protection, national campaigns) vs. critics'.",
+      "blooms": "Evaluate",
+      "hess_crm_cell": "Evaluate × DOK 3",
+      "irt_a": 1.7,
+      "irt_b": 0.7,
+      "irt_c": 0.2,
+      "c3_dimension": "D3",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "MC",
+          "rationale": "Misconception — the popular-vote winner does not always win the Electoral College."
+        },
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception — states are central to the Electoral College."
+        },
+        {
+          "label": "D",
+          "code": "NE",
+          "rationale": "Nearby error — the House decides only if no candidate wins a majority, not every election."
+        }
+      ],
+      "key_rationale": "A common pro-argument is that the Electoral College protects smaller states and encourages national campaigning.",
+      "dok_rationale": "Requires evaluating which statement is a valid argument for the system.",
+      "blooms_rationale": "Student evaluates arguments for the Electoral College.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Electoral College” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Misconception — the popular-vote winner does not always win the Electoral College.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception — states are central to the Electoral College.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Nearby error — the House decides only if no candidate wins a majority, not every election.",
+            "reteach": "contrast the near-miss with the precise answer"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    }
+  ],
+  "formB": [
+    {
+      "stem": "The 22nd Amendment limits an elected President to a maximum of:",
+      "std": "GC.16",
+      "dok": 1,
+      "choices": [
+        {
+          "id": "A",
+          "text": "one term"
+        },
+        {
+          "id": "B",
+          "text": "two terms"
+        },
+        {
+          "id": "C",
+          "text": "three terms"
+        },
+        {
+          "id": "D",
+          "text": "an unlimited number of terms"
+        }
+      ],
+      "key": "B",
+      "rc": "RC-GOV4: The Executive Branch",
+      "reteach": "Reteach the 22nd Amendment term limit and why it was added after a four-term precedent.",
+      "blooms": "Remember",
+      "hess_crm_cell": "Remember × DOK 1",
+      "irt_a": 1.1,
+      "irt_b": -1.0,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.02",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "NE",
+          "rationale": "Nearby error — the limit is two elected terms, not one."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception about the number of terms allowed."
+        },
+        {
+          "label": "D",
+          "code": "AN",
+          "rationale": "Anachronism — unlimited terms describe the era before the 22nd Amendment."
+        }
+      ],
+      "key_rationale": "The 22nd Amendment limits a President to two elected terms.",
+      "dok_rationale": "Recall of a constitutional term limit.",
+      "blooms_rationale": "Student retrieves the two-term limit.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Article II & the Presidency” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Nearby error — the limit is two elected terms, not one.",
+            "reteach": "contrast the near-miss with the precise answer"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception about the number of terms allowed.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Anachronism — unlimited terms describe the era before the 22nd Amendment.",
+            "reteach": "place events on a timeline"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "Analysts use the term 'iron triangle' to describe close ties among which three players in policymaking?",
+      "std": "GC.17",
+      "dok": 3,
+      "choices": [
+        {
+          "id": "A",
+          "text": "the President, the courts, and the state governors"
+        },
+        {
+          "id": "B",
+          "text": "the House, the Senate, and the President"
+        },
+        {
+          "id": "C",
+          "text": "voters, the political parties, and the news media"
+        },
+        {
+          "id": "D",
+          "text": "an agency, a congressional committee, and interest groups"
+        }
+      ],
+      "key": "D",
+      "rc": "RC-GOV4: The Executive Branch",
+      "reteach": "Reteach the iron triangle; diagram the agency–committee–interest-group relationship with an example.",
+      "blooms": "Analyze",
+      "hess_crm_cell": "Analyze × DOK 3",
+      "irt_a": 1.7,
+      "irt_b": 0.7,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.01",
+      "distractor_tags": [
+        {
+          "label": "A",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — these are not the iron-triangle players."
+        },
+        {
+          "label": "B",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — this describes the lawmaking branches, not the iron triangle."
+        },
+        {
+          "label": "C",
+          "code": "PK",
+          "rationale": "Prior-knowledge error — these shape opinion but are not the iron triangle."
+        }
+      ],
+      "key_rationale": "The iron triangle links a federal agency, a congressional committee, and interest groups.",
+      "dok_rationale": "Requires analyzing which actors form the described relationship.",
+      "blooms_rationale": "Student analyzes the composition of the iron triangle.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “Departments of the Executive Branch” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "A",
+            "signals_misconception": "Prior-knowledge error — these are not the iron-triangle players.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "B",
+            "signals_misconception": "Prior-knowledge error — this describes the lawmaking branches, not the iron triangle.",
+            "reteach": "clarify the boundary with the confused concept"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Prior-knowledge error — these shape opinion but are not the iron triangle.",
+            "reteach": "clarify the boundary with the confused concept"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    },
+    {
+      "stem": "How is each state's number of Electoral College electors determined?",
+      "std": "GC.18",
+      "dok": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "by adding the state's number of senators and representatives"
+        },
+        {
+          "id": "B",
+          "text": "by the size of the state's land area"
+        },
+        {
+          "id": "C",
+          "text": "by giving an equal number to every state"
+        },
+        {
+          "id": "D",
+          "text": "by the number of counties in the state"
+        }
+      ],
+      "key": "A",
+      "rc": "RC-GOV4: The Executive Branch",
+      "reteach": "Reread Article II, Section 1; compute a state's electors as senators plus representatives.",
+      "blooms": "Understand",
+      "hess_crm_cell": "Understand × DOK 2",
+      "irt_a": 1.4,
+      "irt_b": 0.1,
+      "irt_c": 0.2,
+      "c3_dimension": "D2",
+      "ssp": "SSP.04",
+      "distractor_tags": [
+        {
+          "label": "B",
+          "code": "MC",
+          "rationale": "Misconception — land area does not set electoral votes."
+        },
+        {
+          "label": "C",
+          "code": "MC",
+          "rationale": "Misconception — electors are not equal for every state (that is the Senate rule)."
+        },
+        {
+          "label": "D",
+          "code": "MC",
+          "rationale": "Misconception — counties do not determine electors."
+        }
+      ],
+      "key_rationale": "A state's electors equal its number of senators plus its representatives.",
+      "dok_rationale": "Requires explaining the rule that sets electoral votes, not recalling a number.",
+      "blooms_rationale": "Student explains how electors are apportioned.",
+      "bias_flag": "none",
+      "tcap_format": true,
+      "field_test_ready": true,
+      "udl_supports": {
+        "representation": "CAST 3.0 Rep — key terms glossed (EN/ES); read-aloud on request; large-print/screen-reader friendly",
+        "action_expression": "[MC] respond by selecting/pointing/AT · [open] respond in writing, speech, or a labeled diagram; word processor/speech-to-text available",
+        "engagement": "action-oriented feedback via the remediation routing; DOK-tiered challenge",
+        "firm_goal_note": "Supports vary the means, not the mastery target — UDL design, not modification.",
+        "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0."
+      },
+      "remediation": {
+        "if_missed": "Revisit “The Electoral College” using the unit's Cornell notes + the standard's graphic organizer; re-check with the Exit Ticket, then re-assess with a parallel-form item.",
+        "by_distractor": [
+          {
+            "choice": "B",
+            "signals_misconception": "Misconception — land area does not set electoral votes.",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "C",
+            "signals_misconception": "Misconception — electors are not equal for every state (that is the Senate rule).",
+            "reteach": "confront the misconception with a worked counter-example"
+          },
+          {
+            "choice": "D",
+            "signals_misconception": "Misconception — counties do not determine electors.",
+            "reteach": "confront the misconception with a worked counter-example"
+          }
+        ],
+        "mtss": {
+          "tier2": "Small-group (Tier 2) reteach targeting the signaled misconception (10–15 min, organizer + worked example), then re-assess with a parallel item.",
+          "tier3": "If it persists across parallel forms (Tier 3): intensive 1:1 with concrete→representational→abstract scaffolding + think-aloud; progress-monitor weekly toward the same standard."
+        }
+      }
+    }
+  ],
+  "_psychometric_summary": {
+    "dok_distribution": {
+      "1": 2,
+      "2": 4,
+      "3": 3
+    },
+    "blooms_distribution": {
+      "Understand": 3,
+      "Remember": 2,
+      "Analyze": 2,
+      "Apply": 1,
+      "Evaluate": 1
+    },
+    "irt_a_mean": 1.433,
+    "irt_b_mean": 0.022,
+    "field_test_ready_count": 9,
+    "total_items": 9,
+    "note": "IRT 3PL parameters are pre-field-test design-time estimates, to be calibrated on field-test data."
+  }
+}

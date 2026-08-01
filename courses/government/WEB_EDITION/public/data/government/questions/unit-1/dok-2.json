@@ -1,0 +1,355 @@
+{
+  "_schema": "Government Hack canonical question bank (mirrors public/data/us-history/questions/). Psychometric metadata: dok, bloom, level, reporting_category, difficulty, per-distractor rationale, answer_explanation, bilingual question_es, de-biased keys. Items are classroom-formative · pre-field-test.",
+  "subject": "government",
+  "unit": 1,
+  "dok": 2,
+  "count": 7,
+  "items": [
+    {
+      "type": "multiple_choice",
+      "standard": "GC.03",
+      "unit": 1,
+      "dok": 2,
+      "bloom": "Understand",
+      "level": "Proficient",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "medium",
+      "question": "Which power did the national government LACK under the Articles of Confederation, causing serious problems?",
+      "question_es": "¿Qué poder le FALTABA al gobierno nacional bajo los Artículos de la Confederación?",
+      "options": {
+        "A": "The power to tax the states and citizens directly",
+        "B": "The power to declare war",
+        "C": "The power to run a post office",
+        "D": "The power to make treaties"
+      },
+      "correct_answer": "A",
+      "distractor_rationale": {
+        "A": "Correct — Congress could only request money from states, leaving it unable to pay debts.",
+        "B": "Congress could declare war under the Articles.",
+        "C": "Congress operated a post office.",
+        "D": "Congress could make treaties."
+      },
+      "answer_explanation": "No taxing power left the national government too weak to pay debts or respond to crises like Shays's Rebellion.",
+      "tennessee_specific": false,
+      "topics": [
+        "Articles",
+        "taxation",
+        "weakness"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.03",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.03",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.03",
+        "vocabulary": "Frayer terms for GC.03",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "(correct)",
+        "B": "Congress could declare war under the Articles.",
+        "C": "Congress operated a post office.",
+        "D": "Congress could make treaties."
+      },
+      "id": "GC.03-U1Q01"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.03",
+      "unit": 1,
+      "dok": 2,
+      "bloom": "Understand",
+      "level": "Proficient",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "medium",
+      "question": "Shays's Rebellion (1786–1787) is significant because it:",
+      "question_es": "La Rebelión de Shays (1786–1787) es importante porque:",
+      "options": {
+        "A": "proved the Articles created a strong military",
+        "B": "exposed the national government's weakness and pushed leaders toward a new constitution",
+        "C": "ended the Revolutionary War",
+        "D": "was led by King George III"
+      },
+      "correct_answer": "B",
+      "distractor_rationale": {
+        "A": "The opposite — the government could not raise forces to stop it.",
+        "B": "Correct — its failure to respond convinced leaders to replace the Articles.",
+        "C": "The war had already ended in 1783.",
+        "D": "It was a farmers' uprising in Massachusetts, unrelated to the king."
+      },
+      "answer_explanation": "The rebellion revealed the Articles' fatal weakness and helped trigger the 1787 Convention.",
+      "tennessee_specific": false,
+      "topics": [
+        "Shays",
+        "Articles"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.03",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.03",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.03",
+        "vocabulary": "Frayer terms for GC.03",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "The opposite — the government could not raise forces to stop it.",
+        "B": "(correct)",
+        "C": "The war had already ended in 1783.",
+        "D": "It was a farmers' uprising in Massachusetts, unrelated to the king."
+      },
+      "id": "GC.03-U1Q02"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.04",
+      "unit": 1,
+      "dok": 2,
+      "bloom": "Understand",
+      "level": "Proficient",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "medium",
+      "question": "The Anti-Federalists agreed to support the Constitution mainly on the condition that:",
+      "question_es": "Los antifederalistas apoyaron la Constitución principalmente con la condición de que:",
+      "options": {
+        "A": "the Articles be kept unchanged",
+        "B": "the president serve for life",
+        "C": "states lose all their powers",
+        "D": "a bill of rights be added to protect individual liberties"
+      },
+      "correct_answer": "D",
+      "distractor_rationale": {
+        "A": "They accepted a new constitution, not the old Articles.",
+        "B": "They feared concentrated power; a life term is the opposite of their aim.",
+        "C": "They wanted to PROTECT state power.",
+        "D": "Correct — their central demand was a bill of rights against a too-powerful central government."
+      },
+      "answer_explanation": "The promise of a Bill of Rights secured ratification.",
+      "tennessee_specific": false,
+      "topics": [
+        "Anti-Federalists",
+        "ratification",
+        "Bill of Rights"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.04",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.04",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.04",
+        "vocabulary": "Frayer terms for GC.04",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "They accepted a new constitution, not the old Articles.",
+        "B": "They feared concentrated power; a life term is the opposite of their aim.",
+        "C": "They wanted to PROTECT state power.",
+        "D": "(correct)"
+      },
+      "id": "GC.04-U1Q02"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.05",
+      "unit": 1,
+      "dok": 2,
+      "bloom": "Understand",
+      "level": "Proficient",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "medium",
+      "question": "The Preamble begins 'We the People.' Which principle does this phrase express?",
+      "question_es": "El Preámbulo comienza 'Nosotros el Pueblo'. ¿Qué principio expresa esta frase?",
+      "options": {
+        "A": "Popular sovereignty — government power comes from the people",
+        "B": "Judicial review",
+        "C": "Separation of powers",
+        "D": "Federalism"
+      },
+      "correct_answer": "A",
+      "distractor_rationale": {
+        "A": "Correct — authority flows from the people themselves.",
+        "B": "Judicial review comes from Article III / Marbury, not the Preamble's opening.",
+        "C": "Separation of powers is a structural principle, not the meaning of 'We the People.'",
+        "D": "Federalism concerns nation-state power division."
+      },
+      "answer_explanation": "'We the People' declares popular sovereignty — the source of the Constitution's authority.",
+      "tennessee_specific": false,
+      "topics": [
+        "Preamble",
+        "popular sovereignty"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.05",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.05",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.05",
+        "vocabulary": "Frayer terms for GC.05",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "(correct)",
+        "B": "Judicial review comes from Article III / Marbury, not the Preamble's opening.",
+        "C": "Separation of powers is a structural principle, not the meaning of 'We the People.'",
+        "D": "Federalism concerns nation-state power division."
+      },
+      "id": "GC.05-U1Q01"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.06",
+      "unit": 1,
+      "dok": 2,
+      "bloom": "Understand",
+      "level": "Proficient",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "medium",
+      "question": "The power of courts to declare a law unconstitutional is called:",
+      "question_es": "El poder de los tribunales para declarar inconstitucional una ley se llama:",
+      "options": {
+        "A": "the veto",
+        "B": "impeachment",
+        "C": "judicial review",
+        "D": "popular sovereignty"
+      },
+      "correct_answer": "C",
+      "distractor_rationale": {
+        "A": "The veto is an executive power over legislation.",
+        "B": "Impeachment removes officials; it does not void laws.",
+        "C": "Correct — judicial review, established in Marbury v. Madison (1803).",
+        "D": "Popular sovereignty is the source of authority, not a court power."
+      },
+      "answer_explanation": "Judicial review lets courts void unconstitutional acts — a key check.",
+      "tennessee_specific": false,
+      "topics": [
+        "judicial review",
+        "Marbury"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.06",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.06",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.06",
+        "vocabulary": "Frayer terms for GC.06",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "The veto is an executive power over legislation.",
+        "B": "Impeachment removes officials; it does not void laws.",
+        "C": "(correct)",
+        "D": "Popular sovereignty is the source of authority, not a court power."
+      },
+      "id": "GC.06-U1Q02"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.07",
+      "unit": 1,
+      "dok": 2,
+      "bloom": "Understand",
+      "level": "Proficient",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "medium",
+      "question": "To ratify a constitutional amendment under Article V requires approval by:",
+      "question_es": "Ratificar una enmienda constitucional bajo el Artículo V requiere la aprobación de:",
+      "options": {
+        "A": "the president",
+        "B": "a simple majority of voters",
+        "C": "the Supreme Court",
+        "D": "three-fourths of the states"
+      },
+      "correct_answer": "D",
+      "distractor_rationale": {
+        "A": "The president has no formal role in amending the Constitution.",
+        "B": "A simple national majority is not the standard.",
+        "C": "Courts interpret, they do not ratify amendments.",
+        "D": "Correct — three-fourths of the states must ratify."
+      },
+      "answer_explanation": "Article V requires a 2/3 proposal and 3/4 state ratification — a high, federalism-protecting bar.",
+      "tennessee_specific": false,
+      "topics": [
+        "Article V",
+        "amendment"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.07",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.07",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.07",
+        "vocabulary": "Frayer terms for GC.07",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "The president has no formal role in amending the Constitution.",
+        "B": "A simple national majority is not the standard.",
+        "C": "Courts interpret, they do not ratify amendments.",
+        "D": "(correct)"
+      },
+      "id": "GC.07-U1Q01"
+    },
+    {
+      "type": "multiple_choice",
+      "standard": "GC.09",
+      "unit": 1,
+      "dok": 2,
+      "bloom": "Understand",
+      "level": "Proficient",
+      "reporting_category": "Foundations of Constitutional Government",
+      "difficulty": "medium",
+      "question": "In Federalist No. 10, Madison argues a large republic is better than a pure democracy because it:",
+      "question_es": "En El Federalista No. 10, Madison sostiene que una república grande es mejor que una democracia pura porque:",
+      "options": {
+        "A": "eliminates all disagreement",
+        "B": "gives all power to one leader",
+        "C": "has no elections",
+        "D": "better controls the dangers of faction"
+      },
+      "correct_answer": "D",
+      "distractor_rationale": {
+        "A": "Madison expects factions to persist; the aim is to control, not eliminate them.",
+        "B": "Concentrating power is the opposite of Madison's design.",
+        "C": "Republics rely on elections.",
+        "D": "Correct — a large republic dilutes and checks factions."
+      },
+      "answer_explanation": "Madison's large-republic argument is that scale and representation control faction.",
+      "tennessee_specific": false,
+      "topics": [
+        "Federalist 10",
+        "faction",
+        "republic"
+      ],
+      "calibration": "pre-field-test",
+      "pre_field_test": true,
+      "remediation": {
+        "standard": "GC.09",
+        "reteach_narrative": "03_TEXTBOOK_UNITS/unit-1/unit-1.html#GC.09",
+        "reteach_teacher": "03_TEXTBOOK_UNITS/unit-1/unit-1-teacher-guide.html#GC.09",
+        "vocabulary": "Frayer terms for GC.09",
+        "primary_source": "WEB_EDITION/public/data/government/primary-sources/unit-1.json",
+        "next_step": "Re-anchor on the primary source, re-teach the 3 vocabulary terms (EN/ES), then re-attempt a parallel item."
+      },
+      "mastery_weight": 1,
+      "misconception_by_option": {
+        "A": "Madison expects factions to persist; the aim is to control, not eliminate them.",
+        "B": "Concentrating power is the opposite of Madison's design.",
+        "C": "Republics rely on elections.",
+        "D": "(correct)"
+      },
+      "id": "GC.09-U1Q02"
+    }
+  ]
+}

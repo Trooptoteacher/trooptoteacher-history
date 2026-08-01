@@ -1,0 +1,65 @@
+{
+  "_schema": "Government Hack canonical image primary-source bank. file=asset path (drop the downloaded public-domain image here); url=source catalog page; rights per item; colorKey:true when color carries meaning.",
+  "subject": "government",
+  "unit": 7,
+  "unit_title": "Tennessee State and Local Government",
+  "images": [
+    {
+      "id": "gov-u7-gc28",
+      "standard": "GC.28",
+      "file": "assets/primary_sources/GC.28_tennessee-state-capitol.jpg",
+      "type": "photo",
+      "title": "Tennessee State Capitol, Nashville",
+      "author": "Carol M. Highsmith",
+      "date": "1980–2006",
+      "repository": "Library of Congress",
+      "url": "https://www.loc.gov/item/2011630997/",
+      "rights": "Public domain — Highsmith Archive dedicated to public domain",
+      "verified": false,
+      "alt_en": "Photo: Tennessee State Capitol, Nashville (Carol M. Highsmith, 1980–2006).",
+      "alt_es": "Fotografía: Tennessee State Capitol, Nashville (Carol M. Highsmith, 1980–2006).",
+      "colorKey": true,
+      "standards": [
+        "GC.28"
+      ]
+    },
+    {
+      "id": "gov-u7-gc29",
+      "standard": "GC.29",
+      "file": "assets/primary_sources/GC.29_tennessee-counties-map.svg",
+      "type": "map",
+      "title": "Tennessee county map (Census cb 500k)",
+      "author": "U.S. Census Bureau (derivative)",
+      "date": "n/a",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Tennessee_county_map,_cb_500k.svg",
+      "rights": "VERIFY — Census-derived (PD-USGov by origin); confirm file tag",
+      "verified": false,
+      "alt_en": "Map: Tennessee county map (Census cb 500k) (U.S. Census Bureau (derivative), n/a).",
+      "alt_es": "Mapa: Tennessee county map (Census cb 500k) (U.S. Census Bureau (derivative), n/a).",
+      "colorKey": true,
+      "standards": [
+        "GC.29"
+      ]
+    },
+    {
+      "id": "gov-u7-gc30",
+      "standard": "GC.30",
+      "file": "assets/primary_sources/GC.30_tennessee-state-flag.svg",
+      "type": "emblem",
+      "title": "Flag of Tennessee",
+      "author": "State of Tennessee",
+      "date": "1905 design",
+      "repository": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Tennessee.svg",
+      "rights": "Public domain — search reported CC0; confirm on page",
+      "verified": false,
+      "alt_en": "Emblem: Flag of Tennessee (State of Tennessee, 1905 design).",
+      "alt_es": "Emblema: Flag of Tennessee (State of Tennessee, 1905 design).",
+      "colorKey": false,
+      "standards": [
+        "GC.30"
+      ]
+    }
+  ]
+}

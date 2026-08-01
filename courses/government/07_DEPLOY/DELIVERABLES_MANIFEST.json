@@ -1,0 +1,3331 @@
+{
+  "subject_id": "government",
+  "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+  "source_subtree": "courses/foundations-constitutional-government",
+  "policy": "source-lean (SUITE_CONSOLIDATION_PLAN.md Option A): binaries hosted as Release/Drive assets, not committed to main.",
+  "count": 413,
+  "total_bytes": 715917097,
+  "deliverables": [
+    {
+      "path": "01_STUDENT_PACKETS/pdf/unit-1-graphic-organizers.pdf",
+      "bytes": 3199180,
+      "git_blob_sha1": "0ceae8355b1699b20a783daeef833dbc62d24076",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "01_STUDENT_PACKETS/pdf/unit-2-graphic-organizers.pdf",
+      "bytes": 2513988,
+      "git_blob_sha1": "8176a3e9c90747939b3ad40438b14356d7457b8f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "01_STUDENT_PACKETS/pdf/unit-3-graphic-organizers.pdf",
+      "bytes": 2915725,
+      "git_blob_sha1": "db2d7f5778e8178d8d5c0ebdc4176c74c75cadcb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "01_STUDENT_PACKETS/pdf/unit-4-graphic-organizers.pdf",
+      "bytes": 2390596,
+      "git_blob_sha1": "ca5ae5bd4a10a859f53e85ceb39864fc24d55690",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "01_STUDENT_PACKETS/pdf/unit-5-graphic-organizers.pdf",
+      "bytes": 2533290,
+      "git_blob_sha1": "10d99d82e2b063ce09776570e81438e1ce854f09",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "01_STUDENT_PACKETS/pdf/unit-6-graphic-organizers.pdf",
+      "bytes": 2637363,
+      "git_blob_sha1": "c2b791221754334b73cb8f8afbb9d7a003fe1085",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "05_STANDARDS_ALIGNMENT/Government_Hack_Primary_Source_Sourcing_List.xlsx",
+      "bytes": 13502,
+      "git_blob_sha1": "3478af94383c0fb0768ae55dbd10b88a225b0141",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/COURSE/UDL-MTSS-Framework.pdf",
+      "bytes": 290909,
+      "git_blob_sha1": "6880d1a879883d693df1509a11a03783179afb6b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/PRINT-SHOP_COVERS/Unit1_Cover_Assessment_Book.pdf",
+      "bytes": 71600,
+      "git_blob_sha1": "0a5822b29e5bc71a4b2a48b8a6e350c0037be9e8",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/PRINT-SHOP_COVERS/Unit1_Cover_Organizer_Toolkit.pdf",
+      "bytes": 71185,
+      "git_blob_sha1": "d826f03b8b949ed3836aa9a9e7a6d3b50a645a66",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/PRINT-SHOP_COVERS/Unit1_Cover_Student_Workbook.pdf",
+      "bytes": 71477,
+      "git_blob_sha1": "25cc37b13d7f37becdc17032d8277ddfdaf467a7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/PRINT-SHOP_COVERS/Unit1_Cover_Teacher_Edition.pdf",
+      "bytes": 71697,
+      "git_blob_sha1": "5a533dfd604069e5a72f78c8f018dec45e2bb897",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/STUDENT/Unit1_Student_Deck.pdf",
+      "bytes": 18527657,
+      "git_blob_sha1": "7475aca47b9503f15fe2438caa1af896b3759bef",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/STUDENT/Unit1_Student_Graphic_Organizers.pdf",
+      "bytes": 3199180,
+      "git_blob_sha1": "0ceae8355b1699b20a783daeef833dbc62d24076",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/STUDENT/Unit1_Student_Workbook.pdf",
+      "bytes": 4228179,
+      "git_blob_sha1": "f0218737919bd5560ee0984239617d1afcdbb44e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/STUDENT/Unit1_Student_Workbook_LargePrint.pdf",
+      "bytes": 4373816,
+      "git_blob_sha1": "fa98b3e419cdde73da63dd2aea24ad8b01d28dbb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/TEACHER/Unit1_Assessment_Book_Teacher.pdf",
+      "bytes": 485145,
+      "git_blob_sha1": "2a91f9d18a6f3963afb7948af758e51d84633e85",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/TEACHER/Unit1_Teacher_Deck.pdf",
+      "bytes": 18579505,
+      "git_blob_sha1": "572f5e0113cde0770dfa27d4fc4354070752eff6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/TEACHER/Unit1_Teacher_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 3199180,
+      "git_blob_sha1": "0ceae8355b1699b20a783daeef833dbc62d24076",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-1_Foundations-of-Constitutional-Government/TEACHER/Unit1_Teacher_Guide_HowToUse_and_MTSS.pdf",
+      "bytes": 252958,
+      "git_blob_sha1": "c6041c090af39208ab097ef423a9c52858b703b2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/PRINT-SHOP_COVERS/Unit2_Cover_Assessment_Book.pdf",
+      "bytes": 405823,
+      "git_blob_sha1": "60e1a552a26a1509163520515748fe3783ae05af",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/PRINT-SHOP_COVERS/Unit2_Cover_Organizer_Toolkit.pdf",
+      "bytes": 405250,
+      "git_blob_sha1": "e348c982f416da46d62cf6db9bc771198f0741eb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/PRINT-SHOP_COVERS/Unit2_Cover_Student_Workbook.pdf",
+      "bytes": 405464,
+      "git_blob_sha1": "e3adf934ea27e138541348892cf719c5be0e4f79",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/PRINT-SHOP_COVERS/Unit2_Cover_Teacher_Edition.pdf",
+      "bytes": 405941,
+      "git_blob_sha1": "053d423f3cd6b6419cc251bbbcd85152783b7ff1",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/STUDENT/Unit2_Student_Deck.pdf",
+      "bytes": 1394581,
+      "git_blob_sha1": "756ab7b2beffc356042902bc2227f1eb62f2bedd",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/STUDENT/Unit2_Student_Graphic_Organizers.pdf",
+      "bytes": 2513988,
+      "git_blob_sha1": "8176a3e9c90747939b3ad40438b14356d7457b8f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/STUDENT/Unit2_Student_Workbook.pdf",
+      "bytes": 1412740,
+      "git_blob_sha1": "7625430eecf490dc4722b97060c0b1ead8e2e763",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/STUDENT/Unit2_Student_Workbook_LargePrint.pdf",
+      "bytes": 1481897,
+      "git_blob_sha1": "02196e554213376fe0bb1ea0ee43e3384499dab4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/TEACHER/Unit2_Assessment_Book_Teacher.pdf",
+      "bytes": 258048,
+      "git_blob_sha1": "928df519156b6793df0a7ff92b092fba75fcc43c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/TEACHER/Unit2_Teacher_Deck.pdf",
+      "bytes": 1429991,
+      "git_blob_sha1": "135255d7bc3c465eb4013d9f30459a26e929386d",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/TEACHER/Unit2_Teacher_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2513988,
+      "git_blob_sha1": "8176a3e9c90747939b3ad40438b14356d7457b8f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-2_Citizen-Participation/TEACHER/Unit2_Teacher_Guide_HowToUse_and_MTSS.pdf",
+      "bytes": 196873,
+      "git_blob_sha1": "e1a8665bb031c22aa57e9273b59985938e8eaa27",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/PRINT-SHOP_COVERS/Unit3_Cover_Assessment_Book.pdf",
+      "bytes": 445301,
+      "git_blob_sha1": "dc5679a2f4e4aadec505a0d6977d157f516dfd86",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/PRINT-SHOP_COVERS/Unit3_Cover_Organizer_Toolkit.pdf",
+      "bytes": 445014,
+      "git_blob_sha1": "8d84f5cc18c4cbcf37b30124ab62d8cc7b4c73be",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/PRINT-SHOP_COVERS/Unit3_Cover_Student_Workbook.pdf",
+      "bytes": 444908,
+      "git_blob_sha1": "678fe60de903dd33c15eb720bfc5ba0b18404abc",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/PRINT-SHOP_COVERS/Unit3_Cover_Teacher_Edition.pdf",
+      "bytes": 445335,
+      "git_blob_sha1": "3e572d6dcb5e3e07684d9f7a874b06b05939c594",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/STUDENT/Unit3_Student_Deck.pdf",
+      "bytes": 10070838,
+      "git_blob_sha1": "d561774ee5ff00b3c8c5111e0cb893e438887d88",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/STUDENT/Unit3_Student_Graphic_Organizers.pdf",
+      "bytes": 2915725,
+      "git_blob_sha1": "db2d7f5778e8178d8d5c0ebdc4176c74c75cadcb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/STUDENT/Unit3_Student_Workbook.pdf",
+      "bytes": 3061247,
+      "git_blob_sha1": "ddc10cd87da98adfa46c7885183df9fb34237201",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/STUDENT/Unit3_Student_Workbook_LargePrint.pdf",
+      "bytes": 3177787,
+      "git_blob_sha1": "95203041de95d3a525db6b01fc227a9158c2f95e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/TEACHER/Unit3_Assessment_Book_Teacher.pdf",
+      "bytes": 392337,
+      "git_blob_sha1": "f0347b90190d60de17ca97e6bca25539ed4eba92",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/TEACHER/Unit3_Teacher_Deck.pdf",
+      "bytes": 10122893,
+      "git_blob_sha1": "1707be0e76a4230c5a02cec11cc384a1934588d7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/TEACHER/Unit3_Teacher_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2915725,
+      "git_blob_sha1": "db2d7f5778e8178d8d5c0ebdc4176c74c75cadcb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-3_The-Legislative-Branch/TEACHER/Unit3_Teacher_Guide_HowToUse_and_MTSS.pdf",
+      "bytes": 227473,
+      "git_blob_sha1": "dee8b7a73e21be3a23790483862c4dc0bc1fe63c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/PRINT-SHOP_COVERS/Unit4_Cover_Assessment_Book.pdf",
+      "bytes": 364340,
+      "git_blob_sha1": "10142daaa2a99998000da6b1828a8e4c2534a4b5",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/PRINT-SHOP_COVERS/Unit4_Cover_Organizer_Toolkit.pdf",
+      "bytes": 363869,
+      "git_blob_sha1": "3cc8f3edc66592f65bd0aa654117b825480e017b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/PRINT-SHOP_COVERS/Unit4_Cover_Student_Workbook.pdf",
+      "bytes": 364125,
+      "git_blob_sha1": "98b853081210a9d9c014d1738036662900ba0c5c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/PRINT-SHOP_COVERS/Unit4_Cover_Teacher_Edition.pdf",
+      "bytes": 364436,
+      "git_blob_sha1": "743d2df708a69504bbf3e571525bb09e70987d26",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/STUDENT/Unit4_Student_Deck.pdf",
+      "bytes": 2757662,
+      "git_blob_sha1": "4a568792cdefe2b8263a3da524b83c286371d5b3",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/STUDENT/Unit4_Student_Graphic_Organizers.pdf",
+      "bytes": 2390596,
+      "git_blob_sha1": "ca5ae5bd4a10a859f53e85ceb39864fc24d55690",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/STUDENT/Unit4_Student_Workbook.pdf",
+      "bytes": 1394099,
+      "git_blob_sha1": "68aa5f215c5058a60d1d0b4dd9d73b70f29fbaf9",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/STUDENT/Unit4_Student_Workbook_LargePrint.pdf",
+      "bytes": 1444111,
+      "git_blob_sha1": "0a4db080de973a56349c38ae35abe08e7e726d4c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/TEACHER/Unit4_Assessment_Book_Teacher.pdf",
+      "bytes": 210952,
+      "git_blob_sha1": "14334ea070d35e84c8b5804152c2a6a828495c41",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/TEACHER/Unit4_Teacher_Deck.pdf",
+      "bytes": 2791695,
+      "git_blob_sha1": "076d03f1ce8b04f2d76d957c1595f1a0c864f6fd",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/TEACHER/Unit4_Teacher_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2390596,
+      "git_blob_sha1": "ca5ae5bd4a10a859f53e85ceb39864fc24d55690",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-4_The-Executive-Branch/TEACHER/Unit4_Teacher_Guide_HowToUse_and_MTSS.pdf",
+      "bytes": 186665,
+      "git_blob_sha1": "8d78fd100d89ce2aee7d1cc8a7ddd4020cc6a806",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/PRINT-SHOP_COVERS/Unit5_Cover_Assessment_Book.pdf",
+      "bytes": 358437,
+      "git_blob_sha1": "461e2d15505409069b1146a158ed4a3ca0877792",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/PRINT-SHOP_COVERS/Unit5_Cover_Organizer_Toolkit.pdf",
+      "bytes": 358087,
+      "git_blob_sha1": "c5812cdfedab09592229d6ce7cefa01f46693b08",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/PRINT-SHOP_COVERS/Unit5_Cover_Student_Workbook.pdf",
+      "bytes": 358196,
+      "git_blob_sha1": "2b399799aefc90a29357c0996dcc92629392fb0b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/PRINT-SHOP_COVERS/Unit5_Cover_Teacher_Edition.pdf",
+      "bytes": 358631,
+      "git_blob_sha1": "e6bd942227d6f02f0e77b5ead061c4a2928cd082",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/STUDENT/Unit5_Student_Deck.pdf",
+      "bytes": 3044753,
+      "git_blob_sha1": "55c40aa88b93866585fed2b5b8a31f1ad457d950",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/STUDENT/Unit5_Student_Graphic_Organizers.pdf",
+      "bytes": 2533290,
+      "git_blob_sha1": "10d99d82e2b063ce09776570e81438e1ce854f09",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/STUDENT/Unit5_Student_Workbook.pdf",
+      "bytes": 1665038,
+      "git_blob_sha1": "d9767ea2e306aef02241c3a07bc4e2a8d68335df",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/STUDENT/Unit5_Student_Workbook_LargePrint.pdf",
+      "bytes": 1731332,
+      "git_blob_sha1": "4e215b974523ea4903262dfdbf43ba1a3778d416",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/TEACHER/Unit5_Assessment_Book_Teacher.pdf",
+      "bytes": 259016,
+      "git_blob_sha1": "ca9a618c6cc555b5fb58293310382fc7f3742588",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/TEACHER/Unit5_Teacher_Deck.pdf",
+      "bytes": 3082251,
+      "git_blob_sha1": "e48c7962687f700be973b79850cf683588112e90",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/TEACHER/Unit5_Teacher_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2533290,
+      "git_blob_sha1": "10d99d82e2b063ce09776570e81438e1ce854f09",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-5_The-Judicial-Branch/TEACHER/Unit5_Teacher_Guide_HowToUse_and_MTSS.pdf",
+      "bytes": 196907,
+      "git_blob_sha1": "b9a1de7a83dd453ae40696a43cff1b757cad4117",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/PRINT-SHOP_COVERS/Unit6_Cover_Assessment_Book.pdf",
+      "bytes": 443023,
+      "git_blob_sha1": "ca26251dd741732b4c731a736bcc12e8f9778049",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/PRINT-SHOP_COVERS/Unit6_Cover_Organizer_Toolkit.pdf",
+      "bytes": 442525,
+      "git_blob_sha1": "b40f47e1bc59e760c0240798f5627ec8fa460e6c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/PRINT-SHOP_COVERS/Unit6_Cover_Student_Workbook.pdf",
+      "bytes": 442879,
+      "git_blob_sha1": "6843a014db890fd9edd2a51b2620da61cf224927",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/PRINT-SHOP_COVERS/Unit6_Cover_Teacher_Edition.pdf",
+      "bytes": 443100,
+      "git_blob_sha1": "0bd1bc542e7b922a9232feb56c3994dce8f04ef1",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/STUDENT/Unit6_Student_Deck.pdf",
+      "bytes": 9825051,
+      "git_blob_sha1": "039d20829a440abcf159c6712d6321c25c50b063",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/STUDENT/Unit6_Student_Graphic_Organizers.pdf",
+      "bytes": 2637363,
+      "git_blob_sha1": "c2b791221754334b73cb8f8afbb9d7a003fe1085",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/STUDENT/Unit6_Student_Workbook.pdf",
+      "bytes": 2364271,
+      "git_blob_sha1": "65990baa0b8f134ae5931e1656784aabe6a0583f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/STUDENT/Unit6_Student_Workbook_LargePrint.pdf",
+      "bytes": 2448175,
+      "git_blob_sha1": "1b2cc414e453a7be92824158960ba4e81d2e8760",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/TEACHER/Unit6_Assessment_Book_Teacher.pdf",
+      "bytes": 303283,
+      "git_blob_sha1": "4cc2b91825430ec9b17df013b3a358cf0badd994",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/TEACHER/Unit6_Teacher_Deck.pdf",
+      "bytes": 9868318,
+      "git_blob_sha1": "6e3441567cf49f8806b8d5088b8972105933afe2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/TEACHER/Unit6_Teacher_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2637363,
+      "git_blob_sha1": "c2b791221754334b73cb8f8afbb9d7a003fe1085",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-6_Civil-Liberties/TEACHER/Unit6_Teacher_Guide_HowToUse_and_MTSS.pdf",
+      "bytes": 209885,
+      "git_blob_sha1": "3485eaea9e3b341a59e638b0134d2dccf82cb3d2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-7_Tennessee-State-and-Local-Government/PRINT-SHOP_COVERS/Unit7_Cover_Assessment_Book.pdf",
+      "bytes": 92787,
+      "git_blob_sha1": "fee328cc371cb3f2caadf1c8eb88923d888283e6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-7_Tennessee-State-and-Local-Government/PRINT-SHOP_COVERS/Unit7_Cover_Organizer_Toolkit.pdf",
+      "bytes": 92259,
+      "git_blob_sha1": "c6836be48b08972e3168c8b6e32597c2cef02be7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-7_Tennessee-State-and-Local-Government/PRINT-SHOP_COVERS/Unit7_Cover_Student_Workbook.pdf",
+      "bytes": 92429,
+      "git_blob_sha1": "55394eafcb1a3ab3e11ce7295c4679a587740b1a",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-7_Tennessee-State-and-Local-Government/PRINT-SHOP_COVERS/Unit7_Cover_Teacher_Edition.pdf",
+      "bytes": 92894,
+      "git_blob_sha1": "e629492756eb4f9d40930b810c9015e8ecba913c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-7_Tennessee-State-and-Local-Government/STUDENT/Unit7_Student_Deck.pdf",
+      "bytes": 696342,
+      "git_blob_sha1": "76b1948e602fd4bebec5b5f16e64186a88a6711d",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-7_Tennessee-State-and-Local-Government/STUDENT/Unit7_Student_Workbook.pdf",
+      "bytes": 1133918,
+      "git_blob_sha1": "931daf752dd9b515d8363238d3cb70e046c4b3ff",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-7_Tennessee-State-and-Local-Government/STUDENT/Unit7_Student_Workbook_LargePrint.pdf",
+      "bytes": 1184273,
+      "git_blob_sha1": "710e3fdf378fb0a263b24bcdd9b4c6556ddfbfad",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-7_Tennessee-State-and-Local-Government/TEACHER/Unit7_Assessment_Book_Teacher.pdf",
+      "bytes": 213730,
+      "git_blob_sha1": "bd56866aba9e035e4fe113b123d34c459a274675",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-7_Tennessee-State-and-Local-Government/TEACHER/Unit7_Teacher_Deck.pdf",
+      "bytes": 733074,
+      "git_blob_sha1": "7b9b7dd3c24e73f76eb156ee65a06a5032e39264",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-7_Tennessee-State-and-Local-Government/TEACHER/Unit7_Teacher_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2432188,
+      "git_blob_sha1": "04b889d5fcd93da890267302028b8c4c77c25977",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "07_DEPLOY/Unit-7_Tennessee-State-and-Local-Government/TEACHER/Unit7_Teacher_Guide_HowToUse_and_MTSS.pdf",
+      "bytes": 186359,
+      "git_blob_sha1": "1859d5eee776f0723aa00518dd32c1ccade3a7ff",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.01_locke-portrait.jpg",
+      "bytes": 568179,
+      "git_blob_sha1": "0054f7e8e9d10eecdd8f9effe734b75bc0fe12e2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.02_declaration-of-independence.jpg",
+      "bytes": 1976293,
+      "git_blob_sha1": "b23b056ac2506f3ec8c67a06f47850631d0d08de",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.03_join-or-die.jpg",
+      "bytes": 4712090,
+      "git_blob_sha1": "dbcec5144ff447b4f9ccef207fc4dd1a8d973feb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.05_constitution-page1.jpg",
+      "bytes": 5717879,
+      "git_blob_sha1": "89ed562dc2525f1a98ec8e4f0df8364fc2b82bf4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.06_federalist-title-page.jpg",
+      "bytes": 127810,
+      "git_blob_sha1": "df516c1450a94a3da7734173de9c800f6c3a620b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.07_federal-pillars.jpg",
+      "bytes": 630576,
+      "git_blob_sha1": "7126dbfc4a70917f81cc8db352109d4845934d18",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.08_bill-of-rights.jpg",
+      "bytes": 4123061,
+      "git_blob_sha1": "ae3eb17196fb87659bcaf5684541865072c0f9c4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.09_great-seal.png",
+      "bytes": 794092,
+      "git_blob_sha1": "2cffd197de7dbb2440ae08925cca20c1d4ba72e9",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.10_seventeenth-amendment.jpg",
+      "bytes": 141871,
+      "git_blob_sha1": "8dc2ab3d0f7a56dbcfc47f73cb6846af6d2cc739",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.11_gerry-mander-1812.png",
+      "bytes": 715015,
+      "git_blob_sha1": "cd0e35753a110886804e19f757aa51a4584dd011",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.12_us-capitol.jpg",
+      "bytes": 4719518,
+      "git_blob_sha1": "ec80bba83f7be12e5be23aa2d47baed0e17b46b7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.13_congress-in-session.jpg",
+      "bytes": 1843881,
+      "git_blob_sha1": "797a9b5183b2c51252a83081a311923831d8384e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.14_tennessee-seal.png",
+      "bytes": 683761,
+      "git_blob_sha1": "25b44bbaf272d025b48e526a68b49be9302dc85f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.15_john-marshall.jpg",
+      "bytes": 620222,
+      "git_blob_sha1": "33e30ec946b21e09fc56df5a24c72515536ca46f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.16_washington-portrait.jpg",
+      "bytes": 1545634,
+      "git_blob_sha1": "e8f654bf9b131dfe1b7a33e5886bfb6751e5dde1",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.17_executive-department-seal.png",
+      "bytes": 285329,
+      "git_blob_sha1": "d6e7ca5edb968a7f57d67337d974f10f99ef4abc",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.18_electoral-college-cartoon.jpg",
+      "bytes": 516800,
+      "git_blob_sha1": "69a3638695faf6097841cc9d86b55a72d51fc249",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.19_judiciary-act-1789.jpg",
+      "bytes": 51734,
+      "git_blob_sha1": "8b62d853dc8209e2bf9709e7501a77f5ab3f08b3",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.20_john-jay-portrait.jpg",
+      "bytes": 491902,
+      "git_blob_sha1": "6f38cf49a885caff8b93a7ff1af9928b903fd624",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.21_john-marshall.jpg",
+      "bytes": 620222,
+      "git_blob_sha1": "33e30ec946b21e09fc56df5a24c72515536ca46f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.22_supreme-court-building.jpg",
+      "bytes": 1533473,
+      "git_blob_sha1": "7ce0851e094219bce19167b94bbfad7ec17f81f6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.23_first-amendment.jpg",
+      "bytes": 4123061,
+      "git_blob_sha1": "ae3eb17196fb87659bcaf5684541865072c0f9c4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.24_second-amendment.jpg",
+      "bytes": 1137927,
+      "git_blob_sha1": "00eecb88fde8e430b123a31f154db6ef7f3b75b2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.25_gideon-petition.jpg",
+      "bytes": 1241901,
+      "git_blob_sha1": "05cca9919eb84723a34a14422155e970353aa7b8",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.26_fourteenth-amendment.jpg",
+      "bytes": 520506,
+      "git_blob_sha1": "71b32b64d646b70c7cce62aedcafedd508ccdf82",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.27_wra-incarceration-1942.jpg",
+      "bytes": 2210785,
+      "git_blob_sha1": "a5b51a507e5f5d6175f049c35fc247567498b2e4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.28_tennessee-state-capitol.jpg",
+      "bytes": 21491,
+      "git_blob_sha1": "7de612eaaece931f4cb8c246ce1c4d17119e9ec3",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.29_tennessee-counties-map.png",
+      "bytes": 160265,
+      "git_blob_sha1": "29e6aa869598571647191f476adb2773301e4e8a",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.30_tennessee-state-flag.png",
+      "bytes": 60126,
+      "git_blob_sha1": "ce0d98a019b7047128d2bb42de8d35acebf8de3a",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.31_uncle-sam-i-want-you.jpg",
+      "bytes": 550495,
+      "git_blob_sha1": "72b6e07c59dae9b50324cc6e683b88243ad57d44",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.34_1913-suffrage-procession.jpg",
+      "bytes": 465107,
+      "git_blob_sha1": "886f0522bc2997aad57db375a4e166a22f8f619d",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "ASSETS/primary_sources/GC.35_ellis-island-immigrants.jpg",
+      "bytes": 110566,
+      "git_blob_sha1": "012663d5fe74b5674853ad720f0ef45d7484ee9b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit1_Student_Deck/exports/Unit1_Student_Deck.pdf",
+      "bytes": 18527657,
+      "git_blob_sha1": "7475aca47b9503f15fe2438caa1af896b3759bef",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit1_Teacher_Deck/assets/primary_sources/GC.01_locke-portrait.jpg",
+      "bytes": 568179,
+      "git_blob_sha1": "0054f7e8e9d10eecdd8f9effe734b75bc0fe12e2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit1_Teacher_Deck/assets/primary_sources/GC.02_declaration-of-independence.jpg",
+      "bytes": 1976293,
+      "git_blob_sha1": "b23b056ac2506f3ec8c67a06f47850631d0d08de",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit1_Teacher_Deck/assets/primary_sources/GC.03_join-or-die.jpg",
+      "bytes": 4712090,
+      "git_blob_sha1": "dbcec5144ff447b4f9ccef207fc4dd1a8d973feb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit1_Teacher_Deck/assets/primary_sources/GC.05_constitution-page1.jpg",
+      "bytes": 5717879,
+      "git_blob_sha1": "89ed562dc2525f1a98ec8e4f0df8364fc2b82bf4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit1_Teacher_Deck/assets/primary_sources/GC.06_federalist-title-page.jpg",
+      "bytes": 127810,
+      "git_blob_sha1": "df516c1450a94a3da7734173de9c800f6c3a620b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit1_Teacher_Deck/assets/primary_sources/GC.07_federal-pillars.jpg",
+      "bytes": 630576,
+      "git_blob_sha1": "7126dbfc4a70917f81cc8db352109d4845934d18",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit1_Teacher_Deck/assets/primary_sources/GC.08_bill-of-rights.jpg",
+      "bytes": 4123061,
+      "git_blob_sha1": "ae3eb17196fb87659bcaf5684541865072c0f9c4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit1_Teacher_Deck/assets/primary_sources/GC.09_great-seal.png",
+      "bytes": 794092,
+      "git_blob_sha1": "2cffd197de7dbb2440ae08925cca20c1d4ba72e9",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit1_Teacher_Deck/exports/Unit1_Teacher_Deck.pdf",
+      "bytes": 18579505,
+      "git_blob_sha1": "572f5e0113cde0770dfa27d4fc4354070752eff6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit2_Student_Deck/exports/Unit2_Student_Deck.pdf",
+      "bytes": 1394581,
+      "git_blob_sha1": "756ab7b2beffc356042902bc2227f1eb62f2bedd",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit2_Teacher_Deck/assets/primary_sources/GC.31_uncle-sam-i-want-you.jpg",
+      "bytes": 550495,
+      "git_blob_sha1": "72b6e07c59dae9b50324cc6e683b88243ad57d44",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit2_Teacher_Deck/assets/primary_sources/GC.34_1913-suffrage-procession.jpg",
+      "bytes": 465107,
+      "git_blob_sha1": "886f0522bc2997aad57db375a4e166a22f8f619d",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit2_Teacher_Deck/exports/Unit2_Teacher_Deck.pdf",
+      "bytes": 1429991,
+      "git_blob_sha1": "135255d7bc3c465eb4013d9f30459a26e929386d",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit3_Student_Deck/exports/Unit3_Student_Deck.pdf",
+      "bytes": 10070838,
+      "git_blob_sha1": "d561774ee5ff00b3c8c5111e0cb893e438887d88",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit3_Teacher_Deck/assets/primary_sources/GC.10_seventeenth-amendment.jpg",
+      "bytes": 141871,
+      "git_blob_sha1": "8dc2ab3d0f7a56dbcfc47f73cb6846af6d2cc739",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit3_Teacher_Deck/assets/primary_sources/GC.11_gerry-mander-1812.png",
+      "bytes": 715015,
+      "git_blob_sha1": "cd0e35753a110886804e19f757aa51a4584dd011",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit3_Teacher_Deck/assets/primary_sources/GC.12_us-capitol.jpg",
+      "bytes": 4719518,
+      "git_blob_sha1": "ec80bba83f7be12e5be23aa2d47baed0e17b46b7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit3_Teacher_Deck/assets/primary_sources/GC.13_congress-in-session.jpg",
+      "bytes": 1843881,
+      "git_blob_sha1": "797a9b5183b2c51252a83081a311923831d8384e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit3_Teacher_Deck/assets/primary_sources/GC.14_tennessee-seal.png",
+      "bytes": 683761,
+      "git_blob_sha1": "25b44bbaf272d025b48e526a68b49be9302dc85f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit3_Teacher_Deck/assets/primary_sources/GC.15_john-marshall.jpg",
+      "bytes": 620222,
+      "git_blob_sha1": "33e30ec946b21e09fc56df5a24c72515536ca46f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit3_Teacher_Deck/assets/primary_sources/GC.35_ellis-island-immigrants.jpg",
+      "bytes": 110566,
+      "git_blob_sha1": "012663d5fe74b5674853ad720f0ef45d7484ee9b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit3_Teacher_Deck/exports/Unit3_Teacher_Deck.pdf",
+      "bytes": 10122893,
+      "git_blob_sha1": "1707be0e76a4230c5a02cec11cc384a1934588d7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit4_Student_Deck/exports/Unit4_Student_Deck.pdf",
+      "bytes": 2757662,
+      "git_blob_sha1": "4a568792cdefe2b8263a3da524b83c286371d5b3",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit4_Teacher_Deck/assets/primary_sources/GC.16_washington-portrait.jpg",
+      "bytes": 1545634,
+      "git_blob_sha1": "e8f654bf9b131dfe1b7a33e5886bfb6751e5dde1",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit4_Teacher_Deck/assets/primary_sources/GC.17_executive-department-seal.png",
+      "bytes": 285329,
+      "git_blob_sha1": "d6e7ca5edb968a7f57d67337d974f10f99ef4abc",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit4_Teacher_Deck/assets/primary_sources/GC.18_electoral-college-cartoon.jpg",
+      "bytes": 516800,
+      "git_blob_sha1": "69a3638695faf6097841cc9d86b55a72d51fc249",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit4_Teacher_Deck/exports/Unit4_Teacher_Deck.pdf",
+      "bytes": 2791695,
+      "git_blob_sha1": "076d03f1ce8b04f2d76d957c1595f1a0c864f6fd",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit5_Student_Deck/exports/Unit5_Student_Deck.pdf",
+      "bytes": 3044753,
+      "git_blob_sha1": "55c40aa88b93866585fed2b5b8a31f1ad457d950",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit5_Teacher_Deck/assets/primary_sources/GC.19_judiciary-act-1789.jpg",
+      "bytes": 51734,
+      "git_blob_sha1": "8b62d853dc8209e2bf9709e7501a77f5ab3f08b3",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit5_Teacher_Deck/assets/primary_sources/GC.20_john-jay-portrait.jpg",
+      "bytes": 491902,
+      "git_blob_sha1": "6f38cf49a885caff8b93a7ff1af9928b903fd624",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit5_Teacher_Deck/assets/primary_sources/GC.21_john-marshall.jpg",
+      "bytes": 620222,
+      "git_blob_sha1": "33e30ec946b21e09fc56df5a24c72515536ca46f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit5_Teacher_Deck/assets/primary_sources/GC.22_supreme-court-building.jpg",
+      "bytes": 1533473,
+      "git_blob_sha1": "7ce0851e094219bce19167b94bbfad7ec17f81f6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit5_Teacher_Deck/exports/Unit5_Teacher_Deck.pdf",
+      "bytes": 3082251,
+      "git_blob_sha1": "e48c7962687f700be973b79850cf683588112e90",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit6_Student_Deck/exports/Unit6_Student_Deck.pdf",
+      "bytes": 9825051,
+      "git_blob_sha1": "039d20829a440abcf159c6712d6321c25c50b063",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit6_Teacher_Deck/assets/primary_sources/GC.23_first-amendment.jpg",
+      "bytes": 4123061,
+      "git_blob_sha1": "ae3eb17196fb87659bcaf5684541865072c0f9c4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit6_Teacher_Deck/assets/primary_sources/GC.24_second-amendment.jpg",
+      "bytes": 1137927,
+      "git_blob_sha1": "00eecb88fde8e430b123a31f154db6ef7f3b75b2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit6_Teacher_Deck/assets/primary_sources/GC.25_gideon-petition.jpg",
+      "bytes": 1241901,
+      "git_blob_sha1": "05cca9919eb84723a34a14422155e970353aa7b8",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit6_Teacher_Deck/assets/primary_sources/GC.26_fourteenth-amendment.jpg",
+      "bytes": 520506,
+      "git_blob_sha1": "71b32b64d646b70c7cce62aedcafedd508ccdf82",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit6_Teacher_Deck/assets/primary_sources/GC.27_wra-incarceration-1942.jpg",
+      "bytes": 2210785,
+      "git_blob_sha1": "a5b51a507e5f5d6175f049c35fc247567498b2e4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit6_Teacher_Deck/exports/Unit6_Teacher_Deck.pdf",
+      "bytes": 9868318,
+      "git_blob_sha1": "6e3441567cf49f8806b8d5088b8972105933afe2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit7_Student_Deck/exports/Unit7_Student_Deck.pdf",
+      "bytes": 696342,
+      "git_blob_sha1": "76b1948e602fd4bebec5b5f16e64186a88a6711d",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit7_Teacher_Deck/assets/primary_sources/GC.28_tennessee-state-seal.png",
+      "bytes": 304331,
+      "git_blob_sha1": "8dbecbbcf76cd04b42c6b7815fff1d45179a940c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit7_Teacher_Deck/assets/primary_sources/GC.29_tennessee-counties-map.png",
+      "bytes": 114812,
+      "git_blob_sha1": "b9d2c3d9b5e299ce55e505f5bc784bba2aec6411",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit7_Teacher_Deck/assets/primary_sources/GC.30_tennessee-state-flag.png",
+      "bytes": 25827,
+      "git_blob_sha1": "4cbfd67dd1709f54e14b0773b7b0ae0cd09bb306",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/decks/Unit7_Teacher_Deck/exports/Unit7_Teacher_Deck.pdf",
+      "bytes": 733074,
+      "git_blob_sha1": "7b9b7dd3c24e73f76eb156ee65a06a5032e39264",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/00_quickguide.png",
+      "bytes": 500519,
+      "git_blob_sha1": "405b2717e0d7e6055dcb26fbd24533ec86feffb6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/01_ssp_crosswalk.png",
+      "bytes": 415647,
+      "git_blob_sha1": "615127089dd982ba1ef8ec47d605fab2298b2d39",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/02_venn2_blank.png",
+      "bytes": 270197,
+      "git_blob_sha1": "183abfa8f23a57d2d837d967f88f8544d46ced06",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/03_venn3_blank.png",
+      "bytes": 274396,
+      "git_blob_sha1": "396cb5eec4819199c4279e15dfb316bec07a4689",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/04_tchart_blank.png",
+      "bytes": 202957,
+      "git_blob_sha1": "534d961135ca1e8b65cd09a2189c897b822d6447",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/05_matrix_blank.png",
+      "bytes": 202992,
+      "git_blob_sha1": "17a023096b09b70cc22321a8272cd5ffed2eebe6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/06_causeeffect_blank.png",
+      "bytes": 194328,
+      "git_blob_sha1": "f663b6de1e5f410e11da75bd36130f24174a55ea",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/07_timeline_blank.png",
+      "bytes": 197663,
+      "git_blob_sha1": "d16a2369907094a64c66591100be37dfe15b7591",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/08_conceptweb_blank.png",
+      "bytes": 198925,
+      "git_blob_sha1": "b02cbde5364750d75125d4b39bcd1f2db6894957",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/09_mainidea_blank.png",
+      "bytes": 191376,
+      "git_blob_sha1": "a2c0b15cc48df3aed18b8cf2dad6005639a687b0",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/10_kwl_blank.png",
+      "bytes": 174996,
+      "git_blob_sha1": "02455789a068eff8ee957981fae216dab51a512f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/11_5ws_blank.png",
+      "bytes": 183623,
+      "git_blob_sha1": "8783725be79d4ddf8b98ffa6e50ff8b066d1644e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/12_problemsolution_blank.png",
+      "bytes": 191029,
+      "git_blob_sha1": "644205db33bb3a9e89b0fa7a97645307cafa5090",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/13_frayer_blank.png",
+      "bytes": 197805,
+      "git_blob_sha1": "9a152e5ee696fb665681ad8a88fb3a2b764fc145",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/14_cer_blank.png",
+      "bytes": 218306,
+      "git_blob_sha1": "dafdc4020e1f9e52febbfca30403e820901f0ae5",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/15_hippo_blank.png",
+      "bytes": 235612,
+      "git_blob_sha1": "f8bf469c1ce422a7e094649585221c2e5c5a10d0",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/16_tn_connection.png",
+      "bytes": 205896,
+      "git_blob_sha1": "5ae1c66d91ea098d1de5dec8faaba6f80517af11",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/20_gc01_conceptweb.png",
+      "bytes": 257266,
+      "git_blob_sha1": "f70c3513ad207a584a81fbd3e9101225355647ad",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/21_gc02_causeeffect.png",
+      "bytes": 298152,
+      "git_blob_sha1": "81a1f7d5470bab7142f8dcd0959785cff95ab28c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/22_gc03_tchart.png",
+      "bytes": 257648,
+      "git_blob_sha1": "d24f8e0423c303cb0ac898a09988192c0ca845b2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/23_gc04_tchart.png",
+      "bytes": 290646,
+      "git_blob_sha1": "749ebf74fbcd7664f8b10ee84cdcce1daaa6daee",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/24_gc05_mainidea.png",
+      "bytes": 254174,
+      "git_blob_sha1": "5fd2b0671f6ea74fa1ef22760dfc03f2023d65de",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/25_gc06_venn.png",
+      "bytes": 323412,
+      "git_blob_sha1": "17fe41ea49f960a1e551212fa9a13076e3a8d467",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/26_gc07_sequence.png",
+      "bytes": 289709,
+      "git_blob_sha1": "2d3975a14044088fe50e127e502c168a5c204391",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/27_gc08_matrix.png",
+      "bytes": 251740,
+      "git_blob_sha1": "73f57cf8ea06bd9c5e466c57616b4a94e9c9899f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/28_gc09_venn.png",
+      "bytes": 303893,
+      "git_blob_sha1": "1e4b376e42f8a8e52ccc66b01d8a5f14f3edf4e4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit1_Teacher_Graphic_Organizer_Toolkit/exports/Unit1_Government_Hack_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 3199180,
+      "git_blob_sha1": "0ceae8355b1699b20a783daeef833dbc62d24076",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit2_Teacher_Graphic_Organizer_Toolkit/exports/20_gc31_tchart.png",
+      "bytes": 290555,
+      "git_blob_sha1": "c64a3ffcdc1938f76780e42a5db3d0e53e9c8b69",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit2_Teacher_Graphic_Organizer_Toolkit/exports/21_gc32_sequence.png",
+      "bytes": 279083,
+      "git_blob_sha1": "94b1bd6bcac32adae393e5a162d0c09e23504aee",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit2_Teacher_Graphic_Organizer_Toolkit/exports/22_gc33_causeeffect.png",
+      "bytes": 255289,
+      "git_blob_sha1": "703416aa0c4004f51d1b176dd8bfe3b017d50404",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit2_Teacher_Graphic_Organizer_Toolkit/exports/23_gc34_conceptweb.png",
+      "bytes": 251229,
+      "git_blob_sha1": "efe5abd5410115d07026e604cadee6ac8c77eae5",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit2_Teacher_Graphic_Organizer_Toolkit/exports/Unit2_Government_Hack_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2513988,
+      "git_blob_sha1": "8176a3e9c90747939b3ad40438b14356d7457b8f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit3_Teacher_Graphic_Organizer_Toolkit/exports/20_gc35_venn.png",
+      "bytes": 300916,
+      "git_blob_sha1": "18e5020dc952a2526357b2d78d98af1d23b07b4f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit3_Teacher_Graphic_Organizer_Toolkit/exports/21_gc10_matrix.png",
+      "bytes": 229297,
+      "git_blob_sha1": "8db3ad0825ec26383b40cd67d2c0be00d0888461",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit3_Teacher_Graphic_Organizer_Toolkit/exports/22_gc11_causeeffect.png",
+      "bytes": 273975,
+      "git_blob_sha1": "21909fbaa7ff2b064f5f3edc3effca00bf4949af",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit3_Teacher_Graphic_Organizer_Toolkit/exports/23_gc12_tchart.png",
+      "bytes": 268564,
+      "git_blob_sha1": "ec40a443cdde376cb9ad03e3bc1edca0d8bfcc6b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit3_Teacher_Graphic_Organizer_Toolkit/exports/24_gc13_sequence.png",
+      "bytes": 277673,
+      "git_blob_sha1": "acab0f8d6666b7786b3633ab63d7e9ed48935bcf",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit3_Teacher_Graphic_Organizer_Toolkit/exports/25_gc14_conceptweb.png",
+      "bytes": 250991,
+      "git_blob_sha1": "66ce04dbff4f1e6a34efcef22170244d51d8f1b2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit3_Teacher_Graphic_Organizer_Toolkit/exports/26_gc15_mainidea.png",
+      "bytes": 259612,
+      "git_blob_sha1": "96183d730197708d01994280e059379b75a967ae",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit3_Teacher_Graphic_Organizer_Toolkit/exports/Unit3_Government_Hack_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2915725,
+      "git_blob_sha1": "db2d7f5778e8178d8d5c0ebdc4176c74c75cadcb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit4_Teacher_Graphic_Organizer_Toolkit/exports/20_gc16_conceptweb.png",
+      "bytes": 251536,
+      "git_blob_sha1": "9d0fbe1d86f13f9a5c11d7ff4089a85abb22f021",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit4_Teacher_Graphic_Organizer_Toolkit/exports/21_gc17_matrix.png",
+      "bytes": 220735,
+      "git_blob_sha1": "df635cfb11f4c7f9e8061b78c09854b1735f2733",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit4_Teacher_Graphic_Organizer_Toolkit/exports/22_gc18_tchart.png",
+      "bytes": 302234,
+      "git_blob_sha1": "f45a8e119fbae302674c38fc86bae5f119c5323c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit4_Teacher_Graphic_Organizer_Toolkit/exports/Unit4_Government_Hack_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2390596,
+      "git_blob_sha1": "ca5ae5bd4a10a859f53e85ceb39864fc24d55690",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit5_Teacher_Graphic_Organizer_Toolkit/exports/20_gc19_mainidea.png",
+      "bytes": 241716,
+      "git_blob_sha1": "6839d182189c73f3f648beba9940d1e789e09a22",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit5_Teacher_Graphic_Organizer_Toolkit/exports/21_gc20_sequence.png",
+      "bytes": 289997,
+      "git_blob_sha1": "717fd3bde9e412e9fe01c8d6541f82c79b31b583",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit5_Teacher_Graphic_Organizer_Toolkit/exports/22_gc21_causeeffect.png",
+      "bytes": 285602,
+      "git_blob_sha1": "3e31e209645d187e3243de7f33d3a1c0662552c7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit5_Teacher_Graphic_Organizer_Toolkit/exports/23_gc22_tchart.png",
+      "bytes": 285080,
+      "git_blob_sha1": "bf4b91000c08655f7622d6a907deaa43388c2a67",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit5_Teacher_Graphic_Organizer_Toolkit/exports/Unit5_Government_Hack_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2533290,
+      "git_blob_sha1": "10d99d82e2b063ce09776570e81438e1ce854f09",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit6_Teacher_Graphic_Organizer_Toolkit/exports/20_gc23_matrix.png",
+      "bytes": 230766,
+      "git_blob_sha1": "202348978e508bf5821d1f73356903f6d7c9a6b4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit6_Teacher_Graphic_Organizer_Toolkit/exports/21_gc24_causeeffect.png",
+      "bytes": 284185,
+      "git_blob_sha1": "061459e75d84e7a06fc46996c2c32c0ef0226d59",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit6_Teacher_Graphic_Organizer_Toolkit/exports/22_gc25_conceptweb.png",
+      "bytes": 249451,
+      "git_blob_sha1": "937c7ee38516624b4eebb9169ac15928ed4e694d",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit6_Teacher_Graphic_Organizer_Toolkit/exports/23_gc26_timeline.png",
+      "bytes": 267458,
+      "git_blob_sha1": "1dba3c42a8cf63382f9e27a1e15df4873d8c5556",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit6_Teacher_Graphic_Organizer_Toolkit/exports/24_gc27_mainidea.png",
+      "bytes": 242994,
+      "git_blob_sha1": "797fbb4068c74831c40cd9331e75347374b966d2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit6_Teacher_Graphic_Organizer_Toolkit/exports/Unit6_Government_Hack_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2637363,
+      "git_blob_sha1": "c2b791221754334b73cb8f8afbb9d7a003fe1085",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit7_Teacher_Graphic_Organizer_Toolkit/exports/20_gc28_matrix.png",
+      "bytes": 284835,
+      "git_blob_sha1": "dcce84fe96bdf4f766b8e982f7410a98a751885e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit7_Teacher_Graphic_Organizer_Toolkit/exports/21_gc29_matrix.png",
+      "bytes": 295871,
+      "git_blob_sha1": "beb9ae82a75d4b4194429ae8f00cfa9620b8ff56",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit7_Teacher_Graphic_Organizer_Toolkit/exports/22_gc30_lookup.png",
+      "bytes": 284421,
+      "git_blob_sha1": "af164109451bc2d6580bdba1ca9774f9b14d9704",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/organizers/Unit7_Teacher_Graphic_Organizer_Toolkit/exports/Unit7_Government_Hack_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 2432188,
+      "git_blob_sha1": "04b889d5fcd93da890267302028b8c4c77c25977",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/assets/primary_sources/GC.01_locke-portrait.jpg",
+      "bytes": 568179,
+      "git_blob_sha1": "0054f7e8e9d10eecdd8f9effe734b75bc0fe12e2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/assets/primary_sources/GC.02_declaration-of-independence.jpg",
+      "bytes": 1976293,
+      "git_blob_sha1": "b23b056ac2506f3ec8c67a06f47850631d0d08de",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/assets/primary_sources/GC.03_join-or-die.jpg",
+      "bytes": 4712090,
+      "git_blob_sha1": "dbcec5144ff447b4f9ccef207fc4dd1a8d973feb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/assets/primary_sources/GC.05_constitution-page1.jpg",
+      "bytes": 5717879,
+      "git_blob_sha1": "89ed562dc2525f1a98ec8e4f0df8364fc2b82bf4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/assets/primary_sources/GC.06_federalist-title-page.jpg",
+      "bytes": 127810,
+      "git_blob_sha1": "df516c1450a94a3da7734173de9c800f6c3a620b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/assets/primary_sources/GC.07_federal-pillars.jpg",
+      "bytes": 630576,
+      "git_blob_sha1": "7126dbfc4a70917f81cc8db352109d4845934d18",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/assets/primary_sources/GC.08_bill-of-rights.jpg",
+      "bytes": 4123061,
+      "git_blob_sha1": "ae3eb17196fb87659bcaf5684541865072c0f9c4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/assets/primary_sources/GC.09_great-seal.png",
+      "bytes": 794092,
+      "git_blob_sha1": "2cffd197de7dbb2440ae08925cca20c1d4ba72e9",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Assessment_Book_Teacher.docx",
+      "bytes": 30969,
+      "git_blob_sha1": "0678084d970f47241bce9dd5116b256780c91ac6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Assessment_Book_Teacher.pdf",
+      "bytes": 485145,
+      "git_blob_sha1": "2a91f9d18a6f3963afb7948af758e51d84633e85",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Cover_Assessment_Book.docx",
+      "bytes": 11919,
+      "git_blob_sha1": "85afb5087440964fb3e75c41db8d97173418176f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Cover_Assessment_Book.pdf",
+      "bytes": 71600,
+      "git_blob_sha1": "0a5822b29e5bc71a4b2a48b8a6e350c0037be9e8",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Cover_Organizer_Toolkit.docx",
+      "bytes": 11831,
+      "git_blob_sha1": "6e927709e1b0e696100c570b36c2ce5b32497a9a",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Cover_Organizer_Toolkit.pdf",
+      "bytes": 71185,
+      "git_blob_sha1": "d826f03b8b949ed3836aa9a9e7a6d3b50a645a66",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Cover_Student_Workbook.docx",
+      "bytes": 12216,
+      "git_blob_sha1": "7e0be576508d9a156d73dd2f8912cc7aa1407553",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Cover_Student_Workbook.pdf",
+      "bytes": 71477,
+      "git_blob_sha1": "25cc37b13d7f37becdc17032d8277ddfdaf467a7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Cover_Teacher_Edition.docx",
+      "bytes": 12093,
+      "git_blob_sha1": "54124f60ee6de79896cc0c2f1dd2db8b091ae8bc",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Cover_Teacher_Edition.pdf",
+      "bytes": 71697,
+      "git_blob_sha1": "5a533dfd604069e5a72f78c8f018dec45e2bb897",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Student_Workbook_CourseStandard.docx",
+      "bytes": 18664106,
+      "git_blob_sha1": "fbd9267c0785a071f4b47a610ddddaf8cf1868b2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Student_Workbook_CourseStandard.pdf",
+      "bytes": 4228179,
+      "git_blob_sha1": "f0218737919bd5560ee0984239617d1afcdbb44e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Student_Workbook_CourseStandard_LargePrint.docx",
+      "bytes": 18664106,
+      "git_blob_sha1": "471b28010eefc51015f289ca82b2c607c13a0d3e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Student_Workbook_CourseStandard_LargePrint.pdf",
+      "bytes": 4373816,
+      "git_blob_sha1": "fa98b3e419cdde73da63dd2aea24ad8b01d28dbb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Teacher_Deck.pdf",
+      "bytes": 18560796,
+      "git_blob_sha1": "ae2d6d98d47ccd7feebf904cfe874e5dc8b1a72e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Teacher_Graphic_Organizer_Toolkit.docx",
+      "bytes": 35671,
+      "git_blob_sha1": "ac1eab0c4ef1f727f22ee65e01c98df41cd59a31",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Teacher_Graphic_Organizer_Toolkit.pdf",
+      "bytes": 608158,
+      "git_blob_sha1": "854547f71301e51dc76332e62e38c1ed9883a0c8",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Teacher_HowToUse_and_MTSS_Guide.docx",
+      "bytes": 22643,
+      "git_blob_sha1": "43e7edc31cafb408d7132a062773fb805910d21c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit1/deliverables/Unit1_Teacher_HowToUse_and_MTSS_Guide.pdf",
+      "bytes": 252958,
+      "git_blob_sha1": "c6041c090af39208ab097ef423a9c52858b703b2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/assets/primary_sources/GC.31_uncle-sam-i-want-you.jpg",
+      "bytes": 550495,
+      "git_blob_sha1": "72b6e07c59dae9b50324cc6e683b88243ad57d44",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/assets/primary_sources/GC.34_1913-suffrage-procession.jpg",
+      "bytes": 465107,
+      "git_blob_sha1": "886f0522bc2997aad57db375a4e166a22f8f619d",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Assessment_Book_Teacher.docx",
+      "bytes": 22706,
+      "git_blob_sha1": "1ead5dde2b01135bcdb0919c6862e9c7648b01d6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Assessment_Book_Teacher.pdf",
+      "bytes": 258048,
+      "git_blob_sha1": "928df519156b6793df0a7ff92b092fba75fcc43c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Cover_Assessment_Book.docx",
+      "bytes": 477538,
+      "git_blob_sha1": "8ba9a2667eefec301437e6bec978d1825f473ac6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Cover_Assessment_Book.pdf",
+      "bytes": 405823,
+      "git_blob_sha1": "60e1a552a26a1509163520515748fe3783ae05af",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Cover_Organizer_Toolkit.docx",
+      "bytes": 477448,
+      "git_blob_sha1": "f640fa4a1c074cac5fe6fa8d3884aad2574c761c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Cover_Organizer_Toolkit.pdf",
+      "bytes": 405250,
+      "git_blob_sha1": "e348c982f416da46d62cf6db9bc771198f0741eb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Cover_Student_Workbook.docx",
+      "bytes": 477835,
+      "git_blob_sha1": "836843df4c223b4c7360306681ca0003b4529e67",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Cover_Student_Workbook.pdf",
+      "bytes": 405464,
+      "git_blob_sha1": "e3adf934ea27e138541348892cf719c5be0e4f79",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Cover_Teacher_Edition.docx",
+      "bytes": 477699,
+      "git_blob_sha1": "acdc3395ce4b79d61928d2cbb686051538ef91ef",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Cover_Teacher_Edition.pdf",
+      "bytes": 405941,
+      "git_blob_sha1": "053d423f3cd6b6419cc251bbbcd85152783b7ff1",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Student_Workbook_CourseStandard.docx",
+      "bytes": 1097409,
+      "git_blob_sha1": "7768f8e5814239fe6600fd4b248e98fb83d446a9",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Student_Workbook_CourseStandard.pdf",
+      "bytes": 1412740,
+      "git_blob_sha1": "7625430eecf490dc4722b97060c0b1ead8e2e763",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Student_Workbook_CourseStandard_LargePrint.docx",
+      "bytes": 1097413,
+      "git_blob_sha1": "47e51081f1d7d8877b09ccfe89ed439beff568e3",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Student_Workbook_CourseStandard_LargePrint.pdf",
+      "bytes": 1481897,
+      "git_blob_sha1": "02196e554213376fe0bb1ea0ee43e3384499dab4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Teacher_Deck.pdf",
+      "bytes": 1418882,
+      "git_blob_sha1": "335ef21f0fd11145523739681fdd5343f5fc12fd",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Teacher_HowToUse_and_MTSS_Guide.docx",
+      "bytes": 20231,
+      "git_blob_sha1": "113a23cc63298c48d73030812bf4bc7500f921de",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit2/deliverables/Unit2_Teacher_HowToUse_and_MTSS_Guide.pdf",
+      "bytes": 196873,
+      "git_blob_sha1": "e1a8665bb031c22aa57e9273b59985938e8eaa27",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/assets/primary_sources/GC.10_seventeenth-amendment.jpg",
+      "bytes": 141871,
+      "git_blob_sha1": "8dc2ab3d0f7a56dbcfc47f73cb6846af6d2cc739",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/assets/primary_sources/GC.11_gerry-mander-1812.png",
+      "bytes": 715015,
+      "git_blob_sha1": "cd0e35753a110886804e19f757aa51a4584dd011",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/assets/primary_sources/GC.12_us-capitol.jpg",
+      "bytes": 4719518,
+      "git_blob_sha1": "ec80bba83f7be12e5be23aa2d47baed0e17b46b7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/assets/primary_sources/GC.13_congress-in-session.jpg",
+      "bytes": 1843881,
+      "git_blob_sha1": "797a9b5183b2c51252a83081a311923831d8384e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/assets/primary_sources/GC.14_tennessee-seal.png",
+      "bytes": 683761,
+      "git_blob_sha1": "25b44bbaf272d025b48e526a68b49be9302dc85f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/assets/primary_sources/GC.15_john-marshall.jpg",
+      "bytes": 620222,
+      "git_blob_sha1": "33e30ec946b21e09fc56df5a24c72515536ca46f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/assets/primary_sources/GC.35_ellis-island-immigrants.jpg",
+      "bytes": 110566,
+      "git_blob_sha1": "012663d5fe74b5674853ad720f0ef45d7484ee9b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Assessment_Book_Teacher.docx",
+      "bytes": 28380,
+      "git_blob_sha1": "26d9f32c33c28b299a23694a8e8cb1513a29f347",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Assessment_Book_Teacher.pdf",
+      "bytes": 392337,
+      "git_blob_sha1": "f0347b90190d60de17ca97e6bca25539ed4eba92",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Cover_Assessment_Book.docx",
+      "bytes": 4715175,
+      "git_blob_sha1": "af7b12d40805c5e47788db1e70ee08c232ba93a1",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Cover_Assessment_Book.pdf",
+      "bytes": 445301,
+      "git_blob_sha1": "dc5679a2f4e4aadec505a0d6977d157f516dfd86",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Cover_Organizer_Toolkit.docx",
+      "bytes": 4715090,
+      "git_blob_sha1": "44eba3aaf29e52255b5c992cf9183f718021b47e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Cover_Organizer_Toolkit.pdf",
+      "bytes": 445014,
+      "git_blob_sha1": "8d84f5cc18c4cbcf37b30124ab62d8cc7b4c73be",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Cover_Student_Workbook.docx",
+      "bytes": 4715470,
+      "git_blob_sha1": "e43020ccedd7e4c46a2a90096c6dfff000131fb5",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Cover_Student_Workbook.pdf",
+      "bytes": 444908,
+      "git_blob_sha1": "678fe60de903dd33c15eb720bfc5ba0b18404abc",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Cover_Teacher_Edition.docx",
+      "bytes": 4715334,
+      "git_blob_sha1": "e9d80bab8973caded93d5beb79ce7860047a5af4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Cover_Teacher_Edition.pdf",
+      "bytes": 445335,
+      "git_blob_sha1": "3e572d6dcb5e3e07684d9f7a874b06b05939c594",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Student_Workbook_CourseStandard.docx",
+      "bytes": 8928752,
+      "git_blob_sha1": "d3f62dd716cce6b01148f699d346ccc2c6c24e51",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Student_Workbook_CourseStandard.pdf",
+      "bytes": 3061247,
+      "git_blob_sha1": "ddc10cd87da98adfa46c7885183df9fb34237201",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Student_Workbook_CourseStandard_LargePrint.docx",
+      "bytes": 8928768,
+      "git_blob_sha1": "73e4760c1e25e1b14eb9cd8bf928d2371c25f9a4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Student_Workbook_CourseStandard_LargePrint.pdf",
+      "bytes": 3177787,
+      "git_blob_sha1": "95203041de95d3a525db6b01fc227a9158c2f95e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Teacher_Deck.pdf",
+      "bytes": 10107201,
+      "git_blob_sha1": "cd729f2368b5b22b4c0b3bf2aa2a17ee23e58187",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Teacher_HowToUse_and_MTSS_Guide.docx",
+      "bytes": 21428,
+      "git_blob_sha1": "7a47ed69e2484a57b44aeba4d348df61ffb474e3",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit3/deliverables/Unit3_Teacher_HowToUse_and_MTSS_Guide.pdf",
+      "bytes": 227473,
+      "git_blob_sha1": "dee8b7a73e21be3a23790483862c4dc0bc1fe63c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/assets/primary_sources/GC.16_washington-portrait.jpg",
+      "bytes": 1545634,
+      "git_blob_sha1": "e8f654bf9b131dfe1b7a33e5886bfb6751e5dde1",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/assets/primary_sources/GC.17_executive-department-seal.png",
+      "bytes": 285329,
+      "git_blob_sha1": "d6e7ca5edb968a7f57d67337d974f10f99ef4abc",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/assets/primary_sources/GC.18_electoral-college-cartoon.jpg",
+      "bytes": 516800,
+      "git_blob_sha1": "69a3638695faf6097841cc9d86b55a72d51fc249",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Assessment_Book_Teacher.docx",
+      "bytes": 20049,
+      "git_blob_sha1": "36960cafc4a151ed3ccff1839639c848815d3719",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Assessment_Book_Teacher.pdf",
+      "bytes": 210952,
+      "git_blob_sha1": "14334ea070d35e84c8b5804152c2a6a828495c41",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Cover_Assessment_Book.docx",
+      "bytes": 1558048,
+      "git_blob_sha1": "737e04e29c2d1faac4cf97fd68e1b3af193dfcbd",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Cover_Assessment_Book.pdf",
+      "bytes": 364340,
+      "git_blob_sha1": "10142daaa2a99998000da6b1828a8e4c2534a4b5",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Cover_Organizer_Toolkit.docx",
+      "bytes": 1557965,
+      "git_blob_sha1": "497442d4d4578ac21a9c23527c3db0f35767772a",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Cover_Organizer_Toolkit.pdf",
+      "bytes": 363869,
+      "git_blob_sha1": "3cc8f3edc66592f65bd0aa654117b825480e017b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Cover_Student_Workbook.docx",
+      "bytes": 1558356,
+      "git_blob_sha1": "6cd353c06f2e7aaf1d528bf1caf8248bba75e87e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Cover_Student_Workbook.pdf",
+      "bytes": 364125,
+      "git_blob_sha1": "98b853081210a9d9c014d1738036662900ba0c5c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Cover_Teacher_Edition.docx",
+      "bytes": 1558214,
+      "git_blob_sha1": "a4bd14886d8f1b8a961f4b1c1c815fa863df8994",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Cover_Teacher_Edition.pdf",
+      "bytes": 364436,
+      "git_blob_sha1": "743d2df708a69504bbf3e571525bb09e70987d26",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Student_Workbook_CourseStandard.docx",
+      "bytes": 2407367,
+      "git_blob_sha1": "b2506c6f15a118eb3db3c698da3c5fdd48528d8a",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Student_Workbook_CourseStandard.pdf",
+      "bytes": 1394099,
+      "git_blob_sha1": "68aa5f215c5058a60d1d0b4dd9d73b70f29fbaf9",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Student_Workbook_CourseStandard_LargePrint.docx",
+      "bytes": 2407381,
+      "git_blob_sha1": "c701941c269f554073d60108a010249fe9021ca4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Student_Workbook_CourseStandard_LargePrint.pdf",
+      "bytes": 1444111,
+      "git_blob_sha1": "0a4db080de973a56349c38ae35abe08e7e726d4c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Teacher_Deck.pdf",
+      "bytes": 2782086,
+      "git_blob_sha1": "e0747470db017da5c2a5c4117c3d9cde7da86ad5",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Teacher_HowToUse_and_MTSS_Guide.docx",
+      "bytes": 19791,
+      "git_blob_sha1": "cfc7de00734829b72bfd939be80b8e169ff13058",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit4/deliverables/Unit4_Teacher_HowToUse_and_MTSS_Guide.pdf",
+      "bytes": 186665,
+      "git_blob_sha1": "8d78fd100d89ce2aee7d1cc8a7ddd4020cc6a806",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/assets/primary_sources/GC.19_judiciary-act-1789.jpg",
+      "bytes": 51734,
+      "git_blob_sha1": "8b62d853dc8209e2bf9709e7501a77f5ab3f08b3",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/assets/primary_sources/GC.20_john-jay-portrait.jpg",
+      "bytes": 491902,
+      "git_blob_sha1": "6f38cf49a885caff8b93a7ff1af9928b903fd624",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/assets/primary_sources/GC.21_john-marshall.jpg",
+      "bytes": 620222,
+      "git_blob_sha1": "33e30ec946b21e09fc56df5a24c72515536ca46f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/assets/primary_sources/GC.22_supreme-court-building.jpg",
+      "bytes": 1533473,
+      "git_blob_sha1": "7ce0851e094219bce19167b94bbfad7ec17f81f6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Assessment_Book_Teacher.docx",
+      "bytes": 22723,
+      "git_blob_sha1": "624d4044645cdb905eda9b7be404048db6c0088d",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Assessment_Book_Teacher.pdf",
+      "bytes": 259016,
+      "git_blob_sha1": "ca9a618c6cc555b5fb58293310382fc7f3742588",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Cover_Assessment_Book.docx",
+      "bytes": 1531999,
+      "git_blob_sha1": "1a5548fff954592774fc41f343d71ed561afeb10",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Cover_Assessment_Book.pdf",
+      "bytes": 358437,
+      "git_blob_sha1": "461e2d15505409069b1146a158ed4a3ca0877792",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Cover_Organizer_Toolkit.docx",
+      "bytes": 1531916,
+      "git_blob_sha1": "cdcaff3db663a98bf7c41edc3a5067ad89a07568",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Cover_Organizer_Toolkit.pdf",
+      "bytes": 358087,
+      "git_blob_sha1": "c5812cdfedab09592229d6ce7cefa01f46693b08",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Cover_Student_Workbook.docx",
+      "bytes": 1532300,
+      "git_blob_sha1": "94dee679f0815c635969d2f7e0a232177bee7624",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Cover_Student_Workbook.pdf",
+      "bytes": 358196,
+      "git_blob_sha1": "2b399799aefc90a29357c0996dcc92629392fb0b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Cover_Teacher_Edition.docx",
+      "bytes": 1532154,
+      "git_blob_sha1": "9fced06c076db722c1fa98f28b920f0446a051b6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Cover_Teacher_Edition.pdf",
+      "bytes": 358631,
+      "git_blob_sha1": "e6bd942227d6f02f0e77b5ead061c4a2928cd082",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Student_Workbook_CourseStandard.docx",
+      "bytes": 2764711,
+      "git_blob_sha1": "f8d7f4651eb6579fb9107df9eb046e9c8ac8c4f7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Student_Workbook_CourseStandard.pdf",
+      "bytes": 1665038,
+      "git_blob_sha1": "d9767ea2e306aef02241c3a07bc4e2a8d68335df",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Student_Workbook_CourseStandard_LargePrint.docx",
+      "bytes": 2764718,
+      "git_blob_sha1": "1c59a663a1aacdb93a9c4c696f5a55204b59140e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Student_Workbook_CourseStandard_LargePrint.pdf",
+      "bytes": 1731332,
+      "git_blob_sha1": "4e215b974523ea4903262dfdbf43ba1a3778d416",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Teacher_Deck.pdf",
+      "bytes": 3070646,
+      "git_blob_sha1": "83278770f4193ae371c251feb2438257ab4fb136",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Teacher_HowToUse_and_MTSS_Guide.docx",
+      "bytes": 20223,
+      "git_blob_sha1": "ada2c2316fce3e168116bf42809981438fa381a7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit5/deliverables/Unit5_Teacher_HowToUse_and_MTSS_Guide.pdf",
+      "bytes": 196907,
+      "git_blob_sha1": "b9a1de7a83dd453ae40696a43cff1b757cad4117",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/assets/primary_sources/GC.23_first-amendment.jpg",
+      "bytes": 4123061,
+      "git_blob_sha1": "ae3eb17196fb87659bcaf5684541865072c0f9c4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/assets/primary_sources/GC.24_second-amendment.jpg",
+      "bytes": 1137927,
+      "git_blob_sha1": "00eecb88fde8e430b123a31f154db6ef7f3b75b2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/assets/primary_sources/GC.25_gideon-petition.jpg",
+      "bytes": 1241901,
+      "git_blob_sha1": "05cca9919eb84723a34a14422155e970353aa7b8",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/assets/primary_sources/GC.26_fourteenth-amendment.jpg",
+      "bytes": 520506,
+      "git_blob_sha1": "71b32b64d646b70c7cce62aedcafedd508ccdf82",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/assets/primary_sources/GC.27_wra-incarceration-1942.jpg",
+      "bytes": 2210785,
+      "git_blob_sha1": "a5b51a507e5f5d6175f049c35fc247567498b2e4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Assessment_Book_Teacher.docx",
+      "bytes": 24657,
+      "git_blob_sha1": "0d89756dc6ef89a2f888e1a7a98895401e1d4665",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Assessment_Book_Teacher.pdf",
+      "bytes": 303283,
+      "git_blob_sha1": "4cc2b91825430ec9b17df013b3a358cf0badd994",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Cover_Assessment_Book.docx",
+      "bytes": 4129236,
+      "git_blob_sha1": "633f07476f3be50ae48fdc71c7575c9a1f7e7999",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Cover_Assessment_Book.pdf",
+      "bytes": 443023,
+      "git_blob_sha1": "ca26251dd741732b4c731a736bcc12e8f9778049",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Cover_Organizer_Toolkit.docx",
+      "bytes": 4129149,
+      "git_blob_sha1": "c32e112712ca3eabdf20edfba4433538ee449f7d",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Cover_Organizer_Toolkit.pdf",
+      "bytes": 442525,
+      "git_blob_sha1": "b40f47e1bc59e760c0240798f5627ec8fa460e6c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Cover_Student_Workbook.docx",
+      "bytes": 4129541,
+      "git_blob_sha1": "528fbf3c579fd182183cd108d7af61ee73b550d0",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Cover_Student_Workbook.pdf",
+      "bytes": 442879,
+      "git_blob_sha1": "6843a014db890fd9edd2a51b2620da61cf224927",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Cover_Teacher_Edition.docx",
+      "bytes": 4129399,
+      "git_blob_sha1": "5d86622554f805692cef4d0b559496b8e0aa75cd",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Cover_Teacher_Edition.pdf",
+      "bytes": 443100,
+      "git_blob_sha1": "0bd1bc542e7b922a9232feb56c3994dce8f04ef1",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Student_Workbook_CourseStandard.docx",
+      "bytes": 9235979,
+      "git_blob_sha1": "c906c88754c654beb5b8546b11f46c6281f25138",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Student_Workbook_CourseStandard.pdf",
+      "bytes": 2364271,
+      "git_blob_sha1": "65990baa0b8f134ae5931e1656784aabe6a0583f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Student_Workbook_CourseStandard_LargePrint.docx",
+      "bytes": 9235986,
+      "git_blob_sha1": "c774efb77c46856979ec8c61f39c5a81430d2c5f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Student_Workbook_CourseStandard_LargePrint.pdf",
+      "bytes": 2448175,
+      "git_blob_sha1": "1b2cc414e453a7be92824158960ba4e81d2e8760",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Teacher_Deck.pdf",
+      "bytes": 9854878,
+      "git_blob_sha1": "99d6acdf6db53ee9df261f8b4c02fd8c77dc07e8",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Teacher_HowToUse_and_MTSS_Guide.docx",
+      "bytes": 20679,
+      "git_blob_sha1": "5b2b36012d93116bcffdec842d23e2c195e0b0b4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit6/deliverables/Unit6_Teacher_HowToUse_and_MTSS_Guide.pdf",
+      "bytes": 209885,
+      "git_blob_sha1": "3485eaea9e3b341a59e638b0134d2dccf82cb3d2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/assets/primary_sources/GC.28_tennessee-state-seal.png",
+      "bytes": 304331,
+      "git_blob_sha1": "8dbecbbcf76cd04b42c6b7815fff1d45179a940c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/assets/primary_sources/GC.29_tennessee-counties-map.png",
+      "bytes": 114812,
+      "git_blob_sha1": "b9d2c3d9b5e299ce55e505f5bc784bba2aec6411",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/assets/primary_sources/GC.30_tennessee-state-flag.png",
+      "bytes": 25827,
+      "git_blob_sha1": "4cbfd67dd1709f54e14b0773b7b0ae0cd09bb306",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Assessment_Book_Teacher.docx",
+      "bytes": 20542,
+      "git_blob_sha1": "9c267cddba54438eabf8cfe400edcd21b23abb8f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Assessment_Book_Teacher.pdf",
+      "bytes": 213730,
+      "git_blob_sha1": "bd56866aba9e035e4fe113b123d34c459a274675",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Cover_Assessment_Book.docx",
+      "bytes": 35684,
+      "git_blob_sha1": "f321387e167322c70d53d974fc5b3229875cfcec",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Cover_Assessment_Book.pdf",
+      "bytes": 92787,
+      "git_blob_sha1": "fee328cc371cb3f2caadf1c8eb88923d888283e6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Cover_Organizer_Toolkit.docx",
+      "bytes": 35599,
+      "git_blob_sha1": "f0606cc5aa46f3f6580ad86d9bb02a93b8c94b07",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Cover_Organizer_Toolkit.pdf",
+      "bytes": 92259,
+      "git_blob_sha1": "c6836be48b08972e3168c8b6e32597c2cef02be7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Cover_Student_Workbook.docx",
+      "bytes": 35988,
+      "git_blob_sha1": "96ad095a1acf3a11b0f36bd6b27408f4e1c2de2c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Cover_Student_Workbook.pdf",
+      "bytes": 92429,
+      "git_blob_sha1": "55394eafcb1a3ab3e11ce7295c4679a587740b1a",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Cover_Teacher_Edition.docx",
+      "bytes": 35848,
+      "git_blob_sha1": "dbcec45c4b12b704f3f2b155cd34b392a45a574c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Cover_Teacher_Edition.pdf",
+      "bytes": 92894,
+      "git_blob_sha1": "e629492756eb4f9d40930b810c9015e8ecba913c",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Student_Workbook_CourseStandard.docx",
+      "bytes": 510243,
+      "git_blob_sha1": "4cb361f2db5aee33ab61e4b70c5753f158c6d473",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Student_Workbook_CourseStandard.pdf",
+      "bytes": 1133918,
+      "git_blob_sha1": "931daf752dd9b515d8363238d3cb70e046c4b3ff",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Student_Workbook_CourseStandard_LargePrint.docx",
+      "bytes": 510268,
+      "git_blob_sha1": "44418767047f3f98ebd6abf580a674c397b371bf",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Student_Workbook_CourseStandard_LargePrint.pdf",
+      "bytes": 1184273,
+      "git_blob_sha1": "710e3fdf378fb0a263b24bcdd9b4c6556ddfbfad",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Teacher_HowToUse_and_MTSS_Guide.docx",
+      "bytes": 19971,
+      "git_blob_sha1": "4c6f73a2d697567a2940625db46c38eefc1a1c67",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "BUILD/unit7/deliverables/Unit7_Teacher_HowToUse_and_MTSS_Guide.pdf",
+      "bytes": 186359,
+      "git_blob_sha1": "1859d5eee776f0723aa00518dd32c1ccade3a7ff",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "REFERENCE/USHistory_Unit8_Student_Workbook.docx",
+      "bytes": 3494471,
+      "git_blob_sha1": "64a67eebe2f04e4c58d2b136f578f63131e08db1",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.01_locke-portrait.jpg",
+      "bytes": 568179,
+      "git_blob_sha1": "0054f7e8e9d10eecdd8f9effe734b75bc0fe12e2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.02_declaration-of-independence.jpg",
+      "bytes": 1976293,
+      "git_blob_sha1": "b23b056ac2506f3ec8c67a06f47850631d0d08de",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.03_join-or-die.jpg",
+      "bytes": 4712090,
+      "git_blob_sha1": "dbcec5144ff447b4f9ccef207fc4dd1a8d973feb",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.05_constitution-page1.jpg",
+      "bytes": 5717879,
+      "git_blob_sha1": "89ed562dc2525f1a98ec8e4f0df8364fc2b82bf4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.06_federalist-title-page.jpg",
+      "bytes": 127810,
+      "git_blob_sha1": "df516c1450a94a3da7734173de9c800f6c3a620b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.07_federal-pillars.jpg",
+      "bytes": 630576,
+      "git_blob_sha1": "7126dbfc4a70917f81cc8db352109d4845934d18",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.08_bill-of-rights.jpg",
+      "bytes": 4123061,
+      "git_blob_sha1": "ae3eb17196fb87659bcaf5684541865072c0f9c4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.09_great-seal.png",
+      "bytes": 794092,
+      "git_blob_sha1": "2cffd197de7dbb2440ae08925cca20c1d4ba72e9",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.10_seventeenth-amendment.jpg",
+      "bytes": 141871,
+      "git_blob_sha1": "8dc2ab3d0f7a56dbcfc47f73cb6846af6d2cc739",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.11_gerry-mander-1812.png",
+      "bytes": 715015,
+      "git_blob_sha1": "cd0e35753a110886804e19f757aa51a4584dd011",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.12_us-capitol.jpg",
+      "bytes": 4719518,
+      "git_blob_sha1": "ec80bba83f7be12e5be23aa2d47baed0e17b46b7",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.13_congress-in-session.jpg",
+      "bytes": 1843881,
+      "git_blob_sha1": "797a9b5183b2c51252a83081a311923831d8384e",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.14_tennessee-seal.png",
+      "bytes": 683761,
+      "git_blob_sha1": "25b44bbaf272d025b48e526a68b49be9302dc85f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.15_john-marshall.jpg",
+      "bytes": 620222,
+      "git_blob_sha1": "33e30ec946b21e09fc56df5a24c72515536ca46f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.16_washington-portrait.jpg",
+      "bytes": 1545634,
+      "git_blob_sha1": "e8f654bf9b131dfe1b7a33e5886bfb6751e5dde1",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.17_executive-department-seal.png",
+      "bytes": 285329,
+      "git_blob_sha1": "d6e7ca5edb968a7f57d67337d974f10f99ef4abc",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.18_electoral-college-cartoon.jpg",
+      "bytes": 516800,
+      "git_blob_sha1": "69a3638695faf6097841cc9d86b55a72d51fc249",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.19_judiciary-act-1789.jpg",
+      "bytes": 51734,
+      "git_blob_sha1": "8b62d853dc8209e2bf9709e7501a77f5ab3f08b3",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.20_john-jay-portrait.jpg",
+      "bytes": 491902,
+      "git_blob_sha1": "6f38cf49a885caff8b93a7ff1af9928b903fd624",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.21_john-marshall.jpg",
+      "bytes": 620222,
+      "git_blob_sha1": "33e30ec946b21e09fc56df5a24c72515536ca46f",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.22_supreme-court-building.jpg",
+      "bytes": 1533473,
+      "git_blob_sha1": "7ce0851e094219bce19167b94bbfad7ec17f81f6",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.23_first-amendment.jpg",
+      "bytes": 4123061,
+      "git_blob_sha1": "ae3eb17196fb87659bcaf5684541865072c0f9c4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.24_second-amendment.jpg",
+      "bytes": 1137927,
+      "git_blob_sha1": "00eecb88fde8e430b123a31f154db6ef7f3b75b2",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.25_gideon-petition.jpg",
+      "bytes": 1241901,
+      "git_blob_sha1": "05cca9919eb84723a34a14422155e970353aa7b8",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.26_fourteenth-amendment.jpg",
+      "bytes": 520506,
+      "git_blob_sha1": "71b32b64d646b70c7cce62aedcafedd508ccdf82",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.27_wra-incarceration-1942.jpg",
+      "bytes": 2210785,
+      "git_blob_sha1": "a5b51a507e5f5d6175f049c35fc247567498b2e4",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.28_tennessee-state-capitol.jpg",
+      "bytes": 21491,
+      "git_blob_sha1": "7de612eaaece931f4cb8c246ce1c4d17119e9ec3",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.29_tennessee-counties-map.png",
+      "bytes": 160265,
+      "git_blob_sha1": "29e6aa869598571647191f476adb2773301e4e8a",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.30_tennessee-state-flag.png",
+      "bytes": 60126,
+      "git_blob_sha1": "ce0d98a019b7047128d2bb42de8d35acebf8de3a",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.31_uncle-sam-i-want-you.jpg",
+      "bytes": 550495,
+      "git_blob_sha1": "72b6e07c59dae9b50324cc6e683b88243ad57d44",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.34_1913-suffrage-procession.jpg",
+      "bytes": 465107,
+      "git_blob_sha1": "886f0522bc2997aad57db375a4e166a22f8f619d",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    },
+    {
+      "path": "WEB_EDITION/public/data/government/primary-sources/assets/primary_sources/GC.35_ellis-island-immigrants.jpg",
+      "bytes": 110566,
+      "git_blob_sha1": "012663d5fe74b5674853ad720f0ef45d7484ee9b",
+      "source_ref": "origin/claude/history-hack-course-rebuild-jko587",
+      "release_url": null,
+      "drive_url": null
+    }
+  ],
+  "needs_rerender": {
+    "reason": "Source content corrected after CORE guardrails audit; the committed source is authoritative and these binaries must be re-rendered from it before publishing to the deploy channel.",
+    "units": [
+      {
+        "unit": 1,
+        "why": "GC.01 geo dimension restored (Geographer's Lens now renders); strand corrected to (C,E,G,P)."
+      },
+      {
+        "unit": 4,
+        "why": "GC.18 geo:true added (Geographer's Lens now renders)."
+      },
+      {
+        "unit": 7,
+        "why": "GC.30 verbatim clause restored '(for a student's respective district)'."
+      }
+    ]
+  }
+}
