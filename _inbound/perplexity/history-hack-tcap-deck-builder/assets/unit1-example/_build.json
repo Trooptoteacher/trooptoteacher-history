@@ -1,0 +1,1389 @@
+{
+  "US.01": {
+    "title": "Homestead Act and Transcontinental Railroad",
+    "iCan": "I can explain how the Homestead Act and the Transcontinental Railroad impacted the settlement of the West, including their effects on American Indians, immigrants, and settlers.",
+    "tnStandard": "US.01 – Explain how the Homestead Act and the Transcontinental Railroad impacted the settlement of the West.",
+    "sections": [
+      {
+        "heading": "Sequence the expansion of the United States",
+        "content": "The Homestead Act of 1862 offered 160 acres of free land to settlers who would farm it for five years. Combined with the completion of the Transcontinental Railroad in 1869, these policies accelerated westward expansion as part of Manifest Destiny—the belief that Americans were destined to spread across the continent. The Union Pacific built westward from Omaha while the Central Pacific built eastward from Sacramento, meeting at Promontory Summit, Utah.",
+        "tn": false
+      },
+      {
+        "heading": "Impact on Western Settlement",
+        "content": "The Transcontinental Railroad dramatically reduced travel time from months to days, opening the West to settlement, commerce, and resource extraction. Towns sprang up along rail lines, and agricultural products could now reach eastern markets efficiently. However, this expansion came at tremendous cost to American Indian nations whose lands were taken and whose way of life was destroyed.",
+        "tn": false
+      },
+      {
+        "heading": "Impact on American Indians, Immigrants, and Settlers",
+        "content": "Western expansion devastated American Indian communities through forced relocations, broken treaties, and the near-extinction of buffalo herds they depended upon. Immigrants, particularly Chinese workers who built much of the Central Pacific, faced discrimination despite their crucial contributions. The \"Buffalo Soldiers\"—African American cavalry regiments—served on the frontier, including George Jordan of Williamson County, Tennessee, who received the Medal of Honor for his service.",
+        "tn": true
+      }
+    ],
+    "vocab": [
+      {
+        "term": "Homestead Act",
+        "def": "An 1862 law that provided 160 acres of public land to settlers who agreed to live on and improve the land for five years, encouraging westward expansion.",
+        "simple": "An 1862 law that provided 160 acres of public land to settlers who agreed to live on. It changed land control and where Native communities could live.",
+        "es": "Ley de Homestead"
+      },
+      {
+        "term": "Transcontinental Railroad",
+        "def": "A continuous railroad line completed in 1869 that connected the eastern United States with the Pacific coast, revolutionizing transportation and commerce.",
+        "simple": "A continuous railroad line completed in 1869 that connected the eastern United States with the Pacific coast. It changed travel, trade, and how far-away places were connected.",
+        "es": "Ferrocarril Transcontinental"
+      },
+      {
+        "term": "Westward Expansion",
+        "es": "Expansión hacia el Oeste",
+        "def": "The 19th-century movement of settlers, railroads, and U.S. authority across the continent toward the Pacific, encouraged by free land and new transportation."
+      },
+      {
+        "term": "Manifest Destiny",
+        "es": "Destino Manifiesto",
+        "def": "The widely held 1800s belief that the United States was destined to expand across the entire continent, used to justify the displacement of American Indians."
+      },
+      {
+        "term": "Land Grant",
+        "es": "Concesión de Tierras",
+        "def": "A gift of public land from the government — to railroad companies or settlers — used to fund and accelerate western settlement."
+      },
+      {
+        "term": "Reservation",
+        "es": "Reservación",
+        "def": "An area of land set aside by the federal government for American Indian tribes, frequently far from their ancestral homelands."
+      }
+    ],
+    "bios": [],
+    "primarySources": [
+      {
+        "title": "Homestead Act",
+        "author": "U.S. Congress",
+        "date": "May 20, 1862 (12 Stat. 392)",
+        "excerpt": "Any person who is the head of a family, or who has arrived at the age of twenty-one years, and is a citizen of the United States, or who shall have filed his declaration of intention to become such... shall be entitled to enter one quarter section [160 acres] of unappropriated public lands.",
+        "question": "A homesteading family and a Lakota family in 1875 would most likely have described the Homestead Act in very different ways. Which statement best explains why?",
+        "practice": "close-reading",
+        "citation": {
+          "mlaCitation": "United States Congress. \"An Act to Secure Homesteads to Actual Settlers on the Public Domain (Homestead Act).\" 1862. National Archives, https://www.archives.gov/milestone-documents/homestead-act.",
+          "apaCitation": "United States Congress. (1862). An act to secure homesteads to actual settlers on the public domain (Homestead Act). National Archives. https://www.archives.gov/milestone-documents/homestead-act",
+          "archiveUrl": "https://www.archives.gov/milestone-documents/homestead-act",
+          "archiveName": "National Archives",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.archives.gov/milestone-documents/homestead-act",
+        "context": "Passed during the Civil War, the Homestead Act offered western land to encourage settlement and strengthen Union-aligned development of the frontier.",
+        "options": [
+          {
+            "text": "The same law that opened \"free\" land to settlers took that land away from American Indians who already lived on it.",
+            "isCorrect": true
+          },
+          {
+            "text": "The Homestead Act applied only to settlers and never affected American Indians in any way.",
+            "isCorrect": false
+          },
+          {
+            "text": "Both families received 160 acres each under the law, so their views would have matched.",
+            "isCorrect": false
+          },
+          {
+            "text": "The law was written to benefit American Indians first and settlers second.",
+            "isCorrect": false
+          }
+        ],
+        "correct": "a",
+        "explanation": "DOK 3: Students must weigh competing perspectives. The Act’s \"free\" 160-acre grants to settlers came from land that the federal government took from American Indian nations, so the same policy meant opportunity for one group and dispossession for another.",
+        "dokLevel": "DOK 3"
+      },
+      {
+        "title": "Pacific Railway Act",
+        "author": "U.S. Congress",
+        "date": "July 1, 1862 (12 Stat. 489)",
+        "excerpt": "The United States shall extinguish as rapidly as may be the Indian titles to all lands falling under the operation of this act... There is hereby granted to the said company, for the purpose of aiding in the construction of said railroad and telegraph line... every alternate section of public land, designated by odd numbers.",
+        "question": "What does this excerpt reveal about federal policy toward Native Americans during railroad construction?",
+        "practice": "close-reading",
+        "citation": {
+          "mlaCitation": "United States Congress. \"Pacific Railway Act.\" 1862. National Archives, https://www.archives.gov/milestone-documents/pacific-railway-act.",
+          "apaCitation": "United States Congress. (1862). Pacific Railway Act. National Archives. https://www.archives.gov/milestone-documents/pacific-railway-act",
+          "archiveUrl": "https://www.archives.gov/milestone-documents/pacific-railway-act",
+          "archiveName": "National Archives",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.archives.gov/milestone-documents/pacific-railway-act",
+        "context": "Also enacted in 1862, this law funded a transcontinental railroad by granting land and federal support, accelerating settlement while displacing Native communities.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Native Americans would receive payment for their lands",
+            "isCorrect": false,
+            "textEs": "Los pueblos nativos americanos recibirían un pago por sus tierras"
+          },
+          {
+            "id": "b",
+            "text": "Native Americans would be employed in railroad construction",
+            "isCorrect": false,
+            "textEs": "Los pueblos nativos americanos serían empleados en la construcción del ferrocarril"
+          },
+          {
+            "id": "c",
+            "text": "Native American land claims would be eliminated to make way for the railroad",
+            "isCorrect": true,
+            "textEs": "Las reclamaciones de tierras de los nativos americanos serían eliminadas para dar paso al ferrocarril"
+          },
+          {
+            "id": "d",
+            "text": "Native American territories would be protected from development",
+            "isCorrect": false,
+            "textEs": "Los territorios de los nativos americanos serían protegidos del desarrollo"
+          }
+        ],
+        "correct": "c",
+        "explanation": "The Act explicitly states that the U.S. \"shall extinguish... the Indian titles to all lands falling under the operation of this act,\" meaning Native claims would be eliminated."
+      }
+    ],
+    "ssps": [
+      "SSP.01",
+      "SSP.02",
+      "SSP.05",
+      "SSP.06"
+    ],
+    "weDo": {
+      "skill": "Cause → Effect reasoning",
+      "modeledPrompt": "Trace ONE effect of the Transcontinental Railroad on American Indian nations.",
+      "modeled": "CAUSE: The railroad cut directly through Plains hunting grounds (1869).  →  EFFECT: Settlers and hunters poured in and the buffalo herds collapsed.  →  CONSEQUENCE: Plains nations lost the food source their economy depended on and were pushed onto reservations.",
+      "think": "Watch how I do it: I start with the policy (the cause), I underline the change it set in motion (the effect), then I push one step further to the human consequence. I do NOT stop at \"railroad was built\" — I ask \"so what happened to people because of it?\"",
+      "thenYou": "Now you complete two more cause→effect chains on your own in the activity."
+    },
+    "sourceItFirst": {
+      "who": "U.S. Congress (federal statute).",
+      "when": "1862, during the Civil War.",
+      "why": "A law reveals the government’s intent — ask who benefits and who is left out."
+    },
+    "facilitation": "Think-aloud as you read: \"I keep asking — good for whom, costly for whom?\" Cold-call two students to name a winner and a loser of expansion before moving on."
+  },
+  "US.02": {
+    "title": "Federal Policies Toward American Indians",
+    "iCan": "I can examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act.",
+    "tnStandard": "US.02 – Examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act.",
+    "sections": [
+      {
+        "heading": "Movement to Reservations",
+        "content": "After the Civil War, the federal government expanded a policy of confining American Indian nations to reservations—designated territories far smaller than their traditional homelands. Officials stated two goals: to open western land for white settlement and railroads, and to end armed conflict on the Plains. Many treaties were signed under military and economic pressure, and tribes surrendered millions of acres. Resistance continued: at the Battle of the Little Bighorn (1876), Lakota and Cheyenne forces under Sitting Bull and Crazy Horse defeated Lt. Col. George Custer—a Native victory that intensified U.S. efforts to break tribal power.",
+        "tn": false
+      },
+      {
+        "heading": "Assimilation and Boarding Schools",
+        "content": "Alongside removal, the government pursued a policy of assimilation—using schools and law to replace tribal cultures with Euro-American ones. At off-reservation boarding schools such as the Carlisle Indian Industrial School (founded 1879), Captain Richard H. Pratt summarized the aim in 1892: “Kill the Indian in him, and save the man.” Children were removed from their families and often forbidden to speak their languages, wear their clothing, or practice their religions. Historians today describe this systematic effort to erase Native identity as cultural genocide, and document its lasting, multi-generational harm.",
+        "tn": false
+      },
+      {
+        "heading": "The Dawes Act and Its Impact",
+        "content": "The Dawes Severalty Act of 1887 broke up communal tribal lands into individual allotments—160 acres to each head of a family—stating the goal of turning American Indians into independent farmers and U.S. citizens. The actual effect was a massive transfer of land: American Indians held about 150 million acres before the Act, and lost roughly two-thirds of their land base—over 90 million acres—by 1934. “Surplus” land was sold to white settlers, and additional allotted land was lost through taxation, fraud, and forced sales. The Act dismantled the communal landholding central to many tribal cultures.",
+        "tn": false
+      }
+    ],
+    "vocab": [
+      {
+        "term": "Reservation System",
+        "def": "Federal policy that confined Native American tribes to designated areas of land, often far from their ancestral territories, as part of efforts to control indigenous populations and open land for white settlement.",
+        "simple": "Federal policy that confined Native American tribes to designated areas of land. It changed land control and where Native communities could live.",
+        "es": "Sistema de Reservaciones"
+      },
+      {
+        "term": "Assimilation",
+        "def": "Federal policy aimed at forcing Native Americans to abandon their traditional cultures and adopt European-American ways of life, including language, religion, and customs.",
+        "simple": "Federal policy aimed at forcing Native Americans to abandon their traditional cultures and adopt European-American ways of life. It changed land control and where Native communities could live.",
+        "es": "Asimilación"
+      },
+      {
+        "term": "Dawes Act",
+        "def": "An 1887 law that divided tribal lands into individual allotments for Native American families, aiming to break up reservations and assimilate Native Americans into mainstream American culture. It resulted in massive land loss.",
+        "simple": "An 1887 law that divided tribal lands into individual allotments for Native American families. It changed land control and where Native communities could live.",
+        "es": "Ley Dawes"
+      },
+      {
+        "term": "Allotment",
+        "es": "Asignación de Parcelas",
+        "def": "The division of communal tribal land into small individual plots under the Dawes Act, which opened \"surplus\" land to white settlers and caused massive Native land loss."
+      },
+      {
+        "term": "Boarding School",
+        "es": "Internado",
+        "def": "Off-reservation schools, such as Carlisle, where Native children were forced to abandon their languages, names, and cultures to be \"assimilated\" into white society."
+      },
+      {
+        "term": "Sovereignty",
+        "es": "Soberanía",
+        "def": "The right of a tribe or nation to govern itself; federal Indian policy in this era steadily eroded tribal sovereignty."
+      }
+    ],
+    "bios": [],
+    "primarySources": [
+      {
+        "title": "Dawes General Allotment Act",
+        "author": "U.S. Congress",
+        "date": "February 8, 1887 (24 Stat. 388)",
+        "excerpt": "In all cases where any tribe or band of Indians has been, or shall hereafter be, located upon any reservation created for their use... the President of the United States be authorized... to allot the lands in said reservation in severalty to any Indian located thereon in quantities as follows: To each head of a family, one-quarter of a section [160 acres].",
+        "question": "Based on the excerpt, what was the most likely long-term effect of dividing tribal land \"in severalty\" under the Dawes Act?",
+        "practice": "close-reading",
+        "citation": {
+          "mlaCitation": "United States Congress. \"Dawes General Allotment Act.\" 1887. National Archives, https://www.archives.gov/milestone-documents/dawes-act.",
+          "apaCitation": "United States Congress. (1887). Dawes General Allotment Act. National Archives. https://www.archives.gov/milestone-documents/dawes-act",
+          "archiveUrl": "https://www.archives.gov/milestone-documents/dawes-act",
+          "archiveName": "National Archives",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.archives.gov/milestone-documents/dawes-act",
+        "context": "Part of the federal assimilation era. The Dawes Act broke tribal landholdings into individual allotments and opened the remaining “surplus” to non-Native settlement. American Indians lost roughly two-thirds of their land—over 90 million acres—between 1887 and 1934.",
+        "options": [
+          {
+            "text": "It broke up communal tribal ownership and led to large-scale Native land loss.",
+            "isCorrect": true
+          },
+          {
+            "text": "It strengthened tribal governments and expanded reservation territory.",
+            "isCorrect": false
+          },
+          {
+            "text": "It returned ancestral homelands to tribal control.",
+            "isCorrect": false
+          },
+          {
+            "text": "It had no measurable effect on Native landholding.",
+            "isCorrect": false
+          }
+        ],
+        "correct": "d",
+        "explanation": "DOK 2: The Act allotted land to individuals and declared the remainder \"surplus\" for sale, predictably dissolving collective tribal holdings and transferring tens of millions of acres out of Native hands.",
+        "dokLevel": "DOK 2"
+      },
+      {
+        "title": "Indian Boarding School Regulations",
+        "author": "Office of Indian Affairs (Annual Report of the Commissioner of Indian Affairs, 1890)",
+        "date": "1890",
+        "excerpt": "All instruction must be in the English language. Pupils must be compelled to converse with each other in English, and should be properly rebuked or punished for persistent violation of this rule. Every effort should be made to encourage them to abandon their tribal customs and weakness.",
+        "question": "What does this document reveal about the goals of Indian boarding schools?",
+        "practice": "sourcing",
+        "citation": {
+          "mlaCitation": "Bureau of Indian Affairs. \"Indian Boarding School Regulations.\" 1890. Carlisle Indian School Digital Resource Center, carlisleindian.dickinson.edu/teach/rules-indian-schools.",
+          "apaCitation": "Bureau of Indian Affairs. (1890). Indian boarding school regulations. Carlisle Indian School Digital Resource Center. https://carlisleindian.dickinson.edu/teach/rules-indian-schools",
+          "archiveUrl": "https://carlisleindian.dickinson.edu/teach/rules-indian-schools",
+          "archiveName": "Carlisle Indian School Digital Resource Center",
+          "publicDomainStatus": true
+        },
+        "url": "https://carlisleindian.dickinson.edu/teach/rules-indian-schools",
+        "context": "In the late 19th century, the U.S. government pursued a policy of forced assimilation toward Native Americans, aiming to destroy tribal cultures and integrate Native people into white American society. A central feature of this policy was the Indian boarding school system, where children were taken from their families — often by force — and sent to government or church-run schools hundreds of miles away. At schools like the Carlisle Indian Industrial School in Pennsylvania, children were forbidden to speak their languages, required to wear Western clothing, given English names, and punished for practicing their cultures. The motto 'Kill the Indian, Save the Man' captured the brutal philosophy behind these institutions.",
+        "options": [
+          {
+            "id": "a",
+            "text": "To force assimilation by eliminating Native languages and traditions",
+            "isCorrect": true,
+            "textEs": "Forzar la asimilación eliminando las lenguas y tradiciones nativas"
+          },
+          {
+            "id": "b",
+            "text": "To preserve Native American languages and customs",
+            "isCorrect": false,
+            "textEs": "Preservar las lenguas y costumbres de los pueblos nativos americanos"
+          },
+          {
+            "id": "c",
+            "text": "To provide bilingual education",
+            "isCorrect": false,
+            "textEs": "Proporcionar educación bilingüe"
+          },
+          {
+            "id": "d",
+            "text": "To train students for leadership roles in their tribes",
+            "isCorrect": false,
+            "textEs": "Formar a los estudiantes para asumir roles de liderazgo en sus tribus"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The regulations mandate English-only instruction, punishment for speaking native languages, and encourage abandoning \"tribal customs,\" showing forced assimilation."
+      }
+    ],
+    "ssps": [
+      "SSP.01",
+      "SSP.02",
+      "SSP.03",
+      "SSP.05",
+      "SSP.06"
+    ],
+    "weDo": {
+      "skill": "Stated goal vs. real consequence",
+      "modeledPrompt": "Separate what the Dawes Act CLAIMED to do from what it actually DID.",
+      "modeled": "STATED GOAL: \"Civilize\" and assimilate Native peoples by making them individual farmers.  →  REAL CONSEQUENCE: Communal land was split into allotments and ~90 million acres of tribal land was lost.",
+      "think": "Watch my move: I put the policy’s own words in one column and the documented outcome in the other. The gap between those two columns is the historical argument.",
+      "thenYou": "You build the same two-column split for the boarding-school policy in the activity."
+    },
+    "sourceItFirst": {
+      "who": "U.S. Congress (the Dawes/General Allotment Act).",
+      "when": "1887.",
+      "why": "The law’s wording shows the stated goal; compare it to the documented result."
+    },
+    "facilitation": "Model the two-column move out loud (claim vs. result). Pause and have students whisper-read the policy’s stated goal to a partner before you reveal the consequence."
+  },
+  "US.03": {
+    "title": "Compromise of 1877, Jim Crow & Plessy v. Ferguson",
+    "iCan": "I can explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Benjamin \"Pap\" Singleton and the Exodusters, and the Plessy v. Ferguson decision.",
+    "tnStandard": "US.03 – Explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Benjamin \"Pap\" Singleton and the Exodusters, and the Plessy v. Ferguson decision. (TCA)",
+    "sections": [
+      {
+        "heading": "The Election of 1876 and End of Reconstruction",
+        "content": "The disputed 1876 presidential election between Republican Rutherford B. Hayes and Democrat Samuel Tilden led to the Compromise of 1877. In exchange for the presidency, Hayes agreed to withdraw federal troops from the South, effectively ending Reconstruction. This abandonment left African Americans without federal protection against increasingly hostile state governments.",
+        "tn": false
+      },
+      {
+        "heading": "Jim Crow Laws, Lynching, and Disenfranchisement",
+        "content": "With federal protection gone, Southern states implemented Jim Crow laws enforcing racial segregation in all aspects of life. African Americans faced systematic disenfranchisement through poll taxes, literacy tests, grandfather clauses, and white primaries. Those who resisted faced terrorism, including lynching—public murders that went unpunished and were often celebrated by white communities.",
+        "tn": false
+      },
+      {
+        "heading": "Pap Singleton and the Exodusters",
+        "content": "Benjamin \"Pap\" Singleton, a formerly enslaved man, organized the migration of thousands of African Americans from the South to Kansas in 1879. These \"Exodusters\" sought to escape violence and oppression, establishing communities like Nicodemus, Kansas. While conditions in Kansas were often harsh, the Exoduster movement represented African American agency and resistance to Jim Crow terror.",
+        "tn": false
+      },
+      {
+        "heading": "Plessy v. Ferguson and \"Separate But Equal\"",
+        "content": "The 1896 Supreme Court decision in Plessy v. Ferguson established the \"separate but equal\" doctrine, ruling that racial segregation was constitutional as long as facilities were supposedly equal. In practice, facilities for African Americans were grossly inferior. This decision legitimized Jim Crow segregation for nearly sixty years until Brown v. Board of Education (1954).",
+        "tn": false
+      }
+    ],
+    "vocab": [
+      {
+        "term": "Compromise of 1877",
+        "def": "An informal agreement that resolved the disputed 1876 presidential election, resulting in Rutherford B. Hayes becoming president in exchange for removing federal troops from the South, effectively ending Reconstruction.",
+        "simple": "An informal agreement that resolved the disputed 1876 presidential election. It changed who held power after major conflicts.",
+        "es": "Compromiso de 1877"
+      },
+      {
+        "term": "Jim Crow Laws",
+        "def": "State and local laws enacted primarily in the Southern states between 1877 and the 1960s that enforced racial segregation and denied African Americans their constitutional rights.",
+        "simple": "State and local laws enacted primarily in the Southern states between 1877 and the 1960s that enforced racial. It shaped racial rules and unequal treatment in daily life.",
+        "es": "Leyes de Jim Crow"
+      },
+      {
+        "term": "Disenfranchisement",
+        "def": "The systematic denial of voting rights through methods such as poll taxes, literacy tests, grandfather clauses, and violence, primarily targeting African American voters.",
+        "simple": "The systematic taking away of voting rights through methods such as poll taxes. It changed who could vote and who had political power.",
+        "es": "Privación del Derecho al Voto"
+      },
+      {
+        "term": "Plessy v. Ferguson",
+        "def": "An 1896 Supreme Court decision that upheld racial segregation under the doctrine of \"separate but equal,\" legitimizing Jim Crow laws for nearly 60 years.",
+        "simple": "An 1896 Supreme Court decision that upheld racial separation by race under the doctrine of \"separate but equal,\". It shaped racial rules and unequal treatment in daily life.",
+        "es": "Plessy contra Ferguson"
+      },
+      {
+        "term": "Exodusters",
+        "def": "African Americans who migrated from the South to Kansas and other western states in the late 1870s, seeking to escape racial violence and economic oppression. Led by figures like Benjamin \"Pap\" Singleton.",
+        "simple": "African Americans who moved from the South to Kansas and other western states in the late 1870s. It shaped racial rules and unequal treatment in daily life.",
+        "es": "Exodusters (colonos negros)"
+      }
+    ],
+    "bios": [
+      {
+        "name": "Ida B. Wells",
+        "role": [
+          "Investigative Journalist",
+          "Newspaper Editor",
+          "Civil Rights Activist",
+          "Women's Suffrage Leader"
+        ],
+        "accomplish": [
+          "Led the first anti-lynching campaign in American history",
+          "Co-founded the NAACP",
+          "Documented over 700 lynchings in \"Southern Horrors\"",
+          "Organized African American women for suffrage",
+          "Challenged segregation in courts and direct action"
+        ],
+        "legacy": "Ida B. Wells was a fearless journalist who exposed the truth about lynching in the American South when no one else would. After a white mob murdered three of her friends in Memphis, she launched a crusade that documented the real reasons behind racial violence—economic competition and white supremacy—rather than the false claims used to justify it. Her investigative journalism challenged both Southern violence and Northern indifference. Wells also fought for women's suffrage and was among the founders of the NAACP, though she was often marginalized for her uncompromising stance.",
+        "strategy": "Investigative journalism"
+      },
+      {
+        "name": "Booker T. Washington",
+        "role": [
+          "Educator",
+          "Author",
+          "Civil Rights Leader",
+          "Presidential Advisor"
+        ],
+        "accomplish": [
+          "Founded and led Tuskegee Institute",
+          "Became the most influential African American leader of his era",
+          "Delivered the \"Atlanta Compromise\" speech",
+          "Advised Presidents Roosevelt and Taft on race relations",
+          "Published \"Up from Slavery,\" an influential autobiography"
+        ],
+        "legacy": "Booker T. Washington was the most prominent African American leader from 1895 until his death in 1915. Born into slavery, he built Tuskegee Institute into the leading black educational institution in America. His \"Atlanta Compromise\" speech advocated industrial education and economic self-improvement while temporarily accepting political and social inequality. This approach won white support and significant funding but was criticized by W.E.B. Du Bois and others who demanded full civil and political rights. The debate between Washington and Du Bois shaped African American political thought for generations.",
+        "strategy": "Gradual self-help"
+      }
+    ],
+    "primarySources": [
+      {
+        "title": "Plessy v. Ferguson Decision",
+        "author": "Supreme Court of the United States",
+        "date": "May 18, 1896 (163 U.S. 537)",
+        "excerpt": "Laws permitting, and even requiring, their separation in places where they are liable to be brought into contact do not necessarily imply the inferiority of either race to the other... We consider the underlying fallacy of the plaintiff's argument to consist in the assumption that the enforced separation of the two races stamps the colored race with a badge of inferiority.",
+        "question": "The Plessy majority reasoned that \"separate\" facilities did not make one race inferior. Which later argument most directly challenges that reasoning?",
+        "practice": "argumentation",
+        "citation": {
+          "mlaCitation": "Supreme Court of the United States. \"Plessy v. Ferguson, 163 U.S. 537.\" 1896. Library of Congress, www.loc.gov/item/usrep163537/.",
+          "apaCitation": "Supreme Court of the United States. (1896). Plessy v. Ferguson, 163 U.S. 537. Library of Congress. https://www.loc.gov/item/usrep163537/",
+          "archiveUrl": "https://www.loc.gov/item/usrep163537/",
+          "archiveName": "Library of Congress",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.loc.gov/item/usrep163537/",
+        "context": "After the Compromise of 1877 ended Reconstruction, Southern states systematically dismantled the civil and political rights that African Americans had gained after the Civil War. By the 1890s, a system of racial segregation laws — known as Jim Crow — had spread across the South, enforced by violence, poll taxes, literacy tests, and legal barriers. The 1896 Supreme Court case Plessy v. Ferguson arose when Homer Plessy, a man of mixed race, deliberately challenged a Louisiana law requiring separate railroad cars. The Court's 7-1 ruling created the 'separate but equal' doctrine, providing legal cover for segregation for the next 58 years until Brown v. Board of Education (1954).",
+        "options": [
+          {
+            "text": "That state-enforced separation itself signals and enforces inequality, regardless of facility quality.",
+            "isCorrect": true
+          },
+          {
+            "text": "That segregation was acceptable as long as both facilities were physically identical.",
+            "isCorrect": false
+          },
+          {
+            "text": "That the Constitution explicitly required racial separation.",
+            "isCorrect": false
+          },
+          {
+            "text": "That African Americans had freely chosen separate facilities.",
+            "isCorrect": false
+          }
+        ],
+        "correct": "c",
+        "explanation": "DOK 3: This requires evaluating the Court’s logic. Justice Harlan’s dissent — and later Brown v. Board (1954) — argued that government-mandated separation is inherently unequal because the law itself brands a group as inferior, directly rejecting the \"separate but equal\" reasoning.",
+        "dokLevel": "DOK 3"
+      },
+      {
+        "title": "Benjamin \"Pap\" Singleton Testimony",
+        "author": "Benjamin \"Pap\" Singleton",
+        "date": "1880",
+        "excerpt": "My people, for the want of land—we needed land for our children—and their disadvantages that caused my heart to grieve and sorrow; pity for my race, sir, that was coming down, instead of going up—that caused me to go to work for them. Right emphatically, I tell you today, I woke them up; and I have sent out perhaps seventy thousand to ninety thousand.",
+        "question": "According to Singleton, what motivated him to organize African American migration to Kansas?",
+        "practice": "sourcing",
+        "citation": {
+          "mlaCitation": "Singleton, Benjamin \"Pap.\" \"Testimony before the Senate Select Committee.\" 1880. U.S. Senate Historical Office, www.senate.gov/artandhistory/history/resources/pdf/SingletonTestimony.pdf.",
+          "apaCitation": "Singleton, B. (1880). Testimony before the Senate Select Committee. U.S. Senate Historical Office. https://www.senate.gov/artandhistory/history/resources/pdf/SingletonTestimony.pdf",
+          "archiveUrl": "https://www.senate.gov/artandhistory/history/resources/pdf/SingletonTestimony.pdf",
+          "archiveName": "U.S. Senate Historical Office",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.senate.gov/artandhistory/history/resources/pdf/SingletonTestimony.pdf",
+        "context": "After the Civil War, the brief hope of Reconstruction — where freedpeople gained political rights, owned land, and held elected office — was crushed by the Compromise of 1877 and the rise of racial terror in the South. Faced with violence, sharecropping, and the systematic denial of rights, many African Americans sought new lives elsewhere. Benjamin 'Pap' Singleton, a formerly enslaved man from Tennessee, became one of the most important organizers of the Exoduster movement, convincing tens of thousands of Black Southerners to migrate to Kansas between 1877 and 1880, where they could own land and escape the worst of Southern oppression.",
+        "options": [
+          {
+            "id": "a",
+            "text": "The promise of gold and mineral wealth",
+            "isCorrect": false,
+            "textEs": "La promesa del oro y la riqueza mineral"
+          },
+          {
+            "id": "b",
+            "text": "Government contracts to settle the frontier",
+            "isCorrect": false,
+            "textEs": "Contratos del gobierno para colonizar la frontera"
+          },
+          {
+            "id": "c",
+            "text": "Railroad companies recruiting workers",
+            "isCorrect": false,
+            "textEs": "Las compañías ferroviarias que reclutaban trabajadores"
+          },
+          {
+            "id": "d",
+            "text": "The need for land and concern over declining conditions for African Americans",
+            "isCorrect": true,
+            "textEs": "La necesidad de tierra y la preocupación por el deterioro de las condiciones para los afroamericanos"
+          }
+        ],
+        "correct": "d",
+        "explanation": "Singleton states his people needed \"land for our children\" and his grief over \"disadvantages\" and conditions \"coming down, instead of going up\" motivated his efforts."
+      }
+    ],
+    "ssps": [
+      "SSP.01",
+      "SSP.02",
+      "SSP.03",
+      "SSP.04",
+      "SSP.05"
+    ],
+    "weDo": {
+      "skill": "Rights on paper vs. in practice",
+      "modeledPrompt": "Show how a right in the Constitution could be denied in practice after 1877.",
+      "modeled": "ON PAPER: The 15th Amendment guaranteed Black men the vote.  →  IN PRACTICE: Poll taxes and literacy tests blocked them, and Plessy v. Ferguson (1896) legalized segregation.",
+      "think": "Notice I name the specific tool (poll tax) and the specific court case (Plessy) — vague answers like \"racism\" do not earn the point. I anchor every claim to a named mechanism.",
+      "thenYou": "You match two more denial-tools to the right each one defeated in the activity."
+    },
+    "sourceItFirst": {
+      "who": "The U.S. Supreme Court — majority opinion by Justice Henry Billings Brown.",
+      "when": "May 18, 1896 (Plessy v. Ferguson, 163 U.S. 537).",
+      "why": "The nation's highest court is stating the law of the land — its reasoning shaped segregation for 58 years, until Brown v. Board (1954)."
+    },
+    "facilitation": "Think-aloud: \"A right I can’t use isn’t really a right.\" Cold-call for the NAME of a specific denial tool — push past \"racism\" to poll tax, literacy test, Plessy."
+  },
+  "US.04": {
+    "title": "Gilded Age Politics and Economics",
+    "iCan": "I can analyze the causes and consequences of Gilded Age politics and economics, including political machines, major scandals, civil service reform, and economic differences between farmers, wage earners, and industrial capitalists.",
+    "tnStandard": "US.04 – Analyze the causes and consequences of Gilded Age politics and economics as well as the significance of the rise of political machines, major scandals, civil service reform, and the economic difference between farmers, wage earners, and industrial capitalists, including: Boss Tweed, Thomas Nast, Credit Mobilier, Spoils system and President James A. Garfield's assassination, Pendleton Act, Interstate Commerce Act.",
+    "sections": [
+      {
+        "heading": "Political Machines and Boss Tweed",
+        "content": "The Gilded Age (1870s-1900) saw the rise of powerful political machines that controlled city governments through patronage and corruption. Boss Tweed's Tammany Hall in New York City epitomized this system, funneling millions in public funds to Tweed and his associates. Political cartoonist Thomas Nast exposed Tweed's corruption through devastating illustrations in Harper's Weekly.",
+        "tn": false
+      },
+      {
+        "heading": "Major Scandals and the Spoils System",
+        "content": "The era was marked by corruption at all levels. The Crédit Mobilier scandal revealed that railroad executives and congressmen had profited enormously from fraudulent construction contracts. The spoils system—giving government jobs to political supporters regardless of qualification—reached its peak. President James Garfield's assassination by a disappointed office-seeker in 1881 finally prompted reform.",
+        "tn": false
+      },
+      {
+        "heading": "Civil Service Reform",
+        "content": "Garfield's assassination led to the Pendleton Civil Service Act of 1883, which established merit-based hiring for federal positions through competitive examinations. This began the long process of professionalizing government service, though political influence remained significant in many positions.",
+        "tn": false
+      },
+      {
+        "heading": "Economic Disparity",
+        "content": "The Gilded Age saw extreme wealth concentration among industrial capitalists while farmers struggled with falling crop prices, high railroad shipping rates, and debt. Wage earners faced dangerous working conditions, long hours, and low pay. The Interstate Commerce Act of 1887 attempted to regulate railroad rates, representing early federal intervention in the economy.",
+        "tn": false
+      }
+    ],
+    "vocab": [
+      {
+        "term": "Gilded Age",
+        "def": "The period from roughly 1870 to 1900 characterized by rapid economic growth, industrialization, and extreme wealth inequality. Named by Mark Twain to suggest that a thin layer of prosperity covered deep social problems.",
+        "simple": "The period from roughly 1870 to 1900 characterized by rapid economic growth. It changed rights and rules that people had to live under.",
+        "es": "Edad Dorada"
+      },
+      {
+        "term": "Political Machines",
+        "def": "Corrupt organizations that controlled city politics through patronage, bribery, and vote manipulation, often providing services to immigrants in exchange for political support.",
+        "simple": "Corrupt organizations that controlled city politics through patronage. It changed who could vote and who had political power.",
+        "es": "Máquinas Políticas"
+      },
+      {
+        "term": "Spoils System",
+        "def": "The practice of rewarding political supporters with government jobs regardless of qualifications, based on the principle \"to the victor belong the spoils.\"",
+        "simple": "The practice of rewarding political supporters with government jobs regardless of qualifications. It changed rights and rules that people had to live under.",
+        "es": "Sistema de Botín"
+      },
+      {
+        "term": "Boss Tweed",
+        "def": "William M. Tweed, leader of New York City's Tammany Hall political machine, who controlled city politics and stole millions through kickbacks and corruption in the 1860s-1870s.",
+        "simple": "He led New York City's Tammany Hall machine and used bribery to control city politics. His group stole millions of dollars from taxpayers through corrupt contracts.",
+        "es": "Jefe Tweed"
+      },
+      {
+        "term": "Thomas Nast",
+        "def": "A political cartoonist whose illustrations exposed Boss Tweed's corruption and helped bring down the Tammany Hall machine, demonstrating the power of the press.",
+        "simple": "A political cartoonist whose illustrations exposed Boss Tweed's corruption and helped bring down the Tammany Hall machine. It changed daily life, rights, or power during this era.",
+        "es": "Thomas Nast"
+      },
+      {
+        "term": "Pendleton Act",
+        "def": "An 1883 federal law that established the Civil Service Commission and required government jobs to be awarded based on merit through competitive examinations rather than political connections.",
+        "simple": "An 1883 federal law that established the Civil Service Commission and required government jobs to be awarded based. It changed rights and rules that people had to live under.",
+        "es": "Ley Pendleton"
+      }
+    ],
+    "bios": [],
+    "primarySources": [
+      {
+        "title": "Pendleton Civil Service Reform Act",
+        "author": "U.S. Congress",
+        "date": "January 16, 1883",
+        "excerpt": "No person in the public service is for that reason under any obligations to contribute to any political fund, or to render any political service, and he will not be removed or otherwise prejudiced for refusing to do so... No person in said service has any right to use his official authority or influence to coerce the political action of any person or body.",
+        "question": "What problem was the Pendleton Act designed to address?",
+        "practice": "contextualization",
+        "citation": {
+          "mlaCitation": "United States Congress. \"Pendleton Civil Service Reform Act.\" 1883. National Archives, https://www.archives.gov/milestone-documents/pendleton-act.",
+          "apaCitation": "United States Congress. (1883). Pendleton Civil Service Reform Act. National Archives. https://www.archives.gov/milestone-documents/pendleton-act",
+          "archiveUrl": "https://www.archives.gov/milestone-documents/pendleton-act",
+          "archiveName": "National Archives",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.archives.gov/milestone-documents/pendleton-act",
+        "context": "During the Gilded Age, the 'spoils system' — where elected officials rewarded political supporters with government jobs regardless of qualifications — had corrupted American government at every level. Political machines like Tammany Hall in New York City handed out thousands of jobs to loyal party members, and government workers were expected to donate a portion of their salaries to political campaigns. The assassination of President James Garfield in 1881 by a disappointed office-seeker shocked the nation and created overwhelming pressure for reform. The Pendleton Civil Service Reform Act of 1883 created a merit-based civil service system, requiring competitive exams for federal jobs and prohibiting political coercion of government workers.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Political pressure and forced contributions from government employees",
+            "isCorrect": true,
+            "textEs": "La presión política y las contribuciones forzadas de los empleados públicos"
+          },
+          {
+            "id": "b",
+            "text": "Low wages for government workers",
+            "isCorrect": false,
+            "textEs": "Los salarios bajos de los trabajadores del gobierno"
+          },
+          {
+            "id": "c",
+            "text": "Lack of qualified government workers",
+            "isCorrect": false,
+            "textEs": "La falta de trabajadores calificados en el gobierno"
+          },
+          {
+            "id": "d",
+            "text": "Corruption in private businesses",
+            "isCorrect": false,
+            "textEs": "La corrupción en las empresas privadas"
+          }
+        ],
+        "correct": "a",
+        "explanation": "The Act prohibited requiring political contributions from government workers and banned using \"official authority or influence to coerce the political action of any person.\"",
+        "dokLevel": "DOK 1"
+      },
+      {
+        "title": "Bryce, The American Commonwealth — On the Political 'Boss'",
+        "author": "James Bryce",
+        "date": "1888",
+        "excerpt": "A Boss... is the leader of a party 'ring' or 'machine.' ... He has no real interest in the welfare of the public, his object being to keep his party, and especially his own faction of the party, in power, because power means the disposal of offices, of contracts, and of public money.",
+        "question": "How does Bryce's description of the political 'Boss' help explain why the Pendleton Civil Service Reform Act was needed?",
+        "practice": "corroboration",
+        "citation": {
+          "mlaCitation": "Bryce, James. The American Commonwealth. Macmillan, 1888. Project Gutenberg, www.gutenberg.org/ebooks/57869.",
+          "apaCitation": "Bryce, J. (1888). The American Commonwealth. Macmillan. Project Gutenberg. https://www.gutenberg.org/ebooks/57869",
+          "archiveUrl": "https://www.gutenberg.org/ebooks/57869",
+          "archiveName": "Project Gutenberg",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.gutenberg.org/ebooks/57869",
+        "context": "During the Gilded Age, urban political 'machines' run by bosses traded jobs, contracts, and favors for votes—the 'spoils system.' British observer James Bryce documented how these bosses worked. Reformers responded with the Pendleton Civil Service Reform Act (1883), which created merit-based federal hiring. Reading Bryce's description alongside the reform law shows the problem and the solution side by side.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Both praise the political machines as honest and efficient",
+            "isCorrect": false,
+            "textEs": "Ambos elogian a las maquinarias políticas como honestas y eficientes"
+          },
+          {
+            "id": "b",
+            "text": "Both argue that government jobs should be sold to the highest bidder",
+            "isCorrect": false,
+            "textEs": "Ambos sostienen que los empleos públicos deberían venderse al mejor postor"
+          },
+          {
+            "id": "c",
+            "text": "Both reveal a spoils system in which offices and contracts were handed out for political loyalty, which reformers tried to end",
+            "isCorrect": true,
+            "textEs": "Ambos revelan un sistema de botín en el que los cargos y contratos se repartían por lealtad política, que los reformadores intentaron terminar"
+          },
+          {
+            "id": "d",
+            "text": "Both were written after the spoils system ended",
+            "isCorrect": false,
+            "textEs": "Ambos fueron escritos después de que terminó el sistema de botín"
+          }
+        ],
+        "correct": "c",
+        "explanation": "Bryce's analysis describes the 'spoils system'—bosses using public offices, contracts, and money to reward loyalty. The Pendleton Act attacked exactly this by requiring competitive exams for federal jobs. The outside observer's description and the reform law corroborate each other: machine corruption was the problem the Pendleton Act was designed to fix.",
+        "dokLevel": "DOK 2"
+      }
+    ],
+    "ssps": [
+      "SSP.01",
+      "SSP.02",
+      "SSP.03",
+      "SSP.04",
+      "SSP.05"
+    ],
+    "weDo": {
+      "skill": "Reason + cost analysis",
+      "modeledPrompt": "Explain why a poor immigrant might SUPPORT a corrupt political machine.",
+      "modeled": "REASON: Tweed’s machine gave new arrivals jobs, coal, and food when no one else would.  →  COST: That help was paid for with graft, rigged contracts, and higher taxes — an estimated $200 million stolen.",
+      "think": "Watch how I hold two true things at once: the machine genuinely helped people AND it robbed the city. A strong answer refuses to flatten that into \"machines were just bad.\"",
+      "thenYou": "You weigh one more machine benefit against its cost in the activity."
+    },
+    "sourceItFirst": {
+      "who": "U.S. Congress (the Pendleton Civil Service Act).",
+      "when": "1883.",
+      "why": "A reform law tells you what problem lawmakers were trying to fix."
+    },
+    "facilitation": "Hold the tension out loud: \"Both can be true.\" Have students give a thumbs-up/down on whether they’d take the machine’s help, then defend it to a neighbor."
+  },
+  "US.05": {
+    "title": "Inventions & Innovations of Business Leaders & Entrepreneurs",
+    "iCan": "I can describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including Alexander Graham Bell, Andrew Carnegie, Thomas Edison, John D. Rockefeller, Madam C.J. Walker, and George Washington Carver.",
+    "tnStandard": "US.05 – Describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including: Alexander Graham Bell, Henry Bessemer, Andrew Carnegie, Thomas Edison, J.P. Morgan, John D. Rockefeller, Nikola Tesla, Cornelius Vanderbilt, Madam C.J. Walker, George Washington Carver.",
+    "sections": [
+      {
+        "heading": "Technological Innovations",
+        "content": "The late 19th century saw transformative inventions that reshaped American life. Alexander Graham Bell's telephone (1876) revolutionized communication. Thomas Edison's electrical systems and light bulb brought power to homes and factories. Nikola Tesla's alternating current system enabled long-distance electrical transmission. Henry Bessemer's steel process made skyscrapers and modern infrastructure possible.",
+        "tn": false
+      },
+      {
+        "heading": "Industrial Titans",
+        "content": "Andrew Carnegie built a steel empire through vertical integration, controlling every step from iron mines to finished products. John D. Rockefeller's Standard Oil pioneered horizontal integration, buying out competitors to dominate the oil industry. J.P. Morgan wielded enormous financial power, reorganizing railroads and creating U.S. Steel. Cornelius Vanderbilt consolidated railroad networks, enabling national commerce.",
+        "tn": true
+      },
+      {
+        "heading": "African American Entrepreneurs",
+        "content": "Despite facing discrimination, African American entrepreneurs made significant contributions. Madam C.J. Walker became America's first female self-made millionaire through her hair care products, employing thousands of Black women. George Washington Carver's agricultural research at Tuskegee Institute developed hundreds of products from peanuts and sweet potatoes, helping diversify Southern agriculture.",
+        "tn": false
+      }
+    ],
+    "vocab": [
+      {
+        "term": "Robber Barons/Captains of Industry",
+        "def": "Wealthy industrialists of the late 1800s who built massive business empires. Critics called them \"robber barons\" for ruthless practices; supporters called them \"captains of industry\" for economic growth.",
+        "simple": "Wealthy industrialists of the late 1800s who built massive business empires. It changed rights and rules that people had to live under.",
+        "es": "Barones Ladrones/Capitanes de Industria"
+      },
+      {
+        "term": "Vertical Integration",
+        "def": "A business strategy where a company controls all stages of production, from raw materials to finished product, as practiced by Andrew Carnegie in the steel industry.",
+        "simple": "A business strategy where a company controls all stages of production. It changed rights and rules that people had to live under.",
+        "es": "Integración Vertical"
+      },
+      {
+        "term": "Horizontal Integration",
+        "def": "A business strategy where a company buys out competitors in the same industry to reduce competition and control prices, as practiced by John D. Rockefeller in oil.",
+        "simple": "A business strategy where a company buys out competitors in the same industry to reduce competition and control. It changed rights and rules that people had to live under.",
+        "es": "Integración Horizontal"
+      },
+      {
+        "term": "Monopoly",
+        "def": "Complete control of a product or service by a single company, eliminating competition and allowing the company to set prices.",
+        "simple": "Complete control of a product or service by a single company. It changed how money and power were controlled in the economy.",
+        "es": "Monopolio"
+      },
+      {
+        "term": "Trust",
+        "def": "A legal arrangement where stockholders in several companies transferred their shares to a single board of trustees, creating a monopoly while appearing to remain separate companies.",
+        "simple": "A legal arrangement where stockholders in several companies transferred their shares to a board of trustees. It changed how money and power were controlled in the economy.",
+        "es": "Trust (Fideicomiso)"
+      },
+      {
+        "term": "Bessemer Process",
+        "def": "An efficient method of making steel by blowing air through molten iron, developed by Henry Bessemer, that made mass production of steel possible and revolutionized construction and manufacturing.",
+        "simple": "An efficient method of making steel by blowing air through molten iron. It changed rights and rules that people had to live under.",
+        "es": "Proceso Bessemer"
+      }
+    ],
+    "bios": [
+      {
+        "name": "Andrew Carnegie",
+        "role": [
+          "Steel Manufacturer",
+          "Business Magnate",
+          "Philanthropist",
+          "Author"
+        ],
+        "accomplish": [
+          "Built Carnegie Steel Company into the largest steel producer in the world",
+          "Pioneered vertical integration in American industry",
+          "Donated over $350 million to charitable causes",
+          "Funded construction of over 2,500 public libraries",
+          "Established Carnegie Hall, Carnegie Mellon University, and the Carnegie Foundation"
+        ],
+        "legacy": "Andrew Carnegie embodied both the promise and contradictions of the Gilded Age. Rising from immigrant poverty to become one of the richest Americans in history, he revolutionized the steel industry and helped transform the United States into an industrial powerhouse. His \"Gospel of Wealth\" philosophy argued that the rich had a moral obligation to distribute their fortunes for the public good, establishing the modern concept of philanthropy. Yet his legacy is complicated by the Homestead Strike of 1892, where workers were killed in a violent confrontation with Pinkerton guards.",
+        "strategy": "Vertical integration"
+      },
+      {
+        "name": "John D. Rockefeller",
+        "role": [
+          "Oil Industry Executive",
+          "Business Magnate",
+          "Philanthropist",
+          "Founder of Standard Oil"
+        ],
+        "accomplish": [
+          "Founded Standard Oil, controlling 90% of U.S. oil refining",
+          "Pioneered the trust as a form of business organization",
+          "Became the first American worth over $1 billion",
+          "Established the Rockefeller Foundation",
+          "Founded the University of Chicago"
+        ],
+        "legacy": "John D. Rockefeller transformed the American oil industry and created the model for modern corporate monopolies. His Standard Oil Trust became so powerful that it sparked the antitrust movement and the Sherman Antitrust Act of 1890. Through ruthless business practices including secret rebates from railroads and predatory pricing, he eliminated competitors and controlled nearly all American oil refining. In later life, he became one of history's greatest philanthropists, donating over $500 million to medical research, education, and scientific advancement.",
+        "strategy": "Trust / monopoly"
+      },
+      {
+        "name": "Thomas Edison",
+        "role": [
+          "Inventor",
+          "Businessman",
+          "Electrical Engineer",
+          "Film Producer"
+        ],
+        "accomplish": [
+          "Invented the practical incandescent light bulb",
+          "Created the first industrial research laboratory",
+          "Developed the phonograph",
+          "Invented the motion picture camera",
+          "Held 1,093 U.S. patents"
+        ],
+        "legacy": "Thomas Edison was the most prolific inventor in American history and helped create the modern world of electric light, recorded sound, and motion pictures. His greatest innovation may have been the industrial research laboratory itself—a systematic approach to invention that transformed technology development. Edison's work electrifying cities changed daily life, extended productive hours, and created new industries. His rivalry with Nikola Tesla over AC versus DC power distribution shaped the electrical infrastructure we use today.",
+        "strategy": "Invention → industry"
+      },
+      {
+        "name": "Cornelius Vanderbilt",
+        "role": [
+          "Shipping Magnate",
+          "Railroad Executive",
+          "Financier",
+          "Industrialist"
+        ],
+        "accomplish": [
+          "Built the largest fortune in American history to that time",
+          "Created the New York Central Railroad system",
+          "Pioneered steamship travel across the Atlantic",
+          "Established Grand Central Depot in New York City",
+          "Donated $1 million to found Vanderbilt University"
+        ],
+        "legacy": "Cornelius Vanderbilt was America's first great transportation magnate, building empires first in steamships and then in railroads. His ruthless business tactics—including rate wars, stock manipulation, and bribery—established patterns that later industrialists would follow. The New York Central Railroad he created connected the Midwest to the East Coast and helped make New York City the nation's commercial capital. At his death, his fortune of $100 million was the largest ever accumulated by an American.",
+        "strategy": "Railroad consolidation"
+      },
+      {
+        "name": "J.P. Morgan",
+        "role": [
+          "Banker",
+          "Financier",
+          "Art Collector",
+          "Philanthropist"
+        ],
+        "accomplish": [
+          "Created J.P. Morgan & Co., the most powerful bank in America",
+          "Organized U.S. Steel, the first billion-dollar corporation",
+          "Bailed out the U.S. government during the Panic of 1893",
+          "Reorganized and consolidated major railroads",
+          "Amassed one of the world's greatest art collections"
+        ],
+        "legacy": "J.P. Morgan was the most powerful private banker in American history, wielding influence over the nation's finances that rivaled the government itself. His ability to organize massive corporate consolidations and rescue the economy during financial panics made him indispensable—and feared. Morgan's dominance led directly to the creation of the Federal Reserve System in 1913, designed to prevent any private individual from ever again holding such power over American finance.",
+        "strategy": "Finance capitalism"
+      }
+    ],
+    "primarySources": [
+      {
+        "title": "The Gospel of Wealth",
+        "author": "Andrew Carnegie",
+        "date": "1889",
+        "excerpt": "This, then, is held to be the duty of the man of Wealth: First, to set an example of modest, unostentatious living, shunning display or extravagance; to provide moderately for the legitimate wants of those dependent upon him; and after doing so to consider all surplus revenues which come to him simply as trust funds... the man of wealth thus becoming the mere agent and trustee for his poorer brethren.",
+        "question": "A wealthy 1890s steel magnate funds free public libraries across the country instead of leaving his entire fortune to his heirs. Whose philosophy does this best reflect, and why?",
+        "practice": "argumentation",
+        "citation": {
+          "mlaCitation": "Carnegie, Andrew. \"The Gospel of Wealth.\" 1889. Carnegie Corporation of New York, www.carnegie.org/about/our-history/gospelofwealth/.",
+          "apaCitation": "Carnegie, A. (1889). The gospel of wealth. Carnegie Corporation of New York. https://www.carnegie.org/about/our-history/gospelofwealth/",
+          "archiveUrl": "https://www.carnegie.org/about/our-history/gospelofwealth/",
+          "archiveName": "Carnegie Corporation of New York",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.carnegie.org/about/our-history/gospelofwealth/",
+        "context": "Andrew Carnegie was the most famous example of a 'rags to riches' story in Gilded Age America. An immigrant from Scotland who started as a factory bobbin boy, Carnegie built the largest steel company in the world through relentless efficiency, brutal labor practices, and shrewd business dealings. By the late 1880s, he was worth hundreds of millions of dollars. In 'The Gospel of Wealth' (1889), Carnegie argued that wealthy men had a duty to use their fortunes to benefit society — a philosophy that justified both extreme wealth concentration and a paternalistic approach to charity. Carnegie himself donated over $350 million to libraries, universities, and public institutions before his death.",
+        "options": [
+          {
+            "text": "Carnegie’s \"Gospel of Wealth,\" because surplus wealth is used as a trust to benefit society.",
+            "isCorrect": true
+          },
+          {
+            "text": "Carnegie’s philosophy, because it displays wealth publicly to impress others.",
+            "isCorrect": false
+          },
+          {
+            "text": "The opposite of Carnegie’s view, because he insisted fortunes pass to children.",
+            "isCorrect": false
+          },
+          {
+            "text": "The opposite of Carnegie’s view, because he opposed all charitable giving.",
+            "isCorrect": false
+          }
+        ],
+        "correct": "c",
+        "explanation": "DOK 2: Students apply the source to a new case. Carnegie argued the rich should live modestly and administer surplus wealth \"as trust funds\" for the public good — funding libraries is a textbook example of his Gospel of Wealth.",
+        "dokLevel": "DOK 2"
+      },
+      {
+        "title": "Newspaper Article on Madam C.J. Walker",
+        "author": "The Freeman (Indianapolis)",
+        "date": "1911",
+        "excerpt": "Madam C. J. Walker... is the most talked of woman in the country, having built up a business which has made her wealthy. She began with 25 cents, and today she is worth $100,000. She manufactures hair growing and beautifying preparations, and has established agencies all over the country. She employs hundreds of women as agents.",
+        "question": "What evidence does this article provide about Madam C.J. Walker's business success?",
+        "practice": "corroboration",
+        "citation": {
+          "mlaCitation": "\"Madam C. J. Walker.\" The Freeman, 1911. Library of Congress, www.loc.gov/collections/african-american-perspectives-rare-books/.",
+          "apaCitation": "The Freeman. (1911). Madam C. J. Walker. Library of Congress. https://www.loc.gov/collections/african-american-perspectives-rare-books/",
+          "archiveUrl": "https://www.loc.gov/collections/african-american-perspectives-rare-books/",
+          "archiveName": "Library of Congress",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.loc.gov/collections/african-american-perspectives-rare-books/",
+        "context": "Madam C.J. Walker (born Sarah Breedlove) became the first self-made female millionaire in American history at a time when both race and gender severely limited economic opportunities. Born to formerly enslaved parents in 1867, she developed a line of hair care products for African American women and built a national sales network of Black female agents. Walker's success was celebrated in the Black press as proof that African Americans could achieve economic independence in spite of Jim Crow laws and racial discrimination. The Indianapolis Freeman, an important Black newspaper, covered Walker's story as an inspiration to its readers.",
+        "options": [
+          {
+            "id": "a",
+            "text": "She inherited her wealth from family",
+            "isCorrect": false,
+            "textEs": "Heredó su riqueza de su familia"
+          },
+          {
+            "id": "b",
+            "text": "She relied primarily on government contracts",
+            "isCorrect": false,
+            "textEs": "Dependió principalmente de contratos gubernamentales"
+          },
+          {
+            "id": "c",
+            "text": "Her business was limited to one city",
+            "isCorrect": false,
+            "textEs": "Su negocio se limitaba a una sola ciudad"
+          },
+          {
+            "id": "d",
+            "text": "She built a fortune from minimal capital and employed hundreds of women",
+            "isCorrect": true,
+            "textEs": "Construyó una fortuna a partir de un capital mínimo y empleó a cientos de mujeres"
+          }
+        ],
+        "correct": "d",
+        "explanation": "The article states she \"began with 25 cents\" and became \"worth $100,000,\" establishing \"agencies all over the country\" and employing \"hundreds of women.\""
+      }
+    ],
+    "ssps": [
+      "SSP.01",
+      "SSP.02",
+      "SSP.05"
+    ],
+    "weDo": {
+      "skill": "Claim + evidence (argument)",
+      "modeledPrompt": "Was Rockefeller a \"robber baron\" or a \"captain of industry\"? Stake a claim and cite evidence.",
+      "modeled": "CLAIM: Rockefeller was a captain of industry.  →  EVIDENCE: Standard Oil’s efficiency cut kerosene prices for ordinary families, and he later gave away over $500 million.  →  COUNTER I must answer: he also crushed competitors and squeezed railroads for secret rebates.",
+      "think": "See the structure: Claim → Evidence → and I name the strongest counter-argument so I can answer it. An argument that ignores the other side is weak.",
+      "thenYou": "You take a position on a second titan and back it with one piece of evidence in the activity."
+    },
+    "sourceItFirst": {
+      "who": "Andrew Carnegie — steel magnate and one of the wealthiest men in America.",
+      "when": "1889 (Gilded Age).",
+      "why": "A titan of industry is defining his own duty to society — read it as self-justification and as a genuine argument about wealth."
+    },
+    "facilitation": "Model staking a claim, then say \"but the strongest objection is…\" Cold-call students to supply the counter-argument before they pick a side."
+  },
+  "US.06": {
+    "title": "Industrial Centers and Urbanization",
+    "iCan": "I can locate major industrial centers and describe how industrialization influenced the movement of people from rural to urban areas.",
+    "tnStandard": "US.06 – Locate the following major industrial centers, and describe how industrialization influenced the movement of people from rural to urban areas: Boston, Chicago, New York City, Pittsburgh, San Francisco.",
+    "sections": [
+      {
+        "heading": "Major Industrial Centers",
+        "content": "Industrialization concentrated in cities with geographic advantages. Pittsburgh became the steel capital due to access to coal, iron ore, and rivers. Chicago emerged as a railroad hub and meatpacking center. New York City dominated finance and trade through its port. Boston led in textiles and manufacturing. San Francisco served as the gateway to Pacific trade and western resources.",
+        "tn": false
+      },
+      {
+        "heading": "Rural-to-Urban Migration",
+        "content": "Industrialization drew millions from farms to cities seeking factory jobs. The promise of wages attracted both native-born Americans and immigrants. Cities grew explosively—Chicago's population increased from 30,000 in 1850 to over 1 million by 1890. This rapid growth created overcrowded tenements, inadequate sanitation, and new social challenges.",
+        "tn": false
+      },
+      {
+        "heading": "Geographic Factors in Industrial Location",
+        "content": "Industries located based on access to raw materials, transportation, markets, and labor. Steel mills clustered near coal and iron deposits. Textile mills used water power and later concentrated near ports for cotton imports. Meatpacking centered in Chicago due to railroad connections to cattle ranges and eastern markets. These patterns shaped regional development for generations.",
+        "tn": false
+      }
+    ],
+    "vocab": [
+      {
+        "term": "Urbanization",
+        "def": "The rapid growth of cities due to industrialization and mass migration, transforming America from a predominantly rural to urban society.",
+        "simple": "The rapid growth of cities due to factory growth and mass moving. It changed where people lived and worked in growing cities.",
+        "es": "Urbanización"
+      },
+      {
+        "term": "Granger Movement",
+        "def": "A farmers' organization founded in 1867 that advocated for railroad regulation and fought against monopolistic practices that harmed farmers through high shipping rates.",
+        "simple": "A farmers' organization formed in the 1860s-1870s to combat the power of railroads and grain elevator companies. It changed travel, trade, and how far-away places were connected.",
+        "es": "Movimiento Granger"
+      },
+      {
+        "term": "Populism",
+        "def": "A political movement in the 1890s representing farmers and workers who sought government regulation of railroads, graduated income tax, and the free coinage of silver to combat economic inequality.",
+        "simple": "A political movement representing the interests of ordinary people. It changed travel, trade, and how far-away places were connected.",
+        "es": "Populismo"
+      },
+      {
+        "term": "Interstate Commerce Act",
+        "def": "An 1887 federal law that created the Interstate Commerce Commission to regulate railroad rates and practices, representing the first federal regulatory agency.",
+        "simple": "An 1887 federal law that created the Interstate Trade Commission to regulate railroad rates and practices. It changed travel, trade, and how far-away places were connected.",
+        "es": "Ley de Comercio Interestatal"
+      },
+      {
+        "term": "Tenement",
+        "es": "Vivienda de Vecindad",
+        "def": "A crowded, often unsafe urban apartment building where many poor and immigrant families lived during rapid industrial-era city growth."
+      },
+      {
+        "term": "Industrialization",
+        "es": "Industrialización",
+        "def": "The shift from an economy based on farming and handcraft to one based on large factories, machines, and mass production."
+      }
+    ],
+    "bios": [
+      {
+        "name": "Samuel Gompers",
+        "role": [
+          "Labor Union Leader",
+          "Cigar Maker",
+          "President of the AFL",
+          "Social Activist"
+        ],
+        "accomplish": [
+          "Founded the American Federation of Labor (AFL)",
+          "Served as AFL President for 37 years",
+          "Pioneered \"bread and butter\" unionism focusing on wages and hours",
+          "Advocated for the 8-hour workday",
+          "Testified before Congress on labor conditions"
+        ],
+        "legacy": "Samuel Gompers built the American Federation of Labor into the most successful labor organization in American history. His strategy of \"pure and simple\" unionism—focusing on immediate economic gains rather than radical political change—helped establish collective bargaining as an accepted part of American industrial relations. By organizing skilled workers by craft and avoiding socialist politics, Gompers made the labor movement respectable to mainstream America, though critics argued this approach excluded unskilled workers and minorities.",
+        "strategy": "Skilled-craft unionism (AFL)"
+      },
+      {
+        "name": "Eugene V. Debs",
+        "role": [
+          "Labor Organizer",
+          "Socialist Leader",
+          "Presidential Candidate",
+          "Orator"
+        ],
+        "accomplish": [
+          "Founded the American Railway Union",
+          "Led the Pullman Strike of 1894",
+          "Co-founded the Industrial Workers of the World (IWW)",
+          "Five-time Socialist Party presidential candidate",
+          "Received nearly 1 million votes for president in 1920 while imprisoned"
+        ],
+        "legacy": "Eugene V. Debs was the most influential socialist in American history. His transformation from railroad union leader to socialist presidential candidate represented the radical wing of the labor movement that challenged industrial capitalism itself. The Pullman Strike he led in 1894 demonstrated both the power of industrial unionism and the willingness of the federal government to use military force against workers. His imprisonment for opposing World War I made him a martyr for free speech and working-class solidarity.",
+        "strategy": "Industrial unionism / socialism"
+      }
+    ],
+    "primarySources": [
+      {
+        "title": "How the Other Half Lives",
+        "author": "Jacob Riis",
+        "date": "1890",
+        "excerpt": "In the tenements all the influences make for evil; because they are the hot-beds of the epidemics that carry death to rich and poor alike; the nurseries of pauperism and crime that fill our jails and police courts; that throw off a scum of forty thousand human wrecks to the island asylums and workhouses year by year.",
+        "question": "How does Jacob Riis characterize living conditions in tenements?",
+        "practice": "contextualization",
+        "citation": {
+          "mlaCitation": "Riis, Jacob. \"How the Other Half Lives.\" 1890. Library of Congress, www.loc.gov/item/71184754/.",
+          "apaCitation": "Riis, J. (1890). How the other half lives. Library of Congress. https://www.loc.gov/item/71184754/",
+          "archiveUrl": "https://www.loc.gov/item/71184754/",
+          "archiveName": "Library of Congress",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.loc.gov/item/71184754/",
+        "context": "By 1890, millions of immigrants — primarily from Southern and Eastern Europe — had poured into American cities to work in factories, mines, and mills. In cities like New York, Chicago, and Pittsburgh, the poor were crowded into tenement buildings: dark, airless apartment buildings with shared toilets, no running water, and extreme overcrowding. Jacob Riis, a Danish immigrant himself who had experienced poverty firsthand, used the new technology of flash photography to document conditions in New York's Lower East Side slums. 'How the Other Half Lives' shocked middle-class readers and helped spark the progressive reform movement.",
+        "options": [
+          {
+            "id": "a",
+            "text": "As breeding grounds for disease, poverty, and crime",
+            "isCorrect": true,
+            "textEs": "Como caldo de cultivo de enfermedades, pobreza y delincuencia"
+          },
+          {
+            "id": "b",
+            "text": "As affordable housing that helped immigrants prosper",
+            "isCorrect": false,
+            "textEs": "Como vivienda asequible que ayudaba a los inmigrantes a prosperar"
+          },
+          {
+            "id": "c",
+            "text": "As temporary housing that was quickly improved",
+            "isCorrect": false,
+            "textEs": "Como vivienda temporal que se mejoraba rápidamente"
+          },
+          {
+            "id": "d",
+            "text": "As well-managed buildings with proper sanitation",
+            "isCorrect": false,
+            "textEs": "Como edificios bien administrados con saneamiento adecuado"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Riis describes tenements as \"hot-beds of the epidemics\" and \"nurseries of pauperism and crime,\" presenting them as sources of social problems.",
+        "dokLevel": "DOK 1"
+      },
+      {
+        "title": "Italian Immigrant Folk Saying",
+        "author": "Widely attributed to anonymous Italian immigrants",
+        "date": "c. late 1800s",
+        "excerpt": "We came to America because we heard the streets were paved with gold. When we got here, we found out three things: First, the streets weren't paved with gold; second, they weren't paved at all; and third, we were expected to pave them.",
+        "question": "What does this folk saying reveal about the immigrant experience in America?",
+        "practice": "contextualization",
+        "citation": {
+          "mlaCitation": "\"Italian Immigrant Folk Saying.\" Widely attributed, c. late 1800s. Commonly cited in immigration history resources. See Library of Congress Immigration resources, www.loc.gov/teachers/classroommaterials/presentationsandactivities/presentations/immigration/.",
+          "apaCitation": "Italian immigrant folk saying (c. late 1800s). Widely attributed. Library of Congress immigration resources. https://www.loc.gov/teachers/classroommaterials/presentationsandactivities/presentations/immigration/",
+          "archiveUrl": "https://www.loc.gov/teachers/classroommaterials/presentationsandactivities/presentations/immigration/",
+          "archiveName": "Library of Congress (general immigration resources)",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.loc.gov/teachers/classroommaterials/presentationsandactivities/presentations/immigration/",
+        "context": "Between 1880 and 1920, over 20 million immigrants arrived in the United States — the largest wave of immigration in American history. Many came from Italy, Poland, Russia, and other parts of Southern and Eastern Europe, drawn by the promise of economic opportunity and fleeing poverty, violence, and persecution. The reality of American life often differed sharply from the dream: immigrants were crowded into urban tenements, took the hardest and lowest-paying factory jobs, and faced widespread discrimination. This folk saying — widely circulated among Italian immigrants — captured the bitter gap between immigrant expectations and the reality of life in industrial America.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Immigrants found immediate wealth and success",
+            "isCorrect": false,
+            "textEs": "Los inmigrantes encontraron riqueza y éxito inmediatos"
+          },
+          {
+            "id": "b",
+            "text": "American cities were well-developed and welcoming",
+            "isCorrect": false,
+            "textEs": "Las ciudades estadounidenses estaban bien desarrolladas y eran acogedoras"
+          },
+          {
+            "id": "c",
+            "text": "Reality fell far short of expectations, and immigrants faced hard labor",
+            "isCorrect": true,
+            "textEs": "La realidad quedaba muy lejos de las expectativas y los inmigrantes enfrentaban un trabajo duro"
+          },
+          {
+            "id": "d",
+            "text": "Immigrants were given skilled professional jobs",
+            "isCorrect": false,
+            "textEs": "A los inmigrantes se les daban empleos profesionales calificados"
+          }
+        ],
+        "correct": "c",
+        "explanation": "The letter contrasts the dream of \"streets paved with gold\" with the reality of unpaved streets that immigrants themselves \"were expected to pave,\" highlighting difficult conditions.",
+        "dokLevel": "DOK 2"
+      }
+    ],
+    "ssps": [
+      "SSP.01",
+      "SSP.05",
+      "SSP.06"
+    ],
+    "weDo": {
+      "skill": "Cause → problem (urbanization)",
+      "modeledPrompt": "Connect ONE cause of rapid city growth to ONE problem it created.",
+      "modeled": "CAUSE: Factory jobs pulled rural Americans and immigrants into cities like Chicago.  →  PROBLEM: Housing could not keep up, so families crowded into unsafe tenements with no clean water.",
+      "think": "Watch me link, not list: I do not just name \"overcrowding\" — I show the cause that produced it. The arrow is the thinking.",
+      "thenYou": "You build two more cause→problem links in the activity."
+    },
+    "sourceItFirst": {
+      "who": "Jacob Riis, reformer-photographer (How the Other Half Lives).",
+      "when": "1890.",
+      "why": "Riis wanted to shock readers into reform — weigh that purpose against the image."
+    },
+    "facilitation": "Think-aloud the arrow: \"growth caused this problem.\" Have students turn-and-talk one cause and one problem before you chart them."
+  },
+  "US.07": {
+    "title": "Immigration: Old vs. New Immigrants",
+    "iCan": "I can describe the differences between \"old\" and \"new\" immigrants; explain entry points (Ellis Island and Angel Island), push and pull factors, and the formation of ethnic clusters; and analyze nativism and restrictions such as the Chinese Exclusion Act and the Gentlemen’s Agreement on American society.",
+    "tnStandard": "US.07 – Describe the differences between \"old\" and \"new\" immigrants, analyze the assimilation process for \"new\" immigrants, and determine the impacts of increased migration on American society, including: Angel Island, Ellis Island, Push and pull factors, Ethnic clusters, Jane Addams, Competition for jobs, Rise of nativism, Jacob Riis, Chinese Exclusion Act and Gentleman's Agreement.",
+    "sections": [
+      {
+        "heading": "Old and New Immigrants",
+        "content": "\"Old\" immigrants (pre-1880) came primarily from Northern and Western Europe—Britain, Ireland, Germany, Scandinavia. They often spoke English or related languages and were predominantly Protestant. \"New\" immigrants (1880-1920) came from Southern and Eastern Europe—Italy, Poland, Russia, Greece—as well as Asia. They brought different languages, religions (Catholic, Orthodox, Jewish), and customs that many Americans viewed with suspicion.",
+        "tn": false
+      },
+      {
+        "heading": "Entry Points and the Assimilation Process",
+        "content": "Ellis Island in New York Harbor processed millions of European immigrants, while Angel Island in San Francisco served Asian immigrants with far more restrictive procedures. New immigrants faced difficult assimilation: language barriers, discrimination, and unfamiliar customs. Jane Addams's Hull House in Chicago pioneered settlement houses that helped immigrants learn English, navigate American systems, and maintain cultural connections.",
+        "tn": false
+      },
+      {
+        "heading": "Push and Pull Factors",
+        "content": "Push factors drove people from their homelands: religious persecution (especially of Jews in Russia), poverty, political upheaval, and lack of opportunity. Pull factors attracted them to America: economic opportunity, religious freedom, land availability, and established immigrant communities. Letters from successful immigrants encouraged others to follow.",
+        "tn": false
+      },
+      {
+        "heading": "Nativism and Restriction",
+        "content": "The rise of nativism—hostility toward immigrants—led to restrictive legislation. The Chinese Exclusion Act of 1882 banned Chinese immigration for ten years (repeatedly renewed until 1943). The Gentleman's Agreement of 1907 limited Japanese immigration. Jacob Riis's photographs and writings, including \"How the Other Half Lives,\" exposed immigrant living conditions, prompting both sympathy and nativist fears.",
+        "tn": false
+      }
+    ],
+    "vocab": [
+      {
+        "term": "Old Immigrants",
+        "def": "Immigrants who came to the United States primarily from Northern and Western Europe (England, Ireland, Germany, Scandinavia) before 1880, often Protestant and more easily assimilated.",
+        "simple": "Immigrants who came to the United States primarily from Northern and Western Europe (England. It changed who could enter the United States and how newcomers were treated.",
+        "es": "Viejos Inmigrantes"
+      },
+      {
+        "term": "New Immigrants",
+        "def": "Immigrants who came to the United States primarily from Southern and Eastern Europe (Italy, Poland, Russia) and Asia after 1880, often Catholic, Jewish, or Orthodox Christian, facing greater discrimination.",
+        "simple": "Immigrants who came to the United States primarily from Southern and Eastern Europe (Italy. It changed who could enter the United States and how newcomers were treated.",
+        "es": "Nuevos Inmigrantes"
+      },
+      {
+        "term": "Ellis Island",
+        "def": "The primary immigration processing station in New York Harbor from 1892 to 1954, where over 12 million immigrants entered the United States, primarily from Europe.",
+        "simple": "The primary immigration processing station in New York Harbor from 1892 to 1954. It changed who could enter the United States and how newcomers were treated.",
+        "es": "Isla Ellis"
+      },
+      {
+        "term": "Angel Island",
+        "def": "The immigration station in San Francisco Bay from 1910 to 1940 that primarily processed Asian immigrants, especially Chinese, who faced lengthy detentions and harsh interrogations.",
+        "simple": "The immigration station in San Francisco Bay from 1910 to 1940 that primarily processed Asian immigrants. It changed who could enter the United States and how newcomers were treated.",
+        "es": "Isla Ángel"
+      },
+      {
+        "term": "Push-Pull Factors",
+        "def": "Push factors (poverty, persecution, lack of opportunity) drove people to leave their homelands, while pull factors (jobs, freedom, land) attracted them to America.",
+        "simple": "Push factors (poverty. It changed land control and where Native communities could live.",
+        "es": "Factores de Empuje y Atracción"
+      },
+      {
+        "term": "Ethnic Clusters",
+        "def": "Neighborhoods where immigrants from the same country or region settled together, maintaining their language, culture, and traditions while adapting to American life.",
+        "simple": "Neighborhoods where immigrants from the same country or region settled together. It changed who could enter the United States and how newcomers were treated.",
+        "es": "Grupos Étnicos"
+      },
+      {
+        "term": "Nativism",
+        "def": "The policy of protecting the interests of native-born citizens against immigrants, often characterized by prejudice and discrimination against newcomers.",
+        "simple": "The policy of protecting the interests of native-born citizens against immigrants. It changed who could enter the United States and how newcomers were treated.",
+        "es": "Nativismo"
+      },
+      {
+        "term": "Chinese Exclusion Act",
+        "def": "An 1882 federal law that prohibited Chinese laborers from immigrating to the United States for 10 years (later extended), the first U.S. law to exclude a specific ethnic group.",
+        "simple": "An 1882 federal law that did not allow Chinese laborers from immigrating to the United States for 10. It changed who could enter the United States and how newcomers were treated.",
+        "es": "Ley de Exclusión China"
+      },
+      {
+        "term": "Gentleman's Agreement",
+        "def": "An informal 1907-1908 agreement between the U.S. and Japan in which Japan agreed to stop issuing passports to laborers wanting to emigrate to America in exchange for the U.S. not formally banning Japanese immigration.",
+        "simple": "An informal 1907-1908 agreement between the US and Japan in which Japan agreed to stop issuing passports. It changed who could enter the United States and how newcomers were treated.",
+        "es": "Acuerdo de Caballeros"
+      }
+    ],
+    "bios": [
+      {
+        "name": "Jane Addams",
+        "role": [
+          "Social Worker",
+          "Settlement House Founder",
+          "Peace Activist",
+          "Author"
+        ],
+        "accomplish": [
+          "Co-founded Hull House, the most influential settlement house in America",
+          "First American woman to win the Nobel Peace Prize (1931)",
+          "Founded the Women's International League for Peace and Freedom",
+          "Pioneered the profession of social work",
+          "Advocated for child labor laws, women's suffrage, and immigrant rights"
+        ],
+        "legacy": "Jane Addams pioneered the settlement house movement and helped create the profession of social work. Hull House became a model for social reform, offering education, childcare, and cultural programs to Chicago's immigrant communities. Addams connected local reform to broader movements for labor rights, women's suffrage, and international peace. Her work demonstrated that addressing poverty required understanding immigrant communities on their own terms and challenging the economic system that created inequality.",
+        "strategy": "Settlement-house reform"
+      }
+    ],
+    "primarySources": [
+      {
+        "title": "Chinese Exclusion Act",
+        "author": "U.S. Congress",
+        "date": "May 6, 1882 (22 Stat. 58)",
+        "excerpt": "The coming of Chinese laborers to this country endangers the good order of certain localities within the territory thereof: Therefore... the coming of Chinese laborers to the United States be, and the same is hereby, suspended; and during such suspension it shall not be lawful for any Chinese laborer to come, or having so come after the expiration of said ninety days, to remain within the United States.",
+        "question": "What was the stated justification for the Chinese Exclusion Act?",
+        "practice": "close-reading",
+        "citation": {
+          "mlaCitation": "United States Congress. \"Chinese Exclusion Act.\" 1882. National Archives, https://www.archives.gov/milestone-documents/chinese-exclusion-act.",
+          "apaCitation": "United States Congress. (1882). Chinese Exclusion Act. National Archives. https://www.archives.gov/milestone-documents/chinese-exclusion-act",
+          "archiveUrl": "https://www.archives.gov/milestone-documents/chinese-exclusion-act",
+          "archiveName": "National Archives",
+          "publicDomainStatus": true
+        },
+        "url": "https://www.archives.gov/milestone-documents/chinese-exclusion-act",
+        "context": "Chinese immigrants had played an essential role in building the transcontinental railroad and developing the American West, yet they faced intense racial hostility from white workers and politicians. Anti-Chinese riots broke out in cities across the West, and nativist groups pressured Congress to restrict Chinese immigration. The Chinese Exclusion Act of 1882 was the first major federal law to restrict immigration based on race and nationality, banning Chinese laborers from entering the country and barring Chinese immigrants from ever becoming U.S. citizens. It would not be fully repealed until 1943.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chinese workers were taking jobs in government",
+            "isCorrect": false,
+            "textEs": "Los trabajadores chinos ocupaban empleos en el gobierno"
+          },
+          {
+            "id": "b",
+            "text": "China had declared war on the United States",
+            "isCorrect": false,
+            "textEs": "China había declarado la guerra a los Estados Unidos"
+          },
+          {
+            "id": "c",
+            "text": "Chinese immigrants refused to learn English",
+            "isCorrect": false,
+            "textEs": "Los inmigrantes chinos se negaban a aprender inglés"
+          },
+          {
+            "id": "d",
+            "text": "Chinese laborers supposedly endangered order in certain areas",
+            "isCorrect": true,
+            "textEs": "Los trabajadores chinos supuestamente ponían en peligro el orden en ciertas zonas"
+          }
+        ],
+        "correct": "d",
+        "explanation": "The Act claims \"The coming of Chinese laborers to this country endangers the good order of certain localities,\" using this as justification for exclusion.",
+        "dokLevel": "DOK 1"
+      },
+      {
+        "title": "Twenty Years at Hull-House",
+        "author": "Jane Addams",
+        "date": "1910",
+        "excerpt": "Hull-House was soberly opened on the theory that the dependence of classes on each other is reciprocal... We were ready to perform the humblest neighborhood services. We were asked to wash the newborn babies, and to prepare the dead for burial, to nurse the sick, and to \"mind the children.\"",
+        "question": "According to Jane Addams, what was the philosophy behind Hull-House?",
+        "practice": "sourcing",
+        "citation": {
+          "mlaCitation": "Addams, Jane. \"Twenty Years at Hull-House.\" 1910. University of Pennsylvania Digital Library, digital.library.upenn.edu/women/addams/hullhouse/hullhouse.html.",
+          "apaCitation": "Addams, J. (1910). Twenty years at Hull-House. University of Pennsylvania Digital Library. https://digital.library.upenn.edu/women/addams/hullhouse/hullhouse.html",
+          "archiveUrl": "https://digital.library.upenn.edu/women/addams/hullhouse/hullhouse.html",
+          "archiveName": "University of Pennsylvania Digital Library",
+          "publicDomainStatus": true
+        },
+        "url": "https://digital.library.upenn.edu/women/addams/hullhouse/hullhouse.html",
+        "context": "Jane Addams and Ellen Gates Starr founded Hull-House in Chicago in 1889 in the heart of a crowded immigrant neighborhood. Hull-House became the most famous settlement house in America — a community center where college-educated reformers lived alongside recent immigrants and offered services including English classes, childcare, job training, and cultural programs. Addams believed that by actually living in the community, reformers could learn from immigrant neighbors rather than simply helping them from a distance. Hull-House became a center of Progressive Era reform, and Addams went on to win the Nobel Peace Prize in 1931.",
+        "options": [
+          {
+            "id": "a",
+            "text": "That wealthy people should live separately from immigrants",
+            "isCorrect": false,
+            "textEs": "Que las personas adineradas debían vivir separadas de los inmigrantes"
+          },
+          {
+            "id": "b",
+            "text": "That different social classes depend on and can help each other",
+            "isCorrect": true,
+            "textEs": "Que las distintas clases sociales dependen unas de otras y pueden ayudarse mutuamente"
+          },
+          {
+            "id": "c",
+            "text": "That immigrants should return to their home countries",
+            "isCorrect": false,
+            "textEs": "Que los inmigrantes debían regresar a sus países de origen"
+          },
+          {
+            "id": "d",
+            "text": "That government should provide all social services",
+            "isCorrect": false,
+            "textEs": "Que el gobierno debía proporcionar todos los servicios sociales"
+          }
+        ],
+        "correct": "b",
+        "explanation": "Addams states Hull-House operated on \"the theory that the dependence of classes on each other is reciprocal,\" emphasizing mutual benefit.",
+        "dokLevel": "DOK 2"
+      }
+    ],
+    "ssps": [
+      "SSP.01",
+      "SSP.02",
+      "SSP.03",
+      "SSP.04",
+      "SSP.05",
+      "SSP.06"
+    ],
+    "weDo": {
+      "skill": "Compare across perspectives",
+      "modeledPrompt": "Compare a \"new\" immigrant’s reason to come with a native-born reason to fear them.",
+      "modeled": "IMMIGRANT PUSH: Persecution and poverty in southern/eastern Europe and Asia drove millions to leave.  →  NATIVIST REACTION: Native-born workers feared job competition and prejudice, producing laws like the Chinese Exclusion Act (1882).",
+      "think": "Notice I give each side its own evidence and treat both as real historical viewpoints — historical empathy means I explain the fear without excusing it.",
+      "thenYou": "You compare one more push factor with one nativist reaction in the activity."
+    },
+    "sourceItFirst": {
+      "who": "U.S. Congress (the Chinese Exclusion Act).",
+      "when": "1882.",
+      "why": "The first U.S. law to bar an entire nationality — ask whose fears it answered."
+    },
+    "facilitation": "Voice both perspectives with historical empathy. Cold-call one push factor and one nativist fear, then ask which surprised them."
+  }
+}
