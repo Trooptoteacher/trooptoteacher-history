@@ -47,7 +47,7 @@ These are the missing engine for the deck side of every future unit.
 
 ## KEEP — ours, unique or already best
 
-`history-hack-north-star` · `history-hack-lesson-flow-qc` · `history-hack-text-integrity-qc` ·
+`history-hack-platinum-standard` · `history-hack-lesson-flow-qc` · `history-hack-text-integrity-qc` ·
 `history-hack-graphic-organizer-workbook` · `tn-assessment-specialist` (absorbs `tcap-item-writer-v2`) ·
 `udl-cast-expert` · `instructional-design-specialist` · `tt-education-research-team` ·
 `history-hack-course-standard-builder` (new-course orchestrator — rename to end the collision) ·
@@ -70,7 +70,7 @@ Builders: unit builder + unit engine · **teacher deck builder** · **student de
 graphic organizers · poster/packet · TpT packaging · MagicSchool gap-fill · district-edition ·
 new-course orchestrator. Gates: alignment · text-integrity · **accessibility** · **ELL/bilingual** ·
 print · unit-QC orchestrator · **WCS approval** · fact-check · adoption · copyright. Plus mission
-(north-star), assessment, UDL, instructional design, research. One owner per job; lands via the
+(platinum-standard), assessment, UDL, instructional design, research. One owner per job; lands via the
 review-first skills-only PR to `main`.
 
 ---

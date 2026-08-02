@@ -10,8 +10,8 @@ Update the **`history-hack-platinum-unit-builder`** skill so its authoritative c
 triggers, and Platinum QA release gates include everything we proved on Unit 6. Keep every existing
 platinum rule intact (branding, one teacher deck, editable-Word-authoritative, three schedule
 variants, exit-ticket protection, English/Spanish parity, draft-branch/PR gate, verified standards
-source). Follow the north-star decision rule at every fork: **(1) 100% alignment → (2) TDOE Schedule F
-→ (3) best path to state adoption / highest quality** (`history-hack-north-star`). Content accuracy
+source). Follow the Platinum Standard decision rule at every fork: **(1) 100% alignment → (2) TDOE Schedule F
+→ (3) best path to state adoption / highest quality** (`history-hack-platinum-standard`). Content accuracy
 (TDOE Policy 2.600) is foundational — no known error ships.
 
 ## 1. Add these authoritative components to the unit product definition

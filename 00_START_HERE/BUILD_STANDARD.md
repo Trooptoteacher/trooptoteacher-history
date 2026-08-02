@@ -90,7 +90,7 @@ Founders Cream `#F8F5EF` background, Muted Gold `#C9A227` sparingly). Retires `#
 
 ## 8. Skills registry (one owner per job)
 
-**Mission/rule:** `history-hack-north-star`.
+**Mission/rule:** `history-hack-platinum-standard`.
 **Builders:** `history-hack-platinum-unit-builder` (unit workbook + decks, THE builder) ·
 `history-hack-unit-content-build` (content engine) · `history-hack-dbq-workbook` (DBQ SKU) ·
 `history-hack-graphic-organizer-workbook` (organizers) · `history-hack-course-standard-builder`

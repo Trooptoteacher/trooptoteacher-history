@@ -11,9 +11,9 @@ panel was **unanimous** on the substantive calls.
 1. **Single unit builder = `history-hack-platinum-unit-builder`** (Sean). Strip the INLINED gates from
    the pilot version; it **references** the standalone skills instead. Absorbs the standalone print
    `course-standard-builder`'s Unit 6 print/format spec (→ `references/course-standard-format.md`).
-2. **QC + north-star + content engine = STANDALONE skills, referenced as MANDATORY ship-blocking gates**
+2. **QC + Platinum-standard + content engine = STANDALONE skills, referenced as MANDATORY ship-blocking gates**
    (unanimous panel): `history-hack-lesson-flow-qc`, `history-hack-text-integrity-qc`,
-   `history-hack-north-star`, `history-hack-unit-content-build` (owns `build_guided_notes.py` etc.).
+   `history-hack-platinum-standard`, `history-hack-unit-content-build` (owns `build_guided_notes.py` etc.).
    Not inlined — they are runnable checks reused across every product and already caught real bugs.
 3. **NOTES SUPPORTS stay on the verso, in the student book, default-included** (unanimous panel; wins
    Schedule F Table 4 visibility + UDL self-access). Reject the "gate into teacher pack" model.
@@ -44,7 +44,7 @@ panel was **unanimous** on the substantive calls.
 ## Execution (skills-only PR → `main`, review-first)
 
 1. Branch `skill/reconcile-canonical-set` off `origin/main`.
-2. Bring in the standalone engine + QC + north-star skills; set `platinum-unit-builder` to reference
+2. Bring in the standalone engine + QC + platinum-standard skills; set `platinum-unit-builder` to reference
    them (strip inlined gates); absorb print spec; apply America 250 tokens in skill brand rules.
 3. Retire `tcap-item-writer-v2`; rename DBQ + new-course collision; repoint all references.
 4. Add `SKILLS.md` registry + the CI lint.
