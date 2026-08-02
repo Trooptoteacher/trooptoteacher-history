@@ -5,6 +5,7 @@ metadata:
   author: Sean Reynolds
   version: '3.0'
   supersedes: tcap-item-writer-v2, history-hack-question-forge
+  reconciliation: 'v3.0 reconciliation grafts — added UDL/accessibility rules + QC checks, performance-task analytic rubric, and worked CR + stimulus-set examples (from the retired v1.0); external authoritative reference URL table + PASS/WARN/FAIL blueprint-compliance labels (from tcap-item-writer-v2). RC1–RC5 blueprint and US.01-Q01 item-ID style preserved.'
 ---
 
 # Tennessee U.S. History Assessment Specialist
@@ -77,6 +78,22 @@ These markdown references were merged in from the retired `tcap-item-writer-v2` 
 | `references/eoc-blueprint.md` | Condensed RC weights and compliance procedure | Quick blueprint-weight check |
 | `references/ush-eoc-assessment-overview.md` | EOC structure (2 subparts × 30 items), item types, scoring, partial-credit rules | Confirming item-type eligibility, point values, test structure |
 | `references/tcap-assessment-committees.md` | TCAP Assessment Committee types, eligibility, June 2026 Chattanooga schedule | Referencing the committee review cycle |
+
+### External Authoritative References (not bundled)
+
+Consult these authoritative sources when available — for verifying blueprint weights, cognitive-rigor definitions, and item-writing conventions, and for defending content accuracy (TDOE Policy 2.600) during state adoption:
+
+| Document | URL | Use |
+|---|---|---|
+| EOC Blueprint 2025 | https://www.tn.gov/content/dam/tn/education/blueprints/EOC_USH_Blueprint_2025.pdf | Authoritative RC weights and item counts |
+| USH Assessment Overview | https://www.tn.gov/content/dam/tn/education/testing/overviews/USH_EOC_Assessment_Overview.pdf | Subpart structure, item types, scoring |
+| Live US History Standards US.01–US.95 | User-provided `.docx` | Full standard text for alignment verification |
+| Assessment Committees Info | https://www.tn.gov/education/districts/lea-operations/assessment/tnready/assessment-committees.html | Committee review process and meeting schedule |
+| Hess CRM Social Studies | https://resources.corwin.com/sites/default/files/tool_4_1.pdf | Full Bloom's × DOK matrix with cell-level descriptors |
+| Webb DOK for Social Studies | https://education.ohio.gov/getattachment/Topics/Testing/Student-Readiness-Toolkit/DOKsocialstudies_KH08.pdf.aspx | DOK level descriptors and task examples |
+| TDOE LiveBinder Item Releases | https://www.livebinders.com/play/play/2426642 | Released TCAP items as style exemplars |
+| ASC Item Writing Guide 2025 | https://assess.com/docs/ASC_Item-Writing-Guide_2025.pdf | Pearson/ETS-grade item-writing conventions |
+| IRT 3PL Model Reference | https://www.tqmp.org/RegularArticles/vol20-1/p033/p033.pdf | IRT parameter definitions and estimation |
 
 ## Unit Structure and Standards Scope
 
@@ -356,7 +373,7 @@ Older History Hack items and the pre-3.0 tn-assessment-specialist schema used ca
 | `dokFlag` | `dok_flag` | — |
 | `tcapFormat` | `tcap_format` | — |
 | `type: "multiple-choice"` | `type: "multiple_choice"` | Hyphen → underscore in all `type` values. |
-| *(new)* | `hess_crm_cell`, `irt_a`, `irt_b`, `irt_c`, `field_test_ready`, `key_rationale`, `question_number` | Added from tcap-item-writer-v2 / committed data. |
+| *(new)* | `hess_crm_cell`, `irt_a`, `irt_b`, `irt_c`, `field_test_ready`, `key_rationale`, `question_number` | Absorbed from the retired tcap-item-writer-v2 / committed data. |
 
 **Distractor-shape note (flagged ambiguity):** committed data contains two accepted shapes for distractor analysis. (1) Parallel objects keyed `A`–`D`: `distractor_tags` (codes) + `distractor_rationale` (rationales) — the canonical shape documented above, matching the web-edition question data and the keeper's original dual-object design. (2) A single `distractor_tags` **array** of `{label, code, rationale}` objects (used in some committed item banks, e.g. `unit1_item_bank_ext.json`, and the tcap-item-writer-v2 schema). Prefer shape (1) for new items; both are valid on import. Do not mix shapes within one file.
 
@@ -452,6 +469,52 @@ These rules apply when `tcap_format` is `true`. Items that violate any rule must
 - Do not lead the student toward a predetermined argument.
 - Include a scoring rubric with point values and differentiated criteria.
 
+#### Performance Task Template (multi-source ER/DBQ)
+
+For extended, multi-source performance tasks (DOK 4 classroom-only — set `tcap_format: false`, `field_test_ready: false`), use a four-dimension analytic rubric. This graft preserves the v1.0 performance-task capability.
+
+```markdown
+---
+**Task ID:** PT-001
+**Standard(s):** US.XX, US.XX, US.XX
+**Unit(s):** [Number(s)] — [Unit Title(s)]
+**Reporting Category:** [Primary category]
+**DOK Level:** 4 (classroom-only; tcap_format: false)
+**Item Type:** Performance Task (extended_response / document_based)
+---
+
+**Task Title:** [Descriptive title]
+
+**Context:**
+[Background paragraph setting up the scenario or inquiry question]
+
+**Sources Provided:**
+1. [Source A — brief description, public-domain attribution]
+2. [Source B — brief description, public-domain attribution]
+3. [Source C — brief description, public-domain attribution]
+
+**Task Prompt:**
+[Detailed instructions — what to analyze, what to produce, and how it will be evaluated. Do not lead the student toward a predetermined argument.]
+
+**Scoring Rubric (4-dimension analytic):**
+| Dimension | Exemplary (4) | Proficient (3) | Developing (2) | Beginning (1) |
+|-----------|---------------|-----------------|-----------------|----------------|
+| Historical Accuracy | [Criteria] | [Criteria] | [Criteria] | [Criteria] |
+| Use of Evidence | [Criteria] | [Criteria] | [Criteria] | [Criteria] |
+| Analysis and Reasoning | [Criteria] | [Criteria] | [Criteria] | [Criteria] |
+| Communication | [Criteria] | [Criteria] | [Criteria] | [Criteria] |
+```
+
+### UDL and Accessibility Rules
+
+Every item must be accessible to the full range of learners. Item difficulty comes from content and cognitive demand — never from access barriers.
+
+1. **Alt-text for every visual stimulus** — Any map, political cartoon, chart, photograph, or data visual must include an alt-text description sufficient for item comprehension without seeing the image. Maps additionally need title, date, and legend described.
+2. **Vocabulary defined or contextualized in the stem** — Any specialized or low-frequency vocabulary the standard does not itself test must be defined or contextualized within the stem or stimulus, not assumed.
+3. **Accessible language** — Reading level appropriate for 11th grade; complexity comes from content, not convoluted phrasing (mirrors the Bias/Sensitivity rules).
+4. **Multiple valid approaches for open-response** — CR/ER/DBQ prompts must allow more than one legitimate path to a proficient response; do not require a single predetermined argument or format.
+5. **Sufficient stimulus context** — Stimulus-based items must give enough context in the stimulus for a student to engage the item without outside knowledge beyond the standard.
+
 ## Instructions — Item Writing Workflow
 
 ### Step 1: Confirm Scope
@@ -545,6 +608,14 @@ Before outputting any item, run this self-review. Every item must pass ALL check
 - [ ] Sources are genuinely public domain
 - [ ] No fabricated quotes or invented sources
 
+#### F. UDL and Accessibility Validation
+
+- [ ] Every visual stimulus (map, cartoon, chart, photo, data visual) has an alt-text description sufficient to answer the item without seeing the image
+- [ ] Specialized vocabulary not tested by the standard is defined or contextualized in the stem/stimulus
+- [ ] Reading level is grade-appropriate; complexity comes from content, not phrasing
+- [ ] Open-response (CR/ER/DBQ) prompts allow multiple valid approaches — not a single predetermined argument
+- [ ] Stimulus provides sufficient context to engage the item without outside knowledge beyond the standard
+
 ### Step 4: Generate Bank Summary
 
 For batches of 10+ items, generate a Bank Summary:
@@ -581,11 +652,19 @@ For batches of 10+ items, generate a Bank Summary:
 ### Blueprint Weight Compliance
 | RC | Reporting Category | Standards | Item Count | Actual % | Target % | Status |
 |---|---|---|---|---|---|---|
-| RC1 | Industrialization & Progressive Era | US.01–US.18 | X | X% | 14–22% | In range / Out of range |
-| RC2 | Imperialism/WWI & 1920s | US.19–US.38 | X | X% | 18–26% | In range / Out of range |
-| RC3 | Great Depression/New Deal & WWII | US.39–US.58 | X | X% | 18–26% | In range / Out of range |
-| RC4 | Cold War & Nation in Transition | US.59–US.77 | X | X% | 14–22% | In range / Out of range |
-| RC5 | Civil Rights & Modern US | US.78–US.95 | X | X% | 10–18% | In range / Out of range |
+| RC1 | Industrialization & Progressive Era | US.01–US.18 | X | X% | 14–22% | PASS / WARN / FAIL |
+| RC2 | Imperialism/WWI & 1920s | US.19–US.38 | X | X% | 18–26% | PASS / WARN / FAIL |
+| RC3 | Great Depression/New Deal & WWII | US.39–US.58 | X | X% | 18–26% | PASS / WARN / FAIL |
+| RC4 | Cold War & Nation in Transition | US.59–US.77 | X | X% | 14–22% | PASS / WARN / FAIL |
+| RC5 | Civil Rights & Modern US | US.78–US.95 | X | X% | 10–18% | PASS / WARN / FAIL |
+
+**Compliance status labels** (harmonized from the retired tcap-item-writer-v2):
+
+| Status | Condition |
+|---|---|
+| **PASS** | RC % within target range with a ≥2% margin from either boundary |
+| **WARN** | RC % within 2% of a boundary (in range but close to the edge) |
+| **FAIL** | RC % outside the target range |
 
 ### QC Summary
 - Total items written: X
@@ -897,4 +976,57 @@ D. Agricultural Adjustment Act
 - **B (Correct):** The TVA was created in 1933 to provide flood control, generate electricity, and create jobs in the Tennessee Valley.
 - **C (NE — Near Miss):** The WPA provided jobs through public works projects but was not specifically focused on flood control or electrification in the Tennessee Valley.
 - **D (PK — Prior Knowledge):** The AAA addressed agricultural overproduction through crop reduction payments, not flood control or electrification.
+```
+
+### Example: Constructed-Response Item with Scoring Guide (Markdown)
+
+```markdown
+---
+**Item ID:** CR-001
+**Standard(s):** US.04, US.05
+**Unit:** 1 — The Rise of Industrialization
+**Reporting Category:** RC1: Industrialization & Progressive Era
+**DOK Level:** 3
+**Item Type:** Constructed-Response
+**TCAP Format:** No (open-response — tcap_format: false)
+---
+
+**Stimulus:**
+> "A man who has the control of your labor has the control of your life."
+> — Frederick Douglass, 1866 (public domain)
+
+**Prompt:**
+Using the excerpt above and your knowledge of post-Civil War labor systems, explain how the sharecropping system limited the economic freedom of formerly enslaved people. In your response, identify at least two specific ways sharecropping maintained economic dependency.
+
+**Scoring Guide:**
+| Score | Criteria |
+|-------|----------|
+| 3 (Exemplary) | Accurately explains sharecropping, connects the Douglass quote to the system, identifies 2+ specific mechanisms of dependency (e.g., debt cycles, crop lien, landowner-controlled accounting), uses historical reasoning |
+| 2 (Proficient) | Explains sharecropping with general accuracy, identifies 1–2 mechanisms of dependency, makes a connection to the quote |
+| 1 (Developing) | Provides a basic or partially accurate description of sharecropping, identifies 1 mechanism, limited connection to the source |
+| 0 (Insufficient) | Response is off-topic, inaccurate, or too vague to demonstrate understanding |
+```
+
+### Example: Stimulus-Based Item Set Template (Markdown)
+
+For sets built around a single primary source (document, map, chart, political cartoon), include 2–4 items per stimulus and vary the DOK levels within the set (e.g., one DOK 1 identification item, one DOK 2 interpretation item, one DOK 3 analysis item). Provide alt-text for any visual stimulus per the UDL and Accessibility Rules.
+
+```markdown
+---
+**Set ID:** SET-001
+**Stimulus Type:** [Document | Map | Chart | Political Cartoon | Photograph]
+**Standard(s):** US.XX, US.XX
+**Unit:** [Number] — [Unit Title]
+---
+
+**Stimulus:**
+[Full text of the excerpt, a described visual with alt-text sufficient for comprehension, or a data table. Include public-domain attribution: author, title, date, source repository.]
+
+**Items in This Set:**
+
+[Item 1 — DOK 1, formatted per the MC or CR template above]
+
+[Item 2 — DOK 2, formatted per the MC or CR template above]
+
+[Item 3 — DOK 3, formatted per the MC or CR template above]
 ```

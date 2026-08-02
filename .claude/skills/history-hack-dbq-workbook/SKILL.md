@@ -1,6 +1,6 @@
 ---
-name: history-hack-platinum-workbook
-description: "Build Platinum-standard standalone History Hack DBQ and primary-source investigation packages. Use when Sean/TroopToTeacher asks for a DBQ workbook, primary-source packet, document investigation, HIPPO/OPTIC analysis, DBQ language-access companion, DBQ teacher guide, or Schedule F self-score for a standalone DBQ SKU. Do not use for Course Standard student workbooks, Cornell-note lesson workbooks, canonical assessment integration, or Base/Support/EL edition consolidation."
+name: history-hack-dbq-workbook
+description: "Build a standalone History Hack **DBQ / primary-source investigation** package (a Document-Based-Question SKU) to the Platinum quality bar. This is the DBQ product ONLY — it is a different product from the unit (Course Standard) student workbook. Use when Sean/TroopToTeacher asks for a DBQ workbook, primary-source packet, document investigation, HIPPO/OPTIC analysis, DBQ language-access companion, DBQ teacher guide, or Schedule F self-score for a standalone DBQ SKU. Do NOT use for the unit student workbook, Course Standard student workbooks, Cornell-note lesson workbooks, the 7-activity lesson spine, canonical assessment integration, or Base/Support/EL edition consolidation — for the unit workbook / four-piece unit set use `history-hack-unit-content-build` instead."
 license: MIT
 metadata:
   author: TroopToTeacher Technologies LLC
@@ -9,9 +9,18 @@ metadata:
   source_of_truth_repo: https://github.com/Trooptoteacher/History-Hack-US-History-Workbooks
 ---
 
-# History Hack Platinum DBQ Workbook Builder
+# History Hack DBQ Workbook Builder (standalone DBQ SKU)
 
-The repeatable, integrity-first process for producing a commercial-grade standalone primary-source/DBQ package. Unit 4 is the Platinum reference implementation.
+The repeatable, integrity-first process for producing a commercial-grade **standalone
+primary-source / DBQ package**. Unit 4 is the Platinum reference implementation.
+
+> **Vernacular — this is not the unit workbook.** A **DBQ workbook** is a standalone
+> Document-Based-Question SKU (one investigation question, a curated document set, HIPPO/OPTIC
+> analysis, an essay + rubric). The **unit (Course Standard) student workbook** is a different
+> product — the lesson-by-lesson book with the 7-activity cycle, guided Cornell notes, and the
+> deck-aligned spine — built by `history-hack-unit-content-build`. They are two separate items;
+> never conflate the two or let one absorb the other's architecture (see the Product Boundary
+> Gate below).
 
 ## When to Use This Skill
 
@@ -29,7 +38,7 @@ This skill owns only the standalone DBQ product. It must never absorb the Course
 - **DBQ responsibilities:** one investigation question; curated document set; standalone visual documents; HIPPO/OPTIC; data, map, and Tennessee reasoning; evidence planning; essay and rubric; optional faded language-access companion; English teacher scoring guide.
 - **Excluded responsibilities:** lesson-by-lesson course instruction; universal Cornell notes; Lean-deck slide alignment; Base/Support/EL edition consolidation; canonical web-app assessment integration; modified assessment forms; full Course Standard UDL/MTSS student-workbook sequence; DOCX-first course-book production.
 - UDL, MTSS, accessibility, and bilingual principles may inform optional access supports inside the DBQ. They may not turn the DBQ into the separate Course Standard workbook SKU.
-- If the user requests Cornell notes, a full standards-based student workbook, lesson sequences, assessment-bank integration, or legacy-edition consolidation, stop and load `history-hack-course-standard-student-workbook` instead.
+- If the user requests Cornell notes, a full standards-based **unit student workbook**, lesson sequences, the 7-activity cycle, assessment-bank integration, or legacy-edition consolidation, stop — that is the unit workbook, a different product. Load `history-hack-unit-content-build` instead.
 - A Course Standard workbook may link to a standalone DBQ, but neither product may silently embed or duplicate the other's architecture.
 
 ## DBQ Package Model (LOCKED)

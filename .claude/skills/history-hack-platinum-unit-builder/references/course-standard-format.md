@@ -1,7 +1,7 @@
 # Course Standard (Platinum) — Print & Templating Spec
 
-The detailed print/formatting spec for a Course Standard unit, absorbed from the retired
-standalone `history-hack-course-standard-builder`. **Unit 6 is the canonical template — every
+The detailed print/formatting spec for a Course Standard unit, absorbed from the
+retired standalone `history-hack-course-standard-builder`. **Unit 6 is the canonical template — every
 Course Standard deliverable must match it exactly, no deviation.** `SKILL.md` holds the
 decisions and orchestration; this file holds the exact tokens, page structure, build loop, and
 the print gotchas. Adapt the *content* per unit; never re-invent the *layout*.
@@ -42,7 +42,7 @@ revision notes) and a SHA-256-manifest package.
 ## Source-analysis frame
 
 - **HIPP** for lesson-level source analysis (Activity 5 organizer).
-- **HIPPO** reserved for full DBQ work (the standalone DBQ SKU, `history-hack-platinum-workbook`).
+- **HIPPO** reserved for full DBQ work (the standalone DBQ SKU, `history-hack-dbq-workbook`).
 
 ## Workbook structure — the per-standard 7-activity spine
 
@@ -116,8 +116,8 @@ SUPPORT), set alt text, and renumber.
   `add_slide`** (it can orphan a slide part and corrupt the package on re-save). Validate with a
   load/save round-trip dup check.
 - Per-standard slide blocks stay **contiguous**; DI count matches workbook = teacher = student.
-- The teacher↔workbook LESSON→WORKBOOK MAP is added by the companion skill
-  `teacher-deck-workbook-aligner` on top of this merge.
+- The teacher↔workbook LESSON→WORKBOOK MAP is verified by `history-hack-lesson-flow-qc`
+  (workbook↔deck exact-slide alignment) after this merge.
 
 ## The TOC rule (page numbers must be baked)
 

@@ -90,6 +90,6 @@ option is out regardless of rank.
 
 - `tn-textbook-adoption-agent` — Schedule F self-score.
 - `pptx` — slide duplication (`add_slide.py`).
-- Companion deliverable skills: `teacher-deck-workbook-aligner`,
-  `history-hack-print-qc-auditor`, `history-hack-graphic-organizer-workbook`,
-  `history-hack-platinum-workbook` (standalone DBQ) — load when their scope is in play.
+- Companion deliverable skills: `history-hack-print-qc-auditor`,
+  `history-hack-graphic-organizer-workbook`,
+  `history-hack-dbq-workbook` (standalone DBQ SKU) — load when their scope is in play.

@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "buildId": "unit-1-lean",
+  "product": "US History Hack — Unit 1 Lean Student Deck (US.01–US.07)",
+  "unit": 1,
+  "unitTitle": "The Rise of Industrialization",
+  "standards": [
+   "US.01",
+   "US.02",
+   "US.03",
+   "US.04",
+   "US.05",
+   "US.06",
+   "US.07"
+  ],
+  "narrativeLock": "v3.2 (US.01) / repo v2.9 (US.02–US.07)",
+  "layout": "assertion-evidence",
+  "framing": "three-perspectives",
+  "aspectRatio": "16:9",
+  "version": "2.0",
+  "lastUpdated": "2026-07-01",
+  "notes": "Assertion headlines are summary-labels of the LOCKED repo narrative. No narrative edits. US.01 = original 9-slide sample; US.02–US.07 each = divider + DI + Source-It-First + Three Perspectives."
+ },
+ "imageRefs": {
+  "golden-spike-handshake": "/images/textbook/unit-1/golden-spike-handshake.jpg",
+  "chinese-central-pacific-workers": "/images/textbook/unit-1/chinese-central-pacific-workers.jpg",
+  "homestead-act-1862": "/images/textbook/unit-1/homestead-act-1862.jpg",
+  "ninth-cavalry-ncos-1889": "/images/textbook/unit-1/ninth-cavalry-ncos-1889.jpg",
+  "pacific-railroad-routes-1869": "/images/textbook/unit-1/pacific-railroad-routes-1869.jpg",
+  "bison-skull-pile-1892": "/images/textbook/unit-1/bison-skull-pile-1892.jpg",
+  "williamson-county-map-1878": "/images/textbook/unit-1/williamson-county-map-1878.jpg",
+  "tom-torlino-carlisle": "/images/textbook/unit-1/tom-torlino-carlisle.jpg",
+  "nast-worse-than-slavery": "/images/textbook/unit-1/nast-worse-than-slavery.jpg",
+  "radical-members-sc-legislature": "/images/textbook/unit-1/radical-members-sc-legislature.jpg",
+  "freedmens-bureau-1868": "/images/textbook/unit-1/freedmens-bureau-1868.jpg",
+  "bosses-of-the-senate": "/images/textbook/unit-1/bosses-of-the-senate.jpg",
+  "standard-oil-octopus": "/images/textbook/unit-1/standard-oil-octopus.jpg",
+  "andrew-carnegie-portrait": "/images/textbook/unit-1/andrew-carnegie-portrait.jpg",
+  "map-wage-earners-1890": "/images/textbook/unit-1/map-wage-earners-1890.jpg",
+  "map-foreign-born-1890": "/images/textbook/unit-1/map-foreign-born-1890.jpg",
+  "ellis-island-immigrants": "/images/textbook/unit-1/ellis-island-immigrants.jpg",
+  "five-cents-a-spot-riis": "/images/textbook/unit-1/five-cents-a-spot-riis.jpg",
+  "railroad-map-1890": "/images/textbook/unit-1/railroad-map-1890.jpg",
+  "nast-union-as-it-was-1874": "/images/textbook/unit-1/nast-union-as-it-was-1874.jpg"
+ },
+ "slides": [
+  {
+   "n": 1,
+   "kind": "Hook",
+   "standard": "US.01",
+   "assertion": "How do you settle a continent — and who pays the price when you do?",
+   "image": "pacific-railroad-routes-1869",
+   "footer": "US.01 · Homestead Act & Transcontinental Railroad",
+   "wordBudget": 13,
+   "primarySource": true
+  },
+  {
+   "n": 2,
+   "kind": "Direct Instruction",
+   "standard": "US.01",
+   "assertion": "In 1862, Congress offered 160 acres of free land to anyone who would farm it for five years.",
+   "image": "homestead-act-1862",
+   "footer": "US.01 · The Homestead Act (1862)",
+   "wordBudget": 20,
+   "primarySource": true
+  },
+  {
+   "n": 3,
+   "kind": "Direct Instruction",
+   "standard": "US.01",
+   "assertion": "The Transcontinental Railroad (1869) cut a cross-country trip from months to days — and opened the West to settlement and extraction.",
+   "image": "golden-spike-handshake",
+   "footer": "US.01 · The Transcontinental Railroad (1869)",
+   "wordBudget": 22,
+   "primarySource": true
+  },
+  {
+   "n": 4,
+   "kind": "Direct Instruction",
+   "standard": "US.01",
+   "assertion": "Chinese laborers built much of the Central Pacific — doing the most dangerous work while facing open discrimination.",
+   "image": "chinese-central-pacific-workers",
+   "footer": "US.01 · Who Built It",
+   "wordBudget": 17,
+   "primarySource": true
+  },
+  {
+   "n": 5,
+   "kind": "Direct Instruction",
+   "standard": "US.01",
+   "assertion": "The same expansion forced relocations, broke treaties, and collapsed the buffalo herds Plains nations depended on.",
+   "image": "bison-skull-pile-1892",
+   "footer": "US.01 · The Cost to Native Nations",
+   "wordBudget": 16,
+   "primarySource": true
+  },
+  {
+   "n": 6,
+   "kind": "Primary Source Analysis",
+   "standard": "US.01",
+   "assertion": "The law itself shows the government's intent — read who it includes, and who it leaves out.",
+   "image": "homestead-act-1862",
+   "footer": "US.01 · Source It First",
+   "wordBudget": 18,
+   "primarySource": true,
+   "sourceItFirst": {
+    "who": "U.S. Congress (federal statute).",
+    "when": "1862, during the Civil War.",
+    "why": "A law reveals the government’s intent — ask who benefits and who is left out."
+   },
+   "sources": [
+    {
+     "title": "Homestead Act",
+     "author": "U.S. Congress",
+     "date": "May 20, 1862 (12 Stat. 392)",
+     "excerpt": "Any person who is the head of a family, or who has arrived at the age of twenty-one years, and is a citizen of the United States... shall be entitled to enter one quarter section [160 acres] of unappropriated public lands.",
+     "archiveName": "National Archives",
+     "url": "https://www.archives.gov/milestone-documents/homestead-act",
+     "publicDomain": true
+    },
+    {
+     "title": "Pacific Railway Act",
+     "author": "U.S. Congress",
+     "date": "July 1, 1862 (12 Stat. 489)",
+     "excerpt": "The United States shall extinguish as rapidly as may be the Indian titles to all lands falling under the operation of this act... There is hereby granted to the said company... every alternate section of public land, designated by odd numbers.",
+     "archiveName": "National Archives",
+     "url": "https://www.archives.gov/milestone-documents/pacific-railway-act",
+     "publicDomain": true
+    }
+   ],
+   "practice": "corroboration"
+  },
+  {
+   "n": 7,
+   "kind": "Three Perspectives Synthesis",
+   "standard": "US.01",
+   "assertion": "Return to three questions. Use them to analyze any event, policy, or decision in U.S. history.",
+   "image": "golden-spike-handshake",
+   "footer": "US.01 · Three Perspectives",
+   "wordBudget": 16,
+   "primarySource": true,
+   "framingIntro": "At the end of each reading, a historian returns to three questions. Use them to analyze any event, policy, or decision in U.S. history.",
+   "perspectives": [
+    {
+     "lens": "Who benefited?",
+     "prompt": "Who gained land, wealth, power, or protection from this event?",
+     "us01": "Settlers who claimed 160-acre homesteads; railroad companies that received alternate-section land grants; eastern markets and manufacturers reached by the new rail lines."
+    },
+    {
+     "lens": "Who bore the costs?",
+     "prompt": "Who lost land, labor, freedom, or life — and who was silenced?",
+     "us01": "Plains nations, who lost lands and treaty rights and whose buffalo herds collapsed; Chinese laborers, who did the most dangerous railroad work while facing wage discrimination and exclusion."
+    },
+    {
+     "lens": "Who decided?",
+     "prompt": "Which people, offices, or courts held the authority to make the choice?",
+     "us01": "The U.S. Congress and the federal government, acting through the Homestead Act and the Pacific Railway Act of 1862."
+    }
+   ],
+   "primarySourceAnchor": "Homestead Act & Pacific Railway Act, 1862 (National Archives)"
+  },
+  {
+   "n": 8,
+   "kind": "We Do",
+   "standard": "US.01",
+   "assertion": "Trace one effect: the railroad → the buffalo → the people.",
+   "image": "bison-skull-pile-1892",
+   "footer": "US.01 · We Do — Cause → Effect",
+   "wordBudget": 10,
+   "primarySource": true,
+   "weDo": {
+    "skill": "Cause → Effect reasoning",
+    "modeledPrompt": "Trace ONE effect of the Transcontinental Railroad on American Indian nations.",
+    "modeled": "CAUSE: The railroad cut directly through Plains hunting grounds (1869).  →  EFFECT: Settlers and hunters poured in and the buffalo herds collapsed.  →  CONSEQUENCE: Plains nations lost the food source their economy depended on and were pushed onto reservations.",
+    "think": "Watch how I do it: I start with the policy (the cause), I underline the change it set in motion (the effect), then I push one step further to the human consequence. I do NOT stop at \"railroad was built\" — I ask \"so what happened to people because of it?\"",
+    "thenYou": "Now you complete two more cause→effect chains on your own in the activity."
+   }
+  },
+  {
+   "n": 9,
+   "kind": "Tennessee Connection",
+   "standard": "US.01",
+   "assertion": "A hometown hero: George Jordan of Triune, Williamson County — the only Medal of Honor recipient from our county.",
+   "image": "williamson-county-map-1878",
+   "secondaryImage": "ninth-cavalry-ncos-1889",
+   "footer": "US.01 · Tennessee Connection · Williamson County",
+   "wordBudget": 18,
+   "highlight": true,
+   "emphasis": "bold-celebrated",
+   "primarySource": true,
+   "tnFacts": [
+    {
+     "claim": "George Jordan was born around 1847 in the Triune area of Williamson County, Tennessee.",
+     "sources": [
+      {
+       "name": "National Park Service",
+       "url": "https://www.nps.gov/people/george-jordan.htm"
+      },
+      {
+       "name": "Williamson Source",
+       "url": "https://williamsonsource.com/local-buffalo-soldier-union-officer-cross-paths-in-the-west/"
+      }
+     ]
+    },
+    {
+     "claim": "He is the only Medal of Honor recipient from Williamson County.",
+     "sources": [
+      {
+       "name": "The American Legion",
+       "url": "https://www.legion.org/memorials/united-states/tennessee/united-states-tennessee-williamson-county-veterans-park"
+      }
+     ]
+    },
+    {
+     "claim": "He served with the 9th U.S. Cavalry (Buffalo Soldiers), earning the Medal of Honor for Fort Tularosa (1880) and Carrizo Canyon (1881), issued in 1890.",
+     "sources": [
+      {
+       "name": "Wikipedia — George Jordan (Medal of Honor)",
+       "url": "https://en.wikipedia.org/wiki/George_Jordan_(Medal_of_Honor)"
+      }
+     ]
+    }
+   ],
+   "mapNote": "1878 Williamson County map (Tennessee State Library & Archives) locating Triune, Jordan's home community."
+  },
+  {
+   "kind": "Standard Divider",
+   "standard": "US.02",
+   "title": "Federal Policies Toward American Indians",
+   "tnStandard": "US.02 – Examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act.",
+   "iCan": "I can examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act.",
+   "n": 10
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.02",
+   "assertion": "After the Civil War, the federal government confined American Indian nations to reservations far smaller than their homelands.",
+   "image": "tom-torlino-carlisle",
+   "footer": "US.02 · Movement to Reservations",
+   "primarySource": true,
+   "n": 11
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.02",
+   "assertion": "Boarding schools like Carlisle pursued forced assimilation under the motto “Kill the Indian, save the man.”",
+   "image": "tom-torlino-carlisle",
+   "footer": "US.02 · Assimilation & Boarding Schools",
+   "primarySource": true,
+   "n": 12
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.02",
+   "assertion": "The Dawes Act (1887) broke up tribal land — holdings fell from 138 million acres to 48 million by 1934.",
+   "image": "tom-torlino-carlisle",
+   "footer": "US.02 · The Dawes Act & Its Impact",
+   "primarySource": true,
+   "n": 13
+  },
+  {
+   "kind": "Primary Source Analysis",
+   "standard": "US.02",
+   "assertion": "The Dawes Act itself shows the government’s intent — read what it did to communal land.",
+   "image": "tom-torlino-carlisle",
+   "footer": "US.02 · Source It First",
+   "sourceItFirst": {
+    "who": "U.S. Congress (federal statute).",
+    "when": "February 8, 1887 (24 Stat. 388).",
+    "why": "A law reveals intent — ask what it dismantled and who gained the “surplus” land."
+   },
+   "sources": [
+    {
+     "title": "Dawes General Allotment Act",
+     "author": "U.S. Congress",
+     "date": "Feb 8, 1887 (24 Stat. 388)",
+     "excerpt": "...the President of the United States be authorized... to allot the lands in said reservation in severalty to any Indian located thereon in quantities as follows: To each head of a family, one-quarter of a section [160 acres].",
+     "archiveName": "Library of Congress / Statutes at Large",
+     "url": "https://www.loc.gov/law/help/statutes-at-large/49th-congress/session-2/c49s2ch119.pdf",
+     "publicDomain": true
+    },
+    {
+     "title": "Annual Report of the Commissioner of Indian Affairs",
+     "author": "Office of Indian Affairs",
+     "date": "1890",
+     "excerpt": "The great object... is the disintegration of the tribes... and their absorption into the national life as American citizens.",
+     "archiveName": "HathiTrust / U.S. Government",
+     "url": "https://www.doi.gov/ocl",
+     "publicDomain": true
+    }
+   ],
+   "n": 14
+  },
+  {
+   "kind": "Three Perspectives Synthesis",
+   "standard": "US.02",
+   "assertion": "Return to three questions: who benefited, who bore the costs, who decided.",
+   "image": "tom-torlino-carlisle",
+   "footer": "US.02 · Three Perspectives",
+   "framingIntro": "A historian returns to three questions at the end of every reading. Use them to analyze this standard.",
+   "perspectives": [
+    {
+     "lens": "Who benefited?",
+     "prompt": "Who gained land, wealth, power, or protection?",
+     "answer": "White settlers who purchased “surplus” reservation land; railroads and speculators; the federal government advancing westward settlement."
+    },
+    {
+     "lens": "Who bore the costs?",
+     "prompt": "Who lost land, labor, freedom, or life — and who was silenced?",
+     "answer": "American Indian nations, who lost 90 million acres, communal landholding, languages, and children taken to boarding schools — a documented cultural genocide."
+    },
+    {
+     "lens": "Who decided?",
+     "prompt": "Which people, offices, or courts held the authority?",
+     "answer": "The U.S. Congress and the Office of Indian Affairs, acting through the Dawes Act and reservation/assimilation policy."
+    }
+   ],
+   "primarySourceAnchor": "Dawes General Allotment Act, 1887 (Statutes at Large)",
+   "n": 15
+  },
+  {
+   "kind": "Standard Divider",
+   "standard": "US.03",
+   "title": "Compromise of 1877, Jim Crow & Plessy v. Ferguson",
+   "tnStandard": "US.03 – Explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Benjamin “Pap” Singleton and the Exodusters, and the Plessy v. Ferguson decision.",
+   "iCan": "I can explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement, the Exodusters, and Plessy v. Ferguson.",
+   "n": 16
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.03",
+   "assertion": "The Compromise of 1877 withdrew federal troops from the South — ending Reconstruction and its protections.",
+   "image": "radical-members-sc-legislature",
+   "footer": "US.03 · The Election of 1876 & End of Reconstruction",
+   "primarySource": true,
+   "n": 17
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.03",
+   "assertion": "With protection gone, Southern states built Jim Crow — segregation, poll taxes, literacy tests, and lynching.",
+   "image": "nast-worse-than-slavery",
+   "footer": "US.03 · Jim Crow, Lynching & Disenfranchisement",
+   "primarySource": true,
+   "n": 18
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.03",
+   "assertion": "Pap Singleton led the Exodusters — thousands of Black Southerners who migrated to Kansas to escape Jim Crow terror.",
+   "image": "freedmens-bureau-1868",
+   "footer": "US.03 · Pap Singleton & the Exodusters",
+   "primarySource": true,
+   "n": 19
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.03",
+   "assertion": "Plessy v. Ferguson (1896) made “separate but equal” law — legitimizing segregation for nearly sixty years.",
+   "image": "nast-union-as-it-was-1874",
+   "footer": "US.03 · Plessy v. Ferguson",
+   "primarySource": true,
+   "n": 20
+  },
+  {
+   "kind": "Primary Source Analysis",
+   "standard": "US.03",
+   "assertion": "The Court’s own words show the doctrine — read what “separate but equal” actually authorized.",
+   "image": "nast-worse-than-slavery",
+   "footer": "US.03 · Source It First",
+   "sourceItFirst": {
+    "who": "The Supreme Court of the United States (7–1 majority, Justice Brown).",
+    "when": "May 18, 1896.",
+    "why": "A ruling sets the law of the land — ask what it permitted and whom it left unprotected."
+   },
+   "sources": [
+    {
+     "title": "Plessy v. Ferguson (majority opinion)",
+     "author": "Supreme Court of the United States",
+     "date": "May 18, 1896 (163 U.S. 537)",
+     "excerpt": "Laws permitting, and even requiring, [the] separation [of the races] in places where they are liable to be brought into contact do not necessarily imply the inferiority of either race...",
+     "archiveName": "Library of Congress / U.S. Reports",
+     "url": "https://www.loc.gov/item/usrep163537/",
+     "publicDomain": true
+    },
+    {
+     "title": "Harlan dissent, Plessy v. Ferguson",
+     "author": "Justice John Marshall Harlan",
+     "date": "May 18, 1896",
+     "excerpt": "Our Constitution is color-blind, and neither knows nor tolerates classes among citizens.",
+     "archiveName": "Library of Congress / U.S. Reports",
+     "url": "https://www.loc.gov/item/usrep163537/",
+     "publicDomain": true
+    }
+   ],
+   "n": 21
+  },
+  {
+   "kind": "Three Perspectives Synthesis",
+   "standard": "US.03",
+   "assertion": "Return to three questions: who benefited, who bore the costs, who decided.",
+   "image": "radical-members-sc-legislature",
+   "footer": "US.03 · Three Perspectives",
+   "framingIntro": "A historian returns to three questions at the end of every reading. Use them to analyze this standard.",
+   "perspectives": [
+    {
+     "lens": "Who benefited?",
+     "prompt": "Who gained land, wealth, power, or protection?",
+     "answer": "White Democratic “Redeemer” governments in the South, who regained political control; the national parties that traded away Black civil rights for the presidency."
+    },
+    {
+     "lens": "Who bore the costs?",
+     "prompt": "Who lost land, labor, freedom, or life — and who was silenced?",
+     "answer": "African Americans, who lost federal protection, the vote, and equal access — and faced lynching. Those who resisted, like the Exodusters, were forced to flee."
+    },
+    {
+     "lens": "Who decided?",
+     "prompt": "Which people, offices, or courts held the authority?",
+     "answer": "The disputed 1876 electoral commission and party leaders (Compromise of 1877); Southern legislatures (Jim Crow laws); and the U.S. Supreme Court (Plessy)."
+    }
+   ],
+   "primarySourceAnchor": "Plessy v. Ferguson, 1896 (U.S. Reports)",
+   "n": 22
+  },
+  {
+   "kind": "Standard Divider",
+   "standard": "US.04",
+   "title": "Gilded Age Politics and Economics",
+   "tnStandard": "US.04 – Analyze the causes and consequences of Gilded Age politics and economics, including political machines, major scandals, civil service reform, and the economic differences between farmers, wage earners, and industrial capitalists.",
+   "iCan": "I can analyze the causes and consequences of Gilded Age politics and economics, including political machines, scandals, civil service reform, and economic inequality.",
+   "n": 23
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.04",
+   "assertion": "Political machines like Boss Tweed’s Tammany Hall ran cities through patronage — funneling millions in public funds.",
+   "image": "bosses-of-the-senate",
+   "footer": "US.04 · Political Machines & Boss Tweed",
+   "primarySource": true,
+   "n": 24
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.04",
+   "assertion": "Scandals ran deep: Crédit Mobilier and the spoils system — until Garfield’s 1881 assassination forced reform.",
+   "image": "bosses-of-the-senate",
+   "footer": "US.04 · Scandals & the Spoils System",
+   "primarySource": true,
+   "n": 25
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.04",
+   "assertion": "The Pendleton Act (1883) began merit-based hiring; the Interstate Commerce Act (1887) began federal economic regulation.",
+   "image": "standard-oil-octopus",
+   "footer": "US.04 · Civil Service & Economic Reform",
+   "primarySource": true,
+   "n": 26
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.04",
+   "assertion": "Wealth concentrated at the top while farmers and wage earners struggled with debt, low pay, and danger.",
+   "image": "map-wage-earners-1890",
+   "footer": "US.04 · Economic Disparity",
+   "primarySource": true,
+   "n": 27
+  },
+  {
+   "kind": "Primary Source Analysis",
+   "standard": "US.04",
+   "assertion": "A close observer named the era’s corruption — read how power actually worked in the Gilded Age.",
+   "image": "bosses-of-the-senate",
+   "footer": "US.04 · Source It First",
+   "sourceItFirst": {
+    "who": "James Bryce, British observer of American government.",
+    "when": "1888 (The American Commonwealth).",
+    "why": "An outside observer describes what insiders took for granted — ask what he says corrupted city government."
+   },
+   "sources": [
+    {
+     "title": "The American Commonwealth",
+     "author": "James Bryce",
+     "date": "1888",
+     "excerpt": "The Boss... has a fine sense of political values... He dispenses places, rewards the loyal, punishes the mutinous... The machine works because it feeds those who serve it.",
+     "archiveName": "HathiTrust / Public Domain",
+     "url": "https://catalog.hathitrust.org/Record/001260456",
+     "publicDomain": true
+    },
+    {
+     "title": "Pendleton Civil Service Reform Act",
+     "author": "U.S. Congress",
+     "date": "January 16, 1883 (22 Stat. 403)",
+     "excerpt": "...appointments to the [classified] service... shall be made... from among those graded highest as the results of such competitive examinations.",
+     "archiveName": "Library of Congress / Statutes at Large",
+     "url": "https://www.loc.gov/law/help/statutes-at-large/47th-congress/session-2/c47s2ch27.pdf",
+     "publicDomain": true
+    }
+   ],
+   "n": 28
+  },
+  {
+   "kind": "Three Perspectives Synthesis",
+   "standard": "US.04",
+   "assertion": "Return to three questions: who benefited, who bore the costs, who decided.",
+   "image": "standard-oil-octopus",
+   "footer": "US.04 · Three Perspectives",
+   "framingIntro": "A historian returns to three questions at the end of every reading. Use them to analyze this standard.",
+   "perspectives": [
+    {
+     "lens": "Who benefited?",
+     "prompt": "Who gained land, wealth, power, or protection?",
+     "answer": "Political bosses and their machines; industrial capitalists who concentrated wealth; office-seekers rewarded by the spoils system."
+    },
+    {
+     "lens": "Who bore the costs?",
+     "prompt": "Who lost land, labor, freedom, or life — and who was silenced?",
+     "answer": "Farmers facing falling prices and high rail rates; wage earners in dangerous, low-paid jobs; taxpayers whose funds were siphoned by machines."
+    },
+    {
+     "lens": "Who decided?",
+     "prompt": "Which people, offices, or courts held the authority?",
+     "answer": "City machines and party bosses; the U.S. Congress, which passed the Pendleton Act (1883) and Interstate Commerce Act (1887)."
+    }
+   ],
+   "primarySourceAnchor": "The American Commonwealth (Bryce, 1888) & Pendleton Act, 1883",
+   "n": 29
+  },
+  {
+   "kind": "Standard Divider",
+   "standard": "US.05",
+   "title": "Inventions & Innovations of Business Leaders & Entrepreneurs",
+   "tnStandard": "US.05 – Describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including Bell, Bessemer, Carnegie, Edison, Morgan, Rockefeller, Tesla, Vanderbilt, Madam C.J. Walker, and George Washington Carver.",
+   "iCan": "I can describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period.",
+   "n": 30
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.05",
+   "assertion": "New inventions reshaped daily life: Bell’s telephone, Edison’s light and power, Tesla’s AC, Bessemer’s steel.",
+   "image": "andrew-carnegie-portrait",
+   "footer": "US.05 · Technological Innovations",
+   "primarySource": true,
+   "n": 31
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.05",
+   "assertion": "Industrial titans consolidated power: Carnegie (steel), Rockefeller (oil), Morgan (finance), Vanderbilt (rail).",
+   "image": "standard-oil-octopus",
+   "footer": "US.05 · Industrial Titans",
+   "primarySource": true,
+   "n": 32
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.05",
+   "assertion": "African American entrepreneurs broke through: Madam C.J. Walker built a fortune; Carver transformed Southern farming.",
+   "image": "andrew-carnegie-portrait",
+   "footer": "US.05 · African American Entrepreneurs",
+   "primarySource": true,
+   "n": 33
+  },
+  {
+   "kind": "Primary Source Analysis",
+   "standard": "US.05",
+   "assertion": "Carnegie explained how the rich should use their wealth — read his “Gospel of Wealth.”",
+   "image": "andrew-carnegie-portrait",
+   "footer": "US.05 · Source It First",
+   "sourceItFirst": {
+    "who": "Andrew Carnegie, steel magnate.",
+    "when": "1889 (“Wealth,” North American Review).",
+    "why": "A titan justifies his own fortune — ask what he claims the wealthy owe society, and what he leaves out about workers."
+   },
+   "sources": [
+    {
+     "title": "“Wealth” (The Gospel of Wealth)",
+     "author": "Andrew Carnegie",
+     "date": "June 1889",
+     "excerpt": "The man who dies thus rich dies disgraced... This, then, is held to be the duty of the man of wealth: to consider all surplus revenues... as trust funds... to produce the most beneficial results for the community.",
+     "archiveName": "Public Domain / North American Review",
+     "url": "https://www.carnegie.org/about/our-history/gospelofwealth/",
+     "publicDomain": true
+    },
+    {
+     "title": "The Freeman (on Madam C.J. Walker)",
+     "author": "The Freeman (Indianapolis)",
+     "date": "c. 1911",
+     "excerpt": "Mrs. Walker... has built up a business... giving employment to hundreds of colored women... a monument to Negro thrift and enterprise.",
+     "archiveName": "Public Domain / Indianapolis Freeman",
+     "url": "https://www.loc.gov/item/mnwp000200/",
+     "publicDomain": true
+    }
+   ],
+   "n": 34
+  },
+  {
+   "kind": "Three Perspectives Synthesis",
+   "standard": "US.05",
+   "assertion": "Return to three questions: who benefited, who bore the costs, who decided.",
+   "image": "standard-oil-octopus",
+   "footer": "US.05 · Three Perspectives",
+   "framingIntro": "A historian returns to three questions at the end of every reading. Use them to analyze this standard.",
+   "perspectives": [
+    {
+     "lens": "Who benefited?",
+     "prompt": "Who gained land, wealth, power, or protection?",
+     "answer": "Industrialists who amassed fortunes; consumers gaining new technologies; entrepreneurs like Walker and Carver who created jobs and products."
+    },
+    {
+     "lens": "Who bore the costs?",
+     "prompt": "Who lost land, labor, freedom, or life — and who was silenced?",
+     "answer": "Workers who faced dangerous conditions and low wages while owners consolidated monopolies; small competitors bought out or driven under."
+    },
+    {
+     "lens": "Who decided?",
+     "prompt": "Which people, offices, or courts held the authority?",
+     "answer": "Private business leaders — Carnegie, Rockefeller, Morgan, Vanderbilt — and the inventors and entrepreneurs whose choices reshaped the economy."
+    }
+   ],
+   "primarySourceAnchor": "Carnegie, “Wealth” (Gospel of Wealth), 1889",
+   "n": 35
+  },
+  {
+   "kind": "Standard Divider",
+   "standard": "US.06",
+   "title": "Industrial Centers and Urbanization",
+   "tnStandard": "US.06 – Locate major industrial centers, and describe how industrialization influenced the movement of people from rural to urban areas: Boston, Chicago, New York City, Pittsburgh, San Francisco.",
+   "iCan": "I can locate major industrial centers and describe how industrialization moved people from rural to urban areas.",
+   "n": 36
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.06",
+   "assertion": "Industry clustered by geography: Pittsburgh steel, Chicago rail & meatpacking, NYC finance, Boston textiles, San Francisco Pacific trade.",
+   "image": "railroad-map-1890",
+   "footer": "US.06 · Major Industrial Centers",
+   "primarySource": true,
+   "n": 37
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.06",
+   "assertion": "Factory wages pulled millions off farms — Chicago grew from 30,000 in 1850 to over 1 million by 1890.",
+   "image": "map-wage-earners-1890",
+   "footer": "US.06 · Rural-to-Urban Migration",
+   "primarySource": true,
+   "n": 38
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.06",
+   "assertion": "Cities grew faster than they could cope — crowded tenements, poor sanitation, and new social problems.",
+   "image": "map-foreign-born-1890",
+   "footer": "US.06 · Costs of Rapid Growth",
+   "primarySource": true,
+   "n": 39
+  },
+  {
+   "kind": "Primary Source Analysis",
+   "standard": "US.06",
+   "assertion": "A map is a primary source too — read where manufacturing wage earners concentrated in 1890.",
+   "image": "map-wage-earners-1890",
+   "footer": "US.06 · Source It First",
+   "sourceItFirst": {
+    "who": "Henry Gannett / U.S. Census Office.",
+    "when": "1898 (from the 1890 Eleventh Census).",
+    "why": "A statistical map shows where industry pulled people — ask which regions drew workers and which were left behind."
+   },
+   "sources": [
+    {
+     "title": "Proportion of Wage Earners in Manufactures, 1890",
+     "author": "Henry Gannett / U.S. Census Office",
+     "date": "1898",
+     "excerpt": "[Statistical Atlas map] The darkest shading marks the industrial Northeast and Great Lakes — the manufacturing core drawing workers from farms and abroad.",
+     "archiveName": "Library of Congress, Geography & Map Division",
+     "url": "https://www.loc.gov/resource/g3701gm.gct00010/?sp=86",
+     "publicDomain": true
+    },
+    {
+     "title": "How the Other Half Lives (on tenement crowding)",
+     "author": "Jacob Riis",
+     "date": "1890",
+     "excerpt": "In the tenements all the influences make for evil... The gap between the classes... is widening day by day.",
+     "archiveName": "Public Domain / Scribner’s",
+     "url": "https://www.loc.gov/item/12000787/",
+     "publicDomain": true
+    }
+   ],
+   "n": 40
+  },
+  {
+   "kind": "Three Perspectives Synthesis",
+   "standard": "US.06",
+   "assertion": "Return to three questions: who benefited, who bore the costs, who decided.",
+   "image": "map-wage-earners-1890",
+   "footer": "US.06 · Three Perspectives",
+   "framingIntro": "A historian returns to three questions at the end of every reading. Use them to analyze this standard.",
+   "perspectives": [
+    {
+     "lens": "Who benefited?",
+     "prompt": "Who gained land, wealth, power, or protection?",
+     "answer": "Factory owners with a concentrated labor supply; cities that grew into commercial powers; workers who found steady wages."
+    },
+    {
+     "lens": "Who bore the costs?",
+     "prompt": "Who lost land, labor, freedom, or life — and who was silenced?",
+     "answer": "Tenement dwellers in overcrowded, unsanitary housing; rural communities drained of population; workers exposed to industrial hazards."
+    },
+    {
+     "lens": "Who decided?",
+     "prompt": "Which people, offices, or courts held the authority?",
+     "answer": "Industrialists choosing plant locations near coal, rail, and ports; and the market forces of wages and transportation that shaped where people moved."
+    }
+   ],
+   "primarySourceAnchor": "Wage-Earners Map, 1890 (LOC) & Riis, How the Other Half Lives, 1890",
+   "n": 41
+  },
+  {
+   "kind": "Standard Divider",
+   "standard": "US.07",
+   "title": "Immigration: Old vs. New Immigrants",
+   "tnStandard": "US.07 – Describe the differences between “old” and “new” immigrants, analyze the assimilation process, and determine the impacts of increased migration on American society, including Ellis Island, Angel Island, push/pull factors, nativism, the Chinese Exclusion Act, and the Gentlemen’s Agreement.",
+   "iCan": "I can describe the differences between “old” and “new” immigrants, analyze assimilation, and determine the impacts of increased migration on American society.",
+   "n": 42
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.07",
+   "assertion": "“Old” immigrants came from Northern/Western Europe; “new” immigrants (1880–1920) came from Southern/Eastern Europe and Asia.",
+   "image": "ellis-island-immigrants",
+   "footer": "US.07 · Old vs. New Immigrants",
+   "primarySource": true,
+   "n": 43
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.07",
+   "assertion": "Ellis Island processed Europeans; Angel Island restricted Asians. Jane Addams’s Hull House aided assimilation.",
+   "image": "ellis-island-immigrants",
+   "footer": "US.07 · Entry Points & Assimilation",
+   "primarySource": true,
+   "n": 44
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.07",
+   "assertion": "Push factors (persecution, poverty) and pull factors (opportunity, freedom) drove the largest migration in U.S. history.",
+   "image": "five-cents-a-spot-riis",
+   "footer": "US.07 · Push & Pull Factors",
+   "primarySource": true,
+   "n": 45
+  },
+  {
+   "kind": "Direct Instruction",
+   "standard": "US.07",
+   "assertion": "Nativism produced restriction: the Chinese Exclusion Act (1882) and the Gentlemen’s Agreement (1907).",
+   "image": "five-cents-a-spot-riis",
+   "footer": "US.07 · Nativism & Restriction",
+   "primarySource": true,
+   "n": 46
+  },
+  {
+   "kind": "Primary Source Analysis",
+   "standard": "US.07",
+   "assertion": "The first federal law to bar a nationality — read who the Chinese Exclusion Act shut out.",
+   "image": "five-cents-a-spot-riis",
+   "footer": "US.07 · Source It First",
+   "sourceItFirst": {
+    "who": "U.S. Congress (federal statute).",
+    "when": "May 6, 1882 (22 Stat. 58).",
+    "why": "It was the first U.S. law to bar an entire nationality — ask whom it targeted and what precedent it set."
+   },
+   "sources": [
+    {
+     "title": "Chinese Exclusion Act",
+     "author": "U.S. Congress",
+     "date": "May 6, 1882 (22 Stat. 58)",
+     "excerpt": "...the coming of Chinese laborers to the United States be, and the same is hereby, suspended... it shall not be lawful for any Chinese laborer to come... to remain within the United States.",
+     "archiveName": "National Archives",
+     "url": "https://www.archives.gov/milestone-documents/chinese-exclusion-act",
+     "publicDomain": true
+    },
+    {
+     "title": "Twenty Years at Hull-House",
+     "author": "Jane Addams",
+     "date": "1910",
+     "excerpt": "We early found ourselves spending many hours in efforts to secure... justice for immigrants... whom the state had left unprotected.",
+     "archiveName": "Public Domain / Macmillan",
+     "url": "https://www.loc.gov/item/10025680/",
+     "publicDomain": true
+    }
+   ],
+   "n": 47
+  },
+  {
+   "kind": "Three Perspectives Synthesis",
+   "standard": "US.07",
+   "assertion": "Return to three questions: who benefited, who bore the costs, who decided.",
+   "image": "ellis-island-immigrants",
+   "footer": "US.07 · Three Perspectives",
+   "framingIntro": "A historian returns to three questions at the end of every reading. Use them to analyze this standard.",
+   "perspectives": [
+    {
+     "lens": "Who benefited?",
+     "prompt": "Who gained land, wealth, power, or protection?",
+     "answer": "Employers gaining cheap labor; the growing industrial economy; immigrants who found opportunity and religious freedom."
+    },
+    {
+     "lens": "Who bore the costs?",
+     "prompt": "Who lost land, labor, freedom, or life — and who was silenced?",
+     "answer": "New immigrants facing discrimination, tenement poverty, and hostility; Chinese and Japanese immigrants barred by exclusion laws."
+    },
+    {
+     "lens": "Who decided?",
+     "prompt": "Which people, offices, or courts held the authority?",
+     "answer": "The U.S. Congress (Chinese Exclusion Act, 1882) and the executive branch (Gentlemen’s Agreement, 1907), driven by rising nativism."
+    }
+   ],
+   "primarySourceAnchor": "Chinese Exclusion Act, 1882 (National Archives) & Addams, Twenty Years at Hull-House",
+   "n": 48
+  }
+ ]
+}
