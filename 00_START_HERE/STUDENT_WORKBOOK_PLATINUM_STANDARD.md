@@ -222,9 +222,10 @@ Data literacy is a tested C3 / Social Studies Practice skill, and TCAP leans hea
   `build_teacher_guide.py` / `engine.js`), then **convert to PDF with LibreOffice**
   (`HOME=/root/lohome soffice --headless --convert-to pdf`). **Never author the document as HTML and
   render it to PDF** — HTML→PDF mangles page breaks, running headers/footers, and page numbers. The
-  **editable Word original is authoritative; the PDF is a faithful convert.** Teachers receive both a
-  `.docx` and a print-accurate PDF. (Direct vector generation is reserved for 24×36 posters, which
-  are not documents.)
+  **editable `.docx` is the author's archive / master** (TroopToTeacher's source of truth, kept for
+  future edits); **the PDF is the distribution artifact teachers receive and print** — a faithful
+  convert of the `.docx`. Teachers do not edit the Word master. (Direct vector generation is reserved
+  for 24×36 posters, which are not documents.)
 - **300 DPI**; grayscale-legible (see §3 grayscale rule).
 - Workbook **≤ 120 pages**.
 - Two-pass build so the TOC and crosswalk page references reconverge after any white-space insert (never hardcode a page number).

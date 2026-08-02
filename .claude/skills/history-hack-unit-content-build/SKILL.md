@@ -55,7 +55,8 @@ Gold `#F9A825` are *broader*-palette America 250 tokens for special surfaces, no
 - **DOCX-native → PDF (LOCKED — print-first):** author documents as native `.docx`
   (`build_guided_notes.py` / `build_teacher_guide.py`), then convert with LibreOffice
   (`soffice --headless --convert-to pdf`). **Never HTML→PDF** (it mangles page breaks/headers/footers/
-  page numbers). Editable Word original is authoritative; PDF is a faithful convert — teachers get both.
+  page numbers). The editable `.docx` is the **author's archive / master** (source of truth for future
+  edits); the **PDF is what teachers receive and print** — a faithful convert, not teacher-edited.
   See `00_START_HERE/BUILD_STANDARD.md` §4.
 - **Render-and-QC gate:** no workbook/guide/deck change ships until it is rendered to PDF and
   inspected page-by-page. **Zero blank or near-empty pages**; page breaks, header/footer, and the live
