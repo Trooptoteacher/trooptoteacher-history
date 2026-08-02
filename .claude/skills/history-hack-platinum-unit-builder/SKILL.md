@@ -25,6 +25,8 @@ The unit is a coordinated instructional product, not a loose collection of works
 6. Lesson-package generator entries backed by physical files
 7. District-ready folder and download structure
 8. Evidence-based Platinum QA
+9. **Graphic-organizer toolkit** (built by `history-hack-graphic-organizer-workbook`)
+10. **Unit poster pack / wall set** (built by `history-hack-poster-packet-builder`)
 
 ## Platinum Decision Rule (default every fork) — from the standalone `history-hack-platinum-standard` skill
 
@@ -43,6 +45,8 @@ These extend the eight components above and are **required** for a platinum unit
 - **Student Workbook — 7-activity spine + guided Cornell (built by `history-hack-unit-content-build`).** Each standard runs the established **7-activity page structure**; every activity **prints on its own page** so a teacher can print any one alone. The Cornell notes are **keyed to the teacher deck's Direct-Instruction (DI) segments** — each notes block is captioned **`▶ Deck · DI k of M`**. The **four-rung NOTES SUPPORTS ladder** — (1) frames → (2) cloze + word bank → (3) how-to + worked model → (4) try-it on ruled paper + self-check — **prints on the VERSO, IN the student workbook, default-included** (panel-locked decision: supports belong to the student for self-access; the "gate into the teacher pack" model is rejected). Scaffold **fading** (Guided → Light → Independent) is a *content property* that graduates across standards on the verso, never a relocation out of the book. A "lighter book" is delivered as a **print flag** (duplex = notes + supports; single-sided = notes only), not by removing supports. Build the content JSON + guided notes + verso supports with the engine `history-hack-unit-content-build` (`build_guided_notes.py`); do not hand-author the ruled notebook tables. Front/print spec: `00_START_HERE/STUDENT_WORKBOOK_PLATINUM_STANDARD.md` (§7.1 verso, §7.9 NOTES SUPPORTS) + `references/course-standard-format.md`.
 - **Aligned Teacher (lecture) + Student (review) decks — MERGE, never author-from-scratch.** Both decks are produced by **merging the UDL/supports layer into the district's authentic source `.pptx` decks** (attached by the user or downloaded from Drive) — never generated from blank. The **one teacher deck per unit is the authentic source teacher deck with the layer merged in**; the student (review) deck is the same merge on the student layer. **Vocabulary BEFORE instruction.** The student deck has **one review slide per teacher DI segment**, captioned **`US.xx · DI k of M`**. The **DI count matches across workbook, teacher deck, and student deck.** The teacher deck carries **`✍ In your workbook · <activity>`** write-cues, and per-standard slide blocks are **contiguous** (no interleaving). Merge pipeline: `references/course-standard-format.md`.
 - **Teacher Guide & MTSS, Teacher Answer Key, and a commercial-use-safe Visual Asset package.** Visual assets are **PD / US-gov / CC0 / CC-BY only**, each with a **citation sidecar + alt text**. **Never build political or boundary maps in-house** (accuracy + neutrality risk) — source them from an authoritative repository.
+- **Graphic-organizer toolkit (REQUIRED — built by `history-hack-graphic-organizer-workbook`).** Real interactive organizers (Venn = actual overlapping circles, concept web, timeline spine, Frayer, CER boxes) — never a grid of ruled lines. **The layout parameters were hard-won and are LOCKED** — honor them exactly, never re-derive: the **Venn label rule** (region labels + in-lobe hints live INSIDE the `<svg>` at viewBox coordinates, anchored at lobe centers — for two circles at `cx 330/570 r 245`, ≈ `x 250` left / `650` right, lens ≈ `450`; drop wide captions ≈ 8–12% below the apex so they clear the arc; **never** HTML overlays over the circles), light/writable fields (labels dark, writing areas white/cream), fill-the-page-no-dead-space, US-Letter portrait. See `history-hack-graphic-organizer-workbook/references/guardrails.md` + `design-system.md` and the reference Venn packs in `assets/example_packs/`. Verify every label sits inside its shape **at render**.
+- **Unit poster pack / wall set (REQUIRED — built by `history-hack-poster-packet-builder`).** 24×36 vector wall posters (Track A) + Letter station activities (Track B) + teacher guides + assembled bundle PDFs. **LOCKED layout constants** (hard-won — do not change): `PW,PH = 24×36 in`, outer frame `MAR = 0.75 in`, gold-hairline gap `FR = 0.20 in`, header band + chip geometry per `history-hack-poster-packet-builder/references/engine-reference.md`. Posters stay 24×36; margins/safe-area are non-negotiable so nothing clips at print.
 
 ## When to Use
 
@@ -88,6 +92,7 @@ Do not use this skill for one isolated slide or document edit unless the user ex
 - **Decks are MERGED, never authored from blank.** Both the student (review) and teacher (lecture) decks are the district's authentic source `.pptx` decks with the UDL/supports layer merged in.
 - **Visual assets are commercial-use-safe only** (PD / US-gov / CC0 / CC-BY) with a citation sidecar + alt text. **Never build political or boundary maps in-house.**
 - **Data charts & graphs — build them wherever the content warrants** (economic/demographic/electoral/production data). Original, accurate, generated from a **verified dataset** by `history-hack-unit-content-build`; each used as a read-the-data stimulus AND a student create/represent activity; each with a citation sidecar, alt text + data-table fallback, honest axes, grayscale-legible. Do not ration them — more real, relevant charts is better (STUDENT_WORKBOOK_PLATINUM_STANDARD §7.11). Large-format Data & Economics wall posters come from `history-hack-poster-packet-builder`.
+- **Graphic organizers + poster pack are PART OF THE BUILD, not extras** — every unit ships the organizer toolkit (`history-hack-graphic-organizer-workbook`) and the poster/wall set (`history-hack-poster-packet-builder`). Their **layout, margin, and Venn parameters are LOCKED and hard-won** — honor the skills' own guardrails exactly (Venn labels inside the `<svg>` at viewBox coords, light writable fields, organizer fill-the-page; poster `MAR = 0.75 in` frame + `FR = 0.20 in` hairline gap on the 24×36 master). Never re-derive these by hand or "eyeball" a layout; regressions here were the most-flagged defects. Verify at render that no label drifts outside its Venn circle and nothing clips the poster margin.
 - **Engineering guardrails (see `references/unit-content-and-qc-integration.md`):** duplicate `.pptx` slides only with the `pptx` skill's `add_slide.py` — **never `python-pptx` `add_slide`** (it can orphan a slide part and corrupt the package on re-save); validate with a load/save round-trip dup check. Notebook paper is a **borderless table with a per-row bottom border**, and **exactly one `w:spacing` per paragraph**.
 
 ## Required Skill Composition (this is an ORCHESTRATOR — invoke, never inline)
@@ -103,9 +108,10 @@ This skill is the orchestration layer. The mission/decision rule, the content en
 **Specialist skills (load when their scope is in play):**
 - `instructional-design-specialist` · `udl-cast-expert` · `learning-experience-designer` (digital/app UX) · `ell-bilingual-review-specialist` · `accessibility-qc-agent` · `copyright-integrity-accreditation` · `historian-factcheck-agent` · `tn-textbook-adoption-agent` · `tn-assessment-specialist` (all assessment items; supersedes the retired tcap-item-writer-v2) · `spaced-repetition-engine` (spiral/retrieval scheduling) · `history-hack-unit-qc` (end-to-end QC workflow that **orchestrates** the gate skills above — it does not duplicate them).
 - Deck generators: `history-hack-tcap-deck-builder` (teacher lecture deck) · `history-hack-lean-deck-builder` (student review deck).
+- Toolkit builders (**required components of a full unit** — invoke, honor their locked layouts): `history-hack-graphic-organizer-workbook` (organizer toolkit; Venn/margin guardrails) · `history-hack-poster-packet-builder` (24×36 wall set + stations; `0.75 in` frame).
 - `office/docx` · `office/pdf` (PDF export) · `office/pptx` and `pptx` (all slide duplication via `add_slide.py`; never `python-pptx add_slide`) · `coding` + `website-building/webapp` (generator) · `gws-best-practices` (Drive).
 
-**Companion skills (reference when in scope):** `history-hack-print-qc-auditor` (print-defect audit; external plugin) · `history-hack-graphic-organizer-workbook` (reproducible organizer toolkit) · `history-hack-dbq-workbook` (standalone DBQ SKUs — a *different product*, not the Course Standard unit workbook).
+**Companion skills (reference when in scope):** `history-hack-print-qc-auditor` (print-defect audit; external plugin) · `history-hack-dbq-workbook` (standalone DBQ SKUs — a *different product*, not the Course Standard unit workbook).
 
 For a full unit build, use parallel agents for independent audits or asset families when possible. Do not parallelize edits to the same authoritative file.
 
@@ -239,6 +245,10 @@ The user attaches (or you download from Drive) the district's **authentic source
 
 Visually inspect every slide referenced by a lesson plan. A lesson plan may not cite a slide that lacks the named content.
 
+### Build the Graphic-Organizer Toolkit and Poster Pack (part of every unit)
+
+Invoke `history-hack-graphic-organizer-workbook` to produce the unit's organizer toolkit and `history-hack-poster-packet-builder` to produce the 24×36 wall set + station packets. **Do not re-implement or eyeball these layouts** — the two skills own hard-won, LOCKED parameters (Venn viewBox label rule, light writable fields, poster `0.75 in` frame / `0.20 in` hairline gap on the 24×36 master). Run each skill's own render check and confirm at the pixel level: no Venn label outside its circle, no dark bar under a writing field, organizers fill the page, and nothing clips a poster margin. These pieces belong in the unit's district-ready folder alongside the workbook and decks.
+
 ### Connect the Lesson-Package Generator
 
 Each selectable “Included” material must point to a real file. The generator must support:
@@ -280,6 +290,7 @@ Run `references/platinum-qa.md`. No unit is complete until all critical gates pa
 - **`history-hack-text-integrity-qc` → 0 BLOCKER.** No truncated, clipped, or placeholder text anywhere; render-confirm every MAJOR.
 - **Schedule F self-score, scored as-built, ≥ 80%** — per section **and** per unit (not a design-time estimate; score what actually renders).
 - **Zero blank pages on every rendered PDF; notebook lines visible** on every ruled page.
+- **Organizer & poster layout gate (render-confirmed).** Every graphic organizer and poster is rendered and inspected: **no Venn label outside its circle**, writable fields light (never a dark bar under writing), organizers fill the page (no dead space), and every 24×36 poster holds the `0.75 in` frame with nothing clipping the margin/safe-area. Honor `history-hack-graphic-organizer-workbook` and `history-hack-poster-packet-builder` guardrails — a layout regression here does not ship.
 
 These gates are release-blocking: a unit with any lesson-flow blocker/major, any text-integrity BLOCKER, a Schedule F section/unit under 80% as-built, a blank page, or invisible notebook lines is **not** platinum and does not ship.
 
@@ -310,6 +321,7 @@ Report:
 - MagicSchool prompt packet and returned-draft status, when used
 - Fact-check, citation, copyright, and standards-alignment status
 - **Lesson-flow gate (blocker/major counts), text-integrity gate (BLOCKER count), Schedule F as-built score per section + unit, blank-page + notebook-line check, and DI-segment parity across workbook/teacher/student**
+- **Graphic-organizer toolkit + poster pack: piece counts, and the layout gate result** (Venn labels inside circles, light writable fields, no dead space; posters hold the `0.75 in` frame with no margin clip)
 - Any companion skill (e.g. `history-hack-print-qc-auditor`) whose scope was in play but was unavailable in the environment
 - Remaining blockers
 - Draft PR or preview link, if applicable
