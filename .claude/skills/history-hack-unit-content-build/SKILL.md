@@ -52,8 +52,14 @@ Gold `#F9A825` are *broader*-palette America 250 tokens for special surfaces, no
 
 ## Non-negotiable gates
 
+- **DOCX-native → PDF (LOCKED — print-first):** author documents as native `.docx`
+  (`build_guided_notes.py` / `build_teacher_guide.py`), then convert with LibreOffice
+  (`soffice --headless --convert-to pdf`). **Never HTML→PDF** (it mangles page breaks/headers/footers/
+  page numbers). Editable Word original is authoritative; PDF is a faithful convert — teachers get both.
+  See `00_START_HERE/BUILD_STANDARD.md` §4.
 - **Render-and-QC gate:** no workbook/guide/deck change ships until it is rendered to PDF and
-  inspected page-by-page. **Zero blank or near-empty pages.** See `references/rendering-and-qc.md`.
+  inspected page-by-page. **Zero blank or near-empty pages**; page breaks, header/footer, and the live
+  page-number field survive the convert. See `references/rendering-and-qc.md`.
 - **Historical accuracy:** every model answer (HIPPO analysis, CER model), quiz item, and
   answer key is verified against the record. Run `historian-factcheck-agent` on new prose.
 - **Bank-sourced assessments:** practice-quiz items come from the authoritative bank, verified

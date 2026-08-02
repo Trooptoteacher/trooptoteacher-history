@@ -45,9 +45,29 @@ activity's notes come from. Zero guesswork.
 - **Gate:** `history-hack-lesson-flow-qc` → **0 blocker / 0 major**. It builds the Workbook→Exact-
   Slide matrix, verifies DI parity + vocab-first, and flags any hard slide number or unresolvable ref.
 
-## 4. HTML → print-PDF formatting + white-space guardrails
+## 4. Print production: DOCX-native → PDF (LOCKED) + white-space guardrails
 
-Authoritative detail: `STUDENT_WORKBOOK_PLATINUM_STANDARD.md` §5 + §7; `history-hack-dbq-workbook/
+**This is a print-first platform. Documents are authored as native `.docx`, then converted to PDF —
+NEVER through HTML.** HTML→PDF is where page breaks, running headers/footers, and page numbers get
+mangled; native `.docx` paginates correctly (proven at scale — the 110-file set paginated right
+because the docx engine, not an HTML renderer, laid it out). The rule, for workbooks, teacher guides,
+answer keys, organizers — **any paginated document deliverable**:
+
+- **Author natively in `.docx`** (the docx engine / `engine.js` / `python-docx` — e.g.
+  `build_guided_notes.py`, `build_teacher_guide.py`), then **convert to PDF with LibreOffice**
+  (`HOME=/root/lohome soffice --headless --convert-to pdf FILE`). The **editable Word original is
+  authoritative; the PDF is a faithful convert of it.** Teachers get BOTH — an editable `.docx` and a
+  print-accurate PDF.
+- **Never generate the document as HTML and render it to PDF.** No wkhtmltopdf / headless-Chrome /
+  print-to-PDF-from-HTML path for documents. If you catch yourself writing HTML for a printable
+  document, stop and use the docx engine.
+- **Exception — large-format vector posters only:** 24×36 wall posters are generated directly as
+  vector PDF by `history-hack-poster-packet-builder` (they are not Word documents). That is not an
+  HTML→PDF path and is fine. Everything paginated-as-a-document goes docx-native.
+- **Pagination fidelity is a gate:** after convert, confirm page breaks land where authored, running
+  header/footer and the **live page-number field** are intact, and per-activity page isolation holds.
+
+Authoritative detail: `STUDENT_WORKBOOK_PLATINUM_STANDARD.md` §5 + §6 + §7; `history-hack-dbq-workbook/
 references/white-space-activity-library.md`.
 - **No write area without notebook lines** — ever. Ruled lines = a **borderless table with a per-row
   bottom border** (stacked bordered paragraphs collapse to one line); exactly one `w:spacing` per

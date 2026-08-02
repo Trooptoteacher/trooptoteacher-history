@@ -217,12 +217,20 @@ Data literacy is a tested C3 / Social Studies Practice skill, and TCAP leans hea
 
 ## 6. Print & production rules
 
+- **DOCX-native → PDF (LOCKED). Print-first platform.** Author the workbook (and every teacher
+  guide / answer key) as a **native `.docx`** with the docx engine (`build_guided_notes.py` /
+  `build_teacher_guide.py` / `engine.js`), then **convert to PDF with LibreOffice**
+  (`HOME=/root/lohome soffice --headless --convert-to pdf`). **Never author the document as HTML and
+  render it to PDF** — HTML→PDF mangles page breaks, running headers/footers, and page numbers. The
+  **editable Word original is authoritative; the PDF is a faithful convert.** Teachers receive both a
+  `.docx` and a print-accurate PDF. (Direct vector generation is reserved for 24×36 posters, which
+  are not documents.)
 - **300 DPI**; grayscale-legible (see §3 grayscale rule).
 - Workbook **≤ 120 pages**.
 - Two-pass build so the TOC and crosswalk page references reconverge after any white-space insert (never hardcode a page number).
 - **Keep-with-next / widow-orphan control:** headings stay with their first block; question stems stay with their options; short tables, rubrics, prompts, and response frames never split across pages.
 - Every image is verified against its own caption *and* the surrounding tasks before shipping (medium labeled honestly — engraving ≠ photograph).
-- Least-cost build: programmatic (ReportLab) PDF, not hand-layout.
+- **Pagination-fidelity check (gate):** after the convert, confirm page breaks land where authored, the running header/footer + **live page-number field** survive, per-activity page isolation holds, and there are zero blank pages.
 
 ---
 
