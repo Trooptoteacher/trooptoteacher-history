@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Item-rigor linter — enforces tn-assessment-specialist / tcap-item-writer-v2 objective rules:
+"""Item-rigor linter — enforces tn-assessment-specialist objective rules:
 (1) answer variance / de-biased keys, (2) option-length parity (no correct-is-longest; max/min word
 ratio ≤ ~1.6 ≈ within 20% band), (3) Option D not the weakest, (4) every distractor tagged (PK/MC/PE/NE/
 CA/AN/OG) + has a rationale, (5) no AOTA/NOTA, (6) no absolute-word clueing, (7) complete-question stems,

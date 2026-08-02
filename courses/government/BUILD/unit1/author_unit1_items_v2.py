@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Unit 1 MCQ bank v2 — authored to the tn-assessment-specialist / tcap-item-writer-v2 schema & rigor:
+"""Unit 1 MCQ bank v2 — authored to the tn-assessment-specialist schema & rigor:
 option-length parity (within ~20%), Option D as strong as A–C, every distractor tagged (PK/MC/PE/NE)
 + rationale, dok/blooms rationales, C3 dimension, reporting category, content tags, de-biased keys.
 Government adaptation: no US-History EOC, so reportingCategory = GC domain, instructionalPurpose=formative,
