@@ -1,0 +1,978 @@
+{
+ "reference_deck": "student",
+ "teacher": {
+  "US.45": {
+   "DIRECT INSTRUCTION": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "SOURCE IT FIRST": [
+    14
+   ],
+   "KEY VOCABULARY": [
+    15,
+    22
+   ],
+   "THREE PERSPECTIVES": [
+    17
+   ],
+   "PROGRESS CHECK": [
+    18,
+    23
+   ]
+  },
+  "US.46": {
+   "DIRECT INSTRUCTION": [
+    27,
+    28,
+    29,
+    30
+   ],
+   "SOURCE IT FIRST": [
+    32
+   ],
+   "KEY VOCABULARY": [
+    33,
+    40
+   ],
+   "THREE PERSPECTIVES": [
+    35
+   ],
+   "PROGRESS CHECK": [
+    36,
+    41
+   ]
+  },
+  "US.47": {
+   "DIRECT INSTRUCTION": [
+    45,
+    46,
+    47,
+    48
+   ],
+   "SOURCE IT FIRST": [
+    50
+   ],
+   "KEY VOCABULARY": [
+    51,
+    58
+   ],
+   "THREE PERSPECTIVES": [
+    53
+   ],
+   "PROGRESS CHECK": [
+    54,
+    59
+   ]
+  },
+  "US.48": {
+   "DIRECT INSTRUCTION": [
+    63,
+    64,
+    65,
+    66
+   ],
+   "SOURCE IT FIRST": [
+    68
+   ],
+   "KEY VOCABULARY": [
+    69,
+    76
+   ],
+   "THREE PERSPECTIVES": [
+    71
+   ],
+   "PROGRESS CHECK": [
+    72,
+    77
+   ]
+  },
+  "US.49": {
+   "DIRECT INSTRUCTION": [
+    81,
+    82,
+    83,
+    84
+   ],
+   "SOURCE IT FIRST": [
+    86
+   ],
+   "KEY VOCABULARY": [
+    87,
+    94
+   ],
+   "THREE PERSPECTIVES": [
+    89
+   ],
+   "PROGRESS CHECK": [
+    90,
+    95
+   ]
+  },
+  "US.50": {
+   "DIRECT INSTRUCTION": [
+    99,
+    100,
+    101,
+    102
+   ],
+   "SOURCE IT FIRST": [
+    104
+   ],
+   "KEY VOCABULARY": [
+    105,
+    112
+   ],
+   "THREE PERSPECTIVES": [
+    107
+   ],
+   "PROGRESS CHECK": [
+    108,
+    113
+   ]
+  },
+  "US.51": {
+   "DIRECT INSTRUCTION": [
+    117,
+    118,
+    119,
+    120,
+    121
+   ],
+   "SOURCE IT FIRST": [
+    123
+   ],
+   "KEY VOCABULARY": [
+    124,
+    131
+   ],
+   "THREE PERSPECTIVES": [
+    126
+   ],
+   "PROGRESS CHECK": [
+    127,
+    132
+   ]
+  },
+  "US.52": {
+   "DIRECT INSTRUCTION": [
+    136,
+    137,
+    138,
+    139
+   ],
+   "SOURCE IT FIRST": [
+    141
+   ],
+   "KEY VOCABULARY": [
+    142,
+    149
+   ],
+   "THREE PERSPECTIVES": [
+    144
+   ],
+   "PROGRESS CHECK": [
+    145,
+    150
+   ]
+  },
+  "US.53": {
+   "DIRECT INSTRUCTION": [
+    154,
+    155,
+    156,
+    157
+   ],
+   "SOURCE IT FIRST": [
+    159
+   ],
+   "KEY VOCABULARY": [
+    160,
+    167
+   ],
+   "THREE PERSPECTIVES": [
+    162
+   ],
+   "PROGRESS CHECK": [
+    163,
+    168
+   ]
+  },
+  "US.54": {
+   "DIRECT INSTRUCTION": [
+    172,
+    173,
+    174,
+    175
+   ],
+   "SOURCE IT FIRST": [
+    177
+   ],
+   "KEY VOCABULARY": [
+    178,
+    185
+   ],
+   "THREE PERSPECTIVES": [
+    180
+   ],
+   "PROGRESS CHECK": [
+    181,
+    186
+   ]
+  },
+  "US.55": {
+   "DIRECT INSTRUCTION": [
+    190,
+    191,
+    192,
+    193
+   ],
+   "SOURCE IT FIRST": [
+    195
+   ],
+   "KEY VOCABULARY": [
+    196,
+    203
+   ],
+   "THREE PERSPECTIVES": [
+    198
+   ],
+   "PROGRESS CHECK": [
+    199,
+    204
+   ]
+  },
+  "US.56": {
+   "DIRECT INSTRUCTION": [
+    208,
+    209,
+    210,
+    211
+   ],
+   "SOURCE IT FIRST": [
+    213
+   ],
+   "KEY VOCABULARY": [
+    214,
+    221
+   ],
+   "THREE PERSPECTIVES": [
+    216
+   ],
+   "PROGRESS CHECK": [
+    217,
+    222
+   ]
+  },
+  "US.57": {
+   "DIRECT INSTRUCTION": [
+    226,
+    227,
+    228,
+    229
+   ],
+   "SOURCE IT FIRST": [
+    231
+   ],
+   "KEY VOCABULARY": [
+    232,
+    239
+   ],
+   "THREE PERSPECTIVES": [
+    234
+   ],
+   "PROGRESS CHECK": [
+    235,
+    240
+   ]
+  },
+  "US.58": {
+   "DIRECT INSTRUCTION": [
+    244,
+    245,
+    246,
+    247
+   ],
+   "SOURCE IT FIRST": [
+    249
+   ],
+   "KEY VOCABULARY": [
+    250,
+    257
+   ],
+   "THREE PERSPECTIVES": [
+    252
+   ],
+   "PROGRESS CHECK": [
+    253,
+    258
+   ]
+  }
+ },
+ "student": {
+  "US.45": {
+   "KEY VOCABULARY": [
+    4
+   ],
+   "DIRECT INSTRUCTION": [
+    5,
+    6
+   ],
+   "SOURCE IT FIRST": [
+    7
+   ],
+   "THREE PERSPECTIVES": [
+    8
+   ],
+   "PROGRESS CHECK": [
+    9
+   ]
+  },
+  "US.46": {
+   "KEY VOCABULARY": [
+    11
+   ],
+   "DIRECT INSTRUCTION": [
+    12,
+    13,
+    14
+   ],
+   "SOURCE IT FIRST": [
+    15
+   ],
+   "THREE PERSPECTIVES": [
+    16
+   ],
+   "PROGRESS CHECK": [
+    17
+   ]
+  },
+  "US.47": {
+   "KEY VOCABULARY": [
+    19
+   ],
+   "DIRECT INSTRUCTION": [
+    20,
+    21,
+    22
+   ],
+   "SOURCE IT FIRST": [
+    23
+   ],
+   "THREE PERSPECTIVES": [
+    24
+   ],
+   "PROGRESS CHECK": [
+    25
+   ]
+  },
+  "US.48": {
+   "KEY VOCABULARY": [
+    27
+   ],
+   "DIRECT INSTRUCTION": [
+    28,
+    29,
+    30
+   ],
+   "SOURCE IT FIRST": [
+    31
+   ],
+   "THREE PERSPECTIVES": [
+    32
+   ],
+   "PROGRESS CHECK": [
+    33
+   ]
+  },
+  "US.49": {
+   "KEY VOCABULARY": [
+    35
+   ],
+   "DIRECT INSTRUCTION": [
+    36,
+    37,
+    38
+   ],
+   "SOURCE IT FIRST": [
+    39
+   ],
+   "THREE PERSPECTIVES": [
+    40
+   ],
+   "PROGRESS CHECK": [
+    41
+   ]
+  },
+  "US.50": {
+   "KEY VOCABULARY": [
+    43
+   ],
+   "DIRECT INSTRUCTION": [
+    44,
+    45,
+    46
+   ],
+   "SOURCE IT FIRST": [
+    47
+   ],
+   "THREE PERSPECTIVES": [
+    48
+   ],
+   "PROGRESS CHECK": [
+    49
+   ]
+  },
+  "US.51": {
+   "KEY VOCABULARY": [
+    51
+   ],
+   "DIRECT INSTRUCTION": [
+    52,
+    53,
+    54
+   ],
+   "SOURCE IT FIRST": [
+    55
+   ],
+   "THREE PERSPECTIVES": [
+    56
+   ],
+   "PROGRESS CHECK": [
+    57
+   ]
+  },
+  "US.52": {
+   "KEY VOCABULARY": [
+    59
+   ],
+   "DIRECT INSTRUCTION": [
+    60,
+    61,
+    62
+   ],
+   "SOURCE IT FIRST": [
+    63
+   ],
+   "THREE PERSPECTIVES": [
+    64
+   ],
+   "PROGRESS CHECK": [
+    65
+   ]
+  },
+  "US.53": {
+   "KEY VOCABULARY": [
+    67
+   ],
+   "DIRECT INSTRUCTION": [
+    68,
+    69,
+    70
+   ],
+   "SOURCE IT FIRST": [
+    71
+   ],
+   "THREE PERSPECTIVES": [
+    72
+   ],
+   "PROGRESS CHECK": [
+    73
+   ]
+  },
+  "US.54": {
+   "KEY VOCABULARY": [
+    75
+   ],
+   "DIRECT INSTRUCTION": [
+    76,
+    77,
+    78
+   ],
+   "SOURCE IT FIRST": [
+    79
+   ],
+   "THREE PERSPECTIVES": [
+    80
+   ],
+   "PROGRESS CHECK": [
+    81
+   ]
+  },
+  "US.55": {
+   "KEY VOCABULARY": [
+    83
+   ],
+   "DIRECT INSTRUCTION": [
+    84,
+    85,
+    86
+   ],
+   "SOURCE IT FIRST": [
+    87
+   ],
+   "THREE PERSPECTIVES": [
+    88
+   ],
+   "PROGRESS CHECK": [
+    89
+   ]
+  },
+  "US.56": {
+   "KEY VOCABULARY": [
+    91
+   ],
+   "DIRECT INSTRUCTION": [
+    92,
+    93,
+    94
+   ],
+   "SOURCE IT FIRST": [
+    95
+   ],
+   "THREE PERSPECTIVES": [
+    96
+   ],
+   "PROGRESS CHECK": [
+    97
+   ]
+  },
+  "US.57": {
+   "KEY VOCABULARY": [
+    99
+   ],
+   "DIRECT INSTRUCTION": [
+    100,
+    101,
+    102
+   ],
+   "SOURCE IT FIRST": [
+    103
+   ],
+   "THREE PERSPECTIVES": [
+    104
+   ],
+   "PROGRESS CHECK": [
+    105
+   ]
+  },
+  "US.58": {
+   "KEY VOCABULARY": [
+    107
+   ],
+   "DIRECT INSTRUCTION": [
+    108,
+    109,
+    110
+   ],
+   "SOURCE IT FIRST": [
+    111
+   ],
+   "THREE PERSPECTIVES": [
+    112
+   ],
+   "PROGRESS CHECK": [
+    113
+   ]
+  }
+ },
+ "activity_slides": {
+  "US.45": {
+   "Activity 1": [
+    4
+   ],
+   "Activity 2": [
+    4
+   ],
+   "Activity 3": [
+    5,
+    6
+   ],
+   "Activity 4": [
+    5,
+    6
+   ],
+   "Activity 5": [
+    7
+   ],
+   "Activity 7": [
+    8
+   ],
+   "Activity 6": [
+    9
+   ]
+  },
+  "US.46": {
+   "Activity 1": [
+    11
+   ],
+   "Activity 2": [
+    11
+   ],
+   "Activity 3": [
+    12,
+    13,
+    14
+   ],
+   "Activity 4": [
+    12,
+    13,
+    14
+   ],
+   "Activity 5": [
+    15
+   ],
+   "Activity 7": [
+    16
+   ],
+   "Activity 6": [
+    17
+   ]
+  },
+  "US.47": {
+   "Activity 1": [
+    19
+   ],
+   "Activity 2": [
+    19
+   ],
+   "Activity 3": [
+    20,
+    21,
+    22
+   ],
+   "Activity 4": [
+    20,
+    21,
+    22
+   ],
+   "Activity 5": [
+    23
+   ],
+   "Activity 7": [
+    24
+   ],
+   "Activity 6": [
+    25
+   ]
+  },
+  "US.48": {
+   "Activity 1": [
+    27
+   ],
+   "Activity 2": [
+    27
+   ],
+   "Activity 3": [
+    28,
+    29,
+    30
+   ],
+   "Activity 4": [
+    28,
+    29,
+    30
+   ],
+   "Activity 5": [
+    31
+   ],
+   "Activity 7": [
+    32
+   ],
+   "Activity 6": [
+    33
+   ]
+  },
+  "US.49": {
+   "Activity 1": [
+    35
+   ],
+   "Activity 2": [
+    35
+   ],
+   "Activity 3": [
+    36,
+    37,
+    38
+   ],
+   "Activity 4": [
+    36,
+    37,
+    38
+   ],
+   "Activity 5": [
+    39
+   ],
+   "Activity 7": [
+    40
+   ],
+   "Activity 6": [
+    41
+   ]
+  },
+  "US.50": {
+   "Activity 1": [
+    43
+   ],
+   "Activity 2": [
+    43
+   ],
+   "Activity 3": [
+    44,
+    45,
+    46
+   ],
+   "Activity 4": [
+    44,
+    45,
+    46
+   ],
+   "Activity 5": [
+    47
+   ],
+   "Activity 7": [
+    48
+   ],
+   "Activity 6": [
+    49
+   ]
+  },
+  "US.51": {
+   "Activity 1": [
+    51
+   ],
+   "Activity 2": [
+    51
+   ],
+   "Activity 3": [
+    52,
+    53,
+    54
+   ],
+   "Activity 4": [
+    52,
+    53,
+    54
+   ],
+   "Activity 5": [
+    55
+   ],
+   "Activity 7": [
+    56
+   ],
+   "Activity 6": [
+    57
+   ]
+  },
+  "US.52": {
+   "Activity 1": [
+    59
+   ],
+   "Activity 2": [
+    59
+   ],
+   "Activity 3": [
+    60,
+    61,
+    62
+   ],
+   "Activity 4": [
+    60,
+    61,
+    62
+   ],
+   "Activity 5": [
+    63
+   ],
+   "Activity 7": [
+    64
+   ],
+   "Activity 6": [
+    65
+   ]
+  },
+  "US.53": {
+   "Activity 1": [
+    67
+   ],
+   "Activity 2": [
+    67
+   ],
+   "Activity 3": [
+    68,
+    69,
+    70
+   ],
+   "Activity 4": [
+    68,
+    69,
+    70
+   ],
+   "Activity 5": [
+    71
+   ],
+   "Activity 7": [
+    72
+   ],
+   "Activity 6": [
+    73
+   ]
+  },
+  "US.54": {
+   "Activity 1": [
+    75
+   ],
+   "Activity 2": [
+    75
+   ],
+   "Activity 3": [
+    76,
+    77,
+    78
+   ],
+   "Activity 4": [
+    76,
+    77,
+    78
+   ],
+   "Activity 5": [
+    79
+   ],
+   "Activity 7": [
+    80
+   ],
+   "Activity 6": [
+    81
+   ]
+  },
+  "US.55": {
+   "Activity 1": [
+    83
+   ],
+   "Activity 2": [
+    83
+   ],
+   "Activity 3": [
+    84,
+    85,
+    86
+   ],
+   "Activity 4": [
+    84,
+    85,
+    86
+   ],
+   "Activity 5": [
+    87
+   ],
+   "Activity 7": [
+    88
+   ],
+   "Activity 6": [
+    89
+   ]
+  },
+  "US.56": {
+   "Activity 1": [
+    91
+   ],
+   "Activity 2": [
+    91
+   ],
+   "Activity 3": [
+    92,
+    93,
+    94
+   ],
+   "Activity 4": [
+    92,
+    93,
+    94
+   ],
+   "Activity 5": [
+    95
+   ],
+   "Activity 7": [
+    96
+   ],
+   "Activity 6": [
+    97
+   ]
+  },
+  "US.57": {
+   "Activity 1": [
+    99
+   ],
+   "Activity 2": [
+    99
+   ],
+   "Activity 3": [
+    100,
+    101,
+    102
+   ],
+   "Activity 4": [
+    100,
+    101,
+    102
+   ],
+   "Activity 5": [
+    103
+   ],
+   "Activity 7": [
+    104
+   ],
+   "Activity 6": [
+    105
+   ]
+  },
+  "US.58": {
+   "Activity 1": [
+    107
+   ],
+   "Activity 2": [
+    107
+   ],
+   "Activity 3": [
+    108,
+    109,
+    110
+   ],
+   "Activity 4": [
+    108,
+    109,
+    110
+   ],
+   "Activity 5": [
+    111
+   ],
+   "Activity 7": [
+    112
+   ],
+   "Activity 6": [
+    113
+   ]
+  }
+ },
+ "role_to_activity": {
+  "KEY VOCABULARY": [
+   1,
+   2
+  ],
+  "DIRECT INSTRUCTION": [
+   3,
+   4
+  ],
+  "SOURCE IT FIRST": [
+   5
+  ],
+  "PROGRESS CHECK": [
+   6
+  ],
+  "THREE PERSPECTIVES": [
+   7
+  ]
+ }
+}
