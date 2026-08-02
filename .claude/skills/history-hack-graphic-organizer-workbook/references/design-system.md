@@ -5,7 +5,7 @@ so the header, when·why blurb, UDL·MTSS strip, footer, and time chip are pixel
 workbook. Do not fork it; extend via each organizer's `extra_css`.
 
 ## Brand tokens
-Navy `#1B2A4A` · red `#B22234` · gold `#C89B3C` · cream `#F7F5EF` · white. Light tints for writable
+America 250 (`00_START_HERE/BRAND_PALETTE.md`): Heritage Blue `#1F3A5F` · Patriot Red `#B22234` · Muted Gold `#C9A227` · Founders Cream `#F8F5EF` · white. Light tints for writable
 surfaces: navy `#EEF1F7`, red `#FBEEEF`, gold `#FAF3E2`, green `#EAF2EC`. Rule `#CBD2DE`, muted `#5A6579`,
 writing-line `#C4CCDA`. Headline font Georgia serif; body Helvetica/Arial. US-Letter portrait (8.5×11in).
 

@@ -1,0 +1,27 @@
+name: skills-lint
+
+# Anti-drift gate for the canonical skill set (.claude/skills/).
+# Fails the build on a name/dir mismatch, a dangling skill reference, an
+# un-annotated retired-skill name, or a builder that inlines a gate/engine
+# instead of invoking it. See .claude/skills/SKILLS.md for the contract.
+
+on:
+  push:
+    paths:
+      - ".claude/skills/**"
+      - ".github/workflows/skills-lint.yml"
+  pull_request:
+    paths:
+      - ".claude/skills/**"
+      - ".github/workflows/skills-lint.yml"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run canonical skill lint
+        run: python3 .claude/skills/lint_skills.py

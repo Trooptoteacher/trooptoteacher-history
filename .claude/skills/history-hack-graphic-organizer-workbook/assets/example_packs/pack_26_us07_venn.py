@@ -25,9 +25,9 @@ BODY = r"""
     <div class="canvas">
       <div class="venn-wrap">
         <svg viewBox="0 0 900 560" preserveAspectRatio="xMidYMid meet" font-family="Helvetica Neue, Arial, sans-serif">
-          <circle cx="330" cy="285" r="245" fill="#EEF1F7" stroke="#1B2A4A" stroke-width="3.5"/>
+          <circle cx="330" cy="285" r="245" fill="#EEF1F7" stroke="#1F3A5F" stroke-width="3.5"/>
           <circle cx="570" cy="285" r="245" fill="#FBEEEF" stroke="#B22234" stroke-width="3.5"/>
-          <path d="M 450,71.4 A 245,245 0 0,1 450,498.6 A 245,245 0 0,1 450,71.4 Z" fill="#FAF3E2" stroke="#C89B3C" stroke-width="2.5"/>
+          <path d="M 450,71.4 A 245,245 0 0,1 450,498.6 A 245,245 0 0,1 450,71.4 Z" fill="#FAF3E2" stroke="#C9A227" stroke-width="2.5"/>
           <!-- writing guides -->
           <g stroke="#B9C2D0" stroke-width="1.2" stroke-dasharray="2 5">
             <line x1="150" y1="335" x2="300" y2="335"/><line x1="140" y1="373" x2="300" y2="373"/><line x1="150" y1="411" x2="300" y2="411"/></g>
@@ -37,7 +37,7 @@ BODY = r"""
             <line x1="408" y1="360" x2="492" y2="360"/><line x1="404" y1="398" x2="496" y2="398"/></g>
           <!-- region labels (in-SVG => always inside the circles) -->
           <g text-anchor="middle" font-weight="800">
-            <text x="212" y="250" font-size="19" fill="#1B2A4A">ONLY &ldquo;OLD&rdquo;</text>
+            <text x="212" y="250" font-size="19" fill="#1F3A5F">ONLY &ldquo;OLD&rdquo;</text>
             <text x="688" y="250" font-size="19" fill="#B22234">ONLY &ldquo;NEW&rdquo;</text>
             <text x="450" y="205" font-size="19" fill="#8a6a1e">BOTH</text>
           </g>

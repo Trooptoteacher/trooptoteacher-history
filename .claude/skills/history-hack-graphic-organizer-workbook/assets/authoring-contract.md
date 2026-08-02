@@ -54,7 +54,7 @@ of ruled lines.
   `var(--navy-tint) var(--red-tint) var(--gold-tint) var(--green-tint)`.
 - Inline SVG is encouraged for circles/hubs/lenses/timelines. Use light fills
   (`#EEF1F7` navy-tint, `#FBEEEF` red-tint, `#FAF3E2` gold-tint) with colored
-  strokes (`#1B2A4A #B22234 #C89B3C`). Add faint dashed writing guides
+  strokes (`#1F3A5F #B22234 #C9A227`). Add faint dashed writing guides
   (`stroke="#B9C2D0" stroke-dasharray="2 5"`).
 
 ## Build + self-QC loop (REQUIRED — iterate until each page looks right)

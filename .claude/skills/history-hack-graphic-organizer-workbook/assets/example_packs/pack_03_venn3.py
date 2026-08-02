@@ -25,9 +25,9 @@ BODY = r"""
         <svg viewBox="0 0 900 660" preserveAspectRatio="xMidYMid meet"
              font-family="Helvetica Neue, Arial, sans-serif">
           <!-- three mutually overlapping circles (equilateral centers) -->
-          <circle cx="332" cy="228" r="212" fill="#EEF1F7" fill-opacity="0.5" stroke="#1B2A4A" stroke-width="3.5"/>
+          <circle cx="332" cy="228" r="212" fill="#EEF1F7" fill-opacity="0.5" stroke="#1F3A5F" stroke-width="3.5"/>
           <circle cx="568" cy="228" r="212" fill="#FBEEEF" fill-opacity="0.5" stroke="#B22234" stroke-width="3.5"/>
-          <circle cx="450" cy="428" r="212" fill="#FAF3E2" fill-opacity="0.5" stroke="#C89B3C" stroke-width="3.5"/>
+          <circle cx="450" cy="428" r="212" fill="#FAF3E2" fill-opacity="0.5" stroke="#C9A227" stroke-width="3.5"/>
 
           <!-- faint dashed writing guides in each single lobe -->
           <g stroke="#B9C2D0" stroke-width="1.3" stroke-dasharray="2 5">

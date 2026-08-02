@@ -1,7 +1,7 @@
 # Course Standard (Platinum) — Print & Templating Spec
 
-The detailed print/formatting spec for a Course Standard unit, absorbed from the retired
-standalone `history-hack-course-standard-builder`. **Unit 6 is the canonical template — every
+The detailed print/formatting spec for a Course Standard unit, absorbed from the
+retired standalone `history-hack-course-standard-builder`. **Unit 6 is the canonical template — every
 Course Standard deliverable must match it exactly, no deviation.** `SKILL.md` holds the
 decisions and orchestration; this file holds the exact tokens, page structure, build loop, and
 the print gotchas. Adapt the *content* per unit; never re-invent the *layout*.
@@ -31,18 +31,19 @@ revision notes) and a SHA-256-manifest package.
 ## Design tokens (no deviation)
 
 - **Font:** Calibri throughout.
-- **Navy (primary):** `#0A1F3C` for headings. **Secondary navy:** `#143159`. (The legacy
-  `#1B2A4A` navy is retired — do not use it.)
-- **Red H3 / accent:** `#B22234` (required accent — red designation bands, red keylines, red
-  bullet markers; a navy/gold-only cover is incomplete).
-- **Cream callout fill:** `#F7F5EF`. **Gold accent:** `#C89B3C`.
+- **Heritage Blue (primary):** `#1F3A5F` for headings and structure (America 250). (The legacy
+  navies `#1B2A4A` / `#0A1F3C` / `#143159` are retired — do not use them.)
+- **Patriot Red H3 / accent:** `#B22234` (required accent — red designation bands, red keylines, red
+  bullet markers; a blue/gold-only cover is incomplete).
+- **Founders Cream callout fill:** `#F8F5EF`. **Muted Gold accent:** `#C9A227` (used sparingly).
+  (Legacy gold `#C89B3C` is retired.)
 - **Margins:** 0.8" / 0.9"; **content width 6.7"**; US-Letter page size.
 - **Gold running header;** footer with a **live page-number field**.
 
 ## Source-analysis frame
 
 - **HIPP** for lesson-level source analysis (Activity 5 organizer).
-- **HIPPO** reserved for full DBQ work (the standalone DBQ SKU, `history-hack-platinum-workbook`).
+- **HIPPO** reserved for full DBQ work (the standalone DBQ SKU, `history-hack-dbq-workbook`).
 
 ## Workbook structure — the per-standard 7-activity spine
 
@@ -116,8 +117,8 @@ SUPPORT), set alt text, and renumber.
   `add_slide`** (it can orphan a slide part and corrupt the package on re-save). Validate with a
   load/save round-trip dup check.
 - Per-standard slide blocks stay **contiguous**; DI count matches workbook = teacher = student.
-- The teacher↔workbook LESSON→WORKBOOK MAP is added by the companion skill
-  `teacher-deck-workbook-aligner` on top of this merge.
+- The teacher↔workbook LESSON→WORKBOOK MAP is verified by `history-hack-lesson-flow-qc`
+  (workbook↔deck exact-slide alignment) after this merge.
 
 ## The TOC rule (page numbers must be baked)
 

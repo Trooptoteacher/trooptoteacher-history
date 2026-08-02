@@ -4,7 +4,7 @@ Every page uses render_page() so header / why-blurb / UDL strip / footer are
 pixel-identical across the whole toolkit (the approved Venn house style).
 
 Design rules enforced here:
-  * Brand palette: navy #1B2A4A, red #B22234, gold #C89B3C, cream #F7F5EF, white.
+  * Brand palette: navy #1F3A5F, red #B22234, gold #C9A227, cream #F8F5EF, white.
   * Writable fields are LIGHT (white/cream .well); only labels may be dark.
   * Footer on every page: U.S. History Hack(TM) . (c) 2026 TroopToTeacher Technologies LLC
   * US-Letter portrait, print/grayscale legible, WCAG-AA text contrast.
@@ -12,8 +12,8 @@ Design rules enforced here:
 
 SHARED_CSS = r"""
   :root{
-    --navy:#1B2A4A; --red:#B22234; --gold:#C89B3C;
-    --cream:#F7F5EF; --paper:#ffffff; --ink:#1B2A4A;
+    --navy:#1F3A5F; --red:#B22234; --gold:#C9A227;
+    --cream:#F8F5EF; --paper:#ffffff; --ink:#1F3A5F;
     --navy-tint:#EEF1F7; --red-tint:#FBEEEF; --gold-tint:#FAF3E2; --green-tint:#EAF2EC;
     --rule:#CBD2DE; --muted:#5A6579; --wl:#C4CCDA;
   }
@@ -125,7 +125,7 @@ def _chips(chips):
     return "\n      ".join(out)
 
 
-CLOCK_SVG = ('<svg viewBox="0 0 24 24" fill="none" stroke="#1B2A4A" stroke-width="2.2" '
+CLOCK_SVG = ('<svg viewBox="0 0 24 24" fill="none" stroke="#1F3A5F" stroke-width="2.2" '
              'stroke-linecap="round"><circle cx="12" cy="12" r="9"/>'
              '<path d="M12 7.5 V12 L15.2 14"/></svg>')
 

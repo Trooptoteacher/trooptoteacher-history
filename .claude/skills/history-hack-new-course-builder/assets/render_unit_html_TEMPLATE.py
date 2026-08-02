@@ -2,7 +2,7 @@
 """Render Unit 1 from unit1_content.json into print-first, B&W-safe HTML:
  - unit-1.html                (student textbook chapter — NO answer keys)
  - unit-1-teacher-guide.html  (teacher guide — answer keys + reteach, teacher-side only)
-Design tokens mirror 00_START_HERE/playbook.html (navy #1B2A4A / gold #C9A227, Merriweather + Source Sans 3).
+Design tokens mirror 00_START_HERE/playbook.html (navy #1F3A5F / gold #C9A227, Merriweather + Source Sans 3).
 Bilingual EN/ES vocab · WCAG-minded · never emits the source-district label. © 2026 TroopToTeacher Technologies LLC."""
 import json, os, html
 HERE=os.path.dirname(os.path.abspath(__file__))
@@ -19,18 +19,18 @@ body{font-family:'Source Sans 3',Arial,sans-serif;background:#fff;color:#111;wid
 @page{size:letter portrait;margin:.6in .65in}
 @media print{html{background:#fff}body{margin:0;box-shadow:none;width:auto}.no-print{display:none!important}
  .std{break-inside:avoid-page}.pss,.frayer,.cfu,.card{break-inside:avoid}}
-.no-print{position:fixed;top:10px;right:10px;background:#1B2A4A;color:#fff;border:none;border-radius:5px;
+.no-print{position:fixed;top:10px;right:10px;background:#1F3A5F;color:#fff;border:none;border-radius:5px;
  padding:7px 14px;font-size:11px;font-weight:700;cursor:pointer;z-index:99}
-.hero{background:#1B2A4A;padding:26px .6in 20px;color:#fff}
+.hero{background:#1F3A5F;padding:26px .6in 20px;color:#fff}
 .hero .eye{font-size:8pt;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#C9A227}
 .hero h1{font-family:'Merriweather',Georgia,serif;font-size:19pt;line-height:1.2;margin:6px 0 4px}
 .hero .sub{font-size:10pt;color:#B5D4F4;font-style:italic}
 .gold-bar{background:#C9A227;color:#3D2200;padding:5px .6in;font-size:8.5pt;font-weight:700;
  display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
-.eq{background:#f0f5fb;border-left:4px solid #1B2A4A;padding:11px 16px;margin:14px .6in;border-radius:0 5px 5px 0;font-style:italic;font-size:11pt}
+.eq{background:#f0f5fb;border-left:4px solid #1F3A5F;padding:11px 16px;margin:14px .6in;border-radius:0 5px 5px 0;font-style:italic;font-size:11pt}
 .pg{padding:6px .6in .3in}
 .std{margin:22px 0;border:1px solid #d8dee8;border-radius:6px;overflow:hidden}
-.std>.band{background:#1B2A4A;color:#fff;padding:10px 16px}
+.std>.band{background:#1F3A5F;color:#fff;padding:10px 16px}
 .std .code{font-family:'Merriweather',serif;font-size:13pt;font-weight:700}
 .std .stext{font-size:9.5pt;color:#dbe6f5;margin-top:3px;line-height:1.5}
 .tags{margin-top:7px;display:flex;flex-wrap:wrap;gap:5px}
@@ -39,20 +39,20 @@ body{font-family:'Source Sans 3',Arial,sans-serif;background:#fff;color:#111;wid
 .body{padding:13px 16px}
 .ican{background:#eef4ec;border-left:4px solid #4a7c59;padding:8px 12px;border-radius:0 4px 4px 0;font-size:9.5pt;margin-bottom:11px}
 .ican b{color:#2f5233}
-.hook{font-family:'Merriweather',serif;font-style:italic;color:#1B2A4A;font-size:11pt;margin:2px 0 12px;padding-left:10px;border-left:3px solid #C9A227}
-h3{font-family:'Merriweather',serif;font-size:11pt;color:#1B2A4A;margin:14px 0 6px}
+.hook{font-family:'Merriweather',serif;font-style:italic;color:#1F3A5F;font-size:11pt;margin:2px 0 12px;padding-left:10px;border-left:3px solid #C9A227}
+h3{font-family:'Merriweather',serif;font-size:11pt;color:#1F3A5F;margin:14px 0 6px}
 h4{font-size:9.5pt;font-weight:700;color:#2A3F5E;margin:11px 0 4px;text-transform:uppercase;letter-spacing:.04em}
 p{margin-bottom:9px}
 .pss{background:#f7f4ea;border:1px solid #d9cfa8;border-left:4px solid #C9A227;border-radius:0 5px 5px 0;padding:12px 15px;margin:12px 0}
 .pss .lbl{font-size:8pt;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#8a6d1f}
-.pss .src-t{font-weight:700;color:#1B2A4A;margin-top:3px}
-.pss blockquote{font-family:'Merriweather',serif;font-style:italic;font-size:10pt;line-height:1.55;margin:7px 0;padding:7px 12px;background:#fffdf6;border-left:3px solid #1B2A4A}
+.pss .src-t{font-weight:700;color:#1F3A5F;margin-top:3px}
+.pss blockquote{font-family:'Merriweather',serif;font-style:italic;font-size:10pt;line-height:1.55;margin:7px 0;padding:7px 12px;background:#fffdf6;border-left:3px solid #1F3A5F}
 .pss cite{display:block;font-size:8pt;color:#555;font-style:normal;margin-top:3px}
 .soaps{font-size:8.5pt;color:#3D2200;background:#fbf7ec;border:1px dashed #cbb978;border-radius:4px;padding:6px 10px;margin:8px 0}
 ol.tdq{margin:6px 0 4px 20px}ol.tdq li{margin-bottom:5px;font-size:9.5pt}
 .write{border-bottom:1px solid #bbb;height:.34in}
-.frayer{border:1.5px solid #1B2A4A;border-radius:5px;margin:9px 0;overflow:hidden}
-.frayer .ft{background:#1B2A4A;color:#fff;padding:5px 11px;font-weight:700;font-size:10pt;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.frayer{border:1.5px solid #1F3A5F;border-radius:5px;margin:9px 0;overflow:hidden}
+.frayer .ft{background:#1F3A5F;color:#fff;padding:5px 11px;font-weight:700;font-size:10pt;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 .frayer .ft .say{font-weight:400;font-style:italic;color:#B5D4F4;font-size:8.5pt}
 .frayer .ft .es{color:#C9A227;font-size:8.5pt}
 .frayer .fd{padding:8px 11px;font-size:9.5pt}
@@ -63,13 +63,13 @@ ol.tdq{margin:6px 0 4px 20px}ol.tdq li{margin-bottom:5px;font-size:9.5pt}
 .cfu{background:#eef2f8;border:1px solid #c3d0e6;border-radius:5px;padding:11px 14px;margin:11px 0}
 .cfu .q{font-weight:600;margin-bottom:6px}
 .cfu ol{margin-left:22px}.cfu li{margin-bottom:3px;font-size:9.5pt}
-.dok{display:inline-block;background:#1B2A4A;color:#fff;font-size:7.5pt;font-weight:700;padding:1px 6px;border-radius:3px;margin-left:6px}
+.dok{display:inline-block;background:#1F3A5F;color:#fff;font-size:7.5pt;font-weight:700;padding:1px 6px;border-radius:3px;margin-left:6px}
 .card{background:#f8f8f6;border:1px solid #ddd;border-radius:5px;padding:10px 14px;margin:11px 0}
-.retrieval{background:#1B2A4A;color:#fff;padding:14px .6in;margin-top:18px}
+.retrieval{background:#1F3A5F;color:#fff;padding:14px .6in;margin-top:18px}
 .retrieval h2{font-family:'Merriweather',serif;color:#C9A227;font-size:13pt;margin-bottom:6px}
 .retrieval li{margin:4px 0 4px 20px;font-size:9.5pt}
 .disc{font-size:8pt;color:#777;font-style:italic;margin-top:6px}
-.foot{background:#1B2A4A;color:rgba(255,255,255,.55);padding:8px .6in;font-size:7.5pt;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.foot{background:#1F3A5F;color:rgba(255,255,255,.55);padding:8px .6in;font-size:7.5pt;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
 .foot b{color:#C9A227}
 .tnote{background:#fff6d9;border:1px solid #e5cf8a;border-left:4px solid #C9A227;border-radius:0 5px 5px 0;padding:10px 14px;margin:11px 0}
 .tnote .k{font-weight:700;color:#7a5c00;font-size:8.5pt;text-transform:uppercase;letter-spacing:.05em}
@@ -81,7 +81,7 @@ ol.tdq{margin:6px 0 4px 20px}ol.tdq li{margin-bottom:5px;font-size:9.5pt}
 .udl-grid div:nth-child(odd){border-right:1px solid #dbe7de}
 .udl-acc{padding:7px 12px;font-size:8.5pt;color:#2f5233;background:#eef4ec;border-top:1px solid #dbe7de}
 .refs{padding:12px .6in 4px}
-.refs h2{font-family:'Merriweather',serif;font-size:12pt;color:#1B2A4A;margin-bottom:8px;border-bottom:2px solid #C9A227;padding-bottom:4px}
+.refs h2{font-family:'Merriweather',serif;font-size:12pt;color:#1F3A5F;margin-bottom:8px;border-bottom:2px solid #C9A227;padding-bottom:4px}
 .refs ol{margin-left:22px;font-size:8.5pt;line-height:1.5}.refs li{margin-bottom:5px}
 """
 
