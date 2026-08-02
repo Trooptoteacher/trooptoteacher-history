@@ -1,11 +1,11 @@
 ---
 name: history-hack-platinum-unit-builder
-description: "Build or complete History Hack U.S. History Units 2 onward to the Unit 1 Platinum Standard. Use when asked to build a full unit, repeat the Unit 1 workflow, consolidate existing curriculum assets, create editable Word and print-ready files, connect a unit to the UDL lesson-package generator, prepare district-ready folders or ZIPs, or run Platinum QA. Enforces direct-file consolidation, UDL 3.0, WIDA, accessibility, bilingual supports, dark History Hack branding, one unit teacher deck, source integrity, and gated approval before release."
+description: "Build or complete History Hack U.S. History Units 2 onward to the Platinum Standard (canonical exemplar: Unit 6, US.45–US.58). Use when asked to build a full unit, repeat the platinum workflow, consolidate existing curriculum assets, create editable Word and print-ready files, build guided Cornell notes with the four-rung supports ladder, align the teacher (lecture) and student (review) decks, connect a unit to the UDL lesson-package generator, prepare district-ready folders or ZIPs, or run Platinum QA. Enforces direct-file consolidation, UDL 3.0, WIDA, accessibility, bilingual supports, dark History Hack branding, one unit teacher deck, workbook↔deck DI-segment alignment, source integrity, the north-star decision rule, the lesson-flow and text-integrity QC gates, and gated approval before release."
 license: Proprietary
 compatibility: "Requires access to the History Hack web app repository and, when used, the user's Google Drive or file connector."
 metadata:
   author: "TroopToTeacher Technologies LLC"
-  version: "1.0"
+  version: "1.1"
 ---
 
 # History Hack Platinum Unit Builder
@@ -25,6 +25,24 @@ The unit is a coordinated instructional product, not a loose collection of works
 7. District-ready folder and download structure
 8. Evidence-based Platinum QA
 
+## North-Star Decision Rule (default every fork)
+
+When any choice is ambiguous, default to **`history-hack-north-star`**, in order:
+
+1. **100% standards alignment** — the deliverable teaches the verbatim current standard, fully.
+2. **TDOE Schedule F** — score the choice against the adoption rubric; pick what scores higher.
+3. **Best path to adoption** — among aligned, rubric-passing options, choose the one most likely to win district adoption.
+
+**Accuracy is foundational (Policy 2.600):** factual/citation/standards accuracy is never traded away for any of the three. A choice that lowers accuracy is out, regardless of adoption appeal.
+
+## Unit 6 Platinum Components (authoritative — proven on US.45–US.58)
+
+These extend the eight components above and are **required** for a platinum unit. Full spec + engineering guardrails + sibling-skill links: **`references/unit-content-and-qc-integration.md`**. Reference/invoke the sibling skills named below — do not re-implement them.
+
+- **Student Workbook — 7-activity spine + guided Cornell.** The Cornell notes are **keyed to the teacher deck's Direct-Instruction (DI) segments** — each notes block is captioned **`▶ Deck · DI k of M`** — and carry the **four-rung NOTES SUPPORTS ladder**: (1) frames → (2) cloze + word bank → (3) how-to + worked model → (4) try-it on ruled paper + self-check. **Notes on the recto, supports on the verso.** Built via **`history-hack-unit-content-build`** (engine `build_guided_notes.py`); do not hand-author the ruled notebook tables.
+- **Aligned Teacher (lecture) + Student (review) decks.** **Vocabulary BEFORE instruction.** The student deck has **one review slide per teacher DI segment**, captioned **`US.xx · DI k of M`**. The **DI count matches across workbook, teacher deck, and student deck.** The teacher deck carries **`✍ In your workbook · <activity>`** write-cues, and per-standard slide blocks are **contiguous** (no interleaving).
+- **Teacher Guide & MTSS, Teacher Answer Key, and a commercial-use-safe Visual Asset package.** Visual assets are **PD / US-gov / CC0 / CC-BY only**, each with a **citation sidecar + alt text**. **Never build political or boundary maps in-house** (accuracy + neutrality risk) — source them from an authoritative repository.
+
 ## When to Use
 
 Use this skill when the user asks to:
@@ -37,6 +55,10 @@ Use this skill when the user asks to:
 - Produce district-ready unit folders or complete-unit ZIPs
 - Audit a unit against the History Hack Platinum Standard
 - Create missing student materials, teacher materials, assessments, exit tickets, primary-source materials, Cornell notes, or graphic organizers
+- Build guided Cornell notes with the four-rung NOTES SUPPORTS ladder, or key the notes to the teacher deck's DI segments
+- Align the teacher (lecture) and student (review) decks — DI-segment parity, vocab-before-instruction, workbook write-cues
+- Assemble the commercial-use-safe visual asset package (licensing sidecar + alt text)
+- Run the lesson-flow and text-integrity QC gates, or score a unit/section against Schedule F as-built
 
 Do not use this skill for one isolated slide or document edit unless the user explicitly wants the entire unit workflow applied.
 
@@ -59,6 +81,11 @@ Do not use this skill for one isolated slide or document edit unless the user ex
 - Protect the exit ticket in every schedule variant.
 - Maintain English/Spanish parity for student-facing materials. Teacher planning artifacts remain English unless a Spanish teacher edition is separately commissioned.
 - Use verbatim TDOE TEAM General Educator Rubric language when a section is labeled TEAM. Label content-mastery criteria separately.
+- **Default every ambiguous fork to `history-hack-north-star`** (100% alignment → Schedule F → best path to adoption); accuracy (Policy 2.600) is foundational and never traded.
+- **Vocabulary is taught before instruction** in the deck flow; the guided Cornell notes are **keyed to the teacher deck's DI segments** (`▶ Deck · DI k of M`), and the **DI count matches across workbook, teacher deck, and student deck**.
+- **Guided notes ship the four-rung NOTES SUPPORTS ladder** (frames → cloze+word bank → how-to+model → try-it + self-check), notes recto / supports verso, built by `history-hack-unit-content-build` (`build_guided_notes.py`) — never hand-authored.
+- **Visual assets are commercial-use-safe only** (PD / US-gov / CC0 / CC-BY) with a citation sidecar + alt text. **Never build political or boundary maps in-house.**
+- **Engineering guardrails (see `references/unit-content-and-qc-integration.md`):** duplicate `.pptx` slides only with the `pptx` skill's `add_slide.py` — **never `python-pptx` `add_slide`** (it can orphan a slide part and corrupt the package on re-save); validate with a load/save round-trip dup check. Notebook paper is a **borderless table with a per-row bottom border**, and **exactly one `w:spacing` per paragraph**.
 
 ## Required Skill Composition
 
@@ -77,6 +104,13 @@ Before execution, load all applicable skills:
 - `office/pptx` when creating or revising the unit deck
 - `coding` and `website-building/webapp` when connecting the generator
 - `gws-best-practices` when organizing or moving Google Drive files
+- `history-hack-north-star` — the decision rule for every ambiguous fork
+- `history-hack-unit-content-build` — builds the content JSON + guided notes (`build_guided_notes.py`)
+- `history-hack-lesson-flow-qc` — workbook↔deck flow gate (release gate below)
+- `history-hack-text-integrity-qc` — truncation/clipping/placeholder gate (release gate below)
+- `pptx` — for all slide duplication (`add_slide.py`); never `python-pptx add_slide`
+
+If a referenced sibling skill is not installed in the current environment, invoke it by name where available and note the gap in the completion report — do not re-implement its logic here.
 
 For a full unit build, use parallel agents for independent audits or asset families when possible. Do not parallelize edits to the same authoritative file.
 
@@ -245,6 +279,15 @@ Follow `references/folder-architecture.md`. The district package must be underst
 
 Run `references/platinum-qa.md`. No unit is complete until all critical gates pass and every generator-backed file has been opened or programmatically validated.
 
+**Hard release gates (all must pass — proven on Unit 6). Detail in `references/unit-content-and-qc-integration.md`:**
+
+- **`history-hack-lesson-flow-qc` → 0 blocker / 0 major.** Produces the workbook→exact-slide matrix; verifies DI-segment parity across workbook/teacher/student and vocab-before-instruction.
+- **`history-hack-text-integrity-qc` → 0 BLOCKER.** No truncated, clipped, or placeholder text anywhere; render-confirm every MAJOR.
+- **Schedule F self-score, scored as-built, ≥ 80%** — per section **and** per unit (not a design-time estimate; score what actually renders).
+- **Zero blank pages on every rendered PDF; notebook lines visible** on every ruled page.
+
+These gates are release-blocking: a unit with any lesson-flow blocker/major, any text-integrity BLOCKER, a Schedule F section/unit under 80% as-built, a blank page, or invisible notebook lines is **not** platinum and does not ship.
+
 ## Status and Approval Gates
 
 Use these gates:
@@ -271,6 +314,8 @@ Report:
 - UDL/WIDA/accessibility coverage
 - MagicSchool prompt packet and returned-draft status, when used
 - Fact-check, citation, copyright, and standards-alignment status
+- **Lesson-flow QC (blocker/major counts), text-integrity QC (BLOCKER count), Schedule F as-built score per section + unit, blank-page + notebook-line check, and DI-segment parity across workbook/teacher/student**
+- Any referenced sibling skill that was unavailable in the environment
 - Remaining blockers
 - Draft PR or preview link, if applicable
 
