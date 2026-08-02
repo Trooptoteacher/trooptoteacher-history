@@ -81,11 +81,17 @@ The generator reads one `_build.json` (`meta`, `imageRefs`, `slides`). Read `ref
 
 ## QC (required — do not skip)
 
-1. **Content QC:** `python -m markitdown deck.pptx` — verify slide count, no placeholder text, no truncation, correct order.
-2. **Visual QC:** `soffice --headless --convert-to pdf deck.pptx` then `pdftoppm -jpeg -r 150 deck.pdf slide`; review slide images for wrapping/overflow/contrast. Fix-and-verify at least one cycle.
-3. **Answer-key gate:** every on-slide question (including the Unit Hook) has a model answer; source links render as clickable hyperlinks (not raw `[text](url)`).
-4. **Manifest gates** (from the web repo): run `check-deck-catalog.mjs`, `check-deck-citations.mjs`, `check-deck-permalinks.mjs` against the new manifest.
-5. **Imagery audit:** every image public-domain, captioned on-slide, correctly depicts its subject; no mismatches (omit over mismatch).
+**Build invariant:** generated **natively as `.pptx` via pptxgenjs**, never from HTML or markdown;
+set **`pres.layout` BEFORE adding any slides** (16:9 `13.333"×7.5"`). **LOCKED gates, in order**
+(`00_START_HERE/BUILD_STANDARD.md` §4a): markitdown → `validate.py` → render-and-inspect-every-slide.
+**Gate 3 (visual) is MANDATORY — clipped/overflowing text passes markitdown and validate.py silently.**
+
+1. **Content QC (gate 1):** `python -m markitdown deck.pptx` — verify slide count, no placeholder text, no truncation, correct order.
+2. **File-integrity QC (gate 2):** the `pptx` skill's `scripts/office/validate.py` + a python-pptx load→save round-trip (no duplicate zip parts). Duplicate slides only via `add_slide.py`, never python-pptx `add_slide`.
+3. **Visual QC (gate 3 — MANDATORY):** `soffice --headless --convert-to pdf deck.pptx` then `pdftoppm -jpeg -r 150 deck.pdf slide`; read **every** slide image for wrapping/overflow/clipping/contrast. Fix-and-verify at least one cycle.
+4. **Answer-key gate:** every on-slide question (including the Unit Hook) has a model answer; source links render as clickable hyperlinks (not raw `[text](url)`).
+5. **Manifest gates** (from the web repo): run `check-deck-catalog.mjs`, `check-deck-citations.mjs`, `check-deck-permalinks.mjs` against the new manifest.
+6. **Imagery audit:** every image public-domain, captioned on-slide, correctly depicts its subject; no mismatches (omit over mismatch).
 
 ## Companion Skills (run alongside, do not duplicate)
 
