@@ -223,6 +223,24 @@ def cues_from(s):
     cues.append("Key terms →")
     return cues
 
+def sentence_complete(text, minlen=140, maxlen=320):
+    """Whole-sentence excerpt: accumulate sentences until >= minlen, always end
+    on a sentence boundary, never mid-word. Replaces the old [:110]+'…' cut that
+    left lens blurbs truncated mid-clause (text-integrity BLOCKER)."""
+    text = (text or "").strip()
+    if not text:
+        return ""
+    parts = re.findall(r'.+?(?:[.!?](?=\s|$)|$)', text)
+    out = ""
+    for s in parts:
+        cand = (out + " " + s).strip() if out else s.strip()
+        if len(cand) > maxlen and out:
+            break
+        out = cand
+        if len(out) >= minlen:
+            break
+    return out.strip()
+
 def lenses_str(tags):
     dims = [DIM_NAME[t] for t in tags if t in DIM_NAME]
     # dedupe preserve order
@@ -349,7 +367,7 @@ for idx, code in enumerate(ORDER):
         if t in DIM_NAME and DIM_NAME[t] not in ("Tennessee Connection",):
             secs = s.get("readingContent", {}).get("sections", [])
             dim_map[t] = f"{DIM_NAME[t]} lens on {s.get('title','this standard')}: " + \
-                (secs[0]["content"][:110] + "…" if secs else "")
+                (sentence_complete(secs[0]["content"]) if secs else "")
 
     content["standards"][code] = {
         "title": s.get("title", code),

@@ -7,6 +7,10 @@ const C=JSON.parse(fs.readFileSync('analysis/unit6_content.json','utf8'));
 const IMG=fs.existsSync('analysis/unit6_images.json')?JSON.parse(fs.readFileSync('analysis/unit6_images.json','utf8')):{};
 const EXIT=fs.existsSync('analysis/unit6_exit_tickets.json')?JSON.parse(fs.readFileSync('analysis/unit6_exit_tickets.json','utf8')):{};
 const SAMPLE=process.env.SAMPLE?Number(process.env.SAMPLE):0; const ORDER=SAMPLE?C.order.slice(0,SAMPLE):C.order;
+// docx ImageRun needs an explicit media type, else the library writes the part
+// as "*.undefined" with no [Content_Types] entry -> invalid OOXML. Derive it.
+const imgType=(f)=>{const e=(f||'').toLowerCase().split('.').pop();
+  return e==='jpg'?'jpeg':(['jpeg','png','gif','bmp','svg'].includes(e)?e:'jpeg');};
 
 // Cover hero image — the unit's curated public-domain photograph (app hero art).
 const HERO={file:'analysis/assets/hero.jpg', w:1280, h:1030,
@@ -17,7 +21,7 @@ function coverHero(rec,{maxW=380,maxH=290}={}){
   if(h>maxH){ h=maxH; w=Math.round(rec.w*(h/rec.h)); }
   const out=[new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:40,after:30},
     border:{top:{style:BorderStyle.SINGLE,size:14,color:GOLD,space:8},bottom:{style:BorderStyle.SINGLE,size:14,color:GOLD,space:8}},
-    children:[new ImageRun({data:fs.readFileSync(rec.file),transformation:{width:w,height:h},
+    children:[new ImageRun({data:fs.readFileSync(rec.file),type:imgType(rec.file),transformation:{width:w,height:h},
       altText:{title:'Unit cover image',description:rec.cap,name:'cover-hero'}})]})];
   out.push(P(R(rec.cap,{s:16,i:true,c:GREY}),{align:AlignmentType.CENTER,spacing:{after:8}}));
   out.push(P(R('Source: '+rec.cred,{s:14,c:GREY}),{align:AlignmentType.CENTER,spacing:{after:110}}));
@@ -33,9 +37,12 @@ const bd=(c=BORD,sz=4)=>({style:BorderStyle.SINGLE,size:sz,color:c});
 const CELLB=(c=BORD)=>({top:bd(c),bottom:bd(c),left:bd(c),right:bd(c)});
 function R(text,{s=22,b=false,i=false,c=INK,caps=false}={}){return new TextRun({text,size:s,bold:b,italics:i,color:c,font:FONT,allCaps:caps});}
 function P(runs,{align,spacing,indent,border}={}){return new Paragraph({alignment:align,spacing:spacing||{after:100},indent,border,children:Array.isArray(runs)?runs:[runs]});}
-function H(text,lvl,{brk=false,mins=null}={}){const map={1:HeadingLevel.HEADING_1,2:HeadingLevel.HEADING_2,3:HeadingLevel.HEADING_3};
+function H(text,lvl,{brk=false,mins=null,deck=null}={}){const map={1:HeadingLevel.HEADING_1,2:HeadingLevel.HEADING_2,3:HeadingLevel.HEADING_3};
   const kids=[R(text,{s:lvl===1?36:lvl===2?28:24,b:true,c:lvl===3?RED:NAVY})];
   if(mins) kids.push(R(`    ⏱ ~${mins} min`,{s:18,b:true,c:GOLD}));
+  // Deck key: ties this activity to its slide role so a student always knows which
+  // slide the activity comes from (lesson-flow gate: role-based ▶ Deck reference).
+  if(deck) kids.push(R(`    ▶ Deck · ${deck}`,{s:18,b:true,c:NAVY}));
   return new Paragraph({heading:map[lvl],pageBreakBefore:brk,spacing:{before:lvl===1?220:150,after:90},keepNext:true,children:kids});}
 function cell(children,{w,fill,borders}={}){return new TableCell({width:{size:w,type:WidthType.DXA},
   shading:fill?{type:ShadingType.CLEAR,fill,color:'auto'}:undefined,margins:{top:55,bottom:55,left:110,right:110},
@@ -57,7 +64,7 @@ function sourceImage(rec,{max,maxH}={}){
   // analysis onto the next page (no-bleed rule for Activity 5).
   if(maxH && h>maxH){ h=maxH; w=Math.round(rec.w*(h/rec.h)); }
   const out=[new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:60},children:[
-    new ImageRun({data:fs.readFileSync(rec.file),transformation:{width:w,height:h},
+    new ImageRun({data:fs.readFileSync(rec.file),type:imgType(rec.file),transformation:{width:w,height:h},
       altText:{title:rec.title||'Primary source',description:rec.alt||rec.caption||rec.title||'Primary source image',name:rec.title||'source'}})]})];
   const cap=[rec.title, rec.creator?('· '+rec.creator):'', rec.year?('· '+rec.year):''].filter(Boolean).join(' ');
   out.push(P(R(cap,{s:19,b:true}),{spacing:{after:20}}));
@@ -68,7 +75,7 @@ function sourceImage(rec,{max,maxH}={}){
 // compact image only (no caption/citation) — for the launch-page hook (source is cited in Activity 5)
 function imgOnly(rec,max){const w=Math.min(rec.w,max), h=Math.round(rec.h*(w/rec.w));
   return new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:60},children:[
-    new ImageRun({data:fs.readFileSync(rec.file),transformation:{width:w,height:h},
+    new ImageRun({data:fs.readFileSync(rec.file),type:imgType(rec.file),transformation:{width:w,height:h},
       altText:{title:rec.title||'Primary source',description:rec.alt||rec.title||'Primary source image',name:'hook'}})]});}
 // data table with navy header row
 function dataTable(headers,rows,widths){
@@ -248,7 +255,7 @@ function block(code){
   out.push(callout('PREVIEW & PREDICT',['Which learning target will be hardest, and why? Connect it to the unit’s big question: how did the war change America at home and abroad, and who sacrificed even while excluded?']));
   
   // Activity 1 — Word Bank
-  out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10}));
+  out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10,deck:'Key Vocabulary'}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
   out.push(dataTable(['Term','Student-friendly meaning','Spanish'],s.vocab.map(v=>[
     new TextRun({text:v.term,bold:true,size:18,font:FONT,color:INK}),
@@ -261,7 +268,7 @@ function block(code){
   {const _wl=s.vocab.reduce((a,v)=>a+Math.max(1,Math.ceil((v.def||'').length/52)),0);
    out.push(...vocabSelfCheck(code,Math.max(0,Math.min(4,23-_wl))));}
   // Activity 2 — Frayer
-  out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7}));
+  out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7,deck:'Key Vocabulary'}));
   out.push(callout('RESPONSE CHOICE',['Complete each studio by writing, speaking, or diagramming.']));
   a.frayer.forEach((term,fi)=>{const v=s.vocab.find(x=>x.term===term)||s.vocab[0];
     out.push(gap(fi===0?40:200));
@@ -274,7 +281,7 @@ function block(code){
   out.push(callout('CONNECT THE TERMS (UDL · build understanding)',['How do these priority terms fit together? Write or sketch how one leads to or affects another.']));
   out.push(...ruled(2));
   // Activity 3 — Cornell Notes — FRONT (note-taking; the whole page is writing space)
-  out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true,mins:20}));
+  out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true,mins:20,deck:'Direct Instruction'}));
   out.push(P(R('Name: ______________________    Class / Period: __________    Date: __________',{s:21})));
   out.push(P(R(`${code} — ${s.title}  •  These notes capture the direct-teaching content and the Close Read for this standard.`,{s:20,c:GREY})));
   out.push(P(R('Your learning targets are on this standard’s opening page — take notes that help you meet them.',{s:19,i:true,c:GREY}),{spacing:{after:60}}));
@@ -327,7 +334,7 @@ function block(code){
   out.push(...ruled(8));
   } // end STUDENT_SUPPORTS
   // Activity 4 — Close Read
-  out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15}));
+  out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15,deck:'Direct Instruction'}));
   out.push(P(R('Reading type: History Hack-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
   // Passage in titled CHUNKS (single column). The text-dependent questions are
   // MERGED into the Evidence Lab — each question is a row you find evidence for —
@@ -390,7 +397,7 @@ function block(code){
     out.push(...doodle('MARK UP THE MAP (draw your thinking)','On the map above, circle or label what you notice — routes, regions, clusters — then sketch the pattern here in your own quick map.',1150));
   }
   // Activity 5 — Primary Source / Data (HIPPO)
-  out.push(H(`Activity 5 — Primary Source / Data Analysis — ${code}`,2,{brk:true,mins:15}));
+  out.push(H(`Activity 5 — Primary Source / Data Analysis — ${code}`,2,{brk:true,mins:15,deck:'Primary Source'}));
   const im=(IMG[code]||{});
   if(im.anchor){
     out.push(P(R(`Primary source (${im.anchor.medium}) — analyze it with HIPPO. Builds SSP.01–SSP.02.`,{s:20,i:true,c:GREY})));
@@ -412,7 +419,7 @@ function block(code){
   if(im.anchor) out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________']));
   else out.push(...sourceExtension(code));
   // Activity 6 — Practice Quiz
-  out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8}));
+  out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8,deck:'Progress Check'}));
   out.push(callout('RESPONSE CHOICE',['Commit to an answer by marking it, saying it, or explaining it aloud before checking. Answer key is in the Teacher Guide (kept separate).']));
   const items=[...a.quiz, {id:`u1-${code.toLowerCase().replace('.','')}-dok${s.cfu.dok}-tc`,dok:s.cfu.dok,stem:s.cfu.stem,opts:s.cfu.options}];
   items.forEach(q=>{
@@ -425,7 +432,7 @@ function block(code){
   // the back matter (Think Like a Test-Writer) — no need to repeat it 11×.
   out.push(...ruled(1));
   // Activity 7 — CER
-  out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:15}));
+  out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:15,deck:'Constructed Response'}));
   // Compact big-question organizer (single combined callout — keeps the CER +
   // Exit Ticket on ONE page per the no-bleed rule; the exit ticket must never
   // spill to a near-empty next page).

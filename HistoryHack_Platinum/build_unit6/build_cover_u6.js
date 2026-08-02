@@ -51,7 +51,7 @@ function buildCover(spec){
   const heroImg=(HERO && fs.existsSync(HERO))
     ? [new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:120,after:30},
         border:{top:{style:BorderStyle.SINGLE,size:18,color:GOLD,space:8},bottom:{style:BorderStyle.SINGLE,size:18,color:GOLD,space:8}},
-        children:[new ImageRun({data:fs.readFileSync(HERO),transformation:{width:_hw,height:_hh},altText:{title:'Cover image',description:HERO_CRED,name:'cover-hero'}})]}),
+        children:[new ImageRun({data:fs.readFileSync(HERO),type:'jpeg',transformation:{width:_hw,height:_hh},altText:{title:'Cover image',description:HERO_CRED,name:'cover-hero'}})]}),
        P(R(HERO_CRED,{s:14,i:true,c:WHITE}),{align:AlignmentType.CENTER,spacing:{after:120}})]
     : [new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:120,after:120},border:{top:{style:BorderStyle.SINGLE,size:18,color:GOLD,space:10},bottom:{style:BorderStyle.SINGLE,size:18,color:GOLD,space:10}},children:[R('SEMIQUINCENTENNIAL  ·  1776–2026',{s:22,b:true,c:GOLD,caps:true})]})];
   // FRONT
