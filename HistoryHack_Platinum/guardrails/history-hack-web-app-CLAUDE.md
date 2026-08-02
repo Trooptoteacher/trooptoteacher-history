@@ -30,7 +30,7 @@ from here — never source ad hoc, never invent a citation.
 5. Verify by rendering; run the preflight before packaging.
 
 ## The platinum system (full memory)
-Lives in the Claude skill **`history-hack-course-standard-builder`** and in `HistoryHack_Platinum/`:
+Lives in the Claude skill **`history-hack-platinum-unit-builder`** and in `HistoryHack_Platinum/`:
 - `references/cradle-to-grave-workflow.md` — 6-phase pipeline + gates + agent registry + folder taxonomy.
 - `references/prompt-library.md` — ready-to-run Claude prompts (with the guardrail preamble) per phase.
 - `references/frameworks-and-item-writing.md` — CER, UDL 3.0, MTSS, HIPPO, C3, SSP, Cornell, Frayer, DOK,

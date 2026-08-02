@@ -24,7 +24,7 @@ HIPPO, de-biased keys, print-safe:
 
 | # | Deliverable | Format | Builder / Skill |
 |---|---|---|---|
-| 1 | **Student Workbook** (Course Standard) | DOCX + PDF | `build_workbook.js` · course-standard-builder |
+| 1 | **Student Workbook** (Course Standard) | DOCX + PDF | `build_workbook.js` · platinum-unit-builder |
 | 2 | **Teacher Workbook** (How-to-Use & MTSS guide) | DOCX + PDF | `build_teacher_guide.js` |
 | 3 | **Student (Lean) Slide Deck** | PPTX + PDF | `build_student_deck.py` |
 | 4 | **Teacher (Full) Slide Deck** | PPTX + PDF | `build_teacher_deck.py` + teacher-deck-workbook-aligner |
@@ -39,12 +39,12 @@ Per **course** (once):
 
 | # | Deliverable | Builder / Skill |
 |---|---|---|
-| 11 | **Standards alignment + crosswalks** (SSP, dimension, TCAP/EOC) | derive + course-standard-builder |
+| 11 | **Standards alignment + crosswalks** (SSP, dimension, TCAP/EOC) | derive + platinum-unit-builder |
 | 12 | **Source & Asset Catalog + Crosswalk** (primary sources, images, maps, charts → standards; geo positions; citations + licenses) | `asset_standards_crosswalk.py` + `geo_provenance.json` |
 | 13 | **Schedule F self-assessment + adoption package** (manifests, SHA-256) | tn-textbook-adoption-agent |
 | 14 | **Web app integration** — narrative reader, library, assignments, gradebook, PLC, tools — **feature parity with U.S. History Hack** | history-hack-website-builder · learning-experience-designer |
 | 15 | **Testing** — test suite (vitest/axe) + **seeded testing database** — parity | website-builder |
-| 16 | **Pacing Guide** — units mapped to the **adopting district calendar** (WCS: `guardrails/wcs_calendar_2026-27.json`), semester/quarter boundaries, EOC/TCAP review window; **never a generic 180-day calendar** (see CORE §4b) | pacing anchor + course-standard-builder |
+| 16 | **Pacing Guide** — units mapped to the **adopting district calendar** (WCS: `guardrails/wcs_calendar_2026-27.json`), semester/quarter boundaries, EOC/TCAP review window; **never a generic 180-day calendar** (see CORE §4b) | pacing anchor + platinum-unit-builder |
 
 ---
 

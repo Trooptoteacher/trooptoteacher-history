@@ -41,9 +41,8 @@ Run phases in order. Each phase has a **prompt to paste**, a **verification gate
 **Orchestration & content**
 | Skill | Use for | Phase |
 |---|---|---|
-| `history-hack-course-standard-builder` | Orchestrate the whole cradle-to-grave course build | 1 (all) |
-| `history-hack-curriculum-architect` | Unit structure, instructional flow, rigor, scope & sequence | 1, 3 |
-| `instructional-design-specialist` | Lesson/unit/assessment design, TN-standards alignment | 3 |
+| `history-hack-new-course-builder` | Orchestrate the whole cradle-to-grave course build | 1 (all) |
+| `instructional-design-specialist` | Lesson/unit/assessment design, TN-standards alignment; unit structure, instructional flow, rigor, scope & sequence | 1, 3 |
 | `learning-experience-designer` | Interactive/inclusive UX, UDL, engagement systems (student decks, web edition) | 4, suite |
 | `history-hack-platinum-unit-builder` | Consolidate a unit's workbook/guide/deck to platinum | 6 |
 | `history-hack-platinum-workbook` | Standalone **DBQ / primary-source investigation books** | 9 |
@@ -132,7 +131,7 @@ The student workbook is the brand. It is locked to the owner's actual **U.S. His
 
 ## Phase 1 — Standards intake, unit map & verbatim targets
 ```
-Invoke history-hack-course-standard-builder. Stand up "World History Hack" ({{COURSE_NAME}}) under courses/world-history-hack, mirroring courses/foundations-constitutional-government. Create the branch and scaffold (00_START_HERE, 05_STANDARDS_ALIGNMENT, 06_COMPLIANCE_INTERNAL, 08_QUESTION_BANK, BUILD, WEB_EDITION, ASSETS). From the official TN World History & Geography standards I'm providing [PASTE], build world_history_standards_source.json (per standard: code, title, standard=verbatim, ican, dimensions, tca/legally_required, unit, unit_title, quarter), unit-map.md, and 00_START_HERE/{WORLD_HISTORY_HACK_BRAND_KIT.md, PLATINUM_MEMORY.md}. [GUARDRAILS]. Verify every provided standard appears once; codes contiguous. STOP and show me the standards→unit map before authoring. Commit + push.
+Invoke history-hack-new-course-builder. Stand up "World History Hack" ({{COURSE_NAME}}) under courses/world-history-hack, mirroring courses/foundations-constitutional-government. Create the branch and scaffold (00_START_HERE, 05_STANDARDS_ALIGNMENT, 06_COMPLIANCE_INTERNAL, 08_QUESTION_BANK, BUILD, WEB_EDITION, ASSETS). From the official TN World History & Geography standards I'm providing [PASTE], build world_history_standards_source.json (per standard: code, title, standard=verbatim, ican, dimensions, tca/legally_required, unit, unit_title, quarter), unit-map.md, and 00_START_HERE/{WORLD_HISTORY_HACK_BRAND_KIT.md, PLATINUM_MEMORY.md}. [GUARDRAILS]. Verify every provided standard appears once; codes contiguous. STOP and show me the standards→unit map before authoring. Commit + push.
 ```
 
 ## Phase 2 — Primary-source sourcing WITH downloadable links + how to save them
@@ -165,7 +164,7 @@ Create ASSETS/primary_sources/{README.md, EXPECTED_FILENAMES.txt} listing the ex
 
 ## Phase 3 — Content authoring (per unit) — fan out one agent per unit
 ```
-Invoke instructional-design-specialist / history-hack-curriculum-architect. Author BUILD/unitN/analysis/unitN_content.json for {{COURSE_NAME}} Unit N in full schema parity with courses/foundations-constitutional-government/BUILD/unit6/analysis/unit6_content.json. Unit-level {code,title,course_name,standards_range,quarter,suggested_days,essential_question,publisher,footer,perspectives(+intro),tn_connection(+label+task) where real,cover_era,cover_title_lines,cover_image,frameworks{udl_designed_in,mtss},belief_check,play,spiral,discussion_norms}. Per standard {title, standard(verbatim), ican, vocab[{term,say,es,def}], sources, cfu(4 opts, debiased key), learning_targets, criteria, cues, lenses, hook, civic_label, ssp_focus, ref, per-standard tn_connection where real}. Ground ONLY in the verbatim standards + sourced records; historically accurate. [GUARDRAILS]. Verify JSON parses, fields present, CFU keys debiased, leak-clean. Commit + push.
+Invoke instructional-design-specialist. Author BUILD/unitN/analysis/unitN_content.json for {{COURSE_NAME}} Unit N in full schema parity with courses/foundations-constitutional-government/BUILD/unit6/analysis/unit6_content.json. Unit-level {code,title,course_name,standards_range,quarter,suggested_days,essential_question,publisher,footer,perspectives(+intro),tn_connection(+label+task) where real,cover_era,cover_title_lines,cover_image,frameworks{udl_designed_in,mtss},belief_check,play,spiral,discussion_norms}. Per standard {title, standard(verbatim), ican, vocab[{term,say,es,def}], sources, cfu(4 opts, debiased key), learning_targets, criteria, cues, lenses, hook, civic_label, ssp_focus, ref, per-standard tn_connection where real}. Ground ONLY in the verbatim standards + sourced records; historically accurate. [GUARDRAILS]. Verify JSON parses, fields present, CFU keys debiased, leak-clean. Commit + push.
 ```
 > After all units: run `historian-factcheck-agent` on the content; fix flagged claims.
 
@@ -284,7 +283,7 @@ Build a new licensable "World History Hack" course edition ({{COURSE_NAME}}) to 
 
 Copy the reusable Government assets rather than rebuilding: the 08_QUESTION_BANK toolkit, the BRAND-LOCKED docx builders in BUILD/engine/ (student workbook MUST match the ⭐ WORKBOOK BRAND-LOCK exactly — margins 1224, width 9792, the Cornell table, C9C2B4 ruled lines, seven activities/standard; reference at courses/foundations-constitutional-government/REFERENCE/), the deck builder, sync_images.py, and the compliance templates.
 
-Invoke: history-hack-course-standard-builder to orchestrate; instructional-design-specialist / history-hack-curriculum-architect for content; tn-assessment-specialist for questions/psychometrics; history-hack-platinum-workbook for DBQ books; history-hack-graphic-organizer-workbook for organizers; udl-cast-expert (CAST 2024 UDL 3.0) for the audit; historian-factcheck-agent for accuracy; copyright-integrity-accreditation for rights clearance; tn-textbook-adoption-agent for Schedule F; history-hack-print-qc-auditor for print QC; history-hack-website-builder for registering this edition in the Social Studies Suite (it ships IN ADDITION to the main History Hack web app, which is becoming a multi-course suite — one platform, entitlement-gated editions, no fork).
+Invoke: history-hack-new-course-builder to orchestrate; instructional-design-specialist for content; tn-assessment-specialist for questions/psychometrics; history-hack-platinum-workbook for DBQ books; history-hack-graphic-organizer-workbook for organizers; udl-cast-expert (CAST 2024 UDL 3.0) for the audit; historian-factcheck-agent for accuracy; copyright-integrity-accreditation for rights clearance; tn-textbook-adoption-agent for Schedule F; history-hack-print-qc-auditor for print QC; history-hack-website-builder for registering this edition in the Social Studies Suite (it ships IN ADDITION to the main History Hack web app, which is becoming a multi-course suite — one platform, entitlement-gated editions, no fork).
 
 Apply the GUARDRAILS block everywhere; run the MASTER QC GATE before packaging; verify + commit + push after each phase. I'll paste the official TN World History & Geography standards now, and drop the sourced primary-source images (with downloadable links + citations) in a Drive folder at Phase 2. STOP and show me the standards→unit map before authoring.
 ```

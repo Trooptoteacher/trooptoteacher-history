@@ -30,7 +30,7 @@ authored to the canonical Unit 5 template. © 2026 TroopToTeacher Technologies L
   disclosure on all assessment items.**
 
 See `guardrails/SKILL.md` for the full rule set; the Claude skill
-`history-hack-course-standard-builder` carries the same memory.
+`history-hack-platinum-unit-builder` carries the same memory.
 
 ## Unit 1 deliverables (`deliverables_unit1/`)
 Student Workbook (90 pp) · Teacher Guide · Assessment Book · Graphic Organizer Toolkit · Cover Wrap.

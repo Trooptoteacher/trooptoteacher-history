@@ -1,5 +1,5 @@
 ---
-name: history-hack-course-standard-builder
+name: history-hack-new-course-builder
 description: Master cradle-to-grave pipeline for building a NEW licensable History Hack course edition from a set of state standards — feature-for-feature and guardrail-for-guardrail with the U.S. History flagship. Use when asked to build, scaffold, or stand up a new course/subject (e.g., Government/Civics, Economics, World History, Geography) as an entitlement-gated edition inside the existing platform (not a new app, not a fork): standards intake, unit mapping, primary-source + case procurement, content authoring (narrative, Cornell, Frayer vocab, packets, decks, organizer toolkits), TCAP-grade assessment banks with analytics/mastery/remediation, QC gates (Schedule F, print preflight, item-rigor), and web-edition registration. Orchestrates the specialist skills; does not reinvent their logic.
 metadata:
   author: Sean Reynolds / TroopToTeacher Technologies LLC
@@ -17,7 +17,7 @@ guardrail-for-guardrail.** Source of truth only — never invent standards, cita
    the canonical primary-source bank (`public/data/<subject>/primary-sources/…`), and the question
    bank (`public/data/<subject>/questions/unit-<N>/dok-<1..4>.json`).
 3. Load and USE these specialist skills — invoke, don't reinvent:
-   - `history-hack-curriculum-architect` · `instructional-design-specialist` — unit architecture, "I can" targets
+   - `instructional-design-specialist` — unit architecture, "I can" targets
    - `tn-assessment-specialist` — the authoritative item schema + rigor + QC
    - `udl-cast-expert` — UDL 3.0 / CAST review of every artifact
    - `tt-education-research-team` — evidence base / ESSA tiers for adoption

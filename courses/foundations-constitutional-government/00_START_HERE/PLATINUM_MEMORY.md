@@ -69,6 +69,6 @@ non-core features behind `lib/feature-flags/optional-features.ts`. See `HistoryH
 
 ## Environment notes for this build
 - No `CLAUDE.md` in repo → guardrails sourced from `00_START_HERE/playbook.html` + course brief + this file.
-- Master skill `history-hack-course-standard-builder` NOT installed → orchestrate manually with the ported engine + installed skills.
+- Master skill `history-hack-new-course-builder` NOT installed → orchestrate manually with the ported engine + installed skills.
 - Web-app repo (`history-hack-web-app`) NOT in this session's scope → this run = content-repo half + web-edition spec.
 - Egress policy blocks tn.gov / myconnectsuite / district mirrors → verbatim GC standards must be pasted or supplied via an in-scope repo/file.
