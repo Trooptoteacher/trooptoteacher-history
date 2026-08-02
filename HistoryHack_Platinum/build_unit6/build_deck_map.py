@@ -55,25 +55,43 @@ def role_of(title):
 
 
 def extract(path):
-    """Return {US.xx: {role: [slide_numbers]}} for a deck, handling both the
-    teacher convention (each slide titled 'US.xx . ROLE') and the student
-    convention (a bare 'US.xx' divider starts a block, role slides follow)."""
+    """Return {US.xx: {role: [slide_numbers]}} for a deck, convention-aware.
+
+    Two deck conventions exist and are handled separately so a standalone slide
+    (a "STANDARD" divider or a unit-level "KEY VOCABULARY · LANGUAGE SUPPORT"
+    slide that carries no US.xx) is never mis-attributed to the previous
+    standard:
+      * TEACHER: every content slide is self-labeled "US.xx · ROLE" — parse the
+        standard AND the role from the SAME title; ignore slides with no US.xx.
+      * STUDENT: a bare "US.xx" divider opens a block; the role slides that
+        follow (which carry no US.xx) belong to that block until the next divider.
+    """
     prs = Presentation(path)
+    titles = [first_title(sl).strip().split("\n")[0] for sl in prs.slides]
+    bare_dividers = sum(1 for t in titles if re.match(r"^US\.\d+\s*$", t))
+    student_convention = bare_dividers > 0
     mp = {}
     cur = None
-    for i, sl in enumerate(prs.slides, 1):
-        title = first_title(sl)
-        head = title.strip().split("\n")[0]
+    for i, head in enumerate(titles, 1):
         m = STD_RE.match(head)
         bare_divider = bool(re.match(r"^US\.\d+\s*$", head))
-        if m:
-            cur = m.group(1)
-            mp.setdefault(cur, {})
+        if student_convention:
             if bare_divider:
-                continue  # student-deck divider: no role on this slide
-        r = role_of(title)
-        if r and cur:
-            mp[cur].setdefault(r, []).append(i)
+                cur = m.group(1)
+                mp.setdefault(cur, {})
+                continue
+            r = role_of(head)
+            if r and cur:
+                mp[cur].setdefault(r, []).append(i)
+        else:
+            # teacher convention: require US.xx ON THIS slide; role from same title
+            if not m:
+                continue
+            std = m.group(1)
+            mp.setdefault(std, {})
+            r = role_of(head)
+            if r:
+                mp[std].setdefault(r, []).append(i)
     return mp
 
 

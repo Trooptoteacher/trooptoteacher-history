@@ -6,6 +6,22 @@ const {Document,Packer,Paragraph,TextRun,HeadingLevel,AlignmentType,Table,TableR
 const C=JSON.parse(fs.readFileSync('analysis/unit6_content.json','utf8'));
 const IMG=fs.existsSync('analysis/unit6_images.json')?JSON.parse(fs.readFileSync('analysis/unit6_images.json','utf8')):{};
 const EXIT=fs.existsSync('analysis/unit6_exit_tickets.json')?JSON.parse(fs.readFileSync('analysis/unit6_exit_tickets.json','utf8')):{};
+// Deck map: exact TEACHER-deck slide numbers per activity (skill: history-hack-
+// workbook-print-bundle — workbook points to the teacher deck for follow-along).
+const MAP=fs.existsSync('analysis/unit6_deck_map.json')?JSON.parse(fs.readFileSync('analysis/unit6_deck_map.json','utf8')):{activity_slides:{}};
+const ASSESS=fs.existsSync('analysis/unit6_assessment.json')?JSON.parse(fs.readFileSync('analysis/unit6_assessment.json','utf8')):{formative:{}};
+function fmtSlides(arr){ if(!arr||!arr.length) return '';
+  const a=[...arr].sort((x,y)=>x-y);
+  const contig=a.every((v,i)=>i===0||v===a[i-1]+1);
+  if(a.length===1) return 'slide '+a[0];
+  return (contig?('slides '+a[0]+'–'+a[a.length-1]):('slides '+a.join(', ')));
+}
+// "Role . slide(s) N" for an activity — the exact place a student finds it on the deck.
+function deckRef(code,act,role){
+  const sl=((MAP.activity_slides||{})[code]||{})['Activity '+act]||[];
+  const s=fmtSlides(sl);
+  return role+(s?(' · '+s):'');
+}
 const SAMPLE=process.env.SAMPLE?Number(process.env.SAMPLE):0; const ORDER=SAMPLE?C.order.slice(0,SAMPLE):C.order;
 // docx ImageRun needs an explicit media type, else the library writes the part
 // as "*.undefined" with no [Content_Types] entry -> invalid OOXML. Derive it.
@@ -255,7 +271,7 @@ function block(code){
   out.push(callout('PREVIEW & PREDICT',['Which learning target will be hardest, and why? Connect it to the unit’s big question: how did the war change America at home and abroad, and who sacrificed even while excluded?']));
   
   // Activity 1 — Word Bank
-  out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10,deck:'Key Vocabulary'}));
+  out.push(H(`Activity 1 — Vocabulary (Part A: Reference / Word Bank) — ${code}`,2,{brk:true,mins:10,deck:deckRef(code,1,'Key Vocabulary')}));
   out.push(P(R('Use this word bank throughout the standard. The Spanish column supports access, not translation of assessment.',{s:21}),{spacing:{after:60}}));
   out.push(dataTable(['Term','Student-friendly meaning','Spanish'],s.vocab.map(v=>[
     new TextRun({text:v.term,bold:true,size:18,font:FONT,color:INK}),
@@ -268,7 +284,7 @@ function block(code){
   {const _wl=s.vocab.reduce((a,v)=>a+Math.max(1,Math.ceil((v.def||'').length/52)),0);
    out.push(...vocabSelfCheck(code,Math.max(0,Math.min(4,23-_wl))));}
   // Activity 2 — Frayer
-  out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7,deck:'Key Vocabulary'}));
+  out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7,deck:deckRef(code,2,'Key Vocabulary')}));
   out.push(callout('RESPONSE CHOICE',['Complete each studio by writing, speaking, or diagramming.']));
   a.frayer.forEach((term,fi)=>{const v=s.vocab.find(x=>x.term===term)||s.vocab[0];
     out.push(gap(fi===0?40:200));
@@ -281,7 +297,7 @@ function block(code){
   out.push(callout('CONNECT THE TERMS (UDL · build understanding)',['How do these priority terms fit together? Write or sketch how one leads to or affects another.']));
   out.push(...ruled(2));
   // Activity 3 — Cornell Notes — FRONT (note-taking; the whole page is writing space)
-  out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true,mins:20,deck:'Direct Instruction'}));
+  out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true,mins:20,deck:deckRef(code,3,'Direct Instruction')}));
   out.push(P(R('Name: ______________________    Class / Period: __________    Date: __________',{s:21})));
   out.push(P(R(`${code} — ${s.title}  •  These notes capture the direct-teaching content and the Close Read for this standard.`,{s:20,c:GREY})));
   out.push(P(R('Your learning targets are on this standard’s opening page — take notes that help you meet them.',{s:19,i:true,c:GREY}),{spacing:{after:60}}));
@@ -334,7 +350,7 @@ function block(code){
   out.push(...ruled(8));
   } // end STUDENT_SUPPORTS
   // Activity 4 — Close Read
-  out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15,deck:'Direct Instruction'}));
+  out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15,deck:deckRef(code,4,'Direct Instruction')}));
   out.push(P(R('Reading type: History Hack-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
   // Passage in titled CHUNKS (single column). The text-dependent questions are
   // MERGED into the Evidence Lab — each question is a row you find evidence for —
@@ -348,12 +364,14 @@ function block(code){
   const _wl=_cl>1900?1:2;
   const _chunks=[];
   _secs.forEach(([h,c])=>{ if(h) _chunks.push(R(h,{s:_pf,b:true,c:NAVY})); _chunks.push(R(c,{s:_pf})); });
+  // KEY TERMS FIRST — pre-teach the terms BEFORE the reading (print-bundle standard).
+  out.push(callout('KEY TERMS FIRST',['Know these before you read: '+s.vocab.slice(0,2).map(v=>v.term).join(', ')+'. Read once for the gist, then again for evidence.']));
   out.push(callout('CORE PATH — read one chunk at a time',_chunks));
-  if(!_long) out.push(callout('LANGUAGE SUPPORT',['Key terms to know first: '+s.vocab.slice(0,2).map(v=>v.term).join(', ')+'. Read once for the gist, then again for evidence.']));
-  else out.push(P([R('Key terms first: ',{s:19,b:true,c:NAVY}),R(s.vocab.slice(0,2).map(v=>v.term).join(', ')+'. Read once for the gist, then again for evidence.',{s:19,c:GREY})],{spacing:{after:30}}));
-  out.push(P([R('CLOSE-READ EVIDENCE LAB — ',{s:21,b:true,c:NAVY}),R('for each question: quote the EVIDENCE from the passage above, then write YOUR ANSWER (or answer aloud / diagram it).',{s:20})],{spacing:{after:20}}));
+  out.push(P([R('CLOSE-READ EVIDENCE LAB — ',{s:21,b:true,c:NAVY}),R('for each question: quote the EVIDENCE from the passage above, then write YOUR ANSWER on the lines.',{s:20})],{spacing:{before:100,after:20}}));
   const _tdq=a.tdq.slice(0,_rows);
-  out.push(writeTable(['Text-dependent question','Evidence from the passage','Your answer (what it shows)'],_tdq.map(q=>[q,'','']),[3248,2900,3500],{lines:_wl,noSplit:true}));
+  // Generous ruled answer space (all writing on lines — closes the white-space gap).
+  out.push(writeTable(['Text-dependent question','Evidence from the passage','Your answer (what it shows)'],_tdq.map(q=>[q,'','']),[3248,2900,3500],{lines:Math.max(_wl+1,3),noSplit:true}));
+  out.push(P(R('',{s:12}),{spacing:{after:180}})); // breathing room after the Close Read before the next section
   // NO-BLEED RULE: the Close Read (passage + TDQs + Evidence Lab) fills its own
   // page. Do NOT append a trailing retrieval/connect box here — it overflows a
   // few lines onto a near-empty next page. Geographic work and spaced retrieval
@@ -397,7 +415,7 @@ function block(code){
     out.push(...doodle('MARK UP THE MAP (draw your thinking)','On the map above, circle or label what you notice — routes, regions, clusters — then sketch the pattern here in your own quick map.',1150));
   }
   // Activity 5 — Primary Source / Data (HIPPO)
-  out.push(H(`Activity 5 — Primary Source / Data Analysis — ${code}`,2,{brk:true,mins:15,deck:'Primary Source'}));
+  out.push(H(`Activity 5 — Primary Source / Data Analysis — ${code}`,2,{brk:true,mins:15,deck:deckRef(code,5,'Primary Source')}));
   const im=(IMG[code]||{});
   if(im.anchor){
     out.push(P(R(`Primary source (${im.anchor.medium}) — analyze it with HIPPO. Builds SSP.01–SSP.02.`,{s:20,i:true,c:GREY})));
@@ -419,20 +437,27 @@ function block(code){
   if(im.anchor) out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________']));
   else out.push(...sourceExtension(code));
   // Activity 6 — Practice Quiz
-  out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8,deck:'Progress Check'}));
-  out.push(callout('RESPONSE CHOICE',['Commit to an answer by marking it, saying it, or explaining it aloud before checking. Answer key is in the Teacher Guide (kept separate).']));
-  const items=[...a.quiz, {id:`u1-${code.toLowerCase().replace('.','')}-dok${s.cfu.dok}-tc`,dok:s.cfu.dok,stem:s.cfu.stem,opts:s.cfu.options}];
-  items.forEach(q=>{
-    out.push(P(R(`[DOK ${q.dok} · item ${q.id} · pre-field-test]`,{s:18,b:true,c:GREY})));
+  out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8,deck:deckRef(code,6,'Progress Check')}));
+  out.push(callout('SELF-GRADING — answer first, then check yourself',['Commit to each answer (mark it, say it, or explain it aloud) BEFORE you look. The answer key is at the bottom of this page — grade yourself, then reread the Cornell notes for anything you missed.']));
+  // One more item than before: add a distinct, bank-sourced formative item (not
+  // the exit ticket, which is rendered separately). All items carry their key so
+  // the bottom-of-page answer key can be printed (self-grading).
+  const _qids=new Set(a.quiz.map(q=>q.id));
+  const items=[...a.quiz, {id:`u6-${code.toLowerCase().replace('.','')}-dok${s.cfu.dok}-tc`,dok:s.cfu.dok,stem:s.cfu.stem,opts:s.cfu.options,key:s.cfu.key}];
+  const _extra=((ASSESS.formative||{})[code]||[]).find(f=>f&&f.stem&&!_qids.has(f.id));
+  if(_extra) items.push({id:_extra.id,dok:_extra.dok||2,stem:_extra.stem,opts:Object.fromEntries((_extra.choices||[]).map(c=>[c.id,c.text])),key:_extra.key});
+  const _ans=[];
+  items.forEach((q,qi)=>{
+    out.push(P(R(`${qi+1}.  [DOK ${q.dok} · ${q.id} · pre-field-test]`,{s:18,b:true,c:GREY})));
     out.push(P(R(q.stem,{s:21,b:true})));
-    ['A','B','C','D'].forEach(x=>out.push(P(R(`${x}. ${q.opts[x]}`,{s:20}),{indent:{left:260},spacing:{after:20}})));
+    ['A','B','C','D'].forEach(x=>{ if(q.opts&&q.opts[x]!==undefined) out.push(P(R(`${x}. ${q.opts[x]}`,{s:20}),{indent:{left:260},spacing:{after:20}})); });
+    if(q.key) _ans.push(`${qi+1}-${q.key}`);
   });
-  // Compact per-standard stretch (one line). The full "how to write a DOK-3
-  // question" scaffold + writer table lives ONCE as a unit-level activity in
-  // the back matter (Think Like a Test-Writer) — no need to repeat it 11×.
-  out.push(...ruled(1));
+  // Self-grading answer key at the BOTTOM of the activity (print-bundle standard).
+  out.push(P(R('— — — — —  cover this until you have answered every question  — — — — —',{s:15,c:GREY}),{align:AlignmentType.CENTER,spacing:{before:140,after:20}}));
+  out.push(callout('ANSWER KEY — grade yourself',['Answers: '+_ans.join('    ')+'.']));
   // Activity 7 — CER
-  out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:15,deck:'Constructed Response'}));
+  out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:15,deck:deckRef(code,7,'Constructed Response')}));
   // Compact big-question organizer (single combined callout — keeps the CER +
   // Exit Ticket on ONE page per the no-bleed rule; the exit ticket must never
   // spill to a near-empty next page).
