@@ -44,6 +44,7 @@ best path to adoption).
 | `us-history-hack-packet-builder` | TpT / for-sale packaging (front/back matter, brand strip, copyright, encryption). |
 | `magic-school-created-worksheets` | MagicSchool prompt packets for genuine content gaps. |
 | `history-hack-district-edition-restructure` | App-side District Edition / product-edition isolation. |
+| `history-hack-web-activities` | The web-app **interactive layer** on top of the print bundle — gamified retrieval, auto-graded formative/summative, and the draft-first **Writing Lab** (DBQ/CER/HIPP). Owns the feature set + guardrails; invokes the UX/assessment/privacy owners. |
 
 ## Content & learning design
 | Skill | The one job it owns |

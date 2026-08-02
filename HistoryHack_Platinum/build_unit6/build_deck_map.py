@@ -97,10 +97,10 @@ def main():
     tmap = extract(teacher)
     smap = extract(student)
     result = {
-        "reference_deck": "student",
+        "reference_deck": "teacher",  # workbook points to the TEACHER deck (follow-along notes)
         "teacher": tmap,
         "student": smap,
-        "activity_slides": activity_slides(smap),
+        "activity_slides": activity_slides(tmap),
         "role_to_activity": {k: v for k, v in ROLE_TO_ACTIVITY.items()},
     }
     json.dump(result, open(outp, "w"), ensure_ascii=False, indent=1)

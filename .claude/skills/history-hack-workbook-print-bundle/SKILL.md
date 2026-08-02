@@ -49,8 +49,22 @@ activity** print on the **back (verso) of that leaf**. The rhythm is per-activit
 
 ## 2. Bidirectional deck ↔ workbook keying — exact, and clear both ways
 
-A role label alone is **not enough**. The student must be pointed to the **exact slide(s)**, and the
-deck must point **back to the activity number**.
+**The deck model (LOCKED decision).** Each deck has one job, so the reference is unambiguous:
+
+- **Teacher deck = the full teach.** Projected during the lesson; this is where students *follow along
+  and take their notes*. **The workbook's exact slide numbers point to the TEACHER deck** — so a
+  student taking notes live is never lost.
+- **Student deck = minimal review / catch-up.** Lean, student-navigable; a student who missed something
+  in class flips through it afterward to catch up. It is **not** a copy of the teacher deck and does
+  **not** carry workbook slide numbers. Its only alignment obligation is **coverage**: every concept
+  the teacher taught (every DI segment) must have a review slide, so no taught idea is un-reviewable.
+  Coverage is owned by `history-hack-lean-deck-builder`; "same slide count as the teacher deck" is
+  **not** the rule (that would make it redundant).
+- **Workbook = the throughline** between them: notes are taken off the teacher deck, and those same
+  notes are what let a student close gaps with the student deck later.
+
+A role label alone is **not enough**. The student must be pointed to the **exact teacher-deck
+slide(s)**, and the teacher deck must point **back to the activity number**.
 
 **Workbook → deck (on every activity header):** name the exact slide number(s) *and* the role, e.g.
 
