@@ -67,7 +67,7 @@ These are Sean's permanent constraints. Never violate them.
 
 **Branding**
 - Product name is **"U.S. History Hack"** (WITH "U.S.") for the U.S. History line. For other subjects use the parallel name (e.g. "Government Hack", "World History Hack", "Tennessee History Hack") — confirm the exact name with Sean before first use of a new subject.
-- Palette: **NAVY `#1B2A4A`, RED `#B22234`, GOLD `#C89B3C`, CARD `#F7F5EF`** (secondary NAVY2 `#2C3E63`, LIGHT `#EEF2F8`, BORDER `#C9C2B4`). See `references/engine-conventions.md`.
+- Palette: **NAVY `#1F3A5F`, RED `#B22234`, GOLD `#C9A227`, CARD `#F8F5EF`** (secondary NAVY2 `#2C3E63`, LIGHT `#EEF2F8`, BORDER `#C9C2B4`). See `references/engine-conventions.md`.
 - Trademarks use **™ NOT ®**.
 - ISBN → literal **"[to be assigned]"** placeholder. **Never fabricate an ISBN or any identifier number.**
 

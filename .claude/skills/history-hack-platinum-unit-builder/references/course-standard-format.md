@@ -31,11 +31,12 @@ revision notes) and a SHA-256-manifest package.
 ## Design tokens (no deviation)
 
 - **Font:** Calibri throughout.
-- **Navy (primary):** `#0A1F3C` for headings. **Secondary navy:** `#143159`. (The legacy
-  `#1B2A4A` navy is retired — do not use it.)
-- **Red H3 / accent:** `#B22234` (required accent — red designation bands, red keylines, red
-  bullet markers; a navy/gold-only cover is incomplete).
-- **Cream callout fill:** `#F7F5EF`. **Gold accent:** `#C89B3C`.
+- **Heritage Blue (primary):** `#1F3A5F` for headings and structure (America 250). (The legacy
+  navies `#1B2A4A` / `#0A1F3C` / `#143159` are retired — do not use them.)
+- **Patriot Red H3 / accent:** `#B22234` (required accent — red designation bands, red keylines, red
+  bullet markers; a blue/gold-only cover is incomplete).
+- **Founders Cream callout fill:** `#F8F5EF`. **Muted Gold accent:** `#C9A227` (used sparingly).
+  (Legacy gold `#C89B3C` is retired.)
 - **Margins:** 0.8" / 0.9"; **content width 6.7"**; US-Letter page size.
 - **Gold running header;** footer with a **live page-number field**.
 

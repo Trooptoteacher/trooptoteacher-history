@@ -11,7 +11,7 @@ from docx.oxml import OxmlElement
 
 NAVY=RGBColor(0x1B,0x2A,0x4A); RED=RGBColor(0xB2,0x22,0x34); GOLD=RGBColor(0xC8,0x9B,0x3C)
 INK=RGBColor(0x22,0x22,0x22); MUTED=RGBColor(0x5A,0x65,0x79)
-CARD="F7F5EF"
+CARD="F8F5EF"
 
 SP='/tmp/claude-0/-home-user-trooptoteacher-history/56efdd95-cf8e-5821-8c3d-6afe28c88c95/scratchpad/'
 quiz=json.load(open(SP+'quiz_with_exp.json'))

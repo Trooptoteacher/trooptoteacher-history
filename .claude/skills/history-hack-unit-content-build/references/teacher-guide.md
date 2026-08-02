@@ -1,8 +1,8 @@
 # Teacher How-to-Use & MTSS Guide
 
 A standalone teacher companion (the "keep-separate" answer keys), generated with `python-docx` to
-the canonical brand (0.8"/0.9" margins, Calibri, navy `#1B2A4A` H1/H2, red `#B22234` H3, gold
-`#C89B3C` header, page-numbered footer). Reference generator: `scripts/build_teacher_guide.py`
+the canonical brand (0.8"/0.9" margins, Calibri, navy `#1F3A5F` H1/H2, red `#B22234` H3, gold
+`#C9A227` header, page-numbered footer). Reference generator: `scripts/build_teacher_guide.py`
 (~18 pp on Unit 6).
 
 ## Contents

@@ -39,7 +39,7 @@ pdfmetrics.registerFont(TTFont("DMSans-Med", os.path.join(FONT_DIR, "DMSans-Medi
 pdfmetrics.registerFont(TTFont("Inter", os.path.join(FONT_DIR, "Inter-Regular.ttf")))
 
 from reportlab.lib import colors
-NAVY = colors.HexColor("#0A1F3C")
+NAVY = colors.HexColor("#1F3A5F")
 GOLD = colors.HexColor("#C8A04B")
 
 

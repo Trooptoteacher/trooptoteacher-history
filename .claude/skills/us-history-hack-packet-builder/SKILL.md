@@ -36,7 +36,7 @@ A **brand strip** ("U.S. History Hack 1877–Present" + "Get the app: apps.apple
 - Do **NOT** use the word "scenario-based."
 - Approval claim: **"Under district review in Tennessee"** as a supplemental resource. NEVER claim state/statewide approval. **Never name the county/district** (the founder's employer stays private).
 - **No Franklin High School and no county name anywhere.** "Franklin, Tennessee" as the LLC location is the only allowed Franklin reference.
-- Keep the **red / America 250 / Air Force One** color scheme (NAVY #0A1F3C, RED #B22234, GOLD #C8A04B). The founder loves it.
+- Keep the **red / America 250 / Air Force One** color scheme (NAVY #1F3A5F, RED #B22234, GOLD #C8A04B). The founder loves it.
 - TDOE rating wording: "TN Level 5 Educator (sustained highest rating)" + "4.96 / 5.00 five-year average."
 
 ## Instructions

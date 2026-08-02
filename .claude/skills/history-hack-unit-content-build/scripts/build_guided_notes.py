@@ -44,9 +44,9 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 
 # ── Canonical brand tokens (LOCKED — must match STUDENT_WORKBOOK_PLATINUM_STANDARD.md §3) ──
-NAVY = "1B2A4A"
+NAVY = "1F3A5F"
 RED = "B22234"
-GOLD = "C89B3C"
+GOLD = "C9A227"
 DARK = "2B2B2B"
 LINE = "9AA0AB"          # writing / notebook line color
 

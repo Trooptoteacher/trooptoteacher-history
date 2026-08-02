@@ -12,9 +12,9 @@ copyright on every page. Posters print sharp from 18x24 up to 36x48.
 ## brand.py (single source of truth)
 
 ```python
-NAVY="#0A1F3C"; NAVY2="#14315A"; RED="#B22234"; RED_D="#8E1B29"
+NAVY="#1F3A5F"; NAVY2="#14315A"; RED="#B22234"; RED_D="#8E1B29"
 GOLD="#C8A04B"; GOLD_L="#E8C97A"; INK="#1C1C1C"; SLATE="#4A5568"
-PAPER="#F7F5EF"; LINE="#D8D2C4"; WHITE=white
+PAPER="#F8F5EF"; LINE="#D8D2C4"; WHITE=white
 COPYRIGHT_YEAR="2026"
 LLC="TroopToTeacher Technologies LLC"
 COPYRIGHT="© 2026 TroopToTeacher Technologies LLC. All rights reserved."

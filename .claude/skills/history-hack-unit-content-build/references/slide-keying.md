@@ -23,7 +23,7 @@ derive numbers from the deck's real file positions.
 ## Workbook → deck (`▶ Deck slide N`)
 Append a gold run to each activity header paragraph:
 ```python
-# gold #C89B3C, ~9pt bold, e.g. "      ▶ Deck slide 14" or "      ▶ Deck slides 11–13"
+# gold #C9A227, ~9pt bold, e.g. "      ▶ Deck slide 14" or "      ▶ Deck slides 11–13"
 ```
 Unit 6 added 98 refs (14 standards × 7 activities). Adding a wrapped header line can tip one tight
 page — re-run the QC gate and reclaim space on any spill (Unit 6: shrank US.54's Activity 5 photo).

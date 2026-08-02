@@ -74,7 +74,7 @@ student's response line ("your verdict, because…"), never pre-decided in the d
   organizer with a sourced connection. Only sourced ties (see `sourcing.md`).
 
 ## Brand + reproducibility + accessibility
-- Palette: navy `#1B2A4A`, red `#B22234`, gold `#C89B3C`, white, cream `#F7F5EF`.
+- Palette (**America 250** — `00_START_HERE/BRAND_PALETTE.md`): Heritage Blue `#1F3A5F`, Patriot Red `#B22234`, Muted Gold `#C9A227`, white, Founders Cream `#F8F5EF`.
 - Footer on **every** page: **"U.S. History Hack™ · © 2026 TroopToTeacher Technologies LLC"** (trademark
   + copyright).
 - Mark reproducibles **Reproducible** (teachers may copy).

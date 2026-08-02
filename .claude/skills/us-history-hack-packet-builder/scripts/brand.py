@@ -10,7 +10,7 @@ FONT_DIR = os.path.join(os.path.dirname(__file__), "fonts")
 LOGO = "/home/user/workspace/engine/channel_logo_circle.png"
 
 # Brand palette — America 250 / new Air Force One livery (deep navy, white, federal red, gold)
-NAVY   = colors.HexColor("#0A1F3C")   # deep Air Force One navy underside
+NAVY   = colors.HexColor("#1F3A5F")   # deep Air Force One navy underside
 NAVY2  = colors.HexColor("#14315A")
 RED    = colors.HexColor("#B22234")   # Old Glory federal red
 RED_D  = colors.HexColor("#8E1B29")   # deeper red for shadows
@@ -18,7 +18,7 @@ GOLD   = colors.HexColor("#C8A04B")   # muted military gold
 GOLD_L = colors.HexColor("#E8C97A")
 INK    = colors.HexColor("#1C1C1C")
 SLATE  = colors.HexColor("#4A5568")
-PAPER  = colors.HexColor("#F7F5EF")   # warm paper
+PAPER  = colors.HexColor("#F8F5EF")   # warm paper
 LINE   = colors.HexColor("#D8D2C4")
 WHITE  = colors.white
 REDFLAG = colors.HexColor("#B22234")

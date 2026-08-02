@@ -1,6 +1,6 @@
 ---
 name: history-hack-poster-packet-builder
-description: "Platinum-standard builder and reusable template for U.S. History Hack Unit Poster and Activity Packets (TroopToTeacher Technologies LLC). Produces a unit wall set: 13 large-format 24x36 vector wall posters (Track A), Letter station activities (Track B), three teacher guides (Standards Alignment Map, Print Guide, Facilitation Guide), and two assembled bundle PDFs (Wall Set and Complete Bundle with branded cover and dividers). Enforces the locked brand kit (navy/red/gold palette, DM Sans/Inter, sketch-note fonts for flagship anchor charts), copyright footer on every page, WCAG 2.2 AA, historian-verified citations, bilingual EN/ES plus 5-band differentiation, and no AI imagery. Use when the user says: build the Unit N poster packet, build the wall set, mirror the Unit 1 Platinum pattern, build the anchor chart, word wall, timeline, or station, assemble the bundle, add Platinum Plus guides, or save the poster packet to Google Drive."
+description: "Platinum-standard builder and reusable template for U.S. History Hack Unit Poster and Activity Packets (TroopToTeacher Technologies LLC). Produces a unit wall set: 13 large-format 24x36 vector wall posters (Track A), Letter station activities (Track B), three teacher guides (Standards Alignment Map, Print Guide, Facilitation Guide), and two assembled bundle PDFs (Wall Set and Complete Bundle with branded cover and dividers). Enforces the locked America 250 brand kit (Heritage Blue/Patriot Red/Muted Gold palette, DM Sans/Inter, sketch-note fonts for flagship anchor charts), copyright footer on every page, WCAG 2.2 AA, historian-verified citations, bilingual EN/ES plus 5-band differentiation, and no AI imagery. Use when the user says: build the Unit N poster packet, build the wall set, mirror the Unit 1 Platinum pattern, build the anchor chart, word wall, timeline, or station, assemble the bundle, add Platinum Plus guides, or save the poster packet to Google Drive."
 license: "Proprietary — TroopToTeacher Technologies LLC. Internal use."
 metadata:
   author: TroopToTeacher Technologies LLC
@@ -37,9 +37,9 @@ These are LOCKED. Never violate them in any artifact:
    `© 2026 TroopToTeacher Technologies LLC. All rights reserved.` (and `COPYRIGHT_SHORT`).
 2. **NO AI-generated imagery.** All visuals are hand-built ReportLab vector or pre-cleared
    photos in `poster_assets/img/`. Never generate or insert AI images into these documents.
-3. **Brand palette (America-250 / Air Force One livery):** NAVY `#0A1F3C`, NAVY2 `#14315A`,
+3. **Brand palette (America-250 / Air Force One livery):** NAVY `#1F3A5F`, NAVY2 `#14315A`,
    RED `#B22234`, RED_D `#8E1B29`, GOLD `#C8A04B`, GOLD_L `#E8C97A`, INK `#1C1C1C`,
-   SLATE `#4A5568`, PAPER `#F7F5EF`, LINE `#D8D2C4`.
+   SLATE `#4A5568`, PAPER `#F8F5EF`, LINE `#D8D2C4`.
 4. **Typography:** Display = DM Sans Bold; body = Inter. Flagship sketch-note anchor charts add
    the handwriting family: Bangers (Marker), Kalam-Bold (HandBold), Kalam (Hand),
    Patrick Hand (HandPrint), Caveat (HandScript). The handwriting fonts are intentional for the

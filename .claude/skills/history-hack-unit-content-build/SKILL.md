@@ -46,8 +46,9 @@ Use the **America 250 palette** — full spec in `00_START_HERE/BRAND_PALETTE.md
 Heritage Blue `#1F3A5F` (structure) · Patriot Red `#B22234` (emphasis) · Founders Cream `#F8F5EF`
 (dominant field) · Muted Gold `#C9A227` (sparingly) · writing-line `#9AA0AB`. Cream-dominant,
 blue-structure, red-emphasis, gold-sparingly. The legacy tokens `#1B2A4A`/`#0A1F3C`/`#143159` (navy),
-`#C89B3C`/`#C9A84C`/`#F9A825` (gold/amber), `#1A2332`, `#C62828` are **retired** — migrate any
-lingering use to the canonical set (see `references/decks.md`).
+`#C89B3C`/`#C9A84C` (gold/amber), `#F7F5EF` (cream), `#C62828` (red) are **retired** — migrate any
+lingering use to the canonical set (see `references/decks.md`). (Liberty Navy `#1A2332` and Phoenix
+Gold `#F9A825` are *broader*-palette America 250 tokens for special surfaces, not retired.)
 
 ## Non-negotiable gates
 

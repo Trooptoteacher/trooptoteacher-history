@@ -4,11 +4,11 @@ The Platinum workbook is built with a single ReportLab script (`build_workbook_t
 
 ## Palette (LOCKED)
 ```
-NAVY   = #1B2A4A   # headers, titles
+NAVY   = #1F3A5F   # headers, titles
 NAVY2  = #2C3E63   # secondary header band
 RED    = #B22234   # sparingly (accents, alerts)
-GOLD   = #C89B3C   # rules, accent bars
-CARD   = #F7F5EF   # zebra shading / callout backgrounds
+GOLD   = #C9A227   # rules, accent bars
+CARD   = #F8F5EF   # zebra shading / callout backgrounds
 LIGHT  = #EEF2F8   # secondary fill
 BORDER = #C9C2B4   # dividers, cell borders
 INK / MUTED        # body text / secondary text

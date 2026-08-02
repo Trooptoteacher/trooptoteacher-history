@@ -44,14 +44,14 @@ FONT_DIR = os.path.join(HERE, "fonts")
 os.makedirs(FONT_DIR, exist_ok=True)
 
 # ---------- brand palette (History Hack: navy / red / gold) ----------
-NAVY   = colors.HexColor("#1B2A4A")
+NAVY   = colors.HexColor("#1F3A5F")
 NAVY2  = colors.HexColor("#2C3E63")
 RED    = colors.HexColor("#B22234")
-GOLD   = colors.HexColor("#C89B3C")
+GOLD   = colors.HexColor("#C9A227")
 INK    = colors.HexColor("#1A1A1A")
 MUTED  = colors.HexColor("#555555")
 BORDER = colors.HexColor("#C9C2B4")
-CARD   = colors.HexColor("#F7F5EF")
+CARD   = colors.HexColor("#F8F5EF")
 LIGHT  = colors.HexColor("#EEF2F8")
 WHITE  = colors.white
 RULE   = colors.HexColor("#9AA3B2")
