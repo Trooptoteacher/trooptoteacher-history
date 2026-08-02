@@ -72,3 +72,35 @@ new-course orchestrator. Gates: alignment · text-integrity · **accessibility**
 print · unit-QC orchestrator · **WCS approval** · fact-check · adoption · copyright. Plus mission
 (north-star), assessment, UDL, instructional design, research. One owner per job; lands via the
 review-first skills-only PR to `main`.
+
+---
+
+## Batch 2 — Course Expansion skills (added 2026-08-02, staged in `_inbound/perplexity/`)
+
+**ADOPT — new capabilities we lack:**
+| Skill | Why |
+|---|---|
+| `spaced-repetition-engine` | retrieval-practice / spacing engine — core learning science (Rosenshine, spaced review); nothing equivalent on our side |
+| `tn-content-specialist` | TN-standards content authoring specialist — fills the content-authoring seat |
+| `edtech-adoption-specialist` | edtech/district *sales & adoption* — distinct from `tn-textbook-adoption-agent` (TDOE textbook rubric); confirm the two don't overlap, then keep both with clear lanes |
+
+**MERGE — version/overlap (head-to-head required, see guardrail below):**
+`tn-assessment-specialist` (Perplexity vs ours vs the #4 v3 — pick/merge the richest) ·
+`tcap-item-writer-v2` (still slated to fold into `tn-assessment-specialist`; harvest its psychometric
+depth first — Perplexity's copy is 23 KB) · `udl-cast-expert` (Perplexity vs ours) ·
+`instructional-design-specialist` (Perplexity vs #4) · `learning-experience-designer` (Perplexity vs ours).
+
+## Best-of-breed VERSION guardrail (never old over best)
+
+Before ANY overlapping skill is promoted from `_inbound/` into active `.claude/skills/`:
+1. **Head-to-head compare the candidate versions' content against the mission** — 4-lens panel
+   (UDL · Schedule F · teacher-usability · architecture) for anything non-trivial.
+2. **Never auto-pick by source, filename, or age.** Newer is not automatically better; older is not
+   automatically safer. The winner is the **most effective for students + adoption**. Where each
+   version has a unique strength, **MERGE** — take the best of each.
+3. **Record the decision + one-line rationale + provenance** in this matrix (which version won, why).
+4. **Promote only after** it loads clean, contradicts nothing in the canonical set, and has a
+   one-owner registry entry.
+
+This four-step compare **is** the QC process/guardrail that guarantees the best skill wins — it runs
+inside the review-first skills-only reconciliation PR, and no skill goes active without it.
