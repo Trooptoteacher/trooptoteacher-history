@@ -1,0 +1,719 @@
+{
+  "unit": {
+    "code": "Unit 1",
+    "title": "Age of Revolutions",
+    "course_name": "World History & Geography",
+    "course_short": "World History",
+    "brand": "World History Hack",
+    "standards_range": "W.01–W.04, W.08",
+    "cluster": "Age of Revolution (1750–1850)",
+    "quarter": 1,
+    "suggested_days": "16–18",
+    "essential_question": "How did the clash between absolute power and the idea of natural rights spark an Age of Revolutions?",
+    "publisher": "TroopToTeacher Technologies LLC",
+    "footer": "World History & Geography · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards (W) · Supplemental under TCA § 49-6-2202(a)(3)",
+    "cover_era": "1689 · 1748 · 1789",
+    "cover_title_lines": ["AGE OF", "REVOLUTIONS"],
+    "cover_image": "W.01_absolutism.jpg",
+    "strand_legend": {
+      "C": "Culture",
+      "E": "Economics",
+      "G": "Geography",
+      "H": "History",
+      "P": "Politics & Government"
+    },
+    "perspectives_title": "Whose Power? Perspectives on the Age of Revolutions",
+    "perspectives_intro": "This section traces the central argument of the era — where the right to rule comes from — as it moved from the throne to the people across a century of documents and revolutions. It is World History Hack–authored instructional synthesis grounded in this unit's sourced record — not a primary source.",
+    "perspectives": [
+      [
+        "Power from Above vs. Power from Below",
+        "Absolutism claimed authority flowed down from God to the king (W.01); Enlightenment thinkers argued it rises up from the consent of the governed (W.03, W.08)."
+      ],
+      [
+        "Written Limits on Rulers",
+        "From Magna Carta to the English Bill of Rights, subjects forced rulers to accept limits in writing — the seed of constitutional government (W.02, W.04)."
+      ],
+      [
+        "Ideas Cross Oceans",
+        "The same Enlightenment ideas fueled revolutions on two continents; the American and French Revolutions echoed one another and then diverged (W.08)."
+      ],
+      [
+        "Who Was Left Out",
+        "Declarations promised liberty and equality, yet excluded many — enslaved people, women, and the poor — a gap later revolutions would confront (W.08)."
+      ]
+    ],
+    "tn_connection_label": "TENNESSEE CONNECTION",
+    "tn_connection": "",
+    "tn_connection_note": "No authentic Tennessee-specific tie is built into the Age of Revolutions standards (W.01–W.09). Per the accuracy guardrail, none is fabricated; the Tennessee Connection is intentionally left empty for this world-history unit.",
+    "frameworks": {
+      "udl_designed_in": {
+        "engagement": [
+          "7.1 choice",
+          "7.2 relevance (where power should come from; revolutions students can debate)",
+          "7.3 play (Crown or Constitution?)",
+          "7.4 neutral framing",
+          "8.1 I-can goals",
+          "8.2 scaffold+extend",
+          "8.4 belonging (whose rights were recognized — and whose were not)",
+          "8.5 rationale feedback",
+          "9.1 belief-check",
+          "9.3 reflection",
+          "9.4 discussion norms"
+        ],
+        "representation": [
+          "1.1 print+digital",
+          "1.2 read-aloud+image",
+          "1.3 multiple perspectives",
+          "2.1 Frayer",
+          "2.2 pronunciation",
+          "2.3 EN/ES",
+          "2.4 neutral language",
+          "2.5 multimedia",
+          "3.1 K-W-L/hooks",
+          "3.2 concept web/EQ",
+          "3.4 spiral forward to Unit 2"
+        ],
+        "action_expression": [
+          "4.1 write/say/draw/build",
+          "4.2 alt text/AT",
+          "5.1 multiple media",
+          "5.2 organizer toolkit",
+          "5.3 graduated support",
+          "5.4 access-format items",
+          "6.1 goals",
+          "6.3 organizers",
+          "6.4 CFU+analytics",
+          "6.5 access not tracking"
+        ]
+      },
+      "mtss": {
+        "tier1": "UDL core for all",
+        "tier2": "scaffold column + support-form items",
+        "tier3": "teacher reteach + most-supported modes",
+        "progress": "per-standard CFU + mastery analytics"
+      },
+      "udl_citation": "CAST (2024). Universal Design for Learning Guidelines version 3.0. Lynnfield, MA: Author. https://udlguidelines.cast.org/"
+    },
+    "belief_check": "Predict first: Where should a government's power come from — God, tradition, or the people? Write your gut answer now — you'll test it against Bossuet, Locke, and the Declaration of the Rights of Man.",
+    "play": {
+      "name": "Crown or Constitution?",
+      "how": "4-minute game (W.01–W.08). Read a one-line claim — 'the king answers only to God,' 'no tax without Parliament,' 'men are born free and equal' — and call whether it defends absolute power or limits it, then name the document or thinker behind it. Students feel the century-long tug-of-war over who gets to rule."
+    },
+    "spiral": [
+      {
+        "from": "W.03",
+        "to": "Unit 2 (W.05, causes of the French Revolution)",
+        "link": "Enlightenment ideas about consent and natural rights become fuel for the French Revolution you'll trace next unit."
+      },
+      {
+        "from": "W.08",
+        "to": "Unit 2 (W.06–W.07, the French Revolution and Napoleon)",
+        "link": "The grievances and ideals in the Rights of Man ignite the revolution and the empire you'll study next — carry them forward."
+      }
+    ],
+    "discussion_norms": {
+      "name": "Revolution Roundtable",
+      "norms": [
+        "Name the document or thinker before you make your claim.",
+        "Steelman the other side — give the strongest case for the ruler AND for the reformer.",
+        "Disagree with the idea, not the classmate.",
+        "One voice at a time; make room for the quiet voice."
+      ]
+    }
+  },
+  "order": ["W.01", "W.02", "W.03", "W.04", "W.08"],
+  "standards": {
+    "W.01": {
+      "title": "Absolutism & the Divine Right of Kings",
+      "tn": "Describe the concept of the divine right of kings as well as the features, strengths, and weaknesses of European absolutism, including: Louis XIV, Versailles, and Peter the Great. (C, H, P)",
+      "ican": "I can describe divine right and the features, strengths, and weaknesses of European absolutism, using Louis XIV, Versailles, and Peter the Great.",
+      "vocab": [
+        {
+          "term": "Absolutism",
+          "say": "AB-suh-loo-tiz-um",
+          "es": "absolutismo",
+          "def": "A system in which a monarch holds total, centralized power over the state, unchecked by a parliament or written law."
+        },
+        {
+          "term": "Divine Right of Kings",
+          "say": "dih-VYNE ryte",
+          "es": "derecho divino de los reyes",
+          "def": "The belief that a monarch's authority comes directly from God, so the king answers to God alone rather than to the people or a legislature."
+        },
+        {
+          "term": "Versailles",
+          "say": "vair-SY",
+          "es": "Versalles",
+          "def": "Louis XIV's vast palace outside Paris, built to house and control the nobility and to display the wealth and power of absolute monarchy."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Politics Drawn from the Very Words of Holy Scripture",
+          "who": "Bishop Jacques-Bénigne Bossuet",
+          "date": "1709 (composed c. 1679)",
+          "quote": "The royal throne is not the throne of a man, but the throne of God himself.",
+          "repo": "Internet Archive (Riley translation, Cambridge)",
+          "url": "https://archive.org/details/politicsdrawnfro0000boss"
+        }
+      ],
+      "cfu": {
+        "dok": 2,
+        "stem": "According to the divine right of kings, where did a monarch like Louis XIV claim his authority came from?",
+        "options": {
+          "A": "A vote of the nobility",
+          "B": "Directly from God, making the king answerable to God alone",
+          "C": "A written constitution approved by Parliament",
+          "D": "The consent of the common people"
+        },
+        "key": "B",
+        "why": "DOK 2: Divine right held that a king's power flowed directly from God, so an absolute monarch answered to God — not to a parliament, constitution, or the people."
+      },
+      "auth": {
+        "close": "In the 1600s and 1700s, some European monarchs claimed total, centralized power — a system called absolutism. Its justification was the divine right of kings: the belief, expressed by writers like Bishop Bossuet, that a ruler's authority came straight from God, so the king answered to God alone. Louis XIV of France, the 'Sun King,' embodied it. He built the enormous palace at Versailles and required leading nobles to live there, turning them into courtiers who competed for his favor instead of rivals who could challenge him. Far to the east, Peter the Great centralized power in Russia, forced Western customs and technology on the nobility, built a new capital at St. Petersburg, and reorganized service to the state. Absolutism had real strengths — it could impose order, unify a country, fund large armies, and drive rapid state-building. But it had real weaknesses too: there were no checks on the ruler, taxes fell heavily on ordinary people, endless wars drained treasuries, and the rights of subjects depended entirely on one person's will. Those weaknesses became the target of the reformers and revolutionaries in the rest of this unit.",
+        "tdq": [
+          "How did Bossuet's argument justify a king holding absolute power?",
+          "How did Versailles help Louis XIV control the French nobility?",
+          "Name one strength and one weakness of absolutism as a system of government."
+        ],
+        "frayer": ["Absolutism", "Divine Right of Kings"],
+        "quiz": [
+          {
+            "id": "w1-w01-dok1-1",
+            "dok": 1,
+            "stem": "Which ruler built the palace of Versailles and was known as the 'Sun King'?",
+            "opts": {
+              "A": "Peter the Great",
+              "B": "Louis XIV",
+              "C": "Charles I",
+              "D": "Napoleon Bonaparte"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Was absolutism a strength or a weakness for a country like France? Defend your claim using Louis XIV and Versailles plus one other example."
+      },
+      "std_source": "TN Academic Standards — World History & Geography (W), verbatim",
+      "target": "I can describe divine right and the features, strengths, and weaknesses of European absolutism.",
+      "learning_targets": "Define absolutism and the divine right of kings. Describe how Louis XIV used Versailles to centralize power over the French nobility. Explain how Peter the Great centralized and Westernized Russia. Weigh the strengths and weaknesses of absolutism as a system of government.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one primary source to support your explanation;",
+        "connect absolutism to a real strength and a real weakness of that kind of government."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One ruler or palace that shows it?",
+        "One strength and one weakness?",
+        "Key terms →"
+      ],
+      "lenses": "Culture (C) · History (H) · Politics & Government (P)",
+      "dim_map": {
+        "C": "Court culture at Versailles turned the nobility into courtiers and made the palace a symbol of royal power.",
+        "H": "Absolute monarchy dominated much of Europe in the 1600s–1700s before Enlightenment ideas challenged it.",
+        "P": "Divine right concentrated all political authority in one unchecked ruler."
+      },
+      "hook": "One king made the greatest nobles in France fight over who got to hand him his shirt each morning. That was the whole point — keep them busy at your palace so they can never plot against you. Where does that kind of power even come from?",
+      "civic_label": "ABSOLUTISM",
+      "ssp_focus": "SSP.02",
+      "ref": {
+        "vocab": 3,
+        "dt": "4–6",
+        "source": 7,
+        "persp": 7,
+        "progress": 8,
+        "range": "2–8"
+      }
+    },
+    "W.02": {
+      "title": "Limiting the Crown: Magna Carta & the English Bill of Rights",
+      "tn": "Compare documents that establish limits on government in response to absolute monarchy (e.g., the Magna Carta and the English Bill of Rights). (H, P)",
+      "ican": "I can compare documents like the Magna Carta and the English Bill of Rights that established limits on government in response to absolute monarchy.",
+      "vocab": [
+        {
+          "term": "Magna Carta",
+          "say": "MAG-nuh KAR-tuh",
+          "es": "Carta Magna",
+          "def": "The 1215 English charter that limited the king's power and established that even the monarch was subject to the law."
+        },
+        {
+          "term": "Constitutional Monarchy",
+          "say": "kon-stih-TOO-shun-ul MON-ar-kee",
+          "es": "monarquía constitucional",
+          "def": "A government in which a monarch's power is limited by law and shared with an elected body such as Parliament."
+        },
+        {
+          "term": "Rule of Law",
+          "say": "rool uv law",
+          "es": "estado de derecho",
+          "def": "The principle that everyone, including the ruler, must obey the law and no one is above it."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Magna Carta, Clause 39",
+          "who": "King John of England and the barons",
+          "date": "1215",
+          "quote": "No free man shall be seized or imprisoned, or stripped of his rights or possessions... except by the lawful judgment of his equals or by the law of the land.",
+          "repo": "UK Parliament, Living Heritage",
+          "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/magnacartaclauses/"
+        },
+        {
+          "title": "English Bill of Rights",
+          "who": "The Parliament of England (under William III and Mary II)",
+          "date": "1689",
+          "quote": "That the pretended power of suspending of laws, or the execution of laws, by regal authority, without consent of Parliament, is illegal.",
+          "repo": "Teaching American History",
+          "url": "https://teachingamericanhistory.org/document/the-english-bill-of-rights-1689/"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "What is the main way both the Magna Carta and the English Bill of Rights limited the monarchy?",
+        "options": {
+          "A": "They abolished the monarchy entirely",
+          "B": "They placed the king above Parliament",
+          "C": "They subjected the ruler to the law and required consent for key actions like taxing or suspending laws",
+          "D": "They gave the king the power to imprison anyone without a trial"
+        },
+        "key": "C",
+        "why": "DOK 3: Both documents established that the monarch was not above the law — Magna Carta guaranteed lawful judgment before punishment, and the Bill of Rights barred the crown from suspending laws or acting without Parliament's consent."
+      },
+      "auth": {
+        "close": "Long before Louis XIV, England had begun putting limits on its kings in writing. In 1215, rebellious barons forced King John to seal the Magna Carta, which promised that no free man could be punished 'except by the lawful judgment of his equals or by the law of the land' — the idea that even a king is bound by law. Nearly five centuries later, after a civil war and a revolution, Parliament forced new limits on the crown in the English Bill of Rights (1689). It declared it illegal for the monarch to suspend laws, raise taxes, or keep a standing army without Parliament's consent, and it guaranteed free elections and freedom of speech in Parliament. Compared side by side, both documents answered absolutism the same way: they replaced the king's unchecked will with the rule of law and made the ruler share power. Together they moved England toward a constitutional monarchy — and their ideas would echo in the revolutions later in this unit.",
+        "tdq": [
+          "According to Magna Carta Clause 39, what protection did a free man have against the king?",
+          "What specific powers did the English Bill of Rights take away from the monarch?",
+          "How are the goals of the Magna Carta and the English Bill of Rights similar?"
+        ],
+        "frayer": ["Constitutional Monarchy", "Rule of Law"],
+        "quiz": [
+          {
+            "id": "w1-w02-dok1-1",
+            "dok": 1,
+            "stem": "The 1689 document that barred the English monarch from suspending laws or taxing without Parliament's consent was the —",
+            "opts": {
+              "A": "Magna Carta",
+              "B": "English Bill of Rights",
+              "C": "Declaration of the Rights of Man",
+              "D": "Petition of Right"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Which did more to limit the monarchy — the Magna Carta or the English Bill of Rights? Defend your claim using a quotation or provision from each."
+      },
+      "std_source": "TN Academic Standards — World History & Geography (W), verbatim",
+      "target": "I can compare documents that limited government in response to absolute monarchy.",
+      "learning_targets": "Explain what the Magna Carta (1215) established about the king and the law. Explain what powers the English Bill of Rights (1689) took from the crown and gave to Parliament. Compare how both documents responded to absolute monarchy and advanced the rule of law.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one of the two documents to support your explanation;",
+        "compare the two documents by naming a similarity and a difference."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One document that limits the king?",
+        "One power it took from the crown?",
+        "Key terms →"
+      ],
+      "lenses": "History (H) · Politics & Government (P)",
+      "dim_map": {
+        "H": "Across five centuries the English wrote down limits on royal power, from 1215 to 1689.",
+        "P": "Both documents established the rule of law and shifted power from the crown toward Parliament."
+      },
+      "hook": "In 1215, a group of angry barons cornered their own king in a meadow and made him sign away part of his power. That single page — Magna Carta — planted an idea kings would never fully kill: not even you are above the law.",
+      "civic_label": "LIMITED GOVERNMENT",
+      "ssp_focus": "SSP.03",
+      "ref": {
+        "vocab": 3,
+        "dt": "4–6",
+        "source": 7,
+        "persp": 7,
+        "progress": 8,
+        "range": "2–8"
+      }
+    },
+    "W.03": {
+      "title": "The Enlightenment: Reason vs. the Old Order",
+      "tn": "Compare the major ideas of philosophers during the Age of Enlightenment, such as Charles-Louis de Montesquieu, Thomas Hobbes, John Locke, and Jean-Jacques Rousseau. (C, E, H, P)",
+      "ican": "I can compare the major ideas of Enlightenment philosophers, including Montesquieu, Hobbes, Locke, and Rousseau.",
+      "vocab": [
+        {
+          "term": "Enlightenment",
+          "say": "en-LYTE-en-ment",
+          "es": "la Ilustración",
+          "def": "An 18th-century movement that used reason, not tradition or divine right, to question authority and rethink government and society."
+        },
+        {
+          "term": "Social Contract",
+          "say": "SOH-shul KON-trakt",
+          "es": "contrato social",
+          "def": "The idea that people agree to give up some freedom to a government in exchange for protection, and that the government's power comes from that agreement."
+        },
+        {
+          "term": "Separation of Powers",
+          "say": "sep-uh-RAY-shun uv POW-erz",
+          "es": "separación de poderes",
+          "def": "Montesquieu's idea of dividing government into separate branches so that no single person or group holds all the power."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Leviathan",
+          "who": "Thomas Hobbes",
+          "date": "1651",
+          "quote": "the life of man, solitary, poor, nasty, brutish, and short.",
+          "repo": "Project Gutenberg (eBook #3207)",
+          "url": "https://www.gutenberg.org/ebooks/3207"
+        },
+        {
+          "title": "Second Treatise of Government",
+          "who": "John Locke",
+          "date": "1689",
+          "quote": "no one ought to harm another in his life, health, liberty, or possessions.",
+          "repo": "Project Gutenberg (eBook #7370)",
+          "url": "https://www.gutenberg.org/ebooks/7370"
+        },
+        {
+          "title": "The Spirit of the Laws",
+          "who": "Charles-Louis de Montesquieu",
+          "date": "1748",
+          "quote": "When the legislative and executive powers are united in the same person... there can be no liberty.",
+          "repo": "Online Library of Liberty",
+          "url": "https://oll.libertyfund.org/titles/montesquieu-complete-works-vol-1-the-spirit-of-laws"
+        },
+        {
+          "title": "The Social Contract",
+          "who": "Jean-Jacques Rousseau",
+          "date": "1762",
+          "quote": "Man is born free, and everywhere he is in chains.",
+          "repo": "Project Gutenberg (eBook #46333)",
+          "url": "https://www.gutenberg.org/ebooks/46333"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Locke and Hobbes both wrote about a 'social contract,' but their conclusions differed. Which best states the difference?",
+        "options": {
+          "A": "Both argued people should have no government at all",
+          "B": "Hobbes argued people need a strong ruler to escape a violent state of nature, while Locke argued government exists to protect natural rights and can be replaced if it fails",
+          "C": "Locke supported absolute monarchy while Hobbes supported democracy",
+          "D": "Neither believed government came from the people"
+        },
+        "key": "B",
+        "why": "DOK 3: Hobbes saw human life without government as 'nasty, brutish, and short' and favored a powerful sovereign, while Locke held that government exists to protect life, liberty, and property and loses its legitimacy if it violates those rights."
+      },
+      "auth": {
+        "close": "The Enlightenment was an explosion of new thinking that judged government by reason instead of divine right — and its thinkers did not all agree. Thomas Hobbes, writing after England's civil war, argued in Leviathan that without government human life is 'solitary, poor, nasty, brutish, and short,' so people should hand power to a strong ruler for the sake of order. John Locke disagreed: in his Second Treatise of Government he argued that people are born with natural rights to 'life, health, liberty, or possessions,' that government exists only to protect those rights by the consent of the governed, and that a government that violates them can rightfully be replaced. Montesquieu, in The Spirit of the Laws, warned that liberty dies when one person holds all power, so government should be divided into separate branches that check each other — the separation of powers. Jean-Jacques Rousseau opened The Social Contract with the line 'Man is born free, and everywhere he is in chains,' arguing that legitimate government must rest on the 'general will' of the people. Compared together, these thinkers shifted the central question of the era from 'What does God want the king to do?' to 'What have the people consented to?' — and their answers armed the revolutions still to come.",
+        "tdq": [
+          "How did Hobbes's and Locke's views of human nature lead them to different kinds of government?",
+          "What problem was Montesquieu trying to prevent with the separation of powers?",
+          "What did Rousseau mean by 'Man is born free, and everywhere he is in chains'?"
+        ],
+        "frayer": ["Social Contract", "Separation of Powers"],
+        "quiz": [
+          {
+            "id": "w1-w03-dok1-1",
+            "dok": 1,
+            "stem": "The idea of separating government into branches so no one holds all the power came from —",
+            "opts": {
+              "A": "Thomas Hobbes",
+              "B": "Charles-Louis de Montesquieu",
+              "C": "Jean-Jacques Rousseau",
+              "D": "Bishop Bossuet"
+            },
+            "key": "B"
+          },
+          {
+            "id": "w1-w03-dok2-2",
+            "dok": 2,
+            "stem": "According to John Locke, the main purpose of government is to —",
+            "opts": {
+              "A": "protect the people's natural rights to life, liberty, and property",
+              "B": "enforce the divine right of the king",
+              "C": "keep the nobility loyal to the crown",
+              "D": "expand the country through conquest"
+            },
+            "key": "A"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Whose ideas — Hobbes, Locke, Montesquieu, or Rousseau — would be most dangerous to an absolute monarch? Defend your claim with a quotation from that thinker."
+      },
+      "std_source": "TN Academic Standards — World History & Geography (W), verbatim",
+      "target": "I can compare the major ideas of Enlightenment philosophers.",
+      "learning_targets": "Summarize the central idea of Hobbes, Locke, Montesquieu, and Rousseau. Explain the social contract and how Hobbes and Locke drew different conclusions from it. Explain Montesquieu's separation of powers. Compare how these thinkers challenged the divine right of kings.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one philosopher's own words to support your explanation;",
+        "compare two thinkers by naming where they agree and where they differ."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One philosopher and his big idea?",
+        "How does it challenge the king?",
+        "Key terms →"
+      ],
+      "lenses": "Culture (C) · Economics (E) · History (H) · Politics & Government (P)",
+      "dim_map": {
+        "C": "Enlightenment salons and printed books spread new ideas across Europe and challenged tradition.",
+        "E": "Ideas about property and individual rights reshaped thinking about wealth and who government should serve.",
+        "H": "The Enlightenment grew out of the Scientific Revolution and set the stage for the American and French Revolutions.",
+        "P": "Social contract and separation of powers redefined where legitimate authority comes from."
+      },
+      "hook": "Four thinkers, four different answers to one dangerous question: if a king's power doesn't come from God, where does it come from? Their answers were so explosive that reading them could get you thrown in prison — and would soon help topple thrones.",
+      "civic_label": "THE ENLIGHTENMENT",
+      "ssp_focus": "SSP.04",
+      "ref": {
+        "vocab": 3,
+        "dt": "4–6",
+        "source": 7,
+        "persp": 7,
+        "progress": 8,
+        "range": "2–8"
+      }
+    },
+    "W.04": {
+      "title": "The English Civil War: King vs. Parliament",
+      "tn": "Examine the causes and consequences of the English Civil War. (C, G, H, P)",
+      "ican": "I can examine the causes and consequences of the English Civil War.",
+      "vocab": [
+        {
+          "term": "Petition of Right",
+          "say": "puh-TIH-shun uv ryte",
+          "es": "Petición de Derechos",
+          "def": "A 1628 document forcing King Charles I to accept that he could not tax or imprison people without Parliament's consent."
+        },
+        {
+          "term": "Regicide",
+          "say": "REJ-ih-syde",
+          "es": "regicidio",
+          "def": "The act of killing a king; in England, the 1649 trial and execution of Charles I."
+        },
+        {
+          "term": "Commonwealth",
+          "say": "KOM-un-welth",
+          "es": "Mancomunidad (república)",
+          "def": "The republic England became after the execution of Charles I, led without a king under Oliver Cromwell."
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Petition of Right",
+          "who": "The Parliament of England to King Charles I",
+          "date": "1628",
+          "quote": "that no man hereafter be compelled to make or yield any gift, loan, benevolence, tax, or such like charge, without common consent by act of Parliament.",
+          "repo": "The Constitution Society",
+          "url": "https://constitution.org/1-History/eng/petright.htm"
+        },
+        {
+          "title": "The Trial of Charles I (charge before the High Court of Justice)",
+          "who": "The High Court of Justice, in the name of the Commons of England",
+          "date": "1649",
+          "quote": "Charles Stuart... traitorously and maliciously levied war against the present Parliament, and the people therein represented.",
+          "repo": "UK Parliament, Living Heritage",
+          "url": "https://www.parliament.uk/about/living-heritage/building/palace/westminsterhall/government-and-administration/trial-of-charlesi/"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Which sequence best shows a major cause and a major consequence of the English Civil War?",
+        "options": {
+          "A": "Cause: Parliament crowned a new king voluntarily → Consequence: the monarchy grew stronger",
+          "B": "Cause: Charles I clashed with Parliament over taxes and power → Consequence: he was tried, executed, and England briefly became a republic",
+          "C": "Cause: France invaded England → Consequence: the Magna Carta was written",
+          "D": "Cause: the Enlightenment ended → Consequence: absolutism spread across England"
+        },
+        "key": "B",
+        "why": "DOK 3: The war grew from Charles I's struggles with Parliament over taxation and authority; its consequence was his trial and execution (1649) and the short-lived Commonwealth republic under Cromwell."
+      },
+      "auth": {
+        "close": "The English Civil War (1642–1651) was a violent showdown over the same question running through this unit: could a king rule without limits? Charles I believed in strong royal authority and repeatedly clashed with Parliament over taxes and power. In 1628 Parliament forced him to accept the Petition of Right, which declared he could not tax people 'without common consent by act of Parliament' — but Charles kept trying to rule without Parliament. War broke out between supporters of the king (Cavaliers) and supporters of Parliament (Roundheads), led on the battlefield by Oliver Cromwell. Parliament's forces won. In 1649, in an act that shocked Europe, Charles I was put on trial — charged with having 'traitorously and maliciously levied war against the present Parliament' — and executed. England abolished the monarchy and became a republic, the Commonwealth, under Cromwell. The monarchy was later restored, but the war permanently settled that an English king could not simply ignore Parliament — a consequence that fed directly into the English Bill of Rights of 1689.",
+        "tdq": [
+          "What conflict between Charles I and Parliament helped cause the English Civil War?",
+          "What did the Petition of Right (1628) try to prevent the king from doing?",
+          "What were two major consequences of the English Civil War?"
+        ],
+        "frayer": ["Regicide", "Commonwealth"],
+        "quiz": [
+          {
+            "id": "w1-w04-dok1-1",
+            "dok": 1,
+            "stem": "Who led Parliament's forces and governed England as a republic after the execution of Charles I?",
+            "opts": {
+              "A": "Louis XIV",
+              "B": "Oliver Cromwell",
+              "C": "King John",
+              "D": "Napoleon Bonaparte"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Was the execution of Charles I a justified consequence of the English Civil War? Defend your claim using the causes of the war and one source."
+      },
+      "std_source": "TN Academic Standards — World History & Geography (W), verbatim",
+      "target": "I can examine the causes and consequences of the English Civil War.",
+      "learning_targets": "Identify the conflicts between Charles I and Parliament that caused the English Civil War. Explain the role of the Petition of Right. Describe the trial and execution of Charles I and the creation of the Commonwealth. Trace the consequences of the war for royal power in England.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use at least one source to support your explanation;",
+        "identify at least one cause AND one consequence of the war."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One cause of the war?",
+        "One consequence of the war?",
+        "Key terms →"
+      ],
+      "lenses": "Culture (C) · Geography (G) · History (H) · Politics & Government (P)",
+      "dim_map": {
+        "C": "Religious tension between Charles I and Puritan-leaning members of Parliament deepened the conflict.",
+        "G": "The war divided England regionally between royalist and parliamentary strongholds.",
+        "H": "The 1642–1651 war led to the only period in which England had no monarch.",
+        "P": "The war and the execution of Charles I settled that the crown could not rule without Parliament."
+      },
+      "hook": "In 1649, England did something no one thought possible: it put its own king on trial, found him guilty, and cut off his head in public. How does a country get to the point of executing its own king — and what happens next?",
+      "civic_label": "ENGLISH CIVIL WAR",
+      "ssp_focus": "SSP.04",
+      "ref": {
+        "vocab": 3,
+        "dt": "4–6",
+        "source": 7,
+        "persp": 7,
+        "progress": 8,
+        "range": "2–8"
+      }
+    },
+    "W.08": {
+      "title": "Two Revolutions: The Declaration of Independence & the Rights of Man",
+      "tn": "Identify how the ideas of the Enlightenment inspired Thomas Jefferson and the Declaration of Independence, and compare the American Revolution with the French Revolution. (C, G, H, P)",
+      "ican": "I can identify how Enlightenment ideas inspired the Declaration of Independence and compare the American Revolution with the French Revolution.",
+      "vocab": [
+        {
+          "term": "Natural Rights",
+          "say": "NACH-ur-ul ryts",
+          "es": "derechos naturales",
+          "def": "Rights such as life, liberty, and the pursuit of happiness that Enlightenment thinkers said every person is born with and no government may take away."
+        },
+        {
+          "term": "Popular Sovereignty",
+          "say": "POP-yuh-ler SOV-rin-tee",
+          "es": "soberanía popular",
+          "def": "The principle that a government's authority comes from the consent of the people it governs."
+        },
+        {
+          "term": "Consent of the Governed",
+          "say": "kun-SENT uv thuh GUV-ernd",
+          "es": "consentimiento de los gobernados",
+          "def": "The idea, central to the Declaration of Independence, that a government is only legitimate if the people agree to be ruled by it."
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Declaration of Independence",
+          "who": "Thomas Jefferson and the Second Continental Congress",
+          "date": "1776",
+          "quote": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.",
+          "repo": "U.S. National Archives",
+          "url": "https://www.archives.gov/founding-docs/declaration-transcript"
+        },
+        {
+          "title": "Declaration of the Rights of Man and of the Citizen",
+          "who": "The National Assembly of France",
+          "date": "1789",
+          "quote": "Men are born and remain free and equal in rights.",
+          "repo": "Élysée (Presidency of the French Republic)",
+          "url": "https://www.elysee.fr/en/french-presidency/the-declaration-of-the-rights-of-man-and-of-the-citizen"
+        }
+      ],
+      "cfu": {
+        "dok": 3,
+        "stem": "Both the Declaration of Independence and the Declaration of the Rights of Man drew on Enlightenment ideas. Which idea appears in BOTH documents?",
+        "options": {
+          "A": "Kings rule by divine right",
+          "B": "People are born with equal natural rights that government must protect",
+          "C": "Only nobles may hold political power",
+          "D": "Government power should never come from the people"
+        },
+        "key": "B",
+        "why": "DOK 3: Both echo Enlightenment thinkers like Locke and Rousseau — the American document asserts all are 'created equal' with 'unalienable Rights,' and the French document declares men are 'born and remain free and equal in rights.'"
+      },
+      "auth": {
+        "close": "By the late 1700s, Enlightenment ideas had jumped from books into revolutions. When Thomas Jefferson wrote the Declaration of Independence (1776), he drew directly on John Locke: the claim that 'all men are created equal' with 'unalienable Rights' to 'Life, Liberty and the pursuit of Happiness,' and that government derives its 'just powers from the consent of the governed,' is Enlightenment natural-rights and social-contract thinking turned into a founding document. Thirteen years later, French revolutionaries wrote the Declaration of the Rights of Man and of the Citizen (1789), announcing that 'Men are born and remain free and equal in rights.' The two revolutions rhymed — both overthrew a distant or absolute authority in the name of natural rights and popular sovereignty. But they also diverged. The American Revolution was a colonial war for independence that produced a fairly stable new republic. The French Revolution was an internal uprising against an entire social order; it grew far more radical and violent, cycling through a constitutional monarchy, a republic, the Reign of Terror, and finally Napoleon's empire — the story you'll trace in the next unit. Same Enlightenment spark, two very different fires.",
+        "tdq": [
+          "Which Enlightenment thinker's ideas are most visible in the Declaration of Independence, and how?",
+          "What core idea do the Declaration of Independence and the Declaration of the Rights of Man share?",
+          "Name one important way the American and French Revolutions differed in how they unfolded."
+        ],
+        "frayer": ["Natural Rights", "Consent of the Governed"],
+        "quiz": [
+          {
+            "id": "w1-w08-dok1-1",
+            "dok": 1,
+            "stem": "Which Enlightenment thinker most directly influenced Jefferson's idea of 'life, liberty, and the pursuit of happiness'?",
+            "opts": {
+              "A": "Thomas Hobbes",
+              "B": "John Locke",
+              "C": "Bishop Bossuet",
+              "D": "King John"
+            },
+            "key": "B"
+          },
+          {
+            "id": "w1-w08-dok2-2",
+            "dok": 2,
+            "stem": "One key difference between the American and French Revolutions was that the French Revolution —",
+            "opts": {
+              "A": "produced a stable republic almost immediately",
+              "B": "became far more radical and violent, moving through terror and then empire",
+              "C": "rejected all Enlightenment ideas",
+              "D": "kept its absolute monarchy unchanged"
+            },
+            "key": "B"
+          }
+        ],
+        "cer": "Claim + Evidence + Reasoning: Were the American and French Revolutions more alike or more different? Defend your claim using one quotation from each declaration."
+      },
+      "std_source": "TN Academic Standards — World History & Geography (W), verbatim",
+      "target": "I can connect Enlightenment ideas to the Declaration of Independence and compare the American and French Revolutions.",
+      "learning_targets": "Explain how Enlightenment ideas (especially Locke's) shaped the Declaration of Independence. Identify the shared natural-rights principles in the Declaration of Independence and the Declaration of the Rights of Man. Compare how the American and French Revolutions were similar and how they differed in their course and outcomes.",
+      "criteria": [
+        "state the key idea of the standard in your own words with an accurate example;",
+        "use a quotation from at least one of the two declarations to support your explanation;",
+        "compare the two revolutions by naming a similarity and a difference."
+      ],
+      "cues": [
+        "Key idea of this standard?",
+        "One Enlightenment idea in the Declaration?",
+        "One way the two revolutions differ?",
+        "Key terms →"
+      ],
+      "lenses": "Culture (C) · Geography (G) · History (H) · Politics & Government (P)",
+      "dim_map": {
+        "C": "Both revolutions spread the culture of natural rights and citizenship through printed declarations.",
+        "G": "The revolutions unfolded on two continents — an ocean apart — yet influenced each other.",
+        "H": "The American Revolution (1776) helped inspire the French Revolution (1789).",
+        "P": "Both documents grounded government in natural rights and the consent of the governed rather than divine right."
+      },
+      "hook": "Two declarations, thirteen years and an ocean apart, said almost the same thing: people are born free and equal, and government answers to them. One revolution built a lasting republic. The other spiraled into terror and an emperor. Same idea — why such different endings?",
+      "civic_label": "TWO REVOLUTIONS",
+      "ssp_focus": "SSP.03",
+      "ref": {
+        "vocab": 3,
+        "dt": "4–6",
+        "source": 7,
+        "persp": 7,
+        "progress": 8,
+        "range": "2–8"
+      }
+    }
+  },
+  "build_status": {
+    "status": "draft",
+    "authored": "W.01, W.02, W.03, W.04, W.08 (5 of the 9 Age-of-Revolution cluster standards; W.05–W.07, W.09 scoped to Unit 2)",
+    "factcheck_gate": "F1 OPEN — run historian-factcheck-agent on every date/name/quote/citation before ship (Phase 3 close-out). Bossuet quote wording is a widely-attested translation pending exact-edition confirmation.",
+    "images_pending": "Phase 2 not run — primary_source_sourcing.json and ASSETS/primary_sources/ images not yet acquired; cover_image and source images are expected filenames, not on disk.",
+    "schema_reference": "Full parity with courses/foundations-constitutional-government/BUILD/unit6/analysis/unit6_content.json",
+    "code_correction": "Map file listed 'W.08a'; the verbatim TN standards file has no 'W.08a' — corrected to 'W.08'."
+  }
+}
