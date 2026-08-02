@@ -67,6 +67,7 @@ best path to adoption).
 | `historian-factcheck-agent` | Primary-source **fact-check** (Policy 2.600). |
 | `tn-textbook-adoption-agent` | TDOE **Schedule F / adoption** panel review. |
 | `copyright-integrity-accreditation` | IP / licensing / **FERPA-COPPA** review. |
+| `history-hack-primary-source-manifest` | Fail-closed **primary-source manifest** gate + operating prompt: exact item, item-level rights evidence, tested retrieval (candidate/manual-review/production). Produces the download-ready records the source-consuming builders use; does not author lessons. |
 | `edtech-adoption-specialist` | EdTech district/state **sales & adoption** process (distinct lane from the Schedule F rubric). |
 
 ## External (not in this repo)

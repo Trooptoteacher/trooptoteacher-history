@@ -1,0 +1,49 @@
+name: Primary-source manifest readiness
+
+on:
+  pull_request:
+    paths:
+      - "manifests-v2/**"
+      - "schema/primary-source-manifest-v2.schema.json"
+      - "tools/validate_manifest_readiness.py"
+      - "tests/test_validate_manifest_readiness.py"
+      - ".github/workflows/manifest-readiness.yml"
+  push:
+    branches: [main]
+    paths:
+      - "manifests-v2/**"
+      - "schema/primary-source-manifest-v2.schema.json"
+      - "tools/validate_manifest_readiness.py"
+      - "tests/test_validate_manifest_readiness.py"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run validator regression tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+      - name: Validate all v2 manifests
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -d manifests-v2 ]]; then
+            while IFS= read -r -d '' manifest; do
+              kind="candidate"
+              case "$(basename "$manifest")" in
+                production_manifest.*) kind="production" ;;
+                manual_review_manifest.*) kind="manual_review" ;;
+                candidate_manifest.*) kind="candidate" ;;
+              esac
+              python3 tools/validate_manifest_readiness.py "$manifest" --kind "$kind"
+            done < <(find manifests-v2 -type f \( -name '*.json' -o -name '*.csv' \) -print0)
+          else
+            echo "No manifests-v2 directory yet; regression tests passed."
+          fi
+
