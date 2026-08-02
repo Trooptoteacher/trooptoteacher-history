@@ -100,6 +100,28 @@ together so they can never disagree.
 4. **Ruled space is sized to the task.** More-demanding prompts get more ruled lines; short prompts get
    fewer — so the page is full of *useful* writing space, never padded and never cramped.
 
+## 3a. Typography accessibility floor (LOCKED — TDOE Schedule F 4.1)
+
+Rubric **4.1** scores print materials for *"adequate font, contrast, and layout,"* and the
+`accessibility-qc-agent` gate (WCAG 2.2 AA / Section 508 / ADA) enforces it. Font **family** is fine
+(a clean sans-serif — Calibri); the risk is **size and contrast**. Floors that must hold:
+
+- **Primary reading passage ≥ 12 pt, never shrunk to fit.** The Close-Read text a student actually
+  reads is the highest-stakes type on the page — it may **never** be shrunk to force a one-page fit.
+  **Let it flow to another page instead** (this is why the passage font is fixed, not adaptive — and
+  it composes with the duplex front/back model, where more pages are expected).
+- **Body / instructional text ≥ 11 pt** (12 pt preferred). Nothing a student is expected to read sits
+  below 11 pt.
+- **Metadata only** (citations, source lines, item IDs, timers) **≥ 9 pt** — never smaller, and never
+  the sole carrier of required content.
+- **Contrast:** small/grey text must clear WCAG AA with margin. The muted grey is darkened to
+  `#4B5563` (~7.5:1 on white/cream, AAA) — do **not** revert to a lighter grey for small type.
+- **No accessibility trade for fit.** When type-floor and no-bleed conflict, the floor wins and the
+  content flows; you never buy a one-page fit by shrinking readable type.
+
+Verify mechanically after each build: no student-read run below its floor; the reading passage is a
+single fixed ≥12 pt size across all standards (not length-adaptive).
+
 ## 4. Per-activity print rules
 
 - **Activity 1 — Vocabulary Word Bank.** Front; supports on verso; header carries exact deck

@@ -39,14 +39,14 @@ function coverHero(rec,{maxW=380,maxH=290}={}){
     border:{top:{style:BorderStyle.SINGLE,size:14,color:GOLD,space:8},bottom:{style:BorderStyle.SINGLE,size:14,color:GOLD,space:8}},
     children:[new ImageRun({data:fs.readFileSync(rec.file),type:imgType(rec.file),transformation:{width:w,height:h},
       altText:{title:'Unit cover image',description:rec.cap,name:'cover-hero'}})]})];
-  out.push(P(R(rec.cap,{s:16,i:true,c:GREY}),{align:AlignmentType.CENTER,spacing:{after:8}}));
-  out.push(P(R('Source: '+rec.cred,{s:14,c:GREY}),{align:AlignmentType.CENTER,spacing:{after:110}}));
+  out.push(P(R(rec.cap,{s:18,i:true,c:GREY}),{align:AlignmentType.CENTER,spacing:{after:8}}));
+  out.push(P(R('Source: '+rec.cred,{s:18,c:GREY}),{align:AlignmentType.CENTER,spacing:{after:110}}));
   return out;
 }
 const STUDENT_SUPPORTS=process.env.STUDENT_SUPPORTS==='1'; // Cornell support backs in the student book? default NO (they live in the teacher toolkit)
 
 // ---- exact tokens ----
-const NAVY='1B2A4A', RED='B22234', GOLD='C89B3C', INK='1A1A1A', CREAM='F7F5EF', WHITE='FFFFFF', GREY='6B7280', BORD='D9D5C8';
+const NAVY='1B2A4A', RED='B22234', GOLD='C89B3C', INK='1A1A1A', CREAM='F7F5EF', WHITE='FFFFFF', GREY='4B5563', BORD='D9D5C8';
 const FONT='Calibri';
 const CW=9648;                         // 6.7in content width (DXA)
 const bd=(c=BORD,sz=4)=>({style:BorderStyle.SINGLE,size:sz,color:c});
@@ -84,8 +84,8 @@ function sourceImage(rec,{max,maxH}={}){
       altText:{title:rec.title||'Primary source',description:rec.alt||rec.caption||rec.title||'Primary source image',name:rec.title||'source'}})]})];
   const cap=[rec.title, rec.creator?('· '+rec.creator):'', rec.year?('· '+rec.year):''].filter(Boolean).join(' ');
   out.push(P(R(cap,{s:19,b:true}),{spacing:{after:20}}));
-  out.push(P(R(`Source: ${rec.citation||''} ${rec.rights||''}${rec.rightsUrl?(' '+rec.rightsUrl):''}`.trim(),{s:16,c:GREY}),{spacing:{after:rec.colorKey?12:40}}));
-  if(rec.colorKey) out.push(P([R('▶ ',{s:17,b:true,c:GOLD}),R('Fine detail and color read best on screen. A large full-color version is on the projection-map slides at the end of the slide deck.',{s:17,i:true,c:GREY})],{spacing:{after:40}}));
+  out.push(P(R(`Source: ${rec.citation||''} ${rec.rights||''}${rec.rightsUrl?(' '+rec.rightsUrl):''}`.trim(),{s:18,c:GREY}),{spacing:{after:rec.colorKey?12:40}}));
+  if(rec.colorKey) out.push(P([R('▶ ',{s:18,b:true,c:GOLD}),R('Fine detail and color read best on screen. A large full-color version is on the projection-map slides at the end of the slide deck.',{s:18,i:true,c:GREY})],{spacing:{after:40}}));
   return out;
 }
 // compact image only (no caption/citation) — for the launch-page hook (source is cited in Activity 5)
@@ -105,7 +105,7 @@ function dataTable(headers,rows,widths){
 // spacer between each line, so every baseline renders.
 function ruled(n=3){const out=[];for(let i=0;i<n;i++){
   out.push(new Paragraph({spacing:{before:0,after:0,line:255,lineRule:'auto'},
-    border:{bottom:{style:BorderStyle.SINGLE,size:4,color:'C9C4B5',space:3}},children:[R(' ',{s:16})]}));
+    border:{bottom:{style:BorderStyle.SINGLE,size:4,color:'C9C4B5',space:3}},children:[R(' ',{s:18})]}));
   if(i<n-1) out.push(new Paragraph({spacing:{before:0,after:0,line:70,lineRule:'exact'},children:[R(' ',{s:2})]}));
 }return out;}
 function linesFor(h){return Math.max(2,Math.round(h/380));}
@@ -141,11 +141,11 @@ function gap(h=140){return new Paragraph({spacing:{after:h},children:[R('',{s:12
 function doodle(label,note,h=1500){return [callout(label,[note]),
   table([new TableRow({height:{value:h,rule:HeightRule.ATLEAST},children:[cell(P(R(' ',{s:12}),{spacing:{after:0}}),{w:CW})]})],[CW])];}
 function priorityBar(n,term,es){return table([new TableRow({children:[cell([
-  P([R(`PRIORITY TERM ${n}`,{s:16,b:true,c:GOLD}),R(`     ${term}`,{s:24,b:true,c:WHITE}),R(`      ·   ES: ${es}`,{s:18,c:'D9D5C8'})],{spacing:{after:0}})],{w:CW,fill:NAVY})]})],[CW]);}
+  P([R(`PRIORITY TERM ${n}`,{s:18,b:true,c:GOLD}),R(`     ${term}`,{s:24,b:true,c:WHITE}),R(`      ·   ES: ${es}`,{s:18,c:'D9D5C8'})],{spacing:{after:0}})],{w:CW,fill:NAVY})]})],[CW]);}
 // GEOGRAPHY PRIORITY banner — geography is one of the most-missed EOC skills, so
 // the Geographer's Lens is flagged like a priority term so it isn't skipped.
 function geoPriorityBar(){return table([new TableRow({children:[cell([
-  P([R('PRIORITY SKILL',{s:16,b:true,c:GOLD}),R('     Geography',{s:24,b:true,c:WHITE}),R('      ·   one of the most-missed skills on the EOC — do not skip it',{s:16,c:'D9D5C8'})],{spacing:{after:0}})],{w:CW,fill:NAVY})]})],[CW]);}
+  P([R('PRIORITY SKILL',{s:18,b:true,c:GOLD}),R('     Geography',{s:24,b:true,c:WHITE}),R('      ·   one of the most-missed skills on the EOC — do not skip it',{s:18,c:'D9D5C8'})],{spacing:{after:0}})],{w:CW,fill:NAVY})]})],[CW]);}
 function retrievalBox(code){return [gap(120),
   callout('SPACED RETRIEVAL — quick recall (no notes)',['Pull it up cold to strengthen memory, then check your notes.']),
   writeTable(['Recall prompt','Your answer (from memory)'],[
@@ -154,8 +154,8 @@ function retrievalBox(code){return [gap(120),
     ['How the two connect',''],
   ],[3800,5848],{rowH:600})];}
 function vocabSelfCheck(code,fillLines=2){const s=C.standards[code]; const W=[3048,1650,1650,1650,1650];
-  const head=new TableRow({tableHeader:true,children:['Term','1 · never seen it','2 · heard it','3 · can use it','4 · can teach it'].map((h,i)=>cell(P(R(h,{s:15,b:true,c:i===0?NAVY:WHITE}),{align:i?AlignmentType.CENTER:AlignmentType.LEFT,spacing:{after:0}}),{w:W[i],fill:i===0?CREAM:NAVY}))});
-  const rows=s.vocab.map(v=>new TableRow({children:[cell(P(R(v.term,{s:16,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(ruled(1),{w:W[k]}))]}));
+  const head=new TableRow({tableHeader:true,children:['Term','1 · never seen it','2 · heard it','3 · can use it','4 · can teach it'].map((h,i)=>cell(P(R(h,{s:18,b:true,c:i===0?NAVY:WHITE}),{align:i?AlignmentType.CENTER:AlignmentType.LEFT,spacing:{after:0}}),{w:W[i],fill:i===0?CREAM:NAVY}))});
+  const rows=s.vocab.map(v=>new TableRow({children:[cell(P(R(v.term,{s:18,b:true}),{spacing:{after:0}}),{w:W[0]}),...[1,2,3,4].map(k=>cell(ruled(1),{w:W[k]}))]}));
   return [
     callout('VOCABULARY SELF-CHECK · Knowledge Rating',['Rate each term NOW in pencil, then again at the END — growth is the goal; no penalty for “never seen it.”']),
     table([head,...rows],W),
@@ -350,7 +350,7 @@ function block(code){
   out.push(...ruled(8));
   } // end STUDENT_SUPPORTS
   // Activity 4 — Close Read
-  out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:15,deck:deckRef(code,4,'Direct Instruction')}));
+  out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:18,deck:deckRef(code,4,'Direct Instruction')}));
   out.push(P(R('Reading type: History Hack-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
   // Passage in titled CHUNKS (single column). The text-dependent questions are
   // MERGED into the Evidence Lab — each question is a row you find evidence for —
@@ -359,7 +359,7 @@ function block(code){
   const _secs=(a.close_sections&&a.close_sections.length)?a.close_sections:[['',a.close]];
   const _cl=(a.close||'').length;
   const _long=_cl>1350;
-  const _pf=_cl>2000?18:(_cl>1500?19:21);
+  const _pf=24; // ACCESSIBILITY FLOOR: primary reading passage = 12pt, never shrunk (flow to more pages; skill: history-hack-workbook-print-bundle §type-floor)
   const _rows=_cl>1900?2:3;
   const _wl=_cl>1900?1:2;
   const _chunks=[];
@@ -415,7 +415,7 @@ function block(code){
     out.push(...doodle('MARK UP THE MAP (draw your thinking)','On the map above, circle or label what you notice — routes, regions, clusters — then sketch the pattern here in your own quick map.',1150));
   }
   // Activity 5 — Primary Source / Data (HIPPO)
-  out.push(H(`Activity 5 — Primary Source / Data Analysis — ${code}`,2,{brk:true,mins:15,deck:deckRef(code,5,'Primary Source')}));
+  out.push(H(`Activity 5 — Primary Source / Data Analysis — ${code}`,2,{brk:true,mins:18,deck:deckRef(code,5,'Primary Source')}));
   const im=(IMG[code]||{});
   if(im.anchor){
     out.push(P(R(`Primary source (${im.anchor.medium}) — analyze it with HIPPO. Builds SSP.01–SSP.02.`,{s:20,i:true,c:GREY})));
@@ -454,10 +454,10 @@ function block(code){
     if(q.key) _ans.push(`${qi+1}-${q.key}`);
   });
   // Self-grading answer key at the BOTTOM of the activity (print-bundle standard).
-  out.push(P(R('— — — — —  cover this until you have answered every question  — — — — —',{s:15,c:GREY}),{align:AlignmentType.CENTER,spacing:{before:140,after:20}}));
+  out.push(P(R('— — — — —  cover this until you have answered every question  — — — — —',{s:18,c:GREY}),{align:AlignmentType.CENTER,spacing:{before:140,after:20}}));
   out.push(callout('ANSWER KEY — grade yourself',['Answers: '+_ans.join('    ')+'.']));
   // Activity 7 — CER
-  out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:15,deck:deckRef(code,7,'Constructed Response')}));
+  out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:18,deck:deckRef(code,7,'Constructed Response')}));
   // Compact big-question organizer (single combined callout — keeps the CER +
   // Exit Ticket on ONE page per the no-bleed rule; the exit ticket must never
   // spill to a near-empty next page).
@@ -472,7 +472,7 @@ function block(code){
   // Exit Ticket — end-of-standard formative (vetted item from the question bank; key + next steps teacher-side)
   const xt=EXIT[code];
   if(xt) out.push(table([new TableRow({children:[cell([
-    P([R('EXIT TICKET — before you leave  ',{s:21,b:true,c:NAVY}),R(`[item ${xt.id} · DOK ${xt.dok} · pre-field-test]`,{s:16,c:GREY})],{spacing:{after:60}}),
+    P([R('EXIT TICKET — before you leave  ',{s:21,b:true,c:NAVY}),R(`[item ${xt.id} · DOK ${xt.dok} · pre-field-test]`,{s:18,c:GREY})],{spacing:{after:60}}),
     P(R(xt.stem,{s:22,b:true}),{spacing:{after:50}}),
     ...xt.choices.map(c=>P(R(`${c.id}.   ${c.text}`,{s:21}),{indent:{left:360},spacing:{after:24}})),
     P([R('Show what you know (your choice): ',{s:20,b:true,c:NAVY}),R('mark the best answer, say it, or explain it — then rate how sure you are:  ☐ Not yet   ☐ Getting there   ☐ Got it',{s:20})],{spacing:{before:40,after:0}}),
@@ -521,7 +521,7 @@ const back=[
   ],[1800,2616,2616,2616]),
   H('Source Library — full citations & clickable links',2),
   ...C.order.flatMap(c=>[P(R(`${c} — ${C.standards[c].title}`,{s:21,b:true,c:NAVY})),
-    ...C.standards[c].sources.map(x=>P([R(`${x.title}. `,{s:19,b:true}),R(`${x.who}, ${x.date}. ${x.repo}. Public domain. `,{s:19}),R(x.url,{s:17,c:'2A5DB0'})]))]),
+    ...C.standards[c].sources.map(x=>P([R(`${x.title}. `,{s:19,b:true}),R(`${x.who}, ${x.date}. ${x.repo}. Public domain. `,{s:19}),R(x.url,{s:18,c:'2A5DB0'})]))]),
   H('The Good War? — Who Fought, Who Sacrificed, Who Was Excluded',1),
   P(R('This section complicates the “Good War” narrative: the U.S. fought fascism abroad while denying rights to many of its own people at home. It is History Hack-authored instructional synthesis grounded in this unit’s sourced record — not a primary source.',{s:22})),
   ...[['Serving While Excluded','Black Americans fought under segregation and demanded a “Double V” — victory over fascism abroad and racism at home (US.53); the Tuskegee Airmen, Navajo Code Talkers, and the Japanese-American 442nd (US.51) served with distinction even as their communities faced discrimination.'],
@@ -535,9 +535,9 @@ const back=[
   writeTable(['Part','Write here'],[['My claim',''],['Evidence 1 (standard: ___)',''],['Evidence 2 (standard: ___)',''],['Why it matters today','']],[2600,7048],{rowH:820})];
 
 // ================= ASSEMBLE =================
-const header=new Header({children:[P(R('U.S. History Hack™ · Unit 6 · Course Standard Edition',{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
+const header=new Header({children:[P(R('U.S. History Hack™ · Unit 6 · Course Standard Edition',{s:18,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
 const footer=new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:0},children:[
-  R('U.S. History Hack™ · Unit 6 (Course Standard)   © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:15,c:GREY}),
+  R('U.S. History Hack™ · Unit 6 (Course Standard)   © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:18,c:GREY}),
   new TextRun({children:[PageNumber.CURRENT],size:15,color:GREY,bold:true,font:FONT})]})]});
 const doc=new Document({creator:'TroopToTeacher Technologies LLC',title:'U.S. History Hack — Unit 6 Course Standard Student Workbook (Pilot)',
   features:{updateFields:true},
