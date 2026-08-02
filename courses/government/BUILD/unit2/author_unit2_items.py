@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Unit 2 (Citizen Participation, GC.31–34) scaled MCQ bank — tn-assessment-specialist/tcap-item-writer-v2
+"""Unit 2 (Citizen Participation, GC.31–34) scaled MCQ bank — tn-assessment-specialist
 schema + rigor (option-length parity, tagged distractors PK/MC/PE/NE + rationales, dok/blooms rationales,
 C3, reporting category, de-biased keys). ~5 items/standard across DOK 1–3. No district label."""
 import json, os

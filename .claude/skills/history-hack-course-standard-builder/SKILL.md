@@ -18,7 +18,7 @@ guardrail-for-guardrail.** Source of truth only — never invent standards, cita
    bank (`public/data/<subject>/questions/unit-<N>/dok-<1..4>.json`).
 3. Load and USE these specialist skills — invoke, don't reinvent:
    - `history-hack-curriculum-architect` · `instructional-design-specialist` — unit architecture, "I can" targets
-   - `tn-assessment-specialist` **and** `tcap-item-writer-v2` — the authoritative item schema + rigor + QC
+   - `tn-assessment-specialist` — the authoritative item schema + rigor + QC
    - `udl-cast-expert` — UDL 3.0 / CAST review of every artifact
    - `tt-education-research-team` — evidence base / ESSA tiers for adoption
    - `tn-textbook-adoption-agent` — Schedule F scoring + submission package
@@ -52,7 +52,7 @@ dim_map · hook · civic/skill label · ssp_focus`
 Each record: `id·type·title·author·date·repository·url·rights·excerpt·citation_chicago·standards·colorKey`.
 Images live in `images/unit-<N>.json` with EN/ES alt text; `colorKey:true` only when color encodes meaning.
 
-### Question bank — use the `tn-assessment-specialist` / `tcap-item-writer-v2` JSON schema
+### Question bank — use the `tn-assessment-specialist` JSON schema
 Every item: `id·standard·secondaryStandard·unit·reportingCategory·dok·blooms·dokRationale·bloomsRationale·
 question·stimulus·stimulusAttribution·options·correctAnswer·distractorTags(PK/MC/PE/NE/CA/AN/OG)·
 distractorRationales·c3Dimension·sspAlignment·tennesseeSpecific·tcaRequired·contentTags·type·pointValue`.

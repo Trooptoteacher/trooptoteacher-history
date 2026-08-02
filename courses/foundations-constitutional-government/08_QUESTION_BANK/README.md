@@ -11,7 +11,7 @@ and to generate as many **equated parallel tests of equal rigor** as needed.
   (`blooms, hess_crm_cell, irt_a/irt_b/irt_c, c3_dimension, ssp, distractor_tags, key_rationale,
   dok_rationale, blooms_rationale, bias_flag, reporting_category, tcap_format, field_test_ready,
   rubric_id/rubric_name`) **+** `udl_supports` (CAST 3.0) and `remediation` (distractor-based,
-  MTSS Tier 2/3). Authored via the `tn-assessment-specialist` + `tcap-item-writer-v2` skills;
+  MTSS Tier 2/3). Authored via the `tn-assessment-specialist` skill;
   UDL/remediation added by `add_udl_remediation.py`.
 - `QUESTION_BANK_INVENTORY.md`, `standards_crosswalk.csv`, `item_inventory.csv` — full inventory
   and per-standard crosswalk (coverage, DOK/type mix, TN-specific, SSP/C3, verbatim standards),

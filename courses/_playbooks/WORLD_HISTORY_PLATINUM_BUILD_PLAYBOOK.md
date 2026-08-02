@@ -54,7 +54,7 @@ Run phases in order. Each phase has a **prompt to paste**, a **verification gate
 | Skill | Use for | Phase |
 |---|---|---|
 | **`tn-assessment-specialist`** | Write + assemble + **QC** items and Assessment Books (built-in psychometric + bias review) | 7, 8 |
-| **`tcap-item-writer-v2`** | Full psychometrics — IRT 3PL, Hess CRM, DOK/Bloom's, coded distractors, TDOE stem conventions | 8 |
+| **`tn-assessment-specialist`** | Full psychometrics — IRT 3PL, Hess CRM, DOK/Bloom's, coded distractors, TDOE stem conventions | 8 |
 | `history-hack-question-forge` | Fast standards-aligned item/quiz generation with built-in QC (supplementary pools) | 8 |
 
 **QC / compliance / accuracy (the gate)**
@@ -186,12 +186,12 @@ Copy the leak-fixed Government builders (BUILD/unit1/build_{workbook,teacher_gui
 
 ## Phase 7 — Assessment Books (per unit)
 ```
-Invoke tn-assessment-specialist + tcap-item-writer-v2 (apply craft + psychometrics; World-History scope — no US.xx codes/US EOC categories; use "RC-WH{N}: {unit title}"). Per unit author BUILD/unitN/analysis/unitN_assessment.json {disclosure, formative{by-standard}, formA[], formB[]} — one item per standard per form {stem,std,dok,choices[4],key,rc,reteach} + full psychometrics + per-item udl_supports + distractor-based remediation. Debias keys A/B/C/D. Copy build_assessment_book.js; render each Assessment Book with Part 4 Teacher Key, Part 5 Psychometric Blueprint, Part 6 UDL Supports & Remediation — all teacher-side. [GUARDRAILS]. Verify keys teacher-side, JSON valid, leak-clean. Commit + push.
+Invoke tn-assessment-specialist (apply craft + psychometrics; World-History scope — no US.xx codes/US EOC categories; use "RC-WH{N}: {unit title}"). Per unit author BUILD/unitN/analysis/unitN_assessment.json {disclosure, formative{by-standard}, formA[], formB[]} — one item per standard per form {stem,std,dok,choices[4],key,rc,reteach} + full psychometrics + per-item udl_supports + distractor-based remediation. Debias keys A/B/C/D. Copy build_assessment_book.js; render each Assessment Book with Part 4 Teacher Key, Part 5 Psychometric Blueprint, Part 6 UDL Supports & Remediation — all teacher-side. [GUARDRAILS]. Verify keys teacher-side, JSON valid, leak-clean. Commit + push.
 ```
 
 ## Phase 8 — Deep Question Bank (20 items/standard) + parallel tests + inventory/crosswalk
 ```
-Invoke tn-assessment-specialist + tcap-item-writer-v2. Build a deep pool mirroring the U.S. History flagship all_questions.json then DOUBLE it → 20/standard.
+Invoke tn-assessment-specialist. Build a deep pool mirroring the U.S. History flagship all_questions.json then DOUBLE it → 20/standard.
 Round 1 (Q01–Q10): 7 MC + 3 open, DOK 2/4/4, superset schema (id, standard, unit, question_number, type, dok, level, question, options, correct_answer, tennessee_specific, topics + full psychometrics) → BUILD/unitN/analysis/unitN_item_bank.json.
 Round 2 (Q11–Q20): DOK-3-weighted (2/3/5), 8 MC (≥3 DOK3) + 2 open (DOK3), distinct constructs → unitN_item_bank_ext.json. document_based items cite genuine PD sources.
 Then copy the 08_QUESTION_BANK toolkit and run: consolidate_bank.py → add_udl_remediation.py → bank_qc.py (must PASS) → build_inventory.py (QUESTION_BANK_INVENTORY.md + standards_crosswalk.csv + item_inventory.csv) → generate_parallel_tests.py --forms 4 --scope all. Confirm equating spread ≤ ~0.35, UDL banner on student forms, teacher keys carry answer key + remediation. [GUARDRAILS]. Commit + push per unit and for the consolidated bank.
@@ -284,7 +284,7 @@ Build a new licensable "World History Hack" course edition ({{COURSE_NAME}}) to 
 
 Copy the reusable Government assets rather than rebuilding: the 08_QUESTION_BANK toolkit, the BRAND-LOCKED docx builders in BUILD/engine/ (student workbook MUST match the ⭐ WORKBOOK BRAND-LOCK exactly — margins 1224, width 9792, the Cornell table, C9C2B4 ruled lines, seven activities/standard; reference at courses/foundations-constitutional-government/REFERENCE/), the deck builder, sync_images.py, and the compliance templates.
 
-Invoke: history-hack-course-standard-builder to orchestrate; instructional-design-specialist / history-hack-curriculum-architect for content; tn-assessment-specialist + tcap-item-writer-v2 for questions/psychometrics; history-hack-platinum-workbook for DBQ books; history-hack-graphic-organizer-workbook for organizers; udl-cast-expert (CAST 2024 UDL 3.0) for the audit; historian-factcheck-agent for accuracy; copyright-integrity-accreditation for rights clearance; tn-textbook-adoption-agent for Schedule F; history-hack-print-qc-auditor for print QC; history-hack-website-builder for registering this edition in the Social Studies Suite (it ships IN ADDITION to the main History Hack web app, which is becoming a multi-course suite — one platform, entitlement-gated editions, no fork).
+Invoke: history-hack-course-standard-builder to orchestrate; instructional-design-specialist / history-hack-curriculum-architect for content; tn-assessment-specialist for questions/psychometrics; history-hack-platinum-workbook for DBQ books; history-hack-graphic-organizer-workbook for organizers; udl-cast-expert (CAST 2024 UDL 3.0) for the audit; historian-factcheck-agent for accuracy; copyright-integrity-accreditation for rights clearance; tn-textbook-adoption-agent for Schedule F; history-hack-print-qc-auditor for print QC; history-hack-website-builder for registering this edition in the Social Studies Suite (it ships IN ADDITION to the main History Hack web app, which is becoming a multi-course suite — one platform, entitlement-gated editions, no fork).
 
 Apply the GUARDRAILS block everywhere; run the MASTER QC GATE before packaging; verify + commit + push after each phase. I'll paste the official TN World History & Geography standards now, and drop the sourced primary-source images (with downloadable links + citations) in a Drive folder at Phase 2. STOP and show me the standards→unit map before authoring.
 ```

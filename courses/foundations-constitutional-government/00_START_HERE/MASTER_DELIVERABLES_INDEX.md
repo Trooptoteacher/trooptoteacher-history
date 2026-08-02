@@ -151,5 +151,5 @@ Each unit ships the full platinum set: **Student Workbook · Teacher Guide (How-
 
 - Every deliverable independently scanned clean of cross-product / source-district leakage.
 - Answer keys and reteach routing are confined to the teacher sections of the Assessment Books.
-- Assessment items authored to TDOE/TCAP conventions (tn-assessment-specialist) with full psychometrics (tcap-item-writer-v2): DOK, Bloom's, Hess CRM cell, IRT 3PL, C3, coded distractors; IRT values labeled design-time estimates pending field-test calibration.
+- Assessment items authored to TDOE/TCAP conventions with full psychometrics (tn-assessment-specialist): DOK, Bloom's, Hess CRM cell, IRT 3PL, C3, coded distractors; IRT values labeled design-time estimates pending field-test calibration.
 - No claims of state, waiver, or Textbook Commission approval.
