@@ -26,6 +26,11 @@ best path to adoption).
 | `history-hack-dbq-workbook` | Standalone **DBQ / primary-source SKU** — a different product from the unit workbook. |
 | `history-hack-graphic-organizer-workbook` | Reproducible **graphic-organizer** toolkit (carries the Cornell supports reproducibles). |
 
+## Print layout — unit workbooks
+| Skill | The one job it owns |
+|---|---|
+| `history-hack-workbook-print-bundle` | The unit student-workbook **print-bundle LAYOUT standard** — duplex activity/supports rhythm, exact bidirectional deck↔workbook slide-keying, all-writing-ruled + no-bleed + breathing-room guardrails, and per-activity print rules. Invoked by the content engine/orchestrator; owns layout, not content. |
+
 ## Deck generators
 | Skill | The one job it owns |
 |---|---|
