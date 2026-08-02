@@ -1,0 +1,62 @@
+{
+  "course": "hs-us-history",
+  "level": "High School",
+  "standardsPrefix": "US",
+  "title": "United States History and Geography (HS)",
+  "source": "2025-2026, HS, United States History and Geography (Tennessee Academic Standards / WCS Instructional Playbook), pp. 2-4. Verbatim TN State Standards column. Titles from the source Teacher Deck STANDARD slides.",
+  "provenance": "Repo product source-of-truth (HistoryHack_Platinum/build/tn_standards_source.json)",
+  "verified": false,
+  "practices": [],
+  "standards": [
+    {
+      "code": "US.01",
+      "text": "Explain how the Homestead Act and the Transcontinental Railroad impacted the settlement of the West.",
+      "strand": [],
+      "geo": false,
+      "cluster": ""
+    },
+    {
+      "code": "US.02",
+      "text": "Examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act.",
+      "strand": [],
+      "geo": false,
+      "cluster": ""
+    },
+    {
+      "code": "US.03",
+      "text": "Explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Benjamin “Pap” Singleton and the Exodusters, and the Plessy v. Ferguson decision.",
+      "strand": [],
+      "geo": false,
+      "cluster": ""
+    },
+    {
+      "code": "US.04",
+      "text": "Analyze the causes and consequences of Gilded Age politics and economics as well as the significance of the rise of political machines, major scandals, civil service reform, and the economic difference between farmers, wage earners, and industrial capitalists, including the following: Boss Tweed, Thomas Nast, Credit Mobilier, Spoils system and President James A. Garfield’s assassination, Pendleton Act, Interstate Commerce Act.",
+      "strand": [],
+      "geo": false,
+      "cluster": ""
+    },
+    {
+      "code": "US.05",
+      "text": "Describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including the significance of: Alexander Graham Bell, Henry Bessemer, Andrew Carnegie, Thomas Edison, J.P. Morgan, John D. Rockefeller, Nikola Tesla, Cornelius Vanderbilt, Madam C.J. Walker, George Washington Carver.",
+      "strand": [],
+      "geo": false,
+      "cluster": ""
+    },
+    {
+      "code": "US.06",
+      "text": "Locate the following major industrial centers, and describe how industrialization influenced the movement of people from rural to urban areas: Boston, Chicago, New York City, Pittsburgh, San Francisco.",
+      "strand": [],
+      "geo": false,
+      "cluster": ""
+    },
+    {
+      "code": "US.07",
+      "text": "Describe the differences between “old” and “new” immigrants, analyze the assimilation process for “new” immigrants, and determine the impacts of increased migration on American society, including: Angel Island, Ellis Island, Push and pull factors, Ethnic clusters, Jane Addams, Competition for jobs, Rise of nativism, Jacob Riis, Chinese Exclusion Act and Gentleman’s Agreement.",
+      "strand": [],
+      "geo": false,
+      "cluster": ""
+    }
+  ],
+  "caveat": "INCOMPLETE — US.01–US.07 only; needs US.08–US.95"
+}

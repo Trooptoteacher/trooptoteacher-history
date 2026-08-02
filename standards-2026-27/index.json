@@ -1,0 +1,92 @@
+{
+  "title": "2026-27 Tennessee Social Studies Academic Standards",
+  "note": "Canonical machine-readable source of truth. Valid year: 2026-27 (last year of the current standards before the 2024-adopted revisions take effect 2027-28).",
+  "courses": [
+    {
+      "file": "standards/grade-06-world-history-geography.json",
+      "course": "grade-06-world-history-geography",
+      "level": "Grade 6",
+      "standardsPrefix": "6",
+      "standards_count": 62,
+      "geo_flagged": 17,
+      "practices_count": 6,
+      "provenance": "GitHub mirror (moreproblems/moreproblems G6-SS.json) + WebSearch cross-check",
+      "verified": false,
+      "caveat": "VERIFY verbatim text vs official TDOE PDF"
+    },
+    {
+      "file": "standards/grade-07-world-history-geography.json",
+      "course": "grade-07-world-history-geography",
+      "level": "Grade 7",
+      "standardsPrefix": "7",
+      "standards_count": 65,
+      "geo_flagged": 22,
+      "practices_count": 6,
+      "provenance": "GitHub mirror + WebSearch cross-check; exemplar lists omitted",
+      "verified": false,
+      "caveat": "VERIFY verbatim text vs official TDOE PDF"
+    },
+    {
+      "file": "standards/grade-08-us-history-geography.json",
+      "course": "grade-08-us-history-geography",
+      "level": "Grade 8",
+      "standardsPrefix": "8",
+      "standards_count": 75,
+      "geo_flagged": 29,
+      "practices_count": 6,
+      "provenance": "GitHub mirror + WebSearch cross-check",
+      "verified": false,
+      "caveat": "VERIFY verbatim text vs official TDOE PDF"
+    },
+    {
+      "file": "standards/hs-government-civics.json",
+      "course": "hs-government-civics",
+      "level": "High School",
+      "standardsPrefix": "GC",
+      "standards_count": 35,
+      "geo_flagged": 2,
+      "practices_count": 6,
+      "provenance": "Repo-verified",
+      "verified": true,
+      "caveat": ""
+    },
+    {
+      "file": "standards/hs-us-history.json",
+      "course": "hs-us-history",
+      "level": "High School",
+      "standardsPrefix": "US",
+      "standards_count": 7,
+      "geo_flagged": 0,
+      "practices_count": 0,
+      "provenance": "Repo product source-of-truth (HistoryHack_Platinum/build/tn_standards_source.json)",
+      "verified": false,
+      "caveat": "INCOMPLETE — only US.01–US.07 present; full US.01–US.95 to be assembled from the official TDOE PDF (egress-blocked) or product unit sources"
+    },
+    {
+      "file": "standards/hs-world-history.json",
+      "course": "hs-world-history",
+      "level": "High School",
+      "standardsPrefix": "W",
+      "standards_count": 89,
+      "geo_flagged": 83,
+      "practices_count": 6,
+      "provenance": "Repo-verified (ingested from official TDOE PDF)",
+      "verified": true,
+      "caveat": ""
+    },
+    {
+      "file": "standards/tennessee-history.json",
+      "course": "tennessee-history",
+      "level": "High School / Elective",
+      "standardsPrefix": "TN",
+      "standards_count": 64,
+      "geo_flagged": 33,
+      "practices_count": 6,
+      "provenance": "Repo-verified (ingested from official TDOE PDF)",
+      "verified": true,
+      "caveat": ""
+    }
+  ],
+  "total_standards": 397,
+  "total_courses": 7
+}

@@ -1,0 +1,392 @@
+{
+  "course": "hs-government-civics",
+  "level": "High School",
+  "standardsPrefix": "GC",
+  "title": "government",
+  "source": {
+    "drive_file_id": "1PtxSJuBvDSsLlVD1zhpWui-Osws9UlgI",
+    "title": "Social_Studies_Standards(1).pdf",
+    "ingested_verbatim": true
+  },
+  "provenance": "Repo-verified",
+  "verified": true,
+  "practices": [
+    {
+      "code": "SSP.01",
+      "text": "Collect data and information from a variety of primary and secondary sources, including: Printed materials (e.g., literary texts, newspapers, autobiographies, speeches, interviews, letters, personal journals); Graphic representations (e.g., maps, timelines, charts, political cartoons, photographs, artwork); Field observations/landscape analysis; Artifacts; Media and technology sources"
+    },
+    {
+      "code": "SSP.02",
+      "text": "Critically examine a primary or secondary source in order to: Extract and paraphrase significant ideas; Discern differences between evidence and assertion; Draw inferences and conclusions; Recognize author's purpose, point of view, and potential bias; Assess the strengths and limitations of arguments"
+    },
+    {
+      "code": "SSP.03",
+      "text": "Synthesize data from a variety of sources in order to: Establish accuracy and validity by comparing sources to each other; Recognize disparities among multiple accounts; Frame appropriate questions for further investigation"
+    },
+    {
+      "code": "SSP.04",
+      "text": "Construct and communicate arguments citing supporting evidence to: Demonstrate and defend an understanding of ideas; Compare and contrast viewpoints; Illustrate cause and effect; Predict likely outcomes; Devise new outcomes or solutions"
+    },
+    {
+      "code": "SSP.05",
+      "text": "Develop historical awareness by: Recognizing how and why historical accounts change over time; Perceiving and presenting past events and issues as they might have been experienced by the people of the time, with historical empathy rather than present-mindedness; Evaluating how unique circumstances of time and place create context and contribute to action and reaction; Identifying patterns of continuity and change over time, making connections to the present"
+    },
+    {
+      "code": "SSP.06",
+      "text": "Develop geographic awareness by: Using the geographic perspective to analyze relationships, patterns, and diffusion across space at multiple scales (e.g., local, national, global); Analyzing and determining the use of diverse types of maps based on the origin, authority, structure, context, and validity; Analyzing locations, conditions, and connections of places and using maps to investigate spatial associations among phenomena; Examining how geographers use regions and how perceptions of regions are fluid across time and space; Analyzing interaction between humans and the physical environment"
+    }
+  ],
+  "standards": [
+    {
+      "code": "GC.01",
+      "text": "Examine the influences of leading European thinkers (e.g., John Locke, Charles-Louis Montesquieu, Thomas Hobbes) and other roots of American government (e.g., Greek democracy, Roman republic, Magna Carta).",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "P"
+      ],
+      "geo": true,
+      "cluster": "Foundations of Constitutional Government"
+    },
+    {
+      "code": "GC.02",
+      "text": "Examine the Declaration of Independence and American grievances against British rule.",
+      "strand": [
+        "H",
+        "P"
+      ],
+      "geo": false,
+      "cluster": "Foundations of Constitutional Government"
+    },
+    {
+      "code": "GC.03",
+      "text": "Identify the strengths and weaknesses of the Articles of Confederation.",
+      "strand": [
+        "H",
+        "P"
+      ],
+      "geo": false,
+      "cluster": "Foundations of Constitutional Government"
+    },
+    {
+      "code": "GC.04",
+      "text": "Discuss the Constitutional Convention of 1787, including the Great Compromise and the ensuing debate over ratification between the Federalists and Anti-Federalists.",
+      "strand": [
+        "H",
+        "P"
+      ],
+      "geo": false,
+      "cluster": "Foundations of Constitutional Government"
+    },
+    {
+      "code": "GC.05",
+      "text": "Describe the purposes and functions of government as outlined in the Preamble of the Constitution.",
+      "strand": [
+        "P"
+      ],
+      "geo": false,
+      "cluster": "Foundations of Constitutional Government"
+    },
+    {
+      "code": "GC.06",
+      "text": "Describe limited government within the Constitution, including: Checks and balances; Civilian control of the military; Federalism; Judicial review; Popular sovereignty; Rule of law; Separation of powers",
+      "strand": [
+        "P"
+      ],
+      "geo": false,
+      "cluster": "Foundations of Constitutional Government"
+    },
+    {
+      "code": "GC.07",
+      "text": "Describe the structure of the Constitution and the process to amend it.",
+      "strand": [
+        "P"
+      ],
+      "geo": false,
+      "cluster": "Foundations of Constitutional Government"
+    },
+    {
+      "code": "GC.08",
+      "text": "Analyze how the Bill of Rights limits the powers of the government and ensures individual rights. (T.C.A. § 49-6-1028)",
+      "strand": [
+        "C",
+        "P",
+        "TCA"
+      ],
+      "geo": false,
+      "cluster": "Foundations of Constitutional Government"
+    },
+    {
+      "code": "GC.09",
+      "text": "Define the concepts of democracy and republic, and examine the relationship between the two.",
+      "strand": [
+        "P"
+      ],
+      "geo": false,
+      "cluster": "Foundations of Constitutional Government"
+    },
+    {
+      "code": "GC.10",
+      "text": "Analyze Article I and the 17th Amendment of the Constitution as they relate to the legislative branch, including: eligibility for office, roles, length of terms, and election to office for representatives and senators, respectively.",
+      "strand": [
+        "H",
+        "P"
+      ],
+      "geo": false,
+      "cluster": "The Legislative Branch"
+    },
+    {
+      "code": "GC.11",
+      "text": "Describe the census and its role in redistricting and reapportionment, including the role of Baker v. Carr.",
+      "strand": [
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "The Legislative Branch"
+    },
+    {
+      "code": "GC.12",
+      "text": "Identify leadership positions of the legislative branch, including: Majority and minority leaders; President pro tempore; Role of the vice president; Speaker of the House",
+      "strand": [
+        "P"
+      ],
+      "geo": false,
+      "cluster": "The Legislative Branch"
+    },
+    {
+      "code": "GC.13",
+      "text": "Describe the process of how a bill becomes a law.",
+      "strand": [
+        "P"
+      ],
+      "geo": false,
+      "cluster": "The Legislative Branch"
+    },
+    {
+      "code": "GC.14",
+      "text": "Identify the Tennessee representatives and senators to U.S. Congress.",
+      "strand": [
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "The Legislative Branch"
+    },
+    {
+      "code": "GC.15",
+      "text": "Describe the powers of U.S. Congress, including: Appropriations; Commerce; Confirmations; Declaration of war; Implied powers; Necessary and proper clause",
+      "strand": [
+        "H",
+        "P"
+      ],
+      "geo": false,
+      "cluster": "The Legislative Branch"
+    },
+    {
+      "code": "GC.16",
+      "text": "Analyze Article II of the Constitution as it relates to the executive branch, including: Appointments; Commander-in-chief of the military; Eligibility for office; Executive orders; Length of term (22nd Amendment); Oath of office; Powers of the president; Succession (25th Amendment); Treaties",
+      "strand": [
+        "H",
+        "P"
+      ],
+      "geo": false,
+      "cluster": "The Executive Branch"
+    },
+    {
+      "code": "GC.17",
+      "text": "Identify major departments of the executive branch, including: Defense; Education; Justice; State; Treasury",
+      "strand": [
+        "P"
+      ],
+      "geo": false,
+      "cluster": "The Executive Branch"
+    },
+    {
+      "code": "GC.18",
+      "text": "Explain the Electoral College system, and compare and contrast arguments for and against it.",
+      "strand": [
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
+      "cluster": "The Executive Branch"
+    },
+    {
+      "code": "GC.19",
+      "text": "Analyze Article III of the Constitution as it relates to judicial power, including the length of terms and the jurisdiction of the U.S. Supreme Court.",
+      "strand": [
+        "P"
+      ],
+      "geo": false,
+      "cluster": "The Judicial Branch"
+    },
+    {
+      "code": "GC.20",
+      "text": "Explain the processes of selection and confirmation of Supreme Court justices.",
+      "strand": [
+        "P"
+      ],
+      "geo": false,
+      "cluster": "The Judicial Branch"
+    },
+    {
+      "code": "GC.21",
+      "text": "Explain the process of judicial review established by Marbury v. Madison.",
+      "strand": [
+        "H",
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "The Judicial Branch"
+    },
+    {
+      "code": "GC.22",
+      "text": "Describe the Supreme Court's role in determining the constitutionality of laws and acts of the legislative and executive branches.",
+      "strand": [
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "The Judicial Branch"
+    },
+    {
+      "code": "GC.23",
+      "text": "Evaluate the Supreme Court's interpretations of the freedoms articulated in the 1st Amendment, including: Schenck v. United States; Engel v. Vitale; Tinker v. Des Moines; Lemon v. Kurtzman; New York Times v. United States; Miller v. California; Texas v. Johnson",
+      "strand": [
+        "H",
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Civil Liberties"
+    },
+    {
+      "code": "GC.24",
+      "text": "Explain the 2nd Amendment, and evaluate its various interpretations.",
+      "strand": [
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Civil Liberties"
+    },
+    {
+      "code": "GC.25",
+      "text": "Evaluate the Supreme Court's interpretations of freedoms in the 4th through 8th Amendments, including: Mapp v. Ohio; Gideon v. Wainwright; Miranda v. Arizona",
+      "strand": [
+        "H",
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Civil Liberties"
+    },
+    {
+      "code": "GC.26",
+      "text": "Evaluate the Supreme Court's interpretations of the freedoms in the 14th Amendment, equal protection, and due process clauses, including: Plessy v. Ferguson; Gitlow v. New York; Brown v. Board of Education; Roe v. Wade; Obergefell v. Hodges",
+      "strand": [
+        "H",
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Civil Liberties"
+    },
+    {
+      "code": "GC.27",
+      "text": "Identify and explain legislation and legal precedents that established rights for the underserved, including Title IX and the Americans with Disabilities Act.",
+      "strand": [
+        "H",
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Civil Liberties"
+    },
+    {
+      "code": "GC.28",
+      "text": "Identify the functions of departments and agencies of the executive, legislative, and judicial branches in the state of Tennessee.",
+      "strand": [
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Tennessee State and Local Government"
+    },
+    {
+      "code": "GC.29",
+      "text": "Explain the differences among the types of local governments in Tennessee, including county, city, and metro governments, as well as the legal, fiscal, and operational relationships between them and the state government.",
+      "strand": [
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Tennessee State and Local Government"
+    },
+    {
+      "code": "GC.30",
+      "text": "Identify the current governor of Tennessee and the representatives in the General Assembly (for a student's respective district).",
+      "strand": [
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Tennessee State and Local Government"
+    },
+    {
+      "code": "GC.31",
+      "text": "Describe what should be reasonably expected from any citizen or resident of the U.S., and explain why it is important for the well-being of the nation, including: Being informed on civic issues; Obeying the law; Paying taxes; Respecting the rights of others; Serving as a juror; Serving in the military or alternative service; Volunteering and performing public service; Voting",
+      "strand": [
+        "C",
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Citizen Participation"
+    },
+    {
+      "code": "GC.32",
+      "text": "Explain the role of political parties in the nomination process for presidential candidates and the importance of and difference between primaries, caucuses, and general elections.",
+      "strand": [
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Citizen Participation"
+    },
+    {
+      "code": "GC.33",
+      "text": "Describe the role of the media as a means of communicating information and how it influences the importance of issues and public opinion.",
+      "strand": [
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Citizen Participation"
+    },
+    {
+      "code": "GC.34",
+      "text": "Describe the means that citizens use to participate in the political process, including: Campaigning; Demonstrating; Lobbying; Petitioning; Running for office; Voting",
+      "strand": [
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Citizen Participation"
+    },
+    {
+      "code": "GC.35",
+      "text": "Explain the requirements to be considered a natural-born U.S. citizen, and describe the process of naturalization, including the knowledge required by the Naturalization Test.",
+      "strand": [
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "Citizen Participation"
+    }
+  ]
+}
