@@ -46,6 +46,12 @@ activity** print on the **back (verso) of that leaf**. The rhythm is per-activit
   from the master.
 - An activity that legitimately runs to a second leaf keeps the pattern: activity fronts, supports
   backs — never activity-front / activity-back.
+- **Fill the supports-page white space with a self-monitoring tracker** (never leave it blank): a
+  light **check-in strip** on Activities 1–6 (goal progress · confidence · a **Future-Ready** line —
+  name the transferable skill practiced and where it's used beyond class) and a full **Standard-Wrap
+  tracker** on Activity 7 that closes the standard (goal met? + next step · **missing-work** 7-activity
+  audit · self-quiz score + confidence · Future-Ready skill → job/college/civic use). This turns dead
+  space into metacognition + student future-readiness (C3 / SSP transfer), not filler.
 
 ## 2. Bidirectional deck ↔ workbook keying — exact, and clear both ways
 

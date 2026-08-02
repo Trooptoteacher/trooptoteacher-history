@@ -106,6 +106,21 @@ function supportsBack(n,code,s,a){
     out.push(...ruled(5));
     out.push(callout('Self-check',['☐ Clear claim   ☐ Two pieces of evidence   ☐ Reasoning links evidence to claim']));
   }
+  // Fill the supports-page white space with a self-monitoring tracker (goal /
+  // progress / missing-work / student FUTURE-READINESS). Light check-in strip on
+  // Activities 1–6; a full standard-wrap tracker on Activity 7 (closes the standard).
+  if(n<7){
+    out.push(callout('MY CHECK-IN — track yourself',[
+      R('Goal so far (from my opening-page goal):   ☐ Off track    ☐ On track    ☐ Met it        Next step: __________________________',{s:20}),
+      R('How sure am I on this activity?   ☐ Not yet    ☐ Getting there    ☐ Got it',{s:20}),
+      R('Future-Ready — a skill I practiced (read closely · analyze a source · argue with evidence · use academic vocabulary): __________________   …where I’d use it beyond class: __________________',{s:20})]));
+  } else {
+    out.push(callout(`STANDARD WRAP — track your learning · ${code}`,[
+      R('Did I meet the goal I set on the opening page?   ☐ Yes    ☐ Not yet        My next step: __________________________',{s:20}),
+      R('Missing-work check (tick what’s done):   ☐ A1 Vocabulary   ☐ A2 Studio   ☐ A3 Cornell   ☐ A4 Close Read   ☐ A5 Source   ☐ A6 Quiz   ☐ A7 CER',{s:20}),
+      R('My self-quiz score: ______ / ______        Confidence:   ☐ Not yet    ☐ Getting there    ☐ Got it',{s:20}),
+      R('Future-Ready — the skill I’ll carry forward: __________________   →   a job, college, or civic place I’d use it: __________________',{s:20})]));
+  }
   return out;
 }
 
