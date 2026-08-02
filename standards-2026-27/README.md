@@ -1,45 +1,39 @@
+> **AUTHORITATIVE SOURCE:** https://github.com/Trooptoteacher/2026-27-Tn.-Social-Studies-Standards
+> This folder is a synced mirror kept for in-repo builds. Edit the standalone repo; re-sync here.
+
 # 2026-27 Tennessee Social Studies Academic Standards — Source of Truth
 
-Canonical, machine-readable copies of the Tennessee Academic Standards for Social Studies used across History Hack builds. **One place** so every skill, build, and crosswalk references the same standards instead of scattered copies.
+Canonical, machine-readable copies of the Tennessee Academic Standards for Social Studies, parsed **verbatim from the official TDOE PDFs**. One place so every skill, build, and crosswalk references the same standards.
 
-**Valid year:** 2026-27 — the last year of the current (2019) standards before the 2024-adopted revisions take effect in 2027-28.
+**Valid year:** 2026-27 — the last year of the current standards before the 2024-adopted revisions take effect in 2027-28.
 
-## Contents (397 standards across 7 courses)
+## Contents — 485 standards across 7 courses
 
-| Level | File (`standards/…`) | Prefix | Standards | Geo-flagged | Status |
-|---|---|---|---|---|---|
-| Grade 6 | `grade-06-world-history-geography` | 6 | 62 | 17 | ⚠️ verify |
-| Grade 7 | `grade-07-world-history-geography` | 7 | 65 | 22 | ⚠️ verify |
-| Grade 8 | `grade-08-us-history-geography` | 8 | 75 | 29 | ⚠️ verify |
-| High School | `hs-government-civics` | GC | 35 | 2 | ✅ verified |
-| High School | `hs-us-history` | US | 7 | 0 | ⚠️ verify |
-| High School | `hs-world-history` | W | 89 | 83 | ✅ verified |
-| High School / Elective | `tennessee-history` | TN | 64 | 33 | ✅ verified |
+| Level | File (`standards/…`) | Prefix | Codes | Standards | Geo | Status |
+|---|---|---|---|---|---|---|
+| Grade 6 | `grade-06-world-history-geography.json` | 6 | 6.01–6.62 | 62 | 42 | ✅ verified (official PDF) |
+| Grade 7 | `grade-07-world-history-geography.json` | 7 | 7.01–7.65 | 65 | 56 | ✅ verified (official PDF) |
+| Grade 8 | `grade-08-us-history-geography.json` | 8 | 8.01–8.75 | 75 | 48 | ✅ verified (official PDF) |
+| High School | `hs-government-civics.json` | GC | GC.01–GC.35 | 35 | 2 | ✅ verified (official PDF) |
+| High School | `hs-us-history.json` | US | US.01–US.95 | 95 | 48 | ✅ verified (official PDF) |
+| High School | `hs-world-history.json` | W | W.01–W.89 | 89 | 83 | ✅ verified (official PDF) |
+| High School / Elective | `tennessee-history.json` | TN | TN.01–TN.64 | 64 | 33 | ✅ verified (official PDF) |
 
 ## Schema
 Each `standards/<course>.json`:
 ```
 {
-  "course": "grade-08-us-history-geography",
-  "level": "Grade 8",
-  "standardsPrefix": "8",
-  "title": "…official course title…",
-  "source": { … original ingest source … },
-  "provenance": "how this copy was obtained",
-  "verified": true|false,
-  "practices": [ { "code": "SSP.01", "text": "…" } … ],
-  "standards": [ { "code": "8.1", "text": "verbatim", "strand": [], "geo": true|false, "cluster": "unit/era heading" } … ]
+  "course": "...", "level": "...", "standardsPrefix": "...", "title": "official course title",
+  "source": { "drive_file_id": "...", "title": "official TDOE PDF" },
+  "provenance": "Official TDOE PDF — verbatim", "verified": true,
+  "practices": [ { "code": "SSP.01", "text": "verbatim" } … SSP.06 ],
+  "standards": [ { "code": "6.01", "text": "verbatim incl. bulleted sub-items", "strand": ["C","G","H"], "geo": true, "cluster": "era/unit heading w/ dates" } … ]
 }
 ```
-`geo: true` marks standards that involve geographic features/maps/movement/regions. `cluster` is the course's own unit/era grouping. `index.json` is the machine-readable manifest of all files.
+`geo` is true when the standard's content strand includes **G** (geography). `cluster` is the course's own era/unit heading. `strand` letters: C-Culture, E-Economics, G-Geography, H-History, P-Politics/Government, T-Tennessee, TCA-legally required. `index.json` is the manifest.
 
 ## How to consume
-Reference files by path (e.g. a skill loads `standards-2026-27/standards/tennessee-history.json`). Once this is promoted to its own repo, raw URLs become `https://raw.githubusercontent.com/Trooptoteacher/tn-social-studies-standards-2026-27/main/standards/<course>.json`.
+Raw URL pattern: `https://raw.githubusercontent.com/Trooptoteacher/2026-27-Tn.-Social-Studies-Standards/main/standards/<course>.json`
 
-## Why this lives inside `trooptoteacher-history` (for now)
-It was meant to be a **standalone repo** (`tn-social-studies-standards-2026-27`). The session's GitHub App cannot create repositories (`403 Resource not accessible by integration`). So it's built here as a self-contained folder — version-controlled and reachable from anywhere. **To promote to a standalone repo:** create an empty repo named `tn-social-studies-standards-2026-27`, then copy this folder's contents into it (nothing else depends on its location). See `PROVENANCE.md` for verification status.
-
-## Known gaps / to-do
-- **HS US History** — only US.01–US.07 present; full US.01–US.95 needs assembly from the official TDOE PDF (currently egress-blocked) or the product unit sources.
-- **Grades 6–8** standards were reconstructed from GitHub mirrors + WebSearch cross-check (tn.gov is egress-blocked) — verify verbatim text against the official TDOE PDF before treating as final.
-- **Economics** (and any other SS electives) not yet included.
+## Provenance
+All seven courses are parsed verbatim from the official TDOE Social Studies standards PDFs (stored in the owner's Drive "TN Standards 2026-27" folder). See `PROVENANCE.md`. Grades 6-8 and HS US History were re-parsed directly from those PDFs (replacing earlier GitHub-mirror drafts); HS World History, Government, and Tennessee History were ingested from the same official PDFs.

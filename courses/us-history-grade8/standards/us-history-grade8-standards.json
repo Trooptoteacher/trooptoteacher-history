@@ -1,560 +1,953 @@
 {
-  "course": "us-history-grade8",
+  "course": "grade-08-us-history-geography",
+  "level": "Grade 8",
   "standardsPrefix": "8",
+  "title": "United States History and Geography: Colonization of North America to Reconstruction",
   "source": {
-    "title": "Tennessee Academic Standards for Social Studies — Grade 8: United States History and Geography: Colonization of North America to Reconstruction (1585-1877)",
-    "url": "https://www.tn.gov/content/dam/tn/stateboardofeducation/documents/standards/social-studies-2022-2023/TN%20Academic%20Standards%20for%20Social%20Studies%206.24.pdf",
-    "retrieved": "verbatim from TDOE"
+    "drive_file_id": "1nDGWlBYtxKD4f_ZlK-CpPVueYi_SXOpA",
+    "title": "official TDOE PDF (8th Grade.pdf)"
   },
+  "provenance": "Official TDOE PDF — verbatim",
+  "verified": true,
   "practices": [
     {
       "code": "SSP.01",
-      "text": "Collect data and information from a variety of primary and secondary sources, including: Printed materials (e.g., literary texts, newspapers, autobiographies, speeches, interviews, letters, personal journals); Graphic representations (e.g., maps, timelines, charts, political cartoons, photographs, artwork); Field observations/landscape analysis; Artifacts; Media and technology sources"
+      "text": "Collect data and information from a variety of primary and secondary sources, including:\n● Printed materials (e.g., literary texts, newspapers, political cartoons, autobiographies, speeches, letters, personal journals)\n● Graphic representations (e.g., maps, timelines, charts, photographs, artwork)\n● Artifacts\n● Media and technology sources"
     },
     {
       "code": "SSP.02",
-      "text": "Critically examine a primary or secondary source in order to: Extract and paraphrase significant ideas; Discern differences between evidence and assertion; Draw inferences and conclusions; Recognize author’s purpose, point of view, and potential bias; Assess the strengths and limitations of arguments"
+      "text": "Critically examine a primary or secondary source in order to:\n● Extract and paraphrase significant ideas and relevant information\n● Distinguish the difference between fact and opinion\n● Draw inferences and conclusions\n● Recognize author’s purpose, point of view, and bias\n● Assess the strengths and limitations of arguments"
     },
     {
       "code": "SSP.03",
-      "text": "Synthesize data from a variety of sources in order to: Establish accuracy and validity by comparing sources to each other; Recognize disparities among multiple accounts; Frame appropriate questions for further investigation"
+      "text": "Synthesize data from multiple sources in order to:\n● Recognize differences among multiple accounts\n● Establish validity by comparing and contrasting multiple sources\n● Frame appropriate questions for further investigation"
     },
     {
       "code": "SSP.04",
-      "text": "Construct and communicate arguments citing supporting evidence to: Demonstrate and defend an understanding of ideas; Compare and contrast viewpoints; Illustrate cause and effect; Predict likely outcomes; Devise new outcomes or solutions"
+      "text": "Construct and communicate arguments citing supporting evidence to:\n● Demonstrate and defend an understanding of ideas\n● Compare and contrast viewpoints\n● Illustrate cause and effect\n● Predict likely outcomes\n● Devise new outcomes or solutions"
     },
     {
       "code": "SSP.05",
-      "text": "Develop historical awareness by: Recognizing how and why historical accounts change over time; Perceiving and presenting past events and issues as they might have been experienced by the people of the time, with historical empathy rather than present-mindedness; Evaluating how unique circumstances of time and place create context and contribute to action and reaction; Identifying patterns of continuity and change over time, making connections to the present"
+      "text": "Develop historical awareness by:\n● Recognizing how and why historical accounts change over time\n● Perceiving and presenting past events and issues as they might have been experienced by the people of the time, with historical empathy rather than present-mindedness\n● Evaluating how unique circumstances of time and place create context and contribute to action and reaction\n● Identifying patterns of continuity and change over time, making connections to the present"
     },
     {
       "code": "SSP.06",
-      "text": "Develop geographic awareness by: Using the geographic perspective to analyze relationships, patterns, and diffusion across space at multiple scales (e.g., local, national, global); Analyzing and determining the use of diverse types of maps based on the origin, authority, structure, context, and validity; Analyzing locations, conditions, and connections of places and using maps to investigate spatial associations among phenomena; Examining how geographers use regions and how perceptions of regions are fluid across time and space; Analyzing interaction between humans and the physical environment"
+      "text": "Develop a geographic awareness by:\n● Using the geographic perspective to determine relationships, patterns, and diffusion across space at multiple scales (e.g., local, national, global).\n● Determining the use of diverse types of maps based on their origin, structure, context, and validity\n● Analyzing locations, conditions, and connections of places and using maps to investigate spatial relationships\n● Analyzing interaction between humans and the physical environment\n● Examining how geographic regions and perceptions of regions are fluid across time and space"
     }
   ],
   "standards": [
     {
-      "code": "8.1",
+      "code": "8.01",
       "text": "Explain the founding and development of Jamestown as the first permanent English colony, its early struggles, the economic and political structure, and role of the Powhatan people.",
-      "strand": [],
-      "geo": false,
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
       "cluster": "Colonization (1607-1750)"
     },
     {
-      "code": "8.2",
-      "text": "Explain the founding and development of the Plymouth Colony (e.g., the significance of the Mayflower Compact, interactions with Squanto, and the role of religious freedom).",
-      "strand": [],
-      "geo": false,
+      "code": "8.02",
+      "text": "Explain the founding and development of the Plymouth Colony, including the significance of: the Mayflower Compact, interactions with Squanto, and the role of religious freedom.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
       "cluster": "Colonization (1607-1750)"
     },
     {
-      "code": "8.3",
-      "text": "Explain the founding and development of the Massachusetts Bay Colony (e.g., the significance of Anne Hutchinson, the role of theocracy, Salem Witch Trials, and town meetings).",
-      "strand": [],
-      "geo": false,
+      "code": "8.03",
+      "text": "Explain the founding and development of the Massachusetts Bay Colony, including the significance of:\n• Anne Hutchinson\n• Role of theocracy\n• Salem Witch Trials\n• Town meetings",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
       "cluster": "Colonization (1607-1750)"
     },
     {
-      "code": "8.4",
-      "text": "Explain the motivation for and the founding of the Rhode Island and Connecticut Colonies (e.g., the roles of Roger Williams and Thomas Hooker).",
-      "strand": [],
-      "geo": false,
+      "code": "8.04",
+      "text": "Explain the motivation for and the founding of the Rhode Island and Connecticut Colonies, including the roles of Roger Williams and Thomas Hooker.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
       "cluster": "Colonization (1607-1750)"
     },
     {
-      "code": "8.5",
+      "code": "8.05",
       "text": "Analyze the economic motivation for the Dutch founding New Netherlands, the diverse population of the colony, and the transition to the English colony of New York.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Colonization (1607-1750)"
-    },
-    {
-      "code": "8.6",
-      "text": "Analyze the founding of Pennsylvania as a haven for Quakers and the tolerance that drew many different groups to the colony (e.g., the significance of William Penn, Philadelphia, relationship with American Indians, and the role of women).",
-      "strand": [],
-      "geo": false,
-      "cluster": "Colonization (1607-1750)"
-    },
-    {
-      "code": "8.7",
-      "text": "Explain the reasons behind the settlement of the Georgia Colony (e.g., its designation as a “debtor” colony, its function as a “buffer” colony, and the role of James Oglethorpe in its founding).",
-      "strand": [],
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Colonization (1607-1750)"
     },
     {
-      "code": "8.8",
+      "code": "8.06",
+      "text": "Analyze the founding of Pennsylvania as a haven for Quakers and the tolerance that drew many different groups to the colony, including the significance of:\n• William Penn\n• Philadelphia\n• Relationship with American Indians\n• Role of women",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
+      "cluster": "Colonization (1607-1750)"
+    },
+    {
+      "code": "8.07",
+      "text": "Explain the reasons behind the settlement of the Georgia Colony, including: its designation as a “debtor” colony, its function as a “buffer” colony, and the role of James Oglethorpe in its founding.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
+      "cluster": "Colonization (1607-1750)"
+    },
+    {
+      "code": "8.08",
       "text": "Locate and identify the Thirteen Colonies, and describe how their location and geographic features influenced regional economic development.",
-      "strand": [],
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Colonization (1607-1750)"
     },
     {
-      "code": "8.9",
+      "code": "8.09",
       "text": "Compare and contrast the locations and goals of British, French, and Spanish settlements in North America.",
-      "strand": [],
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Colonization (1607-1750)"
     },
     {
       "code": "8.10",
       "text": "Identify the origins and development of slavery in the colonies, overt and passive resistance to enslavement, and the Middle Passage.",
-      "strand": [],
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Colonization (1607-1750)"
     },
     {
       "code": "8.11",
-      "text": "Describe the significance of the First Great Awakening (e.g., its role in unifying the colonies and the growth of religious tolerance).",
-      "strand": [],
+      "text": "Describe the significance of the First Great Awakening, including its role in unifying the colonies and the growth of religious tolerance.",
+      "strand": [
+        "C",
+        "H"
+      ],
       "geo": false,
       "cluster": "Colonization (1607-1750)"
     },
     {
       "code": "8.12",
       "text": "Explain the Navigation Acts and the policy of mercantilism.",
-      "strand": [],
-      "geo": false,
+      "strand": [
+        "E",
+        "G",
+        "H"
+      ],
+      "geo": true,
       "cluster": "Colonization (1607-1750)"
     },
     {
       "code": "8.13",
-      "text": "Explain the significance of the Ohio River Valley leading to the French and Indian War and the events and consequences of the conflict (e.g., the massacre at Fort Loudoun, the Treaty of Paris of 1763, war debt, and the Proclamation Line of 1763).",
-      "strand": [],
+      "text": "Explain the significance of the Ohio River Valley leading to the French and Indian War and the events and consequences of the conflict, including: the massacre at Fort Loudoun, the Treaty of Paris of 1763, war debt, and the Proclamation Line of 1763.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": true,
       "cluster": "The American Revolution (1700-1783)"
     },
     {
       "code": "8.14",
-      "text": "Explain the political contributions of Benjamin Franklin to the U.S. (e.g., the “Join or Die” cartoon and Albany Plan of Union).",
-      "strand": [],
+      "text": "Explain the political contributions of Benjamin Franklin to the U.S., including the \"Join or Die\" cartoon and Albany Plan of Union.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
       "geo": false,
       "cluster": "The American Revolution (1700-1783)"
     },
     {
       "code": "8.15",
-      "text": "Analyze the social, political, and economic causes of the events and groups of the American Revolution (e.g., The Quartering Act (1765), The Boston Massacre (1770), The Stamp Act (1765), The Boston Tea Party (1773), The Declaratory Act (1766), Intolerable/Coercive Acts (1774), The Townshend Acts (1767), and Sons of Liberty).",
-      "strand": [],
-      "geo": false,
+      "text": "Analyze the social, political, and economic causes of the events and groups of the American Revolution, including:\n• The Quartering Act, 1765\n• The Stamp Act, 1765\n• The Declaratory Act, 1766\n• The Townshend Acts, 1767\n• The Boston Massacre, 1770\n• The Boston Tea Party, 1773\n• Intolerable/Coercive Acts, 1774\n• Sons of Liberty",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
       "cluster": "The American Revolution (1700-1783)"
     },
     {
       "code": "8.16",
       "text": "Explain the historical purposes and consequences of Thomas Paine's Common Sense.",
-      "strand": [],
+      "strand": [
+        "C",
+        "H",
+        "P"
+      ],
       "geo": false,
       "cluster": "The American Revolution (1700-1783)"
     },
     {
       "code": "8.17",
-      "text": "Locate and explain the significance of the battles of the American Revolution prior to the signing of the Declaration of Independence (e.g., Lexington and Concord and Bunker (Breed's) Hill).",
-      "strand": [],
+      "text": "Locate and explain the significance of the battles of the American Revolution prior to the signing of the Declaration of Independence, including Lexington and Concord and Bunker (Breed’s) Hill.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "The American Revolution (1700-1783)"
     },
     {
       "code": "8.18",
-      "text": "Explain the historical and present-day significance of the Declaration of Independence.",
-      "strand": [],
+      "text": "Explain the historical and present-day significance of the Declaration of Independence. (T.C.A. § 49-6-1028)",
+      "strand": [
+        "C",
+        "H",
+        "P",
+        "TCA"
+      ],
       "geo": false,
       "cluster": "The American Revolution (1700-1783)"
     },
     {
       "code": "8.19",
       "text": "Compare and contrast the points of view of Loyalists and Patriots.",
-      "strand": [],
-      "geo": false,
-      "cluster": "The American Revolution (1700-1783)"
-    },
-    {
-      "code": "8.20",
-      "text": "Locate and explain the significance of the struggles of the Continental Army, Battle of Saratoga, Battles of Trenton and Princeton, Battle of Yorktown, Battle of Kings Mountain, and guerrilla warfare during the American Revolution.",
-      "strand": [],
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "The American Revolution (1700-1783)"
     },
     {
+      "code": "8.20",
+      "text": "Locate and explain the significance of the following during the American Revolution:\n• Struggles of the Continental Army\n• Battles of Trenton and Princeton\n• Battle of Kings Mountain\n• Battle of Saratoga\n• Battle of Yorktown\n• Guerrilla warfare",
+      "strand": [
+        "C",
+        "H",
+        "P",
+        "T"
+      ],
+      "geo": false,
+      "cluster": "The American Revolution (1700-1783)"
+    },
+    {
       "code": "8.21",
-      "text": "Analyze the strengths and weaknesses of the Articles of Confederation, and describe the Land Ordinance of 1785, the Northwest Ordinance of 1787, the Northwest Territory, the Lost State of Franklin, and Shays' Rebellion.",
-      "strand": [],
+      "text": "Analyze the strengths and weaknesses of the Articles of Confederation, and describe the Land Ordinance of 1785, the Northwest Ordinance of 1787, the Northwest Territory, the Lost State of Franklin, and Shays’ Rebellion.",
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": true,
       "cluster": "The New Nation (1775-1800)"
     },
     {
       "code": "8.22",
-      "text": "Describe the roles of James Madison and George Washington during the Constitutional Convention, and analyze the major issues debated (e.g., the Great Compromise and the Three-Fifths Compromise).",
-      "strand": [],
+      "text": "Describe the roles of James Madison and George Washington during the Constitutional Convention, and analyze the major issues debated, including the Great Compromise and the Three-Fifths Compromise. (T.C.A. § 49-6-1028)",
+      "strand": [
+        "E",
+        "H",
+        "P",
+        "TCA"
+      ],
       "geo": false,
       "cluster": "The New Nation (1775-1800)"
     },
     {
       "code": "8.23",
-      "text": "Examine the principles and purposes of government articulated in the Preamble and principles stated in the Constitution (e.g., the separation of powers, federalism, and checks and balances).",
-      "strand": [],
+      "text": "Examine the principles and purposes of government articulated in the Preamble and principles stated in the Constitution, including: the separation of powers, federalism, and checks and balances. (T.C.A. § 49-6-1028)",
+      "strand": [
+        "H",
+        "P",
+        "TCA"
+      ],
       "geo": false,
       "cluster": "The New Nation (1775-1800)"
     },
     {
       "code": "8.24",
-      "text": "Describe the conflict between Federalists and Anti-Federalists over the ratification of the Constitution (e.g., the protection of individual rights through the Bill of Rights and concern for states' rights).",
-      "strand": [],
+      "text": "Describe the conflict between Federalists and Anti-Federalists over the ratification of the Constitution, including the protection of individual rights through the Bill of Rights and concern for states’ rights. (T.C.A. § 49-6-1028)",
+      "strand": [
+        "H",
+        "P",
+        "TCA"
+      ],
       "geo": false,
       "cluster": "The New Nation (1775-1800)"
     },
     {
       "code": "8.25",
-      "text": "Analyze the major events of the administration of President George Washington (e.g., the precedents he set, Whiskey Rebellion, and ideas presented in his farewell address).",
-      "strand": [],
-      "geo": false,
+      "text": "Analyze the major events of the administration of President George Washington, including: the precedents he set, Whiskey Rebellion, and ideas presented in his farewell address.",
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
       "cluster": "The New Nation (1775-1800)"
     },
     {
       "code": "8.26",
       "text": "Explain how conflicts between Thomas Jefferson and Alexander Hamilton resulted in the emergence of two political parties by analyzing their views on foreign policy, economic policy, a national bank, and strict versus loose interpretation of the Constitution.",
-      "strand": [],
-      "geo": false,
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
       "cluster": "The New Nation (1775-1800)"
     },
     {
       "code": "8.27",
-      "text": "Explain the controversies that plagued the administration of President John Adams (e.g., the conflicts with Great Britain and France, the XYZ Affair, and the Alien and Sedition Acts).",
-      "strand": [],
-      "geo": false,
+      "text": "Explain the controversies that plagued the administration of President John Adams, including: the conflicts with Great Britain and France, the XYZ Affair, and the Alien and Sedition Acts.",
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
       "cluster": "The New Nation (1775-1800)"
     },
     {
       "code": "8.28",
-      "text": "Identify how westward expansion led to the statehood of Tennessee and the importance of the first state constitution (1796).",
-      "strand": [],
+      "text": "Identify how westward expansion led to the statehood of Tennessee and the importance of the first state constitution (1796). (T.C.A. § 49-6-1028)",
+      "strand": [
+        "G",
+        "H",
+        "P",
+        "T",
+        "TCA"
+      ],
       "geo": true,
       "cluster": "The New Nation (1775-1800)"
     },
     {
       "code": "8.29",
-      "text": "Analyze the significance of the election of 1800 and Chief Justice John Marshall's opinion in Marbury v. Madison.",
-      "strand": [],
+      "text": "Analyze the significance of the election of 1800 and Chief Justice John Marshall’s opinion in Marbury v. Madison.",
+      "strand": [
+        "H",
+        "P"
+      ],
       "geo": false,
       "cluster": "Growth of a Young Nation (1800-1820)"
     },
     {
       "code": "8.30",
-      "text": "Explain the major events of Thomas Jefferson's presidency (e.g., conflict with the Barbary pirates, Embargo Act, Lewis and Clark Expedition, and Louisiana Purchase).",
-      "strand": [],
+      "text": "Explain the major events of Thomas Jefferson’s presidency, including:\n• Conflict with the Barbary pirates\n• Embargo Act\n• Lewis and Clark Expedition\n• Louisiana Purchase",
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Growth of a Young Nation (1800-1820)"
     },
     {
       "code": "8.31",
-      "text": "Explain the causes, course, and consequences of the War of 1812 (e.g., use of impressment and trade restrictions between the U.S. and Great Britain, roles of Andrew Jackson and William Henry Harrison, significance of the Treaty of Ghent, and rise in nationalism in the U.S.).",
-      "strand": [],
+      "text": "Explain the causes, course, and consequences of the War of 1812, including:\n• Use of impressment and trade restrictions between the U.S. and Great Britain\n• Roles of Andrew Jackson and William Henry Harrison\n• Significance of the Treaty of Ghent\n• Rise in nationalism in the U.S.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": true,
       "cluster": "Growth of a Young Nation (1800-1820)"
     },
     {
       "code": "8.32",
       "text": "Identify and locate the changing boundaries of the U.S. as a result of the Convention of 1818 and the Adams-Onis Treaty.",
-      "strand": [],
+      "strand": [
+        "G",
+        "P"
+      ],
       "geo": true,
       "cluster": "Growth of a Young Nation (1800-1820)"
     },
     {
       "code": "8.33",
       "text": "Analyze the purpose and effects of the Monroe Doctrine.",
-      "strand": [],
+      "strand": [
+        "E",
+        "H",
+        "P"
+      ],
       "geo": false,
       "cluster": "Growth of a Young Nation (1800-1820)"
     },
     {
       "code": "8.34",
       "text": "Describe the development of the agrarian economy in the South, the locations of the cotton-producing states, the significance of cotton and the cotton gin, and the founding of Memphis as a center for cotton and the slave trade.",
-      "strand": [],
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": true,
       "cluster": "Sectionalism and Reform (1790s-1850s)"
     },
     {
       "code": "8.35",
       "text": "Analyze the characteristics of Southern society and its influence on the social and political conditions prior to the Civil War.",
-      "strand": [],
-      "geo": false,
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "geo": true,
       "cluster": "Sectionalism and Reform (1790s-1850s)"
     },
     {
       "code": "8.36",
       "text": "Identify the conditions of enslavement, and explain how slaves adapted to and resisted bondage in their daily lives, including Nat Turner's revolt.",
-      "strand": [],
-      "geo": false,
+      "strand": [
+        "C",
+        "G",
+        "H"
+      ],
+      "geo": true,
       "cluster": "Sectionalism and Reform (1790s-1850s)"
     },
     {
       "code": "8.37",
-      "text": "Explain the development of the American Industrial Revolution (e.g., Eli Whitney and interchangeable parts, role of the textile industry, emergence of trade unions, Samuel Slater, and Lowell System).",
-      "strand": [],
-      "geo": false,
+      "text": "Explain the development of the American Industrial Revolution, including:\n• Eli Whitney and interchangeable parts\n• Emergence of trade unions\n• Lowell System\n• Role of the textile industry\n• Samuel Slater",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
       "cluster": "Sectionalism and Reform (1790s-1850s)"
     },
     {
       "code": "8.38",
       "text": "Describe how technological developments affected the growth of the industrial economy and cities in the North.",
-      "strand": [],
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Sectionalism and Reform (1790s-1850s)"
     },
     {
       "code": "8.39",
       "text": "Identify the push-pull factors for Irish and German immigrants, and describe the impact of their arrival in the U.S. prior to the Civil War.",
-      "strand": [],
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Sectionalism and Reform (1790s-1850s)"
     },
     {
       "code": "8.40",
-      "text": "Analyze the development of roads, canals, railroads, and steamboats throughout the U.S. (e.g., the Erie Canal and the National Road).",
-      "strand": [],
+      "text": "Analyze the development of roads, canals, railroads, and steamboats throughout the U.S., including the Erie Canal and the National Road.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Sectionalism and Reform (1790s-1850s)"
     },
     {
       "code": "8.41",
       "text": "Describe the significance of the Second Great Awakening and its influence on reform in the 19th century.",
-      "strand": [],
+      "strand": [
+        "C",
+        "H"
+      ],
       "geo": false,
       "cluster": "Sectionalism and Reform (1790s-1850s)"
     },
     {
       "code": "8.42",
-      "text": "Analyze the development of the women's suffrage movement (e.g., the Seneca Falls Convention, and the ideals of Susan B. Anthony, Elizabeth Cady Stanton, and Sojourner Truth).",
-      "strand": [],
+      "text": "Analyze the development of the women’s suffrage movement, including the Seneca Falls Convention, and the ideals of Susan B. Anthony, Elizabeth Cady Stanton, and Sojourner Truth.",
+      "strand": [
+        "C",
+        "H",
+        "P"
+      ],
       "geo": false,
       "cluster": "Sectionalism and Reform (1790s-1850s)"
     },
     {
       "code": "8.43",
-      "text": "Analyze the significance of leading abolitionists and the methods they used to spread the movement (e.g., William Lloyd Garrison, Frederick Douglass, Elihu Embree, and Harriet Tubman).",
-      "strand": [],
+      "text": "Analyze the significance of leading abolitionists, including William Lloyd Garrison, Frederick Douglass, Elihu Embree, and Harriet Tubman, and the methods they used to spread the movement.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": false,
       "cluster": "Sectionalism and Reform (1790s-1850s)"
     },
     {
       "code": "8.44",
       "text": "Analyze the role played by Chief Justice John Marshall in strengthening the judicial branch, including the key decisions of the Supreme Court in Gibbons v. Ogden and McCulloch v. Maryland.",
-      "strand": [],
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
       "geo": false,
       "cluster": "The Jacksonian Era (1824-1840)"
     },
     {
       "code": "8.45",
-      "text": "Examine the importance of the elections of 1824 and 1828 (e.g., the corrupt bargain, the spoils system, and Jacksonian Democracy).",
-      "strand": [],
-      "geo": false,
+      "text": "Examine the importance of the elections of 1824 and 1828, including: the corrupt bargain, the spoils system, and Jacksonian Democracy.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "geo": true,
       "cluster": "The Jacksonian Era (1824-1840)"
     },
     {
       "code": "8.46",
-      "text": "Examine President Andrew Jackson's actions regarding the Bank of the U.S. and the Nullification Crisis, and analyze the effects of these events on the nation.",
-      "strand": [],
+      "text": "Examine President Andrew Jackson’s actions regarding the Bank of the U.S. and the Nullification Crisis, and analyze the effects of these events on the nation.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": false,
       "cluster": "The Jacksonian Era (1824-1840)"
     },
     {
       "code": "8.47",
-      "text": "Describe the impact of the Indian Removal Act and the struggle between the Cherokee Nation and the U.S. government (e.g., the significance of Worcester v. Georgia and the Trail of Tears).",
-      "strand": [],
+      "text": "Describe the impact of the Indian Removal Act and the struggle between the Cherokee Nation and the U.S. government, including the significance of Worcester v. Georgia and the Trail of Tears.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": true,
       "cluster": "The Jacksonian Era (1824-1840)"
     },
     {
       "code": "8.48",
-      "text": "Identify that the Tennessee Constitution of 1834 expanded voting rights for non-property owners.",
-      "strand": [],
+      "text": "Identify that the Tennessee Constitution of 1834 expanded voting rights for non-property owners. (T.C.A. 49-6-1028)",
+      "strand": [
+        "H",
+        "P",
+        "T",
+        "TCA"
+      ],
       "geo": false,
       "cluster": "The Jacksonian Era (1824-1840)"
     },
     {
       "code": "8.49",
       "text": "Analyze the concept of Manifest Destiny and its impact on the development of the nation, and describe the economic incentives for westward expansion.",
-      "strand": [],
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.50",
       "text": "Explain the reasons for and the provisions of the Missouri Compromise (i.e., Compromise of 1820) and its impact on expansion.",
-      "strand": [],
+      "strand": [
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.51",
       "text": "Describe American settlements in Texas after 1821, the causes of the Texas War for Independence, the roles of David Crockett and Sam Houston, and the legacy of the Alamo.",
-      "strand": [],
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": true,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.52",
-      "text": "Analyze the reasons for and outcomes of groups moving west (e.g., the significance of fur traders, Mormons, Oregon Trail, and Santa Fe Trail).",
-      "strand": [],
+      "text": "Analyze the reasons for and outcomes of groups moving west, including the significance of:\n• Fur traders\n• Mormons\n• Oregon Trail\n• Santa Fe Trail",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H"
+      ],
       "geo": true,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.53",
-      "text": "Identify the major events and impact of James K. Polk's presidency (e.g., the annexation of Texas and the settlement of the Oregon boundary).",
-      "strand": [],
+      "text": "Identify the major events and impact of James K. Polk’s presidency, including the annexation of Texas and the settlement of the Oregon boundary.",
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": true,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.54",
-      "text": "Describe the causes and consequences of the Mexican War (e.g., the controversy over the Rio Grande boundary and the Mexican Cession).",
-      "strand": [],
+      "text": "Describe the causes and consequences of the Mexican War, including the controversy over the Rio Grande boundary and the Mexican Cession.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.55",
       "text": "Analyze the discovery of gold in California, its social and economic impact on the U.S., and the major migratory movement (including the forty-niners and Asian immigrants).",
-      "strand": [],
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H"
+      ],
       "geo": true,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.56",
-      "text": "Explain the reasons for and the impact of the Compromise of 1850 (including Henry Clay's role as “The Great Compromiser”) and the Fugitive Slave Act (including Harriet Beecher Stowe's influence with Uncle Tom's Cabin).",
-      "strand": [],
+      "text": "Explain the reasons for and the impact of the Compromise of 1850 (including Henry Clay’s role as “The Great Compromiser”) and the Fugitive Slave Act (including Harriet Beecher Stowe’s influence with Uncle Tom’s Cabin).",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.57",
       "text": "Describe the significance of the Gadsden Purchase of 1853.",
-      "strand": [],
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.58",
-      "text": "Explain the motivations behind the passage of the Kansas-Nebraska Act of 1854, and analyze the effects of the act (e.g., rise of the Republican Party, “Bleeding Kansas”, Preston Brooks' attack on Charles Sumner, and John Brown's raid at Harper's Ferry).",
-      "strand": [],
+      "text": "Explain the motivations behind the passage of the Kansas-Nebraska Act of 1854, and analyze the effects of act, including:\n• Rise of the Republican Party\n• “Bleeding Kansas”\n• Preston Brooks’ attack on Charles Sumner\n• John Brown’s raid at Harper’s Ferry",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
       "geo": true,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.59",
       "text": "Analyze the Dred Scott v. Sandford decision and the resulting split between the North and South.",
-      "strand": [],
+      "strand": [
+        "C",
+        "H",
+        "P"
+      ],
       "geo": false,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.60",
       "text": "Explain the arguments presented by Stephen Douglas and Abraham Lincoln on slavery in the Illinois Senate race debates of 1858.",
-      "strand": [],
+      "strand": [
+        "C",
+        "H",
+        "P"
+      ],
       "geo": false,
       "cluster": "Expansion and Division of the Nation (1820s-1860s)"
     },
     {
       "code": "8.61",
       "text": "Describe the election of 1860 and its candidates (i.e., John Bell, Stephen Douglas, Abraham Lincoln, and John Breckinridge), and analyze how the campaigns reflected sectional turmoil in the country.",
-      "strand": [],
-      "geo": false,
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "geo": true,
       "cluster": "The Civil War (1860-1865)"
     },
     {
       "code": "8.62",
-      "text": "Describe the outbreak of the Civil War and the resulting sectional differences (e.g., economic, geographic, and technological advances, military strategies, roles of President Abraham Lincoln and Jefferson Davis, significance of Fort Sumter, and geographical divisions within states).",
-      "strand": [],
+      "text": "Describe the outbreak of the Civil War and the resulting sectional differences, including:\n• Economic, geographic, and technological advances\n• Military strategies\n• Roles of President Abraham Lincoln and Jefferson Davis\n• Significance of Fort Sumter\n• Geographical divisions within states",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": true,
       "cluster": "The Civil War (1860-1865)"
     },
     {
       "code": "8.63",
-      "text": "Explain the significance of the following battles, events, and leaders during the Civil War (e.g., First Battle of Bull Run, Surrender at Appomattox Court House, Battle of Shiloh, David Farragut, Battle of Antietam, Nathan Bedford Forrest, Battle of Gettysburg, Ulysses S. Grant, Battle of Vicksburg, Thomas “Stonewall” Jackson, Sherman's March to the Sea, and Robert E. Lee).",
-      "strand": [],
+      "text": "Explain the significance of the following battles, events, and leaders during the Civil War, including:\n• First Battle of Bull Run\n• Battle of Shiloh\n• Battle of Antietam\n• Battle of Gettysburg\n• Battle of Vicksburg\n• Sherman’s March to the Sea\n• Surrender at Appomattox Court House\n• David Farragut\n• Nathan Bedford Forrest\n• Ulysses S. Grant\n• Thomas “Stonewall” Jackson\n• Robert E. Lee",
+      "strand": [
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": true,
       "cluster": "The Civil War (1860-1865)"
     },
     {
       "code": "8.64",
       "text": "Analyze the significance of the Emancipation Proclamation and the Gettysburg Address.",
-      "strand": [],
+      "strand": [
+        "H",
+        "P"
+      ],
       "geo": false,
       "cluster": "The Civil War (1860-1865)"
     },
     {
       "code": "8.65",
-      "text": "Describe African American involvement in the Union army (e.g., the Massachusetts 54th Regiment at Fort Wagner and the 13th U.S. Colored Troops in the Battle of Nashville).",
-      "strand": [],
-      "geo": false,
+      "text": "Describe African American involvement in the Union army, including the Massachusetts 54th Regiment at Fort Wagner and the 13th U.S. Colored Troops in the Battle of Nashville. (T.C.A. § 49-6-1006)",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "T",
+        "TCA"
+      ],
+      "geo": true,
       "cluster": "The Civil War (1860-1865)"
     },
     {
       "code": "8.66",
       "text": "Analyze how the writings of Sam Watkins and Elisha Hunt Rhodes illustrated the daily life of the common soldier.",
-      "strand": [],
+      "strand": [
+        "C",
+        "H",
+        "T"
+      ],
       "geo": false,
       "cluster": "The Civil War (1860-1865)"
     },
     {
       "code": "8.67",
-      "text": "Analyze the immediate political impact of the assassination of President Abraham Lincoln and Andrew Johnson's ascension to the presidency.",
-      "strand": [],
+      "text": "Analyze the immediate political impact of the assassination of President Abraham Lincoln and Andrew Johnson’s ascension to the presidency.",
+      "strand": [
+        "H",
+        "P",
+        "T"
+      ],
       "geo": false,
       "cluster": "Reconstruction (1865-1877)"
     },
     {
       "code": "8.68",
       "text": "Explain the significance of the 13th, 14th, and 15th Amendments to the U.S. Constitution.",
-      "strand": [],
+      "strand": [
+        "E",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": false,
       "cluster": "Reconstruction (1865-1877)"
     },
     {
       "code": "8.69",
-      "text": "Analyze President Abraham Lincoln's Ten Percent Plan, President Andrew Johnson's Plan, and the Radical Republican Plan for Reconstruction.",
-      "strand": [],
-      "geo": false,
+      "text": "Analyze President Abraham Lincoln’s Ten Percent Plan, President Andrew Johnson’s Plan, and the Radical Republican Plan for Reconstruction.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "geo": true,
       "cluster": "Reconstruction (1865-1877)"
     },
     {
       "code": "8.70",
-      "text": "Identify the significance of the Tennessee Constitution of 1870 (e.g., the right of all men to vote and the establishment of a poll tax).",
-      "strand": [],
+      "text": "Identify the significance of the Tennessee Constitution of 1870, including the right of all men to vote and the establishment of a poll tax. (T.C.A. § 49-6-1028)",
+      "strand": [
+        "H",
+        "P",
+        "T",
+        "TCA"
+      ],
       "geo": false,
       "cluster": "Reconstruction (1865-1877)"
     },
     {
       "code": "8.71",
-      "text": "Analyze the conflict between President Andrew Johnson and the Radical Republicans (e.g., Johnson's veto of the Tenure of Office Act and his impeachment).",
-      "strand": [],
+      "text": "Analyze the conflict between President Andrew Johnson and the Radical Republicans, including Johnson’s veto of the Tenure of Office Act and his impeachment.",
+      "strand": [
+        "H",
+        "P",
+        "T"
+      ],
       "geo": false,
       "cluster": "Reconstruction (1865-1877)"
     },
     {
       "code": "8.72",
-      "text": "Explain the restrictions placed on the rights and opportunities of freedmen (e.g., racial segregation, black codes, and the efforts of the Freedmen's Bureau to address the problems confronting newly freed slaves).",
-      "strand": [],
+      "text": "Explain the restrictions placed on the rights and opportunities of freedmen, including: racial segregation, black codes, and the efforts of the Freedmen's Bureau to address the problems confronting newly freed slaves.",
+      "strand": [
+        "C",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": false,
       "cluster": "Reconstruction (1865-1877)"
     },
     {
       "code": "8.73",
       "text": "Trace the rise of the Ku Klux Klan and vigilante justice in the South and in Tennessee, including the role of Governor William Brownlow.",
-      "strand": [],
+      "strand": [
+        "C",
+        "H",
+        "P",
+        "T"
+      ],
       "geo": false,
       "cluster": "Reconstruction (1865-1877)"
     },
     {
       "code": "8.74",
       "text": "Explain the roles carpetbaggers and scalawags played during Reconstruction.",
-      "strand": [],
-      "geo": false,
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "geo": true,
       "cluster": "Reconstruction (1865-1877)"
     },
     {
       "code": "8.75",
       "text": "Explain the Compromise of 1877 and its role in ending Radical Reconstruction.",
-      "strand": [],
+      "strand": [
+        "C",
+        "H",
+        "P"
+      ],
       "geo": false,
       "cluster": "Reconstruction (1865-1877)"
     }

@@ -2,496 +2,494 @@
   "course": "grade-07-world-history-geography",
   "level": "Grade 7",
   "standardsPrefix": "7",
-  "title": "world-history-grade7",
+  "title": "World History and Geography: The Middle Ages to the Exploration of the Americas",
   "source": {
-    "title": "Tennessee Academic Standards for Social Studies — Grade 7: World History and Geography: The Middle Ages to the Exploration of the Americas",
-    "url": "https://www.tn.gov/content/dam/tn/stateboardofeducation/documents/standards/social-studies-2022-2023/TN%20Academic%20Standards%20for%20Social%20Studies%206.24.pdf",
-    "retrieved": "Standard statements are verbatim TDOE standard text (7.1-7.65), cross-verified against TDOE standard numbering. The official tn.gov PDF was unreachable (egress-blocked) at build time, so statement text was sourced from a cross-referenced reproduction and confirmed by independent lookups.",
-    "verification_note": "Per the no-fabrication rule, the standards' parenthetical '(e.g., ...)' exemplar lists were OMITTED because the only accessible copy contained OCR corruption and scrambled word order that could not be verified against an official source. Each 'text' is the complete, verbatim standard statement; clean inline '(i.e., ...)' clauses present in the source are retained. Content-strand tags (C/E/G/H/P/T) were not available from a verifiable source and are left as [] (matching the sibling grade-8 file's convention)."
+    "drive_file_id": "1SNejnkg5khjButRTYrI41xs7D2mbI_25",
+    "title": "official TDOE PDF (7th Grade.pdf)"
   },
-  "provenance": "GitHub mirror + WebSearch cross-check; exemplar lists omitted",
-  "verified": false,
+  "provenance": "Official TDOE PDF — verbatim",
+  "verified": true,
   "practices": [
     {
       "code": "SSP.01",
-      "text": "Collect data and information from a variety of primary and secondary sources, including: Printed materials (e.g., literary texts, newspapers, autobiographies, speeches, interviews, letters, personal journals); Graphic representations (e.g., maps, timelines, charts, political cartoons, photographs, artwork); Field observations/landscape analysis; Artifacts; Media and technology sources"
+      "text": "Collect data and information from a variety of primary and secondary sources, including: • Printed materials (e.g., literary texts, newspapers, political cartoons, autobiographies, speeches, letters, personal journals) • Graphic representations (e.g., maps, timelines, charts, photographs, artwork) • Artifacts • Media and technology sources"
     },
     {
       "code": "SSP.02",
-      "text": "Critically examine a primary or secondary source in order to: Extract and paraphrase significant ideas; Discern differences between evidence and assertion; Draw inferences and conclusions; Recognize author’s purpose, point of view, and potential bias; Assess the strengths and limitations of arguments"
+      "text": "Critically examine a primary or secondary source in order to: • Extract and paraphrase significant ideas and relevant information • Distinguish the difference between fact and opinion • Draw inferences and conclusions • Recognize author's purpose, point of view, and bias • Assess the strengths and limitations of arguments"
     },
     {
       "code": "SSP.03",
-      "text": "Synthesize data from a variety of sources in order to: Establish accuracy and validity by comparing sources to each other; Recognize disparities among multiple accounts; Frame appropriate questions for further investigation"
+      "text": "Synthesize data from multiple sources in order to: • Recognize differences among multiple accounts • Establish validity by comparing and contrasting multiple sources • Frame appropriate questions for further investigation"
     },
     {
       "code": "SSP.04",
-      "text": "Construct and communicate arguments citing supporting evidence to: Demonstrate and defend an understanding of ideas; Compare and contrast viewpoints; Illustrate cause and effect; Predict likely outcomes; Devise new outcomes or solutions"
+      "text": "Construct and communicate arguments citing supporting evidence to: • Demonstrate and defend an understanding of ideas • Compare and contrast viewpoints • Illustrate cause and effect • Predict likely outcomes • Devise new outcomes or solutions"
     },
     {
       "code": "SSP.05",
-      "text": "Develop historical awareness by: Recognizing how and why historical accounts change over time; Perceiving and presenting past events and issues as they might have been experienced by the people of the time, with historical empathy rather than present-mindedness; Evaluating how unique circumstances of time and place create context and contribute to action and reaction; Identifying patterns of continuity and change over time, making connections to the present"
+      "text": "Develop historical awareness by: • Recognizing how and why historical accounts change over time • Perceiving and presenting past events and issues as they might have been experienced by the people of the time, with historical empathy rather than present-mindedness • Evaluating how unique circumstances of time and place create context and contribute to action and reaction • Identifying patterns of continuity and change over time, making connections to the present"
     },
     {
       "code": "SSP.06",
-      "text": "Develop geographic awareness by: Using the geographic perspective to analyze relationships, patterns, and diffusion across space at multiple scales (e.g., local, national, global); Analyzing and determining the use of diverse types of maps based on the origin, authority, structure, context, and validity; Analyzing locations, conditions, and connections of places and using maps to investigate spatial associations among phenomena; Examining how geographers use regions and how perceptions of regions are fluid across time and space; Analyzing interaction between humans and the physical environment"
+      "text": "Develop a geographic awareness by: • Using the geographic perspective to determine relationships, patterns, and diffusion across space at multiple scales (e.g., local, national, global). • Determining the use of diverse types of maps based on their origin, structure, context, and validity • Analyzing locations, conditions, and connections of places and using maps to investigate spatial relationships • Analyzing interaction between humans and the physical environment • Examining how geographic regions and perceptions of regions are fluid across time and space"
     }
   ],
   "standards": [
     {
-      "code": "7.1",
-      "text": "Identify and locate the geographical features of East Asia.",
-      "strand": [],
+      "code": "7.01",
+      "text": "Identify and locate the geographical features of East Asia, including: • China • Gobi Desert • Himalayan Mountains • Japan • Korean Peninsula • Pacific Ocean • Plateau of Tibet • Sea of Japan (East Sea) • Yangtze River • Yellow River",
+      "strand": ["G"],
       "geo": true,
-      "cluster": "East Asia (400-1500s CE)"
+      "cluster": "East Asia: 400-1500s CE"
     },
     {
-      "code": "7.2",
+      "code": "7.02",
       "text": "Describe how the reunification of China prior to the Tang Dynasty helped spread Buddhist beliefs.",
-      "strand": [],
-      "geo": false,
-      "cluster": "East Asia (400-1500s CE)"
-    },
-    {
-      "code": "7.3",
-      "text": "Summarize agricultural, commercial, and technological developments during the Song Dynasties, and describe the role of Confucianism during the Song.",
-      "strand": [],
-      "geo": false,
-      "cluster": "East Asia (400-1500s CE)"
-    },
-    {
-      "code": "7.4",
-      "text": "Examine the rise of the Mongol Empire, including the conquests of Genghis Khan.",
-      "strand": [],
-      "geo": false,
-      "cluster": "East Asia (400-1500s CE)"
-    },
-    {
-      "code": "7.5",
-      "text": "Describe Kublai Khan's conquest of China, and explain how he was able to maintain control of the Yuan Empire.",
-      "strand": [],
-      "geo": false,
-      "cluster": "East Asia (400-1500s CE)"
-    },
-    {
-      "code": "7.6",
-      "text": "Summarize the effects of the Mongolian empires on the Silk Roads, including the importance of Marco Polo's travels on the spread of Chinese technology and Eurasian trade.",
-      "strand": [],
+      "strand": ["C", "G", "H", "P"],
       "geo": true,
-      "cluster": "East Asia (400-1500s CE)"
+      "cluster": "East Asia: 400-1500s CE"
     },
     {
-      "code": "7.7",
-      "text": "Analyze the achievements of the Ming Dynasty and reasons for its isolationism.",
-      "strand": [],
-      "geo": false,
-      "cluster": "East Asia (400-1500s CE)"
+      "code": "7.03",
+      "text": "Summarize agricultural, commercial, and technological developments during the Song Dynasties, and describe the role of Confucianism during the Song.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "East Asia: 400-1500s CE"
     },
     {
-      "code": "7.8",
-      "text": "Describe the origins and central features of Shintoism.",
-      "strand": [],
-      "geo": false,
-      "cluster": "East Asia (400-1500s CE)"
+      "code": "7.04",
+      "text": "Examine the rise of the Mongol Empire, including the conquests of Genghis Khan.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "East Asia: 400-1500s CE"
     },
     {
-      "code": "7.9",
+      "code": "7.05",
+      "text": "Describe Kublai Khan's conquest of China, and explain how he was able to maintain control of the Yuan Empire.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "East Asia: 400-1500s CE"
+    },
+    {
+      "code": "7.06",
+      "text": "Summarize the effects of the Mongolian empires on the Silk Roads, including the importance of Marco Polo's travels on the spread of Chinese technology and Eurasian trade.",
+      "strand": ["C", "E", "G", "H"],
+      "geo": true,
+      "cluster": "East Asia: 400-1500s CE"
+    },
+    {
+      "code": "7.07",
+      "text": "Analyze the achievements of the Ming Dynasty and reasons for its isolationism, including building projects (e.g., the Forbidden City and reconstruction of the Great Wall) and Zheng He's sea voyages.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "East Asia: 400-1500s CE"
+    },
+    {
+      "code": "7.08",
+      "text": "Describe the origins and central features of Shintoism: • Key Person(s): None • Sacred Texts: No sacred text • Basic Beliefs: localized tradition that focuses on ritual practices that are carried out with discipline to maintain connections with ancient past; animism and Kami",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "East Asia: 400-1500s CE"
+    },
+    {
+      "code": "7.09",
       "text": "Explain how Japanese culture changed through Chinese and Korean influences (including Buddhism and Confucianism) as shown in the Constitution of Prince Shotoku and the adoption of the Chinese writing system.",
-      "strand": [],
-      "geo": false,
-      "cluster": "East Asia (400-1500s CE)"
+      "strand": ["C", "G", "H"],
+      "geo": true,
+      "cluster": "East Asia: 400-1500s CE"
     },
     {
       "code": "7.10",
       "text": "Describe how the Heian aristocracy contributed to the development of a Japanese national culture.",
-      "strand": [],
+      "strand": ["C", "H", "P"],
       "geo": false,
-      "cluster": "East Asia (400-1500s CE)"
+      "cluster": "East Asia: 400-1500s CE"
     },
     {
       "code": "7.11",
       "text": "Analyze the rise of a military society in the late 12th century and the role of the shogun and samurai in Japanese society.",
-      "strand": [],
+      "strand": ["C", "E", "H", "P"],
       "geo": false,
-      "cluster": "East Asia (400-1500s CE)"
+      "cluster": "East Asia: 400-1500s CE"
     },
     {
       "code": "7.12",
       "text": "Identify the continuation of the Eastern Roman Empire as the Byzantine Empire, and describe the diffusion of Christianity and the Latin language.",
-      "strand": [],
+      "strand": ["C", "G", "H", "P"],
       "geo": true,
-      "cluster": "Byzantine Empire (400-1500s CE)"
+      "cluster": "Byzantine Empire: 400-1500s CE"
     },
     {
       "code": "7.13",
       "text": "Explain the importance of Justinian's political, social, and architectural achievements.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Byzantine Empire (400-1500s CE)"
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Byzantine Empire: 400-1500s CE"
     },
     {
       "code": "7.14",
       "text": "Analyze the importance of regional geography and the location of Constantinople in maintaining European culture.",
-      "strand": [],
+      "strand": ["C", "G", "H"],
       "geo": true,
-      "cluster": "Byzantine Empire (400-1500s CE)"
+      "cluster": "Byzantine Empire: 400-1500s CE"
     },
     {
       "code": "7.15",
-      "text": "Identify and locate the geographical features of Southwest Asia and North Africa.",
-      "strand": [],
+      "text": "Identify and locate the geographical features of Southwest Asia and North Africa, including: • Arabian Peninsula • Arabian Sea • Black Sea • Caspian Sea • Euphrates River • Mecca • Mediterranean Sea • Persian Gulf • Red Sea • Tigris River",
+      "strand": ["G"],
       "geo": true,
-      "cluster": "Southwest Asia & North Africa (400-1500s CE)"
+      "cluster": "Southwest Asia and North Africa: 400-1500s CE"
     },
     {
       "code": "7.16",
-      "text": "Describe the origins and central features of Islam.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Southwest Asia & North Africa (400-1500s CE)"
+      "text": "Describe the origins and central features of Islam: • Key Person(s): Mohammad • Sacred Texts: The Quran and The Sunnah • Basic Beliefs: monotheism, Five Pillars",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Southwest Asia and North Africa: 400-1500s CE"
     },
     {
       "code": "7.17",
       "text": "Describe the diffusion of Islam, its culture, and the Arabic language.",
-      "strand": [],
+      "strand": ["C", "G", "H"],
       "geo": true,
-      "cluster": "Southwest Asia & North Africa (400-1500s CE)"
+      "cluster": "Southwest Asia and North Africa: 400-1500s CE"
     },
     {
       "code": "7.18",
-      "text": "Summarize the contributions of the region's scholars in the areas of art, medicine, geography, philosophy, literature, science, & mathematics.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Southwest Asia & North Africa (400-1500s CE)"
+      "text": "Summarize the contributions of the region's scholars in the areas of: • Art • Geography • Literature • Mathematics • Medicine • Philosophy • Science",
+      "strand": ["C", "G", "H"],
+      "geo": true,
+      "cluster": "Southwest Asia and North Africa: 400-1500s CE"
     },
     {
       "code": "7.19",
       "text": "Explain the importance of Mehmed II the Conqueror, the fall of Constantinople, and the establishment of the Ottoman Empire.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Southwest Asia & North Africa (400-1500s CE)"
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Southwest Asia and North Africa: 400-1500s CE"
     },
     {
       "code": "7.20",
       "text": "Analyze the development of trade routes throughout Asia, Africa, and Europe and the expanding role of merchants.",
-      "strand": [],
+      "strand": ["C", "E", "G", "H"],
       "geo": true,
-      "cluster": "Southwest Asia & North Africa (400-1500s CE)"
+      "cluster": "Southwest Asia and North Africa: 400-1500s CE"
     },
     {
       "code": "7.21",
-      "text": "Identify and locate the geographical features of West Africa",
-      "strand": [],
+      "text": "Identify and locate the geographical features of West Africa, including: • Atlantic Ocean • Djenne • Gulf of Guinea • Niger River • The Sahara • Timbuktu",
+      "strand": ["G"],
       "geo": true,
-      "cluster": "West Africa (400-1500s CE)"
+      "cluster": "West Africa: 400-1500s CE"
     },
     {
       "code": "7.22",
-      "text": "Explain indigenous African spiritual traditions.",
-      "strand": [],
+      "text": "Explain indigenous African spiritual traditions, including: ancestor worship, animism, and the relationship between humans and deities.",
+      "strand": ["C", "H"],
       "geo": false,
-      "cluster": "West Africa (400-1500s CE)"
+      "cluster": "West Africa: 400-1500s CE"
     },
     {
       "code": "7.23",
       "text": "Analyze the growth of the kingdoms of Ghana, Mali, and Songhai, including cities such as Djenne and Timbuktu as centers of trade, culture, and learning.",
-      "strand": [],
+      "strand": ["C", "E", "G", "H", "P"],
       "geo": true,
-      "cluster": "West Africa (400-1500s CE)"
+      "cluster": "West Africa: 400-1500s CE"
     },
     {
       "code": "7.24",
       "text": "Describe the role of the Trans-Saharan caravan trade in the changing religious and cultural characteristics of West Africa and in the exchange of salt, gold, and slaves.",
-      "strand": [],
+      "strand": ["C", "E", "G", "H", "P"],
       "geo": true,
-      "cluster": "West Africa (400-1500s CE)"
+      "cluster": "West Africa: 400-1500s CE"
     },
     {
       "code": "7.25",
       "text": "Explain the importance of griots in the transmission of West African history and culture.",
-      "strand": [],
-      "geo": false,
-      "cluster": "West Africa (400-1500s CE)"
+      "strand": ["C", "G", "H"],
+      "geo": true,
+      "cluster": "West Africa: 400-1500s CE"
     },
     {
       "code": "7.26",
       "text": "Explain the importance of the Malian king Mansa Musa and his pilgrimage to Mecca in 1324.",
-      "strand": [],
-      "geo": false,
-      "cluster": "West Africa (400-1500s CE)"
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "West Africa: 400-1500s CE"
     },
     {
       "code": "7.27",
-      "text": "Identify and locate geographical features of Europe.",
-      "strand": [],
+      "text": "Identify and locate geographical features of Europe, including: • Alps • Atlantic Ocean • English Channel • Mediterranean Sea • Influence of the North Atlantic Drift • North European Plain • Ural Mountains",
+      "strand": ["G"],
       "geo": true,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.28",
       "text": "Describe the role of monasteries in the preservation of knowledge and spread of the Catholic Church beyond the Alps.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.29",
-      "text": "Explain how Charlemagne shaped and defined medieval Europe.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "text": "Explain how Charlemagne shaped and defined medieval Europe, including: his impact on feudalism, the creation of the Holy Roman Empire, and the establishment of Christianity as the religion of the Empire.",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.30",
       "text": "Describe the development of feudalism and manorialism, their role in the medieval European economy, and the way in which they were influenced by physical geography (i.e., the role of the manor and the growth of towns).",
-      "strand": [],
+      "strand": ["C", "E", "G", "H", "P"],
       "geo": true,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.31",
       "text": "Analyze the Battle of Hastings and the long-term historical impact of William the Conqueror on England and Northern France.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.32",
       "text": "Describe how political relationships both fostered cooperation and led to conflict between the Papacy and European monarchs.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.33",
-      "text": "Analyze the impact of the Magna Carta.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "text": "Analyze the impact of the Magna Carta, including: limiting the power of the monarch, the rule of law, and the right to trial by jury.",
+      "strand": ["G", "H", "P"],
+      "geo": true,
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.34",
-      "text": "Analyze the causes, effects, and key people of the 1st, 2nd, and 3rd Crusades.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "text": "Analyze the causes, effects, and key people of the 1st, 2nd, and 3rd Crusades, including: Pope Urban II, Saladin, and Richard I.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.35",
       "text": "Explain how the Crusades impacted Christian, Muslim, and Jewish populations in Europe, with emphasis on the increasing contact with cultures outside Europe.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "strand": ["C", "G", "H"],
+      "geo": true,
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.36",
       "text": "Describe the economic and social effects of the spread of the Black Death (i.e., Bubonic Plague) from Central Asia to China, the Middle East, and Europe, and its impact on the global population.",
-      "strand": [],
+      "strand": ["C", "E", "G", "H"],
       "geo": true,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.37",
-      "text": "Analyze the importance of the Black Death on the emergence of a modern economy.",
-      "strand": [],
+      "text": "Analyze the importance of the Black Death on the emergence of a modern economy, including: • Agricultural improvements • A merchant class • Commerce • Technological improvements • Growth of banking • Towns",
+      "strand": ["C", "E", "H"],
       "geo": false,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.38",
-      "text": "Describe the significance of the Hundred Years War.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "text": "Describe the significance of the Hundred Years War, including the roles of Henry V in shaping English culture and language and Joan of Arc in promoting a peaceful end to the war.",
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.39",
       "text": "Explain the significance of the Reconquista, Inquisition, and the rise of Spanish and Portuguese kingdoms in the Iberian Peninsula.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Middle Ages in Western Europe (400-1500s CE)"
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Middle Ages in Western Europe: 400-1500s CE"
     },
     {
       "code": "7.40",
       "text": "Explain how the location of the Italian Peninsula impacted the movement of resources, knowledge, and culture throughout Italy's independent trade cities.",
-      "strand": [],
+      "strand": ["C", "E", "G", "H", "P"],
       "geo": true,
-      "cluster": "Early Modern Europe: The Renaissance (1400-1700s CE)"
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.41",
       "text": "Identify the importance of Florence, Italy and the Medici Family in the early stages of the Renaissance.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Early Modern Europe: The Renaissance (1400-1700s CE)"
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.42",
       "text": "Explain humanism, and describe how Thomas Aquinas's writings influenced humanistic thought and fostered a balance between reason and faith.",
-      "strand": [],
+      "strand": ["C", "H"],
       "geo": false,
-      "cluster": "Early Modern Europe: The Renaissance (1400-1700s CE)"
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.43",
-      "text": "Explain the development of Renaissance art.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Early Modern Europe: The Renaissance (1400-1700s CE)"
+      "text": "Explain the development of Renaissance art, including the significance of: • Leonardo da Vinci • Michelangelo • William Shakespeare • Systems of patronage",
+      "strand": ["C", "E", "G", "H"],
+      "geo": true,
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.44",
       "text": "Analyze Johannes Gutenberg's printing press and William Tyndale's translation of the Bible into the English language as vehicles for the spread of books, growth of literacy, and dissemination of knowledge.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Early Modern Europe: The Protestant Reformation (1400-1700s CE)"
+      "strand": ["C", "G", "H"],
+      "geo": true,
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.45",
-      "text": "Explain the significant causes of the Protestant Reformation",
-      "strand": [],
+      "text": "Explain the significant causes of the Protestant Reformation, including: the Catholic Church's taxation policies, the selling of indulgences, and Martin Luther's 95 Theses.",
+      "strand": ["C", "H", "P"],
       "geo": false,
-      "cluster": "Early Modern Europe: The Protestant Reformation (1400-1700s CE)"
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.46",
-      "text": "Analyze the development of the Protestant Reformation and the split with the Catholic Church.",
-      "strand": [],
+      "text": "Analyze the development of the Protestant Reformation and the split with the Catholic Church, including: the emphasis on scripture alone, salvation by faith, and predestination.",
+      "strand": ["C", "H", "P"],
       "geo": false,
-      "cluster": "Early Modern Europe: The Protestant Reformation (1400-1700s CE)"
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.47",
       "text": "Explain the political and religious roles of Henry VIII and Mary I in England's transition between Catholicism and Protestantism.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Early Modern Europe: The Protestant Reformation (1400-1700s CE)"
+      "strand": ["C", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.48",
-      "text": "Analyze how the Catholic Counter-Reformation emerged as a response to Protestantism and revitalized the Catholic Church.",
-      "strand": [],
+      "text": "Analyze how the Catholic Counter-Reformation emerged as a response to Protestantism and revitalized the Catholic Church, including the significance of: St. Ignatius of Loyola, the Jesuits, and the Council of Trent.",
+      "strand": ["C", "H"],
       "geo": false,
-      "cluster": "Early Modern Europe: The Protestant Reformation (1400-1700s CE)"
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.49",
       "text": "Examine the Golden Age of the Tudor dynasty (i.e., Queen Elizabeth I), including the defeat of the Spanish Armada and the rise of English power in Europe.",
-      "strand": [],
+      "strand": ["C", "H", "P"],
       "geo": false,
-      "cluster": "Early Modern Europe: The Protestant Reformation (1400-1700s CE)"
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.50",
       "text": "Compare and contrast heliocentric and geocentric theories of the Greeks (geocentric), Copernicus (heliocentric), and Kepler (elliptical orbits).",
-      "strand": [],
-      "geo": false,
-      "cluster": "Early Modern Europe: The Scientific Revolution (1400-1700s CE)"
+      "strand": ["C", "G"],
+      "geo": true,
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.51",
-      "text": "Examine Galileo Galilei's theories and improvement of scientific tools.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Early Modern Europe: The Scientific Revolution (1400-1700s CE)"
+      "text": "Examine Galileo Galilei's theories and improvement of scientific tools, including the telescope and microscope.",
+      "strand": ["C", "G", "H"],
+      "geo": true,
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.52",
       "text": "Explain the significance of the following in regards to the Scientific Revolution: Sir Francis Bacon in establishing the scientific method and Sir Isaac Newton's three Laws of Motion.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Early Modern Europe: The Scientific Revolution (1400-1700s CE)"
+      "strand": ["C", "G", "H"],
+      "geo": true,
+      "cluster": "Early Modern Europe: 1400-1700s CE"
     },
     {
       "code": "7.53",
-      "text": "Identify and locate the geographical features of the Americas.",
-      "strand": [],
+      "text": "Identify and locate the geographical features of the Americas, including: • Andes Mountains • Appalachian Mountains • Atlantic Ocean • Caribbean Sea • Central Mexican Plateau • Great Plains • Gulf of Mexico • Mississippi River • North America • Pacific Ocean • Rocky Mountains • South America • Yucatan Peninsula",
+      "strand": ["G", "T"],
       "geo": true,
-      "cluster": "Indigenous Civilizations of the Americas (400-1500s CE)"
+      "cluster": "Indigenous Civilizations of the Americas: 400-1500s CE"
     },
     {
       "code": "7.54",
-      "text": "Explain the impact of geographic features on North American Indian cultures (i.e., Northeast, Southeast, and Plains).",
-      "strand": [],
+      "text": "Explain the impact of geographic features on North American Indian cultures (i.e., Northeast, Southeast, and Plains), including: clothing, housing, and agriculture.",
+      "strand": ["C", "G", "H", "T"],
       "geo": true,
-      "cluster": "Indigenous Civilizations of the Americas (400-1500s CE)"
+      "cluster": "Indigenous Civilizations of the Americas: 400-1500s CE"
     },
     {
       "code": "7.55",
-      "text": "Describe the existence of diverse networks of North American Indian cultures (within present-day United States).",
-      "strand": [],
-      "geo": false,
-      "cluster": "Indigenous Civilizations of the Americas (400-1500s CE)"
+      "text": "Describe the existence of diverse networks of North American Indian cultures (within present-day United States) including: varied languages, customs, and economic and political structures.",
+      "strand": ["C", "E", "G", "H", "P", "T"],
+      "geo": true,
+      "cluster": "Indigenous Civilizations of the Americas: 400-1500s CE"
     },
     {
       "code": "7.56",
       "text": "Explain the impact of geographic features and climate on the agricultural practices and settlement of the Maya, Aztec, and Incan civilizations.",
-      "strand": [],
+      "strand": ["C", "E", "G", "H", "P"],
       "geo": true,
-      "cluster": "Indigenous Civilizations of the Americas (400-1500s CE)"
+      "cluster": "Indigenous Civilizations of the Americas: 400-1500s CE"
     },
     {
       "code": "7.57",
-      "text": "Describe the social, economic, and political characteristics of the Maya, Aztec, and Incan civilizations.",
-      "strand": [],
-      "geo": false,
-      "cluster": "Indigenous Civilizations of the Americas (400-1500s CE)"
+      "text": "Describe the social, economic, and political characteristics of the Maya, Aztec, and Incan civilizations, including: oral traditions, class structures, religious beliefs, slavery, and advancements (e.g., astronomy, mathematics, and calendar).",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "Indigenous Civilizations of the Americas: 400-1500s CE"
     },
     {
       "code": "7.58",
-      "text": "Analyze why European countries were motivated to explore the world.",
-      "strand": [],
-      "geo": false,
-      "cluster": "The Age of Exploration (1400-1700s CE)"
+      "text": "Analyze why European countries were motivated to explore the world, including: religion, political rivalry, and economic gain (i.e., mercantilism).",
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "The Age of Exploration: 1400-1700s CE"
     },
     {
       "code": "7.59",
-      "text": "Identify the significance of the voyages and routes of discovery of the following explorers by their sponsoring country.",
-      "strand": [],
+      "text": "Identify the significance of the voyages and routes of discovery of the following explorers by their sponsoring country: • England: Henry Hudson • France: Jacques Cartier • Portugal: Vasco da Gama, Bartolomeu Dias • Spain: Christopher Columbus, Hernando de Soto, Ferdinand Magellan, Amerigo Vespucci",
+      "strand": ["C", "E", "G", "H", "P", "T"],
       "geo": true,
-      "cluster": "The Age of Exploration (1400-1700s CE)"
+      "cluster": "The Age of Exploration: 1400-1700s CE"
     },
     {
       "code": "7.60",
       "text": "Describe Prince Henry the Navigator's influence on exploration, voyages, cartographic improvements, and tools related to exploration (i.e., compass, caravel, astrolabe, and Harrison's chronometer) during the Age of Discovery.",
-      "strand": [],
+      "strand": ["C", "E", "G", "H", "P"],
       "geo": true,
-      "cluster": "The Age of Exploration (1400-1700s CE)"
+      "cluster": "The Age of Exploration: 1400-1700s CE"
     },
     {
       "code": "7.61",
       "text": "Locate and identify French, Spanish, English, Portuguese, and Dutch colonies in the Americas, and explain how religion impacted the location of settlement by each country.",
-      "strand": [],
+      "strand": ["C", "E", "G", "H", "P"],
       "geo": true,
-      "cluster": "The Age of Exploration (1400-1700s CE)"
+      "cluster": "The Age of Exploration: 1400-1700s CE"
     },
     {
       "code": "7.62",
       "text": "Describe how the Aztec and Inca empires were eventually defeated by Spanish Conquistadors (i.e., Hernan Cortes and Francisco Pizarro).",
-      "strand": [],
-      "geo": false,
-      "cluster": "The Age of Exploration (1400-1700s CE)"
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "The Age of Exploration: 1400-1700s CE"
     },
     {
       "code": "7.63",
       "text": "Locate and identify the European regions that remained Catholic and those that became Protestant and how that division affected the distribution of religions in the New World.",
-      "strand": [],
+      "strand": ["C", "E", "G", "H", "P"],
       "geo": true,
-      "cluster": "The Age of Exploration (1400-1700s CE)"
+      "cluster": "The Age of Exploration: 1400-1700s CE"
     },
     {
       "code": "7.64",
       "text": "Explain the impact of the Columbian Exchange on people, plants, animals, technology, culture, ideas, and diseases among Europe, Africa, Asia, and the Americas in the 15th and 16th centuries, and examine the major economic and social effects on each continent.",
-      "strand": [],
+      "strand": ["C", "E", "G", "H", "P"],
       "geo": true,
-      "cluster": "The Age of Exploration (1400-1700s CE)"
+      "cluster": "The Age of Exploration: 1400-1700s CE"
     },
     {
       "code": "7.65",
       "text": "Explain how Spanish colonization introduced Christianity, the mission system, and the encomienda system to the Americas as well as Bartolome de la Casa's role in the transition to African slavery.",
-      "strand": [],
-      "geo": false,
-      "cluster": "The Age of Exploration (1400-1700s CE)"
+      "strand": ["C", "E", "G", "H", "P"],
+      "geo": true,
+      "cluster": "The Age of Exploration: 1400-1700s CE"
     }
   ]
 }
