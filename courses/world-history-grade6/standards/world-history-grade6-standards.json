@@ -1,0 +1,40 @@
+{
+  "course": "world-history-grade6",
+  "standardsPrefix": "6",
+  "_status": "INCOMPLETE — standards body NOT populated. See _note. Do not treat as complete or ingest as final.",
+  "_note": "The Grade 6 standards body (codes 6.1, 6.2, ...) could NOT be retrieved verbatim in this build environment. The org egress policy denies all general web hosts (tn.gov, ixl.com, instructure, finalsite, commonstandardsproject, achievethecore, archive.org all returned 403 at the proxy) and WebFetch returned HTTP 403 for every URL including non-government sites, so no official TDOE PDF or authoritative mirror could be opened. Per the task rule ('if you cannot verify a portion from an official source, OMIT and note it — never fabricate'), the standards array is intentionally left empty rather than reconstructed from memory. To populate it: supply the official PDF (see source.url) directly to the build, or re-run this task in an environment that can reach tn.gov. The 'practices' below ARE verified — Tennessee lists SSP.01–SSP.06 identically across all Social Studies courses grades 6–12; text carried verbatim from this repo's existing verified file courses/world-history/standards/world-history-standards.json.",
+  "source": {
+    "title": "Tennessee Academic Standards for Social Studies — Grade 6: World History and Geography: Early Civilizations Through the Decline of the Roman and Han Empires",
+    "url": "https://www.tn.gov/content/dam/tn/education/standards/ss/Social_Studies_Standards.pdf",
+    "landing_page": "https://www.tn.gov/education/districts/academic-standards/social-studies-standards.html",
+    "version_note": "This is the CURRENT (2019-adopted, with 2020 technical revisions) standard in effect for the 2026-2027 school year. The revised standards adopted Feb 2024 (Grade 6 retitled 'Early Civilizations Through the Fall of the Western Roman Empire', doc TN Academic Standards for Social Studies 6.24.pdf) are NOT implemented until the 2027-2028 school year, so they are not the current standard.",
+    "retrieved": "NOT RETRIEVED — source inaccessible from build environment (see _note)"
+  },
+  "practices": [
+    {
+      "code": "SSP.01",
+      "text": "Collect data and information from a variety of primary and secondary sources, including: Printed materials (e.g., literary texts, newspapers, autobiographies, speeches, interviews, letters, personal journals); Graphic representations (e.g., maps, timelines, charts, political cartoons, photographs, artwork); Field observations/landscape analysis; Artifacts; Media and technology sources"
+    },
+    {
+      "code": "SSP.02",
+      "text": "Critically examine a primary or secondary source in order to: Extract and paraphrase significant ideas; Discern differences between evidence and assertion; Draw inferences and conclusions; Recognize author's purpose, point of view, and potential bias; Assess the strengths and limitations of arguments"
+    },
+    {
+      "code": "SSP.03",
+      "text": "Synthesize data from a variety of sources in order to: Establish accuracy and validity by comparing sources to each other; Recognize disparities among multiple accounts; Frame appropriate questions for further investigation"
+    },
+    {
+      "code": "SSP.04",
+      "text": "Construct and communicate arguments citing supporting evidence to: Demonstrate and defend an understanding of ideas; Compare and contrast viewpoints; Illustrate cause and effect; Predict likely outcomes; Devise new outcomes or solutions"
+    },
+    {
+      "code": "SSP.05",
+      "text": "Develop historical awareness by: Recognizing how and why historical accounts change over time; Perceiving and presenting past events and issues as they might have been experienced by the people of the time, with historical empathy rather than present-mindedness; Evaluating how unique circumstances of time and place create context and contribute to action and reaction; Identifying patterns of continuity and change over time, making connections to the present"
+    },
+    {
+      "code": "SSP.06",
+      "text": "Develop geographic awareness by: Using the geographic perspective to analyze relationships, patterns, and diffusion across space at multiple scales (e.g., local, national, global); Analyzing and determining the use of diverse types of maps based on the origin, authority, structure, context, and validity; Analyzing locations, conditions, and connections of places and using maps to investigate spatial associations among phenomena; Examining how geographers use regions and how perceptions of regions are fluid across time and space; Analyzing interaction between humans and the physical environment"
+    }
+  ],
+  "standards": []
+}
