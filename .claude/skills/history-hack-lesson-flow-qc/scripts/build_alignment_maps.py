@@ -16,7 +16,9 @@ Grounded in the Course Standard file conventions:
 - Student deck: bare "US.xx" starts a standard block; role slides are titled by keyword
   (DIRECT INSTRUCTION / SOURCE IT FIRST / THREE PERSPECTIVES / KEY VOCABULARY / PROGRESS CHECK);
   on-slide cue "✍ In your workbook · <activity>".
-- Workbook activity headers: "Activity N — <name> — US.xx ... ▶ Deck slide(s) N".
+- Workbook activity headers: "Activity N — <name> — US.xx ... ▶ Deck · <Role>" (role-based, deck-
+  agnostic — the only supported form). A hard "▶ Deck slide N" is flagged MAJOR: it goes stale on a
+  deck re-key (it did, once). Role refs are verified to resolve to a real slide of that role.
 - Guided Cornell cue column: "▶ Deck · DI N of M" (M = DI segments the workbook expects).
 """
 
@@ -29,8 +31,17 @@ from docx.oxml.ns import qn
 from pptx import Presentation
 
 STD = re.compile(r"US\.(\d{2})")
-DECK_REF = re.compile(r"▶\s*Deck slides?\s*([\d]+)(?:\s*[–-]\s*(\d+))?")
+DECK_REF = re.compile(r"▶\s*Deck slides?\s*([\d]+)(?:\s*[–-]\s*(\d+))?")   # stale absolute style
+ROLE_REF = re.compile(r"▶\s*Deck\s*·\s*(?!DI\b)([A-Za-z][A-Za-z /&-]+)")   # role-based style
 DI_OF = re.compile(r"DI\s*(\d+)\s*of\s*(\d+)")
+# a workbook role-ref label -> the deck role keyword(s) that satisfy it (student and/or teacher deck)
+ROLE_REF_MAP = {
+    "key vocabulary": {"KEY VOCABULARY"},
+    "direct instruction": {"DIRECT INSTRUCTION"},
+    "primary source": {"SOURCE IT FIRST", "PRIMARY SOURCE"},
+    "progress check": {"PROGRESS CHECK", "CHECK FOR UNDERSTANDING"},
+    "constructed response": {"THREE PERSPECTIVES", "STUDENT ACTIVITY"},
+}
 ROLE_KEYS = ["DIRECT INSTRUCTION", "SOURCE IT FIRST", "PRIMARY SOURCE", "THREE PERSPECTIVES",
              "KEY VOCABULARY", "PROGRESS CHECK", "CHECK FOR UNDERSTANDING", "HOOK",
              "QUICK REVIEW", "CONFIDENCE CHECK", "PEOPLE WHO SHAPED", "STUDENT ACTIVITY"]
@@ -113,7 +124,9 @@ def map_workbook(path):
             ref = DECK_REF.search(t)
             lo = int(ref.group(1)) if ref else None
             hi = int(ref.group(2)) if (ref and ref.group(2)) else lo
-            m[code]["activities"].append((int(am.group(1)), am.group(2).strip(), lo, hi))
+            rr = ROLE_REF.search(t)
+            role_ref = rr.group(1).strip().lower() if rr else None
+            m[code]["activities"].append((int(am.group(1)), am.group(2).strip(), lo, hi, role_ref))
         di = DI_OF.search(t)
         if di:
             code_m = STD.search(t)
@@ -138,7 +151,7 @@ def audit(teacher, student, workbook):
         print(f"\n{c}: teacher DI={t_di}  student DI={s_di}  workbook expects DI={w_di}")
         print(f"  teacher: {[ (n,r) for n,r,_ in T.get(c,[]) ]}")
         print(f"  student: {[ (n,r) for n,r,_ in S.get(c,[]) ]}")
-        print(f"  workbook activities: {[ (n,nm,lo,hi) for n,nm,lo,hi in W.get(c,{}).get('activities',[]) ]}")
+        print(f"  workbook activities: {[ (a[0],a[1],a[2],a[4]) for a in W.get(c,{}).get('activities',[]) ]}")
 
         # CHECK 1 — DI coverage: student deck must cover every DI segment the workbook keys to
         if w_di and s_di < w_di:
@@ -147,11 +160,29 @@ def audit(teacher, student, workbook):
         if t_di and s_di and s_di != t_di:
             flags.append(("MAJOR", c, f"Teacher deck teaches {t_di} DI segments but the student deck has {s_di} — "
                           f"student review deck does not 100% cover what was taught."))
-        # CHECK 2 — every workbook ▶ Deck ref resolves within the student deck
-        for n, nm, lo, hi in W.get(c, {}).get("activities", []):
-            if lo and (lo > student_slidecount or (hi and hi > student_slidecount)):
-                flags.append(("BLOCKER", c, f"Activity {n} ({nm}) points to ▶ Deck slide {lo}"
-                              f"{'–'+str(hi) if hi and hi!=lo else ''} but the student deck has only {student_slidecount} slides."))
+        # CHECK 2 — every workbook ▶ Deck ref resolves to the RIGHT slide (not just an existing one)
+        roles_here = {r for _, r, _ in S.get(c, [])} | {r for _, r, _ in T.get(c, [])}
+        for n, nm, lo, hi, role_ref in W.get(c, {}).get("activities", []):
+            if lo is not None:
+                # absolute slide numbers go stale on any deck re-key — this is the class of bug
+                # that shipped once. Require role-based '▶ Deck · <Role>' refs instead.
+                flags.append(("MAJOR", c, f"Activity {n} ({nm}) uses a hard slide number (▶ Deck slide "
+                              f"{lo}{'–'+str(hi) if hi and hi!=lo else ''}) — these go stale on a deck re-key. "
+                              f"Use a role-based '▶ Deck · <Role>' reference."))
+                if lo > student_slidecount or (hi and hi > student_slidecount):
+                    flags.append(("BLOCKER", c, f"Activity {n} ({nm}) points to ▶ Deck slide {lo}"
+                                  f"{'–'+str(hi) if hi and hi!=lo else ''} but the student deck has only {student_slidecount} slides."))
+            elif role_ref is not None:
+                accept = ROLE_REF_MAP.get(role_ref)
+                if accept is None:
+                    flags.append(("MINOR", c, f"Activity {n} ({nm}) role ref '▶ Deck · {role_ref}' "
+                                  f"is not a known role — cannot verify it resolves."))
+                elif not (accept & roles_here):
+                    flags.append(("BLOCKER", c, f"Activity {n} ({nm}) points to '▶ Deck · {role_ref}' "
+                                  f"but no slide with that role exists in {c}'s deck block."))
+            else:
+                flags.append(("MAJOR", c, f"Activity {n} ({nm}) has no ▶ Deck reference — the student "
+                              f"can't tell which slide this activity comes from."))
         # CHECK 3 — vocab-before-content order (student deck): vocab should not trail all content
         roles = [r for _, r, _ in S.get(c, [])]
         if "KEY VOCABULARY" in roles and "DIRECT INSTRUCTION" in roles:
@@ -159,7 +190,7 @@ def audit(teacher, student, workbook):
                 flags.append(("MAJOR", c, "Student deck presents KEY VOCABULARY *after* DIRECT INSTRUCTION, "
                               "but the workbook does Vocabulary as Activity 1–2 (before Cornell notes) — sequence mismatch."))
         # CHECK 4 — orphan write cues (student deck cue with no matching workbook activity name)
-        wb_names = " ".join(nm.lower() for _, nm, _, _ in W.get(c, {}).get("activities", []))
+        wb_names = " ".join(a[1].lower() for a in W.get(c, {}).get("activities", []))
         for n, r, cue in S.get(c, []):
             if cue:
                 key = cue.split("(")[0].strip().lower().split("&")[0].strip()
