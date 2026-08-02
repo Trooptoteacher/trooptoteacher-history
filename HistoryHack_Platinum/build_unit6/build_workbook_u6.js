@@ -43,7 +43,71 @@ function coverHero(rec,{maxW=380,maxH=290}={}){
   out.push(P(R('Source: '+rec.cred,{s:18,c:GREY}),{align:AlignmentType.CENTER,spacing:{after:110}}));
   return out;
 }
-const STUDENT_SUPPORTS=process.env.STUDENT_SUPPORTS==='1'; // Cornell support backs in the student book? default NO (they live in the teacher toolkit)
+const STUDENT_SUPPORTS=process.env.STUDENT_SUPPORTS==='1'; // legacy Cornell-only support backs; superseded by per-activity supportsBack() below
+// ── Per-activity UDL 3.0 / MTSS supports on the VERSO. Default INCLUDED (skill:
+// history-hack-workbook-print-bundle §1 Duplex Law); SUPPORTS=0 → single-sided
+// (activity only). Four-rung ladder: frames → cloze+word bank → how-to+model →
+// try-it + self-check. Supports add ways IN; never lower the bar or replace IEP/504.
+const SUPPORTS=process.env.SUPPORTS!=='0';
+const ACT_NAMES={1:'Vocabulary Word Bank',2:'Vocabulary Studio',3:'Cornell Notes',4:'Close Read',5:'Primary Source (HIPPO)',6:'Practice Quiz',7:'Constructed Response (CER)'};
+function supportsBack(n,code,s,a){
+  if(!SUPPORTS) return [];
+  const V=s.vocab||[]; const t0=V[0]||{term:s.title,def:''}; const t1=V[1]||t0;
+  const topic=(s.title||code).split(':')[0];
+  const RUNG=(k,label,lines)=>callout(`RUNG ${k} · ${label}`,lines);
+  const out=[H(`Supports · Activity ${n} — ${ACT_NAMES[n]} — ${code}`,3,{brk:true})];
+  out.push(P(R('Optional — supports the activity on the front (UDL 3.0 · MTSS). Print duplex to include. More ways in; the bar stays the same. Not a replacement for an IEP/504.',{s:19,i:true,c:GREY}),{spacing:{after:70}}));
+  if(n===1){
+    out.push(RUNG(1,'Frame',['This term, ______, means ______ in my own words. I know because ______.']));
+    out.push(RUNG(2,'Cloze + word bank',['Word bank: '+V.map(v=>v.term).join(' · '),`Fill in: ${t0.term} is ${'_'.repeat(22)}.   ${t1.term} is ${'_'.repeat(22)}.`]));
+    out.push(RUNG(3,'How-to + worked model',['Learn a term in 4 moves — SAY it · DEFINE it in your own words · USE it in a sentence · PICTURE it.',`Model — ${t0.term}: “${t0.def}”  →  In my words: ______.`]));
+    out.push(RUNG(4,'Try it + self-check',['Use 2 terms in your own sentences about this standard:']));
+    out.push(...ruled(4));
+    out.push(callout('Self-check',['☐ I can say each term   ☐ I can define it   ☐ I can use it in a sentence']));
+  } else if(n===2){
+    out.push(RUNG(1,'Frame',['Definition: ______.   One characteristic: ______.   Example: ______.   Non-example: ______.']));
+    out.push(RUNG(2,'Cloze model (build on this)',[`${t0.term} means ${t0.def}`,'One example is ______.   One non-example is ______ because ______.']));
+    out.push(RUNG(3,'How-to + worked model',['Build a Frayer: (1) define in your words, (2) list traits, (3) give a real example, (4) give a non-example and say why.',`Worked — ${t0.term}: example → ______ ; non-example → ______.`]));
+    out.push(RUNG(4,'Try it + self-check',[`Quick Frayer for “${t1.term}”:`]));
+    out.push(writeTable(['Definition (your words)','One example','One non-example'],[['','','']],[3216,3216,3216],{lines:2}));
+    out.push(callout('Self-check',['☐ My example fits   ☐ My non-example shows the boundary   ☐ I can use the term']));
+  } else if(n===3){
+    out.push(RUNG(1,'Frame',['Cue: ______  →  Note: The key idea is ______, shown by ______.']));
+    out.push(RUNG(2,'Cloze note',[`A key idea of ${topic.toLowerCase()} is ${t0.term}: ${t0.def} This matters because ______.`]));
+    out.push(RUNG(3,'How-to + worked model',['Cornell notes: write the CUE (question) on the left, the NOTE (answer + evidence) on the right, then a 2–3 sentence summary.','Worked cue → note:  “Who benefited?” → ______ benefited because ______.']));
+    out.push(RUNG(4,'Rehearse + transfer',['Rehearse one cue→note here, then copy your best line onto the front notes:']));
+    out.push(writeTable(['Cue','Rehearse the note here'],[['',''],['','']],[2600,7048],{lines:2}));
+    out.push(callout('Self-check',['☐ My note answers the cue   ☐ I gave evidence   ☐ I can summarize in 2–3 sentences']));
+  } else if(n===4){
+    const chunk=((s.close_sections&&s.close_sections[0])||['',''])[0]||topic;
+    out.push(RUNG(1,'Frame',['The text says “______” (evidence).   This shows ______ (my answer).']));
+    out.push(RUNG(2,'Cloze + word gloss',[`Gist of “${chunk}”: it is mainly about ______.`,'Glossary help: '+V.slice(0,2).map(v=>`${v.term} = ${v.def}`).join('   ')]));
+    out.push(RUNG(3,'How-to + worked model',['Find evidence: (1) read the question, (2) find the sentence that answers it, (3) quote it, (4) say what it shows.','Worked — Q: main idea? → Evidence: “______.” → Shows: ______.']));
+    out.push(RUNG(4,'Try it + self-check',[(a.tdq&&a.tdq[0])?('Answer on the lines: '+a.tdq[0]):'Answer one text-dependent question on the lines:']));
+    out.push(...ruled(4));
+    out.push(callout('Self-check',['☐ I quoted real evidence   ☐ I said what it shows   ☐ I answered the question asked']));
+  } else if(n===5){
+    out.push(RUNG(1,'Frame (HIPPO)',['H: When it was made, ______ was happening.   I: It was meant for ______.   P: It was made to ______.   P: It reflects the view of ______.   O: It connects to this standard by ______.']));
+    out.push(RUNG(2,'Cloze',['This source was created during ______, meant for ______, in order to ______.']));
+    out.push(RUNG(3,'How-to + worked model',['Analyze a source: ask who made it, when, for whom, and why — then what it reveals.','Worked — Purpose: the creator wanted ______, which tells us ______.']));
+    out.push(RUNG(4,'Try it + self-check',['Complete two HIPPO parts on the lines (your choice):']));
+    out.push(...ruled(4));
+    out.push(callout('Self-check',['☐ I named context   ☐ I named purpose or point of view   ☐ I connected it to the standard']));
+  } else if(n===6){
+    out.push(RUNG(1,'Frame',['I can rule out ______ because ______.   My best answer is ______ because ______.']));
+    out.push(RUNG(2,'Strategy checklist',['☐ Read the whole question   ☐ Predict before you look   ☐ Cross out two wrong choices   ☐ Pick the best answer, not just a true one']));
+    out.push(RUNG(3,'How-to + worked model',['Attack an item: cover the choices, predict, then eliminate — two choices are usually clearly wrong.','Worked — rule out the off-topic choice and the too-extreme choice, then decide between the last two using the stem.']));
+    out.push(RUNG(4,'Reteach + self-check',['Missed one? Reread your Cornell notes for: '+V.map(v=>v.term).slice(0,3).join(' · '),'Confidence now (1–4): ____   One thing to revisit: ____________________']));
+  } else if(n===7){
+    out.push(RUNG(1,'Frame (CER)',['Claim: I believe ______.   Evidence: For example, ______.   Reasoning: This proves my claim because ______.']));
+    out.push(RUNG(2,'Cloze paragraph',['______ (claim). One piece of evidence is ______. This matters because ______, which shows ______.']));
+    out.push(RUNG(3,'How-to + model',['Write a CER: state a claim, give two pieces of evidence, explain how each proves the claim.','Model — Claim: ______. Evidence 1: ______. Reasoning: because ______.']));
+    out.push(RUNG(4,'Draft it + self-check',['Draft your CER on the lines, then check it:']));
+    out.push(...ruled(5));
+    out.push(callout('Self-check',['☐ Clear claim   ☐ Two pieces of evidence   ☐ Reasoning links evidence to claim']));
+  }
+  return out;
+}
 
 // ---- exact tokens ----
 const NAVY='1B2A4A', RED='B22234', GOLD='C89B3C', INK='1A1A1A', CREAM='F7F5EF', WHITE='FFFFFF', GREY='4B5563', BORD='D9D5C8';
@@ -283,6 +347,7 @@ function block(code){
      : 'Use the Spanish column in the Word Bank above to access these terms — cognates and translations support understanding, not translation of assessment.']));}
   {const _wl=s.vocab.reduce((a,v)=>a+Math.max(1,Math.ceil((v.def||'').length/52)),0);
    out.push(...vocabSelfCheck(code,Math.max(0,Math.min(4,23-_wl))));}
+  if(SUPPORTS) out.push(...supportsBack(1,code,s,a));
   // Activity 2 — Frayer
   out.push(H(`Activity 2 — Vocabulary Studio (Frayer-inspired) — ${code}`,2,{brk:true,mins:7,deck:deckRef(code,2,'Key Vocabulary')}));
   out.push(callout('RESPONSE CHOICE',['Complete each studio by writing, speaking, or diagramming.']));
@@ -296,6 +361,7 @@ function block(code){
   out.push(gap(140));
   out.push(callout('CONNECT THE TERMS (UDL · build understanding)',['How do these priority terms fit together? Write or sketch how one leads to or affects another.']));
   out.push(...ruled(2));
+  if(SUPPORTS) out.push(...supportsBack(2,code,s,a));
   // Activity 3 — Cornell Notes — FRONT (note-taking; the whole page is writing space)
   out.push(H(`Activity 3 — Direct Teaching Cornell Notes — ${code}`,2,{brk:true,mins:20,deck:deckRef(code,3,'Direct Instruction')}));
   out.push(P(R('Name: ______________________    Class / Period: __________    Date: __________',{s:21})));
@@ -349,6 +415,7 @@ function block(code){
   out.push(callout('LIGHT PROCESSING LAB',['Answer one guiding question from above in a full sentence, in your own words.']));
   out.push(...ruled(8));
   } // end STUDENT_SUPPORTS
+  if(SUPPORTS) out.push(...supportsBack(3,code,s,a));
   // Activity 4 — Close Read
   out.push(H(`Activity 4 — Close Read — ${code}`,2,{brk:true,mins:18,deck:deckRef(code,4,'Direct Instruction')}));
   out.push(P(R('Reading type: History Hack-authored instructional synthesis. This is not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).',{s:20,i:true,c:GREY})));
@@ -376,6 +443,7 @@ function block(code){
   // page. Do NOT append a trailing retrieval/connect box here — it overflows a
   // few lines onto a near-empty next page. Geographic work and spaced retrieval
   // each get their own full page below instead.
+  if(SUPPORTS) out.push(...supportsBack(4,code,s,a));
   const gmap=(IMG[code]||{}).map;
   // Geographer's Lens — its own page (map image where one exists, else a
   // grounded map-sketch task). Fills a full page AND adds the geographic lens.
@@ -436,6 +504,7 @@ function block(code){
   out.push(callout('SUPPORT OPTION',['Sentence frame: This source shows ______ because it ______, which reveals ______.']));
   if(im.anchor) out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________']));
   else out.push(...sourceExtension(code));
+  if(SUPPORTS) out.push(...supportsBack(5,code,s,a));
   // Activity 6 — Practice Quiz
   out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8,deck:deckRef(code,6,'Progress Check')}));
   out.push(callout('SELF-GRADING — answer first, then check yourself',['Commit to each answer (mark it, say it, or explain it aloud) BEFORE you look. The answer key is at the bottom of this page — grade yourself, then reread the Cornell notes for anything you missed.']));
@@ -456,6 +525,7 @@ function block(code){
   // Self-grading answer key at the BOTTOM of the activity (print-bundle standard).
   out.push(P(R('— — — — —  cover this until you have answered every question  — — — — —',{s:18,c:GREY}),{align:AlignmentType.CENTER,spacing:{before:140,after:20}}));
   out.push(callout('ANSWER KEY — grade yourself',['Answers: '+_ans.join('    ')+'.']));
+  if(SUPPORTS) out.push(...supportsBack(6,code,s,a));
   // Activity 7 — CER
   out.push(H(`Activity 7 — Constructed Response (CER) — ${code}`,2,{brk:true,mins:18,deck:deckRef(code,7,'Constructed Response')}));
   // Compact big-question organizer (single combined callout — keeps the CER +
@@ -478,6 +548,7 @@ function block(code){
     P([R('Show what you know (your choice): ',{s:20,b:true,c:NAVY}),R('mark the best answer, say it, or explain it — then rate how sure you are:  ☐ Not yet   ☐ Getting there   ☐ Got it',{s:20})],{spacing:{before:40,after:0}}),
     P(R('Answer key and next steps are in the Teacher Guide.',{s:18,i:true,c:GREY}),{spacing:{before:20,after:0}})
   ],{w:CW,fill:CREAM})]})],[CW]));
+  if(SUPPORTS) out.push(...supportsBack(7,code,s,a));
   return out;
 }
 const standards=[]; ORDER.forEach(c=>block(c).forEach(x=>standards.push(x)));
