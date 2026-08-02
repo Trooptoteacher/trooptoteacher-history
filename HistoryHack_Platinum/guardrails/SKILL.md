@@ -1,5 +1,5 @@
 ---
-name: history-hack-course-standard-builder
+name: history-hack-course-standard-print-legacy
 description: >-
   Builds and formats U.S. History Hack "Course Standard" (Platinum) deliverables for
   TroopToTeacher Technologies so every unit is visually IDENTICAL to the canonical Unit 5
@@ -10,9 +10,16 @@ description: >-
   Unit 5", "rebuild the decks", "the formatting is off / there's too much white space", "the TOC
   is wrong", "add the Cornell notes", "answer key", "de-bias the questions", or any HH curriculum
   document that must match the established format. If the task is authoring brand-new lesson
-  content (not formatting to the Course Standard template), prefer the instructional-design or
-  curriculum-architect skills instead.
+  content (not formatting to the Course Standard template), prefer the
+  instructional-design-specialist skill instead.
 ---
+
+> ⚠️ **SUPERSEDED — historical build infrastructure only.** This file is the old standalone
+> Unit-5 print builder. It is superseded by **`history-hack-platinum-unit-builder`**, which
+> absorbed its print/templating rules and now uses **Unit 6** as the canonical template. This
+> file is retained **only** because its `scripts/` and `references/` are still live build
+> infrastructure — do not invoke it as a skill for new work. For any Course Standard workbook,
+> teacher guide, or deck build, use `history-hack-platinum-unit-builder`.
 
 # History Hack — Course Standard (Platinum) Builder
 

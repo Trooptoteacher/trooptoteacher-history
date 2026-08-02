@@ -10,7 +10,7 @@ to start and what to have ready.
 ---
 
 ## Why a new chat (not this one)
-- **Skills are not session-bound** — every build skill (`history-hack-course-standard-builder`,
+- **Skills are not session-bound** — every build skill (`history-hack-new-course-builder`,
   `tn-assessment-specialist`, `udl-cast-expert`,
   `copyright-integrity-accreditation`, `history-hack-website-builder`, …) is available in **any**
   chat on this repo. A new chat has the same toolbox.

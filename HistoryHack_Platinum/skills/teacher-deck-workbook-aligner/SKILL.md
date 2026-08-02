@@ -10,7 +10,7 @@ description: >-
   Use whenever the user asks to: "build/build out the platinum teacher deck for Unit N",
   "align the deck with the workbook", "make sure the deck and workbook match for direct
   instruction", "tie the Cornell notes to the slides", or "add the lesson-to-workbook map".
-  Pairs with history-hack-course-standard-builder (which builds the workbook + the
+  Pairs with history-hack-platinum-unit-builder (which builds the workbook + the
   vocab/progress UDL layer); this skill adds the teacher↔workbook alignment map on top.
 ---
 
