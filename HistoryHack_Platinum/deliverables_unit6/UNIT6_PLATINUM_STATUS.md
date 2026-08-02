@@ -14,6 +14,7 @@ This is the intended template unit for US.01–US.95._
 | Student Workbook `.docx` | invalid package + truncated word-wall defs | **rebuilt** from fixed source + images (pulled from `history-hack-web-app`) | text-integrity **0/0/0**; valid OOXML |
 | Teacher + Student Deck `.pptx` | 16 truncated vocab defs / answer-key rationales (8 were text-integrity BLOCKERS) | each completed from the SME source (extend-only, verified `startswith`) — patched in place (no deck build script exists to rebuild) | text-integrity **0** blockers; both decks valid, slide counts intact (258 / 113) |
 | Student Workbook alignment | 98 activities had **no** `▶ Deck` reference | added `▶ Deck · <Role>` to all 7 activities/standard in `build_workbook_u6.js` | lesson-flow majors **126 → 28** |
+| Student Deck vocab order | KEY VOCABULARY came **after** DIRECT INSTRUCTION (all 14 std) | moved KEY VOCABULARY before the first DI slide in every block via safe `sldIdLst` reorder (no `add_slide`); slides intact (113) | lesson-flow majors **28 → 14** (⚠ render-verify on the build box) |
 
 ## Remaining Platinum gaps — need the LibreOffice/render build box
 
@@ -25,13 +26,16 @@ These could not be completed in the remote web session and are handed off:
    works. The stale PDFs for the changed masters were removed so nothing mismatched ships.
 2. **Deck render QC (mandatory Gate 3).** 129 overflow *leads* (assertion headlines vs. box height)
    are render-confirm only — rasterize each deck and read every slide.
-3. **Student-deck structural alignment (28 lesson-flow majors, all 14 standards).**
-   - Student deck presents **KEY VOCABULARY after DIRECT INSTRUCTION**; Platinum rule is vocab-first.
-   - Teacher deck teaches **more DI segments than the student deck** (student review deck should cover
-     100% of what was taught). Both require reordering/adding student-deck slides + a render pass —
-     ideally via a reproducible deck build script (none exists in `build_unit6/` yet; Unit 10 has a
-     `deck_merge_teacher.py` to model). Establishing that script is also step 1 of making Unit 6 a
-     true, reproducible template.
+3. **Student-deck DI-segment parity (14 lesson-flow majors, all 14 standards).**
+   The vocab-order half is **fixed** (reorder above). Remaining: the teacher deck teaches **more DI
+   segments than the student deck** (student review deck should cover 100% of what was taught).
+   Resolve by adding the missing student-deck DI review slides — do this via a **reproducible deck
+   build script** (none exists in `build_unit6/` yet; Unit 10 has a `deck_merge_teacher.py` to model),
+   not by hand. Establishing that script is also step 1 of making Unit 6 a true, reproducible template.
+
+**One-command close-out:** run `bash HistoryHack_Platinum/build_unit6/finish_unit6.sh` from the repo
+root on a LibreOffice box — it exports every PDF, rasterizes both decks for the mandatory overflow
+read, re-runs the text gates, and prints the manual checklist.
 4. **Brand palette.** Workbook/cover scripts still use legacy navy `#1B2A4A` / gold `#C89B3C`
    (retired). Migrate to America 250 (`#1F3A5F` / `#C9A227`, cream `#F8F5EF`) across all unit scripts
    as one coherent change before templatizing.
