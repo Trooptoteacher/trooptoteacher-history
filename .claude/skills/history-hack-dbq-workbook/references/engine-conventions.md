@@ -4,10 +4,12 @@ The Platinum DBQ workbook is built with a single ReportLab script (`build_workbo
 
 > **Print-first note (BUILD_STANDARD §4).** ReportLab generates the PDF **directly** and controls page
 > breaks/headers/footers/page numbers precisely — this is **not** the banned HTML→PDF path, so DBQ
-> pagination is reliable. The one gap vs. the platform's DOCX-native rule: this engine emits **PDF only**,
-> so teachers don't get an editable Word original of the DBQ. That's acceptable for the DBQ as a fixed
-> print SKU; where an editable teacher copy is wanted, produce a docx-native companion (do **not** switch
-> to an HTML→PDF path). Unit (Course Standard) workbooks remain DOCX-native → PDF.
+> pagination is reliable. Teachers receive the PDF (print artifact) either way. The gap vs. the
+> platform's DOCX-native rule is about the **author's archive**: this engine emits **PDF only**, so the
+> editable master for future edits is the **build script + content data** (edit-and-regenerate), not a
+> directly-editable `.docx`. If a Word master is wanted in the archive so the DBQ can be hand-edited
+> later like the unit workbooks, produce a docx-native version (do **not** switch to an HTML→PDF path).
+> Unit (Course Standard) workbooks remain DOCX-native → PDF, giving a directly-editable `.docx` master.
 
 ## Palette (LOCKED)
 ```

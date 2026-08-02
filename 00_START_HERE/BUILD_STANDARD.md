@@ -55,9 +55,10 @@ answer keys, organizers — **any paginated document deliverable**:
 
 - **Author natively in `.docx`** (the docx engine / `engine.js` / `python-docx` — e.g.
   `build_guided_notes.py`, `build_teacher_guide.py`), then **convert to PDF with LibreOffice**
-  (`HOME=/root/lohome soffice --headless --convert-to pdf FILE`). The **editable Word original is
-  authoritative; the PDF is a faithful convert of it.** Teachers get BOTH — an editable `.docx` and a
-  print-accurate PDF.
+  (`HOME=/root/lohome soffice --headless --convert-to pdf FILE`). The **editable `.docx` is the
+  author's archive / master — TroopToTeacher's source of truth, kept so the document can be edited
+  and re-issued in the future.** The **PDF is the distribution artifact: what teachers receive and
+  print.** The PDF is a faithful convert of the `.docx`; teachers do not edit the Word master.
 - **Never generate the document as HTML and render it to PDF.** No wkhtmltopdf / headless-Chrome /
   print-to-PDF-from-HTML path for documents. If you catch yourself writing HTML for a printable
   document, stop and use the docx engine.
