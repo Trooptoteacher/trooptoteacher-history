@@ -83,6 +83,22 @@ references/white-space-activity-library.md`.
 - **Gate:** `history-hack-text-integrity-qc` → **0 BLOCKER** (no truncated / clipped / placeholder
   text; render-confirm every MAJOR overflow/elision lead).
 
+### 4a. Slide decks — .pptx-native → PDF (LOCKED)
+
+Same principle as documents, for decks. Owners: `history-hack-tcap-deck-builder` (teacher),
+`history-hack-lean-deck-builder` (student); geometry: `SLIDE_DECK_PLATINUM_STANDARD.md`.
+- **Generate `.pptx` natively via pptxgenjs**, then convert to PDF via LibreOffice. **Never HTML or
+  markdown → slides.**
+- **Set `pres.layout` BEFORE adding any slides** (16:9, `13.333"×7.5"`) — it can't be changed once
+  slides exist.
+- **Required QA gates, in order:** (1) **markitdown** content dump (`python -m markitdown deck.pptx` —
+  count/order/names, no placeholder/truncated text); (2) **`validate.py`** file check (the `pptx`
+  skill's `scripts/office/validate.py` + a python-pptx load→save round-trip dup check); (3) **render
+  to images and visually inspect EVERY slide for overflow/clipping**.
+- **Gate 3 is MANDATORY — clipped/overflowing text passes gates 1 and 2 silently** (markitdown reads
+  the text that exists; validate.py checks the package, not the layout). Pixels are authoritative.
+- Duplicate slides only with the `pptx` skill's `add_slide.py` — **never** python-pptx `add_slide`.
+
 ## 5. UDL 3.0 / MTSS / CAST framework
 
 Owner: `udl-cast-expert`. Authoritative detail: `STUDENT_WORKBOOK_PLATINUM_STANDARD.md` §7.9.

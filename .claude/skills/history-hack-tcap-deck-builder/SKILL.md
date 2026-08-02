@@ -131,13 +131,22 @@ These four rules cut wasted spend without lowering quality. They amend GATE 0A a
 
 ## QC (required — do not skip)
 
-Follow the `office/pptx` skill QC discipline:
-1. **Content QC:** `python -m markitdown deck.pptx` — verify slide count, no placeholder/lorem text, no truncation, correct order, names consistent with `tnStandard`.
-2. **Visual QC via subagent (fresh eyes) — FIRST pass only:** `soffice --headless --convert-to pdf deck.pptx` then `pdftoppm -jpeg -r 150 deck.pdf slide`; send slide images to a `run_subagent` visual reviewer. Subagent slide N = PDF page N = `slide-NN.jpg`. **Use a cheaper/faster model for this routine defect-spotting pass** (visual defect-spotting does not need top-tier reasoning) — reserve the premium model only for the final gate.
-3. **Targeted fix-and-verify cycle (credit-saver):** fix every issue, then **re-QC ONLY the slides that actually changed** — render just the changed slides and self-inspect them (or hand only those slide images to the reviewer). **Do NOT re-review all N slides after a rebuild.** Image fixes are almost always confined to a handful of slides; a full second visual QC pass across the whole deck is wasteful. Do the full-deck pass exactly once (step 2); every subsequent cycle is changed-slides-only.
-4. **Final gate:** once no defects remain, a single premium-model confirmation of the changed slides is sufficient. Do not run repeated full-deck passes.
-5. **Imagery audit:** every image is public-domain, captioned on-slide, correctly depicts its subject, and the primary-source image matches the standard (no duplicates across slides; null over mismatch). Most of this is already satisfied by GATE 0A above.
-6. **Answer-key PDF QC:** read every page; confirm no overlap/cutoff and that source links render as clickable hyperlinks (not raw `[text](url)`).
+**Build invariant:** the deck is generated **natively as `.pptx` via pptxgenjs**, never from HTML or
+markdown; set **`pres.layout` BEFORE adding any slides** (16:9 `13.333"×7.5"`) — it can't change once
+slides exist. Then convert to PDF via LibreOffice.
+
+**LOCKED QA gates, in order** (`00_START_HERE/BUILD_STANDARD.md` §4a): (1) markitdown content dump →
+(2) `validate.py` file check → (3) render to images and visually inspect **every** slide for
+overflow/clipping. **Gate 3 is MANDATORY — clipped/overflowing text passes gates 1 and 2 silently**
+(markitdown reads the text that exists; validate.py checks the package, not the layout). Detail below:
+
+1. **Content QC (gate 1):** `python -m markitdown deck.pptx` — verify slide count, no placeholder/lorem text, no truncation, correct order, names consistent with `tnStandard`.
+2. **File-integrity QC (gate 2):** run the `pptx` skill's `scripts/office/validate.py` on the deck (package integrity — no orphan/duplicate parts) **and** a python-pptx load→save round-trip, confirming the zip has no duplicate entries. Duplicate slides only with the `pptx` skill's `add_slide.py` — never python-pptx `add_slide`.
+3. **Visual QC (gate 3 — MANDATORY) via subagent (fresh eyes) — FIRST pass only:** `soffice --headless --convert-to pdf deck.pptx` then `pdftoppm -jpeg -r 150 deck.pdf slide`; send slide images to a `run_subagent` visual reviewer and read **every** slide for overflow/clipping. Subagent slide N = PDF page N = `slide-NN.jpg`. **Use a cheaper/faster model for this routine defect-spotting pass** (visual defect-spotting does not need top-tier reasoning) — reserve the premium model only for the final gate.
+4. **Targeted fix-and-verify cycle (credit-saver):** fix every issue, then **re-QC ONLY the slides that actually changed** — render just the changed slides and self-inspect them (or hand only those slide images to the reviewer). **Do NOT re-review all N slides after a rebuild.** Image fixes are almost always confined to a handful of slides; a full second visual QC pass across the whole deck is wasteful. Do the full-deck pass exactly once (gate 3); every subsequent cycle is changed-slides-only.
+5. **Final gate:** once no defects remain, a single premium-model confirmation of the changed slides is sufficient. Do not run repeated full-deck passes.
+6. **Imagery audit:** every image is public-domain, captioned on-slide, correctly depicts its subject, and the primary-source image matches the standard (no duplicates across slides; null over mismatch). Most of this is already satisfied by GATE 0A above.
+7. **Answer-key PDF QC:** read every page; confirm no overlap/cutoff and that source links render as clickable hyperlinks (not raw `[text](url)`).
 
 ### Lean deck QC (derived deck — do NOT full-QC)
 

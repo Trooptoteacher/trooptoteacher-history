@@ -7,6 +7,17 @@
 
 ---
 
+## Production rule (LOCKED — see `BUILD_STANDARD.md` §4a)
+
+Decks are generated **natively as `.pptx` via pptxgenjs**, then converted to PDF via LibreOffice —
+**never HTML or markdown → slides.** Set **`pres.layout` BEFORE adding any slides** (16:9,
+`13.333"×7.5"`). Required QA gates, in order: (1) **markitdown** content dump → (2) **`validate.py`**
+file check → (3) **render to images and visually inspect every slide** for overflow/clipping. **Gate 3
+is MANDATORY — clipped text passes gates 1 and 2 silently.** Owners: `history-hack-tcap-deck-builder`
+(teacher), `history-hack-lean-deck-builder` (student).
+
+---
+
 ## 0. How this document works (same loop as the workbook standard)
 
 This is the control document for how every U.S. History Hack **teacher/student slide deck** is built. You edit it in plain language; I encode every rule into the deck engine (`build_student.py` / the deck templates) and the web deck viewer. **This file wins** when it and the code disagree.
