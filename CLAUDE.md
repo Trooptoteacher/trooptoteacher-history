@@ -20,6 +20,16 @@ error ships. Report honestly — done, held, and every gap.
 
 Full doctrine: `00_START_HERE/ADOPTION_STANDARD.md` · invoke the `history-hack-platinum-standard` skill.
 
+## Product model (print-first; the web platform amplifies)
+
+The product is **print-first**: the student workbook is the spine, and technology enters the flow
+**only when it enhances** — justified on the SAMR ladder, **within the workbook flow**. The web
+platform's value is five pieces paper can't do — **parallel test-data analytics · real-time standard
+mastery · reteaching · lesson-plan builder · gamification + read-aloud** — and the lesson hands off
+**workbook ⇄ app** several times (e.g., write a CER on paper → self-grade on the rubric → input to
+the app for real-time feedback → revise). The page must stand alone; the app raises the ceiling,
+never lowers the floor. Full doctrine: `00_START_HERE/PRODUCT_MODEL_DOCTRINE.md`.
+
 ## Canonical set (one job, one owner)
 
 `.claude/skills/` is **main-owned and read-only on work branches.** Skills change only via a
