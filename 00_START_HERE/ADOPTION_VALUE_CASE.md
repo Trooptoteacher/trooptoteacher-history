@@ -103,27 +103,33 @@ the current value against the cited source before quoting externally.
 | **TEAM rubric (Tennessee Educator Acceleration Model)** | Generated lesson plans align to what teachers are evaluated on | Lesson-plan builder |
 
 ### E. Assessment & psychometrics — the measurement backbone
-This is the engine under "parallel analytics," "real-time mastery," and "reteaching," and it is
-**commercial-grade measurement science embedded at the item level** — not a quiz feature bolted on.
+The engine under "parallel analytics," "real-time mastery," and "reteaching." **Verified in the
+web-app repo** (`public/data/us-history/questions/unit-*/dok-*.json`): a **5,041-item bank** with
+commercial-grade item metadata, a real 3PL IRT model, and a privacy-compliant calibration pipeline.
 
-| Capability | What's embedded | Why it matters |
+| Capability | What's embedded (verified) | State today |
 |---|---|---|
-| **~5,000-item calibrated bank** | High-quality items + answers/rationales, each mapped to a standard (US.01–US.95) + **DOK**, spanning the full blueprint | Full standards **coverage** with depth, not spot checks |
-| **Item Response Theory (IRT)** | Item parameters — difficulty (b), discrimination (a), (guessing c where used); student **ability (θ)** estimates | Scores mean the same thing across forms; enables adaptivity and equating |
-| **Classical item stats** | p-value, point-biserial, reliability (KR-20 / α) | Every item is vetted for quality before it counts |
-| **Fairness / DIF** | Differential-item-functioning screening across subgroups | Bias-checked items — a Schedule F and equity requirement |
-| **Immediate remediation identification** | Per-standard mastery thresholds → auto-flag the standards a student hasn't mastered → route to reteach + spaced repetition | The data doesn't just report a gap; it **triggers the fix** |
-| **Multi-level mastery rollup** | The same standard-level mastery, aggregated at **district · PLC · teacher · student** | Every level gets immediate, comparable feedback and remediation targets |
+| **5,041-item bank** | Full US.01–US.95 coverage; **DOK 1–3 + rationale**, Bloom's, C3 dimension, reporting category, **distractor misconceptions + rationales**, scaffolds, **Tier 2 / Tier 3 entry points**, and full **EN/ES bilingual** stems/explanations | Built |
+| **IRT 3PL model** | Every item carries `irtParameters` — **a** (discrimination), **b** (difficulty), **c** (guessing) — plus `calibrationStatus` and `irtParametersSource` | **Pre-field-test** (seeded from DOK + categorical difficulty); ~188 items pre-calibration re-estimated in QC. **Not yet empirically field-calibrated** |
+| **Calibration pipeline** | `deidentify.py` → `01_prepare_response_matrix.py` → `02_calibrate_irt.R` → `03_update_question_bank.py`; FERPA / COPPA / TN §49-1-708 de-identification (HMAC-SHA256, PII-stripped, DPA), item-level params only | **Ready to run** the moment de-identified response data is available |
+| **Standards coverage QC (crosswalk)** | Completed, in the content repo: `05_STANDARDS_ALIGNMENT/standards-matrix.html` (SSP + content matrix, coverage-confirmation summary) + `eoc-validation.html` + `scope-sequence.html` | Done |
+| **Immediate remediation + multi-level mastery** | Per-standard mastery → auto-flag gaps → route to reteach / spaced repetition; rolled up at **district · PLC · teacher · student** | Design present; sharpens as parameters field-calibrate |
 
-**Headline:** a **5,000-question bank with full IRT/psychometrics** gives Tennessee something most
-adopted programs cannot: **measurement you can defend**, standard-by-standard, from the individual
-student all the way up to the district — with remediation identified the moment a gap appears.
+**Honest headline (and it's a strength, not a hedge):** the **5,041-item bank is real and fully
+IRT-parameterized (3PL) today**, with parameters currently **seeded pre-field-test** and a
+privacy-compliant pipeline that **empirically re-calibrates them as student response data accrues.**
+You don't get true field parameters until students respond — so a bank that is parameterized now and
+calibrates on real data is exactly what defensible measurement looks like. Fairness/DIF screening and
+form-equating are part of that calibration step (they require response data), not claimed as complete
+today. This gives Tennessee measurement it can **defend and improve**, standard-by-standard, student
+to district.
 
 ## 4. What the platform does that print can't — value *and* safety
 
 The five platform pieces are digital-only amplifiers of proven strategies (each clears the Gate):
-1. **Parallel test-data analytics** — comparable, cross-section data print can't produce; **IRT-equated
-   forms** make scores mean the same thing across classes, schools, and administrations.
+1. **Parallel test-data analytics** — comparable, cross-section data print can't produce; the 3PL IRT
+   parameterization is **equating-ready**, so scores become comparable across classes, schools, and
+   administrations once field-calibrated.
 2. **Real-time standard mastery** — live per-student, per-standard (US.01–US.95) from IRT ability
    estimates, rolled up at **district · PLC · teacher · student**; feedback + formative.
 3. **Reteaching** — remediation **auto-identified** the moment a per-standard gap appears, then routed

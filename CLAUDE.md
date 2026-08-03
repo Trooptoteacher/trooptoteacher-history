@@ -28,9 +28,9 @@ with a research effect size ≥ Hattie's hinge d ≈ 0.40 that print physically 
 the workbook flow**. SAMR/TPACK describe the *kind* of integration; they are not the value bar. The web
 platform's value is five pieces paper can't do — **parallel test-data analytics · real-time standard
 mastery · reteaching · lesson-plan builder · gamification + read-aloud** — powered by a
-**~5,000-item IRT-calibrated bank** (full psychometrics: item difficulty/discrimination, DIF fairness,
-US.01–US.95 + DOK coverage) with mastery + auto-remediation rolled up at **district · PLC · teacher ·
-student**. The lesson hands off **workbook ⇄ app** several times (e.g., write a CER on paper → self-grade on the rubric → input to
+**5,041-item bank fully IRT-parameterized (3PL a/b/c, pre-field-test estimates; FERPA/COPPA-safe
+calibration pipeline that field-calibrates as response data accrues; full US.01–US.95 + DOK
+coverage)** with mastery + auto-remediation rolled up at **district · PLC · teacher · student**. The lesson hands off **workbook ⇄ app** several times (e.g., write a CER on paper → self-grade on the rubric → input to
 the app for real-time feedback → revise). The page must stand alone; the app raises the ceiling,
 never lowers the floor. **Tech-value rule:** all technology must exclusively bring value and prove it
 with evidence — used only if it can't be done in print. **Closed-loop video:** all instructional

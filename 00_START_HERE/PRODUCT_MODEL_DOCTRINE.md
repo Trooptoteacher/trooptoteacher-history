@@ -67,11 +67,12 @@ The web platform is the **amplifier**, not the course. Its value is a small set 
 genuinely cannot do:
 
 1. **Testing platform for parallel test-data analytics** — assessment delivery yielding comparable,
-   cross-section data (item-, standard-, cohort-level), backed by a **~5,000-item IRT-calibrated bank**
-   (item difficulty/discrimination, DIF fairness screening, full US.01–US.95 + DOK coverage).
-   IRT-equated forms make scores comparable across classes and administrations.
-2. **Real-time standard mastery** — live per-student, per-standard mastery (US.01–US.95) from IRT
-   ability estimates, rolled up at **district · PLC · teacher · student** — not an end-of-unit guess.
+   cross-section data (item-, standard-, cohort-level), backed by a **5,041-item bank fully
+   IRT-parameterized (3PL a/b/c)** with **pre-field-test** estimates and full US.01–US.95 + DOK
+   coverage, plus a FERPA/COPPA-compliant calibration pipeline that field-calibrates (and enables
+   equating + DIF) as response data accrues.
+2. **Real-time standard mastery** — live per-student, per-standard mastery (US.01–US.95) from the IRT
+   parameterization, rolled up at **district · PLC · teacher · student** — not an end-of-unit guess.
 3. **Reteaching** — remediation **auto-identified** the moment a per-standard gap appears, routed to
    targeted spiral/adaptive review (spaced practice).
 4. **Lesson-plan builder** — teacher-side planning that assembles a TEAM-aligned, pacing-fit,
