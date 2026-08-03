@@ -36,11 +36,23 @@ Refines the print-first product model (`PRODUCT_MODEL_DOCTRINE.md`) to a hard te
 Operationally, before any digital feature ships into the flow, it must answer all three:
 
 1. **Can this be done in print?** If yes → it stays on paper. The app does not duplicate the page.
-2. **What is the value, and what's the evidence?** Name the functional benefit (real-time feedback,
-   parallel analytics, adaptive reteach, audio access, mastery data) and the research/data behind it.
+2. **Does it clear the Educational-Impact Gate?** (This is the real value proof.) Name the
+   **high-impact instructional strategy** the feature delivers and its **research effect size** at or
+   above Hattie's hinge point (**d ≈ 0.40**, preferably well above), **and** the reason print
+   physically can't deliver that same benefit. Evidence base: **Hattie *Visible Learning*** ·
+   **Rosenshine's Principles of Instruction** · **Marzano** high-yield strategies · **Black & Wiliam**
+   (formative assessment) · **Roediger & Karpicke** (retrieval practice / spaced repetition). Examples:
+   feedback (d ≈ 0.70), formative assessment, retrieval practice / spaced repetition, concept mapping /
+   graphic organizers (Venn, d ≈ 0.60). "It feels engaging" is not evidence; an effect size + a
+   print-can't-do-this reason is.
 3. **Which framework does it serve?** UDL 3.0 access · CER/HIPPO performance · Future-Ready measure —
    or one of the five platform value pieces (analytics · real-time mastery · reteach · lesson-plan
    builder · gamification + read-aloud). No framework, no home → it's a paper question in disguise.
+
+**SAMR + TPACK are descriptors, not the value bar.** SAMR (Substitution→Augmentation→Modification→
+Redefinition) names the *kind* of integration and TPACK confirms tech/pedagogy/content fit — but a
+"Redefinition" feature can still be low-impact, so neither proves value. Use them to describe the
+move; use the Educational-Impact Gate (Q2) to prove it earns a screen.
 
 Supports are provided **where necessary or needed** (UDL 3.0 + MTSS/WIDA) — they add paths for the
 learners who need them and never lower the ceiling for anyone.

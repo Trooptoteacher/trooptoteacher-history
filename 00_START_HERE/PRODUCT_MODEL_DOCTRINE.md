@@ -30,19 +30,36 @@ are necessary or needed — never as decoration._ The three-question test that e
 done in print? · what's the value + evidence? · which framework does it serve?) lives in
 `FRAMEWORKS_CANON.md` §2.
 
-## 2. SAMR is the test for every digital touch — inside the workbook flow
+## 2. Two questions per digital touch — inside the workbook flow
 
-Every place technology enters the lesson must justify itself on the **SAMR** ladder, and it must do
-so **within the workbook flow** — the workbook sequence is the organizing structure; the app
-augments specific moments in it, it does not replace or run alongside a separate "digital course."
+Every place technology enters the lesson answers **two separate questions**, and it must do so
+**within the workbook flow** — the workbook sequence is the organizing structure; the app augments
+specific moments in it, it does not replace or run alongside a separate "digital course."
 
-- **Substitution / Augmentation** — acceptable only when it adds a real functional benefit (instant
-  feedback, audio access, data capture) the page cannot give.
-- **Modification / Redefinition** — this is where the platform earns its place: tasks that are
-  **only possible because** of the technology (real-time mastery, parallel analytics, adaptive
-  reteach). Aim here.
+**Q1 — What *kind* of integration is this? (descriptor, not proof): SAMR + TPACK.**
+SAMR (Puentedura) names the transformation rung — Substitution → Augmentation → Modification →
+Redefinition; TPACK (Mishra & Koehler) confirms the technology, pedagogy, and content actually fit
+at that spot. **This is descriptive only.** SAMR tells us the *shape* of the integration; it does
+**not** prove the feature teaches better. A "Redefinition" feature can still be low-impact. So SAMR
+is never our quality bar — it is context.
 
-Rule of thumb: if you can't name the SAMR rung and the functional benefit, the paper version wins.
+**Q2 — Does it *prove learning impact*? (the actual value bar): the Educational-Impact Gate.**
+This is the bar that matters. A digital function ships only if it clears **both** parts:
+
+1. **Named high-impact strategy + effect size.** The feature must map to a research-validated
+   instructional strategy at or above Hattie's hinge point (**d ≈ 0.40**), and preferably well
+   above — e.g. **feedback** (d ≈ 0.70), **formative assessment / classroom evaluation**,
+   **retrieval practice / spaced repetition** (the testing effect), **concept mapping / graphic
+   organizers** (Venn diagrams, d ≈ 0.60). Sources of truth: **Hattie, *Visible Learning***;
+   **Rosenshine's Principles of Instruction**; **Marzano's high-yield strategies**; **Black &
+   Wiliam** (formative); **Roediger & Karpicke** (retrieval practice).
+2. **Print cannot deliver that same benefit.** The strategy's payoff must depend on something paper
+   physically can't do — real-time feedback, adaptive spacing, parallel analytics, per-student
+   mastery routing, audio access. If print delivers the strategy just as well, it stays on paper.
+
+**Rule of thumb:** if you can't name the high-impact strategy, its effect size, and the reason print
+can't match it, the paper version wins. SAMR/TPACK describe the move; the Educational-Impact Gate
+proves it earns a screen. Full three-question enforcement test: `FRAMEWORKS_CANON.md` §2.
 
 ## 3. What the web platform is for — the value pieces
 

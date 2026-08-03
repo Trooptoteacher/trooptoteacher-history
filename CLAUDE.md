@@ -23,7 +23,9 @@ Full doctrine: `00_START_HERE/ADOPTION_STANDARD.md` · invoke the `history-hack-
 ## Product model (print-first; the web platform amplifies)
 
 The product is **print-first**: the student workbook is the spine, and technology enters the flow
-**only when it enhances** — justified on the SAMR ladder, **within the workbook flow**. The web
+**only when it enhances** — proven on the **Educational-Impact Gate** (a named high-impact strategy
+with a research effect size ≥ Hattie's hinge d ≈ 0.40 that print physically can't deliver), **within
+the workbook flow**. SAMR/TPACK describe the *kind* of integration; they are not the value bar. The web
 platform's value is five pieces paper can't do — **parallel test-data analytics · real-time standard
 mastery · reteaching · lesson-plan builder · gamification + read-aloud** — and the lesson hands off
 **workbook ⇄ app** several times (e.g., write a CER on paper → self-grade on the rubric → input to
