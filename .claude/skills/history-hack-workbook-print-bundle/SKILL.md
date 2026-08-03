@@ -147,13 +147,30 @@ single fixed ≥12 pt size across all standards (not length-adaptive).
   4. **Fill the page with ruled space, not white.** The old white-space gap under the Evidence Lab is
      closed by enlarging the ruled answer area — never left blank.
 - **Activity 5 — Primary Source / Data Analysis.** **Must not bleed to another page.** Cap the source
-  image by height and keep the HIPP/analysis with it so the whole activity fits its page(s).
+  image by height and keep the HIPP/analysis with it so the whole activity fits its page(s). After the
+  analysis, print a **student self-scoring rubric** for the HIPPO work (see the self-score + web-check
+  rule below).
 - **Activity 6 — Core Application: Practice Quiz — SELF-GRADING.** Print the **answer key at the bottom
   of the activity** (small, boxed/inverted "Answers" strip) so students self-check immediately, and
   **add one more question** than the prior build. Items come from the authoritative bank via
   `history-hack-unit-content-build`; this skill only requires the self-check block + the extra item.
 - **Activity 7 — Constructed Response (CER).** Front; supports on verso; claim/evidence/reasoning
   answer space is ruled and generous.
+- **Self-score + web-check on every constructed-response write (CER · HIPPO · final reflection).**
+  Directly under the writing space, print a compact **student self-scoring rubric** — the SAME rubric
+  the teacher and the web app use — as a grid the student marks (level 4–1 per dimension, then totals).
+  Immediately follow it with a **web-app handoff CTA**: "Now check yourself on the History Hack web
+  app — type your response for instant rubric feedback, then compare it to the score you gave
+  yourself; if they don't match, revise and resubmit." This makes the print bundle and the web app one
+  loop: self-assess on paper → instant coached check online. Keep both compact so the page still
+  obeys no-bleed.
+- **All student writing sits on ruled notebook lines, and there is enough of it.** Every prompt that
+  expects a written answer — activities AND back matter (reflections, investigations) — is followed by
+  ruled lines (or a ruled `writeBox`/`writeTable` cell), sized to the response. No naked prompt with no
+  place to write; no single line where a paragraph is expected.
+- **Accessibility floor (print).** Every rendered text run is ≥ 9pt (incl. footer page numbers and
+  rubric cells); every image carries alt text; every writing/rubric table has a header row; body reads
+  in a single logical top-to-bottom order. Verify with the text-integrity QC + a ≥9pt sweep.
 
 ## 5. Print-bundle QC gate (must pass before a workbook ships)
 
@@ -166,6 +183,10 @@ Run after every workbook build; fix any ✗ before release:
 - [ ] **No-bleed:** no activity spills onto an unplanned page; **Activity 5 fits**.
 - [ ] **Activity 4:** key terms at top; generous ruled Evidence-Lab space; breathing room after.
 - [ ] **Activity 6:** answer key printed at the bottom; one extra question vs. prior build.
+- [ ] **Self-score + web-check:** every CER / HIPPO / final-reflection write carries a student
+      self-scoring rubric and the web-app handoff CTA directly beneath it.
+- [ ] **Accessibility:** all text ≥ 9pt (incl. page numbers + rubric cells); images have alt text;
+      writing/rubric tables have header rows; text-integrity QC is 0 blocker.
 - [ ] **Spacing:** clear break between each activity and the next heading (not cramped).
 
 ## 6. How this composes

@@ -147,6 +147,28 @@ function table(rows,widths){return new Table({width:{size:CW,type:WidthType.DXA}
 function callout(label,lines=[]){const kids=[P(R(label,{s:21,b:true,c:NAVY,caps:false}),{spacing:{after:lines.length?60:0}})];
   (Array.isArray(lines)?lines:[lines]).forEach(l=>kids.push(P(typeof l==='string'?R(l,{s:22}):l,{spacing:{after:40}})));
   return table([new TableRow({children:[cell(kids,{w:CW,fill:CREAM})]})],[CW]);}
+// STUDENT SELF-SCORING RUBRIC — the student scores their OWN writing against the
+// same rubric the teacher and the web app use, then takes it to the app to check.
+// dims: [label, level-4, level-3, level-2, level-1]. Text floor s:18 (9pt).
+function selfScore(label,dims){
+  const W=[1748,2000,1800,1800,1500,800];
+  const hdr=['Part','4 · Strong','3 · Proficient','2 · Developing','1 · Beginning','My #'];
+  const rows=[new TableRow({tableHeader:true,children:hdr.map((h,i)=>cell(P(R(h,{s:18,b:true,c:i===0?NAVY:WHITE}),{spacing:{after:0}}),{w:W[i],fill:i===0?CREAM:NAVY}))})];
+  dims.forEach(d=>rows.push(new TableRow({children:[
+    cell(P(R(d[0],{s:18,b:true,c:NAVY}),{spacing:{after:0}}),{w:W[0],fill:CREAM}),
+    ...[1,2,3,4].map(k=>cell(P(R(d[k],{s:18}),{spacing:{after:0}}),{w:W[k]})),
+    cell(P(R('____',{s:22,b:true}),{align:AlignmentType.CENTER,spacing:{after:0}}),{w:W[5]})]})));
+  const max=dims.length*4;
+  return [callout(label,['Score your OWN writing: for each row, mark the level (4–1) that best fits. Be honest — this is how you get better.']),
+    table(rows,W),
+    P([R('Add the rows → My total: ',{s:20,b:true,c:NAVY}),R(`______ / ${max}`,{s:20,b:true}),R('        My overall level (best fit): ______',{s:20,b:true,c:NAVY})],{spacing:{before:30,after:20}})];
+}
+// WEB-APP HANDOFF — encourage the student to check themselves in the History Hack
+// app after self-scoring: instant rubric feedback they compare to their own score.
+function webCheck(what){
+  return callout('✔ NOW CHECK YOURSELF ON THE HISTORY HACK WEB APP',[
+    `Type your ${what} into the app for instant rubric feedback, then compare it to the score you gave yourself. If they don’t match — revise and resubmit.`]);
+}
 // PROMINENT callout — navy fill, gold label, white text. Used for CORE PATH (the firm, universal bar).
 function coreCallout(label,lines=[]){const kids=[P(R(label,{s:23,b:true,c:GOLD}),{spacing:{after:lines.length?70:0}})];
   (Array.isArray(lines)?lines:[lines]).forEach(l=>kids.push(P(typeof l==='string'?R(l,{s:22,c:WHITE}):l,{spacing:{after:40}})));
@@ -517,8 +539,11 @@ function block(code){
     ['O — Outside connection: how does it connect to this standard?',''],
   ],[4200,5448],{lines:2}));
   out.push(callout('SUPPORT OPTION',['Sentence frame: This source shows ______ because it ______, which reveals ______.']));
-  if(im.anchor) out.push(callout('CONFIDENCE CHECK-IN',['Rate your understanding of this standard (1–4): ______    One thing to revisit: ____________________']));
-  else out.push(...sourceExtension(code));
+  out.push(...selfScore('SCORE YOURSELF — HIPPO source analysis',[
+    ['My analysis','All 5 HIPPO parts, each with a specific detail from THIS source','4 parts, mostly specific','2–3 parts, some vague','1 part, or just retells the source'],
+  ]));
+  out.push(webCheck('HIPPO source analysis'));
+  if(!im.anchor) out.push(...sourceExtension(code));
   if(SUPPORTS) out.push(...supportsBack(5,code,s,a));
   // Activity 6 — Practice Quiz
   out.push(H(`Activity 6 — Core Application: Practice Quiz — ${code}`,2,{brk:true,mins:8,deck:deckRef(code,6,'Progress Check')}));
@@ -553,7 +578,12 @@ function block(code){
     new TableRow({tableHeader:true,children:[cell(P(R('Part',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:2200,fill:NAVY}),cell(P(R('Write here',{s:18,b:true,c:WHITE}),{spacing:{after:0}}),{w:7448,fill:NAVY})]}),
     ...[['Claim',2],['Evidence (two specifics)',4],['Reasoning',3]].map(([lab,n])=>new TableRow({children:[cell(P(R(lab,{s:20,b:true}),{spacing:{after:0}}),{w:2200}),cell(ruled(n),{w:7448})]}))
   ]}));
-  out.push(callout('SELF-CHECK (CER rubric — see Toolkit)',['Is my claim defensible? · TWO specific pieces of evidence? · Does my reasoning explain HOW the evidence proves the claim?']));
+  out.push(...selfScore('SCORE YOURSELF — CER rubric (the SAME rubric your teacher and the web app use)',[
+    ['Claim','Precise, defensible','Clear','General','Unclear / missing'],
+    ['Evidence','2+ accurate, specific','2 accurate','1 accurate','Missing / inaccurate'],
+    ['Reasoning','Explains HOW the evidence proves the claim','Explains the link','Partial link','No reasoning'],
+  ]));
+  out.push(webCheck('CER response'));
   // Exit Ticket — end-of-standard formative (vetted item from the question bank; key + next steps teacher-side)
   const xt=EXIT[code];
   if(xt) out.push(table([new TableRow({children:[cell([
@@ -573,6 +603,7 @@ const back=[
   H('Your Tennessee Connection',1),
   callout('TENNESSEE CONNECTION · OAK RIDGE, THE “SECRET CITY”',['Tennessee was central to winning — and ending — World War II. In 1942 the federal government built Oak Ridge in the hills of East Tennessee as a secret site of the Manhattan Project (US.56). Its plants enriched the uranium used in the bomb dropped on Hiroshima. The town grew to about 75,000 people almost overnight, yet most workers — including thousands of women (US.52) — had no idea what they were building. Tennessee also sent its people to the war: Fort Campbell trained the 101st Airborne (US.51), Alcoa produced aluminum for warplanes (US.55), and Cordell Hull of Pickett County, Secretary of State, helped found the United Nations and won the Nobel Peace Prize (US.58).']),
   P(R('Reflect (RESPONSE CHOICE): How does a local story change the way you understand a national event? Answer by writing, recording, or diagramming.',{s:21})),
+  writeBox('Reflect here — write your answer (or note where your recording / diagram is)',3),
   H('Local History Investigation',2),
   P(R('Industrialization touched Tennessee too — railroads, mines, mills, and the people who worked them. Investigate one local connection and record what you find.',{s:22})),
   writeTable(['Prompt','Your findings'],[
@@ -618,13 +649,19 @@ const back=[
   P(R('Residual note (known follow-up): sourced visuals and named Key-Figure entries for these histories remain pending.',{s:18,i:true,c:GREY})),
   H('Unit Reflection',2),
   P(R('Return to the unit’s big question: how did World War II reshape America at home and its role in the world — and who sacrificed for a freedom they were still denied? Write a final claim with two pieces of evidence from different standards.',{s:22})),
-  writeTable(['Part','Write here'],[['My claim',''],['Evidence 1 (standard: ___)',''],['Evidence 2 (standard: ___)',''],['Why it matters today','']],[2600,7048],{rowH:820})];
+  writeTable(['Part','Write here'],[['My claim',''],['Evidence 1 (standard: ___)',''],['Evidence 2 (standard: ___)',''],['Why it matters today','']],[2600,7048],{rowH:820}),
+  ...selfScore('SCORE YOURSELF — final reflection (CER rubric)',[
+    ['Claim','Precise, defensible','Clear','General','Unclear / missing'],
+    ['Evidence','2 specifics from DIFFERENT standards','2 accurate','1 accurate','Missing / inaccurate'],
+    ['Reasoning','Explains HOW the evidence proves the claim','Explains the link','Partial link','No reasoning'],
+  ]),
+  webCheck('final reflection')];
 
 // ================= ASSEMBLE =================
 const header=new Header({children:[P(R('U.S. History Hack™ · Unit 6 · Course Standard Edition',{s:18,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
 const footer=new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:0},children:[
   R('U.S. History Hack™ · Unit 6 (Course Standard)   © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:18,c:GREY}),
-  new TextRun({children:[PageNumber.CURRENT],size:15,color:GREY,bold:true,font:FONT})]})]});
+  new TextRun({children:[PageNumber.CURRENT],size:18,color:GREY,bold:true,font:FONT})]})]});
 const doc=new Document({creator:'TroopToTeacher Technologies LLC',title:'U.S. History Hack — Unit 6 Course Standard Student Workbook (Pilot)',
   features:{updateFields:true},
   styles:{default:{document:{run:{font:FONT,size:22,color:INK}}},paragraphStyles:[
