@@ -102,12 +102,32 @@ the current value against the cited source before quoting externally.
 | **TDOE Schedule F · Policy 2.600 (accuracy)** | Adoption-rubric alignment; no known factual error ships | Historian fact-check; Schedule F self-score |
 | **TEAM rubric (Tennessee Educator Acceleration Model)** | Generated lesson plans align to what teachers are evaluated on | Lesson-plan builder |
 
+### E. Assessment & psychometrics — the measurement backbone
+This is the engine under "parallel analytics," "real-time mastery," and "reteaching," and it is
+**commercial-grade measurement science embedded at the item level** — not a quiz feature bolted on.
+
+| Capability | What's embedded | Why it matters |
+|---|---|---|
+| **~5,000-item calibrated bank** | High-quality items + answers/rationales, each mapped to a standard (US.01–US.95) + **DOK**, spanning the full blueprint | Full standards **coverage** with depth, not spot checks |
+| **Item Response Theory (IRT)** | Item parameters — difficulty (b), discrimination (a), (guessing c where used); student **ability (θ)** estimates | Scores mean the same thing across forms; enables adaptivity and equating |
+| **Classical item stats** | p-value, point-biserial, reliability (KR-20 / α) | Every item is vetted for quality before it counts |
+| **Fairness / DIF** | Differential-item-functioning screening across subgroups | Bias-checked items — a Schedule F and equity requirement |
+| **Immediate remediation identification** | Per-standard mastery thresholds → auto-flag the standards a student hasn't mastered → route to reteach + spaced repetition | The data doesn't just report a gap; it **triggers the fix** |
+| **Multi-level mastery rollup** | The same standard-level mastery, aggregated at **district · PLC · teacher · student** | Every level gets immediate, comparable feedback and remediation targets |
+
+**Headline:** a **5,000-question bank with full IRT/psychometrics** gives Tennessee something most
+adopted programs cannot: **measurement you can defend**, standard-by-standard, from the individual
+student all the way up to the district — with remediation identified the moment a gap appears.
+
 ## 4. What the platform does that print can't — value *and* safety
 
 The five platform pieces are digital-only amplifiers of proven strategies (each clears the Gate):
-1. **Parallel test-data analytics** — comparable, cross-section data print can't produce.
-2. **Real-time standard mastery** — live per-student, per-standard (US.01–US.95); feedback + formative.
-3. **Reteaching** — targeted, data-surfaced spiral/adaptive review (RTI + spaced practice).
+1. **Parallel test-data analytics** — comparable, cross-section data print can't produce; **IRT-equated
+   forms** make scores mean the same thing across classes, schools, and administrations.
+2. **Real-time standard mastery** — live per-student, per-standard (US.01–US.95) from IRT ability
+   estimates, rolled up at **district · PLC · teacher · student**; feedback + formative.
+3. **Reteaching** — remediation **auto-identified** the moment a per-standard gap appears, then routed
+   to targeted spiral/adaptive review (RTI + spaced practice).
 4. **Lesson-plan builder** — TEAM-aligned, pacing-fit, differentiated plans from **teacher-chosen**
    activities → **print ZIP**; teacher keeps complete power.
 5. **Gamification + read-aloud** — engagement mechanics and audio access (a UDL/WIDA lever).

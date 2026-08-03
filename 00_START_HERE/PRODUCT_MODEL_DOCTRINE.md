@@ -66,11 +66,14 @@ proves it earns a screen. Full three-question enforcement test: `FRAMEWORKS_CANO
 The web platform is the **amplifier**, not the course. Its value is a small set of things paper
 genuinely cannot do:
 
-1. **Testing platform for parallel test-data analytics** — assessment delivery that yields
-   comparable, cross-section data (item-, standard-, and cohort-level).
-2. **Real-time standard mastery** — live per-student, per-standard mastery (US.01–US.95), not an
-   end-of-unit guess.
-3. **Reteaching** — targeted reteach surfaced from mastery data (spiral/adaptive review).
+1. **Testing platform for parallel test-data analytics** — assessment delivery yielding comparable,
+   cross-section data (item-, standard-, cohort-level), backed by a **~5,000-item IRT-calibrated bank**
+   (item difficulty/discrimination, DIF fairness screening, full US.01–US.95 + DOK coverage).
+   IRT-equated forms make scores comparable across classes and administrations.
+2. **Real-time standard mastery** — live per-student, per-standard mastery (US.01–US.95) from IRT
+   ability estimates, rolled up at **district · PLC · teacher · student** — not an end-of-unit guess.
+3. **Reteaching** — remediation **auto-identified** the moment a per-standard gap appears, routed to
+   targeted spiral/adaptive review (spaced practice).
 4. **Lesson-plan builder** — teacher-side planning that assembles a TEAM-aligned, pacing-fit,
    differentiated plan from teacher-chosen activities and outputs a **print ZIP** (full detail: §7).
    Every activity is highlighted with its high-impact strategy + UDL 3.0/MTSS supports; the teacher
