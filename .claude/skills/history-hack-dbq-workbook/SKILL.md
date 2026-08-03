@@ -51,19 +51,24 @@ The standard package has three files:
 
 Do not create a Spanish teacher guide or a full Spanish duplicate workbook unless Sean explicitly changes the product model.
 
-## ⛔ STEP 0 — SOURCE FROM GOOGLE DRIVE FIRST (HARD GATE — do this before anything else)
+## STEP 0 — SOURCE THE MOST-UPDATED VERSION (from wherever is easiest)
 
-**Before sourcing ANY document, image, or citation from the web, you MUST first check Sean's Google Drive for already-sourced material.** Sean maintains pre-vetted, publisher-quality libraries per unit. Web-sourcing before checking Drive is a process failure — it wastes effort and risks lower-provenance duplicates.
+**Use the most current version of any document, image, or citation — from whatever source is easiest to reach (Google Drive, this repo, or the open web).** There is no longer a Drive-first hard gate. Optimize for _newest + easiest_, subject to three non-negotiables:
 
-1. Search Drive via the `gws` CLI (`api_credentials=["gws"]`, required or you get 401). Find the unit folder (`name contains '<Unit N>' or name contains '<theme>'`) and its `images/` subfolder.
-2. Download and REUSE what exists: `PRIMARY_SOURCE_CITATIONS.md` (MLA/APA + archive links + rights + pull-ready excerpts), `IMAGE_CITATIONS.md`, `standards-crosswalk`, `TABLE_OF_CONTENTS.md`, and the standard-code-named `images/` library.
-3. Only source NEW material from the web for genuine gaps the Drive library does not already cover — and note explicitly which items were gap-filled.
+1. **Newest wins.** When more than one copy exists (Drive vs. repo vs. a fresh pull), use the most recent — decide by the build timestamp (see the Version-Timestamp Rule below), and **never assume the repo copy is current** (a stale repo master has been found shipping over a newer fixed file).
+2. **Honest provenance, always.** Public-domain / openly-licensed sources only, with a real, citable archive + rights behind every asset. Never fabricate a source or citation, and never present composed text as a "primary source."
+3. **Note gap-fills.** State plainly which items were freshly sourced vs. reused.
 
-Full commands and file IDs pattern: `references/build-process.md` Step 1. Do not skip this gate even when you think you already know the sources.
+Sean's Google Drive is still a good first place to look (pre-vetted, publisher-quality libraries), but checking it is **optional, not mandatory**. Full commands and file-ID patterns: `references/build-process.md` Step 1.
 
 ## Non-Negotiable Standing Rules (LOCKED)
 
 These are Sean's permanent constraints. Never violate them.
+
+**Version timestamps (LOCKED — so the newest version is never in doubt)**
+- Every document or artifact we **create or re-create** from here on carries a build timestamp — **date AND time** — so the most recent version is always unambiguous. Stamp it two ways: (1) in the filename as `_YYYYMMDD_HHMM` (UTC), and (2) inside the artifact (cover/footer/metadata, or a `Generated: <ISO-8601 UTC>` line).
+- Read the timestamp from the build environment at build time (`date -u '+%Y-%m-%dT%H:%M:%SZ'`) — never guess or hardcode a date.
+- When two copies of the same artifact exist, the **later timestamp is authoritative**; do not assume a repo copy is current. (This rule exists because a stale repo master was found shipping over a newer fixed file.)
 
 **Branding**
 - Product name is **"U.S. History Hack"** (WITH "U.S.") for the U.S. History line. For other subjects use the parallel name (e.g. "Government Hack", "World History Hack", "Tennessee History Hack") — confirm the exact name with Sean before first use of a new subject.
@@ -73,7 +78,7 @@ These are Sean's permanent constraints. Never violate them.
 
 **Copyright / integrity (this is a district/school-board adoption artifact — be honest, never defensive)**
 - Public-domain and openly-licensed sources ONLY. Honest provenance on every asset.
-- **Google Drive is the FIRST source, always** — see the STEP 0 hard gate at the top of this skill. Never web-source before checking Drive.
+- **Use the most-updated version, from wherever is easiest** — see STEP 0. Google Drive is optional (a good first look), not a mandatory gate; newest-wins and honest provenance are the real rules.
 - Pearson / McGraw Hill / Savvas are **category references ONLY** — never copy their content.
 - **Never overclaim.** If a standard is only contextually present, label it **Context**, not **Full**. If a support isn't actually in the book, don't list it. Follow the `copyright-integrity-accreditation` skill for asset classification and fair-use.
 - Accommodations language must state supports work **alongside — never in place of** — a student's legally required IEP/504 accommodations.
