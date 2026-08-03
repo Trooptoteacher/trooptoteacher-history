@@ -19,6 +19,20 @@ the spine of the course, and the lesson lives on the page. This is not a comprom
 it is the deliberate model the district is adopting. A teacher can run the entire course with the
 printed workbook and deck and lose nothing essential.
 
+**The complete per-unit print set (what a teacher receives).** Print-first means a *whole* curriculum
+on paper, not a lone workbook. Every unit ships:
+
+- **Narrative textbook** — the reading spine, with a **Flight Log** to track the journey through the unit.
+- **Student workbook** — the seven-activity lesson book (the spine every student writes in).
+- **Teacher keys** — answer keys and scoring for every activity and assessment.
+- **Teacher deck** (full lecture) + **Student deck** (lean review).
+- **Graphic organizers** — reproducibles matched to every unit.
+- **DBQ workbook** — document-based questions with primary sources and analysis activities.
+
+This is the "instructional materials" backbone for Schedule F / district adoption: a complete,
+classroom-ready program a teacher can run entirely on paper. The web platform amplifies it; it never
+replaces it.
+
 **Technology is used only when it enhances** — never as decoration, never as a substitute for the
 page, never "because it's an app." If a digital feature does not make the learning measurably better
 than the paper version of the same moment, it does not ship into the flow.
