@@ -39,7 +39,10 @@ highlighted with its high-impact strategy (+ effect size) and UDL 3.0/MTSS suppo
 activities against their TEAM rubric, pacing guide, and class times, and the tool pre-fills the plan
 and outputs a **print ZIP** — teacher keeps complete power. Full doctrine:
 `00_START_HERE/PRODUCT_MODEL_DOCTRINE.md`. Research spines every build runs on — **UDL 3.0 (CAST
-2024) · CER · HIPPO · Future-Ready** — are named in `00_START_HERE/FRAMEWORKS_CANON.md`.
+2024) · CER · HIPPO · Future-Ready** — are named in `00_START_HERE/FRAMEWORKS_CANON.md`. The
+consolidated value + evidence case for adoption (every embedded framework highlighted, the
+responsible-tech / anti-overuse model, the AP/IB pipeline goal, the seven-curriculum series) lives in
+`00_START_HERE/ADOPTION_VALUE_CASE.md`.
 
 ## Canonical set (one job, one owner)
 
