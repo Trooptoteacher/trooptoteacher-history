@@ -23,6 +23,13 @@ printed workbook and deck and lose nothing essential.
 page, never "because it's an app." If a digital feature does not make the learning measurably better
 than the paper version of the same moment, it does not ship into the flow.
 
+**The technology-value rule (LOCKED):** _All technology must exclusively bring value — and prove it
+with evidence. Print first. High-value technology only. Every function has a purpose; every purpose
+is high value; and it is used only if it cannot be done in print. We provide supports where supports
+are necessary or needed — never as decoration._ The three-question test that enforces this (can it be
+done in print? · what's the value + evidence? · which framework does it serve?) lives in
+`FRAMEWORKS_CANON.md` §2.
+
 ## 2. SAMR is the test for every digital touch — inside the workbook flow
 
 Every place technology enters the lesson must justify itself on the **SAMR** ladder, and it must do

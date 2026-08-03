@@ -28,7 +28,10 @@ platform's value is five pieces paper can't do — **parallel test-data analytic
 mastery · reteaching · lesson-plan builder · gamification + read-aloud** — and the lesson hands off
 **workbook ⇄ app** several times (e.g., write a CER on paper → self-grade on the rubric → input to
 the app for real-time feedback → revise). The page must stand alone; the app raises the ceiling,
-never lowers the floor. Full doctrine: `00_START_HERE/PRODUCT_MODEL_DOCTRINE.md`.
+never lowers the floor. **Tech-value rule:** all technology must exclusively bring value and prove it
+with evidence — used only if it can't be done in print. Full doctrine:
+`00_START_HERE/PRODUCT_MODEL_DOCTRINE.md`. Research spines every build runs on — **UDL 3.0 (CAST
+2024) · CER · HIPPO · Future-Ready** — are named in `00_START_HERE/FRAMEWORKS_CANON.md`.
 
 ## Canonical set (one job, one owner)
 
