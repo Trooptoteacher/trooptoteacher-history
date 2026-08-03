@@ -163,7 +163,10 @@ single fixed ≥12 pt size across all standards (not length-adaptive).
   app — type your response for instant rubric feedback, then compare it to the score you gave
   yourself; if they don't match, revise and resubmit." This makes the print bundle and the web app one
   loop: self-assess on paper → instant coached check online. Keep both compact so the page still
-  obeys no-bleed.
+  obeys no-bleed. **Rubric parity:** the teacher guide's constructed-response section must print the
+  IDENTICAL student self-scoring grid (owned by `history-hack-unit-content-build`), the web-app-check
+  note (use the self-vs-app gap as a formative signal), and a crosswalk from the student's /12 total
+  to the teacher's holistic scale — so student, teacher, and app all read one rubric.
 - **All student writing sits on ruled notebook lines, and there is enough of it.** Every prompt that
   expects a written answer — activities AND back matter (reflections, investigations) — is followed by
   ruled lines (or a ruled `writeBox`/`writeTable` cell), sized to the response. No naked prompt with no

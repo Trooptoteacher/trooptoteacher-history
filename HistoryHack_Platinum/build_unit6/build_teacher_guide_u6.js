@@ -26,7 +26,7 @@ function writeTable(headers,rows,w,{rowH=560}={}){const trs=[];
 function writeBox(label,lines=2,h=520){const rows=[new TableRow({children:[cell(P(Rr(label,{s:21,b:true,c:NAVY}),{spacing:{after:0}}),{w:CW,fill:CREAM})]})];
   for(let i=0;i<lines;i++)rows.push(new TableRow({height:{value:h,rule:HeightRule.ATLEAST},children:[cell(P(Rr('',{s:20}),{spacing:{after:0}}),{w:CW})]}));
   return table(rows,[CW]);}
-function priorityBar(txt){return table([new TableRow({children:[cell(P([Rr('PRIORITY TERM',{s:16,b:true,c:GOLD}),Rr('     '+txt,{s:24,b:true,c:WHITE})],{spacing:{after:0}}),{w:CW,fill:NAVY})]})],[CW]);}
+function priorityBar(txt){return table([new TableRow({children:[cell(P([Rr('PRIORITY TERM',{s:18,b:true,c:GOLD}),Rr('     '+txt,{s:24,b:true,c:WHITE})],{spacing:{after:0}}),{w:CW,fill:NAVY})]})],[CW]);}
 function blankCornell(){return [
   H('Blank Cornell Notes — Universal Front (printable)',2),
   P(Rr('Name: ______________________    Class / Period: __________    Date: __________    Topic: ______________________',{s:21})),
@@ -179,8 +179,20 @@ const body=[
   ];}),
   PB(),
 
-  H('15. Constructed Response (CER) — 6-Point Rubric',1),
-  P(Rr('The course’s canonical constructed-response scale. Student materials use the simple Full / Developing / Beginning per part; teachers score with the 6-point guide below (aligns with the DBQ/CER rubric bank).',{s:22})),
+  H('15. Constructed Response — Student Self-Score, the Web-App Check, and Your 6-Point Scale',1),
+  P(Rr('One rubric, three views. Students now SELF-SCORE every constructed response — the CER (Activity 7), the HIPPO source analysis (Activity 5), and the final reflection — on the 4-level grid below, the SAME grid built into the History Hack web app. They then type the response into the app for instant feedback and compare the app’s score to their own. You score holistically on the 6-point scale; the crosswalk reconciles the two.',{s:22})),
+  H('15a. The student self-scoring rubric (identical in the workbook and the web app)',2),
+  P(Rr('This is exactly what the student marks on the page after each constructed response. Each dimension is scored 4–1; the three add to a total out of 12.',{s:20,i:true,c:GREY})),
+  dataTable(['Part','4 · Strong','3 · Proficient','2 · Developing','1 · Beginning'],[
+    ['Claim','Precise, defensible','Clear','General','Unclear / missing'],
+    ['Evidence','2+ accurate, specific','2 accurate','1 accurate','Missing / inaccurate'],
+    ['Reasoning','Explains HOW the evidence proves the claim','Explains the link','Partial link','No reasoning'],
+  ],[1748,2100,1800,1800,2200]),
+  callout('THE WEB-APP CHECK — use the self-vs-app gap as a formative signal',[
+    'After self-scoring on paper, the student types the response into the History Hack app and gets instant, rubric-based feedback scored on this same 4-level grid.',
+    'Coaching move: have students compare the app’s score to their own. A large over-rating gap (“I marked 4, the app said 2”) flags a student who can’t yet see the rubric criteria in their own writing — reteach the criterion, not just the content. Close agreement means the student can self-assess accurately; push them to the Extension.']),
+  H('15b. Your 6-point scale (gradebook convention) + crosswalk',2),
+  P(Rr('Score holistically on the 6-point scale below (aligns with the DBQ/CER rubric bank). Use the crosswalk to reconcile a student’s /12 self-score with your 6-point mark.',{s:22})),
   dataTable(['Score','Level','What it looks like'],[
     ['6','Exemplary','Defensible, insightful claim; TWO or more precise, accurate pieces of evidence; reasoning fully explains HOW the evidence proves the claim; cohesive and sophisticated.'],
     ['5','Advanced','Clear claim; strong, accurate evidence; reasoning explains the link with only minor gaps.'],
@@ -189,7 +201,11 @@ const body=[
     ['2','Developing','Vague claim; little evidence; evidence largely unexplained.'],
     ['1','Beginning','No clear claim; little or no evidence; no reasoning.'],
   ],[800,1700,7148]),
-  P(Rr('Swap in your bank’s exact CER rubric text if it differs; the 6-point scale (6 Exemplary → 1 Beginning) is the course convention.',{s:18,i:true,c:GREY})),
+  dataTable(['Student self-score (total / 12)','≈ Your 6-point band'],[
+    ['12','6 · Exemplary'],['10–11','5 · Advanced'],['8–9','4 · Proficient'],
+    ['6–7','3 · Adequate'],['4–5','2 · Developing'],['3','1 · Beginning'],
+  ],[4824,4824]),
+  P(Rr('Swap in your bank’s exact CER rubric text if it differs; the student 4-level grid and the 6-point scale (6 Exemplary → 1 Beginning) are the course convention, and the web app scores on the same 4-level grid.',{s:18,i:true,c:GREY})),
   PB(),
 
   H('16. Exit Ticket Answer Keys + What’s Next (reteach)',1),
@@ -200,10 +216,10 @@ const body=[
     [900,1900,700,700,5448]),
 ];
 
-const header=new Header({children:[P(Rr('U.S. History Hack™ · Unit 6 Teacher Guide',{s:16,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
+const header=new Header({children:[P(Rr('U.S. History Hack™ · Unit 6 Teacher Guide',{s:18,b:true,c:GOLD}),{align:AlignmentType.RIGHT,spacing:{after:0}})]});
 const footer=new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:0},children:[
-  Rr('U.S. History Hack™ · Unit 6 Teacher Guide   © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:15,c:GREY}),
-  new TextRun({children:[PageNumber.CURRENT],size:15,color:GREY,bold:true,font:FONT})]})]});
+  Rr('U.S. History Hack™ · Unit 6 Teacher Guide   © 2026 TroopToTeacher Technologies LLC   |   Page ',{s:18,c:GREY}),
+  new TextRun({children:[PageNumber.CURRENT],size:18,color:GREY,bold:true,font:FONT})]})]});
 const doc=new Document({creator:'TroopToTeacher Technologies LLC',title:'U.S. History Hack — Unit 6 Teacher How-to-Use & MTSS Guide (Pilot)',
   styles:{default:{document:{run:{font:FONT,size:22,color:INK}}},paragraphStyles:[
     {id:'Heading1',name:'Heading 1',basedOn:'Normal',next:'Normal',run:{font:FONT,size:36,bold:true,color:NAVY},paragraph:{spacing:{before:220,after:90},outlineLevel:0,keepNext:true}},
