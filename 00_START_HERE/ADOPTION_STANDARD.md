@@ -1,7 +1,7 @@
 # The Standard — TroopToTeacher Technologies / U.S. History Hack
 
 > **Don't just learn history. Hack it.**
-> _The curriculum that was built to make a difference, not to make money._
+> _The curriculum that was built for results, not revenue._
 > **Mission over margin.**
 
 _This is the standing doctrine for every build decision. Read it before asking a scope or

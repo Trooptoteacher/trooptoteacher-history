@@ -1,0 +1,65 @@
+{
+  "unit": 1,
+  "title": "The Rise of Industrialization, 1877–1900",
+  "edition": "Course Standard Edition",
+  "runhead": "U.S. History Hack™ · Unit 1 · Course Standard Edition",
+  "runfoot": "U.S. History Hack™ · Unit 1 (Course Standard)   ·   © 2026 TroopToTeacher Technologies LLC",
+  "standards": [
+    {
+      "code": "US.01",
+      "title": "Homestead Act & the Transcontinental Railroad",
+      "blocks": [
+        { "type": "cornell",
+          "heading": "Cornell Universal Front",
+          "rows": [
+            ["Essential Question", "How did federal land and railroad policy reshape the West — and at whose expense?"],
+            ["Deck slides", "Student (Lean) Deck, slides 4–17"],
+            ["Vocabulary", "Homestead Act · Transcontinental Railroad · Manifest Destiny · Promontory Summit"],
+            ["Success criteria", "I can sequence westward expansion and weigh who benefited and who bore the cost."]
+          ]
+        },
+        { "type": "activity", "num": 4, "name": "Close Read", "time": "~15 min",
+          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).",
+          "blocks": [
+            { "type": "box", "label": "Core Path — read one chunk at a time", "paras": [
+              "<strong>Sequence the expansion of the United States.</strong> The Homestead Act of 1862 offered 160 acres of free land to settlers who would farm it for five years. Combined with the completion of the Transcontinental Railroad in 1869, these policies accelerated westward expansion as part of Manifest Destiny—the belief that Americans were destined to spread across the continent. The Union Pacific built westward from Omaha while the Central Pacific built eastward from Sacramento, meeting at Promontory Summit, Utah.",
+              "<strong>Impact on Western Settlement.</strong> The Transcontinental Railroad dramatically reduced travel time from months to days, opening the West to settlement, commerce, and resource extraction. Towns sprang up along rail lines, and agricultural products could reach eastern markets efficiently — but this expansion came at tremendous cost to American Indian nations whose lands were taken and whose way of life was destroyed.",
+              "<strong>Impact on American Indians, Immigrants, and Settlers.</strong> Western expansion devastated American Indian communities through forced relocations, broken treaties, and the near-extinction of the buffalo herds they depended upon. Chinese workers who built much of the Central Pacific faced discrimination despite their crucial contributions. The “Buffalo Soldiers”—African American cavalry regiments—served on the frontier, including George Jordan of Williamson County, Tennessee, who earned the Medal of Honor."
+            ]},
+            { "type": "box", "label": "Language support", "paras": [
+              "Key terms to know first: Homestead Act, Transcontinental Railroad. Read once for the gist, then again for evidence."
+            ]},
+            { "type": "table", "class": "write",
+              "head": ["Text-dependent question", "Evidence from the passage", "Your answer (what it shows)"],
+              "rows": [
+                ["What is the main idea of the “Sequence the expansion” section, and what evidence supports it?", "", ""],
+                ["What is the main idea of the “Impact on Western Settlement” section, and what evidence supports it?", "", ""],
+                ["What is the main idea of the “Impact on American Indians, Immigrants, and Settlers” section, and what evidence supports it?", "", ""]
+              ]
+            }
+          ]
+        },
+        { "type": "activity", "num": 5, "name": "Primary Source (HIPPO)", "time": "~15 min",
+          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
+          "blocks": [
+            { "type": "box", "label": "Source it first", "paras": [
+              "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER."
+            ]},
+            { "type": "table", "class": "write",
+              "head": ["HIPPO move", "What I notice in this source"],
+              "rows": [
+                ["Historical context — what was happening when this was made?", ""],
+                ["Intended audience — who was meant to see it?", ""],
+                ["Point of view — whose perspective, and what is left out?", ""],
+                ["Purpose — why was it created?", ""],
+                ["Outside evidence — what do I already know that connects?", ""]
+              ]
+            }
+          ]
+        },
+        { "type": "cornellnotes", "heading": "Cornell Notes (25 / 75)",
+          "cues": ["Homestead Act", "Transcontinental RR", "Who bore the cost?"] }
+      ]
+    }
+  ]
+}

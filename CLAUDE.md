@@ -1,7 +1,7 @@
 # TroopToTeacher Technologies — U.S. History Hack
 
 > **Don't just learn history. Hack it.**
-> _The curriculum that was built to make a difference, not to make money._
+> _The curriculum that was built for results, not revenue._
 > **Mission over margin.**
 
 **Mission (the Platinum Standard):** Pearson and McGraw-Hill were built to make money. TroopToTeacher
@@ -19,6 +19,32 @@ and lead with the recommendation. Content accuracy (TDOE Policy 2.600) is founda
 error ships. Report honestly — done, held, and every gap.
 
 Full doctrine: `00_START_HERE/ADOPTION_STANDARD.md` · invoke the `history-hack-platinum-standard` skill.
+
+## Product model (print-first; the web platform amplifies)
+
+The product is **print-first**: the student workbook is the spine, and technology enters the flow
+**only when it enhances** — proven on the **Educational-Impact Gate** (a named high-impact strategy
+with a research effect size ≥ Hattie's hinge d ≈ 0.40 that print physically can't deliver), **within
+the workbook flow**. SAMR/TPACK describe the *kind* of integration; they are not the value bar. The web
+platform's value is five pieces paper can't do — **parallel test-data analytics · real-time standard
+mastery · reteaching · lesson-plan builder · gamification + read-aloud** — powered by a
+**5,041-item bank fully IRT-parameterized (3PL a/b/c, pre-field-test estimates; FERPA/COPPA-safe
+calibration pipeline that field-calibrates as response data accrues; full US.01–US.95 + DOK
+coverage)** with mastery + auto-remediation rolled up at **district · PLC · teacher · student**. The lesson hands off **workbook ⇄ app** several times (e.g., write a CER on paper → self-grade on the rubric → input to
+the app for real-time feedback → revise). The page must stand alone; the app raises the ceiling,
+never lowers the floor. **Tech-value rule:** all technology must exclusively bring value and prove it
+with evidence — used only if it can't be done in print. **Closed-loop video:** all instructional
+video is first-party and self-hosted (never YouTube/third-party) — no recommendations, comments, ads,
+or link-outs, so a student can't hop from a lesson video to the open web (the child-safety answer for
+the community and the school board; CIPA/COPPA/FERPA posture). **Lesson-plan builder:** every activity is
+highlighted with its high-impact strategy (+ effect size) and UDL 3.0/MTSS supports; the teacher picks
+activities against their TEAM rubric, pacing guide, and class times, and the tool pre-fills the plan
+and outputs a **print ZIP** — teacher keeps complete power. Full doctrine:
+`00_START_HERE/PRODUCT_MODEL_DOCTRINE.md`. Research spines every build runs on — **UDL 3.0 (CAST
+2024) · CER · HIPPO · Future-Ready** — are named in `00_START_HERE/FRAMEWORKS_CANON.md`. The
+consolidated value + evidence case for adoption (every embedded framework highlighted, the
+responsible-tech / anti-overuse model, the AP/IB pipeline goal, the seven-curriculum series) lives in
+`00_START_HERE/ADOPTION_VALUE_CASE.md`.
 
 ## Canonical set (one job, one owner)
 
