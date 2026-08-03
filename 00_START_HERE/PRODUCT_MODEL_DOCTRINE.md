@@ -1,7 +1,7 @@
 # Product Model Doctrine — Print-First, SAMR-Driven, Workbook⇄App Flow
 
 > **Don't just learn history. Hack it.**
-> _The curriculum that was built to make a difference, not to make money._
+> _The curriculum that was built for results, not revenue._
 > **Mission over margin.**
 
 _Archived product-model decision (owner: Sean / TroopToTeacher). This is the standing answer to

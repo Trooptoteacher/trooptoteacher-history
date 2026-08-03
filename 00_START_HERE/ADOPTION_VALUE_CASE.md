@@ -1,7 +1,7 @@
 # Adoption Value Case — Why History Hack, and Why Now
 
 > **Don't just learn history. Hack it.**
-> _The curriculum that was built to make a difference, not to make money._
+> _The curriculum that was built for results, not revenue._
 > **Mission over margin.**
 
 _The consolidated value + evidence case for TroopToTeacher Technologies' **History Hack** series.
@@ -26,8 +26,9 @@ not parity.** Three things follow, and they are the whole pitch:
 2. **It models *responsible* technology use** — the answer to the emerging research on screen-time
    and classroom tech **overuse** (§2). This is not "more tech." It is *the right tech, only when the
    evidence demands it,* and print everywhere else.
-3. **It saves the state money** while raising quality — one evidence-based foundation, print-first, no
-   per-seat commercial markup driving the design (§6).
+3. **It costs the state far less than the incumbents** while raising quality. History Hack will be
+   licensed to districts — per seat or whole-platform (model TBD) — and priced well below McGraw-Hill
+   and Pearson. It will earn revenue; that was simply never the mission driving the design (§6).
 
 **The vision — building the teacher I wish I had.** These are the strategies the founder wished he'd
 had as a student. History Hack is, deliberately, *the teacher every student deserves*: it **meets all
@@ -150,15 +151,18 @@ The five platform pieces are digital-only amplifiers of proven strategies (each 
 
 ## 6. The cost & value argument — for districts and the state
 
-- **One evidence-based foundation, not a per-seat product built to maximize revenue.** The design is
-  driven by what teaches, so the state isn't paying a commercial markup for engagement features that
-  don't move learning.
+- **Priced well below McGraw-Hill and Pearson.** History Hack will be licensed to districts — **per
+  seat or as a whole-platform license** (the exact model is still being set) — and the offer is
+  simple: **materially lower cost than the incumbents for a better, evidence-based program.** Revenue
+  is real and expected; it was an afterthought to the mission, not the driver of the design.
+- **Design driven by what teaches, not by margin.** Because features must clear the Educational-Impact
+  Gate, the state isn't paying for engagement gimmicks that don't move learning.
 - **Print-first lowers the cost and risk floor** — the full course runs on paper; devices are an
-  amplifier, not a dependency. No 1:1-device mandate to get the core value.
+  amplifier, not a dependency, so districts aren't forced into a 1:1 mandate to get the core value.
 - **Teacher time saved** — the lesson-plan builder pre-fills TEAM-aligned, differentiated plans from
   teacher choices and prints them, reducing planning load without removing teacher control.
-- **Better outcomes at lower cost** = the definition of value for a public system. Mission over margin
-  is not a slogan here; it is the pricing and design posture.
+- **The bottom line:** better outcomes for less than the incumbents charge. Mission over margin
+  describes the *intent* behind the build — not a claim that the product is free.
 
 ## 7. Context for a waiver / late-entry consideration (honest framing)
 
@@ -181,9 +185,21 @@ _This section states the case; the actual waiver letter / submission to TDOE is 
 ## 8. The series — one foundation, seven curriculums
 
 History Hack is not a single course. It is **the History Hack series by TroopToTeacher Technologies** —
-**seven curriculums in development on the same foundation, pillars, and ideology** (the print-first
-model, the Educational-Impact Gate, UDL 3.0 + MTSS, closed-loop safety, Future-Ready measurement, and
-the Platinum decision rule). The `history-hack-new-course-builder` skill exists precisely to stand up
+**seven curriculums on one foundation, pillars, and ideology** (the print-first model, the
+Educational-Impact Gate, UDL 3.0 + MTSS, closed-loop safety, Future-Ready measurement, and the
+Platinum decision rule), **all tightly aligned to Tennessee state standards**:
+
+| Edition | Status |
+|---|---|
+| **U.S. History** | ✅ Complete |
+| **Government** | ✅ Complete |
+| **World History** | 🔧 In progress |
+| **Tennessee History** | 🔧 In progress |
+| **Social Studies — Grade 6** | ⏳ Coming soon |
+| **Social Studies — Grade 7** | ⏳ Coming soon |
+| **Social Studies — Grade 8** | ⏳ Coming soon |
+
+The `history-hack-new-course-builder` skill exists precisely to stand up
 each new subject edition feature-for-feature and guardrail-for-guardrail with the U.S. History
 flagship. Adopting the model once means adopting a standard the state can extend across subjects.
 

@@ -1,7 +1,7 @@
 # Frameworks Canon — the research spines every build runs on
 
 > **Don't just learn history. Hack it.**
-> _The curriculum that was built to make a difference, not to make money._
+> _The curriculum that was built for results, not revenue._
 > **Mission over margin.**
 
 _Archived frameworks decision (owner: Sean / TroopToTeacher). These are the named, research-backed

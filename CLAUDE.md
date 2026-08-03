@@ -1,7 +1,7 @@
 # TroopToTeacher Technologies — U.S. History Hack
 
 > **Don't just learn history. Hack it.**
-> _The curriculum that was built to make a difference, not to make money._
+> _The curriculum that was built for results, not revenue._
 > **Mission over margin.**
 
 **Mission (the Platinum Standard):** Pearson and McGraw-Hill were built to make money. TroopToTeacher
