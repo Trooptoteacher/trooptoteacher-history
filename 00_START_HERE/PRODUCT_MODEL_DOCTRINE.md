@@ -130,8 +130,8 @@ That means, by design, **none** of the following exist anywhere a student can re
 - no comments section, no ads, no sponsor cards, no end-screen link-outs;
 - no third-party player that could surface any of the above.
 
-**Why this is doctrine, not a preference.** The single biggest safety objection districts, parent
-boards, and Boards of Education raise about video is the **YouTube rabbit hole** — a child clicking
+**Why this is doctrine, not a preference.** The single biggest safety concern the community, school
+boards, and district reviewers raise about video is the **YouTube rabbit hole** — a child clicking
 from an approved video into recommendations, comments, or a link and landing on inappropriate or
 unsafe content. Our closed loop **eliminates that risk vector entirely**: there is nothing to click
 to, because the video never hands the student to a third party. This is a direct, concrete answer to

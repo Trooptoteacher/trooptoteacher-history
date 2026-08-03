@@ -6,7 +6,7 @@
 
 _The consolidated value + evidence case for TroopToTeacher Technologies' **History Hack** series.
 Written to be the single place that **highlights every embedded framework** and its research warrant,
-so a district committee, a TDOE reviewer, a parent board, or a Board of Education can see — in one
+so a district committee, a TDOE reviewer, a school board, or the community can see — in one
 document — that every choice is evidence-based, research-based, safe, and cheaper for the state than
 the commercial alternatives. Owner: Sean / TroopToTeacher Technologies. Sits with
 `ADOPTION_STANDARD.md` (the decision rule), `PRODUCT_MODEL_DOCTRINE.md` (print-first + flow), and
@@ -16,7 +16,7 @@ the commercial alternatives. Owner: Sean / TroopToTeacher Technologies. Sits wit
 
 ## 1. The thesis
 
-Pearson and McGraw-Hill were built to make money. **History Hack was built to make a difference** —
+Pearson and McGraw-Hill were built to make money. **History Hack was built for results** —
 and to be *better and more effective for students* than anything on the market. The bar is **better,
 not parity.** Three things follow, and they are the whole pitch:
 
@@ -139,12 +139,12 @@ The five platform pieces are digital-only amplifiers of proven strategies (each 
    activities → **print ZIP**; teacher keeps complete power.
 5. **Gamification + read-aloud** — engagement mechanics and audio access (a UDL/WIDA lever).
 
-## 5. Safety & compliance posture (the parent-board / BOE answer)
+## 5. Safety & compliance posture (the community & school-board answer)
 
 - **Closed-loop, first-party video** — every video streams from our own server, not YouTube or any
   third-party host. No recommendations, related rail, comments, ads, or link-outs. **A student cannot
   navigate from a lesson video to the open web.** This eliminates the single biggest video-safety
-  objection districts, parent boards, and Boards of Education raise, and keeps student viewing data
+  concern the community, school boards, and district reviewers raise, and keeps student viewing data
   off YouTube/Google (COPPA/FERPA/CIPA/TN Student Data Act posture).
 - **Accessible by design** — WCAG 2.2 AA / 508 / ADA Title II, VPAT-ready.
 - **Accurate by gate** — historian fact-check + Schedule F self-score; no known error ships.
@@ -203,26 +203,26 @@ The `history-hack-new-course-builder` skill exists precisely to stand up
 each new subject edition feature-for-feature and guardrail-for-guardrail with the U.S. History
 flagship. Adopting the model once means adopting a standard the state can extend across subjects.
 
-## 9. The aspiration — AP/IB within reach for more students
+## 9. The aspiration — every learner reached, future-ready their way
 
-The mission in §1 has a measurable target: **raise the academic ceiling and widen the door to it.**
+The mission in §1 has one aim above the rest: **reach every learner and make each student
+future-ready — whatever that looks like for them.** No student sits alone and unsupported.
 
-- **AP-style writing quality.** The CER spine + real-time feedback deliberately trains students toward
-  **AP-level argument writing** — claim, evidence, reasoning, revision — so the writing bar in an
-  11th-grade social studies room is the bar an AP reader expects.
-- **Remove the fear that keeps students out of AP and IB.** Many students never enter AP/IB because
-  the writing and analysis feel out of reach. By building those exact skills into the everyday lesson —
-  scaffolded with UDL 3.0 + MTSS so the ceiling never lowers — the product is designed to **grow the
-  number of Tennessee students who enter and finish AP and IB programs.** That is the outcome to watch.
-- **ACT prep is embedded** — the Future-Ready Academic Reasoning pillar maps to ACT benchmarks, so
-  college-readiness practice is woven through the course, not bolted on.
-- **The skills are cross-curricular.** Though the course is social studies, close reading, evidence
-  use, argument writing, and data reasoning **transfer to ELA, math, science, and art.** The product
-  builds *durable, portable* academic skills — a rising tide across a student's whole schedule, not a
-  single subject silo.
+- **Every learner reached, with the supports they need.** UDL 3.0 + MTSS put the supports beside the
+  work so no student is stuck without a path — access is designed in, never bolted on, and never
+  lowers the goal.
+- **Future-ready, defined per student.** We track and grow the foundations that carry a life —
+  **goals, punctuality, integrity, timeliness, grit, and respect** — through the Future-Ready
+  measurement engine, right alongside the academics. Readiness is a trajectory we monitor, not a
+  guess made at the end.
+- **The academic ceiling raised too.** Raising rigor is *one* part of it: the CER spine trains
+  **AP-level writing** and is built to remove the fear that keeps students out of AP and IB — growing
+  the number of Tennessee students who enter and finish. **ACT prep is embedded**, and the reading,
+  writing, evidence, and reasoning skills **transfer cross-curricular to ELA, math, science, and art.**
 
 This is why the model matters beyond one classroom: it is a **process for future success** that meets
-every learner, extends the ready, and challenges everyone toward a ceiling most curricula never name.
+every learner, extends the ready, supports those who need it, and challenges everyone toward a ceiling
+most curricula never name.
 
 ---
 
