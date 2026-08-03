@@ -34,7 +34,10 @@ never lowers the floor. **Tech-value rule:** all technology must exclusively bri
 with evidence — used only if it can't be done in print. **Closed-loop video:** all instructional
 video is first-party and self-hosted (never YouTube/third-party) — no recommendations, comments, ads,
 or link-outs, so a student can't hop from a lesson video to the open web (the child-safety answer for
-parents / Boards of Education; CIPA/COPPA/FERPA posture). Full doctrine:
+parents / Boards of Education; CIPA/COPPA/FERPA posture). **Lesson-plan builder:** every activity is
+highlighted with its high-impact strategy (+ effect size) and UDL 3.0/MTSS supports; the teacher picks
+activities against their TEAM rubric, pacing guide, and class times, and the tool pre-fills the plan
+and outputs a **print ZIP** — teacher keeps complete power. Full doctrine:
 `00_START_HERE/PRODUCT_MODEL_DOCTRINE.md`. Research spines every build runs on — **UDL 3.0 (CAST
 2024) · CER · HIPPO · Future-Ready** — are named in `00_START_HERE/FRAMEWORKS_CANON.md`.
 

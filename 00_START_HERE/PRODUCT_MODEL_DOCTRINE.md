@@ -71,7 +71,10 @@ genuinely cannot do:
 2. **Real-time standard mastery** — live per-student, per-standard mastery (US.01–US.95), not an
    end-of-unit guess.
 3. **Reteaching** — targeted reteach surfaced from mastery data (spiral/adaptive review).
-4. **Lesson-plan builder** — teacher-side planning that assembles from the same standards spine.
+4. **Lesson-plan builder** — teacher-side planning that assembles a TEAM-aligned, pacing-fit,
+   differentiated plan from teacher-chosen activities and outputs a **print ZIP** (full detail: §7).
+   Every activity is highlighted with its high-impact strategy + UDL 3.0/MTSS supports; the teacher
+   keeps complete power over what's assigned.
 5. **Gamification and read-aloud** — engagement mechanics and audio access (read-aloud is also a
    UDL/MTSS/WIDA access lever, not just engagement).
 
@@ -150,6 +153,50 @@ cost of the other.
 student-facing surface. Videos are served first-party from our own server, inside the closed player,
 full stop. (Compliance claims themselves are owned by the `edtech-adoption-specialist` and
 `copyright-integrity-accreditation` skills — this section states the product decision they document.)
+
+## 7. The Lesson-Plan Builder — teacher chooses, high-impact-tagged, prints to a ZIP
+
+Value piece #4 made concrete, and the teacher-facing mirror of the student workbook⇄app flow. It is a
+**planning amplifier whose deliverable is paper**: the teacher assembles a lesson from the activity
+bank and the tool outputs a **print-ready ZIP**. It never teaches for the teacher and never decides
+for them — **the teacher keeps complete power.**
+
+**Every activity is tagged — and the tags are highlighted, on screen and in print.** No activity is a
+bare task. Each one visibly carries:
+- its **high-impact strategy + research effect size** (Hattie/Rosenshine/Marzano — e.g. retrieval
+  practice, feedback, concept mapping/graphic organizer), so the *why-this-works* is on the page; and
+- its built-in **UDL 3.0 (CAST 2024) + MTSS supports** (and five-edition differentiation), so the
+  access layer travels with the activity.
+
+Highlighting the strategy also **reinforces that this is a print product** — the teacher can print any
+activity, and the printed page shows its strategy label and supports. The research warrant is visible
+to the teacher, to a coach, and to an adoption reviewer.
+
+**How the builder works (teacher in the driver's seat):**
+1. **Inputs the teacher's real constraints** — the **TEAM rubric** (Tennessee Educator Acceleration
+   Model) alignment they're evaluated on, the **pacing guide**, and their **class times / period
+   length**.
+2. **Teacher selects the activities** they want to assign from the workbook — choosing with the
+   high-impact tags and UDL/MTSS supports in view, so selection is informed, not blind.
+3. **Pre-fills the lesson plan** from those choices — objectives, standards, TEAM alignment, timing,
+   and the supports that came attached to each chosen activity.
+4. **Outputs a print ZIP** — the selected activities plus the pre-filled lesson plan, ready to print
+   and teach.
+
+**Why this is the doctrine:**
+- **Teacher maintains complete power.** The tool assembles and pre-fills; the teacher chooses. Human
+  in control — a trust and adoption point (teachers must never feel dictated to or replaced).
+- **Individualized learning + easy differentiation.** Because every activity ships with UDL 3.0 +
+  MTSS supports and five editions, the teacher differentiates **by selection**, not by building
+  supports from scratch. Choosing activities *is* the individualization lever.
+- **Print-first, planning-amplified.** The builder does the one thing paper can't — dynamically
+  assemble a TEAM-aligned, pacing-fit, differentiated plan from teacher choices — and then hands it
+  back as **print**. The output is a ZIP the teacher prints; the app raised the ceiling on planning
+  without moving the lesson off paper.
+
+**Builder rule:** every activity — in the workbook, the bank, the builder, and on the printed page —
+is labeled with its high-impact strategy (+ effect size) and its UDL 3.0 / MTSS supports. Selection,
+pacing, and inclusion are always the teacher's call; the tool never auto-assigns.
 
 ---
 
