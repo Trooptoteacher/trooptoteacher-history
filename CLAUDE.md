@@ -31,7 +31,10 @@ mastery · reteaching · lesson-plan builder · gamification + read-aloud** — 
 **workbook ⇄ app** several times (e.g., write a CER on paper → self-grade on the rubric → input to
 the app for real-time feedback → revise). The page must stand alone; the app raises the ceiling,
 never lowers the floor. **Tech-value rule:** all technology must exclusively bring value and prove it
-with evidence — used only if it can't be done in print. Full doctrine:
+with evidence — used only if it can't be done in print. **Closed-loop video:** all instructional
+video is first-party and self-hosted (never YouTube/third-party) — no recommendations, comments, ads,
+or link-outs, so a student can't hop from a lesson video to the open web (the child-safety answer for
+parents / Boards of Education; CIPA/COPPA/FERPA posture). Full doctrine:
 `00_START_HERE/PRODUCT_MODEL_DOCTRINE.md`. Research spines every build runs on — **UDL 3.0 (CAST
 2024) · CER · HIPPO · Future-Ready** — are named in `00_START_HERE/FRAMEWORKS_CANON.md`.
 

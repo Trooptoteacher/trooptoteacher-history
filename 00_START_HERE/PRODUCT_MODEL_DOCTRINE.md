@@ -101,12 +101,55 @@ thing paper can't: immediate, standard-aligned feedback and a data trail. That h
   way the decks key to the workbook. Never design an app screen that has no home on the page.
 - **Every app screen names its workbook moment.** A feature should reference the exact workbook
   activity it hands off from and back to (like the CER loop above).
-- **Justify every digital touch on SAMR.** State the rung and the functional benefit in the spec.
+- **Justify every digital touch on the Educational-Impact Gate.** Name the high-impact strategy, its
+  effect size (≥ d 0.40), and the reason print can't match it. SAMR/TPACK go in the spec as
+  *description* of the integration, not as the justification.
 - **Keep the five value pieces central.** Analytics, real-time mastery, reteach, lesson-plan
   builder, gamification + read-aloud — these are the platform. Feature creep outside them is a
   paper question in disguise.
 - **The page must stand alone.** A classroom with no working devices still runs the full lesson.
   The app raises the ceiling; it never lowers the floor.
+
+## 6. Closed-loop video — first-party, self-hosted, no way out (LOCKED)
+
+**Our videos are not YouTube.** Every instructional video in the product is **first-party and served
+from our own server** — not embedded from YouTube, Vimeo, or any third-party host. When a student
+plays a lesson video, they never leave the walled garden: the video streams inside our closed
+environment and returns them to the lesson when it ends. **There is no path out.**
+
+That means, by design, **none** of the following exist anywhere a student can reach:
+- no "Up Next," recommended, related, or autoplay-to-another-video rail;
+- no channel pages, search box, or clickable links out to the open web;
+- no comments section, no ads, no sponsor cards, no end-screen link-outs;
+- no third-party player that could surface any of the above.
+
+**Why this is doctrine, not a preference.** The single biggest safety objection districts, parent
+boards, and Boards of Education raise about video is the **YouTube rabbit hole** — a child clicking
+from an approved video into recommendations, comments, or a link and landing on inappropriate or
+unsafe content. Our closed loop **eliminates that risk vector entirely**: there is nothing to click
+to, because the video never hands the student to a third party. This is a direct, concrete answer to
+the question every adoption review and every parent asks.
+
+**What it also buys us (adoption + compliance posture):**
+- **Child-safety / CIPA alignment** — a walled environment with no exposure to the open web from
+  inside a lesson; nothing to filter *around* because there's nothing to click out to.
+- **COPPA / FERPA / TN Student Data Act posture** — first-party hosting means **no student viewing
+  data handed to YouTube/Google** and no third-party behavioral advertising to minors. Playback stays
+  on our infrastructure.
+- **Reliability & focus** — no ads, no unrelated thumbnails, no buffering another host's junk; the
+  student sees the lesson and only the lesson.
+
+**Educational value (clears the Gate).** Well-designed instructional video is a high-impact medium —
+narrated, animated, dual-coded (Mayer's multimedia-learning principles; dual coding) and a genuine
+UDL 3.0 access lever (moving image + narration + captions + read-aloud) that print physically cannot
+deliver. The pedagogy is the reason the video exists; **closed-loop delivery is how we get that
+pedagogy without paying for it in student safety or privacy.** Value *and* safety — not one at the
+cost of the other.
+
+**Builder rule:** never embed a third-party video player or an external video URL in any
+student-facing surface. Videos are served first-party from our own server, inside the closed player,
+full stop. (Compliance claims themselves are owned by the `edtech-adoption-specialist` and
+`copyright-integrity-accreditation` skills — this section states the product decision they document.)
 
 ---
 
