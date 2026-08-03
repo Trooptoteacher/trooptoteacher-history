@@ -8,6 +8,14 @@
 
 ---
 
+## 0. Version timestamps — every document we create or re-create (LOCKED)
+
+So the newest version is **never** in doubt (this rule exists because a stale repo master was found shipping over a newer fixed file):
+
+- **Every** document or artifact we create or re-create — workbook, deck, DBQ, organizer, guide, cover, PDF — carries a **build timestamp (date AND time)**, stamped two ways: (1) in the filename as `_YYYYMMDD_HHMM` (UTC) — e.g. `Unit6_Student_Workbook_CourseStandard_20260803_2135.docx`; and (2) inside the artifact (cover/footer/metadata, or a `Generated: <ISO-8601 UTC>` line).
+- Read the timestamp from the build environment at build time (`date -u '+%Y-%m-%dT%H:%M:%SZ'`) — **never** guess or hardcode a date.
+- When two copies of the same artifact exist, the **later timestamp is authoritative**; never assume a repo copy is current.
+
 ## 1. Product types — name them, don't confuse them
 
 | Product | What it is | Owner skill(s) | Not to be confused with |
