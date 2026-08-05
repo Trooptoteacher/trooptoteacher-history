@@ -120,8 +120,10 @@ standards matrix + Schedule F + adoption evidence; web edition CI green, routes 
 per-unit deliverable + QC checklist reported.
 
 ## WORKING METHOD
-Unit-by-unit. **One authored source JSON per unit → reproducible generators render every surface** (HTML
-chapter, teacher guide, docx packets, question bank). Commit per artifact; PR per phase; keep main clean.
+Unit-by-unit. **One authored source JSON per unit → reproducible generators render every surface** (print
+`.pdf` workbook + teacher guide via the WeasyPrint `print-pipeline`, question bank). **No `.docx` deliverable**
+(Sean's standing directive) — the print-pipeline with the locked `print-contract.css` is the delivery path.
+Commit per artifact; PR per phase; keep main clean.
 
 ---
 

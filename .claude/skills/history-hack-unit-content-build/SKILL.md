@@ -26,8 +26,8 @@ metadata:
 Repeat, for any unit, the exact end-to-end pipeline proven on Unit 6 to produce a
 self-consistent **four-piece Course Standard set**:
 
-1. **Student Workbook** — editable `.docx` + print `.pdf`
-2. **Teacher How-to-Use & MTSS Guide** — `.docx` + `.pdf`
+1. **Student Workbook** — print `.pdf` via the `print-pipeline` (no `.docx` deliverable)
+2. **Teacher How-to-Use & MTSS Guide** — print `.pdf` via the `print-pipeline`
 3. **Student (Lean) Slide Deck** — `.pptx`
 4. **Teacher (Full) Slide Deck** — `.pptx`
 
@@ -94,12 +94,13 @@ Gold `#F9A825` are *broader*-palette America 250 tokens for special surfaces, no
 
 ## Non-negotiable gates
 
-- **DOCX-native → PDF (LOCKED — print-first):** author documents as native `.docx`
-  (`build_guided_notes.py` / `build_teacher_guide.py`), then convert with LibreOffice
-  (`soffice --headless --convert-to pdf`). **Never HTML→PDF** (it mangles page breaks/headers/footers/
-  page numbers). The editable `.docx` is the **author's archive / master** (source of truth for future
-  edits); the **PDF is what teachers receive and print** — a faithful convert, not teacher-edited.
-  See `00_START_HERE/BUILD_STANDARD.md` §4.
+- **Print-first via the WeasyPrint `print-pipeline` (LOCKED — no `.docx` deliverable):** author documents
+  through the governed `print-pipeline` (`render.py` + per-unit content JSON + the **locked
+  `print-contract.css`** Paged-Media contract), which WeasyPrint renders to PDF. **Do NOT ship a `.docx`**
+  (Sean's standing directive). The locked contract owns page breaks/headers/footers/page-numbers — the
+  failure the old "never HTML→PDF" rule guarded against — so uncontracted HTML→PDF stays banned but the
+  governed pipeline is the delivery path. The **PDF is what teachers receive and print**; an editable
+  `.docx` is at most an *optional* archive, never required. See `00_START_HERE/BUILD_STANDARD.md` §4.
 - **Render-and-QC gate:** no workbook/guide/deck change ships until it is rendered to PDF and
   inspected page-by-page. **Zero blank or near-empty pages**; page breaks, header/footer, and the live
   page-number field survive the convert. See `references/rendering-and-qc.md`.

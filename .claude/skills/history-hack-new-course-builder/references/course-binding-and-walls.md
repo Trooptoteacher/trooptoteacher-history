@@ -44,6 +44,23 @@ not hardcode course facts.
 Resolution order: an explicit course id from the request → the `course.json` in the working `courses/<id>/`
 path → **default `us-history` flagship**. State the resolved id before building (Wall Rule W1).
 
+### Course-select gate (ask when it isn't pinned)
+
+Every build opens with a course binding. Resolve it, then **confirm before any read or write**:
+
+1. **Unambiguous** — the request names a registry course/id (or you are working inside a single
+   `courses/<id>/` tree, or it is plainly a U.S. History flagship build): resolve it, **state it**
+   ("Building `world-history` (W)…"), and proceed. No prompt needed.
+2. **Ambiguous** — the request names a *subject or class* without a registry id ("build the civics unit,"
+   "make the world unit"), could match more than one course, or is a new/other-course build with no id
+   pinned: **STOP and confirm which of the 7 registry courses to build** before touching any file. Offer the
+   registry list (us-history · government · world-history · tennessee-history · grade-8/7/6-history). Do
+   **not** silently fall through to the `us-history` default when a non-US or unspecified subject is in play —
+   the default protects *flagship* builds, it is not a guess for an unnamed subject.
+
+Once confirmed, the resolved `id` binds every downstream skill (workbook, decks, DBQ, organizers, assessment,
+QC) for that build — they all read the same `course.json` and never re-ask.
+
 ## The walls (hard rules — enforce on every build)
 
 - **W0 · Pull the current skill first (never build from memory).** Before you build, rebuild, format, render,
@@ -52,8 +69,10 @@ path → **default `us-history` flagship**. State the resolved id before buildin
   single source of truth and change only via skills-only PRs; a stale, cached, or remembered copy is **not
   valid**. A different agent or a new session must **reload** the skill, not rely on what it "knows." If you
   cannot confirm you are on the current skill, **STOP and pull it first.**
-- **W1 · Declare first.** Before producing any artifact, resolve and **state the course id** ("Building
-  `world-history`…"). No build proceeds on an ambiguous course.
+- **W1 · Declare + confirm first.** Run the **Course-select gate** above: resolve and **state the course id**
+  ("Building `world-history`…") when it is unambiguous; **STOP and confirm which of the 7 courses** when it is
+  not. No build proceeds on an ambiguous course, and an unnamed subject is never silently defaulted to the
+  flagship.
 - **W2 · Standards wall.** Read standards **only** from the resolved course's `standardsFile`. Never read or
   mix another course's standards. Emit **only** `standardsPrefix`-coded standards (a `world-history` build emits
   `W.xx` only — never `US.xx`).
