@@ -64,6 +64,7 @@ best path to adoption).
 | `ell-bilingual-review-specialist` | English/Spanish + **ELL scaffolding** QC (WIDA/ELPA21). |
 | `history-hack-unit-qc` | End-to-end **web-app unit QC workflow** (18-item checklist). **Orchestrates** the gates above — never duplicates them. |
 | `wcs-app-approval-qc` | **District-submission readiness** (Williamson County app-approval packet). |
+| `wcs-technology-use-compliance` | **WCS Technology Use Guidance embedding + no-breach proof** — owns the compliance requirements registry, the machine guardrail, and the printable skeptic-facing matrix (meets/exceeds). Distinct from the submission packet (`wcs-app-approval-qc`) and IP/FERPA-COPPA review (`copyright-integrity-accreditation`). |
 | `historian-factcheck-agent` | Primary-source **fact-check** (Policy 2.600). |
 | `tn-textbook-adoption-agent` | TDOE **Schedule F / adoption** panel review. |
 | `copyright-integrity-accreditation` | IP / licensing / **FERPA-COPPA** review. |
