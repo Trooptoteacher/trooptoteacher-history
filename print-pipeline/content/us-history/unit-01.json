@@ -83,6 +83,86 @@
       "paras": [
         "<strong>Lenses/Dimensions pills:</strong> C Culture · E Economics · G Geography · H History · P Politics/Government · T Tennessee · TCA Tennessee Code Annotated. <strong>Self-check keys</strong> let you commit an answer, then check. <strong>▶ Deck · DI N of M</strong> keys your Cornell cues to the teacher’s slides. <strong>Future Ready</strong> tags mark where you build a hireability skill; <strong>ACT Connection</strong> tags mark where an activity builds an ACT skill."
       ]
+    },
+    {
+      "type": "head",
+      "text": "Standards Alignment / Adoption Crosswalk",
+      "sub": "TDOE Schedule F · Policy 2.600 — reviewer-facing"
+    },
+    {
+      "type": "box",
+      "label": "How to read this",
+      "paras": [
+        "Per standard: the verbatim TDOE standard, the Social Studies Practices (SSP.01–06) it exercises, DOK coverage, and the disciplinary Lenses. The 7-activity spine exercises these SSPs (source read → SSP.01/02 · compare → SSP.03 · CER → SSP.04 · sequence/context → SSP.05 · map/region → SSP.06)."
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Std",
+        "Verbatim TDOE standard",
+        "Social Studies Practices",
+        "DOK",
+        "Lenses"
+      ],
+      "rows": [
+        [
+          "<strong>US.01</strong>",
+          "US.01 – Explain how the Homestead Act and the Transcontinental Railroad impacted the settlement of the West.",
+          "SSP.01 Collect from sources, SSP.02 Examine a source, SSP.05 Historical awareness, SSP.06 Geographic awareness",
+          "DOK 1–3",
+          "C · E · G · H · P"
+        ],
+        [
+          "<strong>US.02</strong>",
+          "US.02 – Examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act.",
+          "SSP.01 Collect from sources, SSP.02 Examine a source, SSP.03 Synthesize / compare sources, SSP.05 Historical awareness, SSP.06 Geographic awareness",
+          "DOK 1–3",
+          "C · G · H · P · T"
+        ],
+        [
+          "<strong>US.03</strong>",
+          "US.03 – Explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Benjamin \"Pap\" Singleton and the Exodusters, and the Plessy v. Ferguson decision. (TCA)",
+          "SSP.01 Collect from sources, SSP.02 Examine a source, SSP.03 Synthesize / compare sources, SSP.04 Construct arguments, SSP.05 Historical awareness",
+          "DOK 1–3",
+          "C · G · H · P · T · TCA"
+        ],
+        [
+          "<strong>US.04</strong>",
+          "US.04 – Analyze the causes and consequences of Gilded Age politics and economics as well as the significance of the rise of political machines, major scandals, civil service reform, and the economic difference between farmers, wage earners, and industrial capitalists, including: Boss Tweed, Thomas Nast, Credit Mobilier, Spoils system and President James A. Garfield's assassination, Pendleton Act, Interstate Commerce Act.",
+          "SSP.01 Collect from sources, SSP.02 Examine a source, SSP.03 Synthesize / compare sources, SSP.04 Construct arguments, SSP.05 Historical awareness",
+          "DOK 1–3",
+          "C · E · G · H · P"
+        ],
+        [
+          "<strong>US.05</strong>",
+          "US.05 – Describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including: Alexander Graham Bell, Henry Bessemer, Andrew Carnegie, Thomas Edison, J.P. Morgan, John D. Rockefeller, Nikola Tesla, Cornelius Vanderbilt, Madam C.J. Walker, George Washington Carver.",
+          "SSP.01 Collect from sources, SSP.02 Examine a source, SSP.05 Historical awareness",
+          "DOK 1–3",
+          "C · E · H"
+        ],
+        [
+          "<strong>US.06</strong>",
+          "US.06 – Locate the following major industrial centers, and describe how industrialization influenced the movement of people from rural to urban areas: Boston, Chicago, New York City, Pittsburgh, San Francisco.",
+          "SSP.01 Collect from sources, SSP.05 Historical awareness, SSP.06 Geographic awareness",
+          "DOK 1–3",
+          "C · E · G · H"
+        ],
+        [
+          "<strong>US.07</strong>",
+          "US.07 – Describe the differences between \"old\" and \"new\" immigrants, analyze the assimilation process for \"new\" immigrants, and determine the impacts of increased migration on American society, including: Angel Island, Ellis Island, Push and pull factors, Ethnic clusters, Jane Addams, Competition for jobs, Rise of nativism, Jacob Riis, Chinese Exclusion Act and Gentleman's Agreement.",
+          "SSP.01 Collect from sources, SSP.02 Examine a source, SSP.03 Synthesize / compare sources, SSP.04 Construct arguments, SSP.05 Historical awareness, SSP.06 Geographic awareness",
+          "DOK 1–3",
+          "C · E · G · H · P"
+        ]
+      ]
+    },
+    {
+      "type": "box",
+      "label": "Reviewer assurances",
+      "paras": [
+        "Standards alignment 100% · Content accuracy (Policy 2.600 — no known factual error ships) · Bias/sensitivity reviewed · Copyright: public-domain sources with citations · Accessibility: WCAG 2.2 AA / tagged PDF-UA (Rubric F) · Assessment items bank-sourced + content-verified."
+      ]
     }
   ],
   "standards": [
@@ -415,9 +495,9 @@
           "type": "box",
           "label": "Self-Check Key (commit your answers first!)",
           "paras": [
-            "<strong>1. A</strong> — “It encouraged settlement by offering 160 acres of public land to citizens who agreed…” is correct; the other options misstate a fact or overreach.",
-            "<strong>2. B</strong> — “Manifest Destiny provided the philosophical justification while the Transcontinental Railroad provided the practical means…” is correct; the other options misstate a fact or overreach.",
-            "<strong>3. C</strong> — “Rapid settlement of the Great Plains by small farmers who claimed 160-acre plots of…” is correct; the other options misstate a fact or overreach."
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">1.&nbsp;&nbsp;A</strong>&nbsp;&mdash;&nbsp;“It encouraged settlement by offering 160 acres of public land to citizens who agreed…” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">2.&nbsp;&nbsp;B</strong>&nbsp;&mdash;&nbsp;“Manifest Destiny provided the philosophical justification while the Transcontinental Railroad provided the practical means…” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">3.&nbsp;&nbsp;C</strong>&nbsp;&mdash;&nbsp;“Rapid settlement of the Great Plains by small farmers who claimed 160-acre plots of…” is correct; the other options misstate a fact or overreach.</span>"
           ]
         },
         {
@@ -848,9 +928,9 @@
           "type": "box",
           "label": "Self-Check Key (commit your answers first!)",
           "paras": [
-            "<strong>1. B</strong> — “Remove children from tribal influences and teach them Euro-American language, dress, religion, and labor…” is correct; the other options misstate a fact or overreach.",
-            "<strong>2. C</strong> — “It forced tribes onto restricted land, undermining their traditional economies and self-governing institutions” is correct; the other options misstate a fact or overreach.",
-            "<strong>3. D</strong> — “The reservation system preserved tribal land ownership collectively, while the Dawes Act broke up…” is correct; the other options misstate a fact or overreach."
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">1.&nbsp;&nbsp;B</strong>&nbsp;&mdash;&nbsp;“Remove children from tribal influences and teach them Euro-American language, dress, religion, and labor…” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">2.&nbsp;&nbsp;C</strong>&nbsp;&mdash;&nbsp;“It forced tribes onto restricted land, undermining their traditional economies and self-governing institutions” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">3.&nbsp;&nbsp;D</strong>&nbsp;&mdash;&nbsp;“The reservation system preserved tribal land ownership collectively, while the Dawes Act broke up…” is correct; the other options misstate a fact or overreach.</span>"
           ]
         },
         {
@@ -1285,9 +1365,9 @@
           "type": "box",
           "label": "Self-Check Key (commit your answers first!)",
           "paras": [
-            "<strong>1. C</strong> — “Literacy tests combined with grandfather clauses” is correct; the other options misstate a fact or overreach.",
-            "<strong>2. D</strong> — “It resolved the disputed 1876 presidential election by awarding the presidency to Hayes in…” is correct; the other options misstate a fact or overreach.",
-            "<strong>3. A</strong> — “Poll taxes that required payment to vote, which most poor freedmen could not afford” is correct; the other options misstate a fact or overreach."
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">1.&nbsp;&nbsp;C</strong>&nbsp;&mdash;&nbsp;“Literacy tests combined with grandfather clauses” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">2.&nbsp;&nbsp;D</strong>&nbsp;&mdash;&nbsp;“It resolved the disputed 1876 presidential election by awarding the presidency to Hayes in…” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">3.&nbsp;&nbsp;A</strong>&nbsp;&mdash;&nbsp;“Poll taxes that required payment to vote, which most poor freedmen could not afford” is correct; the other options misstate a fact or overreach.</span>"
           ]
         },
         {
@@ -1728,9 +1808,9 @@
           "type": "box",
           "label": "Self-Check Key (commit your answers first!)",
           "paras": [
-            "<strong>1. D</strong> — “Exposed political corruption and influenced public opinion against” is correct; the other options misstate a fact or overreach.",
-            "<strong>2. A</strong> — “Garfield's assassin was a disappointed office-seeker, and public outrage over the spoils system created…” is correct; the other options misstate a fact or overreach.",
-            "<strong>3. B</strong> — “Unfair railroad pricing practices, including rate discrimination and secret rebates that harmed farmers and…” is correct; the other options misstate a fact or overreach."
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">1.&nbsp;&nbsp;D</strong>&nbsp;&mdash;&nbsp;“Exposed political corruption and influenced public opinion against” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">2.&nbsp;&nbsp;A</strong>&nbsp;&mdash;&nbsp;“Garfield's assassin was a disappointed office-seeker, and public outrage over the spoils system created…” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">3.&nbsp;&nbsp;B</strong>&nbsp;&mdash;&nbsp;“Unfair railroad pricing practices, including rate discrimination and secret rebates that harmed farmers and…” is correct; the other options misstate a fact or overreach.</span>"
           ]
         },
         {
@@ -2161,9 +2241,9 @@
           "type": "box",
           "label": "Self-Check Key (commit your answers first!)",
           "paras": [
-            "<strong>1. A</strong> — “Rockefeller used horizontal integration to buy out competing oil refineries while Carnegie used vertical…” is correct; the other options misstate a fact or overreach.",
-            "<strong>2. B</strong> — “It enabled real-time voice communication over long distances, transforming business coordination and commercial transactions” is correct; the other options misstate a fact or overreach.",
-            "<strong>3. C</strong> — “Alternating current (AC) could transmit electricity over long distances efficiently, making nationwide electrical infrastructure…” is correct; the other options misstate a fact or overreach."
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">1.&nbsp;&nbsp;A</strong>&nbsp;&mdash;&nbsp;“Rockefeller used horizontal integration to buy out competing oil refineries while Carnegie used vertical…” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">2.&nbsp;&nbsp;B</strong>&nbsp;&mdash;&nbsp;“It enabled real-time voice communication over long distances, transforming business coordination and commercial transactions” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">3.&nbsp;&nbsp;C</strong>&nbsp;&mdash;&nbsp;“Alternating current (AC) could transmit electricity over long distances efficiently, making nationwide electrical infrastructure…” is correct; the other options misstate a fact or overreach.</span>"
           ]
         },
         {
@@ -2610,9 +2690,9 @@
           "type": "box",
           "label": "Self-Check Key (commit your answers first!)",
           "paras": [
-            "<strong>1. B</strong> — “Used photography to make middle-class Americans viscerally aware of tenement conditions” is correct; the other options misstate a fact or overreach.",
-            "<strong>2. C</strong> — “It had access to coal, iron ore, and river transportation” is correct; the other options misstate a fact or overreach.",
-            "<strong>3. D</strong> — “Education, job training, childcare, English language classes, and community space” is correct; the other options misstate a fact or overreach."
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">1.&nbsp;&nbsp;B</strong>&nbsp;&mdash;&nbsp;“Used photography to make middle-class Americans viscerally aware of tenement conditions” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">2.&nbsp;&nbsp;C</strong>&nbsp;&mdash;&nbsp;“It had access to coal, iron ore, and river transportation” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">3.&nbsp;&nbsp;D</strong>&nbsp;&mdash;&nbsp;“Education, job training, childcare, English language classes, and community space” is correct; the other options misstate a fact or overreach.</span>"
           ]
         },
         {
@@ -3071,9 +3151,9 @@
           "type": "box",
           "label": "Self-Check Key (commit your answers first!)",
           "paras": [
-            "<strong>1. C</strong> — “Language barriers, cultural differences, and nativist discrimination made social and economic integration difficult” is correct; the other options misstate a fact or overreach.",
-            "<strong>2. D</strong> — “Ellis Island processed primarily European immigrants with relatively brief inspections, while Angel Island subjected…” is correct; the other options misstate a fact or overreach.",
-            "<strong>3. A</strong> — “New immigrants came from Southern and Eastern Europe with different languages and religions” is correct; the other options misstate a fact or overreach."
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">1.&nbsp;&nbsp;C</strong>&nbsp;&mdash;&nbsp;“Language barriers, cultural differences, and nativist discrimination made social and economic integration difficult” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">2.&nbsp;&nbsp;D</strong>&nbsp;&mdash;&nbsp;“Ellis Island processed primarily European immigrants with relatively brief inspections, while Angel Island subjected…” is correct; the other options misstate a fact or overreach.</span>",
+            "<span style=\"display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt\"><strong style=\"color:#1B5E20;font-size:10.5pt\">3.&nbsp;&nbsp;A</strong>&nbsp;&mdash;&nbsp;“New immigrants came from Southern and Eastern Europe with different languages and religions” is correct; the other options misstate a fact or overreach.</span>"
           ]
         },
         {
@@ -3173,6 +3253,48 @@
           "type": "lines",
           "n": 3
         }
+      ]
+    }
+  ],
+  "back": [
+    {
+      "type": "head",
+      "text": "UDL 3.0 Supports (CAST, 2024)",
+      "sub": "the access design built into this workbook"
+    },
+    {
+      "type": "box",
+      "label": "Universal Design for Learning — three principles",
+      "paras": [
+        "Supports add paths; they never lower the goal. This page names the real affordances this book delivers, in addition to each activity’s per-standard NOTES SUPPORTS."
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "UDL 3.0 principle",
+        "How this workbook delivers it"
+      ],
+      "rows": [
+        [
+          "<strong>Engagement</strong><br>(the “why”)",
+          "Essential Questions + hooks · SET YOUR SMART GOAL · confidence check-ins · CER stance choice · Future Ready relevance"
+        ],
+        [
+          "<strong>Representation</strong><br>(the “what”)",
+          "EN/ES vocabulary + plain-language defs · primary-source images · Cornell chunking · dual-coding Doodle Zone · deck read-aloud (app)"
+        ],
+        [
+          "<strong>Action &amp; Expression</strong><br>(the “how”)",
+          "Guided Cornell + graphic organizers · CER + HIPPO frames · Practice-Quiz self-check · SPEAK IT Mission Brief · notebook-lined write space throughout"
+        ]
+      ]
+    },
+    {
+      "type": "box",
+      "label": "Citation",
+      "paras": [
+        "CAST (2024). <em>Universal Design for Learning Guidelines version 3.0.</em> Supports work alongside — never in place of — a student’s IEP/504 accommodations."
       ]
     }
   ]

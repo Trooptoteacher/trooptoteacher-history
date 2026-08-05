@@ -144,11 +144,14 @@ def act6_quiz(code):
         q.append(f"<strong>{n}.</strong> {it['stem']}<br>{opts}")
     blocks.append({"type": "box", "label": "Choose the best answer (circle a letter)", "paras": q})
     # self-check key: correct letter + one-line rationale (derived from the verified correct choice)
+    # LOCKED format: each answer INDENTED (hanging indent) with the item number + LETTER in bold.
     key = []
     for n, it in enumerate(items, 1):
         L = it["key"]; correct = it["choices"].get(L, "")
         why = " ".join(correct.split()[:14]) + ("…" if len(correct.split()) > 14 else "")
-        key.append(f"<strong>{n}. {L}</strong> — “{why}” is correct; the other options misstate a fact or overreach.")
+        key.append(f'<span style="display:block;padding-left:26pt;text-indent:-26pt;margin-bottom:3pt">'
+                   f'<strong style="color:#1B5E20;font-size:10.5pt">{n}.&nbsp;&nbsp;{L}</strong>'
+                   f'&nbsp;&mdash;&nbsp;“{why}” is correct; the other options misstate a fact or overreach.</span>')
     blocks.append({"type": "box", "label": "Self-Check Key (commit your answers first!)", "paras": key})
     blocks.append({"type": "tag", "color": "#1B5E20",
                    "text": "Future Ready · Integrity / Lifelong learning — self-scoring honestly, then acting on the miss."})
@@ -223,6 +226,58 @@ def gen_standard(code):
     return {"code": code, "title": v["title"], "blocks": blocks}
 
 
+# SSP verbatim short labels — from unit-content-build v1.2 references/adoption-crosswalk-and-ssp.md
+SSP_TEXT = {
+    "SSP.01": "Collect from sources (primary + secondary)",
+    "SSP.02": "Examine a source (POV, purpose, bias; evidence vs. assertion)",
+    "SSP.03": "Synthesize / compare sources (corroborate; find disparities)",
+    "SSP.04": "Construct arguments (claim + evidence; cause/effect — CER)",
+    "SSP.05": "Historical awareness (continuity & change; context; empathy)",
+    "SSP.06": "Geographic awareness (place, region, spatial pattern, maps)",
+}
+
+
+def adoption_crosswalk():
+    # LOCKED gate (v1.2): per-standard verbatim TDOE standard + SSPs + DOK + reviewer assurances.
+    rows = []
+    for code in ORDER:
+        v = BUILD[code]
+        tdoe = v.get("tnStandard", f"{code} — {v['title']}")
+        ssps = ", ".join(f"{s} {SSP_TEXT.get(s, '').split('(')[0].strip()}" for s in v.get("ssps", []))
+        d = DIMS["standards"][code]["dimensions"]
+        rows.append([f"<strong>{code}</strong>", tdoe, ssps, "DOK 1–3", " · ".join(d)])
+    return [
+        {"type": "head", "text": "Standards Alignment / Adoption Crosswalk", "sub": "TDOE Schedule F · Policy 2.600 — reviewer-facing"},
+        {"type": "box", "label": "How to read this", "paras": [
+            "Per standard: the verbatim TDOE standard, the Social Studies Practices (SSP.01–06) it exercises, "
+            "DOK coverage, and the disciplinary Lenses. The 7-activity spine exercises these SSPs "
+            "(source read → SSP.01/02 · compare → SSP.03 · CER → SSP.04 · sequence/context → SSP.05 · map/region → SSP.06)."]},
+        {"type": "table", "head": ["Std", "Verbatim TDOE standard", "Social Studies Practices", "DOK", "Lenses"], "rows": rows},
+        {"type": "box", "label": "Reviewer assurances", "paras": [
+            "Standards alignment 100% · Content accuracy (Policy 2.600 — no known factual error ships) · "
+            "Bias/sensitivity reviewed · Copyright: public-domain sources with citations · "
+            "Accessibility: WCAG 2.2 AA / tagged PDF-UA (Rubric F) · Assessment items bank-sourced + content-verified."]},
+    ]
+
+
+def udl_back_page():
+    # LOCKED gate (v1.2): dedicated UDL 3.0 (CAST 2024) supports back page — 3-principle crosswalk.
+    rows = [
+        ["<strong>Engagement</strong><br>(the “why”)", "Essential Questions + hooks · SET YOUR SMART GOAL · confidence check-ins · CER stance choice · Future Ready relevance"],
+        ["<strong>Representation</strong><br>(the “what”)", "EN/ES vocabulary + plain-language defs · primary-source images · Cornell chunking · dual-coding Doodle Zone · deck read-aloud (app)"],
+        ["<strong>Action &amp; Expression</strong><br>(the “how”)", "Guided Cornell + graphic organizers · CER + HIPPO frames · Practice-Quiz self-check · SPEAK IT Mission Brief · notebook-lined write space throughout"],
+    ]
+    return [
+        {"type": "head", "text": "UDL 3.0 Supports (CAST, 2024)", "sub": "the access design built into this workbook"},
+        {"type": "box", "label": "Universal Design for Learning — three principles", "paras": [
+            "Supports add paths; they never lower the goal. This page names the real affordances this book delivers, "
+            "in addition to each activity’s per-standard NOTES SUPPORTS."]},
+        {"type": "table", "head": ["UDL 3.0 principle", "How this workbook delivers it"], "rows": rows},
+        {"type": "box", "label": "Citation", "paras": [
+            "CAST (2024). <em>Universal Design for Learning Guidelines version 3.0.</em> Supports work alongside — never in place of — a student’s IEP/504 accommodations."]},
+    ]
+
+
 def front_matter():
     legend = ("<strong>Lenses/Dimensions pills:</strong> C Culture · E Economics · G Geography · H History · "
               "P Politics/Government · T Tennessee · TCA Tennessee Code Annotated. "
@@ -264,8 +319,9 @@ def main():
         "edition": "Course Standard Edition",
         "runhead": "U.S. History Hack™ · Unit 1 · Course Standard Edition",
         "runfoot": "U.S. History Hack™ · Unit 1 (Course Standard)   ·   © 2026 TroopToTeacher Technologies LLC",
-        "front": front_matter(),
+        "front": front_matter() + adoption_crosswalk(),
         "standards": [gen_standard(c) for c in ORDER],
+        "back": udl_back_page(),
     }
     UNIT_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2))
     tot = sum(len(s["blocks"]) for s in data["standards"])

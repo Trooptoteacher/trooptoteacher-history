@@ -55,6 +55,13 @@ fail any PR that reintroduces a name collision, a retired name, a dangling refer
 that inlines a gate. Front door: `00_START_HERE/BUILD_STANDARD.md`. Brand: `00_START_HERE/BRAND_PALETTE.md`
 (**America 250**).
 
+**BUILD PREFLIGHT (LOCKED — run before ANY build).** Never build from memory. First: (1) find the owning
+skill in `SKILLS.md`; (2) pull the **most-updated** skill from `main` (`git show origin/main:.claude/skills/<skill>/SKILL.md`)
+— the work-branch copy may be stale; if assets look moved, check `main`, `courses/world-history/`, and
+`history-hack-new-course-builder/references/`; (3) extract every LOCKED gate into a checklist; (4) build to meet
+**every** gate; (5) verify (e.g. `print-pipeline/verify_workbook_platinum.py`, exit 0) and report held gates
+honestly. Full protocol: `00_START_HERE/BUILD_PREFLIGHT.md`.
+
 ## Production guardrails — print-first platform (LOCKED)
 
 **Documents (workbooks, teacher guides, answer keys, organizers) — DOCX-native → PDF.**

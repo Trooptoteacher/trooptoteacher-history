@@ -122,6 +122,9 @@ def render_unit(data) -> str:
     for std in data["standards"]:
         body += f'<div class="standard">{esc(std["code"])} — {esc(std["title"])}</div>'
         body += render_blocks(std["blocks"])
+    if data.get("back"):
+        body += '<div style="break-before:page"></div>'
+        body += render_blocks(data["back"])
     css = (ROOT / "styles" / "workbook.css").as_uri()
     return (f'<!doctype html><html><head><meta charset="utf-8">'
             f'<link rel="stylesheet" href="{css}"></head><body>{body}</body></html>')

@@ -47,8 +47,20 @@ def check(path):
     fails = []
 
     front = texts(data.get("front", []))
+    back = texts(data.get("back", []))
     if "My SMART Goals" not in front:
         fails.append("FRONT MATTER: missing 'My SMART Goals' page")
+    # v1.2 LOCKED gates (unit-content-build v1.2)
+    if "Adoption Crosswalk" not in front and "Standards Alignment" not in front:
+        fails.append("v1.2 LOCKED: missing Standards Alignment / Adoption Crosswalk front-matter (verbatim TDOE + SSP.01-06)")
+    for ssp in ("SSP.01", "SSP.04", "SSP.06"):
+        if ssp not in front:
+            fails.append(f"v1.2 LOCKED: adoption crosswalk missing {ssp}")
+            break
+    if "Reviewer assurances" not in front:
+        fails.append("v1.2 LOCKED: adoption crosswalk missing reviewer-assurances block")
+    if "UDL 3.0" not in back or "CAST" not in back:
+        fails.append("v1.2 LOCKED: missing UDL 3.0 (CAST 2024) supports back page")
 
     stds = data.get("standards", [])
     if not stds:
