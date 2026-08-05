@@ -291,33 +291,45 @@ function reviewSlide(code, review){
 // sequence ramps DOK 1 -> DOK 2/3. Builds momentum / secures a high success rate
 // for striving + EL students (Rosenshine P3 Ask Questions, P7 High Success Rate).
 function confidenceCheckSlide(code, w){
+  // LOCKED — Sean: the answer must NEVER share a slide with its question. Two-slide pair:
+  // (A) question only (students commit), then advance to (B) the reveal.
+  // ---- Slide A: QUESTION ONLY ----
   const s = pptx.addSlide();
   s.background = { color: CREAM };
   s.addShape(pptx.ShapeType.rect, { x:0, y:0, w:W, h:0.16, fill:{color:GOLD} });
   kicker(s, `${code} · Confidence Check`, 0.6, 0.45, RED);
   s.addText('Warm-Up — Quick Recall', { x:0.6, y:0.8, w:8.6, h:0.7, fontFace:HEAD, fontSize:30, color:NAVY, bold:true });
-  // DOK 1 badge (entry-level recall) so the ramp DOK1->DOK2/3 is explicit on-slide.
   s.addShape(pptx.ShapeType.roundRect, { x:9.5, y:0.86, w:1.25, h:0.5, rectRadius:0.1, fill:{color:'FBEFD0'}, line:{color:GOLD,width:1.25} });
   s.addText('DOK 1', { x:9.5, y:0.86, w:1.25, h:0.5, fontFace:LABEL, fontSize:12, color:RED, bold:true, align:'center', valign:'middle' });
   s.addShape(pptx.ShapeType.roundRect, { x:10.9, y:0.86, w:1.8, h:0.5, rectRadius:0.1, fill:{color:NAVY} });
   s.addText('LOW STAKES', { x:10.9, y:0.86, w:1.8, h:0.5, fontFace:LABEL, fontSize:11, color:GOLDBR, bold:true, align:'center', valign:'middle' });
-  s.addText('Everyone can answer this. Thumbs / whiteboards — no notes.',
+  s.addText('Everyone can answer this. Thumbs / whiteboards — no notes. Commit BEFORE the next slide.',
     { x:0.6, y:1.5, w:12.1, h:0.4, fontFace:BODY, fontSize:14, italic:true, color:MUTE });
-  // The question — large, centered for whole-class read-aloud.
-  s.addShape(pptx.ShapeType.roundRect, { x:0.6, y:2.15, w:12.1, h:2.05, rectRadius:0.1, fill:{color:NAVY} });
-  s.addText(w.q, { x:1.1, y:2.4, w:11.1, h:1.55, fontFace:HEAD, fontSize:24, color:WHITE, bold:true, valign:'middle', align:'center', lineSpacingMultiple:1.08 });
-  // Reveal-on-advance pattern, kept on one slide for a quick low-stakes warm-up:
-  // a gold "answer" band students see only after they commit.
-  s.addShape(pptx.ShapeType.roundRect, { x:0.6, y:4.45, w:12.1, h:1.5, rectRadius:0.1, fill:{color:'FBEFD0'}, line:{color:GOLD,width:1.5} });
-  s.addText('✓ ANSWER', { x:1.0, y:4.62, w:3, h:0.35, fontFace:LABEL, fontSize:12, color:KEYGRN, bold:true, charSpacing:2 });
-  s.addText(w.a, { x:1.0, y:5.0, w:11.3, h:0.85, fontFace:BODY, fontSize:16, color:INK, valign:'top', lineSpacingMultiple:1.08 });
-  s.addShape(pptx.ShapeType.roundRect, { x:0.6, y:6.15, w:12.1, h:0.5, rectRadius:0.08, fill:{color:WHITE}, line:{color:GOLD,width:1} });
+  s.addShape(pptx.ShapeType.roundRect, { x:0.6, y:2.35, w:12.1, h:2.9, rectRadius:0.1, fill:{color:NAVY} });
+  s.addText(w.q, { x:1.1, y:2.65, w:11.1, h:2.3, fontFace:HEAD, fontSize:26, color:WHITE, bold:true, valign:'middle', align:'center', lineSpacingMultiple:1.1 });
+  s.addShape(pptx.ShapeType.roundRect, { x:0.6, y:5.55, w:12.1, h:0.6, rectRadius:0.08, fill:{color:WHITE}, line:{color:GOLD,width:1} });
   s.addText([
     {text:'COMMIT FIRST:  ', options:{bold:true, color:RED, fontFace:LABEL, charSpacing:1}},
-    {text:'have everyone answer before the reveal — this is the DOK 1 floor; the graded check later in this lesson moves up to DOK 2–3.', options:{color:MUTE}}
-  ], { x:0.9, y:6.15, w:11.5, h:0.5, fontFace:BODY, fontSize:11.5, italic:true, valign:'middle' });
-  s.addNotes('CONFIDENCE CHECK ('+code+', DOK 1). 60-90 seconds. Have EVERY student commit (thumbs / whiteboard / choral) before revealing — this secures an early win and surfaces who is shaky before new content. Answer: '+w.a+' Key term to listen for: '+(w.term||'—')+'. This is the low-floor entry; the graded Check for Understanding later in the standard rises to DOK 2–3.');
+    {text:'everyone answers now — then advance to reveal. This is the DOK 1 floor; the graded check later rises to DOK 2–3.', options:{color:MUTE}}
+  ], { x:0.9, y:5.55, w:11.5, h:0.6, fontFace:BODY, fontSize:11.5, italic:true, valign:'middle' });
+  s.addNotes('CONFIDENCE CHECK — QUESTION ('+code+', DOK 1). 60-90 sec. EVERY student commits (thumbs / whiteboard / choral) BEFORE you advance to the reveal slide. Do not show the answer yet. (Answer is on the next slide.)');
   footer(s, ++page, false);
+  // ---- Slide B: REVEAL ----
+  const r = pptx.addSlide();
+  r.background = { color: CREAM };
+  r.addShape(pptx.ShapeType.rect, { x:0, y:0, w:W, h:0.16, fill:{color:GOLD} });
+  kicker(r, `${code} · Confidence Check — Reveal`, 0.6, 0.45, KEYGRN);
+  r.addText('Warm-Up — Answer', { x:0.6, y:0.8, w:9.5, h:0.7, fontFace:HEAD, fontSize:30, color:NAVY, bold:true });
+  // restate the question (smaller) so the reveal stands alone
+  r.addShape(pptx.ShapeType.roundRect, { x:0.6, y:1.7, w:12.1, h:1.5, rectRadius:0.1, fill:{color:NAVY} });
+  r.addText(w.q, { x:1.0, y:1.85, w:11.3, h:1.2, fontFace:HEAD, fontSize:17, color:WHITE, bold:true, valign:'middle', align:'center', lineSpacingMultiple:1.05 });
+  r.addShape(pptx.ShapeType.roundRect, { x:0.6, y:3.5, w:12.1, h:2.6, rectRadius:0.1, fill:{color:'FBEFD0'}, line:{color:GOLD,width:1.5} });
+  r.addText('✓ ANSWER', { x:1.0, y:3.72, w:3, h:0.4, fontFace:LABEL, fontSize:13, color:KEYGRN, bold:true, charSpacing:2 });
+  r.addText(w.a, { x:1.0, y:4.2, w:11.3, h:1.75, fontFace:BODY, fontSize:18, color:INK, valign:'top', lineSpacingMultiple:1.12 });
+  if(w.term) r.addText([{text:'Key term:  ', options:{bold:true, color:RED, fontFace:LABEL}}, {text:w.term, options:{color:NAVY, bold:true}}],
+    { x:0.6, y:6.25, w:12.1, h:0.4, fontFace:BODY, fontSize:12.5, valign:'middle' });
+  r.addNotes('CONFIDENCE CHECK — REVEAL ('+code+', DOK 1). Reveal only after every student has committed. Answer: '+w.a+' Key term to listen for: '+(w.term||'—')+'. Celebrate the early win, then move into new content.');
+  footer(r, ++page, false);
 }
 
 function hookSlide(code, v, hookText, prompt){
@@ -570,15 +582,11 @@ function vocabSlide(code, v){
     ], { x:cx+0.15, y:cy+0.40, w:cw-2.85, h:0.28, valign:'middle', fit:'shrink' });
     // Spanish term (right side of header, vertically centered)
     if(t.es) s.addText(t.es, { x:cx+cw-2.55, y:cy, w:2.4, h:hdrH, fontFace:BODY, fontSize:10, italic:true, color:GOLDBR, align:'right', valign:'middle', fit:'shrink' });
-    // ELL #2 — dual-coding visual anchor: a gold chip showing the term's initials at the
-    // left of the definition area. A consistent non-text visual marker per card aids
-    // newcomer ELLs without relying on emoji glyphs (which render unreliably on school PCs).
-    const initials = t.term.split(/\s+/).slice(0,2).map(wd=>wd.charAt(0).toUpperCase()).join('');
-    s.addShape(pptx.ShapeType.roundRect, { x:cx+0.13, y:cy+hdrH+0.08, w:0.5, h:0.5, rectRadius:0.08, fill:{color:'F3EAD0'}, line:{color:GOLD,width:1} });
-    s.addText(initials, { x:cx+0.13, y:cy+hdrH+0.08, w:0.5, h:0.5, fontFace:HEAD, fontSize:15, color:A250BLUE, bold:true, align:'center', valign:'middle' });
-    s.addText(trunc(t.def, 215), { x:cx+0.74, y:cy+hdrH+0.08, w:cw-0.88, h:ch-hdrH-0.18, fontFace:BODY, fontSize:11, color:INK, valign:'top', lineSpacingMultiple:1.04 });
+    // (LOCKED — Sean: NO per-term initials chip on the word wall. Removed the "HA"-style
+    // dual-coding initials anchor; the definition fills the full card width instead.)
+    s.addText(trunc(t.def, 240), { x:cx+0.15, y:cy+hdrH+0.08, w:cw-0.30, h:ch-hdrH-0.18, fontFace:BODY, fontSize:11, color:INK, valign:'top', lineSpacingMultiple:1.04 });
   });
-  s.addText('"say:" pronunciation guide (stressed syllable in CAPS) and a per-term visual anchor support newcomer English learners. Spanish term + full bilingual Frayer models are in the unit vocabulary set.',
+  s.addText('"say:" pronunciation guide (stressed syllable in CAPS) supports newcomer English learners. Spanish term + full bilingual Frayer models are in the unit vocabulary set.',
     { x:0.6, y:6.45, w:12.1, h:0.35, fontFace:BODY, fontSize:10, italic:true, color:MUTE });
   footer(s, ++page, false);
 }
