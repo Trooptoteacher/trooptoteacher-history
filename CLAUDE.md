@@ -48,6 +48,16 @@ responsible-tech / anti-overuse model, the AP/IB pipeline goal, the seven-curric
 
 ## Canonical set (one job, one owner)
 
+> **STOP — PULL THE CURRENT SKILL BEFORE YOU BUILD.** Never build, rebuild, format, render, or QC **any**
+> artifact — workbook, teacher/student slide deck, graphic organizer, poster, DBQ, assessment or test,
+> worksheet, comic, web page, or anything else — from memory, a cached copy, or a prior session. **Re-read the
+> CURRENT governing skill(s) from `main` first** — skills are the single source of truth and change only via
+> skills-only PRs. Then **resolve + declare the course** and honor the **Course-Binding Standard**
+> (`.claude/skills/history-hack-new-course-builder/references/course-binding-and-walls.md`): read only that
+> course's standards/content, emit only its prefix (US/GC/W/TN/…), and **never** read from or write to the
+> protected `us-history` flagship on a non-US build. One shared skillset, seven walled courses — never crossed.
+> If you cannot confirm you are on the current skill, **STOP and pull it first.**
+
 `.claude/skills/` is **main-owned and read-only on work branches.** Skills change only via a
 skills-only PR to `main`; content branches rebase and consume them read-only. The registry
 `.claude/skills/SKILLS.md` names one owner per job; `lint_skills.py` + the `skills-lint` CI workflow
