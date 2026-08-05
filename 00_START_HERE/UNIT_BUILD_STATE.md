@@ -53,3 +53,26 @@ The canonical primary-source + image bank lives in repo **`Trooptoteacher/histor
 3. **Recover the DBQ corpus** (`unit-N-sources.json`) from the Drive Source-of-Truth doc; commit into `history-hack-dbq-workbook`; rebuild the Unit 1/6 **Primary Source Packet** (HIPPO) via the qualified generator.
 4. **Graphic organizer toolkit** rebuild via the correct skill (real shapes).
 5. Consolidate the Primary Source Packet generator + corpus into the skill on `main`; add the step + guardrail to `history-hack-new-course-builder`.
+
+## Repo map (4 repos) + skill consolidation plan — added 2026-08-05
+
+| Repo | Role | Canonical? |
+|---|---|---|
+| `trooptoteacher-history` | Curriculum + **skills** (`.claude/skills/`, 29) + guardrails + print-pipeline | **YES — single source of truth for skills** |
+| `history-hack-web-app` | Primary-source **corpus** (309 text + 112 img), image files, **question bank** (Next.js app) | YES — runtime/data source of truth |
+| `History-Hack-US-History-Workbooks` | Production catalog + **Primary Source Packet generator** (`build_unit_standard.py`); built PDFs (Azure/Drive) | build/catalog |
+| `history-hack-skill-library` | **Backup bundle** of 9 QC/compliance skills as ZIPs + `qc-reports/` archive; versioned v1.0.0→v1.3.0 | **NO — backup only; partially stale** |
+
+**Skill-library status:** subset backup, NOT canonical. Still ships the RETIRED `tcap-item-writer-v2`
+(canonical retired it → `tn-assessment-specialist`). Its Aug-4 v1.2.0/v1.3.0 commits added two things
+unique to the backup that must be PORTED into canonical `.claude/skills/`:
+1. **`future-ready-framework`** standalone skill (canonical has it only as FRAMEWORKS_CANON §5 — never promoted). → promote as a real skill dir + register in SKILLS.md.
+2. **SSP.01–06 required per assessment item** (added under the retired `tcap-item-writer-v2`). → verify/fold into `tn-assessment-specialist`.
+
+**Consolidation (do in the next chat):** (a) port the two items above into canonical via a skills-only PR;
+(b) repurpose `history-hack-skill-library` as an auto-generated backup (zip canonical skills on release) —
+stop hand-editing skills there; (c) then the four repos have clear, non-overlapping roles.
+
+**Commit built PDFs to a repo (Sean directive):** stop leaving built distribution PDFs Drive-only. Commit
+them into `History-Hack-US-History-Workbooks` under a tracked `books/` path (or Git LFS) — remove the
+`*.pdf` gitignore for the shipped deliverables so every artifact (source AND output) lives in a repo.
