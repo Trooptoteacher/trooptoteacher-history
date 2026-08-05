@@ -1,11 +1,12 @@
 ---
 name: history-hack-unit-content-build
-description: "End-to-end pipeline for building a complete History Hack U.S. History **unit (Course Standard) content set** to the Platinum bar — the exact process proven on Unit 6 (WWII, US.45–US.58). This builds the **unit student workbook** (the lesson-by-lesson book: 7-activity cycle, guided Cornell notes, back-page UDL/MTSS supports, deck-aligned spine) and its companions — NOT a standalone DBQ packet (that is a separate product; use `history-hack-dbq-workbook` for the DBQ SKU). Use when asked to build, finish, remediate, or QA a unit's four-piece set: Student Workbook, Teacher How-to-Use & MTSS Guide, Student (Lean) slide deck, and Teacher (Full) slide deck; to add guided Cornell notes + the NOTES SUPPORTS ladder, add back-page UDL/MTSS supports, rewrite hooks, rebuild practice quizzes from the authoritative question bank, build the teacher answer-key guide, finalize decks to the canonical palette, or key the workbook to the deck slides. Enforces render-and-QC gates (zero blank pages), historically accurate models, bank-sourced quiz items verified by content, canonical branding, and bidirectional deck↔workbook slide-keying."
+description: "End-to-end pipeline for building a complete History Hack U.S. History **unit (Course Standard) content set** to the Platinum bar — the exact process proven on Unit 6 (WWII, US.45–US.58). This builds the **unit student workbook** (the lesson-by-lesson book: 7-activity cycle, guided Cornell notes, back-page UDL/MTSS supports, deck-aligned spine) and its companions — NOT a standalone DBQ packet (that is a separate product; use `history-hack-dbq-workbook` for the DBQ SKU). Use when asked to build, finish, remediate, or QA a unit's four-piece set: Student Workbook, Teacher How-to-Use & MTSS Guide, Student (Lean) slide deck, and Teacher (Full) slide deck; to add guided Cornell notes + the NOTES SUPPORTS ladder, add back-page UDL/MTSS supports, rewrite hooks, rebuild practice quizzes from the authoritative question bank, build the teacher answer-key guide, finalize decks to the canonical palette, or key the workbook to the deck slides. Enforces render-and-QC gates (zero blank pages), historically accurate models, bank-sourced quiz items verified by content, canonical branding, and bidirectional deck↔workbook slide-keying. Every unit also ships a Standards Alignment / Adoption Crosswalk with Social Studies Practices (SSP.01–06) + cross-curricular ELA, a UDL 3.0 (CAST, 2024) supports back page, generous notebook-lined writing space, and a tagged-PDF/UA accessibility (Schedule F 'Rubric F') gate."
 license: Proprietary
 metadata:
   author: "TroopToTeacher Technologies LLC"
-  version: "1.0"
+  version: "1.1"
   reference_implementation: "Unit 6 — World War II (US.45–US.58), Course Standard Edition"
+  changelog_1_1: "Added LOCKED gates: adoption crosswalk + SSP.01–06, UDL 3.0 (CAST 2024) back page, generous notebook-lined writing space, and tagged-PDF/UA accessibility (Rubric F). New reference references/adoption-crosswalk-and-ssp.md."
 ---
 
 # History Hack — Unit Content Build
@@ -82,6 +83,26 @@ Gold `#F9A825` are *broader*-palette America 250 tokens for special surfaces, no
   score only the indicators they touch; unit deliverables get full Tables 2–4 (/36). Resolve
   critical/major deficiencies before a section is "done." See `references/schedule-f-self-score.md`;
   the `tn-textbook-adoption-agent` skill runs the formal panel review.
+- **Adoption crosswalk + Social Studies Practices (LOCKED):** every unit ships a **Standards
+  Alignment / Adoption Crosswalk** listing, per standard: the **verbatim TDOE standard**, the
+  **Social Studies Practices (SSP.01–SSP.06)** it exercises, cross-curricular **TDOE ELA** links,
+  DOK coverage, and a reviewer-assurances block (accuracy/Policy 2.600, bias, copyright/PD sources,
+  accessibility, conventions). SSP appears in the workbook's alignment front-matter **and** the
+  crosswalk. See `references/adoption-crosswalk-and-ssp.md`.
+- **UDL 3.0 (CAST, 2024) back page (LOCKED):** every student workbook carries a dedicated **UDL 3.0
+  supports page on the verso/back** — the three-principle crosswalk (Engagement / Representation /
+  Action & Expression) naming the real affordances the book delivers, with the citation *CAST (2024).
+  Universal Design for Learning Guidelines version 3.0.* This is **in addition to** the per-standard
+  NOTES SUPPORTS ladder. Use the 3.0 names, never 2.x. (Design owner: `udl-cast-expert`.)
+- **Generous notebook-lined writing space (LOCKED):** every write-in activity gives students real
+  room — ruled **notebook lines** built as a borderless table with per-row bottom borders
+  (`notebook_table()`), sized to the task, never a single cramped line (regression guard on the
+  "too compact" feedback). See `references/guided-notes-and-supports.md`.
+- **Accessibility / Rubric F gate (LOCKED):** the delivered PDF is a **tagged PDF/UA** export
+  (`/Lang`, Title, `MarkInfo/Marked`, `DisplayDocTitle`) with complete **alt text**, logical reading
+  order, **WCAG 2.2 AA** contrast, and large-print/screen-reader friendliness; bilingual parity where
+  the edition requires it. Run **`accessibility-qc-agent`** as the terminal gate before release
+  (Section 508 / ADA Title II / Schedule F "Rubric F" accessibility).
 - Keep work on the designated branch; gated approval before release.
 
 ## Editions (absorbed from `course-standard-student-workbook` — one engine, five editions)
