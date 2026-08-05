@@ -1,0 +1,21 @@
+{
+  "runhead": "U.S. History Hack · Unit 1 · Graphic Organizer Toolkit",
+  "runfoot": "Unit 1 · Rise of Industrialization (US.01–US.07)",
+  "blocks": [
+    {"type": "orgtitle", "text": "Venn Diagram (2)", "tag": "Compare & Contrast"},
+    {"type": "whenwhy2", "text": "Task says “compare,” “contrast,” “how are they alike/different?” for TWO things.", "cite": "Marzano's #1 strategy — the shared zone forces students to name what overlaps, not just list traits."},
+    {"type": "venn", "left": "Only ______ (A)", "right": "Only ______ (B)", "both": "Both / shared"},
+    {"type": "udl"},
+
+    {"type": "orgtitle", "text": "Frayer Model", "tag": "Deep Vocabulary"},
+    {"type": "whenwhy2", "text": "Learning a key term deeply — definition, characteristics, examples, non-examples.", "cite": "Deep vocabulary processing; durable retention."},
+    {"type": "frayer", "term": "Key Term", "quads": ["Definition (own words)", "Characteristics", "Examples", "Non-examples"]},
+    {"type": "udl", "extend": "push higher-DOK — “Give a non-example that is easy to confuse with this term, and explain the difference.”"},
+
+    {"type": "orgtitle", "text": "Tennessee Connection", "tag": "★ Local ↔ National"},
+    {"type": "whenwhy2", "text": "Whenever a standard has a Tennessee tie: link the national event to our state/community and say why the local story matters.", "cite": "The local-to-national move — a History Hack signature."},
+    {"type": "table", "class": "write", "head": ["The national event / idea", "Our Tennessee (or local) connection", "Why the local story matters"],
+     "rows": [["", "", ""], ["", "", ""], ["", "", ""]]},
+    {"type": "udl"}
+  ]
+}
