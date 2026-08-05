@@ -8,6 +8,15 @@ metadata:
   changelog_3_4: "Course-parameterized. Resolves a course config from courses/<id>/course.json (id, displayName, standardsPrefix, standardsFile, assessmentSource, eocTestable) and derives titles, footers, standard codes, and the check-slide source/label from it instead of hardcoding U.S. History / TCAP EOC. Defaults to the U.S. History flagship. For non-EOC courses (e.g., World History) the deck is a benchmark lecture deck: identical structure and rigor, checks labeled 'standard-mastery' and sourced from the course's equated parallel-forms bank, footer uses the course displayName, no TCAP-EOC claim."
 ---
 
+> **STOP — PULL THE CURRENT SKILL BEFORE YOU BUILD.** Never build, rebuild, format, render, or QC ANY artifact —
+> workbook, teacher/student slide deck, graphic organizer, poster, DBQ, assessment or test, worksheet, comic,
+> web page, or anything else — from memory, a cached copy, or a prior session. **Re-read the CURRENT version of
+> THIS skill from `main` first** — skills are the single source of truth and change only via skills-only PRs.
+> Then **resolve + declare the course** and honor the **Course-Binding Standard**
+> (`history-hack-new-course-builder/references/course-binding-and-walls.md`): read only that course's
+> standards/content, emit only its prefix, and never read from or write to the protected `us-history` flagship
+> on a non-US build. If you cannot confirm you are on the current skill, **STOP and pull it first.**
+
 # History Hack TCAP Lecture Deck Builder
 
 Builds the **flagship U.S. History Hack TCAP lecture deck** (PowerPoint `.pptx`) for any unit, plus its matching **printable Teacher Answer Key (PDF)** and **teacher Usage Guide (.md)**, in the locked History Hack brand. This skill encodes the Unit 1 gold-standard pattern (v3.2, June 2026 — expert-panel reviewed; pedagogy, TCAP/rigor, accessibility/ELL, and visual sub-scores all independently re-scored to ≥9.5/10) so every future unit (US standards across Units 2–11) is regenerated identically — same structure, brand, imagery rules, click-reveal checks, and layered answer keys.

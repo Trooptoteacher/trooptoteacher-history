@@ -8,6 +8,15 @@ metadata:
   changelog_1_1: "Course-parameterized. Resolves a course config from courses/<id>/course.json (id, displayName, standardsPrefix, standardsFile, assessmentSource, eocTestable); derives the deck title, footer, standard codes, and check-slide source/label from it instead of hardcoding U.S. History / TCAP EOC. Defaults to the U.S. History flagship. For non-EOC courses (e.g., World History) the footer drops 'TCAP EOC' and check items come from the course's equated parallel-forms bank; layout and rigor are unchanged."
 ---
 
+> **STOP — PULL THE CURRENT SKILL BEFORE YOU BUILD.** Never build, rebuild, format, render, or QC ANY artifact —
+> workbook, teacher/student slide deck, graphic organizer, poster, DBQ, assessment or test, worksheet, comic,
+> web page, or anything else — from memory, a cached copy, or a prior session. **Re-read the CURRENT version of
+> THIS skill from `main` first** — skills are the single source of truth and change only via skills-only PRs.
+> Then **resolve + declare the course** and honor the **Course-Binding Standard**
+> (`history-hack-new-course-builder/references/course-binding-and-walls.md`): read only that course's
+> standards/content, emit only its prefix, and never read from or write to the protected `us-history` flagship
+> on a non-US build. If you cannot confirm you are on the current skill, **STOP and pull it first.**
+
 # History Hack Lean Deck Builder
 
 Builds the **lean, student-facing** companion to the full History Hack lecture deck. Where the full deck (`history-hack-tcap-deck-builder`) runs every standard as a complete lesson with teacher cues, word walls, and DOK-tiered checks, the **lean deck is uncluttered for projection**: a bold **assertion headline** over a large **public-domain evidence image**, plus a small fixed set of analysis slides. This is a for-sale "Platinum Standard" product — every deck must be classroom-ready, TDOE-defensible, and visually clean.
