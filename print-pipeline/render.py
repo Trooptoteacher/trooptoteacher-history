@@ -181,6 +181,90 @@ def b_venn(b) -> str:
             f'<div class="label right">{esc(b["right"])}</div></div>')
 
 
+def b_whenwhy(b) -> str:
+    return f'<div class="whenwhy"><b>When:</b> {rich(b["when"])} &nbsp;·&nbsp; <b>Why it works:</b> {rich(b["why"])}</div>'
+
+
+def b_causeeffect(b) -> str:
+    cl = b.get("cause_label", "Cause(s)")
+    el = b.get("effect_label", "Effect(s)")
+    return (f'<div class="causeeffect">'
+            f'<div><div class="col-label">{esc(cl)}</div><div class="cebox"></div></div>'
+            f'<div class="arrow">&rarr;</div>'
+            f'<div><div class="col-label">{esc(el)}</div><div class="cebox"></div></div></div>')
+
+
+def b_timeline(b) -> str:
+    rows = ""
+    for ev in b["events"]:
+        if isinstance(ev, str):
+            date = ev
+        elif isinstance(ev, (list, tuple)):
+            date = ev[0]
+        else:
+            date = ev.get("date", "")
+        rows += (f'<div class="tl-row"><div class="tl-date">{esc(date)}</div>'
+                 f'<div class="tl-event"></div></div>')
+    return f'<div class="timeline">{rows}</div>'
+
+
+def b_tnconn(b) -> str:
+    tie = f'<div class="tie">{rich(b["tie"])}</div>' if b.get("tie") else ""
+    lines = int(b.get("lines", 3))
+    prompt = b.get("prompt", "Local &rarr; National: how does this Tennessee example connect to the national story?")
+    return (f'<div class="tnconn"><div class="tn-head">Tennessee Connection</div>'
+            f'<div class="tn-body">{tie}<div class="tn-prompt">{prompt}</div>'
+            f'<div class="writelines" style="height:{lines*21}pt"></div></div></div>')
+
+
+def b_orgtitle(b) -> str:
+    tag = f' <span class="tag">— {rich(b["tag"])}</span>' if b.get("tag") else ""
+    return f'<div class="orgtitle">{rich(b["text"])}{tag}</div>'
+
+
+def b_whenwhy2(b) -> str:
+    cite = f' <span class="cite">{rich(b["cite"])}</span>' if b.get("cite") else ""
+    return f'<div class="whenwhy2"><span class="k">When to use · Why it works</span>{rich(b["text"])}{cite}</div>'
+
+
+UDL_DEFAULT = {
+    "scaffold": "offer a sentence starter or a small word bank, or let students complete part of the organizer with a partner first.",
+    "extend": "push higher-DOK — “Which case is stronger, and why?” or “What would change if one factor were different?”",
+    "choice": "students may write, say it aloud, draw/label, or build it (UDL response choice).",
+    "frame": "“______ because ______, which shows ______.”",
+}
+
+
+def b_udl(b) -> str:
+    d = {**UDL_DEFAULT, **{k: b[k] for k in ("scaffold", "extend", "choice", "frame") if b.get(k)}}
+    return (f'<div class="udl"><div class="k">Make it work for every student · UDL · MTSS</div>'
+            f'<div class="row"><span class="lab">Scaffold —</span> {rich(d["scaffold"])}</div>'
+            f'<div class="row"><span class="lab">Extend —</span> {rich(d["extend"])}</div>'
+            f'<div class="row"><span class="lab">Show it your way —</span> {rich(d["choice"])}</div>'
+            f'<div class="frame-line">Sentence frame: {rich(d["frame"])}</div></div>')
+
+
+def b_chain(b) -> str:
+    nodes = b["nodes"]
+    parts = []
+    for i, n in enumerate(nodes):
+        cap = f'<div class="cap">{esc(n)}</div>' if n else ""
+        parts.append(f'<div class="node">{cap}</div>')
+        if i < len(nodes) - 1:
+            parts.append('<div class="arr">&rarr;</div>')
+    return f'<div class="chain">{"".join(parts)}</div>'
+
+
+def b_supband(b) -> str:
+    cls = " light" if b.get("light") else ""
+    return f'<div class="supband{cls}">{rich(b["text"])}</div>'
+
+
+def b_modeled(b) -> str:
+    lab = f'<span class="k">{esc(b.get("label", "Modeled example"))}</span> ' if b.get("label", True) else ""
+    return f'<div class="modeled">{lab}{rich(b["text"])}</div>'
+
+
 def b_standard(b) -> str:
     return f'<div class="standard">{esc(b.get("code",""))} — {esc(b.get("title",""))}</div>' + \
         render_blocks(b.get("blocks", []))
@@ -192,7 +276,10 @@ BLOCKS = {
     "chapter": b_chapter, "section": b_section, "figure": b_figure, "sidebar": b_sidebar,
     "pullquote": b_pullquote, "source": b_source, "hippo": b_hippo, "writelines": b_writelines,
     "grid": b_grid, "frame": b_frame, "tchart": b_tchart, "frayer": b_frayer, "venn": b_venn,
-    "standard": b_standard,
+    "standard": b_standard, "whenwhy": b_whenwhy, "causeeffect": b_causeeffect,
+    "timeline": b_timeline, "tnconn": b_tnconn,
+    "orgtitle": b_orgtitle, "whenwhy2": b_whenwhy2, "udl": b_udl, "chain": b_chain,
+    "supband": b_supband, "modeled": b_modeled,
 }
 
 

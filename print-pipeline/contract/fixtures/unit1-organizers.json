@@ -1,0 +1,91 @@
+{
+  "runhead": "U.S. History Hack · Unit 1 · Graphic Organizer Toolkit",
+  "runfoot": "Unit 1 · Rise of Industrialization (US.01–US.07)",
+  "blocks": [
+    {"type": "heading", "level": 1, "text": "Teacher Graphic Organizer Toolkit"},
+    {"type": "para", "text": "<strong>Unit 1 — The Rise of Industrialization (1877–1900) · US.01–US.07.</strong> Reproducible — you may copy these pages for classroom use. Part 1 is course-wide blank organizers you may copy for any standard; Part 2 is a pre-labeled best-fit organizer for each standard, with Tennessee connections flagged. Knowing <em>which</em> organizer to use, and <em>when</em>, is half the battle."},
+
+    {"type": "heading", "level": 2, "text": "Which Organizer, When — Quick Guide"},
+    {"type": "para", "text": "Find the verb in the assignment on the left; reach for the organizer on the right."},
+    {"type": "table", "head": ["When the task asks students to…", "Reach for…", "Why it works"],
+     "rows": [
+       ["Compare two things", "Venn (2) · T-chart", "Side-by-side surfaces shared vs. unique traits"],
+       ["Compare 3+ on set criteria", "Comparison matrix", "Rows × columns force parallel analysis"],
+       ["Trace causes and results", "Cause &amp; Effect", "Separates drivers from consequences"],
+       ["Put events in order", "Timeline", "Sequence makes change-over-time visible"],
+       ["Define a key term", "Frayer model", "Definition + examples/non-examples deepen a concept"],
+       ["Make a claim with evidence", "CER", "Claim · Evidence · Reasoning = argument spine"],
+       ["Analyze a primary source", "HIPPO", "Sources the document before it is used"],
+       ["Connect local to national", "Tennessee Connection", "The local-to-national move — a History Hack signature"]
+     ]},
+
+    {"type": "heading", "level": 2, "text": "SSP Crosswalk — Tennessee Social Studies Practices"},
+    {"type": "para", "text": "Every organizer doubles as a skills tool. This maps each TN Social Studies Practice (SSP.01–06) to the organizers that build it and where it lives in Unit 1."},
+    {"type": "table", "head": ["TN Social Studies Practice", "Organizers that build it", "Where in Unit 1"],
+     "rows": [
+       ["SSP.01 — Gather information from primary/secondary sources", "HIPPO · Main Idea &amp; Details", "US.01, US.03, US.07 source work"],
+       ["SSP.02 — Critically examine a source (context, point of view)", "HIPPO · T-chart", "US.03 Plessy; US.05 industry perspectives"],
+       ["SSP.03 — Synthesize evidence from multiple sources", "CER · Comparison matrix", "US.04–US.05 Gilded Age analysis"],
+       ["SSP.04 — Construct and defend an argument with evidence", "CER · Problem–Solution", "US.02 policy evaluation; US.07 assimilation"],
+       ["SSP.05 — Develop historical awareness (change over time)", "Timeline · Cause &amp; Effect", "US.01 expansion; US.06 urbanization"],
+       ["SSP.06 — Connect past to present / local to national", "Tennessee Connection", "Every standard's TN tie"]
+     ]},
+
+    {"type": "heading", "level": 1, "text": "Part 1 — Reusable Blank Organizers"},
+    {"type": "para", "text": "Content-agnostic blanks. Print as many as you need; use across any standard or subject."},
+
+    {"type": "heading", "level": 3, "text": "Venn Diagram — Compare Two"},
+    {"type": "whenwhy", "when": "students compare two people, events, or ideas.", "why": "the overlap makes shared traits explicit while the outer zones hold what is unique."},
+    {"type": "venn", "left": "Topic A", "right": "Topic B", "both": "Both"},
+
+    {"type": "heading", "level": 3, "text": "T-Chart — Two Sides"},
+    {"type": "whenwhy", "when": "students weigh two categories, positions, or perspectives.", "why": "parallel columns keep the two sides balanced and organized."},
+    {"type": "tchart", "left": "Column A", "right": "Column B", "lines": 6},
+
+    {"type": "heading", "level": 3, "text": "Frayer Model — Key Term"},
+    {"type": "whenwhy", "when": "students learn a vocabulary term or concept.", "why": "definition plus examples and non-examples builds durable understanding."},
+    {"type": "frayer", "term": "Term", "quads": ["Definition", "Characteristics", "Examples", "Non-examples"]},
+
+    {"type": "heading", "level": 3, "text": "Cause &amp; Effect"},
+    {"type": "whenwhy", "when": "students trace what drove an event and what resulted.", "why": "separating causes from effects reveals historical relationships."},
+    {"type": "causeeffect", "cause_label": "Causes", "effect_label": "Effects"},
+
+    {"type": "heading", "level": 3, "text": "Timeline — Sequence"},
+    {"type": "whenwhy", "when": "students order events to see change over time.", "why": "chronology exposes turning points and pace of change."},
+    {"type": "timeline", "events": ["Date", "Date", "Date", "Date"]},
+
+    {"type": "heading", "level": 3, "text": "CER — Claim · Evidence · Reasoning"},
+    {"type": "whenwhy", "when": "students make and defend a historical argument.", "why": "the claim–evidence–reasoning spine is how historians argue from sources."},
+    {"type": "frame", "title": "Claim", "lines": 2},
+    {"type": "frame", "title": "Evidence", "lines": 3},
+    {"type": "frame", "title": "Reasoning", "lines": 3},
+
+    {"type": "heading", "level": 3, "text": "HIPPO — Source Analysis"},
+    {"type": "whenwhy", "when": "students analyze a primary source before using it.", "why": "sourcing (context, audience, point of view, purpose) guards against misreading evidence."},
+    {"type": "hippo", "label": "H — Historical context", "lines": 2},
+    {"type": "hippo", "label": "I — Intended audience", "lines": 1},
+    {"type": "hippo", "label": "P — Point of view · P — Purpose", "lines": 2},
+    {"type": "hippo", "label": "O — Outside knowledge", "lines": 2},
+
+    {"type": "heading", "level": 1, "text": "Part 2 — Best-Fit Organizers by Standard"},
+    {"type": "para", "text": "One pre-labeled organizer per standard, matched to that standard's task and pre-loaded with sourced content. Tennessee connections flagged where a sourced tie exists."},
+
+    {"type": "heading", "level": 3, "text": "US.01 — Homestead Act &amp; the Transcontinental Railroad"},
+    {"type": "whenwhy", "when": "students explain how two federal actions reshaped the West.", "why": "cause &amp; effect separates the policy drivers from their human consequences."},
+    {"type": "causeeffect", "cause_label": "Causes — federal action (1862 · 1869)", "effect_label": "Effects — settlement & displacement"},
+    {"type": "tnconn", "tie": "George Jordan of Williamson County, Tennessee — a Buffalo Soldier who received the Medal of Honor for distinguished service during westward expansion.", "prompt": "Local → National: how does Jordan's service connect to the westward-expansion story?", "lines": 3},
+
+    {"type": "heading", "level": 3, "text": "US.03 — Compromise of 1877, Jim Crow &amp; Plessy v. Ferguson"},
+    {"type": "whenwhy", "when": "students weigh the promise of Reconstruction against the reality after 1877.", "why": "a T-chart holds two sides — stated law vs. lived experience — side by side."},
+    {"type": "tchart", "left": "The law said (de jure)", "right": "People experienced (de facto)", "lines": 6},
+    {"type": "tnconn", "tie": "Tennessee enforced Jim Crow segregation by state law. Ida B. Wells, who lived in Memphis, documented lynching and challenged disenfranchisement.", "prompt": "Local → National: how did Wells's Memphis work shape the national record?", "lines": 3},
+
+    {"type": "heading", "level": 3, "text": "US.05 — Industrial Innovation &amp; Business Strategy"},
+    {"type": "whenwhy", "when": "students distinguish two strategies industrialists used to dominate markets.", "why": "the Frayer model pins a concept down with examples and non-examples."},
+    {"type": "frayer", "term": "Monopoly", "quads": ["Definition", "Characteristics", "Examples (era)", "Non-examples"]},
+
+    {"type": "heading", "level": 3, "text": "US.07 — “Old” vs. “New” Immigrants"},
+    {"type": "whenwhy", "when": "students compare two waves of immigration on shared criteria.", "why": "a T-chart keeps origin, entry point, and reception parallel across the two groups."},
+    {"type": "tchart", "left": "“Old” immigrants (pre-1880s)", "right": "“New” immigrants (1880s–1920s)", "lines": 7}
+  ]
+}

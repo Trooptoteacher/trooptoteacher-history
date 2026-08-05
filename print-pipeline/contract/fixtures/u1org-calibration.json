@@ -1,0 +1,40 @@
+{
+  "runhead": "U.S. History Hack · Unit 1 · Graphic Organizer Toolkit",
+  "runfoot": "Unit 1 · Rise of Industrialization (US.01–US.07)",
+  "blocks": [
+    {"type": "orgtitle", "text": "Cause &amp; Effect", "tag": "Causal Chains"},
+    {"type": "whenwhy2", "text": "Task asks “what caused…?”, “what were the effects/consequences of…?” Makes causal reasoning visible.", "cite": "(builds SSP.05)"},
+    {"type": "chain", "nodes": ["Cause", "Effect", "Effect"]},
+    {"type": "udl"},
+
+    {"type": "orgtitle", "text": "Timeline / Sequence", "tag": "Chronology"},
+    {"type": "whenwhy2", "text": "Ordering events or tracing change over time. Builds chronological reasoning.", "cite": "(SSP.05)"},
+    {"type": "table", "head": ["Date / order", "Event", "Why it mattered"],
+     "rows": [["", "", ""], ["", "", ""], ["", "", ""], ["", "", ""]]},
+    {"type": "udl", "extend": "push higher-DOK — “Which event was the turning point, and why?”"},
+
+    {"type": "heading", "level": 1, "text": "Part 2 — Cornell Support Backs (per standard)"},
+    {"type": "para", "text": "Guided and Light scaffolds for each standard's Cornell notes — copy only as needed (MTSS). Fade Guided → Light → independent as evidence grows. <em>Not a track, not a separate grade.</em>"},
+
+    {"type": "orgtitle", "text": "US.01 — Homestead Act &amp; the Transcontinental Railroad", "tag": "Cornell Support Backs"},
+    {"type": "supband", "text": "Guided Support"},
+    {"type": "table", "head": ["Key vocabulary", "What it means"],
+     "rows": [
+       ["Homestead Act", "An 1862 law that granted 160 acres of public land to settlers who farmed it for five years — accelerating westward settlement."],
+       ["Transcontinental Railroad", "The 1869 rail line linking the eastern U.S. to the Pacific, built largely by Chinese and Irish immigrant labor."],
+       ["Manifest Destiny", "The 19th-century belief that the United States was destined to expand across the continent."]
+     ]},
+    {"type": "modeled", "label": "Modeled example (one worked note — yours will differ)", "text": "A key effect of the Homestead Act and the railroad was the rapid settlement of the Great Plains, shown by the millions of acres claimed after 1862, which mattered because it displaced Native nations from lands guaranteed by treaty."},
+    {"type": "table", "class": "write", "head": ["Step", "Rehearse it here, then transfer to the Cornell front"],
+     "rows": [["Name it", ""], ["Evidence", ""], ["Explain", ""], ["Headline", ""]]},
+    {"type": "supband", "light": true, "text": "Light Support"},
+    {"type": "table", "class": "write", "head": ["Key vocabulary", "Finish the idea — “This term means …”"],
+     "rows": [["Homestead Act", ""], ["Transcontinental Railroad", ""], ["Manifest Destiny", ""]]},
+    {"type": "box", "label": "Guiding questions — answer on the lines below or in your front notes", "paras": [
+      "• What is the main idea of the “Homestead Act (1862)” section, and what evidence supports it?",
+      "• What is the main idea of the “Transcontinental Railroad (1869)” section, and what evidence supports it?",
+      "• Whose perspective benefits in this passage, and whose is harmed or left out?"]},
+    {"type": "writelines", "lines": 3},
+    {"type": "tnconn", "tie": "George Jordan of Williamson County, Tennessee — a Buffalo Soldier awarded the Medal of Honor for service during westward expansion.", "prompt": "Which Cornell cue still needs work? Circle it and tell your teacher.", "lines": 2}
+  ]
+}

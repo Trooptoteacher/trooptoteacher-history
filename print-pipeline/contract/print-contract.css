@@ -1,7 +1,7 @@
 /* ============================================================================
    HISTORY HACK — SHARED PRINT CONTRACT  (CSS Paged Media)
    ----------------------------------------------------------------------------
-   Contract version: 1.0.0   ·   Engine: WeasyPrint (locked)   ·   Units: pt/in
+   Contract version: 1.1.0   ·   Engine: WeasyPrint (locked)   ·   Units: pt/in
    Owner: print-pipeline (single source of truth for print layout)
    ----------------------------------------------------------------------------
    THE LOCK: this file owns EVERY page-layout decision — page size, margins,
@@ -215,6 +215,73 @@ tr.write td.q{ background:#fff; }
   color:var(--hh-navy); font-size:9.5pt; }
 .venn .label.left{ left:70pt; } .venn .label.right{ left:300pt; }
 .venn .label.both{ left:210pt; top:200pt; color:var(--hh-red); }
+
+/* Cause & Effect: writable cause boxes → arrow → effect box. */
+.causeeffect{ display:grid; grid-template-columns:1fr 26pt 1fr; gap:8pt; align-items:center;
+  margin:9pt 0; break-inside:avoid; }
+.causeeffect .col-label{ font-family:var(--hh-font-head); font-weight:700; color:var(--hh-navy);
+  font-size:8.5pt; text-transform:uppercase; letter-spacing:.3pt; text-align:center; margin-bottom:3pt; }
+.causeeffect .cebox{ border:1.5px solid var(--hh-navy); border-radius:6px; min-height:120pt;
+  background:repeating-linear-gradient(transparent,transparent 21pt,var(--hh-rule) 21pt,var(--hh-rule) 21.6pt); }
+.causeeffect .arrow{ text-align:center; color:var(--hh-red); font-size:22pt; font-weight:700; }
+
+/* Timeline: vertical rail with date chips + writable event boxes. */
+.timeline{ margin:9pt 0; }
+.timeline .tl-row{ display:grid; grid-template-columns:80pt 1fr; gap:10pt; margin-bottom:8pt; break-inside:avoid; }
+.timeline .tl-date{ background:var(--hh-navy); color:#fff; font-family:var(--hh-font-head); font-weight:700;
+  font-size:9pt; text-align:center; padding:6pt 4pt; border-radius:5pt; height:fit-content; }
+.timeline .tl-event{ border:1px solid var(--hh-line); border-left:3px solid var(--hh-gold); border-radius:5pt;
+  min-height:44pt; padding:6pt 9pt; background:
+  repeating-linear-gradient(transparent,transparent 21pt,var(--hh-rule) 21pt,var(--hh-rule) 21.6pt); }
+
+/* Tennessee Connection: the local-to-national signature callout. */
+.tnconn{ border:1.5px solid var(--hh-red); border-radius:7pt; overflow:hidden; margin:10pt 0; break-inside:avoid; }
+.tnconn .tn-head{ background:var(--hh-red); color:#fff; font-family:var(--hh-font-head); font-weight:700;
+  font-size:9.5pt; padding:5pt 10pt; letter-spacing:.3pt; }
+.tnconn .tn-body{ padding:8pt 11pt; font-size:9.6pt; }
+.tnconn .tn-body .tie{ margin-bottom:6pt; }
+.tnconn .tn-prompt{ font-family:var(--hh-font-head); font-weight:700; color:var(--hh-navy); font-size:8.5pt;
+  text-transform:uppercase; letter-spacing:.3pt; margin-bottom:2pt; }
+.tnconn .writelines{ margin-top:2pt; }
+
+/* Organizer page anatomy — WHEN·WHY note + UDL/MTSS "make it work" strip. */
+.orgtitle{ color:var(--hh-navy); font-family:var(--hh-font-head); font-size:15pt; font-weight:700;
+  margin:2pt 0 5pt; break-after:avoid; }
+.orgtitle .tag{ color:var(--hh-red); font-size:9pt; font-weight:700; }
+.whenwhy2{ background:var(--hh-tint); border-left:3px solid var(--hh-gold); padding:7pt 11pt; margin:0 0 9pt;
+  font-size:9pt; break-inside:avoid; }
+.whenwhy2 .k{ font-family:var(--hh-font-head); font-weight:700; color:var(--hh-navy); font-size:8pt;
+  text-transform:uppercase; letter-spacing:.4pt; margin-right:5pt; }
+.whenwhy2 .cite{ color:var(--hh-red); font-weight:700; font-style:normal; }
+.udl{ border:1px solid var(--hh-line); border-top:3px solid var(--hh-navy); border-radius:5pt;
+  padding:8pt 11pt; margin:10pt 0 0; font-size:8.7pt; break-inside:avoid; background:#fcfbf8; }
+.udl .k{ font-family:var(--hh-font-head); font-weight:700; color:var(--hh-navy); font-size:8pt;
+  text-transform:uppercase; letter-spacing:.4pt; margin-bottom:3pt; }
+.udl .row{ margin:2pt 0; } .udl .lab{ font-weight:700; color:var(--hh-navy); }
+.udl .frame-line{ margin-top:5pt; font-style:italic; color:var(--hh-muted); }
+
+/* Causal chain: box → box → box (writable). */
+.chain{ display:flex; align-items:stretch; gap:0; margin:9pt 0; break-inside:avoid; }
+.chain .node{ flex:1; border:1.5px solid var(--hh-navy); border-radius:6pt; min-height:96pt; padding:6pt 8pt;
+  background:repeating-linear-gradient(transparent,transparent 20pt,var(--hh-rule) 20pt,var(--hh-rule) 20.6pt); }
+.chain .node .cap{ font-family:var(--hh-font-head); font-weight:700; color:var(--hh-navy); font-size:8pt;
+  text-transform:uppercase; letter-spacing:.3pt; }
+.chain .arr{ align-self:center; color:var(--hh-red); font-size:20pt; font-weight:700; padding:0 6pt; }
+
+/* Cornell Support Back: guided/light scaffold bands. */
+.supband{ font-family:var(--hh-font-head); font-weight:700; color:#fff; background:var(--hh-navy);
+  font-size:9pt; padding:4pt 9pt; border-radius:4pt; margin:9pt 0 5pt; letter-spacing:.3pt; break-after:avoid; }
+.supband.light{ background:var(--hh-gold); color:#241c00; }
+.modeled{ background:var(--hh-cream); border:1px dashed var(--hh-gold); border-radius:5pt; padding:7pt 10pt;
+  font-size:8.8pt; margin:6pt 0; break-inside:avoid; }
+.modeled .k{ font-family:var(--hh-font-head); font-weight:700; color:var(--hh-navy); font-size:8pt;
+  text-transform:uppercase; letter-spacing:.3pt; }
+
+/* Reproducible mark + toolkit chips */
+.repro{ font-size:8pt; font-style:italic; color:var(--hh-muted); margin:4pt 0 0; }
+.whenwhy{ background:var(--hh-tint); border-left:3px solid var(--hh-gold); padding:6pt 10pt; margin:4pt 0 8pt;
+  font-size:8.8pt; break-inside:avoid; }
+.whenwhy b{ color:var(--hh-navy); font-family:var(--hh-font-head); }
 
 /* ============================================================================
    Utilities
