@@ -15,24 +15,24 @@ LOCKED rules, and what is done vs. pending. Pair with `BUILD_PREFLIGHT.md` (neve
 | Graphic organizers (real shapes) | `history-hack-graphic-organizer-workbook` | Correct builder (Venn3/T-chart via `toolkit_lib.py` + pack modules). The print-pipeline toolkit was built by an OUTDATED path — rebuild via this skill. |
 | New course orchestrator | `history-hack-new-course-builder` | Add a Primary Source Packet step + preflight guardrail here. |
 
-**Primary Source Packet generator (qualified) + corpus:**
-- Generator: **`build/build_unit_standard.py`** in repo **`Trooptoteacher/History-Hack-US-History-Workbooks`** (attach via `add_repo`; workspace `/workspace/history-hack-us-history-workbooks`). HIPPO mode, 3 outputs (TeacherKey / Student Worksheets / Clean Reader). PDFs live in Azure Blob + Google Drive, not git.
-- Corpus it reads: `unit{N}_all_sources.json` + `unit{N}_platinum_layer.json` from an **ephemeral** `/home/user/workspace` — **NOT version-controlled anywhere.** Must be recovered + committed.
+**Primary-source corpus — IN A REPO (not Drive). CORRECTED 2026-08-05.**
+The canonical primary-source + image bank lives in repo **`Trooptoteacher/history-hack-web-app`**
+(`add_repo`; workspace `/workspace/history-hack-web-app`), fully version-controlled:
+- **Text primary sources (the excerpts):** `public/data/us-history/primary-sources/unit-<N>.json` — **309 records** across units 1–10 (Unit 6 = 28). Fields: `id · standardId · documentTitle · author · date · excerpt · bracketedTerms · question · socialStudiesPractice · options`.
+- **Image primary sources:** `public/data/us-history/primary-sources/images/unit-<N>.json` — **112 records** (full Chicago citation, rights, alt/altEs).
+- **Image files:** `public/images/textbook/unit-<N>/…` (record `src` points here). Schema: `lib/primary-sources/schema.ts`.
+- **Question bank** (assessment source): same repo, `public/data/us-history/questions/unit-<N>/dok-{1,2,3}.json`.
+> This IS the corpus. The Packet generator's `unit{N}_all_sources.json` was a build-time EXTRACT of the above — build straight from `history-hack-web-app` instead; do not depend on the ephemeral extract.
 
-**Google Drive (owner trooptoteacher31@gmail.com) — verified file IDs:**
-| What | File ID |
-|---|---|
-| DBQ **Teacher Answer Key** (all units, exemplars + HIPPO models + **6-pt College Board rubric**) — Sean: "spot on" | `1iuE6Q6oQhsHLjPc7dp5DVuptEhlI5if_` |
-| DBQ **Student Workbook / Primary Source Packet** (all units US.01–95) | `1A6PvVaNyJM7FpCrY-aQ3XRTRbagLO3A3` |
-| **Primary Source & Image Bank (Source of Truth)** — best place to build the corpus JSON | `1_4FDBH7PHN087n17UmjMg77qi1HlXeNMM9mBRtLH-lg` |
-| PRIMARY_SOURCE_GUARDRAIL — TDOE Schedule F Compliance | `1mEfVqSLvs-cKUnRasspAma4tjgJDLo3wlXucf21t1zU` |
-| "DBQ Workbooks" folder | `1XOZVjWNEE5BRX_rgUleCUTAKrqRlSx2s` |
-> Drive download cap is 10 MB — the masters (12–17 MB) can't be pulled as files; use `read_file_content` (text, no cap) to build the corpus JSON, or the smaller Source-of-Truth doc.
+**Packet generator:** `build/build_unit_standard.py` in repo `Trooptoteacher/History-Hack-US-History-Workbooks` (HIPPO mode; TeacherKey / Student Worksheets / Clean Reader). Consolidate it into the `history-hack-dbq-workbook` skill so it's pullable with the skill.
+
+**Google Drive = built distribution PDFs ONLY (no source assets there).** Per Sean: **no asset lives only on Drive — everything sourced from a repo.** The masters (DBQ Student Workbook `1A6PvVaNyJM7FpCrY-aQ3XRTRbagLO3A3`, Teacher Answer Key `1iuE6Q6oQhsHLjPc7dp5DVuptEhlI5if_`) are print PDFs whose *content* is the web-app corpus above; the Drive "Source of Truth" doc `1_4FDBH7PHN087n17UmjMg77qi1HlXeNMM9mBRtLH-lg` is only a registry pointing at the repo. If a built PDF is ever needed in git, commit it to a repo — never rely on Drive.
 
 ## LOCKED rules captured this session (do not relearn the hard way)
 - **Never build from memory.** Pull the most-updated skill from `main` first; run its LOCKED-gate checklist; verify (`verify_workbook_platinum.py` exit 0). See `BUILD_PREFLIGHT.md`.
 - **Primary Source Packet** is the product name — NOT "DBQ workbook."
 - **HIPPO throughout (text + visual). If a packet references OPTIC, it is the WRONG workflow.**
+- **No asset lives only on Google Drive.** Every source asset (primary sources, images, question bank) is version-controlled in `history-hack-web-app`; Drive holds only built PDFs. Build from the repo, never from Drive.
 - **Unit 6 is the reference standard.**
 - **Deck word wall: NO per-term initials** (no "HA" on Homestead Act).
 - **A check answer never shares a slide with its question** (two-slide reveal — spaced).
