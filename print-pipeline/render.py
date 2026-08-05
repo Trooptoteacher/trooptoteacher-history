@@ -51,7 +51,7 @@ def render_box(block) -> str:
 
 def render_cornell(block) -> str:
     rows = "".join(
-        f'<tr><td class="cue">{esc(c)}</td><td>{rich(n)}</td></tr>'
+        f'<tr><td class="cue">{rich(c)}</td><td>{rich(n)}</td></tr>'
         for c, n in block["rows"]
     )
     return (f'<h3>{esc(block["heading"])}</h3>'
@@ -76,12 +76,36 @@ def render_activity(block) -> str:
     return out
 
 
+def render_head(block):
+    sub = (f'<span style="color:#C9A227;font-weight:700;font-size:9pt"> &middot; '
+           f'{esc(block["sub"])}</span>') if block.get("sub") else ""
+    return (f'<h2 style="color:#1F3A5F;border-bottom:2px solid #C9A227;padding-bottom:2pt;'
+            f'margin:13pt 0 5pt;font-size:14pt;break-after:avoid">{esc(block["text"])}{sub}</h2>')
+
+
+def render_lines(block):
+    n = block.get("n", 3)
+    return "".join('<div style="border-bottom:0.5pt solid #9AA0AB;height:19pt"></div>'
+                   for _ in range(n))
+
+
+def render_tag(block):
+    # small Future-Ready / ACT connection chip
+    color = block.get("color", "#1F3A5F")
+    return (f'<div style="font-family:Arial;font-size:8pt;color:{color};font-weight:700;'
+            f'background:#EEF2F8;border-left:3px solid {color};padding:3pt 8pt;margin:4pt 0;'
+            f'border-radius:3px">{rich(block["text"])}</div>')
+
+
 BLOCKS = {
     "box": render_box,
     "table": render_table,
     "cornell": render_cornell,
     "cornellnotes": render_cornellnotes,
     "activity": render_activity,
+    "head": render_head,
+    "lines": render_lines,
+    "tag": render_tag,
 }
 
 
@@ -92,6 +116,9 @@ def render_blocks(blocks) -> str:
 def render_unit(data) -> str:
     body = f'<span class="runhead">{esc(data["runhead"])}</span>'
     body += f'<span class="runfoot">{esc(data["runfoot"])}</span>'
+    if data.get("front"):
+        body += render_blocks(data["front"])
+        body += '<div style="break-after:page"></div>'
     for std in data["standards"]:
         body += f'<div class="standard">{esc(std["code"])} — {esc(std["title"])}</div>'
         body += render_blocks(std["blocks"])

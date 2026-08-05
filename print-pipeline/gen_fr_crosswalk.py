@@ -148,6 +148,17 @@ def build():
           [(f'<span class="pill">{p}</span>' + (f'<br><span class="star">{tag}</span>' if tag else ""), sk, lead, where, macro)
            for p, tag, sk, lead, where, macro in PILLARS],
           ["15%", "20%", "19%", "28%", "18%"])
+    PROOF = [
+        ("Goal setting", "Front matter <b>My SMART Goals</b> (short/mid/long + Reflect &amp; Commit) · each standard’s opener <b>SET YOUR SMART GOAL</b>", "Writes SMART goals on ruled lines; ladders short→long"),
+        ("Setting up the check-in", "Act 3 <b>Progress Check → Check Yourself</b> (1–4) · Act 5 <b>HIPPO confidence check-in</b> · Launch/Debrief goal check-in", "Self-rates 1–4; tracks the Launch↔Debrief delta"),
+        ("Email writing", "Launch sheet <b>Voice-to-Email</b> setup + 5-part self-advocacy email frame", "Drafts a professional make-up-work email"),
+        ("Using your voice / standing up", "Act 7 <b>SPEAK IT · 60-second Mission Brief</b> — present the CER aloud, scored 1–4", "Stands and delivers claim + evidence + why-it-matters"),
+        ("ACT prep (embedded, non-forced)", "<b>ACT-Connection tags</b>: Act 4 Close Read (Reading) · Act 6 Practice Quiz (format) · Act 7 CER (English/Writing)", "Builds ACT skills inside the content — no bolt-on"),
+        ("Employability traits", "<b>Micro-moment tags</b>: Act 3→Organization · Act 6→Integrity/Lifelong learning · Act 5/7→Civic responsibility · Launch/Debrief 10-trait /40", "Self-scores hireability; tracks growth ▲▬▼"),
+        ("Financial literacy", "Money-math from the currency SoT (loan APR/Pell/FAFSA) · US.05 <b>Future Ready Question</b> (path after HS)", "Plans trade/college/military · scholarships · FAFSA"),
+    ]
+    proof = T(["Future Ready element", "Where it lives in the Unit 1 workbook (the proof)", "What the student does"],
+              PROOF, ["20%", "50%", "30%"])
     scale = T(["1–4 scale (used everywhere)", "What it means"], [(f'<b>{s}</b>', d) for s, d in SCALE], ["24%", "76%"])
     engine = T(["Measurement instrument (every unit)", "What the student does", "Where it lives in Unit 1", "VISIBLE + MEASURABLE proof"],
                [(f'<b>{n}</b>', d, w, p) for n, d, w, p in ENGINE], ["24%", "30%", "28%", "18%"])
@@ -172,6 +183,10 @@ def build():
 
     <div class="sec"><span>A · The Four Pillars — Crosswalk</span><span class="s">skill → leading measure → where Unit 1 proves it → macro target</span></div>
     {a}
+
+    <div class="sec"><span>A2 · Future Ready → Workbook Proof Map</span><span class="s">the exact page/activity where each element lives</span></div>
+    {proof}
+    <div class="note">These now point to <b>built</b> locations in the rebuilt Unit 1 workbook (full 7-activity flow). ACT prep is embedded as non-forced ACT-Connection tags on the activities that already build those skills — no separate ACT worksheet forced into the unit.</div>
 
     <div class="page"></div>
     <div class="sec"><span>B · The 1–4 Scale &amp; Measurement Engine</span><span class="s">every skill VISIBLE (named/printed) + MEASURABLE (number/tally/1–4/delta)</span></div>

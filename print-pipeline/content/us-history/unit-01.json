@@ -4,178 +4,503 @@
   "edition": "Course Standard Edition",
   "runhead": "U.S. History Hack™ · Unit 1 · Course Standard Edition",
   "runfoot": "U.S. History Hack™ · Unit 1 (Course Standard)   ·   © 2026 TroopToTeacher Technologies LLC",
+  "front": [
+    {
+      "type": "head",
+      "text": "U.S. History Hack™ · Unit 1 — Student Workbook",
+      "sub": "The Rise of Industrialization, 1877–1900"
+    },
+    {
+      "type": "head",
+      "text": "My SMART Goals",
+      "sub": "goal-setting — your Future Ready ladder"
+    },
+    {
+      "type": "box",
+      "label": "Short-term goal (this unit)",
+      "paras": [
+        "Exemplar (a real student’s voice): “By the end of Unit 1 I will earn 80%+ on the unit test by finishing every Cornell note and self-checking each Practice Quiz.” Now write yours:"
+      ]
+    },
+    {
+      "type": "lines",
+      "n": 2
+    },
+    {
+      "type": "box",
+      "label": "Mid-term goal (this quarter)",
+      "paras": [
+        "Write a SMART goal for the quarter:"
+      ]
+    },
+    {
+      "type": "lines",
+      "n": 2
+    },
+    {
+      "type": "box",
+      "label": "Long-term goal (this year / after high school)",
+      "paras": [
+        "Write a SMART goal that ladders toward Ready Graduate (ACT ≥ 21 or an EPSO/credential):"
+      ]
+    },
+    {
+      "type": "lines",
+      "n": 2
+    },
+    {
+      "type": "box",
+      "label": "Reflect & Commit",
+      "paras": [
+        "How does the short-term goal ladder to the long-term one? Name one obstacle + your plan, an accountability partner, and your first step. (Your Launch/Debrief sheets and the app track the delta.)"
+      ]
+    },
+    {
+      "type": "lines",
+      "n": 2
+    },
+    {
+      "type": "head",
+      "text": "Unit at a Glance",
+      "sub": "the seven-activity cycle"
+    },
+    {
+      "type": "box",
+      "label": "How this unit flows",
+      "paras": [
+        "Every standard runs the same flow: Opener → 1 Vocabulary → 2 Vocabulary Studio → 3 Cornell Notes (the spine) → 4 Close Read → 5 Primary Source/HIPPO → 6 Practice Quiz → 7 CER → Exit Ticket.",
+        "Standards: US.01 Homestead & Railroad · US.02 Federal Indian Policy · US.03 Compromise of 1877 & Jim Crow · US.04 Gilded Age · US.05 Inventions & Entrepreneurs · US.06 Industrial Centers · US.07 Immigration."
+      ]
+    },
+    {
+      "type": "head",
+      "text": "How to Use This Workbook",
+      "sub": "the legend"
+    },
+    {
+      "type": "box",
+      "label": "Read the symbols",
+      "paras": [
+        "<strong>Lenses/Dimensions pills:</strong> C Culture · E Economics · G Geography · H History · P Politics/Government · T Tennessee · TCA Tennessee Code Annotated. <strong>Self-check keys</strong> let you commit an answer, then check. <strong>▶ Deck · DI N of M</strong> keys your Cornell cues to the teacher’s slides. <strong>Future Ready</strong> tags mark where you build a hireability skill; <strong>ACT Connection</strong> tags mark where an activity builds an ACT skill."
+      ]
+    }
+  ],
   "standards": [
     {
       "code": "US.01",
-      "title": "Homestead Act & the Transcontinental Railroad",
+      "title": "Homestead Act and Transcontinental Railroad",
       "blocks": [
         {
-          "type": "cornell",
-          "heading": "Cornell Universal Front",
-          "rows": [
-            [
-              "Essential Question",
-              "How did federal land and railroad policy reshape the West — and at whose expense?"
-            ],
-            [
-              "Deck slides",
-              "Student (Lean) Deck, slides 4–17"
-            ],
-            [
-              "Vocabulary",
-              "Homestead Act · Transcontinental Railroad · Manifest Destiny · Promontory Summit"
-            ],
-            [
-              "Success criteria",
-              "I can sequence westward expansion and weigh who benefited and who bore the cost."
-            ]
+          "type": "head",
+          "text": "Opener",
+          "sub": "before you learn"
+        },
+        {
+          "type": "box",
+          "label": "Learning target (I can…)",
+          "paras": [
+            "I can explain how the Homestead Act and the Transcontinental Railroad impacted the settlement of the West, including their effects on American Indians, immigrants, and settlers."
           ]
+        },
+        {
+          "type": "box",
+          "label": "Lenses (this standard’s dimensions)",
+          "paras": [
+            "C Culture · E Economics · G Geography · H History · P Politics/Government"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "SET YOUR SMART GOAL — my short-term goal for this standard",
+          "paras": [
+            "Write a goal that is Specific · Measurable · Achievable · Relevant · Time-bound. Example: “By Friday I can explain homestead act and transcontinental railroad using two pieces of evidence.”"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Hook — read this",
+          "paras": [
+            "The Homestead Act of 1862 offered 160 acres of free land to settlers who would farm it for five years. <em>What surprises you? What do you want to know?</em>"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Preview & Predict",
+          "paras": [
+            "Skim the standard. Predict who benefited and who bore the cost."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "head",
+          "text": "Activity 1 · Vocabulary",
+          "sub": "word bank + language support"
         },
         {
           "type": "table",
           "head": [
             "Term",
             "What it means",
-            "Español"
+            "Español",
+            "Know it? (✓ / ? / new)"
           ],
           "rows": [
             [
               "<strong>Homestead Act</strong>",
               "An 1862 law that provided 160 acres of public land to settlers who agreed to live on. It changed land control and where Native communities could live.",
-              "Ley de Homestead"
+              "Ley de Homestead",
+              ""
             ],
             [
               "<strong>Transcontinental Railroad</strong>",
               "A continuous railroad line completed in 1869 that connected the eastern United States with the Pacific coast. It changed travel, trade, and how far-away places were connected.",
-              "Ferrocarril Transcontinental"
+              "Ferrocarril Transcontinental",
+              ""
             ],
             [
               "<strong>Westward Expansion</strong>",
               "The 19th-century movement of settlers, railroads, and U.S. authority across the continent toward the Pacific, encouraged by free land and new transportation.",
-              "Expansión hacia el Oeste"
+              "Expansión hacia el Oeste",
+              ""
             ],
             [
               "<strong>Manifest Destiny</strong>",
               "The widely held 1800s belief that the United States was destined to expand across the entire continent, used to justify the displacement of American Indians.",
-              "Destino Manifiesto"
+              "Destino Manifiesto",
+              ""
             ],
             [
               "<strong>Land Grant</strong>",
               "A gift of public land from the government — to railroad companies or settlers — used to fund and accelerate western settlement.",
-              "Concesión de Tierras"
+              "Concesión de Tierras",
+              ""
             ],
             [
               "<strong>Reservation</strong>",
               "An area of land set aside by the federal government for American Indian tribes, frequently far from their ancestral homelands.",
-              "Reservación"
+              "Reservación",
+              ""
             ]
           ]
         },
         {
-          "type": "activity",
-          "num": 4,
-          "name": "Close Read",
-          "time": "~15 min",
-          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Core Path — read one chunk at a time",
-              "paras": [
-                "<strong>Sequence the expansion of the United States.</strong> The Homestead Act of 1862 offered 160 acres of free land to settlers who would farm it for five years. Combined with the completion of the Transcontinental Railroad in 1869, these policies accelerated westward expansion as part of Manifest Destiny—the belief that Americans were destined to spread across the continent. The Union Pacific built westward from Omaha while the Central Pacific built eastward from Sacramento, meeting at Promontory Summit, Utah.",
-                "<strong>Impact on Western Settlement.</strong> The Transcontinental Railroad dramatically reduced travel time from months to days, opening the West to settlement, commerce, and resource extraction. Towns sprang up along rail lines, and agricultural products could reach eastern markets efficiently — but this expansion came at tremendous cost to American Indian nations whose lands were taken and whose way of life was destroyed.",
-                "<strong>Impact on American Indians, Immigrants, and Settlers.</strong> Western expansion devastated American Indian communities through forced relocations, broken treaties, and the near-extinction of the buffalo herds they depended upon. Chinese workers who built much of the Central Pacific faced discrimination despite their crucial contributions. The “Buffalo Soldiers”—African American cavalry regiments—served on the frontier, including George Jordan of Williamson County, Tennessee, who earned the Medal of Honor."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Language support",
-              "paras": [
-                "Key terms to know first: Homestead Act, Transcontinental Railroad. Read once for the gist, then again for evidence."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Text-dependent question",
-                "Evidence from the passage",
-                "Your answer (what it shows)"
-              ],
-              "rows": [
-                [
-                  "What is the main idea of the “Sequence the expansion” section, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of the “Impact on Western Settlement” section, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of the “Impact on American Indians, Immigrants, and Settlers” section, and what evidence supports it?",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "box",
+          "label": "Knowledge self-check",
+          "paras": [
+            "For each term mark ✓ (I can use it), ? (I’ve seen it), or new. Come back and re-mark after the lesson."
           ]
         },
         {
-          "type": "activity",
-          "num": 5,
-          "name": "Primary Source (HIPPO)",
-          "time": "~15 min",
-          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Source it first",
-              "paras": [
-                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "HIPPO move",
-                "What I notice in this source"
-              ],
-              "rows": [
-                [
-                  "Historical context — what was happening when this was made?",
-                  ""
-                ],
-                [
-                  "Intended audience — who was meant to see it?",
-                  ""
-                ],
-                [
-                  "Point of view — whose perspective, and what is left out?",
-                  ""
-                ],
-                [
-                  "Purpose — why was it created?",
-                  ""
-                ],
-                [
-                  "Outside evidence — what do I already know that connects?",
-                  ""
-                ]
-              ]
-            }
+          "type": "head",
+          "text": "Activity 2 · Vocabulary Studio (Frayer)",
+          "sub": "response choice"
+        },
+        {
+          "type": "box",
+          "label": "Build a Frayer model for: Homestead Act",
+          "paras": [
+            "Fill each quadrant. Then CONNECT THE TERMS: use two vocabulary words in one sentence (here or in your notebook)."
           ]
         },
         {
-          "type": "cornellnotes",
-          "heading": "Cornell Notes (25 / 75)",
-          "cues": [
-            "Homestead Act",
-            "Transcontinental RR",
-            "Who bore the cost?"
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Definition (your words)",
+            "Characteristics"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Example",
+            "Non-example"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "head",
+          "text": "Activity 3 · Cornell Notes — Guided (Direct Teaching) · THE SPINE",
+          "sub": "take notes as the teacher advances the deck, in order"
+        },
+        {
+          "type": "cornell",
+          "heading": "Cue column is pre-seeded with the lecture segments — write your notes on the right",
+          "rows": [
+            [
+              "<strong>Sequence the expansion of the United States</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 1 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Impact on Western Settlement</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 2 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Impact on American Indians, Immigrants, and Settlers</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 3 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Doodle Zone",
+          "paras": [
+            "Sketch one image, symbol, or timeline that captures this standard (dual-coding)."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Progress Check → Check Yourself",
+          "paras": [
+            "In one sentence (12–15 words), summarize the standard. Rate yourself 1–4 on each cue: 1 emerging · 2 developing · 3 proficient · 4 advanced."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Organization — keeping ordered, findable notes is a hireability skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 4 · Close Read",
+          "sub": "key terms first, then evidence"
+        },
+        {
+          "type": "box",
+          "label": "CORE PATH — read one chunk at a time",
+          "paras": [
+            "<strong>Sequence the expansion of the United States.</strong> The Homestead Act of 1862 offered 160 acres of free land to settlers who would farm it for five years. Combined with the completion of the Transcontinental Railroad in 1869, these policies accelerated westward expansion as part of Manifest Destiny—the belief that Americans were destined to spread across the continent. The Union Pacific built westward from Omaha while the Central Pacific built eastward from Sacramento, meeting at Promontory Summit, Utah.",
+            "<strong>Impact on Western Settlement.</strong> The Transcontinental Railroad dramatically reduced travel time from months to days, opening the West to settlement, commerce, and resource extraction. Towns sprang up along rail lines, and agricultural products could now reach eastern markets efficiently. However, this expansion came at tremendous cost to American Indian nations whose lands were taken and whose way of life was destroyed.",
+            "<strong>Impact on American Indians, Immigrants, and Settlers.</strong> Western expansion devastated American Indian communities through forced relocations, broken treaties, and the near-extinction of buffalo herds they depended upon. Immigrants, particularly Chinese workers who built much of the Central Pacific, faced discrimination despite their crucial contributions. The \"Buffalo Soldiers\"—African American cavalry regiments—served on the frontier, including George Jordan of Williamson County, Tennessee, who received the Medal of Honor for his service."
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Thesis mini-lesson — how to write a thesis",
+          "paras": [
+            "A thesis takes a position and previews your reasons: “Although ___, the bigger effect was ___ because ___.” You’ll carry this thesis into Activity 7 (CER)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Text-dependent question",
+            "Evidence from the passage",
+            "What it shows"
+          ],
+          "rows": [
+            [
+              "Main idea of “Sequence the expansion of the United States” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Impact on Western Settlement” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Impact on American Indians, Immigrants, and Settlers” + the evidence that supports it",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Reading — main idea + evidence is exactly the ACT Reading skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 5 · Primary Source / HIPPO",
+          "sub": "source it first"
+        },
+        {
+          "type": "box",
+          "label": "Source it first",
+          "paras": [
+            "Before analyzing, source the document: who made it, when, and why. Then work the HIPPO frame and answer in a complete CER."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "HIPPO move",
+            "What I notice"
+          ],
+          "rows": [
+            [
+              "Historical context — what was happening when this was made?",
+              ""
+            ],
+            [
+              "Intended audience — who was meant to see it?",
+              ""
+            ],
+            [
+              "Point of view — whose perspective, and what is left out?",
+              ""
+            ],
+            [
+              "Purpose — why was it created?",
+              ""
+            ],
+            [
+              "Outside evidence — what do I already know that connects?",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Confidence check-in",
+          "paras": [
+            "Rate your sourcing 1–4. What would move you up one level?"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Civic responsibility — weighing evidence fairly is a citizen’s skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 6 · Practice Quiz",
+          "sub": "commit first, then check"
+        },
+        {
+          "type": "box",
+          "label": "Choose the best answer (circle a letter)",
+          "paras": [
+            "<strong>1.</strong> Which of the following best describes a direct impact of the Homestead Act of 1862 on settlement patterns in the American West?<br>A. It encouraged settlement by offering 160 acres of public land to citizens who agreed to farm it for five years<br>B. It restricted western migration by requiring settlers to purchase land at market prices from the federal government<br>C. It redirected migration to the Pacific Coast by offering free land only in Oregon and Washington territories<br>D. It promoted settlement exclusively among formerly enslaved people as part of Reconstruction land redistribution",
+            "<strong>2.</strong> Which of the following best describes the relationship between Manifest Destiny ideology and the construction of the Transcontinental Railroad?<br>A. The railroad construction disproved the concept of Manifest Destiny<br>B. Manifest Destiny provided the philosophical justification while the Transcontinental Railroad provided the practical means for westward expansion<br>C. The railroad was built to prevent further westward expansion<br>D. Manifest Destiny and railroad construction were unrelated historical",
+            "<strong>3.</strong> Which of the following was a direct consequence of the Homestead Act of 1862?<br>A. The immediate elimination of sharecropping in the post-Civil War South<br>B. Guaranteed land rights for American Indian nations living in the western territories<br>C. Rapid settlement of the Great Plains by small farmers who claimed 160-acre plots of free federal land<br>D. The federal purchase of plantations in the South to redistribute to freed people"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-Check Key (commit your answers first!)",
+          "paras": [
+            "<strong>1. A</strong> — “It encouraged settlement by offering 160 acres of public land to citizens who agreed…” is correct; the other options misstate a fact or overreach.",
+            "<strong>2. B</strong> — “Manifest Destiny provided the philosophical justification while the Transcontinental Railroad provided the practical means…” is correct; the other options misstate a fact or overreach.",
+            "<strong>3. C</strong> — “Rapid settlement of the Great Plains by small farmers who claimed 160-acre plots of…” is correct; the other options misstate a fact or overreach."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Integrity / Lifelong learning — self-scoring honestly, then acting on the miss."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Test format — timed multiple-choice with tempting distractors mirrors the ACT."
+        },
+        {
+          "type": "head",
+          "text": "Activity 7 · Constructed Response (CER)",
+          "sub": "claim · evidence · reasoning"
+        },
+        {
+          "type": "box",
+          "label": "Big question",
+          "paras": [
+            "How did federal land and railroad policy reshape the West — and at whose expense? Use evidence from the reading (Act 4) and the source (Act 5)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Claim",
+            "Evidence",
+            "Reasoning"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-grade rubric (/12) — score yourself, then a peer",
+          "paras": [
+            "Claim answers the question (0–4) · Evidence is accurate + specific (0–4) · Reasoning links evidence to claim (0–4). Peer review: one glow, one grow, one revision."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "box",
+          "label": "SPEAK IT · 60-second Mission Brief — stand up and say it",
+          "paras": [
+            "Present your CER out loud: state your <strong>claim</strong>, give <strong>one</strong> piece of evidence, and say <strong>why it matters</strong> — 60 seconds. Score the delivery 1–4 (clear voice · eye contact · evidence). Speaking your argument is a Ready-Graduate + interview skill."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Communication (spoken) — the Mission Brief builds interview-ready voice."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · English / Writing — building a claim with evidence is the ACT Writing task."
+        },
+        {
+          "type": "head",
+          "text": "Exit Ticket",
+          "sub": "close the standard"
+        },
+        {
+          "type": "box",
+          "label": "3–2–1",
+          "paras": [
+            "3 things you learned · 2 pieces of evidence you could use · 1 question you still have."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 3
         }
       ]
     },
@@ -184,213 +509,416 @@
       "title": "Federal Policies Toward American Indians",
       "blocks": [
         {
-          "type": "cornell",
-          "heading": "Cornell Universal Front",
-          "rows": [
-            [
-              "Essential Question",
-              "How did federal policy try to erase Native nations — and how did they resist?"
-            ],
-            [
-              "Deck slides",
-              "Teacher & Student decks — US.02 section (advance in order)"
-            ],
-            [
-              "Vocabulary",
-              "Reservation System · Assimilation · Dawes Act · Allotment · Boarding School"
-            ],
-            [
-              "Success criteria",
-              "I can examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act."
-            ]
+          "type": "head",
+          "text": "Opener",
+          "sub": "before you learn"
+        },
+        {
+          "type": "box",
+          "label": "Learning target (I can…)",
+          "paras": [
+            "I can examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act."
           ]
+        },
+        {
+          "type": "box",
+          "label": "Lenses (this standard’s dimensions)",
+          "paras": [
+            "C Culture · G Geography · H History · P Politics/Government · T Tennessee"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "SET YOUR SMART GOAL — my short-term goal for this standard",
+          "paras": [
+            "Write a goal that is Specific · Measurable · Achievable · Relevant · Time-bound. Example: “By Friday I can explain federal policies toward american indians using two pieces of evidence.”"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Hook — read this",
+          "paras": [
+            "After the Civil War, the federal government expanded a policy of confining American Indian nations to reservations—designated territories far smaller than their traditional homelands. <em>What surprises you? What do you want to know?</em>"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Preview & Predict",
+          "paras": [
+            "Skim the standard. Predict who benefited and who bore the cost."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "head",
+          "text": "Activity 1 · Vocabulary",
+          "sub": "word bank + language support"
         },
         {
           "type": "table",
           "head": [
             "Term",
             "What it means",
-            "Español"
+            "Español",
+            "Know it? (✓ / ? / new)"
           ],
           "rows": [
             [
               "<strong>Reservation System</strong>",
               "Federal policy that confined Native American tribes to designated areas of land. It changed land control and where Native communities could live.",
-              "Sistema de Reservaciones"
+              "Sistema de Reservaciones",
+              ""
             ],
             [
               "<strong>Assimilation</strong>",
               "Federal policy aimed at forcing Native Americans to abandon their traditional cultures and adopt European-American ways of life. It changed land control and where Native communities could live.",
-              "Asimilación"
+              "Asimilación",
+              ""
             ],
             [
               "<strong>Dawes Act</strong>",
               "An 1887 law that divided tribal lands into individual allotments for Native American families. It changed land control and where Native communities could live.",
-              "Ley Dawes"
+              "Ley Dawes",
+              ""
             ],
             [
               "<strong>Allotment</strong>",
               "The division of communal tribal land into small individual plots under the Dawes Act, which opened \"surplus\" land to white settlers and caused massive Native land loss.",
-              "Asignación de Parcelas"
+              "Asignación de Parcelas",
+              ""
             ],
             [
               "<strong>Boarding School</strong>",
               "Off-reservation schools, such as Carlisle, where Native children were forced to abandon their languages, names, and cultures to be \"assimilated\" into white society.",
-              "Internado"
+              "Internado",
+              ""
             ],
             [
               "<strong>Sovereignty</strong>",
               "The right of a tribe or nation to govern itself; federal Indian policy in this era steadily eroded tribal sovereignty.",
-              "Soberanía"
+              "Soberanía",
+              ""
             ]
           ]
         },
         {
-          "type": "activity",
-          "num": 4,
-          "name": "Close Read",
-          "time": "~15 min",
-          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.02, SSP.03 — collect, examine, and synthesize evidence with historical awareness.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Core Path — read one chunk at a time",
-              "paras": [
-                "<strong>Movement to Reservations.</strong> After the Civil War, the federal government expanded a policy of confining American Indian nations to reservations—designated territories far smaller than their traditional homelands. Officials stated two goals: to open western land for white settlement and railroads, and to end armed conflict on the Plains. Many treaties were signed under military and economic pressure, and tribes surrendered millions of acres. Resistance continued: at the Battle of the Little Bighorn (1876), Lakota and Cheyenne forces under Sitting Bull and Crazy Horse defeated Lt. Col. George Custer—a Native victory that intensified U.S. efforts to break tribal power.",
-                "<strong>Assimilation and Boarding Schools.</strong> Alongside removal, the government pursued a policy of assimilation—using schools and law to replace tribal cultures with Euro-American ones. At off-reservation boarding schools such as the Carlisle Indian Industrial School (founded 1879), Captain Richard H. Pratt summarized the aim in 1892: “Kill the Indian in him, and save the man.” Children were removed from their families and often forbidden to speak their languages, wear their clothing, or practice their religions. Historians today describe this systematic effort to erase Native identity as cultural genocide, and document its lasting, multi-generational harm.",
-                "<strong>The Dawes Act and Its Impact.</strong> The Dawes Severalty Act of 1887 broke up communal tribal lands into individual allotments—160 acres to each head of a family—stating the goal of turning American Indians into independent farmers and U.S. citizens. The actual effect was a massive transfer of land: American Indians held about 150 million acres before the Act, and lost roughly two-thirds of their land base—over 90 million acres—by 1934. “Surplus” land was sold to white settlers, and additional allotted land was lost through taxation, fraud, and forced sales. The Act dismantled the communal landholding central to many tribal cultures."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Language support",
-              "paras": [
-                "Key terms to know first: Reservation System, Assimilation. Read once for the gist, then again for evidence."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Text-dependent question",
-                "Evidence from the passage",
-                "Your answer (what it shows)"
-              ],
-              "rows": [
-                [
-                  "What is the main idea of “Movement to Reservations”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Assimilation and Boarding Schools”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “The Dawes Act and Its Impact”, and what evidence supports it?",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "box",
+          "label": "Knowledge self-check",
+          "paras": [
+            "For each term mark ✓ (I can use it), ? (I’ve seen it), or new. Come back and re-mark after the lesson."
           ]
         },
         {
-          "type": "activity",
-          "num": 5,
-          "name": "Primary Source (HIPPO)",
-          "time": "~15 min",
-          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Source it first",
-              "paras": [
-                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "HIPPO move",
-                "What I notice in this source"
-              ],
-              "rows": [
-                [
-                  "Historical context — what was happening when this was made?",
-                  ""
-                ],
-                [
-                  "Intended audience — who was meant to see it?",
-                  ""
-                ],
-                [
-                  "Point of view — whose perspective, and what is left out?",
-                  ""
-                ],
-                [
-                  "Purpose — why was it created?",
-                  ""
-                ],
-                [
-                  "Outside evidence — what do I already know that connects?",
-                  ""
-                ]
-              ]
-            }
+          "type": "head",
+          "text": "Activity 2 · Vocabulary Studio (Frayer)",
+          "sub": "response choice"
+        },
+        {
+          "type": "box",
+          "label": "Build a Frayer model for: Reservation System",
+          "paras": [
+            "Fill each quadrant. Then CONNECT THE TERMS: use two vocabulary words in one sentence (here or in your notebook)."
           ]
         },
         {
-          "type": "activity",
-          "num": 6,
-          "name": "Claim & Evidence: What Did the Policy Do?",
-          "time": "12–15 min",
-          "lead": "Use evidence from the reading and the source to build your answer.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Task — Pairs → Whole class · 12–15 min",
-              "paras": [
-                "Examine the Tom Torlino before/after photographs and the Dawes Act excerpt. In your own words, write what each policy CLAIMED to do and what it ACTUALLY did, citing one piece of evidence for each. Then take a position: was federal assimilation policy primarily about land, about culture, or both? Support your claim with evidence from today's sources.",
-                "<strong>Deliverable:</strong> A claim-evidence-reasoning (CER) paragraph with at least two cited sources."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Differentiation",
-              "paras": [
-                "Entry: T-chart (Claimed | Actually) instead of paragraph. Honors: evaluate the term “cultural genocide” — is it supported by the evidence? Why or why not?"
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Claim",
-                "Evidence",
-                "Reasoning"
-              ],
-              "rows": [
-                [
-                  "",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Definition (your words)",
+            "Characteristics"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
         },
         {
-          "type": "cornellnotes",
-          "heading": "Cornell Notes (25 / 75)",
-          "cues": [
-            "Reservation System",
-            "Assimilation",
-            "Dawes Act",
-            "Who benefited? Who bore the cost?"
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Example",
+            "Non-example"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
+        },
+        {
+          "type": "head",
+          "text": "Activity 3 · Cornell Notes — Guided (Direct Teaching) · THE SPINE",
+          "sub": "take notes as the teacher advances the deck, in order"
+        },
+        {
+          "type": "cornell",
+          "heading": "Cue column is pre-seeded with the lecture segments — write your notes on the right",
+          "rows": [
+            [
+              "<strong>Movement to Reservations</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 1 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Assimilation and Boarding Schools</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 2 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>The Dawes Act and Its Impact</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 3 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Doodle Zone",
+          "paras": [
+            "Sketch one image, symbol, or timeline that captures this standard (dual-coding)."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Progress Check → Check Yourself",
+          "paras": [
+            "In one sentence (12–15 words), summarize the standard. Rate yourself 1–4 on each cue: 1 emerging · 2 developing · 3 proficient · 4 advanced."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Organization — keeping ordered, findable notes is a hireability skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 4 · Close Read",
+          "sub": "key terms first, then evidence"
+        },
+        {
+          "type": "box",
+          "label": "CORE PATH — read one chunk at a time",
+          "paras": [
+            "<strong>Movement to Reservations.</strong> After the Civil War, the federal government expanded a policy of confining American Indian nations to reservations—designated territories far smaller than their traditional homelands. Officials stated two goals: to open western land for white settlement and railroads, and to end armed conflict on the Plains. Many treaties were signed under military and economic pressure, and tribes surrendered millions of acres. Resistance continued: at the Battle of the Little Bighorn (1876), Lakota and Cheyenne forces under Sitting Bull and Crazy Horse defeated Lt. Col. George Custer—a Native victory that intensified U.S. efforts to break tribal power.",
+            "<strong>Assimilation and Boarding Schools.</strong> Alongside removal, the government pursued a policy of assimilation—using schools and law to replace tribal cultures with Euro-American ones. At off-reservation boarding schools such as the Carlisle Indian Industrial School (founded 1879), Captain Richard H. Pratt summarized the aim in 1892: “Kill the Indian in him, and save the man.” Children were removed from their families and often forbidden to speak their languages, wear their clothing, or practice their religions. Historians today describe this systematic effort to erase Native identity as cultural genocide, and document its lasting, multi-generational harm.",
+            "<strong>The Dawes Act and Its Impact.</strong> The Dawes Severalty Act of 1887 broke up communal tribal lands into individual allotments—160 acres to each head of a family—stating the goal of turning American Indians into independent farmers and U.S. citizens. The actual effect was a massive transfer of land: American Indians held about 150 million acres before the Act, and lost roughly two-thirds of their land base—over 90 million acres—by 1934. “Surplus” land was sold to white settlers, and additional allotted land was lost through taxation, fraud, and forced sales. The Act dismantled the communal landholding central to many tribal cultures."
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Thesis mini-lesson — how to write a thesis",
+          "paras": [
+            "A thesis takes a position and previews your reasons: “Although ___, the bigger effect was ___ because ___.” You’ll carry this thesis into Activity 7 (CER)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Text-dependent question",
+            "Evidence from the passage",
+            "What it shows"
+          ],
+          "rows": [
+            [
+              "Main idea of “Movement to Reservations” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Assimilation and Boarding Schools” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “The Dawes Act and Its Impact” + the evidence that supports it",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Reading — main idea + evidence is exactly the ACT Reading skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 5 · Primary Source / HIPPO",
+          "sub": "source it first"
+        },
+        {
+          "type": "box",
+          "label": "Source it first",
+          "paras": [
+            "Before analyzing, source the document: who made it, when, and why. Then work the HIPPO frame and answer in a complete CER."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "HIPPO move",
+            "What I notice"
+          ],
+          "rows": [
+            [
+              "Historical context — what was happening when this was made?",
+              ""
+            ],
+            [
+              "Intended audience — who was meant to see it?",
+              ""
+            ],
+            [
+              "Point of view — whose perspective, and what is left out?",
+              ""
+            ],
+            [
+              "Purpose — why was it created?",
+              ""
+            ],
+            [
+              "Outside evidence — what do I already know that connects?",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Confidence check-in",
+          "paras": [
+            "Rate your sourcing 1–4. What would move you up one level?"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Civic responsibility — weighing evidence fairly is a citizen’s skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 6 · Practice Quiz",
+          "sub": "commit first, then check"
+        },
+        {
+          "type": "box",
+          "label": "Choose the best answer (circle a letter)",
+          "paras": [
+            "<strong>1.</strong> The primary purpose of American Indian boarding schools like Carlisle Industrial School was to:<br>A. Provide advanced academic education while preserving tribal languages and customs<br>B. Remove children from tribal influences and teach them Euro-American language, dress, religion, and labor habits to force assimilation<br>C. Train American Indian students for leadership roles within their<br>D. Offer vocational training that complemented traditional American Indian skills and economies",
+            "<strong>2.</strong> Which of the following best describes how the reservation system changed traditional American Indian ways of life?<br>A. It preserved tribal governance structures by giving tribes full control over reservation boundaries and resources<br>B. It provided tribes with guaranteed federal income that allowed them to maintain their nomadic lifestyle<br>C. It forced tribes onto restricted land, undermining their traditional economies and self-governing institutions<br>D. It strengthened tribal unity by consolidating multiple tribes onto shared lands with common resources U.S. History Hack™ · Unit 1 (Course Standard) © 2026 TroopToTeacher Technologies LLC | Page 5 U.S. History Hack™ · Unit 1 · Assessment Book (Teacher)",
+            "<strong>3.</strong> What was the primary difference between the reservation system and the Dawes Act of 1887 in their approach to American Indian land ownership?<br>A. The Dawes Act created new reservations while the reservation system dissolved existing ones<br>B. The reservation system required individual land ownership, while the Dawes Act returned land to tribal collective control<br>C. Both policies had the same effect on tribal land ownership but differed only in geographic scope<br>D. The reservation system preserved tribal land ownership collectively, while the Dawes Act broke up tribal lands into individual allotments"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-Check Key (commit your answers first!)",
+          "paras": [
+            "<strong>1. B</strong> — “Remove children from tribal influences and teach them Euro-American language, dress, religion, and labor…” is correct; the other options misstate a fact or overreach.",
+            "<strong>2. C</strong> — “It forced tribes onto restricted land, undermining their traditional economies and self-governing institutions” is correct; the other options misstate a fact or overreach.",
+            "<strong>3. D</strong> — “The reservation system preserved tribal land ownership collectively, while the Dawes Act broke up…” is correct; the other options misstate a fact or overreach."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Integrity / Lifelong learning — self-scoring honestly, then acting on the miss."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Test format — timed multiple-choice with tempting distractors mirrors the ACT."
+        },
+        {
+          "type": "head",
+          "text": "Activity 7 · Constructed Response (CER)",
+          "sub": "claim · evidence · reasoning"
+        },
+        {
+          "type": "box",
+          "label": "Big question",
+          "paras": [
+            "How did federal policy try to erase Native nations — and how did they resist? Use evidence from the reading (Act 4) and the source (Act 5)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Claim",
+            "Evidence",
+            "Reasoning"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-grade rubric (/12) — score yourself, then a peer",
+          "paras": [
+            "Claim answers the question (0–4) · Evidence is accurate + specific (0–4) · Reasoning links evidence to claim (0–4). Peer review: one glow, one grow, one revision."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "box",
+          "label": "SPEAK IT · 60-second Mission Brief — stand up and say it",
+          "paras": [
+            "Present your CER out loud: state your <strong>claim</strong>, give <strong>one</strong> piece of evidence, and say <strong>why it matters</strong> — 60 seconds. Score the delivery 1–4 (clear voice · eye contact · evidence). Speaking your argument is a Ready-Graduate + interview skill."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Communication (spoken) — the Mission Brief builds interview-ready voice."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · English / Writing — building a claim with evidence is the ACT Writing task."
+        },
+        {
+          "type": "head",
+          "text": "Exit Ticket",
+          "sub": "close the standard"
+        },
+        {
+          "type": "box",
+          "label": "3–2–1",
+          "paras": [
+            "3 things you learned · 2 pieces of evidence you could use · 1 question you still have."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 3
         }
       ]
     },
@@ -399,214 +927,420 @@
       "title": "Compromise of 1877, Jim Crow & Plessy v. Ferguson",
       "blocks": [
         {
-          "type": "cornell",
-          "heading": "Cornell Universal Front",
-          "rows": [
-            [
-              "Essential Question",
-              "How did the end of Reconstruction harden into Jim Crow — and who fought back?"
-            ],
-            [
-              "Deck slides",
-              "Teacher & Student decks — US.03 section (advance in order)"
-            ],
-            [
-              "Vocabulary",
-              "Compromise of 1877 · Jim Crow Laws · Disenfranchisement · Plessy v. Ferguson · Exodusters"
-            ],
-            [
-              "Success criteria",
-              "I can explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Benjamin \"Pap\" Singleton and the Exodusters, and the Plessy v. Ferguson decision."
-            ]
+          "type": "head",
+          "text": "Opener",
+          "sub": "before you learn"
+        },
+        {
+          "type": "box",
+          "label": "Learning target (I can…)",
+          "paras": [
+            "I can explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Benjamin \"Pap\" Singleton and the Exodusters, and the Plessy v. Ferguson decision."
           ]
+        },
+        {
+          "type": "box",
+          "label": "Lenses (this standard’s dimensions)",
+          "paras": [
+            "C Culture · G Geography · H History · P Politics/Government · T Tennessee · TCA Tennessee Code Annotated (legally required)"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "SET YOUR SMART GOAL — my short-term goal for this standard",
+          "paras": [
+            "Write a goal that is Specific · Measurable · Achievable · Relevant · Time-bound. Example: “By Friday I can explain compromise of 1877, jim crow & plessy v. ferguson using two pieces of evidence.”"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Hook — read this",
+          "paras": [
+            "The disputed 1876 presidential election between Republican Rutherford B. <em>What surprises you? What do you want to know?</em>"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Preview & Predict",
+          "paras": [
+            "Skim the standard. Predict who benefited and who bore the cost."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "head",
+          "text": "Activity 1 · Vocabulary",
+          "sub": "word bank + language support"
         },
         {
           "type": "table",
           "head": [
             "Term",
             "What it means",
-            "Español"
+            "Español",
+            "Know it? (✓ / ? / new)"
           ],
           "rows": [
             [
               "<strong>Compromise of 1877</strong>",
               "An informal agreement that resolved the disputed 1876 presidential election. It changed who held power after major conflicts.",
-              "Compromiso de 1877"
+              "Compromiso de 1877",
+              ""
             ],
             [
               "<strong>Jim Crow Laws</strong>",
               "State and local laws enacted primarily in the Southern states between 1877 and the 1960s that enforced racial. It shaped racial rules and unequal treatment in daily life.",
-              "Leyes de Jim Crow"
+              "Leyes de Jim Crow",
+              ""
             ],
             [
               "<strong>Disenfranchisement</strong>",
               "The systematic taking away of voting rights through methods such as poll taxes. It changed who could vote and who had political power.",
-              "Privación del Derecho al Voto"
+              "Privación del Derecho al Voto",
+              ""
             ],
             [
               "<strong>Plessy v. Ferguson</strong>",
               "An 1896 Supreme Court decision that upheld racial separation by race under the doctrine of \"separate but equal,\". It shaped racial rules and unequal treatment in daily life.",
-              "Plessy contra Ferguson"
+              "Plessy contra Ferguson",
+              ""
             ],
             [
               "<strong>Exodusters</strong>",
               "African Americans who moved from the South to Kansas and other western states in the late 1870s. It shaped racial rules and unequal treatment in daily life.",
-              "Exodusters (colonos negros)"
+              "Exodusters (colonos negros)",
+              ""
             ]
           ]
         },
         {
-          "type": "activity",
-          "num": 4,
-          "name": "Close Read",
-          "time": "~15 min",
-          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.02, SSP.03 — collect, examine, and synthesize evidence with historical awareness.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Core Path — read one chunk at a time",
-              "paras": [
-                "<strong>The Election of 1876 and End of Reconstruction.</strong> The disputed 1876 presidential election between Republican Rutherford B. Hayes and Democrat Samuel Tilden led to the Compromise of 1877. In exchange for the presidency, Hayes agreed to withdraw federal troops from the South, effectively ending Reconstruction. This abandonment left African Americans without federal protection against increasingly hostile state governments.",
-                "<strong>Jim Crow Laws, Lynching, and Disenfranchisement.</strong> With federal protection gone, Southern states implemented Jim Crow laws enforcing racial segregation in all aspects of life. African Americans faced systematic disenfranchisement through poll taxes, literacy tests, grandfather clauses, and white primaries. Those who resisted faced terrorism, including lynching—public murders that went unpunished and were often celebrated by white communities.",
-                "<strong>Pap Singleton and the Exodusters.</strong> Benjamin \"Pap\" Singleton, a formerly enslaved man, organized the migration of thousands of African Americans from the South to Kansas in 1879. These \"Exodusters\" sought to escape violence and oppression, establishing communities like Nicodemus, Kansas. While conditions in Kansas were often harsh, the Exoduster movement represented African American agency and resistance to Jim Crow terror.",
-                "<strong>Plessy v. Ferguson and \"Separate But Equal\".</strong> The 1896 Supreme Court decision in Plessy v. Ferguson established the \"separate but equal\" doctrine, ruling that racial segregation was constitutional as long as facilities were supposedly equal. In practice, facilities for African Americans were grossly inferior. This decision legitimized Jim Crow segregation for nearly sixty years until Brown v. Board of Education (1954)."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Language support",
-              "paras": [
-                "Key terms to know first: Compromise of 1877, Jim Crow Laws. Read once for the gist, then again for evidence."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Text-dependent question",
-                "Evidence from the passage",
-                "Your answer (what it shows)"
-              ],
-              "rows": [
-                [
-                  "What is the main idea of “The Election of 1876 and End of Reconstruction”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Jim Crow Laws, Lynching, and Disenfranchisement”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Pap Singleton and the Exodusters”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Plessy v. Ferguson and \"Separate But Equal\"”, and what evidence supports it?",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "box",
+          "label": "Knowledge self-check",
+          "paras": [
+            "For each term mark ✓ (I can use it), ? (I’ve seen it), or new. Come back and re-mark after the lesson."
           ]
         },
         {
-          "type": "activity",
-          "num": 5,
-          "name": "Primary Source (HIPPO)",
-          "time": "~15 min",
-          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Source it first",
-              "paras": [
-                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "HIPPO move",
-                "What I notice in this source"
-              ],
-              "rows": [
-                [
-                  "Historical context — what was happening when this was made?",
-                  ""
-                ],
-                [
-                  "Intended audience — who was meant to see it?",
-                  ""
-                ],
-                [
-                  "Point of view — whose perspective, and what is left out?",
-                  ""
-                ],
-                [
-                  "Purpose — why was it created?",
-                  ""
-                ],
-                [
-                  "Outside evidence — what do I already know that connects?",
-                  ""
-                ]
-              ]
-            }
+          "type": "head",
+          "text": "Activity 2 · Vocabulary Studio (Frayer)",
+          "sub": "response choice"
+        },
+        {
+          "type": "box",
+          "label": "Build a Frayer model for: Compromise of 1877",
+          "paras": [
+            "Fill each quadrant. Then CONNECT THE TERMS: use two vocabulary words in one sentence (here or in your notebook)."
           ]
         },
         {
-          "type": "activity",
-          "num": 6,
-          "name": "Reading a Political Cartoon as Evidence",
-          "time": "10–12 min",
-          "lead": "Use evidence from the reading and the source to build your answer.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Task — Pairs · 10–12 min",
-              "paras": [
-                "Analyze Thomas Nast's “Worse Than Slavery” cartoon and the Freedmen's Bureau image. Identify (1) the artist's point of view, (2) two symbols and their meaning, and (3) what the cartoon argues about why Reconstruction's protections collapsed.",
-                "<strong>Deliverable:</strong> Annotated cartoon analysis with point-of-view statement."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Differentiation",
-              "paras": [
-                "Entry: guided symbol list. Honors: compare Nast's view to the photo of the SC legislature — do the sources corroborate?"
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Claim",
-                "Evidence",
-                "Reasoning"
-              ],
-              "rows": [
-                [
-                  "",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Definition (your words)",
+            "Characteristics"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
         },
         {
-          "type": "cornellnotes",
-          "heading": "Cornell Notes (25 / 75)",
-          "cues": [
-            "Compromise of 1877",
-            "Jim Crow Laws",
-            "Disenfranchisement",
-            "Who benefited? Who bore the cost?"
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Example",
+            "Non-example"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
+        },
+        {
+          "type": "head",
+          "text": "Activity 3 · Cornell Notes — Guided (Direct Teaching) · THE SPINE",
+          "sub": "take notes as the teacher advances the deck, in order"
+        },
+        {
+          "type": "cornell",
+          "heading": "Cue column is pre-seeded with the lecture segments — write your notes on the right",
+          "rows": [
+            [
+              "<strong>The Election of 1876 and End of Reconstruction</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 1 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Jim Crow Laws, Lynching, and Disenfranchisement</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 2 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Pap Singleton and the Exodusters</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 3 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Plessy v. Ferguson and \"Separate But Equal\"</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 4 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Doodle Zone",
+          "paras": [
+            "Sketch one image, symbol, or timeline that captures this standard (dual-coding)."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Progress Check → Check Yourself",
+          "paras": [
+            "In one sentence (12–15 words), summarize the standard. Rate yourself 1–4 on each cue: 1 emerging · 2 developing · 3 proficient · 4 advanced."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Organization — keeping ordered, findable notes is a hireability skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 4 · Close Read",
+          "sub": "key terms first, then evidence"
+        },
+        {
+          "type": "box",
+          "label": "CORE PATH — read one chunk at a time",
+          "paras": [
+            "<strong>The Election of 1876 and End of Reconstruction.</strong> The disputed 1876 presidential election between Republican Rutherford B. Hayes and Democrat Samuel Tilden led to the Compromise of 1877. In exchange for the presidency, Hayes agreed to withdraw federal troops from the South, effectively ending Reconstruction. This abandonment left African Americans without federal protection against increasingly hostile state governments.",
+            "<strong>Jim Crow Laws, Lynching, and Disenfranchisement.</strong> With federal protection gone, Southern states implemented Jim Crow laws enforcing racial segregation in all aspects of life. African Americans faced systematic disenfranchisement through poll taxes, literacy tests, grandfather clauses, and white primaries. Those who resisted faced terrorism, including lynching—public murders that went unpunished and were often celebrated by white communities.",
+            "<strong>Pap Singleton and the Exodusters.</strong> Benjamin \"Pap\" Singleton, a formerly enslaved man, organized the migration of thousands of African Americans from the South to Kansas in 1879. These \"Exodusters\" sought to escape violence and oppression, establishing communities like Nicodemus, Kansas. While conditions in Kansas were often harsh, the Exoduster movement represented African American agency and resistance to Jim Crow terror.",
+            "<strong>Plessy v. Ferguson and \"Separate But Equal\".</strong> The 1896 Supreme Court decision in Plessy v. Ferguson established the \"separate but equal\" doctrine, ruling that racial segregation was constitutional as long as facilities were supposedly equal. In practice, facilities for African Americans were grossly inferior. This decision legitimized Jim Crow segregation for nearly sixty years until Brown v. Board of Education (1954)."
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Thesis mini-lesson — how to write a thesis",
+          "paras": [
+            "A thesis takes a position and previews your reasons: “Although ___, the bigger effect was ___ because ___.” You’ll carry this thesis into Activity 7 (CER)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Text-dependent question",
+            "Evidence from the passage",
+            "What it shows"
+          ],
+          "rows": [
+            [
+              "Main idea of “The Election of 1876 and End of Reconstruction” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Jim Crow Laws, Lynching, and Disenfranchisement” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Pap Singleton and the Exodusters” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Plessy v. Ferguson and \"Separate But Equal\"” + the evidence that supports it",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Reading — main idea + evidence is exactly the ACT Reading skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 5 · Primary Source / HIPPO",
+          "sub": "source it first"
+        },
+        {
+          "type": "box",
+          "label": "Source it first",
+          "paras": [
+            "Before analyzing, source the document: who made it, when, and why. Then work the HIPPO frame and answer in a complete CER."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "HIPPO move",
+            "What I notice"
+          ],
+          "rows": [
+            [
+              "Historical context — what was happening when this was made?",
+              ""
+            ],
+            [
+              "Intended audience — who was meant to see it?",
+              ""
+            ],
+            [
+              "Point of view — whose perspective, and what is left out?",
+              ""
+            ],
+            [
+              "Purpose — why was it created?",
+              ""
+            ],
+            [
+              "Outside evidence — what do I already know that connects?",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Confidence check-in",
+          "paras": [
+            "Rate your sourcing 1–4. What would move you up one level?"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Civic responsibility — weighing evidence fairly is a citizen’s skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 6 · Practice Quiz",
+          "sub": "commit first, then check"
+        },
+        {
+          "type": "box",
+          "label": "Choose the best answer (circle a letter)",
+          "paras": [
+            "<strong>1.</strong> Which disenfranchisement method was specifically designed to prevent African Americans from voting while allowing most poor whites to maintain voting rights?<br>A. Property ownership requirements for most voters<br>B. Age restrictions that raised the voting age to 25<br>C. Literacy tests combined with grandfather clauses<br>D. Poll taxes that affected citizens across income levels",
+            "<strong>2.</strong> Which of the following best explains how the Compromise of 1877 contributed to the end of Reconstruction?<br>A. It gave Southern states greater congressional representation in exchange for ratifying the 14th Amendment<br>B. It established the Freedmen's Bureau as a permanent federal agency to protect formerly enslaved people<br>C. It required Southern states to hold new elections supervised by Northern military commanders before rejoining the Union<br>D. It resolved the disputed 1876 presidential election by awarding the presidency to Hayes in exchange for withdrawing federal troops from the South",
+            "<strong>3.</strong> Which method was most widely used by Southern state governments to disenfranchise African American voters after Reconstruction?<br>A. Poll taxes that required payment to vote, which most poor freedmen could not afford<br>B. Federal laws that restricted Black citizens to voting only in local elections<br>C. State constitutional amendments that directly repealed the 15th Amendment in the South<br>D. A federal executive order that removed Black voters from registration rolls"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-Check Key (commit your answers first!)",
+          "paras": [
+            "<strong>1. C</strong> — “Literacy tests combined with grandfather clauses” is correct; the other options misstate a fact or overreach.",
+            "<strong>2. D</strong> — “It resolved the disputed 1876 presidential election by awarding the presidency to Hayes in…” is correct; the other options misstate a fact or overreach.",
+            "<strong>3. A</strong> — “Poll taxes that required payment to vote, which most poor freedmen could not afford” is correct; the other options misstate a fact or overreach."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Integrity / Lifelong learning — self-scoring honestly, then acting on the miss."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Test format — timed multiple-choice with tempting distractors mirrors the ACT."
+        },
+        {
+          "type": "head",
+          "text": "Activity 7 · Constructed Response (CER)",
+          "sub": "claim · evidence · reasoning"
+        },
+        {
+          "type": "box",
+          "label": "Big question",
+          "paras": [
+            "How did the end of Reconstruction harden into Jim Crow — and who fought back? Use evidence from the reading (Act 4) and the source (Act 5)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Claim",
+            "Evidence",
+            "Reasoning"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-grade rubric (/12) — score yourself, then a peer",
+          "paras": [
+            "Claim answers the question (0–4) · Evidence is accurate + specific (0–4) · Reasoning links evidence to claim (0–4). Peer review: one glow, one grow, one revision."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "box",
+          "label": "SPEAK IT · 60-second Mission Brief — stand up and say it",
+          "paras": [
+            "Present your CER out loud: state your <strong>claim</strong>, give <strong>one</strong> piece of evidence, and say <strong>why it matters</strong> — 60 seconds. Score the delivery 1–4 (clear voice · eye contact · evidence). Speaking your argument is a Ready-Graduate + interview skill."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Communication (spoken) — the Mission Brief builds interview-ready voice."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · English / Writing — building a claim with evidence is the ACT Writing task."
+        },
+        {
+          "type": "head",
+          "text": "Exit Ticket",
+          "sub": "close the standard"
+        },
+        {
+          "type": "box",
+          "label": "3–2–1",
+          "paras": [
+            "3 things you learned · 2 pieces of evidence you could use · 1 question you still have."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 3
         }
       ]
     },
@@ -615,219 +1349,426 @@
       "title": "Gilded Age Politics and Economics",
       "blocks": [
         {
-          "type": "cornell",
-          "heading": "Cornell Universal Front",
-          "rows": [
-            [
-              "Essential Question",
-              "Who really held power in the Gilded Age — voters, party machines, or money?"
-            ],
-            [
-              "Deck slides",
-              "Teacher & Student decks — US.04 section (advance in order)"
-            ],
-            [
-              "Vocabulary",
-              "Gilded Age · Political Machines · Spoils System · Boss Tweed · Thomas Nast"
-            ],
-            [
-              "Success criteria",
-              "I can analyze the causes and consequences of Gilded Age politics and economics, including political machines, major scandals, civil service reform, and economic differences between farmers, wage earners, and industrial capitalists."
-            ]
+          "type": "head",
+          "text": "Opener",
+          "sub": "before you learn"
+        },
+        {
+          "type": "box",
+          "label": "Learning target (I can…)",
+          "paras": [
+            "I can analyze the causes and consequences of Gilded Age politics and economics, including political machines, major scandals, civil service reform, and economic differences between farmers, wage earners, and industrial capitalists."
           ]
+        },
+        {
+          "type": "box",
+          "label": "Lenses (this standard’s dimensions)",
+          "paras": [
+            "C Culture · E Economics · G Geography · H History · P Politics/Government"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "SET YOUR SMART GOAL — my short-term goal for this standard",
+          "paras": [
+            "Write a goal that is Specific · Measurable · Achievable · Relevant · Time-bound. Example: “By Friday I can explain gilded age politics and economics using two pieces of evidence.”"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Hook — read this",
+          "paras": [
+            "The Gilded Age (1870s-1900) saw the rise of powerful political machines that controlled city governments through patronage and corruption. <em>What surprises you? What do you want to know?</em>"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Preview & Predict",
+          "paras": [
+            "Skim the standard. Predict who benefited and who bore the cost."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "head",
+          "text": "Activity 1 · Vocabulary",
+          "sub": "word bank + language support"
         },
         {
           "type": "table",
           "head": [
             "Term",
             "What it means",
-            "Español"
+            "Español",
+            "Know it? (✓ / ? / new)"
           ],
           "rows": [
             [
               "<strong>Gilded Age</strong>",
               "The period from roughly 1870 to 1900 characterized by rapid economic growth. It changed rights and rules that people had to live under.",
-              "Edad Dorada"
+              "Edad Dorada",
+              ""
             ],
             [
               "<strong>Political Machines</strong>",
               "Corrupt organizations that controlled city politics through patronage. It changed who could vote and who had political power.",
-              "Máquinas Políticas"
+              "Máquinas Políticas",
+              ""
             ],
             [
               "<strong>Spoils System</strong>",
               "The practice of rewarding political supporters with government jobs regardless of qualifications. It changed rights and rules that people had to live under.",
-              "Sistema de Botín"
+              "Sistema de Botín",
+              ""
             ],
             [
               "<strong>Boss Tweed</strong>",
               "He led New York City's Tammany Hall machine and used bribery to control city politics. His group stole millions of dollars from taxpayers through corrupt contracts.",
-              "Jefe Tweed"
+              "Jefe Tweed",
+              ""
             ],
             [
               "<strong>Thomas Nast</strong>",
               "A political cartoonist whose illustrations exposed Boss Tweed's corruption and helped bring down the Tammany Hall machine. It changed daily life, rights, or power during this era.",
-              "Thomas Nast"
+              "Thomas Nast",
+              ""
             ],
             [
               "<strong>Pendleton Act</strong>",
               "An 1883 federal law that established the Civil Service Commission and required government jobs to be awarded based. It changed rights and rules that people had to live under.",
-              "Ley Pendleton"
+              "Ley Pendleton",
+              ""
             ]
           ]
         },
         {
-          "type": "activity",
-          "num": 4,
-          "name": "Close Read",
-          "time": "~15 min",
-          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.02, SSP.03 — collect, examine, and synthesize evidence with historical awareness.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Core Path — read one chunk at a time",
-              "paras": [
-                "<strong>Political Machines and Boss Tweed.</strong> The Gilded Age (1870s-1900) saw the rise of powerful political machines that controlled city governments through patronage and corruption. Boss Tweed's Tammany Hall in New York City epitomized this system, funneling millions in public funds to Tweed and his associates. Political cartoonist Thomas Nast exposed Tweed's corruption through devastating illustrations in Harper's Weekly.",
-                "<strong>Major Scandals and the Spoils System.</strong> The era was marked by corruption at all levels. The Crédit Mobilier scandal revealed that railroad executives and congressmen had profited enormously from fraudulent construction contracts. The spoils system—giving government jobs to political supporters regardless of qualification—reached its peak. President James Garfield's assassination by a disappointed office-seeker in 1881 finally prompted reform.",
-                "<strong>Civil Service Reform.</strong> Garfield's assassination led to the Pendleton Civil Service Act of 1883, which established merit-based hiring for federal positions through competitive examinations. This began the long process of professionalizing government service, though political influence remained significant in many positions.",
-                "<strong>Economic Disparity.</strong> The Gilded Age saw extreme wealth concentration among industrial capitalists while farmers struggled with falling crop prices, high railroad shipping rates, and debt. Wage earners faced dangerous working conditions, long hours, and low pay. The Interstate Commerce Act of 1887 attempted to regulate railroad rates, representing early federal intervention in the economy."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Language support",
-              "paras": [
-                "Key terms to know first: Gilded Age, Political Machines. Read once for the gist, then again for evidence."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Text-dependent question",
-                "Evidence from the passage",
-                "Your answer (what it shows)"
-              ],
-              "rows": [
-                [
-                  "What is the main idea of “Political Machines and Boss Tweed”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Major Scandals and the Spoils System”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Civil Service Reform”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Economic Disparity”, and what evidence supports it?",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "box",
+          "label": "Knowledge self-check",
+          "paras": [
+            "For each term mark ✓ (I can use it), ? (I’ve seen it), or new. Come back and re-mark after the lesson."
           ]
         },
         {
-          "type": "activity",
-          "num": 5,
-          "name": "Primary Source (HIPPO)",
-          "time": "~15 min",
-          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Source it first",
-              "paras": [
-                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "HIPPO move",
-                "What I notice in this source"
-              ],
-              "rows": [
-                [
-                  "Historical context — what was happening when this was made?",
-                  ""
-                ],
-                [
-                  "Intended audience — who was meant to see it?",
-                  ""
-                ],
-                [
-                  "Point of view — whose perspective, and what is left out?",
-                  ""
-                ],
-                [
-                  "Purpose — why was it created?",
-                  ""
-                ],
-                [
-                  "Outside evidence — what do I already know that connects?",
-                  ""
-                ]
-              ]
-            }
+          "type": "head",
+          "text": "Activity 2 · Vocabulary Studio (Frayer)",
+          "sub": "response choice"
+        },
+        {
+          "type": "box",
+          "label": "Build a Frayer model for: Gilded Age",
+          "paras": [
+            "Fill each quadrant. Then CONNECT THE TERMS: use two vocabulary words in one sentence (here or in your notebook)."
           ]
         },
         {
-          "type": "activity",
-          "num": 6,
-          "name": "Machine Politics: Trade-Off Analysis",
-          "time": "10 min",
-          "lead": "Use evidence from the reading and the source to build your answer.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Task — Small groups · 10 min",
-              "paras": [
-                "Using “The Bosses of the Senate” cartoon, list what a city political machine GAVE residents and what it TOOK. Then decide: why would voters keep electing a corrupt machine? Reach a group consensus and be ready to defend it.",
-                "<strong>Deliverable:</strong> Give/Take T-chart plus a one-sentence group claim."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Differentiation",
-              "paras": [
-                "Entry: provide 3 give/take examples to sort. Honors: connect to a modern trade-off between services and accountability."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Claim",
-                "Evidence",
-                "Reasoning"
-              ],
-              "rows": [
-                [
-                  "",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Definition (your words)",
+            "Characteristics"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
         },
         {
-          "type": "cornellnotes",
-          "heading": "Cornell Notes (25 / 75)",
-          "cues": [
-            "Gilded Age",
-            "Political Machines",
-            "Spoils System",
-            "Who benefited? Who bore the cost?"
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Example",
+            "Non-example"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
+        },
+        {
+          "type": "head",
+          "text": "Activity 3 · Cornell Notes — Guided (Direct Teaching) · THE SPINE",
+          "sub": "take notes as the teacher advances the deck, in order"
+        },
+        {
+          "type": "cornell",
+          "heading": "Cue column is pre-seeded with the lecture segments — write your notes on the right",
+          "rows": [
+            [
+              "<strong>Political Machines and Boss Tweed</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 1 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Major Scandals and the Spoils System</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 2 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Civil Service Reform</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 3 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Economic Disparity</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 4 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Doodle Zone",
+          "paras": [
+            "Sketch one image, symbol, or timeline that captures this standard (dual-coding)."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Progress Check → Check Yourself",
+          "paras": [
+            "In one sentence (12–15 words), summarize the standard. Rate yourself 1–4 on each cue: 1 emerging · 2 developing · 3 proficient · 4 advanced."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Organization — keeping ordered, findable notes is a hireability skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 4 · Close Read",
+          "sub": "key terms first, then evidence"
+        },
+        {
+          "type": "box",
+          "label": "CORE PATH — read one chunk at a time",
+          "paras": [
+            "<strong>Political Machines and Boss Tweed.</strong> The Gilded Age (1870s-1900) saw the rise of powerful political machines that controlled city governments through patronage and corruption. Boss Tweed's Tammany Hall in New York City epitomized this system, funneling millions in public funds to Tweed and his associates. Political cartoonist Thomas Nast exposed Tweed's corruption through devastating illustrations in Harper's Weekly.",
+            "<strong>Major Scandals and the Spoils System.</strong> The era was marked by corruption at all levels. The Crédit Mobilier scandal revealed that railroad executives and congressmen had profited enormously from fraudulent construction contracts. The spoils system—giving government jobs to political supporters regardless of qualification—reached its peak. President James Garfield's assassination by a disappointed office-seeker in 1881 finally prompted reform.",
+            "<strong>Civil Service Reform.</strong> Garfield's assassination led to the Pendleton Civil Service Act of 1883, which established merit-based hiring for federal positions through competitive examinations. This began the long process of professionalizing government service, though political influence remained significant in many positions.",
+            "<strong>Economic Disparity.</strong> The Gilded Age saw extreme wealth concentration among industrial capitalists while farmers struggled with falling crop prices, high railroad shipping rates, and debt. Wage earners faced dangerous working conditions, long hours, and low pay. The Interstate Commerce Act of 1887 attempted to regulate railroad rates, representing early federal intervention in the economy."
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Thesis mini-lesson — how to write a thesis",
+          "paras": [
+            "A thesis takes a position and previews your reasons: “Although ___, the bigger effect was ___ because ___.” You’ll carry this thesis into Activity 7 (CER)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Text-dependent question",
+            "Evidence from the passage",
+            "What it shows"
+          ],
+          "rows": [
+            [
+              "Main idea of “Political Machines and Boss Tweed” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Major Scandals and the Spoils System” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Civil Service Reform” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Economic Disparity” + the evidence that supports it",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Reading — main idea + evidence is exactly the ACT Reading skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 5 · Primary Source / HIPPO",
+          "sub": "source it first"
+        },
+        {
+          "type": "box",
+          "label": "Source it first",
+          "paras": [
+            "Before analyzing, source the document: who made it, when, and why. Then work the HIPPO frame and answer in a complete CER."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "HIPPO move",
+            "What I notice"
+          ],
+          "rows": [
+            [
+              "Historical context — what was happening when this was made?",
+              ""
+            ],
+            [
+              "Intended audience — who was meant to see it?",
+              ""
+            ],
+            [
+              "Point of view — whose perspective, and what is left out?",
+              ""
+            ],
+            [
+              "Purpose — why was it created?",
+              ""
+            ],
+            [
+              "Outside evidence — what do I already know that connects?",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Confidence check-in",
+          "paras": [
+            "Rate your sourcing 1–4. What would move you up one level?"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Civic responsibility — weighing evidence fairly is a citizen’s skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 6 · Practice Quiz",
+          "sub": "commit first, then check"
+        },
+        {
+          "type": "box",
+          "label": "Choose the best answer (circle a letter)",
+          "paras": [
+            "<strong>1.</strong> Thomas Nast\\'s political cartoons were significant during the Gilded Age because they:<br>A. Supported the policies of political machines like Tammany Hall<br>B. Promoted the expansion of the spoils system in government hiring<br>C. Encouraged immigrants to participate more actively in politics<br>D. Exposed political corruption and influenced public opinion against",
+            "<strong>2.</strong> How did President James Garfield's assassination in 1881 contribute to the passage of the Pendleton Civil Service Act of 1883?<br>A. Garfield's assassin was a disappointed office-seeker, and public outrage over the spoils system created political pressure for merit-based hiring reform<br>B. Garfield had personally drafted the Pendleton Act before his death, and Congress passed it as a memorial tribute U.S. History Hack™ · Unit 1 (Course Standard) © 2026 TroopToTeacher Technologies LLC | Page 6 U.S. History Hack™ · Unit 1 · Assessment Book (Teacher)<br>C. The assassination revealed corruption within the Treasury Department, prompting Congress to overhaul federal contracting practices<br>D. President Arthur used the assassination as justification to reorganize the entire executive branch under military command",
+            "<strong>3.</strong> What problem was the Interstate Commerce Act of 1887 primarily designed to address that the Pendleton Civil Service Act of 1883 did not?<br>A. Political corruption among federal government employees who accepted bribes from private businesses<br>B. Unfair railroad pricing practices, including rate discrimination and secret rebates that harmed farmers and small businesses<br>C. The concentration of industrial wealth among a small number of Gilded Age monopolists in manufacturing<br>D. The exploitation of immigrant workers in railroad construction through low-wage labor practices"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-Check Key (commit your answers first!)",
+          "paras": [
+            "<strong>1. D</strong> — “Exposed political corruption and influenced public opinion against” is correct; the other options misstate a fact or overreach.",
+            "<strong>2. A</strong> — “Garfield's assassin was a disappointed office-seeker, and public outrage over the spoils system created…” is correct; the other options misstate a fact or overreach.",
+            "<strong>3. B</strong> — “Unfair railroad pricing practices, including rate discrimination and secret rebates that harmed farmers and…” is correct; the other options misstate a fact or overreach."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Integrity / Lifelong learning — self-scoring honestly, then acting on the miss."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Test format — timed multiple-choice with tempting distractors mirrors the ACT."
+        },
+        {
+          "type": "head",
+          "text": "Activity 7 · Constructed Response (CER)",
+          "sub": "claim · evidence · reasoning"
+        },
+        {
+          "type": "box",
+          "label": "Big question",
+          "paras": [
+            "Who really held power in the Gilded Age — voters, party machines, or money? Use evidence from the reading (Act 4) and the source (Act 5)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Claim",
+            "Evidence",
+            "Reasoning"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-grade rubric (/12) — score yourself, then a peer",
+          "paras": [
+            "Claim answers the question (0–4) · Evidence is accurate + specific (0–4) · Reasoning links evidence to claim (0–4). Peer review: one glow, one grow, one revision."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "box",
+          "label": "SPEAK IT · 60-second Mission Brief — stand up and say it",
+          "paras": [
+            "Present your CER out loud: state your <strong>claim</strong>, give <strong>one</strong> piece of evidence, and say <strong>why it matters</strong> — 60 seconds. Score the delivery 1–4 (clear voice · eye contact · evidence). Speaking your argument is a Ready-Graduate + interview skill."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Communication (spoken) — the Mission Brief builds interview-ready voice."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · English / Writing — building a claim with evidence is the ACT Writing task."
+        },
+        {
+          "type": "head",
+          "text": "Exit Ticket",
+          "sub": "close the standard"
+        },
+        {
+          "type": "box",
+          "label": "3–2–1",
+          "paras": [
+            "3 things you learned · 2 pieces of evidence you could use · 1 question you still have."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 3
         }
       ]
     },
@@ -836,213 +1777,432 @@
       "title": "Inventions & Innovations of Business Leaders & Entrepreneurs",
       "blocks": [
         {
-          "type": "cornell",
-          "heading": "Cornell Universal Front",
-          "rows": [
-            [
-              "Essential Question",
-              "Did industrial innovation lift everyone, or concentrate wealth and power?"
-            ],
-            [
-              "Deck slides",
-              "Teacher & Student decks — US.05 section (advance in order)"
-            ],
-            [
-              "Vocabulary",
-              "Robber Barons/Captains of Industry · Vertical Integration · Horizontal Integration · Monopoly · Trust"
-            ],
-            [
-              "Success criteria",
-              "I can describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including Alexander Graham Bell, Andrew Carnegie, Thomas Edison, John D. Rockefeller, Madam C.J. Walker, and George Washington Carver."
-            ]
+          "type": "head",
+          "text": "Opener",
+          "sub": "before you learn"
+        },
+        {
+          "type": "box",
+          "label": "Learning target (I can…)",
+          "paras": [
+            "I can describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including Alexander Graham Bell, Andrew Carnegie, Thomas Edison, John D. Rockefeller, Madam C.J. Walker, and George Washington Carver."
           ]
+        },
+        {
+          "type": "box",
+          "label": "Lenses (this standard’s dimensions)",
+          "paras": [
+            "C Culture · E Economics · H History"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "SET YOUR SMART GOAL — my short-term goal for this standard",
+          "paras": [
+            "Write a goal that is Specific · Measurable · Achievable · Relevant · Time-bound. Example: “By Friday I can explain inventions & innovations of business leaders & entrepreneurs using two pieces of evidence.”"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Hook — read this",
+          "paras": [
+            "The late 19th century saw transformative inventions that reshaped American life. <em>What surprises you? What do you want to know?</em>"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Preview & Predict",
+          "paras": [
+            "Skim the standard. Predict who benefited and who bore the cost."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "head",
+          "text": "Activity 1 · Vocabulary",
+          "sub": "word bank + language support"
         },
         {
           "type": "table",
           "head": [
             "Term",
             "What it means",
-            "Español"
+            "Español",
+            "Know it? (✓ / ? / new)"
           ],
           "rows": [
             [
               "<strong>Robber Barons/Captains of Industry</strong>",
               "Wealthy industrialists of the late 1800s who built massive business empires. It changed rights and rules that people had to live under.",
-              "Barones Ladrones/Capitanes de Industria"
+              "Barones Ladrones/Capitanes de Industria",
+              ""
             ],
             [
               "<strong>Vertical Integration</strong>",
               "A business strategy where a company controls all stages of production. It changed rights and rules that people had to live under.",
-              "Integración Vertical"
+              "Integración Vertical",
+              ""
             ],
             [
               "<strong>Horizontal Integration</strong>",
               "A business strategy where a company buys out competitors in the same industry to reduce competition and control. It changed rights and rules that people had to live under.",
-              "Integración Horizontal"
+              "Integración Horizontal",
+              ""
             ],
             [
               "<strong>Monopoly</strong>",
               "Complete control of a product or service by a single company. It changed how money and power were controlled in the economy.",
-              "Monopolio"
+              "Monopolio",
+              ""
             ],
             [
               "<strong>Trust</strong>",
               "A legal arrangement where stockholders in several companies transferred their shares to a board of trustees. It changed how money and power were controlled in the economy.",
-              "Trust (Fideicomiso)"
+              "Trust (Fideicomiso)",
+              ""
             ],
             [
               "<strong>Bessemer Process</strong>",
               "An efficient method of making steel by blowing air through molten iron. It changed rights and rules that people had to live under.",
-              "Proceso Bessemer"
+              "Proceso Bessemer",
+              ""
             ]
           ]
         },
         {
-          "type": "activity",
-          "num": 4,
-          "name": "Close Read",
-          "time": "~15 min",
-          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.02, SSP.05 — collect, examine, and synthesize evidence with historical awareness.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Core Path — read one chunk at a time",
-              "paras": [
-                "<strong>Technological Innovations.</strong> The late 19th century saw transformative inventions that reshaped American life. Alexander Graham Bell's telephone (1876) revolutionized communication. Thomas Edison's electrical systems and light bulb brought power to homes and factories. Nikola Tesla's alternating current system enabled long-distance electrical transmission. Henry Bessemer's steel process made skyscrapers and modern infrastructure possible.",
-                "<strong>Industrial Titans.</strong> Andrew Carnegie built a steel empire through vertical integration, controlling every step from iron mines to finished products. John D. Rockefeller's Standard Oil pioneered horizontal integration, buying out competitors to dominate the oil industry. J.P. Morgan wielded enormous financial power, reorganizing railroads and creating U.S. Steel. Cornelius Vanderbilt consolidated railroad networks, enabling national commerce.",
-                "<strong>African American Entrepreneurs.</strong> Despite facing discrimination, African American entrepreneurs made significant contributions. Madam C.J. Walker became America's first female self-made millionaire through her hair care products, employing thousands of Black women. George Washington Carver's agricultural research at Tuskegee Institute developed hundreds of products from peanuts and sweet potatoes, helping diversify Southern agriculture."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Language support",
-              "paras": [
-                "Key terms to know first: Robber Barons/Captains of Industry, Vertical Integration. Read once for the gist, then again for evidence."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Text-dependent question",
-                "Evidence from the passage",
-                "Your answer (what it shows)"
-              ],
-              "rows": [
-                [
-                  "What is the main idea of “Technological Innovations”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Industrial Titans”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “African American Entrepreneurs”, and what evidence supports it?",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "box",
+          "label": "Knowledge self-check",
+          "paras": [
+            "For each term mark ✓ (I can use it), ? (I’ve seen it), or new. Come back and re-mark after the lesson."
           ]
         },
         {
-          "type": "activity",
-          "num": 5,
-          "name": "Primary Source (HIPPO)",
-          "time": "~15 min",
-          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Source it first",
-              "paras": [
-                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "HIPPO move",
-                "What I notice in this source"
-              ],
-              "rows": [
-                [
-                  "Historical context — what was happening when this was made?",
-                  ""
-                ],
-                [
-                  "Intended audience — who was meant to see it?",
-                  ""
-                ],
-                [
-                  "Point of view — whose perspective, and what is left out?",
-                  ""
-                ],
-                [
-                  "Purpose — why was it created?",
-                  ""
-                ],
-                [
-                  "Outside evidence — what do I already know that connects?",
-                  ""
-                ]
-              ]
-            }
+          "type": "head",
+          "text": "Activity 2 · Vocabulary Studio (Frayer)",
+          "sub": "response choice"
+        },
+        {
+          "type": "box",
+          "label": "Build a Frayer model for: Robber Barons/Captains of Industry",
+          "paras": [
+            "Fill each quadrant. Then CONNECT THE TERMS: use two vocabulary words in one sentence (here or in your notebook)."
           ]
         },
         {
-          "type": "activity",
-          "num": 6,
-          "name": "Robber Baron or Captain of Industry?",
-          "time": "12 min",
-          "lead": "Use evidence from the reading and the source to build your answer.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Task — Pairs (assigned positions) · 12 min",
-              "paras": [
-                "Using the Carnegie portrait and the Standard Oil “Next!” cartoon, build the strongest case for ONE label — “robber baron” OR “captain of industry” — for a Gilded Age titan. Cite at least two specific actions as evidence.",
-                "<strong>Deliverable:</strong> A position card with claim + two pieces of evidence."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Differentiation",
-              "paras": [
-                "Entry: evidence bank provided. Honors: argue the opposite label, then decide which case is stronger."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Claim",
-                "Evidence",
-                "Reasoning"
-              ],
-              "rows": [
-                [
-                  "",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Definition (your words)",
+            "Characteristics"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
         },
         {
-          "type": "cornellnotes",
-          "heading": "Cornell Notes (25 / 75)",
-          "cues": [
-            "Robber Barons/Captains of Industry",
-            "Vertical Integration",
-            "Horizontal Integration",
-            "Who benefited? Who bore the cost?"
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Example",
+            "Non-example"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
+        },
+        {
+          "type": "head",
+          "text": "Activity 3 · Cornell Notes — Guided (Direct Teaching) · THE SPINE",
+          "sub": "take notes as the teacher advances the deck, in order"
+        },
+        {
+          "type": "cornell",
+          "heading": "Cue column is pre-seeded with the lecture segments — write your notes on the right",
+          "rows": [
+            [
+              "<strong>Technological Innovations</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 1 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Industrial Titans</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 2 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>African American Entrepreneurs</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 3 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Doodle Zone",
+          "paras": [
+            "Sketch one image, symbol, or timeline that captures this standard (dual-coding)."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Progress Check → Check Yourself",
+          "paras": [
+            "In one sentence (12–15 words), summarize the standard. Rate yourself 1–4 on each cue: 1 emerging · 2 developing · 3 proficient · 4 advanced."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Organization — keeping ordered, findable notes is a hireability skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 4 · Close Read",
+          "sub": "key terms first, then evidence"
+        },
+        {
+          "type": "box",
+          "label": "CORE PATH — read one chunk at a time",
+          "paras": [
+            "<strong>Technological Innovations.</strong> The late 19th century saw transformative inventions that reshaped American life. Alexander Graham Bell's telephone (1876) revolutionized communication. Thomas Edison's electrical systems and light bulb brought power to homes and factories. Nikola Tesla's alternating current system enabled long-distance electrical transmission. Henry Bessemer's steel process made skyscrapers and modern infrastructure possible.",
+            "<strong>Industrial Titans.</strong> Andrew Carnegie built a steel empire through vertical integration, controlling every step from iron mines to finished products. John D. Rockefeller's Standard Oil pioneered horizontal integration, buying out competitors to dominate the oil industry. J.P. Morgan wielded enormous financial power, reorganizing railroads and creating U.S. Steel. Cornelius Vanderbilt consolidated railroad networks, enabling national commerce.",
+            "<strong>African American Entrepreneurs.</strong> Despite facing discrimination, African American entrepreneurs made significant contributions. Madam C.J. Walker became America's first female self-made millionaire through her hair care products, employing thousands of Black women. George Washington Carver's agricultural research at Tuskegee Institute developed hundreds of products from peanuts and sweet potatoes, helping diversify Southern agriculture."
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Thesis mini-lesson — how to write a thesis",
+          "paras": [
+            "A thesis takes a position and previews your reasons: “Although ___, the bigger effect was ___ because ___.” You’ll carry this thesis into Activity 7 (CER)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Text-dependent question",
+            "Evidence from the passage",
+            "What it shows"
+          ],
+          "rows": [
+            [
+              "Main idea of “Technological Innovations” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Industrial Titans” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “African American Entrepreneurs” + the evidence that supports it",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Reading — main idea + evidence is exactly the ACT Reading skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 5 · Primary Source / HIPPO",
+          "sub": "source it first"
+        },
+        {
+          "type": "box",
+          "label": "Source it first",
+          "paras": [
+            "Before analyzing, source the document: who made it, when, and why. Then work the HIPPO frame and answer in a complete CER."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "HIPPO move",
+            "What I notice"
+          ],
+          "rows": [
+            [
+              "Historical context — what was happening when this was made?",
+              ""
+            ],
+            [
+              "Intended audience — who was meant to see it?",
+              ""
+            ],
+            [
+              "Point of view — whose perspective, and what is left out?",
+              ""
+            ],
+            [
+              "Purpose — why was it created?",
+              ""
+            ],
+            [
+              "Outside evidence — what do I already know that connects?",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Confidence check-in",
+          "paras": [
+            "Rate your sourcing 1–4. What would move you up one level?"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Civic responsibility — weighing evidence fairly is a citizen’s skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 6 · Practice Quiz",
+          "sub": "commit first, then check"
+        },
+        {
+          "type": "box",
+          "label": "Choose the best answer (circle a letter)",
+          "paras": [
+            "<strong>1.</strong> How did John D. Rockefeller's business strategy for building Standard Oil differ from Andrew Carnegie's approach to building his steel empire?<br>A. Rockefeller used horizontal integration to buy out competing oil refineries while Carnegie used vertical integration to control every stage of steel production<br>B. Rockefeller used vertical integration to control steel production while Carnegie used horizontal integration to control oil refining<br>C. Both industrialists relied on the same strategy of vertical integration in their respective industries<br>D. Carnegie eliminated competition through secret price agreements while Rockefeller built monopoly power through government-granted charters",
+            "<strong>2.</strong> Which of the following best describes the significance of Alexander Graham Bell's telephone for American business in the late 19th century?<br>A. It replaced the telegraph system entirely within five years of its invention in 1876<br>B. It enabled real-time voice communication over long distances, transforming business coordination and commercial transactions<br>C. It was adopted primarily by rural farmers to coordinate grain prices before spreading to urban commercial centers<br>D. It was used mainly for entertainment and had little commercial impact until well into the 20th century",
+            "<strong>3.</strong> George Westinghouse and Nikola Tesla's victory in the 'War of Currents' over Thomas Edison was significant because:<br>A. It gave Westinghouse a monopoly over the electrical industry that lasted until World War I<br>B. It proved that Edison's inventions were commercially inferior to European technology<br>C. Alternating current (AC) could transmit electricity over long distances efficiently, making nationwide electrical infrastructure possible<br>D. The victory was primarily due to Westinghouse's superior marketing rather than technological superiority"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-Check Key (commit your answers first!)",
+          "paras": [
+            "<strong>1. A</strong> — “Rockefeller used horizontal integration to buy out competing oil refineries while Carnegie used vertical…” is correct; the other options misstate a fact or overreach.",
+            "<strong>2. B</strong> — “It enabled real-time voice communication over long distances, transforming business coordination and commercial transactions” is correct; the other options misstate a fact or overreach.",
+            "<strong>3. C</strong> — “Alternating current (AC) could transmit electricity over long distances efficiently, making nationwide electrical infrastructure…” is correct; the other options misstate a fact or overreach."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Integrity / Lifelong learning — self-scoring honestly, then acting on the miss."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Test format — timed multiple-choice with tempting distractors mirrors the ACT."
+        },
+        {
+          "type": "head",
+          "text": "Activity 7 · Constructed Response (CER)",
+          "sub": "claim · evidence · reasoning"
+        },
+        {
+          "type": "box",
+          "label": "Big question",
+          "paras": [
+            "Did industrial innovation lift everyone, or concentrate wealth and power? Use evidence from the reading (Act 4) and the source (Act 5)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Claim",
+            "Evidence",
+            "Reasoning"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-grade rubric (/12) — score yourself, then a peer",
+          "paras": [
+            "Claim answers the question (0–4) · Evidence is accurate + specific (0–4) · Reasoning links evidence to claim (0–4). Peer review: one glow, one grow, one revision."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "box",
+          "label": "SPEAK IT · 60-second Mission Brief — stand up and say it",
+          "paras": [
+            "Present your CER out loud: state your <strong>claim</strong>, give <strong>one</strong> piece of evidence, and say <strong>why it matters</strong> — 60 seconds. Score the delivery 1–4 (clear voice · eye contact · evidence). Speaking your argument is a Ready-Graduate + interview skill."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Communication (spoken) — the Mission Brief builds interview-ready voice."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · English / Writing — building a claim with evidence is the ACT Writing task."
+        },
+        {
+          "type": "tag",
+          "color": "#1F3A5F",
+          "text": "FUTURE READY QUESTION (hung on US.05 — the age of self-made fortunes)"
+        },
+        {
+          "type": "box",
+          "label": "Your path after high school",
+          "paras": [
+            "Carnegie and Rockefeller built empires in this era. What’s <em>your</em> plan? Circle a path — trade / college / military / work — and name one step: a scholarship, FAFSA, an EPSO, or a credential. (Free-college and scholarship options exist — ask your counselor.) Add this to <em>My SMART Goals</em>."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "head",
+          "text": "Exit Ticket",
+          "sub": "close the standard"
+        },
+        {
+          "type": "box",
+          "label": "3–2–1",
+          "paras": [
+            "3 things you learned · 2 pieces of evidence you could use · 1 question you still have."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 3
         }
       ]
     },
@@ -1051,213 +2211,416 @@
       "title": "Industrial Centers and Urbanization",
       "blocks": [
         {
-          "type": "cornell",
-          "heading": "Cornell Universal Front",
-          "rows": [
-            [
-              "Essential Question",
-              "Why did people leave the countryside for the city — and what did they find there?"
-            ],
-            [
-              "Deck slides",
-              "Teacher & Student decks — US.06 section (advance in order)"
-            ],
-            [
-              "Vocabulary",
-              "Urbanization · Granger Movement · Populism · Interstate Commerce Act · Tenement"
-            ],
-            [
-              "Success criteria",
-              "I can locate major industrial centers and describe how industrialization influenced the movement of people from rural to urban areas."
-            ]
+          "type": "head",
+          "text": "Opener",
+          "sub": "before you learn"
+        },
+        {
+          "type": "box",
+          "label": "Learning target (I can…)",
+          "paras": [
+            "I can locate major industrial centers and describe how industrialization influenced the movement of people from rural to urban areas."
           ]
+        },
+        {
+          "type": "box",
+          "label": "Lenses (this standard’s dimensions)",
+          "paras": [
+            "C Culture · E Economics · G Geography · H History"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "SET YOUR SMART GOAL — my short-term goal for this standard",
+          "paras": [
+            "Write a goal that is Specific · Measurable · Achievable · Relevant · Time-bound. Example: “By Friday I can explain industrial centers and urbanization using two pieces of evidence.”"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Hook — read this",
+          "paras": [
+            "Industrialization concentrated in cities with geographic advantages. <em>What surprises you? What do you want to know?</em>"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Preview & Predict",
+          "paras": [
+            "Skim the standard. Predict who benefited and who bore the cost."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "head",
+          "text": "Activity 1 · Vocabulary",
+          "sub": "word bank + language support"
         },
         {
           "type": "table",
           "head": [
             "Term",
             "What it means",
-            "Español"
+            "Español",
+            "Know it? (✓ / ? / new)"
           ],
           "rows": [
             [
               "<strong>Urbanization</strong>",
               "The rapid growth of cities due to factory growth and mass moving. It changed where people lived and worked in growing cities.",
-              "Urbanización"
+              "Urbanización",
+              ""
             ],
             [
               "<strong>Granger Movement</strong>",
               "A farmers' organization formed in the 1860s-1870s to combat the power of railroads and grain elevator companies. It changed travel, trade, and how far-away places were connected.",
-              "Movimiento Granger"
+              "Movimiento Granger",
+              ""
             ],
             [
               "<strong>Populism</strong>",
               "A political movement representing the interests of ordinary people. It changed travel, trade, and how far-away places were connected.",
-              "Populismo"
+              "Populismo",
+              ""
             ],
             [
               "<strong>Interstate Commerce Act</strong>",
               "An 1887 federal law that created the Interstate Trade Commission to regulate railroad rates and practices. It changed travel, trade, and how far-away places were connected.",
-              "Ley de Comercio Interestatal"
+              "Ley de Comercio Interestatal",
+              ""
             ],
             [
               "<strong>Tenement</strong>",
               "A crowded, often unsafe urban apartment building where many poor and immigrant families lived during rapid industrial-era city growth.",
-              "Vivienda de Vecindad"
+              "Vivienda de Vecindad",
+              ""
             ],
             [
               "<strong>Industrialization</strong>",
               "The shift from an economy based on farming and handcraft to one based on large factories, machines, and mass production.",
-              "Industrialización"
+              "Industrialización",
+              ""
             ]
           ]
         },
         {
-          "type": "activity",
-          "num": 4,
-          "name": "Close Read",
-          "time": "~15 min",
-          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.05, SSP.06 — collect, examine, and synthesize evidence with historical awareness.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Core Path — read one chunk at a time",
-              "paras": [
-                "<strong>Major Industrial Centers.</strong> Industrialization concentrated in cities with geographic advantages. Pittsburgh became the steel capital due to access to coal, iron ore, and rivers. Chicago emerged as a railroad hub and meatpacking center. New York City dominated finance and trade through its port. Boston led in textiles and manufacturing. San Francisco served as the gateway to Pacific trade and western resources.",
-                "<strong>Rural-to-Urban Migration.</strong> Industrialization drew millions from farms to cities seeking factory jobs. The promise of wages attracted both native-born Americans and immigrants. Cities grew explosively—Chicago's population increased from 30,000 in 1850 to over 1 million by 1890. This rapid growth created overcrowded tenements, inadequate sanitation, and new social challenges.",
-                "<strong>Geographic Factors in Industrial Location.</strong> Industries located based on access to raw materials, transportation, markets, and labor. Steel mills clustered near coal and iron deposits. Textile mills used water power and later concentrated near ports for cotton imports. Meatpacking centered in Chicago due to railroad connections to cattle ranges and eastern markets. These patterns shaped regional development for generations."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Language support",
-              "paras": [
-                "Key terms to know first: Urbanization, Granger Movement. Read once for the gist, then again for evidence."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Text-dependent question",
-                "Evidence from the passage",
-                "Your answer (what it shows)"
-              ],
-              "rows": [
-                [
-                  "What is the main idea of “Major Industrial Centers”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Rural-to-Urban Migration”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Geographic Factors in Industrial Location”, and what evidence supports it?",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "box",
+          "label": "Knowledge self-check",
+          "paras": [
+            "For each term mark ✓ (I can use it), ? (I’ve seen it), or new. Come back and re-mark after the lesson."
           ]
         },
         {
-          "type": "activity",
-          "num": 5,
-          "name": "Primary Source (HIPPO)",
-          "time": "~15 min",
-          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Source it first",
-              "paras": [
-                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "HIPPO move",
-                "What I notice in this source"
-              ],
-              "rows": [
-                [
-                  "Historical context — what was happening when this was made?",
-                  ""
-                ],
-                [
-                  "Intended audience — who was meant to see it?",
-                  ""
-                ],
-                [
-                  "Point of view — whose perspective, and what is left out?",
-                  ""
-                ],
-                [
-                  "Purpose — why was it created?",
-                  ""
-                ],
-                [
-                  "Outside evidence — what do I already know that connects?",
-                  ""
-                ]
-              ]
-            }
+          "type": "head",
+          "text": "Activity 2 · Vocabulary Studio (Frayer)",
+          "sub": "response choice"
+        },
+        {
+          "type": "box",
+          "label": "Build a Frayer model for: Urbanization",
+          "paras": [
+            "Fill each quadrant. Then CONNECT THE TERMS: use two vocabulary words in one sentence (here or in your notebook)."
           ]
         },
         {
-          "type": "activity",
-          "num": 6,
-          "name": "Mapping the Industrial City",
-          "time": "10 min",
-          "lead": "Use evidence from the reading and the source to build your answer.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Task — Pairs · 10 min",
-              "paras": [
-                "Using the 1890 wage-earners and foreign-born maps, identify the regions where industry and immigration concentrated. Predict THREE problems a city would face when its population multiplies in 40 years, and THREE things it needs to grow.",
-                "<strong>Deliverable:</strong> Map-annotation chart: needs vs. problems."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Differentiation",
-              "paras": [
-                "Entry: labeled map regions provided. Honors: explain the correlation between manufacturing density and foreign-born population."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Claim",
-                "Evidence",
-                "Reasoning"
-              ],
-              "rows": [
-                [
-                  "",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Definition (your words)",
+            "Characteristics"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
         },
         {
-          "type": "cornellnotes",
-          "heading": "Cornell Notes (25 / 75)",
-          "cues": [
-            "Urbanization",
-            "Granger Movement",
-            "Populism",
-            "Who benefited? Who bore the cost?"
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Example",
+            "Non-example"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
+        },
+        {
+          "type": "head",
+          "text": "Activity 3 · Cornell Notes — Guided (Direct Teaching) · THE SPINE",
+          "sub": "take notes as the teacher advances the deck, in order"
+        },
+        {
+          "type": "cornell",
+          "heading": "Cue column is pre-seeded with the lecture segments — write your notes on the right",
+          "rows": [
+            [
+              "<strong>Major Industrial Centers</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 1 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Rural-to-Urban Migration</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 2 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Geographic Factors in Industrial Location</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 3 of 3</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Doodle Zone",
+          "paras": [
+            "Sketch one image, symbol, or timeline that captures this standard (dual-coding)."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Progress Check → Check Yourself",
+          "paras": [
+            "In one sentence (12–15 words), summarize the standard. Rate yourself 1–4 on each cue: 1 emerging · 2 developing · 3 proficient · 4 advanced."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Organization — keeping ordered, findable notes is a hireability skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 4 · Close Read",
+          "sub": "key terms first, then evidence"
+        },
+        {
+          "type": "box",
+          "label": "CORE PATH — read one chunk at a time",
+          "paras": [
+            "<strong>Major Industrial Centers.</strong> Industrialization concentrated in cities with geographic advantages. Pittsburgh became the steel capital due to access to coal, iron ore, and rivers. Chicago emerged as a railroad hub and meatpacking center. New York City dominated finance and trade through its port. Boston led in textiles and manufacturing. San Francisco served as the gateway to Pacific trade and western resources.",
+            "<strong>Rural-to-Urban Migration.</strong> Industrialization drew millions from farms to cities seeking factory jobs. The promise of wages attracted both native-born Americans and immigrants. Cities grew explosively—Chicago's population increased from 30,000 in 1850 to over 1 million by 1890. This rapid growth created overcrowded tenements, inadequate sanitation, and new social challenges.",
+            "<strong>Geographic Factors in Industrial Location.</strong> Industries located based on access to raw materials, transportation, markets, and labor. Steel mills clustered near coal and iron deposits. Textile mills used water power and later concentrated near ports for cotton imports. Meatpacking centered in Chicago due to railroad connections to cattle ranges and eastern markets. These patterns shaped regional development for generations."
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Thesis mini-lesson — how to write a thesis",
+          "paras": [
+            "A thesis takes a position and previews your reasons: “Although ___, the bigger effect was ___ because ___.” You’ll carry this thesis into Activity 7 (CER)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Text-dependent question",
+            "Evidence from the passage",
+            "What it shows"
+          ],
+          "rows": [
+            [
+              "Main idea of “Major Industrial Centers” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Rural-to-Urban Migration” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Geographic Factors in Industrial Location” + the evidence that supports it",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Reading — main idea + evidence is exactly the ACT Reading skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 5 · Primary Source / HIPPO",
+          "sub": "source it first"
+        },
+        {
+          "type": "box",
+          "label": "Source it first",
+          "paras": [
+            "Before analyzing, source the document: who made it, when, and why. Then work the HIPPO frame and answer in a complete CER."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "HIPPO move",
+            "What I notice"
+          ],
+          "rows": [
+            [
+              "Historical context — what was happening when this was made?",
+              ""
+            ],
+            [
+              "Intended audience — who was meant to see it?",
+              ""
+            ],
+            [
+              "Point of view — whose perspective, and what is left out?",
+              ""
+            ],
+            [
+              "Purpose — why was it created?",
+              ""
+            ],
+            [
+              "Outside evidence — what do I already know that connects?",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Confidence check-in",
+          "paras": [
+            "Rate your sourcing 1–4. What would move you up one level?"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Civic responsibility — weighing evidence fairly is a citizen’s skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 6 · Practice Quiz",
+          "sub": "commit first, then check"
+        },
+        {
+          "type": "box",
+          "label": "Choose the best answer (circle a letter)",
+          "paras": [
+            "<strong>1.</strong> Jacob Riis's photojournalism in 'How the Other Half Lives' (1890) was significant because it:<br>A. Provided the first statistical evidence of poverty in American cities for government policymakers<br>B. Used photography to make middle-class Americans viscerally aware of tenement conditions<br>C. Successfully lobbied Congress to pass federal public housing legislation in 1892<br>D. Exposed corporate corruption in the tenement housing industry U.S. History Hack™ · Unit 1 (Course Standard) © 2026 TroopToTeacher Technologies LLC | Page 7 U.S. History Hack™ · Unit 1 · Assessment Book (Teacher)",
+            "<strong>2.</strong> Why did Pittsburgh become the center of the American steel industry?<br>A. It had the largest population of skilled workers<br>B. The federal government located steel plants there<br>C. It had access to coal, iron ore, and river transportation<br>D. It was closest to European markets",
+            "<strong>3.</strong> Settlement houses like Jane Addams's Hull House in Chicago provided immigrants with:<br>A. Financial loans to help immigrants start small businesses<br>B. Housing and meals as an alternative to overcrowded tenement living conditions<br>C. Legal assistance to challenge discriminatory immigration restrictions<br>D. Education, job training, childcare, English language classes, and community space"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-Check Key (commit your answers first!)",
+          "paras": [
+            "<strong>1. B</strong> — “Used photography to make middle-class Americans viscerally aware of tenement conditions” is correct; the other options misstate a fact or overreach.",
+            "<strong>2. C</strong> — “It had access to coal, iron ore, and river transportation” is correct; the other options misstate a fact or overreach.",
+            "<strong>3. D</strong> — “Education, job training, childcare, English language classes, and community space” is correct; the other options misstate a fact or overreach."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Integrity / Lifelong learning — self-scoring honestly, then acting on the miss."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Test format — timed multiple-choice with tempting distractors mirrors the ACT."
+        },
+        {
+          "type": "head",
+          "text": "Activity 7 · Constructed Response (CER)",
+          "sub": "claim · evidence · reasoning"
+        },
+        {
+          "type": "box",
+          "label": "Big question",
+          "paras": [
+            "Why did people leave the countryside for the city — and what did they find there? Use evidence from the reading (Act 4) and the source (Act 5)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Claim",
+            "Evidence",
+            "Reasoning"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-grade rubric (/12) — score yourself, then a peer",
+          "paras": [
+            "Claim answers the question (0–4) · Evidence is accurate + specific (0–4) · Reasoning links evidence to claim (0–4). Peer review: one glow, one grow, one revision."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "box",
+          "label": "SPEAK IT · 60-second Mission Brief — stand up and say it",
+          "paras": [
+            "Present your CER out loud: state your <strong>claim</strong>, give <strong>one</strong> piece of evidence, and say <strong>why it matters</strong> — 60 seconds. Score the delivery 1–4 (clear voice · eye contact · evidence). Speaking your argument is a Ready-Graduate + interview skill."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Communication (spoken) — the Mission Brief builds interview-ready voice."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · English / Writing — building a claim with evidence is the ACT Writing task."
+        },
+        {
+          "type": "head",
+          "text": "Exit Ticket",
+          "sub": "close the standard"
+        },
+        {
+          "type": "box",
+          "label": "3–2–1",
+          "paras": [
+            "3 things you learned · 2 pieces of evidence you could use · 1 question you still have."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 3
         }
       ]
     },
@@ -1266,234 +2629,444 @@
       "title": "Immigration: Old vs. New Immigrants",
       "blocks": [
         {
-          "type": "cornell",
-          "heading": "Cornell Universal Front",
-          "rows": [
-            [
-              "Essential Question",
-              "What pulled “new” immigrants to America, and what did nativism push back with?"
-            ],
-            [
-              "Deck slides",
-              "Teacher & Student decks — US.07 section (advance in order)"
-            ],
-            [
-              "Vocabulary",
-              "Old Immigrants · New Immigrants · Ellis Island · Angel Island · Push-Pull Factors"
-            ],
-            [
-              "Success criteria",
-              "I can describe the differences between \"old\" and \"new\" immigrants; explain entry points (Ellis Island and Angel Island), push and pull factors, and the formation of ethnic clusters; and analyze nativism and restrictions such as the Chinese Exclusion Act and the Gentlemen’s Agreement on American society."
-            ]
+          "type": "head",
+          "text": "Opener",
+          "sub": "before you learn"
+        },
+        {
+          "type": "box",
+          "label": "Learning target (I can…)",
+          "paras": [
+            "I can describe the differences between \"old\" and \"new\" immigrants; explain entry points (Ellis Island and Angel Island), push and pull factors, and the formation of ethnic clusters; and analyze nativism and restrictions such as the Chinese Exclusion Act and the Gentlemen’s Agreement on American society."
           ]
+        },
+        {
+          "type": "box",
+          "label": "Lenses (this standard’s dimensions)",
+          "paras": [
+            "C Culture · E Economics · G Geography · H History · P Politics/Government"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "SET YOUR SMART GOAL — my short-term goal for this standard",
+          "paras": [
+            "Write a goal that is Specific · Measurable · Achievable · Relevant · Time-bound. Example: “By Friday I can explain immigration: old vs. new immigrants using two pieces of evidence.”"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Hook — read this",
+          "paras": [
+            "\"Old\" immigrants (pre-1880) came primarily from Northern and Western Europe—Britain, Ireland, Germany, Scandinavia. <em>What surprises you? What do you want to know?</em>"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Preview & Predict",
+          "paras": [
+            "Skim the standard. Predict who benefited and who bore the cost."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "head",
+          "text": "Activity 1 · Vocabulary",
+          "sub": "word bank + language support"
         },
         {
           "type": "table",
           "head": [
             "Term",
             "What it means",
-            "Español"
+            "Español",
+            "Know it? (✓ / ? / new)"
           ],
           "rows": [
             [
               "<strong>Old Immigrants</strong>",
               "Immigrants who came to the United States primarily from Northern and Western Europe (England. It changed who could enter the United States and how newcomers were treated.",
-              "Viejos Inmigrantes"
+              "Viejos Inmigrantes",
+              ""
             ],
             [
               "<strong>New Immigrants</strong>",
               "Immigrants who came to the United States primarily from Southern and Eastern Europe (Italy. It changed who could enter the United States and how newcomers were treated.",
-              "Nuevos Inmigrantes"
+              "Nuevos Inmigrantes",
+              ""
             ],
             [
               "<strong>Ellis Island</strong>",
               "The primary immigration processing station in New York Harbor from 1892 to 1954. It changed who could enter the United States and how newcomers were treated.",
-              "Isla Ellis"
+              "Isla Ellis",
+              ""
             ],
             [
               "<strong>Angel Island</strong>",
               "The immigration station in San Francisco Bay from 1910 to 1940 that primarily processed Asian immigrants. It changed who could enter the United States and how newcomers were treated.",
-              "Isla Ángel"
+              "Isla Ángel",
+              ""
             ],
             [
               "<strong>Push-Pull Factors</strong>",
               "Push factors (poverty. It changed land control and where Native communities could live.",
-              "Factores de Empuje y Atracción"
+              "Factores de Empuje y Atracción",
+              ""
             ],
             [
               "<strong>Ethnic Clusters</strong>",
               "Neighborhoods where immigrants from the same country or region settled together. It changed who could enter the United States and how newcomers were treated.",
-              "Grupos Étnicos"
+              "Grupos Étnicos",
+              ""
             ],
             [
               "<strong>Nativism</strong>",
               "The policy of protecting the interests of native-born citizens against immigrants. It changed who could enter the United States and how newcomers were treated.",
-              "Nativismo"
+              "Nativismo",
+              ""
             ],
             [
               "<strong>Chinese Exclusion Act</strong>",
               "An 1882 federal law that did not allow Chinese laborers from immigrating to the United States for 10. It changed who could enter the United States and how newcomers were treated.",
-              "Ley de Exclusión China"
+              "Ley de Exclusión China",
+              ""
             ],
             [
               "<strong>Gentleman's Agreement</strong>",
               "An informal 1907-1908 agreement between the US and Japan in which Japan agreed to stop issuing passports. It changed who could enter the United States and how newcomers were treated.",
-              "Acuerdo de Caballeros"
+              "Acuerdo de Caballeros",
+              ""
             ]
           ]
         },
         {
-          "type": "activity",
-          "num": 4,
-          "name": "Close Read",
-          "time": "~15 min",
-          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.02, SSP.03 — collect, examine, and synthesize evidence with historical awareness.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Core Path — read one chunk at a time",
-              "paras": [
-                "<strong>Old and New Immigrants.</strong> \"Old\" immigrants (pre-1880) came primarily from Northern and Western Europe—Britain, Ireland, Germany, Scandinavia. They often spoke English or related languages and were predominantly Protestant. \"New\" immigrants (1880-1920) came from Southern and Eastern Europe—Italy, Poland, Russia, Greece—as well as Asia. They brought different languages, religions (Catholic, Orthodox, Jewish), and customs that many Americans viewed with suspicion.",
-                "<strong>Entry Points and the Assimilation Process.</strong> Ellis Island in New York Harbor processed millions of European immigrants, while Angel Island in San Francisco served Asian immigrants with far more restrictive procedures. New immigrants faced difficult assimilation: language barriers, discrimination, and unfamiliar customs. Jane Addams's Hull House in Chicago pioneered settlement houses that helped immigrants learn English, navigate American systems, and maintain cultural connections.",
-                "<strong>Push and Pull Factors.</strong> Push factors drove people from their homelands: religious persecution (especially of Jews in Russia), poverty, political upheaval, and lack of opportunity. Pull factors attracted them to America: economic opportunity, religious freedom, land availability, and established immigrant communities. Letters from successful immigrants encouraged others to follow.",
-                "<strong>Nativism and Restriction.</strong> The rise of nativism—hostility toward immigrants—led to restrictive legislation. The Chinese Exclusion Act of 1882 banned Chinese immigration for ten years (repeatedly renewed until 1943). The Gentleman's Agreement of 1907 limited Japanese immigration. Jacob Riis's photographs and writings, including \"How the Other Half Lives,\" exposed immigrant living conditions, prompting both sympathy and nativist fears."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Language support",
-              "paras": [
-                "Key terms to know first: Old Immigrants, New Immigrants. Read once for the gist, then again for evidence."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Text-dependent question",
-                "Evidence from the passage",
-                "Your answer (what it shows)"
-              ],
-              "rows": [
-                [
-                  "What is the main idea of “Old and New Immigrants”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Entry Points and the Assimilation Process”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Push and Pull Factors”, and what evidence supports it?",
-                  "",
-                  ""
-                ],
-                [
-                  "What is the main idea of “Nativism and Restriction”, and what evidence supports it?",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "box",
+          "label": "Knowledge self-check",
+          "paras": [
+            "For each term mark ✓ (I can use it), ? (I’ve seen it), or new. Come back and re-mark after the lesson."
           ]
         },
         {
-          "type": "activity",
-          "num": 5,
-          "name": "Primary Source (HIPPO)",
-          "time": "~15 min",
-          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Source it first",
-              "paras": [
-                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "HIPPO move",
-                "What I notice in this source"
-              ],
-              "rows": [
-                [
-                  "Historical context — what was happening when this was made?",
-                  ""
-                ],
-                [
-                  "Intended audience — who was meant to see it?",
-                  ""
-                ],
-                [
-                  "Point of view — whose perspective, and what is left out?",
-                  ""
-                ],
-                [
-                  "Purpose — why was it created?",
-                  ""
-                ],
-                [
-                  "Outside evidence — what do I already know that connects?",
-                  ""
-                ]
-              ]
-            }
+          "type": "head",
+          "text": "Activity 2 · Vocabulary Studio (Frayer)",
+          "sub": "response choice"
+        },
+        {
+          "type": "box",
+          "label": "Build a Frayer model for: Old Immigrants",
+          "paras": [
+            "Fill each quadrant. Then CONNECT THE TERMS: use two vocabulary words in one sentence (here or in your notebook)."
           ]
         },
         {
-          "type": "activity",
-          "num": 6,
-          "name": "Two Sides of Immigration",
-          "time": "12 min",
-          "lead": "Use evidence from the reading and the source to build your answer.",
-          "blocks": [
-            {
-              "type": "box",
-              "label": "Task — Pairs → Whole class · 12 min",
-              "paras": [
-                "Examine Jacob Riis's “Five Cents a Spot” photograph and the Ellis Island inspection-room image. Write one sentence from the perspective of a new immigrant and one from a nativist worried about change. Then explain what Riis wanted viewers to FEEL and DO.",
-                "<strong>Deliverable:</strong> Two perspective sentences + a photographer's-purpose statement."
-              ]
-            },
-            {
-              "type": "box",
-              "label": "Differentiation",
-              "paras": [
-                "Entry: sentence stems for both perspectives. Honors: evaluate whether a staged photo is reliable evidence."
-              ]
-            },
-            {
-              "type": "table",
-              "class": "write",
-              "head": [
-                "Claim",
-                "Evidence",
-                "Reasoning"
-              ],
-              "rows": [
-                [
-                  "",
-                  "",
-                  ""
-                ]
-              ]
-            }
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Definition (your words)",
+            "Characteristics"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
         },
         {
-          "type": "cornellnotes",
-          "heading": "Cornell Notes (25 / 75)",
-          "cues": [
-            "Old Immigrants",
-            "New Immigrants",
-            "Ellis Island",
-            "Who benefited? Who bore the cost?"
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Example",
+            "Non-example"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
           ]
+        },
+        {
+          "type": "head",
+          "text": "Activity 3 · Cornell Notes — Guided (Direct Teaching) · THE SPINE",
+          "sub": "take notes as the teacher advances the deck, in order"
+        },
+        {
+          "type": "cornell",
+          "heading": "Cue column is pre-seeded with the lecture segments — write your notes on the right",
+          "rows": [
+            [
+              "<strong>Old and New Immigrants</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 1 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Entry Points and the Assimilation Process</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 2 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Push and Pull Factors</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 3 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ],
+            [
+              "<strong>Nativism and Restriction</strong><br><span style='color:#C9A227;font-weight:700;font-size:8pt'>▶ Deck · DI 4 of 4</span><br><em style='font-size:8.5pt'>Guiding Q: What is the main idea, and what is the evidence?</em>",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Doodle Zone",
+          "paras": [
+            "Sketch one image, symbol, or timeline that captures this standard (dual-coding)."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 2
+        },
+        {
+          "type": "box",
+          "label": "Progress Check → Check Yourself",
+          "paras": [
+            "In one sentence (12–15 words), summarize the standard. Rate yourself 1–4 on each cue: 1 emerging · 2 developing · 3 proficient · 4 advanced."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Organization — keeping ordered, findable notes is a hireability skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 4 · Close Read",
+          "sub": "key terms first, then evidence"
+        },
+        {
+          "type": "box",
+          "label": "CORE PATH — read one chunk at a time",
+          "paras": [
+            "<strong>Old and New Immigrants.</strong> \"Old\" immigrants (pre-1880) came primarily from Northern and Western Europe—Britain, Ireland, Germany, Scandinavia. They often spoke English or related languages and were predominantly Protestant. \"New\" immigrants (1880-1920) came from Southern and Eastern Europe—Italy, Poland, Russia, Greece—as well as Asia. They brought different languages, religions (Catholic, Orthodox, Jewish), and customs that many Americans viewed with suspicion.",
+            "<strong>Entry Points and the Assimilation Process.</strong> Ellis Island in New York Harbor processed millions of European immigrants, while Angel Island in San Francisco served Asian immigrants with far more restrictive procedures. New immigrants faced difficult assimilation: language barriers, discrimination, and unfamiliar customs. Jane Addams's Hull House in Chicago pioneered settlement houses that helped immigrants learn English, navigate American systems, and maintain cultural connections.",
+            "<strong>Push and Pull Factors.</strong> Push factors drove people from their homelands: religious persecution (especially of Jews in Russia), poverty, political upheaval, and lack of opportunity. Pull factors attracted them to America: economic opportunity, religious freedom, land availability, and established immigrant communities. Letters from successful immigrants encouraged others to follow.",
+            "<strong>Nativism and Restriction.</strong> The rise of nativism—hostility toward immigrants—led to restrictive legislation. The Chinese Exclusion Act of 1882 banned Chinese immigration for ten years (repeatedly renewed until 1943). The Gentleman's Agreement of 1907 limited Japanese immigration. Jacob Riis's photographs and writings, including \"How the Other Half Lives,\" exposed immigrant living conditions, prompting both sympathy and nativist fears."
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Thesis mini-lesson — how to write a thesis",
+          "paras": [
+            "A thesis takes a position and previews your reasons: “Although ___, the bigger effect was ___ because ___.” You’ll carry this thesis into Activity 7 (CER)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Text-dependent question",
+            "Evidence from the passage",
+            "What it shows"
+          ],
+          "rows": [
+            [
+              "Main idea of “Old and New Immigrants” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Entry Points and the Assimilation Process” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Push and Pull Factors” + the evidence that supports it",
+              "",
+              ""
+            ],
+            [
+              "Main idea of “Nativism and Restriction” + the evidence that supports it",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Reading — main idea + evidence is exactly the ACT Reading skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 5 · Primary Source / HIPPO",
+          "sub": "source it first"
+        },
+        {
+          "type": "box",
+          "label": "Source it first",
+          "paras": [
+            "Before analyzing, source the document: who made it, when, and why. Then work the HIPPO frame and answer in a complete CER."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "HIPPO move",
+            "What I notice"
+          ],
+          "rows": [
+            [
+              "Historical context — what was happening when this was made?",
+              ""
+            ],
+            [
+              "Intended audience — who was meant to see it?",
+              ""
+            ],
+            [
+              "Point of view — whose perspective, and what is left out?",
+              ""
+            ],
+            [
+              "Purpose — why was it created?",
+              ""
+            ],
+            [
+              "Outside evidence — what do I already know that connects?",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Confidence check-in",
+          "paras": [
+            "Rate your sourcing 1–4. What would move you up one level?"
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Civic responsibility — weighing evidence fairly is a citizen’s skill."
+        },
+        {
+          "type": "head",
+          "text": "Activity 6 · Practice Quiz",
+          "sub": "commit first, then check"
+        },
+        {
+          "type": "box",
+          "label": "Choose the best answer (circle a letter)",
+          "paras": [
+            "<strong>1.</strong> Which of the following was a major challenge faced by 'new' immigrants — those arriving from Southern and Eastern Europe — in assimilating into American society during the late 1800s and early 1900s?<br>A. Federal law required new arrivals to return to their home countries after working in the United States for five years<br>B. Established immigrant communities welcomed newcomers and immediately provided them with employment and comfortable housing<br>C. Language barriers, cultural differences, and nativist discrimination made social and economic integration difficult<br>D. The federal Bureau of Immigration assigned new immigrants to specific professions based on their nationality",
+            "<strong>2.</strong> How did the immigration experience at Angel Island differ from the experience at Ellis Island?<br>A. Angel Island processed European immigrants while Ellis Island processed Asian immigrants, but both had equally welcoming procedures<br>B. Angel Island was known for rapid processing of immigrants who were immediately granted citizenship upon arrival<br>C. Both stations imposed equally rigorous detention and interrogation on all arriving immigrants regardless of national origin<br>D. Ellis Island processed primarily European immigrants with relatively brief inspections, while Angel Island subjected Asian immigrants — especially Chinese — to prolonged detention and intensive interrogation",
+            "<strong>3.</strong> What was the primary difference between \"old\" and \"new\" immigrants?<br>A. New immigrants came from Southern and Eastern Europe with different languages and religions<br>B. Old immigrants were wealthier, but the historical record tells a more complex story<br>C. Old immigrants faced more discrimination, though this interpretation lacks supporting historical evidence<br>D. New immigrants were all skilled workers, which does not align with the documented historical record U.S. History Hack™ · Unit 1 (Course Standard) © 2026 TroopToTeacher Technologies LLC | Page 8 U.S. History Hack™ · Unit 1 · Assessment Book (Teacher)"
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-Check Key (commit your answers first!)",
+          "paras": [
+            "<strong>1. C</strong> — “Language barriers, cultural differences, and nativist discrimination made social and economic integration difficult” is correct; the other options misstate a fact or overreach.",
+            "<strong>2. D</strong> — “Ellis Island processed primarily European immigrants with relatively brief inspections, while Angel Island subjected…” is correct; the other options misstate a fact or overreach.",
+            "<strong>3. A</strong> — “New immigrants came from Southern and Eastern Europe with different languages and religions” is correct; the other options misstate a fact or overreach."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Integrity / Lifelong learning — self-scoring honestly, then acting on the miss."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · Test format — timed multiple-choice with tempting distractors mirrors the ACT."
+        },
+        {
+          "type": "head",
+          "text": "Activity 7 · Constructed Response (CER)",
+          "sub": "claim · evidence · reasoning"
+        },
+        {
+          "type": "box",
+          "label": "Big question",
+          "paras": [
+            "What pulled “new” immigrants to America, and what did nativism push back with? Use evidence from the reading (Act 4) and the source (Act 5)."
+          ]
+        },
+        {
+          "type": "table",
+          "class": "write",
+          "head": [
+            "Claim",
+            "Evidence",
+            "Reasoning"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "box",
+          "label": "Self-grade rubric (/12) — score yourself, then a peer",
+          "paras": [
+            "Claim answers the question (0–4) · Evidence is accurate + specific (0–4) · Reasoning links evidence to claim (0–4). Peer review: one glow, one grow, one revision."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 1
+        },
+        {
+          "type": "box",
+          "label": "SPEAK IT · 60-second Mission Brief — stand up and say it",
+          "paras": [
+            "Present your CER out loud: state your <strong>claim</strong>, give <strong>one</strong> piece of evidence, and say <strong>why it matters</strong> — 60 seconds. Score the delivery 1–4 (clear voice · eye contact · evidence). Speaking your argument is a Ready-Graduate + interview skill."
+          ]
+        },
+        {
+          "type": "tag",
+          "color": "#1B5E20",
+          "text": "Future Ready · Communication (spoken) — the Mission Brief builds interview-ready voice."
+        },
+        {
+          "type": "tag",
+          "color": "#B22234",
+          "text": "ACT Connection · English / Writing — building a claim with evidence is the ACT Writing task."
+        },
+        {
+          "type": "head",
+          "text": "Exit Ticket",
+          "sub": "close the standard"
+        },
+        {
+          "type": "box",
+          "label": "3–2–1",
+          "paras": [
+            "3 things you learned · 2 pieces of evidence you could use · 1 question you still have."
+          ]
+        },
+        {
+          "type": "lines",
+          "n": 3
         }
       ]
     }
