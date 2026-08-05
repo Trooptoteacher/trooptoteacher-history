@@ -159,9 +159,17 @@ def act6_quiz(code):
 
 def act7_cer(code, v):
     act = ACTS.get(code, {})
+    diff = act.get("differentiation", "")
+    entry = diff.split("Honors:")[0].replace("Entry:", "").strip(" .") if "Entry:" in diff else "Sentence stems + a word bank are provided; use the CER frame."
+    honors = diff.split("Honors:")[1].strip(" .") if "Honors:" in diff else "Argue the opposite position, then decide which case is stronger."
     return [
         {"type": "head", "text": "Activity 7 · Constructed Response (CER)", "sub": "claim · evidence · reasoning"},
         {"type": "box", "label": "Big question", "paras": [EQ[code] + " Use evidence from the reading (Act 4) and the source (Act 5)."]},
+        {"type": "table",
+         "head": ["★ Entry (more support)", "● On-Level (core)", "▲ Extension (challenge)"],
+         "rows": [[entry,
+                   "Write the full CER (claim + 2 evidence + reasoning) using the organizer below.",
+                   honors]]},
         {"type": "table", "class": "write", "head": ["Claim", "Evidence", "Reasoning"], "rows": [["", "", ""]]},
         {"type": "box", "label": "Self-grade rubric (/12) — score yourself, then a peer", "paras": [
             "Claim answers the question (0–4) · Evidence is accurate + specific (0–4) · Reasoning links evidence to claim (0–4). "
@@ -262,6 +270,10 @@ def main():
     UNIT_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2))
     tot = sum(len(s["blocks"]) for s in data["standards"])
     print(f"wrote {UNIT_JSON} | 7-activity cycle × {len(ORDER)} standards | {tot} standard blocks + {len(data['front'])} front")
+    # GUARDRAIL: refuse to leave a non-platinum workbook on disk
+    import subprocess, sys
+    if subprocess.run([sys.executable, str(ROOT / "verify_workbook_platinum.py"), str(UNIT_JSON)]).returncode:
+        sys.exit("platinum guardrail FAILED — see blockers above")
 
 
 if __name__ == "__main__":

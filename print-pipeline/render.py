@@ -51,7 +51,7 @@ def render_box(block) -> str:
 
 def render_cornell(block) -> str:
     rows = "".join(
-        f'<tr><td class="cue">{rich(c)}</td><td>{rich(n)}</td></tr>'
+        f'<tr><td class="cue">{rich(c)}</td><td class="note">{rich(n)}</td></tr>'
         for c, n in block["rows"]
     )
     return (f'<h3>{esc(block["heading"])}</h3>'
