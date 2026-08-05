@@ -110,6 +110,13 @@ Read `references/pipeline.md` for the detailed, ordered playbook. Summary:
 
 0. **Intake & audit.** Confirm unit number, standard codes, and locate existing assets
    (workbook docx, decks pptx, bank). Never recreate a strong existing asset — assess first.
+   **Media-repair gate (LOCKED):** before opening/post-processing any master, run
+   `scripts/repair_docx_media.py IN.docx OUT.docx`. Masters for units 1–7 were committed with image
+   parts saved as `*.undefined` and **no content-type** — an invalid OPC package that neither
+   python-docx nor LibreOffice can open. The repair sniffs each image, renames it, rewrites the
+   `.rels`, and registers the Default content-types. It is idempotent; run it and confirm the file
+   opens (`Document(out)`) and renders before Phase 1. (Env: LibreOffice needs `libreoffice-writer`
+   for docx — install it if `soffice --convert-to pdf` reports "source file could not be loaded".)
 1. **Workbook — structure & blank-page fix.** Get to a clean N-standard book with the full
    7-activity cycle and **zero blank pages**. See `references/workbook-methods.md`.
 2. **Workbook — guided notes + back-page supports.** (a) Make Activity 3 a **guided Cornell**:
@@ -136,6 +143,27 @@ Read `references/pipeline.md` for the detailed, ordered playbook. Summary:
    `references/slide-keying.md`.
 7. **Final QA & commit.** Full contact-sheet review of each piece; validate decks; commit each
    piece to its `00_START_HERE/UNITn_*_BUILD/` folder with a STATUS.md; push.
+
+## Future Ready, Lenses & the Aug-2026 batch (codified — reuse on every unit + the other courses)
+
+The Aug-2026 Sean batch is **encoded in the governing spec** (`STUDENT_WORKBOOK_PLATINUM_STANDARD.md`)
+and its build assets live **in this skill** so every future workbook (and the other six courses) pulls
+them the same way. Full itemized batch: `references/aug2026-change-batch.md`. Key pieces:
+
+- **America 250 palette** (§2/§3), **AP-aligned CER self-grade** (§7.4 — College Board 6-pt A/B/C/D →
+  7-pt DBQ), **expanded Doodle Zone + populated `DI N of M` + Progress-Check locators + Check-Yourself
+  per item + headline room** (§7.6/§7.9 Activity 3), **opener SET YOUR SMART GOAL + ruled Preview &
+  Predict + Lenses pills** (§7.6), **bolded academic vocab + thesis mini-lesson + spaced close-read +
+  MCQ self-check key + HIPPO writing room** (§7.6 Act 4–6).
+- **Future Ready system** (§7.12) — `assets/future-ready/`: `gen_futureready.py` (Launch · Debrief ·
+  SMART Support · My SMART Goals · CER Self-Grade) and `gen_future_questions.py` (standard-tied
+  Questions + the Money-Math loan chart). Visible + measurable; rolls up to the Debrief `/40`.
+- **Lenses / Dimensions** (§7.13) — per-standard C/E/G/H/P/T/TCA pills + coverage crosswalk, sourced
+  verbatim from the standards doc.
+- **Chart sourcing + annual currency guardrail** (§7.11) — every time-sensitive chart reads
+  `assets/future-ready/future_ready_data.json` (single source of truth); `verify_future_ready_currency.py`
+  fails the build on missing provenance or an overdue annual review; CI = `.github/workflows/future-ready-currency.yml`
+  (every PR + monthly). Annual update = edit one JSON file, bump the dates.
 
 ## Output folder convention
 
