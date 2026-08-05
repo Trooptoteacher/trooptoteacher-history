@@ -9,56 +9,1492 @@
       "code": "US.01",
       "title": "Homestead Act & the Transcontinental Railroad",
       "blocks": [
-        { "type": "cornell",
+        {
+          "type": "cornell",
           "heading": "Cornell Universal Front",
           "rows": [
-            ["Essential Question", "How did federal land and railroad policy reshape the West — and at whose expense?"],
-            ["Deck slides", "Student (Lean) Deck, slides 4–17"],
-            ["Vocabulary", "Homestead Act · Transcontinental Railroad · Manifest Destiny · Promontory Summit"],
-            ["Success criteria", "I can sequence westward expansion and weigh who benefited and who bore the cost."]
+            [
+              "Essential Question",
+              "How did federal land and railroad policy reshape the West — and at whose expense?"
+            ],
+            [
+              "Deck slides",
+              "Student (Lean) Deck, slides 4–17"
+            ],
+            [
+              "Vocabulary",
+              "Homestead Act · Transcontinental Railroad · Manifest Destiny · Promontory Summit"
+            ],
+            [
+              "Success criteria",
+              "I can sequence westward expansion and weigh who benefited and who bore the cost."
+            ]
           ]
         },
-        { "type": "activity", "num": 4, "name": "Close Read", "time": "~15 min",
+        {
+          "type": "table",
+          "head": [
+            "Term",
+            "What it means",
+            "Español"
+          ],
+          "rows": [
+            [
+              "<strong>Homestead Act</strong>",
+              "An 1862 law that provided 160 acres of public land to settlers who agreed to live on. It changed land control and where Native communities could live.",
+              "Ley de Homestead"
+            ],
+            [
+              "<strong>Transcontinental Railroad</strong>",
+              "A continuous railroad line completed in 1869 that connected the eastern United States with the Pacific coast. It changed travel, trade, and how far-away places were connected.",
+              "Ferrocarril Transcontinental"
+            ],
+            [
+              "<strong>Westward Expansion</strong>",
+              "The 19th-century movement of settlers, railroads, and U.S. authority across the continent toward the Pacific, encouraged by free land and new transportation.",
+              "Expansión hacia el Oeste"
+            ],
+            [
+              "<strong>Manifest Destiny</strong>",
+              "The widely held 1800s belief that the United States was destined to expand across the entire continent, used to justify the displacement of American Indians.",
+              "Destino Manifiesto"
+            ],
+            [
+              "<strong>Land Grant</strong>",
+              "A gift of public land from the government — to railroad companies or settlers — used to fund and accelerate western settlement.",
+              "Concesión de Tierras"
+            ],
+            [
+              "<strong>Reservation</strong>",
+              "An area of land set aside by the federal government for American Indian tribes, frequently far from their ancestral homelands.",
+              "Reservación"
+            ]
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 4,
+          "name": "Close Read",
+          "time": "~15 min",
           "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.03 (synthesize) and SSP.05 (historical awareness).",
           "blocks": [
-            { "type": "box", "label": "Core Path — read one chunk at a time", "paras": [
-              "<strong>Sequence the expansion of the United States.</strong> The Homestead Act of 1862 offered 160 acres of free land to settlers who would farm it for five years. Combined with the completion of the Transcontinental Railroad in 1869, these policies accelerated westward expansion as part of Manifest Destiny—the belief that Americans were destined to spread across the continent. The Union Pacific built westward from Omaha while the Central Pacific built eastward from Sacramento, meeting at Promontory Summit, Utah.",
-              "<strong>Impact on Western Settlement.</strong> The Transcontinental Railroad dramatically reduced travel time from months to days, opening the West to settlement, commerce, and resource extraction. Towns sprang up along rail lines, and agricultural products could reach eastern markets efficiently — but this expansion came at tremendous cost to American Indian nations whose lands were taken and whose way of life was destroyed.",
-              "<strong>Impact on American Indians, Immigrants, and Settlers.</strong> Western expansion devastated American Indian communities through forced relocations, broken treaties, and the near-extinction of the buffalo herds they depended upon. Chinese workers who built much of the Central Pacific faced discrimination despite their crucial contributions. The “Buffalo Soldiers”—African American cavalry regiments—served on the frontier, including George Jordan of Williamson County, Tennessee, who earned the Medal of Honor."
-            ]},
-            { "type": "box", "label": "Language support", "paras": [
-              "Key terms to know first: Homestead Act, Transcontinental Railroad. Read once for the gist, then again for evidence."
-            ]},
-            { "type": "table", "class": "write",
-              "head": ["Text-dependent question", "Evidence from the passage", "Your answer (what it shows)"],
+            {
+              "type": "box",
+              "label": "Core Path — read one chunk at a time",
+              "paras": [
+                "<strong>Sequence the expansion of the United States.</strong> The Homestead Act of 1862 offered 160 acres of free land to settlers who would farm it for five years. Combined with the completion of the Transcontinental Railroad in 1869, these policies accelerated westward expansion as part of Manifest Destiny—the belief that Americans were destined to spread across the continent. The Union Pacific built westward from Omaha while the Central Pacific built eastward from Sacramento, meeting at Promontory Summit, Utah.",
+                "<strong>Impact on Western Settlement.</strong> The Transcontinental Railroad dramatically reduced travel time from months to days, opening the West to settlement, commerce, and resource extraction. Towns sprang up along rail lines, and agricultural products could reach eastern markets efficiently — but this expansion came at tremendous cost to American Indian nations whose lands were taken and whose way of life was destroyed.",
+                "<strong>Impact on American Indians, Immigrants, and Settlers.</strong> Western expansion devastated American Indian communities through forced relocations, broken treaties, and the near-extinction of the buffalo herds they depended upon. Chinese workers who built much of the Central Pacific faced discrimination despite their crucial contributions. The “Buffalo Soldiers”—African American cavalry regiments—served on the frontier, including George Jordan of Williamson County, Tennessee, who earned the Medal of Honor."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Language support",
+              "paras": [
+                "Key terms to know first: Homestead Act, Transcontinental Railroad. Read once for the gist, then again for evidence."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Text-dependent question",
+                "Evidence from the passage",
+                "Your answer (what it shows)"
+              ],
               "rows": [
-                ["What is the main idea of the “Sequence the expansion” section, and what evidence supports it?", "", ""],
-                ["What is the main idea of the “Impact on Western Settlement” section, and what evidence supports it?", "", ""],
-                ["What is the main idea of the “Impact on American Indians, Immigrants, and Settlers” section, and what evidence supports it?", "", ""]
+                [
+                  "What is the main idea of the “Sequence the expansion” section, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of the “Impact on Western Settlement” section, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of the “Impact on American Indians, Immigrants, and Settlers” section, and what evidence supports it?",
+                  "",
+                  ""
+                ]
               ]
             }
           ]
         },
-        { "type": "activity", "num": 5, "name": "Primary Source (HIPPO)", "time": "~15 min",
+        {
+          "type": "activity",
+          "num": 5,
+          "name": "Primary Source (HIPPO)",
+          "time": "~15 min",
           "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
           "blocks": [
-            { "type": "box", "label": "Source it first", "paras": [
-              "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER."
-            ]},
-            { "type": "table", "class": "write",
-              "head": ["HIPPO move", "What I notice in this source"],
+            {
+              "type": "box",
+              "label": "Source it first",
+              "paras": [
+                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "HIPPO move",
+                "What I notice in this source"
+              ],
               "rows": [
-                ["Historical context — what was happening when this was made?", ""],
-                ["Intended audience — who was meant to see it?", ""],
-                ["Point of view — whose perspective, and what is left out?", ""],
-                ["Purpose — why was it created?", ""],
-                ["Outside evidence — what do I already know that connects?", ""]
+                [
+                  "Historical context — what was happening when this was made?",
+                  ""
+                ],
+                [
+                  "Intended audience — who was meant to see it?",
+                  ""
+                ],
+                [
+                  "Point of view — whose perspective, and what is left out?",
+                  ""
+                ],
+                [
+                  "Purpose — why was it created?",
+                  ""
+                ],
+                [
+                  "Outside evidence — what do I already know that connects?",
+                  ""
+                ]
               ]
             }
           ]
         },
-        { "type": "cornellnotes", "heading": "Cornell Notes (25 / 75)",
-          "cues": ["Homestead Act", "Transcontinental RR", "Who bore the cost?"] }
+        {
+          "type": "cornellnotes",
+          "heading": "Cornell Notes (25 / 75)",
+          "cues": [
+            "Homestead Act",
+            "Transcontinental RR",
+            "Who bore the cost?"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "US.02",
+      "title": "Federal Policies Toward American Indians",
+      "blocks": [
+        {
+          "type": "cornell",
+          "heading": "Cornell Universal Front",
+          "rows": [
+            [
+              "Essential Question",
+              "How did federal policy try to erase Native nations — and how did they resist?"
+            ],
+            [
+              "Deck slides",
+              "Teacher & Student decks — US.02 section (advance in order)"
+            ],
+            [
+              "Vocabulary",
+              "Reservation System · Assimilation · Dawes Act · Allotment · Boarding School"
+            ],
+            [
+              "Success criteria",
+              "I can examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "Term",
+            "What it means",
+            "Español"
+          ],
+          "rows": [
+            [
+              "<strong>Reservation System</strong>",
+              "Federal policy that confined Native American tribes to designated areas of land. It changed land control and where Native communities could live.",
+              "Sistema de Reservaciones"
+            ],
+            [
+              "<strong>Assimilation</strong>",
+              "Federal policy aimed at forcing Native Americans to abandon their traditional cultures and adopt European-American ways of life. It changed land control and where Native communities could live.",
+              "Asimilación"
+            ],
+            [
+              "<strong>Dawes Act</strong>",
+              "An 1887 law that divided tribal lands into individual allotments for Native American families. It changed land control and where Native communities could live.",
+              "Ley Dawes"
+            ],
+            [
+              "<strong>Allotment</strong>",
+              "The division of communal tribal land into small individual plots under the Dawes Act, which opened \"surplus\" land to white settlers and caused massive Native land loss.",
+              "Asignación de Parcelas"
+            ],
+            [
+              "<strong>Boarding School</strong>",
+              "Off-reservation schools, such as Carlisle, where Native children were forced to abandon their languages, names, and cultures to be \"assimilated\" into white society.",
+              "Internado"
+            ],
+            [
+              "<strong>Sovereignty</strong>",
+              "The right of a tribe or nation to govern itself; federal Indian policy in this era steadily eroded tribal sovereignty.",
+              "Soberanía"
+            ]
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 4,
+          "name": "Close Read",
+          "time": "~15 min",
+          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.02, SSP.03 — collect, examine, and synthesize evidence with historical awareness.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Core Path — read one chunk at a time",
+              "paras": [
+                "<strong>Movement to Reservations.</strong> After the Civil War, the federal government expanded a policy of confining American Indian nations to reservations—designated territories far smaller than their traditional homelands. Officials stated two goals: to open western land for white settlement and railroads, and to end armed conflict on the Plains. Many treaties were signed under military and economic pressure, and tribes surrendered millions of acres. Resistance continued: at the Battle of the Little Bighorn (1876), Lakota and Cheyenne forces under Sitting Bull and Crazy Horse defeated Lt. Col. George Custer—a Native victory that intensified U.S. efforts to break tribal power.",
+                "<strong>Assimilation and Boarding Schools.</strong> Alongside removal, the government pursued a policy of assimilation—using schools and law to replace tribal cultures with Euro-American ones. At off-reservation boarding schools such as the Carlisle Indian Industrial School (founded 1879), Captain Richard H. Pratt summarized the aim in 1892: “Kill the Indian in him, and save the man.” Children were removed from their families and often forbidden to speak their languages, wear their clothing, or practice their religions. Historians today describe this systematic effort to erase Native identity as cultural genocide, and document its lasting, multi-generational harm.",
+                "<strong>The Dawes Act and Its Impact.</strong> The Dawes Severalty Act of 1887 broke up communal tribal lands into individual allotments—160 acres to each head of a family—stating the goal of turning American Indians into independent farmers and U.S. citizens. The actual effect was a massive transfer of land: American Indians held about 150 million acres before the Act, and lost roughly two-thirds of their land base—over 90 million acres—by 1934. “Surplus” land was sold to white settlers, and additional allotted land was lost through taxation, fraud, and forced sales. The Act dismantled the communal landholding central to many tribal cultures."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Language support",
+              "paras": [
+                "Key terms to know first: Reservation System, Assimilation. Read once for the gist, then again for evidence."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Text-dependent question",
+                "Evidence from the passage",
+                "Your answer (what it shows)"
+              ],
+              "rows": [
+                [
+                  "What is the main idea of “Movement to Reservations”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Assimilation and Boarding Schools”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “The Dawes Act and Its Impact”, and what evidence supports it?",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 5,
+          "name": "Primary Source (HIPPO)",
+          "time": "~15 min",
+          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Source it first",
+              "paras": [
+                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "HIPPO move",
+                "What I notice in this source"
+              ],
+              "rows": [
+                [
+                  "Historical context — what was happening when this was made?",
+                  ""
+                ],
+                [
+                  "Intended audience — who was meant to see it?",
+                  ""
+                ],
+                [
+                  "Point of view — whose perspective, and what is left out?",
+                  ""
+                ],
+                [
+                  "Purpose — why was it created?",
+                  ""
+                ],
+                [
+                  "Outside evidence — what do I already know that connects?",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 6,
+          "name": "Claim & Evidence: What Did the Policy Do?",
+          "time": "12–15 min",
+          "lead": "Use evidence from the reading and the source to build your answer.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Task — Pairs → Whole class · 12–15 min",
+              "paras": [
+                "Examine the Tom Torlino before/after photographs and the Dawes Act excerpt. In your own words, write what each policy CLAIMED to do and what it ACTUALLY did, citing one piece of evidence for each. Then take a position: was federal assimilation policy primarily about land, about culture, or both? Support your claim with evidence from today's sources.",
+                "<strong>Deliverable:</strong> A claim-evidence-reasoning (CER) paragraph with at least two cited sources."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Differentiation",
+              "paras": [
+                "Entry: T-chart (Claimed | Actually) instead of paragraph. Honors: evaluate the term “cultural genocide” — is it supported by the evidence? Why or why not?"
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Claim",
+                "Evidence",
+                "Reasoning"
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cornellnotes",
+          "heading": "Cornell Notes (25 / 75)",
+          "cues": [
+            "Reservation System",
+            "Assimilation",
+            "Dawes Act",
+            "Who benefited? Who bore the cost?"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "US.03",
+      "title": "Compromise of 1877, Jim Crow & Plessy v. Ferguson",
+      "blocks": [
+        {
+          "type": "cornell",
+          "heading": "Cornell Universal Front",
+          "rows": [
+            [
+              "Essential Question",
+              "How did the end of Reconstruction harden into Jim Crow — and who fought back?"
+            ],
+            [
+              "Deck slides",
+              "Teacher & Student decks — US.03 section (advance in order)"
+            ],
+            [
+              "Vocabulary",
+              "Compromise of 1877 · Jim Crow Laws · Disenfranchisement · Plessy v. Ferguson · Exodusters"
+            ],
+            [
+              "Success criteria",
+              "I can explain the impact of the Compromise of 1877, including Jim Crow laws, lynching, disenfranchisement methods, the efforts of Benjamin \"Pap\" Singleton and the Exodusters, and the Plessy v. Ferguson decision."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "Term",
+            "What it means",
+            "Español"
+          ],
+          "rows": [
+            [
+              "<strong>Compromise of 1877</strong>",
+              "An informal agreement that resolved the disputed 1876 presidential election. It changed who held power after major conflicts.",
+              "Compromiso de 1877"
+            ],
+            [
+              "<strong>Jim Crow Laws</strong>",
+              "State and local laws enacted primarily in the Southern states between 1877 and the 1960s that enforced racial. It shaped racial rules and unequal treatment in daily life.",
+              "Leyes de Jim Crow"
+            ],
+            [
+              "<strong>Disenfranchisement</strong>",
+              "The systematic taking away of voting rights through methods such as poll taxes. It changed who could vote and who had political power.",
+              "Privación del Derecho al Voto"
+            ],
+            [
+              "<strong>Plessy v. Ferguson</strong>",
+              "An 1896 Supreme Court decision that upheld racial separation by race under the doctrine of \"separate but equal,\". It shaped racial rules and unequal treatment in daily life.",
+              "Plessy contra Ferguson"
+            ],
+            [
+              "<strong>Exodusters</strong>",
+              "African Americans who moved from the South to Kansas and other western states in the late 1870s. It shaped racial rules and unequal treatment in daily life.",
+              "Exodusters (colonos negros)"
+            ]
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 4,
+          "name": "Close Read",
+          "time": "~15 min",
+          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.02, SSP.03 — collect, examine, and synthesize evidence with historical awareness.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Core Path — read one chunk at a time",
+              "paras": [
+                "<strong>The Election of 1876 and End of Reconstruction.</strong> The disputed 1876 presidential election between Republican Rutherford B. Hayes and Democrat Samuel Tilden led to the Compromise of 1877. In exchange for the presidency, Hayes agreed to withdraw federal troops from the South, effectively ending Reconstruction. This abandonment left African Americans without federal protection against increasingly hostile state governments.",
+                "<strong>Jim Crow Laws, Lynching, and Disenfranchisement.</strong> With federal protection gone, Southern states implemented Jim Crow laws enforcing racial segregation in all aspects of life. African Americans faced systematic disenfranchisement through poll taxes, literacy tests, grandfather clauses, and white primaries. Those who resisted faced terrorism, including lynching—public murders that went unpunished and were often celebrated by white communities.",
+                "<strong>Pap Singleton and the Exodusters.</strong> Benjamin \"Pap\" Singleton, a formerly enslaved man, organized the migration of thousands of African Americans from the South to Kansas in 1879. These \"Exodusters\" sought to escape violence and oppression, establishing communities like Nicodemus, Kansas. While conditions in Kansas were often harsh, the Exoduster movement represented African American agency and resistance to Jim Crow terror.",
+                "<strong>Plessy v. Ferguson and \"Separate But Equal\".</strong> The 1896 Supreme Court decision in Plessy v. Ferguson established the \"separate but equal\" doctrine, ruling that racial segregation was constitutional as long as facilities were supposedly equal. In practice, facilities for African Americans were grossly inferior. This decision legitimized Jim Crow segregation for nearly sixty years until Brown v. Board of Education (1954)."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Language support",
+              "paras": [
+                "Key terms to know first: Compromise of 1877, Jim Crow Laws. Read once for the gist, then again for evidence."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Text-dependent question",
+                "Evidence from the passage",
+                "Your answer (what it shows)"
+              ],
+              "rows": [
+                [
+                  "What is the main idea of “The Election of 1876 and End of Reconstruction”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Jim Crow Laws, Lynching, and Disenfranchisement”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Pap Singleton and the Exodusters”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Plessy v. Ferguson and \"Separate But Equal\"”, and what evidence supports it?",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 5,
+          "name": "Primary Source (HIPPO)",
+          "time": "~15 min",
+          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Source it first",
+              "paras": [
+                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "HIPPO move",
+                "What I notice in this source"
+              ],
+              "rows": [
+                [
+                  "Historical context — what was happening when this was made?",
+                  ""
+                ],
+                [
+                  "Intended audience — who was meant to see it?",
+                  ""
+                ],
+                [
+                  "Point of view — whose perspective, and what is left out?",
+                  ""
+                ],
+                [
+                  "Purpose — why was it created?",
+                  ""
+                ],
+                [
+                  "Outside evidence — what do I already know that connects?",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 6,
+          "name": "Reading a Political Cartoon as Evidence",
+          "time": "10–12 min",
+          "lead": "Use evidence from the reading and the source to build your answer.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Task — Pairs · 10–12 min",
+              "paras": [
+                "Analyze Thomas Nast's “Worse Than Slavery” cartoon and the Freedmen's Bureau image. Identify (1) the artist's point of view, (2) two symbols and their meaning, and (3) what the cartoon argues about why Reconstruction's protections collapsed.",
+                "<strong>Deliverable:</strong> Annotated cartoon analysis with point-of-view statement."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Differentiation",
+              "paras": [
+                "Entry: guided symbol list. Honors: compare Nast's view to the photo of the SC legislature — do the sources corroborate?"
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Claim",
+                "Evidence",
+                "Reasoning"
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cornellnotes",
+          "heading": "Cornell Notes (25 / 75)",
+          "cues": [
+            "Compromise of 1877",
+            "Jim Crow Laws",
+            "Disenfranchisement",
+            "Who benefited? Who bore the cost?"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "US.04",
+      "title": "Gilded Age Politics and Economics",
+      "blocks": [
+        {
+          "type": "cornell",
+          "heading": "Cornell Universal Front",
+          "rows": [
+            [
+              "Essential Question",
+              "Who really held power in the Gilded Age — voters, party machines, or money?"
+            ],
+            [
+              "Deck slides",
+              "Teacher & Student decks — US.04 section (advance in order)"
+            ],
+            [
+              "Vocabulary",
+              "Gilded Age · Political Machines · Spoils System · Boss Tweed · Thomas Nast"
+            ],
+            [
+              "Success criteria",
+              "I can analyze the causes and consequences of Gilded Age politics and economics, including political machines, major scandals, civil service reform, and economic differences between farmers, wage earners, and industrial capitalists."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "Term",
+            "What it means",
+            "Español"
+          ],
+          "rows": [
+            [
+              "<strong>Gilded Age</strong>",
+              "The period from roughly 1870 to 1900 characterized by rapid economic growth. It changed rights and rules that people had to live under.",
+              "Edad Dorada"
+            ],
+            [
+              "<strong>Political Machines</strong>",
+              "Corrupt organizations that controlled city politics through patronage. It changed who could vote and who had political power.",
+              "Máquinas Políticas"
+            ],
+            [
+              "<strong>Spoils System</strong>",
+              "The practice of rewarding political supporters with government jobs regardless of qualifications. It changed rights and rules that people had to live under.",
+              "Sistema de Botín"
+            ],
+            [
+              "<strong>Boss Tweed</strong>",
+              "He led New York City's Tammany Hall machine and used bribery to control city politics. His group stole millions of dollars from taxpayers through corrupt contracts.",
+              "Jefe Tweed"
+            ],
+            [
+              "<strong>Thomas Nast</strong>",
+              "A political cartoonist whose illustrations exposed Boss Tweed's corruption and helped bring down the Tammany Hall machine. It changed daily life, rights, or power during this era.",
+              "Thomas Nast"
+            ],
+            [
+              "<strong>Pendleton Act</strong>",
+              "An 1883 federal law that established the Civil Service Commission and required government jobs to be awarded based. It changed rights and rules that people had to live under.",
+              "Ley Pendleton"
+            ]
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 4,
+          "name": "Close Read",
+          "time": "~15 min",
+          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.02, SSP.03 — collect, examine, and synthesize evidence with historical awareness.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Core Path — read one chunk at a time",
+              "paras": [
+                "<strong>Political Machines and Boss Tweed.</strong> The Gilded Age (1870s-1900) saw the rise of powerful political machines that controlled city governments through patronage and corruption. Boss Tweed's Tammany Hall in New York City epitomized this system, funneling millions in public funds to Tweed and his associates. Political cartoonist Thomas Nast exposed Tweed's corruption through devastating illustrations in Harper's Weekly.",
+                "<strong>Major Scandals and the Spoils System.</strong> The era was marked by corruption at all levels. The Crédit Mobilier scandal revealed that railroad executives and congressmen had profited enormously from fraudulent construction contracts. The spoils system—giving government jobs to political supporters regardless of qualification—reached its peak. President James Garfield's assassination by a disappointed office-seeker in 1881 finally prompted reform.",
+                "<strong>Civil Service Reform.</strong> Garfield's assassination led to the Pendleton Civil Service Act of 1883, which established merit-based hiring for federal positions through competitive examinations. This began the long process of professionalizing government service, though political influence remained significant in many positions.",
+                "<strong>Economic Disparity.</strong> The Gilded Age saw extreme wealth concentration among industrial capitalists while farmers struggled with falling crop prices, high railroad shipping rates, and debt. Wage earners faced dangerous working conditions, long hours, and low pay. The Interstate Commerce Act of 1887 attempted to regulate railroad rates, representing early federal intervention in the economy."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Language support",
+              "paras": [
+                "Key terms to know first: Gilded Age, Political Machines. Read once for the gist, then again for evidence."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Text-dependent question",
+                "Evidence from the passage",
+                "Your answer (what it shows)"
+              ],
+              "rows": [
+                [
+                  "What is the main idea of “Political Machines and Boss Tweed”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Major Scandals and the Spoils System”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Civil Service Reform”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Economic Disparity”, and what evidence supports it?",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 5,
+          "name": "Primary Source (HIPPO)",
+          "time": "~15 min",
+          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Source it first",
+              "paras": [
+                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "HIPPO move",
+                "What I notice in this source"
+              ],
+              "rows": [
+                [
+                  "Historical context — what was happening when this was made?",
+                  ""
+                ],
+                [
+                  "Intended audience — who was meant to see it?",
+                  ""
+                ],
+                [
+                  "Point of view — whose perspective, and what is left out?",
+                  ""
+                ],
+                [
+                  "Purpose — why was it created?",
+                  ""
+                ],
+                [
+                  "Outside evidence — what do I already know that connects?",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 6,
+          "name": "Machine Politics: Trade-Off Analysis",
+          "time": "10 min",
+          "lead": "Use evidence from the reading and the source to build your answer.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Task — Small groups · 10 min",
+              "paras": [
+                "Using “The Bosses of the Senate” cartoon, list what a city political machine GAVE residents and what it TOOK. Then decide: why would voters keep electing a corrupt machine? Reach a group consensus and be ready to defend it.",
+                "<strong>Deliverable:</strong> Give/Take T-chart plus a one-sentence group claim."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Differentiation",
+              "paras": [
+                "Entry: provide 3 give/take examples to sort. Honors: connect to a modern trade-off between services and accountability."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Claim",
+                "Evidence",
+                "Reasoning"
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cornellnotes",
+          "heading": "Cornell Notes (25 / 75)",
+          "cues": [
+            "Gilded Age",
+            "Political Machines",
+            "Spoils System",
+            "Who benefited? Who bore the cost?"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "US.05",
+      "title": "Inventions & Innovations of Business Leaders & Entrepreneurs",
+      "blocks": [
+        {
+          "type": "cornell",
+          "heading": "Cornell Universal Front",
+          "rows": [
+            [
+              "Essential Question",
+              "Did industrial innovation lift everyone, or concentrate wealth and power?"
+            ],
+            [
+              "Deck slides",
+              "Teacher & Student decks — US.05 section (advance in order)"
+            ],
+            [
+              "Vocabulary",
+              "Robber Barons/Captains of Industry · Vertical Integration · Horizontal Integration · Monopoly · Trust"
+            ],
+            [
+              "Success criteria",
+              "I can describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, including Alexander Graham Bell, Andrew Carnegie, Thomas Edison, John D. Rockefeller, Madam C.J. Walker, and George Washington Carver."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "Term",
+            "What it means",
+            "Español"
+          ],
+          "rows": [
+            [
+              "<strong>Robber Barons/Captains of Industry</strong>",
+              "Wealthy industrialists of the late 1800s who built massive business empires. It changed rights and rules that people had to live under.",
+              "Barones Ladrones/Capitanes de Industria"
+            ],
+            [
+              "<strong>Vertical Integration</strong>",
+              "A business strategy where a company controls all stages of production. It changed rights and rules that people had to live under.",
+              "Integración Vertical"
+            ],
+            [
+              "<strong>Horizontal Integration</strong>",
+              "A business strategy where a company buys out competitors in the same industry to reduce competition and control. It changed rights and rules that people had to live under.",
+              "Integración Horizontal"
+            ],
+            [
+              "<strong>Monopoly</strong>",
+              "Complete control of a product or service by a single company. It changed how money and power were controlled in the economy.",
+              "Monopolio"
+            ],
+            [
+              "<strong>Trust</strong>",
+              "A legal arrangement where stockholders in several companies transferred their shares to a board of trustees. It changed how money and power were controlled in the economy.",
+              "Trust (Fideicomiso)"
+            ],
+            [
+              "<strong>Bessemer Process</strong>",
+              "An efficient method of making steel by blowing air through molten iron. It changed rights and rules that people had to live under.",
+              "Proceso Bessemer"
+            ]
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 4,
+          "name": "Close Read",
+          "time": "~15 min",
+          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.02, SSP.05 — collect, examine, and synthesize evidence with historical awareness.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Core Path — read one chunk at a time",
+              "paras": [
+                "<strong>Technological Innovations.</strong> The late 19th century saw transformative inventions that reshaped American life. Alexander Graham Bell's telephone (1876) revolutionized communication. Thomas Edison's electrical systems and light bulb brought power to homes and factories. Nikola Tesla's alternating current system enabled long-distance electrical transmission. Henry Bessemer's steel process made skyscrapers and modern infrastructure possible.",
+                "<strong>Industrial Titans.</strong> Andrew Carnegie built a steel empire through vertical integration, controlling every step from iron mines to finished products. John D. Rockefeller's Standard Oil pioneered horizontal integration, buying out competitors to dominate the oil industry. J.P. Morgan wielded enormous financial power, reorganizing railroads and creating U.S. Steel. Cornelius Vanderbilt consolidated railroad networks, enabling national commerce.",
+                "<strong>African American Entrepreneurs.</strong> Despite facing discrimination, African American entrepreneurs made significant contributions. Madam C.J. Walker became America's first female self-made millionaire through her hair care products, employing thousands of Black women. George Washington Carver's agricultural research at Tuskegee Institute developed hundreds of products from peanuts and sweet potatoes, helping diversify Southern agriculture."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Language support",
+              "paras": [
+                "Key terms to know first: Robber Barons/Captains of Industry, Vertical Integration. Read once for the gist, then again for evidence."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Text-dependent question",
+                "Evidence from the passage",
+                "Your answer (what it shows)"
+              ],
+              "rows": [
+                [
+                  "What is the main idea of “Technological Innovations”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Industrial Titans”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “African American Entrepreneurs”, and what evidence supports it?",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 5,
+          "name": "Primary Source (HIPPO)",
+          "time": "~15 min",
+          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Source it first",
+              "paras": [
+                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "HIPPO move",
+                "What I notice in this source"
+              ],
+              "rows": [
+                [
+                  "Historical context — what was happening when this was made?",
+                  ""
+                ],
+                [
+                  "Intended audience — who was meant to see it?",
+                  ""
+                ],
+                [
+                  "Point of view — whose perspective, and what is left out?",
+                  ""
+                ],
+                [
+                  "Purpose — why was it created?",
+                  ""
+                ],
+                [
+                  "Outside evidence — what do I already know that connects?",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 6,
+          "name": "Robber Baron or Captain of Industry?",
+          "time": "12 min",
+          "lead": "Use evidence from the reading and the source to build your answer.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Task — Pairs (assigned positions) · 12 min",
+              "paras": [
+                "Using the Carnegie portrait and the Standard Oil “Next!” cartoon, build the strongest case for ONE label — “robber baron” OR “captain of industry” — for a Gilded Age titan. Cite at least two specific actions as evidence.",
+                "<strong>Deliverable:</strong> A position card with claim + two pieces of evidence."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Differentiation",
+              "paras": [
+                "Entry: evidence bank provided. Honors: argue the opposite label, then decide which case is stronger."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Claim",
+                "Evidence",
+                "Reasoning"
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cornellnotes",
+          "heading": "Cornell Notes (25 / 75)",
+          "cues": [
+            "Robber Barons/Captains of Industry",
+            "Vertical Integration",
+            "Horizontal Integration",
+            "Who benefited? Who bore the cost?"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "US.06",
+      "title": "Industrial Centers and Urbanization",
+      "blocks": [
+        {
+          "type": "cornell",
+          "heading": "Cornell Universal Front",
+          "rows": [
+            [
+              "Essential Question",
+              "Why did people leave the countryside for the city — and what did they find there?"
+            ],
+            [
+              "Deck slides",
+              "Teacher & Student decks — US.06 section (advance in order)"
+            ],
+            [
+              "Vocabulary",
+              "Urbanization · Granger Movement · Populism · Interstate Commerce Act · Tenement"
+            ],
+            [
+              "Success criteria",
+              "I can locate major industrial centers and describe how industrialization influenced the movement of people from rural to urban areas."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "Term",
+            "What it means",
+            "Español"
+          ],
+          "rows": [
+            [
+              "<strong>Urbanization</strong>",
+              "The rapid growth of cities due to factory growth and mass moving. It changed where people lived and worked in growing cities.",
+              "Urbanización"
+            ],
+            [
+              "<strong>Granger Movement</strong>",
+              "A farmers' organization formed in the 1860s-1870s to combat the power of railroads and grain elevator companies. It changed travel, trade, and how far-away places were connected.",
+              "Movimiento Granger"
+            ],
+            [
+              "<strong>Populism</strong>",
+              "A political movement representing the interests of ordinary people. It changed travel, trade, and how far-away places were connected.",
+              "Populismo"
+            ],
+            [
+              "<strong>Interstate Commerce Act</strong>",
+              "An 1887 federal law that created the Interstate Trade Commission to regulate railroad rates and practices. It changed travel, trade, and how far-away places were connected.",
+              "Ley de Comercio Interestatal"
+            ],
+            [
+              "<strong>Tenement</strong>",
+              "A crowded, often unsafe urban apartment building where many poor and immigrant families lived during rapid industrial-era city growth.",
+              "Vivienda de Vecindad"
+            ],
+            [
+              "<strong>Industrialization</strong>",
+              "The shift from an economy based on farming and handcraft to one based on large factories, machines, and mass production.",
+              "Industrialización"
+            ]
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 4,
+          "name": "Close Read",
+          "time": "~15 min",
+          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.05, SSP.06 — collect, examine, and synthesize evidence with historical awareness.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Core Path — read one chunk at a time",
+              "paras": [
+                "<strong>Major Industrial Centers.</strong> Industrialization concentrated in cities with geographic advantages. Pittsburgh became the steel capital due to access to coal, iron ore, and rivers. Chicago emerged as a railroad hub and meatpacking center. New York City dominated finance and trade through its port. Boston led in textiles and manufacturing. San Francisco served as the gateway to Pacific trade and western resources.",
+                "<strong>Rural-to-Urban Migration.</strong> Industrialization drew millions from farms to cities seeking factory jobs. The promise of wages attracted both native-born Americans and immigrants. Cities grew explosively—Chicago's population increased from 30,000 in 1850 to over 1 million by 1890. This rapid growth created overcrowded tenements, inadequate sanitation, and new social challenges.",
+                "<strong>Geographic Factors in Industrial Location.</strong> Industries located based on access to raw materials, transportation, markets, and labor. Steel mills clustered near coal and iron deposits. Textile mills used water power and later concentrated near ports for cotton imports. Meatpacking centered in Chicago due to railroad connections to cattle ranges and eastern markets. These patterns shaped regional development for generations."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Language support",
+              "paras": [
+                "Key terms to know first: Urbanization, Granger Movement. Read once for the gist, then again for evidence."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Text-dependent question",
+                "Evidence from the passage",
+                "Your answer (what it shows)"
+              ],
+              "rows": [
+                [
+                  "What is the main idea of “Major Industrial Centers”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Rural-to-Urban Migration”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Geographic Factors in Industrial Location”, and what evidence supports it?",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 5,
+          "name": "Primary Source (HIPPO)",
+          "time": "~15 min",
+          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Source it first",
+              "paras": [
+                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "HIPPO move",
+                "What I notice in this source"
+              ],
+              "rows": [
+                [
+                  "Historical context — what was happening when this was made?",
+                  ""
+                ],
+                [
+                  "Intended audience — who was meant to see it?",
+                  ""
+                ],
+                [
+                  "Point of view — whose perspective, and what is left out?",
+                  ""
+                ],
+                [
+                  "Purpose — why was it created?",
+                  ""
+                ],
+                [
+                  "Outside evidence — what do I already know that connects?",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 6,
+          "name": "Mapping the Industrial City",
+          "time": "10 min",
+          "lead": "Use evidence from the reading and the source to build your answer.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Task — Pairs · 10 min",
+              "paras": [
+                "Using the 1890 wage-earners and foreign-born maps, identify the regions where industry and immigration concentrated. Predict THREE problems a city would face when its population multiplies in 40 years, and THREE things it needs to grow.",
+                "<strong>Deliverable:</strong> Map-annotation chart: needs vs. problems."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Differentiation",
+              "paras": [
+                "Entry: labeled map regions provided. Honors: explain the correlation between manufacturing density and foreign-born population."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Claim",
+                "Evidence",
+                "Reasoning"
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cornellnotes",
+          "heading": "Cornell Notes (25 / 75)",
+          "cues": [
+            "Urbanization",
+            "Granger Movement",
+            "Populism",
+            "Who benefited? Who bore the cost?"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "US.07",
+      "title": "Immigration: Old vs. New Immigrants",
+      "blocks": [
+        {
+          "type": "cornell",
+          "heading": "Cornell Universal Front",
+          "rows": [
+            [
+              "Essential Question",
+              "What pulled “new” immigrants to America, and what did nativism push back with?"
+            ],
+            [
+              "Deck slides",
+              "Teacher & Student decks — US.07 section (advance in order)"
+            ],
+            [
+              "Vocabulary",
+              "Old Immigrants · New Immigrants · Ellis Island · Angel Island · Push-Pull Factors"
+            ],
+            [
+              "Success criteria",
+              "I can describe the differences between \"old\" and \"new\" immigrants; explain entry points (Ellis Island and Angel Island), push and pull factors, and the formation of ethnic clusters; and analyze nativism and restrictions such as the Chinese Exclusion Act and the Gentlemen’s Agreement on American society."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "Term",
+            "What it means",
+            "Español"
+          ],
+          "rows": [
+            [
+              "<strong>Old Immigrants</strong>",
+              "Immigrants who came to the United States primarily from Northern and Western Europe (England. It changed who could enter the United States and how newcomers were treated.",
+              "Viejos Inmigrantes"
+            ],
+            [
+              "<strong>New Immigrants</strong>",
+              "Immigrants who came to the United States primarily from Southern and Eastern Europe (Italy. It changed who could enter the United States and how newcomers were treated.",
+              "Nuevos Inmigrantes"
+            ],
+            [
+              "<strong>Ellis Island</strong>",
+              "The primary immigration processing station in New York Harbor from 1892 to 1954. It changed who could enter the United States and how newcomers were treated.",
+              "Isla Ellis"
+            ],
+            [
+              "<strong>Angel Island</strong>",
+              "The immigration station in San Francisco Bay from 1910 to 1940 that primarily processed Asian immigrants. It changed who could enter the United States and how newcomers were treated.",
+              "Isla Ángel"
+            ],
+            [
+              "<strong>Push-Pull Factors</strong>",
+              "Push factors (poverty. It changed land control and where Native communities could live.",
+              "Factores de Empuje y Atracción"
+            ],
+            [
+              "<strong>Ethnic Clusters</strong>",
+              "Neighborhoods where immigrants from the same country or region settled together. It changed who could enter the United States and how newcomers were treated.",
+              "Grupos Étnicos"
+            ],
+            [
+              "<strong>Nativism</strong>",
+              "The policy of protecting the interests of native-born citizens against immigrants. It changed who could enter the United States and how newcomers were treated.",
+              "Nativismo"
+            ],
+            [
+              "<strong>Chinese Exclusion Act</strong>",
+              "An 1882 federal law that did not allow Chinese laborers from immigrating to the United States for 10. It changed who could enter the United States and how newcomers were treated.",
+              "Ley de Exclusión China"
+            ],
+            [
+              "<strong>Gentleman's Agreement</strong>",
+              "An informal 1907-1908 agreement between the US and Japan in which Japan agreed to stop issuing passports. It changed who could enter the United States and how newcomers were treated.",
+              "Acuerdo de Caballeros"
+            ]
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 4,
+          "name": "Close Read",
+          "time": "~15 min",
+          "lead": "Reading type: History Hack-authored instructional synthesis. Not a primary source. Builds SSP.01, SSP.02, SSP.03 — collect, examine, and synthesize evidence with historical awareness.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Core Path — read one chunk at a time",
+              "paras": [
+                "<strong>Old and New Immigrants.</strong> \"Old\" immigrants (pre-1880) came primarily from Northern and Western Europe—Britain, Ireland, Germany, Scandinavia. They often spoke English or related languages and were predominantly Protestant. \"New\" immigrants (1880-1920) came from Southern and Eastern Europe—Italy, Poland, Russia, Greece—as well as Asia. They brought different languages, religions (Catholic, Orthodox, Jewish), and customs that many Americans viewed with suspicion.",
+                "<strong>Entry Points and the Assimilation Process.</strong> Ellis Island in New York Harbor processed millions of European immigrants, while Angel Island in San Francisco served Asian immigrants with far more restrictive procedures. New immigrants faced difficult assimilation: language barriers, discrimination, and unfamiliar customs. Jane Addams's Hull House in Chicago pioneered settlement houses that helped immigrants learn English, navigate American systems, and maintain cultural connections.",
+                "<strong>Push and Pull Factors.</strong> Push factors drove people from their homelands: religious persecution (especially of Jews in Russia), poverty, political upheaval, and lack of opportunity. Pull factors attracted them to America: economic opportunity, religious freedom, land availability, and established immigrant communities. Letters from successful immigrants encouraged others to follow.",
+                "<strong>Nativism and Restriction.</strong> The rise of nativism—hostility toward immigrants—led to restrictive legislation. The Chinese Exclusion Act of 1882 banned Chinese immigration for ten years (repeatedly renewed until 1943). The Gentleman's Agreement of 1907 limited Japanese immigration. Jacob Riis's photographs and writings, including \"How the Other Half Lives,\" exposed immigrant living conditions, prompting both sympathy and nativist fears."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Language support",
+              "paras": [
+                "Key terms to know first: Old Immigrants, New Immigrants. Read once for the gist, then again for evidence."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Text-dependent question",
+                "Evidence from the passage",
+                "Your answer (what it shows)"
+              ],
+              "rows": [
+                [
+                  "What is the main idea of “Old and New Immigrants”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Entry Points and the Assimilation Process”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Push and Pull Factors”, and what evidence supports it?",
+                  "",
+                  ""
+                ],
+                [
+                  "What is the main idea of “Nativism and Restriction”, and what evidence supports it?",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 5,
+          "name": "Primary Source (HIPPO)",
+          "time": "~15 min",
+          "lead": "Analyze a verified primary source with HIPPO: Historical context, Intended audience, Point of view, Purpose, Outside evidence. Builds SSP.01–SSP.02.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Source it first",
+              "paras": [
+                "Every source gets sourced before it gets analyzed. Fill the HIPPO frame, then answer the guiding question in a complete CER (Claim – Evidence – Reasoning)."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "HIPPO move",
+                "What I notice in this source"
+              ],
+              "rows": [
+                [
+                  "Historical context — what was happening when this was made?",
+                  ""
+                ],
+                [
+                  "Intended audience — who was meant to see it?",
+                  ""
+                ],
+                [
+                  "Point of view — whose perspective, and what is left out?",
+                  ""
+                ],
+                [
+                  "Purpose — why was it created?",
+                  ""
+                ],
+                [
+                  "Outside evidence — what do I already know that connects?",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "num": 6,
+          "name": "Two Sides of Immigration",
+          "time": "12 min",
+          "lead": "Use evidence from the reading and the source to build your answer.",
+          "blocks": [
+            {
+              "type": "box",
+              "label": "Task — Pairs → Whole class · 12 min",
+              "paras": [
+                "Examine Jacob Riis's “Five Cents a Spot” photograph and the Ellis Island inspection-room image. Write one sentence from the perspective of a new immigrant and one from a nativist worried about change. Then explain what Riis wanted viewers to FEEL and DO.",
+                "<strong>Deliverable:</strong> Two perspective sentences + a photographer's-purpose statement."
+              ]
+            },
+            {
+              "type": "box",
+              "label": "Differentiation",
+              "paras": [
+                "Entry: sentence stems for both perspectives. Honors: evaluate whether a staged photo is reliable evidence."
+              ]
+            },
+            {
+              "type": "table",
+              "class": "write",
+              "head": [
+                "Claim",
+                "Evidence",
+                "Reasoning"
+              ],
+              "rows": [
+                [
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cornellnotes",
+          "heading": "Cornell Notes (25 / 75)",
+          "cues": [
+            "Old Immigrants",
+            "New Immigrants",
+            "Ellis Island",
+            "Who benefited? Who bore the cost?"
+          ]
+        }
       ]
     }
   ]
