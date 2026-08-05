@@ -1,0 +1,39 @@
+name: wcs-compliance
+
+# Guardrail for the WCS Technology Use Guidance compliance registry.
+# Fails the build if any WCS requirement is unmet (status: gap), any cited
+# content-repo evidence does not resolve, a requirement has no resolvable
+# evidence, or the registry is malformed. See
+# 06_COMPLIANCE_INTERNAL/wcs-technology-use/ and the wcs-technology-use-compliance skill.
+#
+# This job runs in CONTENT-ONLY mode: it verifies every doctrine/repo anchor,
+# schema validity, and that no requirement is in breach. The authoritative run
+# that also verifies web-app evidence is executed where both repos are
+# co-located (verify_wcs_compliance.py --require-webapp). Web-app routes are
+# independently enforced by the web app's own product-edition registry test.
+
+on:
+  push:
+    paths:
+      - "06_COMPLIANCE_INTERNAL/wcs-technology-use/**"
+      - ".github/workflows/wcs-compliance.yml"
+  pull_request:
+    paths:
+      - "06_COMPLIANCE_INTERNAL/wcs-technology-use/**"
+      - ".github/workflows/wcs-compliance.yml"
+
+jobs:
+  guardrail:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run WCS Technology Use Guidance compliance guardrail
+        run: python3 06_COMPLIANCE_INTERNAL/wcs-technology-use/verify_wcs_compliance.py
+      - name: Matrix is regenerated from the registry (no drift)
+        run: |
+          python3 06_COMPLIANCE_INTERNAL/wcs-technology-use/build_wcs_matrix.py
+          git diff --exit-code 06_COMPLIANCE_INTERNAL/wcs-technology-use/wcs-technology-use-matrix.html \
+            || (echo "::error::wcs-technology-use-matrix.html is out of date — regenerate with build_wcs_matrix.py" && exit 1)

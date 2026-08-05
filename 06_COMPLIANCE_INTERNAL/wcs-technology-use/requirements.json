@@ -1,0 +1,609 @@
+{
+  "$schema": "./requirements.schema.json",
+  "meta": {
+    "title": "WCS Technology Use Guidance — Compliance Requirements Registry",
+    "product": "U.S. History Hack — TroopToTeacher Technologies, LLC",
+    "district": "Williamson County Schools (WCS), Tennessee",
+    "source_document": "WCS Technology Use Guidance (2026) — Educator Blueprint, Areas of Focus 1-4, Appendix, and References",
+    "also_covers": [
+      "WCS/TN classroom-law table (7 statutes) supplied by the district",
+      "WCS Board Policies & Standard Operating Procedures cited in the guidance References",
+      "TN statutes, federal privacy law, and research frameworks cited in the guidance References",
+      "Workbook graphic-organizer examples supplied by the district"
+    ],
+    "single_source_of_truth": true,
+    "enforcement_contract": {
+      "purpose": "Prove that every requirement of the WCS Technology Use Guidance (and the laws, policies, and frameworks it cites) is embedded in the U.S. History Hack product and curriculum, that no requirement is in breach, and to make where we MEET or EXCEED the law visible to any skeptic.",
+      "rule": "Every requirement MUST carry at least one resolvable content-repo evidence anchor. Every 'meets'/'exceeds' posture MUST be backed by real evidence — never an assertion. A requirement with status 'gap' fails the guardrail. Evidence that cannot be resolved fails the guardrail. Fabricated evidence is prohibited (CLAUDE.md content-accuracy rule; evidence-only Pass).",
+      "validator": "verify_wcs_compliance.py (exit 1 on any gap or unresolvable evidence)",
+      "matrix_generator": "build_wcs_matrix.py (renders the skeptic-facing printable matrix from THIS file)",
+      "owner_skill": "wcs-technology-use-compliance",
+      "review_cadence": "Quarterly (Aug/Nov/Feb/May) alongside ADMINISTRATIVE_REVIEW.md; May review catches TN laws effective July 1."
+    },
+    "evidence_kinds": {
+      "doctrine": "Content-repo doctrine/spec file (this repo). Hard-checked: must exist and be non-empty.",
+      "repo": "Content-repo artifact (this repo). Hard-checked: must exist and be non-empty.",
+      "webapp": "history-hack-web-app repo-relative path. Checked when the web app is co-located ($WEBAPP_ROOT); recorded as 'declared' cross-repo evidence otherwise.",
+      "webapp_route": "A live Next.js route in the web app. Informational; the web app's own product-edition registry test enforces route existence.",
+      "external": "An authoritative external source (statute, framework, standard). Citation only; never resolved on disk."
+    },
+    "posture_legend": {
+      "meets": "History Hack satisfies the requirement.",
+      "exceeds": "History Hack goes beyond the requirement (the Platinum bar: better, not parity)."
+    }
+  },
+  "requirements": [
+    {
+      "id": "BP-PLAN",
+      "group": "Educator Blueprint",
+      "source": "WCS Technology Use Guidance — Educator Blueprint, Phase 1: Plan with Purpose",
+      "requirement": "Educators plan technology use around a clear learning goal and select tools deliberately, pedagogy-first.",
+      "hh_response": "The lesson-plan builder is goal-first: every activity is tagged with its high-impact strategy and effect size, and the teacher selects activities against their TEAM rubric, pacing guide, and class times before any tool is chosen. Technology enters the flow only when it passes the Educational-Impact Gate.",
+      "posture": "exceeds",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "doctrine", "ref": "00_START_HERE/FRAMEWORKS_CANON.md"},
+        {"kind": "webapp", "ref": "lib/lesson-package/tech-plan.ts"},
+        {"kind": "webapp_route", "ref": "/teacher-tools/lesson-package"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "BP-TEACH",
+      "group": "Educator Blueprint",
+      "source": "WCS Technology Use Guidance — Educator Blueprint, Phase 2: Teach with Intention",
+      "requirement": "Technology use is intentional during instruction: active over passive, defined duration, non-digital methods preferentially leveraged for conceptual understanding.",
+      "hh_response": "Print-first by design: the student workbook is the spine and paper carries conceptual understanding; the app amplifies only where paper physically cannot. Each digital touch has a defined duration in the tech plan, and student use is active (write a CER on paper, self-grade, input to app, revise).",
+      "posture": "exceeds",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "webapp", "ref": "lib/lesson-package/tech-plan.ts"},
+        {"kind": "webapp", "ref": "lib/usage/meaningful-use.ts"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "BP-REFLECT",
+      "group": "Educator Blueprint",
+      "source": "WCS Technology Use Guidance — Educator Blueprint, Phase 3: Reflect & Respond",
+      "requirement": "Educators reflect on efficacy using data and respond (reteach, adjust) based on evidence of learning.",
+      "hh_response": "The platform's reason-for-being is the parallel test-data analytics + real-time standard-mastery + auto-remediation loop, rolled up at district/PLC/teacher/student. Teachers see mastery by standard and reteach from the data.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "doctrine", "ref": "00_START_HERE/ADOPTION_VALUE_CASE.md"},
+        {"kind": "webapp", "ref": "lib/district-item-analysis.ts"},
+        {"kind": "webapp_route", "ref": "/district"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A1-AUG",
+      "group": "Area of Focus 1 — Safety, Privacy & Application Vetting",
+      "source": "WCS Technology Use Guidance — Area 1; WCS Acceptable Use Guidelines (AUG)",
+      "requirement": "Adhere to the WCS Acceptable Use Guidelines.",
+      "hh_response": "History Hack is a closed-loop, ad-free, child-safe environment: first-party self-hosted video with no link-outs, no recommendations, comments, or ads, so a student cannot hop from a lesson to the open web — the core AUG posture for CIPA/COPPA/FERPA.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "CLAUDE.md"},
+        {"kind": "webapp", "ref": "lib/compliance/sourcing.ts"},
+        {"kind": "webapp_route", "ref": "/trust"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A1-PRIVACY",
+      "group": "Area of Focus 1 — Safety, Privacy & Application Vetting",
+      "source": "WCS Technology Use Guidance — Area 1 (FERPA/COPPA/CIPA); References: US DoE FERPA, FTC COPPA, FCC CIPA",
+      "requirement": "Comply with FERPA, COPPA, and CIPA for student data privacy and safety.",
+      "hh_response": "FERPA/COPPA/CIPA posture is documented and published: trust center, privacy policy, vendor-security disclosures, and a sub-processor audit. The IRT calibration pipeline is FERPA/COPPA-safe. No student PII is exposed to third-party players.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "repo", "ref": "06_COMPLIANCE_INTERNAL/compliance.html"},
+        {"kind": "webapp", "ref": "app/privacy/page.tsx"},
+        {"kind": "webapp", "ref": "app/vendor-security/page.tsx"},
+        {"kind": "webapp", "ref": "app/sub-processor-audit/page.tsx"},
+        {"kind": "external", "ref": "FERPA 20 U.S.C. 1232g; COPPA 16 CFR 312; CIPA 47 U.S.C. 254(h)"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A1-VET",
+      "group": "Area of Focus 1 — Safety, Privacy & Application Vetting",
+      "source": "WCS Technology Use Guidance — Area 1 (LearnPlatform vetting, standards alignment + research-based evidence of learning, 5-year re-vet)",
+      "requirement": "Applications are vetted (LearnPlatform), aligned to standards, and supported by research-based evidence of learning; re-vetted on a defined cycle.",
+      "hh_response": "History Hack supplies a complete vetting dossier: full US.01-US.95 standards alignment, ESSA/research evidence tiering, a VPAT/ACR, and a data-privacy agreement — everything a LearnPlatform review needs. The Administrative Review runs quarterly so alignment stays current through any re-vet.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "repo", "ref": "05_STANDARDS_ALIGNMENT"},
+        {"kind": "repo", "ref": "06_COMPLIANCE_INTERNAL/ADMINISTRATIVE_REVIEW.md"},
+        {"kind": "webapp", "ref": "docs/compliance/VPAT-2.5-ACR.md"},
+        {"kind": "webapp", "ref": "docs/compliance/content-governance-policy.md"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A1-PORTAL",
+      "group": "Area of Focus 1 — Safety, Privacy & Application Vetting",
+      "source": "WCS Technology Use Guidance — Area 1 (public family-facing portal of vetted apps)",
+      "requirement": "A public, family-facing portal makes vetted applications and their safeguards transparent to families.",
+      "hh_response": "The district owns the portal; History Hack supplies the transparency artifacts that populate it — a public approach/technology-use ledger, a trust center, and content-governance disclosures families can read without logging in.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/ADOPTION_VALUE_CASE.md"},
+        {"kind": "webapp", "ref": "app/approach/page.tsx"},
+        {"kind": "webapp", "ref": "app/trust/page.tsx"},
+        {"kind": "webapp", "ref": "app/content-governance/page.tsx"},
+        {"kind": "webapp_route", "ref": "/approach"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A2-FRAMEWORKS",
+      "group": "Area of Focus 2 — Instructional Technology Best Practices",
+      "source": "WCS Technology Use Guidance — Area 2 (names the Bold School Framework and PICRAT); References: Kieschnick (2018) Bold School, Kimmons/Graham/West PICRAT",
+      "requirement": "Instructional technology decisions use the Bold School Framework and PICRAT.",
+      "hh_response": "The exact frameworks WCS names are the ones History Hack ships: the SAMR/PICRAT/BOLD/TPACK registry is the single source of truth for how and why each feature uses technology, with an honesty rule that a feature is never badged a higher cell than it earns. The public ledger surfaces this so anyone can audit it.",
+      "posture": "exceeds",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/FRAMEWORKS_CANON.md"},
+        {"kind": "webapp", "ref": "lib/samr/samr-registry.ts"},
+        {"kind": "webapp", "ref": "components/picrat/picrat-chip.tsx"},
+        {"kind": "webapp", "ref": "app/approach/page.tsx"},
+        {"kind": "external", "ref": "Kieschnick, W. (2018) Bold School (Corwin); Kimmons, Graham & West, PICRAT (EdTech Books)"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A2-PEDAGOGY",
+      "group": "Area of Focus 2 — Instructional Technology Best Practices",
+      "source": "WCS Technology Use Guidance — Area 2 (pedagogy-first; tool serves the learning goal)",
+      "requirement": "Pedagogy leads; technology is used only when it enhances learning, not for its own sake.",
+      "hh_response": "The tech-value rule is a hard gate: technology ships only if it clears the Educational-Impact Gate (a named high-impact strategy with a research effect size at or above Hattie's hinge d ~ 0.40 that print physically cannot deliver). SAMR/TPACK describe the kind of integration; they are not the value bar.",
+      "posture": "exceeds",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/FRAMEWORKS_CANON.md"},
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "webapp", "ref": "lib/samr/samr-registry.ts"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A2-PRINTFIRST",
+      "group": "Area of Focus 2 — Instructional Technology Best Practices",
+      "source": "WCS Technology Use Guidance — Area 2 (non-electronic/print prioritized); References: Marano et al. (2025) handwriting vs typing; Horvath, laptops and brains",
+      "requirement": "Non-electronic, print-based methods are prioritized, especially for foundational and conceptual learning.",
+      "hh_response": "History Hack is a print-first product: the workbook is the spine and everything is printable — 'the foundation of the platform.' The page must stand alone; the app raises the ceiling, never lowers the floor. This aligns with the writing-neuroscience evidence WCS cites (handwriting for encoding).",
+      "posture": "exceeds",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "doctrine", "ref": "00_START_HERE/BUILD_STANDARD.md"},
+        {"kind": "external", "ref": "Marano et al. (2025) Life 15(3):345, doi:10.3390/life15030345"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A2-DURATION",
+      "group": "Area of Focus 2 — Instructional Technology Best Practices",
+      "source": "WCS Technology Use Guidance — Area 2 (defined start-stop duration for tech use)",
+      "requirement": "Technology use has a defined start and stop; time-on-device is bounded and intentional.",
+      "hh_response": "The lesson-package tech plan assigns a defined duration (minutes) to each digital touch, so device time is explicit and bounded rather than open-ended.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "webapp", "ref": "lib/lesson-package/tech-plan.ts"},
+        {"kind": "webapp", "ref": "lib/usage/meaningful-use.ts"},
+        {"kind": "webapp", "ref": "components/usage/meaningful-use-panel.tsx"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A2-PAPER-ASSESS",
+      "group": "Area of Focus 2 — Instructional Technology Best Practices",
+      "source": "WCS Technology Use Guidance — Area 2 (paper available during digital assessments)",
+      "requirement": "Paper is available during digital assessments (e.g., scratch/annotation).",
+      "hh_response": "Every assessment item and test in History Hack is printable, and the workbook-to-app loop assumes the student writes on paper first. Paper forms of every test exist as distribution artifacts (parallel forms packet, printable test bank).",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "repo", "ref": "04_ASSESSMENTS"},
+        {"kind": "webapp_route", "ref": "/practice"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A3-ACTIVE",
+      "group": "Area of Focus 3 — Intentional Student Technology Use",
+      "source": "WCS Technology Use Guidance — Area 3 (active over passive use)",
+      "requirement": "Student technology use is active (creating, analyzing) rather than passive (consuming).",
+      "hh_response": "The meaningful-use model distinguishes active from passive use and the workbook-to-app loop is built around student production (write, self-grade, revise). PICRAT 'passive' cells are never badged as transformative.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "webapp", "ref": "lib/usage/meaningful-use.ts"},
+        {"kind": "webapp", "ref": "lib/samr/samr-registry.ts"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A3-IEP504",
+      "group": "Area of Focus 3 — Intentional Student Technology Use",
+      "source": "WCS Technology Use Guidance — Area 3 and Appendix (IEP/504/ILP exceptions); References: CRS (2025) rights under IDEA, Section 504, ADA",
+      "requirement": "Students with an IEP, 504 plan, ILP, documented health need, or assistive-technology need retain uninterrupted access as an exception.",
+      "hh_response": "IEP/504 support profiles are a first-class feature-flag, and the accommodations crosswalk maps supports to each need. UDL 3.0 supports add paths without lowering the goal, and the product carries a VPAT/ACR for assistive-technology interoperability.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/FRAMEWORKS_CANON.md"},
+        {"kind": "webapp", "ref": "lib/feature-flags/iep504-support-profiles.ts"},
+        {"kind": "webapp", "ref": "lib/accommodations-crosswalk.ts"},
+        {"kind": "webapp", "ref": "docs/compliance/VPAT-2.5-ACR.md"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A3-EFFICACY",
+      "group": "Area of Focus 3 — Intentional Student Technology Use",
+      "source": "WCS Technology Use Guidance — Area 3 (evidence of efficacy required); References: Hattie Visible Learning MetaX",
+      "requirement": "Technology use is supported by evidence of efficacy; effect on learning is demonstrable.",
+      "hh_response": "The Educational-Impact Gate IS an evidence-of-efficacy gate: a feature must clear an effect size at or above Hattie's hinge (d ~ 0.40) and be something print cannot do. Effect sizes come from cited canonical sources (Hattie, Black & Wiliam) — never fabricated.",
+      "posture": "exceeds",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/FRAMEWORKS_CANON.md"},
+        {"kind": "doctrine", "ref": "00_START_HERE/ADOPTION_VALUE_CASE.md"},
+        {"kind": "external", "ref": "Hattie, Visible Learning MetaX (visiblelearningmetax.com)"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A3-SCREENLIMIT",
+      "group": "Area of Focus 3 — Intentional Student Technology Use",
+      "source": "WCS Technology Use Guidance — Area 3 (age-appropriate screen limits, e.g., K-2 max 60 min/day; no tech at recess); References: AAP, Cedars-Sinai, Haidt, Common Sense",
+      "requirement": "Screen time is age-appropriate and minimized; grade-band limits are honored.",
+      "hh_response": "History Hack is a grades 9-12 U.S. History product, so the K-2 numeric cap does not apply; the underlying principle — minimize passive screen time — is exceeded by the print-first model, where the default medium is paper and each digital touch is duration-bounded.",
+      "posture": "exceeds",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "webapp", "ref": "lib/lesson-package/tech-plan.ts"},
+        {"kind": "external", "ref": "AAP Council on Communications and Media (2026) Pediatrics 157(2); Haidt (2024) The Anxious Generation"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A3-DATA",
+      "group": "Area of Focus 3 — Intentional Student Technology Use",
+      "source": "WCS Technology Use Guidance — Area 3 (PLT/PLC data review; ClassLink analytics to families)",
+      "requirement": "Professional Learning Teams review technology-use data; usage analytics are shared with families (e.g., via ClassLink).",
+      "hh_response": "Mastery and item analytics roll up at district/PLC/teacher/student levels for PLC review, and the product supports ClassLink SSO + OneRoster so analytics flow through the district's family-facing rostering layer.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/ADOPTION_VALUE_CASE.md"},
+        {"kind": "webapp", "ref": "lib/district-item-analysis.ts"},
+        {"kind": "webapp", "ref": "lib/sso/classlink.ts"},
+        {"kind": "webapp", "ref": "lib/oneroster/sync.ts"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A4-PL",
+      "group": "Area of Focus 4 — Training and Support",
+      "source": "WCS Technology Use Guidance — Area 4 (professional learning models plan/select/implement/reflect)",
+      "requirement": "Professional learning models intentional best practices across planning, tool selection, implementation, and reflection.",
+      "hh_response": "The lesson-plan builder and teacher tools embody the plan/select/implement/reflect cycle: strategy-tagged activities (plan/select), print-ZIP output into the teacher's own plan (implement), and mastery analytics (reflect). Teacher-facing guidance and usage guides ship with each deck.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "webapp", "ref": "app/teacher-tools/page.tsx"},
+        {"kind": "webapp_route", "ref": "/teacher-tools"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A4-MONITOR",
+      "group": "Area of Focus 4 — Training and Support",
+      "source": "WCS Technology Use Guidance — Area 4 (proactive monitoring practices)",
+      "requirement": "Stakeholders use proactive monitoring practices to keep student technology use safe, responsible, and instructionally focused.",
+      "hh_response": "The closed-loop environment is monitoring by design: no link-outs, no open-web surface, first-party self-hosted video, and teacher-visible progress/mastery so a teacher can see exactly what each student is doing.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "CLAUDE.md"},
+        {"kind": "webapp", "ref": "lib/compliance/sourcing.ts"},
+        {"kind": "webapp", "ref": "lib/progress-store.ts"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A4-DIGLIT",
+      "group": "Area of Focus 4 — Training and Support",
+      "source": "WCS Technology Use Guidance — Area 4 (annual age-appropriate digital literacy incl. AI, state law); References: TDOE Computer Science standards, TDOE Teen social media & internet safety guidance",
+      "requirement": "Age-appropriate digital literacy — including instruction on the use of AI — is taught annually to comply with state law.",
+      "hh_response": "The district's digital-literacy curriculum is the primary vehicle; History Hack supports it as a US-History course by modeling and disclosing responsible/AI use — a published AI-disclosure page and content-governance policy show students and families exactly how AI is and is not used (no AI grades student writing).",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "repo", "ref": "08_DISTRICT_REFERENCE/District-AI-Disclosure-Correction-Notice.md"},
+        {"kind": "webapp", "ref": "app/ai-disclosure/page.tsx"},
+        {"kind": "webapp", "ref": "docs/compliance/content-governance-policy.md"},
+        {"kind": "external", "ref": "TDOE Teen Social Media & Internet Safety Guidance (2025); TN Public Chapter 808 (2026)"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A4-WEBSITE",
+      "group": "Area of Focus 4 — Training and Support",
+      "source": "WCS Technology Use Guidance — Area 4 (district technology website maintained)",
+      "requirement": "A maintained website shares guidance, resources, and safeguards that support healthy technology use.",
+      "hh_response": "The district owns its website; History Hack contributes maintained, public web pages — the approach/technology-use ledger, trust center, and changelog — that document our guidance and safeguards and are kept current by the quarterly Administrative Review.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "webapp", "ref": "app/approach/page.tsx"},
+        {"kind": "webapp", "ref": "app/trust/page.tsx"},
+        {"kind": "repo", "ref": "06_COMPLIANCE_INTERNAL/ADMINISTRATIVE_REVIEW.md"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "A4-FAMILY",
+      "group": "Area of Focus 4 — Training and Support",
+      "source": "WCS Technology Use Guidance — Area 4 (families use district resources; partner for balanced use)",
+      "requirement": "Families use district-provided resources to understand expectations and safeguards and partner with schools for balanced technology use.",
+      "hh_response": "Because the product is print-first, families can see and support the work on paper at home, and the public trust/approach pages let any family understand the safeguards without an account.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "webapp", "ref": "app/trust/page.tsx"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "APX-EXCEPT",
+      "group": "Appendix — Exceptions",
+      "source": "WCS Technology Use Guidance — Appendix (uninterrupted access for health/IEP/504/ILP/assistive tech)",
+      "requirement": "Exceptions ensure uninterrupted technology access for students who require it for health, an IEP/504/ILP, or disability-related assistive technology.",
+      "hh_response": "Supports are provided where necessary or needed and never block access: IEP/504 support profiles, the accommodations crosswalk, and WCAG 2.2 AA / assistive-technology interoperability documented in the VPAT/ACR ensure a student who needs the technology keeps it.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/FRAMEWORKS_CANON.md"},
+        {"kind": "webapp", "ref": "lib/feature-flags/iep504-support-profiles.ts"},
+        {"kind": "webapp", "ref": "lib/accommodations-crosswalk.ts"},
+        {"kind": "webapp", "ref": "docs/compliance/VPAT-2.5-ACR.md"}
+      ],
+      "status": "verified"
+    },
+
+    {
+      "id": "LAW-660",
+      "group": "TN Classroom Laws",
+      "source": "WCS Policy No. 660 — Syllabus & Religion; TN syllabus/religious-materials requirements",
+      "requirement": "A per-course syllabus is provided; instruction about religion is objective and constitutionally sound.",
+      "hh_response": "A per-unit course Syllabus Creator generates a print-ready syllabus with course description, unit-by-unit outline, an 'accessing instructional materials' notice, and an objective religion note. Content follows Policy 2.600 accuracy.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "webapp", "ref": "app/teacher-tools/syllabus/page.tsx"},
+        {"kind": "webapp", "ref": "lib/syllabus/course-outline.ts"},
+        {"kind": "webapp_route", "ref": "/teacher-tools/syllabus"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "LAW-939",
+      "group": "TN Classroom Laws",
+      "source": "WCS Policy No. 939 — American Founding Documents",
+      "requirement": "Founding documents (Declaration of Independence, U.S. Constitution, Bill of Rights) are taught.",
+      "hh_response": "The founding documents are core content, analyzed in depth — and elevated in the Celebrate Freedom Week program, which centers analysis of the Constitution and the Declaration and their lasting impact.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "repo", "ref": "03_TEXTBOOK_UNITS"},
+        {"kind": "webapp", "ref": "app/celebrate-freedom-week/page.tsx"},
+        {"kind": "webapp_route", "ref": "/celebrate-freedom-week"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "LAW-330",
+      "group": "TN Classroom Laws",
+      "source": "WCS Policy No. 330 — Civics Seal",
+      "requirement": "Support the pathway to the Tennessee Civics Seal / civic-readiness recognition.",
+      "hh_response": "Full US.01-US.95 standards coverage and civic-content emphasis (founding documents, government, Celebrate Freedom Week) support a school's Civics Seal pathway; the syllabus surfaces the civics-test requirement to students and families.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "repo", "ref": "05_STANDARDS_ALIGNMENT"},
+        {"kind": "webapp", "ref": "app/teacher-tools/syllabus/page.tsx"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "LAW-442",
+      "group": "TN Classroom Laws",
+      "source": "WCS Policy No. 442 — U.S. Civics Test requirement",
+      "requirement": "Students take/prepare for the U.S. Civics Test as required.",
+      "hh_response": "The generated syllabus carries an explicit Civics-test note so the requirement is communicated, and the item bank + civics content prepare students for it.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "webapp", "ref": "app/teacher-tools/syllabus/page.tsx"},
+        {"kind": "webapp", "ref": "lib/syllabus/course-outline.ts"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "LAW-279",
+      "group": "TN Classroom Laws",
+      "source": "WCS Policy No. 279 — Celebrate Freedom Week (TN law; observed Sept 14-18)",
+      "requirement": "Celebrate Freedom Week is observed with instruction on the founding documents and their history.",
+      "hh_response": "A dedicated Celebrate Freedom Week program is built into the platform: a cross-curricular reenactment ('We the People: The Great Debate'), a week schedule, a step-by-step path, and academically-approved resources, aligned to the WCS Celebrating America arc.",
+      "posture": "exceeds",
+      "evidence": [
+        {"kind": "webapp", "ref": "app/celebrate-freedom-week/page.tsx"},
+        {"kind": "webapp_route", "ref": "/celebrate-freedom-week"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "LAW-VOTER",
+      "group": "TN Classroom Laws",
+      "source": "TCA 2-2-111 — Student voter-registration opportunity",
+      "requirement": "Eligible students are given the opportunity to register to vote.",
+      "hh_response": "The civics content and syllabus surface civic participation; the voter-registration opportunity is a school-administered event that the course's civics emphasis supports. (Vendor contribution — the school administers the drive.)",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "repo", "ref": "03_TEXTBOOK_UNITS"},
+        {"kind": "external", "ref": "TCA 2-2-111"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "LAW-493",
+      "group": "TN Classroom Laws",
+      "source": "WCS Policy No. 493 — Prohibited Concepts in instruction",
+      "requirement": "Instruction does not include the statutorily prohibited concepts.",
+      "hh_response": "Content is fact-based and standards-aligned under Policy 2.600, reviewed by the historian fact-check and Schedule F adoption gates; the prohibited-concepts constraint is part of the content-governance and adoption review.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/ADOPTION_STANDARD.md"},
+        {"kind": "webapp", "ref": "docs/compliance/content-governance-policy.md"},
+        {"kind": "external", "ref": "WCS Policy No. 493; TN prohibited-concepts statute"}
+      ],
+      "status": "verified"
+    },
+
+    {
+      "id": "WCS-4406",
+      "group": "WCS Board Policies & SOPs",
+      "source": "WCS Board Policy No. 4.406 — Use of the Internet",
+      "requirement": "Internet use is safe, filtered, and instructionally purposed.",
+      "hh_response": "The closed-loop, self-hosted, no-link-out design means History Hack presents no open-internet surface to students — the strongest posture against the risks Policy 4.406 governs.",
+      "posture": "exceeds",
+      "evidence": [
+        {"kind": "doctrine", "ref": "CLAUDE.md"},
+        {"kind": "webapp", "ref": "lib/compliance/sourcing.ts"},
+        {"kind": "webapp", "ref": "app/trust/page.tsx"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "WCS-4215",
+      "group": "WCS Board Policies & SOPs",
+      "source": "WCS Board Policy No. 4.215 — Use of Artificial Intelligence Programs",
+      "requirement": "AI programs are used consistent with board policy and disclosed.",
+      "hh_response": "A published AI-disclosure page states exactly where AI is and is not used, and a product guarantee ensures no AI grades student writing. Content-governance policy documents the guardrails.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "webapp", "ref": "app/ai-disclosure/page.tsx"},
+        {"kind": "webapp", "ref": "docs/compliance/content-governance-policy.md"},
+        {"kind": "repo", "ref": "08_DISTRICT_REFERENCE/District-AI-Disclosure-Correction-Notice.md"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "WCS-4201",
+      "group": "WCS Board Policies & SOPs",
+      "source": "WCS Standard Operating Procedure No. 4.201 — Use of Artificial Intelligence",
+      "requirement": "AI operational use follows the district SOP.",
+      "hh_response": "The AI-disclosure and content-governance artifacts document operational AI use consistent with the SOP; the correction-notice record shows we actively keep AI disclosures accurate.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "webapp", "ref": "app/ai-disclosure/page.tsx"},
+        {"kind": "repo", "ref": "08_DISTRICT_REFERENCE/District-AI-Disclosure-Correction-Notice.md"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "WCS-4209",
+      "group": "WCS Board Policies & SOPs",
+      "source": "WCS Standard Operating Procedure No. 4.209 — Chromebook repair, distribution, and collection",
+      "requirement": "Instructional materials work within the district's managed-device (Chromebook) program.",
+      "hh_response": "History Hack runs in the browser (Chromebook-first) and is print-first, so instruction continues on paper if a device is out for repair — no student is blocked by device logistics.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/PRODUCT_MODEL_DOCTRINE.md"},
+        {"kind": "external", "ref": "WCS SOP 4.209"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "WCS-4401",
+      "group": "WCS Board Policies & SOPs",
+      "source": "WCS Board Policy No. 4.401 — Textbooks and Instructional Materials",
+      "requirement": "Instructional materials meet the district's adoption and review standards.",
+      "hh_response": "History Hack is built to the TDOE Schedule F / adoption bar with a full compliance package (Schedule F self-score, standards alignment, administrative review). The 'accessing instructional materials' notice in the syllabus meets the transparency expectation.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "repo", "ref": "06_COMPLIANCE_INTERNAL/schedule-f-completed.html"},
+        {"kind": "repo", "ref": "06_COMPLIANCE_INTERNAL/compliance.html"},
+        {"kind": "webapp", "ref": "app/teacher-tools/syllabus/page.tsx"}
+      ],
+      "status": "verified"
+    },
+
+    {
+      "id": "TN-AI-SB0514",
+      "group": "TN Statutes & State Guidance",
+      "source": "TN General Assembly SB0514 / HB0531 (2025) — amend Title 49 relative to AI; TN Public Chapter 808 (2026)",
+      "requirement": "AI use in instruction conforms to Tennessee AI law.",
+      "hh_response": "The published AI-disclosure and content-governance posture (transparent, no AI grading of student writing, first-party) conforms to the transparency and safeguard expectations of the TN AI statutes.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "repo", "ref": "08_DISTRICT_REFERENCE/District-AI-Disclosure-Correction-Notice.md"},
+        {"kind": "webapp", "ref": "app/ai-disclosure/page.tsx"},
+        {"kind": "webapp", "ref": "docs/compliance/content-governance-policy.md"},
+        {"kind": "external", "ref": "TN SB0514/HB0531 (2025); TN Public Chapter 808 (2026)"}
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "TN-AGE-APPROP",
+      "group": "TN Statutes & State Guidance",
+      "source": "TN Age-Appropriate Materials Act (Public Chapter 744 of 2022)",
+      "requirement": "Instructional materials are age-appropriate and reviewable.",
+      "hh_response": "A dedicated Age-Appropriate Materials Act compliance record documents the review; content is fact-based and standards-aligned for grades 9-12.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "webapp", "ref": "docs/compliance/tn-age-appropriate-materials-act-compliance.md"},
+        {"kind": "doctrine", "ref": "00_START_HERE/ADOPTION_STANDARD.md"}
+      ],
+      "status": "verified"
+    },
+
+    {
+      "id": "FED-ACCESS",
+      "group": "Federal — Accessibility",
+      "source": "ADA Title II (DOJ 2024, WCAG 2.2 AA); Section 508; References: CRS rights under IDEA/504/ADA",
+      "requirement": "Digital materials meet accessibility law (WCAG 2.2 AA, Section 508, ADA Title II).",
+      "hh_response": "A published VPAT/ACR documents WCAG 2.2 AA conformance, with an accessibility QC gate and assistive-technology testing record; UDL 3.0 is the design spine.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "repo", "ref": ".claude/skills/accessibility-qc-agent/SKILL.md"},
+        {"kind": "webapp", "ref": "docs/compliance/VPAT-2.5-ACR.md"},
+        {"kind": "webapp", "ref": "docs/compliance/assistive-technology-testing-report.md"},
+        {"kind": "external", "ref": "ADA Title II (DOJ, April 2024); Section 508; WCAG 2.2 AA"}
+      ],
+      "status": "verified"
+    },
+
+    {
+      "id": "RES-EFFECTSIZE",
+      "group": "Research Frameworks Cited",
+      "source": "References: Hattie Visible Learning MetaX; Marano et al. (2025); Haidt (2024); AAP; Office of Ed Tech NETP (2024)",
+      "requirement": "Instructional-technology decisions are grounded in the cited research base.",
+      "hh_response": "The frameworks canon names the research spine explicitly (UDL 3.0, CER, HIPPO, Future-Ready) and the Educational-Impact Gate cites Hattie for effect sizes; effect sizes and citations are canonical, never fabricated.",
+      "posture": "exceeds",
+      "evidence": [
+        {"kind": "doctrine", "ref": "00_START_HERE/FRAMEWORKS_CANON.md"},
+        {"kind": "external", "ref": "Hattie Visible Learning MetaX; Marano et al. (2025); Haidt (2024); U.S. Office of Ed Tech, NETP (2024)"}
+      ],
+      "status": "verified"
+    },
+
+    {
+      "id": "GO-TOOLKIT",
+      "group": "Graphic Organizers (workbook examples)",
+      "source": "District-supplied workbook graphic-organizer examples (Cornell-style supports and organizers)",
+      "requirement": "The workbook's graphic organizers meet or exceed the supplied example quality.",
+      "hh_response": "A reproducible graphic-organizer toolkit is an owned skill in the canonical set, carrying the Cornell supports reproducibles; organizers are part of the print-first workbook spine.",
+      "posture": "meets",
+      "evidence": [
+        {"kind": "repo", "ref": ".claude/skills/history-hack-graphic-organizer-workbook/SKILL.md"},
+        {"kind": "repo", "ref": "01_STUDENT_PACKETS"}
+      ],
+      "status": "verified"
+    }
+  ]
+}
