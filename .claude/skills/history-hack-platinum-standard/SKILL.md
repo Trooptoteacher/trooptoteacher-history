@@ -39,6 +39,13 @@ one-off. A skill, template, or engine is Platinum only if it is —
 - **Repeatable & self-checking** — ships with its QC gate so quality is enforced the same way every time.
 - **Extensible** — a new course (Government, Economics, World History, …) plugs in without a rewrite.
 
+**Course wall (load with this standard).** The platform is **one shared skillset building many walled
+courses.** Before any build, resolve and **declare the course**, then read standards/content only from that
+course and write only under it — per the **Course-Binding Standard** (owner: `history-hack-new-course-builder`,
+`references/course-binding-and-walls.md`; registry of all 7 editions + walls W1–W7). The **`us-history`
+flagship is the protected default** — non-US builds never read from or write to it, and US builds resolve to
+it exactly as before. Same machinery, different standard — never crossed.
+
 If a proposed build would only work for the unit in front of you, it is not yet Platinum — generalize it.
 
 ## The mission (why this exists)

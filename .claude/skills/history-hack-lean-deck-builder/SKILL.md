@@ -16,7 +16,11 @@ Builds the **lean, student-facing** companion to the full History Hack lecture d
 
 **Course-parameterized.** Resolve the course config from `courses/<course-id>/course.json` and derive the deck
 title, **footer**, standard codes, and check-slide source/label from it — **never hardcode** "U.S. History"
-or "TCAP EOC." Default to the **U.S. History flagship** when no course is named. Same contract as the sibling
+or "TCAP EOC." Default to the **U.S. History flagship** when no course is named.
+
+> **Course wall (binding).** Resolve + declare the course and honor walls W1–W7 per the **Course-Binding
+> Standard** — `history-hack-new-course-builder/references/course-binding-and-walls.md`. Read only this
+> course's standards/content; the `us-history` flagship is the protected default. Same contract as the sibling
 `history-hack-tcap-deck-builder`: keys `id`/`displayName`, `standardsPrefix`/`standardsFile`,
 `assessmentSource`, and `eocTestable`. For **non-EOC courses (`eocTestable: false`)** the footer reads
 `{displayName} · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards` (no "TCAP EOC"), the

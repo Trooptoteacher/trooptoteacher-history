@@ -12,6 +12,11 @@ Build a new course to the same platinum bar as U.S. History. **Match feature-for
 guardrail-for-guardrail.** Source of truth only — never invent standards, citations, or sources.
 
 ## STEP 0 — Ground yourself every run
+0. **Resolve + declare the course, then honor the walls.** This skill OWNS the **Course-Binding Standard**:
+   `references/course-binding-and-walls.md` (the 7-course registry, the `course.json` config contract, and the
+   hard walls W1–W7). Before anything else, resolve the course id and state it; read standards/content ONLY from
+   that course's `standardsFile`/`contentRoots`; emit ONLY its `standardsPrefix` codes; never touch another
+   course or the protected `us-history` flagship. Every shared build skill consumes this same wall.
 1. Read repo memory/guardrails (`CLAUDE.md` if present) and `00_START_HERE/playbook.html`.
 2. Locate the flagship data contracts to mirror: the standards source JSON, a unit `*_content.json`,
    the canonical primary-source bank (`public/data/<subject>/primary-sources/…`), and the question

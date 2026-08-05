@@ -36,6 +36,11 @@ This engine is **course-parameterized**. Before building, resolve the course con
 and assessment source from it — **never hardcode** "U.S. History," "US.01–US.95," or "TCAP EOC."
 When no course is named, default to the **U.S. History flagship** (backward-compatible).
 
+> **Course wall (binding).** Resolve + declare the course and honor walls W1–W7 per the **Course-Binding
+> Standard** — `history-hack-new-course-builder/references/course-binding-and-walls.md` (registry + contract).
+> Read standards/content only from this course's `standardsFile`/`contentRoots`; emit only its prefix; never
+> touch the protected `us-history` flagship on a non-US build.
+
 | Config key | Meaning | US flagship (default) | World History |
 |---|---|---|---|
 | `id` / `displayName` | course id + title on covers/footers | `us-history` / "U.S. History" | `world-history` / "World History & Geography" |
