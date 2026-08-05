@@ -1,0 +1,28 @@
+{
+  "id": "grade-6-history",
+  "displayName": "6th Grade History",
+  "standardsPrefix": "TBD",
+  "rcPrefix": "TBD",
+  "status": "planned — standards ingest pending",
+  "contentReady": false,
+  "inherits": [
+    "../HistoryHack_Platinum/guardrails/SOCIAL_STUDIES_CORE_GUARDRAILS.md",
+    "../HistoryHack_Platinum/guardrails/COURSE_PRODUCTION_WORKFLOW.md"
+  ],
+  "reference": "../HistoryHack_Platinum",
+  "standardsFile": null,
+  "contentRoots": [
+    "courses/grade-6-history/",
+    "history-hack-web-app/public/data/grade-6-history/"
+  ],
+  "assessmentSource": null,
+  "eocTestable": false,
+  "wall": {
+    "binding_standard": ".claude/skills/history-hack-new-course-builder/references/course-binding-and-walls.md",
+    "note": "Planned edition. Standards prefix + standardsFile TBD at intake. Non-EOC benchmark course. Same shared skillset, walled to this course."
+  },
+  "pacing_anchor": {
+    "district": "WCS",
+    "calendar": "../HistoryHack_Platinum/guardrails/wcs_calendar_2026-27.json"
+  }
+}

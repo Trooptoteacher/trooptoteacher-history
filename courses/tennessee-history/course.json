@@ -19,5 +19,16 @@
     "district": "WCS",
     "calendar": "../HistoryHack_Platinum/guardrails/wcs_calendar_2026-27.json",
     "note": "Pace all units to the WCS 2026-27 semester/quarter boundaries (177 instructional days). Not a generic 180-day calendar."
+  },
+  "standardsFile": "courses/tennessee-history/standards/tennessee-history-standards.json",
+  "contentRoots": [
+    "courses/tennessee-history/",
+    "history-hack-web-app/public/data/tennessee-history/"
+  ],
+  "assessmentSource": "history-hack-web-app/public/data/tennessee-history/questions/ (tn-assessment-specialist schema). Status: pending.",
+  "eocTestable": false,
+  "wall": {
+    "binding_standard": ".claude/skills/history-hack-new-course-builder/references/course-binding-and-walls.md",
+    "note": "Non-EOC benchmark course. Read/write only under contentRoots; emit only TN.xx codes."
   }
 }

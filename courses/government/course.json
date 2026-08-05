@@ -23,13 +23,24 @@
   "canonical_standards": "standards/government-standards.json (verbatim TDOE; supersedes 05_STANDARDS_ALIGNMENT/government_standards_source.json for text)",
   "migrated_from": "claude/history-hack-course-rebuild-jko587:courses/foundations-constitutional-government",
   "audit": {
-    "verdict": "needs-work\u2192fixed",
-    "blocker": "\u00a72 geography (GC.01/GC.18) \u2014 fixed",
-    "material": "\u00a74 GC.30 clause \u2014 fixed",
+    "verdict": "needs-work→fixed",
+    "blocker": "§2 geography (GC.01/GC.18) — fixed",
+    "material": "§4 GC.30 clause — fixed",
     "advisory": [
       "26 Wikimedia sources prefer_original (upgrade to LoC/NARA)",
       "~17 minor verbatim typographic normalizations pending",
       "Unit7 student graphic-organizers PDF + deliverables-index Toolkit row pending"
     ]
+  },
+  "standardsFile": "courses/government/standards/government-standards.json",
+  "contentRoots": [
+    "courses/government/",
+    "history-hack-web-app/public/data/government/"
+  ],
+  "assessmentSource": "history-hack-web-app/public/data/government/questions/ (tn-assessment-specialist schema). Status: pending.",
+  "eocTestable": false,
+  "wall": {
+    "binding_standard": ".claude/skills/history-hack-new-course-builder/references/course-binding-and-walls.md",
+    "note": "Non-EOC benchmark course. Read/write only under contentRoots; emit only GC.xx codes."
   }
 }

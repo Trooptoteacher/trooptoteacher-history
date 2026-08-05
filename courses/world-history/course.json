@@ -19,5 +19,16 @@
     "district": "WCS",
     "calendar": "../HistoryHack_Platinum/guardrails/wcs_calendar_2026-27.json",
     "note": "Pace all units to the WCS 2026-27 semester/quarter boundaries (177 instructional days). Not a generic 180-day calendar."
+  },
+  "standardsFile": "courses/world-history/standards/world-history-standards.json",
+  "contentRoots": [
+    "courses/world-history/",
+    "history-hack-web-app/public/data/world-history/"
+  ],
+  "assessmentSource": "history-hack-web-app/public/data/world-history/questions/ (tn-assessment-specialist schema; per-item SSP primary+secondary; 8 x 100-item unit banks + equated parallel forms). Status: authored, pending repo commit.",
+  "eocTestable": false,
+  "wall": {
+    "binding_standard": ".claude/skills/history-hack-new-course-builder/references/course-binding-and-walls.md",
+    "note": "Non-EOC benchmark course. Identical rigor + all four adoption gates; no TCAP-EOC labels/weighting. Read/write only under contentRoots; emit only W.xx codes."
   }
 }
