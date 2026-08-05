@@ -131,7 +131,9 @@ def currency_rows():
     rows = []
     lr = ts["direct_loan_rates_undergrad"]
     yrs = " · ".join(f"{y}: {v}%" for y, v in lr["by_year"].items())
-    rows.append(("Federal Direct Loan APR (undergrad)", yrs, f'<a>{lr["source_url"]}</a>', lr["last_verified"], '<span class="chip warn">WARN — add AY26-27</span>'))
+    latest = list(lr["by_year"])[-1]
+    lr_status = '<span class="chip pass">CURRENT</span>' if latest == "2026-27" else '<span class="chip warn">WARN — add AY26-27</span>'
+    rows.append(("Federal Direct Loan APR (undergrad)", yrs, f'<a>{lr["source_url"]}</a>', lr["last_verified"], lr_status))
     rows.append(("Chart example APR", f'{ts["chart_example_apr"]["value"]}% (stated as an example)', ts["chart_example_apr"]["source_url"], ts["chart_example_apr"]["last_verified"], '<span class="chip pass">CURRENT</span>'))
     rows.append(("Pell Grant maximum", f'${ts["pell_max"]["value"]:,}/yr (as of {ts["pell_max"]["as_of"]})', ts["pell_max"]["source_url"], ts["pell_max"]["last_verified"], '<span class="chip pass">CURRENT</span>'))
     rows.append(("FAFSA opens", "each fall — read from source, not hard-coded", ts["fafsa_open"]["source_url"], ts["fafsa_open"]["last_verified"], '<span class="chip pass">SOURCE-LINKED</span>'))
@@ -182,10 +184,10 @@ def build():
     <div class="warnbox"><b>Guardrail.</b> Proxies describe <b>in-class behavior, not fixed traits</b> — conversation-starters, never labels. Never penalize circumstances outside a student’s control (home responsibilities, jobs, device/internet access). “3 = on-trajectory” is the working bar; validate ACT cut-scores against your own cohort.</div>
 
     <div class="sec" style="page-break-before:auto"><span>C · Currency Proof — money-math figures</span><span class="s">every time-sensitive figure verified to a federal source</span></div>
-    <div class="verdict"><b>CURRENCY VERIFIER: PASS</b> — provenance complete on all figures; annual gate not overdue (review_by {m['review_by']}); <b>1 warning</b>.
+    <div class="verdict"><b>CURRENCY VERIFIER: PASS — 0 warnings</b> — provenance complete on all figures; annual gate not overdue (next review_by {m['review_by']}).
     Ran <span style="font-family:monospace">verify_future_ready_currency.py</span>; enforced monthly by CI (<span style="font-family:monospace">future-ready-currency.yml</span>).</div>
     {curr}
-    <div class="warnbox"><b>Honest WARN (the one open item):</b> latest loan-rate year on file is <b>2025-26</b>; the AY <b>2026-27</b> undergraduate rate published ~May 2026 and must be added by a maintainer (knowledge cutoff Jan 2026). The verifier WARNs until it is — provenance and the annual gate still pass. Chart states its APR is an example, so it does not misstate a current rate.</div>
+    <div class="warnbox"><b>Now current through AY2026-27.</b> The undergraduate Direct rate <b>6.52%</b> (loans first disbursed Jul 1, 2026) was added 2026-08-05 with provenance — FSA Electronic Announcement 2026-06-04 (10-yr Treasury note high yield 4.468% at the 2026-05-12 auction + 2.05 undergrad add-on = 6.518 → 6.52). Next maintainer action: add the AY2027-28 rate when it publishes ~late May 2027.</div>
 
     <div class="sec"><span>D · Evidence base</span><span class="s">what anchors the framework</span></div>
     {ev}

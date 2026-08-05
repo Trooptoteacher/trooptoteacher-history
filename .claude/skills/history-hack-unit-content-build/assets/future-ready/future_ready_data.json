@@ -5,7 +5,7 @@
     "review_trigger": "Federal Direct Loan rates for the new academic year publish each year in late May (fsapartners.ed.gov, effective for loans first disbursed July 1). Re-verify EVERY figure below against its source_url, bump last_verified + last_reviewed, and move review_by forward one year.",
     "last_reviewed": "2026-08-05",
     "review_by": "2027-08-01",
-    "maintainer_note": "Rates current through AY2025-26 (latest verifiable at build; knowledge cutoff Jan 2026). The AY2026-27 undergraduate rate published ~May 2026 and MUST be added by a maintainer — the currency verifier will WARN until it is.",
+    "maintainer_note": "Rates current through AY2026-27 (undergraduate 6.52%, added 2026-08-05 from FSA Electronic Announcement 2026-06-04; see direct_loan_rates_undergrad.by_year_provenance). Next: the AY2027-28 undergraduate rate publishes ~late May 2027 — add it then and move review_by forward.",
     "verified_against": ["U.S. Dept. of Education / Federal Student Aid", "U.S. Dept. of Veterans Affairs", "National Archives", "U.S. House History, Art & Archives"]
   },
 
@@ -20,8 +20,10 @@
         "2022-23": 4.99,
         "2023-24": 5.50,
         "2024-25": 6.53,
-        "2025-26": 6.39
+        "2025-26": 6.39,
+        "2026-27": 6.52
       },
+      "by_year_provenance": "AY2026-27 = 6.52% per FSA Electronic Announcement 2026-06-04 (10-yr Treasury note high yield 4.468% at the 2026-05-12 auction + 2.05 undergraduate add-on = 6.518, rounded to 6.52). https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-06-04/interest-rates-federal-direct-loans-first-disbursed-between-july-1-2026-and-june-30-2027",
       "last_verified": "2026-08-05"
     },
     "chart_example_apr": {
