@@ -27,6 +27,11 @@ and derive **every** deck title, footer, standard code, "I Can" spine, and check
 **never hardcode** "U.S. History," "US.01–US.95," or "TCAP EOC." When no course is named, default to the
 **U.S. History flagship**.
 
+> **Course wall (binding).** Resolve + declare the course and honor walls W1–W7 per the **Course-Binding
+> Standard** — `history-hack-new-course-builder/references/course-binding-and-walls.md`. Read standards/content
+> only from this course; emit only its prefix; the `us-history` flagship is the protected default (a non-US
+> deck never reads from or writes to it).
+
 | Config key | US flagship (default) | World History |
 |---|---|---|
 | `id` / `displayName` (titles, footers) | `us-history` / "U.S. History Hack" | `world-history` / "World History Hack" |
