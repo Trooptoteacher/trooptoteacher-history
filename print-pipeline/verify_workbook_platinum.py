@@ -48,6 +48,16 @@ def check(path):
 
     front = texts(data.get("front", []))
     back = texts(data.get("back", []))
+    # LOCKED cover gate
+    cover = next((b for b in data.get("front", []) if b.get("type") == "cover"), None)
+    if not cover:
+        fails.append("COVER: missing cover page (must be the first front block)")
+    else:
+        for key, label in [("image", "cover image"), ("standards", "standards-covered list"),
+                           ("summary", "unit summary"), ("tn", "Tennessee Connection"),
+                           ("expect", "what students/families can expect"), ("copyright", "copyright/ownership")]:
+            if not cover.get(key):
+                fails.append(f"COVER: missing {label}")
     if "My SMART Goals" not in front:
         fails.append("FRONT MATTER: missing 'My SMART Goals' page")
     # v1.2 LOCKED gates (unit-content-build v1.2)

@@ -64,6 +64,31 @@ Re-read from `main` each build (this list is a convenience copy, not the source 
 - [ ] **Accessibility / Rubric F:** delivered PDF is a **tagged PDF/UA** export; `accessibility-qc-agent` terminal gate
 - [ ] **Course-parameterized:** resolve `courses/<id>/course.json`; never hardcode US.01–US.95 / TCAP EOC on a non-US build
 
+## Root-cause: the two failures this protocol prevents (documented so they don't recur)
+
+**1. DBQ shipped image-only (no text excerpts).** The Unit 1 DBQ was authored from the *deck's image
+set* via a bespoke `gen_dbq.py` instead of pulling the canonical `history-hack-dbq-workbook` skill and
+its document model. That skill's LOCKED rule: **text documents get HIPPO, visual-primary documents get
+OPTIC — a DBQ must have BOTH.** Building from memory produced OPTIC images with no HIPPO text.
+→ *Prevention:* the DBQ preflight below + `verify_dbq.py` fail any DBQ that lacks text documents.
+
+**2. The excerpt corpus file was missing.** `build_workbook_template.py` loads
+`assets/unit-1-sources.json` (`sources = json.load(...)`), but that file is **absent from the repo**
+(branch, main, and history) — the canonical builder crashes on it. The verbatim excerpts survived only
+in the template's inline `FULLER` dict + the built 167-page book.
+→ *Prevention:* the DBQ preflight verifies every asset the skill *references* actually exists before
+building (a referenced-but-missing file is a BLOCKER), and the corpus is reconstructed + committed.
+
+## DBQ build preflight (in addition to the five steps)
+
+- [ ] Pulled `history-hack-dbq-workbook` SKILL.md **from `main`**; read its LOCKED gates + `references/`.
+- [ ] **Every asset the skill references exists** — especially `assets/unit-<N>-sources.json`. A
+      referenced-but-missing file is a BLOCKER; reconstruct + commit it before building.
+- [ ] Document set has **BOTH** text documents (HIPPO) **and** visual-primary documents (OPTIC) — never
+      image-only. Text = statute/opinion/letter/speech excerpt; visual = cartoon/photo/poster/map.
+- [ ] Every excerpt is **verbatim public-domain** with honest provenance (author · title · date · repository).
+- [ ] Ran `python3 print-pipeline/verify_dbq.py <dbq.json-or-manifest>` — exit 0.
+
 > Format note: the user's directive on this project is **print-first via the WeasyPrint print-pipeline
 > (no `.docx`)**. The skill's own text still says "DOCX-native"; when they conflict, the user's no-docx
 > directive wins for delivery, but **every LOCKED content gate above still applies**. Flag the conflict

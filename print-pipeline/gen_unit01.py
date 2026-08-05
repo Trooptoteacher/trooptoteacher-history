@@ -278,6 +278,41 @@ def udl_back_page():
     ]
 
 
+def _img_uri(rel):
+    import base64
+    p = SK / "history-hack-tcap-deck-builder/assets/unit1-example" / rel
+    return "data:image/jpeg;base64," + base64.b64encode(p.read_bytes()).decode()
+
+
+def cover():
+    # LOCKED cover: image · unit + standards · summary · Tennessee Connection (highlighted) ·
+    # what students/families can expect · copyright/ownership.
+    stds = [f"<strong>{c}</strong> — {BUILD[c]['title']}" for c in ORDER]
+    return [{
+        "type": "cover",
+        "title": "Unit 1 — The Rise of Industrialization, 1877–1900",
+        "subtitle": "Student Workbook · Course Standard Edition · Grade 11 U.S. History",
+        "image": _img_uri("img/transcontinental-railroad-ceremony.jpg"),
+        "standards": stds,
+        "summary": ("In this unit students investigate how railroads, federal land policy, industry, "
+                    "and immigration transformed the United States after Reconstruction — and weigh who "
+                    "benefited and who bore the cost. They read and source primary documents, take guided "
+                    "Cornell notes, build vocabulary, and argue from evidence (CER)."),
+        "tn": ("Pap Singleton of Nashville led the <strong>Exodusters</strong> west as Reconstruction "
+               "collapsed, and <strong>George Jordan</strong> of Williamson County — a Buffalo Soldier — "
+               "earned the Medal of Honor on the frontier this unit opens. Tennessee is in the story, not a footnote."),
+        "expect": ("Over this unit your student will learn to explain westward expansion and its costs, "
+                   "analyze real primary sources (photographs, cartoons, statutes), write evidence-based "
+                   "arguments, and set and track a SMART goal. Every activity has notebook-lined space to "
+                   "write, EN/ES vocabulary support, and clearly marked Entry / On-Level / Extension paths."),
+        "copyright": ("U.S. History Hack&trade; · Unit 1 (Course Standard Edition). "
+                      "&copy; 2026 TroopToTeacher Technologies LLC. All rights reserved. "
+                      "Author/producer: TroopToTeacher Technologies LLC. Single-classroom reproduction license. "
+                      "ISBN [to be assigned]. Aligned to Tennessee Academic Standards (US.01–US.07) &amp; TCAP EOC. "
+                      "Cover image: <em>Golden Spike Ceremony at Promontory, Utah</em> (A. J. Russell, 1869) — National Archives, public domain."),
+    }]
+
+
 def front_matter():
     legend = ("<strong>Lenses/Dimensions pills:</strong> C Culture · E Economics · G Geography · H History · "
               "P Politics/Government · T Tennessee · TCA Tennessee Code Annotated. "
@@ -319,7 +354,7 @@ def main():
         "edition": "Course Standard Edition",
         "runhead": "U.S. History Hack™ · Unit 1 · Course Standard Edition",
         "runfoot": "U.S. History Hack™ · Unit 1 (Course Standard)   ·   © 2026 TroopToTeacher Technologies LLC",
-        "front": front_matter() + adoption_crosswalk(),
+        "front": cover() + front_matter() + adoption_crosswalk(),
         "standards": [gen_standard(c) for c in ORDER],
         "back": udl_back_page(),
     }
