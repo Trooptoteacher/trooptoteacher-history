@@ -40,14 +40,15 @@ IMGS.forEach(im => (im.standardIds||[]).forEach(sid => {
 const imgById = id => IMGS.find(i => i.id === id);
 
 // ---------- BRAND SYSTEM ----------
-const NAVY   = '1A2332';
-const NAVY2  = '243047';
+// America 250 palette (LOCKED — migrated Aug 2026; matches STUDENT_WORKBOOK_PLATINUM_STANDARD.md §3)
+const NAVY   = '1F3A5F';   // Heritage Blue (was 1A2332)
+const NAVY2  = '2C3E63';
 const A250BLUE = '002858';
-const RED    = 'C62828';
+const RED    = 'B22234';   // Patriot Red (was C62828)
 const A250RED = 'C8102E';
-const GOLD   = 'C9A84C';
-const GOLDBR = 'F9A825';
-const CREAM  = 'F7F4EC';
+const GOLD   = 'C9A227';   // Muted Gold (was C9A84C)
+const GOLDBR = 'F9A825';   // Phoenix Gold accent (broader America 250 token)
+const CREAM  = 'F8F5EF';   // Founders Cream (was F7F4EC)
 const WHITE  = 'FFFFFF';
 const INK    = '1F2430';
 const MUTE   = '5C6470';
