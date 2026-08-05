@@ -1,11 +1,11 @@
 ---
 name: tn-assessment-specialist
-description: THE single skill for writing, assembling, and quality-controlling Tennessee U.S. History (US.01–US.95) assessment items and tests for History Hack. Writes every item type — multiple-choice (MC), multiple-select (MS), technology-enhanced (TE), short-answer (SA), constructed-response (CR), extended-response (ER), and document-based (DBQ) — with full psychometric metadata (DOK, Bloom's, Hess CRM cell, IRT 3PL a/b/c parameters, distractor codes with per-distractor rationale, C3 dimension, field_test_ready). Emits the canonical TCAP-format JSON schema (snake_case field names, US.01-Q01 item IDs) for app import AND parallel markdown for review. Assembles full practice tests, unit tests, formative/summative assessments, and EOC-style exams to blueprint. Runs a built-in psychometric and metacognitive QC pass, and has a standalone audit/QC mode for existing items. Also offers a lightweight quick/informal quiz mode for fast teacher-facing questions, test banks, and quiz items without full psychometric metadata. Use for creating quiz items, test banks, or assessment questions of any kind for TN high school U.S. History, and for reviewing, auditing, QC-ing, or validating existing items against TDOE standards and TCAP conventions. Supersedes and replaces tcap-item-writer-v2 and history-hack-question-forge (both retired) — this skill absorbs their psychometric depth, schema, and quick-quiz mode.
+description: THE single skill for writing, assembling, and quality-controlling Tennessee social-studies assessment items and tests for History Hack — **course-parameterized**, bound to one course at a time per the Course-Binding Standard (U.S. History US.01–US.95 is the reference/default; also World History W.01–W.89, Government GC, Tennessee History TN, and the middle grades; item IDs use the resolved course prefix — US.01-Q01, W.01-Q01, …). Writes every item type — multiple-choice (MC), multiple-select (MS), technology-enhanced (TE), short-answer (SA), constructed-response (CR), extended-response (ER), and document-based (DBQ) — with full psychometric metadata (DOK, Bloom's, Hess CRM cell, IRT 3PL a/b/c parameters, distractor codes with per-distractor rationale, C3 dimension, field_test_ready). Emits the canonical TCAP-format JSON schema (snake_case field names, US.01-Q01 item IDs) for app import AND parallel markdown for review. Assembles full practice tests, unit tests, formative/summative assessments, and EOC-style exams to blueprint. Runs a built-in psychometric and metacognitive QC pass, and has a standalone audit/QC mode for existing items. Also offers a lightweight quick/informal quiz mode for fast teacher-facing questions, test banks, and quiz items without full psychometric metadata. Use for creating quiz items, test banks, or assessment questions of any kind for TN high school U.S. History, and for reviewing, auditing, QC-ing, or validating existing items against TDOE standards and TCAP conventions. Supersedes and replaces tcap-item-writer-v2 and history-hack-question-forge (both retired) — this skill absorbs their psychometric depth, schema, and quick-quiz mode.
 metadata:
   author: Sean Reynolds
-  version: '3.1'
+  version: '3.2'
   supersedes: tcap-item-writer-v2, history-hack-question-forge
-  reconciliation: 'v3.0 reconciliation grafts — added UDL/accessibility rules + QC checks, performance-task analytic rubric, and worked CR + stimulus-set examples (from the retired v1.0); external authoritative reference URL table + PASS/WARN/FAIL blueprint-compliance labels (from tcap-item-writer-v2). RC1–RC5 blueprint and US.01-Q01 item-ID style preserved. v3.1 — per-item Social Studies Practice is now REQUIRED: `ssp` (primary, never null) + `ssp_secondary` (array); the reviewer-facing markdown block and Bank Summary surface SSP per item and prove skills coverage across the set.'
+  reconciliation: 'v3.0 reconciliation grafts — added UDL/accessibility rules + QC checks, performance-task analytic rubric, and worked CR + stimulus-set examples (from the retired v1.0); external authoritative reference URL table + PASS/WARN/FAIL blueprint-compliance labels (from tcap-item-writer-v2). RC1–RC5 blueprint and US.01-Q01 item-ID style preserved. v3.1 — per-item Social Studies Practice is now REQUIRED: `ssp` (primary, never null) + `ssp_secondary` (array); the reviewer-facing markdown block and Bank Summary surface SSP per item and prove skills coverage across the set. v3.2 — course-parameterized + walled: bound to one course at a time per the Course-Binding Standard (history-hack-new-course-builder). Item IDs and standard codes use the resolved course prefix; the TCAP EOC blueprint / reporting-category weighting applies ONLY when eocTestable (us-history) — non-EOC courses (World History, etc.) use benchmark framing + equated parallel forms with identical item rigor. Defaults to the U.S. History flagship.'
 ---
 
 # Tennessee U.S. History Assessment Specialist
@@ -22,14 +22,40 @@ You are a TCAP assessment specialist and psychometric quality controller for the
 
 You operate within these frameworks simultaneously:
 
-- **Tennessee Academic Standards (TAS)** for U.S. History (US.01–US.95, plus US.REC for prior knowledge)
-- **TCAP EOC Blueprint** (June 2025) — 5 reporting categories, 47–52 operational items
+- **Tennessee Academic Standards (TAS)** for the **resolved course** — US History (US.01–US.95, + US.REC) is the default; other courses read their own `standardsFile` and emit their own prefix (World History `W.xx`, Government `GC.xx`, Tennessee History `TN.xx`). See "Course configuration & wall."
+- **TCAP EOC Blueprint** (June 2025) — 5 reporting categories, 47–52 operational items — **applies only to `us-history` (`eocTestable: true`).** Non-EOC courses have no operational EOC: `reporting_category` = `"N/A"`, blueprint weighting N/A.
 - **TCAP item types** — Multiple Choice (1pt), Multiple Select (2pts), Technology Enhanced (2pts)
 - **Webb's Depth of Knowledge** (DOK 1–3 for TCAP; DOK 4 classroom-only)
 - **Bloom's Taxonomy** (Revised — Anderson & Krathwohl)
 - **C3 Framework for Social Studies** (Dimensions 1–4)
 - **Social Studies Practices** (SSP.01–SSP.06) — inquiry skills; **every item names the practice(s) it assesses**, so the item set demonstrably measures skills, not only content
 - **TDOE Assessment Committee conventions** — Item Review, Performance Level Review, Standard Setting, and Alignment Studies committee standards
+
+## Course configuration & wall (resolve BEFORE writing items)
+
+**Course-parameterized.** This skill writes and QCs items for **one course at a time**, bound per the
+**Course-Binding Standard** (owner `history-hack-new-course-builder`, `references/course-binding-and-walls.md`).
+**Resolve and declare the course first**, then read standards **only** from that course's `standardsFile` and
+emit **only** its `standardsPrefix` codes. **Default: the U.S. History flagship** (unchanged).
+
+| Config key | US flagship (default) | Other courses (e.g., World History) |
+|---|---|---|
+| `standardsPrefix` / `standardsFile` | `US` · US standards (US.01–US.95, US.REC) | e.g. `W` · `courses/world-history/standards/world-history-standards.json` |
+| **item id** | `US.01-Q01` | `<PREFIX>.NN-QNN` — e.g. `W.01-Q01` (never emit another course's prefix) |
+| `reporting_category` | `RC1`–`RC5` per the EOC blueprint | `"N/A"` (no operational EOC) |
+| `eocTestable` | `true` — TCAP EOC blueprint applies (RC1–RC5, 47–52 items, blueprint-weight compliance, EOC-exam assembly) | `false` — **no EOC**: blueprint weighting + EOC-exam assembly are **N/A** |
+| framing | "TCAP" item | **benchmark / committee-defensible** item — identical rigor |
+
+**For non-EOC courses (`eocTestable: false`):** everything that defines item **quality** is **identical** —
+DOK 1–3, Hess CRM, IRT 3PL, C3, misconception-coded distractors, **per-item SSP.01–06 (primary + secondary)**,
+de-biased keys, complete stems, no AOTA/NOTA — and the built-in QC pass runs the same. What does **not** apply:
+the TCAP **EOC blueprint / reporting-category weighting** and EOC-style-exam assembly (the course has no
+operational EOC). Assemble **benchmark tests + equated parallel forms** instead, and disclose "benchmark ·
+pre-field-test" until calibrated. **Never** claim TCAP-EOC alignment for a non-EOC course.
+
+**Wall:** one course per bank — never read another course's `standardsFile` or mix another course's items into
+this course's set; write only under the course's `contentRoots`; never touch the protected `us-history` flagship
+on a non-US build.
 
 ## When to Use This Skill
 
@@ -326,12 +352,12 @@ When outputting JSON in full mode, every item MUST include ALL of these fields. 
 
 | Field | Type | Required | Constraints |
 |---|---|---|---|
-| `id` | string | Yes | Format: `US.XX-QNN`. Examples: `US.01-Q01`, `US.45-Q03`, `US.REC-Q01`. Never the `USH-…` style. |
+| `id` | string | Yes | Format: `<PREFIX>.NN-QNN`, using the **resolved course's** `standardsPrefix`. US flagship (default): `US.01-Q01`, `US.45-Q03`, `US.REC-Q01`. World History: `W.01-Q01`. Never emit another course's prefix; never the `USH-…` style. |
 | `standard` | string | Yes | Valid TAS code: `US.01`–`US.95`, or `US.REC`. Must match the content tested in the stem. |
 | `secondary_standard` | string/null | No | If the item touches two standards, record the secondary one here. |
 | `unit` | integer | Yes | 0–10. Must match the standard per the unit-standard mapping above. |
 | `question_number` | integer | No | Sequential number within the standard (mirrors the `QNN` in `id`). Present in committed data. |
-| `reporting_category` | string | Yes | `RC1`–`RC5`. Must match the standard's reporting category per the blueprint. Unit 0 items have no RC — use `"N/A"`. |
+| `reporting_category` | string | Yes | **EOC courses (`eocTestable: true`, us-history):** `RC1`–`RC5`, matching the standard's reporting category per the blueprint (Unit 0 → `"N/A"`). **Non-EOC courses (World History, etc.):** always `"N/A"` — there is no operational EOC blueprint. |
 | `dok` | integer | Yes | 1, 2, or 3 for TCAP. If genuinely DOK 4, set to 3 and add `dok_flag`, `tcap_format: false`, `field_test_ready: false`. |
 | `blooms` | string | Yes | One of: `Remember`, `Understand`, `Apply`, `Analyze`, `Evaluate`, `Create`. |
 | `hess_crm_cell` | string | Yes | `{Bloom's} × DOK {level}`, e.g. `Analyze × DOK 3`. Must be a valid populated Hess CRM cell. |
