@@ -3,9 +3,9 @@ name: tn-assessment-specialist
 description: THE single skill for writing, assembling, and quality-controlling Tennessee U.S. History (US.01–US.95) assessment items and tests for History Hack. Writes every item type — multiple-choice (MC), multiple-select (MS), technology-enhanced (TE), short-answer (SA), constructed-response (CR), extended-response (ER), and document-based (DBQ) — with full psychometric metadata (DOK, Bloom's, Hess CRM cell, IRT 3PL a/b/c parameters, distractor codes with per-distractor rationale, C3 dimension, field_test_ready). Emits the canonical TCAP-format JSON schema (snake_case field names, US.01-Q01 item IDs) for app import AND parallel markdown for review. Assembles full practice tests, unit tests, formative/summative assessments, and EOC-style exams to blueprint. Runs a built-in psychometric and metacognitive QC pass, and has a standalone audit/QC mode for existing items. Also offers a lightweight quick/informal quiz mode for fast teacher-facing questions, test banks, and quiz items without full psychometric metadata. Use for creating quiz items, test banks, or assessment questions of any kind for TN high school U.S. History, and for reviewing, auditing, QC-ing, or validating existing items against TDOE standards and TCAP conventions. Supersedes and replaces tcap-item-writer-v2 and history-hack-question-forge (both retired) — this skill absorbs their psychometric depth, schema, and quick-quiz mode.
 metadata:
   author: Sean Reynolds
-  version: '3.0'
+  version: '3.1'
   supersedes: tcap-item-writer-v2, history-hack-question-forge
-  reconciliation: 'v3.0 reconciliation grafts — added UDL/accessibility rules + QC checks, performance-task analytic rubric, and worked CR + stimulus-set examples (from the retired v1.0); external authoritative reference URL table + PASS/WARN/FAIL blueprint-compliance labels (from tcap-item-writer-v2). RC1–RC5 blueprint and US.01-Q01 item-ID style preserved.'
+  reconciliation: 'v3.0 reconciliation grafts — added UDL/accessibility rules + QC checks, performance-task analytic rubric, and worked CR + stimulus-set examples (from the retired v1.0); external authoritative reference URL table + PASS/WARN/FAIL blueprint-compliance labels (from tcap-item-writer-v2). RC1–RC5 blueprint and US.01-Q01 item-ID style preserved. v3.1 — per-item Social Studies Practice is now REQUIRED: `ssp` (primary, never null) + `ssp_secondary` (array); the reviewer-facing markdown block and Bank Summary surface SSP per item and prove skills coverage across the set.'
 ---
 
 # Tennessee U.S. History Assessment Specialist
@@ -28,7 +28,7 @@ You operate within these frameworks simultaneously:
 - **Webb's Depth of Knowledge** (DOK 1–3 for TCAP; DOK 4 classroom-only)
 - **Bloom's Taxonomy** (Revised — Anderson & Krathwohl)
 - **C3 Framework for Social Studies** (Dimensions 1–4)
-- **Social Studies Practices** (SSP.01–SSP.06) — inquiry skills integrated into items
+- **Social Studies Practices** (SSP.01–SSP.06) — inquiry skills; **every item names the practice(s) it assesses**, so the item set demonstrably measures skills, not only content
 - **TDOE Assessment Committee conventions** — Item Review, Performance Level Review, Standard Setting, and Alignment Studies committee standards
 
 ## When to Use This Skill
@@ -229,9 +229,20 @@ Load `references/irt-3pl-model.md` for the full guide. Every full-mode item rece
 | D3 | Evaluating Sources and Using Evidence | Items requiring source analysis, evidence evaluation, corroboration. Primary source items. |
 | D4 | Communicating Conclusions and Taking Informed Action | Items requiring argument construction, evidence-based writing. Most extended-response and DBQ items. |
 
-### Social Studies Practices (SSP.01–SSP.06)
+### Social Studies Practices (SSP.01–SSP.06) — required on every item
 
-Items should integrate Social Studies Practices where appropriate. Tag the primary SSP when the item requires inquiry skills beyond content recall:
+**Every item names the practice(s) it assesses.** This is mandatory, not "where appropriate":
+a Tennessee Textbook & Instructional Materials Quality Commission reviewer expects the item set to
+**prove it assesses skills, not only content**, and that proof is the per-item SSP tag. So:
+
+- **`ssp` (primary) is required and never null** — tag the practice the item most exercises.
+- **`ssp_secondary` is required** — an array of any additional practices genuinely exercised (may be `[]`).
+- A **recall-only** item still maps to the closest practice — usually **SSP.05** (situating a fact in
+  historical context). Do not leave it untagged; there is no "no-skill" item.
+- Across a bank/test, **all six practices should appear** — flag any SSP with zero coverage in the Bank
+  Summary (see "SSP Coverage").
+
+The six practices:
 
 - **SSP.01** — Collecting data from primary/secondary sources
 - **SSP.02** — Critically examining sources (bias, purpose, point of view)
@@ -239,6 +250,12 @@ Items should integrate Social Studies Practices where appropriate. Tag the prima
 - **SSP.04** — Constructing and communicating arguments with evidence
 - **SSP.05** — Developing historical awareness (change over time, empathy, presentism avoidance)
 - **SSP.06** — Developing geographic awareness (spatial analysis, human-environment interaction)
+
+**Which practice an item exercises (signal guide):** source/cartoon/map/chart in the stem → **SSP.01**
+(+ **SSP.02** if analyzed for bias/POV); author purpose/POV/bias/evidence-vs-assertion → **SSP.02**;
+compare/contrast documents, thinkers, or accounts, corroboration → **SSP.03**; claim + evidence,
+evaluate, cause/effect argument → **SSP.04**; change/continuity over time, sequence, context, historical
+empathy → **SSP.05**; place, region, spatial pattern, human–environment, map reasoning → **SSP.06**.
 
 ## Canonical Item Schema (JSON Format)
 
@@ -288,7 +305,8 @@ When outputting JSON in full mode, every item MUST include ALL of these fields. 
   },
   "key_rationale": "Concise statement of why the correct answer is correct.",
   "c3_dimension": "D2",
-  "ssp": null,
+  "ssp": "SSP.05",
+  "ssp_secondary": [],
   "tcap_format": true,
   "field_test_ready": true,
   "instructional_purpose": "tcap-aligned-practice",
@@ -331,7 +349,8 @@ When outputting JSON in full mode, every item MUST include ALL of these fields. 
 | `distractor_rationale` | object/null | Conditional | Required when `options` is not null. Full explanation for every option (correct and incorrect), keyed `A`–`D`. |
 | `key_rationale` | string | No | Concise statement of why the correct answer is correct (present in committed item banks). |
 | `c3_dimension` | string | Yes | `D1`, `D2`, `D3`, or `D4`. |
-| `ssp` | string/null | No | `SSP.01`–`SSP.06` if the item integrates a Social Studies Practice. |
+| `ssp` | string | Yes | Primary Social Studies Practice the item assesses: `SSP.01`–`SSP.06`. **Never null** — every item names the practice it measures; a recall-only item maps to the closest (usually `SSP.05`). |
+| `ssp_secondary` | array | Yes | Additional practices genuinely exercised, e.g. `["SSP.02"]`. May be `[]`, but the field is always present. |
 | `tcap_format` | boolean | Yes | `true` if the item meets all TCAP Item Writing Standards. `false` otherwise (SA/CR/ER/DBQ, DOK 4, or any rule violation). |
 | `field_test_ready` | boolean | Yes | `true` if the item is ready for embedded field testing; `false` if it needs revision or is classroom-only. |
 | `instructional_purpose` | string | Yes | `tcap-aligned-practice`, `classroom-practice`, or `formative`. |
@@ -362,7 +381,7 @@ Older History Hack items and the pre-3.0 tn-assessment-specialist schema used ca
 | `instructionalPurpose` | `instructional_purpose` | — |
 | `itemCategory` | `item_category` | — |
 | `c3Dimension` | `c3_dimension` | — |
-| `sspAlignment` | `ssp` | Committed data uses `ssp`. |
+| `sspAlignment` | `ssp` | Committed data uses `ssp`. Now **required** (primary, never null); add `ssp_secondary` (array) for additional practices. |
 | `tennesseeSpecific` | `tennessee_specific` | — |
 | `tcaRequired` | `tca_required` | — |
 | `contentTags` | `content_tags` | — |
@@ -408,6 +427,7 @@ When outputting markdown, every item opens with this metadata block:
 **Bloom's Rationale:** [One sentence]
 **IRT (a / b / c):** [e.g., 1.2 / −0.3 / 0.20]
 **C3 Dimension:** [D1 | D2 | D3 | D4]
+**Social Studies Practice(s):** [primary SSP.0X — e.g., SSP.02; add secondaries: SSP.01]
 **Field Test Ready:** [Yes | No]
 **Item Type:** [Multiple-Choice | Multiple-Select | Technology-Enhanced | Constructed-Response | Stimulus-Based Set | Performance Task]
 **Point Value:** [1 | 2]
@@ -543,7 +563,7 @@ For each item:
 7. Write full rationales for every option (correct and incorrect) in `distractor_rationale`, plus a `key_rationale`.
 8. Write the `dok_rationale` and `blooms_rationale`.
 9. Assign `irt_a`, `irt_b`, `irt_c` using the estimation heuristics (see IRT 3PL section).
-10. Assign `c3_dimension` and `ssp` based on the item's inquiry demand.
+10. Assign `c3_dimension`, then the **required** `ssp` (primary, never null) and `ssp_secondary` (array, may be `[]`) — every item names the practice(s) it assesses; a recall-only item maps to the closest practice (usually `SSP.05`).
 11. Assign `reporting_category` per the blueprint mapping.
 12. Set `tennessee_specific` — if `true`, verify the TN connection is accurate and substantive (not just "Southern history").
 13. For open-response: assign `rubric_id`, `rubric_name`, and ensure the prompt does not lead the student.
@@ -591,6 +611,7 @@ Before outputting any item, run this self-review. Every item must pass ALL check
 - [ ] `tca_required` is set correctly for TCA-tagged standards
 - [ ] Item does not test content outside TN standards US.01–US.95
 - [ ] Item addresses what the standard actually requires — not a tangentially related topic
+- [ ] `ssp` names the primary Social Studies Practice the item assesses (**never null**), and it matches the actual inquiry demand of the stem; `ssp_secondary` lists any additional practices exercised
 
 #### D. Bias and Sensitivity Review
 
@@ -648,6 +669,22 @@ For batches of 10+ items, generate a Bank Summary:
 | Analyze | X | X% |
 | Evaluate | X | X% |
 | Create | X | X% |
+
+### SSP Coverage (skills-assessed evidence)
+Proves the set assesses inquiry skills, not only content. Count = items whose primary **or** secondary
+practice is that SSP.
+
+| Practice | Skill | Item Count | % of Set | Covered? |
+|---|---|---|---|---|
+| SSP.01 | Collect from sources | X | X% | Yes / **ZERO — flag** |
+| SSP.02 | Examine a source | X | X% | Yes / **ZERO — flag** |
+| SSP.03 | Synthesize / compare | X | X% | Yes / **ZERO — flag** |
+| SSP.04 | Construct arguments | X | X% | Yes / **ZERO — flag** |
+| SSP.05 | Historical awareness | X | X% | Yes / **ZERO — flag** |
+| SSP.06 | Geographic awareness | X | X% | Yes / **ZERO — flag** |
+
+**Items with no SSP tag:** must be 0 (every item names its practice). **Practices with zero coverage:**
+SSP.XX (flag — the set does not yet prove it assesses that skill).
 
 ### Blueprint Weight Compliance
 | RC | Reporting Category | Standards | Item Count | Actual % | Target % | Status |
@@ -920,7 +957,8 @@ It still works alongside these non-assessment skills:
   },
   "key_rationale": "The TVA (1933) provided flood control, electricity, and jobs in the Tennessee Valley, directly transforming the rural Tennessee economy.",
   "c3_dimension": "D2",
-  "ssp": null,
+  "ssp": "SSP.05",
+  "ssp_secondary": ["SSP.04"],
   "tcap_format": true,
   "field_test_ready": true,
   "instructional_purpose": "tcap-aligned-practice",
@@ -951,6 +989,7 @@ It still works alongside these non-assessment skills:
 **Bloom's Rationale:** Requires analysis of cause-and-effect between a policy and its economic outcome.
 **IRT (a / b / c):** 1.3 / −0.2 / 0.20
 **C3 Dimension:** D2
+**Social Studies Practice(s):** SSP.05 (secondary: SSP.04)
 **Field Test Ready:** Yes
 **Item Type:** Multiple-Choice
 **Point Value:** 1
