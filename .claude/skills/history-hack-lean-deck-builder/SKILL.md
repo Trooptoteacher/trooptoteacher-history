@@ -1,15 +1,28 @@
 ---
 name: history-hack-lean-deck-builder
-description: "Builds the lean, student-facing U.S. History Hack TCAP deck (PowerPoint .pptx) for any unit, plus its matching printable Teacher Answer Key (PDF), web viewer manifest, and Usage Guide. Assertion-evidence layout: a bold assertion headline (a summary-label of the LOCKED curriculum narrative — never new narrative) over a large public-domain evidence image, with Source It First WHO/WHEN/WHY sourcing bands and the fixed Three Perspectives synthesis (Who benefited? / Who bore the costs? / Who decided?). Sibling to history-hack-tcap-deck-builder (the full teacher deck). Use when asked to build/regenerate the lean deck, lean student deck, or assertion-evidence deck for a History Hack unit, or its lean answer key or manifest."
+description: "Builds the lean, student-facing History Hack deck (PowerPoint .pptx) for any unit, plus its matching printable Teacher Answer Key (PDF), web viewer manifest, and Usage Guide. **Course-parameterized** via `courses/<id>/course.json` — U.S. History (TCAP EOC) is the reference/default; also builds World History (W.01–W.89) and other editions as benchmark student decks with identical layout and rigor (footer/check labels derived from the course, not hardcoded 'TCAP EOC'). Assertion-evidence layout: a bold assertion headline (a summary-label of the LOCKED curriculum narrative — never new narrative) over a large public-domain evidence image, with Source It First WHO/WHEN/WHY sourcing bands and the fixed Three Perspectives synthesis (Who benefited? / Who bore the costs? / Who decided?). Sibling to history-hack-tcap-deck-builder (the full teacher deck). Use when asked to build/regenerate the lean deck, lean student deck, or assertion-evidence deck for a History Hack unit, or its lean answer key or manifest."
 license: "Proprietary — © 2026 TroopToTeacher Technologies LLC. All rights reserved."
 metadata:
   author: TroopToTeacher Technologies LLC
-  version: '1.0'
+  version: '1.1'
+  changelog_1_1: "Course-parameterized. Resolves a course config from courses/<id>/course.json (id, displayName, standardsPrefix, standardsFile, assessmentSource, eocTestable); derives the deck title, footer, standard codes, and check-slide source/label from it instead of hardcoding U.S. History / TCAP EOC. Defaults to the U.S. History flagship. For non-EOC courses (e.g., World History) the footer drops 'TCAP EOC' and check items come from the course's equated parallel-forms bank; layout and rigor are unchanged."
 ---
 
 # History Hack Lean Deck Builder
 
-Builds the **lean, student-facing** companion to the full History Hack TCAP lecture deck. Where the full deck (`history-hack-tcap-deck-builder`) runs every standard as a complete lesson with teacher cues, word walls, and DOK-tiered checks, the **lean deck is uncluttered for projection**: a bold **assertion headline** over a large **public-domain evidence image**, plus a small fixed set of analysis slides. This is a for-sale "Platinum Standard" product — every deck must be classroom-ready, TDOE-defensible, and visually clean.
+Builds the **lean, student-facing** companion to the full History Hack lecture deck. Where the full deck (`history-hack-tcap-deck-builder`) runs every standard as a complete lesson with teacher cues, word walls, and DOK-tiered checks, the **lean deck is uncluttered for projection**: a bold **assertion headline** over a large **public-domain evidence image**, plus a small fixed set of analysis slides. This is a for-sale "Platinum Standard" product — every deck must be classroom-ready, TDOE-defensible, and visually clean.
+
+## Course configuration (parameterized — resolve BEFORE building)
+
+**Course-parameterized.** Resolve the course config from `courses/<course-id>/course.json` and derive the deck
+title, **footer**, standard codes, and check-slide source/label from it — **never hardcode** "U.S. History"
+or "TCAP EOC." Default to the **U.S. History flagship** when no course is named. Same contract as the sibling
+`history-hack-tcap-deck-builder`: keys `id`/`displayName`, `standardsPrefix`/`standardsFile`,
+`assessmentSource`, and `eocTestable`. For **non-EOC courses (`eocTestable: false`)** the footer reads
+`{displayName} · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards` (no "TCAP EOC"), the
+check items come from the course's **equated parallel-forms** bank, and check slides are labeled
+"Standard-Mastery Check" — the assertion-evidence layout, Source-It-First bands, Three Perspectives, and
+brand are all unchanged.
 
 ## When to Use This Skill
 
@@ -46,7 +59,7 @@ For the **full teacher deck**, use the sibling skill `history-hack-tcap-deck-bui
 | MUTE | `#5C6470` | Captions, footers |
 | KEYGRN | `#1B5E20` | Teacher-key accent (PDF) |
 
-Fonts: **Georgia** (headlines), **Calibri** (body), **Trebuchet MS** (labels). Footer on every content slide: `U.S. History Hack · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards & TCAP EOC`.
+Fonts: **Georgia** (headlines), **Calibri** (body), **Trebuchet MS** (labels). Footer on every content slide is **course-derived** from the resolved config: `{displayName} Hack · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards` — append ` & TCAP EOC` **only when `eocTestable: true`**. Flagship (default): `U.S. History Hack · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards & TCAP EOC`. World History (non-EOC): `World History Hack · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards`.
 
 ## Lean Deck Structure (fixed sequence)
 
