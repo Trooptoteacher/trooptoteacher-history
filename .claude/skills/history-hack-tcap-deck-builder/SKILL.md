@@ -1,10 +1,11 @@
 ---
 name: history-hack-tcap-deck-builder
-description: "Platinum-standard builder for U.S. History Hack TCAP lecture decks (PowerPoint .pptx) plus a matching printable Teacher Answer Key PDF and teacher Usage Guide, for TroopToTeacher Technologies LLC. Regenerates the Unit 1 gold-standard template for any unit: per-standard lessons (divider/hook/instruction/key figures/primary source/word wall/student activity/two-slide click-reveal TCAP check/wrap-up), public-domain primary-source imagery sourced repo-first then LOC/NARA, the locked navy/red/gold + America250 brand kit, historian-verified citations, EN/ES word-wall support, and layered answer keys (speaker notes + reveal slides + printable PDF). Use when the user says: build the Unit N TCAP deck, build the Unit N lecture deck, mirror the Unit 1 deck pattern, make the EOC slides, build the teacher answer key, regenerate the deck template, or build the slide deck for a History Hack unit."
+description: "Platinum-standard builder for History Hack lecture decks (PowerPoint .pptx) plus a matching printable Teacher Answer Key PDF and teacher Usage Guide, for TroopToTeacher Technologies LLC. **Course-parameterized** via `courses/<id>/course.json` — U.S. History (TCAP EOC) is the reference/default; it also builds World History (W.01–W.89) and other editions as benchmark lecture decks with identical rigor (checks labeled 'standard-mastery,' not 'TCAP EOC'). Regenerates the Unit 1 gold-standard template for any unit: per-standard lessons (divider/hook/instruction/key figures/primary source/word wall/student activity/two-slide click-reveal TCAP check/wrap-up), public-domain primary-source imagery sourced repo-first then LOC/NARA, the locked navy/red/gold + America250 brand kit, historian-verified citations, EN/ES word-wall support, and layered answer keys (speaker notes + reveal slides + printable PDF). Use when the user says: build the Unit N TCAP deck, build the Unit N lecture deck, mirror the Unit 1 deck pattern, make the EOC slides, build the teacher answer key, regenerate the deck template, or build the slide deck for a History Hack unit."
 license: "Proprietary — © 2026 TroopToTeacher Technologies LLC. All rights reserved."
 metadata:
   author: TroopToTeacher Technologies LLC
-  version: '3.3'
+  version: '3.4'
+  changelog_3_4: "Course-parameterized. Resolves a course config from courses/<id>/course.json (id, displayName, standardsPrefix, standardsFile, assessmentSource, eocTestable) and derives titles, footers, standard codes, and the check-slide source/label from it instead of hardcoding U.S. History / TCAP EOC. Defaults to the U.S. History flagship. For non-EOC courses (e.g., World History) the deck is a benchmark lecture deck: identical structure and rigor, checks labeled 'standard-mastery' and sourced from the course's equated parallel-forms bank, footer uses the course displayName, no TCAP-EOC claim."
 ---
 
 # History Hack TCAP Lecture Deck Builder
@@ -18,6 +19,27 @@ Builds the **flagship U.S. History Hack TCAP lecture deck** (PowerPoint `.pptx`)
 **v3.2 upgrades baked into the generator** (push TCAP/rigor, accessibility/ELL, and visual sub-scores to ≥9.5/10): a per-standard **Confidence Check / Warm-Up slide** (DOK 1 low-stakes recall with a one-slide reveal — secures an early win and surfaces shaky students before new content); a **DOK 3 Honors / Extension band** on every Wrap-Up slide (argument-based prompt tagged to SSP.04, also appended to speaker notes) so the rigor ramps DOK 1→3 within each standard; **ELL scaffolds on the Word Wall** — a `say:` pronunciation respelling (stressed syllable in CAPS) under each English term and a per-term gold initials "visual anchor" chip for dual-coding; an **ELL sentence-frame strip** on the first Direct-Instruction slide of each standard (academic-language scaffold for EL + striving writers, auto-sized so 2–3 wrapped lines never clip); a **two-row Key Figures layout** that auto-engages when a standard has 4+ figures (keeps back-row bios legible); a **"ZOOM IN" close-looking pill** on primary-source images (Mayer signaling); and roadmap standard-to-standard **connection cues**. **All decorative emoji/symbol glyphs were removed** — labels are plain text or drawn shapes only, because emoji render unreliably (tofu boxes / odd glyphs) in LibreOffice and on school computers. The CONTEXT box on text-only primary sources auto-tiers its font and caps length so the last sentence never clips, and the slide-number counter starts after the unnumbered cover.
 
 This is a for-sale "Platinum Standard" product (TpT and direct download). Every deck must be classroom-ready, TDOE-defensible, and visually engaging.
+
+## Course configuration (parameterized — resolve BEFORE building)
+
+**Course-parameterized.** Before building, resolve the course config from `courses/<course-id>/course.json`
+and derive **every** deck title, footer, standard code, "I Can" spine, and check-slide source/label from it —
+**never hardcode** "U.S. History," "US.01–US.95," or "TCAP EOC." When no course is named, default to the
+**U.S. History flagship**.
+
+| Config key | US flagship (default) | World History |
+|---|---|---|
+| `id` / `displayName` (titles, footers) | `us-history` / "U.S. History Hack" | `world-history` / "World History Hack" |
+| `standardsPrefix` / `standardsFile` | `US` · US standards | `W` · `courses/world-history/standards/world-history-standards.json` |
+| `assessmentSource` (check slides + answer key) | `history-hack-web-app` US bank | the course's `tn-assessment-specialist` banks + **equated parallel forms** |
+| `eocTestable` | `true` — "TCAP check," EOC framing | `false` — "**Standard-Mastery Check**," benchmark framing |
+
+**Non-EOC courses (`eocTestable: false`):** the deck keeps the **identical structure and rigor** (per-standard
+SSP pills, We-Do, Source-It-First, DOK 1→3 ramp, click-reveal checks, layered answer keys), but: the check
+slides are **"Standard-Mastery Checks,"** not "TCAP checks"; check items come from the course's **equated
+parallel-forms** bank (so a class deck and a benchmark form measure the same thing); the footer reads
+`{displayName} · TroopToTeacher Technologies LLC · Aligned to TN Academic Standards` (**no "TCAP EOC"**);
+and no EOC blueprint-weight claim is made. All brand, imagery, accessibility, and SSP rules are unchanged.
 
 ## When to Use This Skill
 

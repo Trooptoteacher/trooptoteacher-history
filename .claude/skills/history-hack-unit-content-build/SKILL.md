@@ -1,12 +1,13 @@
 ---
 name: history-hack-unit-content-build
-description: "End-to-end pipeline for building a complete History Hack U.S. History **unit (Course Standard) content set** to the Platinum bar — the exact process proven on Unit 6 (WWII, US.45–US.58). This builds the **unit student workbook** (the lesson-by-lesson book: 7-activity cycle, guided Cornell notes, back-page UDL/MTSS supports, deck-aligned spine) and its companions — NOT a standalone DBQ packet (that is a separate product; use `history-hack-dbq-workbook` for the DBQ SKU). Use when asked to build, finish, remediate, or QA a unit's four-piece set: Student Workbook, Teacher How-to-Use & MTSS Guide, Student (Lean) slide deck, and Teacher (Full) slide deck; to add guided Cornell notes + the NOTES SUPPORTS ladder, add back-page UDL/MTSS supports, rewrite hooks, rebuild practice quizzes from the authoritative question bank, build the teacher answer-key guide, finalize decks to the canonical palette, or key the workbook to the deck slides. Enforces render-and-QC gates (zero blank pages), historically accurate models, bank-sourced quiz items verified by content, canonical branding, and bidirectional deck↔workbook slide-keying. Every unit also ships a Standards Alignment / Adoption Crosswalk with Social Studies Practices (SSP.01–06) + cross-curricular ELA, a UDL 3.0 (CAST, 2024) supports back page, generous notebook-lined writing space, and a tagged-PDF/UA accessibility (Schedule F 'Rubric F') gate."
+description: "End-to-end pipeline for building a complete History Hack **unit (Course Standard) content set** for any TN social-studies course edition to the Platinum bar — **course-parameterized** via `courses/<id>/course.json` (U.S. History is the reference/default; it also builds World History W.01–W.89 and future editions). The exact process proven on Unit 6 (WWII, US.45–US.58). This builds the **unit student workbook** (the lesson-by-lesson book: 7-activity cycle, guided Cornell notes, back-page UDL/MTSS supports, deck-aligned spine) and its companions — NOT a standalone DBQ packet (that is a separate product; use `history-hack-dbq-workbook` for the DBQ SKU). Use when asked to build, finish, remediate, or QA a unit's four-piece set: Student Workbook, Teacher How-to-Use & MTSS Guide, Student (Lean) slide deck, and Teacher (Full) slide deck; to add guided Cornell notes + the NOTES SUPPORTS ladder, add back-page UDL/MTSS supports, rewrite hooks, rebuild practice quizzes from the authoritative question bank, build the teacher answer-key guide, finalize decks to the canonical palette, or key the workbook to the deck slides. Enforces render-and-QC gates (zero blank pages), historically accurate models, bank-sourced quiz items verified by content, canonical branding, and bidirectional deck↔workbook slide-keying. Every unit also ships a Standards Alignment / Adoption Crosswalk with Social Studies Practices (SSP.01–06) + cross-curricular ELA, a UDL 3.0 (CAST, 2024) supports back page, generous notebook-lined writing space, and a tagged-PDF/UA accessibility (Schedule F 'Rubric F') gate."
 license: Proprietary
 metadata:
   author: "TroopToTeacher Technologies LLC"
-  version: "1.1"
+  version: "1.2"
   reference_implementation: "Unit 6 — World War II (US.45–US.58), Course Standard Edition"
   changelog_1_1: "Added LOCKED gates: adoption crosswalk + SSP.01–06, UDL 3.0 (CAST 2024) back page, generous notebook-lined writing space, and tagged-PDF/UA accessibility (Rubric F). New reference references/adoption-crosswalk-and-ssp.md."
+  changelog_1_2: "Course-parameterized. Resolves a course config from courses/<id>/course.json (id, displayName, standardsPrefix, standardsFile, assessmentSource, eocTestable); derives all labels/codes/footers/assessment-source from it instead of hardcoding U.S. History / US.01–US.95 / TCAP EOC. Defaults to the U.S. History flagship. Enables World History (W.01–W.89) and future editions with identical rigor and gates."
 ---
 
 # History Hack — Unit Content Build
@@ -28,6 +29,27 @@ and **bidirectional deck↔workbook slide-keying** (workbook prints `▶ Deck sl
 This skill is the *orchestration* layer. It composes the locked standards and the specialist
 skills below; it does not restate their internal logic.
 
+## Course configuration (parameterized — resolve BEFORE building)
+
+This engine is **course-parameterized**. Before building, resolve the course config from
+`courses/<course-id>/course.json` and derive **every** label, standard code, cover/footer string,
+and assessment source from it — **never hardcode** "U.S. History," "US.01–US.95," or "TCAP EOC."
+When no course is named, default to the **U.S. History flagship** (backward-compatible).
+
+| Config key | Meaning | US flagship (default) | World History |
+|---|---|---|---|
+| `id` / `displayName` | course id + title on covers/footers | `us-history` / "U.S. History" | `world-history` / "World History & Geography" |
+| `standardsPrefix` | standard-code spine | `US` (US.01–US.95) | `W` (W.01–W.89) |
+| `standardsFile` | verbatim TDOE standards (source of truth) | US standards | `courses/world-history/standards/world-history-standards.json` |
+| `assessmentSource` | authoritative item bank for quizzes + answer keys | `history-hack-web-app` US bank | the course's `tn-assessment-specialist`-schema banks (per-item SSP + equated parallel forms) |
+| `eocTestable` | is there an operational TCAP EOC? | `true` — EOC blueprint weighting applies | `false` — no EOC; **benchmark** framing |
+
+**Non-EOC courses (`eocTestable: false`):** keep **identical rigor** — per-item SSP.01–06, DOK 1–3
+balance, Hess CRM, misconception-coded distractors, and **equated parallel forms** — but label practice
+checks "benchmark / standard-mastery check," never "TCAP EOC," and make **no** EOC blueprint-weight
+claim. The four LOCKED gates below (adoption crosswalk + SSP, UDL 3.0 CAST 2024 back page, notebook-lined
+space, Rubric-F accessibility) apply to **every** course, EOC-tested or not.
+
 ## Authoritative inputs (source of truth, in order)
 
 1. `00_START_HERE/STUDENT_WORKBOOK_PLATINUM_STANDARD.md` — workbook geometry, palette, section
@@ -36,10 +58,15 @@ skills below; it does not restate their internal logic.
    per-standard slide arc, and the deck↔workbook keying contract (§1).
 3. `00_START_HERE/PLATINUM_REFERENCE_BUILD/` — the locked reference exemplar (Unit 6 US.45).
    Clone its structure; never diverge from it silently.
-4. The **authoritative question bank** in the `history-hack-web-app` repo:
-   `public/data/us-history/questions/unit-N/dok-{1,2,3}.json` (~4,760 items, IRT-parameterized,
-   with `correctAnswer`, bilingual choices, `standardCodes`, `explanation`). See
-   `references/quiz-sourcing.md` — **its `standardCodes` use an older numbering; match by content.**
+4. The **authoritative question bank** = the resolved `assessmentSource` for the course.
+   - **US flagship (default):** the `history-hack-web-app` repo
+     `public/data/us-history/questions/unit-N/dok-{1,2,3}.json` (~4,760 items, IRT-parameterized,
+     with `correctAnswer`, bilingual choices, `standardCodes`, `explanation`). See
+     `references/quiz-sourcing.md` — **its `standardCodes` use an older numbering; match by content.**
+   - **Other courses (e.g., World History):** that course's `tn-assessment-specialist`-schema banks —
+     per-item SSP.01–06 (primary + secondary), DOK/Hess/IRT, misconception-coded distractors, and the
+     **equated parallel forms** (zero-overlap, matched on standards/DOK/difficulty). Pull practice
+     quizzes and the answer key from these; the workbook's per-question SSP surfaces the same skill tags.
 
 ## Canonical brand tokens (LOCKED — America 250; every piece aligns to these)
 
