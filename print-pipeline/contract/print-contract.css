@@ -1,0 +1,224 @@
+/* ============================================================================
+   HISTORY HACK — SHARED PRINT CONTRACT  (CSS Paged Media)
+   ----------------------------------------------------------------------------
+   Contract version: 1.0.0   ·   Engine: WeasyPrint (locked)   ·   Units: pt/in
+   Owner: print-pipeline (single source of truth for print layout)
+   ----------------------------------------------------------------------------
+   THE LOCK: this file owns EVERY page-layout decision — page size, margins,
+   running headers/footers, page numbers, what may split across a page, what
+   stays together, and every reusable content primitive — for ALL FOUR page
+   products, deterministically:
+
+       1. Textbook            3. DBQ workbook
+       2. Student workbook    4. Graphic-organizer toolkit
+
+   (Slide decks are a different medium — .pptx-native — and are NOT governed here.)
+
+   Change content → re-render → correct layout, every time. Nobody hand-aligns a
+   page again. Per-course BRAND is injected by a token file (contract/tokens/*.css)
+   loaded BEFORE this file; this contract only reads the tokens via var(). Every
+   token has a safe fallback here, so the contract renders even with no token file.
+   Commercial print-shop output (crop marks + bleed) is an OPTIONAL overlay:
+   contract/print-shop.css.
+   ============================================================================ */
+
+/* ---- Brand fonts (embedded → identical output on any machine) -------------- */
+@font-face { font-family:"HH Sans"; font-weight:400; font-style:normal;
+  src:url("fonts/DMSans-Regular.ttf") format("truetype"); }
+@font-face { font-family:"HH Sans"; font-weight:500; font-style:normal;
+  src:url("fonts/DMSans-Medium.ttf") format("truetype"); }
+@font-face { font-family:"HH Sans"; font-weight:700; font-style:normal;
+  src:url("fonts/DMSans-Bold.ttf") format("truetype"); }
+@font-face { font-family:"HH Text"; font-weight:400; font-style:normal;
+  src:url("fonts/Inter-Regular.ttf") format("truetype"); }
+@font-face { font-family:"HH Text"; font-weight:500; font-style:normal;
+  src:url("fonts/Inter-Medium.ttf") format("truetype"); }
+
+/* ---- Token fallbacks (a token file overrides these) ----------------------- */
+:root{
+  --hh-navy:#1F3A5F;   /* Heritage Blue  */
+  --hh-red:#B22234;    /* Patriot Red    */
+  --hh-gold:#C9A227;   /* Muted Gold     */
+  --hh-cream:#F8F5EF;  /* Founders Cream */
+  --hh-ink:#20262E;
+  --hh-muted:#5B6472;
+  --hh-line:#D8DEE7;
+  --hh-tint:#EEF1F7;
+  --hh-rule:#C9CFD8;
+  --hh-font-head:"HH Sans","DejaVu Sans",sans-serif;
+  --hh-font-body:"HH Text","DejaVu Sans",sans-serif;
+  --hh-runhead:"";          /* set per document via .runhead */
+  --hh-runfoot:"";
+}
+
+/* ============================================================================
+   PAGE FRAME — the deterministic sheet every product prints on.
+   ============================================================================ */
+@page{
+  size: Letter;                                   /* 8.5in × 11in portrait */
+  margin: 0.8in 0.85in 0.9in 0.85in;
+  @top-right{
+    content: string(runhead);
+    font:700 8.5pt var(--hh-font-head); color:var(--hh-gold); letter-spacing:.2pt;
+  }
+  @bottom-center{
+    content: string(runfoot) "   ·   Page " counter(page) " of " counter(pages);
+    font:8.5pt var(--hh-font-head); color:var(--hh-muted);
+  }
+}
+/* First page of a document: no running header (cover / opener breathes). */
+@page :first{ @top-right{ content:none; } }
+
+/* Landscape variant — wide organizers/timelines opt in with .landscape. */
+@page landscape{ size: Letter landscape; }
+.landscape{ page: landscape; }
+
+/* Running strings are set ONCE from the document metadata (hidden spans). */
+.runhead{ string-set: runhead content(); position:absolute; left:-9999px; top:0; }
+.runfoot{ string-set: runfoot content(); position:absolute; left:-9999px; top:0; }
+
+/* ============================================================================
+   BASE TYPOGRAPHY — shared by all products.
+   ============================================================================ */
+*{ box-sizing:border-box; }
+body{ font-family:var(--hh-font-body); color:var(--hh-ink);
+  font-size:10.5pt; line-height:1.42; margin:0; hyphens:auto; }
+h1,h2,h3,h4,.standard,.chapter-title,.activity-title{ font-family:var(--hh-font-head); }
+h1{ color:var(--hh-navy); font-size:20pt; margin:0 0 3pt; break-after:avoid; }
+h2{ color:var(--hh-navy); font-size:15pt; margin:14pt 0 4pt; break-after:avoid; }
+h3{ color:var(--hh-navy); font-size:11.5pt; margin:9pt 0 2pt; break-after:avoid; }
+h4{ color:var(--hh-ink);  font-size:10pt; margin:7pt 0 2pt; break-after:avoid;
+  text-transform:uppercase; letter-spacing:.4pt; }
+p{ margin:0 0 7pt; text-align:justify; orphans:2; widows:2; }
+ul,ol{ margin:0 0 7pt 16pt; } li{ margin:0 0 3pt; }
+strong{ color:#333; font-weight:700; } em,.lead{ color:var(--hh-muted); font-style:italic; }
+.meta{ color:var(--hh-gold); font-weight:700; font-size:9pt; }
+img{ max-width:100%; }
+a{ color:var(--hh-navy); text-decoration:none; }
+
+/* ============================================================================
+   1) TEXTBOOK primitives
+   ============================================================================ */
+.chapter{ break-before:page; }
+.chapter:first-of-type{ break-before:avoid; }
+.chapter-title{ color:var(--hh-navy); font-size:23pt; line-height:1.1;
+  border-bottom:3px solid var(--hh-gold); padding-bottom:5pt; margin:0 0 4pt; break-after:avoid; }
+.chapter-kicker{ color:var(--hh-red); font-weight:700; font-size:9pt;
+  text-transform:uppercase; letter-spacing:1pt; margin-bottom:2pt; }
+.section{ color:var(--hh-navy); font-size:14pt; margin:15pt 0 4pt; break-after:avoid; }
+.figure{ break-inside:avoid; margin:10pt 0; text-align:center; }
+.figure img{ border:1px solid var(--hh-line); }
+.figure figcaption,.caption{ font-size:8.5pt; color:var(--hh-muted); font-style:italic;
+  margin-top:3pt; text-align:center; }
+.sidebar{ background:var(--hh-tint); border-left:4px solid var(--hh-navy);
+  padding:9pt 12pt; margin:9pt 0; break-inside:avoid; font-size:9.7pt; }
+.sidebar .k{ font-family:var(--hh-font-head); font-weight:700; color:var(--hh-navy);
+  font-size:9pt; text-transform:uppercase; letter-spacing:.4pt; margin-bottom:3pt; }
+.pullquote{ font-family:var(--hh-font-head); color:var(--hh-navy); font-size:13pt;
+  line-height:1.3; border-top:2px solid var(--hh-gold); border-bottom:2px solid var(--hh-gold);
+  padding:7pt 0; margin:11pt 0; break-inside:avoid; }
+
+/* ============================================================================
+   2) STUDENT-WORKBOOK primitives  (7-activity spine, Cornell, write-space)
+   ============================================================================ */
+.standard{ color:var(--hh-navy); font-size:17pt; border-bottom:2px solid var(--hh-gold);
+  padding-bottom:3pt; margin:16pt 0 6pt; break-before:page; break-after:avoid; }
+.standard:first-of-type{ break-before:avoid; }
+.activity-title{ color:var(--hh-navy); font-size:15pt; margin:14pt 0 3pt; break-after:avoid; }
+.activity-title .time{ color:var(--hh-gold); font-weight:700; font-size:9pt; }
+.activity-lead{ color:var(--hh-muted); font-style:italic; margin-bottom:8pt; }
+
+.box{ background:var(--hh-cream); border:1px solid var(--hh-line); border-radius:6px;
+  padding:9pt 11pt; margin:8pt 0; break-inside:avoid; }
+.box .k{ color:var(--hh-navy); font-weight:700; font-size:9pt; font-family:var(--hh-font-head);
+  text-transform:uppercase; letter-spacing:.4pt; margin-bottom:2pt; }
+.box p:last-child{ margin-bottom:0; }
+
+/* Cornell notes (25 / 75). Ruled note column students write on. */
+table.cornell{ width:100%; border-collapse:collapse; margin:8pt 0; break-inside:auto; }
+table.cornell td{ vertical-align:top; padding:7pt; border:1px solid var(--hh-line); }
+table.cornell td.cue{ width:26%; font-weight:700; color:var(--hh-navy); background:var(--hh-tint); }
+table.cornell td.note{ height:120pt; background:
+  repeating-linear-gradient(transparent, transparent 18pt, var(--hh-rule) 18pt, var(--hh-rule) 18.6pt); }
+
+/* ============================================================================
+   3) DBQ-WORKBOOK primitives  (primary-source cards, HIPPO, writing space)
+   ============================================================================ */
+.source{ border:1px solid var(--hh-line); border-radius:6px; overflow:hidden;
+  margin:10pt 0; break-inside:avoid; }
+.source .source-head{ background:var(--hh-navy); color:#fff; font-family:var(--hh-font-head);
+  font-weight:700; font-size:9.5pt; padding:5pt 9pt; }
+.source .source-body{ padding:9pt 11pt; }
+.source img{ display:block; margin:0 auto 6pt; max-height:3.2in; border:1px solid var(--hh-line); }
+.source .cite{ font-size:8pt; color:var(--hh-muted); font-style:italic; margin-top:4pt; }
+.hippo{ margin:8pt 0; break-inside:avoid; }
+.hippo .k{ font-family:var(--hh-font-head); font-weight:700; color:var(--hh-red);
+  font-size:9pt; text-transform:uppercase; letter-spacing:.4pt; }
+
+/* Ruled writing space — set the number of lines with data-lines (renderer sizes it). */
+.writelines{ background:
+  repeating-linear-gradient(transparent, transparent 21pt, var(--hh-rule) 21pt, var(--hh-rule) 21.6pt);
+  margin:6pt 0; break-inside:avoid; }
+
+/* Writable tables (question + ruled answer). Shared with workbook. */
+table{ width:100%; border-collapse:collapse; margin:8pt 0; font-size:9.5pt; break-inside:auto; }
+thead{ display:table-header-group; }
+tr{ break-inside:avoid; }
+thead th{ background:var(--hh-navy); color:#fff; text-align:left; padding:5pt 7pt;
+  font-size:9pt; font-family:var(--hh-font-head); }
+tbody td{ border:1px solid var(--hh-line); padding:7pt; vertical-align:top; }
+td.q{ width:34%; font-weight:700; color:#333; background:#fff; }
+tr.write td{ height:34pt; background:
+  repeating-linear-gradient(transparent, transparent 16pt, var(--hh-rule) 16pt, var(--hh-rule) 16.6pt); }
+tr.write td.q{ background:#fff; }
+
+/* ============================================================================
+   4) GRAPHIC-ORGANIZER primitives  (frames, grids, T-chart, Frayer, Venn)
+   ============================================================================ */
+.grid{ display:grid; grid-template-columns:repeat(var(--cols,2),1fr); gap:10pt; margin:9pt 0; }
+.frame{ border:1.5px solid var(--hh-navy); border-radius:6px; padding:0; margin:0;
+  break-inside:avoid; overflow:hidden; }
+.frame .frame-title{ background:var(--hh-navy); color:#fff; font-family:var(--hh-font-head);
+  font-weight:700; font-size:9.5pt; padding:5pt 9pt; }
+.frame .frame-body{ padding:9pt 11pt; min-height:90pt; background:
+  repeating-linear-gradient(transparent, transparent 21pt, var(--hh-rule) 21pt, var(--hh-rule) 21.6pt); }
+.frame .frame-body.plain{ background:none; }
+
+/* T-chart: two headed, ruled columns. */
+.tchart{ display:grid; grid-template-columns:1fr 1fr; gap:0; border:1.5px solid var(--hh-navy);
+  border-radius:6px; overflow:hidden; margin:9pt 0; break-inside:avoid; }
+.tchart .col+.col{ border-left:1.5px solid var(--hh-navy); }
+.tchart .col-head{ background:var(--hh-tint); color:var(--hh-navy); font-family:var(--hh-font-head);
+  font-weight:700; font-size:9.5pt; padding:5pt 9pt; text-align:center; }
+.tchart .col-body{ padding:8pt 10pt; min-height:150pt; background:
+  repeating-linear-gradient(transparent, transparent 21pt, var(--hh-rule) 21pt, var(--hh-rule) 21.6pt); }
+
+/* Frayer model: 2×2 quadrants around a centered term.
+   Table-based (not grid) — WeasyPrint distributes fixed row heights on tables
+   deterministically, and the centered term uses margin-auto (no transform%). */
+.frayer{ position:relative; margin:9pt 0; break-inside:avoid; }
+.frayer-grid{ width:100%; border-collapse:collapse; table-layout:fixed; }
+.frayer-grid td{ width:50%; height:140pt; border:1.5px solid var(--hh-navy);
+  padding:8pt 10pt; vertical-align:top; }
+.frayer-grid .k{ font-family:var(--hh-font-head); font-weight:700; color:var(--hh-navy);
+  font-size:8.5pt; text-transform:uppercase; letter-spacing:.3pt; }
+.frayer .term{ position:absolute; left:0; right:0; top:50%; margin:-15pt auto 0;
+  width:132pt; background:var(--hh-gold); color:#241c00; font-family:var(--hh-font-head);
+  font-weight:700; font-size:11pt; padding:6pt 10pt; border-radius:18pt; text-align:center; }
+
+/* Venn: two overlapping circles for students to write inside. */
+.venn{ position:relative; height:250pt; margin:9pt 0; break-inside:avoid; }
+.venn .circle{ position:absolute; top:0; width:200pt; height:200pt; border:2px solid var(--hh-navy);
+  border-radius:50%; }
+.venn .circle.left{ left:60pt; } .venn .circle.right{ left:180pt; }
+.venn .label{ position:absolute; top:-14pt; font-family:var(--hh-font-head); font-weight:700;
+  color:var(--hh-navy); font-size:9.5pt; }
+.venn .label.left{ left:70pt; } .venn .label.right{ left:300pt; }
+.venn .label.both{ left:210pt; top:200pt; color:var(--hh-red); }
+
+/* ============================================================================
+   Utilities
+   ============================================================================ */
+.divider-note{ color:var(--hh-muted); font-size:8.5pt; font-style:italic; }
+.keep{ break-inside:avoid; }
+.page-break{ break-before:page; }

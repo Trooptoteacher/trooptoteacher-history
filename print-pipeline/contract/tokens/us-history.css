@@ -1,0 +1,19 @@
+/* ============================================================================
+   BRAND TOKENS — U.S. History Hack (America 250)
+   Loaded BEFORE print-contract.css. This file sets ONLY brand values; it makes
+   no layout decisions. To brand another course, copy this file and change the
+   values — the shared contract does the rest. Mirrors 00_START_HERE/BRAND_PALETTE.md.
+   ============================================================================ */
+:root{
+  --hh-navy:#1F3A5F;    /* Heritage Blue  — headings, structure */
+  --hh-red:#B22234;     /* Patriot Red    — emphasis, dividers  */
+  --hh-gold:#C9A227;    /* Muted Gold     — accents (sparingly) */
+  --hh-cream:#F8F5EF;   /* Founders Cream — box backgrounds     */
+  --hh-ink:#20262E;     /* body text */
+  --hh-muted:#5B6472;   /* captions, secondary */
+  --hh-line:#D8DEE7;    /* hairlines, borders */
+  --hh-tint:#EEF1F7;    /* tinted fills */
+  --hh-rule:#C9CFD8;    /* ruled writing lines */
+  --hh-font-head:"HH Sans","DejaVu Sans",sans-serif;
+  --hh-font-body:"HH Text","DejaVu Sans",sans-serif;
+}

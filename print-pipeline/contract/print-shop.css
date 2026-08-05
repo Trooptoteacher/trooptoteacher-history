@@ -1,0 +1,10 @@
+/* ============================================================================
+   PRINT-SHOP OVERLAY  (optional)  —  crop marks + bleed for commercial printing.
+   Load AFTER print-contract.css only when producing files for a print vendor
+   (renderer flag: --print-shop). Adds 1/8in (3mm) bleed and crop/registration
+   marks so a shop can trim to the edge. Screen/teacher PDFs omit this.
+   ============================================================================ */
+@page{
+  marks: crop cross;   /* trim (crop) + registration (cross) marks */
+  bleed: 3mm;          /* content intended to run to the trimmed edge extends into here */
+}

@@ -1,0 +1,18 @@
+{
+  "runhead": "U.S. History Hack · Textbook",
+  "runfoot": "Unit 1 · The Gilded Age",
+  "blocks": [
+    {"type": "chapter", "kicker": "Unit 1 · Reconstruction to 1900", "title": "The Gilded Age",
+     "blocks": [
+       {"type": "para", "text": "Between 1877 and 1900 the United States transformed from a war-torn republic into the world's leading industrial power. Railroads stitched the continent together, cities swelled with immigrants, and a handful of industrialists amassed fortunes that reshaped American life. Mark Twain called the era <strong>gilded</strong> — glittering on the surface, but corroded underneath."},
+       {"type": "section", "title": "Industry and the New Economy", "blocks": [
+         {"type": "para", "text": "New technologies — the Bessemer process, the telegraph, and the assembly of vast rail networks — let a few firms dominate entire industries. Standard Oil controlled the flow of kerosene that lit American homes; Carnegie Steel supplied the beams that raised American cities."},
+         {"type": "figure", "img": "img-senate.jpg", "caption": "“The Bosses of the Senate,” Joseph Keppler, Puck, 1889 (Library of Congress). Trusts tower over senators dwarfed beneath them."},
+         {"type": "para", "text": "Critics warned that this concentration of wealth threatened democracy itself. Reformers demanded regulation; the debate over the proper role of government in the economy would define American politics for a century."}
+       ]},
+       {"type": "pullquote", "text": "“What is the chief end of man? — to get rich. In what way? — dishonestly if we can; honestly if we must.” — Mark Twain, 1871"},
+       {"type": "sidebar", "label": "Think Like a Historian", "paras": [
+         "Who benefited from industrial consolidation, and who bore its costs? As you read, track the winners and losers of the new economy — you will build a claim about it in your workbook."]}
+     ]}
+  ]
+}

@@ -1,27 +1,2 @@
-/* ============================================================================
-   History Hack — America 250 brand kit (print).
-   Single source of truth for the print look. Mirrors 00_START_HERE/BRAND_PALETTE.md
-   and the web app's --hh-* tokens so print and screen share ONE brand system.
-   ============================================================================ */
-:root{
-  --navy:#1F3A5F;   /* Heritage Blue */
-  --red:#B22234;    /* Patriot Red */
-  --gold:#C9A227;   /* Muted Gold */
-  --cream:#F8F5EF;  /* Founders Cream */
-  --ink:#20262E;
-  --muted:#5B6472;
-  --line:#D8DEE7;
-  --tint:#EEF1F7;
-  --rule:#c9cfd8;
-}
-
-body{ font-family:"DejaVu Sans", "Inter", sans-serif; color:var(--ink);
-      font-size:10.5pt; line-height:1.42; margin:0; }
-
-h1{ color:var(--navy); font-size:20pt; margin:0 0 3pt; }
-h2{ color:var(--navy); font-size:15pt; margin:14pt 0 4pt; break-after:avoid; }
-h3{ color:var(--navy); font-size:11pt; margin:9pt 0 2pt; break-after:avoid; }
-p{ margin:0 0 7pt; text-align:justify; orphans:2; widows:2; }
-em,.lead{ color:var(--muted); font-style:italic; }
-.meta{ color:var(--gold); font-weight:700; font-size:9pt; }
-strong{ color:#333; }
+/* DEPRECATED shim — brand tokens now live in contract/tokens/us-history.css. */
+@import "contract/tokens/us-history.css";

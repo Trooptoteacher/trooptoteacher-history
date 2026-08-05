@@ -1,0 +1,20 @@
+{
+  "runhead": "U.S. History Hack · DBQ Investigation",
+  "runfoot": "Immigration & the City, 1890",
+  "blocks": [
+    {"type": "heading", "level": 1, "text": "DBQ: Was the city a land of opportunity?"},
+    {"type": "para", "text": "Analyze the documents below, then build a claim supported by evidence. Use the HIPPO prompts to source each document before you use it."},
+    {"type": "source", "head": "Document A — Photograph",
+     "img": "img-ellis.jpg",
+     "cite": "Immigrants arriving at Ellis Island, c. 1900. National Archives (NARA).",
+     "blocks": [
+       {"type": "hippo", "label": "H · Historical context — what was happening in 1900?", "lines": 2},
+       {"type": "hippo", "label": "P · Point of view — how might the photographer shape this scene?", "lines": 2}
+     ]},
+    {"type": "heading", "level": 3, "text": "Build your claim"},
+    {"type": "box", "label": "CER — Claim", "paras": ["State your answer to the question in one sentence."]},
+    {"type": "writelines", "lines": 4},
+    {"type": "box", "label": "CER — Evidence & Reasoning", "paras": ["Cite Document A and explain how it supports your claim."]},
+    {"type": "writelines", "lines": 6}
+  ]
+}

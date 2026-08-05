@@ -1,0 +1,27 @@
+{
+  "runhead": "U.S. History Hack · Student Workbook",
+  "runfoot": "Unit 1 · US.01",
+  "standards": [
+    {"code": "US.01", "title": "Analyze the causes and consequences of industrialization",
+     "blocks": [
+       {"type": "activity", "num": 1, "name": "Hook — Gilded or Golden?", "time": "5 min",
+        "lead": "Look at the political cartoon your teacher projects. What is the artist claiming?",
+        "blocks": [
+          {"type": "box", "label": "Do Now", "paras": ["Write one sentence: was the Gilded Age good or bad for ordinary Americans? You will revise this claim at the end of the lesson."]}
+        ]},
+       {"type": "activity", "num": 2, "name": "Guided Notes — The New Economy", "time": "15 min",
+        "lead": "Take Cornell notes as your teacher works through the direct-instruction slides.",
+        "blocks": [
+          {"type": "cornellnotes", "heading": "Cornell Notes", "cues": ["Bessemer process?", "What was a trust?", "Standard Oil strategy?", "Who opposed the trusts?"]}
+        ]},
+       {"type": "activity", "num": 3, "name": "Practice — Cause & Effect", "time": "10 min",
+        "blocks": [
+          {"type": "table", "class": "write", "head": ["Prompt", "Your response"],
+           "rows": [
+             ["Name one technology that fueled industrial growth and explain how.", ""],
+             ["Explain one cost of industrialization for workers.", ""]
+           ]}
+        ]}
+     ]}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "runhead": "U.S. History Hack · Graphic Organizer",
+  "runfoot": "Unit 1 · Toolkit",
+  "blocks": [
+    {"type": "heading", "level": 1, "text": "Organizer Toolkit — The Gilded Age"},
+    {"type": "para", "text": "Choose the best-fit organizer for the thinking you are doing. Each is reusable across standards."},
+    {"type": "heading", "level": 3, "text": "Frayer Model — Vocabulary"},
+    {"type": "frayer", "term": "Monopoly", "quads": ["Definition", "Characteristics", "Examples", "Non-examples"]},
+    {"type": "heading", "level": 3, "text": "T-Chart — Compare"},
+    {"type": "tchart", "left": "Benefits of industry", "right": "Costs of industry", "lines": 6},
+    {"type": "heading", "level": 3, "text": "Venn — Two Perspectives"},
+    {"type": "venn", "left": "Industrialist", "right": "Factory worker", "both": "Both"},
+    {"type": "heading", "level": 3, "text": "Free-Response Frame"},
+    {"type": "frame", "title": "Summarize the lesson in 3–4 sentences", "lines": 5}
+  ]
+}
