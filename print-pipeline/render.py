@@ -58,10 +58,12 @@ def b_box(b) -> str:
 
 
 def b_table(b) -> str:
-    cls = f' class="{esc(b["class"])}"' if b.get("class") else ""
+    klass = b.get("class")
+    cls = f' class="{esc(klass)}"' if klass else ""
     head = "".join(f"<th>{esc(h)}</th>" for h in b["head"])
-    write = b.get("class") == "write"
-    tr_open = '<tr class="write">' if write else "<tr>"
+    write = klass == "write"
+    gwrite = klass == "gwrite"
+    tr_open = '<tr class="write">' if write else ('<tr class="gwrite">' if gwrite else "<tr>")
     rows = ""
     for r in b["rows"]:
         tds = ""

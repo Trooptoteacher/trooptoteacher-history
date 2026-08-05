@@ -171,6 +171,9 @@ td.q{ width:34%; font-weight:700; color:#333; background:#fff; }
 tr.write td{ height:34pt; background:
   repeating-linear-gradient(transparent, transparent 16pt, var(--hh-rule) 16pt, var(--hh-rule) 16.6pt); }
 tr.write td.q{ background:#fff; }
+/* All-cells-writable grid (KWL, matrix, timeline, concept web): every cell ruled + tall. */
+tr.gwrite td{ height:60pt; vertical-align:top; background:
+  repeating-linear-gradient(transparent, transparent 20pt, var(--hh-rule) 20pt, var(--hh-rule) 20.6pt); }
 
 /* ============================================================================
    4) GRAPHIC-ORGANIZER primitives  (frames, grids, T-chart, Frayer, Venn)
