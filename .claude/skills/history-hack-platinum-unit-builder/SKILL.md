@@ -9,6 +9,15 @@ metadata:
   reconciliation: "Canonical-set reconciliation: converted to a pure orchestrator — the decision rule (history-hack-platinum-standard), content engine (history-hack-unit-content-build), and release gates (history-hack-lesson-flow-qc, history-hack-text-integrity-qc) are now standalone skills it INVOKES, not inlined. NOTES SUPPORTS restored to the student-book verso (default-included). Brand migrated to the America 250 palette. Rebranded North-Star → Platinum. Retired-name pointers fixed (platinum-workbook → dbq-workbook; tcap-item-writer-v2 → tn-assessment-specialist)."
 ---
 
+> **STOP — PULL THE CURRENT SKILL BEFORE YOU BUILD.** Never build, rebuild, format, render, or QC ANY artifact —
+> workbook, teacher/student slide deck, graphic organizer, poster, DBQ, assessment or test, worksheet, comic,
+> web page, or anything else — from memory, a cached copy, or a prior session. **Re-read the CURRENT version of
+> THIS skill from `main` first** — skills are the single source of truth and change only via skills-only PRs.
+> Then **resolve + declare the course** and honor the **Course-Binding Standard**
+> (`history-hack-new-course-builder/references/course-binding-and-walls.md`): read only that course's
+> standards/content, emit only its prefix, and never read from or write to the protected `us-history` flagship
+> on a non-US build. If you cannot confirm you are on the current skill, **STOP and pull it first.**
+
 # History Hack Platinum Unit Builder
 
 ## Purpose

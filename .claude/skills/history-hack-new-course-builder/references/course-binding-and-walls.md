@@ -46,6 +46,12 @@ path → **default `us-history` flagship**. State the resolved id before buildin
 
 ## The walls (hard rules — enforce on every build)
 
+- **W0 · Pull the current skill first (never build from memory).** Before you build, rebuild, format, render,
+  or QC **any** artifact — workbook, slide deck, graphic organizer, poster, DBQ, assessment, worksheet, comic,
+  web page, anything — **re-read the CURRENT version of the governing skill(s) from `main`.** Skills are the
+  single source of truth and change only via skills-only PRs; a stale, cached, or remembered copy is **not
+  valid**. A different agent or a new session must **reload** the skill, not rely on what it "knows." If you
+  cannot confirm you are on the current skill, **STOP and pull it first.**
 - **W1 · Declare first.** Before producing any artifact, resolve and **state the course id** ("Building
   `world-history`…"). No build proceeds on an ambiguous course.
 - **W2 · Standards wall.** Read standards **only** from the resolved course's `standardsFile`. Never read or

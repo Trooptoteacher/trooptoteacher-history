@@ -8,6 +8,15 @@ metadata:
   reconciliation: 'v3.0 reconciliation grafts — added UDL/accessibility rules + QC checks, performance-task analytic rubric, and worked CR + stimulus-set examples (from the retired v1.0); external authoritative reference URL table + PASS/WARN/FAIL blueprint-compliance labels (from tcap-item-writer-v2). RC1–RC5 blueprint and US.01-Q01 item-ID style preserved. v3.1 — per-item Social Studies Practice is now REQUIRED: `ssp` (primary, never null) + `ssp_secondary` (array); the reviewer-facing markdown block and Bank Summary surface SSP per item and prove skills coverage across the set. v3.2 — course-parameterized + walled: bound to one course at a time per the Course-Binding Standard (history-hack-new-course-builder). Item IDs and standard codes use the resolved course prefix; the TCAP EOC blueprint / reporting-category weighting applies ONLY when eocTestable (us-history) — non-EOC courses (World History, etc.) use benchmark framing + equated parallel forms with identical item rigor. Defaults to the U.S. History flagship.'
 ---
 
+> **STOP — PULL THE CURRENT SKILL BEFORE YOU BUILD.** Never build, rebuild, format, render, or QC ANY artifact —
+> workbook, teacher/student slide deck, graphic organizer, poster, DBQ, assessment or test, worksheet, comic,
+> web page, or anything else — from memory, a cached copy, or a prior session. **Re-read the CURRENT version of
+> THIS skill from `main` first** — skills are the single source of truth and change only via skills-only PRs.
+> Then **resolve + declare the course** and honor the **Course-Binding Standard**
+> (`history-hack-new-course-builder/references/course-binding-and-walls.md`): read only that course's
+> standards/content, emit only its prefix, and never read from or write to the protected `us-history` flagship
+> on a non-US build. If you cannot confirm you are on the current skill, **STOP and pull it first.**
+
 # Tennessee U.S. History Assessment Specialist
 
 ## Role
