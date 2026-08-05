@@ -1,0 +1,40 @@
+# Future Ready — annual currency guardrail.
+# Time-sensitive figures (federal loan rates, Pell max, FAFSA timing) go stale every
+# year. This workflow fails the build when a figure is missing provenance OR when the
+# annual review is overdue. It runs on any change to the Future Ready data/scripts AND
+# on a monthly schedule, so an overdue review surfaces within ~30 days with no PR.
+name: future-ready-currency
+
+on:
+  pull_request:
+    paths:
+      - "**/future_ready_data.json"
+      - "**/verify_future_ready_currency.py"
+      - "**/gen_future_questions.py"
+  push:
+    branches: [main]
+    paths:
+      - "**/future_ready_data.json"
+      - "**/verify_future_ready_currency.py"
+  schedule:
+    # 09:00 UTC on the 1st of every month — catches an overdue annual review.
+    - cron: "0 9 1 * *"
+  workflow_dispatch: {}
+
+jobs:
+  currency:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Locate Future Ready data
+        id: find
+        run: |
+          f=$(git ls-files '**/future_ready_data.json' | head -n1)
+          if [ -z "$f" ]; then echo "future_ready_data.json not found"; exit 1; fi
+          echo "data=$f" >> "$GITHUB_OUTPUT"
+          echo "dir=$(dirname "$f")" >> "$GITHUB_OUTPUT"
+      - name: Run currency guardrail
+        run: python3 "${{ steps.find.outputs.dir }}/verify_future_ready_currency.py" "${{ steps.find.outputs.data }}"

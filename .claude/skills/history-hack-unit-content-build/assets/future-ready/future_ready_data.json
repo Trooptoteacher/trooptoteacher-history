@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "purpose": "Single source of truth for TIME-SENSITIVE Future Ready figures (federal loan rates, Pell max, FAFSA timing). Every chart/graph and money-math page reads from here so nothing is hard-coded twice. Update ANNUALLY when new federal figures publish.",
+    "review_cadence": "annual",
+    "review_trigger": "Federal Direct Loan rates for the new academic year publish each year in late May (fsapartners.ed.gov, effective for loans first disbursed July 1). Re-verify EVERY figure below against its source_url, bump last_verified + last_reviewed, and move review_by forward one year.",
+    "last_reviewed": "2026-08-05",
+    "review_by": "2027-08-01",
+    "maintainer_note": "Rates current through AY2026-27 (undergraduate 6.52%, added 2026-08-05 from FSA Electronic Announcement 2026-06-04; see direct_loan_rates_undergrad.by_year_provenance). Next: the AY2027-28 undergraduate rate publishes ~late May 2027 — add it then and move review_by forward.",
+    "verified_against": ["U.S. Dept. of Education / Federal Student Aid", "U.S. Dept. of Veterans Affairs", "National Archives", "U.S. House History, Art & Archives"]
+  },
+
+  "time_sensitive": {
+    "direct_loan_rates_undergrad": {
+      "label": "Federal Direct Loan fixed APR — undergraduate Direct Subsidized/Unsubsidized",
+      "unit": "percent APR",
+      "source": "U.S. Dept. of Education, Federal Student Aid",
+      "source_url": "https://studentaid.gov/understand-aid/types/loans/interest-rates",
+      "by_year": {
+        "2021-22": 3.73,
+        "2022-23": 4.99,
+        "2023-24": 5.50,
+        "2024-25": 6.53,
+        "2025-26": 6.39,
+        "2026-27": 6.52
+      },
+      "by_year_provenance": "AY2026-27 = 6.52% per FSA Electronic Announcement 2026-06-04 (10-yr Treasury note high yield 4.468% at the 2026-05-12 auction + 2.05 undergraduate add-on = 6.518, rounded to 6.52). https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-06-04/interest-rates-federal-direct-loans-first-disbursed-between-july-1-2026-and-june-30-2027",
+      "last_verified": "2026-08-05"
+    },
+    "chart_example_apr": {
+      "label": "Representative APR used on the loan-cost chart",
+      "unit": "percent APR",
+      "value": 6.5,
+      "rationale": "Rounded representative rate near the most recent published year; the chart states it is an example.",
+      "source": "Derived from direct_loan_rates_undergrad",
+      "source_url": "https://studentaid.gov/understand-aid/types/loans/interest-rates",
+      "last_verified": "2026-08-05"
+    },
+    "pell_max": {
+      "label": "Federal Pell Grant maximum award",
+      "unit": "USD/year",
+      "value": 7395,
+      "as_of": "2024-25",
+      "source": "U.S. Dept. of Education, Federal Student Aid",
+      "source_url": "https://studentaid.gov/announcements-events/pell-max-award",
+      "last_verified": "2026-08-05"
+    },
+    "fafsa_open": {
+      "label": "When the FAFSA opens",
+      "note": "Traditionally October 1; the 2024-25 form was delayed to December 2023. VERIFY the open date each year — do not state a fixed month on student-facing pages without re-checking.",
+      "source": "U.S. Dept. of Education, Federal Student Aid",
+      "source_url": "https://studentaid.gov/apply-for-aid/fafsa",
+      "last_verified": "2026-08-05"
+    }
+  },
+
+  "historical_stable": {
+    "gi_bill_users_millions": {
+      "label": "WWII veterans who used GI Bill education/training benefits by 1956",
+      "value": 7.8,
+      "denominator_millions": 15.4,
+      "as_of": "by 1956 (original program close)",
+      "source": "U.S. Dept. of Veterans Affairs; National Archives, Servicemen's Readjustment Act",
+      "source_url": "https://www.archives.gov/milestone-documents/servicemens-readjustment-act",
+      "stable": true,
+      "last_verified": "2026-08-05"
+    },
+    "ndea_1958": {
+      "label": "National Defense Education Act (1958), post-Sputnik: Title II student loans + Title IV fellowships, science/math/foreign-language emphasis",
+      "source": "U.S. House History, Art & Archives",
+      "source_url": "https://history.house.gov/HouseRecord/Detail/15032436195",
+      "stable": true,
+      "last_verified": "2026-08-05"
+    },
+    "ccc_enrollees_millions": {
+      "label": "Civilian Conservation Corps enrollees, 1933-1942, with camp education/vocational training",
+      "value": 3.0,
+      "source": "National Archives, RG 35 (Records of the CCC)",
+      "source_url": "https://www.archives.gov/research/guide-fed-records/groups/035.html",
+      "stable": true,
+      "last_verified": "2026-08-05"
+    }
+  }
+}

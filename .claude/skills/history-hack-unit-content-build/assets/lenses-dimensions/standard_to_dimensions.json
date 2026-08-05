@@ -1,0 +1,985 @@
+{
+ "_source": "Live-US-History-Standards-in-order-1-95.docx (TDOE-derived; standard_to_unit_map.json _source_pdf)",
+ "_legend": {
+  "C": "Culture",
+  "E": "Economics",
+  "G": "Geography",
+  "H": "History",
+  "P": "Politics/Government",
+  "T": "Tennessee",
+  "TCA": "Tennessee Code Annotated (legally required)"
+ },
+ "standards": {
+  "US.01": {
+   "unit": 1,
+   "title": "Homestead Act and Transcontinental Railroad",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.02": {
+   "unit": 1,
+   "title": "Federal Policies Toward American Indians",
+   "dimensions": [
+    "C",
+    "G",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.03": {
+   "unit": 1,
+   "title": "Compromise of 1877, Jim Crow & Plessy v. Ferguson",
+   "dimensions": [
+    "C",
+    "G",
+    "H",
+    "P",
+    "T",
+    "TCA"
+   ]
+  },
+  "US.04": {
+   "unit": 1,
+   "title": "Gilded Age Politics and Economics",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.05": {
+   "unit": 1,
+   "title": "Inventions & Innovations of Business Leaders & Entrepreneurs",
+   "dimensions": [
+    "C",
+    "E",
+    "H"
+   ]
+  },
+  "US.06": {
+   "unit": 1,
+   "title": "Industrial Centers and Urbanization",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H"
+   ]
+  },
+  "US.07": {
+   "unit": 1,
+   "title": "Immigration: Old vs. New Immigrants",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.08": {
+   "unit": 2,
+   "title": "Social Darwinism & Social Gospel",
+   "dimensions": [
+    "C",
+    "E",
+    "H"
+   ]
+  },
+  "US.09": {
+   "unit": 2,
+   "title": "Booker T. Washington vs W.E.B. Du Bois",
+   "dimensions": [
+    "C",
+    "H",
+    "P",
+    "TCA"
+   ]
+  },
+  "US.10": {
+   "unit": 2,
+   "title": "Populism & Granger Movement",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.11": {
+   "unit": 2,
+   "title": "Rise of the Labor Movement",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.12": {
+   "unit": 2,
+   "title": "Trusts, Monopolies & Antitrust",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.13": {
+   "unit": 2,
+   "title": "Working Conditions, Women & Child Labor",
+   "dimensions": [
+    "C",
+    "E",
+    "H"
+   ]
+  },
+  "US.14": {
+   "unit": 2,
+   "title": "Muckrakers & Progressive Idealists",
+   "dimensions": [
+    "C",
+    "H",
+    "P"
+   ]
+  },
+  "US.15": {
+   "unit": 2,
+   "title": "Progressive Movement Goals & Achievements",
+   "dimensions": [
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.16": {
+   "unit": 2,
+   "title": "Theodore Roosevelt's Progressive Achievements",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.17": {
+   "unit": 2,
+   "title": "Woodrow Wilson's Progressive Achievements",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.18": {
+   "unit": 2,
+   "title": "Women's Suffrage Movement",
+   "dimensions": [
+    "C",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.19": {
+   "unit": 3,
+   "title": "Causes of American Imperialism",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.20": {
+   "unit": 3,
+   "title": "Interventionists vs Non-Interventionists",
+   "dimensions": [
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.21": {
+   "unit": 3,
+   "title": "Spanish-American War & Imperialism Outcomes",
+   "dimensions": [
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.22": {
+   "unit": 3,
+   "title": "Diplomatic Policies: Big Stick, Dollar, and Moral Diplomacy",
+   "dimensions": [
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.23": {
+   "unit": 3,
+   "title": "Causes of World War I & U.S. Neutrality",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.24": {
+   "unit": 3,
+   "title": "Reasons for American Entry into World War I",
+   "dimensions": [
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.25": {
+   "unit": 3,
+   "title": "Key Figures and Developments in World War I",
+   "dimensions": [
+    "C",
+    "G",
+    "H",
+    "T",
+    "TCA"
+   ]
+  },
+  "US.26": {
+   "unit": 3,
+   "title": "World War I Home Front",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.27": {
+   "unit": 3,
+   "title": "Wilson's Fourteen Points and League of Nations",
+   "dimensions": [
+    "H",
+    "P"
+   ]
+  },
+  "US.28": {
+   "unit": 4,
+   "title": "The Great Migration",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "T",
+    "TCA"
+   ]
+  },
+  "US.29": {
+   "unit": 4,
+   "title": "Radio, Movies, and Popular Culture",
+   "dimensions": [
+    "C",
+    "H"
+   ]
+  },
+  "US.30": {
+   "unit": 4,
+   "title": "Grand Ole Opry, Blues & Country Music",
+   "dimensions": [
+    "C",
+    "H",
+    "T",
+    "TCA"
+   ]
+  },
+  "US.31": {
+   "unit": 4,
+   "title": "New Technologies: Air Travel and Electricity",
+   "dimensions": [
+    "C",
+    "E",
+    "H"
+   ]
+  },
+  "US.32": {
+   "unit": 4,
+   "title": "Henry Ford, the Automobile & Mass Production",
+   "dimensions": [
+    "C",
+    "E",
+    "H"
+   ]
+  },
+  "US.33": {
+   "unit": 4,
+   "title": "The Harlem Renaissance",
+   "dimensions": [
+    "C",
+    "H",
+    "TCA"
+   ]
+  },
+  "US.34": {
+   "unit": 4,
+   "title": "Women in the 1920s: Flappers & Social Changes",
+   "dimensions": [
+    "C",
+    "E",
+    "H"
+   ]
+  },
+  "US.35": {
+   "unit": 4,
+   "title": "Civil Liberties: Red Scare, KKK & NAACP",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P",
+    "T",
+    "TCA"
+   ]
+  },
+  "US.36": {
+   "unit": 4,
+   "title": "The Scopes Trial",
+   "dimensions": [
+    "C",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.37": {
+   "unit": 4,
+   "title": "Prohibition & Its Impact on American Society",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.38": {
+   "unit": 4,
+   "title": "Credit, Consumerism & Financial Speculation",
+   "dimensions": [
+    "C",
+    "E",
+    "H"
+   ]
+  },
+  "US.39": {
+   "unit": 5,
+   "title": "Causes of the Great Depression",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.40": {
+   "unit": 5,
+   "title": "The Dust Bowl",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H"
+   ]
+  },
+  "US.41": {
+   "unit": 5,
+   "title": "Impact of the Great Depression on the American People",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H"
+   ]
+  },
+  "US.42": {
+   "unit": 5,
+   "title": "Herbert Hoover's Response",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.43": {
+   "unit": 5,
+   "title": "FDR's New Deal Programs",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.44": {
+   "unit": 5,
+   "title": "Effects and Controversies of New Deal Policies",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.45": {
+   "unit": 6,
+   "title": "Rise and Spread of Fascism, Communism, and Totalitarianism",
+   "dimensions": [
+    "C",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.46": {
+   "unit": 6,
+   "title": "FDR's Response to World Crises",
+   "dimensions": [
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.47": {
+   "unit": 6,
+   "title": "U.S. Response to the Holocaust",
+   "dimensions": [
+    "C",
+    "G",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.48": {
+   "unit": 6,
+   "title": "American Entry into World War II",
+   "dimensions": [
+    "G",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.49": {
+   "unit": 6,
+   "title": "WWII Leaders & Key Figures",
+   "dimensions": [
+    "H",
+    "P"
+   ]
+  },
+  "US.50": {
+   "unit": 6,
+   "title": "Major WWII Battles: Midway, Iwo Jima, Okinawa & D-Day",
+   "dimensions": [
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.51": {
+   "unit": 6,
+   "title": "Special Fighting Forces in WWII",
+   "dimensions": [
+    "C",
+    "H",
+    "T"
+   ]
+  },
+  "US.52": {
+   "unit": 6,
+   "title": "Women in World War II",
+   "dimensions": [
+    "C",
+    "E",
+    "H"
+   ]
+  },
+  "US.53": {
+   "unit": 6,
+   "title": "African Americans in WWII",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P",
+    "TCA"
+   ]
+  },
+  "US.54": {
+   "unit": 6,
+   "title": "Japanese American Internment & Korematsu",
+   "dimensions": [
+    "C",
+    "H",
+    "P"
+   ]
+  },
+  "US.55": {
+   "unit": 6,
+   "title": "Home Front Mobilization",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.56": {
+   "unit": 6,
+   "title": "Manhattan Project & Atomic Bomb",
+   "dimensions": [
+    "G",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.57": {
+   "unit": 6,
+   "title": "Yalta and Potsdam Conferences",
+   "dimensions": [
+    "H",
+    "P"
+   ]
+  },
+  "US.58": {
+   "unit": 6,
+   "title": "Founding of the United Nations & Cordell Hull",
+   "dimensions": [
+    "C",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.59": {
+   "unit": 7,
+   "title": "U.S.-Soviet Competition",
+   "dimensions": [
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.60": {
+   "unit": 7,
+   "title": "Containment and Early Cold War Policies",
+   "dimensions": [
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.61": {
+   "unit": 7,
+   "title": "Second Red Scare & McCarthyism",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.62": {
+   "unit": 7,
+   "title": "Korean War",
+   "dimensions": [
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.63": {
+   "unit": 7,
+   "title": "Eisenhower's Cold War Policies",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.64": {
+   "unit": 7,
+   "title": "Nuclear Fears and Civil Defense",
+   "dimensions": [
+    "C",
+    "H",
+    "P"
+   ]
+  },
+  "US.65": {
+   "unit": 7,
+   "title": "U.S.-Cuba Relations",
+   "dimensions": [
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.66": {
+   "unit": 7,
+   "title": "Vietnam War Causes, Course, and Consequences",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.67": {
+   "unit": 7,
+   "title": "Presidential Vietnam Policies",
+   "dimensions": [
+    "C",
+    "H",
+    "P"
+   ]
+  },
+  "US.68": {
+   "unit": 7,
+   "title": "Vietnam War Home Front Impact",
+   "dimensions": [
+    "C",
+    "H",
+    "P"
+   ]
+  },
+  "US.69": {
+   "unit": 7,
+   "title": "Space Race Competition",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.70": {
+   "unit": 7,
+   "title": "Cold War D\u00e9tente & the Fall of the Berlin Wall",
+   "dimensions": [
+    "C",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.71": {
+   "unit": 8,
+   "title": "1950s Prosperity & Consumerism",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.72": {
+   "unit": 8,
+   "title": "Baby Boomer Generation Impact",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H"
+   ]
+  },
+  "US.73": {
+   "unit": 8,
+   "title": "Eisenhower Administration Developments",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.74": {
+   "unit": 8,
+   "title": "Automobile's Growing Influence",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "T"
+   ]
+  },
+  "US.75": {
+   "unit": 8,
+   "title": "Television and Mass Media Impact",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P"
+   ]
+  },
+  "US.76": {
+   "unit": 8,
+   "title": "Youth Culture and Tennessee Music",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "T",
+    "TCA"
+   ]
+  },
+  "US.77": {
+   "unit": 8,
+   "title": "Kennedy's New Frontier",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.78": {
+   "unit": 9,
+   "title": "Brown v. Board of Education",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P",
+    "T",
+    "TCA"
+   ]
+  },
+  "US.79": {
+   "unit": 9,
+   "title": "Civil Rights Advocates and Opponents",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P",
+    "T",
+    "TCA"
+   ]
+  },
+  "US.80": {
+   "unit": 9,
+   "title": "Significant Civil Rights Events",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P",
+    "T",
+    "TCA"
+   ]
+  },
+  "US.81": {
+   "unit": 9,
+   "title": "Civil and Voting Rights Legislation",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P",
+    "TCA"
+   ]
+  },
+  "US.82": {
+   "unit": 9,
+   "title": "American Indian, Chicano & Feminist Movements",
+   "dimensions": [
+    "C",
+    "H",
+    "P"
+   ]
+  },
+  "US.83": {
+   "unit": 10,
+   "title": "Johnson's Great Society Programs",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P",
+    "T"
+   ]
+  },
+  "US.84": {
+   "unit": 10,
+   "title": "Social Activism and Counterculture",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.85": {
+   "unit": 10,
+   "title": "Nixon Administration Achievements",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.86": {
+   "unit": 10,
+   "title": "Watergate Scandal",
+   "dimensions": [
+    "C",
+    "H",
+    "P"
+   ]
+  },
+  "US.87": {
+   "unit": 10,
+   "title": "Emergence of Environmentalism",
+   "dimensions": [
+    "C",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.88": {
+   "unit": 10,
+   "title": "Carter Administration Events",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.89": {
+   "unit": 10,
+   "title": "Reagan Administration Significance",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.90": {
+   "unit": 10,
+   "title": "George H.W. Bush Administration",
+   "dimensions": [
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.91": {
+   "unit": 10,
+   "title": "Clinton Administration Events",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.92": {
+   "unit": 10,
+   "title": "September 11th Impact",
+   "dimensions": [
+    "C",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.93": {
+   "unit": 10,
+   "title": "Increasing Role of Women and Minorities",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P",
+    "TCA"
+   ]
+  },
+  "US.94": {
+   "unit": 10,
+   "title": "Communication Methods Evolution",
+   "dimensions": [
+    "C",
+    "E",
+    "G",
+    "H",
+    "P"
+   ]
+  },
+  "US.95": {
+   "unit": 10,
+   "title": "Obama Administration Achievements and Setbacks",
+   "dimensions": [
+    "C",
+    "E",
+    "H",
+    "P"
+   ]
+  }
+ }
+}

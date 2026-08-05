@@ -1,0 +1,9 @@
+{
+  "name": "history-hack-tcap-deck-builder",
+  "version": "3.3.0",
+  "private": true,
+  "description": "Build dependencies for the TCAP lecture deck generator (scripts/build_deck.js).",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

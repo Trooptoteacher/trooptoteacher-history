@@ -42,8 +42,8 @@ Everything below reflects what the engine and skills **currently** do, so you're
 | Element | Font / size | Color |
 |---|---|---|
 | Title (cover / section) | Calibri 28 pt bold | Navy |
-| H1 section head | Calibri 18 pt bold | Navy `#1B2A4A` |
-| H2 sub-head | Calibri 14 pt bold | Navy `#1B2A4A` |
+| H1 section head | Calibri 18 pt bold | Heritage Blue `#1F3A5F` |
+| H2 sub-head | Calibri 14 pt bold | Heritage Blue `#1F3A5F` |
 | H3 / activity label | Calibri 12 pt bold | Red `#B22234` |
 | **Body text** | **Calibri 10.5–11 pt** | Ink |
 | Table cell / compact furniture | Calibri 9.5–10.5 pt | Ink |
@@ -65,16 +65,17 @@ Light writable surfaces are intentionally pale so students can write on them and
 
 | Token | Hex | Use |
 |---|---|---|
-| Navy | `#1B2A4A` | Headers, bands, rules |
-| Red | `#B22234` | H2, accents, emphasis |
-| Gold | `#C89B3C` | Kickers, badges, Tennessee accent |
-| Card / cream | `#F7F5EF` | Callout and content-box fill |
+| Heritage Blue (navy) | `#1F3A5F` | Headers, bands, rules |
+| Patriot Red | `#B22234` | H2, accents, emphasis |
+| Muted Gold | `#C9A227` | Kickers, badges, Tennessee accent (sparingly) |
+| Founders Cream | `#F8F5EF` | Callout and content-box fill (dominant field) |
 | Navy 2 (secondary) | `#2C3E63` | Panels |
 | Light | `#EEF2F8` | Tints |
-| Border | `#C9C2B4` | Box rules |
-| Writing-line | `#C4CCDA` | Faint response guide-lines |
+| Border | `#CBD2DE` | Box rules |
+| Writing-line | `#9AA0AB` | Faint response guide-lines |
 
-**Canonical palette (LOCKED):** Navy **`#1B2A4A`** · Red **`#B22234`** · Gold **`#C89B3C`** · Card **`#F7F5EF`**. Every product aligns to these — the teacher deck's `#1A2332` and the web edition's `#0A1F3C` are **deprecated** and migrate to `#1B2A4A`; deck gold `#C9A84C` migrates to `#C89B3C`.
+**Canonical palette (LOCKED — America 250; migrated Aug 2026 per CLAUDE.md production guardrail):**
+Heritage Blue **`#1F3A5F`** · Patriot Red **`#B22234`** · Muted Gold **`#C9A227`** · Founders Cream **`#F8F5EF`** · writing-line **`#9AA0AB`**. Cream-dominant, blue-structure, red-emphasis, gold-sparingly. The legacy tokens `#1B2A4A`/`#0A1F3C`/`#143159` (navy), `#C89B3C`/`#C9A84C` (gold), `#F7F5EF` (cream), `#C4CCDA` (line) are **retired** — migrate any lingering use to the canonical set. Full spec: `00_START_HERE/BRAND_PALETTE.md`.
 
 **Grayscale rule (locked):** no color-only encoding. Anything communicated by color must *also* be communicated by shading, a rule/border, or a text label, so the book photocopies clean in black and white.
 
@@ -211,7 +212,8 @@ Data literacy is a tested C3 / Social Studies Practice skill, and TCAP leans hea
 
 - **Types:** bar, line, pie/100%-stacked, histogram, simple scatter, and point-location/thematic map schematics (on a PD Census/US-gov basemap — never a hand-built political/boundary map; accuracy + neutrality rule from §visual sourcing still applies).
 - **Two uses per data set:** (1) a **stimulus** the student interprets (a "read the data" prompt: trend, compare, infer, "what does this NOT tell you?"), and (2) a **create/represent** move where the student completes or builds a small chart from given numbers — the SSP "construct a visual representation" skill.
-- **Accuracy (Policy 2.600):** every chart is generated from a **verified dataset** with a **citation sidecar** (source, date, units, N). No invented numbers, no misleading axes (zero-baseline for bar charts; label units and breaks). Run values past `historian-factcheck-agent`/source when non-obvious.
+- **Accuracy (Policy 2.600):** every chart is generated from a **verified dataset** with a **Sources & Method sidecar attached to the chart** — data source (agency + URL), the method/formula with variables defined, the computed figures, units, N, and a verification line. No invented numbers, no misleading axes (zero-baseline for bar charts; label units and breaks). Run values past `historian-factcheck-agent`/source when non-obvious. Reference build: `FutureReady_Loan_Math` (loan-cost chart with full Sources & Method).
+- **Time-sensitive figures → annual currency guardrail (LOCKED Aug 2026):** any chart whose numbers age (federal loan rates, Pell max, FAFSA timing, tax/wage data) registers those figures in a **single source-of-truth JSON** (`future_ready_data.json`) with per-figure provenance (`source`/`source_url`/`last_verified`) and a `_meta.review_by` date. The generator **reads the JSON** (never hard-codes a rate twice); the **`verify_future_ready_currency.py`** guardrail fails the build when a figure lacks provenance or the annual review is overdue, and its CI workflow runs on every PR **and monthly** so staleness surfaces within ~30 days. Annual update = edit one JSON file, bump the dates.
 - **Accessibility (WCAG 2.2 AA):** every chart ships with **alt text AND a plain data-table fallback** so it is not the only way to get the information; grayscale-legible (pattern/label, not color alone — see §3).
 - **Owner:** `history-hack-unit-content-build` generates and embeds workbook/deck charts programmatically from datasets; `history-hack-poster-packet-builder` owns the large-format Data & Economics wall poster. Charts are counted in the visual-asset package and QC'd on render like any other visual.
 
@@ -271,9 +273,26 @@ Every box or prompt that asks a student to write **must give them somewhere to w
 
 Fill meaningful blank space with supports or a context-matched activity (§5) — **but the added content must fit the space it fills; it may never push content onto another page.** If it cannot fit, redirect the response (§7.2) or reflow. A near-empty page is a layout defect: fill it (often best as a **back-page support**, §7.1) or reflow it away. Always render and visually confirm after filling.
 
-### 7.4 CER self-grading rubric (required)
+### 7.4 CER self-grading rubric (required — College Board AP-aligned; LOCKED Aug 2026, Sean)
 
-Every Constructed Response (CER) includes a **student self-grading rubric**, not just a yes/no checklist: a scored table rating **Claim, Evidence, Reasoning, and Conventions** on a **1–4** scale, with a **total (/16)** and a "one thing I'll improve next time" line. It replaces the checklist (which it subsumes) to save space and teach self-assessment against the same criteria the teacher scores. Reference: Unit 6, US.45 Activity 7.
+Every Constructed Response (CER) includes a **student self-grading rubric modeled on the College
+Board AP U.S. History essay rubric** — the **6-point Long-Essay scale**, presented in the AP's own
+**A / B / C / D reporting-category** layout so it's familiar to any AP reader. This **supersedes** the
+former 1–4 /16 (Claim/Evidence/Reasoning/Conventions) rubric.
+
+| AP category | CER term | Points | Earns the point(s) |
+|---|---|---|---|
+| **A — Thesis / Claim** | Claim | 0–1 | Defensible claim that answers the prompt + a line of reasoning (not restating the prompt). |
+| **B — Contextualization** | Context | 0–1 | Broader historical context (before/during/after) relevant to the prompt. |
+| **C — Evidence** | Evidence | 0–2 | +1 two specific accurate facts · +2 *uses* that evidence to support the argument. |
+| **D — Analysis & Reasoning** | Reasoning | 0–2 | +1 a reasoning skill (causation / comparison / CCOT) · +2 complex understanding (perspective, qualifier, connection). |
+
+Total **/6**, with a **Reflect & Revise** block (what my score tells me · lowest category · the one
+change to earn the next point · recurring weak spot across CERs · re-score line). When the CER is
+**document-based**, category **C extends to the AP 7-point Document-Based scale** — the teacher flags
+which is in play. Lives on the **CER Writing Supports verso** (§7.1). Reference build: the AP-aligned
+`FutureReady_CER_SelfGrade` printable. (The scored self-grade is a self-assessment move — §7.10 — and
+teaches against the same criteria the teacher scores.)
 
 ### 7.5 QC gate (render + look)
 
@@ -283,17 +302,17 @@ No workbook change ships until it is **rendered to PDF and visually inspected** 
 
 Every standard runs an identical structure. Front matter opens the unit; each standard then runs an opener + a seven-activity cycle + an exit ticket. Front pages are clean/independent; UDL·MTSS supports live on the **verso** (§7.1).
 
-**Front matter (once):** Cover · Copyright/Framework · **Unit at a Glance** (standards list + 7-activity cycle, *no page numbers* — replaces the Word TOC field) · TN Standards & SSP Crosswalk · Accessibility/UDL matrix · How to Use · Before You Begin (goal exemplar).
+**Front matter (once):** Cover · Copyright/Framework · **Unit at a Glance** (standards list + 7-activity cycle, *no page numbers* — replaces the Word TOC field) · **TN Standards & SSP Crosswalk** (bottom space filled — Lenses/Dimensions coverage row / "how to read the crosswalk" strip) · **Accessibility/UDL & Accommodations matrix** (bottom space filled — extended rows + the non-replacement guardrail + UDL 3.0/CAST 2024 note) · **How to Use This Workbook** (the **legend** — verified & updated to teach the current systems: **Lenses/Dimensions pills** C/E/G/H/P/T/TCA, the **verso supports** model + three print modes, the **Future Ready** callout, **self-check keys**, **▶ Deck** keying; the fuller legend fills the page — no bottom white space) · **My SMART Goals** (short/mid/long, §7.12) · Before You Begin (goal exemplar). Every front-matter page obeys the §5 white-space bands — no unlabeled blank.
 
-**Per-standard opener (one page):** Learning Targets · Lenses · **CORE PATH** (identify the path only — no UDL/MTSS jargon shown to students) · SET YOUR GOAL (ruled) · **HOOK** (a strong *read*, not a writing task) · ACTIVATE (think / notebook) · PREVIEW & PREDICT (ruled). Every response box has writing lines or a redirect (§7.2).
+**Per-standard opener (one page):** Learning Targets · **Lenses** (the standard's Dimension pills — C/E/G/H/P/T/TCA; §7.13) · **CORE PATH** (identify the path only — no UDL/MTSS jargon shown to students) · **SET YOUR SMART GOAL** (the guided SMART frame — S·M·A·R·T tagged with **ruled lines to write it**; this is the per-unit **short-term** goal that ladders to *My SMART Goals*, §7.12; fills the opener) · **HOOK** (a strong *read*, not a writing task) · ACTIVATE (think / notebook) · **PREVIEW & PREDICT (ruled** — remaining opener space becomes writing room). Every response box has writing lines or a redirect (§7.2).
 
 **The seven-activity cycle:**
 1. **Vocabulary** — word bank + language support + knowledge self-check. *Verso:* Vocabulary Supports (word-attack, quick practice *with space*, cognate practice, study tip). MAKE IT YOURS → notebook/whiteboard redirect.
 2. **Vocabulary Studio** (Frayer) — RESPONSE CHOICE. CONNECT THE TERMS → notebook/whiteboard redirect (no stranded box).
-3. **Cornell Notes (GUIDED — Direct Teaching)** — the cue column is **pre-seeded** with the standard's direct-instruction (DI) segments **in lecture order**: navy topic · gold `▶ Deck · DI N of M` (maps 1:1 to the teacher deck's on-slide "N of M" DI labels) · italic guiding question. My-notes column (ruled, RESPONSE CHOICE), More Notes/Diagrams, Key terms, Summary, Progress Check, Check Yourself, headline. (No separate "Doodle Zone" — redundant with More Notes.) *Verso:* **NOTES SUPPORTS** ladder (§7.9).
-4. **Close Read** — key-terms-first *before* the reading; CORE PATH passage with **spaced sub-sections**; CLOSE-READ EVIDENCE LAB with ruled answer space.
-5. **Primary Source / HIPPO** — front: source + HIPPO table + confidence check-in. *Verso:* HIPPO Supports (guiding questions, sourcing frames, model, try-it).
-6. **Practice Quiz** — numbered MC items + **on-page self-check answer key** ("commit first, then check"; §7.4 sibling for MC).
+3. **Cornell Notes (GUIDED — Direct Teaching)** — the cue column is **pre-seeded** with the standard's direct-instruction (DI) segments **in lecture order**: navy topic · gold `▶ Deck · DI N of M` (maps 1:1 to the teacher deck's on-slide "N of M" DI labels — **every reference populated**, never blank) · italic guiding question. My-notes column (ruled, RESPONSE CHOICE), More Notes/Diagrams, an **expanded DOODLE ZONE** (a labeled sketchnote/dual-coding space with generous room — LOCKED Aug 2026, Sean; reverses the prior "no doodle zone" rule), Key terms, Summary, **Progress Check** (each item carries a **locator cue** — "→ see cue N / your notes"), **Check Yourself** (a rating scale on **every** item, not only item 1), and an **extended-room 12–15 word headline** (ruled). *Verso:* **NOTES SUPPORTS** ladder (§7.9).
+4. **Close Read** — key-terms-first *before* the reading; CORE PATH passage with **spaced sub-sections** (visible gap between paragraphs — kills the end-of-passage white space, §7.7); the **academic/tie-together vocabulary words are bolded in-passage**; CLOSE-READ EVIDENCE LAB with ruled answer space; leftover space takes a context-matched text-source fill (§5.5). **Thesis mini-lesson:** "How to Write a Thesis" scaffold introduced here and carried onto the CER Writing Supports verso (§7.6 Act 7) — the thesis is the Close-Read→CER bridge.
+5. **Primary Source / HIPPO** — front: source + HIPPO table + confidence check-in. **Every support/response area has real ruled writing room (`notebook_table`) or an explicit redirect** ("write this on your whiteboard / here") — no stranded prompt with nowhere to write (§7.2). *Verso:* HIPPO Supports (guiding questions, sourcing frames, model, try-it).
+6. **Practice Quiz** — numbered MC items + **on-page self-check answer key** filling the page (correct letter **+ a one-line rationale** per item: why right / why the tempting distractor is wrong; "commit first, then check"). The rationale key is the Integrity self-grade move and fills the Activity-6 white space. **Rule:** *every* formative MCQ set anywhere in the book ships this self-check key at point of use.
 7. **Constructed Response (CER)** — front: big-question organizer, response table, **self-grade rubric** (§7.4), **peer review** (glow/grow/revision). *Verso:* CER Writing Supports (stems, model, student-language rubric, plan-it organizer, word bank).
 
 **Exit Ticket** — closes the standard, kept **whole on its own page** (`cantSplit`), never split across pages.
@@ -317,7 +336,7 @@ The workbook will key each writing/response activity to the exact Course Standar
 
 The workbook, Student deck, and Teacher deck follow **one sequence** so students follow the lecture and take notes in a clear, sequential pattern. **Activity 3 (Direct Teaching Cornell Notes) is the spine.**
 
-**Front — guided Cornell.** The cue column is **pre-seeded** with the standard's direct-instruction (DI) segments in **lecture order**, one cue block per DI slide: **navy topic** · **gold `▶ Deck · DI N of M`** (the guided-notes bridge — it maps 1:1 to the teacher deck's own on-slide "N of M" DI labels; use the *relative* "N of M", never an absolute slide number, so it survives deck renumbering) · **italic guiding question** (what to listen for). The "My notes" column keeps ruled lines + the RESPONSE CHOICE line.
+**Front — guided Cornell.** The cue column is **pre-seeded** with the standard's direct-instruction (DI) segments in **lecture order**, one cue block per DI slide: **navy topic** · **gold `▶ Deck · DI N of M`** (the guided-notes bridge — it maps 1:1 to the teacher deck's own on-slide "N of M" DI labels; use the *relative* "N of M", never an absolute slide number, so it survives deck renumbering; **every reference must be populated from the deck `_build.json` — a blank `DI _ of _` is a defect**) · **italic guiding question** (what to listen for). The "My notes" column keeps ruled lines + the RESPONSE CHOICE line. Below the notes: an **expanded DOODLE ZONE** — a labeled sketchnote / dual-coding space with generous room (LOCKED Aug 2026, Sean; reverses the earlier "no doodle zone" rule — the sketch space is now a distinct dual-coding move, not a duplicate of More Notes). The **Progress Check** items each carry a **locator cue** ("→ see cue N"), the **Check Yourself** rating scale repeats on **every** item, and the **12–15 word headline** gets extended ruled room.
 
 **Back — NOTES SUPPORTS ("build your notes, your way").** A four-rung support ladder so a high-need student can produce full notes **from the back alone** — the ceiling never drops (UDL 3.0 guideline 5.3 graduated support; MTSS Tier 1 = front, Tier 2/3 = verso):
 1. **① Sentence frames — finish the thought** (4 frames).
@@ -353,6 +372,26 @@ Assessment is not a single end-of-standard quiz — it is a **cadence** built in
 
 **Rules:** (1) every standard shows spaced retrieval + formative + self-assessment in-book; the summative layer is assembled by `tn-assessment-specialist` and referenced, never hand-authored in the workbook. (2) The self-check answer key sits **on the same page** as the items it checks ("commit first, then check"). (3) Retrieval prompts pull from *earlier* standards (interleaving is what makes it spaced), never this page's own content. (4) Do not overclaim the book as a complete spaced-repetition system — it seeds; `spaced-repetition-engine` owns cross-lesson scheduling.
 
+### 7.12 Future Ready — employability & goals system (LOCKED Aug 2026, Sean; UDL 3.0 / CAST 2024)
+
+Every workbook makes named employability skills **visible and measurable** through a Future Ready system — bookend sheets + a scaffolded SMART-goal ladder + embedded reflective questions + money-math, all rolling up to one measurable spine (the Debrief `/40`). Reference builds: the `FutureReady_*` printables.
+
+**Per-unit bookend.**
+- **Launch** (before the unit): Grade & Missing-Items check · **SMART short-term goal** (guided S·M·A·R·T frame, ruled) · **Hireability baseline** — a 10-trait 1–4 rubric (Timeliness · Integrity · Work ethic · Adaptability · Lifelong learning · Organization · Reliability · Civic responsibility · Teamwork · Leadership), each with an observable look-for, scored `/40` · **Voice-to-Email** setup + 5-part email frame.
+- **Debrief** (after the unit): Goal check-in (Met/Partly/Not + evidence) · Grade delta · **Timeliness tally** (per-class on-time/late marks → total lates) · **Hireability re-score** `/40` + growth (▲▬▼) · next-unit commitment. The Launch↔Debrief delta **is** the measurement.
+
+**SMART-goal ladder (all goals are SMART).** Students identify & create a **short-, mid-, and long-term** SMART goal, each with a **completed exemplar in a high-schooler's voice** + a blank builder (`My SMART Goals` page) and a **Reflect & Commit** piece (ladder connection · obstacle+plan · accountability partner · first step). A **SMART Support** sheet teaches the frame (what SMART means · worked model · builder · follow-up routine) and prints on the back of Launch. The opener's **SET YOUR SMART GOAL** (§7.6) is the per-unit short-term rung.
+
+**Embedded, high-value only (never forced).** Two in-lesson elements, placed **only** where the content gives a natural hook, max ~2–3 per unit, each rolling up to the Debrief/`My SMART Goals`:
+- **Future Ready Questions** — a standard-tied reflective pop-up (path after HS: trade/college/military · free college · scholarships · FAFSA · gap year), hung on the exact standard (e.g., US.05 Gilded Age, US.58 GI Bill, US.68 Space Race). Carries a sources footnote for its historical hooks.
+- **Employability micro-moments** — a tiny FR tag where a trait is authentically exercised: Practice-Quiz self-check → **Integrity/Lifelong learning**; Cornell/notes → **Organization**; any collaborative task → **Teamwork/Leadership/Reliability**; Primary Source/CER → **Civic responsibility/Integrity**. Vocabulary & Close Read get **no forced tag**.
+
+**Money-math (where economics fits).** A financial-literacy chart/worksheet (e.g., *The Real Cost of Borrowing* — computed loan amortization) built to the §7.11 data-viz + Sources & Method + **currency-guardrail** rules, tied to a standard (e.g., US.25 · the 1920s). Closed-loop: FAFSA/scholarship guidance points to the counselor / financial-aid office, no web link-outs (CIPA/COPPA/FERPA).
+
+### 7.13 Lenses / Dimensions — disciplinary strand proof-of-coverage (LOCKED Aug 2026, Sean)
+
+Every standard prints its **TDOE disciplinary dimension pills** on the opener (§7.6, labeled **"Lenses"** for students; **"Dimensions"** in formal/adoption contexts) and on the deck's Standard Divider: **C** Culture · **E** Economics · **G** Geography · **H** History · **P** Politics/Government · **T** Tennessee · **TCA** Tennessee Code Annotated. Pill styling: T = gold, TCA = red, others = navy. The dimension tags are sourced **verbatim** from `Live-US-History-Standards-in-order-1-95.docx` (header line only, end-anchored) into a canonical `standard_to_dimensions.json` with a verifier; a course-wide **Dimension Coverage Crosswalk** ships as proof-of-coverage. This gives adoption reviewers explicit, per-standard strand coverage.
+
 ---
 
 ## 8. Web edition parity
@@ -376,6 +415,12 @@ When you change something above, here's what I touch:
 | Palette / canonical navy | `NAVY/RED/GOLD/CARD/…` constants in the engine + brand tokens in the web edition and the graphic-organizer `toolkit_lib.py` |
 | White-space bands / activity library | `white-space-activity-library.md` (the locked reference the skills read) + the render-time white-space gate |
 | Section order / anatomy | The build spec + the platinum skills' anatomy sections |
+| Cornell doodle zone · populated `DI N of M` · Progress-Check locators · Check-Yourself per-item rating · headline room | `scripts/build_guided_notes.py` (Activity 3 front) |
+| Opener SMART goal · Preview & Predict ruled space · Lenses pills | opener builder + `standard_to_dimensions.json` |
+| AP-aligned CER self-grade (§7.4) · thesis mini-lesson · HIPPO writing space · MCQ self-check key + rationale | `scripts/build_backpage_supports.py` + quiz builder |
+| Future Ready system (§7.12) | `gen_future*` builders + `future_ready_data.json` (SoT) |
+| Chart Sources & Method + annual currency guardrail (§7.11) | `future_ready_data.json` · `verify_future_ready_currency.py` · `future-ready-currency.yml` CI |
+| Front-matter legend + white-space fills | front-matter builder (How to Use / crosswalk / accessibility matrix) |
 
 The skills I'd sync to this file: `history-hack-unit-content-build` (the unit-workbook builder this standard governs), `history-hack-platinum-unit-builder`, `history-hack-graphic-organizer-workbook`, and `udl-cast-expert`. The standalone DBQ product is governed separately by `history-hack-dbq-workbook`, not by this file.
 
