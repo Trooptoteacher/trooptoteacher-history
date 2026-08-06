@@ -124,12 +124,21 @@ figure img{ width:100%; border:1px solid var(--line); }
 figcaption{ font-size:8.5pt; color:var(--ink-soft); margin-top:4px; }
 .stop-media{ display:grid; grid-template-columns:1.15fr 1fr; gap:16px; align-items:start; margin:10px 0; }
 .stop-media figure{ margin:0; }
-.stop-media figure img{ width:100%; border:1px solid var(--line); }
+.stop-media figure img{ width:100%; object-fit:cover; border:1px solid var(--line); }
+.stop-media figcaption{ font-size:8pt; }
+.source-band dd{ font-size:8.5pt; margin:0 0 4px; }
 .source-band{ border:1px solid var(--line); border-radius:8px; padding:10px 12px; background:var(--tint-warm); }
 .source-band h4{ margin:0 0 6px; font:700 8.5pt "DejaVu Sans"; letter-spacing:.08em; text-transform:uppercase; color:var(--red); }
 .source-band dl{ margin:0 0 6px; } .source-band dt{ font:700 9pt "DejaVu Sans"; color:var(--rule); } .source-band dd{ margin:0 0 5px; font-size:9pt; }
-.vocab{ display:grid; grid-template-columns:1fr 1fr; gap:6px 16px; }
-.vocab .v{ font-size:9pt; } .vocab .t{ font-weight:700; }
+.src-col{ display:flex; flex-direction:column; gap:8px; }
+.hvt{ border:1.5px solid var(--gold); border-radius:8px; padding:8px 11px; background:#fbf6e9; }
+.hvt-hd{ font:700 8pt "DejaVu Sans"; letter-spacing:.06em; text-transform:uppercase; color:var(--ink); margin-bottom:4px; }
+.hvt-badge{ display:inline-block; background:var(--rule); color:#fff; border-radius:4px; padding:2px 6px; letter-spacing:.08em; margin-right:4px; }
+.hvt p{ margin:0; font-size:8.7pt; line-height:1.32; }
+.vocab{ display:grid; grid-template-columns:1fr 1fr; gap:4px 16px; }
+.vocab .v{ font-size:7.6pt; line-height:1.25; } .vocab .t{ font-weight:700; }
+
+.fl-cue{ font:700 8.5pt "DejaVu Sans"; color:var(--rule); text-align:right; margin-top:9px; }
 
 /* Arc of the Union — capture table + coordinate plot */
 table.arc{ width:100%; border-collapse:collapse; font-size:9pt; margin:8px 0 10px; }

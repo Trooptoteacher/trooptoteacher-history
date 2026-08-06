@@ -191,53 +191,132 @@ page_friends=f'''<section class="page">{sec("Unit 1","Who you’ll travel with")
 {value_predict()}
 </section>'''
 
-# ---- PAGE 6: Stop 1 (own page) ----
-voc="".join(f'<div class="v"><span class="t">{t}</span> — {d}</div>' for t,d in VOCAB)
-page_stop=f'''<section class="page">
-<div class="stop-hd"><span class="n">1</span><span class="t">Free Land — and Whose Land?</span></div>
-<p class="small"><b>Standard US.01 · Learning target:</b> Analyze how the Homestead Act and the transcontinental railroad drove westward settlement — and why the same expansion was opportunity for settlers and dispossession for Native nations.</p>
-<div class="callout"><b>Spark asks:</b> Here’s the deal — move onto 160 acres, live there five years, plant something, and the land is yours. Free. Forever. No catch… except the “empty” land was somebody’s home. <b>What do you notice?</b></div>
-<div class="wlabel" style="margin-top:8px">First glance — jot two things you notice before you read on:</div>
-<div class="write"><div class="ln"></div><div class="ln"></div></div>
+# ---- STOPS 1–7 (data-driven from the canonical banks) ----
+import json as _json, html as _html
+_ROOT = BASE.parents[1]                                  # history-hack-web-app
+_NARR = _json.load(open(_ROOT/"content-build/us-history/narrative/unit-01.json"))
+_READER = _json.load(open(_ROOT/"public/data/us-history/textbook/unit-1.json"))
+_VOCAB = {t["term"]: t["definition"] for t in _json.load(open(_ROOT/"public/data/us-history/vocabulary/unit-1.json"))}
+def _esc(s): return _html.escape(str(s or ""), quote=False)
+def _spread(n): return next((s for s in _NARR["spreads"] if s.get("spreadNumber")==n), {})
+def _src(n):
+    for s in _READER.get("spreads",[]):
+        if s.get("spreadNumber")==n: return (s.get("primarySource") or {}).get("image") or {}
+    return {}
+
+# Per-stop presentation metadata (image asset, short title, Word-Wall terms, WHO/WHEN/WHY, TN tie).
+# TN ties marked verified are historian-confirmable facts; the rest are honest inquiry prompts
+# pending a tn-content-specialist / historian-factcheck fill.
+STOP_META = {
+ 1:{"title":"Free Land — and Whose Land?","img":"u1_railroad","terms":["Homestead Act","Transcontinental Railroad","Exodusters"],
+    "who":"Andrew J. Russell — a Union Pacific photographer on assignment.","when":"May 10, 1869 — the rails meet at Promontory Summit.","why":"To document a national triumph: coast joined to coast by rail.",
+    "closer":"Who is <i>in</i> this photo — and who isn’t? Whose land did these tracks cross?",
+    "tn":"<b>★ Tennessee Connection.</b> Nashville’s Pap Singleton led the ‘Exodusters’ west as Reconstruction collapsed; Buffalo Soldier George Jordan, born in Tennessee, earned the Medal of Honor on this frontier."},
+ 2:{"title":"Made to Vanish","img":"u1_carlisle","terms":["Reservation System","Dawes Act","Assimilation"],
+    "who":"John N. Choate — the Carlisle school’s official photographer.","when":"1882 and 1885 — ‘before’ and ‘after’ portraits of Tom Torlino (Navajo).","why":"To advertise assimilation as a success and win support for the boarding-school program.",
+    "closer":"What does the ‘before/after’ framing want you to believe — and what does it hide?",
+    "tn":"<b>★ Tennessee Connection.</b> Red Clay, Tennessee, was the last seat of the Cherokee national government before the 1838 Removal — the same assimilation-or-remove logic this federal policy carried forward."},
+ 3:{"title":"The Refs Walk Off","img":"u1_freedmen","terms":["Compromise of 1877","Jim Crow Laws","Plessy v. Ferguson","Disenfranchisement"],
+    "who":"Alfred R. Waud — a <i>Harper’s Weekly</i> illustrator.","when":"July 25, 1868 — a Freedmen’s Bureau officer holding two mobs apart.","why":"To show a national audience the Bureau standing between freedpeople and violence.",
+    "closer":"When the federal ‘referee’ leaves in 1877, who gets to write the rules next?",
+    "tn":"<b>★ Tennessee Connection.</b> Tennessee passed one of the nation’s earliest separate-car (segregation) laws in 1881 — Jim Crow taking legal shape at home."},
+ 4:{"title":"The Group Chat You’re Not In","img":"u1_trust","terms":["Gilded Age","Political Machines","Spoils System","Pendleton Act"],
+    "who":"Joseph Keppler — cartoonist for <i>Puck</i>.","when":"January 23, 1889 — “The Bosses of the Senate.”","why":"To argue that industrial trusts, not voters, controlled the Senate.",
+    "closer":"Why draw the trusts as giants and the senators as tiny? Where is the ‘People’s Entrance’?",
+    "tn":"<b>★ Tennessee Connection — investigate.</b> How did machine politics take root in a Tennessee city (start with Memphis)? Find one local example. <i>[pending historian-verified fill]</i>"},
+ 5:{"title":"Gospel — and Its Price","img":"u1_octopus","terms":["Robber Barons/Captains of Industry","Monopoly","Trust","Vertical Integration"],
+    "who":"Udo J. Keppler — cartoonist for <i>Puck</i>.","when":"September 7, 1904 — “Next!”","why":"To depict Standard Oil as an octopus strangling industry and government.",
+    "closer":"Carnegie’s ‘Gospel of Wealth’ and this cartoon describe the same men. Which is true — or are both?",
+    "tn":"<b>★ Tennessee Connection.</b> Tennessee ended convict leasing in 1896 after the Coal Creek War, when miners rose against prisoners being leased into the mines — industrial labor’s fight, fought at home."},
+ 6:{"title":"The City That Can’t House Its Workers","img":"u1_ellis","terms":["Urbanization","Ellis Island","New Immigrants","Push-Pull Factors"],
+    "who":"Detroit Publishing Company.","when":"ca. 1910–1920 — the Ellis Island inspection room.","why":"To document the processing point where more than twelve million immigrants entered.",
+    "closer":"What do the benches, rails, and scale of the room say about how the country saw the people passing through?",
+    "tn":"<b>★ Tennessee Connection — investigate.</b> How did Nashville and Memphis grow as rail-and-industry hubs in these years? Find one example of who did the work. <i>[pending historian-verified fill]</i>"},
+ 7:{"title":"‘Expat’ or ‘Immigrant’?","img":"u1_riis","terms":["Old Immigrants","New Immigrants","Nativism","Chinese Exclusion Act"],
+    "who":"Jacob Riis — police reporter and reformer.","when":"1889 — “Five Cents a Spot,” a Bayard Street lodging house.","why":"To expose tenement conditions in <i>How the Other Half Lives</i> and force reform.",
+    "closer":"Riis wanted reform — but whose gaze is the camera? How might the people in the room have told it?",
+    "tn":"<b>★ Tennessee Connection — investigate.</b> Which immigrant communities put down roots in Tennessee in this era, and how were they received? <i>[pending historian-verified fill]</i>"},
+}
+
+# HVT — "High-Value Target": the single must-know takeaway per standard (EOC-tested
+# core). A concise summary-label of the LOCKED standard, not new narrative.
+HVT = {
+ 1:"The transcontinental railroad and Homestead Act opened the West for settlers <b>and</b> drove the dispossession of Native nations — one expansion, two outcomes.",
+ 2:"Reservations, the Dawes Act, and boarding schools were one coordinated policy to break up Native land and erase culture — assimilation by force.",
+ 3:"The Compromise of 1877 ended Reconstruction; <i>Plessy v. Ferguson</i> (1896) made ‘separate but equal’ the law — the legal foundation of Jim Crow.",
+ 4:"In the Gilded Age, trusts and political machines held the real power; the Pendleton Act began replacing the spoils system with merit.",
+ 5:"Industrial titans built the modern economy through monopoly and vertical/horizontal integration — hailed as ‘Captains of Industry,’ condemned as ‘Robber Barons.’",
+ 6:"Industrial jobs plus mass immigration exploded the growth of cities — and packed workers into crowded, dangerous tenement conditions.",
+ 7:"‘New immigrants’ from Southern & Eastern Europe and Asia met nativism and exclusion laws — including the Chinese Exclusion Act (1882).",
+}
+def _wordwall(terms):
+    cells=[]
+    for t in terms:
+        d=_VOCAB.get(t)
+        if d: cells.append(f'<div class="v"><span class="t">{_esc(t)}</span> — {_esc(d)}</div>')
+    return "".join(cells)
+
+def stop_page(n):
+    sp=_spread(n); m=STOP_META[n]; im=_src(n)
+    code=", ".join(sp.get("standardCodes") or [f"US.0{n}"])
+    lo=_esc(sp.get("learningObjective"))
+    hook=_esc(sp.get("engagementHook"))
+    cap=_esc(im.get("caption")); cite=_esc(im.get("citation"))
+    # Deterministic page-fill: scale the primary-source image height inversely to the
+    # stop's content weight (hook + vocab), so every stop self-levels to ~92-96%.
+    weight = len(sp.get("engagementHook") or "") + sum(len(_VOCAB.get(t,"")) for t in m["terms"])
+    img_h = 3.1 if weight<1000 else 3.05 if weight<1100 else 2.8
+    terms = m["terms"][:3] if weight>1130 else m["terms"]   # trim the single densest stop so the cue fits
+    return f'''<section class="page">
+<div class="stop-hd"><span class="n">{n}</span><span class="t">{_esc(m["title"])}</span></div>
+<p class="small"><b>Standard {code} · Learning target:</b> {lo}</p>
+<div class="callout"><b>Spark asks:</b> {hook} <b>What do you notice?</b></div>
 <div class="stop-media">
-  <figure><img src="{img('u1_railroad.png')}" alt="Golden Spike ceremony, 1869"><figcaption>Golden Spike Ceremony, Promontory Summit, Utah, May 10, 1869. <i>A. J. Russell, National Archives — public domain.</i></figcaption></figure>
-  <div class="source-band"><h4>Source It First</h4>
-    <dl><dt>WHO</dt><dd>Andrew J. Russell — a Union Pacific photographer on assignment.</dd>
-    <dt>WHEN</dt><dd>May 10, 1869 — the day the rails met at Promontory Summit.</dd>
-    <dt>WHY</dt><dd>To document a national triumph: coast joined to coast by rail.</dd></dl>
-    <div class="small"><b>Read it closer:</b> Who is <i>in</i> this photo — and who isn’t? Whose land did these tracks cross to make the ceremony possible?</div>
+  <figure><img src="{img(m["img"]+".png")}" alt="{_esc(cap)[:120]}" style="height:{img_h}in"><figcaption>{cap} <i>{cite}</i></figcaption></figure>
+  <div class="src-col">
+    <div class="source-band"><h4>Source It First</h4>
+      <dl><dt>WHO</dt><dd>{m["who"]}</dd><dt>WHEN</dt><dd>{m["when"]}</dd><dt>WHY</dt><dd>{m["why"]}</dd></dl>
+      <div class="small"><b>Read it closer:</b> {m["closer"]}</div>
+    </div>
+    <div class="hvt"><div class="hvt-hd"><span class="hvt-badge">◎ HVT</span> High-Value Target — lock this in</div><p>{HVT[n]}</p></div>
   </div>
 </div>
 <div class="sec" style="border-left-color:var(--gold);margin:8px 0 6px"><div class="eyebrow">Word Wall · EN/ES</div></div>
-<div class="vocab">{voc}</div>
-<div class="tint cool" style="margin-top:10px"><b>★ Tennessee Connection.</b> Nashville’s Pap Singleton led the ‘Exodusters’ west as Reconstruction collapsed; Buffalo Soldier George Jordan of Williamson County earned the Medal of Honor on the frontier this unit opens.</div>
+<div class="vocab">{_wordwall(terms)}</div>
+<div class="tint cool" style="margin-top:10px">{m["tn"]}</div>
+<div class="fl-cue">▶ Now make your call — capture Stop {n} on the next page (your Flight Log).</div>
 </section>'''
 
-# ---- PAGE 7: MSgt Muck writing assignment (own page: CER space + rubric + app handoff) ----
-claim_lines="".join('<div class="ln"></div>' for _ in range(7))
-eviA="".join('<div class="ln"></div>' for _ in range(4))
-eviB="".join('<div class="ln"></div>' for _ in range(4))
-debrief_lines="".join('<div class="ln"></div>' for _ in range(3))
-page_write=f'''<section class="page">{sec("MSgt “Muck” · Debrief","Stop 1 — Make Your Call")}
-<p class="lead"><b>Anna and Chaska describe the same acres in opposite terms.</b> Make the call: how could the Homestead Act be a genuine promise <i>and</i> a genuine injustice at the same time? Claim first, then prove it with a detail from <i>each</i> perspective.</p>
+def writing_page(n):
+    sp=_spread(n); m=STOP_META[n]
+    cc=sp.get("comprehensionCheck"); cc=cc if isinstance(cc,dict) else {}
+    prompt=_esc(cc.get("question")) or "Make the call on this stop, and defend it with evidence from the source."
+    nxt = f"fly to Stop {n+1}." if n<7 else "head to the Arc of the Union."
+    claim="".join('<div class="ln"></div>' for _ in range(7))
+    eviA="".join('<div class="ln"></div>' for _ in range(4)); eviB="".join('<div class="ln"></div>' for _ in range(4))
+    deb="".join('<div class="ln"></div>' for _ in range(3))
+    return f'''<section class="page">{sec("MSgt “Muck” · Debrief", _esc(m["title"])+" — Make Your Call")}
+<p class="lead">{prompt} <b>Claim first, then prove it — a detail from each side.</b></p>
 <div class="wlabel">Your claim — one sentence:</div>
-<div class="write">{claim_lines}</div>
+<div class="write">{claim}</div>
 <div class="two-ev">
-  <div><div class="wlabel">Evidence from Anna:</div><div class="write">{eviA}</div></div>
-  <div><div class="wlabel">Evidence from Chaska:</div><div class="write">{eviB}</div></div>
+  <div><div class="wlabel">Evidence — first perspective:</div><div class="write">{eviA}</div></div>
+  <div><div class="wlabel">Evidence — the other:</div><div class="write">{eviB}</div></div>
 </div>
 <div class="sec" style="border-left-color:var(--gold);margin:12px 0 5px"><div class="eyebrow">Self-grade before you fly</div></div>
 <table class="rubric"><thead><tr><th>4 — Cleared</th><th>3 — Airworthy</th><th>2 — Pre-flight</th><th>1 — Grounded</th></tr></thead>
 <tbody><tr>
-<td>Clear claim + evidence from <b>both</b> perspectives; names the tension between them.</td>
+<td>Clear claim + evidence from <b>both</b> sides; names the tension between them.</td>
 <td>Claim + evidence from both; tension implied, not stated.</td>
 <td>Claim with evidence from only one side.</td>
 <td>An opinion, no evidence yet.</td>
 </tr></tbody></table>
 <div class="wlabel" style="margin-top:10px">Muck’s debrief — in ONE sentence: what did this stop cost, and what did it buy?</div>
-<div class="write">{debrief_lines}</div>
-<div class="app"><span class="badge">Web · Writing Lab</span> &nbsp;Now go to <b>History Hack online → Writing Lab</b>, type your response, and check it against this rubric for <b>instant feedback</b>. Revise here, then fly to Stop 2.</div>
+<div class="write">{deb}</div>
+<div class="app"><span class="badge">Web · Writing Lab</span> &nbsp;Now go to <b>History Hack online → Writing Lab</b>, type your response, and check it against this rubric for <b>instant feedback</b>. Revise here, then {nxt}</div>
 </section>'''
+
+stops_html = "".join(stop_page(n)+writing_page(n) for n in range(1,8))
 
 # ---- COVER (full-bleed hero art) ----
 page_cover = f'<section class="cover-page"><img src="{img("cover.png")}" alt="To Form a More Perfect Union — cover"></section>'
@@ -336,7 +415,7 @@ page_arc_read = f'''<section class="page">{sec("The Arc of the Union","Read the 
 
 html = f'''<!doctype html><html><head><meta charset="utf-8">
 <link rel="stylesheet" href="style.css"></head><body>
-{page_cover}{page_foreword}{page_toc}{page_crew}{page_how}{page_div}{page_friends}{page_stop}{page_write}{page_arc_plot}{page_arc_read}
+{page_cover}{page_foreword}{page_toc}{page_crew}{page_how}{page_div}{page_friends}{stops_html}{page_arc_plot}{page_arc_read}
 </body></html>'''
 
 out = BASE/"out"/"ToFormAMorePerfectUnion_Unit1_PROOF.pdf"

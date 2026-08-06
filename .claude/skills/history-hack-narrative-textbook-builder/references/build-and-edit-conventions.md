@@ -28,11 +28,22 @@ rendered PDF.
 
 - Header: `N` + short stop title; standard code + verbatim learning target.
 - **Spark hook** callout ("What do you notice?") + a 2-line **first-glance jot**.
-- **Media row**: primary-source image (repo-first; LOC/NARA fallback; public-domain, cited) paired with a
-  **Source It First** band — **WHO / WHEN / WHY** + one "read it closer" question.
-- **Word Wall · EN/ES** — all of the stop's vocabulary, bilingual.
-- **State Connection** (Tennessee for the flagship; derive per course).
+- **Media row (two columns)**: left = the primary-source image (repo-first; LOC/NARA fallback; public-domain,
+  cited). Right column stacks, top to bottom:
+  - **Source It First** band — **WHO / WHEN / WHY** + one "read it closer" question.
+  - **HVT — "High-Value Target"** box (gold-accented, `◎ HVT · lock this in`): the single **must-know
+    takeaway** for that standard (the EOC-tested core), written as a concise summary-label of the LOCKED
+    content — never new narrative or a new fact. The HVT balances the tall image and gives every stop a
+    tested-essential anchor. HVT lines are builder synthesis → flag for `tn-content-specialist` review.
+- **Word Wall · EN/ES** — the stop's vocabulary from the canonical vocab bank, bilingual (3–4 terms; trim to
+  3 on the single densest stop so the page passes the fill gate).
+- **State Connection** (Tennessee for the flagship; derive per course; verified fact or an honest inquiry
+  prompt flagged `[pending historian-verified fill]` — never fabricate).
+- A **▶ Flight Log** bridge cue at the foot, leading into the facing writing page.
 - A facing **writing page** (see below).
+
+Deterministic page-fill: scale the source-image height inversely to each stop's content weight (hook +
+vocab) so every stop self-levels to ≥ 90% without a manual pass; the build gate confirms it.
 
 ## Writing page (CER + app handoff)
 
