@@ -83,6 +83,24 @@ Every unit ships a **Flight Log**: the write-in student companion to the reader.
 Course-parameterized identically to the reader (per-unit stop list from `courses/<id>/course.json` +
 narrative source). Same B&W-safe contract; teacher-key edition adds answers (teacher-side only).
 
+**No-drift stop index.** `build_flightlog.py` derives each unit's stop list directly from the reader
+builder (`build_unit.UNITS`) via `resolve(unit)`, so Entry N always equals Stop N by construction; only
+Unit 1 (rendered by `render_textbook.py`/`render_proof.py`) carries a local index. Never hand-maintain a
+second stop list.
+
+**Teacher edition (`python3 build_flightlog.py <unit> teacher`).** Same structure as the student log,
+plus a grounded **exemplar CER** per stop — a model claim that *names the tension*, two evidence points,
+the Debriefer's one-sentence cost/benefit debrief, and the self-grade anchor — from the `EXEMPLARS`
+table (keyed unit→stop). Exemplars are **teacher-side only** (guardrail #2), each grounded in the stop's
+LOCKED HVT takeaway (builder synthesis → flag for `tn-content-specialist`). The teacher edition renders
+on a **distinct crimson brand band** marked "not for student distribution," carries the
+classroom-formative · pre-field-test disclosure, and replaces the Arc capture with Arc *reading notes*.
+Teacher-only CSS is **inlined** in the builder so the shared print contract (which the passing units
+depend on) is never touched. Output: `..._FlightLog_TeacherEdition.pdf`.
+
+**Cover override.** `FL_COVER` env var swaps the cover image (default = full-res hero art); point it at a
+downsampled asset (e.g. `assets/cover_web.jpg`) for a lighter download build — content identical.
+
 ## Value-block menu (white-space value rule)
 
 When a page is short of 90%, insert a `.value` block — pick for fit and impact, never filler:

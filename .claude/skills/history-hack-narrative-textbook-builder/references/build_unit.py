@@ -29,6 +29,9 @@ UNITS = {
   "title":"Turning the Light On","era":"The Progressive Era","years":"1890–1920",
   "eq":"When money and machines hold the real power, can ordinary people take democracy back — and for whom?",
   "extrapolate":"1929","next":3,
+  "witness":"the ballot &amp; the paycheck — who can <i>vote</i>, and who earns a living <i>wage</i>",
+  "anticipation":["Big business and big cities made life better for everyone who worked hard.","Reform works best when ordinary people force it from below.","Winning the vote settled the question of women’s equality."],
+  "predict":"in the Progressive Era, who finally gains real power — and who is still left out?",
   "stops":[
    {"codes":["US.08","US.09"],"title":"Two Roads Out","kind":"excerpt","src":"ps-us09-1",
     "who":"Booker T. Washington — founder of Tuskegee Institute.","when":"1895 — the ‘Atlanta Compromise’ address.","why":"To urge Black economic self-help and accommodation with the white South.",
@@ -76,6 +79,54 @@ UNITS = {
     "tn":"<b>★ Tennessee Connection.</b> Tennessee cast the <b>deciding 36th vote</b> for the 19th Amendment in August 1920 — 24-year-old Rep. <b>Harry Burn</b> changed his vote after a letter from his mother. Nashville’s <b>Anne Dallas Dudley</b> helped lead the campaign."},
   ],
  },
+ 3:{
+  "title":"On the Menu","era":"Imperialism & World War I","years":"1898–1919",
+  "eq":"When a nation that was born rejecting empire becomes one — and then goes to war to 'make the world safe for democracy' — is it living up to its founding promise, or betraying it?",
+  "extrapolate":"1929","next":4,
+  "witness":"the map &amp; the trench — who the U.S. rules abroad, and what the war costs those sent to fight",
+  "anticipation":["A nation born rejecting empire had no business taking colonies.","The U.S. entered World War I to defend democracy, not its own interests.","Limiting free speech is justified when the country is at war."],
+  "predict":"as the U.S. becomes an empire and goes to war, who gains — and who pays the price?",
+  "stops":[
+   {"codes":["US.19","US.20"],"title":"What’s on the Menu?","kind":"photo","img":"u3/menu.jpg",
+    "cap":"“Well, I hardly know which to take first!” — Uncle Sam reads a menu of Spanish colonies (Cuba, Puerto Rico, the Philippines) as the U.S. debates becoming an empire, 1898.","cite":"“Well, I hardly know which to take first!” 1898. Wood engraving. Library of Congress Prints and Photographs Division.",
+    "who":"An 1898 American political cartoonist.","when":"1898 — as the U.S. debated taking overseas colonies.","why":"To satirize the nation’s sudden appetite for empire.",
+    "closer":"Uncle Sam reads the menu — but who wrote it, and who isn’t at the table?",
+    "hvt":"Markets, strategic naval bases (Mahan), and a ‘civilizing mission’ drove U.S. imperialism — challenged head-on by the Anti-Imperialist League.",
+    "vocab":["Imperialism","Yellow Journalism","Alfred Thayer Mahan","Emilio Aguinaldo"],
+    "tn":"<b>★ Tennessee Connection — investigate.</b> How did Tennessee’s newspapers and leaders line up on the imperialism debate of 1898? <i>[pending historian-verified fill]</i>"},
+   {"codes":["US.21","US.22"],"title":"A Splendid Little War","kind":"photo","img":"u3/roughriders.jpg",
+    "cap":"Colonel Theodore Roosevelt and his Rough Riders atop the San Juan Heights they captured, Cuba, 1898 — the image that made TR a national hero.","cite":"Dinwiddie, William. Colonel Roosevelt and his Rough Riders at the top of the hill which they captured, Battle of San Juan. 1898. Photograph. Library of Congress Prints and Photographs Division.",
+    "who":"William Dinwiddie — a war correspondent-photographer.","when":"1898 — atop San Juan Heights, Cuba.","why":"To document (and build the legend of) TR’s Rough Riders at the war’s iconic moment.",
+    "closer":"A victory photo. Who does it feature — and who fought and died out of frame (the Black ‘Buffalo Soldiers’)?",
+    "hvt":"The Spanish-American War (1898) made the U.S. an overseas empire; TR’s Big Stick, Taft’s Dollar, and Wilson’s Moral diplomacy followed.",
+    "vocab":["Spanish-American War","Big Stick Diplomacy","Dollar Diplomacy","Panama Canal","Roosevelt Corollary"],
+    "tn":"<b>★ Tennessee Connection.</b> Tennessee raised volunteer regiments for the 1898 war — the state was in the fight that turned the U.S. into an empire."},
+   {"codes":["US.23","US.24"],"title":"The Room Full of Gasoline","kind":"excerpt","src":"ps-us24-1",
+    "who":"German Foreign Minister Arthur Zimmermann.","when":"January 1917 — a secret coded telegram to Mexico.","why":"To propose a German–Mexican alliance if the U.S. entered the war — intercepted and published.",
+    "closer":"A secret note helped push a neutral country into war. Why did it land so hard on the American public?",
+    "hvt":"WWI’s long causes were MAIN (militarism, alliances, imperialism, nationalism); the U.S. entered after unrestricted submarine warfare and the Zimmermann Telegram.",
+    "vocab":["Militarism","Alliance System","Unrestricted Submarine Warfare","Zimmermann Telegram","RMS Lusitania"],
+    "tn":"<b>★ Tennessee Connection — investigate.</b> How did Tennesseans experience the shift from neutrality to war in 1917? <i>[pending historian-verified fill]</i>"},
+   {"codes":["US.25"],"title":"Life in the Ditch","kind":"excerpt","src":"ps-us25-1",
+    "who":"The U.S. War Department.","when":"1918 — Alvin C. York’s Medal of Honor citation.","why":"To officially record one soldier’s extraordinary action in the Meuse-Argonne Offensive.",
+    "closer":"York was a Tennessee conscientious objector who became a hero. What changed his mind — and what did it cost him?",
+    "hvt":"New technology (machine guns, gas, tanks) made WWI combat catastrophic; the AEF — Pershing, York, the Harlem Hellfighters — helped tip the balance in 1918.",
+    "vocab":["Trench Warfare","No Man's Land","Alvin C. York","John J. Pershing","Harlem Hellfighters"],
+    "tn":"<b>★ Tennessee Connection.</b> <b>Alvin C. York</b> was a Tennessean from Fentress County — a devout conscientious objector who, in the Meuse-Argonne, became one of the war’s most decorated soldiers."},
+   {"codes":["US.26"],"title":"The War at Home","kind":"excerpt","src":"ps-us26-1",
+    "who":"Justice Oliver Wendell Holmes, for the Supreme Court.","when":"1919 — <i>Schenck v. United States</i>.","why":"To rule that wartime speech creating a ‘clear and present danger’ is not protected.",
+    "closer":"When the country is at war, how much dissent should the First Amendment protect?",
+    "hvt":"The home front mobilized (women, war bonds, Creel’s CPI propaganda) — and civil liberties shrank (Espionage & Sedition Acts; <i>Schenck v. U.S.</i>).",
+    "vocab":["Committee on Public Information","Espionage and Sedition Acts","Schenck v. United States","George Creel"],
+    "tn":"<b>★ Tennessee Connection — investigate.</b> How were dissent and civil liberties handled in Tennessee during the war? <i>[pending historian-verified fill]</i>"},
+   {"codes":["US.27"],"title":"Fourteen Points, Zero Votes","kind":"excerpt","src":"ps-us27-1",
+    "who":"President Woodrow Wilson.","when":"January 8, 1918 — the Fourteen Points.","why":"To set a blueprint for a just peace built on self-determination and a League of Nations.",
+    "closer":"Wilson dreamed up the League — then his own Senate refused to join. Why?",
+    "hvt":"Wilson’s Fourteen Points sought self-determination and a League of Nations — but the Senate (Lodge) rejected the Treaty of Versailles, and the U.S. never joined.",
+    "vocab":["Fourteen Points","Treaty of Versailles","League of Nations","Self-Determination","Henry Cabot Lodge"],
+    "tn":"<b>★ Tennessee Connection.</b> Tennessee’s <b>Cordell Hull</b> championed internationalism through these years; a generation later he helped found the United Nations and won the Nobel Peace Prize — the League’s idea, revived."},
+  ],
+ },
 }
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -96,9 +147,12 @@ def build(unit):
     def excerpt_of(sid):
         it = TEXTSRC.get(sid, {})
         exc = (it.get("excerpt") or it.get("text") or "").strip()
-        # keep to ~3 sentences so the block fits the column
+        # keep ~3 sentences so the block fits the column; extend to a 4th when the
+        # 3-sentence quote is short, so the left column fills the stop (real source text, not filler).
         parts = exc.replace("…","… ").split(". ")
-        short = ". ".join(parts[:3]).strip()
+        n = 3
+        if len(". ".join(parts[:3]).strip()) < 360 and len(parts) >= 4: n = 4
+        short = ". ".join(parts[:n]).strip()
         if short and not short.endswith((".","!","?","”","…")): short += "…"
         cite = it.get("citation") or {}
         mla = cite.get("mlaCitation") if isinstance(cite,dict) else cite
@@ -106,12 +160,12 @@ def build(unit):
 
     # DIVIDER
     stds = "".join(f'<div class="std"><span class="chip">{c}</span><span class="txt">{esc(standards.get(c,""))[:90]}</span></div>' for c in codes_sorted)
+    ag = "".join(f'<div class="ag-row"><span class="st">{i+1}. {esc(s)}</span><span class="boxes"><span class="cb"></span>Agree &nbsp;<span class="cb"></span>Disagree</span></div>' for i,s in enumerate(U["anticipation"]))
+    smart2 = '<div class="ln"></div>' if len(codes_sorted)<=9 else ''   # lighter standard lists earn a measurable 2nd line
     before = f'''<div class="value"><div class="vh"><span class="tag">Before You Fly</span><h4>Set your heading — predict, commit, self-check</h4></div>
 <p><b>Anticipation guide.</b> Agree or disagree on instinct — revisit at <i>The Arc of the Union</i>.</p>
-<div class="ag-row"><span class="st">1. Big business and big cities made life better for everyone who worked hard.</span><span class="boxes"><span class="cb"></span>Agree &nbsp;<span class="cb"></span>Disagree</span></div>
-<div class="ag-row"><span class="st">2. Reform works best when ordinary people force it from below.</span><span class="boxes"><span class="cb"></span>Agree &nbsp;<span class="cb"></span>Disagree</span></div>
-<div class="ag-row"><span class="st">3. Winning the vote settled the question of women’s equality.</span><span class="boxes"><span class="cb"></span>Agree &nbsp;<span class="cb"></span>Disagree</span></div>
-<p style="margin-top:9px"><b>Set your goal (SMART).</b> One thing you’ll master this unit:</p><div class="write"><div class="ln"></div></div>
+{ag}
+<p style="margin-top:9px"><b>Set your goal (SMART).</b> Name one standard you’ll master this unit — and how you’ll <i>measure</i> that you hit it (a score, an artifact, a call you can defend):</p><div class="write"><div class="ln"></div>{smart2}</div>
 <div class="fr-tie"><b>Future-Ready · ACT-Ready.</b> Predict, then revise from evidence — the ACT-reading move. Rate your starting knowledge of {codes_sorted[0]}–{codes_sorted[-1]}: <span class="rate">1&nbsp;&nbsp;2&nbsp;&nbsp;3&nbsp;&nbsp;4&nbsp;&nbsp;5</span></div></div>'''
     page_div = f'''<section class="page">
 <div style="border-top:3px solid var(--rule);border-bottom:3px solid var(--rule);padding:14px 0;margin-bottom:6px">
@@ -129,32 +183,47 @@ def build(unit):
             fid=p.get("friendId") or ""; head=p.get("heading") or ""
             if head and fid and fid not in seen: seen[fid]=head
     fr = "".join(f'<div class="friend"><div><div class="fn">{esc(h.split("·")[0].strip())}</div><div class="fd">{esc(h.split("·",1)[1].strip() if "·" in h else "")}</div></div></div>' for h in seen.values())
+    plines = 5 if len(seen) >= 5 else 7   # lighter friend rosters earn more prediction room (self-levels the page)
     predict = f'''<div class="value"><div class="vh"><span class="tag">Make Your Call</span><h4>Predict before you land</h4></div>
-<p><b>Predict:</b> in the Progressive Era, who finally gains real power — and who is still left out when the unit ends in {U["years"].split("–")[1]}? Commit now; test it at every stop.</p>
-<div class="write"><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln"></div></div>
-<div class="fr-tie"><b>Why this matters.</b> Naming a claim before all the evidence is in — then revising honestly — is the core habit of a historian and a Ready Graduate.</div></div>'''
+<p><b>Predict:</b> {esc(U["predict"])} Commit now; test it at every stop through {U["years"].split("–")[1]}.</p>
+<div class="write">{"".join('<div class="ln"></div>' for _ in range(plines))}</div>
+<div class="fr-tie"><b>Why this matters.</b> Naming a claim before all the evidence is in — then revising honestly — is the core habit of a historian and a Ready Graduate. You’ll return to this prediction at <i>The Arc of the Union</i>.</div></div>'''
+    wl = U["witness"]; wl_lead = wl.split("—")[0].strip()
     page_friends = f'''<section class="page">{sec("Unit "+str(unit),"Who you’ll travel with")}
 <p class="lead">These era-friends carry the unit — <b>composite characters</b> built from the documented record and marked as fiction. Real historical figures appear only in their own recorded words.</p>
-{fr}<div class="tint" style="margin-top:8px"><b>🔦 Witness Lens — the ballot &amp; the paycheck.</b> Two things measure this era: who can <i>vote</i>, and who is paid a living <i>wage</i>. Track both at every stop — the Progressive promise is tested against them.</div>{predict}</section>'''
+{fr}<div class="tint" style="margin-top:8px"><b>🔦 Witness Lens — {wl_lead}.</b> {wl[len(wl_lead)+1:].strip().lstrip("—").strip().capitalize() if "—" in wl else wl}. Track it at every stop.</div>{predict}</section>'''
 
     # STOPS
     def stop_page(i, st):
         sp = next((spreads[n] for n in spreads if set(st["codes"]) & set(spreads[n].get("standardCodes") or [])), {})
         code = ", ".join(st["codes"])
         lo = esc(sp.get("learningObjective"))
-        hook = esc(sp.get("engagementHook"))
+        hook_raw = (sp.get("engagementHook") or "").strip()
+        if len(hook_raw) > 235:   # trim long hooks to ~2 sentences so the stop fits one page
+            parts = hook_raw.replace("…","… ").split(". ")
+            hook_raw = ". ".join(parts[:2]).strip()
+            if hook_raw and not hook_raw.endswith((".","!","?","…","”")): hook_raw += "…"
+        hook = esc(hook_raw)
         # deterministic fill: scale the left column (photo height / excerpt min-height)
         # inversely to the other content weight (hook + vocab) so each stop self-levels.
-        terms = st["vocab"][:3] if len(",".join(VOCAB.get(t,"") for t in st["vocab"]))>620 else st["vocab"]
-        weight = len(sp.get("engagementHook") or "") + sum(len(VOCAB.get(t,"")) for t in terms)
-        h = 3.9 if weight<700 else 3.6 if weight<900 else 3.35 if weight<1050 else 3.1
+        terms = st["vocab"][:4]   # cap Word Wall at 4 terms so the page always fits the TN block + cue
+        weight = len(hook_raw) + sum(len(VOCAB.get(t,"")) for t in terms)
+        h = 3.5 if weight<700 else 3.3 if weight<900 else 3.05 if weight<1050 else 2.8
+        if st["kind"]=="excerpt": h -= 0.35   # quote block runs taller than a photo for the same height
         jot = ('<div class="wlabel" style="margin-top:8px">First glance — jot one thing you notice before you read on:</div>'
                '<div class="write"><div class="ln"></div></div>') if weight<900 else ''
         if st["kind"]=="photo":
-            left = f'<figure class="stopfig"><img src="{A}/{st["img"]}" alt="{esc(st.get("cap",""))[:110]}" style="height:{h}in"><figcaption>{st.get("cap","")} <i>{st.get("cite","")}</i></figcaption></figure>'
+            capt = st.get("cap","")
+            if len(capt) > 135:   # keep the figcaption to ~1 sentence; full detail lives in the citation
+                capt = capt.split(" — ")[0].rstrip(".,") + "."
+            left = f'<figure class="stopfig"><img src="{A}/{st["img"]}" alt="{esc(st.get("cap",""))[:110]}" style="height:{h}in"><figcaption>{capt} <i>{st.get("cite","")}</i></figcaption></figure>'
         else:
             exc, mla = excerpt_of(st["src"])
-            left = f'<div class="excerpt" style="min-height:{h}in"><div class="eq">“{esc(exc)}”</div><div class="ec">— {st["who"].replace("<i>","").replace("</i>","")}<br><span class="cite">{esc(mla)}</span></div></div>'
+            # The quote box height is what fills the left column. A very short quote (few
+            # sentences) leaves the stop short at the bottom, so grow the box for short quotes
+            # so wordwall/TN/cue push down and the page self-levels to the fill gate.
+            heq = h + (0.85 if len(exc) < 340 else 0.3 if len(exc) < 380 else 0.0)
+            left = f'<div class="excerpt" style="min-height:{heq}in"><div class="eq">“{esc(exc)}”</div><div class="ec">— {st["who"].replace("<i>","").replace("</i>","")}<br><span class="cite">{esc(mla)}</span></div></div>'
         return f'''<section class="page">
 <div class="stop-hd"><span class="n">{i}</span><span class="t">{esc(st["title"])}</span></div>
 <p class="small"><b>Standard {code} · Learning target:</b> {lo}</p>
@@ -180,9 +249,10 @@ def build(unit):
         prompt = esc(cc.get("question")) or "Make the call on this stop, and defend it with evidence from the source."
         nxt = f"fly to Stop {i+1}." if i < len(U["stops"]) else "head to the Arc of the Union."
         L=lambda k:"".join('<div class="ln"></div>' for _ in range(k))
+        cl = 8 if len(prompt) < 215 else 7 if len(prompt) < 320 else 6   # adapt to prompt length
         return f'''<section class="page">{sec("MSgt “Muck” · Debrief", st["title"]+" — Make Your Call")}
 <p class="lead">{prompt} <b>Claim first, then prove it — evidence from the source.</b></p>
-<div class="wlabel">Your claim — one sentence:</div><div class="write">{L(8)}</div>
+<div class="wlabel">Your claim — one sentence:</div><div class="write">{L(cl)}</div>
 <div class="two-ev"><div><div class="wlabel">Evidence — first point:</div><div class="write">{L(4)}</div></div>
 <div><div class="wlabel">Evidence — second point:</div><div class="write">{L(4)}</div></div></div>
 <div class="sec" style="border-left-color:var(--gold);margin:12px 0 5px"><div class="eyebrow">Self-grade before you fly</div></div>
