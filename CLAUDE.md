@@ -74,15 +74,19 @@ honestly. Full protocol: `00_START_HERE/BUILD_PREFLIGHT.md`.
 
 ## Production guardrails — print-first platform (LOCKED)
 
-**Documents (workbooks, teacher guides, answer keys, organizers) — DOCX-native → PDF.**
-Author natively in `.docx` (the docx engine / `engine.js` / `python-docx` — `build_guided_notes.py`,
-`build_teacher_guide.py`), then convert to PDF with LibreOffice
-(`HOME=/root/lohome soffice --headless --convert-to pdf FILE`). **Never author the document as HTML
-or markdown and render it to PDF** — HTML→PDF mangles page breaks, running headers/footers, and page
-numbers; native `.docx` paginates correctly. The **editable `.docx` is the author's archive / master**
-(TroopToTeacher's source of truth for future edits); the **PDF is the distribution artifact teachers
-receive and print** — a faithful convert, not teacher-edited. Detail: `00_START_HERE/BUILD_STANDARD.md`
-§4. (24×36 vector wall posters are the only direct-vector exception — they are not documents.)
+**Documents (workbooks, teacher guides, answer keys, organizers) — print-first via the WeasyPrint
+`print-pipeline`; NO `.docx` deliverable.** Author every document through the governed
+`print-pipeline` (`print-pipeline/render.py` + a per-unit content JSON + the **locked
+`print-pipeline/print-contract.css` / `styles/workbook.css`** Paged-Media contract), which WeasyPrint
+renders to PDF. **Do NOT ship a `.docx`** — this is Sean's standing directive; the `.docx` path is
+retired for delivery. The locked Paged-Media contract owns page breaks, running headers/footers, and
+page numbers — the exact failure the old "never ad-hoc HTML→PDF" rule guarded against — so the
+governed pipeline paginates correctly and is the delivery path. (Ad-hoc, *uncontracted* HTML→PDF is
+still banned; the contract is what makes the pipeline safe.) The **PDF is the distribution artifact
+teachers receive and print**; an editable `.docx` MAY be kept as an *optional* author archive but is
+**never** required and is not the deliverable. Detail: `00_START_HERE/BUILD_STANDARD.md` §4 +
+`print-contract.css`. (24×36 vector wall posters are the only direct-vector exception — they are not
+documents.)
 
 **Slide decks — .pptx-native → PDF.**
 Generate `.pptx` natively via **pptxgenjs**, then convert to PDF via **LibreOffice**. **Never HTML or
