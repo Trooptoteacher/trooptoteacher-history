@@ -302,8 +302,19 @@ def build(unit):
 <p>Your data stops in {arc[-1][0]}. <b>Extend the line:</b> where would <b>{U["extrapolate"]}</b> land? Draw a <b>dotted prediction</b> — you’ll test it next unit.</p></div></div>
 <div class="fr-tie"><b>Cross-curricular · Future-Ready.</b> Plotting evidence, finding a trend, extrapolating, and defending a claim with data is one skill across history, math, science, and every career path.</div></section>'''
 
+    # ---- CREDITS / COLOPHON (back matter): copyright, writing attribution, sources ----
+    import bookmeta
+    srcs = []
+    for st in U["stops"]:
+        if st["kind"] == "photo":
+            srcs.append(st.get("cite", ""))
+        else:
+            _, mla = excerpt_of(st["src"])
+            srcs.append(mla)
+    page_credits = bookmeta.credits_page_html(f"Unit {unit} · {codes_sorted[0]}–{codes_sorted[-1]}", srcs)
+
     html = f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head><body>
-{page_div}{page_friends}{stops_html}{page_arc1}{page_arc2}</body></html>'''
+{page_div}{page_friends}{stops_html}{page_arc1}{page_arc2}{page_credits}</body></html>'''
     out = BASE/"out"/f"ToFormAMorePerfectUnion_Unit{unit}.pdf"
     HTML(string=html, base_url=str(BASE)).write_pdf(str(out))
     print("WROTE", out)
@@ -315,10 +326,13 @@ def build(unit):
         pm=d[i].get_pixmap(colorspace=fitz.csGRAY,dpi=DPI); W,H=pm.width,pm.height; px=pm.samples; lim=H-FOOT; end=0
         for y in range(lim):
             if min(px[y*W:(y+1)*W])<205: end=y
-        f=100*end/lim
-        if f<90: fails.append((i+1,f))
-        print(f"  p{i+1:>2} {f:5.1f}% {'OK' if f>=90 else '*** BELOW ***'}")
+        f=100*end/lim; last = (i+1)==d.page_count   # credits/colophon back page is exempt
+        if f<90 and not last: fails.append((i+1,f))
+        tag = 'exempt — credits' if last else ('OK' if f>=90 else '*** BELOW ***')
+        print(f"  p{i+1:>2} {f:5.1f}% {tag}")
     print("QC PASS" if not fails else "QC FAIL: "+", ".join(f"p{n}({f:.0f}%)" for n,f in fails))
+    d.close()
+    bookmeta.stamp_metadata(out, f"To Form a More Perfect Union — Unit {unit}: {U['title']}")
 
 if __name__=="__main__":
     build(int(sys.argv[1]) if len(sys.argv)>1 else 2)

@@ -91,7 +91,7 @@ EXEMPLARS = {
      "debrief":"Urban growth bought industrial power and opportunity — at the cost of overcrowded, unsafe living conditions."},
   7:{"claim":"The 'new immigrants' from Southern and Eastern Europe and Asia were met not with welcome but with nativism and laws designed to keep them out.",
      "ev1":"Reformers like Jacob Riis exposed tenement conditions in 'How the Other Half Lives,' shaping how the public saw the newcomers.",
-     "ev2":"The Chinese Exclusion Act (1882) became the first federal law to bar an entire group by nationality.",
+     "ev2":"The Chinese Exclusion Act (1882) was the first federal law to restrict immigration by nationality — barring Chinese laborers.",
      "debrief":"Immigration bought the labor that built industrial America — at the cost of the exclusion and prejudice new arrivals faced."},
  },
  2:{
@@ -266,6 +266,13 @@ def build(unit, teacher=False):
 <div class="fr-tie" style="margin-top:12px"><b>Debrief for {DEBRIEFER}.</b> In one sentence: what did this unit cost, and what did it buy?</div>
 <div class="write"><div class="ln"></div><div class="ln"></div></div></section>'''
 
+    # Copyright + writing-attribution line (on-page) — appended to the intro page.
+    import bookmeta
+    colo = (f'<p class="small" style="margin-top:12px;color:#6b7280">{esc(bookmeta.SERIES)} · '
+            f'Written by {esc(bookmeta.AUTHOR_LEGAL)} (“{esc(bookmeta.AUTHOR_VOICE)}”). '
+            f'{esc(bookmeta.COPYRIGHT)}</p>')
+    goals = goals.replace("</section>", colo + "</section>", 1)
+
     head_css = f'<link rel="stylesheet" href="style.css">' + (TEACHER_CSS if teacher else "")
     html = f'''<!doctype html><html><head><meta charset="utf-8">{head_css}</head><body>
 {cover}{goals}{entries_html}{arc}</body></html>'''
@@ -273,6 +280,9 @@ def build(unit, teacher=False):
     out = BASE/"out"/f"ToFormAMorePerfectUnion_Unit{unit}{suffix}.pdf"
     HTML(string=html, base_url=str(BASE)).write_pdf(str(out))
     print("WROTE", out)
+    ed = "Teacher Flight Log (Answer Key)" if teacher else "Student Flight Log"
+    bookmeta.stamp_metadata(out, f"To Form a More Perfect Union — Unit {unit} {ed}: {U['title']}",
+                            subject="Student write-in Flight Log companion")
 
 if __name__ == "__main__":
     unit = int(sys.argv[1]) if len(sys.argv) > 1 else 1

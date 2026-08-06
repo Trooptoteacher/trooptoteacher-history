@@ -5,11 +5,15 @@ content -> HTML -> WeasyPrint -> PDF. Layout governed entirely by style.css
 (the B&W-safe print contract). This is the Unit 1 + front-matter PROOF that
 demonstrates the redesign + Sean's edit list before rolling to Units 2-3.
 """
+import os
 from pathlib import Path
 from weasyprint import HTML
 
 BASE = Path(__file__).parent
 A = "assets"
+# Cover asset. Defaults to the full-res hero art; set PROOF_COVER to a lighter image
+# (e.g. cover_web.jpg) for a smaller web/served build — content is identical.
+COVER = os.environ.get("PROOF_COVER", "cover.png")
 
 CREW = [
     ("crew_archive.png",   "Archive", "Call sign “J. Troop” · Pilot & Mission Commander",
@@ -284,7 +288,7 @@ def stop_page(n):
 <div class="sec" style="border-left-color:var(--gold);margin:8px 0 6px"><div class="eyebrow">Word Wall · EN/ES</div></div>
 <div class="vocab">{_wordwall(terms)}</div>
 <div class="tint cool" style="margin-top:10px">{m["tn"]}</div>
-<div class="fl-cue">▶ Now make your call — capture Stop {n} on the next page (your Flight Log).</div>
+<div class="fl-cue">▶ Now make your call — log it as <b>Flight Log · Entry {n}</b> (then check it in the Writing Lab).</div>
 </section>'''
 
 def writing_page(n):
@@ -319,7 +323,7 @@ def writing_page(n):
 stops_html = "".join(stop_page(n)+writing_page(n) for n in range(1,8))
 
 # ---- COVER (full-bleed hero art) ----
-page_cover = f'<section class="cover-page"><img src="{img("cover.png")}" alt="To Form a More Perfect Union — cover"></section>'
+page_cover = f'<section class="cover-page"><img src="{img(COVER)}" alt="To Form a More Perfect Union — cover"></section>'
 
 # ---- FOREWORD (Sean's why & vision — DRAFT in the founder's voice) ----
 page_foreword = f'''<section class="page fw">
@@ -413,9 +417,25 @@ page_arc_read = f'''<section class="page">{sec("The Arc of the Union","Read the 
 <div class="fr-tie"><b>Cross-curricular · Future-Ready.</b> Plotting evidence, finding a trend, extrapolating, and defending a claim with data is the shared language of history, math, science, and every college and career path — same skill, different classroom.</div>
 </section>'''
 
+# Front-matter-only build (cover + How-This-Book-Works) for composing self-contained
+# per-unit web readers of OTHER units — rendered fresh so only the cover image embeds
+# (no dragged Unit-1 images). Used by assemble_web.py.
+if os.environ.get("PROOF_FRONTMATTER_ONLY"):
+    fm = f'''<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="style.css"></head><body>{page_cover}{page_how}</body></html>'''
+    fout = BASE/"out"/"_frontmatter.pdf"
+    HTML(string=fm, base_url=str(BASE)).write_pdf(str(fout))
+    print("WROTE", fout)
+    raise SystemExit(0)
+
+# ---- CREDITS / COLOPHON (back matter): copyright, writing attribution, sources ----
+import bookmeta
+_srcs1 = [(_src(n) or {}).get("citation", "") for n in range(1, 8)]
+page_credits = bookmeta.credits_page_html("Unit 1 · US.01–US.07", _srcs1)
+
 html = f'''<!doctype html><html><head><meta charset="utf-8">
 <link rel="stylesheet" href="style.css"></head><body>
-{page_cover}{page_foreword}{page_toc}{page_crew}{page_how}{page_div}{page_friends}{stops_html}{page_arc_plot}{page_arc_read}
+{page_cover}{page_foreword}{page_toc}{page_crew}{page_how}{page_div}{page_friends}{stops_html}{page_arc_plot}{page_arc_read}{page_credits}
 </body></html>'''
 
 out = BASE/"out"/"ToFormAMorePerfectUnion_Unit1_PROOF.pdf"
@@ -438,11 +458,14 @@ try:
         for y in range(lim):
             if min(px[y*W:(y+1)*W])<205: end=y
         fill=100*end/lim; n=i+1
-        tag = f"exempt — {EXEMPT[n]}" if n in EXEMPT else ("OK" if fill>=TARGET_FILL else "*** BELOW TARGET ***")
-        if n not in EXEMPT and fill<TARGET_FILL: fails.append((n,fill))
+        exempt = n in EXEMPT or n==doc.page_count   # credits/colophon back page is exempt
+        why = EXEMPT.get(n, "credits (back matter)")
+        tag = f"exempt — {why}" if exempt else ("OK" if fill>=TARGET_FILL else "*** BELOW TARGET ***")
+        if not exempt and fill<TARGET_FILL: fails.append((n,fill))
         print(f"  p{n:>2}  {fill:5.1f}%  {tag}")
     print(("QC PASS — every non-exempt page ≥ %d%%." % TARGET_FILL) if not fails
           else ("QC FAIL — %d page(s) below %d%%: %s" % (len(fails),TARGET_FILL,", ".join(f"p{n} ({f:.0f}%)" for n,f in fails))))
     doc.close()
+    bookmeta.stamp_metadata(out, "To Form a More Perfect Union — Unit 1: The Nation Turns West")
 except ImportError:
     print("QC skipped (pymupdf not available)")

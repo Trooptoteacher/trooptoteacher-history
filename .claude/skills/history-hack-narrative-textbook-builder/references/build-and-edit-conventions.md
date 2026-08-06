@@ -113,8 +113,31 @@ metacognition — Hattie ≥ 0.40).
 ## Page-fill QC gate
 
 `render_textbook.py` measures each page's filled height below the footer and **fails the build** if any
-non-exempt page < `TARGET_FILL` (90). Cover + foreword exempt. On failure, add a value block or enlarge
-sourced media — then re-render until QC PASS. Never ship a short page.
+non-exempt page < `TARGET_FILL` (90). Cover + foreword **+ the credits/colophon back page** are exempt. On
+failure, add a value block or enlarge sourced media — then re-render until QC PASS. Never ship a short page.
+
+## Copyright, attribution & credits (LOCKED — `bookmeta.py`)
+
+Every unit reader ends with a **credits/colophon back page** and every output PDF carries **embedded
+document metadata**, both from the shared `bookmeta.py` (one source of truth):
+- **Colophon** — the series line, the **writing attribution** (written by the course author, in the house
+  author's narrative voice), and the full **copyright notice** (`© <year> <publisher>. All rights
+  reserved.` + reproduction terms + marks). Constants live in `bookmeta.py`.
+- **Image & source credits** — a numbered list built from that unit's cited stops (photo citations +
+  verbatim-excerpt MLA). The credits page is **exempt** from the fill gate (back matter).
+- **PDF metadata** — `bookmeta.stamp_metadata()` stamps Title, Author byline, subject, and the copyright
+  notice into keywords on **every** textbook + Flight Log output. Flight Logs also carry the on-page
+  attribution line on their intro page.
+Never hardcode the copyright/author strings in a builder — read them from `bookmeta.py`.
+
+## Web serving / assembly (`assemble_web.py`)
+
+`assemble_web.py` builds the served PDFs from the code pipeline into `history-hack-web-app/public/`:
+per-unit readers (`textbook-pdf/unit-N.pdf` = cover + How-This-Book-Works + unit + credits), the
+recomposed full-book part (`to-form-a-more-perfect-union-part-N.pdf` = front matter + its units, each
+ending in credits), and the Flight Logs (`flight-logs/unit-N/…student.pdf` / `…teacher-key.pdf`). Web
+builds use the light cover (`PROOF_COVER` / `FL_COVER` = `cover_web.jpg`); `render_textbook.py` also has a
+`PROOF_FRONTMATTER_ONLY` mode used to compose per-unit front matter without dragging Unit-1 images.
 
 ## Edit-in-code workflow (existing ad-hoc PDFs)
 
@@ -123,8 +146,9 @@ sourced media — then re-render until QC PASS. Never ship a short page.
    (this is the durable source the ad-hoc PDFs lacked).
 3. Apply the requested edits in the content + `print-contract.css` (never in the flattened PDF).
 4. Re-render; pass the page-fill gate + the shared release gates.
-5. Split per unit (cover + How-This-Book-Works + unit + credits) and export the full part; replace the
-   served files in `history-hack-web-app/public/textbook-pdf/` and register in `app/textbook/page.tsx`.
+5. Split per unit (cover + How-This-Book-Works + unit + credits) and export the full part via
+   `assemble_web.py`; it replaces the served files in `history-hack-web-app/public/textbook-pdf/` (already
+   registered in `app/textbook/page.tsx`) and the Flight Logs in `public/flight-logs/`.
 
 ## Assets still required per course
 
