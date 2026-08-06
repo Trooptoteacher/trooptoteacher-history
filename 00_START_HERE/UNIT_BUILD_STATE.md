@@ -54,6 +54,19 @@ The canonical primary-source + image bank lives in repo **`Trooptoteacher/histor
 4. **Graphic organizer toolkit** rebuild via the correct skill (real shapes).
 5. Consolidate the Primary Source Packet generator + corpus into the skill on `main`; add the step + guardrail to `history-hack-new-course-builder`.
 
+## Subject-neutral builder + World History pilot — added 2026-08-06
+
+**The builder skillset is complete and subject-neutral** (one shared skillset → 7 walled courses). Proven, not asserted:
+- **Course-select confirm gate shipped** (skills-only PR #24, merged): `course-binding-and-walls.md` W1 now STOPS and confirms which of the 7 courses when the subject isn't unambiguously pinned — never silently defaults an unnamed subject to the us-history flagship.
+- **No-`.docx` reconcile shipped** (same PR): the three builder skills (`history-hack-platinum-unit-builder`, `history-hack-unit-content-build`, `history-hack-new-course-builder`) now say **print-first via the WeasyPrint `print-pipeline` + locked `print-contract.css`**, not "DOCX-native." (⚠ `CLAUDE.md` Production-guardrails still says DOCX-native — reconcile pending Sean's OK.)
+- **Course-parameterized generator**: `print-pipeline/gen_unit.py` — reads `courses/<id>/course.json` + verbatim `standardsFile` + `content/<id>/unit-NN.source.json`, emits the full 7-activity workbook JSON, enforces WALL W2 (emit only the course prefix) + W6 (no EOC framing unless `eocTestable`), and hard-fails on `verify_workbook_platinum.py`. `render.py` cover eyebrow is now course-aware. (US History keeps its dedicated `gen_unit01.py`.)
+- **World History Unit 1 BUILT end-to-end** (this proves the neutral path): `content/world-history/unit-01.{source.json,json}` for **W.01–W.09 "Age of Revolution"** — full 7-activity flow, EN/ES vocab, guided Cornell, real cited public-domain primary sources (Bossuet, Magna Carta cl.39, Locke, Petition of Right, Sieyès, Declaration of the Rights of Man, Napoleon, Declaration of Independence, Haitian Declaration), bank-authored DOK-varied quizzes, adoption crosswalk + SSPs, UDL 3.0 back page, TN Connection (1796 TN Constitution "all power is inherent in the people"). Platinum guardrail **PASS**; rendered **95pp PDF** at `print-pipeline/deliverables/WorldHistory_Unit1_Student_Workbook.pdf`, visually inspected (cover, crosswalk, close-read, UDL — clean pagination, no clipping). Assessment items marked classroom-formative · pre-field-test (W5 wall — WH bank not yet committed).
+- **WH course.json corrected**: `standards.ingested` flipped **true** (89 verbatim W.01–W.89, `ingested_verbatim`), and the **8-cluster → 8-unit map** recorded (exact codes generated from the standards file, not hand-typed).
+
+**7-course readiness (standards in repo):** US ✅ proven · Government ✅ (~35 GC) · World History ✅ (89 W; Unit 1 built) · TN History ✅ (~64 TN) · grades 6/7/8 ⛔ `standardsFile: null` — need standards intake (the `2026-27-Tn.-Social-Studies-Standards` public repo is the source).
+
+**Next WH units:** author `content/world-history/unit-0N.source.json` for units 2–8 (same schema: title·iCan·eq·ssps·vocab·sections·sourceItFirst·quiz·differentiation per standard), then `python3 gen_unit.py world-history N`.
+
 ## Repo map (4 repos) + skill consolidation plan — added 2026-08-05
 
 | Repo | Role | Canonical? |

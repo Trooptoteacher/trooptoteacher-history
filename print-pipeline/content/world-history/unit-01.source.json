@@ -1,0 +1,1039 @@
+{
+  "unit": 1,
+  "title": "Age of Revolution",
+  "era": "1750–1850",
+  "quarter": 1,
+  "brandLine": "WORLD HISTORY HACK™ · AMERICA 250",
+  "grade": "Grades 9–10 World History & Geography",
+  "cover": {
+    "summary": "In this unit students investigate how Europe moved from the divine right of kings toward the idea that power belongs to the people. They trace absolutism (Louis XIV, Peter the Great), the documents that limited monarchs (Magna Carta, the English Bill of Rights), the Enlightenment thinkers (Hobbes, Locke, Montesquieu, Rousseau), the English Civil War, and the causes, events, and worldwide effects of the French Revolution and Napoleon. Students source primary documents, take guided Cornell notes, build vocabulary, and argue from evidence (CER).",
+    "tn": "The natural-rights ideas at the heart of this unit — that government rests on the consent of the governed — flowed directly into Tennessee's own founding. The <strong>Tennessee Constitution of 1796</strong> opens by declaring “<strong>that all power is inherent in the people, and all free governments are founded on their authority</strong>” — the same social-contract principle Locke and Rousseau argued in this unit. Tennessee is in the story of the Age of Revolution, not a footnote.",
+    "expect": "Over this unit your student will learn to explain how ideas about power and rights changed, analyze real primary sources (statutes, declarations, philosophers' writings), write evidence-based arguments, and set and track a SMART goal. Every activity has notebook-lined space to write, EN/ES vocabulary support, and clearly marked Entry / On-Level / Extension paths.",
+    "copyright_extra": "Aligned to the Tennessee Academic Standards for World History &amp; Geography (W.01–W.09). Benchmark / Standard-Mastery course (no TCAP EOC)."
+  },
+  "frQuestion": {
+    "code": "W.05",
+    "label": "FUTURE READY QUESTION (hung on W.05 — when a rising class demanded opportunity)",
+    "title": "Your path and your voice",
+    "body": "The French Revolution began when the Third Estate — ordinary people locked out of power — demanded a fair say and real opportunity. What is <em>your</em> plan to build opportunity after high school? Circle a path — trade / college / military / work — and name one concrete step: a scholarship, FAFSA, an EPSO, a credential, or an apprenticeship. (Free-college and scholarship options exist in Tennessee — ask your counselor.) Add this to <em>My SMART Goals</em>."
+  },
+  "standards": {
+    "W.01": {
+      "title": "Divine Right & European Absolutism",
+      "iCan": "I can describe the divine right of kings and evaluate the strengths and weaknesses of European absolutism through Louis XIV, Versailles, and Peter the Great.",
+      "eq": "Did absolute monarchy ultimately strengthen or weaken the states that adopted it?",
+      "ssps": [
+        "SSP.02",
+        "SSP.04",
+        "SSP.05"
+      ],
+      "vocab": [
+        {
+          "term": "absolutism",
+          "def": "A system of government in which a single ruler holds total, unchecked power over the state.",
+          "es": "absolutismo"
+        },
+        {
+          "term": "divine right of kings",
+          "def": "The belief that a monarch's authority to rule comes directly from God and not from the people.",
+          "es": "derecho divino de los reyes"
+        },
+        {
+          "term": "Versailles",
+          "def": "The enormous royal palace outside Paris that Louis XIV used to display his power and control the nobility.",
+          "es": "Versalles"
+        },
+        {
+          "term": "westernization",
+          "def": "Peter the Great's policy of reshaping Russia to adopt Western European technology, customs, and institutions.",
+          "es": "occidentalización"
+        },
+        {
+          "term": "bureaucracy",
+          "def": "A system of appointed government officials who carry out a ruler's policies across the country.",
+          "es": "burocracia"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "The Divine Right of Kings",
+          "content": "The divine right of kings was the belief that a monarch received the authority to rule directly from God, making the king answerable to God alone rather than to his subjects. Writers such as Bishop Jacques-Bénigne Bossuet argued that royal power was sacred and that resisting the king was resisting God's will. This idea gave absolute monarchs a religious justification for ruling without a parliament or shared power. It became the intellectual foundation of European absolutism in the seventeenth and eighteenth centuries."
+        },
+        {
+          "heading": "Louis XIV and Versailles",
+          "content": "Louis XIV of France, called the Sun King, reigned from 1643 to 1715 and ruled as the model absolute monarch, centralizing power in his own hands. He transformed Versailles into his seat of government in 1682 and required leading nobles to live there, where elaborate court rituals kept them dependent on royal favor and unable to challenge him. He collected taxes and enforced his laws through royally appointed officials called intendants, and in 1685 he revoked the Edict of Nantes, ending toleration of French Protestants. His costly wars and lavish court projected French power but placed heavy strain on the kingdom's finances."
+        },
+        {
+          "heading": "Peter the Great and Russian Absolutism",
+          "content": "Peter the Great ruled Russia from 1682 to 1725 and used absolute power to modernize and expand his empire. Through a policy of westernization, he reorganized the army along European lines, built a navy, and brought the Russian Orthodox Church under state control. In 1703 he founded St. Petersburg as a new capital and 'window to the West,' and he expanded the government bureaucracy to strengthen his authority over the nobility. His reforms increased Russia's military might but were forced through with harsh taxation and forced labor."
+        },
+        {
+          "heading": "Strengths and Weaknesses of Absolutism",
+          "content": "Absolutism gave states strong central governments that could raise armies, collect taxes, and act quickly, bringing a measure of order and stability. However, its weaknesses were serious: enormous spending on wars and palaces drained treasuries, heavy taxes fell on ordinary people, and there were no legal checks on a ruler's mistakes. Decisions like Louis XIV's revocation of the Edict of Nantes drove skilled Protestants out of France and damaged the economy. Because power rested on one person, an unwise or overreaching monarch could weaken the entire state."
+        }
+      ],
+      "sourceItFirst": {
+        "who": "Bishop Jacques-Bénigne Bossuet, Politics Drawn from the Very Words of Holy Scripture",
+        "when": "1709",
+        "why": "to justify royal absolutism as authority granted directly by God",
+        "excerpt": "The royal throne is not the throne of a man, but the throne of God himself.",
+        "citation": "Jacques-Bénigne Bossuet, Politique tirée des propres paroles de l'Écriture sainte (Politics Drawn from the Very Words of Holy Scripture), Book III, published 1709; Bibliothèque nationale de France."
+      },
+      "quiz": [
+        {
+          "stem": "Which ruler built the Palace of Versailles and was known as the Sun King?",
+          "choices": {
+            "A": "Peter the Great",
+            "B": "Louis XIV",
+            "C": "Bishop Bossuet",
+            "D": "Frederick the Great"
+          },
+          "key": "B",
+          "dok": 1,
+          "why": "Louis XIV of France was called the Sun King and made Versailles his seat of power."
+        },
+        {
+          "stem": "Why did Louis XIV require many leading French nobles to live at the Palace of Versailles?",
+          "choices": {
+            "A": "To keep them under his watch and reduce their ability to challenge him",
+            "B": "To train them as military officers for his foreign wars",
+            "C": "To let them govern their own provinces with complete independence from the crown",
+            "D": "To share royal power equally among the nobility"
+          },
+          "key": "A",
+          "dok": 2,
+          "why": "Court life at Versailles kept nobles dependent on royal favor and away from independent power bases."
+        },
+        {
+          "stem": "What was the main goal of Peter the Great's policy of westernization?",
+          "choices": {
+            "A": "To reject foreign influence and preserve old Russian traditions",
+            "B": "To give the boyars greater independent power",
+            "C": "To return the Orthodox Church to full political control",
+            "D": "To modernize Russia by adopting Western European technology"
+          },
+          "key": "D",
+          "dok": 2,
+          "why": "Peter westernized Russia to adopt European military, technical, and cultural practices."
+        },
+        {
+          "stem": "A historian argues that absolutism weakened France over the long run. Which piece of evidence best supports that claim?",
+          "choices": {
+            "A": "Louis XIV expanded the royal palace at Versailles",
+            "B": "Louis XIV centralized all tax collection through royally appointed intendants",
+            "C": "Louis XIV's costly wars and religious persecution drained the economy",
+            "D": "Louis XIV strengthened the monarchy's authority over the French nobility"
+          },
+          "key": "C",
+          "dok": 3,
+          "why": "Wars and the revocation of the Edict of Nantes hurt France's finances and economy, supporting the weakness claim."
+        }
+      ],
+      "differentiation": "Entry: Using a word bank (divine right, Versailles, intendants, taxes, wars) and a sentence frame ('Absolutism made a state stronger/weaker because ___'), write a 3-sentence CER answering whether absolutism strengthened or weakened France and Russia, citing one strength and one weakness. Honors: Write a full CER that compares Louis XIV and Peter the Great, then argues whether the strengths of absolutism outweighed its weaknesses, using the Bossuet source and at least two specific pieces of evidence per ruler."
+    },
+    "W.02": {
+      "title": "Documents That Limit Absolute Monarchy",
+      "iCan": "I can compare documents that placed limits on government power, including the Magna Carta and the English Bill of Rights.",
+      "eq": "How do written documents protect people from the abuse of government power?",
+      "ssps": [
+        "SSP.01",
+        "SSP.03",
+        "SSP.04"
+      ],
+      "vocab": [
+        {
+          "term": "Magna Carta",
+          "def": "The 1215 English charter that forced the king to accept limits on his power under the law.",
+          "es": "Carta Magna"
+        },
+        {
+          "term": "English Bill of Rights",
+          "def": "The 1689 document that limited the monarchy and increased the power of Parliament.",
+          "es": "Declaración de Derechos inglesa"
+        },
+        {
+          "term": "constitutional monarchy",
+          "def": "A government in which a monarch's power is limited by law and shared with an elected body.",
+          "es": "monarquía constitucional"
+        },
+        {
+          "term": "due process",
+          "def": "The requirement that the government follow fair legal procedures before punishing a person.",
+          "es": "debido proceso"
+        },
+        {
+          "term": "rule of law",
+          "def": "The principle that everyone, including the ruler, must obey the law.",
+          "es": "estado de derecho"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Why Limit Royal Power?",
+          "content": "As monarchs claimed greater and more absolute authority, some groups pushed back against arbitrary rule and demanded protections written into law. In England, first the nobility and later an elected Parliament sought guarantees that the king could not seize property, imprison people, or tax them at will. These struggles produced written documents that placed the ruler under the law rather than above it. Over time, these limits helped move England toward a constitutional monarchy."
+        },
+        {
+          "heading": "The Magna Carta (1215)",
+          "content": "In 1215, rebellious barons forced King John of England to seal the Magna Carta at Runnymede. The charter established that the king was subject to the law, promising that no free man could be imprisoned or stripped of his rights except by lawful judgment and that certain taxes could not be levied without common counsel. Although it mainly protected the feudal rights of nobles, it planted the enduring principles of due process and the rule of law. Later generations reinterpreted it as a foundation for individual liberty and limited government."
+        },
+        {
+          "heading": "The Glorious Revolution and English Bill of Rights (1689)",
+          "content": "In the Glorious Revolution of 1688, Parliament removed the Catholic King James II and offered the crown to William and Mary on new terms. Those terms were written into the English Bill of Rights in 1689, which declared that the monarch could not suspend laws, levy taxes, or keep a standing army in peacetime without Parliament's consent. It also protected free elections, free debate in Parliament, and the right to petition the king. The document made clear that the monarchy's power now depended on Parliament and the law."
+        },
+        {
+          "heading": "Comparing the Two Documents",
+          "content": "Both the Magna Carta and the English Bill of Rights limited the power of the crown and affirmed that the ruler must obey the law, but they differed in scope. The Magna Carta of 1215 mainly protected the feudal privileges of nobles, while the Bill of Rights of 1689 shifted real authority to an elected Parliament and protected broader political rights. Together they show a long development from feudal limits toward constitutional government. Both documents later influenced the framers of the U.S. Constitution and its Bill of Rights."
+        }
+      ],
+      "sourceItFirst": {
+        "who": "Magna Carta, Clause 39 (barons' charter accepted by King John)",
+        "when": "1215",
+        "why": "to force the king to govern under the law and guarantee lawful judgment before punishment",
+        "excerpt": "No free man shall be seized or imprisoned, or stripped of his rights or possessions... except by the lawful judgment of his equals or by the law of the land.",
+        "citation": "Magna Carta, 1215, Clause 39 (British Library English translation); The National Archives and British Library."
+      },
+      "quiz": [
+        {
+          "stem": "In what year did English barons force King John to accept the Magna Carta?",
+          "choices": {
+            "A": "1215",
+            "B": "1066",
+            "C": "1689",
+            "D": "1776"
+          },
+          "key": "A",
+          "dok": 1,
+          "why": "King John sealed the Magna Carta at Runnymede in 1215."
+        },
+        {
+          "stem": "According to the English Bill of Rights, the king could no longer suspend laws or raise taxes without the consent of whom?",
+          "choices": {
+            "A": "The Pope",
+            "B": "The nobility",
+            "C": "Parliament",
+            "D": "The army"
+          },
+          "key": "C",
+          "dok": 2,
+          "why": "The 1689 Bill of Rights required Parliament's consent to suspend laws or levy taxes."
+        },
+        {
+          "stem": "What was one major difference between the Magna Carta and the English Bill of Rights?",
+          "choices": {
+            "A": "Only the Magna Carta placed any limits on the power of the king, and it did so permanently",
+            "B": "The English Bill of Rights returned complete power to the monarchy",
+            "C": "The Magna Carta abolished the English monarchy entirely",
+            "D": "The Magna Carta mainly protected feudal nobles, while the Bill of Rights strengthened Parliament"
+          },
+          "key": "D",
+          "dok": 3,
+          "why": "The Magna Carta focused on noble/feudal rights, while the 1689 Bill of Rights empowered Parliament."
+        },
+        {
+          "stem": "Both the Magna Carta and the English Bill of Rights are best described as documents that did what?",
+          "choices": {
+            "A": "Expanded the absolute power of the monarch",
+            "B": "Established the principle that the ruler must obey the law",
+            "C": "Gave the right to vote to every adult citizen living in England",
+            "D": "Abolished the English Parliament"
+          },
+          "key": "B",
+          "dok": 3,
+          "why": "Both documents placed the ruler under the law, advancing the rule of law and limited government."
+        }
+      ],
+      "differentiation": "Entry: Using a two-column organizer comparing the Magna Carta and the English Bill of Rights (year, who was limited, one right protected) and a sentence frame, write a 3-sentence CER stating which document did more to limit the king, with one piece of evidence from each. Honors: Write a full CER arguing how the Magna Carta and the English Bill of Rights together laid the foundation for limited government, comparing their purposes and connecting at least one idea to the U.S. Constitution or Bill of Rights."
+    },
+    "W.03": {
+      "title": "Enlightenment Thinkers & Government Ideas",
+      "iCan": "I can compare the major ideas of Enlightenment philosophers, including Thomas Hobbes, John Locke, Montesquieu, and Jean-Jacques Rousseau.",
+      "eq": "Which Enlightenment thinker offered the strongest foundation for a just government?",
+      "ssps": [
+        "SSP.02",
+        "SSP.03",
+        "SSP.04"
+      ],
+      "vocab": [
+        {
+          "term": "Enlightenment",
+          "def": "An 18th-century movement that used reason to rethink government, society, and human rights.",
+          "es": "Ilustración"
+        },
+        {
+          "term": "social contract",
+          "def": "An agreement in which people give up some freedom to a government in exchange for protection and order.",
+          "es": "contrato social"
+        },
+        {
+          "term": "natural rights",
+          "def": "Rights such as life, liberty, and property that Locke said all people are born with.",
+          "es": "derechos naturales"
+        },
+        {
+          "term": "separation of powers",
+          "def": "Montesquieu's idea of dividing government into branches so no one part becomes too powerful.",
+          "es": "separación de poderes"
+        },
+        {
+          "term": "popular sovereignty",
+          "def": "The principle that a government's authority comes from the consent of the people.",
+          "es": "soberanía popular"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Reason and the Enlightenment",
+          "content": "The Enlightenment was an intellectual movement of the seventeenth and eighteenth centuries that applied reason and observation to human society and government. Thinkers questioned the divine right of kings and asked instead where legitimate political authority should come from. They developed the idea of a social contract, an agreement that explains why people form governments and what those governments owe the people. Their writings would later inspire revolutions and constitutions in Europe and the Americas."
+        },
+        {
+          "heading": "Hobbes and the Social Contract",
+          "content": "In his 1651 book Leviathan, Thomas Hobbes argued that human life without government was a 'war of all against all' in which existence was 'solitary, poor, nasty, brutish, and short.' To escape this dangerous state of nature, he claimed people agree to surrender their rights to a powerful ruler who can keep order. For Hobbes, the social contract justified strong, even absolute, government as the price of security. His pessimistic view of human nature set the terms that later thinkers would debate."
+        },
+        {
+          "heading": "Locke's Natural Rights",
+          "content": "John Locke offered a more hopeful view in his Two Treatises of Government, published in 1689. He argued that all people are born with natural rights to life, liberty, and property, and that governments are created by the consent of the governed to protect those rights. If a government violates the people's rights, Locke said, the people have the right to change or overthrow it. His ideas deeply influenced later documents such as the American Declaration of Independence."
+        },
+        {
+          "heading": "Montesquieu and Rousseau",
+          "content": "In The Spirit of the Laws (1748), Baron de Montesquieu argued that political power should be divided among separate branches so that no single part of government becomes too powerful, an idea known as the separation of powers. Jean-Jacques Rousseau, in The Social Contract (1762), argued that legitimate government rests on the 'general will' of the people, an early expression of popular sovereignty. Both writers rejected absolute monarchy and located real authority in the people or in balanced institutions. Their ideas shaped modern democratic government and constitutional design."
+        }
+      ],
+      "sourceItFirst": {
+        "who": "John Locke, Second Treatise of Government",
+        "when": "1689",
+        "why": "to argue that government exists to protect people's natural rights",
+        "excerpt": "Being all equal and independent, no one ought to harm another in his life, health, liberty, or possessions.",
+        "citation": "John Locke, Two Treatises of Government, Second Treatise, Chapter II, Section 6, 1689; public domain (Project Gutenberg)."
+      },
+      "quiz": [
+        {
+          "stem": "Which Enlightenment philosopher argued that people have natural rights to life, liberty, and property?",
+          "choices": {
+            "A": "Thomas Hobbes",
+            "B": "Jean-Jacques Rousseau",
+            "C": "John Locke",
+            "D": "Bishop Bossuet"
+          },
+          "key": "C",
+          "dok": 1,
+          "why": "John Locke's Second Treatise identified life, liberty, and property as natural rights."
+        },
+        {
+          "stem": "In Leviathan, Thomas Hobbes argued that people should give up their rights to a strong ruler mainly in order to do what?",
+          "choices": {
+            "A": "Gain security and escape the violence of a lawless state of nature",
+            "B": "Guarantee the people's right to overthrow an unjust government",
+            "C": "Create a separation of powers among branches of government",
+            "D": "Ensure that every law came directly from the general will of the people"
+          },
+          "key": "A",
+          "dok": 2,
+          "why": "Hobbes said people trade freedom for security to escape the 'war of all against all.'"
+        },
+        {
+          "stem": "How did John Locke's view of the social contract differ from Thomas Hobbes's view?",
+          "choices": {
+            "A": "Locke believed that people must surrender all of their natural rights to an all-powerful king",
+            "B": "Locke rejected the idea of any government at all",
+            "C": "Locke argued that the state of nature was a constant state of war",
+            "D": "Locke argued that government exists to protect rights and may be overthrown if it fails"
+          },
+          "key": "D",
+          "dok": 3,
+          "why": "Locke held that government must protect natural rights and can be replaced if it does not, unlike Hobbes's absolute sovereign."
+        },
+        {
+          "stem": "What was the main purpose of Montesquieu's idea of the separation of powers?",
+          "choices": {
+            "A": "To place all governing power into the hands of one monarch",
+            "B": "To divide government into branches so no one part becomes too powerful",
+            "C": "To eliminate the need for any written laws",
+            "D": "To place religious leaders in complete and total charge of the government"
+          },
+          "key": "B",
+          "dok": 2,
+          "why": "Montesquieu proposed dividing power among branches to prevent tyranny."
+        }
+      ],
+      "differentiation": "Entry: Using a matching organizer that pairs each thinker (Hobbes, Locke, Montesquieu, Rousseau) with a key idea, and a sentence frame, write a 3-sentence CER naming which thinker you think best supports fair government, with one piece of evidence. Honors: Write a full CER that compares at least three of the four philosophers and argues which one most influenced a modern democratic document (such as the U.S. Constitution or Declaration of Independence), citing specific ideas from each thinker and the Locke source."
+    },
+    "W.04": {
+      "title": "Crown vs. Parliament: England's Civil War",
+      "iCan": "I can examine the causes and consequences of the English Civil War.",
+      "eq": "Did the English Civil War do more to expand liberty or to unleash disorder in England?",
+      "ssps": [
+        "SSP.02",
+        "SSP.04",
+        "SSP.05"
+      ],
+      "vocab": [
+        {
+          "term": "Divine right of kings",
+          "def": "The belief that a monarch's authority comes directly from God rather than from the people or Parliament.",
+          "es": "El derecho divino de los reyes"
+        },
+        {
+          "term": "Petition of Right",
+          "def": "A 1628 document that forced Charles I to accept limits on taxing and imprisoning his subjects without Parliament's consent.",
+          "es": "La Petición de Derecho"
+        },
+        {
+          "term": "Ship money",
+          "def": "A tax Charles I collected without Parliament's approval, which fueled anger over royal overreach.",
+          "es": "El impuesto naval (ship money)"
+        },
+        {
+          "term": "New Model Army",
+          "def": "The disciplined, professional Parliamentary army, led in part by Oliver Cromwell, that defeated the king's forces.",
+          "es": "El Nuevo Ejército Modelo"
+        },
+        {
+          "term": "Constitutional monarchy",
+          "def": "A system of government in which a monarch's power is limited by law and by Parliament.",
+          "es": "La monarquía constitucional"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "A King and His Divine Right",
+          "content": "When Charles I became king of England in 1625, he believed in the divine right of kings, the idea that his power came from God and that he answered to no one but God. This conviction put him at odds with Parliament, which held the power to approve new taxes. Charles resented having to bargain with lawmakers for money to run the government and fight his wars. The stage was set for a decades-long struggle over who truly ruled England."
+        },
+        {
+          "heading": "Taxes, Parliament, and the Petition of Right",
+          "content": "After Charles pressured subjects for forced loans, Parliament in 1628 made him accept the Petition of Right, which said the king could not tax or imprison people without its consent. Angered by these limits, Charles dissolved Parliament in 1629 and ruled alone for eleven years, a period called the Personal Rule. To raise money without Parliament, he revived old fees such as ship money, extending it to inland towns that had never paid it. These actions convinced many English people that the king was becoming a tyrant."
+        },
+        {
+          "heading": "Religion, Rebellion, and War",
+          "content": "Religious conflict deepened the crisis, as Puritans in Parliament opposed the High Church reforms of Charles and Archbishop William Laud, which they saw as too close to Catholicism. When Charles tried to force a new prayer book on Presbyterian Scotland, the Scots rebelled, and the king was forced to recall Parliament in 1640 to fund an army. Instead of granting money, the Long Parliament demanded reforms, and the standoff turned violent when Charles raised his royal standard at Nottingham in August 1642. The nation split into Royalists, who backed the king, and Parliamentarians, who fought to limit his power."
+        },
+        {
+          "heading": "Regicide and Its Aftermath",
+          "content": "Parliament's New Model Army, shaped by Oliver Cromwell, defeated the Royalists, and after a second war the army put the king on trial for treason. Charles I was executed on 30 January 1649, and England became a republic called the Commonwealth, later governed by Cromwell as Lord Protector. The monarchy returned under Charles II in 1660, but the memory of the war endured, and when Parliament forced out another king in the Glorious Revolution of 1688, it passed the English Bill of Rights in 1689. That settlement made England a constitutional monarchy, permanently limiting the crown's power."
+        }
+      ],
+      "sourceItFirst": {
+        "who": "The Parliament of England, the Petition of Right",
+        "when": "1628",
+        "why": "to force Charles I to acknowledge legal limits on his power to tax and imprison",
+        "excerpt": "That no man hereafter be compelled to make or yield any gift, loan, benevolence, tax, or such like charge, without common consent by act of parliament.",
+        "citation": "Parliament of England, Petition of Right, 1628; Statutes of the Realm; text held by the UK Parliamentary Archives and the Avalon Project, Yale Law School."
+      },
+      "quiz": [
+        {
+          "stem": "Which document did Parliament use in 1628 to limit Charles I's power to tax and imprison subjects without consent?",
+          "choices": {
+            "A": "The Petition of Right",
+            "B": "The Magna Carta",
+            "C": "The English Bill of Rights",
+            "D": "The Act of Supremacy"
+          },
+          "key": "A",
+          "dok": 1,
+          "why": "Direct recall of the 1628 Petition of Right and its purpose."
+        },
+        {
+          "stem": "Why did Charles I's belief in the divine right of kings bring him into conflict with Parliament?",
+          "choices": {
+            "A": "It required him to convert England to Catholicism.",
+            "B": "It obligated him to hold yearly parliamentary elections.",
+            "C": "It led him to claim his authority came from God, not Parliament.",
+            "D": "It forced him to share the throne with Scotland's king."
+          },
+          "key": "C",
+          "dok": 2,
+          "why": "Students must explain how divine-right ideology clashed with parliamentary consent."
+        },
+        {
+          "stem": "In what year was Charles I tried, convicted, and executed for treason?",
+          "choices": {
+            "A": "1642",
+            "B": "1649",
+            "C": "1660",
+            "D": "1688"
+          },
+          "key": "B",
+          "dok": 1,
+          "why": "Recall of the regicide date, distinguished from the war's start and the Restoration."
+        },
+        {
+          "stem": "A historian argues that the English Civil War ultimately strengthened Parliament even though the monarchy returned in 1660. Which later development best supports that claim?",
+          "choices": {
+            "A": "Cromwell's creation of the Protectorate in 1653.",
+            "B": "Charles I's use of ship money during his Personal Rule.",
+            "C": "The Scottish rebellion against Archbishop Laud's prayer book.",
+            "D": "The 1689 English Bill of Rights limiting the crown's power."
+          },
+          "key": "D",
+          "dok": 3,
+          "why": "Requires linking the war's outcome to the constitutional settlement of 1689."
+        }
+      ],
+      "differentiation": "Entry: Using a two-column cause-and-consequence chart and the Petition of Right excerpt, write a one-paragraph CER claim about whether the war expanded or threatened liberty, with a sentence starter provided. Honors: Write a full CER essay evaluating whether the 1689 English Bill of Rights fulfilled or betrayed the aims of the 1649 execution of Charles I, citing at least two primary sources."
+    },
+    "W.05": {
+      "title": "Why France Exploded: Roots of Revolution",
+      "iCan": "I can identify the major causes of the French Revolution, from social inequality to Enlightenment ideas.",
+      "eq": "Which cause mattered most in pushing France toward revolution in 1789?",
+      "ssps": [
+        "SSP.02",
+        "SSP.03",
+        "SSP.04"
+      ],
+      "vocab": [
+        {
+          "term": "Ancien Régime",
+          "def": "The old social and political order of France before 1789, based on an absolute monarchy and a rigid system of estates.",
+          "es": "El Antiguo Régimen"
+        },
+        {
+          "term": "Estates",
+          "def": "The three legal classes of France: the clergy (First), the nobility (Second), and the commoners (Third).",
+          "es": "Los Estados (Estamentos)"
+        },
+        {
+          "term": "Bourgeoisie",
+          "def": "The educated, often wealthy middle class of the Third Estate, including merchants, lawyers, and professionals.",
+          "es": "La burguesía"
+        },
+        {
+          "term": "Enlightenment",
+          "def": "An eighteenth-century movement that stressed reason, natural rights, and questioning traditional authority.",
+          "es": "La Ilustración"
+        },
+        {
+          "term": "Deficit spending",
+          "def": "When a government spends more money than it collects, piling up debt, as France did after aiding the American Revolution.",
+          "es": "El gasto deficitario"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "An Old Order Under Strain",
+          "content": "Before 1789 France lived under the Ancien Régime, an absolute monarchy ruled by King Louis XVI, in which society was divided into three legal estates. The First Estate was the clergy and the Second Estate was the nobility, and together they made up a tiny fraction of the population yet enjoyed special privileges and paid almost no taxes. The Third Estate, which included peasants, urban workers, and the growing bourgeoisie, made up about 97 percent of the people yet carried nearly the entire tax burden. This deep inequality bred resentment that would help ignite the revolution."
+        },
+        {
+          "heading": "Debt, Bread, and a Broken Treasury",
+          "content": "France's government was drowning in debt after decades of costly wars, including the expensive support it gave the American Revolution against Britain. Lavish spending at the palace of Versailles worsened the crisis, and finance ministers such as Jacques Necker and Charles de Calonne could not push reforms past the privileged estates. A terrible harvest in 1788 then sent bread prices soaring, and bread was the main food of ordinary people. With the treasury near bankruptcy and families going hungry, economic desperation pushed France toward the breaking point."
+        },
+        {
+          "heading": "Ideas That Lit the Fuse",
+          "content": "Enlightenment thinkers gave the French new ways to question their government, arguing that political power should rest on reason and natural rights rather than tradition. Montesquieu urged a separation of government powers, Rousseau argued that legitimate authority comes from the will of the people, and Voltaire attacked censorship and abuse. The American Revolution seemed to prove these ideas could work, showing that a people could throw off a king and build a government based on liberty. Educated members of the Third Estate began to imagine a very different France."
+        },
+        {
+          "heading": "A King Too Weak to Reform",
+          "content": "King Louis XVI was well-meaning but indecisive, and he struggled to control a court and nobility determined to protect their privileges. When he tried to tax the wealthy, the Assembly of Notables in 1787 and the noble-run law courts blocked his ministers' plans. Out of money and options, Louis was forced to summon the Estates-General in 1789, the first meeting of that body since 1614. There the Third Estate, denied a fair voice, demanded real political power, and the revolution began."
+        }
+      ],
+      "sourceItFirst": {
+        "who": "Emmanuel-Joseph Sieyès, 'What Is the Third Estate?' (Qu'est-ce que le tiers état?)",
+        "when": "1789",
+        "why": "to argue that the Third Estate was the true French nation and deserved political power",
+        "excerpt": "What is the Third Estate? Everything. What has it been hitherto in the political order? Nothing. What does it want to be? Something.",
+        "citation": "Emmanuel-Joseph Sieyès, Qu'est-ce que le tiers état?, Paris, 1789; English translation, Bibliothèque nationale de France / Hanover Historical Texts Collection."
+      },
+      "quiz": [
+        {
+          "stem": "Which group made up the Third Estate in pre-revolutionary France?",
+          "choices": {
+            "A": "The Catholic clergy of France",
+            "B": "The titled nobility and lords",
+            "C": "The commoners, from peasants to the middle class",
+            "D": "The king, queen, and royal ministers"
+          },
+          "key": "C",
+          "dok": 1,
+          "why": "Recall of who belonged to the Third Estate under the Ancien Régime."
+        },
+        {
+          "stem": "How did France's involvement in the American Revolution help cause the French Revolution?",
+          "choices": {
+            "A": "It returned France to war with England over Canada.",
+            "B": "It deepened France's debt and spread ideas of liberty.",
+            "C": "It gave French peasants free land in North America.",
+            "D": "It forced Louis XVI to abolish the Three Estates."
+          },
+          "key": "B",
+          "dok": 2,
+          "why": "Students connect the war's financial and ideological effects to revolution."
+        },
+        {
+          "stem": "Sieyès wrote that the Third Estate was 'everything' yet had been 'nothing' in the political order. Which condition of the Ancien Régime best explains his complaint?",
+          "choices": {
+            "A": "The Third Estate paid the most taxes yet held the least political power.",
+            "B": "The Third Estate was the smallest of the three estates.",
+            "C": "The Third Estate was forbidden to own any property.",
+            "D": "The Third Estate controlled the Assembly of Notables."
+          },
+          "key": "A",
+          "dok": 3,
+          "why": "Requires interpreting the source against the structure of the estates system."
+        },
+        {
+          "stem": "Which Enlightenment thinker is best known for proposing the separation of government powers?",
+          "choices": {
+            "A": "Jean-Jacques Rousseau",
+            "B": "Voltaire",
+            "C": "Denis Diderot",
+            "D": "Baron de Montesquieu"
+          },
+          "key": "D",
+          "dok": 1,
+          "why": "Recall linking the idea of separated powers to Montesquieu."
+        }
+      ],
+      "differentiation": "Entry: Sort a set of cause cards (social, economic, Enlightenment, American Revolution, weak king) into a graphic organizer, then finish a CER claim naming the cause you find most important, using a provided sentence frame. Honors: Write a CER essay ranking the five causes and defending the most decisive one, weighing Sieyès's argument against Arthur Young's eyewitness accounts of French poverty."
+    },
+    "W.06": {
+      "title": "From Bastille to Bonaparte",
+      "iCan": "I can summarize the major events of the French Revolution and trace France's changing governments.",
+      "eq": "How did a revolution launched in the name of liberty end in the rule of one man?",
+      "ssps": [
+        "SSP.03",
+        "SSP.04",
+        "SSP.05"
+      ],
+      "vocab": [
+        {
+          "term": "Bastille",
+          "def": "A royal fortress and prison in Paris whose storming on July 14, 1789, became a symbol of the revolution.",
+          "es": "La Bastilla"
+        },
+        {
+          "term": "National Assembly",
+          "def": "The revolutionary body formed by the Third Estate in 1789 that claimed to represent the French people.",
+          "es": "La Asamblea Nacional"
+        },
+        {
+          "term": "Reign of Terror",
+          "def": "The period from 1793 to 1794 when the revolutionary government executed thousands of suspected enemies.",
+          "es": "El Reinado del Terror"
+        },
+        {
+          "term": "Guillotine",
+          "def": "A machine with a heavy blade used to execute people, including King Louis XVI, during the revolution.",
+          "es": "La guillotina"
+        },
+        {
+          "term": "Coup d'état",
+          "def": "A sudden, often forceful seizure of government power, such as Napoleon's takeover in 1799.",
+          "es": "El golpe de Estado"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1789: The Revolution Begins",
+          "content": "When the Estates-General met in May 1789, the Third Estate broke away and declared itself the National Assembly, claiming to speak for the nation. Locked out of their hall, its members swore the Tennis Court Oath on June 20, vowing not to disband until France had a constitution. Fearing the king would crush them, a Paris crowd stormed the Bastille fortress on July 14, 1789, an event that became the revolution's great symbol. That August the Assembly issued the Declaration of the Rights of Man and of the Citizen, proclaiming liberty and equality."
+        },
+        {
+          "heading": "A Constitutional Monarchy",
+          "content": "The revolution's first government kept the king but limited his power, and the Constitution of 1791 made France a constitutional monarchy with Louis XVI as a limited ruler. Trust in the king collapsed after his family tried to flee the country in the Flight to Varennes in 1791 and was caught. War with Austria and Prussia in 1792 raised fears that the king was secretly aiding France's enemies. In August 1792 a Paris uprising overthrew the monarchy, ending the experiment with a constitutional king."
+        },
+        {
+          "heading": "Republic, Regicide, and Terror",
+          "content": "A new assembly called the National Convention proclaimed France a republic in September 1792 and put the former king on trial. Louis XVI was convicted of treason and executed by guillotine on January 21, 1793. As foreign armies and internal revolts threatened the republic, the Committee of Public Safety under Maximilien Robespierre launched the Reign of Terror from 1793 to 1794, executing thousands of suspected enemies in the name of the people. This democratic despotism ruled through fear, until the Convention turned on Robespierre and sent him to the guillotine in July 1794."
+        },
+        {
+          "heading": "From Directory to Empire",
+          "content": "After the Terror, a five-man government called the Directory ruled from 1795 to 1799 but was widely seen as weak and corrupt. Amid the instability, the popular general Napoleon Bonaparte seized power in a coup d'état in November 1799, making himself First Consul of France. He restored order and pushed through reforms, steadily gathering power into his own hands. In 1804 Napoleon crowned himself Emperor, replacing the republic with the Napoleonic Empire and completing the revolution's journey from constitutional monarchy to one-man rule."
+        }
+      ],
+      "sourceItFirst": {
+        "who": "The National Constituent Assembly of France, Declaration of the Rights of Man and of the Citizen",
+        "when": "1789",
+        "why": "to proclaim the natural rights and equality the revolution claimed to defend",
+        "excerpt": "Men are born and remain free and equal in rights. Social distinctions may be founded only upon the general good.",
+        "citation": "Declaration of the Rights of Man and of the Citizen, National Constituent Assembly, France, 26 August 1789, Article 1; English translation, the Avalon Project, Yale Law School."
+      },
+      "quiz": [
+        {
+          "stem": "What event on July 14, 1789, became a symbol of the start of the French Revolution?",
+          "choices": {
+            "A": "The execution of Louis XVI",
+            "B": "The storming of the Bastille",
+            "C": "Napoleon's coup d'état",
+            "D": "The Tennis Court Oath"
+          },
+          "key": "B",
+          "dok": 1,
+          "why": "Recall of the Bastille's date and its symbolic role."
+        },
+        {
+          "stem": "What form of government did the Constitution of 1791 create in France?",
+          "choices": {
+            "A": "A constitutional monarchy limiting the king",
+            "B": "A military empire led by Napoleon",
+            "C": "An absolute monarchy under Louis XVI",
+            "D": "A direct democracy of all citizens"
+          },
+          "key": "A",
+          "dok": 2,
+          "why": "Students identify the government type that followed the 1791 constitution."
+        },
+        {
+          "stem": "During which period did the French government execute thousands of suspected enemies of the revolution?",
+          "choices": {
+            "A": "The Directory",
+            "B": "The Napoleonic Empire",
+            "C": "The Reign of Terror",
+            "D": "The constitutional monarchy"
+          },
+          "key": "C",
+          "dok": 1,
+          "why": "Recall connecting mass executions to the Reign of Terror."
+        },
+        {
+          "stem": "The French government went from a constitutional monarchy to the rule of the Committee of Public Safety and finally to Napoleon's empire. Which conclusion about the revolution does this sequence best support?",
+          "choices": {
+            "A": "The revolution steadily expanded voting rights until 1804.",
+            "B": "France never changed its form of government after 1789.",
+            "C": "The monarchy grew stronger throughout the revolution.",
+            "D": "A revolution begun for liberty can slide into rule by one man."
+          },
+          "key": "D",
+          "dok": 3,
+          "why": "Requires drawing a conclusion from the full arc of governmental change."
+        }
+      ],
+      "differentiation": "Entry: Place the major events (Bastille, Tennis Court Oath, execution of Louis XVI, Reign of Terror, Napoleon's coup) on a labeled timeline, then complete a CER claim about why the revolution turned violent, using a sentence frame. Honors: Write a CER essay arguing whether the Reign of Terror betrayed or protected the ideals of the 1789 Declaration of the Rights of Man and of the Citizen, citing the Declaration and a Robespierre speech."
+    },
+    "W.07": {
+      "title": "Rise and Fall of Napoleon's Empire",
+      "iCan": "I can analyze the geographic, political, and social factors that explain both the rise and the fall of Napoleon Bonaparte's empire.",
+      "eq": "To what extent was geography, more than politics, the decisive cause of the collapse of Napoleon's empire?",
+      "ssps": [
+        "SSP.02",
+        "SSP.05",
+        "SSP.06"
+      ],
+      "vocab": [
+        {
+          "term": "Continental System",
+          "def": "Napoleon's policy of blocking European trade with Britain to weaken its economy.",
+          "es": "Sistema Continental"
+        },
+        {
+          "term": "Grande Armée",
+          "def": "Napoleon's massive main army that invaded Russia in 1812.",
+          "es": "Gran Ejército (Grande Armée)"
+        },
+        {
+          "term": "scorched earth",
+          "def": "A tactic of burning crops and supplies so an advancing enemy cannot use them.",
+          "es": "tierra quemada"
+        },
+        {
+          "term": "abdication",
+          "def": "The formal act of giving up a throne or supreme power.",
+          "es": "abdicación"
+        },
+        {
+          "term": "coup d'état",
+          "def": "A sudden, often illegal seizure of government power by a small group.",
+          "es": "golpe de Estado"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "From Revolution to Power",
+          "content": "Born in Corsica in 1769, Napoleon Bonaparte rose through the French army during the chaos of the French Revolution. In the coup d'état of 18 Brumaire (November 1799) he overthrew the Directory and made himself First Consul. His talent for battle, propaganda, and administration let him crown himself Emperor of the French in December 1804. Political instability at home created the opening that his ambition and military skill filled."
+        },
+        {
+          "heading": "Building a European Empire",
+          "content": "Between 1805 and 1807 Napoleon defeated Austria, Prussia, and Russia in a string of victories such as Austerlitz. He reorganized conquered lands, spread reforms like the Napoleonic Code, and placed relatives on European thrones. To ruin Britain without a navy strong enough to invade it, he launched the Continental System in 1806 to cut off British trade. At its height his empire and allied states stretched across most of continental Europe."
+        },
+        {
+          "heading": "Geographic Overreach",
+          "content": "The empire's geography became its weakness. The Peninsular War in Spain (1808–1814) drained French troops in a grinding guerrilla conflict that Napoleon called his 'Spanish ulcer.' In 1812 he invaded Russia with a Grande Armée of roughly 600,000 men, but vast distances, Russian scorched-earth tactics, and a brutal early winter destroyed it during the retreat. Fighting on two distant fronts at once stretched his forces past their limit."
+        },
+        {
+          "heading": "Defeat and Exile",
+          "content": "Weakened by the Russian disaster, Napoleon was defeated by a coalition and forced to abdicate in April 1814, then exiled to Elba. He returned for the Hundred Days in 1815 but was crushed at Waterloo on June 18, 1815. He was exiled again, this time to the remote South Atlantic island of Saint Helena, where he died in 1821. Political overreach and hostile geography together brought down the empire military genius had built."
+        }
+      ],
+      "sourceItFirst": {
+        "who": "Napoleon Bonaparte, 'Farewell to the Old Guard'",
+        "when": "1814",
+        "why": "to bid farewell to his soldiers upon his first abdication",
+        "excerpt": "Soldiers of my Old Guard, I bid you farewell. For twenty years I have constantly accompanied you on the road to honor and glory.",
+        "citation": "Napoleon Bonaparte, Farewell to the Imperial Guard, Fontainebleau, 20 April 1814 (English translation), Fondation Napoléon, napoleon.org."
+      },
+      "quiz": [
+        {
+          "stem": "What was the main goal of Napoleon's Continental System, established by the Berlin Decree of 1806?",
+          "choices": {
+            "A": "To block British trade with the European continent",
+            "B": "To recruit soldiers for the invasion of Russia",
+            "C": "To unify the German states into one kingdom",
+            "D": "To replace the Napoleonic Code with older feudal law"
+          },
+          "key": "A",
+          "dok": 1,
+          "why": "Recalls the stated economic purpose of the Continental System."
+        },
+        {
+          "stem": "Which combination of geographic factors most directly turned the 1812 invasion of Russia into a catastrophe for the Grande Armée?",
+          "choices": {
+            "A": "Short supply lines and an unusually mild winter",
+            "B": "Vast distances, scorched-earth destruction of supplies, and a brutal early winter",
+            "C": "Blocked Alpine passes and a Spanish naval blockade",
+            "D": "Dense tropical forests that slowed the cavalry advance"
+          },
+          "key": "B",
+          "dok": 2,
+          "why": "Requires connecting several geographic causes to the army's collapse."
+        },
+        {
+          "stem": "At which 1815 battle did Napoleon suffer his final defeat?",
+          "choices": {
+            "A": "Leipzig",
+            "B": "Austerlitz",
+            "C": "Waterloo",
+            "D": "Borodino"
+          },
+          "key": "C",
+          "dok": 1,
+          "why": "Recalls the location and year of Napoleon's last defeat."
+        },
+        {
+          "stem": "A student argues that Napoleon's empire fell mainly because he overextended it geographically. Which evidence best supports that claim?",
+          "choices": {
+            "A": "His 1804 coronation as emperor",
+            "B": "The civil-law reforms of the Napoleonic Code",
+            "C": "His family origins on the island of Corsica",
+            "D": "Fighting costly wars in Spain and Russia at the same time"
+          },
+          "key": "D",
+          "dok": 3,
+          "why": "Asks students to select evidence that fits a stated geographic-overreach claim."
+        }
+      ],
+      "differentiation": "Entry: Using a labeled map and a word bank, students write a 3-sentence CER claiming one factor (geography, politics, or society) that most weakened Napoleon, citing one map detail. Honors: Students write a full CER weighing geography against political overreach as the decisive cause of the empire's fall, using at least two pieces of evidence including the primary source."
+    },
+    "W.08": {
+      "title": "Enlightenment, Jefferson, and Two Revolutions",
+      "iCan": "I can identify how Enlightenment ideas shaped Jefferson and the Declaration of Independence, and compare the American and French Revolutions.",
+      "eq": "Did the American and French Revolutions share the same goals, or did they pursue liberty in fundamentally different ways?",
+      "ssps": [
+        "SSP.02",
+        "SSP.03",
+        "SSP.04"
+      ],
+      "vocab": [
+        {
+          "term": "Enlightenment",
+          "def": "A 1700s movement that used reason to question government, rights, and authority.",
+          "es": "Ilustración"
+        },
+        {
+          "term": "natural rights",
+          "def": "Rights such as life, liberty, and property that people are born with.",
+          "es": "derechos naturales"
+        },
+        {
+          "term": "social contract",
+          "def": "The idea that government's power comes from an agreement with the people it serves.",
+          "es": "contrato social"
+        },
+        {
+          "term": "consent of the governed",
+          "def": "The principle that a government is legitimate only if the people agree to it.",
+          "es": "consentimiento de los gobernados"
+        },
+        {
+          "term": "unalienable rights",
+          "def": "Rights that cannot be taken away or given up.",
+          "es": "derechos inalienables"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Enlightenment Ideas",
+          "content": "During the 1700s Enlightenment thinkers argued that human reason, not tradition or kings, should shape government. The English philosopher John Locke wrote in his Second Treatise of Government (1689) that people are born with natural rights to life, liberty, and property. Locke also argued that governments exist through a social contract and rule only by the consent of the governed. These ideas gave revolutionaries a language for challenging absolute monarchy."
+        },
+        {
+          "heading": "Jefferson and the Declaration",
+          "content": "In 1776 the Continental Congress chose Thomas Jefferson as the principal author of the Declaration of Independence. Jefferson borrowed directly from Locke, writing that all men are 'created equal' with 'unalienable Rights' to 'Life, Liberty and the pursuit of Happiness.' He argued that government derives its 'just powers from the consent of the governed' and may be altered when it violates those rights. The document turned Enlightenment theory into a public justification for independence."
+        },
+        {
+          "heading": "The American Revolution",
+          "content": "The American Revolution (1775–1783) was a war of independence in which thirteen colonies broke away from a distant British ruler and king. The colonists largely kept their existing local governments and social structures while rejecting outside control. The conflict ended with the recognition of the United States and the later framing of a written constitution. Its aim was self-government rather than the overthrow of an entire social order."
+        },
+        {
+          "heading": "The French Revolution Compared",
+          "content": "The French Revolution began in 1789 when the people rose against their own monarchy and the privileges of nobility and clergy. Inspired by similar Enlightenment ideas, the National Assembly issued the Declaration of the Rights of Man and of the Citizen, echoing that men are 'born and remain free and equal in rights.' Unlike the American Revolution, it overturned France's internal social and political order and grew far more violent, passing through the Reign of Terror. Both revolutions shared Enlightenment ideals, but they targeted very different kinds of authority."
+        }
+      ],
+      "sourceItFirst": {
+        "who": "Thomas Jefferson et al., The Declaration of Independence",
+        "when": "1776",
+        "why": "to justify the colonies' separation from Britain using Enlightenment principles",
+        "excerpt": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.",
+        "citation": "Thomas Jefferson et al., The Declaration of Independence, 1776, U.S. National Archives, Charters of Freedom."
+      },
+      "quiz": [
+        {
+          "stem": "Who served as the principal author of the Declaration of Independence?",
+          "choices": {
+            "A": "John Locke",
+            "B": "John Adams",
+            "C": "Thomas Jefferson",
+            "D": "Benjamin Franklin"
+          },
+          "key": "C",
+          "dok": 1,
+          "why": "Recalls the author of the Declaration."
+        },
+        {
+          "stem": "Which Enlightenment thinker's idea of natural rights most directly shaped Jefferson's phrase 'Life, Liberty and the pursuit of Happiness'?",
+          "choices": {
+            "A": "Voltaire",
+            "B": "John Locke",
+            "C": "Thomas Hobbes",
+            "D": "Baron de Montesquieu"
+          },
+          "key": "B",
+          "dok": 2,
+          "why": "Requires matching Locke's natural-rights idea to Jefferson's wording."
+        },
+        {
+          "stem": "Which statement best describes a difference between the American and French Revolutions?",
+          "choices": {
+            "A": "The American Revolution broke from a distant ruler, while the French Revolution overturned its own king and social order",
+            "B": "Both revolutions immediately abolished slavery across their territories",
+            "C": "Neither revolution produced a written statement of rights",
+            "D": "The French Revolution began several years before the American Revolution"
+          },
+          "key": "A",
+          "dok": 3,
+          "why": "Requires comparing the targets of each revolution."
+        },
+        {
+          "stem": "Which document most clearly shows Enlightenment ideas of equality crossing from America into France?",
+          "choices": {
+            "A": "The Napoleonic Code",
+            "B": "The final act of the Congress of Vienna",
+            "C": "The treaties of the Concert of Europe",
+            "D": "The French Declaration of the Rights of Man and of the Citizen (1789)"
+          },
+          "key": "D",
+          "dok": 3,
+          "why": "Asks students to identify the French text that echoed the Declaration's equality claim."
+        }
+      ],
+      "differentiation": "Entry: Using a side-by-side sentence frame and the two quoted lines, students complete a CER identifying one shared Enlightenment idea in the American and French declarations. Honors: Students write a full comparative CER arguing whether the two revolutions pursued liberty in the same way, citing both declarations and one difference in their goals."
+    },
+    "W.09": {
+      "title": "Effects of the French Revolution Worldwide",
+      "iCan": "I can explain how the French Revolution reshaped Europe and the world through the Napoleonic Code, the Concert of Europe, and the Haitian Revolution.",
+      "eq": "Did the French Revolution spread liberty and equality, or did it mainly provoke reaction and control?",
+      "ssps": [
+        "SSP.03",
+        "SSP.04",
+        "SSP.05"
+      ],
+      "vocab": [
+        {
+          "term": "Napoleonic Code",
+          "def": "Napoleon's 1804 civil law code that guaranteed legal equality for men and protected property.",
+          "es": "Código Napoleónico"
+        },
+        {
+          "term": "Concert of Europe",
+          "def": "A system of great powers cooperating after 1815 to keep peace and prevent revolution.",
+          "es": "Concierto de Europa"
+        },
+        {
+          "term": "balance of power",
+          "def": "An arrangement in which no single nation becomes strong enough to dominate the others.",
+          "es": "equilibrio de poder"
+        },
+        {
+          "term": "Haitian Revolution",
+          "def": "The 1791–1804 uprising in which enslaved people overthrew French rule and founded Haiti.",
+          "es": "Revolución haitiana"
+        },
+        {
+          "term": "emancipation",
+          "def": "The act of freeing people from slavery or the control of others.",
+          "es": "emancipación"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Exporting Revolutionary Law",
+          "content": "The French Revolution's ideals did not stay inside France. In 1804 Napoleon promulgated the Napoleonic Code, a unified civil law that swept away feudal privileges and guaranteed legal equality among men and the protection of property. As French armies advanced, they carried the Code across Europe, where it reshaped legal systems in the German states, Italy, and beyond. Even after Napoleon fell, many of these legal reforms endured, spreading Enlightenment principles far from Paris."
+        },
+        {
+          "heading": "The Conservative Reaction",
+          "content": "The upheaval also frightened Europe's monarchs, who wanted to prevent future revolutions. At the Congress of Vienna (1814–1815), led by Austria's Prince Metternich, the great powers redrew borders and restored many old ruling families. They created the Concert of Europe, a system in which the major states cooperated to maintain a balance of power and suppress revolutionary movements. For decades this arrangement helped Europe avoid another continent-wide war."
+        },
+        {
+          "heading": "Revolution Crosses the Atlantic",
+          "content": "The revolution's promise of liberty and equality inspired the enslaved population of France's richest colony, Saint-Domingue. Beginning in 1791, a massive uprising led by figures such as Toussaint Louverture challenged both slavery and colonial rule. The revolutionaries defeated French, Spanish, and British forces in a brutal and costly struggle. Their success showed that revolutionary ideals could be turned against the very empires that proclaimed them."
+        },
+        {
+          "heading": "The Birth of Haiti",
+          "content": "On January 1, 1804, Jean-Jacques Dessalines declared independence, creating Haiti — the first nation founded by formerly enslaved people and the second independent country in the Americas. The revolution permanently abolished slavery in the colony and alarmed slaveholding societies across the Atlantic world. Its example encouraged abolitionists while frightening governments that depended on slavery. Together, the Napoleonic Code, the Concert of Europe, and the Haitian Revolution show how the French Revolution changed Europe and the wider world."
+        }
+      ],
+      "sourceItFirst": {
+        "who": "Jean-Jacques Dessalines and Louis Boisrond-Tonnerre, Haitian Declaration of Independence",
+        "when": "1804",
+        "why": "to proclaim Haiti's freedom from France and colonial slavery",
+        "excerpt": "We have dared to be free; let us dare to be so by ourselves and for ourselves.",
+        "citation": "Jean-Jacques Dessalines and Louis Boisrond-Tonnerre, Haitian Declaration of Independence, 1 January 1804 (English translation), Duke University Libraries, Haiti Collection."
+      },
+      "quiz": [
+        {
+          "stem": "What was the Napoleonic Code of 1804?",
+          "choices": {
+            "A": "A unified civil-law code guaranteeing legal equality and property rights",
+            "B": "A treaty that redrew the borders of Poland",
+            "C": "A plan to industrialize French factories",
+            "D": "A royal decree restoring feudal privileges"
+          },
+          "key": "A",
+          "dok": 1,
+          "why": "Recalls the purpose of the Napoleonic Code."
+        },
+        {
+          "stem": "What was the main goal of the Concert of Europe formed after 1815?",
+          "choices": {
+            "A": "To spread revolution to every European capital",
+            "B": "To maintain a balance of power and suppress future revolutions",
+            "C": "To grant immediate independence to all colonies",
+            "D": "To finance Napoleon's return from exile"
+          },
+          "key": "B",
+          "dok": 2,
+          "why": "Requires identifying the stabilizing aim of the Concert of Europe."
+        },
+        {
+          "stem": "Why is the Haitian Revolution historically significant?",
+          "choices": {
+            "A": "It restored French colonial rule across the Caribbean",
+            "B": "It launched the Congress of Vienna",
+            "C": "It created the first nation founded by formerly enslaved people",
+            "D": "It permanently ended all Atlantic trade"
+          },
+          "key": "C",
+          "dok": 2,
+          "why": "Requires recognizing Haiti's significance as a free state."
+        },
+        {
+          "stem": "A historian claims the French Revolution's ideals spread far beyond France. Which pairing best supports that claim?",
+          "choices": {
+            "A": "The Napoleonic Code applying only within the Paris city limits",
+            "B": "The Congress of Vienna abolishing every European monarchy",
+            "C": "Enslaved Haitians rejecting the ideals of liberty and equality",
+            "D": "The Napoleonic Code reshaping European law while Haiti won emancipation and independence"
+          },
+          "key": "D",
+          "dok": 3,
+          "why": "Asks students to select paired evidence showing the revolution's global reach."
+        }
+      ],
+      "differentiation": "Entry: Using a cause-and-effect organizer with a word bank, students write a short CER naming one way the French Revolution changed a place outside France, citing the source. Honors: Students write a full CER arguing whether the French Revolution mainly spread liberty or mainly provoked reaction, using evidence from all three effects (Napoleonic Code, Concert of Europe, Haitian Revolution)."
+    }
+  }
+}
