@@ -150,6 +150,36 @@ table.arc td.call{ font:700 8.5pt "DejaVu Sans"; color:var(--rule); letter-spaci
 .xc{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
 .blank{ display:inline-block; min-width:46px; border-bottom:1px solid var(--rule); }
 
+
+/* Excerpt-stop primary source (verbatim text) */
+.excerpt{ background:var(--tint-warm); border-left:4px solid var(--rule); border-radius:0 8px 8px 0; padding:14px 16px; align-self:start; }
+.excerpt .eq{ font-family:"DejaVu Serif"; font-size:11.5pt; line-height:1.5; color:var(--ink); }
+.excerpt .ec{ margin-top:10px; font-size:9pt; color:var(--ink-soft); }
+.excerpt .cite{ font-size:7.5pt; }
+.stop-media figure.stopfig img{ height:3in; object-fit:cover; }
+
+
+/* ── FLIGHT LOG ──────────────────────────────────────────────────────────── */
+.fl-cover{ page:cover; position:relative; page-break-after:always; }
+.fl-cover img{ display:block; width:8.5in; height:11in; object-fit:cover; }
+.fl-band{ position:absolute; left:0; right:0; bottom:1.1in; background:rgba(10,42,94,.93); border-top:3px solid #C9A227; border-bottom:3px solid #C9A227; color:#fff; text-align:center; padding:18px 24px; }
+.fl-kick{ font:700 12pt "DejaVu Sans"; letter-spacing:.22em; text-transform:uppercase; color:#F2C14E; }
+.fl-title{ font-family:"DejaVu Serif"; font-size:23pt; font-weight:700; margin:4px 0 2px; }
+.fl-sub{ font-size:10.5pt; color:#dbe2ee; }
+.fl-name{ margin-top:12px; font:700 9pt "DejaVu Sans"; letter-spacing:.06em; }
+.fl-line{ display:inline-block; width:2.2in; border-bottom:1px solid #C9A227; margin:0 6px; }
+.fl-line.short{ width:0.9in; }
+/* entries */
+.fl-entry{ border:1px solid var(--line); border-left:4px solid var(--rule); border-radius:0 8px 8px 0; padding:10px 13px; margin-bottom:12px; break-inside:avoid; }
+.fl-eh{ display:flex; align-items:baseline; gap:10px; border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:5px; }
+.fl-num{ font-family:"DejaVu Serif"; font-size:18pt; color:var(--rule); }
+.fl-et{ font-family:"DejaVu Serif"; font-size:12.5pt; font-weight:700; flex:1; }
+.fl-ec{ font:700 8.5pt "DejaVu Sans"; color:var(--rule); border:1.3px solid var(--rule); border-radius:5px; padding:2px 6px; white-space:nowrap; }
+.fl-xref{ font-size:8.7pt; color:var(--ink-soft); background:var(--tint-cool); border-radius:6px; padding:6px 9px; margin-bottom:6px; }
+.fl-cap b{ font-size:8.7pt; }
+.fl-grade{ font-size:7.8pt; color:var(--ink-soft); margin-top:6px; }
+.fl-box{ display:inline-block; width:22px; height:14px; border:1.3px solid var(--rule); vertical-align:-3px; }
+
 /* Writing lines + rubric */
 .write .ln{ border-bottom:1px solid var(--line); height:30px; }
 .wlabel{ font:700 8.5pt "DejaVu Sans"; text-transform:uppercase; letter-spacing:.05em; color:var(--rule); margin:8px 0 2px; }

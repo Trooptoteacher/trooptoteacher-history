@@ -66,6 +66,23 @@ Two pages:
   answer defended with the graph**. This is the anchor cross-curricular math/science correlation; every unit's
   Arc works the same way.
 
+## Flight Log companion (write-in student log) — `build_flightlog.py`
+
+Every unit ships a **Flight Log**: the write-in student companion to the reader. LOCKED structure:
+- **Brand cover** — the course hero art, full-bleed, with a gold-bordered navy band overlay
+  (`✈ Student Flight Log · Unit N · <title> · <span>` + NAME/PERIOD lines). Reuse the same cover asset as
+  the reader; this is the "badass brand cover on top."
+- **SMART goals** page (short/mid/long-term ladder + how-the-cross-check-works note).
+- **One log entry per stop**, each carrying the **bidirectional cross-reference** — the entry names exactly
+  where in the narrative to write from (*"write from <Debriefer>'s debrief on the Stop N page (Unit N,
+  US.xx)"*), and the reader's Stop-N writing cue names the matching entry (*"log it as Flight Log · Entry
+  N"*). **Both sides are generated from the SAME stop list**, so the cross-reference is accurate by
+  construction and can never drift. Each entry = claim + evidence write-in + self-grade + Writing-Lab handoff.
+- **Arc-of-the-Union capture** — points back to the reader's Arc section; student brings the mean/verdict home.
+
+Course-parameterized identically to the reader (per-unit stop list from `courses/<id>/course.json` +
+narrative source). Same B&W-safe contract; teacher-key edition adds answers (teacher-side only).
+
 ## Value-block menu (white-space value rule)
 
 When a page is short of 90%, insert a `.value` block — pick for fit and impact, never filler:
