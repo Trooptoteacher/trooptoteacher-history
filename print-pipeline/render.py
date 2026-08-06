@@ -101,9 +101,10 @@ def render_cover(block):
     img = (f'<img src="{block["image"]}" style="width:100%;height:2.9in;object-fit:cover;'
            f'border-radius:6px;border:1px solid #C9C2B4">') if block.get("image") else ""
     stds = "".join(f'<li style="margin-bottom:1pt">{rich(s)}</li>' for s in block.get("standards", []))
+    eyebrow = block.get("eyebrow", "U.S. HISTORY HACK&trade; &middot; AMERICA 250")
     return f'''<div style="page-break-after:always;font-family:'DejaVu Sans',Arial,sans-serif;color:{INK}">
       <div style="background:{NAVY};color:#fff;border-left:12px solid {RED};padding:14pt 16pt;border-radius:6px 6px 0 0">
-        <div style="color:{GOLD};font-weight:700;letter-spacing:1pt;font-size:11pt">U.S. HISTORY HACK&trade; &middot; AMERICA 250</div>
+        <div style="color:{GOLD};font-weight:700;letter-spacing:1pt;font-size:11pt">{eyebrow}</div>
         <div style="font-size:23pt;font-weight:700;margin:4pt 0 2pt">{rich(block["title"])}</div>
         <div style="color:#DCE6F1;font-size:12pt">{rich(block.get("subtitle",""))}</div>
       </div>
