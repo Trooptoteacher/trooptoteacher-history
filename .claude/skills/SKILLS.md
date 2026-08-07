@@ -22,6 +22,7 @@ best path to adoption).
 |---|---|
 | `history-hack-platinum-unit-builder` | **Orchestrator** for a Course Standard unit set. Invokes the engine + gates; does not inline them. |
 | `history-hack-unit-content-build` | The 7-activity content **engine** (`build_guided_notes.py`, verso NOTES SUPPORTS, deck-keying, five editions). |
+| `history-hack-narrative-textbook-builder` | The **narrative illustrated textbook** (student *reader*, e.g. "To Form a More Perfect Union") — WeasyPrint cover/foreword/crew/per-standard stops/CER writing pages/Arc-of-the-Union coordinate plot, B&W-safe print contract, ≥90% page-fill gate. A **different product** from the unit workbook above and the DBQ SKU below. |
 | `history-hack-new-course-builder` | Cradle-to-grave **new-course** orchestrator (Government, Economics, World History…). Calls the unit builder; never re-implements it. |
 | `history-hack-dbq-workbook` | Standalone **DBQ / primary-source SKU** — a different product from the unit workbook. |
 | `history-hack-graphic-organizer-workbook` | Reproducible **graphic-organizer** toolkit (carries the Cornell supports reproducibles). |

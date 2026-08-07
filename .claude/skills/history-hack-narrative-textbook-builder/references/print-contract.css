@@ -1,0 +1,192 @@
+/*
+ * "To Form a More Perfect Union" — print contract (WeasyPrint).
+ * B&W-SAFE by design: dark ink on white/light tints, no white-on-navy or
+ * gold-on-navy for reading-critical content (both collapse in grayscale).
+ * Color is decorative; meaning survives a black-and-white classroom printer.
+ */
+:root{
+  --ink:#1b2a41;            /* near-black navy — body + headings */
+  --ink-soft:#41506a;
+  --rule:#1b3a6b;           /* navy accent rule (prints dark gray) */
+  --gold:#b8860b;           /* accent only, never reading-critical */
+  --red:#9b2226;            /* labels/emphasis */
+  --tint-warm:#f5f2ec;      /* callout bg (prints ~4% gray) */
+  --tint-cool:#eef2f8;      /* secondary bg */
+  --line:#c9cfd8;           /* hairlines, writing rules */
+}
+@page{
+  size:Letter;
+  margin:0.7in 0.75in 0.7in 0.85in;   /* extra left = binding gutter */
+  @bottom-left{ content:"© 2026 TroopToTeacher Technologies · To Form a More Perfect Union"; font:8pt "DejaVu Sans"; color:#7a828e; }
+  @bottom-right{ content:"US.01–US.27  ·  " counter(page); font:8pt "DejaVu Sans"; color:#7a828e; }
+}
+@page cover{ margin:0; @bottom-left{content:none} @bottom-right{content:none} }
+.cover-page{ page:cover; page-break-after:always; }
+.cover-page img{ display:block; width:8.5in; height:11in; object-fit:cover; }
+
+/* Foreword */
+.fw{ }
+.fw .kicker{ font:700 9pt "DejaVu Sans"; letter-spacing:.18em; text-transform:uppercase; color:var(--red); }
+.fw h1{ font-size:26pt; margin:4px 0 2px; }
+.fw .sub{ font-family:"DejaVu Serif"; font-style:italic; font-size:12pt; color:var(--ink-soft); margin-bottom:14px; }
+.fw p{ font-size:11pt; line-height:1.6; margin:0 0 11px; }
+.fw .pull{ font-family:"DejaVu Serif"; font-size:13.5pt; line-height:1.45; color:var(--ink); border-left:4px solid var(--gold); padding:4px 0 4px 16px; margin:14px 0; }
+.fw .sig{ margin-top:18px; }
+.fw .sig .name{ font-family:"DejaVu Serif"; font-size:14pt; font-weight:700; }
+.fw .sig .role{ font-size:9pt; color:var(--ink-soft); }
+.fw .rule{ height:2px; width:70px; background:var(--rule); margin:16px 0; }
+*{ box-sizing:border-box; }
+body{ font:10.5pt/1.5 "DejaVu Sans"; color:var(--ink); margin:0; }
+.page{ page-break-after:always; }
+.page:last-child{ page-break-after:auto; }
+h1,h2,h3,.serif{ font-family:"DejaVu Serif"; color:var(--ink); }
+
+/* Section header: dark text + navy left rule + gold underline (B&W-safe) */
+.sec{ border-left:5px solid var(--rule); padding:2px 0 6px 12px; margin:0 0 14px; }
+.sec .eyebrow{ font:700 8.5pt "DejaVu Sans"; letter-spacing:.14em; text-transform:uppercase; color:var(--red); }
+.sec h2{ font-size:19pt; margin:2px 0 0; }
+.sec .u{ height:3px; width:64px; background:var(--gold); margin-top:6px; }
+
+p{ margin:0 0 9px; }
+.lead{ font-size:11pt; }
+.small{ font-size:9pt; color:var(--ink-soft); }
+.tint{ background:var(--tint-warm); border:1px solid var(--line); border-radius:8px; padding:12px 14px; }
+.cool{ background:var(--tint-cool); }
+.callout{ border-left:4px solid var(--gold); background:var(--tint-warm); padding:10px 14px; border-radius:0 8px 8px 0; }
+
+/* Table of Contents */
+.toc-row{ display:flex; align-items:center; gap:14px; padding:11px 0; border-bottom:1px solid var(--line); }
+.toc-num{ font-family:"DejaVu Serif"; font-size:20pt; color:var(--rule); width:34px; text-align:center; }
+.toc-body{ flex:1; }
+.toc-title{ font-family:"DejaVu Serif"; font-size:13pt; font-weight:700; }
+.toc-meta{ font-size:9pt; color:var(--ink-soft); }
+.toc-std{ font:700 9pt "DejaVu Sans"; color:var(--rule); white-space:nowrap; }
+
+/* Crew grid — one page, 7 members */
+.crew-grid{ display:grid; grid-template-columns:1fr 1fr; gap:7px 14px; }
+.crew{ display:flex; gap:10px; border:1px solid var(--line); border-radius:8px; padding:6px 8px; break-inside:avoid; }
+.crew img,.crew .ph{ width:64px; height:64px; border-radius:6px; object-fit:cover; border:1.5px solid var(--rule); flex:0 0 auto; }
+.crew .ph{ display:flex; flex-direction:column; align-items:center; justify-content:center; background:var(--tint-cool); color:var(--rule); overflow:hidden; text-align:center; line-height:1.05; padding:2px; }
+.crew .ph .mono{ font:700 16pt "DejaVu Serif"; }
+.crew .ph small{ font:6pt "DejaVu Sans"; color:var(--ink-soft); }
+figure.fit img{ width:auto; max-width:100%; max-height:3in; display:block; margin:0 auto; }
+figure.fit.sm img{ max-height:2.3in; }
+.crew .nm{ font-family:"DejaVu Serif"; font-size:12pt; font-weight:700; }
+.crew .rl{ font:700 7.5pt "DejaVu Sans"; text-transform:uppercase; letter-spacing:.06em; color:var(--red); margin:1px 0 3px; }
+.crew .ds{ font-size:8.5pt; line-height:1.35; color:var(--ink-soft); }
+
+/* Standards list on unit divider — B&W-safe chips */
+.std-list{ display:grid; grid-template-columns:1fr 1fr; gap:7px 16px; margin:10px 0; }
+.std{ display:flex; gap:9px; align-items:flex-start; }
+.std .chip{ font:700 8.5pt "DejaVu Sans"; color:var(--rule); border:1.5px solid var(--rule); border-radius:5px; padding:2px 6px; white-space:nowrap; }
+.std .txt{ font-size:9pt; line-height:1.3; }
+
+/* Matrix table */
+table.mx{ width:100%; border-collapse:collapse; font-size:9pt; }
+table.mx th{ text-align:left; border-bottom:2px solid var(--rule); padding:6px 8px; color:var(--ink); font-family:"DejaVu Serif"; }
+table.mx td{ border-bottom:1px solid var(--line); padding:6px 8px; vertical-align:top; }
+
+/* ── VALUE BLOCK ─────────────────────────────────────────────────────────────
+   White-space rule: any page with meaningful bottom gap earns a value block —
+   a check-in, self-assessment, prediction, reflection, or Future-Ready/ACT tie.
+   Never leave dead space; convert it to high-impact pedagogy. */
+.value{ border:1.5px solid var(--rule); border-radius:10px; padding:12px 14px; margin-top:14px; break-inside:avoid; }
+.value.tight{ padding:9px 12px; margin-top:10px; }
+.value.tight p{ margin:0 0 5px; }
+.value.tight .vh{ margin-bottom:5px; }
+.value.tight .ag-row{ padding:3px 0; border-bottom:none; }
+.value .vh{ display:flex; align-items:center; gap:9px; margin-bottom:7px; }
+.value .vh .tag{ font:700 8pt "DejaVu Sans"; letter-spacing:.1em; text-transform:uppercase; color:#fff; background:var(--rule); border-radius:4px; padding:3px 8px; }
+.value .vh h4{ font-family:"DejaVu Serif"; font-size:13pt; margin:0; }
+.value p{ font-size:9.5pt; margin:0 0 7px; }
+.ag-row{ display:flex; gap:12px; align-items:baseline; padding:6px 0; border-bottom:1px dashed var(--line); font-size:9.5pt; }
+.ag-row .st{ flex:1; }
+.ag-row .boxes{ white-space:nowrap; font:700 8.5pt "DejaVu Sans"; color:var(--rule); }
+.cb{ display:inline-block; width:10px; height:10px; border:1.3px solid var(--rule); margin-right:3px; vertical-align:-1px; }
+.rate{ font:700 8.5pt "DejaVu Sans"; color:var(--rule); }
+.two-col{ display:grid; grid-template-columns:1fr 1fr; gap:0 18px; }
+.two-col .ag-row{ align-items:flex-start; }
+.fr-tie{ margin-top:10px; font-size:9pt; background:var(--tint-cool); border-radius:6px; padding:8px 11px; }
+.fr-tie b{ color:var(--rule); }
+.value .write .ln{ height:28px; }
+
+/* Era-friends strip */
+.friend{ display:flex; gap:10px; border-left:3px solid var(--rule); padding:6px 0 6px 12px; margin-bottom:9px; break-inside:avoid; }
+.friend .fn{ font-family:"DejaVu Serif"; font-weight:700; font-size:11pt; }
+.friend .fd{ font-size:9pt; color:var(--ink-soft); }
+
+/* Stop page */
+.stop-hd{ display:flex; align-items:baseline; gap:10px; border-bottom:2px solid var(--rule); padding-bottom:6px; margin-bottom:10px; }
+.stop-hd .n{ font-family:"DejaVu Serif"; font-size:22pt; color:var(--rule); }
+.stop-hd .t{ font-family:"DejaVu Serif"; font-size:15pt; font-weight:700; }
+figure{ margin:10px 0; }
+figure img{ width:100%; border:1px solid var(--line); }
+figcaption{ font-size:8.5pt; color:var(--ink-soft); margin-top:4px; }
+.stop-media{ display:grid; grid-template-columns:1.15fr 1fr; gap:16px; align-items:start; margin:10px 0; }
+.stop-media figure{ margin:0; }
+.stop-media figure img{ width:100%; object-fit:cover; border:1px solid var(--line); }
+.stop-media figcaption{ font-size:8pt; }
+.source-band dd{ font-size:8.5pt; margin:0 0 4px; }
+.source-band{ border:1px solid var(--line); border-radius:8px; padding:10px 12px; background:var(--tint-warm); }
+.source-band h4{ margin:0 0 6px; font:700 8.5pt "DejaVu Sans"; letter-spacing:.08em; text-transform:uppercase; color:var(--red); }
+.source-band dl{ margin:0 0 6px; } .source-band dt{ font:700 9pt "DejaVu Sans"; color:var(--rule); } .source-band dd{ margin:0 0 5px; font-size:9pt; }
+.src-col{ display:flex; flex-direction:column; gap:8px; }
+.hvt{ border:1.5px solid var(--gold); border-radius:8px; padding:8px 11px; background:#fbf6e9; }
+.hvt-hd{ font:700 8pt "DejaVu Sans"; letter-spacing:.06em; text-transform:uppercase; color:var(--ink); margin-bottom:4px; }
+.hvt-badge{ display:inline-block; background:var(--rule); color:#fff; border-radius:4px; padding:2px 6px; letter-spacing:.08em; margin-right:4px; }
+.hvt p{ margin:0; font-size:8.7pt; line-height:1.32; }
+.vocab{ display:grid; grid-template-columns:1fr 1fr; gap:4px 16px; }
+.vocab .v{ font-size:7.6pt; line-height:1.25; } .vocab .t{ font-weight:700; }
+
+.fl-cue{ font:700 8.5pt "DejaVu Sans"; color:var(--rule); text-align:right; margin-top:9px; }
+
+/* Arc of the Union — capture table + coordinate plot */
+table.arc{ width:100%; border-collapse:collapse; font-size:9pt; margin:8px 0 10px; }
+table.arc th{ text-align:left; border-bottom:2px solid var(--rule); padding:4px 6px; font-family:"DejaVu Serif"; }
+table.arc td{ border-bottom:1px solid var(--line); padding:3px 6px; vertical-align:middle; }
+table.arc td.c{ text-align:center; white-space:nowrap; }
+table.arc td.call{ font:700 8.5pt "DejaVu Sans"; color:var(--rule); letter-spacing:.02em; white-space:nowrap; text-align:right; }
+.grid-wrap{ border:1px solid var(--line); border-radius:8px; padding:8px 8px 2px; }
+.xc{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.blank{ display:inline-block; min-width:46px; border-bottom:1px solid var(--rule); }
+
+
+/* Excerpt-stop primary source (verbatim text) */
+.excerpt{ background:var(--tint-warm); border-left:4px solid var(--rule); border-radius:0 8px 8px 0; padding:14px 16px; align-self:start; }
+.excerpt .eq{ font-family:"DejaVu Serif"; font-size:11.5pt; line-height:1.5; color:var(--ink); }
+.excerpt .ec{ margin-top:10px; font-size:9pt; color:var(--ink-soft); }
+.excerpt .cite{ font-size:7.5pt; }
+.stop-media figure.stopfig img{ height:3in; object-fit:cover; }
+
+
+/* ── FLIGHT LOG ──────────────────────────────────────────────────────────── */
+.fl-cover{ page:cover; position:relative; page-break-after:always; }
+.fl-cover img{ display:block; width:8.5in; height:11in; object-fit:cover; }
+.fl-band{ position:absolute; left:0; right:0; bottom:1.1in; background:rgba(10,42,94,.93); border-top:3px solid #C9A227; border-bottom:3px solid #C9A227; color:#fff; text-align:center; padding:18px 24px; }
+.fl-kick{ font:700 12pt "DejaVu Sans"; letter-spacing:.22em; text-transform:uppercase; color:#F2C14E; }
+.fl-title{ font-family:"DejaVu Serif"; font-size:23pt; font-weight:700; margin:4px 0 2px; }
+.fl-sub{ font-size:10.5pt; color:#dbe2ee; }
+.fl-name{ margin-top:12px; font:700 9pt "DejaVu Sans"; letter-spacing:.06em; }
+.fl-line{ display:inline-block; width:2.2in; border-bottom:1px solid #C9A227; margin:0 6px; }
+.fl-line.short{ width:0.9in; }
+/* entries */
+.fl-entry{ border:1px solid var(--line); border-left:4px solid var(--rule); border-radius:0 8px 8px 0; padding:10px 13px; margin-bottom:12px; break-inside:avoid; }
+.fl-eh{ display:flex; align-items:baseline; gap:10px; border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:5px; }
+.fl-num{ font-family:"DejaVu Serif"; font-size:18pt; color:var(--rule); }
+.fl-et{ font-family:"DejaVu Serif"; font-size:12.5pt; font-weight:700; flex:1; }
+.fl-ec{ font:700 8.5pt "DejaVu Sans"; color:var(--rule); border:1.3px solid var(--rule); border-radius:5px; padding:2px 6px; white-space:nowrap; }
+.fl-xref{ font-size:8.7pt; color:var(--ink-soft); background:var(--tint-cool); border-radius:6px; padding:6px 9px; margin-bottom:6px; }
+.fl-cap b{ font-size:8.7pt; }
+.fl-grade{ font-size:7.8pt; color:var(--ink-soft); margin-top:6px; }
+.fl-box{ display:inline-block; width:22px; height:14px; border:1.3px solid var(--rule); vertical-align:-3px; }
+
+/* Writing lines + rubric */
+.write .ln{ border-bottom:1px solid var(--line); height:30px; }
+.wlabel{ font:700 8.5pt "DejaVu Sans"; text-transform:uppercase; letter-spacing:.05em; color:var(--rule); margin:8px 0 2px; }
+.two-ev{ display:grid; grid-template-columns:1fr 1fr; gap:0 20px; }
+.rubric{ width:100%; border-collapse:collapse; font-size:8.5pt; margin-top:6px; }
+.rubric th,.rubric td{ border:1px solid var(--line); padding:5px 7px; text-align:left; vertical-align:top; }
+.rubric th{ background:var(--tint-cool); font-family:"DejaVu Sans"; }
+.app{ margin-top:10px; border:1.5px dashed var(--rule); border-radius:8px; padding:10px 12px; background:var(--tint-cool); font-size:9.5pt; }
+.app b{ color:var(--rule); }
+.badge{ display:inline-block; font:700 7.5pt "DejaVu Sans"; letter-spacing:.08em; text-transform:uppercase; color:#fff; background:var(--rule); border-radius:4px; padding:2px 7px; }
