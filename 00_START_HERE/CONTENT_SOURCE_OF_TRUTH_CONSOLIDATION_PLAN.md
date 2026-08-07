@@ -63,12 +63,17 @@ summative, writing lab). The print side **references** those banks; it never re-
 
 ## 3. Prioritized PR sequence (each self-contained, safe, reversible)
 
-**P0 — Correctness & reproducibility (do first, small):**
-1. **Reconcile the answer-key conflict.** Pick the web-app bank as truth; fix/retire
-   `all_questions.json` (item `US.01-Q01` etc. where the correct-answer letter differs).
-   *Ship blocker under "no known error ships."*
-2. **Kill the `/tmp` dependency.** Point the workbook quiz at the canonical web-app bank (a
-   committed selection manifest), so a clean checkout builds Unit 1. Retire `/tmp/u1_quiz.json`.
+**P0 — Correctness & reproducibility (do first, small):** *(scope refined by the 2026-08-07 sweep — see §6)*
+1. **Canonicalize on the web-app bank; quarantine `all_questions.json` from U.S. History.** The
+   sweep showed the web-app bank and the textbook bank **agree on every matched answer**; all 110
+   text conflicts trace to `all_questions.json`, which **no U.S. History builder reads** (only the
+   Government course does). So the fix is to **mark it non-canonical for U.S. History** (dissolves
+   the conflicts) — *not* hand-editing 110 keys. Coordinate the Government coupling separately.
+2. **Wire the quiz at the BANK level, not into the dying `/tmp` path.** The workbook is being
+   restructured into a *source* for the Flight Logs (see §4a), so do **not** patch
+   `gen_unit01.py`'s `/tmp/u1_quiz.json`. Instead build a single **bank-feed** (select canonical
+   items from the web-app bank by standard) that the **new Flight-Log pipeline consumes into the
+   Flight-Log appendix**. This kills the `/tmp` dependency by construction and survives the restructure.
 
 **P1 — Establish the single spine for U.S. History:**
 3. **Create `courses/us-history/`** (`course.json` + `standardsFile` → the verbatim TDOE repo),
@@ -118,9 +123,14 @@ summative, writing lab). The print side **references** those banks; it never re-
 |---|---|
 | **Mission** | The narrative content of a unit/standard (formerly "narrative"/"textbook reader"). |
 | **Flight Deck** | The teacher lecture deck (`.pptx`). *(Renamed from "deck.")* |
-| **Flight Log** | The student workbook. |
+| **Workbook** | An authored **source** (lesson content). *Feeds the Flight Log — it is not itself the student deliverable.* |
+| **Flight Log** | The student-facing deliverable, **generated from the Workbook**, **+ a Flight-Log appendix** (the bank-fed practice/assessment section). |
 | **Cornell Notes** | The guided note companion. |
 | **Mission Control** | The History Hack web app — portfolios, goals, spaced repetition & practice, formative + summative assessments, writing lab; **home to the three canonical banks.** |
+
+> **Workbook → Flight Log flow (refined 2026-08-07):** Workbook (authored source) **generates** the
+> Flight Log (+ appendix); the **canonical question bank feeds the Flight-Log appendix**. Earlier
+> shorthand "Flight Log = the workbook" is superseded.
 
 > System reads as one metaphor: **Missions** (narrative) → taught via the **Flight Deck**,
 > worked in the **Flight Log** + **Cornell Notes**, lived-in on **Mission Control**.
@@ -136,3 +146,28 @@ summative, writing lab). The print side **references** those banks; it never re-
 - ✅ Verbatim TDOE standards, generated everywhere (no wording drift).
 - ✅ One engine/skills home; item-writer promoted to canonical.
 - ✅ Mission Control + textbook + print all render from the same truth.
+
+---
+
+## 6. P0 answer-key sweep — results (2026-08-07, read-only)
+
+Compared three banks by **resolving every answer letter to its option text** (a letter mismatch
+alone is meaningless — options are reordered across banks): web-app **5,041** (canonical), textbook
+v5 **3,209**, `all_questions.json` **736**.
+
+| Finding | Count | Meaning |
+|---|---|---|
+| Answer-**text** conflicts | **110** | **All 110 involve `all_questions.json`.** Web-app vs textbook: none (the 2 flagged are same answer + letter, reworded option text). |
+| Same ID, **different question** | 201 | ID scheme is not stable across banks — the root cause of undetected drift |
+| Unresolved keys | 388 | A stored letter didn't map to an option (mostly in the fork) |
+| Position-only diffs | 193 | Same answer, different letter slot — the de-bias-position sync, not correctness |
+
+**Conclusions:**
+- The feared "same question graded differently could reach a student" risk is **not live** in the
+  canonical U.S. History path — the web-app and textbook banks agree, and `all_questions.json`
+  (the sole divergent source) is read only by the **Government** course, not U.S. History.
+- Real structural problem = **no stable cross-bank item identity** (only 70–736 IDs match across
+  banks of 736–5,041). Fixed in P1 by the schema + stable IDs.
+- The P0 fix is therefore **quarantine one orphan file + stand up the bank-feed**, not per-item
+  re-keying. Two items to human-eyeball (both actually the same answer): `US.02-Q05`, `US.05-Q02`.
+- Full receipts: sweep detail JSON (110 conflicts, 201 collisions, 388 unresolved, 193 position-only).
