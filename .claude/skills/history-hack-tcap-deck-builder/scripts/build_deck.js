@@ -30,6 +30,10 @@ const ACTS = JSON.parse(fs.readFileSync(path.join(DATA_DIR,'_activities.json'),'
 // generator is portable across units regardless of where it is invoked from.
 IMGS.forEach(im => {
   if (im.file && !path.isAbsolute(im.file)) im.file = path.join(DATA_DIR, im.file);
+  // Auto-placeholder: if the resolved image file isn't present yet (a verified public-domain
+  // source awaiting drop-in), reserve its exact footprint with a labeled placeholder box
+  // rather than crash the build. Drop the file at im.file and rebuild to render the photo.
+  if (im.file && !fs.existsSync(im.file)) im._placeholder = true;
 });
 
 // index images by standard
@@ -268,8 +272,10 @@ function reviewSlide(code, review){
   s.addShape(pptx.ShapeType.rect, { x:0, y:0, w:W, h:0.16, fill:{color:GOLD} });
   kicker(s, `${code} · Quick Review`, 0.6, 0.45, RED);
   s.addText('Do You Remember?', { x:0.6, y:0.8, w:12, h:0.7, fontFace:HEAD, fontSize:30, color:NAVY, bold:true });
-  s.addText('Before we start, retrieve what we have already learned. Answer from memory first — no notes.',
-    { x:0.6, y:1.55, w:12.1, h:0.4, fontFace:BODY, fontSize:14, italic:true, color:MUTE });
+  s.addText([
+    {text:'Retrieve from memory first — no notes.  ', options:{italic:true, color:MUTE}},
+    {text:'✍ Write each answer in full sentences on your Flight Log · “Do You Remember” page.', options:{bold:true, color:NAVY}}
+  ], { x:0.6, y:1.52, w:12.1, h:0.5, fontFace:BODY, fontSize:13, valign:'top', lineSpacingMultiple:1.02 });
   const prompts = review.prompts;
   const top = 2.25, gap = 0.18;
   const cardH = Math.min(1.35, (4.0 - (prompts.length-1)*gap)/prompts.length);
@@ -282,6 +288,37 @@ function reviewSlide(code, review){
       { x:1.65, y:y, w:10.9, h:cardH, fontFace:BODY, fontSize:13.5, valign:'middle', lineSpacingMultiple:1.04 });
   });
   s.addNotes('SPACED RETRIEVAL ('+code+'). Cold-call or whiteboards, 3-4 min, low stakes. Answers — '+
+    prompts.map((p,i)=>(i+1)+') '+p.a).join('  '));
+  footer(s, ++page, false);
+}
+
+// Do You Remember — ANSWER REVEAL. Advance to this after students have committed and
+// logged their answers on the Flight Log, so the teacher can give the answers on the
+// next slide (Sean). Answers live in REVIEW[code].prompts[].a.
+function reviewRevealSlide(code, review){
+  const s = pptx.addSlide();
+  s.background = { color: CREAM };
+  s.addShape(pptx.ShapeType.rect, { x:0, y:0, w:W, h:0.16, fill:{color:GOLD} });
+  kicker(s, `${code} · Quick Review — Answers`, 0.6, 0.45, KEYGRN);
+  s.addText('Do You Remember? — Answers', { x:0.6, y:0.8, w:12, h:0.7, fontFace:HEAD, fontSize:30, color:NAVY, bold:true });
+  s.addText('Check your Flight Log. Fix anything you missed in a different color — that correction is the point.',
+    { x:0.6, y:1.55, w:12.1, h:0.4, fontFace:BODY, fontSize:13, italic:true, color:MUTE });
+  const prompts = review.prompts;
+  const top = 2.25, gap = 0.18;
+  const cardH = Math.min(1.7, (4.0 - (prompts.length-1)*gap)/prompts.length);
+  prompts.forEach((p,i)=>{
+    const y = top + i*(cardH+gap);
+    s.addShape(pptx.ShapeType.rect, { x:0.6, y:y, w:12.1, h:cardH, fill:{color:WHITE}, line:{color:LINEC,width:1} });
+    s.addShape(pptx.ShapeType.rect, { x:0.6, y:y, w:0.85, h:cardH, fill:{color:KEYGRN} });
+    s.addText('✓', { x:0.6, y:y, w:0.85, h:cardH, fontFace:HEAD, fontSize:20, color:WHITE, bold:true, align:'center', valign:'middle' });
+    s.addText([
+      {text:(p.from? p.from+'  ' : ''), options:{bold:true, color:RED}},
+      {text:p.q+'\n', options:{color:MUTE}},
+      {text:'Answer:  ', options:{bold:true, color:KEYGRN}},
+      {text:p.a, options:{color:INK, bold:true}}
+    ], { x:1.65, y:y+0.06, w:10.9, h:cardH-0.12, fontFace:BODY, fontSize:12.5, valign:'middle', lineSpacingMultiple:1.05 });
+  });
+  s.addNotes('DO YOU REMEMBER — ANSWER KEY ('+code+'). Reveal after students commit + log on the Flight Log. '+
     prompts.map((p,i)=>(i+1)+') '+p.a).join('  '));
   footer(s, ++page, false);
 }
@@ -303,8 +340,10 @@ function confidenceCheckSlide(code, w){
   s.addText('DOK 1', { x:9.5, y:0.86, w:1.25, h:0.5, fontFace:LABEL, fontSize:12, color:RED, bold:true, align:'center', valign:'middle' });
   s.addShape(pptx.ShapeType.roundRect, { x:10.9, y:0.86, w:1.8, h:0.5, rectRadius:0.1, fill:{color:NAVY} });
   s.addText('LOW STAKES', { x:10.9, y:0.86, w:1.8, h:0.5, fontFace:LABEL, fontSize:11, color:GOLDBR, bold:true, align:'center', valign:'middle' });
-  s.addText('Everyone can answer this. Thumbs / whiteboards — no notes. Commit BEFORE the next slide.',
-    { x:0.6, y:1.5, w:12.1, h:0.4, fontFace:BODY, fontSize:14, italic:true, color:MUTE });
+  s.addText([
+    {text:'Write it on your whiteboard or desk.  ', options:{bold:true, color:NAVY}},
+    {text:'You may confer with your group for 30 seconds — then COMMIT your answer before the reveal.', options:{italic:true, color:MUTE}}
+  ], { x:0.6, y:1.5, w:12.1, h:0.45, fontFace:BODY, fontSize:13.5, valign:'top', lineSpacingMultiple:1.02 });
   s.addShape(pptx.ShapeType.roundRect, { x:0.6, y:2.35, w:12.1, h:2.9, rectRadius:0.1, fill:{color:NAVY} });
   s.addText(w.q, { x:1.1, y:2.65, w:11.1, h:2.3, fontFace:HEAD, fontSize:26, color:WHITE, bold:true, valign:'middle', align:'center', lineSpacingMultiple:1.1 });
   s.addShape(pptx.ShapeType.roundRect, { x:0.6, y:5.55, w:12.1, h:0.6, rectRadius:0.08, fill:{color:WHITE}, line:{color:GOLD,width:1} });
@@ -338,8 +377,27 @@ function hookSlide(code, v, hookText, prompt){
   s.addShape(pptx.ShapeType.rect, { x:0, y:0, w:W, h:0.16, fill:{color:RED} });
   kicker(s, `${code} · Hook`, 0.6, 0.5);
   s.addText('Think About It', { x:0.6, y:0.85, w:12, h:0.7, fontFace:HEAD, fontSize:30, color:NAVY, bold:true });
-  s.addShape(pptx.ShapeType.roundRect, { x:0.6, y:1.85, w:12.1, h:2.4, rectRadius:0.1, fill:{color:NAVY} });
-  s.addText(hookText, { x:1.1, y:2.15, w:11.1, h:1.8, fontFace:HEAD, fontSize:26, color:WHITE, italic:true, valign:'middle', lineSpacingMultiple:1.08 });
+  // Optional data chart beside the hook (Sean: "move the blue tab left, put the chart
+  // next to it"). Native PptxGenJS chart — stays editable in PowerPoint, no image needed.
+  const chart = (typeof HOOK_CHART !== 'undefined') ? HOOK_CHART[code] : null;
+  const hookBoxW = chart ? 7.0 : 12.1;
+  s.addShape(pptx.ShapeType.roundRect, { x:0.6, y:1.85, w:hookBoxW, h:2.4, rectRadius:0.1, fill:{color:NAVY} });
+  s.addText(hookText, { x:1.0, y:2.05, w:hookBoxW-0.75, h:2.0, fontFace:HEAD, fontSize: chart?21:26, color:WHITE, italic:true, valign:'middle', lineSpacingMultiple:1.08 });
+  if(chart){
+    const cx = 7.85, cw = 4.85;
+    s.addText(chart.title, { x:cx, y:1.66, w:cw, h:0.3, fontFace:LABEL, fontSize:10, color:NAVY, bold:true, align:'center', charSpacing:0.5 });
+    s.addChart(pptx.ChartType.doughnut, chart.data, {
+      x:cx+0.95, y:1.98, w:cw-1.9, h:1.9, holeSize:60,
+      chartColors:[RED, SLATE], showLegend:false, showValue:false, showTitle:false,
+      dataBorder:{ pt:1.5, color:'FFFFFF' }
+    });
+    s.addText(chart.big || '90%', { x:cx+0.95, y:1.98, w:cw-1.9, h:1.9, fontFace:HEAD, fontSize:24, color:RED, bold:true, align:'center', valign:'middle' });
+    s.addText([
+      {text:'■ ', options:{color:RED}}, {text:'Standard Oil     ', options:{color:INK}},
+      {text:'■ ', options:{color:SLATE}}, {text:'all other refiners', options:{color:MUTE}}
+    ], { x:cx, y:3.9, w:cw, h:0.24, fontFace:BODY, fontSize:9, align:'center', valign:'middle' });
+    s.addText(chart.source, { x:cx, y:4.16, w:cw, h:0.3, fontFace:BODY, fontSize:7, italic:true, color:MUTE, align:'center', valign:'top', lineSpacingMultiple:0.95 });
+  }
   s.addShape(pptx.ShapeType.roundRect, { x:0.6, y:4.5, w:12.1, h:1.95, rectRadius:0.1, fill:{color:WHITE}, line:{color:GOLD, width:1.5} });
   s.addText('DISCUSS', { x:1.0, y:4.7, w:3, h:0.35, fontFace:LABEL, fontSize:13, color:RED, bold:true, charSpacing:2 });
   // Facilitation timing pill — gives the teacher an explicit Turn & Talk routine,
@@ -407,7 +465,11 @@ function contentSlide(code, v, sec, idx, total, heroImg){
   const bodyH = hasTN ? 2.95 : 4.45;
   const bulletsH = bodyH - 0.55 - frameH;
   s.addShape(pptx.ShapeType.rect, { x:0.6, y:bodyTop, w:textW, h:bodyH, fill:{color:WHITE}, line:{color:LINEC,width:1} });
-  s.addText(bullets, { x:1.0, y:bodyTop+0.3, w:textW-0.7, h:bulletsH, fontFace:BODY, fontSize:hasImg?15.5:17, color:INK, valign:'top', lineSpacingMultiple:1.12 });
+  // Size the bullets to the content volume so a dense standard (image + TN box + 4 bullets,
+  // e.g. US.05 Industrial Titans) never pushes the last line out of the box (Sean: the
+  // "Cornelius Vanderbilt" line was running out of the white box).
+  const bodyFs = hasImg ? ((hasTN || sentences.length>=4) ? 13.5 : 15.5) : (sentences.length>=5 ? 15 : 17);
+  s.addText(bullets, { x:1.0, y:bodyTop+0.3, w:textW-0.7, h:bulletsH, fontFace:BODY, fontSize:bodyFs, color:INK, valign:'top', lineSpacingMultiple:1.08 });
   if(frame){
     const fy = bodyTop + bodyH - frameH;
     s.addShape(pptx.ShapeType.roundRect, { x:0.95, y:fy, w:textW-0.7, h:frameH-0.14, rectRadius:0.06, fill:{color:'EEF3F7'}, line:{color:SLATE,width:1} });
@@ -451,6 +513,54 @@ function tnConnection(code){
   return map[code] || '';
 }
 
+// Concept visual — vertical vs. horizontal integration, drawn with native shapes
+// (Sean: "create an image of what vertical and horizontal integration look like").
+// Editable in PowerPoint; no external image required.
+function integrationDiagramSlide(code){
+  const s = pptx.addSlide();
+  s.background = { color: CREAM };
+  s.addShape(pptx.ShapeType.rect, { x:0, y:0, w:W, h:0.16, fill:{color:NAVY} });
+  kicker(s, `${code} · Concept Visual`, 0.6, 0.45, RED);
+  s.addText('Two Ways to Dominate an Industry', { x:0.6, y:0.8, w:12.1, h:0.7, fontFace:HEAD, fontSize:29, color:NAVY, bold:true });
+
+  // LEFT — VERTICAL INTEGRATION (a top-to-bottom production chain)
+  const LX=0.6, LW=5.95;
+  s.addShape(pptx.ShapeType.roundRect, { x:LX, y:1.75, w:LW, h:4.9, rectRadius:0.1, fill:{color:WHITE}, line:{color:LINEC,width:1} });
+  s.addShape(pptx.ShapeType.roundRect, { x:LX, y:1.75, w:LW, h:0.62, rectRadius:0.1, fill:{color:NAVY} });
+  s.addText('VERTICAL INTEGRATION', { x:LX+0.2, y:1.79, w:LW-0.4, h:0.5, fontFace:LABEL, fontSize:15, color:WHITE, bold:true, valign:'middle', charSpacing:1 });
+  s.addText('Carnegie · steel — own every STEP of production', { x:LX+0.2, y:2.48, w:LW-0.4, h:0.3, fontFace:BODY, fontSize:11.5, italic:true, color:MUTE });
+  const steps = ['Iron ore mines','Coal & coke','Steel mills','Rail & shipping','Finished steel sold'];
+  let sy = 2.98; const bh=0.5, bw=LW-1.0, bx=LX+0.5;
+  steps.forEach((t,i)=>{
+    const last = i===steps.length-1;
+    s.addShape(pptx.ShapeType.roundRect, { x:bx, y:sy, w:bw, h:bh, rectRadius:0.05, fill:{color: last?GOLD:NAVY2}, line:{color:LINEC,width:0.5} });
+    s.addText(t, { x:bx, y:sy, w:bw, h:bh, fontFace:BODY, fontSize:12, color: last?NAVY:WHITE, bold:true, align:'center', valign:'middle' });
+    if(!last) s.addShape(pptx.ShapeType.triangle, { x:LX+LW/2-0.1, y:sy+bh+0.01, w:0.2, h:0.15, rotate:180, fill:{color:RED}, line:{type:'none'} });
+    sy += bh + 0.2;
+  });
+
+  // RIGHT — HORIZONTAL INTEGRATION (competitors merge into one firm)
+  const RX=6.78, RW=5.95;
+  s.addShape(pptx.ShapeType.roundRect, { x:RX, y:1.75, w:RW, h:4.9, rectRadius:0.1, fill:{color:WHITE}, line:{color:LINEC,width:1} });
+  s.addShape(pptx.ShapeType.roundRect, { x:RX, y:1.75, w:RW, h:0.62, rectRadius:0.1, fill:{color:A250BLUE} });
+  s.addText('HORIZONTAL INTEGRATION', { x:RX+0.2, y:1.79, w:RW-0.4, h:0.5, fontFace:LABEL, fontSize:15, color:WHITE, bold:true, valign:'middle', charSpacing:1 });
+  s.addText('Rockefeller · oil — buy up your COMPETITORS at the same step', { x:RX+0.2, y:2.48, w:RW-0.4, h:0.3, fontFace:BODY, fontSize:11, italic:true, color:MUTE });
+  const comps=['Refiner A','Refiner B','Refiner C','Refiner D'];
+  const cw=1.25, cgap=0.16, crow=RX+0.35, cy=3.02;
+  comps.forEach((t,i)=>{
+    const cxx = crow + i*(cw+cgap);
+    s.addShape(pptx.ShapeType.roundRect, { x:cxx, y:cy, w:cw, h:0.6, rectRadius:0.05, fill:{color:SLATE}, line:{color:LINEC,width:0.5} });
+    s.addText(t, { x:cxx, y:cy, w:cw, h:0.6, fontFace:BODY, fontSize:10.5, color:NAVY, bold:true, align:'center', valign:'middle' });
+    s.addShape(pptx.ShapeType.triangle, { x:cxx+cw/2-0.09, y:cy+0.64, w:0.18, h:0.42, rotate:180, fill:{color:RED}, line:{type:'none'} });
+  });
+  s.addShape(pptx.ShapeType.roundRect, { x:RX+0.6, y:4.42, w:RW-1.2, h:0.92, rectRadius:0.08, fill:{color:A250BLUE} });
+  s.addText('STANDARD OIL — one firm controls the market', { x:RX+0.6, y:4.42, w:RW-1.2, h:0.92, fontFace:BODY, fontSize:13, color:WHITE, bold:true, align:'center', valign:'middle', lineSpacingMultiple:1.02 });
+  s.addText('→ fewer competitors → sets prices (monopoly / trust)', { x:RX+0.35, y:5.5, w:RW-0.7, h:0.5, fontFace:BODY, fontSize:11, italic:true, color:MUTE, align:'center', valign:'middle' });
+
+  s.addNotes('CONCEPT VISUAL ('+code+'). VERTICAL (Carnegie): one company owns every stage of production, raw materials → finished product. HORIZONTAL (Rockefeller): one company buys out competitors at the SAME stage to control the market (monopoly / trust). Have students label each diagram and add both terms to their Flight Log Frayer models.');
+  footer(s, ++page, false);
+}
+
 // Primary source slide — now shows the ACTUAL document/image alongside the excerpt.
 function primarySourceSlide(code, ps){
   const s = pptx.addSlide();
@@ -468,15 +578,15 @@ function primarySourceSlide(code, ps){
 
   if (im) {
     // three-zone: image (left), excerpt (middle), context+analyze (right)
-    imageWithCaption(s, im, { x:0.6, y:panelTop, w:3.5, h:panelH }, { capFs:7.5, capH:0.72 });
-    // Visual #2 — "ZOOM IN" annotation prompt overlaid on the source image. Mayer
-    // signaling: directs student attention to a specific visual detail before they read
-    // the excerpt (a documented close-looking move for visual primary sources).
-    s.addShape(pptx.ShapeType.roundRect, { x:0.72, y:panelTop+0.1, w:3.26, h:0.56, rectRadius:0.06, fill:{color:GOLD}, line:{color:NAVY,width:1} });
+    // The close-looking prompt sits BELOW the image, not on top of it (Sean: "you can't
+    // zoom in — it's in the way"). Image height is trimmed so the prompt strip clears it.
+    const imgH = panelH - 0.62;
+    imageWithCaption(s, im, { x:0.6, y:panelTop, w:3.5, h:imgH }, { capFs:7.5, capH:0.66 });
+    s.addShape(pptx.ShapeType.roundRect, { x:0.6, y:panelTop+imgH+0.06, w:3.5, h:0.5, rectRadius:0.06, fill:{color:GOLD}, line:{color:NAVY,width:1} });
     s.addText([
-      {text:'ZOOM IN  ', options:{fontFace:LABEL, fontSize:9.5, color:NAVY, bold:true, charSpacing:1.5}},
-      {text:'Find ONE detail that surprises you \u2014 be ready to name it.', options:{fontFace:BODY, fontSize:8.5, color:NAVY, italic:true}}
-    ], { x:0.84, y:panelTop+0.14, w:3.02, h:0.48, valign:'middle', lineSpacingMultiple:0.95 });
+      {text:'LOOK CLOSELY  ', options:{fontFace:LABEL, fontSize:9, color:NAVY, bold:true, charSpacing:1}},
+      {text:'find one DEEP detail that surprises you \u2014 be ready to name it.', options:{fontFace:BODY, fontSize:8.5, color:NAVY, italic:true}}
+    ], { x:0.75, y:panelTop+imgH+0.09, w:3.24, h:0.44, valign:'middle', lineSpacingMultiple:0.95 });
     // excerpt
     s.addShape(pptx.ShapeType.rect, { x:4.3, y:panelTop, w:3.85, h:panelH, fill:{color:WHITE}, line:{color:LINEC,width:1} });
     s.addShape(pptx.ShapeType.rect, { x:4.3, y:panelTop, w:0.1, h:panelH, fill:{color:GOLD} });
@@ -494,10 +604,11 @@ function primarySourceSlide(code, ps){
   // bottom edge (and colliding with the new SOURCE IT FIRST band below).
   const ctxTop = panelTop;
   const ctxLen = (ps.context||'').length;
-  const qLen = (ps.question||'').length;
-  let ctxH = ctxLen > 480 ? 2.25 : ctxLen > 300 ? 1.9 : 1.6;
-  const anaMin = qLen > 150 ? 1.7 : 1.4;
-  if(panelBot - (ctxTop + ctxH + 0.2) < anaMin) ctxH = panelBot - 0.2 - anaMin - ctxTop;
+  const qLen = (ps.analyzeQuestion||ps.question||'').length;
+  // Sean: CONTEXT is the primary (larger) box; ANALYZE is compact but sized to its
+  // question so it never clips into the SOURCE IT FIRST band below.
+  const desiredAnaH = qLen > 150 ? 1.5 : qLen > 100 ? 1.3 : qLen > 70 ? 1.1 : 0.95;
+  let ctxH = (panelBot - ctxTop) - 0.2 - desiredAnaH;
   s.addShape(pptx.ShapeType.roundRect, { x:8.3, y:ctxTop, w:4.4, h:ctxH, rectRadius:0.08, fill:{color:NAVY} });
   s.addText('CONTEXT', { x:8.55, y:ctxTop+0.13, w:4, h:0.3, fontFace:LABEL, fontSize:11, color:GOLDBR, bold:true, charSpacing:2 });
   // tier the font so the FULL context sentence fits without mid-sentence truncation.
@@ -508,10 +619,10 @@ function primarySourceSlide(code, ps){
   s.addText(trunc(ps.context, ctxCap), { x:8.55, y:ctxTop+0.44, w:3.95, h:ctxH-0.56, fontFace:BODY, fontSize:ctxFs, color:WHITE, valign:'top', lineSpacingMultiple:0.98 });
   const anaTop = ctxTop + ctxH + 0.2, anaH = panelBot - anaTop;
   s.addShape(pptx.ShapeType.roundRect, { x:8.3, y:anaTop, w:4.4, h:anaH, rectRadius:0.08, fill:{color:GOLD} });
-  s.addText('ANALYZE', { x:8.55, y:anaTop+0.13, w:4, h:0.3, fontFace:LABEL, fontSize:11, color:NAVY, bold:true, charSpacing:2 });
+  s.addText(ps.analyzeLabel || 'ANALYZE', { x:8.55, y:anaTop+0.13, w:4, h:0.3, fontFace:LABEL, fontSize:11, color:NAVY, bold:true, charSpacing:2 });
   // size the analyze question so long stems fit the box without clipping
   const anaFs = qLen > 175 ? 11 : qLen > 130 ? 12 : 12.5;
-  s.addText(ps.question, { x:8.55, y:anaTop+0.46, w:3.95, h:anaH-0.58, fontFace:BODY, fontSize:anaFs, color:NAVY, bold:true, valign:'top', lineSpacingMultiple:1.03 });
+  s.addText(ps.analyzeQuestion || ps.question, { x:8.55, y:anaTop+0.46, w:3.95, h:anaH-0.58, fontFace:BODY, fontSize:anaFs, color:NAVY, bold:true, valign:'top', lineSpacingMultiple:1.03 });
 
   // SOURCE IT FIRST — Rosenshine P8 scaffold + SSP.02 (Examine a primary or secondary source).
   // Sourcing routine students run BEFORE interpreting: Who made it? When? Why does that matter?
@@ -542,7 +653,7 @@ function vocabSlide(code, v){
   const s = pptx.addSlide();
   s.background = { color: CREAM };
   s.addShape(pptx.ShapeType.rect, { x:0, y:0, w:W, h:0.16, fill:{color:NAVY} });
-  kicker(s, `${code} · Key Vocabulary`, 0.6, 0.45);
+  kicker(s, `${code} · Vocabulary Pre-Teach & Word Wall`, 0.6, 0.45);
   s.addText('Word Wall', { x:0.6, y:0.8, w:12, h:0.7, fontFace:HEAD, fontSize:30, color:NAVY, bold:true });
   const terms = v.vocab.slice(0,6);
   const cols = 2;
@@ -586,7 +697,7 @@ function vocabSlide(code, v){
     // dual-coding initials anchor; the definition fills the full card width instead.)
     s.addText(trunc(t.def, 240), { x:cx+0.15, y:cy+hdrH+0.08, w:cw-0.30, h:ch-hdrH-0.18, fontFace:BODY, fontSize:11, color:INK, valign:'top', lineSpacingMultiple:1.04 });
   });
-  s.addText('"say:" pronunciation guide (stressed syllable in CAPS) supports newcomer English learners. Spanish term + full bilingual Frayer models are in the unit vocabulary set.',
+  s.addText('PRE-TEACH before reading — students capture each term as a Frayer model in their Flight Log. "say:" respelling (stressed syllable in CAPS) aids newcomer ELs; Spanish terms included.',
     { x:0.6, y:6.45, w:12.1, h:0.35, fontFace:BODY, fontSize:10, italic:true, color:MUTE });
   footer(s, ++page, false);
 }
@@ -795,7 +906,9 @@ function summarySlide(code, v){
   s.addShape(pptx.ShapeType.rect, { x:0, y:0, w:W, h:0.16, fill:{color:NAVY} });
   kicker(s, `${code} · Wrap-Up`, 0.6, 0.45);
   s.addText('What You Need to Know for TCAP', { x:0.6, y:0.8, w:12.1, h:0.7, fontFace:HEAD, fontSize:28, color:NAVY, bold:true });
-  const takeaways = v.sections.map(sec=>sec.heading);
+  // Sean: takeaways must NAME the specifics, not just the category. A per-standard
+  // `keyTakeaways` array overrides the bare section headings when present.
+  const takeaways = (v.keyTakeaways && v.keyTakeaways.length) ? v.keyTakeaways : v.sections.map(sec=>sec.heading);
   // Left column split into KEY TAKEAWAYS (top) + HONORS / EXTENSION (bottom) so the
   // wrap-up offers a DOK-3 challenge for early finishers / advanced learners (TCAP rigor).
   s.addShape(pptx.ShapeType.rect, { x:0.6, y:1.85, w:7.7, h:3.25, fill:{color:WHITE}, line:{color:LINEC,width:1} });
@@ -816,10 +929,15 @@ function summarySlide(code, v){
   s.addText('EXIT TICKET', { x:8.85, y:2.1, w:2.5, h:0.35, fontFace:LABEL, fontSize:12, color:GOLDBR, bold:true, charSpacing:2 });
   s.addShape(pptx.ShapeType.roundRect, { x:11.35, y:2.06, w:1.05, h:0.4, rectRadius:0.08, fill:{color:NAVY2}, line:{color:GOLD,width:0.75} });
   s.addText(et.dok, { x:11.35, y:2.06, w:1.05, h:0.4, fontFace:LABEL, fontSize:10, color:GOLDBR, bold:true, align:'center', valign:'middle' });
-  s.addText(et.q, { x:8.85, y:2.6, w:3.55, h:2.0, fontFace:BODY, fontSize:13.5, color:WHITE, valign:'top', lineSpacingMultiple:1.1 });
-  s.addShape(pptx.ShapeType.line, { x:8.9, y:4.95, w:3.4, h:0, line:{color:SLATE, width:1, dashType:'dash'} });
-  s.addShape(pptx.ShapeType.line, { x:8.9, y:5.55, w:3.4, h:0, line:{color:SLATE, width:1, dashType:'dash'} });
-  s.addShape(pptx.ShapeType.line, { x:8.9, y:6.15, w:3.4, h:0, line:{color:SLATE, width:1, dashType:'dash'} });
+  s.addText(et.q, { x:8.85, y:2.6, w:3.55, h:1.5, fontFace:BODY, fontSize:13.5, color:WHITE, valign:'top', lineSpacingMultiple:1.1 });
+  // Sean: give students CHOICE in how they answer — then route them to one place to record it.
+  s.addText([
+    {text:'CHOOSE ONE  ', options:{bold:true, color:GOLDBR, fontFace:LABEL, fontSize:9, charSpacing:1}},
+    {text:'write it · tell a partner · sketch it', options:{italic:true, color:'C7D4E0', fontSize:9.5}}
+  ], { x:8.85, y:4.16, w:3.55, h:0.6, valign:'top', lineSpacingMultiple:1.0 });
+  s.addShape(pptx.ShapeType.line, { x:8.9, y:5.02, w:3.4, h:0, line:{color:SLATE, width:1, dashType:'dash'} });
+  s.addShape(pptx.ShapeType.line, { x:8.9, y:5.62, w:3.4, h:0, line:{color:SLATE, width:1, dashType:'dash'} });
+  s.addText('↪ Record it on your Flight Log · exit page.', { x:8.85, y:6.0, w:3.6, h:0.3, fontFace:BODY, fontSize:9.5, italic:true, color:GOLDBR, valign:'middle' });
   // exit-ticket model answer + ROUTED reteach trigger for the teacher (speaker notes).
   // The diagnostic names the exact reteach path so the exit ticket closes a feedback loop
   // (Hattie & Timperley: assess -> identify gap -> targeted reteach -> re-assess).
@@ -949,6 +1067,19 @@ const HOOKS = {
   'US.07': ['Between 1880 and 1920, more than 20 million immigrants arrived in the United States.','Why do people leave everything behind to start over in a new country? And why might native-born Americans react with fear? We will see both sides today.'],
 };
 
+// Optional data chart beside the hook, keyed by standard. Real figures, cited on-slide.
+const HOOK_CHART = {
+  'US.05': {
+    data: [{ name:'U.S. oil refining', labels:['Standard Oil','All other refiners'], values:[90, 10] }],
+    big: '90%',
+    title: "ONE FIRM'S GRIP — U.S. oil refining, c. 1880",
+    source: 'Standard Oil controlled ≈90% of U.S. refining capacity, c.1880. Est. from Tarbell, History of the Standard Oil Co. (1904) & Chernow, Titan (1998).',
+  },
+};
+
+// Standards that get a native concept-visual slide after direct instruction.
+const CONCEPT_VISUAL = { 'US.05': true };   // vertical vs. horizontal integration
+
 // Per-SECTION hero image, keyed "CODE:sectionIndex" so the image matches the
 // section topic (not just sec0/sec1). Only sections with a strong topical match
 // get an image; others render text-only.
@@ -965,6 +1096,7 @@ const SECTION_IMG = {
   'US.04:0': 'bosses-of-the-senate',               // Political machines / trusts -> Bosses of the Senate
   // US.05 Industrialization
   'US.05:1': 'andrew-carnegie-portrait',           // Industrial Titans -> Carnegie
+  'US.05:2': 'madam-cj-walker',                    // African American Entrepreneurs -> Madam C.J. Walker
   // US.06 Urbanization
   'US.06:0': 'map-wage-earners-1890',              // Major Industrial Centers -> manufactures map
   'US.06:2': 'map-foreign-born-1890',              // Geographic factors -> foreign-born diagram
@@ -995,7 +1127,7 @@ const ACT_IMAGE = {
 // BUILD ALL STANDARDS
 Object.entries(D).forEach(([code,v])=>{
   standardDivider(code, v);
-  if(REVIEW[code]) reviewSlide(code, REVIEW[code]);
+  if(REVIEW[code]){ reviewSlide(code, REVIEW[code]); reviewRevealSlide(code, REVIEW[code]); }
   // DOK 1 confidence-check warm-up ramps the check sequence before DI (TCAP #1)
   if(WARMUP[code]) confidenceCheckSlide(code, WARMUP[code]);
   const hk = HOOKS[code];
@@ -1007,6 +1139,8 @@ Object.entries(D).forEach(([code,v])=>{
     if(SECTION_IMG[key]) hero = imgById(SECTION_IMG[key]);
     contentSlide(code, v, sec, i, v.sections.length, hero);
   });
+  // optional concept visual (native diagram) after the direct-instruction sequence
+  if(typeof CONCEPT_VISUAL !== 'undefined' && CONCEPT_VISUAL[code]) integrationDiagramSlide(code);
   if(v.bios && v.bios.length) bioSlide(code, v.bios);
   if(v.primarySources && v.primarySources[0]){
     const ps = v.primarySources[0];
