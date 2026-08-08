@@ -37,13 +37,13 @@ guardrail-for-guardrail.** Source of truth only — never invent standards, cita
    - `tt-education-research-team` — evidence base / ESSA tiers for adoption
    - `tn-textbook-adoption-agent` — Schedule F scoring + submission package
    - `historian-factcheck-agent` — claim-by-claim primary-source verification (dates, statutes, cases)
-   - `history-hack-platinum-unit-builder` (unit sets) / `history-hack-dbq-workbook` (DBQ SKU) / `us-history-hack-packet-builder` — sale-ready packet builds
+   - `history-hack-platinum-unit-builder` (unit sets) / `history-hack-dbq-workbook` (DBQ SKU) / `history-hack-narrative-textbook-builder` (narrative illustrated *reader*) / `us-history-hack-packet-builder` — sale-ready packet builds
    - `history-hack-print-qc-auditor` · `history-hack-teacher-ux-reviewer` · `history-hack-website-builder`
 
 ## THE 6-PHASE PIPELINE (gates between phases)
 1. **Standards intake** → verbatim standards JSON + unit map + verbatim "I can" targets.
 2. **Source + case procurement** → canonical primary-source bank, rights validated, full citations.
-3. **Content authoring** → narrative, Cornell notes, Frayer vocab, packets A/B/C, decks, organizer toolkit.
+3. **Content authoring** → narrative, Cornell notes, Frayer vocab, packets A/B/C, decks, organizer toolkit, narrative illustrated reader (`history-hack-narrative-textbook-builder`).
 4. **Assessment authoring** → question banks per DOK 1–4 (+ spiral, DBQ/CER) to the item-writer schema.
 5. **QC gate** → Schedule F self-assessment, print preflight, item-rigor linter, teacher-UX, fact-check.
 6. **Package + deploy** → cover wraps, PDFs, web-edition registration (entitlement-gated), mirror to Drive.
