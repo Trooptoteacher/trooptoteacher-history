@@ -4,10 +4,11 @@ description: "Builds and edits the History Hack **narrative illustrated textbook
 license: Proprietary
 metadata:
   author: "Sean Reynolds / TroopToTeacher Technologies LLC"
-  version: "1.0"
-  reference_implementation: "To Form a More Perfect Union — U.S. History, Part 1 (Units 1–3); proof rendered on Unit 1 / US.01 (front matter → Stop 1 → Arc-of-the-Union coordinate plot)"
+  version: "1.1"
+  reference_implementation: "To Form a More Perfect Union — U.S. History, Part 1 (Units 1–3). Unit 1 (US.01–US.07) is the CERTIFIED PLATINUM reference — a COMPLETE unit, not a Stop-1 proof: 51pp tagged PDF/UA reader + Flight Log (student + teacher-key), dedicated Geography section, dimension chips on every stop, ≥9pt a11y floor, Arc-of-the-Union plot. Cleared the Grade-A release gate 2026-08-08: build/print QC PASS, accessibility Grade A (0 Critical/0 High), TDOE Schedule F 35/36 = 97.2% with Gateway MET, content accuracy PASS, SF-7 7/7 verbatim, NIMAS + AT-log closed. Units 2–7 replicate it feature-for-feature and gate-for-gate."
   product: "Narrative illustrated textbook (student reader) — NOT the unit workbook, DBQ packet, decks, or organizer toolkit"
   render_path: "content → HTML → WeasyPrint → PDF, governed entirely by references/print-contract.css"
+  platinum_gate_evidence: "history-hack-web-app: scripts/print-book/qc/2026-08-08_Unit1_Release_Gate_Certification.md (+ the accessibility, Schedule-F, historian, AT-log and NIMAS artifacts it cites in scripts/print-book/qc/ and scripts/print-book/nimas/)"
 ---
 
 > **STOP — PULL THE CURRENT SKILL BEFORE YOU BUILD.** Never build, rebuild, format, render, edit, or QC ANY
@@ -37,10 +38,41 @@ assessment bank; those have their own owners (see `SKILLS.md`).
 
 ## Reference implementation
 
-`references/render_textbook.py` + `references/print-contract.css` render the reference proof (Unit 1 / US.01).
-`references/build-and-edit-conventions.md` is the LOCKED spec: page order, the stop template, the value-block
-menu, the Arc-of-the-Union plot spec, the crew/cover/foreword conventions, the edit-in-code workflow, and the
-page-fill QC gate. Build to that spec; do not re-derive it from a rendered PDF.
+`references/render_textbook.py` + `references/print-contract.css` render the **certified** reference — Unit 1
+(US.01–US.07), the complete platinum build (not just a Stop-1 proof). `references/build-and-edit-conventions.md`
+is the LOCKED spec: page order, the stop template, the value-block menu, the Arc-of-the-Union plot spec, the
+**Geography section** + **dimension chips**, the crew/cover/foreword conventions, the edit-in-code workflow, and
+the build gates. Build to that spec; do not re-derive it from a rendered PDF.
+
+## Platinum reference — Unit 1 (certified); what every unit replicates
+
+Unit 1 is the **locked exemplar**: the bar Units 2–7 (and every course edition) match feature-for-feature and
+gate-for-gate. Do not ship a unit below it. **Certification evidence:** `history-hack-web-app`
+`scripts/print-book/qc/2026-08-08_Unit1_Release_Gate_Certification.md`.
+
+**Structure a certified unit carries (beyond the base stop template):**
+- **Dedicated Geography section** in the reader (locate/interpret the unit's places — e.g. Unit 1's industrial
+  centers), with a matching **Geography Waypoints** section + a **blank U.S.-outline plot box** in the Flight Log.
+- **Dimension chips on every stop** (reader *and* Flight Log) — the standard's content-dimension tag, visible
+  and consistent across both surfaces.
+- **Verbatim "I can" learning target on every stop** (SF-7) — from the course's `ican` bank, verbatim, or
+  clearly labeled authored; never paraphrased silently.
+- **Arc-of-the-Union** milestones wired to **real primary-source citations** (`arcPoints` → bank sourceIds),
+  never invented.
+
+**The Grade-A gate bar Unit 1 cleared (the pass line, not a target):**
+- **Build/print QC** — clean render, **≤10% white** on every content page (documented section-break exceptions
+  only), text-integrity clean, workbook⇄deck⇄Flight-Log lesson-flow mapped.
+- **Accessibility = Grade A** — 0 Critical / 0 High; **tagged PDF/UA** (one single tagged render, no baked
+  untagged front matter), **≥9pt everywhere** (only decorative glyphs below, exposed as artifacts), and a
+  clean **ordered heading walk H1→H2→H3 with no skips** (Unit 1: H1×6 → H2×33 → H3×41).
+- **TDOE Schedule F ≥90%** (≥33/36, Tables 2–4) **AND Gateway MET** — a bound standards crosswalk with
+  independently verified page refs, all unit standards addressed. Unit 1 scored **35/36 = 97.2%**.
+- **Content accuracy (Policy 2.600)** — `historian-factcheck-agent` PASS, 0 Critical/0 High; no known error ships.
+- **Adoption packet** — NIMAS-conformant accessible-source fileset + an assistive-tech (AT) test log
+  (`scripts/print-book/nimas/unit-N/` + the AT-log QC artifact).
+
+Report every held gate honestly; "close" is not Grade A (release rule in `CLAUDE.md`).
 
 ## Course parameterization
 
@@ -65,6 +97,16 @@ from the canonical banks in `history-hack-web-app` (primary-sources/images/quest
    defects), `history-hack-text-integrity-qc` (no clipped/placeholder text), `accessibility-qc-agent`
    (WCAG/UA), `historian-factcheck-agent` (Policy 2.600), `tn-textbook-adoption-agent` (Schedule F),
    `ell-bilingual-review-specialist` (EN/ES + ELL), `copyright-integrity-accreditation` (IP/FERPA/COPPA).
+6. **Accessibility build gate (tagged/UA · ≥9pt · heading order).** The whole unit is ONE tagged **PDF/UA**
+   render — never a merge of a baked, untagged front-matter PDF (that reintroduces the A11Y-01 Critical);
+   verify `StructTreeRoot` is present on the served file. **≥9pt everywhere** (body 10–11pt); only decorative
+   glyphs render smaller and only as AT artifacts. The heading tree is an **ordered walk H1→H2→H3 with no
+   skips** — promote stop/phase titles to the tier that keeps it unbroken. These are the build-side inputs to
+   the Grade-A accessibility gate; see "Platinum reference — Unit 1" for the full pass bar.
+7. **Adoption gate (Grade A before served/submitted).** No unit reaches the served path or a district/TDOE
+   packet below a straight **Grade A** on all three release gates (build/print QC · accessibility Grade A ·
+   Schedule F ≥90% + Gateway MET + content accuracy), plus the NIMAS fileset + AT test log for the adoption
+   packet. Report held gates honestly.
 
 ## The white-space value rule (LOCKED)
 

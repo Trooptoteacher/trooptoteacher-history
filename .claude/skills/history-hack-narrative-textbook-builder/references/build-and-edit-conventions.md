@@ -21,12 +21,17 @@ rendered PDF.
    **"Make Your Call" prediction** block.
 8. **Stops** — one per standard (see template).
 9. **Arc of the Union** — its own section: the coordinate-plot activity (see spec).
-10. **Back matter** — image credits, a note on sources, About. **Strip** the internal Permissions/Publishing
+10. **Geography section** — its own dedicated section (see spec below); a certified unit has one.
+11. **Back matter** — image credits (incl. the **AI-illustration disclosure**: art is AI-generated under human
+    direction, not independently copyrightable, and not historical evidence — kept distinct from the
+    primary-source Chicago citations), a note on sources, About. **Strip** the internal Permissions/Publishing
     checklist and spine/production notes from any distributed file.
 
 ## Stop template (one per standard)
 
-- Header: `N` + short stop title; standard code + verbatim learning target.
+- Header: `N` + short stop title; standard code + **verbatim "I can" learning target** (from the course `ican`
+  bank, verbatim, or clearly labeled authored — SF-7); a **dimension chip** (the standard's content-dimension
+  tag) rendered on the stop and mirrored on the matching Flight-Log entry so both surfaces agree.
 - **Spark hook** callout ("What do you notice?") + a 2-line **first-glance jot**.
 - **Media row (two columns)**: left = the primary-source image (repo-first; LOC/NARA fallback; public-domain,
   cited). Right column stacks, top to bottom:
@@ -66,6 +71,16 @@ Two pages:
   answer defended with the graph**. This is the anchor cross-curricular math/science correlation; every unit's
   Arc works the same way.
 
+## Geography section (dedicated) — reader + Flight Log
+
+A certified unit carries its **own Geography section** (Unit 1 = the industrial-center map: Boston /
+Pittsburgh / Chicago / San Francisco / New York City). Reader side: locate + interpret the unit's places on a
+real, cited map (repo-first sources; B&W-safe; if color encodes meaning flag `colorKey` with a "see the deck"
+note — never a color-only distinction on the printed page). Flight-Log side: matching **Geography Waypoints**
+with a **blank U.S.-outline plot box** students fill in (a real outline, not a placeholder). Every geography
+data figure carries `<title>`/`<desc>` for AT, and any image-less block reads as a *source/chart* prompt, not
+a "map" the page doesn't show. The section runs the same ≥90% fill + ≥9pt gates as the rest of the book.
+
 ## Flight Log companion (write-in student log) — `build_flightlog.py`
 
 Every unit ships a **Flight Log**: the write-in student companion to the reader. LOCKED structure:
@@ -79,6 +94,9 @@ Every unit ships a **Flight Log**: the write-in student companion to the reader.
   N"*). **Both sides are generated from the SAME stop list**, so the cross-reference is accurate by
   construction and can never drift. Each entry = claim + evidence write-in + self-grade + Writing-Lab handoff.
 - **Arc-of-the-Union capture** — points back to the reader's Arc section; student brings the mean/verdict home.
+- **Geography Waypoints** — the write-in mirror of the reader's Geography section: a blank U.S.-outline plot box
+  + locate/interpret prompts; the teacher edition's geography pages run the same ≥90% fill gate.
+- Each entry's **dimension chip mirrors the reader stop's chip** (same content-dimension tag on both surfaces).
 
 Course-parameterized identically to the reader (per-unit stop list from `courses/<id>/course.json` +
 narrative source). Same B&W-safe contract; teacher-key edition adds answers (teacher-side only).
@@ -115,6 +133,25 @@ metacognition — Hattie ≥ 0.40).
 `render_textbook.py` measures each page's filled height below the footer and **fails the build** if any
 non-exempt page < `TARGET_FILL` (90). Cover + foreword **+ the credits/colophon back page** are exempt. On
 failure, add a value block or enlarge sourced media — then re-render until QC PASS. Never ship a short page.
+Documented section breaks (e.g. an atomic retrieval-check block that must start fresh on the next page) are the
+only ~90% pages allowed, and only when forcing them closed would spill a near-empty page or add filler.
+
+## Accessibility build gates (tagged/UA · ≥9pt · heading order) — LOCKED
+
+Build-side inputs to the Grade-A accessibility gate; enforce them in the render, not after:
+- **One tagged PDF/UA render.** The whole unit renders as a single tagged document — front matter is authored
+  as HTML in the render path, **never** merged in from a baked, untagged PDF (that reintroduces the A11Y-01
+  Critical). Verify `StructTreeRoot` is present on the served file; `assemble_web.py`'s compress/metadata step
+  must preserve the structure tree.
+- **≥9pt everywhere.** No text element below 9pt (body 10–11pt). Only decorative glyphs (writing rules,
+  chevrons, plot dots) may be smaller, and they are exposed to AT as **artifacts**. The climb altimeter uses a
+  plot-strip (altitude labels only) so no label is forced below the floor.
+- **Ordered heading walk, no skips.** The heading tree walks H1→H2→H3 with zero skips (promote stop/phase
+  titles to the tier that keeps it unbroken; Unit 1 = H1×6 → H2×33 → H3×41). Flight-Log outlines may start at
+  H2 as long as they don't skip.
+- **B&W / grayscale-legible + non-text contrast.** Reading-critical content survives grayscale (guardrail #6);
+  decorative on-track bands carry a dashed border + label so they read in print; non-text marks meet the 3:1 floor.
+- **Data SVGs** carry `<title>`/`<desc>`; the Arc/geography grids expose axes + scale as live on-page text.
 
 ## Copyright, attribution & credits (LOCKED — `bookmeta.py`)
 
