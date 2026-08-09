@@ -82,6 +82,26 @@ U.S. History / US.01 / TCAP. Defaults to the U.S. History flagship. Narrative + 
 from the canonical banks in `history-hack-web-app` (primary-sources/images/questions) and the per-course
 `content-build/<course>/narrative/unit-NN.json` — **never invent a citation or a source** (Policy 2.600).
 
+## Multi-perspective & anti-bias standard (LOCKED — applies to every line written)
+
+Every claim, argument, and event is written the way a historian works — through cited **primary sources**,
+not assertion — and it is presented from **all credible sides**, fairly, on their own terms:
+- **All sides, steelmanned first.** Give each perspective its strongest, fairest hearing *before* any
+  critique; never one-sided, never a strawman, never a caricature. Two-sided where there are two sides,
+  many-sided where there are more.
+- **The author removes bias, never adds it.** The crew *frame the question and hand over the source* — they
+  do not tell the student what to conclude. Balance is by **evidence, not false equivalence**: where the
+  historical record is settled, say so plainly; where historians genuinely disagree, say that too.
+- **Cause → effect → impact.** Everything studied is traced through its causes, its effects, and who it
+  impacted — who gained, who paid, who decided — celebrated progress set honestly beside its costs.
+- **End with a question, not a verdict.** State the established facts; leave the moral weighing to the
+  student, defended with evidence. This is critical-thinking instruction, not advocacy.
+- **Sourcing is non-negotiable (Policy 2.600).** No fabricated history, no invented citation; real people
+  speak only through their own cited words; primary sources are never AI-generated.
+
+This is a **content-review gate**, not just a principle: before a stop ships, confirm each argument shows its
+sides, names cause/effect/impact, and leaves the judgment to the student on the evidence.
+
 ## LOCKED gates (run before any part ships)
 
 1. **Page-fill ≥ 90% (build gate).** The renderer measures every page's fill below the running footer and
