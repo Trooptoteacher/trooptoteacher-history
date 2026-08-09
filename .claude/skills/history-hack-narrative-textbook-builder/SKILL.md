@@ -82,6 +82,10 @@ U.S. History / US.01 / TCAP. Defaults to the U.S. History flagship. Narrative + 
 from the canonical banks in `history-hack-web-app` (primary-sources/images/questions) and the per-course
 `content-build/<course>/narrative/unit-NN.json` — **never invent a citation or a source** (Policy 2.600).
 
+## Narrative prose register (LOCKED)
+
+Write the connective narrative in a **Ken Burns × Jon Meacham** blend — documentary and evocative, morally serious but measured, grounded in **specific verified detail**, not adjectives. **Factual first** (Policy 2.600): when in doubt, cut the flourish, not the fact. The crew remain the framing device; the prose voice is this documentary register, not a house-slang or personal voice. Scrub AI-writing tells with the AI-tells check (`history-hack-web-app` `scripts/print-book/tools/ai_tells_check.py`).
+
 ## Multi-perspective & anti-bias standard (LOCKED — applies to every line written)
 
 Every claim, argument, and event is written the way a historian works — through cited **primary sources**,
