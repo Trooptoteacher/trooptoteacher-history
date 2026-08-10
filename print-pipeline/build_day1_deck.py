@@ -57,6 +57,20 @@ ol.agenda .t {{ margin-left:auto; color:{GOLDINK}; font-weight:700; font-size:20
 .tt .c {{ flex:1; background:{COOL}; border-radius:12px; padding:20px; font-size:24px; min-height:170px; }}
 .tt .c .n {{ font-family:'Liberation Serif',serif; font-size:40px; color:{RED}; font-weight:700; }}
 .edit {{ color:#94794f; font-size:16px; font-style:italic; }}
+.vs {{ display:flex; margin-top:16px; border-radius:12px; overflow:hidden; border:1.5px solid #e4dcc6; }}
+.vs .side {{ flex:1; padding:20px 28px; }}
+.vs .old {{ background:#f4ecec; }}
+.vs .new {{ background:{NAVY}; color:#fff; }}
+.vs h4 {{ font-size:19px; letter-spacing:1px; text-transform:uppercase; margin-bottom:10px; }}
+.vs .old h4 {{ color:{RED}; }}
+.vs .new h4 {{ color:{GOLD}; }}
+.vs ul {{ list-style:none; }}
+.vs li {{ font-size:23px; margin:9px 0; padding-left:28px; position:relative; }}
+.vs .old li {{ color:#7a5b5b; }}
+.vs .old li::before {{ content:"\\00D7"; position:absolute; left:0; color:{RED}; font-weight:700; }}
+.vs .new li::before {{ content:"\\2192"; position:absolute; left:0; color:{GOLD}; font-weight:700; }}
+.punch {{ background:{TINT}; color:{GOLDINK}; border-radius:10px; padding:14px 22px;
+  font-size:23px; font-weight:600; margin-top:16px; text-align:center; }}
 """
 
 def slide(kicker, body, foot="U.S. History Hack · Don't just learn history. Hack it.", time=None):
@@ -110,7 +124,23 @@ SL.append(slide("The year ahead",
       <div style="font-size:21px;margin-top:6px;">Ten stops, one flight across modern America — every unit builds on the last.</div></div>
     <div class="col card"><div class="big-num"></div><b style="font-size:24px;color:{NAVY}">It's about you.</b>
       <div style="font-size:21px;margin-top:6px;">Different experiences, same journey. Your voice is part of the story.</div></div>
-  </div>""", time="2 min"))
+  </div>""", time="1 min"))
+
+# 4b — THINK YOU HATE HISTORY (reluctant-learner hook)
+SL.append(slide("Real talk",
+  f"""<h1>Think you hate history? <span style="color:{RED}">Good.</span></h1>
+  <div class="sub">If history meant memorizing names and dates for a test you'd forget by Friday —
+  yeah, that's boring. <b>We don't do that here.</b></div>
+  <div class="vs">
+    <div class="side old"><h4>What made it boring</h4><ul>
+      <li>Memorize dates</li><li>Copy the textbook</li>
+      <li>One "right" answer</li><li>Forget it by Friday</li></ul></div>
+    <div class="side new"><h4>What we actually do</h4><ul>
+      <li>Investigate real evidence</li><li>Make your <b>own</b> call</li>
+      <li>Argue it — and back it up</li><li>Use it to decode today</li></ul></div>
+  </div>
+  <div class="punch">Every fight you care about now — money, power, who gets a say — started here.
+  This is the origin story.</div>""", time="1 min"))
 
 # 5 — LOG INTO SCHOOLOGY
 SL.append(slide("Step 1",
