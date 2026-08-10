@@ -81,3 +81,13 @@ HistoryHack_Platinum/deliverables_unit1/Unit1_Student_Deck_America250.pptx
    slide  65  V-CLIP  est  151% of box (12.2x0.6in)  “Matthews, Northrup & Co's Official Railroad Map of the United States, ”
    slide  40  V-CLIP  est  134% of box (3.6x0.3in)  “ES: Barones Ladrones / Capitanes de Industria”
   GATE: FAIL  (0 borderline to eyeball)
+
+------------------------------------------------------------------------------
+VISUAL CONFIRMATION (WeasyPrint, Carlito = Calibri metrics)
+LibreOffice cannot render here, so slides were rebuilt EMU-exact as HTML and
+rendered with WeasyPrint's real text engine (deck_render_weasy.py). Carlito
+(metric-identical to Calibri) was installed so wrapping matches PowerPoint.
+Rendered slides 27 and 73 show the definition text spilling BELOW every
+Word Wall cell frame; the Dawes Act cell ends "...It resulted in..." (a
+clipped sentence). The geometry gate's FAIL is visually confirmed.
+GATE VERDICT: FAIL (visual + geometry agree).
