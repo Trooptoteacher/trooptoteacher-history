@@ -191,3 +191,23 @@ builds use the light cover (`PROOF_COVER` / `FL_COVER` = `cover_web.jpg`); `rend
 
 Real Flight-Crew portraits for **Sam Calloway** and **MSgt "Muck"** (others exist); commit them to the repo
 (`public/images/textbook/crew/`) — never Azure-only. Cover art per course.
+
+## Flight Log — LOCKED guardrails (standard FL-2026.08.10)
+
+Full spec: `references/FLIGHT_LOG_STANDARD.md`. Do not rebuild a Flight Log without honoring these.
+
+- **Per-Stop MERGE (G12).** The student log runs Stop-by-Stop: each **Cornell Notes · Stop N** page is
+  immediately followed by its **Data-Capture · Entry N** card. Never batch all Cornell then all entries
+  (that reads as "just Cornell notes" — a regression). Assembly:
+  `{cover}{how}{wherestand}{readiness}{cornell_intro}{ per Stop: cornell_page(n)+entry(n) }{geo}{arc}`.
+- **Full student structure:** Cover · How-it-works · Where-You-Stand · Flight Readiness · Cornell intro ·
+  (Cornell N + Entry N) ×7 · Geography Waypoints · Arc. The Entry card is a **data-capture instrument**
+  (Muck radio-in + ①source ②claim+frame ③BOUGHT|COST ④name-the-tension ⑤Word Wall+self-grade + Writing-Lab
+  handoff) — never blank lines.
+- **Specific cross-surface handoff (G11).** The crew always says *where to write and what it pairs with*:
+  Cornell page names its **deck DI slides**; Entry's Muck radio-in cites **reader Stop N** ("capture it here");
+  the reader cues "**Open your Flight Log to Entry N**"; the teacher deck's **FOLLOW ALONG** divider + first-DI
+  Cornell cue + Student-Activity cue name **Mission Book Stop N + Flight Log Entry N**.
+  **Stop N = Entry N = US.0N** across reader ⇄ deck ⇄ Flight Log (one stop list, never drifts).
+  Audit with `history-hack-lesson-flow-qc`.
+- **Bump the stamp** (`bookmeta.py` BUILD_DATE/BUILD_VERSION) + this standard whenever the design changes.
