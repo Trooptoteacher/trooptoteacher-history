@@ -52,3 +52,14 @@ scaffold, the Flight Log is where the response is recorded.
 | US.07 | 94 | 97 | 98–101 | 103 | 104 | 105 | 106 | 107 | 108 | 109 |
 
 (US.03/05/06/07 also carry a "People Who Shaped the Era" slide before Primary Source.)
+
+## Student wayfinding on the deck (added)
+
+The teacher deck now points students to exactly where to be:
+- **Every STANDARD divider** carries a "FOLLOW ALONG" box: *Open the Mission Book → Stop N ·
+  Open the Flight Log → Entry N* — the orientation at the start of each stop.
+- **First Direct-Instruction slide** of each standard: gold cue *FLIGHT LOG · Cornell Notes — US.0N*.
+- **Student Activity slide** of each standard: *Flight Log — write here: US.0N*.
+- Slide titles carry the standard + phase ("US.0N · DIRECT INSTRUCTION"), and the Cornell
+  page ranges match the deck 1:1 (US.01→9–11 … US.07→98–101).
+Stop N = US.0N in the Mission Book; Entry N = the matching Flight Log entry.
