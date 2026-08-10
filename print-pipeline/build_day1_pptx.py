@@ -72,10 +72,7 @@ class Slide:
           '<p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/>'
           '<a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>'
           + "".join(self.body) +
-          '</p:spTree></p:cSld><p:clrMapOvr><a:overrideClrMapping '
-          'bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" '
-          'accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" '
-          'hlink="hlink" folHlink="folHlink"/></p:clrMapOvr></p:sld>')
+          '</p:spTree></p:cSld><p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr></p:sld>')
 
 def R(t, sz, color=INK, b=False, i=False, font="Calibri"):
     return {"t":t,"sz":sz,"color":color,"b":b,"i":i,"font":font}
@@ -250,69 +247,135 @@ def build_slides():
     foot(s,"3 min"); S.append(s)
     return S
 
+XMLDECL='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+RELNS='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
+PKREL='http://schemas.openxmlformats.org/package/2006/relationships'
+
+THEME=(XMLDECL+'<a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" '
+ 'name="Office Theme"><a:themeElements><a:clrScheme name="Office">'
+ '<a:dk1><a:sysClr val="windowText" lastClr="000000"/></a:dk1>'
+ '<a:lt1><a:sysClr val="window" lastClr="FFFFFF"/></a:lt1>'
+ '<a:dk2><a:srgbClr val="1F3A5F"/></a:dk2><a:lt2><a:srgbClr val="F8F5EF"/></a:lt2>'
+ '<a:accent1><a:srgbClr val="1F3A5F"/></a:accent1><a:accent2><a:srgbClr val="B22234"/></a:accent2>'
+ '<a:accent3><a:srgbClr val="C9A227"/></a:accent3><a:accent4><a:srgbClr val="846009"/></a:accent4>'
+ '<a:accent5><a:srgbClr val="EAF0F7"/></a:accent5><a:accent6><a:srgbClr val="8A94A3"/></a:accent6>'
+ '<a:hlink><a:srgbClr val="0563C1"/></a:hlink><a:folHlink><a:srgbClr val="954F72"/></a:folHlink>'
+ '</a:clrScheme><a:fontScheme name="Office">'
+ '<a:majorFont><a:latin typeface="Georgia"/><a:ea typeface=""/><a:cs typeface=""/></a:majorFont>'
+ '<a:minorFont><a:latin typeface="Calibri"/><a:ea typeface=""/><a:cs typeface=""/></a:minorFont>'
+ '</a:fontScheme><a:fmtScheme name="Office">'
+ '<a:fillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill>'
+ '<a:solidFill><a:schemeClr val="phClr"/></a:solidFill>'
+ '<a:solidFill><a:schemeClr val="phClr"/></a:solidFill></a:fillStyleLst>'
+ '<a:lnStyleLst>'
+ '<a:ln w="6350" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln>'
+ '<a:ln w="12700" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln>'
+ '<a:ln w="19050" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln>'
+ '</a:lnStyleLst>'
+ '<a:effectStyleLst><a:effectStyle><a:effectLst/></a:effectStyle>'
+ '<a:effectStyle><a:effectLst/></a:effectStyle>'
+ '<a:effectStyle><a:effectLst/></a:effectStyle></a:effectStyleLst>'
+ '<a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill>'
+ '<a:solidFill><a:schemeClr val="phClr"/></a:solidFill>'
+ '<a:solidFill><a:schemeClr val="phClr"/></a:solidFill></a:bgFillStyleLst>'
+ '</a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/></a:theme>')
+
+_GRP=('<p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>'
+ '<p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/>'
+ '<a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>')
+
+MASTER=(XMLDECL+'<p:sldMaster xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" '
+ 'xmlns:r="'+RELNS+'" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">'
+ '<p:cSld><p:bg><p:bgPr><a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill><a:effectLst/></p:bgPr></p:bg>'
+ '<p:spTree>'+_GRP+'</p:spTree></p:cSld>'
+ '<p:clrMap bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" '
+ 'accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink"/>'
+ '<p:sldLayoutIdLst><p:sldLayoutId id="2147483649" r:id="rId1"/></p:sldLayoutIdLst>'
+ '<p:txStyles>'
+ '<p:titleStyle><a:lvl1pPr><a:defRPr sz="4400"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mj-lt"/></a:defRPr></a:lvl1pPr></p:titleStyle>'
+ '<p:bodyStyle><a:lvl1pPr><a:defRPr sz="1800"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/></a:defRPr></a:lvl1pPr></p:bodyStyle>'
+ '<p:otherStyle><a:lvl1pPr><a:defRPr sz="1800"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/></a:defRPr></a:lvl1pPr></p:otherStyle>'
+ '</p:txStyles></p:sldMaster>')
+
+MASTER_RELS=(XMLDECL+'<Relationships xmlns="'+PKREL+'">'
+ '<Relationship Id="rId1" Type="'+RELNS+'/slideLayout" Target="../slideLayouts/slideLayout1.xml"/>'
+ '<Relationship Id="rId2" Type="'+RELNS+'/theme" Target="../theme/theme1.xml"/></Relationships>')
+
+LAYOUT=(XMLDECL+'<p:sldLayout xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" '
+ 'xmlns:r="'+RELNS+'" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" '
+ 'type="blank" preserve="1"><p:cSld name="Blank"><p:spTree>'+_GRP+'</p:spTree></p:cSld>'
+ '<p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr></p:sldLayout>')
+
+LAYOUT_RELS=(XMLDECL+'<Relationships xmlns="'+PKREL+'">'
+ '<Relationship Id="rId1" Type="'+RELNS+'/slideMaster" Target="../slideMasters/slideMaster1.xml"/></Relationships>')
+
+SLIDE_RELS=(XMLDECL+'<Relationships xmlns="'+PKREL+'">'
+ '<Relationship Id="rId1" Type="'+RELNS+'/slideLayout" Target="../slideLayouts/slideLayout1.xml"/></Relationships>')
+
+ROOT_RELS=(XMLDECL+'<Relationships xmlns="'+PKREL+'">'
+ '<Relationship Id="rId1" Type="'+RELNS+'/officeDocument" Target="ppt/presentation.xml"/>'
+ '<Relationship Id="rId2" Type="'+PKREL+'/metadata/core-properties" Target="docProps/core.xml"/>'
+ '<Relationship Id="rId3" Type="'+RELNS+'/extended-properties" Target="docProps/app.xml"/></Relationships>')
+
+CORE=(XMLDECL+'<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" '
+ 'xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" '
+ 'xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">'
+ '<dc:title>Day One — Welcome &amp; Respect</dc:title>'
+ '<dc:creator>TroopToTeacher Technologies</dc:creator>'
+ '<cp:lastModifiedBy>TroopToTeacher Technologies</cp:lastModifiedBy></cp:coreProperties>')
+
 def build(base_path, out_path):
-    zin=zipfile.ZipFile(base_path)
-    names=zin.namelist()
-    def is_slide(n): return re.match(r"ppt/slides/slide\d+\.xml$",n) or \
-        re.match(r"ppt/slides/_rels/slide\d+\.xml\.rels$",n)
-    def is_notes(n): return n.startswith("ppt/notesSlides/")
     slides=build_slides(); N=len(slides)
-
-    # rewrite [Content_Types].xml : drop slide/notesSlide overrides, add N slides
-    ct=zin.read("[Content_Types].xml").decode("utf-8")
-    ct=re.sub(r'<Override PartName="/ppt/slides/slide\d+\.xml"[^>]*/>','',ct)
-    ct=re.sub(r'<Override PartName="/ppt/notesSlides/[^"]*"[^>]*/>','',ct)
-    adds="".join(f'<Override PartName="/ppt/slides/slide{i}.xml" '
-        f'ContentType="application/vnd.openxmlformats-officedocument.presentationml.slide+xml"/>'
-        for i in range(1,N+1))
-    ct=ct.replace("</Types>",adds+"</Types>")
-
-    # rewrite presentation.xml.rels : keep non-slide rels, add N slide rels
-    prels=zin.read("ppt/_rels/presentation.xml.rels").decode("utf-8")
-    rels=re.findall(r'<Relationship [^>]*/>',prels)
-    keep=[r for r in rels if 'slides/slide' not in r]
-    used=[int(m.group(1)) for r in keep for m in [re.search(r'Id="rId(\d+)"',r)] if m]
-    nextid=max(used)+1 if used else 1
-    slide_rels=[]; sldids=[]
+    # presentation
+    sldids="".join(f'<p:sldId id="{256+i-1}" r:id="rId{i+1}"/>' for i in range(1,N+1))
+    pres=(XMLDECL+'<p:presentation xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" '
+     'xmlns:r="'+RELNS+'" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" '
+     'saveSubsetFonts="1"><p:sldMasterIdLst><p:sldMasterId id="2147483648" r:id="rId1"/></p:sldMasterIdLst>'
+     '<p:sldIdLst>'+sldids+'</p:sldIdLst>'
+     '<p:sldSz cx="12192000" cy="6858000" type="screen16x9"/>'
+     '<p:notesSz cx="6858000" cy="9144000"/></p:presentation>')
+    prels=[XMLDECL+'<Relationships xmlns="'+PKREL+'">',
+        '<Relationship Id="rId1" Type="'+RELNS+'/slideMaster" Target="slideMasters/slideMaster1.xml"/>']
     for i in range(1,N+1):
-        rid=f"rId{nextid}"; nextid+=1
-        slide_rels.append(f'<Relationship Id="{rid}" '
-            'Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide" '
-            f'Target="slides/slide{i}.xml"/>')
-        sldids.append((256+i-1,rid))
-    new_prels=('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
-        '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
-        + "".join(keep)+"".join(slide_rels)+'</Relationships>')
+        prels.append(f'<Relationship Id="rId{i+1}" Type="'+RELNS+'/slide" Target="slides/slide{}.xml"/>'.format(i))
+    prels.append('</Relationships>'); prels="".join(prels)
+    # content types
+    ct=[XMLDECL,'<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">',
+        '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>',
+        '<Default Extension="xml" ContentType="application/xml"/>',
+        '<Override PartName="/ppt/presentation.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml"/>',
+        '<Override PartName="/ppt/slideMasters/slideMaster1.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml"/>',
+        '<Override PartName="/ppt/slideLayouts/slideLayout1.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml"/>',
+        '<Override PartName="/ppt/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/>',
+        '<Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>',
+        '<Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/>']
+    for i in range(1,N+1):
+        ct.append(f'<Override PartName="/ppt/slides/slide{i}.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slide+xml"/>')
+    ct.append('</Types>'); ct="".join(ct)
+    app=(XMLDECL+'<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" '
+     'xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">'
+     '<TotalTime>0</TotalTime><Words>0</Words><Application>Microsoft Office PowerPoint</Application>'
+     '<PresentationFormat>Widescreen</PresentationFormat><Slides>'+str(N)+'</Slides>'
+     '<Company>TroopToTeacher Technologies</Company><AppVersion>16.0000</AppVersion></Properties>')
 
-    # rewrite presentation.xml sldIdLst
-    pres=zin.read("ppt/presentation.xml").decode("utf-8")
-    lst='<p:sldIdLst>'+"".join(f'<p:sldId id="{sid}" r:id="{rid}"/>' for sid,rid in sldids)+'</p:sldIdLst>'
-    if re.search(r'<p:sldIdLst.*?</p:sldIdLst>',pres,re.DOTALL):
-        pres=re.sub(r'<p:sldIdLst.*?</p:sldIdLst>',lst,pres,flags=re.DOTALL)
-    elif '<p:sldIdLst/>' in pres:
-        pres=pres.replace('<p:sldIdLst/>',lst)
-    else:  # insert after sldMasterIdLst
-        pres=re.sub(r'(</p:sldMasterIdLst>)',r'\1'+lst,pres)
-
-    slide_rel_xml=('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
-        '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
-        '<Relationship Id="rId1" '
-        'Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" '
-        'Target="../slideLayouts/slideLayout1.xml"/></Relationships>')
-
-    zout=zipfile.ZipFile(out_path,"w",zipfile.ZIP_DEFLATED)
-    for n in names:
-        if is_slide(n) or is_notes(n): continue
-        if n=="[Content_Types].xml": zout.writestr(n,ct); continue
-        if n=="ppt/_rels/presentation.xml.rels": zout.writestr(n,new_prels); continue
-        if n=="ppt/presentation.xml": zout.writestr(n,pres); continue
-        # strip notesSlide refs from any slideMaster/other rels? not needed
-        zout.writestr(n, zin.read(n))
+    z=zipfile.ZipFile(out_path,"w",zipfile.ZIP_DEFLATED)
+    z.writestr("[Content_Types].xml", ct)
+    z.writestr("_rels/.rels", ROOT_RELS)
+    z.writestr("docProps/core.xml", CORE)
+    z.writestr("docProps/app.xml", app)
+    z.writestr("ppt/presentation.xml", pres)
+    z.writestr("ppt/_rels/presentation.xml.rels", prels)
+    z.writestr("ppt/theme/theme1.xml", THEME)
+    z.writestr("ppt/slideMasters/slideMaster1.xml", MASTER)
+    z.writestr("ppt/slideMasters/_rels/slideMaster1.xml.rels", MASTER_RELS)
+    z.writestr("ppt/slideLayouts/slideLayout1.xml", LAYOUT)
+    z.writestr("ppt/slideLayouts/_rels/slideLayout1.xml.rels", LAYOUT_RELS)
     for i,s in enumerate(slides,1):
-        zout.writestr(f"ppt/slides/slide{i}.xml", s.xml())
-        zout.writestr(f"ppt/slides/_rels/slide{i}.xml.rels", slide_rel_xml)
-    zout.close(); zin.close()
-    print(f"WROTE {out_path} ({N} slides)")
+        z.writestr(f"ppt/slides/slide{i}.xml", s.xml())
+        z.writestr(f"ppt/slides/_rels/slide{i}.xml.rels", SLIDE_RELS)
+    z.close()
+    print(f"WROTE {out_path} ({N} slides, clean minimal package)")
 
 if __name__=="__main__":
-    build(sys.argv[1], sys.argv[2])
+    out = sys.argv[2] if len(sys.argv)>2 else sys.argv[1]
+    build(None, out)
