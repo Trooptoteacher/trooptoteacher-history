@@ -3,9 +3,12 @@
 **Built:** 2026-08-11 (UTC) · print-first via WeasyPrint (no .docx).
 **Generator:** `print-pipeline/gen_homestead_reading_hipp.py`
 
-Three clean, **student-facing** handouts. Nothing labeled "UDL" appears on any page.
+Handouts below ship as **both PDF (print-first deliverable) and editable .docx**
+(built natively with python-docx; the PDF remains the governed print artifact).
+Student handouts are clean — nothing labeled "UDL" appears on any student page.
 Each carries a **TroopToTeacher Technologies LLC copyright line at the bottom** plus a
-per-page copyright footer.
+per-page copyright footer. Generators: `gen_homestead_reading_hipp.py` (PDF) and
+`build_homestead_docx.py` (Word).
 
 1. **`US01_Homestead_Reading_TwoColumn_*.pdf`** (3 pp) — the excerpt as a
    **two-column chart** to shorten the long legal sentences: **left = the Act's
@@ -14,10 +17,13 @@ per-page copyright footer.
    Section 2 → its own page, Section 3 starts a new page** (with Sections 3–5).
    Organized by the Act's **real Section numbers**. Right column is a plain
    restatement, clearly headed — never presented as the Act's wording.
-2. **`US01_Homestead_FullText_Continuous_*.pdf`** (3 pp) — the **same excerpt as one
-   continuous reading**, no columns and no chunking (undivided text): Sections 1–5
-   verbatim, flowing.
-3. **`US01_Homestead_HIPP_Chart_*.pdf`** (1 p) — the graphic organizer:
+2. **`US01_Homestead_FullText_*`** (3 pp) — the **same excerpt as continuous reading**
+   (no columns, no chunking), now **split by section**: Section 1 / Section 2 / Sections 3–5,
+   one group per page.
+3. **`US01_Homestead_TEACHER_PlainWords_*`** (2 pp) — **TEACHER-ONLY** chunked plain-language
+   version (≈ reading grade 3–4), one bulleted chunk list per section, with a red
+   **"NOT FOR STUDENT DISTRIBUTION"** banner. A paraphrase for planning — not the primary source.
+4. **`US01_Homestead_HIPP_Chart_*`** (1 p) — the graphic organizer:
    **H**istorical Context · **I**ntended Audience · **P**oint of View · **P**urpose.
    Each has a guiding question, a **sentence starter** (writing scaffold for the
    analysis), and write-space. Analysis only — **not** an essay.

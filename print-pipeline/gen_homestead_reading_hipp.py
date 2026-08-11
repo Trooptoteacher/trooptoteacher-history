@@ -171,8 +171,8 @@ HIPP = [
      "The government made this law in order to ______."),
 ]
 
-COPYR_CSS = (".copyr { margin-top:14px; border-top:2px solid %(GOLD)s; padding-top:7px; text-align:center; "
-             "font-family:'DejaVu Sans'; font-size:9pt; color:%(NAVY)s; }" % dict(GOLD=GOLD, NAVY=NAVY))
+COPYR_CSS = (".copyr { margin-top:9px; border-top:2px solid %(GOLD)s; padding-top:5px; text-align:center; "
+             "font-family:'DejaVu Sans'; font-size:8.6pt; color:%(NAVY)s; }" % dict(GOLD=GOLD, NAVY=NAVY))
 
 
 def copyr_block():
@@ -248,6 +248,7 @@ def continuous_html():
     .wrap { padding:20px 6px 0; }
     p.sec { font-size:13.5pt; line-height:1.6; margin:0 0 15px; text-align:justify; }
     p.sec .lab { font-family:'DejaVu Sans'; font-weight:bold; color:%(NAVY)s; }
+    .grp { page-break-before:always; }
     .note { font-size:11.5pt; line-height:1.55; color:#43506A; font-style:italic; margin:6px 0 0;
       border-left:4px solid %(BORDER)s; padding-left:12px; }
     .src { font-family:'DejaVu Sans'; font-size:9.5pt; color:#5C6470; font-style:italic; margin-top:16px; }
@@ -257,12 +258,19 @@ def continuous_html():
       @bottom-right { content:"© 2026 TroopToTeacher Technologies LLC · p. " counter(page); font:9pt 'DejaVu Sans'; color:#5C6470; } }
     @page:first { margin-top:0; }
     """ % dict(INK=INK, NAVY=NAVY, RED=RED, GOLD=GOLD, BORDER=BORDER, COPYR=COPYR_CSS))
-    paras = "".join(f'<p class="sec"><span class="lab">Section {num}.</span> {txt}</p>' for num, txt in FULL_SECTIONS)
+    full_map = dict(FULL_SECTIONS)
+    groups_html = ""
+    for gi, group in enumerate(PAGE_GROUPS):
+        inner = "".join(f'<p class="sec"><span class="lab">Section {num}.</span> {full_map[num]}</p>' for num in group)
+        tail = ""
+        if gi == len(PAGE_GROUPS) - 1:
+            tail = (f'<div class="note">{CLOSING_NOTE}</div>'
+                    f'<div class="src">Source: {CITE}  ·  Generated {ISO}</div>{copyr_block()}')
+        groups_html += f'<div class="{"grp" if gi > 0 else ""}">{inner}{tail}</div>'
     body = (f'<div class="title"><div class="kick">U.S. HISTORY HACK™ · STANDARD US.01</div>'
             f'<h1>The Homestead Act of 1862</h1>'
             f'<div class="sub">An Act to secure Homesteads to actual Settlers on the Public Domain — excerpt</div></div>'
-            f'<div class="wrap">{paras}<div class="note">{CLOSING_NOTE}</div>'
-            f'<div class="src">Source: {CITE}  ·  Generated {ISO}</div>{copyr_block()}</div>')
+            f'<div class="wrap">{groups_html}</div>')
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
 
 
@@ -280,18 +288,18 @@ def hipp_html():
     .lead b { color:%(RED)s; }
     .namebar { display:flex; gap:14px; font-family:'DejaVu Sans'; font-size:9.5pt; color:#43506A; margin:0 0 8px; }
     .namebar .f { flex:1; border-bottom:1pt solid %(BORDER)s; padding-bottom:2px; }
-    .box { border:1.2pt solid %(BORDER)s; border-radius:7px; margin:0 0 6px; page-break-inside:avoid; }
-    .box .hd { background:%(NAVY)s; color:#fff; display:flex; align-items:center; gap:12px; padding:5px 12px; }
+    .box { border:1.2pt solid %(BORDER)s; border-radius:7px; margin:0 0 4px; page-break-inside:avoid; }
+    .box .hd { background:%(NAVY)s; color:#fff; display:flex; align-items:center; gap:12px; padding:4px 12px; }
     .box .hd .L { background:%(GOLD)s; color:%(NAVY)s; font-family:'DejaVu Sans'; font-weight:bold; font-size:15pt;
-      width:28px; height:28px; border-radius:6px; text-align:center; line-height:28px; }
+      width:27px; height:27px; border-radius:6px; text-align:center; line-height:27px; }
     .box .hd .nm { font-family:'DejaVu Sans'; font-weight:bold; font-size:13pt; }
-    .box .bd { padding:7px 13px; }
-    .q { font-size:10.8pt; margin:0 0 4px; }
+    .box .bd { padding:6px 13px; }
+    .q { font-size:10.8pt; margin:0 0 3px; }
     .q b { color:%(NAVY)s; font-family:'DejaVu Sans'; }
     .stem { font-family:'DejaVu Sans'; font-size:10pt; color:%(NAVY)s; background:%(CARD)s; border:1pt solid %(BORDER)s;
-      border-radius:5px; padding:5px 9px; margin:0 0 6px; }
+      border-radius:5px; padding:5px 9px; margin:0 0 5px; }
     .stem b { color:%(RED)s; }
-    .wl { border-bottom:0.7pt solid #AEB6C2; height:0.31in; }
+    .wl { border-bottom:0.7pt solid #AEB6C2; height:0.27in; }
     .foot { font-family:'DejaVu Sans'; font-size:9.5pt; color:%(NAVY)s; background:%(CARD)s; border:1pt solid %(GOLD)s;
       border-radius:6px; padding:7px 12px; margin-top:2px; }
     %(COPYR)s
@@ -322,15 +330,67 @@ def hipp_html():
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
 
 
+# ---------------------------------------------------------------------------
+def teacher_html():
+    """Plain-language (~grade 3-4) version of the full excerpt, chunked by section.
+    TEACHER REFERENCE ONLY — clearly marked not for student distribution."""
+    css = ("""
+    * { box-sizing:border-box; }
+    body { font-family:'DejaVu Serif', Georgia, serif; color:%(INK)s; margin:0; }
+    .title { border-left:14px solid %(RED)s; background:%(NAVY)s; color:#fff; padding:14px 20px; }
+    .title .kick { font-family:'DejaVu Sans'; color:%(GOLD)s; font-weight:bold; letter-spacing:1px; font-size:11.5pt; }
+    .title h1 { font-size:22pt; margin:5px 0 2px; }
+    .title .sub { font-size:12pt; color:#DCE6F1; font-style:italic; }
+    .warn { background:%(RED)s; color:#fff; font-family:'DejaVu Sans'; font-weight:bold; font-size:11pt;
+      text-align:center; padding:7px 12px; letter-spacing:.3px; }
+    .wrap { padding:14px 6px 0; }
+    .lead { font-family:'DejaVu Sans'; font-size:10.5pt; color:%(NAVY)s; margin:0 0 12px; }
+    .sec { margin:0 0 13px; page-break-inside:avoid; }
+    .sec .h { font-family:'DejaVu Sans'; font-weight:bold; color:#fff; background:%(NAVY)s; font-size:12pt;
+      display:inline-block; padding:3px 14px; border-radius:5px; margin:0 0 7px; }
+    .sec ul { margin:2px 0 0 20px; padding:0; }
+    .sec li { font-size:12.5pt; line-height:1.5; margin:4px 0; }
+    .src { font-family:'DejaVu Sans'; font-size:9pt; color:#5C6470; font-style:italic; margin-top:14px; }
+    %(COPYR)s
+    @page { size:Letter portrait; margin:0.6in 0.7in 0.8in 0.7in;
+      @bottom-left { content:"TEACHER REFERENCE — plain-language Homestead Act (not for students)"; font:8.5pt 'DejaVu Sans'; color:#5C6470; }
+      @bottom-right { content:"© 2026 TroopToTeacher Technologies LLC · p. " counter(page); font:8.5pt 'DejaVu Sans'; color:#5C6470; } }
+    @page:first { margin-top:0; }
+    """ % dict(INK=INK, NAVY=NAVY, RED=RED, GOLD=GOLD, BORDER=BORDER, COPYR=COPYR_CSS))
+    secs = ""
+    for num, chunks in CHART:
+        items = "".join(f'<li>{right}</li>' for _left, right in chunks)
+        secs += f'<div class="sec"><div class="h">Section {num}</div><ul>{items}</ul></div>'
+    body = (f'<div class="title"><div class="kick">U.S. HISTORY HACK™ · STANDARD US.01 · TEACHER REFERENCE</div>'
+            f'<h1>The Homestead Act — in Plain Words</h1>'
+            f'<div class="sub">Chunked plain-language version (≈ reading grade 3–4)</div></div>'
+            f'<div class="warn">TEACHER PLANNING REFERENCE — NOT FOR STUDENT DISTRIBUTION</div>'
+            f'<div class="wrap">'
+            f'<div class="lead">Use this to plan your questions and check understanding. Students read the primary '
+            f'source (the reading and/or the two-column chart) — this simplified version stays with you.</div>'
+            f'{secs}'
+            f'<div class="tnote" style="font-size:10pt;color:#43506A;font-style:italic;border-left:4px solid '
+            f'{BORDER};padding-left:12px;margin-top:6px">This is a plain-language paraphrase for teacher planning — it '
+            f'is not the primary source. The verbatim law is on the student reading.</div>'
+            f'<div class="src">Paraphrase of the Homestead Act of 1862 (12 Stat. 392, public domain), by '
+            f'TroopToTeacher Technologies LLC · Generated {ISO}</div>{copyr_block()}</div>')
+    return f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
+
+
 def main():
+    scratch = OUT / "_html"
+    scratch.mkdir(exist_ok=True)
     jobs = [
-        (f"US01_Homestead_Reading_TwoColumn_{STAMP}.pdf", reading_html()),
-        (f"US01_Homestead_FullText_Continuous_{STAMP}.pdf", continuous_html()),
-        (f"US01_Homestead_HIPP_Chart_{STAMP}.pdf", hipp_html()),
+        (f"US01_Homestead_Reading_TwoColumn_{STAMP}", reading_html()),
+        (f"US01_Homestead_FullText_{STAMP}", continuous_html()),
+        (f"US01_Homestead_TEACHER_PlainWords_{STAMP}", teacher_html()),
+        (f"US01_Homestead_HIPP_Chart_{STAMP}", hipp_html()),
     ]
-    for name, html in jobs:
-        HTML(string=html).write_pdf(str(OUT / name))
-        print("wrote", name)
+    for base, html in jobs:
+        HTML(string=html).write_pdf(str(OUT / f"{base}.pdf"))
+        (scratch / f"{base}.html").write_text(html, encoding="utf-8")
+        print("wrote", base + ".pdf")
+    print("html sidecars:", scratch)
     print("out:", OUT, "| ts", ISO)
 
 
