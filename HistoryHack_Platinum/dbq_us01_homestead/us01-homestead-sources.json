@@ -1,0 +1,28 @@
+{
+  "_note": "Verbatim excerpt corpus for the US.01 Homestead Act DBQ. Committed so the primary-source text lives in a durable file, not only inside the rendered PDF (prevents the Unit-1 root cause where excerpts survived only in the built book). Build path is the WeasyPrint print-pipeline (gen_dbq_us01_homestead.py); excerpts are embedded inline in the workbook and reproduced here for provenance.",
+  "statute": {
+    "title": "An Act to secure Homesteads to actual Settlers on the Public Domain (Homestead Act)",
+    "citation": "12 Stat. 392, 37th Cong., Sess. II, ch. 75",
+    "approved": "1862-05-20",
+    "sections_total": 8,
+    "repository": "General Records of the U.S. Government, RG 11, U.S. National Archives",
+    "transcription_sources": [
+      "U.S. National Archives (archives.gov/milestone-documents/homestead-act)",
+      "State Historical Society of North Dakota (history.nd.gov transcript)",
+      "Gilder Lehrman Institute; National Park Service, Homestead National Historical Park"
+    ],
+    "rights": "Public domain (U.S. federal statute)"
+  },
+  "excerpts": [
+    {
+      "doc": "A",
+      "label": "Sec. 1 & Sec. 2 — eligibility and affidavit",
+      "verbatim": "Sec. 1. Be it enacted ... That any person who is the head of a family, or who has arrived at the age of twenty-one years, and is a citizen of the United States, or who shall have filed his declaration of intention to become such ... and who has never borne arms against the United States Government or given aid and comfort to its enemies, shall ... be entitled to enter one quarter section or a less quantity of unappropriated public lands ... subject to preemption at one dollar and twenty-five cents, or less, per acre. Sec. 2. ... That the person applying ... shall make affidavit ... that such application is made for his or her exclusive use and benefit, and that said entry is made for the purpose of actual settlement and cultivation, and not either directly or indirectly for the use or benefit of any other person ... and on payment of ten dollars, he or she shall thereupon be permitted to enter the quantity of land specified."
+    },
+    {
+      "doc": "B",
+      "label": "Sec. 3 — five-year residence, proof, and reversion",
+      "verbatim": "... no certificate shall be given, or patent issued therefor, until the expiration of five years from the date of such entry; and if, at the expiration of such time ... the person making such entry ... shall prove by two credible witnesses that he, she, or they have resided upon or cultivated the same for the term of five years ... and shall make affidavit that no part of said land has been alienated ... then ... if at that time a citizen of the United States, [they] shall be entitled to a patent. ... if ... it shall be proven ... that the person having filed such affidavit shall have actually changed his or her residence, or abandoned the said land for more than six months at any time, then ... the land so entered shall revert to the government."
+    }
+  ]
+}

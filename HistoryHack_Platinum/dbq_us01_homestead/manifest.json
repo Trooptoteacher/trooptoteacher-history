@@ -1,0 +1,14 @@
+{
+  "sku": "US.01 Homestead Act Document-Based Investigation",
+  "standard": "US.01",
+  "investigation_question": "Who gained a homestead — and who lost a homeland?",
+  "build_path": "WeasyPrint print-pipeline (print-first, no docx); excerpts embedded inline and verbatim",
+  "documents": [
+    {"id": "A", "kind": "text", "analysis": "HIPPO", "title": "Homestead Act of 1862 — Sec. 1-2 (eligibility + affidavit)", "source": "Homestead Act of 1862, 12 Stat. 392; National Archives RG 11; transcription National Archives / State Historical Society of North Dakota", "date": "1862-05-20"},
+    {"id": "B", "kind": "text", "analysis": "HIPPO", "title": "Homestead Act of 1862 — Sec. 3 (five-year residence, proof, reversion)", "source": "Homestead Act of 1862, 12 Stat. 392; National Archives RG 11", "date": "1862-05-20"},
+    {"id": "C", "kind": "visual", "analysis": "OPTIC", "title": "East and West Shaking Hands at the Laying of the Last Rail, Promontory Summit", "source": "Russell, Andrew J.; Yale Collection of Western Americana", "date": "1869-05-10"},
+    {"id": "D", "kind": "visual", "analysis": "OPTIC", "title": "Railroad Systems of the United States: 1890 (Plate 60)", "source": "Henry Gannett / U.S. Census Office, Statistical Atlas of the United States; Library of Congress Geography & Map Division", "date": "1890"},
+    {"id": "E", "kind": "visual", "analysis": "OPTIC", "title": "Sod house of the Sylvester Rawding family, Custer County, Nebraska", "source": "Butcher, Solomon D.; Nebraska State Historical Society, Butcher Collection; copy LC-USZ62-8276", "date": "1886"},
+    {"id": "F", "kind": "visual", "analysis": "OPTIC", "title": "Tom Torlino, Navajo — Carlisle Indian Industrial School (before/after)", "source": "Choate, John N.; Carlisle Indian School Digital Resource Center / Pratt Papers, Beinecke Library, Yale University", "date": "1882/1885"}
+  ]
+}
