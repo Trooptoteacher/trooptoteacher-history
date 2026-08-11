@@ -7,12 +7,12 @@
 
 ## What's inside (4 pages)
 1. **Authentic excerpt** — verbatim Homestead Act (8 numbered segments, wide *Notes* column for annotation, a modeled annotation example).
-2. **The Same Law in Simpler Words** — ~3rd-grade-Lexile English retelling (8 short chunks) + **Word Bank (English / Español)** (10 terms).
+2. **The Same Law in Simpler Words** — ~4th-grade-Lexile English retelling (8 chunks) + **Word Bank (English / Español)** (10 terms).
 3. **La Ley de Heredades — en español** — the leveled text in Spanish + a **cognates** box for strong language access.
 4. **Three optional close-read questions** (recall → word-choice → opinion) with **sentence starters** + a compact UDL supports note.
 
 ## Inclusion / UDL 3.0 (CAST 2024) supports
-- **Multiple means of representation:** the real law, a 3rd-grade retelling, a Spanish version, and a word bank — students pick an entry point.
+- **Multiple means of representation:** the real law, a 4th-grade retelling, a Spanish version, and a word bank — students pick an entry point.
 - **Language & symbols:** hard legal words glossed in [brackets], defined in the word bank, given in Spanish; cognates listed for Spanish readers.
 - **Comprehension:** chunked + numbered text, a Notes column, a modeled annotation, questions from "right there" to opinion, sentence starters.
 - **Action & expression:** respond by discussion, writing, or read-aloud (app).

@@ -4,7 +4,7 @@
 A leveled close-reading packet built on the print-first WeasyPrint path (no .docx):
   US01_Homestead_CloseRead_<ts>.pdf
     p1  Authentic verbatim excerpt (line-numbered, wide annotation margin) for a close read.
-    p2  "The Same Law in Simpler Words" — ~3rd-grade Lexile English + EN/ES word bank.
+    p2  "The Same Law in Simpler Words" — ~4th-grade Lexile English + EN/ES word bank.
     p3  "La Ley de Heredades — en español" — Spanish leveled version + glosario/cognados.
     p4  A few OPTIONAL close-read questions + UDL 3.0 supports + IEP/504 guardrail.
 
@@ -56,38 +56,49 @@ SEGMENTS = [
     "six months at any time, then &hellip; the land so entered shall revert to [go back to] the government.",
 ]
 
-# ~3rd-grade Lexile English (short sentences, common words). Honest about the cost.
+# ~4th-grade Lexile English (connected sentences, causal/temporal connectives). Honest about the cost.
 SIMPLE_EN = [
-    "In 1862, the United States made a new law. It was called the Homestead Act.",
-    "The law offered free land in the West. An adult could ask for up to 160 acres.",
-    "To ask for land, you had to be 21 years old, or the head of a family. You had to be a "
-    "citizen, or be working to become one. You could not have fought against the United States.",
-    "First, you went to a land office. You signed a paper called an affidavit. You promised the "
-    "land was for your own family farm. You paid a small fee of ten dollars.",
-    "Then you had to live on the land for five years. You had to farm it and build on it. Two "
-    "people had to say that you really lived there.",
-    "If you left the land for more than six months, you lost it. The land went back to the government.",
-    "After five years, the government gave you a patent. A patent is a paper that says the land is yours.",
-    "But the land was not empty. Native nations already lived on it. The law called their land "
-    "&ldquo;unclaimed.&rdquo; Many Native families lost their homeland so settlers could get farms.",
+    "In 1862, the United States Congress passed a new law called the Homestead Act. Its goal was to "
+    "get people to move west and settle the land.",
+    "The law offered land almost for free. An adult could claim up to 160 acres &mdash; about the size "
+    "of 120 football fields.",
+    "Not everyone could claim land. You had to be at least 21 years old, or the head of a family. You "
+    "also had to be a United States citizen, or be working to become one. And you could not have fought "
+    "against the United States in the Civil War.",
+    "To begin, you went to a government land office and signed an official promise called an affidavit. "
+    "You promised the land was for your own family&rsquo;s farm, and you paid a small fee of ten dollars.",
+    "Then came the hard part. You had to live on the land and farm it for five years. Two people had to "
+    "swear that you really lived there the whole time.",
+    "If you left the land for more than six months, you broke the rules and lost your claim, and the "
+    "land went back to the government.",
+    "If you followed every rule for five years, the government gave you a patent. A patent is an official "
+    "paper that proves the land is finally yours.",
+    "But the land was not really empty. Native nations had lived on it for generations. The law treated "
+    "their homeland as &ldquo;unclaimed,&rdquo; and many Native families were forced off their land so "
+    "settlers could build farms.",
 ]
 
-# Spanish leveled version (natural, accurate translation of the simplified English).
+# Spanish leveled version (parallel to the 4th-grade English; natural, accurate translation).
 SIMPLE_ES = [
-    "En 1862, Estados Unidos aprobó una nueva ley. Se llamó la Ley de Heredades (Homestead Act).",
-    "La ley ofrecía tierra gratis en el Oeste. Un adulto podía pedir hasta 160 acres.",
-    "Para pedir la tierra, tenías que tener 21 años, o ser jefe o jefa de familia. Tenías que ser "
-    "ciudadano, o estar tramitando la ciudadanía. No podías haber luchado contra Estados Unidos.",
-    "Primero, ibas a una oficina de tierras. Firmabas un papel llamado declaración jurada (affidavit). "
-    "Prometías que la tierra era para la granja de tu propia familia. Pagabas una cuota de diez dólares.",
-    "Después tenías que vivir en la tierra por cinco años. Tenías que cultivarla y construir en ella. "
-    "Dos personas tenían que confirmar que de verdad vivías allí.",
-    "Si dejabas la tierra por más de seis meses, la perdías. La tierra regresaba al gobierno.",
-    "Después de cinco años, el gobierno te daba un patent (título de propiedad). El título es un papel "
-    "que dice que la tierra es tuya.",
-    "Pero la tierra no estaba vacía. Las naciones indígenas ya vivían allí. La ley llamó a sus tierras "
-    "&ldquo;no reclamadas.&rdquo; Muchas familias indígenas perdieron su hogar para que los colonos "
-    "consiguieran granjas.",
+    "En 1862, el Congreso de Estados Unidos aprobó una nueva ley llamada la Ley de Heredades (Homestead "
+    "Act). Su objetivo era que la gente se mudara al Oeste y poblara la tierra.",
+    "La ley ofrecía tierra casi gratis. Un adulto podía reclamar hasta 160 acres, casi el tamaño de 120 "
+    "canchas de fútbol americano.",
+    "No cualquiera podía reclamar tierra. Tenías que tener al menos 21 años, o ser jefe o jefa de familia. "
+    "También tenías que ser ciudadano de Estados Unidos, o estar tramitando la ciudadanía. Y no podías "
+    "haber luchado contra Estados Unidos en la Guerra Civil.",
+    "Para empezar, ibas a una oficina de tierras del gobierno y firmabas una promesa oficial llamada "
+    "declaración jurada (affidavit). Prometías que la tierra era para la granja de tu propia familia, y "
+    "pagabas una cuota pequeña de diez dólares.",
+    "Después venía la parte difícil. Tenías que vivir en la tierra y cultivarla durante cinco años. Dos "
+    "personas tenían que jurar que de verdad vivías allí todo ese tiempo.",
+    "Si dejabas la tierra por más de seis meses, rompías las reglas y perdías tu reclamo, y la tierra "
+    "regresaba al gobierno.",
+    "Si cumplías todas las reglas durante cinco años, el gobierno te daba un patent (título de propiedad). "
+    "El título es un papel oficial que prueba que la tierra por fin es tuya.",
+    "Pero la tierra no estaba realmente vacía. Las naciones indígenas habían vivido allí por generaciones. "
+    "La ley trató su territorio como tierra &ldquo;no reclamada,&rdquo; y muchas familias indígenas fueron "
+    "forzadas a abandonar sus tierras para que los colonos construyeran granjas.",
 ]
 
 # Key vocabulary: term, plain EN meaning, Spanish.
@@ -144,17 +155,17 @@ h1,h2,h3,.k,.brand,.pill,.type { font-family:'DejaVu Sans', Arial, sans-serif; }
 .notecol .k { color:%(RED)s; font-family:'DejaVu Sans'; font-weight:bold; font-size:8.5pt; letter-spacing:.4px; }
 .noteline { border-bottom:0.6pt solid #C7CDD7; height:0.42in; }
 .src { font-size:8.2pt; color:#5C6470; font-style:italic; margin:10px 0 0; }
-.simple { display:flex; gap:11px; margin:0 0 6px; page-break-inside:avoid; }
-.simple .num { background:%(GOLD)s; color:%(NAVY)s; font-family:'DejaVu Sans'; font-weight:bold; min-width:23px;
-  height:23px; border-radius:50%%; text-align:center; line-height:23px; font-size:9.5pt; }
-.simple .txt { flex:1; font-size:11pt; line-height:1.42; }
-.es .txt { font-size:11pt; }
+.simple { display:flex; gap:11px; margin:0 0 4px; page-break-inside:avoid; }
+.simple .num { background:%(GOLD)s; color:%(NAVY)s; font-family:'DejaVu Sans'; font-weight:bold; min-width:22px;
+  height:22px; border-radius:50%%; text-align:center; line-height:22px; font-size:9.5pt; }
+.simple .txt { flex:1; font-size:10.5pt; line-height:1.38; }
+.es .txt { font-size:10.6pt; line-height:1.4; }
 .starter { font-size:9pt; color:%(NAVY)s; font-family:'DejaVu Sans'; margin:0 0 5px; }
 .starter i { color:%(NAVY2)s; }
 table.v { width:100%%; border-collapse:collapse; margin-top:6px; }
-table.v th { background:%(NAVY)s; color:#fff; font-family:'DejaVu Sans'; padding:5px 8px; font-size:9.5pt; text-align:left; }
+table.v th { background:%(NAVY)s; color:#fff; font-family:'DejaVu Sans'; padding:4px 8px; font-size:9pt; text-align:left; }
 table.v tr { page-break-inside:avoid; }
-table.v td { border:1pt solid %(BORDER)s; padding:4px 8px; font-size:9.5pt; vertical-align:top; }
+table.v td { border:1pt solid %(BORDER)s; padding:3px 8px; font-size:9pt; vertical-align:top; }
 table.v td.t { background:%(CARD)s; font-weight:bold; color:%(NAVY)s; width:22%%; }
 .cog { background:%(CARD)s; border:1pt solid %(GOLD)s; border-radius:6px; padding:9px 13px; margin:10px 0; font-size:10pt; }
 .cog .k { color:%(RED)s; font-family:'DejaVu Sans'; font-weight:bold; }
@@ -214,7 +225,7 @@ def build():
       <div class="instr"><b>Same meaning, easier reading.</b> This tells you what the law on the first page says,
       in shorter sentences.</div>
       {simp}
-      <h3 class="sec" style="font-size:13pt;margin-top:14px">Word Bank &mdash; Palabras Clave (English / Español)</h3>
+      <h3 class="sec" style="font-size:13pt;margin-top:8px">Word Bank &mdash; Palabras Clave (English / Español)</h3>
       <table class="v"><tr><th style="width:22%">Word / Palabra</th><th style="width:46%">What it means</th>
       <th style="width:32%">Español</th></tr>{vrows}</table>
       </div>"""
@@ -244,7 +255,7 @@ def build():
       discuss. Every answer can be found in, or reasoned from, the text.</div>
       {qs}
       <div class="udl"><span class="k">Supports on this sheet (UDL 3.0 · CAST 2024):</span> the real law + a
-      3rd-grade retelling + a Spanish version + an English/Spanish word bank + cognates + a Notes column for
+      4th-grade retelling + a Spanish version + an English/Spanish word bank + cognates + a Notes column for
       annotation + sentence starters, plus a read-aloud in the app — so every reader has a way in.
       <b>These add to — never replace — a student's IEP/504 accommodations.</b></div>
       <p class="note">U.S. History Hack™ · Standard US.01 · © 2026 TroopToTeacher Technologies LLC · single-classroom
