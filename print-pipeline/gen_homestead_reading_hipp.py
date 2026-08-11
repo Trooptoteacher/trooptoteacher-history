@@ -2,17 +2,21 @@
 """Homestead Act of 1862 — two separate, student-facing, print-first handouts (WeasyPrint, no docx):
 
   US01_Homestead_Reading_LargePrint_<ts>.pdf
-      Just the authentic verbatim excerpt, LARGE print, plain. No UDL labels,
-      no questions, no boxes — just the text, numbered for reference.
+      The FULL-TEXT excerpt (Sections 1-5 verbatim), large print, plain,
+      numbered by the Act's REAL section numbers. No UDL labels, no questions.
 
   US01_Homestead_HIPP_Chart_<ts>.pdf
       A HIPP source-analysis graphic organizer (Historical context · Intended
       audience · Point of view · Purpose) with a guiding question + sentence
       starter + write-space for each. Analysis only — not an essay.
 
-Nothing labeled "UDL" appears on either student page. Statute text is a verbatim
-public-domain excerpt of the Homestead Act of 1862 (12 Stat. 392; approved
-May 20, 1862). America 250 palette; ™ not (R); version timestamp in filename + footer.
+Nothing labeled "UDL" appears on either student page. Text is the verbatim
+public-domain Homestead Act of 1862 (12 Stat. 392; 8 sections; approved
+May 20, 1862), verified against the U.S. National Archives, NPS Homestead
+National Historical Park, Teaching American History, and the State Historical
+Society of North Dakota transcript. Bracketed [notes] are clearly editorial
+(short glosses or a marked, un-invented omission) — never presented as the text.
+America 250 palette; ™ not (R); version timestamp in filename + footer.
 """
 from datetime import datetime, timezone
 from pathlib import Path
@@ -30,27 +34,60 @@ NAVY, RED, GOLD, CARD, BORDER, INK = "#1F3A5F", "#B22234", "#C9A227", "#F8F5EF",
 CITE = ("Homestead Act of 1862, 12 Stat. 392 (37th Cong., Sess. II, ch. 75); approved May 20, 1862. "
         "U.S. National Archives (RG 11). Public domain.")
 
-# Authentic verbatim excerpt, light inline [clarifications] only. Numbered for reference.
-SEGMENTS = [
-    "That any person who is the head of a family, or who has arrived at the age of twenty-one years, "
-    "and is a citizen of the United States, or who shall have filed his declaration of intention to "
-    "become such &hellip; shall &hellip; be entitled to enter one quarter section [160 acres] &hellip; "
-    "of unappropriated public lands &hellip;",
-    "&hellip; and who has never borne arms against the United States Government or given aid and comfort "
-    "to its enemies &hellip;",
-    "&hellip; subject to preemption at one dollar and twenty-five cents [$1.25], or less, per acre.",
-    "[Sec. 2.] &hellip; the person applying &hellip; shall make affidavit [a sworn promise] &hellip; that "
-    "said entry is made for the purpose of actual settlement and cultivation, and not &hellip; for the use "
-    "or benefit of any other person &hellip;",
-    "&hellip; and on payment of ten dollars [$10], he or she shall thereupon be permitted to enter the "
-    "quantity of land specified.",
-    "[Sec. 3.] &hellip; no certificate shall be given, or patent [legal title] issued &hellip; until the "
-    "expiration of five years from the date of such entry &hellip;",
-    "&hellip; [the settler] shall prove by two credible witnesses that he, she, or they have resided upon "
-    "or cultivated the same for the term of five years &hellip;",
-    "&hellip; [but] if &hellip; [the settler] shall have &hellip; abandoned the said land for more than "
-    "six months at any time, then &hellip; the land so entered shall revert to [go back to] the government.",
+# Full verbatim text, Sections 1-5, numbered by the Act's real sections.
+# [square brackets] = editorial glosses or a clearly-marked omission, never invented text.
+SECTIONS = [
+    ("1",
+     "<b>Be it enacted</b> by the Senate and House of Representatives of the United States of America in "
+     "Congress assembled, That any person who is the head of a family, or who has arrived at the age of "
+     "twenty-one years, and is a citizen of the United States, or who shall have filed his declaration of "
+     "intention to become such, as required by the naturalization laws of the United States, and who has "
+     "never borne arms against the United States Government or given aid and comfort to its enemies, shall, "
+     "from and after the first January, eighteen hundred and sixty-three, be entitled to enter one quarter "
+     "section [160 acres] or a less quantity of unappropriated public lands, upon which said person may have "
+     "filed a preemption claim, or which may, at the time the application is made, be subject to preemption "
+     "at one dollar and twenty-five cents, or less, per acre; or eighty acres or less of such unappropriated "
+     "lands, at two dollars and fifty cents per acre, to be located in a body, in conformity to the legal "
+     "subdivisions of the public lands, and after the same shall have been surveyed."),
+    ("2",
+     "That the person applying for the benefit of this act shall, upon application to the register of the "
+     "land office in which he or she is about to make such entry, make affidavit before the said register or "
+     "receiver that he or she is the head of a family, or is twenty-one years or more of age, or shall have "
+     "performed service in the army or navy of the United States, and that he has never borne arms against "
+     "the Government of the United States or given aid and comfort to its enemies, and that such application "
+     "is made for his or her exclusive use and benefit, and that said entry is made for the purpose of "
+     "actual settlement and cultivation, and not either directly or indirectly for the use or benefit of any "
+     "other person or persons whomsoever; and upon filing the said affidavit with the register or receiver, "
+     "and on payment of ten dollars, he or she shall thereupon be permitted to enter the quantity of land "
+     "specified: <i>Provided, however,</i> That no certificate shall be given or patent [legal title] issued "
+     "therefor until the expiration of five years from the date of such entry; and if, at the expiration of "
+     "such time, or at any time within two years thereafter, the person making such entry [or, if that "
+     "person has died, the widow, heirs, or devisee] shall prove by two credible witnesses that he, she, or "
+     "they have resided upon or cultivated the same for the term of five years immediately succeeding the "
+     "time of filing the affidavit aforesaid, and shall make affidavit that no part of said land has been "
+     "alienated, and that he has borne true allegiance to the Government of the United States; then, in such "
+     "case, he, she, or they, if at that time a citizen of the United States, shall be entitled to a patent, "
+     "as in other cases provided for by law. [Section 2 also includes a provision for the orphaned children "
+     "of a settler who dies.]"),
+    ("3",
+     "And be it further enacted, That the register of the land office shall note all such applications on "
+     "the tract books and plats of his office, and keep a register of all such entries, and make return "
+     "thereof to the General Land Office, together with the proof upon which they have been founded."),
+    ("4",
+     "And be it further enacted, That no lands acquired under the provisions of this act shall in any event "
+     "become liable to the satisfaction of any debt or debts contracted prior to the issuing of the patent "
+     "therefor."),
+    ("5",
+     "And be it further enacted, That if, at any time after the filing of the affidavit, as required in the "
+     "second section of this act, and before the expiration of the five years aforesaid, it shall be proven, "
+     "after due notice to the settler, to the satisfaction of the register of the land office, that the "
+     "person having filed such affidavit shall have actually changed his or her residence, or abandoned the "
+     "said land for more than six months at any time, then and in that event the land so entered shall "
+     "revert to the government."),
 ]
+
+CLOSING_NOTE = ("[The Act&rsquo;s remaining sections (6&ndash;8) cover the land-office fees, penalties for "
+                "making a false affidavit, and protection for settlers&rsquo; existing pre-emption rights.]")
 
 # HIPP: (letter, name, guiding question, sentence starter)
 HIPP = [
@@ -74,30 +111,36 @@ def reading_html():
     css = """
     * { box-sizing:border-box; }
     body { font-family:'DejaVu Serif', Georgia, serif; color:%(INK)s; margin:0; }
-    .title { border-left:14px solid %(RED)s; background:%(NAVY)s; color:#fff; padding:16px 20px; }
+    .title { border-left:14px solid %(RED)s; background:%(NAVY)s; color:#fff; padding:15px 20px; }
     .title .kick { font-family:'DejaVu Sans'; color:%(GOLD)s; font-weight:bold; letter-spacing:1px; font-size:12pt; }
-    .title h1 { font-size:26pt; margin:6px 0 2px; }
+    .title h1 { font-size:25pt; margin:6px 0 2px; }
     .title .sub { font-size:13pt; color:#DCE6F1; font-style:italic; }
-    .wrap { padding:22px 6px 0; }
-    .dir { font-family:'DejaVu Sans'; font-size:14pt; color:%(NAVY)s; font-weight:bold; margin:0 0 16px; }
-    .seg { display:flex; gap:14px; margin:0 0 16px; page-break-inside:avoid; }
-    .seg .n { background:%(NAVY)s; color:#fff; font-family:'DejaVu Sans'; font-weight:bold; min-width:34px; height:34px;
-      border-radius:50%%; text-align:center; line-height:34px; font-size:15pt; }
-    .seg .t { flex:1; font-size:15.5pt; line-height:1.7; }
+    .wrap { padding:20px 6px 0; }
+    .dir { font-family:'DejaVu Sans'; font-size:13.5pt; color:%(NAVY)s; font-weight:bold; margin:0 0 16px; }
+    .sec { margin:0 0 18px; page-break-inside:avoid; }
+    .sec .h { font-family:'DejaVu Sans'; font-weight:bold; color:#fff; background:%(NAVY)s; font-size:13pt;
+      display:inline-block; padding:3px 14px; border-radius:5px; margin:0 0 7px; }
+    .sec .h .g { color:%(GOLD)s; }
+    .sec .t { font-size:14pt; line-height:1.62; }
+    .note { font-size:12pt; line-height:1.55; color:#43506A; font-style:italic; margin:2px 0 0;
+      border-left:4px solid %(BORDER)s; padding-left:12px; }
     .src { font-family:'DejaVu Sans'; font-size:9.5pt; color:#5C6470; font-style:italic; margin-top:20px;
       border-top:1pt solid %(BORDER)s; padding-top:8px; }
     @page { size:Letter portrait; margin:0.7in 0.75in 0.8in 0.75in;
-      @bottom-left { content:"The Homestead Act of 1862 — Reading"; font:9pt 'DejaVu Sans'; color:#5C6470; }
+      @bottom-left { content:"The Homestead Act of 1862 — Reading (full excerpt)"; font:9pt 'DejaVu Sans'; color:#5C6470; }
       @bottom-right { content:"U.S. History Hack™ · p. " counter(page); font:9pt 'DejaVu Sans'; color:#5C6470; } }
     @page:first { margin-top:0; }
     """ % dict(INK=INK, NAVY=NAVY, RED=RED, GOLD=GOLD, BORDER=BORDER)
-    segs = "".join(f'<div class="seg"><div class="n">{i+1}</div><div class="t">{t}</div></div>'
-                   for i, t in enumerate(SEGMENTS))
+    secs = "".join(
+        f'<div class="sec"><div class="h">Section <span class="g">{num}</span></div>'
+        f'<div class="t">{txt}</div></div>' for num, txt in SECTIONS)
     body = (f'<div class="title"><div class="kick">U.S. HISTORY HACK™ · STANDARD US.01</div>'
             f'<h1>The Homestead Act of 1862</h1>'
             f'<div class="sub">An Act to secure Homesteads to actual Settlers on the Public Domain — excerpt</div></div>'
-            f'<div class="wrap"><div class="dir">Directions: Read the excerpt below. Each part is numbered.</div>'
-            f'{segs}<div class="src">Source: {CITE}  ·  © 2026 TroopToTeacher Technologies LLC  ·  Generated {ISO}</div></div>')
+            f'<div class="wrap"><div class="dir">Directions: Read the excerpt below. The parts are the Act&rsquo;s '
+            f'own numbered Sections.</div>'
+            f'{secs}<div class="note">{CLOSING_NOTE}</div>'
+            f'<div class="src">Source: {CITE}  ·  © 2026 TroopToTeacher Technologies LLC  ·  Generated {ISO}</div></div>')
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
 
 
@@ -150,8 +193,8 @@ def hipp_html():
             f'part, write what you notice. <b>We are analyzing the source — not writing an essay yet.</b></div>'
             f'<div class="namebar"><div class="f">Name: </div><div class="f">Class / Period: </div><div class="f">Date: </div></div>'
             f'{boxes}'
-            f'<div class="foot">Tip: use the numbered parts of the reading as your evidence — point to a part '
-            f'number (for example, &ldquo;Part&nbsp;8 shows &hellip;&rdquo;) instead of copying long sentences.</div>'
+            f'<div class="foot">Tip: use the Act&rsquo;s numbered Sections as your evidence — point to a Section '
+            f'(for example, &ldquo;Section&nbsp;5 shows &hellip;&rdquo;) instead of copying long sentences.</div>'
             f'</div>')
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
 
