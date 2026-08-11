@@ -127,6 +127,23 @@ up "flight_logs/HH_Unit09_FlightLogKey.pdf" "books/unit09/HH_Unit09_FlightLogKey
 up "flight_logs/HH_Unit10_FlightLog.pdf"    "books/unit10/HH_Unit10_FlightLog.pdf"
 up "flight_logs/HH_Unit10_FlightLogKey.pdf" "books/unit10/HH_Unit10_FlightLogKey.pdf"
 
+# ── US.01 · Homestead Act (1862) primary-source study — standard-level set ──
+# Standard-specific handouts for Unit 1 / US.01. Kept on their own Homestead_*
+# tiers so they NEVER overwrite the course-wide DBQ_Workbook/DBQ_TeacherGuide
+# blobs. Teacher-only files carry a _TeacherPlain / _TeacherGuide suffix and
+# must be gated teacher-only (canAccessTier) when their tiers are registered.
+# See homestead_us01/PUBLISH_MANIFEST.md for the teacher-facing label of each.
+up "homestead_us01/HH_Unit01_Homestead_Reading.pdf"          "books/unit01/HH_Unit01_Homestead_Reading.pdf"
+up "homestead_us01/HH_Unit01_Homestead_FullText.pdf"         "books/unit01/HH_Unit01_Homestead_FullText.pdf"
+up "homestead_us01/HH_Unit01_Homestead_HIPP.pdf"             "books/unit01/HH_Unit01_Homestead_HIPP.pdf"
+up "homestead_us01/HH_Unit01_Homestead_WordWall.pdf"         "books/unit01/HH_Unit01_Homestead_WordWall.pdf"
+up "homestead_us01/HH_Unit01_Homestead_CloseReadLeveled.pdf" "books/unit01/HH_Unit01_Homestead_CloseReadLeveled.pdf"
+up "homestead_us01/HH_Unit01_Homestead_DBQ.pdf"              "books/unit01/HH_Unit01_Homestead_DBQ.pdf"
+up "homestead_us01/HH_Unit01_Homestead_DBQ_Scaffold.pdf"     "books/unit01/HH_Unit01_Homestead_DBQ_Scaffold.pdf"
+# Teacher-only (gate these two tiers teacher-only when registered):
+up "homestead_us01/HH_Unit01_Homestead_TeacherPlain.pdf"     "books/unit01/HH_Unit01_Homestead_TeacherPlain.pdf"
+up "homestead_us01/HH_Unit01_Homestead_DBQ_TeacherGuide.pdf" "books/unit01/HH_Unit01_Homestead_DBQ_TeacherGuide.pdf"
+
 # ── Optional extras (upload from their own source) ──
 # Deck answer key → decks/unitNN/HH_UnitNN_DeckAnswerKey.pdf  (platinum has no separate deck key)
 
