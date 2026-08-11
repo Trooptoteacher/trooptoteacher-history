@@ -179,6 +179,32 @@ def copyr_block():
     return f'<div class="copyr">{COPYRIGHT}</div>'
 
 
+# Repeating page banner (running header) — shows on EVERY page so a separated page is self-identifying.
+PAGEHDR_CSS = (
+    ".pagehdr { position:running(pagehdr); width:7.1in; background:%(NAVY)s; color:#fff; "
+    "border-left:10px solid %(RED)s; padding:6px 15px; }"
+    ".pagehdr .k { color:%(GOLD)s; font-family:'DejaVu Sans'; font-weight:bold; font-size:8.5pt; letter-spacing:1px; }"
+    ".pagehdr .t { font-family:'DejaVu Serif'; font-weight:bold; font-size:14pt; margin:1px 0; }"
+    ".pagehdr .s { font-family:'DejaVu Serif'; font-style:italic; font-size:9pt; color:#DCE6F1; }"
+    ".pagehdr .warn { color:#fff; background:%(RED)s; font-family:'DejaVu Sans'; font-weight:bold; font-size:8pt; "
+    "display:inline-block; padding:1px 8px; margin-top:3px; border-radius:3px; }"
+) % dict(NAVY=NAVY, RED=RED, GOLD=GOLD)
+
+# Appended to each document's CSS: install the running header + reserve top margin on every page.
+PAGEHDR_SUPP = (PAGEHDR_CSS +
+                " @page { margin:1.2in 0.7in 0.85in 0.7in; @top-center { content:element(pagehdr); vertical-align:top; } }"
+                " @page:first { margin-top:1.2in; }")
+
+
+def banner_div(kicker, title, sub=None, warn=None):
+    inner = f'<div class="k">{kicker}</div><div class="t">{title}</div>'
+    if sub:
+        inner += f'<div class="s">{sub}</div>'
+    if warn:
+        inner += f'<div class="warn">{warn}</div>'
+    return f'<div class="pagehdr">{inner}</div>'
+
+
 # ---------------------------------------------------------------------------
 def reading_html():
     css = ("""
@@ -207,8 +233,7 @@ def reading_html():
     @page { size:Letter portrait; margin:0.6in 0.7in 0.8in 0.7in;
       @bottom-left { content:"The Homestead Act of 1862 — Reading (two-column)"; font:9pt 'DejaVu Sans'; color:#5C6470; }
       @bottom-right { content:"© 2026 TroopToTeacher Technologies LLC · p. " counter(page); font:9pt 'DejaVu Sans'; color:#5C6470; } }
-    @page:first { margin-top:0; }
-    """ % dict(INK=INK, NAVY=NAVY, RED=RED, GOLD=GOLD, CARD=CARD, BORDER=BORDER, COPYR=COPYR_CSS))
+    """ % dict(INK=INK, NAVY=NAVY, RED=RED, GOLD=GOLD, CARD=CARD, BORDER=BORDER, COPYR=COPYR_CSS)) + PAGEHDR_SUPP
 
     hdr = ('<tr><th style="width:52%">The law&rsquo;s own words (Homestead Act, 1862)</th>'
            '<th style="width:48%">In shorter words</th></tr>')
@@ -227,10 +252,9 @@ def reading_html():
                     f'<div class="src">Source: {CITE}  ·  Generated {ISO}</div>{copyr_block()}')
         groups_html += f'<div class="{cls}"><table class="chart">{rows}</table>{tail}</div>'
 
-    body = (f'<div class="title"><div class="kick">U.S. HISTORY HACK™ · STANDARD US.01</div>'
-            f'<h1>The Homestead Act of 1862</h1>'
-            f'<div class="sub">An Act to secure Homesteads to actual Settlers on the Public Domain — excerpt</div></div>'
-            f'<div class="wrap"><div class="dir">Directions: Read the law&rsquo;s own words on the left. '
+    body = (banner_div("U.S. HISTORY HACK™ · STANDARD US.01", "The Homestead Act of 1862",
+                       sub="Reading (two-column) — excerpt")
+            + f'<div class="wrap"><div class="dir">Directions: Read the law&rsquo;s own words on the left. '
             f'The right column says the same thing in a shorter sentence.</div>'
             f'{groups_html}</div>')
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
@@ -256,8 +280,7 @@ def continuous_html():
     @page { size:Letter portrait; margin:0.75in 0.8in 0.85in 0.8in;
       @bottom-left { content:"The Homestead Act of 1862 — full text (excerpt)"; font:9pt 'DejaVu Sans'; color:#5C6470; }
       @bottom-right { content:"© 2026 TroopToTeacher Technologies LLC · p. " counter(page); font:9pt 'DejaVu Sans'; color:#5C6470; } }
-    @page:first { margin-top:0; }
-    """ % dict(INK=INK, NAVY=NAVY, RED=RED, GOLD=GOLD, BORDER=BORDER, COPYR=COPYR_CSS))
+    """ % dict(INK=INK, NAVY=NAVY, RED=RED, GOLD=GOLD, BORDER=BORDER, COPYR=COPYR_CSS)) + PAGEHDR_SUPP
     full_map = dict(FULL_SECTIONS)
     groups_html = ""
     for gi, group in enumerate(PAGE_GROUPS):
@@ -267,10 +290,9 @@ def continuous_html():
             tail = (f'<div class="note">{CLOSING_NOTE}</div>'
                     f'<div class="src">Source: {CITE}  ·  Generated {ISO}</div>{copyr_block()}')
         groups_html += f'<div class="{"grp" if gi > 0 else ""}">{inner}{tail}</div>'
-    body = (f'<div class="title"><div class="kick">U.S. HISTORY HACK™ · STANDARD US.01</div>'
-            f'<h1>The Homestead Act of 1862</h1>'
-            f'<div class="sub">An Act to secure Homesteads to actual Settlers on the Public Domain — excerpt</div></div>'
-            f'<div class="wrap">{groups_html}</div>')
+    body = (banner_div("U.S. HISTORY HACK™ · STANDARD US.01", "The Homestead Act of 1862",
+                       sub="An Act to secure Homesteads to actual Settlers on the Public Domain — excerpt")
+            + f'<div class="wrap">{groups_html}</div>')
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
 
 
@@ -306,8 +328,7 @@ def hipp_html():
     @page { size:Letter portrait; margin:0.6in 0.7in 0.75in 0.7in;
       @bottom-left { content:"HIPP Source Analysis — The Homestead Act of 1862"; font:8.5pt 'DejaVu Sans'; color:#5C6470; }
       @bottom-right { content:"© 2026 TroopToTeacher Technologies LLC · p. " counter(page); font:8.5pt 'DejaVu Sans'; color:#5C6470; } }
-    @page:first { margin-top:0; }
-    """ % dict(INK=INK, NAVY=NAVY, RED=RED, GOLD=GOLD, CARD=CARD, BORDER=BORDER, COPYR=COPYR_CSS)
+    """ % dict(INK=INK, NAVY=NAVY, RED=RED, GOLD=GOLD, CARD=CARD, BORDER=BORDER, COPYR=COPYR_CSS) + PAGEHDR_SUPP
 
     def wl(n):
         return "".join('<div class="wl"></div>' for _ in range(n))
@@ -317,9 +338,9 @@ def hipp_html():
         boxes += (f'<div class="box"><div class="hd"><div class="L">{L}</div><div class="nm">{name}</div></div>'
                   f'<div class="bd"><div class="q"><b>Think about:</b> {q}</div>'
                   f'<div class="stem"><b>Sentence starter:</b> {stem}</div>{wl(2)}</div></div>')
-    body = (f'<div class="title"><div class="kick">U.S. HISTORY HACK™ · STANDARD US.01</div>'
-            f'<h1>HIPP Source Analysis</h1><div class="sub">The Homestead Act of 1862</div></div>'
-            f'<div class="wrap">'
+    body = (banner_div("U.S. HISTORY HACK™ · STANDARD US.01", "HIPP Source Analysis",
+                       sub="The Homestead Act of 1862")
+            + f'<div class="wrap">'
             f'<div class="lead"><b>HIPP</b> helps you analyze a primary source. Look back at the reading and, for each '
             f'part, write what you notice. <b>We are analyzing the source — not writing an essay yet.</b></div>'
             f'<div class="namebar"><div class="f">Name: </div><div class="f">Class / Period: </div><div class="f">Date: </div></div>'
@@ -355,16 +376,16 @@ def teacher_html():
     @page { size:Letter portrait; margin:0.6in 0.7in 0.8in 0.7in;
       @bottom-left { content:"TEACHER REFERENCE — plain-language Homestead Act (not for students)"; font:8.5pt 'DejaVu Sans'; color:#5C6470; }
       @bottom-right { content:"© 2026 TroopToTeacher Technologies LLC · p. " counter(page); font:8.5pt 'DejaVu Sans'; color:#5C6470; } }
-    @page:first { margin-top:0; }
-    """ % dict(INK=INK, NAVY=NAVY, RED=RED, GOLD=GOLD, BORDER=BORDER, COPYR=COPYR_CSS))
+    """ % dict(INK=INK, NAVY=NAVY, RED=RED, GOLD=GOLD, BORDER=BORDER, COPYR=COPYR_CSS)) + PAGEHDR_SUPP
     secs = ""
     for num, chunks in CHART:
         items = "".join(f'<li>{right}</li>' for _left, right in chunks)
         secs += f'<div class="sec"><div class="h">Section {num}</div><ul>{items}</ul></div>'
-    body = (f'<div class="title"><div class="kick">U.S. HISTORY HACK™ · STANDARD US.01 · TEACHER REFERENCE</div>'
-            f'<h1>The Homestead Act — in Plain Words</h1>'
-            f'<div class="sub">Chunked plain-language version (≈ reading grade 3–4)</div></div>'
-            f'<div class="warn">TEACHER PLANNING REFERENCE — NOT FOR STUDENT DISTRIBUTION</div>'
+    body = (banner_div("U.S. HISTORY HACK™ · STANDARD US.01 · TEACHER REFERENCE",
+                       "The Homestead Act — in Plain Words",
+                       sub="Chunked plain-language version (≈ reading grade 3–4)",
+                       warn="NOT FOR STUDENT DISTRIBUTION")
+            + f'<div class="warn">TEACHER PLANNING REFERENCE — NOT FOR STUDENT DISTRIBUTION</div>'
             f'<div class="wrap">'
             f'<div class="lead">Use this to plan your questions and check understanding. Students read the primary '
             f'source (the reading and/or the two-column chart) — this simplified version stays with you.</div>'

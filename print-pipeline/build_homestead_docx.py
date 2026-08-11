@@ -78,6 +78,40 @@ def titleblock(doc, kicker, title, sub):
     shade(p3, "1F3A5F"); p3.paragraph_format.space_after = Pt(8)
 
 
+WHITE = RGBColor(0xFF, 0xFF, 0xFF)
+
+
+def set_header(doc, kicker, title, sub=None, warn=None):
+    """Repeating banner header (navy bar) — shows on every page, self-identifying."""
+    sec = doc.sections[0]
+    sec.top_margin = Inches(1.3)
+    sec.header_distance = Inches(0.4)
+    hdr = sec.header
+    hdr.is_linked_to_previous = False
+    p0 = hdr.paragraphs[0]
+    r = p0.add_run(kicker); r.bold = True; r.font.size = Pt(8.5); r.font.color.rgb = GOLD; r.font.name = "Arial"
+    shade(p0, "1F3A5F"); p0.paragraph_format.space_after = Pt(0)
+    pt = hdr.add_paragraph(); rt = pt.add_run(title); rt.bold = True; rt.font.size = Pt(14)
+    rt.font.color.rgb = WHITE; rt.font.name = "Georgia"
+    shade(pt, "1F3A5F"); pt.paragraph_format.space_after = Pt(0)
+    if sub:
+        ps = hdr.add_paragraph(); rs = ps.add_run(sub); rs.italic = True; rs.font.size = Pt(9)
+        rs.font.color.rgb = RGBColor(0xDC, 0xE6, 0xF1)
+        shade(ps, "1F3A5F"); ps.paragraph_format.space_after = Pt(0)
+    if warn:
+        pw = hdr.add_paragraph(); rw = pw.add_run("  " + warn + "  "); rw.bold = True; rw.font.size = Pt(8)
+        rw.font.color.rgb = WHITE; rw.font.name = "Arial"
+        shade(pw, "B22234"); pw.paragraph_format.space_after = Pt(0)
+
+
+def set_footer(doc):
+    sec = doc.sections[0]
+    ftr = sec.footer
+    ftr.is_linked_to_previous = False
+    p = ftr.paragraphs[0]; p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r = p.add_run(clean(COPYRIGHT)); r.font.size = Pt(7.5); r.font.color.rgb = NAVY; r.font.name = "Arial"
+
+
 def heading(doc, text, size=13, fill="1F3A5F", color=RGBColor(0xFF, 0xFF, 0xFF)):
     p = doc.add_paragraph(); r = p.add_run(text); r.bold = True; r.font.size = Pt(size)
     r.font.color.rgb = color; r.font.name = "Arial"
@@ -110,8 +144,9 @@ def set_col_widths(table, widths):
 # ---------------------------------------------------------------------------
 def two_column():
     doc = base_doc()
-    titleblock(doc, "U.S. HISTORY HACK™ · STANDARD US.01", "The Homestead Act of 1862",
-               "An Act to secure Homesteads to actual Settlers on the Public Domain — excerpt")
+    set_header(doc, "U.S. HISTORY HACK™ · STANDARD US.01", "The Homestead Act of 1862",
+               sub="Reading (two-column) — excerpt")
+    set_footer(doc)
     d = doc.add_paragraph(); r = d.add_run("Directions: Read the law’s own words on the left. The right column says the same thing in a shorter sentence.")
     r.bold = True; r.font.name = "Arial"; r.font.size = Pt(11); r.font.color.rgb = NAVY
     d.paragraph_format.space_after = Pt(8)
@@ -142,8 +177,9 @@ def two_column():
 
 def full_text():
     doc = base_doc()
-    titleblock(doc, "U.S. HISTORY HACK™ · STANDARD US.01", "The Homestead Act of 1862",
-               "An Act to secure Homesteads to actual Settlers on the Public Domain — excerpt")
+    set_header(doc, "U.S. HISTORY HACK™ · STANDARD US.01", "The Homestead Act of 1862",
+               sub="An Act to secure Homesteads to actual Settlers on the Public Domain — excerpt")
+    set_footer(doc)
     full_map = dict(G.FULL_SECTIONS)
     for gi, group in enumerate(G.PAGE_GROUPS):
         if gi > 0:
@@ -163,8 +199,10 @@ def full_text():
 
 def teacher():
     doc = base_doc()
-    titleblock(doc, "U.S. HISTORY HACK™ · STANDARD US.01 · TEACHER REFERENCE",
-               "The Homestead Act — in Plain Words", "Chunked plain-language version (≈ reading grade 3–4)")
+    set_header(doc, "U.S. HISTORY HACK™ · STANDARD US.01 · TEACHER REFERENCE",
+               "The Homestead Act — in Plain Words", sub="Chunked plain-language version (≈ reading grade 3–4)",
+               warn="NOT FOR STUDENT DISTRIBUTION")
+    set_footer(doc)
     b = doc.add_paragraph(); shade(b, "B22234"); b.alignment = WD_ALIGN_PARAGRAPH.CENTER
     rb = b.add_run("TEACHER PLANNING REFERENCE — NOT FOR STUDENT DISTRIBUTION")
     rb.bold = True; rb.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF); rb.font.name = "Arial"; rb.font.size = Pt(11)
@@ -184,7 +222,8 @@ def teacher():
 
 def hipp():
     doc = base_doc()
-    titleblock(doc, "U.S. HISTORY HACK™ · STANDARD US.01", "HIPP Source Analysis", "The Homestead Act of 1862")
+    set_header(doc, "U.S. HISTORY HACK™ · STANDARD US.01", "HIPP Source Analysis", sub="The Homestead Act of 1862")
+    set_footer(doc)
     lead = doc.add_paragraph()
     r1 = lead.add_run("HIPP "); r1.bold = True; r1.font.color.rgb = RED; r1.font.name = "Arial"
     r2 = lead.add_run("helps you analyze a primary source. Look back at the reading and, for each part, write what you notice. ")
