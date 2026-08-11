@@ -5,11 +5,13 @@
 
 Two clean, **student-facing** handouts. Nothing labeled "UDL" appears on either page.
 
-1. **`US01_Homestead_Reading_LargePrint_*.pdf`** (3 pp) — just the text: the
-   **full-text excerpt** of the Homestead Act of 1862, **Sections 1–5 verbatim**,
-   **large print** (~14 pt body), plain, numbered by the Act's **real Section
-   numbers**. No questions, no boxes. (The five-year clause is inside Section 2
-   and the reversion clause is Section 5 — numbered correctly.)
+1. **`US01_Homestead_Reading_TwoColumn_*.pdf`** (3 pp) — the excerpt as a
+   **two-column chart** to shorten the long legal sentences: **left = the Act's
+   own words** (verbatim, Sections 1–5, broken into short chunks); **right = "In
+   shorter words"** (a short plain sentence for each chunk). Organized by the
+   Act's **real Section numbers** (five-year clause in Section 2, reversion in
+   Section 5). No questions, no UDL labels. Right column is a plain restatement,
+   clearly headed — never presented as the Act's wording.
 2. **`US01_Homestead_HIPP_Chart_*.pdf`** (1 p) — the graphic organizer:
    **H**istorical Context · **I**ntended Audience · **P**oint of View · **P**urpose.
    Each has a guiding question, a **sentence starter** (writing scaffold for the
@@ -26,5 +28,5 @@ died, the widow, heirs, or devisee]`), or a marked omission (`[Section 2 also in
 `[Sections 6–8 cover …]`). Nothing invented is presented as the Act's text. America 250
 palette; ™ not ®; version timestamp in filename + footer.
 
-**QC:** rendered and inspected — reading 3 pp (large print, sections kept intact),
-HIPP chart 1 p; section numbers corrected (five-year clause → Sec. 2, reversion → Sec. 5).
+**QC:** rendered and inspected — two-column reading 3 pp (rows kept intact across page
+breaks), HIPP chart 1 p; section numbers correct (five-year clause → Sec. 2, reversion → Sec. 5).
