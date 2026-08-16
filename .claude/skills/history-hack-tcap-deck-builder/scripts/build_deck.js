@@ -410,6 +410,56 @@ function hookSlide(code, v, hookText, prompt){
   footer(s, ++page, false);
 }
 
+// ── Measured text fitting ───────────────────────────────────────────────────
+// Why this exists: font sizes used to be chosen from item COUNT ("4 bullets =>
+// 17pt"), which ignores how long those items actually are. A standard with four
+// LONG sentences got the same 17pt as one with four short ones, overflowed its
+// box, and rendered with the last line sliced in half — invisible to the
+// markitdown and package-validation gates, because the text is present and the
+// file is valid. Only the pixels showed it.
+//
+// fitFont() estimates the rendered height of a block at a candidate size and
+// steps down until it fits, so the size follows the content volume. The
+// estimate is deliberately conservative (a slightly WIDE average glyph), so it
+// errs toward shrinking a little early rather than clipping.
+//
+// Readability floor: it will not go below `min`. If a block cannot fit at the
+// floor, fitFont returns the floor AND reports overflow via opts.onOverflow —
+// that is a content signal (the text is too long for the slot), not a licence
+// to crush it. Callers split to a continuation slide instead.
+const GLYPH_W_RATIO = 0.50;   // average glyph width as a fraction of font size
+const LINE_H_RATIO  = 1.20;   // line box height as a fraction of font size
+
+/** Estimated rendered height in inches for `paras` at `fs` points. */
+function estHeightIn(paras, fs, wIn, lineSpacing = 1.05, spaceAfterPt = 0) {
+  const usable = Math.max(wIn, 0.5);
+  const cpl = Math.max(Math.floor((usable * 72) / (fs * GLYPH_W_RATIO)), 8);
+  let pts = 0;
+  for (const p of paras) {
+    const text = typeof p === 'string' ? p : (p.text || '');
+    const lines = Math.max(1, Math.ceil(text.length / cpl));
+    pts += lines * fs * LINE_H_RATIO * lineSpacing + spaceAfterPt;
+  }
+  return pts / 72;
+}
+
+/**
+ * Largest font size in [min, max] at which `paras` fits `wIn` x `hIn`.
+ * Returns { fs, overflows } — overflows true when even `min` does not fit.
+ */
+function fitFont(paras, wIn, hIn, opts = {}) {
+  const max = opts.max ?? 17;
+  const min = opts.min ?? 11;
+  const step = opts.step ?? 0.5;
+  const ls = opts.lineSpacing ?? 1.05;
+  const sa = opts.spaceAfterPt ?? 0;
+  for (let fs = max; fs >= min; fs -= step) {
+    if (estHeightIn(paras, fs, wIn, ls, sa) <= hIn) return { fs, overflows: false };
+  }
+  if (opts.onOverflow) opts.onOverflow();
+  return { fs: min, overflows: true };
+}
+
 // Robust sentence splitter: does NOT break on abbreviations (U.S., Lt., etc.)
 // or on periods inside quotation marks. Protects known patterns, splits on
 // sentence-ending punctuation + space + capital/quote, then restores.
@@ -468,7 +518,16 @@ function contentSlide(code, v, sec, idx, total, heroImg){
   // Size the bullets to the content volume so a dense standard (image + TN box + 4 bullets,
   // e.g. US.05 Industrial Titans) never pushes the last line out of the box (Sean: the
   // "Cornelius Vanderbilt" line was running out of the white box).
-  const bodyFs = hasImg ? ((hasTN || sentences.length>=4) ? 13.5 : 15.5) : (sentences.length>=5 ? 15 : 17);
+  // Size to CONTENT VOLUME, not sentence count. The old rule keyed on how many
+  // sentences there were; four long ones overflowed at 17pt and rendered with
+  // the last line sliced by the sentence-frame panel below (US.02 DI 1 of 3).
+  const bodyFsMax = hasImg ? ((hasTN || sentences.length>=4) ? 13.5 : 15.5) : (sentences.length>=5 ? 15 : 17);
+  const fitB = fitFont(bullets, textW-0.7, bulletsH, {
+    max: bodyFsMax, min: 11, lineSpacing: 1.08, spaceAfterPt: 9,
+    onOverflow: () => console.warn(
+      `  ! ${code} DI slide ${idx+1}: bullets do not fit even at 11pt — shorten the section or split it.`),
+  });
+  const bodyFs = fitB.fs;
   s.addText(bullets, { x:1.0, y:bodyTop+0.3, w:textW-0.7, h:bulletsH, fontFace:BODY, fontSize:bodyFs, color:INK, valign:'top', lineSpacingMultiple:1.08 });
   if(frame){
     const fy = bodyTop + bodyH - frameH;
@@ -614,15 +673,24 @@ function primarySourceSlide(code, ps){
   // tier the font so the FULL context sentence fits without mid-sentence truncation.
   // The right column is ~3.95" wide; cap context length to what the box height holds and
   // add a small tier for very long contexts so the last sentence never clips.
-  const ctxFs = ctxLen > 700 ? 7.8 : ctxLen > 560 ? 8.5 : ctxLen > 440 ? 9.5 : 10.5;
-  const ctxCap = ctxLen > 700 ? 760 : 700;
-  s.addText(trunc(ps.context, ctxCap), { x:8.55, y:ctxTop+0.44, w:3.95, h:ctxH-0.56, fontFace:BODY, fontSize:ctxFs, color:WHITE, valign:'top', lineSpacingMultiple:0.98 });
+  // Measured fit rather than length tiers. The tiers truncated mid-citation on
+  // long contexts (US.03 Plessy ended at "...until Brown v. Board of").
+  const ctxTxt = trunc(ps.context, 900);
+  const fitC = fitFont([ctxTxt], 3.95, ctxH-0.56, {
+    max: 10.5, min: 7.5, lineSpacing: 0.98,
+    onOverflow: () => console.warn(`  ! ${code} primary source: CONTEXT does not fit at 7.5pt — shorten it.`),
+  });
+  s.addText(ctxTxt, { x:8.55, y:ctxTop+0.44, w:3.95, h:ctxH-0.56, fontFace:BODY, fontSize:fitC.fs, color:WHITE, valign:'top', lineSpacingMultiple:0.98 });
   const anaTop = ctxTop + ctxH + 0.2, anaH = panelBot - anaTop;
   s.addShape(pptx.ShapeType.roundRect, { x:8.3, y:anaTop, w:4.4, h:anaH, rectRadius:0.08, fill:{color:GOLD} });
   s.addText(ps.analyzeLabel || 'ANALYZE', { x:8.55, y:anaTop+0.13, w:4, h:0.3, fontFace:LABEL, fontSize:11, color:NAVY, bold:true, charSpacing:2 });
   // size the analyze question so long stems fit the box without clipping
-  const anaFs = qLen > 175 ? 11 : qLen > 130 ? 12 : 12.5;
-  s.addText(ps.analyzeQuestion || ps.question, { x:8.55, y:anaTop+0.46, w:3.95, h:anaH-0.58, fontFace:BODY, fontSize:anaFs, color:NAVY, bold:true, valign:'top', lineSpacingMultiple:1.03 });
+  const anaTxt = ps.analyzeQuestion || ps.question || '';
+  const fitA = fitFont([anaTxt], 3.95, anaH-0.58, {
+    max: 12.5, min: 9.5, lineSpacing: 1.03,
+    onOverflow: () => console.warn(`  ! ${code} primary source: ANALYZE question does not fit at 9.5pt — shorten it.`),
+  });
+  s.addText(anaTxt, { x:8.55, y:anaTop+0.46, w:3.95, h:anaH-0.58, fontFace:BODY, fontSize:fitA.fs, color:NAVY, bold:true, valign:'top', lineSpacingMultiple:1.03 });
 
   // SOURCE IT FIRST — Rosenshine P8 scaffold + SSP.02 (Examine a primary or secondary source).
   // Sourcing routine students run BEFORE interpreting: Who made it? When? Why does that matter?
@@ -649,13 +717,33 @@ function primarySourceSlide(code, ps){
   footer(s, ++page, false);
 }
 
+// Word Wall. Paginates so a definition is never crushed.
+//
+// The old layout put all six terms on one slide: 3 rows => cell height 1.38in,
+// leaving 0.46in for a definition allowed up to 240 characters (~3.2 lines at
+// 11pt). Every word wall in the unit clipped its last line into the cell below —
+// on US.02 the Dawes Act definition lost "it resulted in massive land loss,"
+// the clause carrying the consequence.
+//
+// This follows the LOCKED house rule from the print standard: readability over
+// page-fit — expand to another page rather than crush. Five or more terms split
+// into two balanced pages (6 => 3+3, 7 => 4+3), so every page is 2 rows and each
+// cell gets the full 2.05in with ~1.13in of definition space.
 function vocabSlide(code, v){
+  const all = v.vocab.slice(0, 8);
+  if (all.length <= 4) return vocabPage(code, all, 1, 1);
+  const half = Math.ceil(all.length / 2);
+  vocabPage(code, all.slice(0, half), 1, 2);
+  vocabPage(code, all.slice(half), 2, 2);
+}
+
+function vocabPage(code, terms, part, partTotal){
   const s = pptx.addSlide();
   s.background = { color: CREAM };
   s.addShape(pptx.ShapeType.rect, { x:0, y:0, w:W, h:0.16, fill:{color:NAVY} });
   kicker(s, `${code} · Vocabulary Pre-Teach & Word Wall`, 0.6, 0.45);
-  s.addText('Word Wall', { x:0.6, y:0.8, w:12, h:0.7, fontFace:HEAD, fontSize:30, color:NAVY, bold:true });
-  const terms = v.vocab.slice(0,6);
+  s.addText(partTotal > 1 ? `Word Wall (${part} of ${partTotal})` : 'Word Wall',
+    { x:0.6, y:0.8, w:12, h:0.7, fontFace:HEAD, fontSize:30, color:NAVY, bold:true });
   const cols = 2;
   const rows = Math.ceil(terms.length/cols);
   const cw = 6.0;
@@ -695,7 +783,15 @@ function vocabSlide(code, v){
     if(t.es) s.addText(t.es, { x:cx+cw-2.55, y:cy, w:2.4, h:hdrH, fontFace:BODY, fontSize:10, italic:true, color:GOLDBR, align:'right', valign:'middle', fit:'shrink' });
     // (LOCKED — Sean: NO per-term initials chip on the word wall. Removed the "HA"-style
     // dual-coding initials anchor; the definition fills the full card width instead.)
-    s.addText(trunc(t.def, 240), { x:cx+0.15, y:cy+hdrH+0.08, w:cw-0.30, h:ch-hdrH-0.18, fontFace:BODY, fontSize:11, color:INK, valign:'top', lineSpacingMultiple:1.04 });
+    // Fit the definition to the cell instead of assuming 11pt always works.
+    const defTxt = trunc(t.def, 240);
+    const defH = ch - hdrH - 0.18;
+    const fitD = fitFont([defTxt], cw-0.30, defH, {
+      max: 11, min: 9, lineSpacing: 1.04,
+      onOverflow: () => console.warn(
+        `  ! ${code} word wall: "${t.term}" definition does not fit at 9pt — shorten it.`),
+    });
+    s.addText(defTxt, { x:cx+0.15, y:cy+hdrH+0.08, w:cw-0.30, h:defH, fontFace:BODY, fontSize:fitD.fs, color:INK, valign:'top', lineSpacingMultiple:1.04 });
   });
   s.addText('PRE-TEACH before reading — students capture each term as a Frayer model in their Flight Log. "say:" respelling (stressed syllable in CAPS) aids newcomer ELs; Spanish terms included.',
     { x:0.6, y:6.45, w:12.1, h:0.35, fontFace:BODY, fontSize:10, italic:true, color:MUTE });
@@ -747,8 +843,16 @@ function bioSlide(code, bios){
       const acc = Array.isArray(b.accomplish)?b.accomplish.slice(0,bullets):[b.accomplish];
       const bodyTop = cy + hdrH + (twoRow?0.08:0.12);
       const bodyH2 = cy + cardH - (b.strategy ? stratH + 0.05 : 0.16) - bodyTop;
+      // Fit to the space ABOVE the STRATEGY chip. bodyH2 already subtracts the
+      // chip, but the font was fixed by column count, so longer bios ran under
+      // it (Carnegie's "in American industry" disappeared behind the chip).
+      const bioParas = acc.map(a=>({text:a}));
+      const fitBio = fitFont(bioParas, cw-0.32, bodyH2, {
+        max: bodyFs, min: 9, lineSpacing: 1.05, spaceAfterPt: twoRow?3:6,
+        onOverflow: () => console.warn(`  ! ${code} bio "${b.name||''}": bullets do not fit at 9pt — trim a bullet.`),
+      });
       s.addText(acc.map(a=>({text:a, options:{bullet:{code:'2022',indent:12}, paraSpaceAfter:twoRow?3:6}})),
-        { x:cx+0.16, y:bodyTop, w:cw-0.32, h:bodyH2, fontFace:BODY, fontSize:bodyFs, color:INK, valign:'middle', lineSpacingMultiple:1.05 });
+        { x:cx+0.16, y:bodyTop, w:cw-0.32, h:bodyH2, fontFace:BODY, fontSize:fitBio.fs, color:INK, valign:'middle', lineSpacingMultiple:1.05 });
       if(b.strategy){
         const sy = cy + cardH - stratH - 0.05;
         s.addShape(pptx.ShapeType.roundRect, { x:cx+0.13, y:sy, w:cw-0.26, h:stratH-0.04, rectRadius:0.06, fill:{color:'FBEFD0'}, line:{color:GOLD,width:1.25} });
