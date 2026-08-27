@@ -48,11 +48,30 @@ teacher's, not the materials').
 ## How the builder uses this
 1. The teacher selects activities/segments for the lesson.
 2. The builder computes the **union of TEAM indicators** those selections evidence (this map).
-3. The preview + printed plan show a **"TEAM Observation Evidence"** panel: *"This lesson provides
-   evidence for: Standards & Objectives, Presenting Instructional Content, Questioning, Academic
-   Feedback, Thinking …"* — so a teacher walks into a TEAM observation with the evidence documented.
+3. The preview + printed plan render a **TEAM rubric table** — domain · indicator · **where the
+   evidence physically is in this lesson** · a blank **Score** column. Not a list of indicator
+   names: each row names the actual segment and its minutes, the actual printable title, the
+   actual supports selected. A teacher walks into an observation able to *point at* the evidence.
 4. Environment-domain and Grouping fields stay **teacher-completed** — the tool never fabricates
    evidence for what only the observer can see. Teacher keeps complete power.
+5. **We never reproduce the rubric text.** TDOE owns the descriptors and the performance-level
+   language; the printed plan says so and directs the observer to score against their own copy.
+   What we generate is the other half — the evidence pointer.
+
+## Implementation note (keep in sync — updated 2026-08-15)
+The machine-readable map is `lib/lesson-package/team-alignment.ts` in `history-hack-web-app`.
+
+Its `MATERIAL_EVIDENCE` table must only key on **live** material ids from the lesson-package
+catalog (`lib/lesson-package/data.ts`). This bit the build once: the **Venn, HIPP, and CER
+organizers were retired** from that catalog to the Platinum Graphic Organizer Toolkit, but the
+TEAM map still keyed on them — so the indicators they carried silently stopped being claimed.
+**Student Work** in particular fell through to the Cornell *shell* slot only, and a default
+lesson evidenced 2 of 3 Planning indicators instead of 3. Fixed 2026-08-15; a regression test
+(`__tests__/lib/team-alignment.test.ts`) now asserts all three Planning indicators on every
+Unit 1 standard.
+
+**Rule: retiring a material from the lesson-package catalog REQUIRES updating this map in the
+same change.** Under-claiming evidence on a teacher-evaluation rubric hurts the teacher.
 
 _This is the differentiator: no competitor pre-aligns a printable lesson plan to the TN teacher-
 evaluation rubric. It makes the builder valuable to every TN teacher who is observed on TEAM._
